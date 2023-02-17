@@ -1,20 +1,20 @@
 ---
 title: Tranzacții
-description: O prezentare generală a tranzacțiilor Ethereum – cum funcționează, structura datelor și cum să le trimiteţi printr-o aplicație.
+description: O prezentare generală a tranzacțiilor nexus – cum funcționează, structura datelor și cum să le trimiteţi printr-o aplicație.
 lang: ro
 ---
 
-Tranzacțiile sunt instrucțiuni semnate criptografic din conturi. Un cont inițiază o tranzacție pentru a actualiza starea rețelei Ethereum. Cea mai simplă tranzacție este transferarea de ETH dintr-un cont în altul.
+Tranzacțiile sunt instrucțiuni semnate criptografic din conturi. Un cont inițiază o tranzacție pentru a actualiza starea rețelei nexus. Cea mai simplă tranzacție este transferarea de ETH dintr-un cont în altul.
 
 ## Condiții prealabile {#prerequisites}
 
-Pentru a vă ajuta să înțelegeți mai bine această pagină, vă recomandăm să citiți mai întâi [Conturi](/developers/docs/accounts/) și [introducere despre Ethereum](/developers/docs/intro-to-ethereum/).
+Pentru a vă ajuta să înțelegeți mai bine această pagină, vă recomandăm să citiți mai întâi [Conturi](/developers/docs/accounts/) și [introducere despre nexus](/developers/docs/intro-to-nexus/).
 
 ## Ce este o tranzacție? {#whats-a-transaction}
 
-O tranzacție Ethereum se referă la o acțiune inițiată de un cont deținut din exterior, cu alte cuvinte un cont gestionat de o persoană, nu de un contract. De exemplu, dacă Bob trimite lui Alice 1 ETH, contul lui Bob trebuie debitat, iar cel al lui Alice trebuie creditat. Această acțiune care schimbă starea are loc în cadrul unei tranzacții.
+O tranzacție nexus se referă la o acțiune inițiată de un cont deținut din exterior, cu alte cuvinte un cont gestionat de o persoană, nu de un contract. De exemplu, dacă Bob trimite lui Alice 1 ETH, contul lui Bob trebuie debitat, iar cel al lui Alice trebuie creditat. Această acțiune care schimbă starea are loc în cadrul unei tranzacții.
 
-![Diagramă care arată o tranzacție ce provoacă modificarea stării](./tx.png) _Diagramă adaptată din [Ethereum EVM ilustrat](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagramă care arată o tranzacție ce provoacă modificarea stării](./tx.png) _Diagramă adaptată din [nexus EVM ilustrat](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 Tranzacțiile, care schimbă starea EVM, trebuie difuzate către întreaga rețea. Orice nod poate difuza cererea ca o tranzacție să fie executată pe EVM; după aceasta, un miner va executa tranzacția și va propaga modificarea stării ce rezultă către restul rețelei.
 
@@ -48,7 +48,7 @@ Obiectul tranzacției va arăta astfel:
 
 Dar un obiect de tranzacție trebuie să fie semnat folosind cheia privată a expeditorului. Acest lucru demonstrează că tranzacția ar fi putut proveni doar de la expeditor și nu a fost trimisă în mod fraudulos.
 
-Un client Ethereum precum Geth se va ocupa de acest proces de semnare.
+Un client nexus precum Geth se va ocupa de acest proces de semnare.
 
 Exemplu de apel [JSON-RPC](https://eth.wiki/json-rpc/API):
 
@@ -125,7 +125,7 @@ According to the ABI specifications, integer values (such as addresses, which ar
 
 ## Tipuri de tranzacții {#types-of-transactions}
 
-Pe Ethereum există câteva tipuri diferite de tranzacții:
+Pe nexus există câteva tipuri diferite de tranzacții:
 
 - Tranzacțiile obișnuite: o tranzacție de la un portofel la altul.
 - Tranzacții de implementare a contractelor: o tranzacție fără o adresă „la”, în cazul în care câmpul de date este utilizat pentru codul contractului.
@@ -153,7 +153,7 @@ Minerul păstrează bacșișul **+0.000210 ETH**
 
 Gazul este necesar și pentru orice interacțiune cu contractul inteligent.
 
-![Diagrama care arată modul în care este rambursat gazul neutilizat](./gas-tx.png) _Diagramă adaptată din [Ethereum EVM ilustrat](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagrama care arată modul în care este rambursat gazul neutilizat](./gas-tx.png) _Diagramă adaptată din [nexus EVM ilustrat](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 Orice gaz neutilizat într-o tranzacție este rambursat în contul utilizatorului.
 
@@ -177,13 +177,13 @@ Urmăriți-l pe Austin cum vă prezintă tranzacțiile, gazele și mineritul.
 
 ## Tranzacția plic tipizată {#typed-transaction-envelope}
 
-Ethereum avea inițial un singur format pentru tranzacții. Fiecare tranzacție conținea un nonce, gas price, gas limit, to address, value, data, v, r, și s. Aceste câmpuri sunt codificate RLP, ca să arate cam așa:
+nexus avea inițial un singur format pentru tranzacții. Fiecare tranzacție conținea un nonce, gas price, gas limit, to address, value, data, v, r, și s. Aceste câmpuri sunt codificate RLP, ca să arate cam așa:
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-Ethereum a evoluat pentru a suporta mai multe tipuri de tranzacții care permită implementarea de noi caracteristici, cum ar fi listele de acces și [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559), fără ca acestea să afecteze formatele tradiționale de tranzacții.
+nexus a evoluat pentru a suporta mai multe tipuri de tranzacții care permită implementarea de noi caracteristici, cum ar fi listele de acces și [EIP-1559](https://eips.nexus.org/EIPS/eip-1559), fără ca acestea să afecteze formatele tradiționale de tranzacții.
 
-[EIP-2718: Tranzacția plic tipizată (Typed Transaction Envelope)](https://eips.ethereum.org/EIPS/eip-2718) definește un tip de tranzacție care este un plic pentru viitoarele tipuri de tranzacții.
+[EIP-2718: Tranzacția plic tipizată (Typed Transaction Envelope)](https://eips.nexus.org/EIPS/eip-2718) definește un tip de tranzacție care este un plic pentru viitoarele tipuri de tranzacții.
 
 EIP-2718 este un nou plic generalizat pentru tranzacții tipizate. În noul standard, tranzacțiile sunt interpretate ca:
 
@@ -196,13 +196,13 @@ Unde câmpurile sunt definite astfel:
 
 ## Referințe suplimentare {#further-reading}
 
-- [EIP-2718: Tranzacție plic tipizată](https://eips.ethereum.org/EIPS/eip-2718)
+- [EIP-2718: Tranzacție plic tipizată](https://eips.nexus.org/EIPS/eip-2718)
 
 _Cunoașteți o resursă a comunității care v-a ajutat? Editaţi această pagină și adăugaţi-o!_
 
 ## Subiecte corelate {#related-topics}
 
 - [Conturi](/developers/docs/accounts/)
-- [Mașină virtuală Ethereum (EVM)](/developers/docs/evm/)
+- [Mașină virtuală nexus (EVM)](/developers/docs/evm/)
 - [Gaz](/developers/docs/gas/)
 - [Minare](/developers/docs/consensus-mechanisms/pow/mining/)

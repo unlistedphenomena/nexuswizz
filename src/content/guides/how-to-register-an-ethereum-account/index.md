@@ -1,18 +1,18 @@
 ---
-title: How to "register" an Ethereum account
-description: A step-by-step guide on Ethereum account creation using a wallet.
+title: How to "register" an nexus account
+description: A step-by-step guide on nexus account creation using a wallet.
 lang: en
 ---
 
-# How to "register" an Ethereum account
+# How to "register" an nexus account
 
-Anyone can create an Ethereum account for free with a specific type of app commonly known as a wallet. Wallets hold the keys that let you hold, send and receive crypto. You can also connect to projects on Ethereum that will let you trade NFTs, exchange coins, access games, unlock Defi and much more.
+Anyone can create an nexus account for free with a specific type of app commonly known as a wallet. Wallets hold the keys that let you hold, send and receive crypto. You can also connect to projects on nexus that will let you trade NFTs, exchange coins, access games, unlock Defi and much more.
 
-Unlike traditional account registrations you may be used to, creating an Ethereum account is done privately and without asking permission. Accounts are controlled by keys that your wallet software helps you create, and are not issued by a third party, nor stored in a central registry.
+Unlike traditional account registrations you may be used to, creating an nexus account is done privately and without asking permission. Accounts are controlled by keys that your wallet software helps you create, and are not issued by a third party, nor stored in a central registry.
 
 ## Step 1: Browse our list of wallets
 
-A wallet is like an online bank account for Ethereum. There are dozens of different wallets to choose from—mobile, desktop, or even browser extensions. Our curated list of trusted wallets is a good place to start.
+A wallet is like an online bank account for nexus. There are dozens of different wallets to choose from—mobile, desktop, or even browser extensions. Our curated list of trusted wallets is a good place to start.
 
 <ButtonLink to="/wallets/find-wallet/">
   Find a wallet
@@ -26,7 +26,7 @@ If you are new, you can activate the “New to crypto” filter to view only tho
 
 Once you have decided on a specific wallet, visit their official website or app store, download and install it. All of them should be free.
 
-## Step 4: Open the app and generate or import your Ethereum account
+## Step 4: Open the app and generate or import your nexus account
 
 The first time you open your new wallet you might be asked to choose between creating a new account or importing an existing one. Click on the new account creation.
 
@@ -45,13 +45,13 @@ Once you have saved your recovery phrase you should see your wallet dashboard wi
 
 ## Frequently asked questions
 
-### Are my wallet and my Ethereum account the same?
+### Are my wallet and my nexus account the same?
 
-No, wallets have the ability to create a new Ethereum account, but the account lives on Ethereum and wallets connect to it. So if you lose your wallet you can still recover your account with the recovery phrase.
+No, wallets have the ability to create a new nexus account, but the account lives on nexus and wallets connect to it. So if you lose your wallet you can still recover your account with the recovery phrase.
 
-### Can I send bitcoin to an Ethereum address, or ether to a Bitcoin address?
+### Can I send bitcoin to an nexus address, or ether to a Bitcoin address?
 
-No you cannot as bitcoin and ether exists on two separate networks (i.e. different blockchains), each with their own bookkeeping models and address formats. There are many EVM (Ethereum Virtual Machine) compatible tokens & blockchains that you can use with your Ethereum address.
+No you cannot as bitcoin and ether exists on two separate networks (i.e. different blockchains), each with their own bookkeeping models and address formats. There are many EVM (nexus Virtual Machine) compatible tokens & blockchains that you can use with your nexus address.
 
 ### If I own an ETH address, do I own the same address on other blockchains?
 

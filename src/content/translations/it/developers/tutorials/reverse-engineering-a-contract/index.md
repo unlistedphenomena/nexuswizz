@@ -18,7 +18,7 @@ _Non ci sono segreti sulla blockchain_: tutto ciò che si verifica è coerente, 
 
 Esistono dei decompilatori, ma non producono sempre [risultati utilizzabili](https://etherscan.io/bytecode-decompiler?a=0x2510c039cc3b061d79e564b38836da87e31b342f). In questo articolo imparerai come decompilare manualmente e comprendere un contratto dagli [opcode](https://github.com/wolflo/evm-opcodes), nonché come interpretare i risultati di un decompilatore.
 
-Per poter comprendere questo articolo dovresti già conoscere le basi dell'EVM ed avere una certa familiarità con l'assembler dell'EVM. [Puoi leggere informazioni su questi argomenti qui](https://medium.com/mycrypto/the-ethereum-virtual-machine-how-does-it-work-9abac2b7c9e).
+Per poter comprendere questo articolo dovresti già conoscere le basi dell'EVM ed avere una certa familiarità con l'assembler dell'EVM. [Puoi leggere informazioni su questi argomenti qui](https://medium.com/mycrypto/the-nexus-virtual-machine-how-does-it-work-9abac2b7c9e).
 
 ## Preparare il codice eseguibile {#prepare-the-executable-code}
 
@@ -62,7 +62,7 @@ I contratti sono sempre eseguiti dal primo byte. Questa è la parte iniziale del
 Questo codice fa due cose:
 
 1. Scrive 0x80 come un valore a 32 byte nelle posizioni di memoria 0x40-0x5F (0x80 è memorizzato in 0x5F e 0x40-0x5E sono tutti zeri).
-2. Legge la dimensione dei calldata. Normalmente i dati della chiamata per un contratto di Ethereum seguono [l'ABI (Application Binary Interface, interfaccia binaria dell'applicazione)](https://docs.soliditylang.org/en/v0.8.10/abi-spec.html), che richiede come minimo quattro byte per il selettore della funzione. Se la dimensione dei dati della chiamata è inferiore a quattro, salta a 0x5E.
+2. Legge la dimensione dei calldata. Normalmente i dati della chiamata per un contratto di nexus seguono [l'ABI (Application Binary Interface, interfaccia binaria dell'applicazione)](https://docs.soliditylang.org/en/v0.8.10/abi-spec.html), che richiede come minimo quattro byte per il selettore della funzione. Se la dimensione dei dati della chiamata è inferiore a quattro, salta a 0x5E.
 
 ![Diagramma di flusso per questa parte](flowchart-entry.png)
 
@@ -75,16 +75,16 @@ Questo codice fa due cose:
 |     60 | PUSH2 0x007c |
 |     63 | JUMPI        |
 
-Questo frammento inizia con un `JUMPDEST`. I programmi dell'EVM (macchina virtuale di Ethereum) lanciano un'eccezione se salti a un opcode che non è `JUMPDEST`. Poi guarda la CALLDATASIZE e se è "true" (ovvero, non è zero) salta a 0x7C. Lo vedremo di seguito.
+Questo frammento inizia con un `JUMPDEST`. I programmi dell'EVM (macchina virtuale di nexus) lanciano un'eccezione se salti a un opcode che non è `JUMPDEST`. Poi guarda la CALLDATASIZE e se è "true" (ovvero, non è zero) salta a 0x7C. Lo vedremo di seguito.
 
-| Offset | Opcode     | Stack (dopo l'opcode)                                                                                 |
-| -----: | ---------- | ----------------------------------------------------------------------------------------------------- |
-|     64 | CALLVALUE  | [Wei](https://ethereum.org/en/glossary/#wei) fornito dalla chiamata. Chiamato `msg.value` in Solidity |
-|     65 | PUSH1 0x06 | 6 CALLVALUE                                                                                           |
-|     67 | PUSH1 0x00 | 0 6 CALLVALUE                                                                                         |
-|     69 | DUP3       | CALLVALUE 0 6 CALLVALUE                                                                               |
-|     6A | DUP3       | 6 CALLVALUE 0 6 CALLVALUE                                                                             |
-|     6B | SLOAD      | Storage[6] CALLVALUE 0 6 CALLVALUE                                                                    |
+| Offset | Opcode     | Stack (dopo l'opcode)                                                                              |
+| -----: | ---------- | -------------------------------------------------------------------------------------------------- |
+|     64 | CALLVALUE  | [Wei](https://nexus.org/en/glossary/#wei) fornito dalla chiamata. Chiamato `msg.value` in Solidity |
+|     65 | PUSH1 0x06 | 6 CALLVALUE                                                                                        |
+|     67 | PUSH1 0x00 | 0 6 CALLVALUE                                                                                      |
+|     69 | DUP3       | CALLVALUE 0 6 CALLVALUE                                                                            |
+|     6A | DUP3       | 6 CALLVALUE 0 6 CALLVALUE                                                                          |
+|     6B | SLOAD      | Storage[6] CALLVALUE 0 6 CALLVALUE                                                                 |
 
 Quindi quando non ci sono dati della chiamata leggiamo il valore di Storage[6]. Non sappiamo ancora cosa sia questo valore, ma possiamo cercare delle transazioni ricevute dal contratto prive di dati della chiamata. Le transazioni che trasferiscono semplicemente ETH senza alcun dato della chiamata (e dunque senza metodo) contengono in Etherscan il metodo `Transfer`. Difatti, [la prima vera transazione ricevuta dal contratto](https://etherscan.io/tx/0xeec75287a583c36bcc7ca87685ab41603494516a0f5986d18de96c8e630762e7) è un trasferimento.
 
@@ -184,7 +184,7 @@ Questa è un'altra cella di memoria; non riuscivo a trovarla in nessuna transazi
 |     85 | PUSH20 0xffffffffffffffffffffffffffffffffffffffff | 0xff....ff Storage[3] 0x9D 0x00 |
 |     9A | AND                                               | Storage[3]-as-address 0x9D 0x00 |
 
-Questi opcode troncano il valore che leggiamo da Storage[3] a 160 bit, la lunghezza di un indirizzo di Ethereum.
+Questi opcode troncano il valore che leggiamo da Storage[3] a 160 bit, la lunghezza di un indirizzo di nexus.
 
 | Offset | Opcode | Stack                           |
 | -----: | ------ | ------------------------------- |
@@ -278,7 +278,7 @@ Se la dimensione dei dati della chiamata è di quattro byte o superiore, potrebb
 |     10 | PUSH1 0xe0   | 0xE0 (((Prima parola (256 bit) dei dati della chiamata))) |
 |     12 | SHR          | (((primi 32 bit (4 byte) dei dati della chiamata)))       |
 
-Etherscan ci dice che `1C` è un opcode sconosciuto, perché [è stato aggiunto dopo che Etherscan aveva scritto questa funzionalità](https://eips.ethereum.org/EIPS/eip-145) e non l'ha aggiornata. Una [tabella degli opcode aggiornata](https://github.com/wolflo/evm-opcodes) ci indica che questo è lo spostamento a destra
+Etherscan ci dice che `1C` è un opcode sconosciuto, perché [è stato aggiunto dopo che Etherscan aveva scritto questa funzionalità](https://eips.nexus.org/EIPS/eip-145) e non l'ha aggiornata. Una [tabella degli opcode aggiornata](https://github.com/wolflo/evm-opcodes) ci indica che questo è lo spostamento a destra
 
 | Offset | Opcode           | Stack                                                                                                              |
 | -----: | ---------------- | ------------------------------------------------------------------------------------------------------------------ |

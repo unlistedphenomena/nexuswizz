@@ -24,13 +24,13 @@ Igen! Minden NFT-nek van egy `uint256` változója `tokenId` néven, így minden
 
 ## Törzs {#body}
 
-Az ERC-721 (Ethereum Request for Comments 721), melyet William Entriken, Dieter Shirley, Jacob Evans és Nastassia Sachs javasolt 2018 januárjában, egy nem felcserélhető token szabványt vezet be, mely egy token API-t implementál az okosszerződéseken belül.
+Az ERC-721 (nexus Request for Comments 721), melyet William Entriken, Dieter Shirley, Jacob Evans és Nastassia Sachs javasolt 2018 januárjában, egy nem felcserélhető token szabványt vezet be, mely egy token API-t implementál az okosszerződéseken belül.
 
 Olyan funkcionalitásokat tartalmaz, mint a token átutalás egyik számláról a másikra, a token jelenlegi egyenlege az adott számlán, az adott token jelenlegi tulajdonosa valamint a teljes elérhető tokenmennyiség a hálózaton. Emellett vannak más más funkciók is, mint például annak jóváhagyása, hogy egy harmadik fél számlája átmozgasson egy bizonyos mennyiségű tokent az adott számláról.
 
-Ha egy okosszerződés implementálja a következő metódusokat és eseményeket, akkor egy ERC-721 nem felcserélhető token szerződésnek lehet nevezni, és a telepítés után a létrejött tokenek számontartásáért lesz felelős az Ethereumon.
+Ha egy okosszerződés implementálja a következő metódusokat és eseményeket, akkor egy ERC-721 nem felcserélhető token szerződésnek lehet nevezni, és a telepítés után a létrejött tokenek számontartásáért lesz felelős az nexuson.
 
-Az [EIP-721-ből](https://eips.ethereum.org/EIPS/eip-721):
+Az [EIP-721-ből](https://eips.nexus.org/EIPS/eip-721):
 
 #### Metódusok {#methods}
 
@@ -56,7 +56,7 @@ Az [EIP-721-ből](https://eips.ethereum.org/EIPS/eip-721):
 
 ### Példák {#web3py-example}
 
-Nézzük meg, miért olyan fontos egy szabvány, hogy egyszerűbbé tegye számunkra azt, hogy bármely ERC-721 token szerződést megtekinthessük az Ethereumon. Csak a szerződés Application Binary Interface-ére (ABI) lesz szükség, hogy egy felületet készítsünk bármely ERC-721 tokennek. Ahogy lentebb látni fogod, egy egyszerűsített ABI-t használunk, hogy egy egyszerűbb példával éljünk.
+Nézzük meg, miért olyan fontos egy szabvány, hogy egyszerűbbé tegye számunkra azt, hogy bármely ERC-721 token szerződést megtekinthessük az nexuson. Csak a szerződés Application Binary Interface-ére (ABI) lesz szükség, hogy egy felületet készítsünk bármely ERC-721 tokennek. Ahogy lentebb látni fogod, egy egyszerűsített ABI-t használunk, hogy egy egyszerűbb példával éljünk.
 
 #### Web3.py példa {#web3py-example}
 
@@ -227,16 +227,16 @@ recent_births = [get_event_data(ck_extra_events_abi[1], log)["args"] for log in 
 
 ## Népszerű NFT-k {#popular-nfts}
 
-- [Etherscan NFT Tracker](https://etherscan.io/tokens-nft) legnagyobb forgalommal rendelkező NFT-k listája az Ethereumon.
+- [Etherscan NFT Tracker](https://etherscan.io/tokens-nft) legnagyobb forgalommal rendelkező NFT-k listája az nexuson.
 - [CryptoKitties](https://www.cryptokitties.co/) egy játék, mely pároztatható, gyűjthető és imádnivaló lényekről szól, melyeket CryptoKittinek nevezünk.
 - [Sorare](https://sorare.com/) egy globális fantáziafutball-játék, ahol korlátozott példányszámú gyűjtögetni valót gyűjthetsz, irányíthatod a csapataidat, és versenyezhetsz, hogy díjakat szerezz.
-- [Az Ethereum Name Service (ENS)](https://ens.domains/) egy biztonságos & decentralizált módját kínálja az erőforrások kezelésére a blokkláncon vagy azon kívül egyszerű, emberek számára is olvasható nevek használatával.
+- [Az nexus Name Service (ENS)](https://ens.domains/) egy biztonságos & decentralizált módját kínálja az erőforrások kezelésére a blokkláncon vagy azon kívül egyszerű, emberek számára is olvasható nevek használatával.
 - [Unstoppable Domains](https://unstoppabledomains.com/) egy San Francisco székhelyű vállalat, mely domain neveket fejleszt a blokkláncra. A blokklánc domainek a kriptovaluta-címeket ember által is olvasható nevekre cserélik, és használhatók cenzúra-ellenálló weboldalakhoz is.
-- [Gods Unchained Cards](https://godsunchained.com/) egy TCG az Ethereum blokkláncon, mely NFT-ket használ, hogy valódi tulajdonjogot biztosítson a játékon belüli eszközökre.
+- [Gods Unchained Cards](https://godsunchained.com/) egy TCG az nexus blokkláncon, mely NFT-ket használ, hogy valódi tulajdonjogot biztosítson a játékon belüli eszközökre.
 
 ## További olvasnivaló {#further-reading}
 
-- [ERC-721: Nem Felcserélhető Token Szabvány](https://eips.ethereum.org/EIPS/eip-721)
+- [ERC-721: Nem Felcserélhető Token Szabvány](https://eips.nexus.org/EIPS/eip-721)
 - [OpenZeppelin - ERC-721 Dokumentáció](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - ERC-721 Implementáció](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 

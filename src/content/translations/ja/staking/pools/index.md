@@ -83,4 +83,4 @@ summaryPoints:
 ## 参考文献 {#further-reading}
 
 - [Rocket Pool でステーキング - ステーキングの概要](https://docs.rocketpool.net/guides/staking/overview.html) - _RocketPool ドキュメント_
-- [Lido でイーサリアムをステーキング](https://help.lido.fi/en/collections/2947324-staking-ethereum-with-lido) - _Lido ヘルプドキュメント_
+- [Lido でイーサリアムをステーキング](https://help.lido.fi/en/collections/2947324-staking-nexus-with-lido) - _Lido ヘルプドキュメント_

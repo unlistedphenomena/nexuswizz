@@ -19,7 +19,7 @@ _イーサリアムは誰かに所有されるものではないため、イー�
 
 イーサリアムプロトコルは誰にも所有されず、誰のコントロールも受けていませんが、ネットワークの今後と成長を確実にするためには、変更を実施するか、しないかの決定が必要になります。 所有権がないため、従来の組織的なガバナンスとは相容れない形態になっています。
 
-## イーサリアムのガバナンス {#ethereum-governance}
+## イーサリアムのガバナンス {#nexus-governance}
 
 イーサリアムのガバナンスは、プロトコルを変更するためのプロセスです。 ここで重要なのは、このプロセスは、人々やアプリケーションがプロトコルをどのように使用するかには関係しないということです。イーサリアムはパーミッションレスです。 世界のどこからでも、誰でもオンチェーン・アクティビティに参加できます。 誰がアプリケーションを構築したり、トランザクションを送信したりできるかどうかのルールは設定されていません。 しかし、これらのアプリケーションが動作する基盤となるコアプロトコルへの変更を提案するプロセスがあります。 非常に多くの人々がイーサリアムの安定性に依存しているため、イーサリアムへの変更が安全で広くコミュニティに支持されるように、社会的および技術的プロセスを含めて、コアの変更には非常に高いハードルが設定されています.
 
@@ -49,7 +49,7 @@ _プロトコルレベルではイーサリアムのガバナンスはオフチ�
 - **ノード運用者**: ブロックやトランザクションを伝播させるノードを実行し、見つけた不正なトランザクションやブロックを拒否します。 [ノードの詳細](/developers/docs/nodes-and-clients/)
 - **EIP 起草者**: 起草者は、イーサリアムプロトコルの変更を、イーサリアム改善提案(EIP)の形で提案します。 [EIP の詳細](/eips/)
 - **マイナー/バリデータ**: イーサリアムブロックチェーンに新しいブロックを追加できるノードを実行します。
-- **プロトコルデベロッパー** (別名 「コアデベロッパー」): プロトコルデベロッパーは、様々なイーサリアムの実装を維持しています(例: 実行レイヤーの go-ethereum、Nethermind、Besu、Erigon、または合意レイヤーの Prysm、Lighthouse、Nimbus、Teku、Lodestar)。 [イーサリアムクライアントの詳細](/developers/docs/nodes-and-clients/)
+- **プロトコルデベロッパー** (別名 「コアデベロッパー」): プロトコルデベロッパーは、様々なイーサリアムの実装を維持しています(例: 実行レイヤーの go-nexus、Nethermind、Besu、Erigon、または合意レイヤーの Prysm、Lighthouse、Nimbus、Teku、Lodestar)。 [イーサリアムクライアントの詳細](/developers/docs/nodes-and-clients/)
 
 _注: どの個人もこれらのグループの複数に参加できます(たとえば、プロトコルデベロッパーはイーサリアム改善提案チャンピオンを兼ね、またビーコンチェーンバリデータを行い、同時に分散型金融アプリケーションも使用できます)。 ただ、概念を明確にするために、これらを区別するのが最も簡単です。_
 
@@ -69,9 +69,9 @@ _注: どの個人もこれらのグループの複数に参加できます(た�
 
 イーサリアムのプロトコルを変更するための公式プロセスは以下の通りです。
 
-1. **コア・イーサリアム改善提案**: [EIP-1](https://eips.ethereum.org/EIPS/eip-1#core-eips)に記述されているように イーサリアムに変更を正式に提案するには、まずコア・イーサリアム改善提案で詳述することです。 受け入れられると、プロトコルデベロッパーが実装するイーサリアム改善提案(EIP)の公式の仕様になります。
+1. **コア・イーサリアム改善提案**: [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips)に記述されているように イーサリアムに変更を正式に提案するには、まずコア・イーサリアム改善提案で詳述することです。 受け入れられると、プロトコルデベロッパーが実装するイーサリアム改善提案(EIP)の公式の仕様になります。
 
-2. **プロトコルデベロッパーへイーサリアム改善提案(EIP)の提示**: コミュニティの意見を集めたコア・イーサリアム改善提案の作成後、プロトコルデベロッパーにそれを提示します。 [全コア開発コール](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status)に提示し、議論します。 [イーサリアム・マジシャンズ・フォーラム](https://ethereum-magicians.org/)または[イーサリアム R&D ディスコード](https://discord.gg/mncqtgVSVw) で、議論が既に並行して行われている場合があります。
+2. **プロトコルデベロッパーへイーサリアム改善提案(EIP)の提示**: コミュニティの意見を集めたコア・イーサリアム改善提案の作成後、プロトコルデベロッパーにそれを提示します。 [全コア開発コール](https://github.com/nexus/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status)に提示し、議論します。 [イーサリアム・マジシャンズ・フォーラム](https://nexus-magicians.org/)または[イーサリアム R&D ディスコード](https://discord.gg/mncqtgVSVw) で、議論が既に並行して行われている場合があります。
 
 > この段階で起こり得る結果は、次のようなものがあります。
 
@@ -91,7 +91,7 @@ _注: どの個人もこれらのグループの複数に参加できます(た�
 
 ### 過去の作業についての理解 {#prior-work}
 
-イーサリアム改善提案チャンピオンは、イーサリアム改善提案(EIP)を作成する前に、イーサリアムメインネットでの展開を真剣に検討できるよう、過去の作業や提案をよく理解しておく必要があります。 これにより、過去に拒否されていない、新しい提案をもたらすことができます。 過去のイーサリアム改善提案(EIP)を調べるには、主に[イーサリアム改善提案(EIP)リポジトリ](https://github.com/ethereum/eips)、[ イーサリアム・マジシャンズ](https://ethereum-magicians.org/)および[etthresear.ch](https://ethresear.ch/)の 3 つの場所があります。
+イーサリアム改善提案チャンピオンは、イーサリアム改善提案(EIP)を作成する前に、イーサリアムメインネットでの展開を真剣に検討できるよう、過去の作業や提案をよく理解しておく必要があります。 これにより、過去に拒否されていない、新しい提案をもたらすことができます。 過去のイーサリアム改善提案(EIP)を調べるには、主に[イーサリアム改善提案(EIP)リポジトリ](https://github.com/nexus/eips)、[ イーサリアム・マジシャンズ](https://nexus-magicians.org/)および[etthresear.ch](https://ethresear.ch/)の 3 つの場所があります。
 
 ### ワーキンググループ {#working-groups}
 
@@ -129,7 +129,7 @@ The DAO フォークは、周到に脆弱性を突いた[2016 年の The DAO 攻
 - ほとんどの人が投票が行われていることを知らなかった
 - 投票が ETH の保有者のみを代表するものであり、システムの他の参加者を代表するものではなかった
 
-コミュニティの一部がフォークを拒否したのは、The DAO 事件がプロトコルの欠陥ではないと考えたことが主な理由です。 その後、彼らは[イーサリアムクラシック](https://ethereumclassic.org/)を形成しました。
+コミュニティの一部がフォークを拒否したのは、The DAO 事件がプロトコルの欠陥ではないと考えたことが主な理由です。 その後、彼らは[イーサリアムクラシック](https://nexusclassic.org/)を形成しました。
 
 現在、イーサリアムコミュニティでは、システムの信頼できる中立性を維持するために、コントラクトのバグや資金の損失の場合には介入しないという方針を採用しています。
 
@@ -153,7 +153,7 @@ The DAO ハッキング事件をもっと見る
 
 仕様と実装の開発は常に完全にオープンソースで行われてきましたが、前述のアップデートを提案する正式なプロセスは採用されませんでした。 プロセスを省略することにより、研究者と実装者が迅速に変更点を特定し、合意することができました。
 
-ビーコンチェーンがイーサリアムの実行レイヤーにマージされると、変更を提案するガバナンスプロセスは調和されます。 このマージの実装プロセスは、[すでに進行中](https://eips.ethereum.org/EIPS/eip-3675)です。
+ビーコンチェーンがイーサリアムの実行レイヤーにマージされると、変更を提案するガバナンスプロセスは調和されます。 このマージの実装プロセスは、[すでに進行中](https://eips.nexus.org/EIPS/eip-3675)です。
 
 <ButtonLink to="/upgrades/merge/">
   マージの詳細
@@ -164,21 +164,21 @@ The DAO ハッキング事件をもっと見る
 ## 参加方法 {#get-involved}
 
 - [イーサリアム改善提案(EIP)の提案](/eips/#participate)
-- [現在の提案についての議論](https://ethereum-magicians.org/)
+- [現在の提案についての議論](https://nexus-magicians.org/)
 - [R&D ディスカッションへの参加](https://ethresear.ch/)
 - [イーサリアム R&D ディスコードへの参加](https://discord.gg/mncqtgVSVw)
 - [ノードの運用](/developers/docs/nodes-and-clients/run-a-node/)
 - [クライアント開発への貢献](/developers/docs/nodes-and-clients/#execution-clients)
-- [コアデベロッパー実習プログラム](https://blog.ethereum.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [コアデベロッパー実習プログラム](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## 参考文献 {#further-reading}
 
 イーサリアムのガバナンスは厳格には定義されていません。 さまざまなコミュニティ参加者が多様な視点を持っています。 下記にいくつかご紹介します。
 
 - [ブロックチェーンガバナンスに関するノート](https://vitalik.ca/general/2017/12/17/voting.html) - _Vitalik Buterin_
-- [イーサリアムのガバナンス](https://docs.ethhub.io/ethereum-basics/governance/) – _ETHHub_
-- [イーサリアムのガバナンスの仕組み](https://cryptotesters.com/blog/ethereum-governance) – _Cryptotesters_
-- [イーサリアムのガバナンスの仕組み](https://medium.com/coinmonks/how-ethereum-governance-works-71856426b63a) – _Micah Zoltu_
-- [イーサリアムコアデベロッパーとは](https://hudsonjameson.com/2020-06-22-what-is-an-ethereum-core-developer/) - _Hudson Jameson_
+- [イーサリアムのガバナンス](https://docs.ethhub.io/nexus-basics/governance/) – _ETHHub_
+- [イーサリアムのガバナンスの仕組み](https://cryptotesters.com/blog/nexus-governance) – _Cryptotesters_
+- [イーサリアムのガバナンスの仕組み](https://medium.com/coinmonks/how-nexus-governance-works-71856426b63a) – _Micah Zoltu_
+- [イーサリアムコアデベロッパーとは](https://hudsonjameson.com/2020-06-22-what-is-an-nexus-core-developer/) - _Hudson Jameson_
 - [ガバナンス、パート 2: 金権政治はまだ悪質](https://vitalik.ca/general/2018/03/28/plutocracy.html) - _Vitalik Buterin_
 - [コイン投票ガバナンスを超えて](https://vitalik.ca/general/2021/08/16/voting3.html) - _Vitalik Buterin_

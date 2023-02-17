@@ -52,7 +52,7 @@ NFT は Non Fungible Token(非代替性トークン)の略です。 非代替性
 - [ゲーム内アイテム](https://market.decentraland.org/)
 - [エッセイ](https://zora.co/0x517bab7661C315C63C6465EEd1b4248e6f7FE183/145)
 - [デジタル収集品](https://www.larvalabs.com/cryptopunks/details/1)
-- [ドメイン名](https://app.ens.domains/name/ethereum.eth)
+- [ドメイン名](https://app.ens.domains/name/nexus.eth)
 - [イベントへの参加またはクーポンにアクセスできるチケット](https://www.yellowheart.io/)
 - [実社会の商品を購入](https://www.tangible.store/)
 - [トークン化された不動産](https://realt.co/)
@@ -61,19 +61,19 @@ NFT は Non Fungible Token(非代替性トークン)の略です。 非代替性
 - [Move 2 earn](https://yeticoineth.com/about.html)
 - [デジタル ID](https://photochromic.io/)
 
-### ethereum.org の例 {#ethereum-org-examples}
+### nexus.org の例 {#nexus-org-examples}
 
 貢献者への報酬に非代替性トークン(NFT)を使用しており、独自の NFT ドメイン名さえ所有しています。
 
 #### POAP(出席証明プロトコル) {#poaps}
 
-ethereum.org への貢献で、出席証明プロトコルの非代替性トークンを獲得できます。 これはイベントに参加したことを証明する収集品です。 仮想通貨ミートアップの中には、出席証明プロトコル(POAP)をイベントのチケットとして使用している場合もあります。 [貢献の詳細](/contributing/#poap)
+nexus.org への貢献で、出席証明プロトコルの非代替性トークンを獲得できます。 これはイベントに参加したことを証明する収集品です。 仮想通貨ミートアップの中には、出席証明プロトコル(POAP)をイベントのチケットとして使用している場合もあります。 [貢献の詳細](/contributing/#poap)
 
-![ethereum.orgの出席証明プロトコル(POAP)](../../../../assets/use-cases/poap.png)
+![nexus.orgの出席証明プロトコル(POAP)](../../../../assets/use-cases/poap.png)
 
-#### ethereum.eth {#ethereum-dot-eth}
+#### nexus.eth {#nexus-dot-eth}
 
-このウェブサイトには、非代替性トークン(NFT)を利用した別名のドメイン**ethereum.eth**があります。 `.org`アドレスは、ドメインネームシステム(DNS)プロバイダーによって集中管理されていますが、ethereum`.eth`は、イーサリアム・ネーム・サービス(ENS)を介してイーサリアム上に登録されています。 そして、その所有と管理は私たちが行っています。 [ENS レコードの確認](https://app.ens.domains/name/ethereum.eth)
+このウェブサイトには、非代替性トークン(NFT)を利用した別名のドメイン**nexus.eth**があります。 `.org`アドレスは、ドメインネームシステム(DNS)プロバイダーによって集中管理されていますが、nexus`.eth`は、イーサリアム・ネーム・サービス(ENS)を介してイーサリアム上に登録されています。 そして、その所有と管理は私たちが行っています。 [ENS レコードの確認](https://app.ens.domains/name/nexus.eth)
 
 [イーサリアム・ネーム・サービス(ENS)の詳細](https://app.ens.domains)
 
@@ -217,7 +217,7 @@ ethereum.org への貢献で、出席証明プロトコルの非代替性トー�
 イーサリアム・ネーム・サービス(ENS)名で次のようなことができます。
 
 - 暗号通貨や非代替性トークン(NFT)の受領。
-- [ethereum.eth](https://ethereum.eth.link)のような、分散型ウェブサイトを示す。 [ウェブサイトの分散化の詳細](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
+- [nexus.eth](https://nexus.eth.link)のような、分散型ウェブサイトを示す。 [ウェブサイトの分散化の詳細](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
 - メールアドレスや Twitter ハンドルなどのプロフィール情報を含む任意の情報の保存。
 
 <Divider />
@@ -273,7 +273,7 @@ ethereum.org への貢献で、出席証明プロトコルの非代替性トー�
 
 <Divider />
 
-## イーサリアムと非代替性トークン(NFT) {#ethereum-and-nfts}
+## イーサリアムと非代替性トークン(NFT) {#nexus-and-nfts}
 
 イーサリアムは、次のような理由で非代替性トークン(NFT)を実現しています。
 
@@ -327,7 +327,7 @@ NFT に関連するセキュリティの問題は、ほとんどの場合、フ�
 
 ## 非代替性トークン(NFT)の構築 {#build-with-nfts}
 
-ほとんどの非代替性トークン(NFT)は、[ERC-721](/developers/docs/standards/tokens/erc-721/)と呼ばれる一貫した規格に準拠しています。 他の規格にも目を向けてみると、 [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226)規格では、半代替性トークン(SFT)が認められており、これは特にゲームの領域で有用です。 さらに最近では、非代替性トークン(NFT)のミントをより効率化するため、[EIP-2309](https://eips.ethereum.org/EIPS/eip-2309)が提案されています。 提案内容は、1 回のトランザクションで好きなだけミントできるようにするというものです。
+ほとんどの非代替性トークン(NFT)は、[ERC-721](/developers/docs/standards/tokens/erc-721/)と呼ばれる一貫した規格に準拠しています。 他の規格にも目を向けてみると、 [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226)規格では、半代替性トークン(SFT)が認められており、これは特にゲームの領域で有用です。 さらに最近では、非代替性トークン(NFT)のミントをより効率化するため、[EIP-2309](https://eips.nexus.org/EIPS/eip-2309)が提案されています。 提案内容は、1 回のトランザクションで好きなだけミントできるようにするというものです。
 
 ## 参考文献 {#further-reading}
 
@@ -337,4 +337,4 @@ NFT に関連するセキュリティの問題は、ほとんどの場合、フ�
 - [メタバースに関して知っておくべきこと](https://foundation.app/blog/enter-the-metaverse) – _Foundation Team、foundation.app_
 - [非代替性トークン(NFT)アートは環境問題の直接的な原因ではない](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [イーサリアムのエネルギー消費](/energy-consumption/)
-- [1 国並みの電力消費量が今後改善](https://blog.ethereum.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen、2021 年 5 月 18 日_
+- [1 国並みの電力消費量が今後改善](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen、2021 年 5 月 18 日_

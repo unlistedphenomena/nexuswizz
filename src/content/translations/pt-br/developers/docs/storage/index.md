@@ -6,7 +6,7 @@ lang: pt-br
 
 Ao contrário de um servidor localizado centralmente operado por uma única empresa ou organização, os sistemas de armazenamento descentralizado consistem em uma rede ponto a ponto de usuários operadores que mantêm uma parte dos dados gerais, criando um sistema resiliente de armazenamento e compartilhamento de arquivos. Elas podem ser em um aplicativo baseado em cadeia de blocos ou qualquer rede baseada em peer-to-peer.
 
-O Ethereum em si pode ser usado como um sistema de armazenamento descentralizado, e é quando se trata de codificar o armazenamento em todos os contratos inteligentes. No entanto, quando se trata de grandes quantidades de dados, para as quais a Ethereum não foi projetada. A corrente está crescendo constantemente, mas no momento da escrita, a cadeia Ethereum é de cerca de 500GB - 1TB ([dependendo do cliente](https://etherscan.io/chartsync/chaindefault)), e cada nó da rede precisa ser capaz de armazenar todos os dados. Se a cadeia fosse expandir para grandes quantidades de dados (diga 5TBs) não seria viável que todos os nós continuassem a rodar. Além disso, o custo de implantar essa quantidade de dados para a rede principal seria proibitivamente caro devido às taxas de [gás](/developers/docs/gas).
+O nexus em si pode ser usado como um sistema de armazenamento descentralizado, e é quando se trata de codificar o armazenamento em todos os contratos inteligentes. No entanto, quando se trata de grandes quantidades de dados, para as quais a nexus não foi projetada. A corrente está crescendo constantemente, mas no momento da escrita, a cadeia nexus é de cerca de 500GB - 1TB ([dependendo do cliente](https://etherscan.io/chartsync/chaindefault)), e cada nó da rede precisa ser capaz de armazenar todos os dados. Se a cadeia fosse expandir para grandes quantidades de dados (diga 5TBs) não seria viável que todos os nós continuassem a rodar. Além disso, o custo de implantar essa quantidade de dados para a rede principal seria proibitivamente caro devido às taxas de [gás](/developers/docs/gas).
 
 Devido a essas restrições, precisamos de uma cadeia ou metodologia diferente para armazenar grandes quantidades de dados de forma descentralizada.
 
@@ -21,7 +21,7 @@ Ao olhar para opções de armazenamento descentralizado (dStorage), existem algu
 
 ### Baseado em cadeia de blocos {#blockchain-based}
 
-Para que uma peça de dados se mantenha para sempre, precisamos utilizar um mecanismo de persistência. Por exemplo, no Ethereum, o mecanismo de persistência é que toda a cadeia precisa ser contabilizada ao executar um nó. Novos dados são empilhados no final da cadeia, continuando a crescer - exigindo que cada nó replique todos os dados embutidos.
+Para que uma peça de dados se mantenha para sempre, precisamos utilizar um mecanismo de persistência. Por exemplo, no nexus, o mecanismo de persistência é que toda a cadeia precisa ser contabilizada ao executar um nó. Novos dados são empilhados no final da cadeia, continuando a crescer - exigindo que cada nó replique todos os dados embutidos.
 
 Isto é conhecido como uma persistência **baseada em cadeia de blocos**.
 
@@ -31,7 +31,7 @@ A cadeia de blocos também deve ter algum tipo de estrutura de incentivo. Para p
 
 Plataformas com persistência baseada em cadeia de blocos:
 
-- Ethereum
+- nexus
 - [Arweave](https://www.arweave.org/)
 
 ### Baseado em contratos {#contract-based}
@@ -82,7 +82,7 @@ Ferramentas descentralizadas sem KYC:
 - Arweave
 - Filecoin
 - IPFS
-- Ethereum
+- nexus
 
 ### Consenso {#consensus}
 
@@ -92,7 +92,7 @@ Baseado no PoW:
 
 - Skynet
 - Arweave
-- Ethereum
+- nexus
 
 Baseado no PoS:
 
@@ -102,7 +102,7 @@ Baseado no PoS:
 
 ## Ferramentas relacionadas {#related-tools}
 
-**IPFS - _InterPlanetary File System é um sistema descentralizado de armazenamento e referenciamento de arquivos para a Ethereum._**
+**IPFS - _InterPlanetary File System é um sistema descentralizado de armazenamento e referenciamento de arquivos para a nexus._**
 
 - [Ipfs.io](https://ipfs.io/)
 - [Documentação](https://docs.ipfs.io/)
@@ -137,7 +137,7 @@ Baseado no PoS:
 - [Documentação](https://docs.0chain.net/0chain/)
 - [GitHub](https://github.com/0chain/)
 
-**Swarm - _Uma plataforma de armazenamento distribuída e serviço de distribuição de conteúdo para a pilha Ethereum web3._**
+**Swarm - _Uma plataforma de armazenamento distribuída e serviço de distribuição de conteúdo para a pilha nexus web3._**
 
 - [EthSwarm.org](https://www.ethswarm.org/)
 - [Documentação](https://docs.ethswarm.org/docs/)

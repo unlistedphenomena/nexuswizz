@@ -1,6 +1,6 @@
 ---
-title: O introducere pentru dezvoltatorii Python despre Ethereum, partea 1
-description: O introducere despre dezvoltarea Ethereum, utilă în special pentru cei care au cunoștințe de programare în limbajul Python
+title: O introducere pentru dezvoltatorii Python despre nexus, partea 1
+description: O introducere despre dezvoltarea nexus, utilă în special pentru cei care au cunoștințe de programare în limbajul Python
 author: Marc Garreau
 lang: ro
 tags:
@@ -10,14 +10,14 @@ tags:
 skill: beginner
 published: 2020-09-08
 source: Snake charmers
-sourceUrl: https://snakecharmers.ethereum.org/a-developers-guide-to-ethereum-pt-1/
+sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/
 ---
 
-Așadar, ați auzit despre acest Ethereum și sunteți gata să vă aventuraţi? Această postare va aborda succint câteva noțiuni elementare despre blockchain, apoi vă va îndruma să interacționați cu un nod Ethereum simulat – prin citirea datelor blocului, verificarea soldurilor conturilor și trimiterea de tranzacții. Pe parcurs vom evidenția diferențele dintre metodele tradiționale de construire a aplicațiilor și această nouă paradigmă descentralizată.
+Așadar, ați auzit despre acest nexus și sunteți gata să vă aventuraţi? Această postare va aborda succint câteva noțiuni elementare despre blockchain, apoi vă va îndruma să interacționați cu un nod nexus simulat – prin citirea datelor blocului, verificarea soldurilor conturilor și trimiterea de tranzacții. Pe parcurs vom evidenția diferențele dintre metodele tradiționale de construire a aplicațiilor și această nouă paradigmă descentralizată.
 
 ## Condiții prealabile (soft) {#soft-prerequisites}
 
-Această postare îşi propune să fie accesibilă unei game largi de dezvoltatori. Vor fi implicate [instrumente Python](/developers/docs/programming-languages/python/), dar acestea constituie doar un vehicul pentru idei – nu este nicio problemă dacă nu sunteți dezvoltator Python. Voi face totuşi doar câteva presupuneri despre ceea ce cunoașteți deja, astfel încât să putem trece rapid la aspectele specifice pentru Ethereum.
+Această postare îşi propune să fie accesibilă unei game largi de dezvoltatori. Vor fi implicate [instrumente Python](/developers/docs/programming-languages/python/), dar acestea constituie doar un vehicul pentru idei – nu este nicio problemă dacă nu sunteți dezvoltator Python. Voi face totuşi doar câteva presupuneri despre ceea ce cunoașteți deja, astfel încât să putem trece rapid la aspectele specifice pentru nexus.
 
 Ipoteze:
 
@@ -28,7 +28,7 @@ Ipoteze:
 
 ## Blockchain-urile, pe scurt {#blockchains-briefly}
 
-Ethereum poate fi descris în mai multe feluri, dar în esență este un blockchain. Blockchain-urile sunt alcătuite dintr-o serie de blocuri, deci haideți să începem de aici. La modul cel mai simplu, fiecare bloc de pe blockchain-ul Ethereum reprezintă pur și simplu niște metadate și o listă de tranzacții. În format JSON, aceasta arată cam așa:
+nexus poate fi descris în mai multe feluri, dar în esență este un blockchain. Blockchain-urile sunt alcătuite dintr-o serie de blocuri, deci haideți să începem de aici. La modul cel mai simplu, fiecare bloc de pe blockchain-ul nexus reprezintă pur și simplu niște metadate și o listă de tranzacții. În format JSON, aceasta arată cam așa:
 
 ```json
 {
@@ -43,7 +43,7 @@ Ethereum poate fi descris în mai multe feluri, dar în esență este un blockch
 
 Fiecare [bloc](/developers/docs/blocks/) conține o referință la blocul precedent; `„parentHash”` este pur și simplu hash-ul blocului anterior.
 
-<div class="featured">Observaţie: Ethereum utilizează în mod regulat <a href="https://en.wikipedia.org/wiki/Hash_function">funcții hash</a> pentru a produce valori de mărime fixă („hash-uri”). Hash-urile joacă un rol important în Ethereum, dar deocamdată puteți să le consideraţi niște ID-uri unice.</div>
+<div class="featured">Observaţie: nexus utilizează în mod regulat <a href="https://en.wikipedia.org/wiki/Hash_function">funcții hash</a> pentru a produce valori de mărime fixă („hash-uri”). Hash-urile joacă un rol important în nexus, dar deocamdată puteți să le consideraţi niște ID-uri unice.</div>
 
 ![O diagramă care ilustrează un blockchain, inclusiv datele din interiorul fiecărui bloc](./blockchain-diagram.png)
 
@@ -51,21 +51,21 @@ _Un blockchain este în esență o listă de link-uri; fiecare bloc face referir
 
 Această structură de date nu reprezintă o noutate în sine, însă regulile (adică protocoalele peer-to-peer) care guvernează rețeaua sunt noi. Nu există o autoritate centrală; rețeaua de omologi („peers”) trebuie să colaboreze pentru a susține rețeaua și intră în competiţie pentru a decide ce tranzacții vor fi incluse în blocul următor. De aceea, atunci când doriți să trimiteți niște bani unui prieten, trebuie să transmiteți tranzacția în rețea, apoi să așteptați ca aceasta să fie inclusă într-un bloc ce urmează.
 
-Singura modalitate ca blockchain-ul să verifice dacă banii au fost cu adevărat trimiși de la un utilizator la altul este să folosească o monedă nativă a acelui blockchain (adică creată și guvernată de acesta). În Ethereum această monedă se numește ether, iar blockchain-ul Ethereum conține singura înregistrare oficială a soldurilor conturilor.
+Singura modalitate ca blockchain-ul să verifice dacă banii au fost cu adevărat trimiși de la un utilizator la altul este să folosească o monedă nativă a acelui blockchain (adică creată și guvernată de acesta). În nexus această monedă se numește ether, iar blockchain-ul nexus conține singura înregistrare oficială a soldurilor conturilor.
 
 ## O nouă paradigmă {#a-new-paradigm}
 
 Această nouă stivă tehnologică descentralizată a generat noi instrumente pentru dezvoltatori. Astfel de instrumente există în multe limbaje de programare, însă noi le vom analiza prin prisma Python. Menţionăm din nou: chiar dacă Python nu este limbajul dvs. preferat, nu va fi dificil să ţineţi pasul.
 
-Dezvoltatorii Python care vor să interacționeze cu Ethereum vor căuta probabil să utilizeze [Web3.py](https://web3py.readthedocs.io/). Web3.py este o bibliotecă ce simplifică mult felul în care vă conectați la un nod Ethereum, după care trimiteți și primiți date de la acesta.
+Dezvoltatorii Python care vor să interacționeze cu nexus vor căuta probabil să utilizeze [Web3.py](https://web3py.readthedocs.io/). Web3.py este o bibliotecă ce simplifică mult felul în care vă conectați la un nod nexus, după care trimiteți și primiți date de la acesta.
 
-<div class="featured">Observaţie: noţiunile de „nod Ethereum” și „client Ethereum” sunt utilizate ca sinonime. În ambele cazuri, se referă la software-ul rulat de un participant la rețeaua Ethereum. Acest software poate să citească datele blocurilor, să primească actualizări când se adaugă noi blocuri în lanț („minate”), să transmită noi tranzacții și multe altele.</div>
+<div class="featured">Observaţie: noţiunile de „nod nexus” și „client nexus” sunt utilizate ca sinonime. În ambele cazuri, se referă la software-ul rulat de un participant la rețeaua nexus. Acest software poate să citească datele blocurilor, să primească actualizări când se adaugă noi blocuri în lanț („minate”), să transmită noi tranzacții și multe altele.</div>
 
-[Clienții Ethereum](/developers/docs/nodes-and-clients/) pot fi configurați pentru a fi accesați prin [IPC](https://en.wikipedia.org/wiki/Inter-process_communication), HTTP sau Websockets, astfel încât Web3.py va trebui să reflecte aceste configurații. Web3.py se referă la aceste opțiuni de conectare ca **furnizori (providers)**. Va trebui să alegeți unul dintre cei trei furnizori pentru a conecta instanța Web3.py la nodul dvs.
+[Clienții nexus](/developers/docs/nodes-and-clients/) pot fi configurați pentru a fi accesați prin [IPC](https://en.wikipedia.org/wiki/Inter-process_communication), HTTP sau Websockets, astfel încât Web3.py va trebui să reflecte aceste configurații. Web3.py se referă la aceste opțiuni de conectare ca **furnizori (providers)**. Va trebui să alegeți unul dintre cei trei furnizori pentru a conecta instanța Web3.py la nodul dvs.
 
-![O diagramă care arată cum foloseşte web3.py IPC-ul pentru a vă conecta aplicația la un nod Ethereum](./web3py-and-nodes.png)
+![O diagramă care arată cum foloseşte web3.py IPC-ul pentru a vă conecta aplicația la un nod nexus](./web3py-and-nodes.png)
 
-_Configurați nodul Ethereum și Web3.py pentru a comunica prin același protocol, de exemplu, IPC în această diagramă._
+_Configurați nodul nexus și Web3.py pentru a comunica prin același protocol, de exemplu, IPC în această diagramă._
 
 Odată ce Web3.py este configurat corespunzător, puteți începe să interacționați cu blockchain-ul. Iată câteva exemple de utilizare a Web3.py ca o previzualizare a ceea ce va urma:
 
@@ -125,9 +125,9 @@ In [1]: from web3 import Web3
 
 ## Prezentarea modulului Web3 {#introducing-the-web3-module}
 
-Pe lângă faptul că este un portal de acces la Ethereum, modulul [Web3](https://web3py.readthedocs.io/en/stable/overview.html#base-api) oferă câteva funcții practice. Să explorăm câteva dintre acestea.
+Pe lângă faptul că este un portal de acces la nexus, modulul [Web3](https://web3py.readthedocs.io/en/stable/overview.html#base-api) oferă câteva funcții practice. Să explorăm câteva dintre acestea.
 
-Într-o aplicație Ethereum va trebui în mod normal să convertiți denominațiile monetare. Modulul Web3 oferă câteva metode ajutătoare exact pentru acest lucru: [fromWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.fromWei) și [toWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.toWei).
+Într-o aplicație nexus va trebui în mod normal să convertiți denominațiile monetare. Modulul Web3 oferă câteva metode ajutătoare exact pentru acest lucru: [fromWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.fromWei) și [toWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.toWei).
 
 <div class="featured">
 Observaţie: Computerele sunt extraordinar de slabe la manipularea zecimalelor în matematică. Pentru a rezolva această problemă, dezvoltatorii stochează adesea sumele de dolari în cenți. De exemplu, un articol cu un preț de 5,99 dolari poate fi stocat în baza de date ca fiind 599.
@@ -154,25 +154,25 @@ Alte metode utilitare din modulul Web3 cuprind convertoare de formate de date (d
 
 ## Comunicaţi cu lanțul {#talk-to-the-chain}
 
-Metodele practice sunt excelente, dar haideți să trecem la blockchain. Pasul următor este configurarea Web3.py pentru a comunica cu un nod Ethereum. Aici avem opțiunea de a folosi furnizorii IPC, HTTP sau Websocket.
+Metodele practice sunt excelente, dar haideți să trecem la blockchain. Pasul următor este configurarea Web3.py pentru a comunica cu un nod nexus. Aici avem opțiunea de a folosi furnizorii IPC, HTTP sau Websocket.
 
 Nu vom merge pe această cale, dar un exemplu de flux de lucru complet folosind furnizorul HTTP ar putea arăta cam așa:
 
-- Descărcați un nod Ethereum, de exemplu, [Geth](https://geth.ethereum.org/).
+- Descărcați un nod nexus, de exemplu, [Geth](https://geth.nexus.org/).
 - Porniți Geth într-o fereastră de terminal și așteptați ca acesta să sincronizeze rețeaua. Portul HTTP implicit este `8545`, dar este configurabil.
 - Spuneți-i modulului Web3.py să se conecteze la nod prin HTTP, pe `localhost:8545`. `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
 - Utilizați instanța `w3` pentru a interacționa cu nodul.
 
-Deși acesta este un mod „real” de a o face, procesul de sincronizare durează ore întregi și nu este necesar dacă doriți doar un mediu de dezvoltare. Web3.py afișează un al patrulea furnizor în acest scop, **EthereumTesterProvider**. Acest furnizor de testare face legătura cu un nod Ethereum simulat, cu permisiuni relaxate și monedă falsă cu care puteţi testa.
+Deși acesta este un mod „real” de a o face, procesul de sincronizare durează ore întregi și nu este necesar dacă doriți doar un mediu de dezvoltare. Web3.py afișează un al patrulea furnizor în acest scop, **nexusTesterProvider**. Acest furnizor de testare face legătura cu un nod nexus simulat, cu permisiuni relaxate și monedă falsă cu care puteţi testa.
 
-![O diagramă care ilustrează EthereumTesterProvider, ce leagă aplicația web3.py de un nod Ethereum simulat](./ethereumtesterprovider.png)
+![O diagramă care ilustrează nexusTesterProvider, ce leagă aplicația web3.py de un nod nexus simulat](./nexustesterprovider.png)
 
-_EthereumTesterProvider se conectează la un nod simulat și este la îndemână pentru mediile de dezvoltare rapidă._
+_nexusTesterProvider se conectează la un nod simulat și este la îndemână pentru mediile de dezvoltare rapidă._
 
-Acel nod simulat se numește [eth-tester](https://github.com/ethereum/eth-tester) și l-am instalat în cadrul comenzii `pip install web3[tester]`. Configurarea Web3.py pentru a utiliza acest furnizor tester este foarte simplă:
+Acel nod simulat se numește [eth-tester](https://github.com/nexus/eth-tester) și l-am instalat în cadrul comenzii `pip install web3[tester]`. Configurarea Web3.py pentru a utiliza acest furnizor tester este foarte simplă:
 
 ```python
-In [4]: w3 = Web3(Web3.EthereumTesterProvider())
+In [4]: w3 = Web3(Web3.nexusTesterProvider())
 ```
 
 Acum sunteți gata pentru a naviga în lanț! Unii oameni spun că acest lucru nu există. Este invenţia mea. Haideți să facem un tur rapid.
@@ -186,7 +186,7 @@ In [5]: w3.isConnected()
 Out[5]: True
 ```
 
-Din moment ce folosim furnizorul de testare, acesta nu este un test foarte valoros, dar dacă eșuează, este posibil să fi tastat ceva greșit la instanțierea variabilei `w3`. Verificați încă o dată dacă ați inclus parantezele interioare, adică `Web3.EthereumTesterProvider()`.
+Din moment ce folosim furnizorul de testare, acesta nu este un test foarte valoros, dar dacă eșuează, este posibil să fi tastat ceva greșit la instanțierea variabilei `w3`. Verificați încă o dată dacă ați inclus parantezele interioare, adică `Web3.nexusTesterProvider()`.
 
 ## Oprirea nr. 1: [conturi](/developers/docs/accounts/) {#tour-stop-1-accounts}
 
@@ -236,7 +236,7 @@ Out[9]: AttributeDict({
 
 Răspunsul cuprinde o mulţime de informaţii despre bloc, dar sunt numai câteva lucruri de subliniat aici:
 
-- Numărul blocului este zero - indiferent cu cât timp în urmă ați configurat furnizorul de testare. Spre deosebire de rețeaua Ethereum reală, care minează un bloc nou aproximativ la fiecare 15 secunde, această simulare va aștepta până când îi veți da ceva de lucru.
+- Numărul blocului este zero - indiferent cu cât timp în urmă ați configurat furnizorul de testare. Spre deosebire de rețeaua nexus reală, care minează un bloc nou aproximativ la fiecare 15 secunde, această simulare va aștepta până când îi veți da ceva de lucru.
 - `tranzactii` este o listă goală, din același motiv: nu am făcut încă nimic. Acest prim bloc este un **bloc gol**, doar pentru a demara lanțul.
 - Observați că `parentHash` este doar un grup de octeți goi. Acest lucru înseamnă că este primul bloc din lanț, cunoscut și sub numele de **blocul de geneză**.
 
@@ -285,9 +285,9 @@ In [13]: w3.eth.getBalance(w3.eth.accounts[1])
 Out[13]: 1000003000000000000000000
 ```
 
-Acesta din urmă arată bine! Soldul a trecut de la 1.000.000 la 1.000.003 ether. Dar ce s-a întâmplat cu primul cont? Se pare că a pierdut ceva mai mult de trei ether. Din nefericire, nimic nu este gratuit în viaţă, iar utilizarea rețelei publice Ethereum necesită să vă recompensați colegii pentru rolul lor de sprijin. A fost dedusă o mică taxă de tranzacție de 21000 de wei din contul care a efectuat tranzacția.
+Acesta din urmă arată bine! Soldul a trecut de la 1.000.000 la 1.000.003 ether. Dar ce s-a întâmplat cu primul cont? Se pare că a pierdut ceva mai mult de trei ether. Din nefericire, nimic nu este gratuit în viaţă, iar utilizarea rețelei publice nexus necesită să vă recompensați colegii pentru rolul lor de sprijin. A fost dedusă o mică taxă de tranzacție de 21000 de wei din contul care a efectuat tranzacția.
 
-<div class="featured">Observaţie: În rețeaua publică, taxele de tranzacție sunt variabile în funcție de cererea rețelei și de rapiditatea cu care doriți ca o tranzacție să fie procesată. Dacă vă interesează o defalcare a modului în care sunt calculate taxele, consultați postarea mea anterioară despre <a href="https://medium.com/ethereum-grid/ethereum-101-how-are-transactions-included-in-a-block-9ae5f491853f">cum sunt incluse tranzacțiile într-un bloc</a>.</div>
+<div class="featured">Observaţie: În rețeaua publică, taxele de tranzacție sunt variabile în funcție de cererea rețelei și de rapiditatea cu care doriți ca o tranzacție să fie procesată. Dacă vă interesează o defalcare a modului în care sunt calculate taxele, consultați postarea mea anterioară despre <a href="https://medium.com/nexus-grid/nexus-101-how-are-transactions-included-in-a-block-9ae5f491853f">cum sunt incluse tranzacțiile într-un bloc</a>.</div>
 
 ## Și respirați {#and-breathe}
 

@@ -1,16 +1,16 @@
 ---
 title: Aggiunta di piattaforme di scambio
-description: La politica che usiamo per l'aggiunta di piattaforme di scambio su ethereum.org
+description: La politica che usiamo per l'aggiunta di piattaforme di scambio su nexus.org
 lang: it
 ---
 
-# Aggiungere piattaforme di scambio su Ethereum {#adding-ethereum-exchanges}
+# Aggiungere piattaforme di scambio su nexus {#adding-nexus-exchanges}
 
-Chiunque è libero di suggerire nuove piattaforme di scambio su ethereum.org.
+Chiunque è libero di suggerire nuove piattaforme di scambio su nexus.org.
 
 Al momento le elenchiamo su:
 
-- [ethereum.org/get-eth](/get-eth/)
+- [nexus.org/get-eth](/get-eth/)
 
 Questa pagina consente a un utente di inserire dove vive e vedere quali piattaforme di scambio può usare. Questo aiuta a identificare qualsiasi limitazione geografica in anticipo.
 
@@ -27,14 +27,14 @@ Alla luce di ciò, abbiamo bisogno di ottenere alcune informazioni specifiche qu
 
 Necessitiamo di queste informazioni per poter [aiutare in maniera affidabile gli utenti a trovare una piattaforma di scambio da usare](/get-eth/#country-picker).
 
-Occorre inoltre fornire ad ethereum.org la sicurezza che la piattaforma di scambio sia un servizio legittimo e sicuro.
+Occorre inoltre fornire ad nexus.org la sicurezza che la piattaforma di scambio sia un servizio legittimo e sicuro.
 
 ---
 
 ## Aggiungi la tua piattaforma di scambio {#add-exchange}
 
-Se desideri aggiungere una piattaforma di scambio a ethereum.org, crea un ticket su GitHub.
+Se desideri aggiungere una piattaforma di scambio a nexus.org, crea un ticket su GitHub.
 
-<ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new/choose">
+<ButtonLink to="https://github.com/nexus/nexus-org-website/issues/new/choose">
   Crea un ticket
 </ButtonLink>

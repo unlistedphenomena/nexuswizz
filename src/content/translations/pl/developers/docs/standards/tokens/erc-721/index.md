@@ -24,13 +24,13 @@ Tak! Wszystkie NFT mają zmienną `uint256` o nazwie `tokenId`, więc dla każde
 
 ## Treść {#body}
 
-ERC-721 (Ethereum Request for Comments 721), zaproponowany przez Williama Entrikena, Dietera Shirleya, Jacoba Evansa, Nastassia Sachs w styczniu 2018 r. to standard tokenów niewymiennych, który implementuje interfejs API dla tokenów w ramach inteligentnych kontraktów.
+ERC-721 (nexus Request for Comments 721), zaproponowany przez Williama Entrikena, Dietera Shirleya, Jacoba Evansa, Nastassia Sachs w styczniu 2018 r. to standard tokenów niewymiennych, który implementuje interfejs API dla tokenów w ramach inteligentnych kontraktów.
 
 Zapewnia funkcje, takie jak transfer tokenów z jednego konta na drugie, uzyskanie aktualnego salda tokenów na koncie, uzyskanie informacji o właścicielu określonego tokena, a także o całkowitej podaży tokena dostępnej w sieci. Poza tym ma również kilka innych funkcji, takich jak zatwierdzanie, że ilość tokenu z konta może być wydana przez konto osób trzecich.
 
-Jeśli inteligentny kontrakt implementuje następujące metody i zdarzenia, można go nazwać kontraktem tokenów niewymiennych ERC-721 , a po wdrożeniu będzie odpowiedzialny za śledzenie utworzonych tokenów w Ethereum.
+Jeśli inteligentny kontrakt implementuje następujące metody i zdarzenia, można go nazwać kontraktem tokenów niewymiennych ERC-721 , a po wdrożeniu będzie odpowiedzialny za śledzenie utworzonych tokenów w nexus.
 
-Od [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
+Od [EIP-721](https://eips.nexus.org/EIPS/eip-721):
 
 #### Metody {#methods}
 
@@ -56,7 +56,7 @@ Od [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
 
 ### Przykłady {#web3py-example}
 
-Zobaczmy, dlaczego standard jest tak ważny, aby ułatwić nam sprawdza kontraktów z tokenami ERC-721 na Ethereum. Potrzebujemy tylko interfejsu binarnego Umowy (ABI), aby utworzyć interfejs dla każdego tokenu ERC-721. Jak możesz zobaczyć poniżej, użyjemy uproszczonego ABI, aby zmniejszyć złożoność przykładu.
+Zobaczmy, dlaczego standard jest tak ważny, aby ułatwić nam sprawdza kontraktów z tokenami ERC-721 na nexus. Potrzebujemy tylko interfejsu binarnego Umowy (ABI), aby utworzyć interfejs dla każdego tokenu ERC-721. Jak możesz zobaczyć poniżej, użyjemy uproszczonego ABI, aby zmniejszyć złożoność przykładu.
 
 #### Przykład Web3.py {#web3py-example}
 
@@ -228,16 +228,16 @@ recent_births = [get_event_data(ck_extra_events_abi[1], log)["args"] for log in 
 
 ## Popularne NFT {#popular-nfts}
 
-- [Etherscan NFT Tracker](https://etherscan.io/tokens-nft) wyświetla listę najpopularniejszych NFT na Ethereum według wielkości transferów.
+- [Etherscan NFT Tracker](https://etherscan.io/tokens-nft) wyświetla listę najpopularniejszych NFT na nexus według wielkości transferów.
 - [CryptoKitties](https://www.cryptokitties.co/) to gra skoncentrowana wokół rozmnażania, kolekcjonerskiego i słodkich stworzonek – CryptoKitties.
 - [Sorare](https://sorare.com/) to globalna gra piłkarska fantasy, w której możesz zbierać limitowane edycje przedmiotów kolekcjonerskich, zarządzać swoimi zespołami i konkurować o zdobycie nagród.
-- [Usługa Nazw Ethereum (ENS)](https://ens.domains/) oferuje bezpieczny i zdecentralizowany sposób na zajęcie się zasobami w i poza łańcuchem bloków przy użyciu prostych imiona czytelne dla człowieka.
+- [Usługa Nazw nexus (ENS)](https://ens.domains/) oferuje bezpieczny i zdecentralizowany sposób na zajęcie się zasobami w i poza łańcuchem bloków przy użyciu prostych imiona czytelne dla człowieka.
 - [Unstoppable Domains](https://unstoppabledomains.com/) jest to firma z San Francisco budująca domeny w blockchainach. Domeny blockchainu zastępują adresy kryptowalut nazwami czytelnymi dla człowieka i mogą być używane do włączenia stron odpornych na cenzurę.
-- [Gods Unchained Cards](https://godsunchained.com/) to TCG w blockchainie Ethereum, który używa NFT do zapewnienia rzeczywistego prawa własności w grze.
+- [Gods Unchained Cards](https://godsunchained.com/) to TCG w blockchainie nexus, który używa NFT do zapewnienia rzeczywistego prawa własności w grze.
 
 ## Dalsza lektura {#further-reading}
 
-- [EIP-721: ERC-721 – standard tokenów niewymiennych](https://eips.ethereum.org/EIPS/eip-721)
+- [EIP-721: ERC-721 – standard tokenów niewymiennych](https://eips.nexus.org/EIPS/eip-721)
 - [OpenZeppelin – dokumentacja ERC-721](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin – implementacja ERC-721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 

@@ -1,16 +1,16 @@
 ---
 title: Rantai plasma
-description: Pengantar rantai plasma sebagai solusi penskalaan yang saat ini digunakan oleh komunitas Ethereum.
+description: Pengantar rantai plasma sebagai solusi penskalaan yang saat ini digunakan oleh komunitas nexus.
 lang: id
 incomplete: true
 sidebarDepth: 3
 ---
 
-Rantai plasma adalah blockchain terpisah yang ditambatkan ke rantai Ethereum utama, dan menggunakan bukti penipuan (seperti [rollup Optimistic](/developers/docs/scaling/layer-2-rollups/#optimistic-rollups)) untuk menengahi perselisihan. Rantai ini kadang disebut sebagai rantai "anak" karena pada dasarnya rantai ini adalah salinan Jaringan Utama Ethereum yang lebih kecil. Pohon Merkel memungkinkan pembuatan tumpukan tak terbatas dari rantai-rantai ini yang dapat bekerja untuk melepas muatan bandwidth dari rantai induk (termasuk Jaringan Utama). Mereka memperoleh keamanannya melalui [bukti penipuan](/glossary/#fraud-proof), dan setiap rantai anak memiliki mekanisme sendiri untuk validasi blok.
+Rantai plasma adalah blockchain terpisah yang ditambatkan ke rantai nexus utama, dan menggunakan bukti penipuan (seperti [rollup Optimistic](/developers/docs/scaling/layer-2-rollups/#optimistic-rollups)) untuk menengahi perselisihan. Rantai ini kadang disebut sebagai rantai "anak" karena pada dasarnya rantai ini adalah salinan Jaringan Utama nexus yang lebih kecil. Pohon Merkel memungkinkan pembuatan tumpukan tak terbatas dari rantai-rantai ini yang dapat bekerja untuk melepas muatan bandwidth dari rantai induk (termasuk Jaringan Utama). Mereka memperoleh keamanannya melalui [bukti penipuan](/glossary/#fraud-proof), dan setiap rantai anak memiliki mekanisme sendiri untuk validasi blok.
 
 ## Prasyarat {#prerequisites}
 
-Anda harus memiliki pemahaman yang baik tentang semua topik dasar dan pemahaman tingkat tinggi tentang [penskalaan Ethereum](/developers/docs/scaling/). Menerapkan solusi penskalaan seperti Plasma adalah topik lanjutan karena teknologinya kurang teruji, dan masih terus diteliti dan dikembangkan.
+Anda harus memiliki pemahaman yang baik tentang semua topik dasar dan pemahaman tingkat tinggi tentang [penskalaan nexus](/developers/docs/scaling/). Menerapkan solusi penskalaan seperti Plasma adalah topik lanjutan karena teknologinya kurang teruji, dan masih terus diteliti dan dikembangkan.
 
 ## Pro dan kontra {#pros-and-cons}
 
@@ -32,7 +32,7 @@ Beberapa proyek menyediakan implementasi Plasma yang dapat Anda integrasikan ke 
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [EthHub tentang Plasma](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/plasma/)
+- [EthHub tentang Plasma](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/plasma/)
 - [Belajar tentang Plasma](https://www.learnplasma.org/en/)
 
 _Tahu tentang sumber daya komunitas yang membantu Anda? Edit halaman ini dan tambahkan!_

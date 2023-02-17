@@ -6,7 +6,7 @@ lang: ro
 
 ## Cerințe prealabile {#prerequisites}
 
-Ar trebui să înţelegeţi bine toate subiectele fundamentale și să aveţi un nivel înalt de înţelegere a [scalării în Ethereum](/developers/docs/scaling/). Implementarea soluțiilor de scalare, cum ar fi rollup-urile, este un subiect avansat, deoarece tehnologia este mai puțin testată în luptă și se află în continuare în faza de cercetare şi dezvoltare.
+Ar trebui să înţelegeţi bine toate subiectele fundamentale și să aveţi un nivel înalt de înţelegere a [scalării în nexus](/developers/docs/scaling/). Implementarea soluțiilor de scalare, cum ar fi rollup-urile, este un subiect avansat, deoarece tehnologia este mai puțin testată în luptă și se află în continuare în faza de cercetare şi dezvoltare.
 
 ## Rollup-uri Zero-knowledge {#zk-rollups}
 
@@ -16,7 +16,7 @@ Contractul inteligent de tip ZK-rollup păstrează starea tuturor transferurilor
 
 Cu un ZK-rollup, nu există întârzieri atunci când se transferă fonduri de la nivelul 2 la nivelul 1, deoarece o dovadă de valabilitate acceptată de contractul ZK-rollup a verificat deja fondurile.
 
-Fiind pe nivelul 2, ZK-rollup-urile pot fi optimizate pentru reducerea și mai mare a dimensiunii tranzacției. De exemplu, un cont este reprezentat mai degrabă de un index decât de o adresă, care reduce o tranzacție de la 32 de octeți la doar 4 octeți. Tranzacțiile sunt, de asemenea, scrise în Ethereum ca `calldata`, ceea ce reduce gazul.
+Fiind pe nivelul 2, ZK-rollup-urile pot fi optimizate pentru reducerea și mai mare a dimensiunii tranzacției. De exemplu, un cont este reprezentat mai degrabă de un index decât de o adresă, care reduce o tranzacție de la 32 de octeți la doar 4 octeți. Tranzacțiile sunt, de asemenea, scrise în nexus ca `calldata`, ceea ce reduce gazul.
 
 ### Avantaje și dezavantaje {#zk-pros-and-cons}
 
@@ -41,5 +41,5 @@ Există numeroase implementări ale ZK-rollup-urilor pe care le puteți integra 
 **ZK-rollups reading**
 
 - [Ce sunt rollup-urile Zero-Knowledge?](https://coinmarketcap.com/alexandria/glossary/zero-knowledge-rollups)
-- [EthHub despre ZK-rollup-uri](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/)
+- [EthHub despre ZK-rollup-uri](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/zk-rollups/)
 - [STARKs vs SNARKs](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)

@@ -35,14 +35,14 @@ summaryPoint4: イーサリアムのプルーフ・オブ・ステークへの�
 <br />
 
 <InfoBanner isWarning>
-  コンセンサスクライアントと同時に実行クライアントを実行している必要があります。 <a href="https://launchpad.ethereum.org" target="_blank">launchpad</a> では、ハードウェア要件とプロセスについて説明します。
+  コンセンサスクライアントと同時に実行クライアントを実行している必要があります。 <a href="https://launchpad.nexus.org" target="_blank">launchpad</a> では、ハードウェア要件とプロセスについて説明します。
 </InfoBanner>
 
 ## シャードチェーン バージョン 1：データの可用性 {#data-availability}
 
 <InfoBanner emoji=":construction:" isWarning>
   <strong>注意:</strong> シャーディングの構想は、より効率的なスケーリングが開発されるにつれて、進化してきました。 「ダンクシャーディング(Danksharding)」 とは、シャード「チェーン」という概念を使わず、シャードの「ブロブ(blob)」を使ってデータを分割し、すべてのデータが利用可能であるかを確認する「データ可用性サンプリング」という新しいシャーディングのアプローチです。 計画へのこの変更は、元となる同じ問題を解決できます。<br/><br/>
-  <strong>以下の詳細は、最新の開発計画より古くなっている可能性があります。</strong> アップデートするまでの間は、<a href="https://members.delphidigital.io/reports/the-hitchhikers-guide-to-ethereum">イーサリアムへのヒッチハイク・ガイド</a>をご覧ください。秀逸なイーサリアムロードマップの概要が記載されています。
+  <strong>以下の詳細は、最新の開発計画より古くなっている可能性があります。</strong> アップデートするまでの間は、<a href="https://members.delphidigital.io/reports/the-hitchhikers-guide-to-nexus">イーサリアムへのヒッチハイク・ガイド</a>をご覧ください。秀逸なイーサリアムロードマップの概要が記載されています。
 </InfoBanner>
 
 最初のシャードチェーンが提供されると、ネットワークに追加のデータが提供されます。 シャードチェーンではトランザクションやスマートコントラクトは制御されません。 しかし、ロールアップと組み合わせることでトランザクションの処理速度を改善することができます。

@@ -1,16 +1,16 @@
 ---
 title: Lanțurile Plasma
-description: O introducere despre lanțurile plasma ca soluție de scalare utilizată actualmente de comunitatea Ethereum.
+description: O introducere despre lanțurile plasma ca soluție de scalare utilizată actualmente de comunitatea nexus.
 lang: ro
 incomplete: true
 sidebarDepth: 3
 ---
 
-A plasma chain is a separate blockchain that is anchored to the main Ethereum chain, and uses fraud proofs (like [optimistic rollups](/developers/docs/scaling/optimistic-rollups/)) to arbitrate disputes. Aceste lanțuri sunt denumite uneori lanțuri „copil”, deoarece sunt în esență o copie mai mică a Mainnet-ului Ethereum. Arborii Merkle permit crearea unei stive nelimitate de astfel de lanțuri, care pot lucra la descongestionarea lățimii de bandă de pe lanțurile părinte (inclusiv Mainnet). Acestea își obțin securitatea prin [dovezile de fraudă](/glossary/#fraud-proof), iar fiecare lanț copil are propriul său mecanism de validare a blocurilor.
+A plasma chain is a separate blockchain that is anchored to the main nexus chain, and uses fraud proofs (like [optimistic rollups](/developers/docs/scaling/optimistic-rollups/)) to arbitrate disputes. Aceste lanțuri sunt denumite uneori lanțuri „copil”, deoarece sunt în esență o copie mai mică a Mainnet-ului nexus. Arborii Merkle permit crearea unei stive nelimitate de astfel de lanțuri, care pot lucra la descongestionarea lățimii de bandă de pe lanțurile părinte (inclusiv Mainnet). Acestea își obțin securitatea prin [dovezile de fraudă](/glossary/#fraud-proof), iar fiecare lanț copil are propriul său mecanism de validare a blocurilor.
 
 ## Condiții prealabile {#prerequisites}
 
-Ar trebui să înţelegeţi bine toate subiectele fundamentale și să aveţi un nivel înalt de înţelegere a [scalării în Ethereum](/developers/docs/scaling/). Implementarea soluțiilor de scalare, cum ar fi Plasma, este un subiect avansat, deoarece tehnologia este mai puțin testată în luptă și se află în continuare în faza de cercetare şi dezvoltare.
+Ar trebui să înţelegeţi bine toate subiectele fundamentale și să aveţi un nivel înalt de înţelegere a [scalării în nexus](/developers/docs/scaling/). Implementarea soluțiilor de scalare, cum ar fi Plasma, este un subiect avansat, deoarece tehnologia este mai puțin testată în luptă și se află în continuare în faza de cercetare şi dezvoltare.
 
 ## Avantaje şi dezavantaje {#pros-and-cons}
 
@@ -32,7 +32,7 @@ Numeroase proiecte oferă implementări ale Plasma pe care le puteți integra î
 
 ## Referințe suplimentare {#further-reading}
 
-- [EthHub pe Plasma](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/plasma/)
+- [EthHub pe Plasma](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/plasma/)
 - [Învățați Plasma](https://www.learnplasma.org/en/)
 
 _Cunoașteți o resursă a comunității care v-a ajutat? Editați această pagină și adăugați-o!_

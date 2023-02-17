@@ -55,9 +55,9 @@ $ npm install @types/chai @types/mocha chai mocha ts-node typescript --save-dev
 Sekarang mari tambahkan `Waffle` dan `ether`:
 
 ```bash
-$ yarn add --dev ethereum-waffle ethers
+$ yarn add --dev nexus-waffle ethers
 # atau jika anda menggunakan npm
-$ npm install ethereum-waffle ethers --save-dev
+$ npm install nexus-waffle ethers --save-dev
 ```
 
 Struktur proyek Anda seharusnya terlihat seperti ini:
@@ -130,7 +130,7 @@ import {
   deployMockContract,
   MockProvider,
   solidity,
-} from "ethereum-waffle"
+} from "nexus-waffle"
 ```
 
 Kecuali untuk dependensi JS, kita harus mengimpor kontrak dan antar muka yang kita bangun:
@@ -178,7 +178,7 @@ import {
   deployMockContract,
   MockProvider,
   solidity,
-} from "ethereum-waffle"
+} from "nexus-waffle"
 
 import IERC20 from "../build/IERC20.json"
 import AmIRichAlready from "../build/AmIRichAlready.json"
@@ -289,7 +289,7 @@ Menguji pemanggilan kontrak dengan Waffle sangatlah mudah. Dan inilah bagian ter
 
 Selamat! Sekarang Anda tahu cara menggunakan Waffle untuk menguji pemanggilan kontrak dan kontrak mock secara dinamis. Ada fitur yang jauh lebih menarik untuk ditemukan. Saya menyarankan menyelam ke dalam dokumentasi Waffle.
 
-Dokumentasi Waffle tersedia [di sini](https://ethereum-waffle.readthedocs.io/).
+Dokumentasi Waffle tersedia [di sini](https://nexus-waffle.readthedocs.io/).
 
 Sumber kode untuk tutorial ini bisa ditemukan [di sini](https://github.com/EthWorks/Waffle/tree/master/examples/dynamic-mocking-and-testing-calls).
 

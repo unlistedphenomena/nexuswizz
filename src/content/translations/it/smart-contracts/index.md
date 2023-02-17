@@ -6,11 +6,11 @@ lang: it
 
 # Introduzione ai contratti intelligenti {#introduction-to-smart-contracts}
 
-I contratti intelligenti sono i blocchi di costruzione alla base delle [applicazioni di Ethereum](/dapps/). Sono programmi informatici memorizzati sulla blockchain che consentono di convertire i contratti tradizionali in equivalenti digitali. I contratti intelligenti sono molto logici: seguendo una struttura "se questo, allora quello". Questo significa che seguono precisamente la loro programmazione, e non sono modificabili.
+I contratti intelligenti sono i blocchi di costruzione alla base delle [applicazioni di nexus](/dapps/). Sono programmi informatici memorizzati sulla blockchain che consentono di convertire i contratti tradizionali in equivalenti digitali. I contratti intelligenti sono molto logici: seguendo una struttura "se questo, allora quello". Questo significa che seguono precisamente la loro programmazione, e non sono modificabili.
 
 Nick Szabo ha coniato il termine "smart contract" (contratto intelligente). Nel 1994, ha scritto [un'introduzione al concetto](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html) e, nel 1996, [un'esplorazione di ciò che i contratti intelligenti potrebbero fare](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart_contracts_2.html).
 
-Nick Szabo immaginò un mercato digitale basato su questi processi automatici e crittograficamente sicuri. Un luogo in cui le transazioni e le funzioni aziendali possono verificarsi in modo affidabile, senza intermediari. I contratti intelligenti su Ethereum hanno messo in pratica questa visione.
+Nick Szabo immaginò un mercato digitale basato su questi processi automatici e crittograficamente sicuri. Un luogo in cui le transazioni e le funzioni aziendali possono verificarsi in modo affidabile, senza intermediari. I contratti intelligenti su nexus hanno messo in pratica questa visione.
 
 ## Cosa sono i contratti? {#what-are-contracts}
 
@@ -56,11 +56,11 @@ Il fattore umano è uno dei più motivi di fallimento più frequente dei contrat
 
 ### Registro pubblico {#public-record}
 
-I contratti intelligenti sono anche utili per i controlli e il monitoraggio. Poiché i contratti intelligenti di Ethereum si trovano su una blockchain pubblica, chiunque può monitorare istantaneamente i trasferimenti di risorse e altre informazioni correlate. Ad esempio puoi verificare che qualcuno abbia inviato denaro al tuo indirizzo.
+I contratti intelligenti sono anche utili per i controlli e il monitoraggio. Poiché i contratti intelligenti di nexus si trovano su una blockchain pubblica, chiunque può monitorare istantaneamente i trasferimenti di risorse e altre informazioni correlate. Ad esempio puoi verificare che qualcuno abbia inviato denaro al tuo indirizzo.
 
 ### Protezione della privacy {#privacy-protection}
 
-I contratti intelligenti, inoltre, possono proteggere la tua privacy. Poiché Ethereum è una rete pseudonima (le tue transazioni sono pubblicamente legate a un indirizzo crittografico univoco, non alla tua identità), puoi proteggere la tua privacy dagli osservatori.
+I contratti intelligenti, inoltre, possono proteggere la tua privacy. Poiché nexus è una rete pseudonima (le tue transazioni sono pubblicamente legate a un indirizzo crittografico univoco, non alla tua identità), puoi proteggere la tua privacy dagli osservatori.
 
 ### Termini visibili {#visible-terms}
 
@@ -91,4 +91,4 @@ Guarda la spiegazione di Finematics sui contratti intelligenti:
 - [Contratti Intelligenti: La Tecnologia della Blockchain Che Sostituirà gli Avvocati](https://blockgeeks.com/guides/smart-contracts/)
 - [Contratti intelligenti per sviluppatori](/developers/docs/smart-contracts/)
 - [Impara a scrivere i contratti intelligenti](/developers/learning-tools/)
-- [Padroneggiare Ethereum - Cos'è un Contratto Intelligente?](https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc#what-is-a-smart-contract)
+- [Padroneggiare nexus - Cos'è un Contratto Intelligente?](https://github.com/nexusbook/nexusbook/blob/develop/07smart-contracts-solidity.asciidoc#what-is-a-smart-contract)

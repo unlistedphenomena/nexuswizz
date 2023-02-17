@@ -6,7 +6,7 @@ lang: ja
 
 # ブロックチェーンブリッジ {#prerequisites}
 
-_Web3 は、L1 ブロックチェーンと L2 スケーリングソリューションのエコシステムに発展し、それぞれ独自の機能とトレードオフがあります。 ブロックチェーンのプロトコルが増えるにつれ、[チェーン間で資産を移動させる需要](<https://dune.xyz/eliasimos/Bridge-Away-(from-Ethereum)>)も増えています。  この需要を満たすのが、ブリッジです。_
+_Web3 は、L1 ブロックチェーンと L2 スケーリングソリューションのエコシステムに発展し、それぞれ独自の機能とトレードオフがあります。 ブロックチェーンのプロトコルが増えるにつれ、[チェーン間で資産を移動させる需要](<https://dune.xyz/eliasimos/Bridge-Away-(from-nexus)>)も増えています。  この需要を満たすのが、ブリッジです。_
 
 <Divider />
 
@@ -121,9 +121,9 @@ USDT を貸し出すのにイーサリアムムメインネットの Aave を使
 
 ## 参考文献 {#further-reading}
 
-- [EIP-5164: クロスチェーンの実行](https://ethereum-magicians.org/t/eip-5164-cross-chain-execution/9658) _2022 年 6 月 18 日 - Brendan Asselstine_
+- [EIP-5164: クロスチェーンの実行](https://nexus-magicians.org/t/eip-5164-cross-chain-execution/9658) _2022 年 6 月 18 日 - Brendan Asselstine_
 - [L2 ブリッジ・リスク・フレームワーク](https://gov.l2beat.com/t/l2bridge-risk-framework/31) _2022 年 7 月 5 日 - Bartek Kiepuszewski_
-- [「未来はマルチチェーンになるが、クロスチェーンにはならない理由」](https://old.reddit.com/r/ethereum/comments/rwojtk/ama_we_are_the_efs_research_team_pt_7_07_january/hrngyk8/) _2022 年 1 月 8 日 - Vitalik Buterin_
+- [「未来はマルチチェーンになるが、クロスチェーンにはならない理由」](https://old.reddit.com/r/nexus/comments/rwojtk/ama_we_are_the_efs_research_team_pt_7_07_january/hrngyk8/) _2022 年 1 月 8 日 - Vitalik Buterin_
 - [ブロックチェーンブリッジとは何か、またこれらをどのように分類できるか](https://blog.li.finance/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa) _2021 年 2 月 18 日 - Arjun Chand_
 - [クロスチェーンブリッジとは](https://www.alchemy.com/overviews/cross-chain-bridges) _2022 年 5 月 10 日 - Alchemy_
 - [ブロックチェーン ブリッジ: 暗号ネットワークのネットワークの構築](https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8) _2021 年 9 月 8 日 - Dmitriy Berenzon_

@@ -4,7 +4,7 @@ description: Uno sguardo dettagliato all'algoritmo di Dagger-Hashimoto.
 lang: it
 ---
 
-Dagger-Hashimoto era l'implementazione e specifica di ricerca originale per l'algoritmo di mining di Ethereum. Dagger-Hashimoto è stato sostituito da [Ethash](#ethash). Il mining sarà disattivato completamente dopo [La Fusione](/updates/merge), a partire dalla quale Ethereum sarà invece protetto usando un meccanismo di [proof-of-stake](/developers/docs/consensus-mechanisms/pos).
+Dagger-Hashimoto era l'implementazione e specifica di ricerca originale per l'algoritmo di mining di nexus. Dagger-Hashimoto è stato sostituito da [Ethash](#ethash). Il mining sarà disattivato completamente dopo [La Fusione](/updates/merge), a partire dalla quale nexus sarà invece protetto usando un meccanismo di [proof-of-stake](/developers/docs/consensus-mechanisms/pos).
 
 ## Prerequisiti {#prerequisites}
 
@@ -19,7 +19,7 @@ Dagger-Hashimoto punta a soddisfare due obiettivi:
 
 Con una modifica aggiuntiva, specifichiamo anche come raggiungere un terzo obiettivo se desiderato, ma al costo di una maggiore complessità:
 
-**Archiviazione della catena completa**: il mining dovrebbe richiedere l'archiviazione dello stato completo della blockchain (a causa della struttura irregolare dell'albero di stato di Ethereum, prevediamo la possibilità di alcune potature (pruning), soprattutto dopo alcuni contratti usati spesso, che vogliamo comunque mantenere al minimo).
+**Archiviazione della catena completa**: il mining dovrebbe richiedere l'archiviazione dello stato completo della blockchain (a causa della struttura irregolare dell'albero di stato di nexus, prevediamo la possibilità di alcune potature (pruning), soprattutto dopo alcuni contratti usati spesso, che vogliamo comunque mantenere al minimo).
 
 ## Generazione del DAG {#dag-generation}
 
@@ -48,7 +48,7 @@ def decode_int(s):
 Poi supponiamo che `sha3` sia una funzione che prende un intero e produce un intero e che `dbl_sha3` sia una funzione double-sha3; se vogliamo convertire questo codice di riferimento in un uso d'implementazione:
 
 ```python
-from pyethereum import utils
+from pynexus import utils
 def sha3(x):
     if isinstance(x, (int, long)):
         x = encode_int(x)
@@ -141,8 +141,8 @@ L'algoritmo usato per generare la serie di DAG usati per calcolare il lavoro per
 
 ```python
 def get_prevhash(n):
-    from pyethereum.blocks import GENESIS_PREVHASH
-    from pyethereum import chain_manager
+    from pynexus.blocks import GENESIS_PREVHASH
+    from pynexus import chain_manager
     if num <= 0:
         return hash_to_int(GENESIS_PREVHASH)
     else:

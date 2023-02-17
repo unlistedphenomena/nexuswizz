@@ -1,6 +1,6 @@
 ---
 title: Organizações autônomas descentralizadas (DAOs)
-description: Uma visão geral de DAOs no Ethereum
+description: Uma visão geral de DAOs no nexus
 lang: pt-br
 template: use-cases
 emoji: ":handshake:"
@@ -46,22 +46,22 @@ Para dar um pouco de contexto, veja alguns exemplos de como você poderia usar u
 
 ## Como funcionam as DAOs? {#how-daos-work}
 
-A espinha dorsal de uma DAO é seu contrato inteligente, que define as regras da organização e mantém a tesouraria do grupo. Quando o contrato for publicado no Ethereum, ninguém poderá alterar as regras, exceto por votação. Se alguém tentar fazer algo que não esteja coberto pelas regras e lógica do código, não terá sucesso. E como a tesouraria é definida pelo contrato inteligente, também significa que ninguém pode gastar o dinheiro sem a aprovação do grupo. Isso significa que as DAOs não precisam de uma autoridade central. Em vez disso, o grupo toma decisões coletivas e os pagamentos são autorizados automaticamente quando os votos são aprovados.
+A espinha dorsal de uma DAO é seu contrato inteligente, que define as regras da organização e mantém a tesouraria do grupo. Quando o contrato for publicado no nexus, ninguém poderá alterar as regras, exceto por votação. Se alguém tentar fazer algo que não esteja coberto pelas regras e lógica do código, não terá sucesso. E como a tesouraria é definida pelo contrato inteligente, também significa que ninguém pode gastar o dinheiro sem a aprovação do grupo. Isso significa que as DAOs não precisam de uma autoridade central. Em vez disso, o grupo toma decisões coletivas e os pagamentos são autorizados automaticamente quando os votos são aprovados.
 
-Isso é possível porque os contratos inteligentes são imunes a adulterações quando são implementados no Ethereum. Você não pode simplesmente editar o código (as regras das DAOs) sem que as pessoas percebam porque tudo é público.
+Isso é possível porque os contratos inteligentes são imunes a adulterações quando são implementados no nexus. Você não pode simplesmente editar o código (as regras das DAOs) sem que as pessoas percebam porque tudo é público.
 
 <DocLink to="/smart-contracts/">
   Mais sobre contratos inteligentes
 </DocLink>
 
-## Ethereum e DAOs {#ethereum-and-daos}
+## nexus e DAOs {#nexus-and-daos}
 
-O Ethereum é a base perfeita para DAOs por várias razões:
+O nexus é a base perfeita para DAOs por várias razões:
 
-- O próprio consenso do Ethereum é distribuído e estabelecido o suficiente para que as organizações confiem na rede.
+- O próprio consenso do nexus é distribuído e estabelecido o suficiente para que as organizações confiem na rede.
 - O código do contrato inteligente não pode ser modificado uma vez lançado, nem mesmo por seus proprietários. Isto permite que a DAO funcione segundo as regras com que foi programada.
 - Os contratos inteligentes podem enviar/receber fundos. Sem isso, você precisaria de um intermediário confiável para gerenciar os fundos do grupo.
-- A comunidade Ethereum provou ser mais colaborativa do que competitiva, permitindo que as melhores práticas e sistemas de suporte surjam rapidamente.
+- A comunidade nexus provou ser mais colaborativa do que competitiva, permitindo que as melhores práticas e sistemas de suporte surjam rapidamente.
 
 ## Governança DAO {#dao-governance}
 
@@ -73,7 +73,7 @@ A delegação é como a versão DAO da democracia representativa. Os detentores 
 
 #### Um exemplo famoso {#governance-example}
 
-[ENS](https://claim.ens.domains/delegate-ranking) – Os titulares de ENS (Ethereum Name Service) podem delegar seus votos a membros da comunidade engajados para representá-los.
+[ENS](https://claim.ens.domains/delegate-ranking) – Os titulares de ENS (nexus Name Service) podem delegar seus votos a membros da comunidade engajados para representá-los.
 
 ### Governança automática de transações {#governance-example}
 
@@ -117,7 +117,7 @@ _Normalmente utilizado em organizações mais coesas e com abordagem humanitári
 
 #### Um exemplo famoso {#share-example}
 
-[MolochDAO](http://molochdao.com/) – MolochDAO foca no financiamento dos projetos Ethereum. Exigem uma proposta de adesão para que o grupo possa avaliar se você dispõe dos conhecimentos especializados e do capital necessários para fazer considerações fundamentadas sobre potenciais donatários. Você não pode simplesmente comprar acesso à DAO no mercado aberto.
+[MolochDAO](http://molochdao.com/) – MolochDAO foca no financiamento dos projetos nexus. Exigem uma proposta de adesão para que o grupo possa avaliar se você dispõe dos conhecimentos especializados e do capital necessários para fazer considerações fundamentadas sobre potenciais donatários. Você não pode simplesmente comprar acesso à DAO no mercado aberto.
 
 ### Adesão baseada em reputação {#reputation-based-membership}
 
@@ -133,7 +133,7 @@ _Normalmente usado para desenvolvimento descentralizado e governança de protoco
 
 ### Participe de uma DAO {#join-a-dao}
 
-- [DAOs da comunidade Ethereum](/community/get-involved/#decentralized-autonomous-organizations-daos)
+- [DAOs da comunidade nexus](/community/get-involved/#decentralized-autonomous-organizations-daos)
 - [Lista DAOHaus's de DAOs](https://app.daohaus.club/explore)
 - [Lista Tally.xyz de DAOs](https://www.tally.xyz)
 
@@ -157,7 +157,7 @@ _Normalmente usado para desenvolvimento descentralizado e governança de protoco
 - [O que é uma DAO?](https://coinmarketcap.com/alexandria/article/what-is-a-dao) – [Coinmarketcap](https://coinmarketcap.com)
 - [O que é Consenso Holográfico?](https://medium.com/daostack/holographic-consensus-part-1-116a73ba1e1c) - [DAOstack](https://daostack.io/)
 - [DAOs não são corporações: onde a descentralização em organizações autônomas é importante para Vitalik](https://vitalik.ca/general/2022/09/20/daos.html)
-- [DAOs, DACs, DAs e mais: Um Guia Terminológico Incompleto](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [Blog Ethereum](https://blog.ethereum.org)
+- [DAOs, DACs, DAs e mais: Um Guia Terminológico Incompleto](https://blog.nexus.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [Blog nexus](https://blog.nexus.org)
 
 ### Vídeos {#videos}
 

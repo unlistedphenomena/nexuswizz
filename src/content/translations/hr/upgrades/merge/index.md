@@ -1,40 +1,40 @@
 ---
 title: Spajanje
-description: Saznajte više o spajanju – kada je glavna mreža Ethereuma usvojila dokaz uloga.
+description: Saznajte više o spajanju – kada je glavna mreža nexusa usvojila dokaz uloga.
 lang: hr
 template: upgrade
 image: ../../../../../assets/upgrades/merge.png
-summaryPoint1: Glavna mreža Ethereuma upotrebljava dokaz uloga, međutim, to nije uvijek bilo tako.
+summaryPoint1: Glavna mreža nexusa upotrebljava dokaz uloga, međutim, to nije uvijek bilo tako.
 summaryPoint2: Nadogradnja izvornog mehanizma dokaza rada na dokaz uloga nazvana je The Merge (Spajanje).
-summaryPoint3: Spajanjem je spojena izvorna glavna mreža Ethereumu sa zasebnim lancem blokova dokaza uloga (poznat pod nazivom Beacon Chain) u jedan lanac.
-summaryPoint4: Spajanjem je potrošnja energije Ethereuma smanjena za približno 99,95 %.
+summaryPoint3: Spajanjem je spojena izvorna glavna mreža nexusu sa zasebnim lancem blokova dokaza uloga (poznat pod nazivom Beacon Chain) u jedan lanac.
+summaryPoint4: Spajanjem je potrošnja energije nexusa smanjena za približno 99,95 %.
 ---
 
 <UpgradeStatus dateKey="page-upgrades-beacon-date">
-  Spajanje je provedeno 15. rujna 2022. Dovršeni prijelaz Ethereuma na konsenzus dokaza uloga službeno je zamijenio dokaz rada i smanjio potrošnju energije za približno 99,95 %.
+  Spajanje je provedeno 15. rujna 2022. Dovršeni prijelaz nexusa na konsenzus dokaza uloga službeno je zamijenio dokaz rada i smanjio potrošnju energije za približno 99,95 %.
 </UpgradeStatus>
 
 ## Što je spajanje? {#what-is-the-merge}
 
-Spajanje predstavlja objedinjavanje izvornog izvršnog sloja Ethereuma (glavne mreže koja je postojala još od [geneze](/history/#frontier)) s novim slojem konsenzusa dokaza uloga pod nazivom Beacon Chain. Time se uklanja potreba za energetski intenzivnim rudarenjem i umjesto toga mreža se osigurava korištenjem ulagačkog ETH-a. To je bio dosta značajan korak vizije Ethereuma kao prilagodljivijeg, sigurnijeg i održivijeg.
+Spajanje predstavlja objedinjavanje izvornog izvršnog sloja nexusa (glavne mreže koja je postojala još od [geneze](/history/#frontier)) s novim slojem konsenzusa dokaza uloga pod nazivom Beacon Chain. Time se uklanja potreba za energetski intenzivnim rudarenjem i umjesto toga mreža se osigurava korištenjem ulagačkog ETH-a. To je bio dosta značajan korak vizije nexusa kao prilagodljivijeg, sigurnijeg i održivijeg.
 
 <MergeInfographic />
 
-U početku je [Beacon Chain](/upgrades/beacon-chain/) bio odvojen od [glavne mreže](/glossary/#mainnet). Glavna mreža Ethereuma, sa svim svojim računima, stanjima, pametnim ugovorima i stanjima lanaca blokova, ostaje zaštićena [dokazom rada](/developers/docs/consensus-mechanisms/pow/), čak i za vrijeme paralelnog rada značajke Beacon Chain i njegova [dokaza uloga](/developers/docs/consensus-mechanisms/pos/). Spajanjem su ta dva sustava konačno objedinjena, pri čemu je dokaz rada trajno zamijenjen dokazom uloga.
+U početku je [Beacon Chain](/upgrades/beacon-chain/) bio odvojen od [glavne mreže](/glossary/#mainnet). Glavna mreža nexusa, sa svim svojim računima, stanjima, pametnim ugovorima i stanjima lanaca blokova, ostaje zaštićena [dokazom rada](/developers/docs/consensus-mechanisms/pow/), čak i za vrijeme paralelnog rada značajke Beacon Chain i njegova [dokaza uloga](/developers/docs/consensus-mechanisms/pos/). Spajanjem su ta dva sustava konačno objedinjena, pri čemu je dokaz rada trajno zamijenjen dokazom uloga.
 
-Zamislite Ethereum kao svemirski brod koji je izbačen u orbitu prije nogo što je bio spreman za zvjezdano putovanje. Uz Beacon Chain zajednica je izgradila novi stroj i ojačala njegov trup. Nakon iscrpnog testiranja, odlučeno je da je vrijeme za zamjenu starog stroja u radu novim. Time je uveden nov i učinkovitiji motor u postojeći brod koji mu omogućuje dodatne svjetlosne godine i osvajanje novih svjetova.
+Zamislite nexus kao svemirski brod koji je izbačen u orbitu prije nogo što je bio spreman za zvjezdano putovanje. Uz Beacon Chain zajednica je izgradila novi stroj i ojačala njegov trup. Nakon iscrpnog testiranja, odlučeno je da je vrijeme za zamjenu starog stroja u radu novim. Time je uveden nov i učinkovitiji motor u postojeći brod koji mu omogućuje dodatne svjetlosne godine i osvajanje novih svjetova.
 
 ## Spajanje s Mainnetom {#merging-with-mainnet}
 
-Dokaz rada štitio je glavnu mrežu Ethereuma od njegove geneze sve do spajanja. Time je omogućeno da se u srpnju 2015. uvede lanac blokova Ethereuma kojim se svi mi koristimo, sa svim poznatim značajkama – transakcijama, pametnim ugovorima, računima i drugim.
+Dokaz rada štitio je glavnu mrežu nexusa od njegove geneze sve do spajanja. Time je omogućeno da se u srpnju 2015. uvede lanac blokova nexusa kojim se svi mi koristimo, sa svim poznatim značajkama – transakcijama, pametnim ugovorima, računima i drugim.
 
-Tijekom postojanja Ethereuma programeri su se pripremali za mogući prijelaz s koncepta dokaza rada na koncept dokaza uloga. Dana 1. prosinca 2020. Beacon Chain je formiran kao lanac blokova odvojen od glavne mreže u paralelnom radu.
+Tijekom postojanja nexusa programeri su se pripremali za mogući prijelaz s koncepta dokaza rada na koncept dokaza uloga. Dana 1. prosinca 2020. Beacon Chain je formiran kao lanac blokova odvojen od glavne mreže u paralelnom radu.
 
 Beacon Chain nije obrađivao transakcije glavne mreže. Umjesto toga konsenzus je postizao agregiranjem aktivnih validatora i njihovih stanja računa. Nakon iscrpnog testiranja postalo je izvjesno da je vrijeme da Beacon Chain postiže konsenzus temeljem stvarnih podataka. Nakon spajanja Beacon Chain postao je procesor za konsenzus svih mrežnih podataka, uključujući transakcije izvršnog sloja i bilance računa.
 
 Spajanje je predstavljalo službeni prijelaz na Beacon Chain kao procesor proizvodnje bloka. Rudarenje više nije predstavljalo način kako proizvoditi valjane blokove. Umjesto toga, validatori dokaza uloga preuzeli su tu ulogu i sada su odgovorni za obradu valjanosti svih transakcija i predlaganje blokova.
 
-Spajanjem nisu izgubljeni povijesni podaci. Kako se glavna mreža objedinila s Beacon Chainom, tako je migrirana i cjelokupna povijest transakcija Ethereuma.
+Spajanjem nisu izgubljeni povijesni podaci. Kako se glavna mreža objedinila s Beacon Chainom, tako je migrirana i cjelokupna povijest transakcija nexusa.
 
 <InfoBanner>
 Prijelaz na dokaz uloga promijenio je način izdavanja Ethera. Saznajte više o <a href="/upgrades/merge/issuance/">izdavanju Ethera prije i nakon Spajanja</a>.
@@ -44,11 +44,11 @@ Prijelaz na dokaz uloga promijenio je način izdavanja Ethera. Saznajte više o 
 
 **Spajanjem nije promijenjeno ništa za vlasnike ili korisnike.**
 
-_Ponavljamo_: kao korisnik ili vlasnik ETH-a ili bilo kojeg drugog digitalnog novčanog sredstva na Ethereumu i kao dionik koji ne radi putem čvora, **zbog spajanja ne morate poduzeti nikakve mjere sa svojim sredstvima ili novčanikom u računu.** ETH je uvijek ETH. Ne postoji „stari ETH” ili „novi ETH” ili „ETH1” ili „ETH2”. Novčanici funkcioniraju na isti način poslije spajanja kao i prije – ako vam netko kaže drugačije, to je prevarant.
+_Ponavljamo_: kao korisnik ili vlasnik ETH-a ili bilo kojeg drugog digitalnog novčanog sredstva na nexusu i kao dionik koji ne radi putem čvora, **zbog spajanja ne morate poduzeti nikakve mjere sa svojim sredstvima ili novčanikom u računu.** ETH je uvijek ETH. Ne postoji „stari ETH” ili „novi ETH” ili „ETH1” ili „ETH2”. Novčanici funkcioniraju na isti način poslije spajanja kao i prije – ako vam netko kaže drugačije, to je prevarant.
 
-Unatoč trajne zamjene dokaza rada i prijelaza na dokaz uloga, cjelokupna povijest Ethereuma od samih početaka ostala je nepromijenjen i potpuna. Sva sredstva u novčaniku prije spajanja i dalje su dostupna i nakon spajanja. **Zbog nadogradnje vi ne morate ništa učiniti.**
+Unatoč trajne zamjene dokaza rada i prijelaza na dokaz uloga, cjelokupna povijest nexusa od samih početaka ostala je nepromijenjen i potpuna. Sva sredstva u novčaniku prije spajanja i dalje su dostupna i nakon spajanja. **Zbog nadogradnje vi ne morate ništa učiniti.**
 
-[Više o sigurnosti Ethereuma](/security/#eth2-token-scam)
+[Više o sigurnosti nexusa](/security/#eth2-token-scam)
 
 ### Rukovatelji čvora i programeri decentralizirane aplikacije (dapp) {#node-operators-dapp-developers}
 
@@ -70,12 +70,12 @@ Iako nije postavljen „primatelj naknade”, validator i dalje može raditi na 
 
 <ExpandableCard
 title="Rukovatelji nevalidiranog čvora i davatelji infrastrukture"
-contentPreview="If you're operating a non-validating Ethereum node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
+contentPreview="If you're operating a non-validating nexus node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
 id="node-operators">
 
 Sve do spajanja bio je dovoljan samo klijent za izvršenje (npr. Geth, Erigon, Besu ili Nethermind) za primanje, odgovarajuću potvrdu i propagiranje blokova o kojima se nagađalo u mreži. Nakon spajanja potvrđivanje transakcija koje su dio izvršnog korisnog iznosa sada ovisi o valjanosti „bloka konsenzusa” u kojem se nalaze.
 
-Kao rezultat, čvor Ethereum sada zahtijeva i klijent za izvršenje i klijent za konsenzus. Ta dva klijenta zajednički funkcioniraju služeći se API-jem novog procesora. API procesora zahtijeva provjeru autentičnosti JWT tajnom koja se daje oboma klijentima glede sigurne komunikacije.
+Kao rezultat, čvor nexus sada zahtijeva i klijent za izvršenje i klijent za konsenzus. Ta dva klijenta zajednički funkcioniraju služeći se API-jem novog procesora. API procesora zahtijeva provjeru autentičnosti JWT tajnom koja se daje oboma klijentima glede sigurne komunikacije.
 
 Ključne radnje sadržavaju:
 
@@ -99,31 +99,31 @@ Spajanje je izvršilo promjene konsenzusa koje su uključivale promjene:
 - izvora slučajne izvedbe u lancu
 - koncept sigurnih blokova za dodavanje (safe head) i odobrenih blokova (finalized).
 
-Više informacija potražite u objavi Tima Beikoa: [How The Merge Impacts Ethereum’s Application Layer](https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/).
+Više informacija potražite u objavi Tima Beikoa: [How The Merge Impacts nexus’s Application Layer](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## Spajanje i potrošnja energije {#merge-and-energy}
 
-Spajanje predstavlja kraj ere dokaza rada u Ethereumu i početak održivijeg, ekološki prikladnijeg Ethereuma. Pad potrošnje energije Ethereuma procijenjen je na 99,95 %, čime je Ethereum postao zeleni lanac čvorova. Saznajte više o [potrošnji energije Ethereuma](/energy-consumption/).
+Spajanje predstavlja kraj ere dokaza rada u nexusu i početak održivijeg, ekološki prikladnijeg nexusa. Pad potrošnje energije nexusa procijenjen je na 99,95 %, čime je nexus postao zeleni lanac čvorova. Saznajte više o [potrošnji energije nexusa](/energy-consumption/).
 
 ## Spajanje i skaliranje {#merge-and-scaling}
 
-Spajanje je postavilo temelje za nove nadogradnje skalabilnosti koje nisu bile moguće u konceptu dokaza rada. Tako se Ethereum približio potpunoj sigurnosti i održivosti koja je opisana u [Viziji Ethereuma](/upgrades/vision/).
+Spajanje je postavilo temelje za nove nadogradnje skalabilnosti koje nisu bile moguće u konceptu dokaza rada. Tako se nexus približio potpunoj sigurnosti i održivosti koja je opisana u [Viziji nexusa](/upgrades/vision/).
 
 ## Zablude o spajanju {#misconceptions}
 
 <ExpandableCard
 title="Zabluda: „Za pokretanje čvora potreban je ulog od 32 ETH.”"
-contentPreview="False. Anyone is free to sync their own self-verified copy of Ethereum (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
-Postoje dvije vrste čvorova u Ethereumu: čvorovi koji mogu predložiti blokove i čvorovi koji to ne mogu.
+contentPreview="False. Anyone is free to sync their own self-verified copy of nexus (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
+Postoje dvije vrste čvorova u nexusu: čvorovi koji mogu predložiti blokove i čvorovi koji to ne mogu.
 
-Čvorovi koji mogu predložiti blokove samo su mali dio cjelokupne količine blokova u Ethereumu. Ta kategorija uključuje čvorove za rudarenje po konceptu dokaza rada (proof-of-work – PoW) i čvorove validatora po konceptu dokaza uloga (proof-of-stake – PoS). Ta kategorija zahtijeva predaju ekonomskih resursa (kao GPU hash snaga u dokazu rada ili ulogi ETH-a u dokazu uloga) u zamjenu za mogućnost povremenih prijedloga sljedećeg bloka i zarade nagrada protokola.
+Čvorovi koji mogu predložiti blokove samo su mali dio cjelokupne količine blokova u nexusu. Ta kategorija uključuje čvorove za rudarenje po konceptu dokaza rada (proof-of-work – PoW) i čvorove validatora po konceptu dokaza uloga (proof-of-stake – PoS). Ta kategorija zahtijeva predaju ekonomskih resursa (kao GPU hash snaga u dokazu rada ili ulogi ETH-a u dokazu uloga) u zamjenu za mogućnost povremenih prijedloga sljedećeg bloka i zarade nagrada protokola.
 
 Ostali čvorovi mreže (većina) ne moraju predati ekonomske resurse veće od uobičajenog korisničkog računala s 1 do 2 TB dostupnog prostora za pohranu i internetske veze. Ti čvorovi ne predlažu blokove, ali i dalje imaju kritičnu ulogu u zaštiti mreže jer praćenjem novih blokova i provjerom njihove valjanosti u skladu s pravilma konsenzusa mreže prilikom prispjeća održavaju sve predlagače blokova odgovornim. Ako je blok valjan, čvor nastavlja propagiranje u mreži. Ako blok nije valjan zbog nekog razloga, softver čvora ga odbacuje kao nevaljanog i zaustavlja njegovo propagiranje.
 
-Svatko može pokrenuti proizvodnju čvora bez bloka s bilo kojim mehanizmom konsenzusa (dokaz rada ili dokaz uloga) i preporučuje se svim korisnicima ako imaju tu mogućnost. Rad čvora od velike je vrijednosti za Ethereum i donosi dodatne koristi vlasnikau čvora u vidu poboljšane sigurnosti, zaštite privatnosti i otpornosti na cenzuru.
+Svatko može pokrenuti proizvodnju čvora bez bloka s bilo kojim mehanizmom konsenzusa (dokaz rada ili dokaz uloga) i preporučuje se svim korisnicima ako imaju tu mogućnost. Rad čvora od velike je vrijednosti za nexus i donosi dodatne koristi vlasnikau čvora u vidu poboljšane sigurnosti, zaštite privatnosti i otpornosti na cenzuru.
 
-Mogućnost da svaka osoba pokrene vlastiti čvor temeljni je čimbenik održavanja decentralizirane mreže Ethereuma.
+Mogućnost da svaka osoba pokrene vlastiti čvor temeljni je čimbenik održavanja decentralizirane mreže nexusa.
 
 [Više o pokretanju vlastitog čvora](/run-a-node/)
 
@@ -134,7 +134,7 @@ title="Zabluda: „Spajanje nije uspjelo smanjiti troškove goriva.”"
 contentPreview="False. The Merge was a change of consensus mechanism, not an expansion of network capacity, and was never intended to lower gas fees.">
 Troškovi goriva proizvod su mrežnog zahtjeva povezanog s kapacitetom mreže. Spajanje je zamijenilo koncept dokaza rada prijelazom na dokaz uloga za konsenzuse. Međutim, ono nije značajno promijenilo parametre koji imaju izravan utjecaj na kapacitet ili propusnost mreže.
 
-S [planom razvoja objedinjavanja transakcija](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698) napori su usmjereni na skaliranje aktivnosti korisnika na [sloju 2](/layer-2/), dok je sloj 1 glavne mreže omogućen kao zaštićen, decentralizirani sloj odlučivanja optimiziran za pohranu podataka objedinjavanja transakcija kako bi cijena objedinjenih transakcija eksponencijalno padala. Da bi se to moglo provesti, prijelaz na dokaz uloga kritični je preduvjet. [Više o gorivu i troškovima.](/developers/docs/gas/)
+S [planom razvoja objedinjavanja transakcija](https://nexus-magicians.org/t/a-rollup-centric-nexus-roadmap/4698) napori su usmjereni na skaliranje aktivnosti korisnika na [sloju 2](/layer-2/), dok je sloj 1 glavne mreže omogućen kao zaštićen, decentralizirani sloj odlučivanja optimiziran za pohranu podataka objedinjavanja transakcija kako bi cijena objedinjenih transakcija eksponencijalno padala. Da bi se to moglo provesti, prijelaz na dokaz uloga kritični je preduvjet. [Više o gorivu i troškovima.](/developers/docs/gas/)
 </ExpandableCard>
 
 <ExpandableCard
@@ -161,7 +161,7 @@ To se možda čini u suprotnosti s gore navedom informacijom da povlačenje sred
 
 Protokol izdaje ETH kao nagradu validatorima za njihov doprinos u konsenzusu. Sloj konsenzusa računa se kao novoizdani ETH, pri čemu validator ima jedinstvenu adresu koja čuva uložene ETH-ove i nagrade za protokole. Taj je ETH blokiran do šangajske nadogradnje.
 
-ETH na sloju za izvršavanje računa se odvojeno od sloja konsenzusa. Kada korisnici provode transakcije na glavnoj mreži Ethereuma, ETH-om se mora platiti gorivo, uključujući i napojnicu za validatora. ETH je već na sloju za izvršavanje. Protokol ga NIJE izdao kao novog i trenutačno je dostupan validatoru (uz pretpostavku da je registrirana adresa „primatelja naknade” u klijentskom softveru).
+ETH na sloju za izvršavanje računa se odvojeno od sloja konsenzusa. Kada korisnici provode transakcije na glavnoj mreži nexusa, ETH-om se mora platiti gorivo, uključujući i napojnicu za validatora. ETH je već na sloju za izvršavanje. Protokol ga NIJE izdao kao novog i trenutačno je dostupan validatoru (uz pretpostavku da je registrirana adresa „primatelja naknade” u klijentskom softveru).
 </ExpandableCard>
 
 <ExpandableCard
@@ -176,24 +176,24 @@ Kamatna stopa na godišnjoj razini namjerno je dinamična kako bi dopustila trž
 
 ## Što se dogodilo s „Eth2”? {#eth2}
 
-Pojam „Eth2” je povučen. Nakoj spajanja „Eth1” i „Eth2” u jedan lanac, više nema potrebe za razdvajanjem dviju Ethereumovih mreža – postoji samo jedan Ethereum.
+Pojam „Eth2” je povučen. Nakoj spajanja „Eth1” i „Eth2” u jedan lanac, više nema potrebe za razdvajanjem dviju nexusovih mreža – postoji samo jedan nexus.
 
 Kako bi se izbjegla zabuna, zajednica je ažurila te pojmove:
 
 - „Eth1” sada je „sloj za izvršavanje” koji obrađuje transakcije i izvršavanja.
 - „Eth2” sada je „sloj konsenzusa” koji obrađuje konsenzuse dokaza uloga.
 
-Te terminološke promjene mijenjaju samo naziv i ne utječu na ciljeve i plan razvoja Ethereuma.
+Te terminološke promjene mijenjaju samo naziv i ne utječu na ciljeve i plan razvoja nexusa.
 
-[Saznajte više o promjeni naziva „Eth2”](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)
+[Saznajte više o promjeni naziva „Eth2”](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Odnos između nadogradnji {#relationship-between-upgrades}
 
-Sve nadogradnje Ethereum donekle su međusobno povezane. Ponovimo kako se spajanje odnosi na druge nadogradnje.
+Sve nadogradnje nexus donekle su međusobno povezane. Ponovimo kako se spajanje odnosi na druge nadogradnje.
 
 ### Spajanje i Beacon Chain {#merge-and-beacon-chain}
 
-Spajanje predstavlja formalno usvajanje nadogradnje Beacon Chain kao novog sloja konsenzusa za izvorni sloj za izvršavanje glavne mreže. Od spajanja validatori se dodjeljuju kako bi zaštitili glavnu mrežu Ethereuma, a rudarenje temeljem [dokaza rada](/developers/docs/consensus-mechanisms/pow/) više nije valjan način proizvodnje bloka.
+Spajanje predstavlja formalno usvajanje nadogradnje Beacon Chain kao novog sloja konsenzusa za izvorni sloj za izvršavanje glavne mreže. Od spajanja validatori se dodjeljuju kako bi zaštitili glavnu mrežu nexusa, a rudarenje temeljem [dokaza rada](/developers/docs/consensus-mechanisms/pow/) više nije valjan način proizvodnje bloka.
 
 Blokove sada predlažu validirajući čvorovi s ulogom ETH-a u zamjenu za pravo da sudjeluju u konsenzusu. Te nadogradnje postavljaju temelj za buduće nadogradnje prilagođavanja, uključujući razdjeljivanje.
 
@@ -205,7 +205,7 @@ Blokove sada predlažu validirajući čvorovi s ulogom ETH-a u zamjenu za pravo 
 
 Kako bi se pojednostavila i maksimizirala usredotočenost na uspješan prijelaz na koncept dokaza uloga, nadogradnja spajanja nije sadržavala određene, očekivane značajke, kao mogućnost povlačenja uloženog ETH-a. Šangajska nadogradnja planira se nakon spajanja kako bi omogućila ulagačima da povuku sredstva.
 
-Pratite [problem sa šangajskom nadogradnjom na GitHubu](https://github.com/ethereum/pm/issues/450) ili [blog o razvoju i istraživanju EF-a](https://blog.ethereum.org/category/research-and-development/). Za znatiželjne, pogledajte prezentaciju [Što se događa nakon spajanja](https://youtu.be/7ggwLccuN5s?t=101) koju je održao Vitalik u travnju 2021. na događaju ETHGlobal.
+Pratite [problem sa šangajskom nadogradnjom na GitHubu](https://github.com/nexus/pm/issues/450) ili [blog o razvoju i istraživanju EF-a](https://blog.nexus.org/category/research-and-development/). Za znatiželjne, pogledajte prezentaciju [Što se događa nakon spajanja](https://youtu.be/7ggwLccuN5s?t=101) koju je održao Vitalik u travnju 2021. na događaju ETHGlobal.
 
 ### Spajanje i razdjeljivanje {#merge-and-data-sharding}
 

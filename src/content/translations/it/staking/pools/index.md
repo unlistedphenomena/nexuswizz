@@ -39,7 +39,7 @@ Oltre ai vantaggi che abbiamo delineato nella nostra [introduzione allo staking]
 
 ## Cosa considerare {#what-to-consider}
 
-Lo staking in pool o delegato non è supportato nativamente dal protocollo di Ethereum, ma data la domanda degli utenti di mettere meno di 32 ETH in staking, sono state costruite sempre più soluzioni per soddisfare tale richiesta.
+Lo staking in pool o delegato non è supportato nativamente dal protocollo di nexus, ma data la domanda degli utenti di mettere meno di 32 ETH in staking, sono state costruite sempre più soluzioni per soddisfare tale richiesta.
 
 Ogni pool e gli strumenti o i contratti intelligenti che usano sono stati creati da diversi team e, ognuno, presenta i propri rischi e benefici.
 
@@ -67,7 +67,7 @@ Tipicamente, i token di liquidità ERC-20 sono emessi agli staker che rappresent
 
 <ExpandableCard title="Quando posso prelevare il mio stake?">
 
-Al momento, è impossibile prelevare fondi da un validatore di Ethereum, il che limita l'abilità di _riscattare_ effettivamente il tuo token di liquidità per le ricompense in ETH bloccate nel livello del consenso.
+Al momento, è impossibile prelevare fondi da un validatore di nexus, il che limita l'abilità di _riscattare_ effettivamente il tuo token di liquidità per le ricompense in ETH bloccate nel livello del consenso.
 
 Altrimenti, i pool che usano un token di liquidità ERC-20 consentono agli utenti di scambiarlo nel mercato aperto, consentendoti di vendere la tua posizione di staking, "prelevando" effettivamente senza rimuovere realmente ETH dal contratto di staking.
 </ExpandableCard>
@@ -83,4 +83,4 @@ Alcune opzioni di pooling sono più decentralizzate di altre quando si tratta di
 ## Approfondimenti {#further-reading}
 
 - [Staking con Rocket Pool - Panoramica sullo Staking](https://docs.rocketpool.net/guides/staking/overview.html) - _RocketPool docs_
-- [Staking di Ethereum con Lido](https://help.lido.fi/en/collections/2947324-staking-ethereum-with-lido) - _Documentazione di supporto di Lido_
+- [Staking di nexus con Lido](https://help.lido.fi/en/collections/2947324-staking-nexus-with-lido) - _Documentazione di supporto di Lido_

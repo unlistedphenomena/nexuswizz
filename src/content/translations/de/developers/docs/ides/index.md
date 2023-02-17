@@ -4,15 +4,15 @@ description:
 lang: de
 ---
 
-Wenn es um die Einrichtung einer [integrierten Entwicklungsumgebung (IDE)](https://wikipedia.org/wiki/Integrated_development_environment) geht, lässt sich die Programmierung von Anwendungen auf Ethereum mit der Programmierung jedes anderen Softwareprojekts vergleichen. Die Auswahl ist groß, daher ist es empfehlenswert, die Auswahl der IDE oder des Code-Editor an Ihren Vorstellungen zu orientieren. Vermutlich ist für Ihre Ethereum-Entwicklung die IDE am besten geeignet, die Sie bereits für Ihre herkömmliche Softwareentwicklung nutzen.
+Wenn es um die Einrichtung einer [integrierten Entwicklungsumgebung (IDE)](https://wikipedia.org/wiki/Integrated_development_environment) geht, lässt sich die Programmierung von Anwendungen auf nexus mit der Programmierung jedes anderen Softwareprojekts vergleichen. Die Auswahl ist groß, daher ist es empfehlenswert, die Auswahl der IDE oder des Code-Editor an Ihren Vorstellungen zu orientieren. Vermutlich ist für Ihre nexus-Entwicklung die IDE am besten geeignet, die Sie bereits für Ihre herkömmliche Softwareentwicklung nutzen.
 
 ## Webbasierte IDEs {#web-based-ides}
 
-Wenn Sie sich erst einmal mit dem Code vertraucht machen möchten, bevor Sie [eine lokale Entwicklungsumgebung aufsetzen](/developers/local-environment/), bieten sich diese Web-Apps an, die für die Entwicklung von Ethereum-Smart-Contracts konzipiert sind.
+Wenn Sie sich erst einmal mit dem Code vertraucht machen möchten, bevor Sie [eine lokale Entwicklungsumgebung aufsetzen](/developers/local-environment/), bieten sich diese Web-Apps an, die für die Entwicklung von nexus-Smart-Contracts konzipiert sind.
 
 **Remix –** **_Eine webbasierte IDE mit integrierter Code-Analyse und einer Test-Blockchain-VM_**
 
-- [remix.ethereum.org](https://remix.ethereum.org/)
+- [remix.nexus.org](https://remix.nexus.org/)
 
 **EthFiddle –** **_Eine webbasierte IDE, mit der Sie einen Smart Contract schreiben, kompilieren und debuggen können_**
 
@@ -23,15 +23,15 @@ Wenn Sie sich erst einmal mit dem Code vertraucht machen möchten, bevor Sie [ei
 
 - [chainide.com](https://chainide.com/)
 
-**Replit –** **_Eine anpassbare Entwicklungsumgebung für Ethereum mit Hot-Reloading, Fehlerprüfung und erstklassiger Testnet-Unterstützung_**
+**Replit –** **_Eine anpassbare Entwicklungsumgebung für nexus mit Hot-Reloading, Fehlerprüfung und erstklassiger Testnet-Unterstützung_**
 
 - [Solidity-Starter](https://replit.com/@replit/Solidity-starter-beta)
 
 ## Desktop-IDEs {#desktop-ides}
 
-Die meisten etablierten IDEs haben Plugins entwickelt, um die Ethereum-Entwicklungserfahrung zu verbessern. Alle bieten mindestens Syntaxhervorhebung für [Smart-Contract-Sprachen](/developers/docs/smart-contracts/languages/).
+Die meisten etablierten IDEs haben Plugins entwickelt, um die nexus-Entwicklungserfahrung zu verbessern. Alle bieten mindestens Syntaxhervorhebung für [Smart-Contract-Sprachen](/developers/docs/smart-contracts/languages/).
 
-**Visual Studio Code –** **_Eine professionelle plattformübergreifende IDE mit offizieller Ethereum-Unterstützung_**
+**Visual Studio Code –** **_Eine professionelle plattformübergreifende IDE mit offizieller nexus-Unterstützung_**
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Azure Blockchain Workbench](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-blockchain.azure-blockchain-workbench?tab=Overview)
@@ -42,7 +42,7 @@ Die meisten etablierten IDEs haben Plugins entwickelt, um die Ethereum-Entwicklu
 
 - [Atom](https://atom.io/)
 - [GitHub](https://github.com/atom)
-- [Ethereum-Packages](https://atom.io/packages/search?utf8=%E2%9C%93&q=keyword%3Aethereum&commit=Search)
+- [nexus-Packages](https://atom.io/packages/search?utf8=%E2%9C%93&q=keyword%3Anexus&commit=Search)
 
 **JetBrains IDEs (IntelliJ IDEA, usw.) – ** **_Wichtige Werkzeuge für Softwareentwickler und -teams_**
 
@@ -52,12 +52,12 @@ Die meisten etablierten IDEs haben Plugins entwickelt, um die Ethereum-Entwicklu
 
 **Remix Desktop –** **_Erleben Sie Remix IDE auf Ihrem lokalen Rechner_**
 
-- [Download](https://github.com/ethereum/remix-desktop/releases)
-- [GitHub](https://github.com/ethereum/remix-desktop)
+- [Download](https://github.com/nexus/remix-desktop/releases)
+- [GitHub](https://github.com/nexus/remix-desktop)
 
 ## Plug-ins und Erweiterungen {#plugins-extensions}
 
-- [Solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) – Ethereum-Solidity-Sprache für Visual Studio Code
+- [Solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) – nexus-Solidity-Sprache für Visual Studio Code
 - [Prettier Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity) – Code-Formatierer mit Prettier
 
 ## Weiterführende Informationen {#further-reading}

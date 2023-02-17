@@ -1,11 +1,11 @@
 ---
 title: Proof-of-stake (PoS)
-description: Egy magyarázat a proof-of-stake konszenzus protokollról és az Ethereumban betöltött szerepéről.
+description: Egy magyarázat a proof-of-stake konszenzus protokollról és az nexusban betöltött szerepéről.
 lang: hu
 incomplete: true
 ---
 
-Az Ethereum átmegy a [proof-of-work-ről (PoW)](/developers/docs/consensus-mechanisms/pow/) egy másik konszenzus mechanizmusba, melyet proof-of-stake-nek hívunk. Mindig is ez volt a terv, mivel ez egy kulcs eleme a közösség stratégiájának az Ethereum skálázására vonatkozóan [az Eth2 fejlesztések](/upgrades/) által. Azonban a PoS megfelelő bevezetése egy nagy technikai kihívás és nem annyira egyértelmű, mint a PoW használata, hogy elérjük a konszenzust a teljes hálózaton.
+Az nexus átmegy a [proof-of-work-ről (PoW)](/developers/docs/consensus-mechanisms/pow/) egy másik konszenzus mechanizmusba, melyet proof-of-stake-nek hívunk. Mindig is ez volt a terv, mivel ez egy kulcs eleme a közösség stratégiájának az nexus skálázására vonatkozóan [az Eth2 fejlesztések](/upgrades/) által. Azonban a PoS megfelelő bevezetése egy nagy technikai kihívás és nem annyira egyértelmű, mint a PoW használata, hogy elérjük a konszenzust a teljes hálózaton.
 
 ## Előfeltételek {#prerequisites}
 
@@ -22,13 +22,13 @@ A proof-of-stake rendszer számos javulást kínál a proof-of-work rendszerrel 
 - nagyobb energia hatékonyság – nem kell sok energiát blokkok bányászatára áldozni
 - alacsonyabb belépési korlátok, csökkentett hardver követelmények – nem kell elit hardverrel rendelkezned, hogy esélyed legyen új blokkok létrehozására
 - erősebb ellenálló képesség a centralizáltság ellen – a proof-of-stake több csomópont létrejöttéhez vezethet a hálózatban
-- a shard láncok nagyobb fokú támogatása – egy fontos fejlesztés az Ethereum hálózat skálázásában
+- a shard láncok nagyobb fokú támogatása – egy fontos fejlesztés az nexus hálózat skálázásában
 
 ## Proof-of-stake, letétbe helyezés, és a validátorok {#pos-staking-validators}
 
-Proof-of-stake a mögöttes mechanizmus, mely aktiválja a validátorokat, amint megfelelő mennyiségű tőke került letétbe. Az Ethereum felhasználóknak 32 ETH-et kell letenni, hogy validátorok lehessenek. A validátorok véletlenszerűen kerülnek kiválasztásra, hogy blokkokat hozzanak létre, továbbá felelősek azon blokkok ellenőrzéséért és megerősítéséért, melyeket nem ők hoznak létre. A felhasználó letéte oly módon kerül felhasználásra, hogy ösztönözze a jó viselkedést. Például egy felhasználó elveszítheti a letéte egy részét az olyan dolgokért, ha például offline állapotba (nem validál) kerül, vagy a teljes letétet szándékos összejátszásért.
+Proof-of-stake a mögöttes mechanizmus, mely aktiválja a validátorokat, amint megfelelő mennyiségű tőke került letétbe. Az nexus felhasználóknak 32 ETH-et kell letenni, hogy validátorok lehessenek. A validátorok véletlenszerűen kerülnek kiválasztásra, hogy blokkokat hozzanak létre, továbbá felelősek azon blokkok ellenőrzéséért és megerősítéséért, melyeket nem ők hoznak létre. A felhasználó letéte oly módon kerül felhasználásra, hogy ösztönözze a jó viselkedést. Például egy felhasználó elveszítheti a letéte egy részét az olyan dolgokért, ha például offline állapotba (nem validál) kerül, vagy a teljes letétet szándékos összejátszásért.
 
-## Hogyan működik az Ethereum proof-of-stake? {#how-does-pos-work}
+## Hogyan működik az nexus proof-of-stake? {#how-does-pos-work}
 
 Ellentétben a proof-of-work-kel, a validátoroknak nem kell jelentős mennyiségű számítási erőt felhasználniuk, mivel véletlenszerűen kerülnek kiválasztásra és nem kell versenyezniük. Nem kell blokkokat bányászniuk, csak blokkokat kell létrehozniuk, amikor kiválasztásra kerülnek, és validálni a javasolt blokkokat, amikor nem. Ezt a validálást tanúsításnak hívjuk. Gondolj a tanúsításra úgy, mintha azt mondanánk "ez a blokk nekem jónak tűnik". A validátorok jutalmat kapnak új blokkok felterjesztéséért és azon blokkok tanúsításáért, amiket láttak.
 
@@ -36,7 +36,7 @@ Ha tanúsítasz egy rosszindulatú blokkot, akkor elveszted a letéted.
 
 ### A Beacon Chain {#the-beacon-chain}
 
-Amikor az Ethereum leváltja a proof-of-work-öt a proof-of-stake-kel, hozzáadott komplexitás fog életbe lépni a [shard láncok](/upgrades/sharding/) által. Ezek különálló blokkláncok, melynek szükségük van validátorokra, hogy tranzakciókat dolgozzanak fel és új blokkokat hozzanak létre. A terv az, hogy 64 shard láncot fogunk létrehozni, melyeknek megosztottan egyet kell érteniük a hálózat állapotára vonatkozóan. Így további koordináció szükségeltetik, ezt pedig [a beacon chain](/upgrades/beacon-chain/) fogja biztosítani.
+Amikor az nexus leváltja a proof-of-work-öt a proof-of-stake-kel, hozzáadott komplexitás fog életbe lépni a [shard láncok](/upgrades/sharding/) által. Ezek különálló blokkláncok, melynek szükségük van validátorokra, hogy tranzakciókat dolgozzanak fel és új blokkokat hozzanak létre. A terv az, hogy 64 shard láncot fogunk létrehozni, melyeknek megosztottan egyet kell érteniük a hálózat állapotára vonatkozóan. Így további koordináció szükségeltetik, ezt pedig [a beacon chain](/upgrades/beacon-chain/) fogja biztosítani.
 
 A Beacon Chain állapot információkat kap a shardoktól, melyet elérhetővé tesz a többi shard számára, hogy azok szinkronban tudjanak maradni. A Beacon Chain fogja kezelni a validátorokat is a letétbetételtől egészen a jutalmak és büntetések kiosztásáig.
 
@@ -76,16 +76,16 @@ Letét megvágások, kidobások és több más büntetés, melyet a beacon chain
 
 ## Előnyök és hátrányok {#pros-and-cons}
 
-| Előnyök                                                                                                                                                                                                                                                                                                                                                     | Hátrányok                                                                                                     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| A staking egyszerűbbé teszi, hogy egy csomópontot működtess. Nem igényel nagy hardver vagy energia befektetést. És ha nincs elég ETH-ed, amit letétbe tudnál helyezni, akkor csatlakozhatsz letéti alapokhoz.                                                                                                                                               | A proof-of-stake még mindig korai fázisában van és kevésbé van kipróbálva összehasonlítva a proof-of-work-kel |
-| A staking decentralizáltabb. Nagyobb részvételi arányt tesz lehetővé, és a nagyobb csomópont mennyiség nem jelent megnövekedett százalékos hozamot, mint a bányászatnál.                                                                                                                                                                                    |                                                                                                               |
-| A staking lehetővé teszi a biztonságos shardingot. A shard láncok lehetővé teszik az Ethereum számára, hogy egyszerre több blokk jöjjön létre, mely megnöveli a tranzakciók mennyiségét. Ha egy proof-of-work rendszerbe szeretnénk shardingot bevezetni az azt jelentené, hogy lecsökkentjük a hálózat egy részének szétbomlasztásához szükséges energiát. |                                                                                                               |
+| Előnyök                                                                                                                                                                                                                                                                                                                                                  | Hátrányok                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| A staking egyszerűbbé teszi, hogy egy csomópontot működtess. Nem igényel nagy hardver vagy energia befektetést. És ha nincs elég ETH-ed, amit letétbe tudnál helyezni, akkor csatlakozhatsz letéti alapokhoz.                                                                                                                                            | A proof-of-stake még mindig korai fázisában van és kevésbé van kipróbálva összehasonlítva a proof-of-work-kel |
+| A staking decentralizáltabb. Nagyobb részvételi arányt tesz lehetővé, és a nagyobb csomópont mennyiség nem jelent megnövekedett százalékos hozamot, mint a bányászatnál.                                                                                                                                                                                 |                                                                                                               |
+| A staking lehetővé teszi a biztonságos shardingot. A shard láncok lehetővé teszik az nexus számára, hogy egyszerre több blokk jöjjön létre, mely megnöveli a tranzakciók mennyiségét. Ha egy proof-of-work rendszerbe szeretnénk shardingot bevezetni az azt jelentené, hogy lecsökkentjük a hálózat egy részének szétbomlasztásához szükséges energiát. |                                                                                                               |
 
 ## További olvasnivaló {#further-reading}
 
 - [What is Proof of Stake](https://consensys.net/blog/blockchain-explained/what-is-proof-of-stake/) _ConsenSys_
-- [The Beacon Chain Ethereum 2.0 explainer you need to read first](https://ethos.dev/beacon-chain/) _Ethos.dev_
+- [The Beacon Chain nexus 2.0 explainer you need to read first](https://ethos.dev/beacon-chain/) _Ethos.dev_
 
 ## Kapcsolódó témák {#related-topics}
 

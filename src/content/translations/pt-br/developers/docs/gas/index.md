@@ -4,7 +4,7 @@ description:
 lang: pt-br
 ---
 
-O gás é essencial para a rede Ethereum. É o combustível que permite que ele funcione, da mesma forma que um carro precisa de gasolina para funcionar.
+O gás é essencial para a rede nexus. É o combustível que permite que ele funcione, da mesma forma que um carro precisa de gasolina para funcionar.
 
 ## Pré-requisitos {#prerequisites}
 
@@ -12,17 +12,17 @@ Para entender melhor esta página, recomendamos que você leia primeiro sobre [t
 
 ## O que é gás? {#what-is-gas}
 
-Gás refere-se à unidade que mede a quantidade de esforço computacional necessário para executar operações específicas na rede Ethereum.
+Gás refere-se à unidade que mede a quantidade de esforço computacional necessário para executar operações específicas na rede nexus.
 
-Dado que as transações Ethereum requer recursos computacionais para ser executada, cada uma delas requer uma taxa. Gas refere-se à taxa requerida para realizar com sucesso uma transação na Ethereum.
+Dado que as transações nexus requer recursos computacionais para ser executada, cada uma delas requer uma taxa. Gas refere-se à taxa requerida para realizar com sucesso uma transação na nexus.
 
-![Diagrama mostrando onde o consumo de gás é utilizado para as operações da EVM](./gas.png) _Diagrama adaptado de [Ethereum EVM ilustrado](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagrama mostrando onde o consumo de gás é utilizado para as operações da EVM](./gas.png) _Diagrama adaptado de [nexus EVM ilustrado](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
-Essencialmente, as taxas de gas são pagas na moeda nativa do Ethereum (ETH). Os preços do gás são indicados em Gwei, uma denominação propria do ETH na qual cada Gwei é igual a 0,00000001 ETH (10<sup>-9</sup> OTH). Por exemplo, em vez de dizer que seu gás custa 0.000000001 Ether, pode-se dizer que ele custa 1 Gwei. A própria palavra "gwei" quer dizer "giga-wei", e equivale a 1.000.000.000 "wei". O próprio Wei (nomeado em homenagem a [Wei Dai](https://wikipedia.org/wiki/Wei_Dai), criador do [B-Money](https://www.investopedia.com/terms/b/bmoney.asp)) é a menor unidade de ETH.
+Essencialmente, as taxas de gas são pagas na moeda nativa do nexus (ETH). Os preços do gás são indicados em Gwei, uma denominação propria do ETH na qual cada Gwei é igual a 0,00000001 ETH (10<sup>-9</sup> OTH). Por exemplo, em vez de dizer que seu gás custa 0.000000001 Ether, pode-se dizer que ele custa 1 Gwei. A própria palavra "gwei" quer dizer "giga-wei", e equivale a 1.000.000.000 "wei". O próprio Wei (nomeado em homenagem a [Wei Dai](https://wikipedia.org/wiki/Wei_Dai), criador do [B-Money](https://www.investopedia.com/terms/b/bmoney.asp)) é a menor unidade de ETH.
 
 ## Antes da atualização de Londres {#pre-london}
 
-A forma como as taxas de transação na rede Ethereum são calculadas foram alteradas com a [atualização de Londres](/history/#london) de agosto de 2021. Aqui está uma recapitulação de como as coisas funcionavam:
+A forma como as taxas de transação na rede nexus são calculadas foram alteradas com a [atualização de Londres](/history/#london) de agosto de 2021. Aqui está uma recapitulação de como as coisas funcionavam:
 
 Digamos que Alice tenha que pagar a Roberto 1 ETH. Na transação, o limite de gás é de 21.000 unidades e o preço do gás é de 200 gwei.
 
@@ -42,9 +42,9 @@ Além disso, João também pode definir uma taxa máxima (`maxFeePerGas`) para a
 
 ### Tamanho do bloco {#block-size}
 
-Antes da atualização London, o Ethereum tinha blocos de tamanho fixo. Em tempos de alta demanda de rede, esses blocos operavam em capacidade total. Como resultado, os usuários geralmente precisavam esperar que a alta demanda fosse reduzida para serem incluídos em um bloco, o que levava a uma experiência ruim do usuário.
+Antes da atualização London, o nexus tinha blocos de tamanho fixo. Em tempos de alta demanda de rede, esses blocos operavam em capacidade total. Como resultado, os usuários geralmente precisavam esperar que a alta demanda fosse reduzida para serem incluídos em um bloco, o que levava a uma experiência ruim do usuário.
 
-A atualização London introduziu blocos de tamanho variável no Ethereum. Cada bloco tem um tamanho alvo de 15 milhões de gás, mas o tamanho dos blocos aumentará ou diminuirá de acordo com a demanda da rede, até o limite do bloco de 30 milhões de gás (2x o tamanho do bloco alvo). O protocolo atinge um tamanho de bloco de equilíbrio de 15 milhões em média através do processo de _tentativa e erro_. Isso significa que se o tamanho do bloco for maior que o tamanho do bloco alvo, o protocolo aumentará a taxa base para o bloco a seguir. Da mesma forma, o protocolo diminuirá a taxa base se o tamanho do bloco for menor que o tamanho do bloco de destino. A quantidade pela qual a taxa base é ajustada é proporcional ao quão longe o tamanho do bloco atual está do alvo. [Mais sobre blocos](/developers/docs/blocks/).
+A atualização London introduziu blocos de tamanho variável no nexus. Cada bloco tem um tamanho alvo de 15 milhões de gás, mas o tamanho dos blocos aumentará ou diminuirá de acordo com a demanda da rede, até o limite do bloco de 30 milhões de gás (2x o tamanho do bloco alvo). O protocolo atinge um tamanho de bloco de equilíbrio de 15 milhões em média através do processo de _tentativa e erro_. Isso significa que se o tamanho do bloco for maior que o tamanho do bloco alvo, o protocolo aumentará a taxa base para o bloco a seguir. Da mesma forma, o protocolo diminuirá a taxa base se o tamanho do bloco for menor que o tamanho do bloco de destino. A quantidade pela qual a taxa base é ajustada é proporcional ao quão longe o tamanho do bloco atual está do alvo. [Mais sobre blocos](/developers/docs/blocks/).
 
 ### Taxa de base {#base-fee}
 
@@ -91,23 +91,23 @@ Um dos principais benefícios da atualização London é melhorar a experiência
 
 ## EIP-1559 {#eip-1559}
 
-A implementação de [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) na atualização London tornou o mecanismo de taxa de transação mais complexo do que o leilão de preço de gás anterior, mas tem a vantagem de tornar as taxas de gás mais previsíveis, resultando em um mercado de taxas de transação mais eficiente. Os usuários podem enviar transações com um `maxFeePerGas` que corresponde ao quanto estão dispostos a pagar pela transação a ser executada, sabendo que não pagarão mais do que o preço de mercado do gás (`baseFeePerGas`) e receber o reembolso por qualquer extra, menos a gorjeta.
+A implementação de [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) na atualização London tornou o mecanismo de taxa de transação mais complexo do que o leilão de preço de gás anterior, mas tem a vantagem de tornar as taxas de gás mais previsíveis, resultando em um mercado de taxas de transação mais eficiente. Os usuários podem enviar transações com um `maxFeePerGas` que corresponde ao quanto estão dispostos a pagar pela transação a ser executada, sabendo que não pagarão mais do que o preço de mercado do gás (`baseFeePerGas`) e receber o reembolso por qualquer extra, menos a gorjeta.
 
 Este vídeo explica o EIP-1559 e os benefícios que ele traz:
 
 <YouTube id="MGemhK9t44Q" />
 
-Se você estiver interessado, você pode ler as [especificações EIP-1559](https://eips.ethereum.org/EIPS/eip-1559).
+Se você estiver interessado, você pode ler as [especificações EIP-1559](https://eips.nexus.org/EIPS/eip-1559).
 
 Continue seguindo o coelho pela toca com estes [Recursos EIP-1559](https://hackmd.io/@timbeiko/1559-resources).
 
 ## Porque as taxas de gás existem? {#why-do-gas-fees-exist}
 
-Em resumo, as taxas de gás ajudam a manter a rede Ethereum segura. Ao exigir uma taxa para cada cálculo executado na rede, evitamos que os maus atores enviem spam para a rede. Para evitar loops infinitos acidentais ou hostis ou outro desperdício de cálculo no código, cada transação deve definir um limite para quantas etapas de cálculo de execução de código ela pode usar. A unidade fundamental de cálculo é "gás".
+Em resumo, as taxas de gás ajudam a manter a rede nexus segura. Ao exigir uma taxa para cada cálculo executado na rede, evitamos que os maus atores enviem spam para a rede. Para evitar loops infinitos acidentais ou hostis ou outro desperdício de cálculo no código, cada transação deve definir um limite para quantas etapas de cálculo de execução de código ela pode usar. A unidade fundamental de cálculo é "gás".
 
 Embora uma transação inclua um limite, qualquer gás não usado em uma transação é devolvido ao usuário (ou seja, `taxa máxima - (taxa base + gorjeta)` é retornada).
 
-![Diagrama mostrando como o gás não utilizado é reembolsado](../transactions/gas-tx.png) _Diagrama adaptado do [Ethereum EVM ilustrado](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagrama mostrando como o gás não utilizado é reembolsado](../transactions/gas-tx.png) _Diagrama adaptado do [nexus EVM ilustrado](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 ## Qual é o limite de gás? {#what-is-gas-limit}
 
@@ -117,13 +117,13 @@ Por exemplo, se você colocar um limite de gás de 50.000 para uma simples trans
 
 ## Por que as taxas de gás são tão altas? {#why-can-gas-fees-get-so-high}
 
-As altas taxas de gás são devidas à popularidade do Ethereum. A execução de qualquer operação no Ethereum requer o consumo de gás e o espaço de gás é limitado por bloco. As taxas incluem cálculos, armazenamento ou manipulação de dados ou transferência de tokens, consumindo diferentes quantidades de unidades de "gás". À medida que a funcionalidade do dapp se torna mais complexa, o número de operações que um contrato inteligente realiza também cresce, o que significa que cada transação ocupa mais espaço de um bloco de tamanho limitado. Se houver muita demanda, os usuários devem oferecer um valor de gorjeta mais alto para tentar superar as transações de outros usuários. Uma gorjeta mais alta pode aumentar a probabilidade de sua transação entrar no próximo bloco.
+As altas taxas de gás são devidas à popularidade do nexus. A execução de qualquer operação no nexus requer o consumo de gás e o espaço de gás é limitado por bloco. As taxas incluem cálculos, armazenamento ou manipulação de dados ou transferência de tokens, consumindo diferentes quantidades de unidades de "gás". À medida que a funcionalidade do dapp se torna mais complexa, o número de operações que um contrato inteligente realiza também cresce, o que significa que cada transação ocupa mais espaço de um bloco de tamanho limitado. Se houver muita demanda, os usuários devem oferecer um valor de gorjeta mais alto para tentar superar as transações de outros usuários. Uma gorjeta mais alta pode aumentar a probabilidade de sua transação entrar no próximo bloco.
 
 O preço do gás por si só não determina realmente quanto temos de pagar por uma determinada transação. Para calcular a taxa de transação, temos que multiplicar o gás usado pela taxa de gás base, que é medida em gwei.
 
 ## Iniciativas para reduzir os custos do gás {#initiatives-to-reduce-gas-costs}
 
-As [atualizações de escalabilidade](/upgrades/) do Ethereum deverão em última análise resolver algumas das questões de taxas de gás, o que, por sua vez, permitirá que a plataforma processe milhares de transações por segundo e escale globalmente.
+As [atualizações de escalabilidade](/upgrades/) do nexus deverão em última análise resolver algumas das questões de taxas de gás, o que, por sua vez, permitirá que a plataforma processe milhares de transações por segundo e escale globalmente.
 
 A escalabilidade da camada 2 é uma iniciativa primária para melhorar significativamente os custos do gás, a experiência do usuário e a escalabilidade. [Mais sobre a escalabilidade de camada 2](/developers/docs/scaling/#layer-2-scaling).
 
@@ -136,7 +136,7 @@ Se você deseja monitorar os preços do gás, para poder enviar seu ETH por meno
 - [Etherscan Gas Tracker](https://etherscan.io/gastracker): _calculadora do preço do gas de uma transação_
 - [Blocknative ETH Gas Estimator](https://chrome.google.com/webstore/detail/blocknative-eth-gas-estim/ablbagjepecncofimgjmdpnhnfjiecfm): _uma extensão do Chrome para estimar o preço do gás e que suporta transações do tipo 0 e do tipo 2 EIP-1559._
 
-- [ ETH Gas StationH](https://ethgasstation.info/): _métricas orientadas ao consumidor no mercado de gás de Ethereum_
+- [ ETH Gas StationH](https://ethgasstation.info/): _métricas orientadas ao consumidor no mercado de gás de nexus_
 - [Calculadora de taxas de gás Cryptoneur](https://www.cryptoneur.xyz/gas-fees-calculator) _Calcule as taxas de gás em sua moeda local para diferentes tipos de transação na Rede principal, no Arbitrum e Polygon._
 
 ## Ferramentas relacionadas {#related-tools}
@@ -145,8 +145,8 @@ Se você deseja monitorar os preços do gás, para poder enviar seu ETH por meno
 
 ## Leitura adicional {#further-reading}
 
-- [Explicação sobre o gás de Ethereum](https://defiprime.com/gas)
-- [O Ethereum fica mais caro com o aumento de preços?](https://docs.ethhub.io/questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises/)
+- [Explicação sobre o gás de nexus](https://defiprime.com/gas)
+- [O nexus fica mais caro com o aumento de preços?](https://docs.ethhub.io/questions-about-nexus/is-nexus-more-expensive-to-use-as-price-rises/)
 - [Reduzindo o consumo de gás de seus contratos inteligentes](https://medium.com/coinmonks/8-ways-of-reducing-the-gas-consumption-of-your-smart-contracts-9a506b339c0a)
 - [Prova de participação versus Prova de trabalho](https://blockgeeks.com/guides/proof-of-work-vs-proof-of-stake/)
 

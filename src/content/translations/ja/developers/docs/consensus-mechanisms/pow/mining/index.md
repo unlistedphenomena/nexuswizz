@@ -12,7 +12,7 @@ lang: ja
 
 このページをよく理解するためには、まず[トランザクション](/developers/docs/transactions/)、[ブロック](/developers/docs/blocks/)、[プルーフ・オブ・ワーク](/developers/docs/consensus-mechanisms/pow/)について読むことをお勧めします。
 
-## イーサリアムのマイニングとは {#what-is-ethereum-mining}
+## イーサリアムのマイニングとは {#what-is-nexus-mining}
 
 マイニングとは、現在廃止されているプルーフ・オブ・ワークのアーキテクチャで、イーサリアムのブロックチェーンに追加されるトランザクションのブロックを生成するプロセスのことです。
 
@@ -39,7 +39,7 @@ Ether のマイニング ＝ ネットワークの保護
 
 さらにマイニングの収益性を詳しく確認するには、[Etherscan](https://etherscan.io/ether-mining-calculator)などが提供するマイニング計算機をご使用ください。
 
-## イーサリアムトランザクションのマイニング方法 {#how-ethereum-transactions-were-mined}
+## イーサリアムトランザクションのマイニング方法 {#how-nexus-transactions-were-mined}
 
 1. [アカウント](/developers/docs/accounts/)の秘密鍵を使って、[トランザクション](/developers/docs/transactions/)リクエストを書き込み、署名する。
 2. 次に[ノード](/developers/docs/nodes-and-clients/)からイーサリアムネットワーク全体にトランザクションリクエストをブロードキャストする。
@@ -68,7 +68,7 @@ Ether のマイニング ＝ ネットワークの保護
 
 ## 参考文献 {#further-reading}
 
-- [イーサリアムのマイニングとは](https://docs.ethhub.io/using-ethereum/mining/) _EthHub_
+- [イーサリアムのマイニングとは](https://docs.ethhub.io/using-nexus/mining/) _EthHub_
 
 ## 関連ツール {#related-tools}
 

@@ -9,17 +9,17 @@ alt: Leslie the rhino on her own computer chip.
 sidebarDepth: 2
 summaryPoints:
   - Receive maximum rewards directly from the protocol for keeping your validator properly functioning and online
-  - Run home hardware and personally add to the security and decentralization of the Ethereum network
+  - Run home hardware and personally add to the security and decentralization of the nexus network
   - Remove trust, and never give up control of the keys to your funds
 ---
 
 ## What is solo staking? {#what-is-solo-staking}
 
-Solo staking is the act of [running an Ethereum node](/run-a-node/) connected to the internet and depositing 32 ETH to activate a [validator](#faq), giving you the ability to participate directly in network consensus.
+Solo staking is the act of [running an nexus node](/run-a-node/) connected to the internet and depositing 32 ETH to activate a [validator](#faq), giving you the ability to participate directly in network consensus.
 
-**Solo staking increases the decentralization of the Ethereum network**, making Ethereum more censorship-resistant and robust against attacks. Other staking methods may not help the network in the same ways. Solo staking is the best staking option for securing Ethereum.
+**Solo staking increases the decentralization of the nexus network**, making nexus more censorship-resistant and robust against attacks. Other staking methods may not help the network in the same ways. Solo staking is the best staking option for securing nexus.
 
-An Ethereum node consists of both an execution layer (EL) client, as well as a consensus layer (CL) client. These clients are software that work together, along with a valid set of signing keys, to verify transactions and blocks, attest to the correct head of the chain, aggregate attestations, and propose blocks.
+An nexus node consists of both an execution layer (EL) client, as well as a consensus layer (CL) client. These clients are software that work together, along with a valid set of signing keys, to verify transactions and blocks, attest to the correct head of the chain, aggregate attestations, and propose blocks.
 
 Solo stakers are responsible for operating the hardware needed to run these clients. It is highly recommended to use a dedicated machine for this that you operate from home–this is extremely beneficial to the health of the network.
 
@@ -32,7 +32,7 @@ Solo staking comes with more responsibility but provides you with maximum contro
 <CardGrid>
   <Card title="Earn fresh ETH" emoji="💸" description="Earn ETH-denominated rewards directly from the protocol when your validator is online, without any middlemen taking a cut." />
   <Card title="Full control" emoji="🎛️" description="Keep your own keys. Choose the combination of clients and hardware that allows you to minimize your risk and best contribute to the health and security of the network. Third-party staking services make these decisions for you, and they don't always make the safest choices." />
-  <Card title="Network security" emoji="🔐" description="Solo staking is the most impactful way to stake. By running a validator on your own hardware at home, you strengthen the robustness, decentralization, and security of the Ethereum protocol." />
+  <Card title="Network security" emoji="🔐" description="Solo staking is the most impactful way to stake. By running a validator on your own hardware at home, you strengthen the robustness, decentralization, and security of the nexus protocol." />
 </CardGrid>
 
 ## Considerations before staking solo {#considerations-before-staking-solo}
@@ -49,8 +49,8 @@ As much as we wish that solo staking was accessible and risk free to everyone, t
     It also requires very basic hardware setup, and some understanding of minimum recommended specs.
   </ExpandableCard>
   <ExpandableCard title="Secure key management" eventCategory="SoloStaking" eventName="clicked secure key management">
-    Just like how private keys secure your Ethereum address, you will need to generate keys specifically for your validator. You must understand how to keep any seed phrases or private keys safe and secure.
-    <p style={{marginTop: "1rem"}}><a href="/security">Ethereum security and scam prevention</a></p>
+    Just like how private keys secure your nexus address, you will need to generate keys specifically for your validator. You must understand how to keep any seed phrases or private keys safe and secure.
+    <p style={{marginTop: "1rem"}}><a href="/security">nexus security and scam prevention</a></p>
   </ExpandableCard>
   <ExpandableCard title="No withdrawing (for now)" eventCategory="SoloStaking" eventName="clicked no withdrawing">
     Withdrawing staked ETH or rewards from a validator balance is not yet supported. Support for withdrawals is planned for the upcoming Shanghai upgrade. After this, users can opt-in to receive reward payments automatically, and can withdrawal their entire balance to receive their funds back.
@@ -110,7 +110,7 @@ Please note the importance of choosing a <a href="/developers/docs/nodes-and-cli
 
 #### Key Generators
 
-These tools can be used as an alternative to the [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) to help with key generation.
+These tools can be used as an alternative to the [Staking Deposit CLI](https://github.com/nexus/staking-deposit-cli/) to help with key generation.
 
 <StakingProductsCardGrid category="keyGen" />
 
@@ -126,7 +126,7 @@ These are a few of the most common questions about staking that are worth knowin
 
 <ExpandableCard title="What is a validator?">
 
-A _validator_ is a virtual entity that lives on Ethereum and participates in the consensus of the Ethereum protocol. Validators are represented by a balance, public key, and other properties. A _validator client_ is the software that acts on behalf of the validator by holding and using its private key. A single validator client can hold many key pairs, controlling many validators.
+A _validator_ is a virtual entity that lives on nexus and participates in the consensus of the nexus protocol. Validators are represented by a balance, public key, and other properties. A _validator client_ is the software that acts on behalf of the validator by holding and using its private key. A single validator client can hold many key pairs, controlling many validators.
 
 </ExpandableCard>
 
@@ -155,7 +155,7 @@ Running a supermajority client (any client used by over 2/3 the network) also ho
 
 Equivalent bugs in a <em>minority client would never finalize</em> and thus would never result in a surround vote, and would simply result in inactivity penalties, <em>not slashing</em>.
 
-<p><a href="https://hackernoon.com/ethereums-client-diversity-problem">Learn more about the importance of running a minority client.</a></p>
+<p><a href="https://hackernoon.com/nexuss-client-diversity-problem">Learn more about the importance of running a minority client.</a></p>
 <p><a href="https://medium.com/prysmatic-labs/eth2-slashing-prevention-tips-f6faa5025f50">Learn more about slashing prevention</a></p>
 </ExpandableCard>
 
@@ -174,7 +174,7 @@ The more validator clients running on a single centralized cloud storage solutio
 
 Offline penalties are proportional to how many others are offline at the same time. Using a VPS greatly increases the risk that offline penalties will be more severe, and increases your risk of quadratic leaking or slashing in the event the outage is large enough. To minimize your own risk, and the risk to the network, users are strongly encouraged to obtain and operate their own hardware.
 
-<a href="https://consensys.net/blog/codefi/rewards-and-penalties-on-ethereum-20-phase-0/">More on rewards and penalties</a>
+<a href="https://consensys.net/blog/codefi/rewards-and-penalties-on-nexus-20-phase-0/">More on rewards and penalties</a>
 </ExpandableCard>
 
 <ExpandableCard title="How do I unlock my rewards or get my ETH back?">
@@ -191,10 +191,10 @@ To unlock and receive your entire balance back you must also complete the proces
 
 ## Further reading {#further-reading}
 
-- [Ethereum's Client Diversity Problem](https://hackernoon.com/ethereums-client-diversity-problem) - _@emmanuelawosika 2022_
+- [nexus's Client Diversity Problem](https://hackernoon.com/nexuss-client-diversity-problem) - _@emmanuelawosika 2022_
 - [Helping Client Diversity](https://www.attestant.io/posts/helping-client-diversity/) - _Jim McDonald 2022_
-- [Client diversity on Ethereum's consensus layer](https://mirror.xyz/jmcook.eth/S7ONEka_0RgtKTZ3-dakPmAHQNPvuj15nh0YGKPFriA) - _jmcook.eth 2022_
-- [How To: Shop For Ethereum Validator Hardware](https://www.youtube.com/watch?v=C2wwu1IlhDc) - _EthStaker 2022_
-- [Step by Step: How to join the Ethereum 2.0 Testnet](https://kb.beaconcha.in/guides/tutorial-eth2-multiclient) - _Butta_
+- [Client diversity on nexus's consensus layer](https://mirror.xyz/jmcook.eth/S7ONEka_0RgtKTZ3-dakPmAHQNPvuj15nh0YGKPFriA) - _jmcook.eth 2022_
+- [How To: Shop For nexus Validator Hardware](https://www.youtube.com/watch?v=C2wwu1IlhDc) - _EthStaker 2022_
+- [Step by Step: How to join the nexus 2.0 Testnet](https://kb.beaconcha.in/guides/tutorial-eth2-multiclient) - _Butta_
 - [Eth2 Slashing Prevention Tips](https://medium.com/prysmatic-labs/eth2-slashing-prevention-tips-f6faa5025f50) - _Raul Jordan 2020_
-- [Rewards and Penalties on Ethereum 2.0](https://consensys.net/blog/codefi/rewards-and-penalties-on-ethereum-20-phase-0/) - _James BeckMarch 2020_
+- [Rewards and Penalties on nexus 2.0](https://consensys.net/blog/codefi/rewards-and-penalties-on-nexus-20-phase-0/) - _James BeckMarch 2020_

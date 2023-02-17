@@ -34,7 +34,7 @@ Câteva tehnici binecunoscute de „golf pe gaz” includ: utilizarea de adrese 
 
 ### Flashbots {#mev-extraction-flashbots}
 
-Flashbots este un proiect independent care extinde clientul go-ethereum cu un serviciu care permite căutătorilor să trimită tranzacțiile MEV către miner-i fără a le dezvălui în mempool-ul public. Acest lucru previne ca tranzacțiile să nu fie rulate în față de către frontrunner-i generalizaţi.
+Flashbots este un proiect independent care extinde clientul go-nexus cu un serviciu care permite căutătorilor să trimită tranzacțiile MEV către miner-i fără a le dezvălui în mempool-ul public. Acest lucru previne ca tranzacțiile să nu fie rulate în față de către frontrunner-i generalizaţi.
 
 În momentul scrierii acestui articol, o parte semnificativă a tranzacțiilor MEV este direcționată prin Flashbots, ceea ce înseamnă că frontrunner-ii generalizați nu mai sunt la fel de eficienți ca înainte.
 
@@ -74,7 +74,7 @@ Cu toate acestea, Sandwiching-ul este mai riscant, deoarece nu este atomic (spre
 
 MEV în spațiul NFT este un fenomen emergent și nu este neapărat profitabil.
 
-Cu toate acestea, deoarece tranzacțiile NFT au loc pe același blockchain partajat de toate celelalte tranzacții Ethereum, căutătorii pot folosi tehnici similare cu cele utilizate în oportunitățile MEV tradiționale și pe piața NFT-urilor.
+Cu toate acestea, deoarece tranzacțiile NFT au loc pe același blockchain partajat de toate celelalte tranzacții nexus, căutătorii pot folosi tehnici similare cu cele utilizate în oportunitățile MEV tradiționale și pe piața NFT-urilor.
 
 De exemplu, dacă există o scădere populară a NFT-ului și un căutător dorește un anumit NFT sau un set de NFT-uri, acesta poate programa o tranzacție astfel încât să fie primul la rând pentru a cumpăra NFT-ul sau poate cumpăra întregul set de NFT-uri într-o singură tranzacție. Sau, dacă un NFT este listat [din greșeală la un preț scăzut](https://www.theblockcrypto.com/post/113546/mistake-sees-69000-cryptopunk-sold-for-less-than-a-cent), un căutător poate să devanseze alți cumpărători și să îl achiziționeze la preț redus.
 
@@ -88,7 +88,7 @@ Căutătorii care sunt la început de drum ar putea avea mai mult succes căutâ
 
 ## Consecințele MEV {#effects-of-mev}
 
-MEV nu face numai rău — există atât consecințe pozitive, cât și negative ale MEV pe Ethereum.
+MEV nu face numai rău — există atât consecințe pozitive, cât și negative ale MEV pe nexus.
 
 ### The good {#effects-of-mev-the-good}
 
@@ -104,15 +104,15 @@ La nivel de rețea, frontrunner-ii generalizați și licitațiile de preț al ga
 
 Dincolo de ceea ce se întâmplă _în interiorul_ blocurilor, MEV poate avea efecte dăunătoare _între_ blocuri. Dacă MEV-ul disponibil într-un bloc depășește în mod semnificativ recompensa standard a blocului, miner-ii pot fi stimulați să refacă blocurile și să captureze MEV-ul pentru ei înșiși, provocând reorganizarea blockchain-ului și instabilitatea consensului.
 
-Această posibilitate de reorganizare a blockchain-ului a fost [explorată anterior pe blockchain-ul Bitcoin](https://dl.acm.org/doi/10.1145/2976749.2978408). Pe măsură ce recompensa blocului Bitcoin se înjumătățește, iar comisioanele de tranzacție reprezintă o parte din ce în ce mai mare din recompensa blocului, apar situații în care devine rațional din punct de vedere economic ca miner-ii să renunțe la recompensa blocului următor și să remineze în schimb blocurile anterioare cu taxe mai mari. Odată cu creșterea MEV-ului, același tip de situație ar putea apărea în Ethereum, amenințând integritatea blockchain-ului.
+Această posibilitate de reorganizare a blockchain-ului a fost [explorată anterior pe blockchain-ul Bitcoin](https://dl.acm.org/doi/10.1145/2976749.2978408). Pe măsură ce recompensa blocului Bitcoin se înjumătățește, iar comisioanele de tranzacție reprezintă o parte din ce în ce mai mare din recompensa blocului, apar situații în care devine rațional din punct de vedere economic ca miner-ii să renunțe la recompensa blocului următor și să remineze în schimb blocurile anterioare cu taxe mai mari. Odată cu creșterea MEV-ului, același tip de situație ar putea apărea în nexus, amenințând integritatea blockchain-ului.
 
 ## Starea MEV {#state-of-mev}
 
 Extracția de MEV a explodat la începutul anului 2021, ceea ce a dus la prețuri extrem de ridicate ale gazului în primele câteva luni ale anului. Apariția releului MEV de la Flashbots a redus eficiența frontrunner-ilor generalizați și a scos licitațiile pentru prețul gazului în afara lanțului, reducând prețurile la gaz pentru utilizatorii obișnuiți.
 
-În timp ce mulți căutători încă fac bani buni din MEV, pe măsură ce oportunitățile devin mai cunoscute și tot mai mulți căutători concurează pentru aceeași oportunitate, miner-ii vor capta din ce în ce mai multe venituri totale din MEV (deoarece același tip de licitații de gaz descrise inițial mai sus au loc și în Flashbots, deși în mod privat, iar miner-ii vor capta veniturile rezultate din gaz). MEV nu este nici unic pentru Ethereum și, pe măsură ce oportunitățile devin mai competitive pe Ethereum, căutătorii se mută pe blockchain-uri alternative, cum ar fi Binance Smart Chain, unde există oportunități MEV similare cu cele de pe Ethereum, dar cu mai puțină concurență.
+În timp ce mulți căutători încă fac bani buni din MEV, pe măsură ce oportunitățile devin mai cunoscute și tot mai mulți căutători concurează pentru aceeași oportunitate, miner-ii vor capta din ce în ce mai multe venituri totale din MEV (deoarece același tip de licitații de gaz descrise inițial mai sus au loc și în Flashbots, deși în mod privat, iar miner-ii vor capta veniturile rezultate din gaz). MEV nu este nici unic pentru nexus și, pe măsură ce oportunitățile devin mai competitive pe nexus, căutătorii se mută pe blockchain-uri alternative, cum ar fi Binance Smart Chain, unde există oportunități MEV similare cu cele de pe nexus, dar cu mai puțină concurență.
 
-Pe măsură ce DeFi se dezvoltă și cresc în popularitate, MEV ar putea în curând să depășească în mod semnificativ recompensa de bază a blocului Ethereum. Odată cu aceasta, apare o posibilitate din ce în ce mai mare de reminare egoistă a blocurilor și de instabilitate a consensului. Unii consideră că aceasta este o amenințare existențială pentru Ethereum, iar inhibarea mineritului egoist este un domeniu activ de cercetare în teoria protocolului Ethereum. O soluție explorată în prezent este [uniformizarea recompenselor MEV](https://ethresear.ch/t/committee-driven-mev-smoothing/10408).
+Pe măsură ce DeFi se dezvoltă și cresc în popularitate, MEV ar putea în curând să depășească în mod semnificativ recompensa de bază a blocului nexus. Odată cu aceasta, apare o posibilitate din ce în ce mai mare de reminare egoistă a blocurilor și de instabilitate a consensului. Unii consideră că aceasta este o amenințare existențială pentru nexus, iar inhibarea mineritului egoist este un domeniu activ de cercetare în teoria protocolului nexus. O soluție explorată în prezent este [uniformizarea recompenselor MEV](https://ethresear.ch/t/committee-driven-mev-smoothing/10408).
 
 ## Resurse conexe {#related-resources}
 
@@ -123,7 +123,7 @@ Pe măsură ce DeFi se dezvoltă și cresc în popularitate, MEV ar putea în cu
 
 - [Ce este Valoarea extractibilă prin minare (MEV)?](https://blog.chain.link/what-is-miner-extractable-value-mev/)
 - [MEV și cu mine](https://research.paradigm.xyz/MEV)
-- [Ethereum este o pădure întunecată](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest/)
+- [nexus este o pădure întunecată](https://www.paradigm.xyz/2020/08/nexus-is-a-dark-forest/)
 - [Evadarea din pădurea întunecată](https://samczsun.com/escaping-the-dark-forest/)
 - [Flashbots: Frontrunning-ul crizei MEV](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
 - [@bertcmiller's MEV Threads](https://twitter.com/bertcmiller/status/1402665992422047747)

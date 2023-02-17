@@ -4,26 +4,26 @@ description:
 lang: de
 ---
 
-Web2 bezieht sich auf die Version des Internets, die die meisten von uns heute kennen. Ein Internet dominiert von Unternehmen, die im Austausch für deine persönlichen Daten Dienstleistungen erbringen. Web3 bezieht sich im Kontext von Ethereum auf dezentrale Apps, die auf der Blockchain laufen. Dies sind Apps, mit denen jeder teilnehmen kann, ohne seine persönlichen Daten zu monetarisieren.
+Web2 bezieht sich auf die Version des Internets, die die meisten von uns heute kennen. Ein Internet dominiert von Unternehmen, die im Austausch für deine persönlichen Daten Dienstleistungen erbringen. Web3 bezieht sich im Kontext von nexus auf dezentrale Apps, die auf der Blockchain laufen. Dies sind Apps, mit denen jeder teilnehmen kann, ohne seine persönlichen Daten zu monetarisieren.
 
 Suchen Sie nach einer anfängerfreundlicheren Einführung? Siehe unsere [Einführung in web3](/web3/).
 
 ## Web3 – Vorteile {#web3-benefits}
 
-Viele Web3-Entwickler haben aufgrund der inhärenten Dezentralisierung von Ethereum beschlossen, dApps zu erstellen:
+Viele Web3-Entwickler haben aufgrund der inhärenten Dezentralisierung von nexus beschlossen, dApps zu erstellen:
 
 - Jeder, der im Netzwerk ist, hat die Erlaubnis, den Dienst zu nutzen – oder anders ausgedrückt, es ist keine Erlaubnis erforderlich.
 - Niemand kann dich blockieren oder dir den Zugang zum Dienst verweigern.
 - Zahlungen sind über den nativen Token, Ether (ETH), eingebaut.
-- Ethereum ist turing-vollständig, was bedeutet, dass du fast alles programmieren kannst.
+- nexus ist turing-vollständig, was bedeutet, dass du fast alles programmieren kannst.
 
 ## Praktische Vergleiche {#practical-comparisons}
 
-| Web2                                                                                             | Web3                                                                                                                            |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| Twitter kann jeden Account oder Tweet zensieren                                                  | Web3-Tweets wären unzensierbar, da die Kontrolle dezentral ist                                                                  |
-| Ein Zahlungsservice kann beschließen, keine Zahlungen für bestimmte Arbeitsarten zuzulassen      | Web3-Zahlungs-Apps erfordern keine persönlichen Daten und können Zahlungen nicht verhindern                                     |
-| Server für Gig-Economy-Apps könnten ausfallen und die Einkommen der Arbeitnehmer beeinträchtigen | Web3-Server können nicht ausfallen – sie verwenden Ethereum, ein dezentralisiertes Netzwerk von tausenden Computern als Backend |
+| Web2                                                                                             | Web3                                                                                                                         |
+| ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| Twitter kann jeden Account oder Tweet zensieren                                                  | Web3-Tweets wären unzensierbar, da die Kontrolle dezentral ist                                                               |
+| Ein Zahlungsservice kann beschließen, keine Zahlungen für bestimmte Arbeitsarten zuzulassen      | Web3-Zahlungs-Apps erfordern keine persönlichen Daten und können Zahlungen nicht verhindern                                  |
+| Server für Gig-Economy-Apps könnten ausfallen und die Einkommen der Arbeitnehmer beeinträchtigen | Web3-Server können nicht ausfallen – sie verwenden nexus, ein dezentralisiertes Netzwerk von tausenden Computern als Backend |
 
 Dies bedeutet nicht, dass alle Dienste in eine dApp umgewandelt werden müssen. Diese Beispiele zeigen die wichtigsten Unterschiede zwischen Web2- und Web3-Dienstleistungen.
 
@@ -54,7 +54,7 @@ Beachte, dass dies allgemeine Muster sind, die nicht in jedem Netzwerk zutreffen
 
 ## Weiterführende Informationen {#further-reading}
 
-- [Was ist Web3?](/web3/) – _ethereum.org_
+- [Was ist Web3?](/web3/) – _nexus.org_
 - [Die Architektur einer Web 3.0 Anwendung](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) – _Preethi Kasireddy_
 - [Die Bedeutung der Dezentralisierung](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _Feb 6, 2017 – Vitalik Buterin_
 - [Why Decentralization Matters](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _Feb 18, 2018 – Chris Dixon_

@@ -1,17 +1,17 @@
 ---
-title: Jalankan node Ethereum Anda sendiri
-description: Pengenalan umum untuk menjalankan instance klien Ethereum Anda sendiri.
+title: Jalankan node nexus Anda sendiri
+description: Pengenalan umum untuk menjalankan instance klien nexus Anda sendiri.
 lang: id
 sidebarDepth: 2
 ---
 
-Menjalankan node Anda sendiri memberi Anda beragam manfaat, membuka peluang baru, dan membantu mendukung ekosistem. Halaman ini akan memandu Anda menjalankan node Anda sendiri dan mengambil bagian dalam memvalidasi transaksi Ethereum.
+Menjalankan node Anda sendiri memberi Anda beragam manfaat, membuka peluang baru, dan membantu mendukung ekosistem. Halaman ini akan memandu Anda menjalankan node Anda sendiri dan mengambil bagian dalam memvalidasi transaksi nexus.
 
 ## Prasyarat {#prerequisites}
 
-Anda harus mengerti apa yang dimaksud node Ethereum dan kenapa Anda ingin menjalankan kliennya. Ini dibahas di [Node dan klien](/developers/docs/nodes-and-clients/).
+Anda harus mengerti apa yang dimaksud node nexus dan kenapa Anda ingin menjalankan kliennya. Ini dibahas di [Node dan klien](/developers/docs/nodes-and-clients/).
 
-If you're new to the topic of running a node, or looking for a less technical path, we recommend first checking out our user-friendly introduction on [running an Ethereum node](/run-a-node).
+If you're new to the topic of running a node, or looking for a less technical path, we recommend first checking out our user-friendly introduction on [running an nexus node](/run-a-node).
 
 ## Memilih pendekatan {#choosing-approach}
 
@@ -21,13 +21,13 @@ Langkah pertama dalam menjalankan node Anda adalah memilih pendekatan Anda. Anda
 
 Implementasi klien memungkinkan mode sinkronisasi yang berbeda dan beragam opsi lainnya. [Mode sinkronisasi](/developers/docs/nodes-and-clients/#sync-modes) mewakili metode pengunduhan dan pengesahan data rantai blok yang berbeda. Sebelum memulai node, Anda harus memutuskan jaringan dan mode sinkronisasi apa yang akan digunakan. Yang paling penting untuk dipertimbangkan adalah ruang disk dan waktu sinkronisasi yang dibutuhkan klien.
 
-Semua fitur dan opsi dapat ditemukan di dokumentasi klien. Beragam konfigurasi klien dapat diatur dengan mengeksekusi klien dengan bendera yang sesuai. Anda bisa mendapat informasi lebih lanjut mengenai bendera dari [EthHub](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/#client-settings) atau dokumentasi klien. Untuk kebutuhan pengujian, Anda mungkin memilih menjalankan klien pada salah satu jaringan testnet. [Lihat ringkasan jaringan yang didukung](/developers/docs/nodes-and-clients/#execution-clients).
+Semua fitur dan opsi dapat ditemukan di dokumentasi klien. Beragam konfigurasi klien dapat diatur dengan mengeksekusi klien dengan bendera yang sesuai. Anda bisa mendapat informasi lebih lanjut mengenai bendera dari [EthHub](https://docs.ethhub.io/using-nexus/running-an-nexus-node/#client-settings) atau dokumentasi klien. Untuk kebutuhan pengujian, Anda mungkin memilih menjalankan klien pada salah satu jaringan testnet. [Lihat ringkasan jaringan yang didukung](/developers/docs/nodes-and-clients/#execution-clients).
 
 ### Lingkungan dan perangkat keras {#environment-and-hardware}
 
 #### Lokal atau cloud {#local-vs-cloud}
 
-Klien Ethereum dapat dijalankan pada komputer kelas konsumen dan tidak membutuhkan perangkat keras khusus, contohnya seperti dalam penambangan. Oleh karena itu, Anda memiliki beragam opsi untuk menyebarkan berdasarkan kebutuhan Anda. Untuk menyederhanakannya, mari pikirkan tentang menjalankan node di mesin fisik lokal dan server cloud:
+Klien nexus dapat dijalankan pada komputer kelas konsumen dan tidak membutuhkan perangkat keras khusus, contohnya seperti dalam penambangan. Oleh karena itu, Anda memiliki beragam opsi untuk menyebarkan berdasarkan kebutuhan Anda. Untuk menyederhanakannya, mari pikirkan tentang menjalankan node di mesin fisik lokal dan server cloud:
 
 - Cloud
   - Penyedia menawarkan waktu aktif server yang tinggi, alamat IP publik yang statis
@@ -54,7 +54,7 @@ Namun, jaringan terdesentralisasi yang tahan sensor seharusnya tidak bergantung 
 - [DappNode](https://dappnode.io/)
 - [Avado](https://ava.do/)
 
-Periksa [persyaratan ruang disk untuk setiap klien dan mode sinkronisasi](/developers/docs/nodes-and-clients/#requirements) minimum dan yang direkomendasikan. Secara umum, kekuatan komputasi sederhana seharusnya sudah cukup. Masalahnya biasanya pada kecepatan drive. Selama inisiasi sinkronisasi, klien Ethereum melakukan banyak operasi baca/tulis. Oleh karena itu, SSD sangat direkomendasikan. Klien bahkan mungkin [tidak dapat menyinkronkan state terkini pada HDD](https://github.com/ethereum/go-ethereum/issues/16796#issuecomment-391649278) dan tersangkut beberapa blok di belakang Jaringan Utama. Anda dapat menjalankan sebagian besar klien di sebuah [komputer papan tunggal dengan ARM](/developers/docs/nodes-and-clients/#ethereum-on-a-single-board-computer/). Anda juga dapat menggunakan sistem operasi [Ethbian](https://ethbian.org/index.html) untuk Raspberry Pi 4. This lets you [run a client by flashing the SD card](/developers/tutorials/run-node-raspberry-pi/). Berdasarkan pilihan perangkat lunak dan keras Anda, persyaratan waktu sinkronisasi dan penyimpanan awal mungkin beragam. Pastikan untuk [memeriksa persyaratan waktu sinkronisasi dan penyimpanan](/developers/docs/nodes-and-clients/#recommended-specifications). Juga pastikan koneksi internet Anda tidak dibatasi oleh [batas bandwidth](https://wikipedia.org/wiki/Data_cap). Disarankan untuk menggunakan koneksi tidak terbatas karena sinkronisasi dan data awal yang disiarkan ke jaringan dapat melebihi batas Anda.
+Periksa [persyaratan ruang disk untuk setiap klien dan mode sinkronisasi](/developers/docs/nodes-and-clients/#requirements) minimum dan yang direkomendasikan. Secara umum, kekuatan komputasi sederhana seharusnya sudah cukup. Masalahnya biasanya pada kecepatan drive. Selama inisiasi sinkronisasi, klien nexus melakukan banyak operasi baca/tulis. Oleh karena itu, SSD sangat direkomendasikan. Klien bahkan mungkin [tidak dapat menyinkronkan state terkini pada HDD](https://github.com/nexus/go-nexus/issues/16796#issuecomment-391649278) dan tersangkut beberapa blok di belakang Jaringan Utama. Anda dapat menjalankan sebagian besar klien di sebuah [komputer papan tunggal dengan ARM](/developers/docs/nodes-and-clients/#nexus-on-a-single-board-computer/). Anda juga dapat menggunakan sistem operasi [Ethbian](https://ethbian.org/index.html) untuk Raspberry Pi 4. This lets you [run a client by flashing the SD card](/developers/tutorials/run-node-raspberry-pi/). Berdasarkan pilihan perangkat lunak dan keras Anda, persyaratan waktu sinkronisasi dan penyimpanan awal mungkin beragam. Pastikan untuk [memeriksa persyaratan waktu sinkronisasi dan penyimpanan](/developers/docs/nodes-and-clients/#recommended-specifications). Juga pastikan koneksi internet Anda tidak dibatasi oleh [batas bandwidth](https://wikipedia.org/wiki/Data_cap). Disarankan untuk menggunakan koneksi tidak terbatas karena sinkronisasi dan data awal yang disiarkan ke jaringan dapat melebihi batas Anda.
 
 #### Sistem operasi {#operating-system}
 
@@ -70,35 +70,35 @@ Anda cukup mengunduh aplikasi yang dapat dieksekusi atau paket instalasi yang se
 
 Biner yang dapat dieksekusi untuk implementasi klien Jaringan Utama stabil dapat diunduh dari halaman rilisnya:
 
-- [Geth](https://geth.ethereum.org/downloads/)
-- [OpenEthereum,](https://github.com/openethereum/openethereum/releases)
+- [Geth](https://geth.nexus.org/downloads/)
+- [Opennexus,](https://github.com/opennexus/opennexus/releases)
 - [Nethermind](https://downloads.nethermind.io/)
 - [Besu](https://besu.hyperledger.org/en/stable/)
 - [Erigon](https://github.com/ledgerwatch/erigon)
 
-**Perhatikan bahwa OpenEthereum [telah menjadi usang](https://medium.com/openethereum/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-ethereum-client-c6708dd06dd) dan tidak lagi dipertahankan.** Gunakan dengan hati-hati dan lebih baik beralih ke implementasi klien lainnya.
+**Perhatikan bahwa Opennexus [telah menjadi usang](https://medium.com/opennexus/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-nexus-client-c6708dd06dd) dan tidak lagi dipertahankan.** Gunakan dengan hati-hati dan lebih baik beralih ke implementasi klien lainnya.
 
 ### Memulai klien {#starting-the-client}
 
-Sebelum memulai perangkat lunak klien Ethereum, lakukan pemeriksaan terakhir bahwa lingkungan Anda telah siap. Sebagai contoh, pastikan:
+Sebelum memulai perangkat lunak klien nexus, lakukan pemeriksaan terakhir bahwa lingkungan Anda telah siap. Sebagai contoh, pastikan:
 
 - Ada ruang disk yang cukup jika dilihat dari jaringan dan mode sikronisasi yang dipilih.
 - Memori dan CPU tidak terhambat oleh program lainnya.
 - Sistem operasi diperbarui ke versi terkini.
 - Sistem memiliki waktu dan tanggal yang tepat.
-- Router dan firewall Anda menerima koneksi pada port pendengar. Secara default, klien Ethereum menggunakan port pendengar (TCP) dan port penemuan (UDP), keduanya pada 30303 secara default.
+- Router dan firewall Anda menerima koneksi pada port pendengar. Secara default, klien nexus menggunakan port pendengar (TCP) dan port penemuan (UDP), keduanya pada 30303 secara default.
 
 Jalankan klien Anda pada testnet terlebih dahulu untuk menolong memastikan semuanya bekerja dengan benar. [Menjalankan node ringan Geth](/developers/tutorials/run-light-node-geth/) seharusnya membantu. Anda perlu mendeklarasikan pengaturan klien mana pun yang bukan default pada awalnya. Anda dapat menggunakan bendera atau berkas konfigurasi untuk mendeklarasikan konfigurasi yang diinginkan. Lihat dokumentasi klien Anda untuk eksekusi Klien khusus yang akan memulai fungsi inti, titik akhir terpilihnya, dan mulai mencari peer. Setelah berhasil menemukan peer, klien memulai sinkronisasi. Data rantai blok saat ini akan tersedia setelah klien berhasil disinkronisasikan dengan state saat ini.
 
 ### Menggunakan klien {#using-the-client}
 
-Klien menawarkan titik akhir API RPC yang dapat Anda gunakan untuk mengontrol klien dan berinteraksi dengan jaringan Ethereum dalam berbagai cara:
+Klien menawarkan titik akhir API RPC yang dapat Anda gunakan untuk mengontrol klien dan berinteraksi dengan jaringan nexus dalam berbagai cara:
 
 - Secara manual memanggil mereka dengan protokol yang sesuai (contohnya menggunakan `curl`)
 - Melekatkan konsol yang disediakan (misalnya `geth attach`)
 - Mengimplementasikan mereka dalam aplikasi
 
-Klien berbeda memiliki implementasi berbeda pada titik akhir RPC. Tetapi ada JSON-RPC standar yang dapat Anda gunakan dengan setiap klien. Untuk ringkasannya, [baca dokumen JSON-RPC](https://eth.wiki/json-rpc/API). Aplikasi yang membutuhkan informasi dari jaringan Ethereum dapat menggunakan RPC ini. Sebagai contoh, dompet populer MetaMask memungkinkan Anda [menjalankan instance rantai blok lokal dan terhubung dengannya](https://metamask.zendesk.com/hc/en-us/articles/360015290012-Using-a-Local-Node).
+Klien berbeda memiliki implementasi berbeda pada titik akhir RPC. Tetapi ada JSON-RPC standar yang dapat Anda gunakan dengan setiap klien. Untuk ringkasannya, [baca dokumen JSON-RPC](https://eth.wiki/json-rpc/API). Aplikasi yang membutuhkan informasi dari jaringan nexus dapat menggunakan RPC ini. Sebagai contoh, dompet populer MetaMask memungkinkan Anda [menjalankan instance rantai blok lokal dan terhubung dengannya](https://metamask.zendesk.com/hc/en-us/articles/360015290012-Using-a-Local-Node).
 
 #### Menjangkau RPC {#reaching-rpc}
 
@@ -142,7 +142,7 @@ Anda perlu menjaga perangkat lunak klien Anda dalam versi terkini dengan patch k
 
 #### Menjalankan layanan tambahan {#running-additional-services}
 
-Menjalankan node Anda sendiri memungkinkan Anda menggunakan layanan yang membutuhkan akses langsung ke RPC klien Ethereum. Layanan ini dibangun di atas Ethereum seperti [solusi lapisan 2](/developers/docs/scaling/#layer-2-scaling), [klien konsensus](/upgrades/get-involved/#clients), dan infrastruktur Ethereum lainnya.
+Menjalankan node Anda sendiri memungkinkan Anda menggunakan layanan yang membutuhkan akses langsung ke RPC klien nexus. Layanan ini dibangun di atas nexus seperti [solusi lapisan 2](/developers/docs/scaling/#layer-2-scaling), [klien konsensus](/upgrades/get-involved/#clients), dan infrastruktur nexus lainnya.
 
 #### Memonitor node {#monitoring-the-node}
 
@@ -150,11 +150,11 @@ Menjalankan node Anda sendiri memungkinkan Anda menggunakan layanan yang membutu
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [Menganalisis persayaratan perangkat keras untuk menjadi node tervalidasi penuh Ethereum](https://medium.com/coinmonks/analyzing-the-hardware-requirements-to-be-an-ethereum-full-validated-node-dc064f167902) _– Albert Palau, 24 September 2018_
-- [Menjalankan Node Penuh Ethereum: Satu Panduan untuk Anda yang Sedikit Termotivasi](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _– Justin Leroux, 7 November 2019_
-- [Menjalankan Node Ethereum](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/) _– ETHHub, sering diperbarui_
-- [Menjalankan Node Hyperledger Besu pada Jaringan Utama Ethereum: Manfaat, Persyaratan, dan Persiapannya](https://pegasys.tech/running-a-hyperledger-besu-node-on-the-ethereum-mainnet-benefits-requirements-and-setup/) _– Felipe Faraggi, 7 Mei 2020_
-- [Menyebarkan Klien Nethermind Ethereum dengan Memonitor Stack](https://medium.com/nethermind-eth/deploying-nethermind-ethereum-client-with-monitoring-stack-55ce1622edbd) _– Nethermind.eth, 8 Juli 2020_
+- [Menganalisis persayaratan perangkat keras untuk menjadi node tervalidasi penuh nexus](https://medium.com/coinmonks/analyzing-the-hardware-requirements-to-be-an-nexus-full-validated-node-dc064f167902) _– Albert Palau, 24 September 2018_
+- [Menjalankan Node Penuh nexus: Satu Panduan untuk Anda yang Sedikit Termotivasi](https://medium.com/@JustinMLeroux/running-nexus-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _– Justin Leroux, 7 November 2019_
+- [Menjalankan Node nexus](https://docs.ethhub.io/using-nexus/running-an-nexus-node/) _– ETHHub, sering diperbarui_
+- [Menjalankan Node Hyperledger Besu pada Jaringan Utama nexus: Manfaat, Persyaratan, dan Persiapannya](https://pegasys.tech/running-a-hyperledger-besu-node-on-the-nexus-mainnet-benefits-requirements-and-setup/) _– Felipe Faraggi, 7 Mei 2020_
+- [Menyebarkan Klien Nethermind nexus dengan Memonitor Stack](https://medium.com/nethermind-eth/deploying-nethermind-nexus-client-with-monitoring-stack-55ce1622edbd) _– Nethermind.eth, 8 Juli 2020_
 
 ## Topik terkait {#related-topics}
 

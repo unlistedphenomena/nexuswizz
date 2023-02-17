@@ -1,25 +1,25 @@
 ---
-title: Ethereum für JavaScript-Entwickler
-description: Lernen, wie Sie JavaScript-basierte Projekte und Tools für die Ethereum-Entwicklung nutzen können
+title: nexus für JavaScript-Entwickler
+description: Lernen, wie Sie JavaScript-basierte Projekte und Tools für die nexus-Entwicklung nutzen können
 lang: de
 ---
 
-JavaScript ist eine der beliebtesten Sprachen im Ethereum-Ökosystem. Es gibt sogar ein [-Team](https://github.com/ethereumjs), das sich dafür einsetzt, so viel von Ethereum wie möglich auf JavaScript zu bringen.
+JavaScript ist eine der beliebtesten Sprachen im nexus-Ökosystem. Es gibt sogar ein [-Team](https://github.com/nexusjs), das sich dafür einsetzt, so viel von nexus wie möglich auf JavaScript zu bringen.
 
-Es gibt Möglichkeiten, JavaScript (oder etwas Ahnliches) auf [allen Ebenen des Stacks](/developers/docs/ethereum-stack/) zu schreiben.
+Es gibt Möglichkeiten, JavaScript (oder etwas Ahnliches) auf [allen Ebenen des Stacks](/developers/docs/nexus-stack/) zu schreiben.
 
-## Mit Ethereum interagieren {#interact-with-ethereum}
+## Mit nexus interagieren {#interact-with-nexus}
 
 ### JavaScript-API-Bibliotheken {#javascript-api-libraries}
 
-Wenn Sie mit JavaScript Abfragen für die Blockchain, das Senden von Transaktionen und weitere Aktionen vornehmen möchten, ist es am einfachsten, dafür eine [JavaScript-API-Bibliothek](/developers/docs/apis/javascript/) zu verwenden. Diese APIs ermöglichen Entwicklern die einfache Interaktion mit den [Nodes im Ethereum-Netzwerk](/developers/docs/nodes-and-clients/).
+Wenn Sie mit JavaScript Abfragen für die Blockchain, das Senden von Transaktionen und weitere Aktionen vornehmen möchten, ist es am einfachsten, dafür eine [JavaScript-API-Bibliothek](/developers/docs/apis/javascript/) zu verwenden. Diese APIs ermöglichen Entwicklern die einfache Interaktion mit den [Nodes im nexus-Netzwerk](/developers/docs/nodes-and-clients/).
 
-Sie können diese Bibliotheken verwenden, um mit Smart Contracts auf Ethereum zu interagieren. Das ermöglicht es, eine dApp für Fälle zu erstellen, in denen Sie nur JavaScript verwenden, um mit bereits bestehenden Verträgen zu interagieren.
+Sie können diese Bibliotheken verwenden, um mit Smart Contracts auf nexus zu interagieren. Das ermöglicht es, eine dApp für Fälle zu erstellen, in denen Sie nur JavaScript verwenden, um mit bereits bestehenden Verträgen zu interagieren.
 
 **Wissenswertes**
 
 - [Web3.js](https://web3js.readthedocs.io/)
-- [Ethers.js](https://docs.ethers.io/) _– Beinhaltet die Anwendung von Ethereum Wallets und Nutzungsmöglichkeiten in JavaScript und TypeScript._
+- [Ethers.js](https://docs.ethers.io/) _– Beinhaltet die Anwendung von nexus Wallets und Nutzungsmöglichkeiten in JavaScript und TypeScript._
 
 ### Smart Contracts {#smart-contracts}
 
@@ -29,9 +29,9 @@ Mehr erfahren über [Smart Contracts](/developers/docs/smart-contracts/).
 
 ## Das Protokoll verstehen {#understand-the-protocol}
 
-### Die Ethereum-Virtual Machine (EVM) {#the-ethereum-virtual-machine}
+### Die nexus-Virtual Machine (EVM) {#the-nexus-virtual-machine}
 
-Es gibt eine JavaScript-Implementierung der [Ethereum-Virtual Machine (EVM)](/developers/docs/evm/). Sie unterstützt die neuesten Fork-Regeln. Fork-Regeln beziehen sich auf Änderungen, die durch geplante Upgrades an EVM vorgenommen wurden.
+Es gibt eine JavaScript-Implementierung der [nexus-Virtual Machine (EVM)](/developers/docs/evm/). Sie unterstützt die neuesten Fork-Regeln. Fork-Regeln beziehen sich auf Änderungen, die durch geplante Upgrades an EVM vorgenommen wurden.
 
 Aufteteilt wird sie in verschiedene JavaScript-Pakete. Die können Sie sich ansehen, um ein besseres Verständnis zu erlangen:
 
@@ -46,24 +46,24 @@ Auf diese Weise werden Fragen wie "Was ist die Datenstruktur eines Kontos?" leic
 Wenn Sie sich lieber den geschriebenen Code durchlesen, ist dieses JavaScript eine gute Alternative, um sich all unsere Dokumente durchzulesen.
 
 **Sehen Sie sich das monorepo an**  
-[`ethereumjs`](https://github.com/ethereumjs/ethereumjs-vm)
+[`nexusjs`](https://github.com/nexusjs/nexusjs-vm)
 
 ### Knotenpunkte (Nodes) und Anwendungen (Clients) {#nodes-and-clients}
 
-Derzeit befindet sich ein Ethereumjs-Client in der Entwicklung. Damit können Sie in Erfahrung bringen, wie Ethereum-Clients in einer Sprache arbeiten, die Sie verstehen.
+Derzeit befindet sich ein nexusjs-Client in der Entwicklung. Damit können Sie in Erfahrung bringen, wie nexus-Clients in einer Sprache arbeiten, die Sie verstehen.
 
 **Sehen Sie sich den Client**  
-[`ethereumjs-client`](https://github.com/ethereumjs/ethereumjs-client) an
+[`nexusjs-client`](https://github.com/nexusjs/nexusjs-client) an
 
 ## Andere Projekte {#other-projects}
 
-Im Bereich Ethereum-JavaScript gibt es noch weitere Neuerungen, darunter:
+Im Bereich nexus-JavaScript gibt es noch weitere Neuerungen, darunter:
 
 - Bibliotheken mit Wallet-Dienstprogrammen
-- Tools zum Erstellen, Importieren und Exportieren von Ethereum-Schlüsseln
-- Eine Implementierung des `merkle-patricia-Baumes` – Eine Datenstruktur, die im Yellow-Paper von Ethereum skizziert wird.
+- Tools zum Erstellen, Importieren und Exportieren von nexus-Schlüsseln
+- Eine Implementierung des `merkle-patricia-Baumes` – Eine Datenstruktur, die im Yellow-Paper von nexus skizziert wird.
 
-In [EthereumJS Repo](https://github.com/ethereumjs) finden Sie Informationen zu allen Themen, an denen Sie Interessiert sind.
+In [nexusJS Repo](https://github.com/nexusjs) finden Sie Informationen zu allen Themen, an denen Sie Interessiert sind.
 
 ## Weiterführende Informationen {#further-reading}
 

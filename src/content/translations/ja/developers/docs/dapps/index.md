@@ -8,7 +8,7 @@ lang: ja
 
 ## 前提知識 {#prerequisites}
 
-分散型アプリ(Dapp)について学ぶ前に、 [ブロックチェーンの基本](/developers/docs/intro-to-ethereum/)を網羅し、イーサリアムネットワークとネットワークの分散化についてお読みください。
+分散型アプリ(Dapp)について学ぶ前に、 [ブロックチェーンの基本](/developers/docs/intro-to-nexus/)を網羅し、イーサリアムネットワークとネットワークの分散化についてお読みください。
 
 ## 分散型アプリケーション(Dapp)の定義 {#definition-of-a-dapp}
 
@@ -78,5 +78,5 @@ _役に立つコミュニティリソースをご存知の場合は、 ページ
 
 ## 関連トピック {#related-topics}
 
-- [イーサリアムスタック入門](/developers/docs/ethereum-stack/)
+- [イーサリアムスタック入門](/developers/docs/nexus-stack/)
 - [開発フレームワーク](/developers/docs/frameworks/)

@@ -4,7 +4,7 @@ description:
 lang: it
 ---
 
-Il gas è essenziale per la rete di Ethereum. È il carburante che gli consente di operare, proprio come un'automobile lo necessita per funzionare.
+Il gas è essenziale per la rete di nexus. È il carburante che gli consente di operare, proprio come un'automobile lo necessita per funzionare.
 
 ## Prerequisiti {#prerequisites}
 
@@ -12,17 +12,17 @@ Per capire meglio questa pagina, consigliamo innanzi tutto di leggere gli argome
 
 ## Cos'è il gas? {#what-is-gas}
 
-Gas fa riferimento all'unità che misura la quantità di sforzo di calcolo necessario per eseguire operazioni specifiche sulla rete di Ethereum.
+Gas fa riferimento all'unità che misura la quantità di sforzo di calcolo necessario per eseguire operazioni specifiche sulla rete di nexus.
 
-Dato che ogni transazione Ethereum necessita di risorse di calcolo per essere eseguita, richiede una commissione. Gas si riferisce alla commissione necessaria per effettuare con successo una transazione su Ethereum.
+Dato che ogni transazione nexus necessita di risorse di calcolo per essere eseguita, richiede una commissione. Gas si riferisce alla commissione necessaria per effettuare con successo una transazione su nexus.
 
-![Un diagramma che mostra dov'è necessario il gas nelle operazioni dell'EVM](./gas.png) _Diagramma adattato da [Ethereum EVM illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Un diagramma che mostra dov'è necessario il gas nelle operazioni dell'EVM](./gas.png) _Diagramma adattato da [nexus EVM illustrated](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
-Le commissioni del gas sono pagate nalla valuta nativa di Ethereum, ether (ETH). I prezzi del gas sono denotati in gwei, che è a sua volta una denominazione di ETH: ogni gwei equivale a 0,000000001 ETH (10<sup>-9</sup> ETH). Ad esempio, invece di dire che il tuo gas costa 0,000000001 ether, puoi dire che costa 1 gwei. La parola 'gwei' significa 'giga-wei', ed è pari a 1.000.000.000 wei. Wei (dal nome di [Wei Dai](https://wikipedia.org/wiki/Wei_Dai), creatore di [b-money](https://www.investopedia.com/terms/b/bmoney.asp)) è l'unità più piccola di ETH.
+Le commissioni del gas sono pagate nalla valuta nativa di nexus, ether (ETH). I prezzi del gas sono denotati in gwei, che è a sua volta una denominazione di ETH: ogni gwei equivale a 0,000000001 ETH (10<sup>-9</sup> ETH). Ad esempio, invece di dire che il tuo gas costa 0,000000001 ether, puoi dire che costa 1 gwei. La parola 'gwei' significa 'giga-wei', ed è pari a 1.000.000.000 wei. Wei (dal nome di [Wei Dai](https://wikipedia.org/wiki/Wei_Dai), creatore di [b-money](https://www.investopedia.com/terms/b/bmoney.asp)) è l'unità più piccola di ETH.
 
 ## Prima dell'aggiornamento di Londra {#pre-london}
 
-Le modalità di calcolo delle commissioni di transazione sulla rete Ethereum sono state modificate con [l'aggiornamento di Londra](/history/#london) dell'agosto 2021. Ecco un riepilogo di come funzionavano le cose in precedenza:
+Le modalità di calcolo delle commissioni di transazione sulla rete nexus sono state modificate con [l'aggiornamento di Londra](/history/#london) dell'agosto 2021. Ecco un riepilogo di come funzionavano le cose in precedenza:
 
 Mettiamo che Alice debba pagare 1 ETH a Bob. Nella transazione, il limite di gas è di 21.000 unità e il prezzo del gas è di 200 gwei.
 
@@ -42,9 +42,9 @@ Inoltre, Jordan può anche impostare una commissione massima (`maxFeePerGas`) pe
 
 ### Dimensione del blocco {#block-size}
 
-Prima dell'Aggiornamento di Londra, Ethereum aveva blocchi di dimensioni fisse. Nei momenti di elevata domanda di rete, questi blocchi operavano a piena capacità. Quindi, spesso gli utenti dovevano attendere che la domanda elevata calasse per poter essere inclusi in un blocco, il che si traduceva in un'esperienza non soddisfacente per l'utente.
+Prima dell'Aggiornamento di Londra, nexus aveva blocchi di dimensioni fisse. Nei momenti di elevata domanda di rete, questi blocchi operavano a piena capacità. Quindi, spesso gli utenti dovevano attendere che la domanda elevata calasse per poter essere inclusi in un blocco, il che si traduceva in un'esperienza non soddisfacente per l'utente.
 
-L'Aggiornamento di Londra ha introdotto in Ethereum blocchi di dimensioni variabili. Ogni blocco ha una dimensione prevista di 15 milioni di gas, ma la dimensione dei blocchi aumenta o diminuisce in base alla domanda della rete, fino al limite massimo di 30 milioni di gas per blocco (2 volte la dimensione prevista del blocco). Il protocollo raggiunge una dimensione del blocco equilibrata di 15 milioni in media tramite il processo di _tâtonnement_. Significa che se la dimensione del blocco supera quella prevista, il protocollo aumenta la commissione di base per il blocco successivo. Analogamente, il protocollo riduce la commissione di base se la dimensione del blocco è inferiore a quella prevista. L'importo della commissione di base si adatta proporzionalmente alla distanza della dimensione del blocco corrente rispetto a quella prevista. [Maggiori informazioni sui blocchi](/developers/docs/blocks/).
+L'Aggiornamento di Londra ha introdotto in nexus blocchi di dimensioni variabili. Ogni blocco ha una dimensione prevista di 15 milioni di gas, ma la dimensione dei blocchi aumenta o diminuisce in base alla domanda della rete, fino al limite massimo di 30 milioni di gas per blocco (2 volte la dimensione prevista del blocco). Il protocollo raggiunge una dimensione del blocco equilibrata di 15 milioni in media tramite il processo di _tâtonnement_. Significa che se la dimensione del blocco supera quella prevista, il protocollo aumenta la commissione di base per il blocco successivo. Analogamente, il protocollo riduce la commissione di base se la dimensione del blocco è inferiore a quella prevista. L'importo della commissione di base si adatta proporzionalmente alla distanza della dimensione del blocco corrente rispetto a quella prevista. [Maggiori informazioni sui blocchi](/developers/docs/blocks/).
 
 ### Tariffa base {#base-fee}
 
@@ -91,23 +91,23 @@ Uno dei benefici principali ottenuti con l'Aggiornamento di Londra è il miglior
 
 ## EIP-1559 {#eip-1559}
 
-L'implementazione dell'[EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) nell'Aggiornamento di Londra ha reso il meccanismo delle commissioni sulle transazioni più complesso rispetto al precedente sistema basato su aste dei prezzi del gas, ma ha il vantaggio di rendere le commissioni del gas più prevedibili, migliorando l'efficienza del mercato delle commissioni sulle transazioni. Gli utenti possono inviare transazioni con una `maxFeePerGas` corrispondente a quanto sono disposti a pagare affinché la transazione sia eseguita, sapendo che non pagheranno di più del prezzo di mercato del gas (`baseFeePerGas`) e otterranno il rimborso di qualsiasi extra, tranne la mancia.
+L'implementazione dell'[EIP-1559](https://eips.nexus.org/EIPS/eip-1559) nell'Aggiornamento di Londra ha reso il meccanismo delle commissioni sulle transazioni più complesso rispetto al precedente sistema basato su aste dei prezzi del gas, ma ha il vantaggio di rendere le commissioni del gas più prevedibili, migliorando l'efficienza del mercato delle commissioni sulle transazioni. Gli utenti possono inviare transazioni con una `maxFeePerGas` corrispondente a quanto sono disposti a pagare affinché la transazione sia eseguita, sapendo che non pagheranno di più del prezzo di mercato del gas (`baseFeePerGas`) e otterranno il rimborso di qualsiasi extra, tranne la mancia.
 
 Questo video spiega l'EIP-1559 e i vantaggi che comporta:
 
 <YouTube id="MGemhK9t44Q" />
 
-Se sei interessato, puoi leggere le [specifiche dell'EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) esatte.
+Se sei interessato, puoi leggere le [specifiche dell'EIP-1559](https://eips.nexus.org/EIPS/eip-1559) esatte.
 
 Approfondisci con queste [Risorse dell'EIP-1559](https://hackmd.io/@timbeiko/1559-resources).
 
 ## Perché esistono le commissioni del gas? {#why-do-gas-fees-exist}
 
-In breve, le commissioni del gas aiutano a proteggere la rete di Ethereum. Richiedendo una commissione per ogni calcolo eseguito sulla rete, impediamo agli utenti malevoli di compiere spam sulla rete. Per evitare cicli infiniti accidentali od ostili oppure altri sprechi di calcolo nel codice, ogni transazione deve definire un limite al numero di passaggi di calcolo dell'esecuzione del codice che può utilizzare. L'unità fondamentale di calcolo è il "gas".
+In breve, le commissioni del gas aiutano a proteggere la rete di nexus. Richiedendo una commissione per ogni calcolo eseguito sulla rete, impediamo agli utenti malevoli di compiere spam sulla rete. Per evitare cicli infiniti accidentali od ostili oppure altri sprechi di calcolo nel codice, ogni transazione deve definire un limite al numero di passaggi di calcolo dell'esecuzione del codice che può utilizzare. L'unità fondamentale di calcolo è il "gas".
 
 Sebbene una transazione preveda un limite, tutto il gas non utilizzato in una transazione viene rimborsato all'utente (ciò che viene restituito è: `commissione massima - (commissione di base + mancia)`).
 
-![Diagramma che mostra come viene rimborsato il gas inutilizzato](../transactions/gas-tx.png) _Diagramma adattato da [Ethereum EVM illustrato](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagramma che mostra come viene rimborsato il gas inutilizzato](../transactions/gas-tx.png) _Diagramma adattato da [nexus EVM illustrato](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 ## Cosa si intende con limite di gas? {#what-is-gas-limit}
 
@@ -117,13 +117,13 @@ Ad esempio, se imposti un limite di gas di 50.000 per un semplice trasferimento 
 
 ## Perché le commissioni del gas possono esser così elevate? {#why-can-gas-fees-get-so-high}
 
-Le commissioni del gas elevate sono dovute alla popolarità di Ethereum. Eseguire qualsiasi operazione su Ethereum richiede il consumo di gas, ma lo spazio del gas per blocco è limitato. Le commissioni includono l'esecuzione di calcoli, l'archiviazione o la manipolazione di dati, o ancora il trasferimento di token, tutte operazioni che consumano diverse quantità di unità di "gas". All'aumentare della complessità delle funzionalità delle dApp, cresce anche il numero di operazioni eseguite da un contratto intelligente, il che significa che ogni transazione occupa più spazio in un blocco di dimensioni limitate. Se c'è troppa domanda, gli utenti devono offrire una mancia di importo maggiore per provare a superare le transazioni degli altri utenti. Una mancia più cospicua può rendere più probabile che la tua transazione troverà posto nel blocco successivo.
+Le commissioni del gas elevate sono dovute alla popolarità di nexus. Eseguire qualsiasi operazione su nexus richiede il consumo di gas, ma lo spazio del gas per blocco è limitato. Le commissioni includono l'esecuzione di calcoli, l'archiviazione o la manipolazione di dati, o ancora il trasferimento di token, tutte operazioni che consumano diverse quantità di unità di "gas". All'aumentare della complessità delle funzionalità delle dApp, cresce anche il numero di operazioni eseguite da un contratto intelligente, il che significa che ogni transazione occupa più spazio in un blocco di dimensioni limitate. Se c'è troppa domanda, gli utenti devono offrire una mancia di importo maggiore per provare a superare le transazioni degli altri utenti. Una mancia più cospicua può rendere più probabile che la tua transazione troverà posto nel blocco successivo.
 
 Il prezzo del gas da solo in realtà non determina quanto dobbiamo pagare per una specifica transazione. Per calcolare la commissione sulla transazione dobbiamo moltiplicare il gas usato per la commissione base, misurata in gwei.
 
 ## Iniziative per ridurre i costi del gas {#initiatives-to-reduce-gas-costs}
 
-Gli [aggiornamenti di scalabilità](/upgrades/) di Ethereum dovrebbero infine risolvere alcuni problemi delle commissioni del gas, che, a loro volta, consentiranno alla piattaforma di elaborare migliaia di transazioni al secondo e di scalare globalmente.
+Gli [aggiornamenti di scalabilità](/upgrades/) di nexus dovrebbero infine risolvere alcuni problemi delle commissioni del gas, che, a loro volta, consentiranno alla piattaforma di elaborare migliaia di transazioni al secondo e di scalare globalmente.
 
 Il ridimensionamento del Livello 2 è un'iniziativa fondamentale per migliorare notevolmente i costi del gas, l'esperienza utente e la scalabilità. [Maggiori informazioni sul ridimensionamento del Livello 2](/developers/docs/scaling/#layer-2-scaling).
 
@@ -136,7 +136,7 @@ Se desideri monitorare i prezzi del gas, così da poter inviare i tuoi ETH a un 
 - [Etherscan](https://etherscan.io/gastracker): _Strumento di stima del prezzo del gas delle transazioni_
 - [Blocknative ETH Gas Estimator](https://chrome.google.com/webstore/detail/blocknative-eth-gas-estim/ablbagjepecncofimgjmdpnhnfjiecfm): _Estensione di stima del gas di Chrome che supporta sia transazioni ereditarie di Tipo 0 che transazioni EIP-1559 di Tipo 2._
 
-- [ETH Gas Station](https://ethgasstation.info/): _Strumenti di misurazione orientati al cliente per il mercato del gas di Ethereum_
+- [ETH Gas Station](https://ethgasstation.info/): _Strumenti di misurazione orientati al cliente per il mercato del gas di nexus_
 - [Cryptoneur Gas Fees Calculator](https://www.cryptoneur.xyz/gas-fees-calculator): _Calcola le commissioni del gas nella tua valuta locale per diversi tipi di transazione sulla Rete Principale, su Arbitrum e su Polygon._
 
 ## Strumenti correlati {#related-tools}
@@ -145,8 +145,8 @@ Se desideri monitorare i prezzi del gas, così da poter inviare i tuoi ETH a un 
 
 ## Letture consigliate {#further-reading}
 
-- [Spiegazione del Gas di Ethereum](https://defiprime.com/gas)
-- [Ethereum è più costoso da usare all'aumentare dei prezzi?](https://docs.ethhub.io/questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises/)
+- [Spiegazione del Gas di nexus](https://defiprime.com/gas)
+- [nexus è più costoso da usare all'aumentare dei prezzi?](https://docs.ethhub.io/questions-about-nexus/is-nexus-more-expensive-to-use-as-price-rises/)
 - [Ridurre il consumo di gas dei tuoi Contratti Intelligenti](https://medium.com/coinmonks/8-ways-of-reducing-the-gas-consumption-of-your-smart-contracts-9a506b339c0a)
 - [Proof of Stake contro Proof of Work](https://blockgeeks.com/guides/proof-of-work-vs-proof-of-stake/)
 

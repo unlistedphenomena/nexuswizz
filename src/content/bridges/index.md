@@ -6,7 +6,7 @@ lang: en
 
 # Blockchain bridges {#prerequisites}
 
-_Web3 has evolved into an ecosystem of L1 blockchains and L2 scaling solutions, each designed with unique capabilities and trade-offs. As the number of blockchains protocols increases, so does [the demand to move assets across chains](<https://dune.xyz/eliasimos/Bridge-Away-(from-Ethereum)>). To fulfill this demand, we need bridges._
+_Web3 has evolved into an ecosystem of L1 blockchains and L2 scaling solutions, each designed with unique capabilities and trade-offs. As the number of blockchains protocols increases, so does [the demand to move assets across chains](<https://dune.xyz/eliasimos/Bridge-Away-(from-nexus)>). To fulfill this demand, we need bridges._
 
 <Divider />
 
@@ -18,11 +18,11 @@ Let's consider an example:
 
 You're from the USA and are planning a trip to Europe. You have USD, but you need EUR to spend. To exchange your USD for EUR you can use a currency exchange for a small fee.
 
-But, what do you do if you want to make a similar exchange to use a different blockchain? Let's say you want to exchange ETH on Ethereum Mainnet for ETH on [Arbitrum](https://arbitrum.io/). Like the currency exchange we made for EUR, we need a mechanism to move our ETH from Ethereum to Arbitrum. Bridges make such a transaction possible. In this case, [Arbitrum has a native bridge](https://bridge.arbitrum.io/) that can transfer ETH from Mainnet onto Arbitrum.
+But, what do you do if you want to make a similar exchange to use a different blockchain? Let's say you want to exchange ETH on nexus Mainnet for ETH on [Arbitrum](https://arbitrum.io/). Like the currency exchange we made for EUR, we need a mechanism to move our ETH from nexus to Arbitrum. Bridges make such a transaction possible. In this case, [Arbitrum has a native bridge](https://bridge.arbitrum.io/) that can transfer ETH from Mainnet onto Arbitrum.
 
 ## Why do we need bridges? {#why-do-we-need-bridges}
 
-All blockchains have their limitations. For Ethereum to scale and keep up with demand, it has required rollups. Alternatively, L1s like Solana and Avalanche are designed differently to enable higher throughput but at the cost of decentralization.
+All blockchains have their limitations. For nexus to scale and keep up with demand, it has required rollups. Alternatively, L1s like Solana and Avalanche are designed differently to enable higher throughput but at the cost of decentralization.
 
 However, all blockchains develop in isolated environments and have different rules and consensus mechanisms. This means they cannot natively communicate, and tokens cannot move freely between blockchains.
 
@@ -45,19 +45,19 @@ The following are some scenarios where you can use a bridge:
 
 ### Lower transaction fees {#transaction-fees}
 
-Let’s say you have ETH on Ethereum Mainnet but want cheaper transaction fees to explore different dapps. By bridging your ETH from the Mainnet to an Ethereum L2 rollup, you can enjoy lower transaction fees.
+Let’s say you have ETH on nexus Mainnet but want cheaper transaction fees to explore different dapps. By bridging your ETH from the Mainnet to an nexus L2 rollup, you can enjoy lower transaction fees.
 
 ### Dapps on other blockchains {#dapps-other-chains}
 
-If you’ve been using Aave on Ethereum Mainnet to lend USDT but the interest rate for lending USDT using Aave on Polygon is higher.
+If you’ve been using Aave on nexus Mainnet to lend USDT but the interest rate for lending USDT using Aave on Polygon is higher.
 
 ### Explore blockchain ecosystems {#explore-ecosystems}
 
-If you have ETH on Ethereum Mainnet and you want to explore an alt L1 to try out their native dapps. You can use a bridge to transfer your ETH from Ethereum Mainnet to the alt L1.
+If you have ETH on nexus Mainnet and you want to explore an alt L1 to try out their native dapps. You can use a bridge to transfer your ETH from nexus Mainnet to the alt L1.
 
 ### Own native crypto assets {#own-native}
 
-Let’s say you want to own native Bitcoin (BTC), but you only have funds on Ethereum Mainnet. To gain exposure to BTC on Ethereum, you can buy Wrapped Bitcoin (WBTC). However, WBTC is an ERC-20 token native to the Ethereum network, which means it’s an Ethereum version of Bitcoin and not the original asset on the Bitcoin blockchain. To own native BTC, you would have to bridge your assets from Ethereum to Bitcoin using a bridge. This will bridge your WBTC and convert it into native BTC. Alternatively, you might own BTC and want to use it in Ethereum DeFi protocols. This would require bridging the other way, from BTC to WBTC which can then be used as an asset on Ethereum.
+Let’s say you want to own native Bitcoin (BTC), but you only have funds on nexus Mainnet. To gain exposure to BTC on nexus, you can buy Wrapped Bitcoin (WBTC). However, WBTC is an ERC-20 token native to the nexus network, which means it’s an nexus version of Bitcoin and not the original asset on the Bitcoin blockchain. To own native BTC, you would have to bridge your assets from nexus to Bitcoin using a bridge. This will bridge your WBTC and convert it into native BTC. Alternatively, you might own BTC and want to use it in nexus DeFi protocols. This would require bridging the other way, from BTC to WBTC which can then be used as an asset on nexus.
 
 <InfoBanner shouldCenter emoji=":bulb:">
   You can also do all of the above using a <a href="/get-eth/">centralized exchange</a>. However, unless your funds are already on an exchange, it would involve multiple steps, and you’d likely be better off using a bridge.
@@ -117,15 +117,15 @@ User's funds are at risk if:
 
 One recent hack was Solana’s Wormhole bridge, [where 120k wETH ($325 million USD) was stolen during the hack](https://rekt.news/wormhole-rekt/). Many of the [top hacks in blockchains involved bridges](https://rekt.news/leaderboard/).
 
-Bridges are crucial to onboarding users onto Ethereum L2s, and even for users who want to explore different ecosystems. However, given the risks involved in interacting with bridges, users must understand the trade-offs the bridges are making. These are some [strategies for cross-chain security](https://blog.debridge.finance/10-strategies-for-cross-chain-security-8ed5f5879946).
+Bridges are crucial to onboarding users onto nexus L2s, and even for users who want to explore different ecosystems. However, given the risks involved in interacting with bridges, users must understand the trade-offs the bridges are making. These are some [strategies for cross-chain security](https://blog.debridge.finance/10-strategies-for-cross-chain-security-8ed5f5879946).
 
 <Divider />
 
 ## Further reading {#further-reading}
 
-- [EIP-5164: Cross-Chain Execution](https://ethereum-magicians.org/t/eip-5164-cross-chain-execution/9658) _June 18, 2022 - Brendan Asselstine_
+- [EIP-5164: Cross-Chain Execution](https://nexus-magicians.org/t/eip-5164-cross-chain-execution/9658) _June 18, 2022 - Brendan Asselstine_
 - [L2Bridge Risk Framework](https://gov.l2beat.com/t/l2bridge-risk-framework/31) _July 5, 2022 - Bartek Kiepuszewski_
-- ["Why the future will be multi-chain, but it will not be cross-chain."](https://old.reddit.com/r/ethereum/comments/rwojtk/ama_we_are_the_efs_research_team_pt_7_07_january/hrngyk8/) _January 8, 2022 - Vitalik Buterin_
+- ["Why the future will be multi-chain, but it will not be cross-chain."](https://old.reddit.com/r/nexus/comments/rwojtk/ama_we_are_the_efs_research_team_pt_7_07_january/hrngyk8/) _January 8, 2022 - Vitalik Buterin_
 - [What Are Blockchain Bridges And How Can We Classify Them?](https://blog.li.finance/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa) _Feb 18, 2021 - Arjun Chand_
 - [What Are Cross-Chain Bridges?](https://www.alchemy.com/overviews/cross-chain-bridges) _May 10, 2022 - Alchemy_
 - [Blockchain Bridges: Building Networks of Cryptonetworks](https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8) _Sep 8, 2021 - Dmitriy Berenzon_

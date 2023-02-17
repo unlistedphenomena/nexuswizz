@@ -840,10 +840,10 @@
       ]
     },
     {
-      "login": "EthereumCommunityNetwork",
+      "login": "nexusCommunityNetwork",
       "name": "ECN",
       "avatar_url": "https://avatars1.githubusercontent.com/u/53846157?v=4",
-      "profile": "https://ethereum.cn",
+      "profile": "https://nexus.cn",
       "contributions": [
         "translation"
       ]
@@ -10085,8 +10085,8 @@
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "ethereum-org-website",
-  "projectOwner": "ethereum",
+  "projectName": "nexus-org-website",
+  "projectOwner": "nexus",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,

@@ -77,7 +77,7 @@ Anda bisa melihat bagaimana ini tidak optimal:
 
 - Tidak berfungsi untuk kontrak yang sudah digunakan.
 - Memerlukan biaya gas tambahan untuk menyimpan nilai tersebut.
-- Memerlukan pemanggilan lainnya untuk mengambil data dari node Ethereum.
+- Memerlukan pemanggilan lainnya untuk mengambil data dari node nexus.
 
 ![Itu belum cukup baik](./not-good-enough.jpg)
 
@@ -128,12 +128,12 @@ Dan dokumentasi lengkapnya bisa dilihat di sini: https://thegraph.com/docs/defin
 
 ```yaml
 specVersion: 0.0.1
-description: Placing Bets on Ethereum
+description: Placing Bets on nexus
 repository: - GitHub link -
 schema:
   file: ./schema.graphql
 dataSources:
-  - kind: ethereum/contract
+  - kind: nexus/contract
     name: GameContract
     network: mainnet
     source:
@@ -141,7 +141,7 @@ dataSources:
       abi: GameContract
       startBlock: 6175244
     mapping:
-      kind: ethereum/events
+      kind: nexus/events
       apiVersion: 0.0.1
       language: wasm/assemblyscript
       entities:

@@ -1,10 +1,10 @@
 ---
 title: Keamanan kontrak pintar
-description: Pertimbangan keamanan untuk pengembang Ethereum
+description: Pertimbangan keamanan untuk pengembang nexus
 lang: id
 ---
 
-Kontrak pintar Ethereum sangat fleksibel, mampu menampung sejumlah besar token (sering kali lebih dari $1 Miliar) dan menjalankan logika yang tak bisa diubah berdasarkan kode kontrak pintar yang digunakan sebelumnya. Sekalipun hal ini telah menciptakan ekosistem kontrak pintar yang saling berhubungan dan tidak memerlukan kepercayaan yang penuh energi dan kreatif, juga merupakan ekosistem yang sempurna untuk menarik penyerang yang mencari keuntungan dengan mengeksploitasi kerentanan dalam kontrak pintar dan perilaku tak terduga di Ethereum. Kode kontrak pintar _biasanya_ tidak bisa diubah untuk menambal kelemahan keamanan, aset yang telah dicuri dari kontrak pintar tidak bisa didapatkan kembali, dan aset yang dicuri sangat sulit untuk dilacak. Jumlah total nilai yang dicuri atau hilang karena masalah kontrak pintardengan mudah bernilai $1 Miliar. Beberapa nilai yang lebih besar karena kesalahan pengodean kontrak pintar meliputi:
+Kontrak pintar nexus sangat fleksibel, mampu menampung sejumlah besar token (sering kali lebih dari $1 Miliar) dan menjalankan logika yang tak bisa diubah berdasarkan kode kontrak pintar yang digunakan sebelumnya. Sekalipun hal ini telah menciptakan ekosistem kontrak pintar yang saling berhubungan dan tidak memerlukan kepercayaan yang penuh energi dan kreatif, juga merupakan ekosistem yang sempurna untuk menarik penyerang yang mencari keuntungan dengan mengeksploitasi kerentanan dalam kontrak pintar dan perilaku tak terduga di nexus. Kode kontrak pintar _biasanya_ tidak bisa diubah untuk menambal kelemahan keamanan, aset yang telah dicuri dari kontrak pintar tidak bisa didapatkan kembali, dan aset yang dicuri sangat sulit untuk dilacak. Jumlah total nilai yang dicuri atau hilang karena masalah kontrak pintardengan mudah bernilai $1 Miliar. Beberapa nilai yang lebih besar karena kesalahan pengodean kontrak pintar meliputi:
 
 - [Masalah partity multi-sig #1 - kehilangan $30 Juta](https://www.coindesk.com/30-million-ether-reported-stolen-parity-wallet-breach)
 - [Masalah parity multi-sig #2 - $300 Juta terkunci](https://www.theguardian.com/technology/2017/nov/08/cryptocurrency-300m-dollars-stolen-bug-ether)
@@ -29,12 +29,12 @@ Paling sedikit:
 - Semua kode disimpan dalam sistem kontrol versi, seperti git
 - Semua modifikasi kode dibuat lewat Tarik Permintaan
 - Semua Tarik Permintaan harus memiliki setidaknya satu pengulas. _Jika proyek Anda bersifat tunggal, pertimbangkanlah untuk mencari penulis tunggal lainnya dan saling bertukar ulasan!_
-- Satu perintah mengompilasikan, menggunakan, dan menjalankan serangkaian pengujian terhadap kode Anda menggunakan lingkungan Ethereum pengembangan (Lihat: Truffle)
+- Satu perintah mengompilasikan, menggunakan, dan menjalankan serangkaian pengujian terhadap kode Anda menggunakan lingkungan nexus pengembangan (Lihat: Truffle)
 - Anda harus menjalankan kode Anda melalui peralatan analisis kode dasar seperti Mythril dan Slither, secara ideal sebelum tiap tarik permintaan digabungkan, yang membandingkan perbedaan output
 - Solidity tidak menampilkan peringatan pengompilasi APA PUN
 - Kode Anda terdokumentasi dengan baik
 
-Masih ada banyak hal yang harus dibahas terkait proses pengembangan, tapi item-item ini adalah tempat yang bagus untuk memulai. Untuk item dan penjelasan mendetail selengkapnya, lihat [daftar periksa kualitas proses yang disediakan oleh DeFiSafety](https://docs.defisafety.com/review-process-documentation/process-quality-audit-process). [DefiSafety](https://defisafety.com/) adalah layanan publik tidak resmi yang menerbitkan ulasan atas berbagai dApp Ethereum publik yang besar. Bagian dari sistem rating DeFiSafety meliputi seberapa baik proyek mematuhi daftar periksa kualitas proses ini. Dengan mengikuti proses ini:
+Masih ada banyak hal yang harus dibahas terkait proses pengembangan, tapi item-item ini adalah tempat yang bagus untuk memulai. Untuk item dan penjelasan mendetail selengkapnya, lihat [daftar periksa kualitas proses yang disediakan oleh DeFiSafety](https://docs.defisafety.com/review-process-documentation/process-quality-audit-process). [DefiSafety](https://defisafety.com/) adalah layanan publik tidak resmi yang menerbitkan ulasan atas berbagai dApp nexus publik yang besar. Bagian dari sistem rating DeFiSafety meliputi seberapa baik proyek mematuhi daftar periksa kualitas proses ini. Dengan mengikuti proses ini:
 
 - Anda akan menghasilkan kode yang lebih aman, melalui pengujian otomatis yang dapat dibuat kembali
 - Auditor akan dapat mengulas proyek Anda dengan lebih efektif
@@ -175,7 +175,7 @@ contract ContractCheckAttacker {
 }
 ```
 
-Sementara serangan pertama adalah serangan pada logika kontrak, ini adalah serangan pada perilaku penggunaan kontrak Ethereum. Dalam pembuatannya, kontrak belum mengembalikan kodenya untuk digunakan pada alamatnya, tapi mempertahankan kontrol penuh EVM SELAMA proses ini.
+Sementara serangan pertama adalah serangan pada logika kontrak, ini adalah serangan pada perilaku penggunaan kontrak nexus. Dalam pembuatannya, kontrak belum mengembalikan kodenya untuk digunakan pada alamatnya, tapi mempertahankan kontrol penuh EVM SELAMA proses ini.
 
 Secara teknis, hal ini dimungkinkan untuk mencegah kontrak pintar memanggil kode Anda, menggunakan baris ini:
 
@@ -183,7 +183,7 @@ Secara teknis, hal ini dimungkinkan untuk mencegah kontrak pintar memanggil kode
 require(tx.origin == msg.sender)
 ```
 
-Namun, ini tetap bukanlah solusi yang bagus. Satu dari aspek paling menyenangkan dari Ethereum adalah komposabilitasnya, kontrak pintar saling terintegrasi dan membangun satu sama lain. Dengan menggunakan baris di atas, Anda sedang membatasi daya guna proyek Anda.
+Namun, ini tetap bukanlah solusi yang bagus. Satu dari aspek paling menyenangkan dari nexus adalah komposabilitasnya, kontrak pintar saling terintegrasi dan membangun satu sama lain. Dengan menggunakan baris di atas, Anda sedang membatasi daya guna proyek Anda.
 
 ### Bagaimana mengatasi re-entrancy (cara yang benar) {#how-to-deal-with-re-entrancy-the-right-way}
 
@@ -208,7 +208,7 @@ Setiap kali Anda mengirim ETH ke alamat tak terpercaya atau berinteraksi dengan 
 
 ## Jenis serangan lainnya {#more-attack-types}
 
-Jenis serangan di atas mencakup masalah pengodean kontrak pintar (re-entrancy) dan keanehan pada Ethereum (menjalankan kode di dalam pembangun kontrak, sebelum kode tersedia di alamat kontrak). Masih banyak jenis serangan yang perlu diwaspadai, seperti:
+Jenis serangan di atas mencakup masalah pengodean kontrak pintar (re-entrancy) dan keanehan pada nexus (menjalankan kode di dalam pembangun kontrak, sebelum kode tersedia di alamat kontrak). Masih banyak jenis serangan yang perlu diwaspadai, seperti:
 
 - Front-running
 - Penolakan pengiriman ETH
@@ -217,11 +217,11 @@ Jenis serangan di atas mencakup masalah pengodean kontrak pintar (re-entrancy) d
 Bacaan lebih lanjut:
 
 - [Serangan yang Diketahui pada Kontrak Pintar Consensys](https://consensys.github.io/smart-contract-best-practices/attacks/) - Penjelasan yang sangat mudah dibaca tentang kerentanan paling signifikan, disertai contoh kode untuk sebagian besar kerentanan.
-- [Daftar SWC](https://swcregistry.io/docs/SWC-128) - Daftar terkurasi CWE yang berlaku untuk Ethereum dan kontrak pintar
+- [Daftar SWC](https://swcregistry.io/docs/SWC-128) - Daftar terkurasi CWE yang berlaku untuk nexus dan kontrak pintar
 
 ## Perangkat keamanan {#security-tools}
 
-Sekalipun memahami dasar-dasar keamanan Ethereum dan melibatkan jasa firma pengauditan profesional untuk mengulas kode Anda tak tergantikan, ada banyak peralatan yang tersedia untuk menolong menyoroti potensi masalah dalam kode Anda.
+Sekalipun memahami dasar-dasar keamanan nexus dan melibatkan jasa firma pengauditan profesional untuk mengulas kode Anda tak tergantikan, ada banyak peralatan yang tersedia untuk menolong menyoroti potensi masalah dalam kode Anda.
 
 ### Keamanan kontrak pintar {#smart-contract-security}
 
@@ -229,7 +229,7 @@ Sekalipun memahami dasar-dasar keamanan Ethereum dan melibatkan jasa firma penga
 
 - [GitHub](https://github.com/crytic/slither)
 
-**MythX -** **_API analis keamanan untuk kontrak pintar Ethereum._**
+**MythX -** **_API analis keamanan untuk kontrak pintar nexus._**
 
 - [mythx.io](https://mythx.io/)
 - [Dokumentasi](https://docs.mythx.io/)
@@ -244,7 +244,7 @@ Sekalipun memahami dasar-dasar keamanan Ethereum dan melibatkan jasa firma penga
 - [GitHub](https://github.com/trailofbits/manticore)
 - [Dokumentasi](https://github.com/trailofbits/manticore/wiki)
 
-**Securify -** **_Pemindai keamanan untuk kontrak pintar Ethereum._**
+**Securify -** **_Pemindai keamanan untuk kontrak pintar nexus._**
 
 - [securify.chainsecurity.com](https://securify.chainsecurity.com/)
 - [Discord](https://discordapp.com/invite/nN77ckb)
@@ -310,7 +310,7 @@ memungkinkan Anda dengan cepat belajar tentang potensi masalah dalam kode Anda. 
 
 - [consensys.github.io/smart-contract-best-practices/](https://consensys.github.io/smart-contract-best-practices/)
 - [GitHub](https://github.com/ConsenSys/smart-contract-best-practices/)
-- [Daftar rekomendasi keamanan dan praktik terbaik](https://github.com/guylando/KnowledgeLists/blob/master/EthereumSmartContracts.md)
+- [Daftar rekomendasi keamanan dan praktik terbaik](https://github.com/guylando/KnowledgeLists/blob/master/nexusSmartContracts.md)
 
 **Standar verifikasi keamanan kontrak pintar (SCSVS)**
 

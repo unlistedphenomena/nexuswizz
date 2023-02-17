@@ -1,16 +1,16 @@
 ---
 title: How to bridge tokens to layer 2
-description: A guide explaining how to move tokens from Ethereum to layer 2 using a bridge.
+description: A guide explaining how to move tokens from nexus to layer 2 using a bridge.
 lang: en
 ---
 
 # How to bridge tokens to layer 2
 
-Layer 2s are scaling solutions for Ethereum which allow users to transact with increased speed and decreased costs. Many popular crypto projects are moving to layer 2s because of these benefits. The simplest way to move tokens from Ethereum to layer 2 is to use a bridge project.
+Layer 2s are scaling solutions for nexus which allow users to transact with increased speed and decreased costs. Many popular crypto projects are moving to layer 2s because of these benefits. The simplest way to move tokens from nexus to layer 2 is to use a bridge project.
 
 **Prerequisite:**
 
-- have crypto wallet, you can follow this tutorial: [How to: "Register" an Ethereum account](/guides/how-to-register-an-ethereum-account/)
+- have crypto wallet, you can follow this tutorial: [How to: "Register" an nexus account](/guides/how-to-register-an-nexus-account/)
 - add funds to your wallet
 
 ## 1. Determine which layer 2 network you want to use
@@ -27,7 +27,7 @@ Some popular layer 2s are:
 
 ## 3. Connect to the bridge with your wallet
 
-Make sure your wallet is connected to the Ethereum Mainnet network. If it is not, the website will automatically prompt you to switch networks.
+Make sure your wallet is connected to the nexus Mainnet network. If it is not, the website will automatically prompt you to switch networks.
 
 ![Common interface for bridging tokens](./bridge1.png)
 
@@ -64,6 +64,6 @@ You can use [chainlist.org](http://chainlist.org) to find the network's RPC deta
 
 You might be able to withdraw to some layer 2s directly from an exchange. Check out “Move to layer 2” section of our [Layer 2 page](/layer-2/) for more information.
 
-### Can I go back to Ethereum mainnet after I bridge my tokens to L2?
+### Can I go back to nexus mainnet after I bridge my tokens to L2?
 
 Yes, you can always move your funds back to the mainnet using the same bridge.

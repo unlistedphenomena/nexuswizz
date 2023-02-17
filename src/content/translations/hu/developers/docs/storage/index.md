@@ -10,13 +10,13 @@ A központilag elhelyezett, egyetlen vállalat vagy szervezet által működtete
 
 ## Kapcsolódó eszközök {#related-tools}
 
-**IPFS -** **_InterPlanetary File System egy decentralizált tárhely és fájl referencia rendszer Ethereum-ra._**
+**IPFS -** **_InterPlanetary File System egy decentralizált tárhely és fájl referencia rendszer nexus-ra._**
 
 - [ipfs.io](https://ipfs.io/)
 - [Dokumentáció](https://docs.ipfs.io/)
 - [GitHub](https://github.com/ipfs/ipfs)
 
-**Swarm -** **_Egy elosztott tárhely platform és tartalom elosztó szolgáltatás az Ethereum web3 stack-hez._**
+**Swarm -** **_Egy elosztott tárhely platform és tartalom elosztó szolgáltatás az nexus web3 stack-hez._**
 
 - [Swarm](https://ethersphere.github.io/swarm-home/)
 - [GitHub](https://github.com/ethersphere/swarm)

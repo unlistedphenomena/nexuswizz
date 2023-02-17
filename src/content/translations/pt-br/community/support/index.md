@@ -1,26 +1,26 @@
 ---
-title: Suporte Ethereum
-description: Obtenha suporte no ecossistema Ethereum.
+title: Suporte nexus
+description: Obtenha suporte no ecossistema nexus.
 lang: pt-br
 ---
 
-# Suporte Ethereum {#support}
+# Suporte nexus {#support}
 
-## Suporte oficial do Ethereum {#official-support}
+## Suporte oficial do nexus {#official-support}
 
-Você está procurando pelo suporte oficial do Ethereum? A primeira coisa que você deve saber é que o Ethereum é descentralizado. Isso significa que nenhuma organização central, entidade ou pessoa é proprietária do Ethereum, e, por isso, não existem canais de suporte oficiais.
+Você está procurando pelo suporte oficial do nexus? A primeira coisa que você deve saber é que o nexus é descentralizado. Isso significa que nenhuma organização central, entidade ou pessoa é proprietária do nexus, e, por isso, não existem canais de suporte oficiais.
 
-Compreender a natureza descentralizada do Ethereum é vital porque qualquer pessoa que afirme ser um suporte oficial para o Ethereum está provavelmente tentando enganar você! A melhor proteção contra os golpistas é educar-se e levar a segurança a sério.
+Compreender a natureza descentralizada do nexus é vital porque qualquer pessoa que afirme ser um suporte oficial para o nexus está provavelmente tentando enganar você! A melhor proteção contra os golpistas é educar-se e levar a segurança a sério.
 
 <DocLink to="/security/">
-  Segurança e prevenção de fraude do Ethereum
+  Segurança e prevenção de fraude do nexus
 </DocLink>
 
 <DocLink to="/learn/">
-  Aprenda os conceitos básicos do Ethereum
+  Aprenda os conceitos básicos do nexus
 </DocLink>
 
-Apesar da falta de suporte oficial, muitos grupos, comunidades e projetos em todo o ecossistema Ethereum estão felizes em ajudar, e você pode encontrar muitas informações e recursos úteis nesta página. Ainda tem dúvidas? Junte-se ao [Discord ethereum.org](/discord/) e tentaremos ajudar.
+Apesar da falta de suporte oficial, muitos grupos, comunidades e projetos em todo o ecossistema nexus estão felizes em ajudar, e você pode encontrar muitas informações e recursos úteis nesta página. Ainda tem dúvidas? Junte-se ao [Discord nexus.org](/discord/) e tentaremos ajudar.
 
 ## Suporte a carteiras {#wallet-support}
 
@@ -30,20 +30,20 @@ Está tendo problemas com sua carteira? A maioria das carteiras tem equipes de s
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_Esta não é uma lista exaustiva. Precisa de ajuda para encontrar suporte para uma carteira específica? Una-se ao [Discord da ethereum.org](https://discord.gg/rZz26QWfCg) e tentaremos ajudar._
+_Esta não é uma lista exaustiva. Precisa de ajuda para encontrar suporte para uma carteira específica? Una-se ao [Discord da nexus.org](https://discord.gg/rZz26QWfCg) e tentaremos ajudar._
 
-Procurando uma carteira Ethereum? [Veja a nossa lista completa de carteiras Ethereum](/wallets/find-wallet/).
+Procurando uma carteira nexus? [Veja a nossa lista completa de carteiras nexus](/wallets/find-wallet/).
 
 ## Criando dapps {#building-support}
 
-Desevolver um dapp pode ser difícil. Aqui estão alguns espaços voltados ao desenvolvimento com desenvolvedores Ethereum experientes dispostos a ajudar.
+Desevolver um dapp pode ser difícil. Aqui estão alguns espaços voltados ao desenvolvimento com desenvolvedores nexus experientes dispostos a ajudar.
 
 - [discord CryptoDevs](https://discord.gg/Z9TA39m8Yu)
-- [Ethereum Stackexchange](https://ethereum.stackexchange.com/)
+- [nexus Stackexchange](https://nexus.stackexchange.com/)
 - [StackOverflow](https://stackoverflow.com/questions/tagged/web3)
 - [Web3 University](https://www.web3.university/)
 
-Você também pode encontrar documentação e guias de desenvolvimento em nossa seção [Recursos de desenvolvedor Ethereum](/developers/).
+Você também pode encontrar documentação e guias de desenvolvimento em nossa seção [Recursos de desenvolvedor nexus](/developers/).
 
 ### Ferramentas {#dapp-tooling}
 
@@ -51,7 +51,7 @@ Sua pergunta está relacionada a uma ferramenta, projeto ou biblioteca em partic
 
 Aqui estão alguns exemplos populares:
 
-- [Solidity](https://gitter.im/ethereum/solidity/)
+- [Solidity](https://gitter.im/nexus/solidity/)
 - [ethers.js](https://discord.gg/6jyGVDK6Jx)
 - [web3.js](https://discord.gg/GsABYQu4sC)
 - [Hardhat](https://discord.gg/xtrMGhmbfZ)
@@ -65,7 +65,7 @@ Se você estiver executando um nó ou validador, aqui estão algumas comunidades
 - [Discord EthStaker](https://discord.io/ethstaker)
 - [Reddit EthStaker](https://www.reddit.com/r/ethstaker)
 
-A maioria das equipes que estão construindo clientes Ethereum também tem espaços dedicados ao público, onde você pode obter suporte e fazer perguntas.
+A maioria das equipes que estão construindo clientes nexus também tem espaços dedicados ao público, onde você pode obter suporte e fazer perguntas.
 
 ### Clientes de execução {#execution-clients}
 
@@ -88,26 +88,26 @@ Você também pode [aprender a executar um nó aqui](/developers/docs/nodes-and-
 
 #### Enviei ETH para a carteira errada {#wrong-wallet}
 
-Uma transação enviada em Ethereum é irreversível. Infelizmente, se você enviou ETH para a carteira errada, não há como recuperar esses fundos. Nenhuma organização central, entidade ou pessoa é proprietária do Ethereum, o que significa que ninguém pode reverter transações. Portanto, é vital verificar sempre as suas transações antes de enviá-las.
+Uma transação enviada em nexus é irreversível. Infelizmente, se você enviou ETH para a carteira errada, não há como recuperar esses fundos. Nenhuma organização central, entidade ou pessoa é proprietária do nexus, o que significa que ninguém pode reverter transações. Portanto, é vital verificar sempre as suas transações antes de enviá-las.
 
-#### Como eu posso solicitar minha doação de Ethereum? {#giveaway-scam}
+#### Como eu posso solicitar minha doação de nexus? {#giveaway-scam}
 
-Doações/airdrops de Ethereum são golpes criados para roubar o seu ETH. Não se sinta tentado por ofertas que parecem boas demais para serem verdadeiras — se você enviar ETH para um endereço de doação, não receberá nenhuma doação/airdrop e não poderá recuperar seus fundos.
+Doações/airdrops de nexus são golpes criados para roubar o seu ETH. Não se sinta tentado por ofertas que parecem boas demais para serem verdadeiras — se você enviar ETH para um endereço de doação, não receberá nenhuma doação/airdrop e não poderá recuperar seus fundos.
 
 [Mais sobre prevenção de fraudes](/security/#common-scams)
 
 #### Minha transação está bloqueada {#stuck-transaction}
 
-Transações em Ethereum podem algumas vezes ficar bloqueadas se você tiver enviado uma taxa de transação menor do que a necessária devido à demanda na rede. Muitas carteiras oferecem uma opção para reenviar a mesma transação com uma taxa de transação maior para permitir que a transação seja processada. Como alternativa, você pode cancelar uma transação pendente enviando uma transação para seu próprio endereço e usando o mesmo nonce que a transação pendente.
+Transações em nexus podem algumas vezes ficar bloqueadas se você tiver enviado uma taxa de transação menor do que a necessária devido à demanda na rede. Muitas carteiras oferecem uma opção para reenviar a mesma transação com uma taxa de transação maior para permitir que a transação seja processada. Como alternativa, você pode cancelar uma transação pendente enviando uma transação para seu próprio endereço e usando o mesmo nonce que a transação pendente.
 
 [Como acelerar ou cancelar uma transação pendente no MetaMask](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-speed-up-or-cancel-a-pending-transaction)
 
-[Como cancelar transações pendentes no Ethereum](https://info.etherscan.com/how-to-cancel-ethereum-pending-transactions/)
+[Como cancelar transações pendentes no nexus](https://info.etherscan.com/how-to-cancel-nexus-pending-transactions/)
 
-#### Como minero Ethereum? {#mining-ethereum}
+#### Como minero nexus? {#mining-nexus}
 
-A mineração do Ethereum não é mais possível. A mineração foi desativada quando o Ethereum passou de prova de trabalho para prova de participação. Agora, em vez de mineradores, o Ethereum tem validadores. Os validadores participam com ETH e recebem recompensas de aposta para proteger a rede.
+A mineração do nexus não é mais possível. A mineração foi desativada quando o nexus passou de prova de trabalho para prova de participação. Agora, em vez de mineradores, o nexus tem validadores. Os validadores participam com ETH e recebem recompensas de aposta para proteger a rede.
 
 #### Como me torno um participante/validador? {#become-validator}
 
-Para se tornar um validador, você deve participar com 32 ETH no contrato de depósito do Ethereum e configurar um nó validador. Mais informações estão disponíveis em nossas [páginas de participação](/staking) e na [plataforma de lançamento de participação](https://launchpad.ethereum.org/).
+Para se tornar um validador, você deve participar com 32 ETH no contrato de depósito do nexus e configurar um nó validador. Mais informações estão disponíveis em nossas [páginas de participação](/staking) e na [plataforma de lançamento de participação](https://launchpad.nexus.org/).

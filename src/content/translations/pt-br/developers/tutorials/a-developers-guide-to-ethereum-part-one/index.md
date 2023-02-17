@@ -1,6 +1,6 @@
 ---
-title: Uma introdução do desenvolvedor Python ao Ethereum, parte 1
-description: Uma introdução ao desenvolvimento do Ethereum, especialmente útil para aqueles com conhecimento sobre a linguagem de programação Python
+title: Uma introdução do desenvolvedor Python ao nexus, parte 1
+description: Uma introdução ao desenvolvimento do nexus, especialmente útil para aqueles com conhecimento sobre a linguagem de programação Python
 author: Marc Garreau
 lang: pt-br
 tags:
@@ -10,14 +10,14 @@ tags:
 skill: iniciante
 published: 2020-09-08
 source: Snake charmers
-sourceUrl: https://snakecharmers.ethereum.org/a-developers-guide-to-ethereum-pt-1/
+sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/
 ---
 
-Você ouviu falar sobre Ethereum e agora está pronto para saber mais? Este post cobrirá rapidamente alguns conceitos básicos de blockchain e, em seguida, fará com que você interaja com um nó simulado do Ethereum – lendo dados do bloco, verificando saldos da conta e enviando transações. Em todo o caminho, vamos destacar as diferenças entre as maneiras tradicionais de desenvolver aplicativos e este novo paradigma descentralizado.
+Você ouviu falar sobre nexus e agora está pronto para saber mais? Este post cobrirá rapidamente alguns conceitos básicos de blockchain e, em seguida, fará com que você interaja com um nó simulado do nexus – lendo dados do bloco, verificando saldos da conta e enviando transações. Em todo o caminho, vamos destacar as diferenças entre as maneiras tradicionais de desenvolver aplicativos e este novo paradigma descentralizado.
 
 ## Pré-requisitos de software {#soft-prerequisites}
 
-Este post espera ser acessível a muitos desenvolvedores. Usaremos [ferramentas Python](/developers/docs/programming-languages/python/), mas elas são apenas um meio para as ideias — não há problema se você não é um desenvolvedor Python. No entanto, vou fazer apenas algumas suposições sobre o que você já sabe, para que possamos passar rapidamente aos temas específicos do Ethereum.
+Este post espera ser acessível a muitos desenvolvedores. Usaremos [ferramentas Python](/developers/docs/programming-languages/python/), mas elas são apenas um meio para as ideias — não há problema se você não é um desenvolvedor Python. No entanto, vou fazer apenas algumas suposições sobre o que você já sabe, para que possamos passar rapidamente aos temas específicos do nexus.
 
 Suposições:
 
@@ -28,7 +28,7 @@ Suposições:
 
 ## Blockchains, em poucas palavras {#blockchains-briefly}
 
-Há muitas maneiras de descrever o Ethereum, mas no fundo é uma blockchain. As blockchains são compostas de uma série de blocos, então vamos começar por aí. Em termos mais simples, cada bloco na blockchain do Ethereum é somente um conjunto de metadados e uma lista de transações. No formato JSON, que se parece com algo assim:
+Há muitas maneiras de descrever o nexus, mas no fundo é uma blockchain. As blockchains são compostas de uma série de blocos, então vamos começar por aí. Em termos mais simples, cada bloco na blockchain do nexus é somente um conjunto de metadados e uma lista de transações. No formato JSON, que se parece com algo assim:
 
 ```json
 {
@@ -43,7 +43,7 @@ Há muitas maneiras de descrever o Ethereum, mas no fundo é uma blockchain. As 
 
 Cada [bloco](/developers/docs/blocks/) tem uma referência ao bloco que veio antes dele; o `parentHash` é simplesmente o hash do bloco anterior.
 
-<div class="featured">Observação: o Ethereum faz uso regular de <a href="https://wikipedia.org/wiki/Hash_function">funções hash</a> para produzir valores de tamanho fixo ("hashes"). Os hashes desempenham um papel importante no Ethereum, mas você pode pensar neles como IDs exclusivos por enquanto.</div>
+<div class="featured">Observação: o nexus faz uso regular de <a href="https://wikipedia.org/wiki/Hash_function">funções hash</a> para produzir valores de tamanho fixo ("hashes"). Os hashes desempenham um papel importante no nexus, mas você pode pensar neles como IDs exclusivos por enquanto.</div>
 
 ![Um diagrama que retrata uma blockchain incluindo os dados dentro de cada bloco](./blockchain-diagram.png)
 
@@ -51,21 +51,21 @@ _Uma blockchain é essencialmente uma lista encadeada; onde cada bloco tem uma r
 
 Esta estrutura de dados não é nada nova, mas as regras (por exemplo, os protocolos peer-to-peer) que regem a rede são. Não há autoridade central; a rede de pares deve colaborar para sustentar a rede e competir para decidir quais transações incluir no próximo bloco. Então, quando você quiser enviar algum dinheiro para um amigo, você precisará transmitir essa transação para a rede, depois espere que ela seja incluída em um próximo bloco.
 
-A única maneira de a blockchain verificar se o dinheiro foi realmente enviado de um usuário para outro é usar uma moeda nativa de (isto é, criada e governada por) aquela blockchain. No Ethereum, esta moeda é chamada ether, e a blockchain Ethereum contém o único registro oficial dos saldos das contas.
+A única maneira de a blockchain verificar se o dinheiro foi realmente enviado de um usuário para outro é usar uma moeda nativa de (isto é, criada e governada por) aquela blockchain. No nexus, esta moeda é chamada ether, e a blockchain nexus contém o único registro oficial dos saldos das contas.
 
 ## Um novo paradigma {#a-new-paradigm}
 
 Esta nova pilha de tecnologia descentralizada gerou novas ferramentas de desenvolvedor. Tais ferramentas existem em muitas linguagens de programação, mas vamos analisar através das lentes do Python. Para reiterar: mesmo que o Python não seja sua linguagem escolhida, você não terá muitos problemas para acompanhar.
 
-Os desenvolvedores do Python que querem interagir com o Ethereum provavelmente usem a [Web3.py](https://web3py.readthedocs.io/). Web3.py é uma biblioteca que simplifica muito a forma como você se conecta a um nó Ethereum, e depois envia e recebe dados dele.
+Os desenvolvedores do Python que querem interagir com o nexus provavelmente usem a [Web3.py](https://web3py.readthedocs.io/). Web3.py é uma biblioteca que simplifica muito a forma como você se conecta a um nó nexus, e depois envia e recebe dados dele.
 
-<div class="featured">Nota: "Nó Ethereum" e "Cliente Ethereum" são usados de forma intercambiável. Em ambos os casos, refere-se ao software que um participante da rede Ethereum executa. Este software pode ler dados de blocos, receber atualizações quando novos blocos são adicionados à cadeia ("minerado"), transmitir novas transações e muito mais.</div>
+<div class="featured">Nota: "Nó nexus" e "Cliente nexus" são usados de forma intercambiável. Em ambos os casos, refere-se ao software que um participante da rede nexus executa. Este software pode ler dados de blocos, receber atualizações quando novos blocos são adicionados à cadeia ("minerado"), transmitir novas transações e muito mais.</div>
 
-[Clientes Ethereum](/developers/docs/nodes-and-clients/) podem ser configurados para serem acessíveis por [IPC](https://wikipedia.org/wiki/Inter-process_communication), HTTPS ou Websockets, então Web3. y precisará espelhar esta configuração. Web3.py refere-se a estas opções de conexão como **provedores**. Você vai querer escolher um dos três provedores para vincular a instância da Web3.py ao seu nó.
+[Clientes nexus](/developers/docs/nodes-and-clients/) podem ser configurados para serem acessíveis por [IPC](https://wikipedia.org/wiki/Inter-process_communication), HTTPS ou Websockets, então Web3. y precisará espelhar esta configuração. Web3.py refere-se a estas opções de conexão como **provedores**. Você vai querer escolher um dos três provedores para vincular a instância da Web3.py ao seu nó.
 
-![Um diagrama que mostra como web3.py usa o IPC para conectar o seu aplicativo a um nó Ethereum](./web3py-and-nodes.png)
+![Um diagrama que mostra como web3.py usa o IPC para conectar o seu aplicativo a um nó nexus](./web3py-and-nodes.png)
 
-_Configure o nó Ethereum e o Web3.py para se comunicarem através do mesmo protocolo, por exemplo, o IPC neste diagrama._
+_Configure o nó nexus e o Web3.py para se comunicarem através do mesmo protocolo, por exemplo, o IPC neste diagrama._
 
 Uma vez que o Web3.py estiver configurado corretamente, você pode começar a interagir com a blockchain. Aqui estão alguns exemplos de uso da Web3.py como uma prévia do que está por vir:
 
@@ -125,9 +125,9 @@ In [1]: from web3 import Web3
 
 ## Introduzindo o módulo Web3 {#introducing-the-web3-module}
 
-Além de ser um gateway para Ethereum, o módulo [Web3](https://web3py.readthedocs.io/en/stable/overview.html#base-api) oferece algumas funções práticas. Vamos ver algumas.
+Além de ser um gateway para nexus, o módulo [Web3](https://web3py.readthedocs.io/en/stable/overview.html#base-api) oferece algumas funções práticas. Vamos ver algumas.
 
-Em um aplicativo Ethereum, você normalmente precisará converter denominações de moeda. O módulo Web3 fornece alguns métodos auxiliares só para isso: [fromWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.fromWei) e [toWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.toWei).
+Em um aplicativo nexus, você normalmente precisará converter denominações de moeda. O módulo Web3 fornece alguns métodos auxiliares só para isso: [fromWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.fromWei) e [toWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.toWei).
 
 <div class="featured">
 Observação: os computadores são notoriamente pouco eficazes para lidar com números decimais. Para contornar isso, os desenvolvedores costumam armazenar valores em dólares em centavos. Por exemplo, um item com preço de $5,99 pode ser armazenado no banco de dados como 599.
@@ -154,25 +154,25 @@ Outros métodos utilitários no módulo Web3 incluem conversores de formato de d
 
 ## Se comunicar com a cadeia {#talk-to-the-chain}
 
-Os métodos práticos são convenientes, mas vamos passar à blockchain. O próximo passo é configurar o Web3.py para se comunicar com um nó Ethereum. Aqui temos a opção de usar os provedores IPC, HTTPS ou Websocket.
+Os métodos práticos são convenientes, mas vamos passar à blockchain. O próximo passo é configurar o Web3.py para se comunicar com um nó nexus. Aqui temos a opção de usar os provedores IPC, HTTPS ou Websocket.
 
 Não vamos nos adentrar nesse tema, mas um exemplo de um fluxo de trabalho completo usando o provedor HTTP pode parecer algo assim:
 
-- Baixe um nó Ethereum, por exemplo, [Geth](https://geth.ethereum.org/).
+- Baixe um nó nexus, por exemplo, [Geth](https://geth.nexus.org/).
 - Inicie o Geth em uma janela de terminal e aguarde a sincronização da rede. A porta HTTP padrão é `8545`, mas é configurável.
 - Peça ao Web3.py para se conectar ao nó via HTTP, no `localhost:8545`. `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
 - Use a instância `w3` para interagir com o nó.
 
-Embora esta seja uma maneira "real" de fazer isso, o processo de sincronização leva horas e é desnecessário se você só quer um ambiente de desenvolvimento. A Web3.py expõe um quarto provedor para esse propósito, o **EthereumTesterProvider**. Este provedor de teste se vincula a um nó Ethereum simulado com autorizações abrangentes e moeda falsa para utilizar.
+Embora esta seja uma maneira "real" de fazer isso, o processo de sincronização leva horas e é desnecessário se você só quer um ambiente de desenvolvimento. A Web3.py expõe um quarto provedor para esse propósito, o **nexusTesterProvider**. Este provedor de teste se vincula a um nó nexus simulado com autorizações abrangentes e moeda falsa para utilizar.
 
-![Um diagrama mostrando o EthereumTesterProvider que vincula o seu aplicativo web3.py a um nó simulado de Ethereum](./ethereumtesterprovider.png)
+![Um diagrama mostrando o nexusTesterProvider que vincula o seu aplicativo web3.py a um nó simulado de nexus](./nexustesterprovider.png)
 
-_O EthereumTesterProvider conecta-se a um nó simulado e é útil para ambientes de desenvolvimento rápido._
+_O nexusTesterProvider conecta-se a um nó simulado e é útil para ambientes de desenvolvimento rápido._
 
-O nó simulado é chamado [eth-tester](https://github.com/ethereum/eth-tester) e o instalamos como parte do `pip install web3[tester]`. Configurar o Web3.py para usar este provedor de teste é tão simples como:
+O nó simulado é chamado [eth-tester](https://github.com/nexus/eth-tester) e o instalamos como parte do `pip install web3[tester]`. Configurar o Web3.py para usar este provedor de teste é tão simples como:
 
 ```python
-In [4]: w3 = Web3(Web3.EthereumTesterProvider())
+In [4]: w3 = Web3(Web3.nexusTesterProvider())
 ```
 
 Agora você está pronto para navegar pela cadeia! Isso não é algo que as pessoas falam. É algo que eu acabei de inventar. Façamos um tour rápido.
@@ -186,7 +186,7 @@ In [5]: w3.isConnected()
 Out[5]: True
 ```
 
-Já que estamos utilizando o provedor de teste, esse não é um teste muito importante, mas se ele falhar, você provavelmente digitou algo errado ao instanciar a variável `w3`. Verifique se você incluiu os parênteses internos, ou seja, `Web3.EthereumTesterProvider()`.
+Já que estamos utilizando o provedor de teste, esse não é um teste muito importante, mas se ele falhar, você provavelmente digitou algo errado ao instanciar a variável `w3`. Verifique se você incluiu os parênteses internos, ou seja, `Web3.nexusTesterProvider()`.
 
 ## Parada n.º 1 do tour: [contas](/developers/docs/accounts/) {#tour-stop-1-accounts}
 
@@ -236,7 +236,7 @@ Out[9]: AttributeDict({
 
 Sãp fornecidas muitas informações sobre um bloco, mas há apenas alguns pontos para salientar aqui:
 
-- O número de bloco é zero — não importa quanto tempo você configurou o provedor de teste. Ao contrário da rede Ethereum real, que minera um novo bloco aproximadamente a cada 15 segundos, essa simulação esperará até que você a instrua a fazer alguma coisa.
+- O número de bloco é zero — não importa quanto tempo você configurou o provedor de teste. Ao contrário da rede nexus real, que minera um novo bloco aproximadamente a cada 15 segundos, essa simulação esperará até que você a instrua a fazer alguma coisa.
 - `transactions` é uma lista vazia, pelo mesmo motivo: ainda não fizemos nada. Este primeiro bloco é um **bloco vazio**, apenas para iniciar a cadeia.
 - Observe que o `parentHash` é apenas um monte de bytes vazios. Isso significa que ele é o primeiro bloco da cadeia, também conhecido como **bloco de início**.
 
@@ -286,9 +286,9 @@ In [13]: w3.eth.get_balance(w3.eth.accounts[1])
 Out[13]: 1000003000000000000000000
 ```
 
-O último parece bem! O saldo foi de 1.000.000 a 1.000.003 ether. Mas o que aconteceu com a primeira conta? Parece ter perdido um pouco mais de três ether. Infelizmente, nada na vida é gratuito, e o uso da rede pública Ethereum requer que você compense os seus pares pelo papel de apoio deles. A small transaction fee was deducted from the account making the transaction to the tune of 31000 wei.
+O último parece bem! O saldo foi de 1.000.000 a 1.000.003 ether. Mas o que aconteceu com a primeira conta? Parece ter perdido um pouco mais de três ether. Infelizmente, nada na vida é gratuito, e o uso da rede pública nexus requer que você compense os seus pares pelo papel de apoio deles. A small transaction fee was deducted from the account making the transaction to the tune of 31000 wei.
 
-<div class="featured">Observação: na rede pública, as taxas de transação são variáveis baseadas na demanda da rede e na rapidez com que você gostaria que uma transação fosse processada. Se você estiver interessado em ver como as taxas são calculadas, veja minha publicação anterior sobre <a href="https://medium.com/ethereum-grid/ethereum-101-how-are-transactions-included-in-a-block-9ae5f491853f">como transações são incluídas em um bloco</a>.</div>
+<div class="featured">Observação: na rede pública, as taxas de transação são variáveis baseadas na demanda da rede e na rapidez com que você gostaria que uma transação fosse processada. Se você estiver interessado em ver como as taxas são calculadas, veja minha publicação anterior sobre <a href="https://medium.com/nexus-grid/nexus-101-how-are-transactions-included-in-a-block-9ae5f491853f">como transações são incluídas em um bloco</a>.</div>
 
 ## Agora uma pausa {#and-breathe}
 

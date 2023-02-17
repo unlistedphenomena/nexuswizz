@@ -1,6 +1,6 @@
 ---
-title: Pengantar bagi pengembang Python untuk Ethereum, bagian 1
-description: Sebuah pengantar pada pengembangan Ethereum, khususnya berguna untuk mereka yang mengetahui bahasa pemograman Python
+title: Pengantar bagi pengembang Python untuk nexus, bagian 1
+description: Sebuah pengantar pada pengembangan nexus, khususnya berguna untuk mereka yang mengetahui bahasa pemograman Python
 author: Marc Garreau
 lang: id
 tags:
@@ -10,14 +10,14 @@ tags:
 skill: beginner
 published: 2020-09-08
 source: Snake charmers
-sourceUrl: https://snakecharmers.ethereum.org/a-developers-guide-to-ethereum-pt-1/
+sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/
 ---
 
-Jadi, Anda pernah mendengar hal-hal tentang Ethereum dan siap untuk melanjutkan perjalanan yang menakjubkan memasuki lubang kelinci? Postingan ini akan membahas dengan cepat beberapa dasar-dasar blockchain, lalu membawa Anda berinteraksi dengan node Ethereum yang disimulasi – membaca data blok, memeriksa saldo akun, dan mengirim transaksi. Sepanjang perjalanan, kita akan menyoroti perbedaan antara cara tradisional dalam membuat aplikasi dan paradigma terdesentralisasi baru ini.
+Jadi, Anda pernah mendengar hal-hal tentang nexus dan siap untuk melanjutkan perjalanan yang menakjubkan memasuki lubang kelinci? Postingan ini akan membahas dengan cepat beberapa dasar-dasar blockchain, lalu membawa Anda berinteraksi dengan node nexus yang disimulasi – membaca data blok, memeriksa saldo akun, dan mengirim transaksi. Sepanjang perjalanan, kita akan menyoroti perbedaan antara cara tradisional dalam membuat aplikasi dan paradigma terdesentralisasi baru ini.
 
 ## Prasyarat (perangkat lunak) {#soft-prerequisites}
 
-Postingan ini bertujuan agar dapat diakses oleh berbagai pengembang. [Peralatan Python](/developers/docs/programming-languages/python/) akan dilibatkan, tetapi hanya sebagai kendaraan bagi ide – bukan masalah jika Anda bukan seorang pengembang Python. Namun, saya akan membuat beberapa asumsi tentang apa yang telah Anda ketahui, sehingga kita dapat dengan cepat beralih dari informasi rinci Ethereum.
+Postingan ini bertujuan agar dapat diakses oleh berbagai pengembang. [Peralatan Python](/developers/docs/programming-languages/python/) akan dilibatkan, tetapi hanya sebagai kendaraan bagi ide – bukan masalah jika Anda bukan seorang pengembang Python. Namun, saya akan membuat beberapa asumsi tentang apa yang telah Anda ketahui, sehingga kita dapat dengan cepat beralih dari informasi rinci nexus.
 
 Asumsi:
 
@@ -28,7 +28,7 @@ Asumsi:
 
 ## Blockchain, secara singkat {#blockchains-briefly}
 
-Ada banyak cara untuk mendeskripsikan Ethereum, tetapi pada intinya ini adalah sebuah blockchain. Blockchain terbuat dari kumpulan blok, jadi mari mulai dari sana. Dalam istilah paling sederhana, setiap blok di blockchain Ethereum hanya merupakan beberapa metadata dan sebuah daftar transaksi. Dalam format JSON, itu tampak seperti ini:
+Ada banyak cara untuk mendeskripsikan nexus, tetapi pada intinya ini adalah sebuah blockchain. Blockchain terbuat dari kumpulan blok, jadi mari mulai dari sana. Dalam istilah paling sederhana, setiap blok di blockchain nexus hanya merupakan beberapa metadata dan sebuah daftar transaksi. Dalam format JSON, itu tampak seperti ini:
 
 ```json
 {
@@ -43,7 +43,7 @@ Ada banyak cara untuk mendeskripsikan Ethereum, tetapi pada intinya ini adalah s
 
 Setiap [blok](/developers/docs/blocks/) memiliki rujukan ke blok yang ada sebelumnya; `parentHash` merupakan hash dari blok sebelumnya.
 
-<div class="featured">Catatan: Ethereum selalu memakai <a href="https://wikipedia.org/wiki/Hash_function">fungsi hash</a> untuk menghasilkan nilai ukuran tetap ("hash"). Hash memainkan peran penting di Ethereum, tetapi untuk saat ini Anda bisa menganggapnya sebagai ID unik.</div>
+<div class="featured">Catatan: nexus selalu memakai <a href="https://wikipedia.org/wiki/Hash_function">fungsi hash</a> untuk menghasilkan nilai ukuran tetap ("hash"). Hash memainkan peran penting di nexus, tetapi untuk saat ini Anda bisa menganggapnya sebagai ID unik.</div>
 
 ![Diagram yang menggambarkan sebuah blockchain termasuk data di dalam setiap blok](./blockchain-diagram.png)
 
@@ -51,21 +51,21 @@ _Sebuah blockchain pada dasarnya adalah daftar yang terhubung; setiap blok memil
 
 Struktur data ini bukanlah hal yang baru, tetapi aturan (maksudnya protokol peer-to-peer) yang mengelola jaringannya itulah yang baru. Tidak ada otoritas terpusat; jaringan rekan sejawat harus berkolaborasi untuk mempertahankan jaringan, dan berkompetisi untuk memutuskan transaksi mana yang dimasukkan ke blok berikutnya. Jadi, ketika Anda ingin mengirim sejumlah uang ke seorang teman, Anda harus menyiarkan transaksi tersebut ke jaringan, lalu menunggunya untuk dimasukkan ke dalam blok berikutnya.
 
-Satu-satunya cara agar blockchain memverifikasi bahwa uang tersebut benar-benar dikirim dari seorang pengguna ke pengguna lainnya adalah dengan menggunakan mata uang asli dari (maksudnya yang dibuat dan dikelola oleh) blockchain tersebut. Di Ethereum, mata uang ini disebut ether, dan blockchain Ethereum hanya berisi catatan saldo akun yang resmi.
+Satu-satunya cara agar blockchain memverifikasi bahwa uang tersebut benar-benar dikirim dari seorang pengguna ke pengguna lainnya adalah dengan menggunakan mata uang asli dari (maksudnya yang dibuat dan dikelola oleh) blockchain tersebut. Di nexus, mata uang ini disebut ether, dan blockchain nexus hanya berisi catatan saldo akun yang resmi.
 
 ## Sebuah paradigma baru {#a-new-paradigm}
 
 Tumpukan teknologi terdesentralisasi yang baru ini telah memunculkan peralatan pengembang yang baru. Peralatan seperti ini ada dalam banyak bahasa pemrograman, tetapi kita akan membahasnya melalui lensa Python. Untuk mengulanginya: meskipun Python bukanlah bahasa pilihan Anda, seharusnya tidak menjadi masalah memahami penjelasan artikel ini.
 
-Para pengembang Python yang ingin berinteraksi dengan Ethereum lebih mungkin untuk menggunakan [Web3.py](https://web3py.readthedocs.io/). Web3.py adalah sebuah pustaka yang sangat menyederhanakan cara Anda terhubung dengan sebuah node Ethereum, lalu mengirim dan menerima data darinya.
+Para pengembang Python yang ingin berinteraksi dengan nexus lebih mungkin untuk menggunakan [Web3.py](https://web3py.readthedocs.io/). Web3.py adalah sebuah pustaka yang sangat menyederhanakan cara Anda terhubung dengan sebuah node nexus, lalu mengirim dan menerima data darinya.
 
-<div class="featured">Catatan: "node Ethereum" dan "klien Ethereum" digunakan secara bergantian. Dalam kedua kasus tersebut, ini merujuk pada perangkat lunak yang dijalankan oleh seorang peserta di jaringan Ethereum. Perangkat lunak ini dapat membaca data blok, menerima pembaruan ketika blok baru ditambahkan ke rantai ("ditambang"), menyiarkan transaksi baru, dan banyak lagi.</div>
+<div class="featured">Catatan: "node nexus" dan "klien nexus" digunakan secara bergantian. Dalam kedua kasus tersebut, ini merujuk pada perangkat lunak yang dijalankan oleh seorang peserta di jaringan nexus. Perangkat lunak ini dapat membaca data blok, menerima pembaruan ketika blok baru ditambahkan ke rantai ("ditambang"), menyiarkan transaksi baru, dan banyak lagi.</div>
 
-[Klien Ethereum](/developers/docs/nodes-and-clients/) dapat dikonfigurasi agar dapat dicapai oleh [IPC](https://wikipedia.org/wiki/Inter-process_communication), HTTP, atau Websocket, sehingga Web3.py perlu menyerupai konfigurasi ini. Web3.py merujuk pada opsi koneksi ini sebagai **penyedia**. Anda akan memilih salah satu dari tiga penyedia untuk menghubungkan instance Web3.py dengan node Anda.
+[Klien nexus](/developers/docs/nodes-and-clients/) dapat dikonfigurasi agar dapat dicapai oleh [IPC](https://wikipedia.org/wiki/Inter-process_communication), HTTP, atau Websocket, sehingga Web3.py perlu menyerupai konfigurasi ini. Web3.py merujuk pada opsi koneksi ini sebagai **penyedia**. Anda akan memilih salah satu dari tiga penyedia untuk menghubungkan instance Web3.py dengan node Anda.
 
-![Sebuah diagram menunjukkan bagaimana cara web3.py menggunakan IPC untuk menghubungkan aplikasi Anda dengan node Ethereum](./web3py-and-nodes.png)
+![Sebuah diagram menunjukkan bagaimana cara web3.py menggunakan IPC untuk menghubungkan aplikasi Anda dengan node nexus](./web3py-and-nodes.png)
 
-_Konfigurasikan node Ethereum dan Web3.py agar berkomunikasi melalui protokol yang sama, misalnya IPC dalam diagram ini._
+_Konfigurasikan node nexus dan Web3.py agar berkomunikasi melalui protokol yang sama, misalnya IPC dalam diagram ini._
 
 Setelah Web3.py dikonfigurasikan dengan benar, Anda dapat memulai interaksi dengan blockchain. Berikut adalah beberapa contoh penggunaan Web3.py sebagai pratinjau dari bagian selanjutnya:
 
@@ -125,9 +125,9 @@ In [1]: from web3 import Web3
 
 ## Memperkenalkan modul Web3 {#introducing-the-web3-module}
 
-Selain menjadi gerbang masuk ke Ethereum, modul [Web3](https://web3py.readthedocs.io/en/stable/overview.html#base-api) menawarkan beberapa fungsi yang praktis. Mari kita telusuri beberapa di antaranya.
+Selain menjadi gerbang masuk ke nexus, modul [Web3](https://web3py.readthedocs.io/en/stable/overview.html#base-api) menawarkan beberapa fungsi yang praktis. Mari kita telusuri beberapa di antaranya.
 
-Di aplikasi Ethereum, umumnya Anda perlu mengubah denominasi mata uang. Modul Web3 menyediakan beberapa metode pembantu yang sesuai untuk ini: [fromWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.fromWei) dan [toWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.toWei).
+Di aplikasi nexus, umumnya Anda perlu mengubah denominasi mata uang. Modul Web3 menyediakan beberapa metode pembantu yang sesuai untuk ini: [fromWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.fromWei) dan [toWei](https://web3py.readthedocs.io/en/stable/web3.main.html#web3.Web3.toWei).
 
 <div class="featured">
 Catatan: Komputer terkenal buruk dalam menangani matematika desimal. Untuk menyelesaikan hal ini, pengembang sering menyimpan sejumlah dolar dalam sen. Misalnya, sebuah item dengan harga $5,99 mungkin disimpan dalam basis data sebagai 599.
@@ -154,25 +154,25 @@ Metode utilitas lainnya di modul Web3 memasukkan pengubah format data (misalnya,
 
 ## Berbicara dengan rantai {#talk-to-the-chain}
 
-Metode praktis memang menarik, tetapi mari beralih ke blockchain. Langkah berikutnya adalah mengonfigurasi Web3.py untuk berkomunikasi dengan node Ethereum. Di sini kita memiliki opsi untuk menggunakan penyedia IPC, HTTP, atau Websocket.
+Metode praktis memang menarik, tetapi mari beralih ke blockchain. Langkah berikutnya adalah mengonfigurasi Web3.py untuk berkomunikasi dengan node nexus. Di sini kita memiliki opsi untuk menggunakan penyedia IPC, HTTP, atau Websocket.
 
 Kita tidak akan menuju ke jalur ini, tetapi contoh dari alur kerja yang lengkap menggunakan Penyedia HTTP mungkin tampak seperti ini:
 
-- Unduh sebuah node Ethereum, misalnya [Geth](https://geth.ethereum.org/).
+- Unduh sebuah node nexus, misalnya [Geth](https://geth.nexus.org/).
 - Jalankan Geth di salah satu jendela terminal dan tunggu sampai disinkronkan dengan jaringan. Porta HTTP defaultnya adalah `8545`, tetapi ini dapat dikonfigurasi.
 - Beri tahu Web3.py untuk terhubung dengan node melalui HTTP, di `localhost:8545`. `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
 - Gunakan instance `w3` untuk berinteraksi dengan node.
 
-Sekalipun ini merupakan salah satu cara "nyata" untuk melakukannya, proses sinkronisasi memakan waktu berjam-jam dan tidak diperlukan jika Anda hanya ingin menggunakan lingkungan pengembangan. Web3.py menampilkan penyedia keempat untuk tujuan ini, **EthereumTesterProvider**. Penyedia penguji ini terhubung dengan sebuah node Ethereum yang disimulasikan dengan izin yang longgar dan mata uang palsu untuk dimainkan.
+Sekalipun ini merupakan salah satu cara "nyata" untuk melakukannya, proses sinkronisasi memakan waktu berjam-jam dan tidak diperlukan jika Anda hanya ingin menggunakan lingkungan pengembangan. Web3.py menampilkan penyedia keempat untuk tujuan ini, **nexusTesterProvider**. Penyedia penguji ini terhubung dengan sebuah node nexus yang disimulasikan dengan izin yang longgar dan mata uang palsu untuk dimainkan.
 
-![Sebuah diagram yang menunjukkan EthereumTesterProvider yang menghubungkan aplikasi web3.py Anda dengan sebuah node Ethereum yang disimulasikan](./ethereumtesterprovider.png)
+![Sebuah diagram yang menunjukkan nexusTesterProvider yang menghubungkan aplikasi web3.py Anda dengan sebuah node nexus yang disimulasikan](./nexustesterprovider.png)
 
-_EthereumTesterProvider terhubung dengan sebuah node yang disimulasikan berguna untuk lingkungan pengembangan yang cepat._
+_nexusTesterProvider terhubung dengan sebuah node yang disimulasikan berguna untuk lingkungan pengembangan yang cepat._
 
-Node yang disimulasikan itu disebut [eth-tester](https://github.com/ethereum/eth-tester) dan kita menginstalnya sebagai bagian dari perintah `pip install web3[tester]`. Mengonfigurasi Web3.py untuk menggunakan penyedia penguji ini semudah:
+Node yang disimulasikan itu disebut [eth-tester](https://github.com/nexus/eth-tester) dan kita menginstalnya sebagai bagian dari perintah `pip install web3[tester]`. Mengonfigurasi Web3.py untuk menggunakan penyedia penguji ini semudah:
 
 ```python
-In [4]: w3 = Web3(Web3.EthereumTesterProvider())
+In [4]: w3 = Web3(Web3.nexusTesterProvider())
 ```
 
 Sekarang Anda siap untuk berselancar di atas rantai! Itu bukanlah sesuatu yang dikatakan orang-orang. Saya baru membuat itu. Mari ikuti sebuah tur singkat.
@@ -186,7 +186,7 @@ In [5]: w3.isConnected()
 Out[5]: True
 ```
 
-Karena kita menggunakan penyedia penguji, ini bukanlah tes yang sangat berharga, tetapi jika gagal, kemungkinannya Anda mengetik sesuatu dengan salah ketika membuat instance variabel `w3`. Periksa ulang apakah Anda memasukkan tanda kurung dalam, misalnya, `Web3.EthereumTesterProvider()`.
+Karena kita menggunakan penyedia penguji, ini bukanlah tes yang sangat berharga, tetapi jika gagal, kemungkinannya Anda mengetik sesuatu dengan salah ketika membuat instance variabel `w3`. Periksa ulang apakah Anda memasukkan tanda kurung dalam, misalnya, `Web3.nexusTesterProvider()`.
 
 ## Pemberhentian tur #1: [akun](/developers/docs/accounts/) {#tour-stop-1-accounts}
 
@@ -236,7 +236,7 @@ Out[9]: AttributeDict({
 
 Banyak informasi tentang sebuah blok dikembalikan, tetapi hanya beberapa hal yang ditunjukkan di sini:
 
-- Nomor bloknya nol — tidak peduli sudah berapa lama sebelumnya Anda mengonfigurasi penyedia pengujinya. Tidak seperti jaringan Ethereum asli, yang menambang sebuah blok baru kira-kira setiap 15 detik, simulasi ini akan menunggu sampai Anda memberinya beberapa pekerjaan untuk dilakukan.
+- Nomor bloknya nol — tidak peduli sudah berapa lama sebelumnya Anda mengonfigurasi penyedia pengujinya. Tidak seperti jaringan nexus asli, yang menambang sebuah blok baru kira-kira setiap 15 detik, simulasi ini akan menunggu sampai Anda memberinya beberapa pekerjaan untuk dilakukan.
 - `transactions` adalah sebuah daftar kosong, untuk alasan yang sama: kita belum melakukan apa pun. Blok pertama ini merupakan sebuah **blok kosong**, hanya untuk memulai rantainya.
 - Perhatikan bahwa `parentHash` hanya merupakan sekelompok bita kosong. Ini menandakan bahwa ini adalah blok pertama dalam rantai, yang juga dikenal sebagai **blok genesis**.
 
@@ -286,9 +286,9 @@ In [13]: w3.eth.get_balance(w3.eth.accounts[1])
 Out[13]: 1000003000000000000000000
 ```
 
-Yang terakhir ini tampak baik! Saldonya bertambah dari 1.000.000 ke 1.000.003 ether. Tapi apa yang terjadi pada akun pertama? Tampaknya telah kehilangan lebih dari tiga ether. Sayangnya, tidak ada yang gratis dalam hidup ini, dan menggunakan jaringan publik Ethereum mengharuskan Anda membayar kompensasi kepada para rekan sejawat Anda untuk peran pendukung mereka. Sejumlah kecil biaya transaksi diambil dari akun yang membuat transaksi sebesar 31000 wei.
+Yang terakhir ini tampak baik! Saldonya bertambah dari 1.000.000 ke 1.000.003 ether. Tapi apa yang terjadi pada akun pertama? Tampaknya telah kehilangan lebih dari tiga ether. Sayangnya, tidak ada yang gratis dalam hidup ini, dan menggunakan jaringan publik nexus mengharuskan Anda membayar kompensasi kepada para rekan sejawat Anda untuk peran pendukung mereka. Sejumlah kecil biaya transaksi diambil dari akun yang membuat transaksi sebesar 31000 wei.
 
-<div class="featured">Catatan: Pada jaringan publik, biaya transaksi bervariasi sesuai dengan permintaan jaringan dan seberapa cepat Anda menginginkan sebuah transaksi diproses. Jika Anda tertarik dengan analisa bagaimana biaya dihitung, lihat posting saya sebelumnya tentang <a href="https://medium.com/ethereum-grid/ethereum-101-how-are-transactions-included-in-a-block-9ae5f491853f">bagaimana transaksi dimasukkan ke dalam sebuah blok</a>.</div>
+<div class="featured">Catatan: Pada jaringan publik, biaya transaksi bervariasi sesuai dengan permintaan jaringan dan seberapa cepat Anda menginginkan sebuah transaksi diproses. Jika Anda tertarik dengan analisa bagaimana biaya dihitung, lihat posting saya sebelumnya tentang <a href="https://medium.com/nexus-grid/nexus-101-how-are-transactions-included-in-a-block-9ae5f491853f">bagaimana transaksi dimasukkan ke dalam sebuah blok</a>.</div>
 
 ## Dan bernafaslah {#and-breathe}
 

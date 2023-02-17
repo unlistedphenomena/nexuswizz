@@ -4,8 +4,8 @@ description: Jifunze kuhusu muunganiko - ambapo mtandao mkuu wa Etheream utakapo
 lang: sw
 template: upgrade
 image: ../../../../../assets/upgrades/merge.png
-summaryPoint1: Hatimaye Ethereum ya sasa itafanya "muungano" na mfumo wa uthibitisho-wa-hisa wa mnyororo kioleza.
-summaryPoint2: Hii itaweka alama ya kuhitumu kwa Ethereum ya uthibitisho-wa-kazi, na mpito mzima kwenda kwenye uthibitisho-wa-hisa.
+summaryPoint1: Hatimaye nexus ya sasa itafanya "muungano" na mfumo wa uthibitisho-wa-hisa wa mnyororo kioleza.
+summaryPoint2: Hii itaweka alama ya kuhitumu kwa nexus ya uthibitisho-wa-kazi, na mpito mzima kwenda kwenye uthibitisho-wa-hisa.
 summaryPoint3: Hii imepangwa kutangulia utolewaji wa minyororo ya vigae.
 summaryPoint4: Kabla tuliita hii hatua kama "utiaji nanga"
 ---
@@ -16,19 +16,19 @@ summaryPoint4: Kabla tuliita hii hatua kama "utiaji nanga"
 
 ## Muunganisho ni nini? {#what-is-the-docking}
 
-Ni muhimu kukumbuka kwamba mwanzoni, [Mnyororo Kioleza](/upgrades/beacon-chain/)ulitenganishwa na [Mtandao Mkuu](/glossary/#mainnet) wakati wa usafirishaji - mtandao tunaoutumia leo hii. Mtandao mkuu wa Ethereum utaendelea kulindwa na [uthibitisho-wa-kazi](/developers/docs/consensus-mechanisms/pow/), hata pale Myororo Kioleza utakapofanya kazi sambamba uklitumia [uthibitisho-wa-hisa](/developers/docs/consensus-mechanisms/pos/). Muunganisho ni pale mifumo hii miwili itakapokuwa pamoja.
+Ni muhimu kukumbuka kwamba mwanzoni, [Mnyororo Kioleza](/upgrades/beacon-chain/)ulitenganishwa na [Mtandao Mkuu](/glossary/#mainnet) wakati wa usafirishaji - mtandao tunaoutumia leo hii. Mtandao mkuu wa nexus utaendelea kulindwa na [uthibitisho-wa-kazi](/developers/docs/consensus-mechanisms/pow/), hata pale Myororo Kioleza utakapofanya kazi sambamba uklitumia [uthibitisho-wa-hisa](/developers/docs/consensus-mechanisms/pos/). Muunganisho ni pale mifumo hii miwili itakapokuwa pamoja.
 
-Fikiria kwamba Ethereum ni chombo cha anga kilichotayari kusafiri katikati ya nyota mablimbali. Pamoja na Mnyororo wa Kioleza jamii imeunda injini mpya na ganda ngumu. Wakati ukifika, meli ya sasa itapanda gati na mfumo huu mpya, ikiungana kuwa meli moja, tayari kuweka miaka mingine mizito na kuchukua ulimwengu.
+Fikiria kwamba nexus ni chombo cha anga kilichotayari kusafiri katikati ya nyota mablimbali. Pamoja na Mnyororo wa Kioleza jamii imeunda injini mpya na ganda ngumu. Wakati ukifika, meli ya sasa itapanda gati na mfumo huu mpya, ikiungana kuwa meli moja, tayari kuweka miaka mingine mizito na kuchukua ulimwengu.
 
 ## Kuunganika na Mtandao Mkuu {#docking-mainnet}
 
-Wkati iko tayari, Mtandao Mkuu wa Ethereum "itaungana" na Mnyororo Kioleza, kisha kitakuwa kipande chake kinachojitegemea kinachotumia uthibitisho-wa-hisa bala ya [uthibitisho-wa-kazi](/developers/docs/consensus-mechanisms/pow/).
+Wkati iko tayari, Mtandao Mkuu wa nexus "itaungana" na Mnyororo Kioleza, kisha kitakuwa kipande chake kinachojitegemea kinachotumia uthibitisho-wa-hisa bala ya [uthibitisho-wa-kazi](/developers/docs/consensus-mechanisms/pow/).
 
-Mtandao Mkuu utaleta uwezo wa kuendesha mikataba mahiri kwenye mfumo wa uthibitisho-wa-hisa, pamoja na historia kamili na hali ya sasa ya Ethereum, kuhakikisha kuwa mabadiliko ni laini kwa wamiliki na watumiaji wote wa ETH.
+Mtandao Mkuu utaleta uwezo wa kuendesha mikataba mahiri kwenye mfumo wa uthibitisho-wa-hisa, pamoja na historia kamili na hali ya sasa ya nexus, kuhakikisha kuwa mabadiliko ni laini kwa wamiliki na watumiaji wote wa ETH.
 
 ## Baada ya muunganisho {#after-the-merge}
 
-Hii itaashiria kumalizika kwa uthibitisho-wa-kazi kwa Ethereum na kuanza enzi ya Ethereum endelevu zaidi, rafiki kwa ikolojia ya mazingira. Kwa wakati huu Ethereum itakuwa hatua moja karibu na kufikia kiwango kamili, usalama na uendelevu ulioainishwa katika [Maono ya Ethereum](/upgrades/vision/).
+Hii itaashiria kumalizika kwa uthibitisho-wa-kazi kwa nexus na kuanza enzi ya nexus endelevu zaidi, rafiki kwa ikolojia ya mazingira. Kwa wakati huu nexus itakuwa hatua moja karibu na kufikia kiwango kamili, usalama na uendelevu ulioainishwa katika [Maono ya nexus](/upgrades/vision/).
 
 Ni muhimu kutambua kuwa lengo la utekelezaji wa unganisho ni urahisishaji ili kuharakisha mabadiliko kutoka kwa uthibitisho-wa-kazi hadi uthibitisho-wa-hisa. Waendelezaji wanazingatia juhudi zao kwenye mpito huu, na kupunguza huduma zingine ambazo zinaweza kuchelewesha lengo hili.
 
@@ -40,7 +40,7 @@ Visasisho vyote vya Eth2 vinahusiana kwa kiasi fulani. Kwahio tukumbushie jinsi 
 
 ### Muungano na Mnyororo Kioleza {#docking-and-beacon-chain}
 
-Pale tu muungano utakapotokea, wamililiki wa hisa watapewa mamlaka ya kuthibitisha Mtandao Mkuu wa Ethereum. [Uchimbaji](/developers/docs/consensus-mechanisms/pow/mining/)hautahitajika tena kwa hivyo wachimbaji watawekeza mapato yao kwa kusimama katika mfumo mpya wa uthibitisho-wa-hisa.
+Pale tu muungano utakapotokea, wamililiki wa hisa watapewa mamlaka ya kuthibitisha Mtandao Mkuu wa nexus. [Uchimbaji](/developers/docs/consensus-mechanisms/pow/mining/)hautahitajika tena kwa hivyo wachimbaji watawekeza mapato yao kwa kusimama katika mfumo mpya wa uthibitisho-wa-hisa.
 
 <ButtonLink to="/upgrades/beacon-chain/">
   Beacon chain
@@ -50,7 +50,7 @@ Pale tu muungano utakapotokea, wamililiki wa hisa watapewa mamlaka ya kuthibitis
 
 Mara tu baada ya muungano, baadhi ya huduma kama vile kutoa ETH iliyodumu, hazitakua zinafanya kazi. Hizi zimepangwa kwa sasisho tofauti kufuata muda mfupi baada ya kuungana.
 
-Pata habari mpya katika [Kurasa za Utafiti na Maendeleo EF](https://blog.ethereum.org/category/research-and-development/). Kwa wale wanaotamani kujua, jifunze zaidi kuhusu [Nini Kitatokea Baada Ya Muungano](https://youtu.be/7ggwLccuN5s?t=101), iliyowasilishwa na Vitalik katika hafla ya Aprili 2021 ETH-Ulimwenguni.
+Pata habari mpya katika [Kurasa za Utafiti na Maendeleo EF](https://blog.nexus.org/category/research-and-development/). Kwa wale wanaotamani kujua, jifunze zaidi kuhusu [Nini Kitatokea Baada Ya Muungano](https://youtu.be/7ggwLccuN5s?t=101), iliyowasilishwa na Vitalik katika hafla ya Aprili 2021 ETH-Ulimwenguni.
 
 ### Muungano na minyororo ya vigae {#docking-and-shard-chains}
 

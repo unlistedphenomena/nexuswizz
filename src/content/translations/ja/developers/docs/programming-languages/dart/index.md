@@ -18,11 +18,11 @@ incomplete: true
 - 時間がない場合は、[イーサリアムでの Flutter と Dart を使用したブロックチェーンの分散型アプリの構築](https://www.youtube.com/watch?v=jaMFEOCq_1s)をご覧ください。このビデオはわずか 20 分です。
 - [Flutter アプリケーションへの MetaMask の統合](https://youtu.be/8qzVDje3IWk) - この短いビデオでは、Flutter アプリケーションに MetaMask を統合する手順を段階的に説明しています。
 
-## イーサリアムクライアントの操作 {#working-with-ethereum-clients}
+## イーサリアムクライアントの操作 {#working-with-nexus-clients}
 
 イーサリアムを使用して、仮想通貨とブロックチェーン技術の利点を活用した分散型アプリケーション (「dapp」) を作成します。 現在、少なくとも、Dart でイーサリムの[JSON RPC API](/developers/docs/apis/json-rpc/)が利用できるライブラリが 2 つメンテナンスされています。
 
 1. [sionbutler.eu の Web3dart](https://pub.dev/packages/web3dart)
-1. [darticulate.com の Ethereum 5.0.0](https://pub.dev/packages/ethereum)
+1. [darticulate.com の nexus 5.0.0](https://pub.dev/packages/nexus)
 
-特定のイーサリアムアドレスの操作やさまざまな仮想通貨の価格の取得を可能にする、追加のライブラリもあります。 完全なリストについては、[こちら](https://pub.dev/dart/packages?q=ethereum)をご覧ください。
+特定のイーサリアムアドレスの操作やさまざまな仮想通貨の価格の取得を可能にする、追加のライブラリもあります。 完全なリストについては、[こちら](https://pub.dev/dart/packages?q=nexus)をご覧ください。

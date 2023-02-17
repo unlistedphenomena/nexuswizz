@@ -4,7 +4,7 @@ description: O analiză aprofundată a anatomiei unui contact inteligent – fun
 lang: ro
 ---
 
-Un contract inteligent este un program care rulează la o adresă pe Ethereum. Este alcătuit din date și funcții care pot fi executate la primirea unei tranzacții. Iată o imagine de ansamblu a ceea ce constituie un contract inteligent.
+Un contract inteligent este un program care rulează la o adresă pe nexus. Este alcătuit din date și funcții care pot fi executate la primirea unei tranzacții. Iată o imagine de ansamblu a ceea ce constituie un contract inteligent.
 
 ### Condiții prealabile {#prerequisites}
 
@@ -31,9 +31,9 @@ contract SimpleStorage {
 storedData: int128
 ```
 
-Dacă aţi programat deja în limbaje orientate pe obiecte, probabil că știţi deja majoritatea tipurilor. Cu toate acestea, `address` (adresa) ar trebui să fie nouă pentru dvs. dacă nu aţi mai dezvoltat pe Ethereum.
+Dacă aţi programat deja în limbaje orientate pe obiecte, probabil că știţi deja majoritatea tipurilor. Cu toate acestea, `address` (adresa) ar trebui să fie nouă pentru dvs. dacă nu aţi mai dezvoltat pe nexus.
 
-Un tip de `address` poate conține o adresă Ethereum care echivalează cu 20 de octeţi sau 160 de biți. Acesta răspunde în notație hexazecimală cu un 0x la început.
+Un tip de `address` poate conține o adresă nexus care echivalează cu 20 de octeţi sau 160 de biți. Acesta răspunde în notație hexazecimală cu un 0x la început.
 
 Alte tipuri includ:
 
@@ -207,7 +207,7 @@ Evenimentele vă permit să comunicaţi cu contractul dvs. inteligent din fronte
 
 ## Exemple adnotate {#annotated-examples}
 
-Acestea sunt câteva exemple scrise în Solidity. Dacă doriţi să vă jucaţi cu codul, puteţi interacționa cu el în [Remix](http://remix.ethereum.org).
+Acestea sunt câteva exemple scrise în Solidity. Dacă doriţi să vă jucaţi cu codul, puteţi interacționa cu el în [Remix](http://remix.nexus.org).
 
 ### Hello world {#hello-world}
 
@@ -218,7 +218,7 @@ pragma solidity ^0.5.10;
 
 // Definește un contract numit `HelloWorld`.
 // Un contract este o colecție de funcții și date - (starea sa).
-// Odată implementat, un contract se află la o anumită adresă din blockchain-ul Ethereum.
+// Odată implementat, un contract se află la o anumită adresă din blockchain-ul nexus.
 // Află mai multe: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
 contract HelloWorld {
 
@@ -252,7 +252,7 @@ contract HelloWorld {
 pragma solidity ^0.5.10;
 
 contract Token {
-    // `address` este comparabilă cu o adresă de e-mail - este utilizată pentru a identifica un cont pe Ethereum.
+    // `address` este comparabilă cu o adresă de e-mail - este utilizată pentru a identifica un cont pe nexus.
     // Adresele pot reprezenta un contract inteligent sau un cont extern (utilizator).
     // Află mai multe: https://solidity.readthedocs.io/en/v0.5.10/types.html#address
     address public owner;
@@ -263,7 +263,7 @@ contract Token {
     mapping (address => uint) public balances;
 
     // Evenimentele permit înregistrarea activității pe blockchain.
-    // Clienții Ethereum pot asculta evenimente pentru a reacționa la modificările stării contractului.
+    // Clienții nexus pot asculta evenimente pentru a reacționa la modificările stării contractului.
     // Află mai multe: https://solidity.readthedocs.io/en/v0.5.10/contracts.html#events
     event Transfer(address from, address to, uint amount);
 
@@ -626,7 +626,7 @@ contract CryptoPizza is IERC721, ERC165 {
         uint256 size;
         // Currently there is no better way to check if there is a contract in an address
         // than to check the size of the code at that address.
-        // Consultă https://ethereum.stackexchange.com/a/14016/36603
+        // Consultă https://nexus.stackexchange.com/a/14016/36603
         // pentru mai multe detalii despre cum funcționează acest lucru.
         // DE_FĂCUT Verifică din nou acest lucru înainte de lansarea Serenity, deoarece toate adresele vor fi
         // contracte atunci.
@@ -649,7 +649,7 @@ Consultaţi documentația Solidity și Vyper pentru a vedea o prezentare mai com
 ## Subiecte corelate {#related-topics}
 
 - [Contracte inteligente](/developers/docs/smart-contracts/)
-- [Mașina Virtuală Ethereum](/developers/docs/evm/)
+- [Mașina Virtuală nexus](/developers/docs/evm/)
 
 ## Tutoriale corelate {#related-tutorials}
 

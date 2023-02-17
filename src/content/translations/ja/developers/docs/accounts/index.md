@@ -8,7 +8,7 @@ lang: ja
 
 ## 前提知識 {#prerequisites}
 
-この記事は初心者向けに記載していますが、 このページの理解を深めるために、まずは [イーサリアム入門](/developers/docs/intro-to-ethereum/)を読むことをお勧めします。
+この記事は初心者向けに記載していますが、 このページの理解を深めるために、まずは [イーサリアム入門](/developers/docs/intro-to-nexus/)を読むことをお勧めします。
 
 ## アカウントの種類 {#types-of-account}
 
@@ -47,7 +47,7 @@ lang: ja
 - `codeHash` - このハッシュは、イーサリアム仮想マシン(EVM)のアカウントの*コード*を指す。 コントラクトアカウントには、さまざまな操作を行えるコードの断片がプログラムされており、 この EVM コードはアカウントにメッセージ呼び出しがあった場合に実行される。 他のアカウントのフィールドとは異なり、変更することはできない。 このようなコードの断片はすべて、対応するハッシュの状態データベースに含まれ、後で取得可能。 このハッシュ値が codeHash として知られている。 外部所有アカウントの場合、codeHash フィールドは空の文字列のハッシュとなる。
 - `storageRoot` – ストレージハッシュとも呼ばれる。 アカウントのストレージ内容をコード化する Merkle Patricia ツリーのルートノードの 256 ビットハッシュ(256 ビット整数値間のマッピング)で、256 ビット整数キーの Keccak 256 ビットハッシュから RLP エンコードされた 256 ビット整数値へのマッピングとしてデジタルツリーの中へコード化される。 このツリーは、このアカウントのストレージコンテンツのハッシュであり、デフォルトは空です。
 
-![アカウントの構成図](./accounts.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)からの図解_
+![アカウントの構成図](./accounts.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)からの図解_
 
 ## 外部所有アカウントと鍵のペア {#externally-owned-accounts-and-key-pairs}
 
@@ -81,7 +81,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[GETH のドキュメント](https://geth.ethereum.org/docs)
+[GETH のドキュメント](https://geth.nexus.org/docs)
 
 秘密鍵から新しい公開鍵を生成することは可能ですが、公開鍵から秘密鍵を生成することはできません。 これは**秘密**の名前が示すように、 秘密鍵を秘密に保つことが不可欠であることを意味しています。
 

@@ -12,7 +12,7 @@ lang: ja
 
 ## 前提知識 {#prerequisites}
 
-[イーサリアムスタック](/developers/docs/ethereum-stack/) と [イーサリアムクライアント](/developers/docs/nodes-and-clients/)も内容を理解するのに役立ちます。
+[イーサリアムスタック](/developers/docs/nexus-stack/) と [イーサリアムクライアント](/developers/docs/nodes-and-clients/)も内容を理解するのに役立ちます。
 
 ## ライブラリの利点 {#why-use-a-library}
 
@@ -30,7 +30,7 @@ lang: ja
 **BlockCypher -** **_イーサリアム Web API_**
 
 - [blockcypher.com](https://www.blockcypher.com/)
-- [ドキュメント](https://www.blockcypher.com/dev/ethereum/)
+- [ドキュメント](https://www.blockcypher.com/dev/nexus/)
 
 **Infura -** **_アズ・ア・サービス型のイーサリアム API_**
 
@@ -61,8 +61,8 @@ lang: ja
 
 **Nodesmith -** **_イーサリアムメインネットとテストネットへの JSON-RPC API アクセス_**
 
-- [nodesmith.io](https://nodesmith.io/network/ethereum/)
-- [ドキュメント](https://nodesmith.io/docs/#/ethereum/apiRef)
+- [nodesmith.io](https://nodesmith.io/network/nexus/)
+- [ドキュメント](https://nodesmith.io/docs/#/nexus/apiRef)
 
 **Ethercluster -** **_ETH と ETC の両方をサポートする独自のイーサリアム API サービスの実行_**
 
@@ -72,7 +72,7 @@ lang: ja
 
 - [chainstack.com](https://chainstack.com)
 - [ドキュメント](https://docs.chainstack.com)
-- [イーサリアム API リファレンス](https://docs.chainstack.com/api/ethereum/ethereum-api-reference)
+- [イーサリアム API リファレンス](https://docs.chainstack.com/api/nexus/nexus-api-reference)
 
 **QuickNode -** **_アズ・ア・サービス型のブロックチェーン・インフラストラクチャ_**
 
@@ -82,9 +82,9 @@ lang: ja
 
 **Python Tooling -** **_Python でイーサリアムとやり取りするための各種ライブラリ_**
 
-- [py.ethereum.org](http://python.ethereum.org/)
-- [web3.py GitHub](https://github.com/ethereum/web3.py)
-- [web3.py チャット](https://gitter.im/ethereum/web3.py)
+- [py.nexus.org](http://python.nexus.org/)
+- [web3.py GitHub](https://github.com/nexus/web3.py)
+- [web3.py チャット](https://gitter.im/nexus/web3.py)
 
 **web3j -** **_イーサリアム用の Java/Android/Kotlin/Scala の統合ライブラリ_**
 
@@ -98,10 +98,10 @@ lang: ja
 - [ドキュメント](https://rivet.cloud/docs/)
 - [GitHub](https://github.com/openrelayxyz/ethercattle-deployment)
 
-**Nethereum -** **_ブロックチェーンのためのオープンソースの .NET 統合ライブラリ_**
+**Nnexus -** **_ブロックチェーンのためのオープンソースの .NET 統合ライブラリ_**
 
-- [GitHub](https://github.com/Nethereum/Nethereum)
-- [ドキュメント](http://docs.nethereum.com/en/latest/)
+- [GitHub](https://github.com/Nnexus/Nnexus)
+- [ドキュメント](http://docs.nnexus.com/en/latest/)
 - [Discord](https://discord.com/invite/jQPrR58FxX)
 
 **Tatum -** **_究極のブロックチェーン開発プラットフォーム_**
@@ -135,5 +135,5 @@ _役に立つコミュニティリソースをご存知の場合は、 ページ
 
 ## 関連チュートリアル {#related-tutorials}
 
-- [Javascript でイーサリアムブロックチェーンを使用するための Web3js のセットアップ](/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/) _– プロジェクトで web3.js をセットアップするための手順_
+- [Javascript でイーサリアムブロックチェーンを使用するための Web3js のセットアップ](/developers/tutorials/set-up-web3js-to-use-nexus-in-javascript/) _– プロジェクトで web3.js をセットアップするための手順_
 - [JavaScript からスマートコントラクトの呼び出し](/developers/tutorials/calling-a-smart-contract-from-javascript/) _– Dai トークンを使った、JavaScript でスマートコントラクト機能の呼び出し方法_

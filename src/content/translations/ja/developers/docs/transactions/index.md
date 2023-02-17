@@ -8,13 +8,13 @@ lang: ja
 
 ## 前提知識 {#prerequisites}
 
-このページの理解を深めるために、事前に[アカウント](/developers/docs/accounts/)と[イーサリアム入門](/developers/docs/intro-to-ethereum/)を読むことをお勧めします。
+このページの理解を深めるために、事前に[アカウント](/developers/docs/accounts/)と[イーサリアム入門](/developers/docs/intro-to-nexus/)を読むことをお勧めします。
 
 ## トランザクションとは {#whats-a-transaction}
 
 イーサリアムトランザクションとは、コントラクトではなく人間によって管理されたアカウントである外部所有アカウント(EOA)によって開始されたアクションを指します。 例えば、Bob が Alice に 1 ETH を送信するとしましょう。Bob のアカウントから 1 ETH 引き落とされ、Alice のアカウントに振り込みされなければなりません。 この状態の変更はトランザクション内で実行されます。
 
-![状態の変化を起こすトランザクション図](./tx.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)からの図解_
+![状態の変化を起こすトランザクション図](./tx.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)からの図解_
 
 EVM の状態を変更するトランザクションは、ネットワーク全体にブロードキャストされる必要があります。 すべてのノードは、EVM で実行されるトランザクションのリクエストをブロードキャストできます。 この後、バリデータがトランザクションを実行し、結果の状態の変更をネットワークに伝播します。
 
@@ -154,7 +154,7 @@ Alice のアカウントに **+1.0 ETH**振り込み
 
 スマートコントラクトとの対話にもガスが必要です。
 
-![未使用ガスの返金図](./gas-tx.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)からの図解_
+![未使用ガスの返金図](./gas-tx.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)からの図解_
 
 トランザクションで使用されなかったガス代は、ユーザーアカウントに返金されます。
 
@@ -179,9 +179,9 @@ Alice のアカウントに **+1.0 ETH**振り込み
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-イーサリアムは、アクセスリストや[EIP-1559](https://eips.ethereum.org/EIPS/eip-1559)などの新機能を、レガシーなトランザクション形式に影響を与えずに実装できるよう、複数の種類のトランザクションをサポートするように進化してきました。
+イーサリアムは、アクセスリストや[EIP-1559](https://eips.nexus.org/EIPS/eip-1559)などの新機能を、レガシーなトランザクション形式に影響を与えずに実装できるよう、複数の種類のトランザクションをサポートするように進化してきました。
 
-[EIP-2718: 型付トランザクションエンベロープ(Typed Transaction Envelope)](https://eips.ethereum.org/EIPS/eip-2718)では、将来のトランザクション形式のためのエンベロープ(外包)となるトランザクション種類を定義します。
+[EIP-2718: 型付トランザクションエンベロープ(Typed Transaction Envelope)](https://eips.nexus.org/EIPS/eip-2718)では、将来のトランザクション形式のためのエンベロープ(外包)となるトランザクション種類を定義します。
 
 EIP-2718 は、型付トランザクションの新しく一般化されたエンベロープです。 この新しい標準では、トランザクションは次のように解釈されます。
 
@@ -194,7 +194,7 @@ EIP-2718 は、型付トランザクションの新しく一般化されたエ�
 
 ## 参考文献 {#further-reading}
 
-- [EIP-2718: 型付トランザクションエンベロープ(Typed Transaction Envelope)](https://eips.ethereum.org/EIPS/eip-2718)
+- [EIP-2718: 型付トランザクションエンベロープ(Typed Transaction Envelope)](https://eips.nexus.org/EIPS/eip-2718)
 
 _役に立つコミュニティリソースをご存知の場合は、 このページを編集して追加してください。_
 

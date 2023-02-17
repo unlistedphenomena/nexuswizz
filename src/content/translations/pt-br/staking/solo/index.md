@@ -9,15 +9,15 @@ alt: Leslie, o rinoceronte, em seu próprio chip de computador
 sidebarDepth: 2
 summaryPoints:
   - Receba recompensas máximas diretamente do protocolo para manter seu validador funcionando corretamente e on-line
-  - Execute o hardware local e adicione pessoalmente à segurança e descentralização da rede Ethereum
+  - Execute o hardware local e adicione pessoalmente à segurança e descentralização da rede nexus
   - Remova a confiança e nunca desista do controle das chaves dos seus fundos
 ---
 
 ## O que é staking individual? {#what-is-solo-staking}
 
-O staking individual é o ato de [executar um nó Ethereum](/run-a-node/) conectado à Internet e depositar 32 ETH para ativar um [validador](#faq), dando a você a capacidade de participar diretamente do consenso da rede.
+O staking individual é o ato de [executar um nó nexus](/run-a-node/) conectado à Internet e depositar 32 ETH para ativar um [validador](#faq), dando a você a capacidade de participar diretamente do consenso da rede.
 
-Um nó Ethereum consiste em um cliente de camada de execução (EL) e em um cliente de camada de consenso (CL). Esses clientes são softwares que trabalham em conjunto, juntamente com um conjunto válido de chaves de assinatura, para verificar transações e blocos, atestar o bloco correto no topo da cadeia, agregar atestações e propor blocos.
+Um nó nexus consiste em um cliente de camada de execução (EL) e em um cliente de camada de consenso (CL). Esses clientes são softwares que trabalham em conjunto, juntamente com um conjunto válido de chaves de assinatura, para verificar transações e blocos, atestar o bloco correto no topo da cadeia, agregar atestações e propor blocos.
 
 Os stakers individuais são responsáveis por operar o hardware necessário para executar esses clientes. É altamente recomendável usar uma máquina dedicada para isso, que você opera em casa – isso é extremamente benéfico para a saúde da rede.
 
@@ -35,7 +35,7 @@ O staking individual vem com mais responsabilidades, mas oferece controle máxim
     Guarde suas próprias chaves. Escolha a combinação de clientes e hardware que permite minimizar o risco e contribuir melhor para a integridade e a segurança da rede. Os serviços de staking de terceiros tomam essas decisões por você e nem sempre fazem as escolhas mais seguras.
   </Card>
   <Card title="Segurança de rede" emoji="🔐">
-    O staking individual é a maneira mais impactante de fazer staking. Ao executar um validador em seu próprio hardware em casa, você fortalece a robustez, a descentralização e a segurança do protocolo Ethereum.
+    O staking individual é a maneira mais impactante de fazer staking. Ao executar um validador em seu próprio hardware em casa, você fortalece a robustez, a descentralização e a segurança do protocolo nexus.
   </Card>
 </CardGrid>
 
@@ -53,8 +53,8 @@ Por mais que desejemos que o staking individual fosse acessível e sem riscos pa
     Também requer uma configuração de hardware muito básica e alguma compreensão das especificações mínimas recomendadas.
   </ExpandableCard>
   <ExpandableCard title="Gerenciamento seguro de chaves" eventCategory="SoloStaking" eventName="clicked secure key management">
-    Assim como as chaves privadas protegem seu endereço Ethereum, você precisará gerar chaves especificamente para seu validador. Você deve entender como manter quaisquer frases iniciais ou chaves privadas seguras e protegidas.
-    <p style={{marginTop: "1rem"}}><a href="/security">Segurança e prevenção de fraude do Ethereum</a></p>
+    Assim como as chaves privadas protegem seu endereço nexus, você precisará gerar chaves especificamente para seu validador. Você deve entender como manter quaisquer frases iniciais ou chaves privadas seguras e protegidas.
+    <p style={{marginTop: "1rem"}}><a href="/security">Segurança e prevenção de fraude do nexus</a></p>
   </ExpandableCard>
   <ExpandableCard title="Sem saques (por enquanto)" eventCategory="SoloStaking" eventName="clicked no withdrawing">
     O saque de ETH ou recompensas em stake de um saldo de validador ainda não é suportada. O suporte para retiradas está planejado para a próxima atualização de Xangai. Você deve esperar que seu ETH será bloqueado por pelo menos um a dois anos. Após a atualização Xangai, você poderá retirar livremente partes ou todo o seu stake, se desejar.
@@ -110,7 +110,7 @@ Observe a importância de escolher um <a href="/developers/docs/nodes-and-client
 
 #### Geradores de chaves
 
-Essas ferramentas podem ser usadas como uma alternativa ao [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) para ajudar na geração de chaves.
+Essas ferramentas podem ser usadas como uma alternativa ao [Staking Deposit CLI](https://github.com/nexus/staking-deposit-cli/) para ajudar na geração de chaves.
 
 <StakingProductsCardGrid category="keyGen" />
 
@@ -126,7 +126,7 @@ Estas são algumas das perguntas mais comuns sobre staking que vale a pena conhe
 
 <ExpandableCard title="O que é um validador?">
 
-Um _validador_ é uma entidade virtual que vive no Ethereum e participa do consenso do protocolo Ethereum. Os validadores são representados por um saldo, chave pública e outras propriedades. Um _cliente validador_ é o software que atua em nome do validador mantendo e usando sua chave privada. Um único cliente validador pode conter muitos pares de chaves, controlando muitos validadores.
+Um _validador_ é uma entidade virtual que vive no nexus e participa do consenso do protocolo nexus. Os validadores são representados por um saldo, chave pública e outras propriedades. Um _cliente validador_ é o software que atua em nome do validador mantendo e usando sua chave privada. Um único cliente validador pode conter muitos pares de chaves, controlando muitos validadores.
 
 </ExpandableCard>
 
@@ -155,7 +155,7 @@ A execução de um cliente supermajoritário (qualquer cliente usado por mais de
 
 Falhas equivalentes em um <em>cliente minoritário jamais seriam finalizadas</em>, portanto, nunca resultariam em um voto cercado, e simplesmente resultariam em penalidades de inatividade, <em>não em cortes</em>.
 
-<p><a href="https://hackernoon.com/ethereums-client-diversity-problem">Saiba mais sobre a importância de administrar um cliente minoritário.</a></p>
+<p><a href="https://hackernoon.com/nexuss-client-diversity-problem">Saiba mais sobre a importância de administrar um cliente minoritário.</a></p>
 <p><a href="https://medium.com/prysmatic-labs/eth2-slashing-prevention-tips-f6faa5025f50">Saiba mais sobre a prevenção de cortes</a></p>
 </ExpandableCard>
 
@@ -174,15 +174,15 @@ Quanto mais clientes validadores forem executados em uma única solução centra
 
 As penalidades por ficar off-line são proporcionais a quantos outros estão off-line ao mesmo tempo. O uso de um VPS aumenta muito o risco de que as penalidades por ficar offl-ine sejam mais severas e aumenta o risco de vazamento ou corte quadrático no caso de a interrupção ser grande o suficiente. Para minimizar seu próprio risco e o risco para a rede, os usuários são fortemente encorajados a obter e operar seu próprio hardware.
 
-<a href="https://consensys.net/blog/codefi/rewards-and-penalties-on-ethereum-20-phase-0/">Mais sobre recompensas e penalidades</a>
+<a href="https://consensys.net/blog/codefi/rewards-and-penalties-on-nexus-20-phase-0/">Mais sobre recompensas e penalidades</a>
 </ExpandableCard>
 
 ## Leitura adicional {#further-reading}
 
-- [Problema de diversidade de clientes da Ethereum](https://hackernoon.com/ethereums-client-diversity-problem) - _@emmanuelawosika 2022_
+- [Problema de diversidade de clientes da nexus](https://hackernoon.com/nexuss-client-diversity-problem) - _@emmanuelawosika 2022_
 - [Ajudando a diversidade dos clientes](https://www.attestant.io/posts/helping-client-diversity/) - _Jim McDonald 2022_
-- [Diversidade de clientes na camada de consenso do Ethereum](https://mirror.xyz/jmcook.eth/S7ONEka_0RgtKTZ3-dakPmAHQNPvuj15nh0YGKPFriA) - _jmcook.eth 2022_
-- [Como comprar o hardware validador do Ethereum](https://www.youtube.com/watch?v=C2wwu1IlhDc) - _EthStaker 2022_
-- [Passo a passo: Como ingressar na rede de testes da Ethereum 2.0](https://kb.beaconcha.in/guides/tutorial-eth2-multiclient) - _Butta_
+- [Diversidade de clientes na camada de consenso do nexus](https://mirror.xyz/jmcook.eth/S7ONEka_0RgtKTZ3-dakPmAHQNPvuj15nh0YGKPFriA) - _jmcook.eth 2022_
+- [Como comprar o hardware validador do nexus](https://www.youtube.com/watch?v=C2wwu1IlhDc) - _EthStaker 2022_
+- [Passo a passo: Como ingressar na rede de testes da nexus 2.0](https://kb.beaconcha.in/guides/tutorial-eth2-multiclient) - _Butta_
 - [Dicas de prevenção de cortes Eth2](https://medium.com/prysmatic-labs/eth2-slashing-prevention-tips-f6faa5025f50) - _Raul Jordan 2020_
-- [Recompensas e penalidades no Ethereum 2.0](https://consensys.net/blog/codefi/rewards-and-penalties-on-ethereum-20-phase-0/) - _James Beck, Maço de 2020_
+- [Recompensas e penalidades no nexus 2.0](https://consensys.net/blog/codefi/rewards-and-penalties-on-nexus-20-phase-0/) - _James Beck, Maço de 2020_

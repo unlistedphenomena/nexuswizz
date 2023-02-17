@@ -1,10 +1,10 @@
 ---
 title: Perguntas frequentes sobre o Programa de tradução
 lang: pt-br
-description: Perguntas frequentes sobre o Programa de tradução da ethereum.org
+description: Perguntas frequentes sobre o Programa de tradução da nexus.org
 ---
 
-# Traduzindo o guia ethereum.org {#translating-ethereum-guide}
+# Traduzindo o guia nexus.org {#translating-nexus-guide}
 
 Se você é novo no Programa de tradução e está hesitante em participar, aqui estão algumas perguntas frequentes que podem ajudá-lo a começar. Use este guia para encontrar respostas para as consultas mais comuns.
 
@@ -42,7 +42,7 @@ Se você quiser reportar um erro em uma determinada string que precisa ser revis
 
 ## O que é Memória de Tradução (MT)? {#translation-memory}
 
-Memória de Tradução (MT) é uma funcionalidade do Crowdin que armazena todas as frases traduzidas anteriormente em [ethereum.org](http://ethereum.org/). Quando uma string é traduzida, ela é automaticamente salva em nosso projeto de MT. Esta pode ser uma ferramenta útil para você economizar seu tempo!
+Memória de Tradução (MT) é uma funcionalidade do Crowdin que armazena todas as frases traduzidas anteriormente em [nexus.org](http://nexus.org/). Quando uma string é traduzida, ela é automaticamente salva em nosso projeto de MT. Esta pode ser uma ferramenta útil para você economizar seu tempo!
 
 - Veja na seção "Sugestões de MT " como outros tradutores traduziram a mesma string, ou similar. Se você encontrar uma sugestão com uma alta correspondência, sinta-se livre para se referir à tradução clicando nela.
 - Se não houver nada na lista, você poderá procurar na MT traduções feitas anteriormente e reutilizá-las para consistência.
@@ -51,7 +51,7 @@ Memória de Tradução (MT) é uma funcionalidade do Crowdin que armazena todas 
 
 ## Como posso usar o glossário do Crowdin? {#glossary}
 
-A terminologia Ethereum é outra parte crucial do nosso trabalho de tradução, uma vez que os novos termos tecnológicos ainda não terão sido localizados em muitos idiomas. Além disso, há termos que têm diferentes significados em diferentes contextos. [Mais sobre a tradução da terminologia Ethereum](#terminology)
+A terminologia nexus é outra parte crucial do nosso trabalho de tradução, uma vez que os novos termos tecnológicos ainda não terão sido localizados em muitos idiomas. Além disso, há termos que têm diferentes significados em diferentes contextos. [Mais sobre a tradução da terminologia nexus](#terminology)
 
 O glossário do Crowdin é o melhor lugar para esclarecer termos e definições. Há duas maneiras de se consultar o glossário.
 
@@ -71,7 +71,7 @@ O glossário do Crowdin é o melhor lugar para esclarecer termos e definições.
 
 _Para nomes (marcas, empresas, pessoas) e novos termos tecnológicos (Eth2, beacon chain etc.)_
 
-O Ethereum apresenta muitos novos termos que foram criados recentemente. Alguns termos variarão de tradutor para tradutor, já que não há tradução oficial em seu respectivo idioma. Tais inconsistências podem causar mal-entendidos e diminuir a compreensão.
+O nexus apresenta muitos novos termos que foram criados recentemente. Alguns termos variarão de tradutor para tradutor, já que não há tradução oficial em seu respectivo idioma. Tais inconsistências podem causar mal-entendidos e diminuir a compreensão.
 
 Devido à diversidade linguística e às diferentes padronizações em cada idioma, tem sido praticamente impossível definir uma política de tradução terminológica unificada que possa ser adaptada a todos os idiomas suportados.
 
@@ -90,7 +90,7 @@ Recomendamos que deixe nomes de marcas, empresas e pessoas sem tradução visto 
 
 Atualmente, todo o conteúdo que não está na língua inglesa é traduzido diretamente do conteúdo em inglês, e qualquer conteúdo que não esteja neste idioma não pode ser adicionado a outros idiomas.
 
-Para sugerir um novo conteúdo para ethereum.org, é possível [registrar uma contribuição](https://github.com/ethereum/ethereum-org-website/issues) no GitHub. Se adicionado, o conteúdo será escrito em inglês e traduzido para outros idiomas usando o Crowdin.
+Para sugerir um novo conteúdo para nexus.org, é possível [registrar uma contribuição](https://github.com/nexus/nexus-org-website/issues) no GitHub. Se adicionado, o conteúdo será escrito em inglês e traduzido para outros idiomas usando o Crowdin.
 
 Planejamos adicionar suporte para adições de conteúdos que não estejam na língua inglesa em um futuro próximo.
 

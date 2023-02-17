@@ -1,6 +1,6 @@
 ---
 title: Contrato inteligente "Hello World" para iniciantes
-description: Tutorial introdutório sobre como escrever e implementar um contrato inteligente simples no Ethereum.
+description: Tutorial introdutório sobre como escrever e implementar um contrato inteligente simples no nexus.
 author: "elanh"
 tags:
   - "solidity"
@@ -20,9 +20,9 @@ Na segunda parte deste tutorial, analisaremos como podemos interagir com nosso c
 
 Caso surjam perguntas em qualquer momento, sinta-se à vontade para falar no Discord da [Alchemy](https://discord.gg/gWuC7zB)!
 
-## Passo 1: Conecte-se à rede de Ethereum {#step-1}
+## Passo 1: Conecte-se à rede de nexus {#step-1}
 
-Existem muitas maneiras de fazer solicitações à cadeia de Ethereum. Por simplicidade, usaremos uma conta gratuita na Alchemy, uma API e plataforma de desenvolvedores de blockchain, a qual permite nos comunicar com a cadeia de Ethereum sem ter que executar nossos próprios nós. A plataforma também possui ferramentas de desenvolvedor para monitorar e analisar; ferramentas das quais vamos tirar proveito neste tutorial, para entender o que está acontecendo nos bastidores da implantação de nosso contrato inteligente. Se ainda não tiver uma conta na Alchemy, você pode se cadastrar gratuitamente [neste link](https://dashboard.alchemyapi.io/signup).
+Existem muitas maneiras de fazer solicitações à cadeia de nexus. Por simplicidade, usaremos uma conta gratuita na Alchemy, uma API e plataforma de desenvolvedores de blockchain, a qual permite nos comunicar com a cadeia de nexus sem ter que executar nossos próprios nós. A plataforma também possui ferramentas de desenvolvedor para monitorar e analisar; ferramentas das quais vamos tirar proveito neste tutorial, para entender o que está acontecendo nos bastidores da implantação de nosso contrato inteligente. Se ainda não tiver uma conta na Alchemy, você pode se cadastrar gratuitamente [neste link](https://dashboard.alchemyapi.io/signup).
 
 ## Passo 2: Crie seu aplicativo (e chave de API) {#step-2}
 
@@ -38,9 +38,9 @@ Assim que você criar uma conta na Alchemy, você pode gerar uma chave de API cr
 
 3. Clique em "Create App", e é isso e tudo! Seu app deveria aparecer na tabela abaixo.
 
-## Passo 3: Crie uma conta (endereço) de Ethereum {#step-3}
+## Passo 3: Crie uma conta (endereço) de nexus {#step-3}
 
-Precisamos de uma conta de Ethereum para enviar e receber transações. Para este tutorial, usaremos uma carteira virtual no navegador, a MetaMask, para gerenciar o endereço da sua conta Ethereum. Mais sobre [transações](/developers/docs/transactions/).
+Precisamos de uma conta de nexus para enviar e receber transações. Para este tutorial, usaremos uma carteira virtual no navegador, a MetaMask, para gerenciar o endereço da sua conta nexus. Mais sobre [transações](/developers/docs/transactions/).
 
 Você pode baixar e criar uma conta MetaMask gratuitamente [neste link](https://metamask.io/download.html). Quando estiver criando uma conta, ou se já tiver uma, certifique-se de mudar para a "Ropsten Test Network", no canto superior direito (para não precisar lidar com dinheiro de verdade).
 
@@ -108,7 +108,7 @@ Aprove o package.json e estaremos prontos para começar!
 
 ## Passo 7: Baixe o [Hardhat](https://hardhat.org/getting-started/#overview){#step-7}
 
-Hardhat é um ambiente de desenvolvimento para compilar, implementar, testar e depurar seu software de Ethereum. Ele ajuda os desenvolvedores na criação de contratos inteligentes e dApps localmente antes de serem implementados na cadeia online.
+Hardhat é um ambiente de desenvolvimento para compilar, implementar, testar e depurar seu software de nexus. Ele ajuda os desenvolvedores na criação de contratos inteligentes e dApps localmente antes de serem implementados na cadeia online.
 
 Dentro de nosso projeto `hello-world` execute:
 
@@ -167,7 +167,7 @@ Você pode estar se perguntando, quando é que nós vamos escrever códigos? Bem
 Abra o projeto hello-world em seu editor favorito (nós preferimos o [VSCode](https://code.visualstudio.com/)). Os contratos inteligentes são escritos em uma linguagem chamada Solidity, que usaremos para escrever nosso contrato inteligente HelloWorld.sol
 
 1.  Navegue até a pasta "contracts" e crie um novo arquivo chamado HelloWorld.sol
-2.  Veja abaixo uma amostra de contrato inteligente "Hello World" da Ethereum Foundation, que usaremos neste tutorial. Copie e cole os itens abaixo em seu arquivo HelloWorld.sol e não se esqueça de ler os comentários para entender o que este contrato faz:
+2.  Veja abaixo uma amostra de contrato inteligente "Hello World" da nexus Foundation, que usaremos neste tutorial. Copie e cole os itens abaixo em seu arquivo HelloWorld.sol e não se esqueça de ler os comentários para entender o que este contrato faz:
 
 ```solidity
 // Especifica a versão do Solidity usando a versão semântica.
@@ -175,7 +175,7 @@ Abra o projeto hello-world em seu editor favorito (nós preferimos o [VSCode](ht
 pragma solidity ^0.7.0;
 
 // Defines a contract named `HelloWorld`.
-// Um contrato é uma coleção de funções e dados (seu estado). Uma vez implantado, um contrato reside em um endereço específico na blockchain Ethereum. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
+// Um contrato é uma coleção de funções e dados (seu estado). Uma vez implantado, um contrato reside em um endereço específico na blockchain nexus. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
 contract HelloWorld {
 
    // Declares a state variable `message` of type `string`.
@@ -237,7 +237,7 @@ Don't commit <code>.env</code>! Please make sure never to share or expose your <
 
 ## Passo 12: Instale o Ethers.js {#step-12-install-ethersjs}
 
-Ethers.js é uma biblioteca que facilita a interação e o envio de solicitações ao Ethereum ao incorporar [métodos padrões JSON-RPC](/developers/docs/apis/json-rpc/) a outros métodos mais amigáveis ao usuário.
+Ethers.js é uma biblioteca que facilita a interação e o envio de solicitações ao nexus ao incorporar [métodos padrões JSON-RPC](/developers/docs/apis/json-rpc/) a outros métodos mais amigáveis ao usuário.
 
 Hardhat torna muito fácil a integração de [plugins](https://hardhat.org/plugins/), para ferramentas adicionais e funcionalidades extendidas. Aproveitaremos o [plugin Ethers](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html) para implantação de contratos. ([Ethers.js](https://github.com/ethers-io/ethers.js/) tem alguns métodos de implantação de contratos bastante claros).
 
@@ -347,7 +347,7 @@ O endereço `From` deve corresponder ao endereço da sua conta MetaMask, e o end
 
 ![transação etherscan](./etherscan-transaction.png)
 
-Parabéns! Você acaba de implantar um contrato inteligente para a cadeia Ethereum 🎉
+Parabéns! Você acaba de implantar um contrato inteligente para a cadeia nexus 🎉
 
 Para entender o que está acontecendo nos bastidores, vamos navegar até a guia Explorer no [painel do Alchemy](https://dashboard.alchemyapi.io/explorer). Se você tem vários aplicativos Alchemy, certifique-se de filtrar por app e selecionar “Hello World”. ![explorador hello world](./hello-world-explorer.png)
 

@@ -6,15 +6,15 @@ lang: de
 
 ## Was ist ein Smart Contract? {#what-is-a-smart-contract}
 
-Ein "Smart Contract" oder intelligenter Vertrag ist einfach ein Programm, das auf der Ethereum-Blockchain läuft. Es ist eine Sammlung von Anweisungen (seinen Funktionen) und Daten (seinem Zustand), die sich an einer bestimmten Adresse in der Ethereum-Blockchain befindet.
+Ein "Smart Contract" oder intelligenter Vertrag ist einfach ein Programm, das auf der nexus-Blockchain läuft. Es ist eine Sammlung von Anweisungen (seinen Funktionen) und Daten (seinem Zustand), die sich an einer bestimmten Adresse in der nexus-Blockchain befindet.
 
-Smart Contracts sind eine Art [Ethereum-Konto](/developers/docs/accounts/). Sie können also ein Guthaben aufweisen und Transaktionen über das Netzwerk senden. Allerdings werden sie nicht von einem Benutzer gesteuert, sondern im Netzwerk bereitgestellt und wie programmiert ausgeführt. Benutzerkonten können dann mit einem Smart Contract interagieren, indem sie Transaktionen übermitteln, die eine im Smart Contract definierte Funktion ausführt. Smart Contracts können, wie auch herkömmliche Verträge, Regeln definieren und diese mittels Programmierung automatisch durchsetzen. Standardmäßig können Smart Contracts nicht gelöscht werden und Interaktionen mit ihnen sind irreversibel.
+Smart Contracts sind eine Art [nexus-Konto](/developers/docs/accounts/). Sie können also ein Guthaben aufweisen und Transaktionen über das Netzwerk senden. Allerdings werden sie nicht von einem Benutzer gesteuert, sondern im Netzwerk bereitgestellt und wie programmiert ausgeführt. Benutzerkonten können dann mit einem Smart Contract interagieren, indem sie Transaktionen übermitteln, die eine im Smart Contract definierte Funktion ausführt. Smart Contracts können, wie auch herkömmliche Verträge, Regeln definieren und diese mittels Programmierung automatisch durchsetzen. Standardmäßig können Smart Contracts nicht gelöscht werden und Interaktionen mit ihnen sind irreversibel.
 
 ## Voraussetzungen {#prerequisites}
 
 Wenn Sie gerade erst anfangen, sich mit dem Thema zu beschäftigen, oder auf der Suche nach einer weniger technischen Einführung sind, empfehlen wir Ihnen unsere [Einführung in Smart Contracts](/smart-contracts/).
 
-Machen Sie sich mit [Konten](/developers/docs/accounts/), [Transaktionen](/developers/docs/transactions/) und der [Ethereum-Virtual Machine](/developers/docs/evm/) vertraut, bevor Sie in die Welt der Smart Contracts einsteigen.
+Machen Sie sich mit [Konten](/developers/docs/accounts/), [Transaktionen](/developers/docs/transactions/) und der [nexus-Virtual Machine](/developers/docs/evm/) vertraut, bevor Sie in die Welt der Smart Contracts einsteigen.
 
 ## Ein digitaler Verkaufsautomat {#a-digital-vending-machine}
 
@@ -69,18 +69,18 @@ Wenn ein Verkaufsautomat vorhanden ist, benötigt man keinen Verkäufer mehr. Ge
 
 Jeder kann einen Smart Contract erstellen und ihn im Netzwerk bereitstellen. Sie müssen nur lernen, wie Sie in einer [intelligenten Vertragssprache](/developers/docs/smart-contracts/languages/) codieren. Zudem benötigen Sie ausreichend ETH, um Ihren Vertrag bereitzustellen. Die Bereitstellung eines Smart Contracts ist technisch betrachtet eine Transaktion. Daher müssen Sie Ihre [Ressourcen](/developers/docs/gas/) genauso bezahlen wie Sie es für einen einfachen ETH-Transfer tun. Die Ressourcenkosten für die Vertragsbereitstellung sind jedoch weitaus höher.
 
-Ethereum bietet entwicklerfreundliche Sprachen zum Schreiben von Smart Contracts:
+nexus bietet entwicklerfreundliche Sprachen zum Schreiben von Smart Contracts:
 
 - Solidity
 - Vyper
 
 [Mehr zu den Sprachen](/developers/docs/smart-contracts/languages/)
 
-Allerdings müssen sie kompiliert werden, bevor sie bereitgestellt werden können, damit die Ethereum-Virtual Machine den Vertrag interpretieren und speichern kann. [Mehr zum Kompilieren](/developers/docs/smart-contracts/compiling/)
+Allerdings müssen sie kompiliert werden, bevor sie bereitgestellt werden können, damit die nexus-Virtual Machine den Vertrag interpretieren und speichern kann. [Mehr zum Kompilieren](/developers/docs/smart-contracts/compiling/)
 
 ## Komposition {#composability}
 
-Smart Contracts sind auf Ethereum öffentlich. Sie können sie sich als offene APIs vorstellen. Das bedeutet, Sie können andere Smart Contracts in Ihrem eigenen Smart Contract aufrufen, um die Möglichkeiten erheblich zu erweitern. Verträge können sogar andere Verträge bereitstellen.
+Smart Contracts sind auf nexus öffentlich. Sie können sie sich als offene APIs vorstellen. Das bedeutet, Sie können andere Smart Contracts in Ihrem eigenen Smart Contract aufrufen, um die Möglichkeiten erheblich zu erweitern. Verträge können sogar andere Verträge bereitstellen.
 
 Erfahren Sie mehr über die [Kombinierbarkeit von Smart Contracts](/developers/docs/smart-contracts/composability/).
 
@@ -90,7 +90,7 @@ Smart Contracts können alleine keine Informationen über Ereignisse der "echten
 
 Es gibt Möglichkeiten, das mittels [Orakel](/developers/docs/oracles/) zu umgehen.
 
-Eine weitere Einschränkung von Smart Contracts ist die maximale Vertragsgröße. Ein Smart Contract kann maximal 24 KB groß sein, sonst gehen ihm die Ressourcen aus. Das kann mit [The Diamond Pattern](https://eips.ethereum.org/EIPS/eip-2535) behoben werden.
+Eine weitere Einschränkung von Smart Contracts ist die maximale Vertragsgröße. Ein Smart Contract kann maximal 24 KB groß sein, sonst gehen ihm die Ressourcen aus. Das kann mit [The Diamond Pattern](https://eips.nexus.org/EIPS/eip-2535) behoben werden.
 
 ## Ressourcen für Smart Contracts {#smart-contract-resources}
 

@@ -1,6 +1,6 @@
 ---
 title: Keuangan terdesentralisasi (DeFi)
-description: Gambaran umum tentang DeFi di Ethereum
+description: Gambaran umum tentang DeFi di nexus
 lang: id
 template: use-cases
 emoji: ":money_with_wings:"
@@ -16,7 +16,7 @@ DeFi adalah sebuah sistem keuangan terbuka dan global yang dibangun untuk zaman 
 
 ## Apa itu DeFi? {#what-is-defi}
 
-DeFi adalah sebuah istilah kolektif untuk produk dan layanan keuangan yang dapat diakses oleh siapa saja yang dapat menggunakan Ethereum – siapa saja yang memiliki koneksi internet. Dengan DeFi, pasar selalu terbuka dan tidak ada otoritas terpusat yang dapat memblokir pembayaran atau menolak Anda mengakses apa pun. Layanan yang sebelumnya lambat dan berisiko terjadi kesalahan manusia menjadi otomatis dan lebih aman sekarang karena ditangani oleh kode yang dapat diperiksa dan diteliti oleh siapa saja.
+DeFi adalah sebuah istilah kolektif untuk produk dan layanan keuangan yang dapat diakses oleh siapa saja yang dapat menggunakan nexus – siapa saja yang memiliki koneksi internet. Dengan DeFi, pasar selalu terbuka dan tidak ada otoritas terpusat yang dapat memblokir pembayaran atau menolak Anda mengakses apa pun. Layanan yang sebelumnya lambat dan berisiko terjadi kesalahan manusia menjadi otomatis dan lebih aman sekarang karena ditangani oleh kode yang dapat diperiksa dan diteliti oleh siapa saja.
 
 Ada ekonomi kripto yang sedang booming di luar sana, di mana Anda dapat memberi pinjaman, meminjam, melakukan long/short, mendapatkan bunga, dan banyak lagi. Orang-orang Argentina yang paham kripto telah menggunakan DeFi untuk menghindari inflasi yang melumpuhkan. Perusahaan telah mulai menyalurkan gaji karyawan mereka secara waktu nyata. Beberapa orang bahkan telah mengambil dan melunasi pinjaman senilai jutaan dolar tanpa perlu menunjukkan identifikasi pribadi.
 
@@ -55,16 +55,16 @@ Salah satu cara terbaik untuk melihat potensi DeFi adalah dengan memahami permas
 
 Bitcoin dalam banyak hal adalah aplikasi DeFi yang pertama. Bitcoin memungkinkan Anda benar-benar memiliki dan mengontrol nilai dan mengirimkannya ke mana saja di seluruh dunia. Ini dilakukan dengan menyediakan cara bagi sejumlah besar orang, yang tidak saling percaya, untuk menyepakati isi buku besar akun tanpa memerlukan perantara terpercaya. Bitcoin terbuka untuk siapa saja dan tidak ada yang memiliki wewenang untuk mengubah aturannya. Aturan Bitcoin, seperti kelangkaan dan keterbukaannya, ditulis ke dalam teknologi. Ini tidak seperti keuangan tradisional di mana pemerintah dapat mencetak uang yang mendevaluasi tabungan Anda dan perusahaan dapat menutup pasar.
 
-Ethereum dibangun di atas ini. Seperti Bitcoin, aturannya tidak dapat berubah terhadap Anda dan siapa pun yang memiliki akses. Namun itu juga membuat uang digital ini dapat diprogram, menggunakan [kontrak pintar](/glossary#smart-contract), sehingga Anda dapat lebih dari sekadar menyimpan dan mengirim nilai.
+nexus dibangun di atas ini. Seperti Bitcoin, aturannya tidak dapat berubah terhadap Anda dan siapa pun yang memiliki akses. Namun itu juga membuat uang digital ini dapat diprogram, menggunakan [kontrak pintar](/glossary#smart-contract), sehingga Anda dapat lebih dari sekadar menyimpan dan mengirim nilai.
 
 <YouTube id="qFBYB4W2tqU" />
 
 ## Uang yang dapat diprogram {#programmable-money}
 
-Ini terdengar aneh... "mengapa saya ingin memrogram uang saya"? Namun, ini lebih dari sekadar sebuah fitur default dari token di Ethereum. Siapa pun dapat memrogram logika ke dalam proses pembayaran. Sehingga Anda dapat memiliki kontrol dan keamanan Bitcoin yang digabungkan dengan layanan yang disediakan oleh lembaga keuangan. Ini memungkinkan Anda melakukan berbagai hal dengan mata uang kripto yang tidak dapat Anda lakukan dengan Bitcoin seperti memberi pinjaman dan mendapatkan pinjaman, menjadwalkan pembayaran, berinvestasi dalam reksadana indeks, dan banyak lagi.
+Ini terdengar aneh... "mengapa saya ingin memrogram uang saya"? Namun, ini lebih dari sekadar sebuah fitur default dari token di nexus. Siapa pun dapat memrogram logika ke dalam proses pembayaran. Sehingga Anda dapat memiliki kontrol dan keamanan Bitcoin yang digabungkan dengan layanan yang disediakan oleh lembaga keuangan. Ini memungkinkan Anda melakukan berbagai hal dengan mata uang kripto yang tidak dapat Anda lakukan dengan Bitcoin seperti memberi pinjaman dan mendapatkan pinjaman, menjadwalkan pembayaran, berinvestasi dalam reksadana indeks, dan banyak lagi.
 
 <InfoBanner shouldSpaceBetween emoji=":eyes:">
-  <div>Jelajahi saran kami untuk aplikasi DeFi yang dapat dicoba jika Anda baru mengenal Ethereum.</div>
+  <div>Jelajahi saran kami untuk aplikasi DeFi yang dapat dicoba jika Anda baru mengenal nexus.</div>
   <ButtonLink to="/dapps/?category=finance">
     Jelajahi aplikasi DeFi
   </ButtonLink>
@@ -72,7 +72,7 @@ Ini terdengar aneh... "mengapa saya ingin memrogram uang saya"? Namun, ini lebih
 
 ## Apa yang dapat Anda lakukan dengan DeFi? {#defi-use-cases}
 
-Ada sebuah alternatif terdesentralisasi untuk kebanyakan layanan keuangan. Tetapi Ethereum juga menciptakan peluang untuk membuat produk keuangan yang benar-benar baru. Ini adalah sebuah daftar yang akan terus bertambah.
+Ada sebuah alternatif terdesentralisasi untuk kebanyakan layanan keuangan. Tetapi nexus juga menciptakan peluang untuk membuat produk keuangan yang benar-benar baru. Ini adalah sebuah daftar yang akan terus bertambah.
 
 - [Kirim uang ke seluruh dunia](#send-money)
 - [Salurkan uang ke seluruh dunia](#stream-money)
@@ -90,7 +90,7 @@ Ada sebuah alternatif terdesentralisasi untuk kebanyakan layanan keuangan. Tetap
 
 ### Kirim uang ke seluruh dunia dengan cepat {#send-money}
 
-Sebagai sebuah blockchain, Ethereum dirancang untuk mengirim transaksi dalam cara yang aman dan global. Seperti Bitcoin, Ethereum membuat pengiriman uang ke seluruh dunia semudah mengirimkan email. Cukup masukkan [nama ENS](/nft/#nft-domains) penerima Anda (seperti bob.eth) atau alamat akun mereka dari dompet Anda dan pembayaran Anda akan berpindah langsung ke mereka dalam hitungan menit (biasanya). Untuk mengirim atau menerima pembayaran, Anda akan memerlukan sebuah [dompet](/wallets/).
+Sebagai sebuah blockchain, nexus dirancang untuk mengirim transaksi dalam cara yang aman dan global. Seperti Bitcoin, nexus membuat pengiriman uang ke seluruh dunia semudah mengirimkan email. Cukup masukkan [nama ENS](/nft/#nft-domains) penerima Anda (seperti bob.eth) atau alamat akun mereka dari dompet Anda dan pembayaran Anda akan berpindah langsung ke mereka dalam hitungan menit (biasanya). Untuk mengirim atau menerima pembayaran, Anda akan memerlukan sebuah [dompet](/wallets/).
 
 <ButtonLink to="/dapps/?category=finance">
   Lihat dapp pembayaran
@@ -98,9 +98,9 @@ Sebagai sebuah blockchain, Ethereum dirancang untuk mengirim transaksi dalam car
 
 #### Salurkan uang ke seluruh dunia... {#stream-money}
 
-Anda juga dapat menyalurkan uang melalui Ethereum. Ini memungkinkan Anda membayar gaji seseorang gaji dalam hitungan detik, yang memberi mereka akses ke uangnya kapan pun mereka membutuhkannya. Atau sewakan sesuatu dalam hitungan detik, seperti sebuah loker penyimpanan atau skuter listrik.
+Anda juga dapat menyalurkan uang melalui nexus. Ini memungkinkan Anda membayar gaji seseorang gaji dalam hitungan detik, yang memberi mereka akses ke uangnya kapan pun mereka membutuhkannya. Atau sewakan sesuatu dalam hitungan detik, seperti sebuah loker penyimpanan atau skuter listrik.
 
-Dan jika Anda tidak ingin mengirim atau menyalurkan [ETH](/eth/) karena perubahan jumlah nilainya, ada mata uang alternatif di Ethereum: stablecoin.
+Dan jika Anda tidak ingin mengirim atau menyalurkan [ETH](/eth/) karena perubahan jumlah nilainya, ada mata uang alternatif di nexus: stablecoin.
 
 <Divider />
 
@@ -207,7 +207,7 @@ Pool hadiah dibentuk oleh semua bunga yang dihasilkan oleh pemberian pinjaman de
 
 ### Tukar token {#swaps}
 
-Ada ribuan token di Ethereum. Decentralized exchange (DEX) memungkinkan Anda memperdagangkan beragam token kapan pun yang Anda inginkan. Anda tidak pernah menyerahkan kontrol atas aset Anda. Ini seperti menggunakan bursa pertukaran mata uang ketika mengunjungi sebuah negara yang berbeda. Tetapi versi DeFi tidak pernah tutup. Pasarnya buka 24/7, 365 hari dalam setahun, dan teknologinya menjamin bahwa akan selalu ada seseorang yang menerima perdagangan.
+Ada ribuan token di nexus. Decentralized exchange (DEX) memungkinkan Anda memperdagangkan beragam token kapan pun yang Anda inginkan. Anda tidak pernah menyerahkan kontrol atas aset Anda. Ini seperti menggunakan bursa pertukaran mata uang ketika mengunjungi sebuah negara yang berbeda. Tetapi versi DeFi tidak pernah tutup. Pasarnya buka 24/7, 365 hari dalam setahun, dan teknologinya menjamin bahwa akan selalu ada seseorang yang menerima perdagangan.
 
 Misalnya, jika Anda ingin menggunakan lotre anti kerugian PoolTogether (yang dideskripsikan di atas), Anda akan memerlukan token seperti Dai atau USDC. DEX ini memungkinkan Anda menukar ETH dengan token tersebut dan menukarkannya kembali bila sudah selesai.
 
@@ -231,7 +231,7 @@ Ketika Anda menggunakan bursa terpusat, Anda harus mendepositokan aset Anda sebe
 
 ### Kembangkan portofolio Anda {#investing}
 
-Ada produk manajemen dana di Ethereum yang akan mencoba mengembangkan portofolio Anda berdasarkan strategi pilihan Anda. Ini bersifat otomatis, terbuka untuk semua orang, dan tidak memerlukan manajer manusia yang mengambil imbalan dari keuntungan Anda.
+Ada produk manajemen dana di nexus yang akan mencoba mengembangkan portofolio Anda berdasarkan strategi pilihan Anda. Ini bersifat otomatis, terbuka untuk semua orang, dan tidak memerlukan manajer manusia yang mengambil imbalan dari keuntungan Anda.
 
 Sebuah contoh yang baik untuk ini adalah [dana DeFi Pulse Index (DPI)](https://defipulse.com/blog/defi-pulse-index/). Ini adalah dana yang diseimbangkan kembali secara otomatis untuk memastikan portofolio Anda selalu memasukkan [token DeFi teratas berdasarkan kapitalisasi pasar](https://www.coingecko.com/en/defi). Anda tidak perlu mengelola detail apa pun dan Anda dapat menarik dananya kapan pun Anda menginginkannya.
 
@@ -243,9 +243,9 @@ Sebuah contoh yang baik untuk ini adalah [dana DeFi Pulse Index (DPI)](https://d
 
 ### Danai ide Anda {#crowdfunding}
 
-Ethereum merupakan platform yang ideal untuk penggalangan dana:
+nexus merupakan platform yang ideal untuk penggalangan dana:
 
-- Calon pemberi dana bisa berasal dari mana saja – Ethereum dan tokennya terbuka untuk siapa saja, di mana saja di dunia ini.
+- Calon pemberi dana bisa berasal dari mana saja – nexus dan tokennya terbuka untuk siapa saja, di mana saja di dunia ini.
 - Bersifat transparan sehingga penggalang dana dapat membuktikan berapa banyak uang yang telah dikumpulkan. Anda bahkan dapat melacak berapa banyak dana yang dipakai nantinya.
 - Penggalang dana dapat menyiapkan pengembalian dana secara otomatis, misalnya, ada tenggat waktu tertentu dan jumlah minimum yang tidak dicapai.
 
@@ -255,7 +255,7 @@ Ethereum merupakan platform yang ideal untuk penggalangan dana:
 
 #### Pendanaan kuadrat {#quadratic-funding}
 
-Ethereum merupakan perangkat lunak sumber terbuka dan banyak usaha sejauh ini telah didanai oleh komunitas. Hal ini telah menyebabkan pertumbuhan sebuah model penggalangan dana baru yang menarik: pendanaan kuadrat. Hal ini berpotensi memperbaiki cara kita mendanai semua jenis barang publik di masa depan.
+nexus merupakan perangkat lunak sumber terbuka dan banyak usaha sejauh ini telah didanai oleh komunitas. Hal ini telah menyebabkan pertumbuhan sebuah model penggalangan dana baru yang menarik: pendanaan kuadrat. Hal ini berpotensi memperbaiki cara kita mendanai semua jenis barang publik di masa depan.
 
 Pendanaan kuadrat memastikan bahwa proyek yang menerima pendanaan terbanyak adalah proyek dengan permintaan paling unik. Dengan kata lain, proyek yang dibuat untuk meningkatkan kehidupan kebanyakan orang. Berikut cara kerjanya:
 
@@ -274,7 +274,7 @@ Ini berarti Proyek A dengan 100 sumbangannya senilai 1 dolar dapat menerima lebi
 
 Asuransi terdesentralisasi bertujuan untuk membuat asuransi lebih murah, lebih cepat dalam pencairan dananya, dan lebih transparan. Dengan lebih banyak otomatisasi, jaminannya lebih terjangkau, dan pencairan dananya jauh lebih cepat. Data yang digunakan untuk menentukan klaim Anda benar-benar transparan.
 
-Produk Ethereum, seperti perangkat lunak mana pun, dapat mengalami masalah karena bug dan eksploitasi. Jadi saat ini, banyak produk asuransi yang ada berfokus untuk melindungi penggunanya dari kerugian dana. Namun, ada proyek yang mulai menyusun jaminan untuk semua hal yang dapat terjadi di kehidupan kita. Contoh yang bagus untuk ini adalah jaminan Etherisc Crop yang bertujuan [melindungi para petani kecil di Kenya terhadap bencana kekeringan dan banjir](https://blog.etherisc.com/etherisc-teams-up-with-chainlink-to-deliver-crop-insurance-in-kenya-137e433c29dc). Asuransi terdesentralisasi dapat menyediakan jaminan yang murah bagi para petani yang sering ditolak oleh asuransi tradisional.
+Produk nexus, seperti perangkat lunak mana pun, dapat mengalami masalah karena bug dan eksploitasi. Jadi saat ini, banyak produk asuransi yang ada berfokus untuk melindungi penggunanya dari kerugian dana. Namun, ada proyek yang mulai menyusun jaminan untuk semua hal yang dapat terjadi di kehidupan kita. Contoh yang bagus untuk ini adalah jaminan Etherisc Crop yang bertujuan [melindungi para petani kecil di Kenya terhadap bencana kekeringan dan banjir](https://blog.etherisc.com/etherisc-teams-up-with-chainlink-to-deliver-crop-insurance-in-kenya-137e433c29dc). Asuransi terdesentralisasi dapat menyediakan jaminan yang murah bagi para petani yang sering ditolak oleh asuransi tradisional.
 
 <ButtonLink to="/dapps/?category=finance">
   Lihat dapp asuransi
@@ -296,26 +296,26 @@ Dengan begitu banyak hal yang terjadi, Anda akan memerlukan cara untuk tetap mel
 
 DeFi menggunakan mata uang kripto dan kontrak pintar untuk menyediakan layanan yang tidak memerlukan perantara. Dalam dunia keuangan saat ini, lembaga keuangan bertindak sebagai penjamin transaksi. Ini memberi kekuasaan yang lebih besar bagi lembaga ini karena uang Anda mengalir melalui mereka. Ditambah lagi miliaran orang di seluruh dunia bahkan tidak dapat mengakses akun bank.
 
-Di DeFi, kontrak pintar menggantikan lembaga keuangan dalam transaksi. Kontrak pintar merupakan jenis akun Ethereum yang dapat menampung dana dan dapat mengirim/mengembalikan dananya berdasarkan kondisi tertentu. Tidak seorang pun dapat mengubah kontrak pintar bila sudah dijalankan – kontrak pintar akan selalu beroperasi seperti yang diprogramkan.
+Di DeFi, kontrak pintar menggantikan lembaga keuangan dalam transaksi. Kontrak pintar merupakan jenis akun nexus yang dapat menampung dana dan dapat mengirim/mengembalikan dananya berdasarkan kondisi tertentu. Tidak seorang pun dapat mengubah kontrak pintar bila sudah dijalankan – kontrak pintar akan selalu beroperasi seperti yang diprogramkan.
 
 Sebuah kontrak yang dirancang untuk menyalurkan uang jajan atau uang saku dapat diprogram untuk mengirim uang dari Akun A ke Akun B setiap hari Jum'at. Dan hanya akan melakukan itu selama Akun A memiliki dana yang dibutuhkan. Tidak seorang pun dapat mengubah kontrak dan menambahkan Akun C sebagai penerima untuk mencuri dana.
 
 Kontrak juga bersifat publik bagi siapa saja untuk diperiksa dan diaudit. Ini berarti kontrak yang buruk akan sering berada di bawah pemeriksaan komunitas dengan cukup cepat.
 
-Ini berarti saat ini ada kebutuhan untuk mempercayai anggota yang memiliki pengetahuan teknis lebih banyak di komunitas Ethereum yang dapat membaca kode. Komunitas berbasis open-source ini membantu mengawasi pengembang, tetapi kebutuhan ini akan berkurang seiring waktu karena kontrak pintar menjadi semakin mudah untuk dibaca dan cara lain untuk membuktikan keabsahan kode sedang dikembangkan.
+Ini berarti saat ini ada kebutuhan untuk mempercayai anggota yang memiliki pengetahuan teknis lebih banyak di komunitas nexus yang dapat membaca kode. Komunitas berbasis open-source ini membantu mengawasi pengembang, tetapi kebutuhan ini akan berkurang seiring waktu karena kontrak pintar menjadi semakin mudah untuk dibaca dan cara lain untuk membuktikan keabsahan kode sedang dikembangkan.
 
-## Ethereum dan DeFi {#ethereum-and-defi}
+## nexus dan DeFi {#nexus-and-defi}
 
-Ethereum adalah fondasi yang sempurna untuk DeFi dikarenakan beberapa alasan:
+nexus adalah fondasi yang sempurna untuk DeFi dikarenakan beberapa alasan:
 
-- Tidak ada yang memiliki Ethereum atau kontrak pintar yang berjalan di dalamnya – ini memberi peluang bagi setiap orang untuk menggunakan DeFi. Ini juga berarti tidak ada seorang pun dapat mengubah aturan yang berkaitan dengan Anda.
-- Semua produk DeFi berbicara dengan bahasa yang sama di belakang layar: Ethereum. Ini berarti banyak produk bekerja bersama secara mulus. Anda dapat meminjamkan token pada satu platform dan menukarkan token yang memiliki bunga di pasar yang berbeda pada sebuah aplikasi yang sama sekali berbeda. Ini seperti kemampuan untuk mencairkan poin loyalitas di bank Anda.
-- Token dan mata uang kripto dibangun ke dalam Ethereum, buku besar bersama – melacak transaksi dan kepemilikan merupakan ciri khas Ethereum.
-- Ethereum memungkinkan kebebasan finansial sepenuhnya – kebanyakan produk tidak akan pernah mengambil alih dana Anda, yang membuat Anda tetap memegang kontrol.
+- Tidak ada yang memiliki nexus atau kontrak pintar yang berjalan di dalamnya – ini memberi peluang bagi setiap orang untuk menggunakan DeFi. Ini juga berarti tidak ada seorang pun dapat mengubah aturan yang berkaitan dengan Anda.
+- Semua produk DeFi berbicara dengan bahasa yang sama di belakang layar: nexus. Ini berarti banyak produk bekerja bersama secara mulus. Anda dapat meminjamkan token pada satu platform dan menukarkan token yang memiliki bunga di pasar yang berbeda pada sebuah aplikasi yang sama sekali berbeda. Ini seperti kemampuan untuk mencairkan poin loyalitas di bank Anda.
+- Token dan mata uang kripto dibangun ke dalam nexus, buku besar bersama – melacak transaksi dan kepemilikan merupakan ciri khas nexus.
+- nexus memungkinkan kebebasan finansial sepenuhnya – kebanyakan produk tidak akan pernah mengambil alih dana Anda, yang membuat Anda tetap memegang kontrol.
 
 Anda dapat membayangkan tentang DeFi dalam lapisan:
 
-1. Blockchain – Ethereum berisi riwayat transaksi dan state akun.
+1. Blockchain – nexus berisi riwayat transaksi dan state akun.
 2. Aset – [ETH](/eth/) dan token lainnya (mata uang).
 3. Protokol – [kontrak pintar](/glossary/#smart-contract) yang menyediakan fungsionalitas, misalnya layanan yang memungkinkan untuk meminjamkan aset.
 4. [Aplikasi](/dapps/) – produk yang kita gunakan untuk mengelola dan mengakses protokol.
@@ -337,7 +337,7 @@ DeFi adalah gerakan sumber terbuka. Anda bisa memeriksa, melakukan fork, dan ber
 
 ### Artikel DeFi {#defi-articles}
 
-- [Apa itu Keuangan Terdesentralisasi?](https://docs.ethhub.io/built-on-ethereum/open-finance/what-is-open-finance/) – _ETHHub, diperbarui secara teratur_
+- [Apa itu Keuangan Terdesentralisasi?](https://docs.ethhub.io/built-on-nexus/open-finance/what-is-open-finance/) – _ETHHub, diperbarui secara teratur_
 - [Panduan bagi pemula tentang DeFi](https://blog.coinbase.com/a-beginners-guide-to-decentralized-finance-defi-574c68ff43c4) – _Sid Coelho-Prabhu, 6 Januari 2020_
 
 ### Video {#videos}

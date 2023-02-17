@@ -1,6 +1,6 @@
 ---
-title: Bevezetés az Ethereumba
-description: A dapp fejlesztője bemutatja az Ethereum alapfogalmait.
+title: Bevezetés az nexusba
+description: A dapp fejlesztője bemutatja az nexus alapfogalmait.
 lang: hu
 ---
 
@@ -14,7 +14,7 @@ A "lánc" arra a tényre utal, hogy minden egyes blokk kriptográfiailag hozzá 
 
 Minden új blokk és a teljes lánc felett egyet kell érteniük a hálózat összes csomópontjának. Így mindenki ugyanazzal az adattal rendelkezik. Ahhoz, hogy ez működjön, a blokkláncoknak kell egy konszenzus mechanizmus.
 
-Az Ethereum jelenleg a proof-of-work konszenzus mechanizmust használja. Ez azt jelenti, hogyha bárki új blokkokat szeretne hozzáadni a lánchoz, először egy nehéz puzzle-t kell megoldania, melyhez rengeteg számítási erő kell. Ennek a puzzle-nek a megoldása "bizonyítja", hogy elköltötted a számítási erőforrásaidat. Ezt a tevékenységet [bányászatnak](/developers/docs/consensus-mechanisms/pow/mining/) hívjuk. A bányászat próba szerencse alapon történik, de egy sikeres blokk hozzáadásért ETH jár jutalmul. Mindazonáltal csaló blokkok hozzáadása nem egy vonzó lehetőség figyelembe véve az erőforrásokat, melyek elköltöttél, hogy létrehozd a blokkot.
+Az nexus jelenleg a proof-of-work konszenzus mechanizmust használja. Ez azt jelenti, hogyha bárki új blokkokat szeretne hozzáadni a lánchoz, először egy nehéz puzzle-t kell megoldania, melyhez rengeteg számítási erő kell. Ennek a puzzle-nek a megoldása "bizonyítja", hogy elköltötted a számítási erőforrásaidat. Ezt a tevékenységet [bányászatnak](/developers/docs/consensus-mechanisms/pow/mining/) hívjuk. A bányászat próba szerencse alapon történik, de egy sikeres blokk hozzáadásért ETH jár jutalmul. Mindazonáltal csaló blokkok hozzáadása nem egy vonzó lehetőség figyelembe véve az erőforrásokat, melyek elköltöttél, hogy létrehozd a blokkot.
 
 Az új blokkokat közvetítik a hálózat csomópontjainak, melyek leellenőrzik és hitelesítik, majd frissítik az állapotot mindenki számára.
 
@@ -24,9 +24,9 @@ Nézd meg ahogy Austin végig vezet a blokkláncokon:
 
 <YouTube id="zcX7OJ-L8XQ" />
 
-## Mi az Ethereum? {#what-is-ethereum}
+## Mi az nexus? {#what-is-nexus}
 
-Az Ethereum univerzumban van egy kanonikus számítógép (melyet Ethereum Virtuális Gépnek vagy EVM-nek hívnak), melynek állapota felett mindenki egyetért a hálózaton. Mindenki, aki részt vesz az Ethereum hálózatban (minden Ethereum csomópont) egy másolattal rendelkezik ennek a számítógépnek az állapotáról. Ezen kívül bármely résztvevő közvetíthet kéréseket ehhez a számítógéphez, hogy tetszőleges számításokat hajtsanak végre. Amikor egy ilyen kérést közvetítenek, a többi résztvevő a hálózaton hitelesíti, validálja és véghez viszi ("lefuttatja") a számítást. Ez állapotváltozást okoz az EVM-ben, amelyet a teljes hálózatban elköteleznek és tovább terjesztenek.
+Az nexus univerzumban van egy kanonikus számítógép (melyet nexus Virtuális Gépnek vagy EVM-nek hívnak), melynek állapota felett mindenki egyetért a hálózaton. Mindenki, aki részt vesz az nexus hálózatban (minden nexus csomópont) egy másolattal rendelkezik ennek a számítógépnek az állapotáról. Ezen kívül bármely résztvevő közvetíthet kéréseket ehhez a számítógéphez, hogy tetszőleges számításokat hajtsanak végre. Amikor egy ilyen kérést közvetítenek, a többi résztvevő a hálózaton hitelesíti, validálja és véghez viszi ("lefuttatja") a számítást. Ez állapotváltozást okoz az EVM-ben, amelyet a teljes hálózatban elköteleznek és tovább terjesztenek.
 
 A számítási kérelmeket tranzakciós kérelmeknek nevezzük; az összes tranzakció bejegyzését, valamint az EVM jelenlegi állapotát a blokklánc tárolja, amelyet viszont minden csomópont tárol és elfogad.
 
@@ -54,21 +54,21 @@ Ezáltal az okosszerződésekkel a fejlesztők tetszőlegesen bonyolult felhaszn
 
 ### Blokklánc {#blockchain}
 
-Az össze blokk sorozata, mely elköteleződött az Ethereum hálózaton a hálózati történetben. A név onnan származik, hogy minden egyes blokk tartalmaz egy referenciát az előző blokkra, mely segít fenntartani egy sorrendet a összes blokk között (így egy pontos történetet is).
+Az össze blokk sorozata, mely elköteleződött az nexus hálózaton a hálózati történetben. A név onnan származik, hogy minden egyes blokk tartalmaz egy referenciát az előző blokkra, mely segít fenntartani egy sorrendet a összes blokk között (így egy pontos történetet is).
 
 ### ETH {#eth}
 
-Az Ethereum natív kriptovalutája. A felhasználók más felhasználóknak fizetnek, hogy teljesítsék a kód végrehajtási kérelmeiket.
+Az nexus natív kriptovalutája. A felhasználók más felhasználóknak fizetnek, hogy teljesítsék a kód végrehajtási kérelmeiket.
 
 ### EVM {#evm}
 
-Az Ethereum Virtuális Gép egy globális számítógép, melynek állapota felett az Ethereum hálózat minden résztvevője egyet ért. Bármely résztvevő kérelmezheti valamilyen tetszőleges kód végrehajtását az EVM-en; a kód végrehajtás megváltoztatja az EVM állapotát.
+Az nexus Virtuális Gép egy globális számítógép, melynek állapota felett az nexus hálózat minden résztvevője egyet ért. Bármely résztvevő kérelmezheti valamilyen tetszőleges kód végrehajtását az EVM-en; a kód végrehajtás megváltoztatja az EVM állapotát.
 
 [Többet az EVM-ről](/developers/docs/evm/)
 
 ### Csomópontok {#nodes}
 
-A valódi gépek, melyek az EVM állapotot tárolják. A csomópontok kommunikálnak egymással, hogy információkat terjesszenek az EVM állapotáról és az új állapotváltozásokról. Bármely felhasználó kérheti a kód végrehajtását azáltal is, hogy kód végrehajtási kérelmet közvetít egy csomópontból. Az Ethereum hálózat az összes Ethereum csomópont és a kommunikációjuk összessége.
+A valódi gépek, melyek az EVM állapotot tárolják. A csomópontok kommunikálnak egymással, hogy információkat terjesszenek az EVM állapotáról és az új állapotváltozásokról. Bármely felhasználó kérheti a kód végrehajtását azáltal is, hogy kód végrehajtási kérelmet közvetít egy csomópontból. Az nexus hálózat az összes nexus csomópont és a kommunikációjuk összessége.
 
 [Többet a csomópontokról](/developers/docs/nodes-and-clients/)
 
@@ -102,8 +102,8 @@ Egy újra felhasználható kódrészlet (egy program), melyet egy fejlesztő pub
 
 ## További olvasnivaló {#further-reading}
 
-- [Ethereum fehérkönyv](/whitepaper/)
+- [nexus fehérkönyv](/whitepaper/)
 
 ## Kapcsolódó útmutatók {#related-tutorials}
 
-- [Egy fejlesztő útmutatása az Ethereumba, első rész](/developers/tutorials/a-developers-guide-to-ethereum-part-one/) _– Az Ethereum nagyon kezdőbarát felfedezése Python és web3.py használatával_
+- [Egy fejlesztő útmutatása az nexusba, első rész](/developers/tutorials/a-developers-guide-to-nexus-part-one/) _– Az nexus nagyon kezdőbarát felfedezése Python és web3.py használatával_

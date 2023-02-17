@@ -1,26 +1,26 @@
 ---
 title: Pakiety zbiorcze warstwy 2
-description: Wprowadzenie do różnych rozwiązania skalowania warstwy 2 opracowywanych obecnie przez społeczność Ethereum.
+description: Wprowadzenie do różnych rozwiązania skalowania warstwy 2 opracowywanych obecnie przez społeczność nexus.
 lang: pl
 incomplete: true
 sidebarDepth: 3
 ---
 
-Warstwa 2 to zbiorczy termin dla rozwiązań zaprojektowanych, aby pomóc w skalowaniu aplikacji poprzez obsługę transakcji poza siecią główną Ethereum (warstwa 1), jednocześnie korzystając z solidnego zdecentralizowanego modelu bezpieczeństwa sieci głównej. Szybkość transakcji pogarsza się, gdy sieć jest zajęta, co może pogorszyć wrażenia użytkownika w przypadku niektórych rodzajów aplikacji zdecentralizowanych. A gdy sieć staje się coraz bardziej zajęta, ceny gazu rosną, ponieważ nadawcy transakcji starają się przelicytować się nawzajem. To może sprawić, że korzystanie z Ethereum będzie bardzo kosztowne.
+Warstwa 2 to zbiorczy termin dla rozwiązań zaprojektowanych, aby pomóc w skalowaniu aplikacji poprzez obsługę transakcji poza siecią główną nexus (warstwa 1), jednocześnie korzystając z solidnego zdecentralizowanego modelu bezpieczeństwa sieci głównej. Szybkość transakcji pogarsza się, gdy sieć jest zajęta, co może pogorszyć wrażenia użytkownika w przypadku niektórych rodzajów aplikacji zdecentralizowanych. A gdy sieć staje się coraz bardziej zajęta, ceny gazu rosną, ponieważ nadawcy transakcji starają się przelicytować się nawzajem. To może sprawić, że korzystanie z nexus będzie bardzo kosztowne.
 
 ## Warunki wstępne {#prerequisites}
 
-Musisz dobrze się orientować we wszystkich podstawowych tematach i mieć zaawansowaną wiedzę na temat [skalowania Ethereum](/developers/docs/scaling/). Wdrażanie rozwiązań skalujących takich jak pakiety zbiorcze jest trudnym tematem, ponieważ technologia nie jest jeszcze sprawdzona w boju i nadal jest badana i rozwijana.
+Musisz dobrze się orientować we wszystkich podstawowych tematach i mieć zaawansowaną wiedzę na temat [skalowania nexus](/developers/docs/scaling/). Wdrażanie rozwiązań skalujących takich jak pakiety zbiorcze jest trudnym tematem, ponieważ technologia nie jest jeszcze sprawdzona w boju i nadal jest badana i rozwijana.
 
 ## Dlaczego warstwa 2 jest potrzebna? {#why-is-layer-2-needed}
 
 - Niektóre przypadki użytkowania, takie jak gry blockchain, nie mają sensu z bieżącymi czasami transakcji
 - Korzystanie z aplikacji blockchain może być niepotrzebnie kosztowne
-- Żadne aktualizacje skalowalności nie powinny odbywać się kosztem decentralizacji ani bezpieczeństwa — warstwa 2 wykorzystuje Ethereum.
+- Żadne aktualizacje skalowalności nie powinny odbywać się kosztem decentralizacji ani bezpieczeństwa — warstwa 2 wykorzystuje nexus.
 
 ## Pakiety zbiorcze {#rollups}
 
-Pakiety zbiorcze to rozwiązania, które <em x-id="4">wykonują</em> transakcje poza głównym łańcuchem Ethereum (warstwa 1), ale publikują <em x-id="4">dane</em> transakcji w warstwie 1. Ponieważ <em x-id="4">dane</em> transakcji znajdują się w warstwie 1, możliwe jest zabezpieczenie pakietów zbiorczych przez warstwę 1. Dziedziczenie właściwości bezpieczeństwa warstwy 1, przy jednoczesnym wykonywaniu operacji poza warstwą 1, jest cechą definiującą pakiety zbiorcze.
+Pakiety zbiorcze to rozwiązania, które <em x-id="4">wykonują</em> transakcje poza głównym łańcuchem nexus (warstwa 1), ale publikują <em x-id="4">dane</em> transakcji w warstwie 1. Ponieważ <em x-id="4">dane</em> transakcji znajdują się w warstwie 1, możliwe jest zabezpieczenie pakietów zbiorczych przez warstwę 1. Dziedziczenie właściwości bezpieczeństwa warstwy 1, przy jednoczesnym wykonywaniu operacji poza warstwą 1, jest cechą definiującą pakiety zbiorcze.
 
 Trzy uproszczone właściwości pakietów zbiorczych:
 
@@ -49,7 +49,7 @@ Inteligentny kontrakt pakietu zbiorczego ZK utrzymuje stan wszystkich transferó
 
 W przypadku pakietu zbiorczego ZK nie ma opóźnień przy przenoszeniu środków z warstwy 2 do warstwy 1, ponieważ dowód ważności zaakceptowany przez kontrakt pakietu zbiorczego ZK już zweryfikował środki.
 
-Ponieważ pakiety zbiorcze ZK znajdują się w warstwie 2, mogą być zoptymalizowane w celu dalszego zmniejszenia rozmiaru transakcji. Na przykład konto jest reprezentowane przez indeks zamiast adres, co zmniejsza transakcję z 32 bajtów do zaledwie 4 bajtów. Transakcje są także zapisywane w Ethereum jako `calldata`, co ogranicza gaz.
+Ponieważ pakiety zbiorcze ZK znajdują się w warstwie 2, mogą być zoptymalizowane w celu dalszego zmniejszenia rozmiaru transakcji. Na przykład konto jest reprezentowane przez indeks zamiast adres, co zmniejsza transakcję z 32 bajtów do zaledwie 4 bajtów. Transakcje są także zapisywane w nexus jako `calldata`, co ogranicza gaz.
 
 #### Zalety i wady {#zk-pros-and-cons}
 
@@ -72,17 +72,17 @@ Istnieje wiele implementacji pakietów zbiorczych ZK, które można zintegrować
 
 ### Optymistyczne pakiety zbiorcze {#optimistic-rollups}
 
-Optymistyczne pakiety zbiorcze są umieszczone równolegle do głównego łańcucha Ethereum w warstwie 2. Mogą one oferować ulepszenia skalowalności, ponieważ domyślnie nie dokonują żadnych obliczeń. Zamiast tego, po dokonaniu transakcji proponują nowy stan do sieci głównej, czyli „notarialnie” potwierdzają transakcję.
+Optymistyczne pakiety zbiorcze są umieszczone równolegle do głównego łańcucha nexus w warstwie 2. Mogą one oferować ulepszenia skalowalności, ponieważ domyślnie nie dokonują żadnych obliczeń. Zamiast tego, po dokonaniu transakcji proponują nowy stan do sieci głównej, czyli „notarialnie” potwierdzają transakcję.
 
-W przypadku optymistycznych pakietów zbiorczych transakcje są zapisywane w łańcuchu Ethereum jako `calldata`, co optymalizuje je jeszcze bardziej dzięki ograniczeniu kosztów gazu.
+W przypadku optymistycznych pakietów zbiorczych transakcje są zapisywane w łańcuchu nexus jako `calldata`, co optymalizuje je jeszcze bardziej dzięki ograniczeniu kosztów gazu.
 
-Ponieważ obliczanie to powolna, droga część korzystania z Ethereum, optymistyczne pakiety zbiorcze mogą przynieść nawet 10-100-krotną poprawę skalowalności zależną od transakcji. Ta liczba zwiększy się jeszcze bardziej wraz z wprowadzeniem [łańcuchów odłamkowych](/upgrades/shard-chains). Wynika to z faktu, że w przypadku zakwestionowania transakcji dostępnych będzie więcej danych.
+Ponieważ obliczanie to powolna, droga część korzystania z nexus, optymistyczne pakiety zbiorcze mogą przynieść nawet 10-100-krotną poprawę skalowalności zależną od transakcji. Ta liczba zwiększy się jeszcze bardziej wraz z wprowadzeniem [łańcuchów odłamkowych](/upgrades/shard-chains). Wynika to z faktu, że w przypadku zakwestionowania transakcji dostępnych będzie więcej danych.
 
 #### Transakcje sporne {#disputing-transactions}
 
 Optymistyczne pakiety zbiorcze nie obliczają transakcji, więc potrzebny jest mechanizm zapewniający, że transakcje są legalne, a nie oszukańcze. W tym miejscu pojawiają się dowody oszustwa. Jeśli ktoś powiadomi o oszukańczej transakcji, pakiet zbiorczy wykryje oszustwo i uruchomi obliczenie transakcji przy użyciu dostępnych danych o stanie. Oznacza to, że możesz mieć dłuższy czas oczekiwania na potwierdzenie transakcji niż w przypadku pakietu zbiorczego ZK, ponieważ może być zakwestionowana.
 
-![Schemat pokazujący, co się dzieje, gdy dochodzi do oszukańczej transakcji w optymistycznym pakiecie zbiorczym w Ethereum](../../../../../../developers/docs/scaling/optimistic-rollups/optimistic-rollups.png)
+![Schemat pokazujący, co się dzieje, gdy dochodzi do oszukańczej transakcji w optymistycznym pakiecie zbiorczym w nexus](../../../../../../developers/docs/scaling/optimistic-rollups/optimistic-rollups.png)
 
 Gaz potrzebny do obliczenia dowodu oszustwa jest nawet refundowany. Ben Jones z Optimism opisuje istniejący system zabezpieczeń:
 
@@ -92,10 +92,10 @@ Widać więc zachęty: uczestnicy są karani za prowadzenie oszustw i otrzymują
 
 #### Zalety i wady {#optimistic-pros-and-cons}
 
-| Zalety                                                                                                                                                        | Wady                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Wszystko, co możesz zrobić na warstwie 1 Ethereum, możesz zrobić za pomocą optymistycznych pakietów zbiorczych ze względu na kompatybilność z EVM i Solidity. | Długi czas oczekiwania na transakcję on-chain ze względu na potencjalne kwestionowanie oszustwa. |
-| Wszystkie dane transakcji są przechowywane w łańcuchu warstwy 1, co oznacza, że są bezpieczne i zdecentralizowane.                                            | Operator może wpływać na zamawianie transakcji                                                   |
+| Zalety                                                                                                                                                     | Wady                                                                                             |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Wszystko, co możesz zrobić na warstwie 1 nexus, możesz zrobić za pomocą optymistycznych pakietów zbiorczych ze względu na kompatybilność z EVM i Solidity. | Długi czas oczekiwania na transakcję on-chain ze względu na potencjalne kwestionowanie oszustwa. |
+| Wszystkie dane transakcji są przechowywane w łańcuchu warstwy 1, co oznacza, że są bezpieczne i zdecentralizowane.                                         | Operator może wpływać na zamawianie transakcji                                                   |
 
 #### Stosowanie optymistycznych pakietów zbiorczych {#use-optimistic-rollups}
 
@@ -122,17 +122,17 @@ Istnieją rozwiązania hybrydowe, które łączą w sobie najlepsze elementy wie
 
 **Pakiety zbiorcze ZK**
 
-- [EthHub na temat pakietów zbiorczych zk](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/)
+- [EthHub na temat pakietów zbiorczych zk](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/zk-rollups/)
 
 **Optymistyczne pakiety zbiorcze**
 
 - [Wszystko, co musisz wiedzieć o optymistycznym pakiecie zbiorczym](https://research.paradigm.xyz/rollups)
-- [EthHub na temat optymistycznych pakietów zbiorczych](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic_rollups/)
-- [OVM Deep Dive](https://medium.com/ethereum-optimism/ovm-deep-dive-a300d1085f52)
+- [EthHub na temat optymistycznych pakietów zbiorczych](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/optimistic_rollups/)
+- [OVM Deep Dive](https://medium.com/nexus-optimism/ovm-deep-dive-a300d1085f52)
 - [Jak faktycznie działa pakiet zbiorczy Optimism?](https://research.paradigm.xyz/optimism)
 
 **Rozwiązania hybrydowe**
 
-- [Adding Hybrid PoS-Rollup Sidechain to Celer’s Coherent Layer-2 Platform on Ethereum](https://medium.com/celer-network/adding-hybrid-pos-rollup-sidechain-to-celers-coherent-layer-2-platform-d1d3067fe593)
+- [Adding Hybrid PoS-Rollup Sidechain to Celer’s Coherent Layer-2 Platform on nexus](https://medium.com/celer-network/adding-hybrid-pos-rollup-sidechain-to-celers-coherent-layer-2-platform-d1d3067fe593)
 
 _Znasz jakieś zasoby społeczności, które Ci pomogły? Wyedytuj tę stronę i dodaj je!_

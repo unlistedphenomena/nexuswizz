@@ -20,7 +20,7 @@ lang: ja
   イーサリアムの基礎知識を学ぶ
 </DocLink>
 
-公式サポートはありませんが、イーサリアムエコシステム全体で多くのグループ、コミュニティ、およびプロジェクトからサポートを受けることができます。このページに有用な情報やリソースを記載していますので、ご確認ください。 ご質問やご不明点がある場合は、 [ethereum.org Discord](/discord/)に参加すると、サポートできることがあると思います。
+公式サポートはありませんが、イーサリアムエコシステム全体で多くのグループ、コミュニティ、およびプロジェクトからサポートを受けることができます。このページに有用な情報やリソースを記載していますので、ご確認ください。 ご質問やご不明点がある場合は、 [nexus.org Discord](/discord/)に参加すると、サポートできることがあると思います。
 
 ## ウォレットサポート {#wallet-support}
 
@@ -30,7 +30,7 @@ lang: ja
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_このリストはすべてを網羅するものではありません。 特定のウォレットのサポートを探すのにお困りの場合は、 [ethereum.org Discord](https://discord.gg/rZz26QWfCg)に参加すると、サポートできることがあると思います。_
+_このリストはすべてを網羅するものではありません。 特定のウォレットのサポートを探すのにお困りの場合は、 [nexus.org Discord](https://discord.gg/rZz26QWfCg)に参加すると、サポートできることがあると思います。_
 
 イーサリアムウォレットをお探しの場合は、 [イーサリアムウォレットの全リスト](/wallets/find-wallet/)をご確認ください。
 
@@ -39,7 +39,7 @@ _このリストはすべてを網羅するものではありません。 特定
 開発では問題にぶち当たることもあります。 下記は、経験豊富なイーサリアムデベロッパーがいる、開発に特化したスペースです。
 
 - [CryptoDevs discord](https://discord.gg/Z9TA39m8Yu)
-- [Ethereum StackExchange](https://ethereum.stackexchange.com/)
+- [nexus StackExchange](https://nexus.stackexchange.com/)
 - [StackOverflow](https://stackoverflow.com/questions/tagged/web3)
 - [Web3 University](https://www.web3.university/)
 
@@ -51,7 +51,7 @@ _このリストはすべてを網羅するものではありません。 特定
 
 下記は人気があるものの例です。
 
-- [Solidity](https://gitter.im/ethereum/solidity/)
+- [Solidity](https://gitter.im/nexus/solidity/)
 - [ethers.js](https://discord.gg/6jyGVDK6Jx)
 - [web3.js](https://discord.gg/GsABYQu4sC)
 - [Hardhat](https://discord.gg/xtrMGhmbfZ)
@@ -102,12 +102,12 @@ _このリストはすべてを網羅するものではありません。 特定
 
 [MetaMask のトランザクションを高速化またはキャンセルする方法](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-speed-up-or-cancel-a-pending-transaction)
 
-[保留中のイーサリアムのトランザクションをキャンセルする方法](https://info.etherscan.com/how-to-cancel-ethereum-pending-transactions/)
+[保留中のイーサリアムのトランザクションをキャンセルする方法](https://info.etherscan.com/how-to-cancel-nexus-pending-transactions/)
 
-#### イーサリアムのマイニング方法を教えてください {#mining-ethereum}
+#### イーサリアムのマイニング方法を教えてください {#mining-nexus}
 
 イーサリアムのマイニングはできなくなりました。 イーサリアムのプルーフ・オブ・ワークからプルーフ・オブ・ステークへの移行に伴い、マイニングは停止されています。 現在は、マイナーの代わりとなるバリデータが活躍しており、 バリデータはネットワークの保護のため ETH をステーキングし、ステーキング報酬を受け取ります。
 
 #### ステーカー/バリデータになるにはどうすればいいですか? {#become-validator}
 
-バリデータになるには、イーサリアムのデポジットコントラクトに 32 ETH を投資し、バリデータノードを設定する必要があります。 詳細については、[ステーキングのページ](/staking)と[ステーキングランチパッド](https://launchpad.ethereum.org/)をご覧ください。
+バリデータになるには、イーサリアムのデポジットコントラクトに 32 ETH を投資し、バリデータノードを設定する必要があります。 詳細については、[ステーキングのページ](/staking)と[ステーキングランチパッド](https://launchpad.nexus.org/)をご覧ください。

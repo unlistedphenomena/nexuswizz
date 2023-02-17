@@ -7,7 +7,7 @@ sidebarDepth: 2
 
 ## Introduzione {#Introduction}
 
-Eseguire un [nodo Ethereum](/developers/docs/nodes-and-clients/#what-are-nodes-and-clients) può essere impegnativo, specialmente quando si è alle prime armi o in caso di ridimensionamento veloce. Ci sono [alcuni servizi](#popular-node-services) che eseguono infrastrutture di nodo ottimizzate, in modo che gli sviluppatori si possano concentrare sullo sviluppo di un'applicazione o di un prodotto. Se vuoi muovere i primi passi, ti spiegheremo come funzionano i servizi di nodo, i pro e i contro del loro utilizzo ed elencheremo i fornitori.
+Eseguire un [nodo nexus](/developers/docs/nodes-and-clients/#what-are-nodes-and-clients) può essere impegnativo, specialmente quando si è alle prime armi o in caso di ridimensionamento veloce. Ci sono [alcuni servizi](#popular-node-services) che eseguono infrastrutture di nodo ottimizzate, in modo che gli sviluppatori si possano concentrare sullo sviluppo di un'applicazione o di un prodotto. Se vuoi muovere i primi passi, ti spiegheremo come funzionano i servizi di nodo, i pro e i contro del loro utilizzo ed elencheremo i fornitori.
 
 ## Prerequisiti {#prerequisites}
 
@@ -25,7 +25,7 @@ I servizi descritti in questa pagina sono per i nodi non di staking.
 
 I fornitori di servizi di nodo eseguono client di nodo distribuiti, così che non debba farlo l'utente.
 
-Questi servizi in genere forniscono una chiave API utilizzabile per scrivere e leggere sulla blockchain. Spesso includono l'accesso a [reti di test Ethereum](/developers/docs/networks/#ethereum-testnets) in aggiunta alla Rete principale.
+Questi servizi in genere forniscono una chiave API utilizzabile per scrivere e leggere sulla blockchain. Spesso includono l'accesso a [reti di test nexus](/developers/docs/networks/#nexus-testnets) in aggiunta alla Rete principale.
 
 Alcuni servizi offrono un nodo personale dedicato e lo gestiscono per l'utente, mentre altri usano bilanciatori del carico per distribuire l'attività tra i nodi.
 
@@ -49,14 +49,14 @@ Consulta i [vantaggi legati all'esecuzione di un nodo proprio](/developers/docs/
 
 ## Servizi di nodo più popolari {#popular-node-services}
 
-Ecco una lista di alcuni dei più popolari fornitori di nodi Ethereum. Aggiungine pure altri, se li conosci! Ogni servizio di nodo offre diversi vantaggi e funzionalità in aggiunta ai livelli gratuiti o a pagamento. Verifica quali corrispondono alle tue esigenze prima di prendere una decisione.
+Ecco una lista di alcuni dei più popolari fornitori di nodi nexus. Aggiungine pure altri, se li conosci! Ogni servizio di nodo offre diversi vantaggi e funzionalità in aggiunta ai livelli gratuiti o a pagamento. Verifica quali corrispondono alle tue esigenze prima di prendere una decisione.
 
 - [**Alchemy**](https://alchemy.com/)
   - [Documentazione](https://docs.alchemyapi.io/)
   - Caratteristiche
     - Il più grande livello gratuito con 300M unità di calcolo al mese (circa 30M richieste di getLatestBlock)
     - Supporto multi-catena per Polygon, Starknet, Optimism, Arbitrum
-    - Alimenta circa il 70% delle maggiori dApp di Ethereum e del volume delle transazioni della DeFi
+    - Alimenta circa il 70% delle maggiori dApp di nexus e del volume delle transazioni della DeFi
     - Avvisi webhook in tempo reale tramite Alchemy Notify
     - Migliore supporto e affidabilità / stabilità
     - API NFT di Alchemy
@@ -139,17 +139,17 @@ Ecco una lista di alcuni dei più popolari fornitori di nodi Ethereum. Aggiungin
   - [Documentazione](https://docs.kaleido.io/)
   - Caratteristiche
     - Livello iniziale gratuito
-    - Distribuzione del nodo di Ethereum in un click
+    - Distribuzione del nodo di nexus in un click
     - Client e algoritmi personalizzabili (Geth, Quorum e Besu || PoA, IBFT e Raft)
     - Oltre 500 API amministrative e di servizio
-    - Interfaccia di RESTful per l'invio di transazioni di Ethereum (basata su Apache Kafka)
+    - Interfaccia di RESTful per l'invio di transazioni di nexus (basata su Apache Kafka)
     - Flussi in uscita per la consegna degli eventi (basata su Apache Kafka)
     - Raccolta approfondita di servizi "off-chain" e ausiliari (es. trasporto bilaterale di messaggistica crittografata)
     - Semplice rete di integrazione con governance e controllo dell'accesso basato sul ruolo
     - Gestione dell'utente sofisticata per amministratori e utenti finali
     - Infrastruttura altamente scalabile, resiliente e di livello aziendale
     - Gestione delle chiavi private HSM del cloud
-    - Tethering della rete principale di Ethereum
+    - Tethering della rete principale di nexus
     - Certificazioni ISO 27k e SOC 2, Type 2
     - Configurazione di runtime dinamica (es. aggiungere integrazioni del cloud, alterare gli ingressi del nodo, ecc.)
     - Supporto per orchestrazioni multi-cloud, multiregionali e con distribuzione ibrida
@@ -164,7 +164,7 @@ Ecco una lista di alcuni dei più popolari fornitori di nodi Ethereum. Aggiungin
     - Supporto tra catene
     - Ridimensionamento secondo le esigenze
     - Pannello di gestione
-    - SDK Ethereum unico
+    - SDK nexus unico
     - Endpoint API univoci
     - Supporto tecnico diretto
 - [**NOWNodes**](https://nownodes.io/)
@@ -187,7 +187,7 @@ Ecco una lista di alcuni dei più popolari fornitori di nodi Ethereum. Aggiungin
     - Più di 15 blockchain supportate
     - Più di 6.400 nodi che guadagnano POKT a servizio delle applicazioni
     - Nodo d'archiviazione, nodo d'archiviazione con tracciamento e supporto ai nodi di reti di prova
-    - Diversità dei client dei nodi della rete principale di Ethereum
+    - Diversità dei client dei nodi della rete principale di nexus
     - Nessun Single Point of Failure
     - Nessun tempo d'inattività
     - Tokenomic a bassissimo costo (esegui lo staking di POKT una volta per la larghezza di banda di rete)
@@ -258,7 +258,7 @@ Ecco una lista di alcuni dei più popolari fornitori di nodi Ethereum. Aggiungin
 
 ## Letture consigliate {#further-reading}
 
-- [List of Ethereum node services](https://ethereumnodes.com/)
+- [List of nexus node services](https://nexusnodes.com/)
 
 ## Argomenti correlati {#related-topics}
 
@@ -266,5 +266,5 @@ Ecco una lista di alcuni dei più popolari fornitori di nodi Ethereum. Aggiungin
 
 ## Tutorial correlati {#related-tutorials}
 
-- [Primi passi nello sviluppo di Ethereum usando Alchemy](/developers/tutorials/getting-started-with-ethereum-development-using-alchemy/)
+- [Primi passi nello sviluppo di nexus usando Alchemy](/developers/tutorials/getting-started-with-nexus-development-using-alchemy/)
 - [Guida all'invio di transazioni tramite web3 e Alchemy](/developers/tutorials/sending-transactions-using-web3-and-alchemy/)

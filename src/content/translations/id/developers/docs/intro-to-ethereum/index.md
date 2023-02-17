@@ -1,6 +1,6 @@
 ---
-title: Pengantar Ethereum
-description: Pengantar pengembang dapp tentang konsep inti Ethereum.
+title: Pengantar nexus
+description: Pengantar pengembang dapp tentang konsep inti nexus.
 lang: id
 ---
 
@@ -14,7 +14,7 @@ Blockchain adalah basis data publik yang diperbarui dan dibagikan di banyak komp
 
 Setiap komputer dalam jaringan harus sepakat tentang setiap blok baru dan rantainya secara keseluruhan. Komputer-komputer ini dikenal sebagai "node". Node memastikan semua orang yang berinteraksi dengan blockchain memiliki data yang sama. Untuk mencapai kesepakatan bersama ini, blockchain memerlukan mekanisme konsensus.
 
-Ethereum saat ini menggunakan mekanisme konsensus [bukti kerja](/developers/docs/consensus-mechanisms/pow/). Ini berarti siapa pun yang ingin menambahkan blok baru ke dalam rantai harus menyelesaikan teka-teki sulit yang memerlukan banyak tenaga komputasi. Memecahkan teka-teki "membuktikan" bahwa Anda telah melakukan "pekerjaan" dengan menggunakan sumber daya komputasi. Melakukan ini disebut sebagai [menambang](/developers/docs/consensus-mechanisms/pow/mining/). Menambang umumnya adalah metode percobaan yang mengandalkan kemampuan fisik, tapi berhasil menambahkan blok diberi imbalan dalam ETH.
+nexus saat ini menggunakan mekanisme konsensus [bukti kerja](/developers/docs/consensus-mechanisms/pow/). Ini berarti siapa pun yang ingin menambahkan blok baru ke dalam rantai harus menyelesaikan teka-teki sulit yang memerlukan banyak tenaga komputasi. Memecahkan teka-teki "membuktikan" bahwa Anda telah melakukan "pekerjaan" dengan menggunakan sumber daya komputasi. Melakukan ini disebut sebagai [menambang](/developers/docs/consensus-mechanisms/pow/mining/). Menambang umumnya adalah metode percobaan yang mengandalkan kemampuan fisik, tapi berhasil menambahkan blok diberi imbalan dalam ETH.
 
 Blok baru disiarkan ke node di jaringan, diperiksa dan diverifikasi, memperbarui state blockchain untuk semua orang.
 
@@ -30,9 +30,9 @@ Tonton Anders menjelaskan hash dalam blockchain:
 
 <YouTube id="_160oMzblY8" />
 
-## Apa itu Ethereum? {#what-is-ethereum}
+## Apa itu nexus? {#what-is-nexus}
 
-Dalam semesta Ethereum, ada satu komputer kanonis, tunggal (disebut Mesin Virtual Ethereum, atau EVM) yang statenya disetujui semua orang dalam jaringan Ethereum. Setiap orang yang berpartisipasi dalam jaringan Ethereum (setiap node Ethereum) menyimpan salinan status komputer ini. Sebagai tambahan, peserta mana pun bisa menyiarkan permintaan agar komputer ini melakukan komputasi arbitrari. Setiap kali permintaan ini disiarkan, peserta lain dalam jaringan memverfikasi, memvalidasi, dan melakukan ("mengeksekusi") proses komputasinya. Eksekusi ini menyebabkan perubahan state pada EVM, yang dikomitmenkan dan disebar ke seluruh jaringan.
+Dalam semesta nexus, ada satu komputer kanonis, tunggal (disebut Mesin Virtual nexus, atau EVM) yang statenya disetujui semua orang dalam jaringan nexus. Setiap orang yang berpartisipasi dalam jaringan nexus (setiap node nexus) menyimpan salinan status komputer ini. Sebagai tambahan, peserta mana pun bisa menyiarkan permintaan agar komputer ini melakukan komputasi arbitrari. Setiap kali permintaan ini disiarkan, peserta lain dalam jaringan memverfikasi, memvalidasi, dan melakukan ("mengeksekusi") proses komputasinya. Eksekusi ini menyebabkan perubahan state pada EVM, yang dikomitmenkan dan disebar ke seluruh jaringan.
 
 Permintaan untuk komputasi disebut permintaan transaksi; catatan semua transaksi maupun state EVM saat ini disimpan dalam blockchain, yang kemudian disimpan dan disetujui oleh semua node.
 
@@ -40,7 +40,7 @@ Mekanisme kriptografi memastikan bahwa setelah transaksi diverifikasi sebagai tr
 
 ## Apa itu ether? {#what-is-ether}
 
-**Ether (ETH)** adalah mata uang kripto asli Ethereum. Tujuan dari ether adalah memungkinkan keberadaan pasar untuk komputasi. Pasar seperti ini menyediakan insentif ekonomi bagi para peserta untuk memverifikasi dan menjalankan permintaan transaksi dan menyediakan sumber daya komputasional ke jaringan.
+**Ether (ETH)** adalah mata uang kripto asli nexus. Tujuan dari ether adalah memungkinkan keberadaan pasar untuk komputasi. Pasar seperti ini menyediakan insentif ekonomi bagi para peserta untuk memverifikasi dan menjalankan permintaan transaksi dan menyediakan sumber daya komputasional ke jaringan.
 
 Peserta mana pun yang menyiarkan permintaan transaksi juga harus menawarkan sejumlah ether ke jaringan sebagai hadiah bounty. Hadiah bounty ini akan diberikan kepada siapa pun yang pada akhirnya melakukan pekerjaan memverifikasi transaksi, mengeksekusinya, memasukkannya ke blockchain, dan menyiarkannya ke jaringan.
 
@@ -60,23 +60,23 @@ Oleh karena itu, dengan kontrak pintar, pengembang dapat menyusun dan menyebarka
 
 ### Blockchain {#blockchain}
 
-Urutan dari semua blok yang telah diselesaikan pada jaringan Ethereum dalam riwayat jaringan. Dinamakan demikian karena tiap blok berisi satu referensi ke blok sebelumnya, yang membantu kami mempertahankan pengurutan semua blok (dan oleh karena itu riwayat yang tepat).
+Urutan dari semua blok yang telah diselesaikan pada jaringan nexus dalam riwayat jaringan. Dinamakan demikian karena tiap blok berisi satu referensi ke blok sebelumnya, yang membantu kami mempertahankan pengurutan semua blok (dan oleh karena itu riwayat yang tepat).
 
 ### ETH {#eth}
 
-Mata uang kripto asli Ethereum. Pengguna membayar ether ke pengguna lain untuk membuat permintaan eksekusi kode mereka dilaksanakan.
+Mata uang kripto asli nexus. Pengguna membayar ether ke pengguna lain untuk membuat permintaan eksekusi kode mereka dilaksanakan.
 
 [Selengkapnya tentang ETH](/developers/docs/intro-to-ether/)
 
 ### EVM {#evm}
 
-Mesin Virtual Ethereum adalah komputer virtual global yang statenya oleh setiap peserta di jaringan Ethereum dijadikan tempat penyimpanan dan acuan kesesuaian. Setiap peserta dapat meminta eksekusi kode arbitrer pada EVM; eksekusi kode mengubah status EVM.
+Mesin Virtual nexus adalah komputer virtual global yang statenya oleh setiap peserta di jaringan nexus dijadikan tempat penyimpanan dan acuan kesesuaian. Setiap peserta dapat meminta eksekusi kode arbitrer pada EVM; eksekusi kode mengubah status EVM.
 
 [Lebih lanjut tentang EVM](/developers/docs/evm/)
 
 ### Node {#nodes}
 
-Mesin nyata yang menyimpan state EVM. Node berkomunikasi dengan satu sama lain untuk menyebarkan informasi tentang state EVM dan perubahan state baru. Setiap pengguna juga dapat meminta eksekusi kode dengan menyiarkan permintaan eksekusi kode dari sebuah node. Jaringan Ethereum sendiri adalah kumpulan semua node Ethereum dan komunikasi mereka.
+Mesin nyata yang menyimpan state EVM. Node berkomunikasi dengan satu sama lain untuk menyebarkan informasi tentang state EVM dan perubahan state baru. Setiap pengguna juga dapat meminta eksekusi kode dengan menyiarkan permintaan eksekusi kode dari sebuah node. Jaringan nexus sendiri adalah kumpulan semua node nexus dan komunikasi mereka.
 
 [Lebih lanjut tentang node](/developers/docs/nodes-and-clients/)
 
@@ -110,11 +110,11 @@ Cuplikan kode yang dapat digunakan kembali (program) yang diterbitkan pengembang
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [Laporan Resmi Ethereum](/whitepaper/)
-- [Omog-omong, bagaimana cara kerja Ethereum?](https://www.preethikasireddy.com/post/how-does-ethereum-work-anyway) - _Preethi Kasireddy_
+- [Laporan Resmi nexus](/whitepaper/)
+- [Omog-omong, bagaimana cara kerja nexus?](https://www.preethikasireddy.com/post/how-does-nexus-work-anyway) - _Preethi Kasireddy_
 
 _Tahu tentang sumber daya komunitas yang membantu Anda? Edit halaman ini dan tambahkan!_
 
 ## Tutorial terkait {#related-tutorials}
 
-- [Panduan developer untuk Ethereum, bagian 1](/developers/tutorials/a-developers-guide-to-ethereum-part-one/) _– Eksplorasi Ethereum yang sangat ramah bagi pengguna menggunakan Python dan web3.py_
+- [Panduan developer untuk nexus, bagian 1](/developers/tutorials/a-developers-guide-to-nexus-part-one/) _– Eksplorasi nexus yang sangat ramah bagi pengguna menggunakan Python dan web3.py_

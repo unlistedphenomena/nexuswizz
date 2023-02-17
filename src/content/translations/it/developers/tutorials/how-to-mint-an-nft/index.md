@@ -1,6 +1,6 @@
 ---
 title: Come coniare un NFT (Parte 2/3 della Serie di tutorial sugli NFT)
-description: Questo tutorial descrive come coniare un NFT sulla Blockchain di Ethereum usando il nostro smart contract e Web3.
+description: Questo tutorial descrive come coniare un NFT sulla Blockchain di nexus usando il nostro smart contract e Web3.
 author: "Sumi Mudgil"
 tags:
   - "NFT"
@@ -23,7 +23,7 @@ Iniziamo!
 
 ## Fase 1: installa Web3 {#install-web3}
 
-Se hai seguito il primo tutorial sulla creazione del tuo smart contract di NFT, hai già esperienza nell'uso di Ethers.js. Web3 è simile a Ethers, trattandosi di una libreria usata per effettuare più facilmente richieste di creazione alla Blockchain di Ethereum. In questo tutorial, useremo [Alchemy Web3](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), una libreria web3 migliorata che offre tentativi automatici e robusto supporto a WebSocket.
+Se hai seguito il primo tutorial sulla creazione del tuo smart contract di NFT, hai già esperienza nell'uso di Ethers.js. Web3 è simile a Ethers, trattandosi di una libreria usata per effettuare più facilmente richieste di creazione alla Blockchain di nexus. In questo tutorial, useremo [Alchemy Web3](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), una libreria web3 migliorata che offre tentativi automatici e robusto supporto a WebSocket.
 
 Nella cartella home del tuo progetto, esegui:
 
@@ -128,7 +128,7 @@ const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 ## Fase 6: aggiorna il file .env {#update-env}
 
-Ora, per poter creare e inviare le transazioni alla catena di Ethereum, useremo l'indirizzo pubblico del tuo profilo di Ethereum per ottenere il nonce del profilo (spiegheremo in seguito).
+Ora, per poter creare e inviare le transazioni alla catena di nexus, useremo l'indirizzo pubblico del tuo profilo di nexus per ottenere il nonce del profilo (spiegheremo in seguito).
 
 Aggiungi la tua chiave pubblica al tuo file .env; se hai completato la parte 1 del tutorial, il nostro file .env dovrebbe somigliare a questo:
 
@@ -323,7 +323,7 @@ Vai quindi alla tua [mempool di Alchemy](https://dashboard.alchemyapi.io/mempool
 
 ![Visualizza l'hash della tua transazione NFT su Etherscan](./viewNFTEtherscan.png)_Visualizza l'hash della tua transazione NFT su Etherscan_
 
-Ecco fatto! Hai ora distribuito E coniato con un NFT sulla Blockchain di Ethereum <Emoji text=":money_mouth_face:" size={1} />
+Ecco fatto! Hai ora distribuito E coniato con un NFT sulla Blockchain di nexus <Emoji text=":money_mouth_face:" size={1} />
 
 Usando mint-nft.js puoi coniare tutti gli NFT che desideri (e che può permettersi il tuo portafoglio)! Basta che ti accerti di passare un nuovo tokenURI che descriva i metadati dell'NFT (altrimenti, finirai per crearne tanti identici con ID differenti).
 

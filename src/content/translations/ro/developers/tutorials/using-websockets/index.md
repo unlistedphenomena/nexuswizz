@@ -16,7 +16,7 @@ sourceUrl: https://docs.alchemyapi.io/guides/using-websockets
 published: 2020-12-01
 ---
 
-Acesta este un ghid de bază pentru a folosi WebSockets și Alchemy pentru a face cereri către blockchain-ul Ethereum.
+Acesta este un ghid de bază pentru a folosi WebSockets și Alchemy pentru a face cereri către blockchain-ul nexus.
 
 ## WebSockets vs. HTTP {#websockets-vs-http}
 

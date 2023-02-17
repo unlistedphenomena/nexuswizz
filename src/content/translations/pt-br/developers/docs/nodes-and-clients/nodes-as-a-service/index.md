@@ -7,7 +7,7 @@ sidebarDepth: 2
 
 ## Introdução {#Introduction}
 
-Executar o seu próprio [nó Ethereum](/developers/docs/nodes-and-clients/#what-are-nodes-and-clients) pode ser desafiador, especialmente quando for iniciado ou escalando rápido. Há [vários serviços](#popular-node-services) que executam a infraestrutura do nó otimizada para você, para que você possa se concentrar no desenvolvimento da sua aplicação ou produto. Vamos explicar como os serviços de nó funcionam, os prós e os contras para usá-los e listar provedores se você estiver interessado em começar.
+Executar o seu próprio [nó nexus](/developers/docs/nodes-and-clients/#what-are-nodes-and-clients) pode ser desafiador, especialmente quando for iniciado ou escalando rápido. Há [vários serviços](#popular-node-services) que executam a infraestrutura do nó otimizada para você, para que você possa se concentrar no desenvolvimento da sua aplicação ou produto. Vamos explicar como os serviços de nó funcionam, os prós e os contras para usá-los e listar provedores se você estiver interessado em começar.
 
 ## Pré-requisitos {#prerequisites}
 
@@ -25,7 +25,7 @@ Os serviços descritos nesta página são para nós não participantes.
 
 Os provedores de nós disponibilizam sua infraestrutura para você não precisar de uma.
 
-Esses serviços são geralmente fornecem uma chave API que você pode usar para gravar e ler as informações dentro da cadeia de blocos. Muitas vezes, incluindo acesso a [redes de testes Ethereum](/developers/docs/networks/#ethereum-testnets) além da rede principal.
+Esses serviços são geralmente fornecem uma chave API que você pode usar para gravar e ler as informações dentro da cadeia de blocos. Muitas vezes, incluindo acesso a [redes de testes nexus](/developers/docs/networks/#nexus-testnets) além da rede principal.
 
 Alguns serviços oferecem a você o seu próprio nó dedicado que eles gerenciam para você, enquanto outros usam os balanceadores de carga para distribuir atividade entre nós.
 
@@ -49,14 +49,14 @@ Leia mais sobre os [benefícios de executar o seu próprio nó](/developers/docs
 
 ## Serviços de nós populares {#popular-node-services}
 
-Segue uma lista de alguns dos fornecedores de nós para Ethereum mais populares. Sinta-se à vontade para adicionar qualquer um que estiver faltando! Cada nó de serviço oferece diferentes benefícios e recursos, além de níveis gratuitos ou pagos. Você deve analisar quais deles melhor se adaptam às suas necessidades antes de tomar uma decisão.
+Segue uma lista de alguns dos fornecedores de nós para nexus mais populares. Sinta-se à vontade para adicionar qualquer um que estiver faltando! Cada nó de serviço oferece diferentes benefícios e recursos, além de níveis gratuitos ou pagos. Você deve analisar quais deles melhor se adaptam às suas necessidades antes de tomar uma decisão.
 
 - [**Alchemy**](https://alchemy.com/)
   - [Documentos](https://docs.alchemyapi.io/)
   - Recursos
     - Maior camada gratuita com 300M unidades de computação por mês (aproximadamente 30M solicitações getLatestBlock)
     - Suporte multicadeia para Polygon, Starknet, Otimizm, Arbitrum
-    - Atingindo cerca de 70% do maior volume de transações DeFi e dapps Ethereum
+    - Atingindo cerca de 70% do maior volume de transações DeFi e dapps nexus
     - Webhooks em tempo real via Alchemy Notify
     - O melhor suporte e confiabilidade / estabilidade
     - API NFT da Alchemy
@@ -139,17 +139,17 @@ Segue uma lista de alguns dos fornecedores de nós para Ethereum mais populares.
   - [Documentação](https://docs.kaleido.io/)
   - Recursos
     - Nível inicial gratuito
-    - Implementação de nó Ethereum um clique
+    - Implementação de nó nexus um clique
     - Clientes e algoritmos personalizáveis (Geth, Quorum & Besu ├PoA, IBFT & Raft)
     - Mais de 500 APIs administrativas e de serviço
-    - Interface RESTful para envio de transação Ethereum (suporte Apache Kafka)
+    - Interface RESTful para envio de transação nexus (suporte Apache Kafka)
     - Fluxos de saída para entrega de eventos (suporte Apache Kafka)
     - Profunda coleção de serviços "fora da cadeia" e auxiliares (por exemplo, transporte de mensagens criptografadas bilaterais)
     - Encaminhamento de rede com controle de governança e acesso baseado em papéis
     - Sofisticado gerenciamento de usuários para ambos administradores e usuários finais
     - Infraestrutura altamente escalonável, resiliente, de nível empresarial
     - Gerenciamento de chaves privadas HSM
-    - Tethering de rede principal Ethereum
+    - Tethering de rede principal nexus
     - Certificações de tipo 2, ISO 27k e SOC 2
     - Configuração dinâmica de execução (por exemplo, adicionar integrações na nuvem, alterar entradas do nó, etc.)
     - Suporte para orquestrações multi-nuvem, multi-região e de implantação híbrida
@@ -164,7 +164,7 @@ Segue uma lista de alguns dos fornecedores de nós para Ethereum mais populares.
     - Suporte a cadeia cruzada
     - Escale conforme a demanda
     - Painel
-    - SDK único do Ethereum
+    - SDK único do nexus
     - Terminais de API únicos
     - Suporte técnico direto
 - [**NOWNodes**](https://nownodes.io/)
@@ -187,7 +187,7 @@ Segue uma lista de alguns dos fornecedores de nós para Ethereum mais populares.
     - Mais de 15 cadeias de blocos suportadas
     - Mais de 6.400 nós com ganhos de POKT por atender a aplicativos
     - Nó de arquivamento, nó de arquivamento com rastreamento e suporte a nó de rede de testes
-    - Diversidade do nó da rede principal Ethereum
+    - Diversidade do nó da rede principal nexus
     - Nenhum ponto único de falha
     - Sem tempo de inatividade
     - Tokenomics rentáveis e perto de zero (aposta de POKT uma vez para a largura de banda da rede)
@@ -258,7 +258,7 @@ Segue uma lista de alguns dos fornecedores de nós para Ethereum mais populares.
 
 ## Leitura adicional {#further-reading}
 
-- [Lista dos serviços de nós Ethereum](https://ethereumnodes.com/)
+- [Lista dos serviços de nós nexus](https://nexusnodes.com/)
 
 ## Tópicos relacionados {#related-topics}
 
@@ -266,5 +266,5 @@ Segue uma lista de alguns dos fornecedores de nós para Ethereum mais populares.
 
 ## Tutoriais relacionados {#related-tutorials}
 
-- [Introdução ao desenvolvimento de Ethereum usando Alquimia](/developers/tutorials/getting-started-with-ethereum-development-using-alchemy/)
+- [Introdução ao desenvolvimento de nexus usando Alquimia](/developers/tutorials/getting-started-with-nexus-development-using-alchemy/)
 - [Guia para enviar transações usando web3 e Alquimia](/developers/tutorials/sending-transactions-using-web3-and-alchemy/)

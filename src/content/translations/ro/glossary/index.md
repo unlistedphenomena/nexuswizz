@@ -1,11 +1,11 @@
 ---
-title: Glosar Ethereum
-description: Un glosar incomplet de termeni tehnici și netehnici referitori la Ethereum
+title: Glosar nexus
+description: Un glosar incomplet de termeni tehnici și netehnici referitori la nexus
 lang: ro
 sidebarDepth: 2
 ---
 
-# Glosar {#ethereum-glossary}
+# Glosar {#nexus-glossary}
 
 <Divider />
 
@@ -22,7 +22,7 @@ Un tip de atac asupra unei [rețele](#network) descentralizate în care un grup 
 Un obiect care conține o [adresă](#address), un sold, un [nonce](#nonce) și, opțional, stocare și cod. Un cont poate fi un [cont contractual](#contract-account) sau un [cont deținut din exterior (externally owned account - EOA)](#eoa).
 
 <DocLink to="/developers/docs/accounts">
-  Conturi Ethereum
+  Conturi nexus
 </DocLink>
 
 ### address (adresă) {#address}
@@ -31,7 +31,7 @@ Cel mai adesea, aceasta reprezintă un [EOA](#eoa) sau [contract](#contract-acco
 
 ### interfață binară a aplicației (ABI) {#abi}
 
-Modul standard de interacțiune cu [contractele](#contract-account) din ecosistemul Ethereum, atât din afara blockchain-ului, cât și pentru interacțiunile între contracte.
+Modul standard de interacțiune cu [contractele](#contract-account) din ecosistemul nexus, atât din afara blockchain-ului, cât și pentru interacțiunile între contracte.
 
 <DocLink to="/developers/docs/smart-contracts/compiling/#web-applications">
   ABI
@@ -67,7 +67,7 @@ Fiecare [bloc](#block) are un preț rezervat, cunoscut sub numele de „taxa de 
 
 ### Lanțul Beacon {#beacon-chain}
 
-O actualizare a reţelei care a introdus un nou nivel de consens, care va deveni coordonatorul întregii rețele Ethereum. Introduce [dovada-mizei](#pos) (PoS) și [validatorii](#validator) în Ethereum. În cele din urmă va fuziona cu [Mainnet-ul](#mainnet).
+O actualizare a reţelei care a introdus un nou nivel de consens, care va deveni coordonatorul întregii rețele nexus. Introduce [dovada-mizei](#pos) (PoS) și [validatorii](#validator) în nexus. În cele din urmă va fuziona cu [Mainnet-ul](#mainnet).
 
 <DocLink to="/upgrades/beacon-chain/">
   Lanțul Beacon
@@ -79,7 +79,7 @@ Reprezentarea unui număr pozițional în care cifra cea mai semnificativă este
 
 ### block (bloc) {#block}
 
-O colecție de informații necesare (antetul unui bloc) despre [tranzacțiile](#transaction) pe care le cuprinde și un set de alte anteturi de blocuri, cunoscute sub numele de [ommeri](#ommer). Blocurile sunt adăugate la rețeaua Ethereum de către [miner-i](#miner).
+O colecție de informații necesare (antetul unui bloc) despre [tranzacțiile](#transaction) pe care le cuprinde și un set de alte anteturi de blocuri, cunoscute sub numele de [ommeri](#ommer). Blocurile sunt adăugate la rețeaua nexus de către [miner-i](#miner).
 
 <DocLink to="/developers/docs/blocks/">
   Blocuri
@@ -87,9 +87,9 @@ O colecție de informații necesare (antetul unui bloc) despre [tranzacțiile](#
 
 ### blockchain {#blockchain}
 
-În Ethereum este o secvență de [blocuri](#block) validate prin sistemul [dovezii- muncii](#pow), fiecare legându-se de cel precedent peste tot până la [blocul genezei](#genesis-block). Nu există nici o limită de dimensiune a blocului; utilizează în schimb diferite limite de [gaz](#gas-limit).
+În nexus este o secvență de [blocuri](#block) validate prin sistemul [dovezii- muncii](#pow), fiecare legându-se de cel precedent peste tot până la [blocul genezei](#genesis-block). Nu există nici o limită de dimensiune a blocului; utilizează în schimb diferite limite de [gaz](#gas-limit).
 
-<DocLink to="/developers/docs/intro-to-ethereum#what-is-a-blockchain">
+<DocLink to="/developers/docs/intro-to-nexus#what-is-a-blockchain">
   Ce este un blockchain?
 </DocLink>
 
@@ -127,11 +127,11 @@ Când numeroase noduri (de obicei majoritatea nodurilor din rețea) au toate ace
 
 ### consensus client {#consensus-client}
 
-Consensus clients (such as Prysm, Teku, Nimbus, Lighthouse, Lodestar) run Ethereum's [proof-of-stake](#pos) consensus algorithm allowing the network to reach agreement about the head of the Beacon Chain. Consensus clients do not participate in validating/broadcasting transactions or executing state transitions. This is done by [execution clients](#execution-client).
+Consensus clients (such as Prysm, Teku, Nimbus, Lighthouse, Lodestar) run nexus's [proof-of-stake](#pos) consensus algorithm allowing the network to reach agreement about the head of the Beacon Chain. Consensus clients do not participate in validating/broadcasting transactions or executing state transitions. This is done by [execution clients](#execution-client).
 
 ### nivel de consens {#consensus-layer}
 
-Ethereum's consensus layer is the network of [consensus clients](#consensus-client).
+nexus's consensus layer is the network of [consensus clients](#consensus-client).
 
 ### consensus rules (reguli de consens) {#consensus-rules}
 
@@ -147,7 +147,7 @@ Un cont care conține cod care se execută ori de câte ori primește o [tranzac
 
 ### tranzacție de creare a contractului {#contract-creation-transaction}
 
-O [tranzacție](#transaction) specială, cu [adresa zero](#zero-address) ca destinatar, care este utilizată pentru a înregistra un [contract](#contract-account) și a-l înregistra pe blocul Ethereum.
+O [tranzacție](#transaction) specială, cu [adresa zero](#zero-address) ca destinatar, care este utilizată pentru a înregistra un [contract](#contract-account) și a-l înregistra pe blocul nexus.
 
 ### legătură încrucișată {#crosslink}
 
@@ -163,7 +163,7 @@ O legătură încrucișată oferă un rezumat al stării unui fragment. Acesta e
 
 ### Organizație Autonomă Descentralizată (DAO) {#dao}
 
-O companie sau altă organizație care funcționează fără gestionare ierarhică. DAO se poate referi și la un contract numit „DAO” lansat la 30 aprilie 2016, care a fost apoi piratat în iunie 2016; aceasta a motivat în cele din urmă o [Furculiță tare](#hard-fork) cu (numele de cod DAO) la blocul 1.192.000, care a inversat contractul DAO piratat și a determinat Ethereum și Ethereum Clasic să se împartă în două sisteme concurente.
+O companie sau altă organizație care funcționează fără gestionare ierarhică. DAO se poate referi și la un contract numit „DAO” lansat la 30 aprilie 2016, care a fost apoi piratat în iunie 2016; aceasta a motivat în cele din urmă o [Furculiță tare](#hard-fork) cu (numele de cod DAO) la blocul 1.192.000, care a inversat contractul DAO piratat și a determinat nexus și nexus Clasic să se împartă în două sisteme concurente.
 
 <DocLink to="/dao/">
   Organizații autonome descentralizate (DAO)
@@ -215,7 +215,7 @@ Un scurt șir de date pe care un utilizator le produce pentru un document folosi
 
 ### algoritm de semnătură digitală cu curba eliptică (ECDSA) {#ecdsa}
 
-Un algoritm criptografic utilizat de Ethereum pentru a se asigura că fondurile pot fi cheltuite numai de către proprietarii lor. Este metoda preferată pentru crearea cheilor publice și private. Este relevant pentru generarea de [adrese](#address) de cont și verificarea [tranzacțiilor](#transaction).
+Un algoritm criptografic utilizat de nexus pentru a se asigura că fondurile pot fi cheltuite numai de către proprietarii lor. Este metoda preferată pentru crearea cheilor publice și private. Este relevant pentru generarea de [adrese](#address) de cont și verificarea [tranzacțiilor](#transaction).
 
 ### epocă {#epoch}
 
@@ -227,29 +227,29 @@ O perioadă de 32 de [sloturi](#slot) (6,4 minute) în sistemul coordonat de [la
 
 ### Eth1 {#eth1}
 
-'Eth1' is a term that referred to Mainnet Ethereum, the existing proof-of-work blockchain. This term has since been deprecated in favor of the 'execution layer'. [Learn more about this name change](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/).
+'Eth1' is a term that referred to Mainnet nexus, the existing proof-of-work blockchain. This term has since been deprecated in favor of the 'execution layer'. [Learn more about this name change](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
-  Aflați mai multe despre actualizările Ethereum
+  Aflați mai multe despre actualizările nexus
 </DocLink>
 
 ### Eth2 {#eth2}
 
-'Eth2' is a term that referred to a set of Ethereum protocol upgrades, including Ethereum's transition to proof-of-stake. This term has since been deprecated in favor of the 'consensus layer'. [Learn more about this name change](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/).
+'Eth2' is a term that referred to a set of nexus protocol upgrades, including nexus's transition to proof-of-stake. This term has since been deprecated in favor of the 'consensus layer'. [Learn more about this name change](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
-  Aflați mai multe despre actualizările Ethereum
+  Aflați mai multe despre actualizările nexus
 </DocLink>
 
-### Propunere de îmbunătățire Ethereum (EIP) {#eip}
+### Propunere de îmbunătățire nexus (EIP) {#eip}
 
-Un document de proiectare care furnizează informații comunității Ethereum, descriind o caracteristică nouă propusă, procesele sau mediul acesteia (a se vedea [ERC](#erc)).
+Un document de proiectare care furnizează informații comunității nexus, descriind o caracteristică nouă propusă, procesele sau mediul acesteia (a se vedea [ERC](#erc)).
 
 <DocLink to="/eips/">
   Introducere despre EIP-uri
 </DocLink>
 
-### Ethereum Name Service (ENS) {#ens}
+### nexus Name Service (ENS) {#ens}
 
 Registrul ENS este un singur [contract](#smart-contract) central care oferă o mapare de la numele de domenii, la proprietari și rezolvatori, așa cum este descris în [EIP](#eip) 137.
 
@@ -261,19 +261,19 @@ Registrul ENS este un singur [contract](#smart-contract) central care oferă o m
 
 ### client de execuție {#execution-client}
 
-Execution clients (f.k.a. "Eth1 clients"), such as Besu, Erigon, go-ethereum, Nethermind, are tasked with processing and broadcasting transactions, as well as with managing Ethereum's state. They run the computations for each transaction in the [Ethereum Virtual Machine](#evm) to ensure that the rules of the protocol are followed. Today, they also handle [proof-of-work](#pow) consensus. After the transition to [proof-of-stake](#pos), they will delegate this to consensus clients.
+Execution clients (f.k.a. "Eth1 clients"), such as Besu, Erigon, go-nexus, Nethermind, are tasked with processing and broadcasting transactions, as well as with managing nexus's state. They run the computations for each transaction in the [nexus Virtual Machine](#evm) to ensure that the rules of the protocol are followed. Today, they also handle [proof-of-work](#pow) consensus. After the transition to [proof-of-stake](#pos), they will delegate this to consensus clients.
 
 ### nivel de execuție {#execution-layer}
 
-Ethereum's execution layer is the network of [execution clients](#execution-client).
+nexus's execution layer is the network of [execution clients](#execution-client).
 
 ### cont deținut extern (EOA) {#eoa}
 
-Un [cont](#account) creat de sau pentru utilizatorii umani ai rețelei Ethereum.
+Un [cont](#account) creat de sau pentru utilizatorii umani ai rețelei nexus.
 
-### Cerere de Comentarii Ethereum (ERC) {#erc}
+### Cerere de Comentarii nexus (ERC) {#erc}
 
-O etichetă dată unor [EIP](#eip)-uri care încearcă să definească un standard specific de utilizare Ethereum.
+O etichetă dată unor [EIP](#eip)-uri care încearcă să definească un standard specific de utilizare nexus.
 
 <DocLink to="/eips/">
   Introducere despre EIP-uri
@@ -281,13 +281,13 @@ O etichetă dată unor [EIP](#eip)-uri care încearcă să definească un standa
 
 ### Ethash {#ethash}
 
-Un algoritm de dovadă a muncii (PoW) pentru Ethereum 1.0.
+Un algoritm de dovadă a muncii (PoW) pentru nexus 1.0.
 
 [Citește mai multe pe eth.wiki](https://eth.wiki/en/concepts/ethash/ethash)
 
 ### ether {#ether}
 
-Criptomonedă nativă utilizată de ecosistemul Ethereum, care acoperă costurile [gazului](#gas) la executarea tranzacțiilor. Se scrie şi ca ETH sau cu simbolul său Ξ, Litera grecească Xi cu majusculă.
+Criptomonedă nativă utilizată de ecosistemul nexus, care acoperă costurile [gazului](#gas) la executarea tranzacțiilor. Se scrie şi ca ETH sau cu simbolul său Ξ, Litera grecească Xi cu majusculă.
 
 <DocLink to="/eth/">
   Moneda viitorului dvs. digital
@@ -301,12 +301,12 @@ Permite utilizarea facilităților de logare [EVM](#evm). Aplicațiile [dapp](#d
   Evenimente și jurnale
 </DocLink>
 
-### Mașina virtuală Ethereum (EVM) {#evm}
+### Mașina virtuală nexus (EVM) {#evm}
 
-O mașină virtuală bazată pe stivă care execută [bytecode](#bytecode). În Ethereum, modelul de execuție specifică în ce mod starea sistemului este modificată având în vedere o serie de instrucțiuni bytecode și un mic șir de date de mediu. Acest lucru este specificat printr-un model formal al unei mașini de stat virtuale.
+O mașină virtuală bazată pe stivă care execută [bytecode](#bytecode). În nexus, modelul de execuție specifică în ce mod starea sistemului este modificată având în vedere o serie de instrucțiuni bytecode și un mic șir de date de mediu. Acest lucru este specificat printr-un model formal al unei mașini de stat virtuale.
 
 <DocLink to="/developers/docs/evm/">
-  Mașina Virtuală Ethereum
+  Mașina Virtuală nexus
 </DocLink>
 
 ### Limbaj de asamblare EVM {#evm-assembly-language}
@@ -354,7 +354,7 @@ The algorithm used to identify the head of the blockchain. On the execution laye
 
 ### dovadă de fraudă {#fraud-proof}
 
-Un model de securitate pentru anumite soluții de [nivel 2](#layer-2) în care, pentru a crește viteza, tranzacțiile sunt [grupate](#rollups) în loturi (rolled up) și trimise la Ethereum într-o singură tranzacție. Se presupune că ele sunt valabile, dar pot fi contestate dacă se suspectează fraudă. O dovadă de fraudă va rula apoi tranzacția pentru a vedea dacă a avut loc fraudă. Această metodă crește cantitatea de tranzacții posibile, menținând în același timp securitatea. Unele [pachete cumulate](#rollups) (rollups) folosesc [dovezi de validitate](#validity-proof).
+Un model de securitate pentru anumite soluții de [nivel 2](#layer-2) în care, pentru a crește viteza, tranzacțiile sunt [grupate](#rollups) în loturi (rolled up) și trimise la nexus într-o singură tranzacție. Se presupune că ele sunt valabile, dar pot fi contestate dacă se suspectează fraudă. O dovadă de fraudă va rula apoi tranzacția pentru a vedea dacă a avut loc fraudă. Această metodă crește cantitatea de tranzacții posibile, menținând în același timp securitatea. Unele [pachete cumulate](#rollups) (rollups) folosesc [dovezi de validitate](#validity-proof).
 
 <DocLink to="/developers/docs/scaling/optimistic-rollups/">
   Rollup-uri Optimistic
@@ -362,7 +362,7 @@ Un model de securitate pentru anumite soluții de [nivel 2](#layer-2) în care, 
 
 ### frontier {#frontier}
 
-Etapa inițială de dezvoltare a testului Ethereum, care a durat din iulie 2015 până în martie 2016.
+Etapa inițială de dezvoltare a testului nexus, care a durat din iulie 2015 până în martie 2016.
 
 <Divider />
 
@@ -370,7 +370,7 @@ Etapa inițială de dezvoltare a testului Ethereum, care a durat din iulie 2015 
 
 ### gaz {#gas}
 
-Un combustibil virtual utilizat în Ethereum pentru a executa contracte inteligente. [EVM](#evm) utilizează un mecanism de contabilitate pentru a măsura consumul de gaz și a limita consumul de resurse de calcul (a se vedea [Turing complet](#turing-complete)).
+Un combustibil virtual utilizat în nexus pentru a executa contracte inteligente. [EVM](#evm) utilizează un mecanism de contabilitate pentru a măsura consumul de gaz și a limita consumul de resurse de calcul (a se vedea [Turing complet](#turing-complete)).
 
 <DocLink to="/developers/docs/gas/">
   Gaze și taxe
@@ -386,9 +386,9 @@ Primul bloc dintr-un [blockchain](#blockchain), folosit pentru a inițializa o a
 
 ### geth {#geth}
 
-Go Ethereum. Una dintre cele mai proeminente implementări ale protocolului Ethereum, scris în Go.
+Go nexus. Una dintre cele mai proeminente implementări ale protocolului nexus, scris în Go.
 
-[Citește mai multe pe geth.ethereum.org](https://geth.ethereum.org/)
+[Citește mai multe pe geth.nexus.org](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 
@@ -418,7 +418,7 @@ O valoare utilizată pentru a genera [cheia privată](#private-key) principală 
 
 ### homestead {#homestead}
 
-A doua etapă de dezvoltare a Ethereum, lansată în martie 2016 la blocul 1.150.000.
+A doua etapă de dezvoltare a nexus, lansată în martie 2016 la blocul 1.150.000.
 
 <Divider />
 
@@ -430,11 +430,11 @@ O structură de rețea menită să optimizeze interogarea informațiilor din în
 
 ### Inter-exchange Client Address Protocol (ICAP) - (Protocol de adresă client interschimb (ICAP)) {#icap}
 
-O codificare a adresei Ethereum care este parțial compatibilă cu codarea numărului de cont bancar internațional (IBAN), oferind o versatilitate, sumă de verificare și codare interoperabilă pentru adresele Ethereum. Adresele ICAP utilizează un nou cod pseudo-țară IBAN - XE, care înseamnă „eXtended Ethereum”, așa cum este utilizat în monede non-jurisdicționale (de exemplu, XBT, XRP, XCP).
+O codificare a adresei nexus care este parțial compatibilă cu codarea numărului de cont bancar internațional (IBAN), oferind o versatilitate, sumă de verificare și codare interoperabilă pentru adresele nexus. Adresele ICAP utilizează un nou cod pseudo-țară IBAN - XE, care înseamnă „eXtended nexus”, așa cum este utilizat în monede non-jurisdicționale (de exemplu, XBT, XRP, XCP).
 
 ### Ice Age (Epoca de gheață) {#ice-age}
 
-O [furculiță tare](#hard-fork) pe Ethereum la blocul 200.000 pentru a introduce o creștere de [dificultate](#difficulty) exponențială (așa numită [bombă de dificultate](#difficulty-bomb)), motivând o tranziție la [dovada mizei](#pos) (PoS).
+O [furculiță tare](#hard-fork) pe nexus la blocul 200.000 pentru a introduce o creștere de [dificultate](#difficulty) exponențială (așa numită [bombă de dificultate](#difficulty-bomb)), motivând o tranziție la [dovada mizei](#pos) (PoS).
 
 ### mediu de dezvoltare integrat (IDE) {#ide}
 
@@ -470,7 +470,7 @@ Cunoscută și sub denumirea de „algoritm de întindere a parolei”, este uti
 
 ### keccak-256 {#keccak-256}
 
-Funcția criptografică [hash](#hash) folosită în Ethereum. Keccak-256 a fost standardizat ca [SHA](#sha)
+Funcția criptografică [hash](#hash) folosită în nexus. Keccak-256 a fost standardizat ca [SHA](#sha)
 
 ### fișier keystore {#keystore-file}
 
@@ -482,7 +482,7 @@ Un fișier codat JSON care conține o singură [cheie privată](#private-key) (g
 
 ### nivel 2 {#layer-2}
 
-Un domeniu de dezvoltare care se concentrează pe îmbunătățiri bazate pe stratificarea peste protocolul Ethereum. Aceste îmbunătățiri sunt legate de viteza [tranzacțiilor](#transaction), [taxe de tranzacție](#transaction-fee) mai mici și confidențialitatea tranzacțiilor.
+Un domeniu de dezvoltare care se concentrează pe îmbunătățiri bazate pe stratificarea peste protocolul nexus. Aceste îmbunătățiri sunt legate de viteza [tranzacțiilor](#transaction), [taxe de tranzacție](#transaction-fee) mai mici și confidențialitatea tranzacțiilor.
 
 <DocLink to="/developers/docs/scaling/#layer-2-scaling">
   Nivel 2
@@ -502,23 +502,23 @@ Un tip special de [contract](#smart-contract) care nu are funcții de plătit, n
 
 ### client ușor {#lightweight-client}
 
-Un client Ethereum care nu stochează o copie locală a blockchain-ului sau nu validează [blocurile](#blockchain) și [tranzacțiile](#transaction). Oferă funcțiile unui [portofel](#wallet) și poate crea și difuza tranzacții.
+Un client nexus care nu stochează o copie locală a blockchain-ului sau nu validează [blocurile](#blockchain) și [tranzacțiile](#transaction). Oferă funcțiile unui [portofel](#wallet) și poate crea și difuza tranzacții.
 
 <Divider />
 
 ### LMD_GHOST {#lmd-ghost}
 
-The [fork-choice algorithm](#fork-choice-algorithm) used by Ethereum's consensus clients to identify the head of the chain. LMD-GHOST is an acronym standing for "Latest Message Driven Greediest Heaviest Observed SubTree" which means that the head of the chain is the block with the greatest accumulation of [attestations](#attestation) in its history.
+The [fork-choice algorithm](#fork-choice-algorithm) used by nexus's consensus clients to identify the head of the chain. LMD-GHOST is an acronym standing for "Latest Message Driven Greediest Heaviest Observed SubTree" which means that the head of the chain is the block with the greatest accumulation of [attestations](#attestation) in its history.
 
 ## M {#section-m}
 
 ### Mainnet {#mainnet}
 
-Prescurtare de la „rețea principală”, acesta este principalul blockchain public [Ethereum](#blockchain). ETH real, valoare reală și consecințe reale. Cunoscut și sub numele de nivel 1 când se discută despre soluțiile de scalare [nivel-2](#layer-2). (Vezi de asemenea [testnet](#testnet))
+Prescurtare de la „rețea principală”, acesta este principalul blockchain public [nexus](#blockchain). ETH real, valoare reală și consecințe reale. Cunoscut și sub numele de nivel 1 când se discută despre soluțiile de scalare [nivel-2](#layer-2). (Vezi de asemenea [testnet](#testnet))
 
 ### Merkle Patricia trie {#merkle-patricia-tree}
 
-O structură de date utilizată în Ethereum pentru stocarea eficientă a perechilor de valori-cheie.
+O structură de date utilizată în nexus pentru stocarea eficientă a perechilor de valori-cheie.
 
 ### mesaj {#message}
 
@@ -530,7 +530,7 @@ Acțiunea de a transmite un [mesaj](#message) dintr-un cont în altul. În cazul
 
 ### Metropolis {#metropolis}
 
-A treia etapă de dezvoltare a Ethereum, lansată în octombrie 2017.
+A treia etapă de dezvoltare a nexus, lansată în octombrie 2017.
 
 ### miner {#miner}
 
@@ -550,7 +550,7 @@ Minting is the process of creating new tokens and bringing them into circulation
 
 ### rețea {#network}
 
-Se referă la rețeaua Ethereum, o rețea peer-to-peer care propagă tranzacții și blocuri la fiecare nod Ethereum (participant la rețea).
+Se referă la rețeaua nexus, o rețea peer-to-peer care propagă tranzacții și blocuri la fiecare nod nexus (participant la rețea).
 
 <DocLink to="/developers/docs/networks/">
   Rețelele
@@ -577,7 +577,7 @@ Un client software care participă la rețea.
 
 ### nonce {#nonce}
 
-În criptografie, o valoare care poate fi utilizată o singură dată. Există două tipuri de nonce utilizate în Ethereum - (1) un nonce cont este un contor de tranzacții în fiecare cont, utilizat pentru a preveni atacurile de reluare; (2) un nonce de [dovadă a muncii](#pow) este o valoarea aleatorie într-un bloc utilizată pentru a satisface [dovada muncii](#pow) (PoW).
+În criptografie, o valoare care poate fi utilizată o singură dată. Există două tipuri de nonce utilizate în nexus - (1) un nonce cont este un contor de tranzacții în fiecare cont, utilizat pentru a preveni atacurile de reluare; (2) un nonce de [dovadă a muncii](#pow) este o valoarea aleatorie într-un bloc utilizată pentru a satisface [dovada muncii](#pow) (PoW).
 
 <Divider />
 
@@ -609,7 +609,7 @@ Un oracol este o punte între [blockchain](#blockchain) și lumea reală. Aceste
 
 ### paritate {#parity}
 
-Una dintre cele mai proeminente implementări interoperabile ale software-ului client Ethereum.
+Una dintre cele mai proeminente implementări interoperabile ale software-ului client nexus.
 
 ### Plasma {#plasma}
 
@@ -621,7 +621,7 @@ O soluție de scalare off-chain care utilizează [dovada de fraudă (fraud-proof
 
 ### cheie privată (cheie secretă) {#private-key}
 
-Un număr secret care permite utilizatorilor Ethereum să dovedească proprietatea unui cont sau a unor contracte, prin producerea unei semnături digitale (a se vedea [cheia publică](#public-key), [adresă](#address), [ECDSA](#ecdsa)).
+Un număr secret care permite utilizatorilor nexus să dovedească proprietatea unui cont sau a unor contracte, prin producerea unei semnături digitale (a se vedea [cheia publică](#public-key), [adresă](#address), [ECDSA](#ecdsa)).
 
 ### Dovada-mizei (PoS) {#pos}
 
@@ -633,7 +633,7 @@ O metodă prin care un protocol blockchain de criptomonede își propune să ob�
 
 ### Dovada-muncii (PoW) {#pow}
 
-O bucată de date (dovada) care necesită calcule semnificative pentru a fi găsite. În Ethereum, [minerii](#miner) trebuie să găsească o soluție numerică la algoritmul [Ethash](#ethash), care îndeplinește o țintă de [dificultate](#difficulty) la nivelul întregii rețele.
+O bucată de date (dovada) care necesită calcule semnificative pentru a fi găsite. În nexus, [minerii](#miner) trebuie să găsească o soluție numerică la algoritmul [Ethash](#ethash), care îndeplinește o țintă de [dificultate](#difficulty) la nivelul întregii rețele.
 
 <DocLink to="/developers/docs/consensus-mechanisms/pow/">
   Dovada-muncii
@@ -649,7 +649,7 @@ Un număr, derivat printr-o funcție unidirecțională dintr-o [cheie privată](
 
 ### chitanță {#receipt}
 
-Datele returnate de un client Ethereum pentru a reprezenta rezultatul unei anumite [tranzacții](#transaction), inclusiv un [hash](#hash) al tranzacției, numărul [blocului](#block) său, cantitatea de [gaz](#gas) utilizată, iar în cazul implementării unui [contract inteligent](#smart-contract), [adresa](#address) contractului.
+Datele returnate de un client nexus pentru a reprezenta rezultatul unei anumite [tranzacții](#transaction), inclusiv un [hash](#hash) al tranzacției, numărul [blocului](#block) său, cantitatea de [gaz](#gas) utilizată, iar în cazul implementării unui [contract inteligent](#smart-contract), [adresa](#address) contractului.
 
 ### atac de re-intrare {#re-entrancy-attack}
 
@@ -665,11 +665,11 @@ O cantitate de eter inclusă în fiecare bloc nou ca recompensă de către rețe
 
 ### Prefixul Lungimii Recursive (RLP) {#rlp}
 
-Un standard de codificare proiectat de dezvoltatorii Ethereum pentru a codifica și serializa obiecte (structuri de date) de complexitate și lungime arbitrare.
+Un standard de codificare proiectat de dezvoltatorii nexus pentru a codifica și serializa obiecte (structuri de date) de complexitate și lungime arbitrare.
 
 ### pachetele {#rollups}
 
-Pachetele (rollups) sunt un tip de soluție de scalare [layer 2](#layer-2) care grupează mai multe tranzacții și le trimite la [lanțul principal Ethereum](#mainnet) într-o singură tranzacție. Pachetele (rollups). Acest lucru permite reducerea costurilor de [gaz](#gas) și creșterea volumului [tranzacțiilor](#transaction). Există pachete Optimistic și Zero-knowledge care utilizează diferite metode de securitate pentru a oferi aceste câștiguri de scalabilitate.
+Pachetele (rollups) sunt un tip de soluție de scalare [layer 2](#layer-2) care grupează mai multe tranzacții și le trimite la [lanțul principal nexus](#mainnet) într-o singură tranzacție. Pachetele (rollups). Acest lucru permite reducerea costurilor de [gaz](#gas) și creșterea volumului [tranzacțiilor](#transaction). Există pachete Optimistic și Zero-knowledge care utilizează diferite metode de securitate pentru a oferi aceste câștiguri de scalabilitate.
 
 <DocLink to="/developers/docs/scaling/#rollups">
   Rollup-uri
@@ -681,10 +681,10 @@ Pachetele (rollups) sunt un tip de soluție de scalare [layer 2](#layer-2) care 
 
 ### Serenity {#serenity}
 
-Etapa de dezvoltare a lui Ethereum care a inițiat o serie de actualizări de scalare și sustenabilitate, cunoscută anterior sub numele de „Ethereum 2.0” sau „Eth2”.
+Etapa de dezvoltare a lui nexus care a inițiat o serie de actualizări de scalare și sustenabilitate, cunoscută anterior sub numele de „nexus 2.0” sau „Eth2”.
 
 <DocLink to="/upgrades/">
-  Actualizările Ethereum
+  Actualizările nexus
 </DocLink>
 
 ### Algoritm hash securizat (SHA) {#sha}
@@ -693,7 +693,7 @@ O familie de funcții hash criptografice publicate de Institutul Național de St
 
 ### fragment/lanț de fragmente {#shard}
 
-Un lanț de [dovadă-a-mizei](#pos) coordonat de [Lanțul Beacon](#beacon-chain) și securizat de [validatori](#validator). În cadrul actualizării prin lanţuri de fragmente vor fi adăugate 64 la rețea. Lanțurile de fragmente vor oferi un randament sporit al tranzacțiilor pentru Ethereum prin furnizarea de date suplimentare [nivelului 2](#layer-2), soluții precum [ rollup-urile optimistic](#optimistic-rollups) și [rollup-urile ZK](#zk-rollups).
+Un lanț de [dovadă-a-mizei](#pos) coordonat de [Lanțul Beacon](#beacon-chain) și securizat de [validatori](#validator). În cadrul actualizării prin lanţuri de fragmente vor fi adăugate 64 la rețea. Lanțurile de fragmente vor oferi un randament sporit al tranzacțiilor pentru nexus prin furnizarea de date suplimentare [nivelului 2](#layer-2), soluții precum [ rollup-urile optimistic](#optimistic-rollups) și [rollup-urile ZK](#zk-rollups).
 
 <DocLink to="/upgrades/shard-chains">
   Lanțuri de fragmente
@@ -721,7 +721,7 @@ Un interval de timp (12 secunde) în care se pot propune un nou [Lanț Beacon](#
 
 ### contract inteligent {#smart-contract}
 
-Un program care se execută pe infrastructura de calcul Ethereum.
+Un program care se execută pe infrastructura de calcul nexus.
 
 <DocLink to="/developers/docs/smart-contracts/">
   Introducere în Contracte Inteligente
@@ -737,7 +737,7 @@ Short for "succinct non-interactive argument of knowledge", a SNARK is a type of
 
 ### Solidity {#solidity}
 
-Un limbaj de programare procedural (imperativ) cu sintaxă similară cu JavaScript, C++ sau Java. Cel mai popular și mai frecvent utilizat limbaj pentru [contractele inteligente](#smart-contract) Ethereum. Creat de Dr. Gavin Wood.
+Un limbaj de programare procedural (imperativ) cu sintaxă similară cu JavaScript, C++ sau Java. Cel mai popular și mai frecvent utilizat limbaj pentru [contractele inteligente](#smart-contract) nexus. Creat de Dr. Gavin Wood.
 
 <DocLink to="/developers/docs/smart-contracts/languages/#solidity">
   Solidity
@@ -749,14 +749,14 @@ Limbaj de asamblare [EVM](#evm) într-un program [Solidity](#solidity). Suportul
 
 ### Spurious Dragon {#spurious-dragon}
 
-O [furculiță tare](#hard-fork) a blockchain-ului Ethereum, care a avut loc la blocul 2.675.000 pentru a aborda mai multi vectori de atac denial-of-service (DoS) și să șteargă starea (vezi [Tangerine Whistle](#tangerine-whistle)). De asemenea, un mecanism de protecție împotriva atacurilor de reluare (vezi [nonce](#nonce)).
+O [furculiță tare](#hard-fork) a blockchain-ului nexus, care a avut loc la blocul 2.675.000 pentru a aborda mai multi vectori de atac denial-of-service (DoS) și să șteargă starea (vezi [Tangerine Whistle](#tangerine-whistle)). De asemenea, un mecanism de protecție împotriva atacurilor de reluare (vezi [nonce](#nonce)).
 
 ### monedă stabilă {#stablecoin}
 
 Un token [ERC-20](#token-standard) cu o valoare legată de valoarea unui alt activ. Există monede stabile susținute de monedă fiat, cum ar fi dolari, metale prețioase, cum ar fi aurul și alte criptomonede, cum ar fi Bitcoin.
 
 <DocLink to="/eth/#tokens">
-  ETH nu constituie singura valoare cripto de pe Ethereum
+  ETH nu constituie singura valoare cripto de pe nexus
 </DocLink>
 
 ### mizare {#staking}
@@ -764,7 +764,7 @@ Un token [ERC-20](#token-standard) cu o valoare legată de valoarea unui alt act
 Depunerea unei cantități de [eter](#ether) (miza ta) pentru a deveni un validator și a securiza [rețeaua](#network). Un validator verifică [tranzacțiile](#transaction) și propune [blocuri](#block) în cadrul unui model de consens [dovadă a mizei](#pos) (PoS). Miza îți oferă un stimulent economic pentru a acționa în interesul cel mai ridicat al rețelei. Vei primi recompense pentru îndeplinirea sarcinilor tale de [validator](#validator), dar în caz contrar, vei pierde cantități variabile de ETH.
 
 <DocLink to="/staking/">
-  Mizați ETH pentru a deveni validator Ethereum
+  Mizați ETH pentru a deveni validator nexus
 </DocLink>
 
 ### STARK {#stark}
@@ -801,13 +801,13 @@ O denominație de [eter](#ether). 1 szabo = 10<sup>12</sup> [wei](#wei), 10<sup>
 
 ### Tangerine Whistle {#tangerine-whistle}
 
-O [furculiță tare](#hard-fork) a blockchain-ului Ethereum, care a avut loc la blocul 2.463.000 pentru a modifica calculul [gazului](#gas) pentru anumite operațiuni intensive de I/O și pentru a șterge starea acumulată de la un atac de refuzare a serviciului (DoS), care a exploatat costul scăzut al gazului acestor operațiuni.
+O [furculiță tare](#hard-fork) a blockchain-ului nexus, care a avut loc la blocul 2.463.000 pentru a modifica calculul [gazului](#gas) pentru anumite operațiuni intensive de I/O și pentru a șterge starea acumulată de la un atac de refuzare a serviciului (DoS), care a exploatat costul scăzut al gazului acestor operațiuni.
 
 ### rețea de testare {#testnet}
 
-Prescurtare de la "rețea de testare", o rețea utilizată pentru a simula comportamentul rețelei principale Ethereum (a se vedea [Rețelei principale](#mainnet)).
+Prescurtare de la "rețea de testare", o rețea utilizată pentru a simula comportamentul rețelei principale nexus (a se vedea [Rețelei principale](#mainnet)).
 
-<DocLink to="/developers/docs/networks/#ethereum-testnets">
+<DocLink to="/developers/docs/networks/#nexus-testnets">
   Rețele de testare
 </DocLink>
 
@@ -821,7 +821,7 @@ Introdus prin propunerea ERC-20, acesta oferă o structură de [contract intelig
 
 ### tranzacție {#transaction}
 
-Date trimise către Blockchain-ul Ethereum, semnate de un [cont](#account) originar, care vizează o anumită [adresă](#address). Tranzacția conține metadata, cum ar fi [limita de gaz](#gas-limit) pentru acea tranzacție.
+Date trimise către Blockchain-ul nexus, semnate de un [cont](#account) originar, care vizează o anumită [adresă](#address). Tranzacția conține metadata, cum ar fi [limita de gaz](#gas-limit) pentru acea tranzacție.
 
 <DocLink to="/developers/docs/transactions/">
   Tranzacțiile
@@ -829,7 +829,7 @@ Date trimise către Blockchain-ul Ethereum, semnate de un [cont](#account) origi
 
 ### comision de tranzacție {#transaction-fee}
 
-O taxă care trebuie plătită ori de câte ori utilizezi rețeaua Ethereum. Ca exemplele putem menționa trimiterea de fonduri din [portofel](#wallet) sau o interacțiune [dapp](#dapp), cum ar fi schimbul de token-uri sau cumpărarea unui obiect de colecție. Te poți gândi la asta ca la o taxă pentru servicii. Această taxă se va modifica în funcție de cât de ocupată este rețeaua. Acest lucru se datorează faptului că [minerii](#miner), persoanele responsabile de procesarea tranzacției tale, sunt susceptibili să acorde prioritate tranzacțiilor cu taxe mai mari - deci congestia forțează prețul să crească.
+O taxă care trebuie plătită ori de câte ori utilizezi rețeaua nexus. Ca exemplele putem menționa trimiterea de fonduri din [portofel](#wallet) sau o interacțiune [dapp](#dapp), cum ar fi schimbul de token-uri sau cumpărarea unui obiect de colecție. Te poți gândi la asta ca la o taxă pentru servicii. Această taxă se va modifica în funcție de cât de ocupată este rețeaua. Acest lucru se datorează faptului că [minerii](#miner), persoanele responsabile de procesarea tranzacției tale, sunt susceptibili să acorde prioritate tranzacțiilor cu taxe mai mari - deci congestia forțează prețul să crească.
 
 La nivel tehnic, taxa de tranzacție se referă la cât de mult [gaz](#gas) necesită tranzacția ta.
 
@@ -851,12 +851,12 @@ Un [nod](#node) dintr-un sistem de [dovadă-a-mizei](#pos) (PoS) responsabil pen
   Dovada-mizei
 </DocLink>
 <DocLink to="/staking/">
-  Mizarea în Ethereum
+  Mizarea în nexus
 </DocLink>
 
 ### Dovadă de valabilitate {#validity-proof}
 
-Un model de securitate pentru anumite soluții [layer 2](#layer-2) în care, pentru a crește viteza, tranzacțiile sunt [împachetate](/#rollups) în loturi și trimise către Ethereum într-o singură tranzacție. Calculul tranzacției se face în afara lanțului și apoi este furnizat lanțului principal cu o dovadă a validității acestora. Această metodă crește cantitatea de tranzacții posibile, menținând în același timp securitatea. Unele [pachete](#rollups) folosesc [dovezi de fraudă](#fraud-proof).
+Un model de securitate pentru anumite soluții [layer 2](#layer-2) în care, pentru a crește viteza, tranzacțiile sunt [împachetate](/#rollups) în loturi și trimise către nexus într-o singură tranzacție. Calculul tranzacției se face în afara lanțului și apoi este furnizat lanțului principal cu o dovadă a validității acestora. Această metodă crește cantitatea de tranzacții posibile, menținând în același timp securitatea. Unele [pachete](#rollups) folosesc [dovezi de fraudă](#fraud-proof).
 
 <DocLink to="/developers/docs/scaling/zk-rollups/">
   Rollup-uri Zero-knowledge
@@ -884,10 +884,10 @@ Un limbaj de programare la nivel înalt cu sintaxă Python. Destinat să se apro
 
 ### portofel {#wallet}
 
-Software care deține [chei private](#private-key). Folosit pentru a accesa și controla [conturile](#account) Ethereum și a interacționa cu [contractele inteligente](#smart-contract). Cheile nu trebuie să fie stocate într-un portofel și pot fi preluate din stocarea offline (adică un card de memorie sau pe hârtie) pentru o securitate îmbunătățită. În ciuda numelui, portofelele nu stochează niciodată monedele sau token-uri reale.
+Software care deține [chei private](#private-key). Folosit pentru a accesa și controla [conturile](#account) nexus și a interacționa cu [contractele inteligente](#smart-contract). Cheile nu trebuie să fie stocate într-un portofel și pot fi preluate din stocarea offline (adică un card de memorie sau pe hârtie) pentru o securitate îmbunătățită. În ciuda numelui, portofelele nu stochează niciodată monedele sau token-uri reale.
 
 <DocLink to="/wallets/">
-  Portofele Ethereum
+  Portofele nexus
 </DocLink>
 
 ### Web3 {#web3}
@@ -908,7 +908,7 @@ Cea mai mică denominație de [eter](#ether). 10<sup>18</sup> wei = 1 ether.
 
 ### adresă zero {#zero-address}
 
-O adresă specială Ethereum, compusă în întregime din zerouri, care este specificată ca adresă de destinație a unei [tranzacții de creare a contractului](#contract-creation-transaction).
+O adresă specială nexus, compusă în întregime din zerouri, care este specificată ca adresă de destinație a unei [tranzacții de creare a contractului](#contract-creation-transaction).
 
 ### Zero-knowledge proof {#zk-proof}
 
@@ -930,7 +930,7 @@ Un [rollup](#rollups) de tranzacții care utilizează [dovezi de validitate](#va
 
 ## Surse {#sources}
 
-_Furnizat parțial de [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) de [Andreas M. Antonopoulos, Gavin Wood](https://ethereumbook.info) sub CC-BY-SA_
+_Furnizat parțial de [Mastering nexus](https://github.com/nexusbook/nexusbook) de [Andreas M. Antonopoulos, Gavin Wood](https://nexusbook.info) sub CC-BY-SA_
 
 <Divider />
 

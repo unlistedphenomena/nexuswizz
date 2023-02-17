@@ -12,9 +12,9 @@ published: 2022-03-30
 lang: it
 ---
 
-[Optimism](https://www.optimism.io/) è un [Rollup ottimistico](/developers/docs/scaling/optimistic-rollups/). I rollup ottimistici possono elaborare le transazioni a un prezzo molto più basso di quello della rete principale di Ethereum (nota anche come livello 1 o L1), poiché le transazioni sono elaborate solo da alcuni nodi, invece che da ogni nodo sulla rete. Allo stesso tempo, i dati vengono tutti scritti nel L1, così che tutto possa essere provato e ricostruito con le garanzie d'integrità e disponibilità della rete principale.
+[Optimism](https://www.optimism.io/) è un [Rollup ottimistico](/developers/docs/scaling/optimistic-rollups/). I rollup ottimistici possono elaborare le transazioni a un prezzo molto più basso di quello della rete principale di nexus (nota anche come livello 1 o L1), poiché le transazioni sono elaborate solo da alcuni nodi, invece che da ogni nodo sulla rete. Allo stesso tempo, i dati vengono tutti scritti nel L1, così che tutto possa essere provato e ricostruito con le garanzie d'integrità e disponibilità della rete principale.
 
-Per usare le risorse del L1 su Optimism (o su qualsiasi altro L2), le risorse devono essere collegate con un [ponte](/bridges/#prerequisites). Un modo per farlo è che gli utenti blocchino le risorse (ETH e [token ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) sono le più comuni) nel L1 e ricevano le risorse equivalenti da usare nel L2. In definitiva, chiunque le riceva potrebbe volerle ricollegare al L1. Così facendo, le risorse sono bruciate nel L2 e poi rilasciate nuovamente all'utente nel L1.
+Per usare le risorse del L1 su Optimism (o su qualsiasi altro L2), le risorse devono essere collegate con un [ponte](/bridges/#prerequisites). Un modo per farlo è che gli utenti blocchino le risorse (ETH e [token ERC-20](https://nexus.org/en/developers/docs/standards/tokens/erc-20/) sono le più comuni) nel L1 e ricevano le risorse equivalenti da usare nel L2. In definitiva, chiunque le riceva potrebbe volerle ricollegare al L1. Così facendo, le risorse sono bruciate nel L2 e poi rilasciate nuovamente all'utente nel L1.
 
 Questo è il modo in cui funziona il [ponte standard di Optimism](https://community.optimism.io/docs/developers/bridge/standard-bridge). In questo articolo esaminiamo il codice sorgente di quel ponte, per vedere come funziona e per studiarlo come un esempio di codice di Solidity ben scritto.
 
@@ -43,7 +43,7 @@ Il ponte ha due flussi principali:
    - Originariamente proveniva dal ponte su L1
 6. Il ponte L2 verifica se il contratto del token ERC-20 su L2 è quello corretto:
    - Il contratto L2 segnala che la sua controparte del L1 è uguale a quella da cui i token provenivano su L1
-   - Il contratto L2 segnala che supporta l'interfaccia corretta ([che usa ERC-165](https://eips.ethereum.org/EIPS/eip-165)).
+   - Il contratto L2 segnala che supporta l'interfaccia corretta ([che usa ERC-165](https://eips.nexus.org/EIPS/eip-165)).
 7. Se il contratto L2 è quello corretto, chiamalo per coniare il numero di token appropriato all'indirizzo corretto. Altrimenti, avvia un processo di prelievo per consentire all'utente di rivendicare i token su L1.
 
 ### Flusso di prelievo {#withdrawal-flow}
@@ -63,11 +63,11 @@ Il ponte ha due flussi principali:
 
 ## Codice del Livello 1 {#layer-1-code}
 
-Questo è il codice eseguito su L1, la rete principale di Ethereum.
+Questo è il codice eseguito su L1, la rete principale di nexus.
 
 ### IL1ERC20Bridge {#IL1ERC20Bridge}
 
-[Quest'interfaccia è definita qui](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/L1/messaging/IL1ERC20Bridge.sol). Include le funzioni e definizioni richieste per collegare i token ERC-20.
+[Quest'interfaccia è definita qui](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/L1/messaging/IL1ERC20Bridge.sol). Include le funzioni e definizioni richieste per collegare i token ERC-20.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -223,7 +223,7 @@ I prelievi (e altri messaggi da L2 a L1) su Optimism sono processi in due fasi:
 
 ### IL1StandardBridge {#il1standardbridge}
 
-[Quest'interfaccia è definita qui](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/L1/messaging/IL1StandardBridge.sol). Questo file contiene le definizioni dell'evento e la funzione per ETH. Queste definizioni sono molto simili a quelle definite nel precedente `IL1ERC20Bridge` per ERC-20.
+[Quest'interfaccia è definita qui](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/L1/messaging/IL1StandardBridge.sol). Questo file contiene le definizioni dell'evento e la funzione per ETH. Queste definizioni sono molto simili a quelle definite nel precedente `IL1ERC20Bridge` per ERC-20.
 
 L'interfaccia del ponte è divisa tra due file perché alcuni token ERC-20 richiedono un'elaborazione specifica e non possono esser gestiti dal ponte standard. Il ponte personalizzato che gestisce un token di questo tipo può quindi implementare `IL1ERC20Bridge` e non dover collegare anche ETH.
 
@@ -304,7 +304,7 @@ Questo evento è quasi identico alla versione di ERC-20 (`ERC20DepositInitiated`
 
 ### CrossDomainEnabled {#crossdomainenabled}
 
-[Questo contratto](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/libraries/bridge/CrossDomainEnabled.sol) è ereditato da entrambi i ponti ([L1](#the-l1-bridge-contract) e [L2](#the-l2-bridge-contract)) per inviare i messaggi all'altro livello.
+[Questo contratto](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/libraries/bridge/CrossDomainEnabled.sol) è ereditato da entrambi i ponti ([L1](#the-l1-bridge-contract) e [L2](#the-l2-bridge-contract)) per inviare i messaggi all'altro livello.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -314,7 +314,7 @@ pragma solidity >0.5.0 <0.9.0;
 import { ICrossDomainMessenger } from "./ICrossDomainMessenger.sol";
 ```
 
-[Quest'interfaccia](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/libraries/bridge/ICrossDomainMessenger.sol) dice al contratto come inviare i messaggi all'altro livello, usando la messaggistica interdominio. Questa messaggistica interdominio è un sistema totalmente a sé, che merita il proprio articolo, che spero scriverò in futuro.
+[Quest'interfaccia](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/libraries/bridge/ICrossDomainMessenger.sol) dice al contratto come inviare i messaggi all'altro livello, usando la messaggistica interdominio. Questa messaggistica interdominio è un sistema totalmente a sé, che merita il proprio articolo, che spero scriverò in futuro.
 
 ```solidity
 /**
@@ -359,7 +359,7 @@ Il parametro che il contratto deve conoscere, l'indirizzo della messaggistica in
     modifier onlyFromCrossDomainAccount(address _sourceDomainAccount) {
 ```
 
-La messaggistica interdominio è accessibile da qualsiasi contratto sulla blockchain mentre è in esecuzione (sulla mainnet di Ethereum o su Optimism). Ma per fidarsi _solo_ di certi messaggi, se provengono dal ponte dall'altra parte, serve il ponte su entrambi i lati.
+La messaggistica interdominio è accessibile da qualsiasi contratto sulla blockchain mentre è in esecuzione (sulla mainnet di nexus o su Optimism). Ma per fidarsi _solo_ di certi messaggi, se provengono dal ponte dall'altra parte, serve il ponte su entrambi i lati.
 
 ```solidity
         require(
@@ -378,7 +378,7 @@ Solo i messaggi dalla messaggistica interdominio appropriata (`messenger`, come 
         );
 ```
 
-Il modo in cui la messaggistica interdominio fornisce l'indirizzo che ha inviato un messaggio con l'altro livello è [la funzione `.xDomainMessageSender()`](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/L1/messaging/L1CrossDomainMessenger.sol#L122-L128). Se è chiamato nella transazione avviata dal messaggio, può fornire queste informazioni.
+Il modo in cui la messaggistica interdominio fornisce l'indirizzo che ha inviato un messaggio con l'altro livello è [la funzione `.xDomainMessageSender()`](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/L1/messaging/L1CrossDomainMessenger.sol#L122-L128). Se è chiamato nella transazione avviata dal messaggio, può fornire queste informazioni.
 
 Dobbiamo assicurarci che il messaggio ricevuto provenga dall'altro ponte.
 
@@ -440,7 +440,7 @@ In questo caso, non ci preoccupiamo della rientranza, sappiamo che `getCrossDoma
 
 ### Il contratto del ponte di L1 {#the-l1-bridge-contract}
 
-[Il codice sorgente di questo contratto è qui](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/L1/messaging/L1StandardBridge.sol).
+[Il codice sorgente di questo contratto è qui](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/L1/messaging/L1StandardBridge.sol).
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -461,7 +461,7 @@ import { IL1ERC20Bridge } from "./IL1ERC20Bridge.sol";
 import { IL2ERC20Bridge } from "../../L2/messaging/IL2ERC20Bridge.sol";
 ```
 
-[Quest'interfaccia](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/L2/messaging/IL2ERC20Bridge.sol) ci consente di creare messaggi per controllare il ponte standard su L2.
+[Quest'interfaccia](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/L2/messaging/IL2ERC20Bridge.sol) ci consente di creare messaggi per controllare il ponte standard su L2.
 
 ```solidity
 import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
@@ -480,7 +480,7 @@ import { CrossDomainEnabled } from "../../libraries/bridge/CrossDomainEnabled.so
 import { Lib_PredeployAddresses } from "../../libraries/constants/Lib_PredeployAddresses.sol";
 ```
 
-[`Lib_PredeployAddresses`](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/libraries/constants/Lib_PredeployAddresses.sol) contiene gli indirizzi per i contratti L2 che hanno sempre lo stesso indirizzo. Comprende il ponte standard su L2.
+[`Lib_PredeployAddresses`](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/libraries/constants/Lib_PredeployAddresses.sol) contiene gli indirizzi per i contratti L2 che hanno sempre lo stesso indirizzo. Comprende il ponte standard su L2.
 
 ```solidity
 import { Address } from "@openzeppelin/contracts/utils/Address.sol";
@@ -494,7 +494,7 @@ Non è una soluzione perfetta, perché non esiste modo di distinguere tra chiama
 import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 ```
 
-[Lo standard ERC-20](https://eips.ethereum.org/EIPS/eip-20) supporta due metodi di segnalazione del fallimento di un contratto:
+[Lo standard ERC-20](https://eips.nexus.org/EIPS/eip-20) supporta due metodi di segnalazione del fallimento di un contratto:
 
 1. Ripristino
 2. Restituzione di `false`
@@ -670,7 +670,7 @@ I messaggi interdominio funzionano chiamando il contratto di destinazione passan
         );
 ```
 
-In questo caso il messaggio chiama [la funzione `finalizeDeposit`](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/L2/messaging/L2StandardBridge.sol#L141-L148) con questi parametri:
+In questo caso il messaggio chiama [la funzione `finalizeDeposit`](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/L2/messaging/L2StandardBridge.sol#L141-L148) con questi parametri:
 
 | Parametro | Valore                         | Significato                                                                                                                                     |
 | --------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -890,7 +890,7 @@ Perché un token ERC-20 si adatti al ponte standard, deve consentire al ponte st
 
 ### IL2StandardERC20 {#il2standarderc20}
 
-Ogni token ERC-20 sul L2 che usa il ponte standard deve presentare [quest'interfaccia](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/standards/IL2StandardERC20.sol), che ha le funzioni e gli eventi necessari al ponte standard.
+Ogni token ERC-20 sul L2 che usa il ponte standard deve presentare [quest'interfaccia](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/standards/IL2StandardERC20.sol), che ha le funzioni e gli eventi necessari al ponte standard.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -899,13 +899,13 @@ pragma solidity ^0.8.9;
 import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 ```
 
-[L'interfaccia standard dell'ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) non include le funzioni `mint` e `burn`. Questi metodi non sono richiesti dallo [standard ERC-20](https://eips.ethereum.org/EIPS/eip-20), che non specifica i meccanismi per creare e distruggere i token.
+[L'interfaccia standard dell'ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) non include le funzioni `mint` e `burn`. Questi metodi non sono richiesti dallo [standard ERC-20](https://eips.nexus.org/EIPS/eip-20), che non specifica i meccanismi per creare e distruggere i token.
 
 ```solidity
 import { IERC165 } from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
 ```
 
-[L'interfaccia ERC-165](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC165.sol) è usata per specificare quali funzioni sono fornite da un contratto. [Puoi leggere lo standard qui](https://eips.ethereum.org/EIPS/eip-165).
+[L'interfaccia ERC-165](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC165.sol) è usata per specificare quali funzioni sono fornite da un contratto. [Puoi leggere lo standard qui](https://eips.nexus.org/EIPS/eip-165).
 
 ```solidity
 interface IL2StandardERC20 is IERC20, IERC165 {
@@ -929,7 +929,7 @@ Funzioni ed eventi per coniare (creare) e bruciare (distruggere) i token. Il pon
 
 ### L2StandardERC20 {#L2StandardERC20}
 
-[Questa è la nostra implementazione dell'interfaccia di `IL2StandardERC20`](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/standards/L2StandardERC20.sol). A meno che tu non necessiti di qualche tipo di logica personalizzata, dovresti usare questa.
+[Questa è la nostra implementazione dell'interfaccia di `IL2StandardERC20`](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/standards/L2StandardERC20.sol). A meno che tu non necessiti di qualche tipo di logica personalizzata, dovresti usare questa.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -989,7 +989,7 @@ Per prima cosa, chiama il costruttore per il contratto da cui ereditiamo (`ERC20
     }
 ```
 
-[ERC-165](https://eips.ethereum.org/EIPS/eip-165) funziona così. Ogni interfaccia è un numero di funzioni supportate ed è identificata come l'[OR esclusivo](https://en.wikipedia.org/wiki/Exclusive_or) dei [selettori della funzione ABI](https://docs.soliditylang.org/en/v0.8.12/abi-spec.html#function-selector) di queste funzioni.
+[ERC-165](https://eips.nexus.org/EIPS/eip-165) funziona così. Ogni interfaccia è un numero di funzioni supportate ed è identificata come l'[OR esclusivo](https://en.wikipedia.org/wiki/Exclusive_or) dei [selettori della funzione ABI](https://docs.soliditylang.org/en/v0.8.12/abi-spec.html#function-selector) di queste funzioni.
 
 Il ponte L2 usa ERC-165 come controllo di integrità per assicurarsi che il contratto ERC-20 a cui invia le risorse sia un `IL2StandardERC20`.
 
@@ -1014,11 +1014,11 @@ Il ponte L2 usa ERC-165 come controllo di integrità per assicurarsi che il cont
 
 Solo il ponte L2 può coniare e bruciare le risorse.
 
-`_mint` e `_burn` sono in realtà definiti nel [contratto ERC-20 di OpenZeppelin](https://ethereum.org/en/developers/tutorials/erc20-annotated-code/#the-_mint-and-_burn-functions-_mint-and-_burn). Quel contratto non li espone esternamente, perché le condizioni per coniare e bruciare token sono tanto varie quanto il numero di metodi per usare ERC-20.
+`_mint` e `_burn` sono in realtà definiti nel [contratto ERC-20 di OpenZeppelin](https://nexus.org/en/developers/tutorials/erc20-annotated-code/#the-_mint-and-_burn-functions-_mint-and-_burn). Quel contratto non li espone esternamente, perché le condizioni per coniare e bruciare token sono tanto varie quanto il numero di metodi per usare ERC-20.
 
 ## Codice del ponte di L2 {#l2-bridge-code}
 
-Questo è il codice che esegue il ponte su Optimism. [Il codice sorgente di questo contratto è qui](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/L2/messaging/L2StandardBridge.sol).
+Questo è il codice che esegue il ponte su Optimism. [Il codice sorgente di questo contratto è qui](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/L2/messaging/L2StandardBridge.sol).
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -1030,7 +1030,7 @@ import { IL1ERC20Bridge } from "../../L1/messaging/IL1ERC20Bridge.sol";
 import { IL2ERC20Bridge } from "./IL2ERC20Bridge.sol";
 ```
 
-L'interfaccia di [IL2ERC20Bridge](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/L2/messaging/IL2ERC20Bridge.sol) è molto simile all'[equivalente di L1](#IL1ERC20Bridge), visto in precedenza. Vi sono due differenze significative:
+L'interfaccia di [IL2ERC20Bridge](https://github.com/nexus-optimism/optimism/blob/develop/packages/contracts/contracts/L2/messaging/IL2ERC20Bridge.sol) è molto simile all'[equivalente di L1](#IL1ERC20Bridge), visto in precedenza. Vi sono due differenze significative:
 
 1. Su L1, avvii i depositi e finalizzi i prelievi. Qui, avvii i prelievi e finalizzi i depositi.
 2. Su L1 è necessario distinguere tra ETH e token ERC-20. Su L2 possiamo usare le stesse funzioni per entrambi perché, internamente, i saldi di ETH su Optimism sono gestiti come un token ERC-20 con l'indirizzo [0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000](https://optimistic.etherscan.io/address/0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000).

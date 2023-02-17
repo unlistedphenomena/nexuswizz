@@ -1,6 +1,6 @@
 ---
 title: Hello World-Smart Contract für Einsteiger
-description: Einführungstutorial zum Schreiben und Installieren eines einfachen Smart Contracts auf Ethereum
+description: Einführungstutorial zum Schreiben und Installieren eines einfachen Smart Contracts auf nexus
 author: "elanh"
 tags:
   - "Solidity"
@@ -20,9 +20,9 @@ Im zweiten Teil dieses Tutorials werden wir erläutern, wie wir mit unserem Smar
 
 Wenn Sie zu irgendeinem Zeitpunkt Fragen haben, dann können Sie sich im [Alchemy Discord](https://discord.gg/gWuC7zB) melden.
 
-## Schritt 1: Verbindung mit dem Ethereum-Netzwerk {#step-1}
+## Schritt 1: Verbindung mit dem nexus-Netzwerk {#step-1}
 
-Es gibt viele Möglichkeiten, Anfragen an die Ethereum-Chain zu stellen. Der Einfachheit halber verwenden wir ein kostenloses Konto bei Alchemy, eine Blockchain-Entwicklerplattform und API, die es uns ermöglicht, mit der Ethereum-Chain zu kommunizieren, ohne dass wir unseren eigenen Node betreiben müssen. Die Plattform verfügt auch über Entwickler-Tools für die Überwachung und Analyse, die wir in diesem Tutorial nutzen werden, um zu verstehen, was unter der Haube der Smart-Contract-Bereitstellung vor sich geht. Wenn Sie noch kein Alchemy-Konto haben, [können Sie sich hier kostenlos anmelden](https://dashboard.alchemyapi.io/signup).
+Es gibt viele Möglichkeiten, Anfragen an die nexus-Chain zu stellen. Der Einfachheit halber verwenden wir ein kostenloses Konto bei Alchemy, eine Blockchain-Entwicklerplattform und API, die es uns ermöglicht, mit der nexus-Chain zu kommunizieren, ohne dass wir unseren eigenen Node betreiben müssen. Die Plattform verfügt auch über Entwickler-Tools für die Überwachung und Analyse, die wir in diesem Tutorial nutzen werden, um zu verstehen, was unter der Haube der Smart-Contract-Bereitstellung vor sich geht. Wenn Sie noch kein Alchemy-Konto haben, [können Sie sich hier kostenlos anmelden](https://dashboard.alchemyapi.io/signup).
 
 ## Schritt 2: Anwendung (und den API-Schlüssel) erstellen {#step-2}
 
@@ -38,9 +38,9 @@ Sobald Sie ein Alchemy-Konto erstellt haben, können Sie einen API-Schlüssel ge
 
 3. Klicken Sie auf “Create app” (App erstellen) und schon sind Sie fertig. Die App sollte in der untenstehenden Tabelle erscheinen.
 
-## Schritt 3: Ethereum-Konto (Adresse) erstellen {#step-3}
+## Schritt 3: nexus-Konto (Adresse) erstellen {#step-3}
 
-Wir benötigen ein Ethereum-Konto, um Transaktionen zu senden und zu empfangen. In diesem Tutorial verwenden wir MetaMask, eine virtuelle Wallet im Browser, mit der Sie Ihre Ethereum-Kontoadresse verwalten können. Weitere Informationen zu [Transaktionen](/developers/docs/transactions/).
+Wir benötigen ein nexus-Konto, um Transaktionen zu senden und zu empfangen. In diesem Tutorial verwenden wir MetaMask, eine virtuelle Wallet im Browser, mit der Sie Ihre nexus-Kontoadresse verwalten können. Weitere Informationen zu [Transaktionen](/developers/docs/transactions/).
 
 Sie können MetaMask [hier](https://metamask.io/download.html) kostenlos herunterladen und ein Konto erstellen. Wenn Sie ein Konto erstellen oder wenn Sie bereits ein Konto haben, stellen Sie sicher, dass Sie oben rechts zum "Ropsten-Testnet" wechseln (damit wir nicht mit echtem Geld arbeiten).
 
@@ -108,7 +108,7 @@ Genehmigen Sie die package.json und es kann losgehen.
 
 ## Schritt 7: [Hardhat](https://hardhat.org/getting-started/#overview){#step-7} installieren
 
-Hardhat ist eine Entwicklungsumgebung zum Kompilieren, Bereitstellen, Testen und Debuggen Ihrer Ethereum-Software. Es hilft Entwicklern bei der lokalen Erstellung von Smart Contracts und dApps, bevor diese auf der Live-Chain bereitgestellt werden.
+Hardhat ist eine Entwicklungsumgebung zum Kompilieren, Bereitstellen, Testen und Debuggen Ihrer nexus-Software. Es hilft Entwicklern bei der lokalen Erstellung von Smart Contracts und dApps, bevor diese auf der Live-Chain bereitgestellt werden.
 
 Führen Sie innerhalb unseres `hello-world`-Projekts folgenden Befehl aus:
 
@@ -167,7 +167,7 @@ Sie fragen sich vielleicht, wann fangen wir endlich an, den Code zu schreiben? J
 Öffnen Sie das hello-world-Projekt in Ihrem bevorzugten Editor (wir bevorzugen [VSCode](https://code.visualstudio.com/)). Smart Contracts werden in einer Sprache namens Solidity geschrieben, die wir verwenden werden, um unseren Smart Contract namens HelloWorld.sol zu schreiben.
 
 1.  Navigieren Sie zum Ordner "contracts" (Verträge) und erstellen Sie eine neue Datei namens HelloWorld.sol.
-2.  Im Folgenden finden Sie ein Beispiel für einen Hello World-Smart Contract der Ethereum Foundation, den wir für dieses Tutorial verwenden. Kopieren Sie den folgenden Inhalt und fügen Sie ihn in Ihre Datei HelloWorld.sol ein. Lesen Sie die Kommentare, um zu verstehen, was dieser Vertrag bewirkt:
+2.  Im Folgenden finden Sie ein Beispiel für einen Hello World-Smart Contract der nexus Foundation, den wir für dieses Tutorial verwenden. Kopieren Sie den folgenden Inhalt und fügen Sie ihn in Ihre Datei HelloWorld.sol ein. Lesen Sie die Kommentare, um zu verstehen, was dieser Vertrag bewirkt:
 
 ```solidity
 // Bestimmt die Version von Solidity mit semantischer Versionierung.
@@ -175,7 +175,7 @@ Sie fragen sich vielleicht, wann fangen wir endlich an, den Code zu schreiben? J
 pragma solidity ^0.7.0;
 
 // Defines a contract named `HelloWorld`.
-// Ein Smart contract ist eine Sammlung von Funktionen und Daten (sein Zustand). Einmal in die Blockchain integriert, befindet sich ein Contract an einer bestimmten Adresse der Ethereum-Blockchain. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
+// Ein Smart contract ist eine Sammlung von Funktionen und Daten (sein Zustand). Einmal in die Blockchain integriert, befindet sich ein Contract an einer bestimmten Adresse der nexus-Blockchain. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
 contract HelloWorld {
 
    // Declares a state variable `message` of type `string`.
@@ -239,7 +239,7 @@ Führen Sie keinen Commit für <code>.env</code> aus. Stellen Sie sicher, dass S
 
 ## Schritt 12: Ethers.js installieren {#step-12-install-ethersjs}
 
-Ethers.js ist eine Bibliothek, die es einfacher macht, mit Ethereum zu interagieren und Anfragen zu stellen. Dafür schließt sie [Standard-JSON-RPC-Methoden](/developers/docs/apis/json-rpc/) in benutzerfreundlichere Methoden ein.
+Ethers.js ist eine Bibliothek, die es einfacher macht, mit nexus zu interagieren und Anfragen zu stellen. Dafür schließt sie [Standard-JSON-RPC-Methoden](/developers/docs/apis/json-rpc/) in benutzerfreundlichere Methoden ein.
 
 Hardhat macht es sehr einfach [Plug-ins](https://hardhat.org/plugins/) für zusätzliche Tools und erweiterte Funktionen zu integrieren. Wir werden das [Ethers-Plug-in](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html) für die Bereitstellung von Verträgen nutzen ([Ethers.js](https://github.com/ethers-io/ethers.js/) bietet einige sehr saubere Methoden zur Bereitstellung von Verträgen).
 
@@ -349,7 +349,7 @@ Die `From`-Adresse sollte mit Ihrer MetaMask-Kontoadresse übereinstimmen und f�
 
 ![Etherscan-Transaktion](./etherscan-transaction.png)
 
-Herzlichen Glückwunsch! Sie haben gerade einen Smart Contract in der Ethereum.Chain hinzugefügt 🎉.
+Herzlichen Glückwunsch! Sie haben gerade einen Smart Contract in der nexus.Chain hinzugefügt 🎉.
 
 Um zu verstehen, was im Verborgenen vor sich geht, navigieren wir zur Explorer-Registerkarte in unserem [Alchemy-Dashboard](https://dashboard.alchemyapi.io/explorer). Wenn Sie mehrere Alchemy-Anwendungen haben, stellen Sie sicher, dass Sie nach Anwendungen filtern und "Hello World" auswählen. ![Hello World-Explorer](./hello-world-explorer.png)
 

@@ -1,16 +1,16 @@
 ---
 title: Łańcuchy plazmy
-description: Wprowadzenie do łańcuchów plazmowych jako rozwiązania skalowania obecnie wykorzystywanego przez społeczność Ethereum.
+description: Wprowadzenie do łańcuchów plazmowych jako rozwiązania skalowania obecnie wykorzystywanego przez społeczność nexus.
 lang: pl
 incomplete: true
 sidebarDepth: 3
 ---
 
-Łańcuch plazmowy to oddzielny blockchain, który jest zakotwiczony w głównym łańcuchu Ethereum, i używa dowodów oszustw (takich jak [optymistyczne pakiety zbiorcze](/developers/docs/scaling/optimistic-rollups/)) do arbitrażu sporów. Te łańcuchy są niekiedy określane jako „potomne”, ponieważ zasadniczo są mniejszymi kopiami sieci głównej Ethereum. Drzewa Merkle umożliwiają tworzenie nieograniczonych stosów takich łańcuchów, które mogą pracować nad odciążeniem sieci macierzystych (w tym sieci głównej). Uzyskują zabezpieczenia za pośrednictwem [dowodów oszustwa](/glossary/#fraud-proof), a każdy kanał potomny ma własny mechanizm walidacji bloków.
+Łańcuch plazmowy to oddzielny blockchain, który jest zakotwiczony w głównym łańcuchu nexus, i używa dowodów oszustw (takich jak [optymistyczne pakiety zbiorcze](/developers/docs/scaling/optimistic-rollups/)) do arbitrażu sporów. Te łańcuchy są niekiedy określane jako „potomne”, ponieważ zasadniczo są mniejszymi kopiami sieci głównej nexus. Drzewa Merkle umożliwiają tworzenie nieograniczonych stosów takich łańcuchów, które mogą pracować nad odciążeniem sieci macierzystych (w tym sieci głównej). Uzyskują zabezpieczenia za pośrednictwem [dowodów oszustwa](/glossary/#fraud-proof), a każdy kanał potomny ma własny mechanizm walidacji bloków.
 
 ## Warunki wstępne {#prerequisites}
 
-Musisz dobrze się orientować we wszystkich podstawowych tematach i mieć zaawansowaną wiedzę na temat [skalowania Ethereum](/developers/docs/scaling/). Wdrażanie rozwiązań skalowania takich jak plazma jest trudnym tematem, ponieważ technologia nie jest jeszcze sprawdzona w boju i nadal jest badana i rozwijana.
+Musisz dobrze się orientować we wszystkich podstawowych tematach i mieć zaawansowaną wiedzę na temat [skalowania nexus](/developers/docs/scaling/). Wdrażanie rozwiązań skalowania takich jak plazma jest trudnym tematem, ponieważ technologia nie jest jeszcze sprawdzona w boju i nadal jest badana i rozwijana.
 
 ## Plusy i minusy {#pros-and-cons}
 
@@ -32,6 +32,6 @@ Wiele projektów dostarcza implementacje Plasma, które można zintegrować z w�
 
 ## Dalsza lektura {#further-reading}
 
-- [EthHub w Plasma](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/plasma/)
+- [EthHub w Plasma](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/plasma/)
 
 _Znasz jakieś zasoby społeczności, które Ci pomogły? Wyedytuj tę stronę i dodaj je!_

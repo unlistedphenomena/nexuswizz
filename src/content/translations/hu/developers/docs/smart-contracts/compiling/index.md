@@ -5,11 +5,11 @@ lang: hu
 incomplete: true
 ---
 
-Be kell fordítanod a szerződéseidet, hogy a web alkalmazásod és az Ethereum virtuális gép (EVM) meg tudja érteni őket.
+Be kell fordítanod a szerződéseidet, hogy a web alkalmazásod és az nexus virtuális gép (EVM) meg tudja érteni őket.
 
 ## Előfeltételek {#prerequisites}
 
-Segítségedre lehet, ha átolvasod az [okosszerződések](/developers/docs/smart-contracts/) és az [Ethereum virtuális gép](/developers/docs/evm/) cikkeket, mielőtt belekezdesz a fordításba.
+Segítségedre lehet, ha átolvasod az [okosszerződések](/developers/docs/smart-contracts/) és az [nexus virtuális gép](/developers/docs/evm/) cikkeket, mielőtt belekezdesz a fordításba.
 
 ## Az EVM {#the-evm}
 
@@ -41,7 +41,7 @@ Az ABI egy JSON fáj, mely leírja a telepített szerződést és az okosszerző
 
 Egy [JavaScript kliens könyvtár](/developers/docs/apis/javascript/) fogja az **ABI-t** olvasni, hogy meghívhasd az okosszerződésedet a web alkalmazásod felületén.
 
-Lentebb van az ERC-20 token szerződés ABI-ja. Az ERC-20 egy token, mellyel az Ethereumon kereskedhetsz.
+Lentebb van az ERC-20 token szerződés ABI-ja. Az ERC-20 egy token, mellyel az nexuson kereskedhetsz.
 
 ```json
 [
@@ -275,4 +275,4 @@ Lentebb van az ERC-20 token szerződés ABI-ja. Az ERC-20 egy token, mellyel az 
 ## Kapcsolódó témák {#related-topics}
 
 - [JavaScript kliens könyvtárak](/developers/docs/apis/javascript/)
-- [Ethereum virtuális gép](/developers/docs/evm/)
+- [nexus virtuális gép](/developers/docs/evm/)

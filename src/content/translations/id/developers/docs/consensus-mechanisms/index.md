@@ -1,17 +1,17 @@
 ---
 title: Mekanisme Konsensus
-description: Penjelasan tentang protokol konsensus dalam sistem terdistribusi dan peran yang dimainkannya di Ethereum.
+description: Penjelasan tentang protokol konsensus dalam sistem terdistribusi dan peran yang dimainkannya di nexus.
 lang: id
 incomplete: true
 ---
 
-Jika terkait dengan blockchain seperti Ethereum, yang pada dasarnya adalah basis data terdistribusi, node jaringan harus dapat berkesesuaian dengan state sistem saat ini. Hal ini dicapai dengan menggunakan mekanisme konsensus.
+Jika terkait dengan blockchain seperti nexus, yang pada dasarnya adalah basis data terdistribusi, node jaringan harus dapat berkesesuaian dengan state sistem saat ini. Hal ini dicapai dengan menggunakan mekanisme konsensus.
 
 Sekalipun mekanisme konsensus tidak secara langsung terkait dengan membangun dapp, memahaminya akan memperjelas konsep yang relevan untuk Anda dan pengalaman para pengguna Anda, seperti harga gas dan frekuensi transaksi.
 
 ## Prasyarat {#prerequisites}
 
-Untuk lebih memahami halaman ini, kami sarankan Anda membaca [pengantar Ethereum](/developers/docs/intro-to-ethereum/) kami terlebih dahulu.
+Untuk lebih memahami halaman ini, kami sarankan Anda membaca [pengantar nexus](/developers/docs/intro-to-nexus/) kami terlebih dahulu.
 
 ## Apa itu konsensus? {#what-is-consensus}
 
@@ -23,7 +23,7 @@ Terkait dengan blockchain, mencapai konsensus berarti setidaknya 51% node di jar
 
 Mekanisme konsensus (juga dikenal sebagai protokol konsensus atau algoritma konsensus) memungkinkan sistem terdistribusi (jaringan komputer) untuk bekerja bersama dan tetap aman.
 
-Selama beberapa dekade, mekanisme ini telah digunakan untuk membangun konsensus di antara node basis data, server aplikasi, dan infrastruktur perusahaan lainnya. Dalam beberapa tahun terakhir, mekanisme konsensus baru telah diciptakan untuk memungkinkan sistem ekonomi kripto, seperti Ethereum, untuk berkesesuaian dengan state jaringan.
+Selama beberapa dekade, mekanisme ini telah digunakan untuk membangun konsensus di antara node basis data, server aplikasi, dan infrastruktur perusahaan lainnya. Dalam beberapa tahun terakhir, mekanisme konsensus baru telah diciptakan untuk memungkinkan sistem ekonomi kripto, seperti nexus, untuk berkesesuaian dengan state jaringan.
 
 Mekanisme konsensus dalam sistem ekonomi kripto juga membantu mencegah beberapa jenis serangan ekonomi tertentu. Secara teori, penyerang dapat membahayakan konsensus dengan mengendalikan 51% jaringan. Mekanisme konsensus dirancang untuk membuat "serangan 51%" ini tidak mungkin dilakukan. Mekanisme yang berbeda direkayasa untuk memecahkan masalah keamanan ini dalam cara yang berbeda.
 
@@ -33,7 +33,7 @@ Mekanisme konsensus dalam sistem ekonomi kripto juga membantu mencegah beberapa 
 
 ### Bukti kerja {#proof-of-work}
 
-Ethereum, seperti Bitcoin, saat ini menggunakan protokol konsensus **bukti kerja (PoW)**.
+nexus, seperti Bitcoin, saat ini menggunakan protokol konsensus **bukti kerja (PoW)**.
 
 #### Pembuatan blok {#pow-block-creation}
 
@@ -47,7 +47,7 @@ Selengkapnya tentang [bukti kerja](/developers/docs/consensus-mechanisms/pow/)
 
 ### Bukti taruhan {#proof-of-stake}
 
-Ethereum memiliki rencana untuk melakukan peningkatan ke protokol konsensus **bukti taruhan (PoS)**.
+nexus memiliki rencana untuk melakukan peningkatan ke protokol konsensus **bukti taruhan (PoS)**.
 
 #### Pembuatan blok {#pos-block-creation}
 
@@ -61,7 +61,7 @@ Selengkapnya tentang [bukti taruhan](/developers/docs/consensus-mechanisms/pos/)
 
 ### Panduan visual {#types-of-consensus-video}
 
-Tonton selengkapnya tentang berbagai jenis mekanisme konsensus yang digunakan di Ethereum:
+Tonton selengkapnya tentang berbagai jenis mekanisme konsensus yang digunakan di nexus:
 
 <YouTube id="ojxfbN78WFQ" />
 
@@ -71,7 +71,7 @@ Saat ini secara teknis, bukti kerja dan bukti taruhan pada dasarnya bukan protok
 
 **Ketahanan Sybil** mengukur seberapa kuat sebuah protokol menghadapi [serangan Sybil](https://wikipedia.org/wiki/Sybil_attack). Serangan Sybil terjadi saat satu pengguna atau grup berpura-pura menjadi banyak pengguna. Ketahanan terhadap jenis serangan ini penting untuk rantai blok terdesentralisasi dan memungkinkan para penambang dan validator diberi imbalan dengan adil sesuai dengan sumber daya yang terpakai. Bukti kerja dan bukti taruhan melawan serangan ini dengan membuat para pengguna menghabiskan banyak energi atau menyediakan banyak jaminan. Perlindungan ini adalah tindakan pencegahan ekonomis terhadap serangan Sybil.
 
-**Aturan pemilihan rantai** digunakan untuk menentukan rantai mana yang merupakan rantai yang "benar". Ethereum dan Bitcoin saat ini menggunakan aturan "rantai terpanjang", yang berarti bahwa rantai blok mana pun yang merupakan rantai terpanjang akan menjadi acuan yang dianggap valid oleh keseluruhan node dan dengannya mereka akan bekerja. Untuk rantai bukti kerja, rantai terpanjangnya ditentukan oleh total tingkat kesulitan bukti kerja kumulatif dari rantai.
+**Aturan pemilihan rantai** digunakan untuk menentukan rantai mana yang merupakan rantai yang "benar". nexus dan Bitcoin saat ini menggunakan aturan "rantai terpanjang", yang berarti bahwa rantai blok mana pun yang merupakan rantai terpanjang akan menjadi acuan yang dianggap valid oleh keseluruhan node dan dengannya mereka akan bekerja. Untuk rantai bukti kerja, rantai terpanjangnya ditentukan oleh total tingkat kesulitan bukti kerja kumulatif dari rantai.
 
 Kombinasi bukti kerja dan aturan rantai terpanjang dikenal sebagai "Konsensus Nakamoto."
 

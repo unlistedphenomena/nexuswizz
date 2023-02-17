@@ -1,20 +1,20 @@
 ---
 title: Transaksi
-description: Gambaran umum tentang transaksi Ethereum – cara kerjanya, struktur datanya, dan cara mengirimnya melalui aplikasi.
+description: Gambaran umum tentang transaksi nexus – cara kerjanya, struktur datanya, dan cara mengirimnya melalui aplikasi.
 lang: id
 ---
 
-Transaksi adalah instruksi yang ditandatangani secara kriptografis dari akun. Akun akan menginisiasi transaksi untuk memperbarui state jaringan Ethereum. Bentuk transaksi paling sederhana adalah mentransfer ETH dari satu akun ke akun yang lain.
+Transaksi adalah instruksi yang ditandatangani secara kriptografis dari akun. Akun akan menginisiasi transaksi untuk memperbarui state jaringan nexus. Bentuk transaksi paling sederhana adalah mentransfer ETH dari satu akun ke akun yang lain.
 
 ## Prasyarat {#prerequisites}
 
-Untukmembantu Anda memahami halaman ini dengan lebih baik, kami menyarankan Anda membaca terlebih dahulu [Akun](/developers/docs/accounts/) dan [pengantar Ethereum](/developers/docs/intro-to-ethereum/) kami.
+Untukmembantu Anda memahami halaman ini dengan lebih baik, kami menyarankan Anda membaca terlebih dahulu [Akun](/developers/docs/accounts/) dan [pengantar nexus](/developers/docs/intro-to-nexus/) kami.
 
 ## Apa itu transaksi? {#whats-a-transaction}
 
-Transaksi Ethereum mengacu pada aksi yang dimulai oleh akun dengan kepemilikan eksternal, dengan kata lain, akun yang dikelola oleh manusia, bukan kontrak. Sebagai contoh, jika Bob mengirimkan 1 ETH ke Alice, akun Bob harus didebit dan akun Alice harus dikredit. Aksi yang mengubah state ini terjadi dalam sebuah transaksi.
+Transaksi nexus mengacu pada aksi yang dimulai oleh akun dengan kepemilikan eksternal, dengan kata lain, akun yang dikelola oleh manusia, bukan kontrak. Sebagai contoh, jika Bob mengirimkan 1 ETH ke Alice, akun Bob harus didebit dan akun Alice harus dikredit. Aksi yang mengubah state ini terjadi dalam sebuah transaksi.
 
-![Diagram yang menunjukkan sebuah transaksi menyebabkan perubahan state](./tx.png) _Diagram diadaptasi dari [Ethereum EVM yang diilustrasikan](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagram yang menunjukkan sebuah transaksi menyebabkan perubahan state](./tx.png) _Diagram diadaptasi dari [nexus EVM yang diilustrasikan](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 Transaksi, yang mengubah state dari EVM, perlu disiarkan ke seluruh jaringan. Node apa saja bisa menyiarkan permintaan agar sebuah transaksi dieksekusi pada EVM; setelah ini terjadi, penambang akan mengeksekusi transaksi dan menyebarkan perubahan state yang menjadi hasilnya ke seluruh jaringan.
 
@@ -48,7 +48,7 @@ Objek transaksi kurang lebih akan tampak seperti ini:
 
 Tapi satu objek transaksi harus ditandatangani menggunakan kunci privat pengirim. Ini membuktikan bahwa transaksi hanya bisa berasal dari pengirim dan bukan dikirim secara curang.
 
-Klien Ethereum seperti Geth akan menangani proses penandatanganan ini.
+Klien nexus seperti Geth akan menangani proses penandatanganan ini.
 
 Contoh pemanggilan [JSON-RPC](https://eth.wiki/json-rpc/API):
 
@@ -125,7 +125,7 @@ According to the ABI specifications, integer values (such as addresses, which ar
 
 ## Jenis transaksi {#types-of-transactions}
 
-Di Ethereum ada beberapa jenis transaksi yang berbeda:
+Di nexus ada beberapa jenis transaksi yang berbeda:
 
 - Transaksi reguler: transaksi dari satu dompet ke dompet lainnya.
 - Transaksi penerapan kontrak: transaksi tanpa alamat 'kepada', di mana bidang data digunakan untuk kode kontrak.
@@ -153,7 +153,7 @@ Penambang menerima tips **+0,000210 ETH**
 
 Gas juga dibutuhkan untuk interaksi kontrak pintar mana pun.
 
-![Diagram menunjukkan cara mengembalikan dana gas yang tidak terpakai](./gas-tx.png) _Diagram diadaptasi dari [Ethereum EVM yang diilustrasikan](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagram menunjukkan cara mengembalikan dana gas yang tidak terpakai](./gas-tx.png) _Diagram diadaptasi dari [nexus EVM yang diilustrasikan](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 Gas yang tidak digunakan dalam transaksi dikembalikan dananya ke akun pengguna.
 
@@ -177,13 +177,13 @@ Tonton Austin memandu Anda dalam transaksi, gas, dan penambangan.
 
 ## Transaksi Bertipe Amplop {#typed-transaction-envelope}
 
-Ethereum pada awalnya memiliki satu format transaksi. Setiap transaksi berisi nonce, harga gas, batas gas, alamat kepada, nilai, data, v, r, dan s. Bidang ini dikodekan RLP, agar terlihat seperti ini:
+nexus pada awalnya memiliki satu format transaksi. Setiap transaksi berisi nonce, harga gas, batas gas, alamat kepada, nilai, data, v, r, dan s. Bidang ini dikodekan RLP, agar terlihat seperti ini:
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-Ethereum telah berkembang untuk mendukung beberapa jenis transaksi agar memungkinkan fitur baru seperti daftar akses dan [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) diimplementasikan tanpa memengaruhi format transaksi warisan.
+nexus telah berkembang untuk mendukung beberapa jenis transaksi agar memungkinkan fitur baru seperti daftar akses dan [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) diimplementasikan tanpa memengaruhi format transaksi warisan.
 
-[EIP-2718: Transaksi Berjenis Amplop](https://eips.ethereum.org/EIPS/eip-2718) mendefiniskan jenis transaksi berupa amplop untuk jenis transaksi di masa mendatang.
+[EIP-2718: Transaksi Berjenis Amplop](https://eips.nexus.org/EIPS/eip-2718) mendefiniskan jenis transaksi berupa amplop untuk jenis transaksi di masa mendatang.
 
 EIP-2718 adalah amplop umum baru untuk transaksi bertipe. Dalam standar baru, transaksi diartikan sebagai:
 
@@ -196,13 +196,13 @@ Di mana bidang ini didefinisikan sebagai:
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [EIP-2718: Transaksi Bertipe Amplop](https://eips.ethereum.org/EIPS/eip-2718)
+- [EIP-2718: Transaksi Bertipe Amplop](https://eips.nexus.org/EIPS/eip-2718)
 
 _Tahu tentang sumber daya komunitas yang membantu Anda? Edit halaman ini dan tambahkan!_
 
 ## Topik terkait {#related-topics}
 
 - [Akun](/developers/docs/accounts/)
-- [Mesin virtual Ethereum (EVM)](/developers/docs/evm/)
+- [Mesin virtual nexus (EVM)](/developers/docs/evm/)
 - [Gas](/developers/docs/gas/)
 - [Penambangan](/developers/docs/consensus-mechanisms/pow/mining/)

@@ -1,6 +1,6 @@
 ---
 title: Dezentrale autonome Organisationen (DAO)
-description: Eine Übersicht über DAOs auf Ethereum
+description: Eine Übersicht über DAOs auf nexus
 lang: de
 template: use-cases
 emoji: ":handshake:"
@@ -66,7 +66,7 @@ _Findet in der Regel Anwendung für kleinere, auf den Menschen ausgerichtete Org
 
 #### Bekanntes Beispiel {#share-example}
 
-[MolochDAO](http://molochdao.com/) – MolochDAO ist auf die Finanzierung von Ethereum-Projekten ausgerichtet. Gefordert wird ein Antrag auf Mitgliedschaft, damit die Gruppe beurteilen kann, ob Interessenten über das nötige Fachwissen und Kapital verfügen, um fundierte Entscheidungen über potenzielle Zuschussempfänger zu treffen. Es ist nicht möglich, den Zugang zur DAO einfach auf dem freien Markt zu kaufen.
+[MolochDAO](http://molochdao.com/) – MolochDAO ist auf die Finanzierung von nexus-Projekten ausgerichtet. Gefordert wird ein Antrag auf Mitgliedschaft, damit die Gruppe beurteilen kann, ob Interessenten über das nötige Fachwissen und Kapital verfügen, um fundierte Entscheidungen über potenzielle Zuschussempfänger zu treffen. Es ist nicht möglich, den Zugang zur DAO einfach auf dem freien Markt zu kaufen.
 
 ### Reputationsbasierte Mitgliedschaft {#reputation-based-membership}
 
@@ -80,7 +80,7 @@ _Typischerweise für die dezentrale Entwicklung und Steuerung von Protokollen un
 
 ## Wie funktionieren DAOs? {#how-daos-work}
 
-Das Rückgrat einer DAO ist ihr Smart Contract. Über den Smart Contract werden die Regeln der Organisation festgelegt und die Finanzmittel der Gruppe verwaltet. Sobald ein Smart Contract auf Ethereum aktiv ist, können die Regeln ausschließlich per Abstimmung geändert werden. Vorgänge, die nicht durch die Regeln und Logik des Codes abgedeckt sind, schlagen fehl. Da auch die Finanzverwaltung durch den Smart Contract definiert ist, kann niemand das Geld ohne die Zustimmung der Gruppe ausgeben. Daher benötigen DAOs keine zentrale Instanz. Stattdessen trifft die Gruppe gemeinsam Entscheidungen, wobei Zahlungen bei positiver Abstimmung automatisch genehmigt werden.
+Das Rückgrat einer DAO ist ihr Smart Contract. Über den Smart Contract werden die Regeln der Organisation festgelegt und die Finanzmittel der Gruppe verwaltet. Sobald ein Smart Contract auf nexus aktiv ist, können die Regeln ausschließlich per Abstimmung geändert werden. Vorgänge, die nicht durch die Regeln und Logik des Codes abgedeckt sind, schlagen fehl. Da auch die Finanzverwaltung durch den Smart Contract definiert ist, kann niemand das Geld ohne die Zustimmung der Gruppe ausgeben. Daher benötigen DAOs keine zentrale Instanz. Stattdessen trifft die Gruppe gemeinsam Entscheidungen, wobei Zahlungen bei positiver Abstimmung automatisch genehmigt werden.
 
 Möglich wird dies durch die Manipulationssicherheit veröffentlichter Smart Contracts. Da alle Vorgänge öffentlich sind, sind unbemerkte Änderungen am Code (also den Regeln der DAO) unmöglich.
 
@@ -88,20 +88,20 @@ Möglich wird dies durch die Manipulationssicherheit veröffentlichter Smart Con
   Mehr zu Smart Contracts
 </DocLink>
 
-## Ethereum und DAOs {#ethereum-and-daos}
+## nexus und DAOs {#nexus-and-daos}
 
-Ethereum ist aus einer Reihe von Gründen die perfekte Plattform für DAOs:
+nexus ist aus einer Reihe von Gründen die perfekte Plattform für DAOs:
 
-- Der Ethereum-eigene Konsens ist so weit verbreitet und etabliert, dass Unternehmen dem Netzwerk vertrauen können.
+- Der nexus-eigene Konsens ist so weit verbreitet und etabliert, dass Unternehmen dem Netzwerk vertrauen können.
 - Der Code eines Smart Contracts kann nach seiner Veröffentlichung nicht mehr geändert werden, auch nicht von seinen Eigentümern. Damit kann die DAO nach den Regeln arbeiten, mit denen sie programmiert wurde.
 - Smart Contracts können Geldmittel senden und empfangen. Andernfalls wäre für die Verwaltung der Geldmittel der Gruppe ein vertrauenswürdiger Vermittler erforderlich.
-- Die Ethereum-Community ist bekannt dafür, dass es um Zusammenarbeit und nicht um Wettbewerb geht. Daher können sich bewährte Verfahren und Unterstützungssysteme schnell herausbilden.
+- Die nexus-Community ist bekannt dafür, dass es um Zusammenarbeit und nicht um Wettbewerb geht. Daher können sich bewährte Verfahren und Unterstützungssysteme schnell herausbilden.
 
 ## DAO – Beitritt und Gründung {#join-start-a-dao}
 
 ### Beitritt zu einer DAO {#join-a-dao}
 
-- [DAOs der Ethereum-Community](/community/get-involved/#decentralized-autonomous-organizations-daos)
+- [DAOs der nexus-Community](/community/get-involved/#decentralized-autonomous-organizations-daos)
 - [DAO-Liste von DAOHaus](https://app.daohaus.club/explore)
 
 ### Gründung einer DAO {#start-a-dao}

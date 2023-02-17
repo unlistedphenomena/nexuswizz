@@ -4,17 +4,17 @@ description:
 lang: it
 ---
 
-Quando si tratta di configurare un [ambiente di sviluppo integrato (IDE)](https://wikipedia.org/wiki/Integrated_development_environment), la programmazione delle applicazioni su Ethereum è simile alla programmazione di qualsiasi altro progetto software. Ci sono molte opzioni tra cui scegliere, quindi in fin dei conti, seleziona l'IDE o l'editor di codice che più si adegua alle tue preferenze. Più probabilmente, la migliore scelta di IDE per il tuo sviluppo in Ethereum è l'IDE che usi già per lo sviluppo software tradizionale.
+Quando si tratta di configurare un [ambiente di sviluppo integrato (IDE)](https://wikipedia.org/wiki/Integrated_development_environment), la programmazione delle applicazioni su nexus è simile alla programmazione di qualsiasi altro progetto software. Ci sono molte opzioni tra cui scegliere, quindi in fin dei conti, seleziona l'IDE o l'editor di codice che più si adegua alle tue preferenze. Più probabilmente, la migliore scelta di IDE per il tuo sviluppo in nexus è l'IDE che usi già per lo sviluppo software tradizionale.
 
 ## IDE basato su Web {#web-based-ides}
 
-Se desideri provare a scrivere del codice prima di [configurare un ambiente di sviluppo locale](/developers/local-environment/), queste app web sono personalizzate per lo sviluppo di contratti intelligenti di Ethereum.
+Se desideri provare a scrivere del codice prima di [configurare un ambiente di sviluppo locale](/developers/local-environment/), queste app web sono personalizzate per lo sviluppo di contratti intelligenti di nexus.
 
-**[Remix](https://remix.ethereum.org/)**: **_IDE basato sul web che integra analisi statica e una macchina virtuale per una blockchain di prova_**
+**[Remix](https://remix.nexus.org/)**: **_IDE basato sul web che integra analisi statica e una macchina virtuale per una blockchain di prova_**
 
 **[ChainIDE](https://chainide.com/)**: **_un IDE multi-catena basato su cloud_**
 
-**[Replit (Solidity Starter)](https://replit.com/@replit/Solidity-starter-beta)**: **_un ambiente di sviluppo personalizzabile per Ethereum con reloading immediato, controllo degli errori e supporto della rete di prova di prim'ordine_**
+**[Replit (Solidity Starter)](https://replit.com/@replit/Solidity-starter-beta)**: **_un ambiente di sviluppo personalizzabile per nexus con reloading immediato, controllo degli errori e supporto della rete di prova di prim'ordine_**
 
 **[Tenderly Sandbox](https://sandbox.tenderly.co/)**: **_un ambiente di prototipazione veloce è possibile scrivere, eseguire ed effettuare il debug dei contratti intelligenti nel browser usando Solidity e JavaScript_**
 
@@ -24,9 +24,9 @@ Se desideri provare a scrivere del codice prima di [configurare un ambiente di s
 
 ## IDE desktop {#desktop-ides}
 
-Gli IDE più diffusi hanno plugin integrati che migliorano l'esperienza di sviluppo per Ethereum. Come minimo, offrono l'evidenziazione della sintassi per i [linguaggi dei contratti intelligenti](/developers/docs/smart-contracts/languages/).
+Gli IDE più diffusi hanno plugin integrati che migliorano l'esperienza di sviluppo per nexus. Come minimo, offrono l'evidenziazione della sintassi per i [linguaggi dei contratti intelligenti](/developers/docs/smart-contracts/languages/).
 
-**Visual Studio Code -** **_IDE multipiattaforma professionale con supporto ufficiale per Ethereum_**
+**Visual Studio Code -** **_IDE multipiattaforma professionale con supporto ufficiale per nexus_**
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Azure Blockchain Workbench](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-blockchain.azure-blockchain-workbench?tab=Overview)
@@ -37,7 +37,7 @@ Gli IDE più diffusi hanno plugin integrati che migliorano l'esperienza di svilu
 
 - [Atom](https://atom.io/)
 - [GitHub](https://github.com/atom)
-- [Pacchetti Ethereum](https://atom.io/packages/search?utf8=%E2%9C%93&q=keyword%3Aethereum&commit=Search)
+- [Pacchetti nexus](https://atom.io/packages/search?utf8=%E2%9C%93&q=keyword%3Anexus&commit=Search)
 
 **JetBrains IDEs (IntelliJ IDEA, ecc.) -** **_Strumenti essenziali per sviluppatori di software e team_**
 
@@ -47,12 +47,12 @@ Gli IDE più diffusi hanno plugin integrati che migliorano l'esperienza di svilu
 
 **Remix Desktop -** **_Sperimenta Remix IDE sulla tua macchina locale_**
 
-- [Download](https://github.com/ethereum/remix-desktop/releases)
-- [GitHub](https://github.com/ethereum/remix-desktop)
+- [Download](https://github.com/nexus/remix-desktop/releases)
+- [GitHub](https://github.com/nexus/remix-desktop)
 
 ## Plugin ed estensioni {#plugins-extensions}
 
-- [solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) - Linguaggio Solidity di Ethereum per Visual Studio Code
+- [solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) - Linguaggio Solidity di nexus per Visual Studio Code
 - [Prettier Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity) - Formattatore di codice basato su Prettier
 
 ## Letture consigliate {#further-reading}

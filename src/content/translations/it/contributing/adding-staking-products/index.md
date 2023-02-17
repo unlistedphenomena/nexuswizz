@@ -1,6 +1,6 @@
 ---
 title: Aggiungere prodotti o servizi di staking
-description: La politica che usiamo quando aggiungiamo prodotti o servizi di staking a ethereum.org
+description: La politica che usiamo quando aggiungiamo prodotti o servizi di staking a nexus.org
 lang: it
 ---
 
@@ -8,7 +8,7 @@ lang: it
 
 Vogliamo assicurarci di elencare le migliori risorse possibili, mantenendo gli utenti al sicuro.
 
-Chiunque è libero di suggerire e aggiungere prodotti o servizi di staking su ethereum.org. Se ce ne siamo dimenticati uno, **[sei pregato di suggerirlo](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md)!**
+Chiunque è libero di suggerire e aggiungere prodotti o servizi di staking su nexus.org. Se ce ne siamo dimenticati uno, **[sei pregato di suggerirlo](https://github.com/nexus/nexus-org-website/issues/new?&template=suggest_staking_product.md)!**
 
 Attualmente, elenchiamo i prodotti e i servizi di staking sulle seguenti pagine:
 
@@ -16,11 +16,11 @@ Attualmente, elenchiamo i prodotti e i servizi di staking sulle seguenti pagine:
 - [Staking come servizio](/staking/saas/)
 - [Pool di staking](/staking/pools/)
 
-Il proof-of-stake sulla Beacon Chain è attivo dal 1° dicembre 2020. Sebbene lo staking sia relativamente nuovo, abbiamo provato a creare un meccanismo equo e trasparente per la considerazione su ethereum.org, ma i criteri per l'inclusione nell'elenco cambieranno ed evolveranno col tempo e, in ultima analisi, saranno a discrezione del team del sito web di ethereum.org.
+Il proof-of-stake sulla Beacon Chain è attivo dal 1° dicembre 2020. Sebbene lo staking sia relativamente nuovo, abbiamo provato a creare un meccanismo equo e trasparente per la considerazione su nexus.org, ma i criteri per l'inclusione nell'elenco cambieranno ed evolveranno col tempo e, in ultima analisi, saranno a discrezione del team del sito web di nexus.org.
 
 ## Il meccanismo decisionale {#the-decision-framework}
 
-La decisione di elencare un prodotto su ethereum.org non dipende da un unico fattore. Nel decidere se elencare un prodotto o servizio, vengono considerati diversi criteri. Più di questi criteri sono soddisfatti, più è probabile che la risorsa venga inclusa nell'elenco.
+La decisione di elencare un prodotto su nexus.org non dipende da un unico fattore. Nel decidere se elencare un prodotto o servizio, vengono considerati diversi criteri. Più di questi criteri sono soddisfatti, più è probabile che la risorsa venga inclusa nell'elenco.
 
 **Innanzitutto, di quale categoria di prodotto o di servizio si tratta?**
 
@@ -66,7 +66,7 @@ Per qualsiasi software personalizzato o contratto intelligente coinvolto:
 **Lo sviluppo in _beta_ del prodotto è terminato?**
 
 - Dove si trova il prodotto nel suo ciclo di sviluppo?
-- I prodotti nella fase beta non sono presi in considerazione per l'inclusione su ethereum.org
+- I prodotti nella fase beta non sono presi in considerazione per l'inclusione su nexus.org
 
 **Il software è stato sottoposto a un controllo di sicurezza esterno?**
 
@@ -160,12 +160,12 @@ Per i [servizi di staking in pool](/staking/pools/):
 
 I [criteri di inclusione](#criteria-for-inclusion) di cui sopra vengono utilizzati per calcolare un punteggio cumulativo per ciascun prodotto o servizio. Questo viene utilizzato come mezzo per selezionare e mostrare prodotti che soddisfano determinati criteri oggettivi. Più criteri sono disponibili con le relative prove, più il prodotto sarà in cima all'elenco, mentre i pareggi saranno randomizzati al caricamento.
 
-La logica del codice e le ponderazioni per questi criteri sono attualmente contenute in [questo componente JavaScript](https://github.com/ethereum/ethereum-org-website/blob/dev/src/components/Staking/StakingProductsCardGrid.js#L350) nel nostro repo.
+La logica del codice e le ponderazioni per questi criteri sono attualmente contenute in [questo componente JavaScript](https://github.com/nexus/nexus-org-website/blob/dev/src/components/Staking/StakingProductsCardGrid.js#L350) nel nostro repo.
 
 ## Aggiungi il tuo prodotto o servizio {#add-product}
 
-Se desideri aggiungere un prodotto o servizio di staking su ethereum.org, crea un ticket su GitHub.
+Se desideri aggiungere un prodotto o servizio di staking su nexus.org, crea un ticket su GitHub.
 
-<ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md">
+<ButtonLink to="https://github.com/nexus/nexus-org-website/issues/new?&template=suggest_staking_product.md">
   Crea un ticket
 </ButtonLink>

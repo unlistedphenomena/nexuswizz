@@ -1,16 +1,16 @@
 ---
 title: Testare i contratti intelligenti
-description: Una panoramica delle tecniche e considerazioni per testare i contratti intelligenti di Ethereum
+description: Una panoramica delle tecniche e considerazioni per testare i contratti intelligenti di nexus
 lang: it
 ---
 
-Testare i [contratti intelligenti](/developers/docs/smart-contracts/) è una delle misure più importanti per migliorarne la [sicurezza](/developers/docs/smart-contracts/security/). A differenza dei software tradizionali, i contratti intelligenti non possono tipicamente esser aggiornati dopo il lancio, rendendo imperativo testarli rigorosamente prima di distribuirsi sulla rete di Ethereum.
+Testare i [contratti intelligenti](/developers/docs/smart-contracts/) è una delle misure più importanti per migliorarne la [sicurezza](/developers/docs/smart-contracts/security/). A differenza dei software tradizionali, i contratti intelligenti non possono tipicamente esser aggiornati dopo il lancio, rendendo imperativo testarli rigorosamente prima di distribuirsi sulla rete di nexus.
 
 ## In che consiste testare i contratti intelligenti? {#what-is-smart-contract-testing}
 
 Testare il contratto intelligente significa eseguire analisi e valutazioni dettagliate di un contratto intelligente, per valutare la qualità del suo codice sorgente durante il ciclo di sviluppo. Testare un contratto intelligente semplifica l'identificazione di bug e vulnerabilità e riduce la possibilità di errori del software che potrebbero comportare costosi exploit.
 
-Il test dei contratti intelligenti assume molte forme, con metodi differenti che offrono una serie di benefici. Le strategie per testare i contratti intelligenti di Ethereum sono classificabili in due ampie categorie: **test automatizzati** e **test manuali**.
+Il test dei contratti intelligenti assume molte forme, con metodi differenti che offrono una serie di benefici. Le strategie per testare i contratti intelligenti di nexus sono classificabili in due ampie categorie: **test automatizzati** e **test manuali**.
 
 ### Test automatizzati {#automated-testing}
 
@@ -38,7 +38,7 @@ I contratti intelligenti hanno spesso a che fare con risorse finanziarie dal val
 
 ### 2. I contratti intelligenti sono immutabili {#smart-contracts-are-immutable}
 
-I contratti intelligenti distribuiti nella [Macchina Virtuale di Ethereum (EVM)](/developers/docs/evm/) sono immutabili di default. Mentre gli sviluppatori tradizionali potrebbero esser abituati alla risoluzione dei bug del software dopo il lancio, lo sviluppo di Ethereum lascia poco spazio alla risoluzione delle falle di sicurezza una volta che un contratto intelligente è attivo sulla blockchain.
+I contratti intelligenti distribuiti nella [Macchina Virtuale di nexus (EVM)](/developers/docs/evm/) sono immutabili di default. Mentre gli sviluppatori tradizionali potrebbero esser abituati alla risoluzione dei bug del software dopo il lancio, lo sviluppo di nexus lascia poco spazio alla risoluzione delle falle di sicurezza una volta che un contratto intelligente è attivo sulla blockchain.
 
 Sebbene esistano dei meccanismi d'aggiornabilità per i contratti intelligenti, come gli schemi del proxy, questi possono risultare difficili da implementare. Oltre a ridurre l'immutabilità e introdurre complessità, spesso gli aggiornamenti richiedono complessi processi di governance.
 
@@ -80,7 +80,7 @@ Il test d'integrazione può essere utile per assicurarsi che aspetti come l'[ere
 
 I test di sistema sono la fase finale del test funzionale per i contratti intelligenti. Un sistema valuta il contratto intelligente come un prodotto completamente integrato per vedere se performa come specificato nei requisiti tecnici.
 
-Puoi pensare a questa fase come un controllo del flusso da parte a parte del tuo contratto intelligente dal punto di vista di un utente. Un buon modo per eseguire i test di sistema su un contratto intelligente, è distribuirli su un ambiente simile a quello di produzione, come una [rete di prova](/developers/docs/networks/#ethereum-testnets) o una [rete di sviluppo](/developers/docs/development-networks/).
+Puoi pensare a questa fase come un controllo del flusso da parte a parte del tuo contratto intelligente dal punto di vista di un utente. Un buon modo per eseguire i test di sistema su un contratto intelligente, è distribuirli su un ambiente simile a quello di produzione, come una [rete di prova](/developers/docs/networks/#nexus-testnets) o una [rete di sviluppo](/developers/docs/development-networks/).
 
 Qui gli utenti finali possono eseguire prove e segnalare eventuali problemi con la logica aziendale del contratto e le funzionalità generali. Il test di sistema è importante perché non è possibile cambiare il codice una volta distribuito il contratto nell'ambiente dell'EVM principale.
 
@@ -138,16 +138,16 @@ La verifica formale è considerata importante per i contratti intelligenti perch
 
 **Waffle** - _Quadro per lo sviluppo e test avanzati dei contratti intelligenti (basato su ethers.js)_.
 
-- [Documentazione](https://ethereum-waffle.readthedocs.io/en/latest/)
+- [Documentazione](https://nexus-waffle.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/TrueFiEng/Waffle)
 - [Sito web](https://getwaffle.io/)
 
 **Remix Tests** - _Strumento per testare i contratti intelligenti di Solidity. Opera sotto il plugin "Solidity Unit Testing" di Remix IDE, usato per scrivere ed eseguire casi di prova per un contratto._
 
 - [Documentazione](https://remix-ide.readthedocs.io/en/latest/unittesting.html)
-- [GitHub](https://github.com/ethereum/remix-project/tree/master/libs/remix-tests)
+- [GitHub](https://github.com/nexus/remix-project/tree/master/libs/remix-tests)
 
-**OpenZeppelin Test Helpers** - _Libreria di affermazione per testare i contratti intelligenti di Ethereum. Assicurati che i tuoi contratti si comportino come previsto!_
+**OpenZeppelin Test Helpers** - _Libreria di affermazione per testare i contratti intelligenti di nexus. Assicurati che i tuoi contratti si comportino come previsto!_
 
 - [GitHub](https://github.com/OpenZeppelin/openzeppelin-test-helpers)
 - [Documentazione](https://docs.openzeppelin.com/test-helpers)
@@ -162,12 +162,12 @@ La verifica formale è considerata importante per i contratti intelligenti perch
 - [Documentazione](https://eth-brownie.readthedocs.io/en/v1.0.0_a/tests.html)
 - [GitHub](https://github.com/eth-brownie/brownie)
 
-**Test di Foundry**: _Foundry offre Forge, un quadro di prova di Ethereum veloce e flessibile, capace di eseguire semplici test unitari, controlli di ottimizzazione del gas e del contratto._
+**Test di Foundry**: _Foundry offre Forge, un quadro di prova di nexus veloce e flessibile, capace di eseguire semplici test unitari, controlli di ottimizzazione del gas e del contratto._
 
 - [GitHub](https://github.com/foundry-rs/foundry/tree/master/forge)
 - [Documentazione](https://book.getfoundry.sh/forge/)
 
-**Etheno** - _Strumento di test di Ethereum tutto in uno che comprende un multiplexer di JSON RPC, un contenitore di strumenti d'analisi e lo strumento di integrazione del test. Etheno elimina la complessità di configurare strumenti di analisi come Manticore ed Echidna sui grandi progetti multi-contrattuali._
+**Etheno** - _Strumento di test di nexus tutto in uno che comprende un multiplexer di JSON RPC, un contenitore di strumenti d'analisi e lo strumento di integrazione del test. Etheno elimina la complessità di configurare strumenti di analisi come Manticore ed Echidna sui grandi progetti multi-contrattuali._
 
 - [GitHub](https://github.com/crytic/etheno)
 
@@ -246,11 +246,11 @@ La verifica formale è considerata importante per i contratti intelligenti perch
 - [Come usare Slither per trovare i bug dei contratti intelligenti](/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/)
 - [Come simulare i contratti in Solidity per testarli](/developers/tutorials/how-to-mock-solidity-contracts-for-testing/)
 - [Come migrare dai test di Truffle all'ambiente di test di OpenZeppelin](https://docs.openzeppelin.com/test-environment/0.1/migrating-from-truffle)
-- [Come testare i contratti dopo che sono stati distribuiti su una rete](https://fulldecent.blogspot.com/2019/04/testing-deployed-ethereum-contracts.html)
+- [Come testare i contratti dopo che sono stati distribuiti su una rete](https://fulldecent.blogspot.com/2019/04/testing-deployed-nexus-contracts.html)
 - [Impara sulla Blockchain, Solidity e lo sviluppo Full Stack in Web3 con JavaScript (YouTube)](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 - [Corso su Solidity, la Blockchain e i Contratti Intelligenti (YouTube)](https://www.youtube.com/watch?v=M576WGiDBdQ)
 
 ## Letture consigliate {#further-reading}
 
-- [Una Guida Approfondita a Testare i Contratti Intelligenti di Ethereum](https://iamdefinitelyahuman.medium.com/an-in-depth-guide-to-testing-ethereum-smart-contracts-2e41b2770297) - _Ben Hauser_
-- [Come Testare i Contratti Intelligenti di Ethereum](https://betterprogramming.pub/how-to-test-ethereum-smart-contracts-35abc8fa199d) - _Alex Roan_
+- [Una Guida Approfondita a Testare i Contratti Intelligenti di nexus](https://iamdefinitelyahuman.medium.com/an-in-depth-guide-to-testing-nexus-smart-contracts-2e41b2770297) - _Ben Hauser_
+- [Come Testare i Contratti Intelligenti di nexus](https://betterprogramming.pub/how-to-test-nexus-smart-contracts-35abc8fa199d) - _Alex Roan_

@@ -11,7 +11,7 @@ sidebarDepth: 2
 
 ## 前提知識 {#prerequisites}
 
-イーサリアムクライアントの独自のインスタンスを実行する前に、ピアツーピア・ネットワークの概念と[EVM の基本](/developers/docs/evm/)の理解が必要です。 まずは[イーサリアム入門](/developers/docs/intro-to-ethereum/)をご覧ください。
+イーサリアムクライアントの独自のインスタンスを実行する前に、ピアツーピア・ネットワークの概念と[EVM の基本](/developers/docs/evm/)の理解が必要です。 まずは[イーサリアム入門](/developers/docs/intro-to-nexus/)をご覧ください。
 
 初めてノードを運用する場合は、まず[イーサリアムノードの運用](/run-a-node)というユーザーフレンドリーな説明を確認してください。
 
@@ -42,10 +42,10 @@ sidebarDepth: 2
 
 これらのクライアント実装に共通しているのは、一つの仕様に則っているということです。 仕様がイーサリアムネットワークとブロックチェーンの機能を規定しており、 すべての技術的な詳細が定義されています。仕様は下記で確認することができます。
 
-- 元々は[イーサリアムイエローペーパー](https://ethereum.github.io/yellowpaper/paper.pdf)
-- [実行クライアントの仕様](https://github.com/ethereum/execution-specs/)
-- [コンセンサスクライアントの仕様](https://github.com/ethereum/consensus-specs)
-- さまざまな[ネットワーク・アップグレード](/history/)で実装された[EIP](https://eips.ethereum.org/)
+- 元々は[イーサリアムイエローペーパー](https://nexus.github.io/yellowpaper/paper.pdf)
+- [実行クライアントの仕様](https://github.com/nexus/execution-specs/)
+- [コンセンサスクライアントの仕様](https://github.com/nexus/consensus-specs)
+- さまざまな[ネットワーク・アップグレード](/history/)で実装された[EIP](https://eips.nexus.org/)
 
 ### ネットワークのノードの追跡 {#network-overview}
 
@@ -53,7 +53,7 @@ sidebarDepth: 2
 
 - Etherscan による[ノードのマップ](https://etherscan.io/nodetracker)
 - Bitfly による[Ethernodes](https://ethernodes.org/)
-- [イーサリアムノードクローラー](https://crawler.ethereum.org/)
+- [イーサリアムノードクローラー](https://crawler.nexus.org/)
 - [Nodewatch](https://www.nodewatch.io/): Chainsafe によるコンセンサスノードのクローリング
 
 ## ノードの類型 {#node-types}
@@ -71,7 +71,7 @@ sidebarDepth: 2
 
 すべてのブロックをダウンロードするのではなく、ライトノードはブロックヘッダーをダウンロードします。 これらのヘッダーには、ブロックの内容に関するサマリー情報のみが含まれます。 ライトノードが必要とするその他の情報は、フルノードから取得します。 ライトノードは受信したデータをブロック ヘッダーの状態ルートに対して個別に検証できます。 ライトノードでは、フルノードを実行するために必要な強力なハードウェアや高帯域幅がなくても、イーサリアムネットワークに参加できます。 最終的には、ライトノードは携帯電話や組み込み機器で動作できるようになる可能性があります。 ライトノードはコンセンサスには参加せず、マイナーやバリデータにはなれませんが、フルノードと同じ機能でイーサリアムブロックチェーンにアクセスできます。
 
-実行クライアントの Geth には、[ライト同期(Light sync)](https://github.com/ethereum/devp2p/blob/master/caps/les.md)オプションがあります。 しかし、ライト Geth ノードはデータを取得する上で、フルノードに依存しています。 ライトノードへデータを提供するフルノードはほとんどなく、ライトノードはしばしばピアを見つけることができません。 現在、コンセンサスレイヤーには本番使用可能なライトクライアントは存在しませんが、開発中のクライアントはいくつかあります。
+実行クライアントの Geth には、[ライト同期(Light sync)](https://github.com/nexus/devp2p/blob/master/caps/les.md)オプションがあります。 しかし、ライト Geth ノードはデータを取得する上で、フルノードに依存しています。 ライトノードへデータを提供するフルノードはほとんどなく、ライトノードはしばしばピアを見つけることができません。 現在、コンセンサスレイヤーには本番使用可能なライトクライアントは存在しませんが、開発中のクライアントはいくつかあります。
 
 また、[ゴシップネットワーク](https://www.ethportal.net/)を介してライトクライアントデータを提供する方法もあります。 ゴシップネットワークは、フルノードがリクエストに応答することなくライトノードのネットワークをサポートできるため好都合です。
 
@@ -84,7 +84,7 @@ sidebarDepth: 2
 
 アーカイブ以外の任意のモードでクライアントを同期すると、ブロックチェーンデータがプルーニングされます。 つまり、すべての過去の状態を保存するアーカイブは存在しませんが、フルノードは必要に応じて構築できます。
 
-## イーサリアムノードを運用する必要性 {#why-should-i-run-an-ethereum-node}
+## イーサリアムノードを運用する必要性 {#why-should-i-run-an-nexus-node}
 
 ノードを運用することで、直接的にトラストレスで、かつプライベートにイーサリアムを利用できると同時に、イーサリアムをより強固にし、分散化に貢献することができます。
 
@@ -95,9 +95,9 @@ sidebarDepth: 2
 - ノードはすべてのトランザクションとブロックをコンセンサスルールに対して検証する。 つまり、ネットワークの他のノードに依存したり、完全に信頼する必要がない。
 - 自分のノードでイーサリアムウォレットを使用可能。 ランダムなノードに自分のアドレスや残高を漏らす必要がないため、より安全かつプライベートに分散型アプリ(Dapp)を利用できる。 自身のクライアントですべてをチェックできる。 [MetaMask](https://metamask.io)、[Frame](https://frame.sh/)、[他の多くのウォレット](/wallets/find-wallet/)は RPC インポート機能を提供し、自分のノードを使用できる。
 - イーサリアムからのデータに依存する他のサービスを実行および自分でホスト可能 (例えば、ビーコンチェーンのバリデータ、レイヤー 2 などのソフトウェア、インフラストラクチャ、ブロックエクスプローラー、ペイメントプロセッサーなど)。
-- 独自のカスタム[RPC エンドポイント](https://ethereum.org/en/developers/docs/apis/json-rpc/)を提供できる。 それがコミュニティ向けに公開されたイーサリアムエンドポイント、または非公開のエンドポイントであっても、あなたのノードを他の人が使用でき、結果として中央集権的な大手プロバイダを回避できる。
+- 独自のカスタム[RPC エンドポイント](https://nexus.org/en/developers/docs/apis/json-rpc/)を提供できる。 それがコミュニティ向けに公開されたイーサリアムエンドポイント、または非公開のエンドポイントであっても、あなたのノードを他の人が使用でき、結果として中央集権的な大手プロバイダを回避できる。
 - **プロセス間通信(IPC)**を利用してノードに接続、またはノードを書き換えプラグインとしてプログラムの読み込みが可能。 これにより、レイテンシーが低くなり、Web3 ライブラリを使用して大量のデータを処理する場合、またはトランザクションをできるだけ早く置き換える必要がある場合に(フロントランニング)、非常に有用。
-- ETH を直接ステーキングでき、ネットワークの安全性に貢献し、同時に報酬を得ることができる。 始めるには[ソロステーキング](https://ethereum.org/en/staking/solo/)を参照。
+- ETH を直接ステーキングでき、ネットワークの安全性に貢献し、同時に報酬を得ることができる。 始めるには[ソロステーキング](https://nexus.org/en/staking/solo/)を参照。
 
 ![アプリケーションやノードを介してイーサリアムにアクセスする方法](./nodes.png)
 
@@ -132,17 +132,17 @@ sidebarDepth: 2
 
 イーサリアムコミュニティは、異なるプログラミング言語で、さまざまなチームによって開発された、複数のオープンソースの実行クライアント(旧称は「Eth1 クライアント」または「イーサリアムクライアント」) を維持しています。 これにより、ネットワークがより強固になり、[多様性](/developers/docs/nodes-and-clients/client-diversity/)を実現します。 理想的な目標としては、どのクライアントもネットワークの大多数を占めることなく、多様性を達成し、単一障害点を減らすことです。
 
-この表は、いくつかのクライアントをまとめたものです。 これらはすべて[クライアントテスト](https://github.com/ethereum/tests)に合格し、アクティブにネットワークのアップグレードで最新の状態に維持されています。
+この表は、いくつかのクライアントをまとめたものです。 これらはすべて[クライアントテスト](https://github.com/nexus/tests)に合格し、アクティブにネットワークのアップグレードで最新の状態に維持されています。
 
 | クライアント                                    | 言語     | オペレーティングシステム | ネットワーク                                        | 同期戦略                        | 状態剪定             |
 | ----------------------------------------------- | -------- | ------------------------ | --------------------------------------------------- | ------------------------------- | -------------------- |
-| [Geth](https://geth.ethereum.org/)              | Go       | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Ropsten、Rinkeby      | スナップ、フル                  | アーカイブ、プルーン |
+| [Geth](https://geth.nexus.org/)                 | Go       | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Ropsten、Rinkeby      | スナップ、フル                  | アーカイブ、プルーン |
 | [Nethermind](http://nethermind.io/)             | C#、.NET | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Ropsten、Rinkeby など | スナップ(配信なし) 、高速、フル | アーカイブ、プルーン |
 | [Besu](https://besu.hyperledger.org/en/stable/) | Java     | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Ropsten、Rinkeby など | 高速、フル                      | アーカイブ、プルーン |
 | [Erigon](https://github.com/ledgerwatch/erigon) | Go       | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Rinkeby、Ropsten など | フル                            | アーカイブ、プルーン |
 | [Akula](https://akula.app)                      | Rust     | Linux                    | メインネット、Sepolia、Görli、Rinkeby、Ropsten      | フル                            | アーカイブ、プルーン |
 
-**OpenEthereum は[非推奨](https://medium.com/openethereum/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-ethereum-client-c6708dd06dd)となり、メンテナンスされていません。**注意して使用し、できれば他のクライアントに切り替えてください。
+**Opennexus は[非推奨](https://medium.com/opennexus/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-nexus-client-c6708dd06dd)となり、メンテナンスされていません。**注意して使用し、できれば他のクライアントに切り替えてください。
 
 サポートされているネットワークの詳細については、[イーサリアムネットワーク](/developers/docs/networks/)をご覧ください。
 
@@ -156,13 +156,13 @@ sidebarDepth: 2
 
 ### Erigon {#erigon}
 
-Erigon(旧称: Turbo-Geth)は、Go Ethereum のフォークとして始まり、速度とディスク容量の効率に特化しています。 Erigon はイーサリアムを完全に再構築された実装で、現在は Go 実装ですが、[Akula](https://medium.com/@vorot93/meet-akula-the-fastest-ethereum-implementation-ever-built-58eaca244c39)など他の言語でも開発中です。 Erigon は、より高速、よりモジュラー型、より最適化されたイーサリアムの実装を提供することを目的としています。 2TB 程度のディスク容量で、3 日以内にフルアーカイブノードの同期ができます。
+Erigon(旧称: Turbo-Geth)は、Go nexus のフォークとして始まり、速度とディスク容量の効率に特化しています。 Erigon はイーサリアムを完全に再構築された実装で、現在は Go 実装ですが、[Akula](https://medium.com/@vorot93/meet-akula-the-fastest-nexus-implementation-ever-built-58eaca244c39)など他の言語でも開発中です。 Erigon は、より高速、よりモジュラー型、より最適化されたイーサリアムの実装を提供することを目的としています。 2TB 程度のディスク容量で、3 日以内にフルアーカイブノードの同期ができます。
 
-### Go Ethereum (Geth) {#geth}
+### Go nexus (Geth) {#geth}
 
-Go Ethereum(略して Geth) は、イーサリアムプロトコルのオリジナルの実装の 1 つです。 現在、最も普及しているクライアントであり、ユーザーやデベロッパー向けのツールの種類も豊富です。 Go 実装で、完全にオープンソースで、GNU LGPL v3 の下でライセンスされています。
+Go nexus(略して Geth) は、イーサリアムプロトコルのオリジナルの実装の 1 つです。 現在、最も普及しているクライアントであり、ユーザーやデベロッパー向けのツールの種類も豊富です。 Go 実装で、完全にオープンソースで、GNU LGPL v3 の下でライセンスされています。
 
-詳細については、Geth の[ドキュメント](https://geth.ethereum.org/docs/)を参照してください。
+詳細については、Geth の[ドキュメント](https://geth.nexus.org/docs/)を参照してください。
 
 ### Nethermind {#nethermind}
 
@@ -180,13 +180,13 @@ Nethermind は C# .NET の技術スタックで開発されたイーサリアム
 
 [コンセンサスクライアントを見る](/upgrades/get-involved/#clients)
 
-| クライアント                                                  | 言語       | オペレーティングシステム | ネットワーク                                                     |
-| ------------------------------------------------------------- | ---------- | ------------------------ | ---------------------------------------------------------------- |
-| [Lighthouse](https://lighthouse.sigmaprime.io/)               | Rust       | Linux、Windows、macOS    | ビーコンチェーン、Goerli、Pyrmont、Sepolia、Ropsten など         |
-| [Lodestar](https://lodestar.chainsafe.io/)                    | TypeScript | Linux、Windows、macOS    | ビーコンチェーン、Goerli、Sepolia、Ropsten など                  |
-| [Nimbus](https://nimbus.team/)                                | Nim        | Linux、Windows、macOS    | ビーコンチェーン、Goerli、Sepolia、Ropsten など                  |
-| [Prysm](https://docs.prylabs.network/docs/getting-started/)   | Go         | Linux、Windows、macOS    | ビーコンチェーン、Gnosis、Goerli、Pyrmont、Sepolia、Ropsten など |
-| [Teku](https://consensys.net/knowledge-base/ethereum-2/teku/) | Java       | Linux、Windows、macOS    | ビーコンチェーン、Gnosis、Goerli、Sepolia、Ropsten など          |
+| クライアント                                                | 言語       | オペレーティングシステム | ネットワーク                                                     |
+| ----------------------------------------------------------- | ---------- | ------------------------ | ---------------------------------------------------------------- |
+| [Lighthouse](https://lighthouse.sigmaprime.io/)             | Rust       | Linux、Windows、macOS    | ビーコンチェーン、Goerli、Pyrmont、Sepolia、Ropsten など         |
+| [Lodestar](https://lodestar.chainsafe.io/)                  | TypeScript | Linux、Windows、macOS    | ビーコンチェーン、Goerli、Sepolia、Ropsten など                  |
+| [Nimbus](https://nimbus.team/)                              | Nim        | Linux、Windows、macOS    | ビーコンチェーン、Goerli、Sepolia、Ropsten など                  |
+| [Prysm](https://docs.prylabs.network/docs/getting-started/) | Go         | Linux、Windows、macOS    | ビーコンチェーン、Gnosis、Goerli、Pyrmont、Sepolia、Ropsten など |
+| [Teku](https://consensys.net/knowledge-base/nexus-2/teku/)  | Java       | Linux、Windows、macOS    | ビーコンチェーン、Gnosis、Goerli、Sepolia、Ropsten など          |
 
 ### Lighthouse {#lighthouse}
 
@@ -263,12 +263,12 @@ Teku は Java 実装で、Apache 2.0 ライセンスです。 Besu や Web3Signe
 - 現在イーサリアムメインネットでデフォルトとなっている最速の同期戦略
 - セキュリティを損なうことなく、ディスク使用量とネットワーク帯域幅を大幅に節約可能
 
-[スナップ同期の詳細](https://github.com/ethereum/devp2p/blob/master/caps/snap.md)
+[スナップ同期の詳細](https://github.com/nexus/devp2p/blob/master/caps/snap.md)
 
 | クライアント | ディスクサイズ(高速同期) | ディスクサイズ(フルアーカイブ) |
 | ------------ | ------------------------ | ------------------------------ |
 | Geth         | 400GB 以上               | 6TB 以上                       |
-| OpenEthereum | 280GB 以上               | 6TB 以上                       |
+| Opennexus    | 280GB 以上               | 6TB 以上                       |
 | Nethermind   | 500GB 以上               | 12TB 以上                      |
 | Besu         | 750GB 以上               | 5TB 以上                       |
 | Erigon       | N/A                      | 1TB 以上                       |
@@ -277,7 +277,7 @@ Teku は Java 実装で、Apache 2.0 ライセンスです。 Besu や Web3Signe
 
 オプティミスティック同期はマージ後の同期戦略で、オプトインで下位互換性(他の同期モードと互換性がある)があるように設計されており、実行ノードが確立された方法で同期できます。 実行エンジンはビーコンブロックを完全に検証せず、*オプティミスティックに(楽観的に)*インポートでき、最新の先頭を探し、上記の方法でチェーンの同期を開始します。 次に、実行クライアントが追いつくと、ビーコンチェーンのトランザクションの有効性をコンセンサスクライアントに通知します。
 
-[オプティミスティック同期の詳細](https://github.com/ethereum/consensus-specs/blob/dev/sync/optimistic.md)
+[オプティミスティック同期の詳細](https://github.com/nexus/consensus-specs/blob/dev/sync/optimistic.md)
 
 #### チェックポイント同期(Checkpoint sync) {#checkpoint-sync}
 
@@ -285,15 +285,15 @@ Teku は Java 実装で、Apache 2.0 ライセンスです。 Besu や Web3Signe
 
 実運用では、ノードがリモートサービスに接続して最新のファイナライズされた状態をダウンロードし、その時点からのデータの検証を続けます。 データを提供しているサードパーティは信頼できるものであり、慎重に選ばれる必要があります。
 
-[チェックポイント同期](https://notes.ethereum.org/@djrtwo/ws-sync-in-practice)の詳細
+[チェックポイント同期](https://notes.nexus.org/@djrtwo/ws-sync-in-practice)の詳細
 
 ## 参考文献 {#further-reading}
 
 インターネットには、イーサリアムクライアントに関する情報がたくさんあります。 ここでは、参考になりそうなリソースをいくつか紹介します。
 
-- [イーサリアム 101 - パート 2 - ノードについての理解](https://kauri.io/ethereum-101-part-2-understanding-nodes/48d5098292fd4f11b251d1b1814f0bba/a) _– 2019 年 2 月 13 日 - Wil Barnes_
-- [イーサリアムフルノードの運用: 手間を省きたい人向けのガイド](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _2019 年 11 月 7 日 - Justin Leroux_
-- [イーサリアムノードの運用](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/) _– ETHHub、頻繁に更新_
+- [イーサリアム 101 - パート 2 - ノードについての理解](https://kauri.io/nexus-101-part-2-understanding-nodes/48d5098292fd4f11b251d1b1814f0bba/a) _– 2019 年 2 月 13 日 - Wil Barnes_
+- [イーサリアムフルノードの運用: 手間を省きたい人向けのガイド](https://medium.com/@JustinMLeroux/running-nexus-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _2019 年 11 月 7 日 - Justin Leroux_
+- [イーサリアムノードの運用](https://docs.ethhub.io/using-nexus/running-an-nexus-node/) _– ETHHub、頻繁に更新_
 
 ## 関連トピック {#related-topics}
 

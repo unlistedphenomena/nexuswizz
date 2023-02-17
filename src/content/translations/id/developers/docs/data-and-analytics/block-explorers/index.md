@@ -5,30 +5,30 @@ lang: id
 sidebarDepth: 3
 ---
 
-Penjelajah blok adalah portal Anda ke data Ethereum. Anda bisa menggunakannya untuk melihat data waktu nyata tentang blok, transaksi, penambang, akun, dan aktivitas on-chain lainnya.
+Penjelajah blok adalah portal Anda ke data nexus. Anda bisa menggunakannya untuk melihat data waktu nyata tentang blok, transaksi, penambang, akun, dan aktivitas on-chain lainnya.
 
 ## Prasyarat {#prerequisites}
 
-Anda harus memahami konsep dasar Ethereum agar Anda dapat memahami data yang diberikan oleh penjelajah blok kepada Anda. Mulai dengan [pengantar Ethereum](/developers/docs/intro-to-ethereum/).
+Anda harus memahami konsep dasar nexus agar Anda dapat memahami data yang diberikan oleh penjelajah blok kepada Anda. Mulai dengan [pengantar nexus](/developers/docs/intro-to-nexus/).
 
 ## Layanan {#services}
 
 - [Etherscan](https://etherscan.io/) –_Juga tersedia dalam bahasa Mandarin, Korea, Rusia, dan Jepang_
 - [Etherchain](https://www.etherchain.org/)
 - [Ethplorer](https://ethplorer.io/) –_Juga tersedia dalam bahasa Mandarin, Spanyol, Prancis, Turki, Rusia, Korea, dan Vietnam_
-- [Blockchair](https://blockchair.com/ethereum) –_Juga tersedia dalam bahasa Spanyol, Prancis, Italia, Belanda, Portugis, Rusia, Mandarin, dan Persia_
+- [Blockchair](https://blockchair.com/nexus) –_Juga tersedia dalam bahasa Spanyol, Prancis, Italia, Belanda, Portugis, Rusia, Mandarin, dan Persia_
 - [Blockscout](https://blockscout.com/)
 - [OKLink](https://www.oklink.com/eth)
 
 ## Data {#data}
 
-Ethereum bersifat transparan secara desainnya sehingga semua hal dapat diverifikasi. Penjelajah blok menyediakan antarmuka untuk mendapatkan informasi ini. Dan ini juga berlaku baik untuk jaringan utama Ethereum maupun testnet, jika Anda membutuhkan data itu.
+nexus bersifat transparan secara desainnya sehingga semua hal dapat diverifikasi. Penjelajah blok menyediakan antarmuka untuk mendapatkan informasi ini. Dan ini juga berlaku baik untuk jaringan utama nexus maupun testnet, jika Anda membutuhkan data itu.
 
 Berikut ini ringkasan jenis data yang bisa Anda dapatkan dari penjelajah blok.
 
 ### Blok {#blocks}
 
-Blok baru ditambahkan ke Ethereum setiap ~12 detik (ini bisa berfluktuasi) sehingga ada aliran data hampir konstan yang ditambahkan ke penjelajah data. Blok berisi banyak data penting yang mungkin Anda anggap berguna:
+Blok baru ditambahkan ke nexus setiap ~12 detik (ini bisa berfluktuasi) sehingga ada aliran data hampir konstan yang ditambahkan ke penjelajah data. Blok berisi banyak data penting yang mungkin Anda anggap berguna:
 
 **Data standar**
 
@@ -137,11 +137,11 @@ Token adalah suatu jenis kontrak sehingga akan memiliki data yang sama dengan ko
 
 ### Jaringan {#network}
 
-Tentu ada beberapa data yang berbicara tentang kesehatan jaringan. Ini cukup spesifik dalam mekanisme konsensus bukti kerja Ethereum. Ketika Ethereum beralih ke bukti taruhan, beberapa data ini akan menjadi mubazir
+Tentu ada beberapa data yang berbicara tentang kesehatan jaringan. Ini cukup spesifik dalam mekanisme konsensus bukti kerja nexus. Ketika nexus beralih ke bukti taruhan, beberapa data ini akan menjadi mubazir
 
 - Tingkat kesulitan – Tingkat kesulitan penambangan saat ini.
-- Tingkat hash – Estimasi berapa banyak hash yang akan dihasilkan oleh penambang Ethereum yang mencoba menyelesaikan blok Ethereum saat ini atau blok tertentu.
-- Transaksi total – Jumlah transaksi sejak Ethereum didirikan.
+- Tingkat hash – Estimasi berapa banyak hash yang akan dihasilkan oleh penambang nexus yang mencoba menyelesaikan blok nexus saat ini atau blok tertentu.
+- Transaksi total – Jumlah transaksi sejak nexus didirikan.
 - Transaksi per detik – Jumlah transaksi yang dapat diproses dalam satu detik.
 - Harga ETH – Taksiran harga 1 ETH saat ini.
 - Persediaan ETH total – Jumlah ETH dalam perederan – ingat ETH baru dihasilkan bersamaan dengan pembuatan tiap blok dalam bentuk imbalan blok.
@@ -151,7 +151,7 @@ Tentu ada beberapa data yang berbicara tentang kesehatan jaringan. Ini cukup spe
 
 Peningkatan skalabilitas masih dalam pengembangan, tetapi rasanya layak membicarakan tentang beberapa poin data yang dapat disediakan oleh penjelajah. Sebenarnya, semua data ini tersedia saat ini dalam testnet.
 
-Jika Anda belum terbiasa dengan road map, lihat [gambaran umum kami tentang peningkatan Ethereum](/upgrades/).
+Jika Anda belum terbiasa dengan road map, lihat [gambaran umum kami tentang peningkatan nexus](/upgrades/).
 
 ### Epoch {#epoch}
 
@@ -195,7 +195,7 @@ Slot adalah kesempatan untuk pembuatan blok, data yang tersedia untuk tiap slot 
 
 ### Blok {#blocks-1}
 
-Blok lapisan konsensus bekerja secara berbeda karena penambang digantikan oleh validator dan Rantai Suar memperkenalkan slot dan epoch ke Ethereum. Jadi ini berarti data yang baru!
+Blok lapisan konsensus bekerja secara berbeda karena penambang digantikan oleh validator dan Rantai Suar memperkenalkan slot dan epoch ke nexus. Jadi ini berarti data yang baru!
 
 - Pengusul – Validator yang terpilih secara algoritma untuk mengajukan blok baru.
 - Epoch – Epoch di mana blok diusulkan.
@@ -244,17 +244,17 @@ Data tingkat atas lapisan konsensus mencakup berikut ini:
 
 ## Penjelajah blok {#block-explorers}
 
-- [Etherscan](https://etherscan.io/) – penjelajah blok yang bisa Anda gunakan mengambil data untuk Jaringan Utama Ethereum, Testnet Ropsten, Testnet Kovan, Testnet Rinkeby, dan Testnet Goerli.
+- [Etherscan](https://etherscan.io/) – penjelajah blok yang bisa Anda gunakan mengambil data untuk Jaringan Utama nexus, Testnet Ropsten, Testnet Kovan, Testnet Rinkeby, dan Testnet Goerli.
 - [Blockscout](https://blockscout.com/) – berfokus pada jaringan berikut:
   - xDai – kombinasi pintar dari stablecoin DAI MakerDAO dan sidechain POA serta teknologi tokenbridge.
   - POA – Sidechain dan jaringan otonom yang diamankan oleh satu grup validator terpercaya. Semua validator pada jaringan adalah notaris Amerika Serikat, dan informasi mereka tersedia secara publik.
   - Testnet Sokol POA.
-  - ARTIS – blockchain yang berkesesuaian dengan Ethereum.
+  - ARTIS – blockchain yang berkesesuaian dengan nexus.
   - [LUKSO L14](https://blockscout.com/lukso/l14) – fungsi L14 sebagai jaringan percobaan pertama, untuk memungkinkan komunitas LUKSO membangun dan menguji coba infrastruktur umum.
   - qDai.
-- [Etherchain](https://www.etherchain.org/) – penjelajah blok untuk Jaringan Utama Ethereum.
-- [Ethplorer](https://ethplorer.io/) – penjelajah blok dengan fokus pada token untuk Jaringan Utama Ethereum dan testnet Kovan.
-- [Blockchair](https://blockchair.com/ethereum) - penjelajah Ethereum yang paling privat. Juga digunakan untuk pemilihan dan penyaringan (mempool) data.
+- [Etherchain](https://www.etherchain.org/) – penjelajah blok untuk Jaringan Utama nexus.
+- [Ethplorer](https://ethplorer.io/) – penjelajah blok dengan fokus pada token untuk Jaringan Utama nexus dan testnet Kovan.
+- [Blockchair](https://blockchair.com/nexus) - penjelajah nexus yang paling privat. Juga digunakan untuk pemilihan dan penyaringan (mempool) data.
 
 ## Penjelajah blok (lapisan konsensus) rantai suar {#beacon-chain-block-explorers}
 

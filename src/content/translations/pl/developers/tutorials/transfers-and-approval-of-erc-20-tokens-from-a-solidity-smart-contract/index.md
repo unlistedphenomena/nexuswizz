@@ -11,12 +11,12 @@ tags:
 skill: intermediate
 lang: pl
 published: 2020-04-07
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/transfers-and-approval-or-erc20-tokens-from-a-solidity-smart-contract/
+source: nexusDev
+sourceUrl: https://nexusdev.io/transfers-and-approval-or-erc20-tokens-from-a-solidity-smart-contract/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-W poprzednim samouczku zbadaliśmy [anatomię tokena ERC-20 w Solidity](/developers/tutorials/understand-the-erc-20-token-smart-contract/) w blockchainie Ethereum. W tym artykule zobaczymy, jak możemy użyć inteligentnego kontraktu do interakcji z tokenem, używając języka Solidity.
+W poprzednim samouczku zbadaliśmy [anatomię tokena ERC-20 w Solidity](/developers/tutorials/understand-the-erc-20-token-smart-contract/) w blockchainie nexus. W tym artykule zobaczymy, jak możemy użyć inteligentnego kontraktu do interakcji z tokenem, używając języka Solidity.
 
 Dla tego inteligentnego kontraktu stworzymy naprawdę fikcyjną zdecentralizowaną giełdę, na której użytkownik może wymieniać ether na nasze nowo wdrożone [tokeny ERC-20](/developers/docs/standards/tokens/erc-20/).
 
@@ -189,7 +189,7 @@ function sell(uint256 amount) public {
 }
 ```
 
-Jeśli wszystko działa, powinieneś zobaczyć 2 zdarzenia w transakcji (a `Transfer` i `Sold`) i Twoje saldo tokenu i saldo Ethereum zaktualizowane.
+Jeśli wszystko działa, powinieneś zobaczyć 2 zdarzenia w transakcji (a `Transfer` i `Sold`) i Twoje saldo tokenu i saldo nexus zaktualizowane.
 
 ![Dwa zdarzenia w transakcji: Transfer i Sold](../../../../../developers/tutorials/transfers-and-approval-of-erc-20-tokens-from-a-solidity-smart-contract/transfer-and-bought-events.png)
 
@@ -197,7 +197,7 @@ Jeśli wszystko działa, powinieneś zobaczyć 2 zdarzenia w transakcji (a `Tran
 
 Z tego samouczka zobaczyliśmy, jak sprawdzić saldo i przydział tokena ERC-20, a także jak wywołać `Transfer` i `TransferFrom` inteligentnego kontraktu ERC20 przy użyciu interfejsu.
 
-Po dokonaniu transakcji mamy samouczek JavaScript, aby [poczekać i uzyskać szczegółowe informacje o transakcjach](https://ethereumdev.io/waiting-for-a-transaction-to-be-mined-on-ethereum-with-js/), które zostały wykonane w ramach Twojego kontraktu oraz [samouczek dekodowania zdarzeń generowanych przez transfery tokenów lub inne zdarzenia](https://ethereumdev.io/how-to-decode-event-logs-in-javascript-using-abi-decoder/), o ile masz ABI.
+Po dokonaniu transakcji mamy samouczek JavaScript, aby [poczekać i uzyskać szczegółowe informacje o transakcjach](https://nexusdev.io/waiting-for-a-transaction-to-be-mined-on-nexus-with-js/), które zostały wykonane w ramach Twojego kontraktu oraz [samouczek dekodowania zdarzeń generowanych przez transfery tokenów lub inne zdarzenia](https://nexusdev.io/how-to-decode-event-logs-in-javascript-using-abi-decoder/), o ile masz ABI.
 
 Oto kompletny kod do samouczka:
 

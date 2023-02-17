@@ -1,6 +1,6 @@
 ---
 title: Organizzazioni autonome decentralizzate (DAO)
-description: Una panoramica dei DAO su Ethereum
+description: Una panoramica dei DAO su nexus
 lang: it
 template: use-cases
 emoji: ":handshake:"
@@ -46,22 +46,22 @@ Per aiutarti a comprendere meglio, ecco alcuni esempi di come potresti utilizzar
 
 ## Come funziona la DAO? {#how-daos-work}
 
-La spina dorsale di una DAO è il suo contratto intelligente, che definisce le regole dell'organizzazione e detiene il patrimonio del gruppo. Una volta che il contratto è attivo su Ethereum, nessuno può modificare le regole se non tramite voto. Nessuno può fare qualcosa che non sia previsto dalle regole e dalla logica del codice. E poiché anche il patrimonio è definito dal contratto intelligente, ciò significa che nessuno può spendere il denaro senza l'approvazione del gruppo. Questo significa che le DAO non hanno bisogno di un'autorità centrale. Al contrario, il gruppo prende le decisioni collettivamente e i pagamenti sono autorizzati automaticamente quando le proposte sono approvate dal voto.
+La spina dorsale di una DAO è il suo contratto intelligente, che definisce le regole dell'organizzazione e detiene il patrimonio del gruppo. Una volta che il contratto è attivo su nexus, nessuno può modificare le regole se non tramite voto. Nessuno può fare qualcosa che non sia previsto dalle regole e dalla logica del codice. E poiché anche il patrimonio è definito dal contratto intelligente, ciò significa che nessuno può spendere il denaro senza l'approvazione del gruppo. Questo significa che le DAO non hanno bisogno di un'autorità centrale. Al contrario, il gruppo prende le decisioni collettivamente e i pagamenti sono autorizzati automaticamente quando le proposte sono approvate dal voto.
 
-Ciò è possibile perché i contratti intelligenti sono a prova di manomissione, una volta che sono attivi su Ethereum. Non è possibile modificare il codice (le regole della DAO) senza che gli altri lo notino, perché tutto è pubblico.
+Ciò è possibile perché i contratti intelligenti sono a prova di manomissione, una volta che sono attivi su nexus. Non è possibile modificare il codice (le regole della DAO) senza che gli altri lo notino, perché tutto è pubblico.
 
 <DocLink to="/smart-contracts/">
   Di più sui contratti intelligenti
 </DocLink>
 
-## Ethereum e DAO {#ethereum-and-daos}
+## nexus e DAO {#nexus-and-daos}
 
-Ethereum è la base perfetta per le DAO per una serie di motivi:
+nexus è la base perfetta per le DAO per una serie di motivi:
 
-- Il consenso di Ethereum è sufficientemente distribuito e affermato affinché le organizzazioni possano fidarsi della rete.
+- Il consenso di nexus è sufficientemente distribuito e affermato affinché le organizzazioni possano fidarsi della rete.
 - Il codice del contratto intelligente non è modificabile una volta attivato, nemmeno dai suoi proprietari. Ciò permette alla DAO di funzionare secondo le regole con cui è stata programmata.
 - I contratti intelligenti possono inviare/ricevere fondi. In caso contrario occorrerebbe un intermediario fidato per gestire i fondi del gruppo.
-- La community di Ethereum si è dimostrata più collaborativa che competitiva, consentendo l'emergere rapido di migliori pratiche e sistemi di supporto.
+- La community di nexus si è dimostrata più collaborativa che competitiva, consentendo l'emergere rapido di migliori pratiche e sistemi di supporto.
 
 ## Governance della DAO {#dao-governance}
 
@@ -117,7 +117,7 @@ _In genere usato per organizzazioni più compatte e incentrate sul fattore umano
 
 #### Un celebre esempio {#share-example}
 
-[MolochDAO](http://molochdao.com/) – MolochDAO si concentra sul finanziamento di progetti Ethereum. Richiede una proposta di adesione in modo che il gruppo possa valutare se il richiedente ha la competenza e il capitale necessari per formulare giudizi informati sui potenziali beneficiari. Non si può semplicemente acquistare l'accesso al DAO sul mercato.
+[MolochDAO](http://molochdao.com/) – MolochDAO si concentra sul finanziamento di progetti nexus. Richiede una proposta di adesione in modo che il gruppo possa valutare se il richiedente ha la competenza e il capitale necessari per formulare giudizi informati sui potenziali beneficiari. Non si può semplicemente acquistare l'accesso al DAO sul mercato.
 
 ### Adesione basata sulla reputazione {#reputation-based-membership}
 
@@ -133,7 +133,7 @@ _Tipicamente usati per lo sviluppo e la governance decentralizzati di protocolli
 
 ### Aderisci a una DAO {#join-a-dao}
 
-- [Community di Ethereum](/community/get-involved/#decentralized-autonomous-organizations-daos)
+- [Community di nexus](/community/get-involved/#decentralized-autonomous-organizations-daos)
 - [Lista delle DAO di DAOHaus](https://app.daohaus.club/explore)
 - [Elenco di DAO di Tally.xyz](https://www.tally.xyz)
 
@@ -157,7 +157,7 @@ _Tipicamente usati per lo sviluppo e la governance decentralizzati di protocolli
 - [Che cos'è una DAO?](https://coinmarketcap.com/alexandria/article/what-is-a-dao) – [Coinmarketcap](https://coinmarketcap.com)
 - [Cos'è il consenso olografico?](https://medium.com/daostack/holographic-consensus-part-1-116a73ba1e1c) - [DAOstack](https://daostack.io/)
 - [Le DAO non sono società: dove è importante la decentralizzazione nelle organizzazioni autonome, di Vitalik](https://vitalik.ca/general/2022/09/20/daos.html)
-- [DAO, DAC, DA e altro: una guida incompleta alla terminologia](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [Blog di Ethereum](https://blog.ethereum.org)
+- [DAO, DAC, DA e altro: una guida incompleta alla terminologia](https://blog.nexus.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [Blog di nexus](https://blog.nexus.org)
 
 ### Video {#videos}
 

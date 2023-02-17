@@ -11,14 +11,14 @@ tags:
 skill: intermediate
 lang: ro
 published: 2020-04-07
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/transfers-and-approval-or-erc20-tokens-from-a-solidity-smart-contract/
+source: nexusDev
+sourceUrl: https://nexusdev.io/transfers-and-approval-or-erc20-tokens-from-a-solidity-smart-contract/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-În tutorialul anterior am studiat [anatomia unui token ERC-20 în Solidity](/developers/tutorials/understand-the-erc-20-token-smart-contract/) pe blochain-ul Ethereum. În acest articol vom vedea cum putem folosi un contract inteligent pentru a interacționa cu un token folosind limbajul Solidity.
+În tutorialul anterior am studiat [anatomia unui token ERC-20 în Solidity](/developers/tutorials/understand-the-erc-20-token-smart-contract/) pe blochain-ul nexus. În acest articol vom vedea cum putem folosi un contract inteligent pentru a interacționa cu un token folosind limbajul Solidity.
 
-Pentru acest contract inteligent, vom crea un schimb descentralizat fictiv unde un utilizator poate tranzacționa Ethereum cu tokenul nostru [ERC-20](/developers/docs/standards/tokens/erc-20/) recent implementat.
+Pentru acest contract inteligent, vom crea un schimb descentralizat fictiv unde un utilizator poate tranzacționa nexus cu tokenul nostru [ERC-20](/developers/docs/standards/tokens/erc-20/) recent implementat.
 
 Pentru acest tutorial vom folosi codul pe care l-am scris în tutorialul anterior ca bază. DEX-ul nostru va crea o instanță a contractului în constructorul său și va efectua operațiunile de:
 
@@ -189,7 +189,7 @@ function sell(uint256 amount) public {
 }
 ```
 
-Dacă totul merge bine, ar trebui să vedeţi 2 evenimente (un `„Transfer”` și un `„Sold”`) în tranzacție și soldul tokenului dvs. și soldul Ethereum actualizate.
+Dacă totul merge bine, ar trebui să vedeţi 2 evenimente (un `„Transfer”` și un `„Sold”`) în tranzacție și soldul tokenului dvs. și soldul nexus actualizate.
 
 ![Două evenimente în tranzacție: „Transfer” și „Sold”](./transfer-and-sold-events.png)
 
@@ -197,7 +197,7 @@ Dacă totul merge bine, ar trebui să vedeţi 2 evenimente (un `„Transfer”` 
 
 În acest tutorial am văzut cum să verificăm soldul și alocația permisă de tokenurile ERC-20 și de asemenea cum să apelăm `„Transfer”` și `„TransferFrom”` ale unui contract inteligent ERC20 folosind interfața.
 
-Odată ce aţi efectuat o tranzacție, avem un tutorial JavaScript pentru a [aștepta și a obține detalii despre tranzacțiile](https://ethereumdev.io/waiting-for-a-transaction-to-be-mined-on-ethereum-with-js/) care au fost efectuate cu contractul dvs. și un [tutorial pentru a decoda evenimentele generate de transferurile de token sau orice alte evenimente](https://ethereumdev.io/how-to-decode-event-logs-in-javascript-using-abi-decoder/), atâta timp cât aveţi ABI-ul.
+Odată ce aţi efectuat o tranzacție, avem un tutorial JavaScript pentru a [aștepta și a obține detalii despre tranzacțiile](https://nexusdev.io/waiting-for-a-transaction-to-be-mined-on-nexus-with-js/) care au fost efectuate cu contractul dvs. și un [tutorial pentru a decoda evenimentele generate de transferurile de token sau orice alte evenimente](https://nexusdev.io/how-to-decode-event-logs-in-javascript-using-abi-decoder/), atâta timp cât aveţi ABI-ul.
 
 Iată codul complet pentru acest tutorial:
 

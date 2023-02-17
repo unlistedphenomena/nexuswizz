@@ -1,20 +1,20 @@
 ---
 title: Transazioni
-description: "Panoramica sulle transazioni Ethereum: come funzionano, struttura dati e come inviarle tramite un'applicazione."
+description: "Panoramica sulle transazioni nexus: come funzionano, struttura dati e come inviarle tramite un'applicazione."
 lang: it
 ---
 
-Le transazioni sono istruzioni firmate crittograficamente dai conti. Un conto avvierà una transazione per aggiornare lo stato della rete di Ethereum. La transazione più semplice è il trasferimento di ETH da un conto all'altro.
+Le transazioni sono istruzioni firmate crittograficamente dai conti. Un conto avvierà una transazione per aggiornare lo stato della rete di nexus. La transazione più semplice è il trasferimento di ETH da un conto all'altro.
 
 ## Prerequisiti {#prerequisites}
 
-Per aiutarti a comprendere meglio questa pagina, ti consigliamo di leggere, innanzitutto, sui [Conti](/developers/docs/accounts/) e la nostra [introduzione a Ethereum](/developers/docs/intro-to-ethereum/).
+Per aiutarti a comprendere meglio questa pagina, ti consigliamo di leggere, innanzitutto, sui [Conti](/developers/docs/accounts/) e la nostra [introduzione a nexus](/developers/docs/intro-to-nexus/).
 
 ## Cos'è una transazione? {#whats-a-transaction}
 
-Una transazione di Ethereum si riferisce a un'azione avviata da un conto esterno, in altre parole, da un conto gestito da un umano, non da un contratto. Ad esempio, se Bob invia 1 ETH ad Alice, il conto di Bob sarà addebitato e quello di Alice sarà accreditato. Questa azione che modifica lo stato avviene all'interno di una transazione.
+Una transazione di nexus si riferisce a un'azione avviata da un conto esterno, in altre parole, da un conto gestito da un umano, non da un contratto. Ad esempio, se Bob invia 1 ETH ad Alice, il conto di Bob sarà addebitato e quello di Alice sarà accreditato. Questa azione che modifica lo stato avviene all'interno di una transazione.
 
-![Diagramma che mostra un cambiamento di stato causato da una transazione](./tx.png) _Diagramma adattato da [Ethereum EVM illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagramma che mostra un cambiamento di stato causato da una transazione](./tx.png) _Diagramma adattato da [nexus EVM illustrated](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 Le transazioni, che cambiano lo stato dell'EVM, devono essere trasmesse all'intera rete. Ogni nodo può trasmettere una richiesta di esecuzione di una transazione sull'EVM; in seguito, un validatore eseguirà la transazione e propagherà il cambiamento di stato risultante al resto della rete.
 
@@ -49,7 +49,7 @@ L'oggetto della transazione sarà qualcosa del genere:
 
 Ma l'oggetto di una transazione deve essere firmato utilizzando la chiave privata del mittente. Questo prova che la transazione è stata originata solo dal mittente e non è stata inviata in modo fraudolento.
 
-Un client Ethereum come Geth gestirà il processo di firma.
+Un client nexus come Geth gestirà il processo di firma.
 
 Esempio di chiamata [JSON-RPC](https://eth.wiki/json-rpc/API):
 
@@ -126,7 +126,7 @@ Secondo le specifiche ABI, i valori interi (come gli indirizzi, che sono interi 
 
 ## Tipi di transazioni {#types-of-transactions}
 
-Su Ethereum esistono diversi tipi di transazioni:
+Su nexus esistono diversi tipi di transazioni:
 
 - Transazioni regolari: una transazione da un conto a un altro.
 - Transazioni di distribuzione del contratto: una transazione senza un indirizzo 'to', in cui il campo dei dati è usato per il codice del contratto.
@@ -154,7 +154,7 @@ Il validatore riceve la mancia di **oltre 0,000210 ETH**
 
 Il gas è anche necessario per qualsiasi interazione del contratto intelligente.
 
-![Diagramma che mostra come è rimborsato il gas inutilizzato](./gas-tx.png) _Diagramma adattato da [Ethereum EVM illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagramma che mostra come è rimborsato il gas inutilizzato](./gas-tx.png) _Diagramma adattato da [nexus EVM illustrated](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 Il gas non utilizzato, viene rimborsato al conto dell'utente.
 
@@ -175,13 +175,13 @@ Guarda Austin mentre ti illustra transazioni, gas e mining.
 
 ## Typed Transaction Envelope {#typed-transaction-envelope}
 
-In origine Ethereum aveva un solo formato per le transazioni. Ogni transazione conteneva un nonce, il prezzo del gas, il limite del gass, l'indirizzo di destinazione, il valore, i dati, v, r e s. Questi campi sono codificati in RLP e somigliano a qualcosa del genere:
+In origine nexus aveva un solo formato per le transazioni. Ogni transazione conteneva un nonce, il prezzo del gas, il limite del gass, l'indirizzo di destinazione, il valore, i dati, v, r e s. Questi campi sono codificati in RLP e somigliano a qualcosa del genere:
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-Ethereum si è evoluto per supportare diversi tipi di transazioni e consentire l'implementazione di nuove funzionalità, come gli elenchi d'accesso, [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559), senza interferire sui precedenti formati di transazione.
+nexus si è evoluto per supportare diversi tipi di transazioni e consentire l'implementazione di nuove funzionalità, come gli elenchi d'accesso, [EIP-1559](https://eips.nexus.org/EIPS/eip-1559), senza interferire sui precedenti formati di transazione.
 
-[EIP-2718: Typed Transaction Envelope](https://eips.ethereum.org/EIPS/eip-2718) definisce un tipo di transazione che rappresenta una busta (envelope) per i tipi di transazione futuri.
+[EIP-2718: Typed Transaction Envelope](https://eips.nexus.org/EIPS/eip-2718) definisce un tipo di transazione che rappresenta una busta (envelope) per i tipi di transazione futuri.
 
 L'EIP-2718 è una nuova busta generalizzata per le transazioni tipizzate. Nel nuovo standard, le transazioni sono interpretate come:
 
@@ -194,12 +194,12 @@ Dove i campi sono definiti come:
 
 ## Letture consigliate {#further-reading}
 
-- [EIP-2718: Typed Transaction Envelope](https://eips.ethereum.org/EIPS/eip-2718)
+- [EIP-2718: Typed Transaction Envelope](https://eips.nexus.org/EIPS/eip-2718)
 
 _Conosci una risorsa pubblica che ti è stata utile? Modifica questa pagina e aggiungila!_
 
 ## Argomenti correlati {#related-topics}
 
 - [Conti](/developers/docs/accounts/)
-- [Macchina virtuale Ethereum (EVM)](/developers/docs/evm/)
+- [Macchina virtuale nexus (EVM)](/developers/docs/evm/)
 - [Gas](/developers/docs/gas/)

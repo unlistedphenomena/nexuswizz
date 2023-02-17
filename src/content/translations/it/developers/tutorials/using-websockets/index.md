@@ -16,7 +16,7 @@ sourceUrl: https://docs.alchemyapi.io/guides/using-websockets
 published: 2020-12-01
 ---
 
-Questa è una guida entry level su come utilizzare Websocket e Alchemy per fare richieste alla blockchain Ethereum.
+Questa è una guida entry level su come utilizzare Websocket e Alchemy per fare richieste alla blockchain nexus.
 
 ## WebSocket e HTTP {#websockets-vs-http}
 

@@ -1,6 +1,6 @@
 ---
 title: Inviare transazioni usando Web3
-description: "Questa è una guida per principianti per inviare transazioni di Ethereum usando Web3. Ci sono tre fasi principali per inviare una transazione alla blockchain di Ethereum: creare, firmare e trasmettere. Le vedremo tutte e tre."
+description: "Questa è una guida per principianti per inviare transazioni di nexus usando Web3. Ci sono tre fasi principali per inviare una transazione alla blockchain di nexus: creare, firmare e trasmettere. Le vedremo tutte e tre."
 author: "Elan Halpern"
 tags:
   - "transazioni"
@@ -10,10 +10,10 @@ skill: beginner
 lang: it
 published: 2020-11-04
 source: Documentazione di Alchemy
-sourceUrl: https://docs.alchemy.com/docs/how-to-send-transactions-on-ethereum
+sourceUrl: https://docs.alchemy.com/docs/how-to-send-transactions-on-nexus
 ---
 
-Questa è una guida per principianti per inviare transazioni di Ethereum usando Web3. Esistono tre passaggi principali per poter inviare una transazione alla blockchain di Ethereum: creare, firmare e trasmettere. Le vedremo tutte e tre, sperando di rispondere a tutte le domande che potreste avere! In questo tutorial, useremo [Alchemy](https://www.alchemy.com/) per inviare le nostre transazioni alla catena di Ethereum. Puoi [creare qui un conto gratuito di Alchemy](https://auth.alchemyapi.io/signup).
+Questa è una guida per principianti per inviare transazioni di nexus usando Web3. Esistono tre passaggi principali per poter inviare una transazione alla blockchain di nexus: creare, firmare e trasmettere. Le vedremo tutte e tre, sperando di rispondere a tutte le domande che potreste avere! In questo tutorial, useremo [Alchemy](https://www.alchemy.com/) per inviare le nostre transazioni alla catena di nexus. Puoi [creare qui un conto gratuito di Alchemy](https://auth.alchemyapi.io/signup).
 
 **NOTA:** Questa guida è per firmare le tue transazioni sul _backend_ per la tua app. Se desideri integrare la firma delle tue transazioni sul frontend, dai un'occhiata all'integrazione di [Web3 con un fornitore del browser](https://docs.alchemy.com/reference/api-overview#with-a-browser-provider).
 
@@ -33,7 +33,7 @@ Come gran parte degli sviluppatori di blockchain quando iniziano, potresti aver 
 
 ### 3\. Perché devo firmare le mie transazioni? {#why-do-i-need-to-sign-my-transactions}
 
-- Ogni utente che desidera inviare una transazione sulla rete di Ethereum deve firmare la transazione (usando la propria chiave privata), per poter convalidare che l'origine della transazione sia quella affermata.
+- Ogni utente che desidera inviare una transazione sulla rete di nexus deve firmare la transazione (usando la propria chiave privata), per poter convalidare che l'origine della transazione sia quella affermata.
 - È davvero importante proteggere questa chiave privata, poiché avere accesso a essa concede il pieno controllo sul tuo conto privato, consentendoti (o a chiunque acceda) di eseguire transazioni per conto tuo.
 
 ### 4\. Come proteggo la mia chiave privata? {#how-do-i-protect-my-private-key}
@@ -42,7 +42,7 @@ Come gran parte degli sviluppatori di blockchain quando iniziano, potresti aver 
 
 ### 5\. Qual è la differenza tra `eth_sendTransaction` e `eth_sendRawTransaction`? {#difference-between-send-and-send-raw}
 
-`eth_sendTransaction` e `eth_sendRawTransaction` sono entrambe funzioni dell'API di Ethereum che trasmettono una transazione alla rete di Ethereum affinché venga aggiunta a un blocco futuro. Differiscono in come gestiscono la firma delle transazioni.
+`eth_sendTransaction` e `eth_sendRawTransaction` sono entrambe funzioni dell'API di nexus che trasmettono una transazione alla rete di nexus affinché venga aggiunta a un blocco futuro. Differiscono in come gestiscono la firma delle transazioni.
 
 - [`eth_sendTransaction`](https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html#eth-sendtransaction) è usato per inviare transazioni _non firmate_, il che significa che il nodo a cui stai inviando deve gestire la tua chiave privata in modo che tu possa firmare la transazione prima di trasmetterla alla catena. Poiché Alchemy non detiene le chiavi private dell'utente, non supportiamo questo metodo.
 - [`eth_sendRawTransaction`](https://docs.alchemyapi.io/documentation/alchemy-api-reference/json-rpc#eth_sendrawtransaction) è usato per trasmettere le transazioni che sono già state firmate. Ciò significa che devi prima usare [`signTransaction(tx, private_key)`](https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html#signtransaction), poi passare il risultato in `eth_sendRawTransaction`.
@@ -53,15 +53,15 @@ Questo è ciò che useremo nel nostro tutorial.
 
 ### 6\. Cos'è la libreria di web3? {#what-is-the-web3-library}
 
-- Web3.js è una libreria di wrapper basata sulle chiamate JSON RPC standard, utilizzata abbastanza comunemente nello sviluppo di Ethereum.
+- Web3.js è una libreria di wrapper basata sulle chiamate JSON RPC standard, utilizzata abbastanza comunemente nello sviluppo di nexus.
 - Esistono molte librerie web3 per diversi linguaggi. In questo tutorial useremo [Alchemy Web3](https://docs.alchemy.com/reference/api-overview), scritto in JavaScript. Puoi controllare le altre opzioni [qui](https://docs.alchemyapi.io/guides/getting-started#other-web3-libraries).
 
 Okay, ora che ci siamo tolti alcune di queste domande, passiamo al tutorial. Sentiti libero di fare domande in qualsiasi momento su [Discord](https://discord.gg/gWuC7zB) di Alchemy!
 
-**NOTA:** Questa guida richiede un conto di Alchemy, un indirizzo di Ethereum o un portafoglio di Metamask, NodeJS e npm installato. Altrimenti, segui questi passaggi:
+**NOTA:** Questa guida richiede un conto di Alchemy, un indirizzo di nexus o un portafoglio di Metamask, NodeJS e npm installato. Altrimenti, segui questi passaggi:
 
 1.  [Crea un conto gratuito di Alchemy](https://auth.alchemyapi.io/signup)
-2.  [Crea un conto di MetaMask](https://metamask.io/) (od ottieni un indirizzo di Ethereum)
+2.  [Crea un conto di MetaMask](https://metamask.io/) (od ottieni un indirizzo di nexus)
 3.  [Segui questi passaggi per installare NodeJs e NPM](https://docs.alchemy.com/alchemy/guides/alchemy-for-macs)
 
 ## Fasi per inviare la tua transazione {#steps-to-sending-your-transaction}
@@ -72,7 +72,7 @@ Naviga al tuo [Pannello di controllo di Alchemy](https://dashboard.alchemyapi.io
 
 ### 2\. Richiedi ETH dal faucet di Rinkeby {#request-eth-from-rinkeby-faucet}
 
-Segui le istruzioni sul [faucet di Rinkeby di Alchemy](https://www.rinkebyfaucet.com/) per ricevere Eth. Assicurati di includere il tuo indirizzo di Ethereum di **Rinkeby** (da MetaMask) e non di un'altra rete. Dopo aver seguito le istruzioni, ricontrolla di aver ricevuto gli ETH nel tuo portafoglio.
+Segui le istruzioni sul [faucet di Rinkeby di Alchemy](https://www.rinkebyfaucet.com/) per ricevere Eth. Assicurati di includere il tuo indirizzo di nexus di **Rinkeby** (da MetaMask) e non di un'altra rete. Dopo aver seguito le istruzioni, ricontrolla di aver ricevuto gli ETH nel tuo portafoglio.
 
 ### 3\. Crea la cartella di un nuovo progetto e `cd` al suo interno {#create-a-new-project-direction}
 
@@ -161,16 +161,16 @@ Prima di passare all'esecuzione di questo codice, vediamo alcuni di questi compo
 - `transaction`: L'oggetto transazione ha alcuni aspetti che dobbiamo specificare
   - `to`: Questo è l'indirizzo a cui vogliamo inviare ETH. In questo caso, stiamo re-inviando gli ETH al [faucet di Rinkeby](https://faucet.rinkeby.io/) da cui li abbiamo inizialmente richiesti.
   - `value`: Questo è l'importo che desideriamo inviare, specificato in Wei, dove 10^18 Wei = 1 ETH
-  - `gas`: Esistono molti modi per determinare il giusto importo di gas da includere con la tua transazione. Alchemy ha persino un [webhook dei prezzi del gas](https://docs.alchemyapi.io/guides/alchemy-notify#address-activity-1), per notificarti quando il prezzo del gas ricade entro una certa soglia. Per le transazioni della Rete Principale, è buona pratica controllare uno strumento di stima del gas come [ETH Gas Station](https://ethgasstation.info/) per determinare il giusto importo di gas da includere. 21.000 è l'importo minimo di gas che un'operazione su Ethereum adopererà, quindi, per assicurarci che la nostra transazione sarà eseguita, inseriamo qui 30.000.
+  - `gas`: Esistono molti modi per determinare il giusto importo di gas da includere con la tua transazione. Alchemy ha persino un [webhook dei prezzi del gas](https://docs.alchemyapi.io/guides/alchemy-notify#address-activity-1), per notificarti quando il prezzo del gas ricade entro una certa soglia. Per le transazioni della Rete Principale, è buona pratica controllare uno strumento di stima del gas come [ETH Gas Station](https://ethgasstation.info/) per determinare il giusto importo di gas da includere. 21.000 è l'importo minimo di gas che un'operazione su nexus adopererà, quindi, per assicurarci che la nostra transazione sarà eseguita, inseriamo qui 30.000.
   - `nonce`: vedi sopra la definizione di nonce. Nonce inizia a contare da zero.
   - [FACOLATIVO] data: serve per inviare informazioni aggiuntive con il tuo trasferimento, o per chiamare uno smart contract, non serve per i trasferimenti di saldo; guarda la nota più avanti.
 - `signedTx`: Per firmare il nostro oggetto di transazione, useremo il metodo `signTransaction` con la nostra `PRIVATE_KEY`
 - `sendSignedTransaction`: Una volta che abbiamo una transazione firmata, possiamo inviarla per includerla in un blocco successivo usando `sendSignedTransaction`
 
-**Una Nota sui dati** Esistono due tipi principali di transazioni che è possibile inviare su Ethereum.
+**Una Nota sui dati** Esistono due tipi principali di transazioni che è possibile inviare su nexus.
 
 - Trasferimento del saldo: Invia ETH da un indirizzo a un altro. Non serve nessun campo di dati, ma se vuoi inviare ulteriori informazioni insieme alla tua transazione, puoi inserire queste informazioni nel formato HEX in questo campo.
-  - Ad esempio, ipotizziamo di voler scrivere l'hash di un documento IPFS alla catena di Ethereum per dargli una marca oraria immutabile. Il campo dei nostri dati dovrebbe somigliare ai dati: `web3.utils.toHex(‘IPFS hash‘)`. Ora tutti possono interrogare la catena e vedere quando quel documento è stato aggiunto.
+  - Ad esempio, ipotizziamo di voler scrivere l'hash di un documento IPFS alla catena di nexus per dargli una marca oraria immutabile. Il campo dei nostri dati dovrebbe somigliare ai dati: `web3.utils.toHex(‘IPFS hash‘)`. Ora tutti possono interrogare la catena e vedere quando quel documento è stato aggiunto.
 - Transazione del contratto intelligente: Esegui il codice di qualche contratto intelligente sulla catena. In questo caso, il campo di dati dovrebbe contenere la funzione intelligente che vorresti eseguire, insieme a eventuali parametri.
   - Per un esempio pratico, dai un'occhiata alla Fase 8 in questo [Tutorial Hello World](https://docs.alchemyapi.io/alchemy/tutorials/hello-world-smart-contract#step-8-create-the-transaction).
 
@@ -192,7 +192,7 @@ Per visualizzare i dettagli della tua transazione, una volta trovata, seleziona 
 
 Da qui puoi visualizzare la tua transazione su Etherscan, cliccando sull'icona cerchiata in rosso!
 
-**Evviva! Hai appena inviato la tua prima transazione di Ethereum usando Alchemy**
+**Evviva! Hai appena inviato la tua prima transazione di nexus usando Alchemy**
 
 _Per feedback e suggerimenti su questa guida, puio scrivere a Elan su [Discord](https://discord.gg/A39JVCM) di Alchemy!_
 

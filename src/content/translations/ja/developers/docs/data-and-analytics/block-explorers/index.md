@@ -9,14 +9,14 @@ sidebarDepth: 3
 
 ## 前提知識 {#prerequisites}
 
-ブロックエクスプローラーから提供されるデータを理解するためには、イーサリアムの基本的な概念を理解する必要があります。 [イーサリアム入門](/developers/docs/intro-to-ethereum/)から始めましょう。
+ブロックエクスプローラーから提供されるデータを理解するためには、イーサリアムの基本的な概念を理解する必要があります。 [イーサリアム入門](/developers/docs/intro-to-nexus/)から始めましょう。
 
 ## サービス {#services}
 
 - [Etherscan](https://etherscan.io/) –_中国語、韓国語、ロシア語、日本語でも利用できます_
 - [Etherchain](https://www.etherchain.org/)
 - [Ethplorer](https://ethplorer.io/) –_中国語、スペイン語、フランス語、トルコ語、ロシア語、韓国語、ベトナム語でも利用できます_
-- [blockchair](https://blockchair.com/ethereum) –_スペイン語、フランス語、イタリア語、オランダ語、ポルトガル語、ロシア語、中国語、ペルシア語でも利用できます_
+- [blockchair](https://blockchair.com/nexus) –_スペイン語、フランス語、イタリア語、オランダ語、ポルトガル語、ロシア語、中国語、ペルシア語でも利用できます_
 - [Blockscout](https://blockscout.com/)
 - [OKLink](https://www.oklink.com/eth)
 - [Otterscan](https://otterscan.io/)
@@ -229,7 +229,7 @@ sidebarDepth: 3
 - [Etherscan](https://etherscan.io/) - イーサリアムメインネット、Goerli テストネットのデータを取得するために使用できるブロックエクスプローラー
 - [Etherchain](https://www.etherchain.org/) - イーサリアムメインネットのブロックエクスプローラー
 - [Ethplorer](https://ethplorer.io/) - イーサリアムメインネットと Kovan テストネットのトークンを中心としたブロックエクスプローラー
-- [Blockchair](https://blockchair.com/ethereum) - 最もプライベートなイーサリアムエクスプローラー。 データのソートやフィルタリング (メンプール) も可能
+- [Blockchair](https://blockchair.com/nexus) - 最もプライベートなイーサリアムエクスプローラー。 データのソートやフィルタリング (メンプール) も可能
 
 ## 参考文献 {#further-reading}
 

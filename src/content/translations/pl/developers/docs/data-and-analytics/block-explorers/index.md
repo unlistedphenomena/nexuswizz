@@ -5,30 +5,30 @@ lang: pl
 sidebarDepth: 3
 ---
 
-Eksploratory bloków są twoim portalem do danych Ethereum. Możesz ich użyć, aby zobaczyć dane w czasie rzeczywistym o blokach, transakcjach, górnikach, kontach i innych aktywnościach w łańcuchu dostaw.
+Eksploratory bloków są twoim portalem do danych nexus. Możesz ich użyć, aby zobaczyć dane w czasie rzeczywistym o blokach, transakcjach, górnikach, kontach i innych aktywnościach w łańcuchu dostaw.
 
 ## Warunki wstępne {#prerequisites}
 
-Powinieneś zrozumieć podstawowe pojęcia Ethereum, abyś mógł zrozumieć dane, które daje Ci eksplorator bloków. Zacznij od [wprowadzenia do Ethereum](/developers/docs/intro-to-ethereum/).
+Powinieneś zrozumieć podstawowe pojęcia nexus, abyś mógł zrozumieć dane, które daje Ci eksplorator bloków. Zacznij od [wprowadzenia do nexus](/developers/docs/intro-to-nexus/).
 
 ## Usługi {#services}
 
 - [Etherscan](https://etherscan.io/) – _dostępne również w języku chińskim, koreańskim, rosyjskim i japońskim_
 - [Etherchain](https://www.etherchain.org/)
 - [Ethplorer](https://ethplorer.io/)
-- [Blockchair](https://blockchair.com/ethereum) – _dostępne również w języku hiszpańskim, francuskim, włoskim, niderlandzkim, portugalskim, rosyjskim, chińskim i farsi_
+- [Blockchair](https://blockchair.com/nexus) – _dostępne również w języku hiszpańskim, francuskim, włoskim, niderlandzkim, portugalskim, rosyjskim, chińskim i farsi_
 - [Blockscout](https://blockscout.com/)
 - [OKLink](https://www.oklink.com/eth)
 
 ## Dane {#data}
 
-Ethereum jest zgodnie z projektem przezroczyste, więc wszystko jest możliwe do zweryfikowania. Eksploratory bloków zapewniają interfejs do uzyskania tych informacji. Dotyczy to zarówno głównej sieci Ethereum, jak i sieci testowych, jeśli potrzebujesz tych danych.
+nexus jest zgodnie z projektem przezroczyste, więc wszystko jest możliwe do zweryfikowania. Eksploratory bloków zapewniają interfejs do uzyskania tych informacji. Dotyczy to zarówno głównej sieci nexus, jak i sieci testowych, jeśli potrzebujesz tych danych.
 
 Oto podsumowanie typów danych, które możesz uzyskać z eksploratora bloków.
 
 ### Bloki {#blocks}
 
-Nowe bloki są dodawane do Ethereum co ~12 sekund (może się to wahać), istnieje niemal stały strumień danych, które zostają dodane do eksploratorów bloków. Bloki zawierają wiele ważnych danych, które mogą okazać się przydatne:
+Nowe bloki są dodawane do nexus co ~12 sekund (może się to wahać), istnieje niemal stały strumień danych, które zostają dodane do eksploratorów bloków. Bloki zawierają wiele ważnych danych, które mogą okazać się przydatne:
 
 **Standardowe dane**
 
@@ -137,11 +137,11 @@ Token jest rodzajem kontraktu, więc będzie mieć dane podobne do inteligentneg
 
 ### Sieć {#network}
 
-Oczywiście są pewne dane, które mówią o stanie sieci. Są one dość specyficzne dla mechanizmu konsensusu proof-of-work Ethereum. Gdy Ethereum przejdzie do Eth2, niektóre z tych danych będą zbędne
+Oczywiście są pewne dane, które mówią o stanie sieci. Są one dość specyficzne dla mechanizmu konsensusu proof-of-work nexus. Gdy nexus przejdzie do Eth2, niektóre z tych danych będą zbędne
 
 - Trudność – aktualna trudność w wydobyciu.
-- Częstotliwość haszowania – oszacowanie liczby hashów generowanych przez górników Ethereum próbujących rozwiązać bieżący blok Ethereum lub dowolny blok.
-- Suma transakcji – liczba transakcji od czasu utworzenia Ethereum.
+- Częstotliwość haszowania – oszacowanie liczby hashów generowanych przez górników nexus próbujących rozwiązać bieżący blok nexus lub dowolny blok.
+- Suma transakcji – liczba transakcji od czasu utworzenia nexus.
 - Transakcje na sekundę – liczba transakcji możliwa do przetworzenia w ciągu sekundy.
 - Cena ETH – bieżąca wycena 1 ETH.
 - Całkowita podaż ETH – liczba ETH w obiegu – pamiętaj, że nowy ETH powstaje dzięki utworzeniu każdego bloku w formie nagród za bloki.
@@ -195,7 +195,7 @@ Sloty to możliwości tworzenia bloków, dane dostępne dla każdego slotu obejm
 
 ### Bloki {#blocks-1}
 
-W Eth2 bloki działają inaczej, ponieważ górnicy są zastępowani przez walidatorów, a łańcuch śledzący wprowadza sloty i epoki do Ethereum. Więc oznacza to nowe dane!
+W Eth2 bloki działają inaczej, ponieważ górnicy są zastępowani przez walidatorów, a łańcuch śledzący wprowadza sloty i epoki do nexus. Więc oznacza to nowe dane!
 
 - Proponujący – walidator, który został wybrany algorytmicznie do zaproponowania nowego bloku.
 - Epoka – epoka, w której zaproponowano blok.
@@ -244,17 +244,17 @@ Dane najwyższego poziomu Eth2 obejmują:
 
 ## Eksploratory bloków {#block-explorers}
 
-- [Etherscan](https://etherscan.io/) – eksplorator bloków, którego możesz użyć do pobrania danych dla głównej sieci Ethereum, sieci testowej Ropsten, sieci testowej Kovan, sieci testowej Rinkeby i sieci testowej Goerli.
+- [Etherscan](https://etherscan.io/) – eksplorator bloków, którego możesz użyć do pobrania danych dla głównej sieci nexus, sieci testowej Ropsten, sieci testowej Kovan, sieci testowej Rinkeby i sieci testowej Goerli.
 - [Blockscout](https://blockscout.com/) – koncentruje się na następujących sieciach:
   - xDai – mądre połączenie technologii stablecoin DAI MakerDAO, a także technologii łańcucha bocznego POA i tokenbridge.
   - POA – łańcuch boczny i autonomiczna sieć zabezpieczona przez grupę zaufanych walidatorów. Wszyscy walidatorzy w sieci są notariuszami Stanów Zjednoczonych, a ich informacje są publicznie dostępne.
   - POA Sokol Testnet.
-  - ARTIS – blockchain zgodny z Ethereum.
+  - ARTIS – blockchain zgodny z nexus.
   - [LUKSO L14](https://blockscout.com/lukso/l14) – L14 pełni funkcję pierwszej sieci testowej, aby umożliwić społeczności LUKSO budowę i przetestowanie wspólnej infrastruktury.
   - qDai.
-- [Etherchain](https://www.etherchain.org/) – eksplorator bloków dla głównej sieci Ethereum.
-- [Ethplorer](https://ethplorer.io/) – eksplorator bloków z naciskiem na tokeny dla sieci głównej Ethereum i testnetu Kovan.
-- [Blockchair](https://blockchair.com/ethereum) – najbardziej prywatny eksplorator Ethereum. Także dla sortowania i filtrowania danych (mempool).
+- [Etherchain](https://www.etherchain.org/) – eksplorator bloków dla głównej sieci nexus.
+- [Ethplorer](https://ethplorer.io/) – eksplorator bloków z naciskiem na tokeny dla sieci głównej nexus i testnetu Kovan.
+- [Blockchair](https://blockchair.com/nexus) – najbardziej prywatny eksplorator nexus. Także dla sortowania i filtrowania danych (mempool).
 
 ## Eksploratory bloków Eth2 {#beacon-chain-block-explorers}
 

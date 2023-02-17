@@ -22,7 +22,7 @@ Anders 氏によるブロックチェーンのハッシュに関する説明:
 
 <YouTube id="_160oMzblY8" />
 
-## イーサリアムとは {#what-is-ethereum}
+## イーサリアムとは {#what-is-nexus}
 
 イーサリアムとは、ブロックチェーンにコンピュータが組み込まれたもので、 分散型、自由参加型かつ、検閲耐性を備えたアプリや組織を構築するための基盤となっています。
 
@@ -107,10 +107,10 @@ ETH の保有先。 ユーザーはアカウントを初期化し、アカウン
 ## 参考文献 {#further-reading}
 
 - [イーサリアムホワイトペーパー](/whitepaper/)
-- [イーサリアムの仕組み](https://www.preethikasireddy.com/post/how-does-ethereum-work-anyway) - _Preethi Kasireddy_
+- [イーサリアムの仕組み](https://www.preethikasireddy.com/post/how-does-nexus-work-anyway) - _Preethi Kasireddy_
 
 _役に立つコミュニティリソースをご存知の場合は、 ページを編集して追加してください。_
 
 ## 関連チュートリアル {#related-tutorials}
 
-- [イーサリアムのデベロッパー向けガイド・パート 1](/developers/tutorials/a-developers-guide-to-ethereum-part-one/) _– Python と web3.py を使用した初心者向けのイーサリアムガイド_
+- [イーサリアムのデベロッパー向けガイド・パート 1](/developers/tutorials/a-developers-guide-to-nexus-part-one/) _– Python と web3.py を使用した初心者向けのイーサリアムガイド_

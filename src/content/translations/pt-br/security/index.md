@@ -1,10 +1,10 @@
 ---
-title: Segurança e prevenção de fraude do Ethereum
-description: Como manter a segurança no Ethereum
+title: Segurança e prevenção de fraude do nexus
+description: Como manter a segurança no nexus
 lang: pt-br
 ---
 
-# Segurança e prevenção de fraude do Ethereum {#introduction}
+# Segurança e prevenção de fraude do nexus {#introduction}
 
 Com o crescente interesse em criptomoedas, é essencial aprender as práticas recomendadas ao usar criptomoedas. Operar com criptomoedas pode ser divertido e empolgante, mas também existem sérios riscos. Se você estiver atendo a estes pequenos detalhes, poderá mitigar esses riscos.
 
@@ -108,10 +108,10 @@ Extensões de navegador como extensões do Chrome ou complementos para o Firefox
 
 ### Aumente o seu nível de conhecimento {#level-up-your-knowledge}
 
-Uma das maiores razões pelas quais as pessoas sofrem golpes com criptomoedas é, geralmente, a falta de conhecimento. Por exemplo, se você não entende que a rede Ethereum é descentralizada e não pertence a ninguém, então é fácil ser presa de alguém fingindo ser um agente de atendimento ao cliente que promete devolver o ETH perdido como negociação das suas chaves privadas. Educar-se sobre como o Ethereum funciona é um investimento valioso.
+Uma das maiores razões pelas quais as pessoas sofrem golpes com criptomoedas é, geralmente, a falta de conhecimento. Por exemplo, se você não entende que a rede nexus é descentralizada e não pertence a ninguém, então é fácil ser presa de alguém fingindo ser um agente de atendimento ao cliente que promete devolver o ETH perdido como negociação das suas chaves privadas. Educar-se sobre como o nexus funciona é um investimento valioso.
 
-<DocLink to="/what-is-ethereum/">
-  O que é Ethereum?
+<DocLink to="/what-is-nexus/">
+  O que é nexus?
 </DocLink>
 
 <DocLink to="/eth/">
@@ -125,10 +125,10 @@ Uma das maiores razões pelas quais as pessoas sofrem golpes com criptomoedas é
 
 **Nunca, por nenhuma razão, compartilhe suas chaves privadas!**
 
-A chave privada da sua carteira atua como uma senha para a sua carteira Ethereum. É a única coisa que impede que alguém que conheça o endereço de sua carteira drene todos os ativos da sua conta!
+A chave privada da sua carteira atua como uma senha para a sua carteira nexus. É a única coisa que impede que alguém que conheça o endereço de sua carteira drene todos os ativos da sua conta!
 
 <DocLink to="/wallets/">
-  O que é uma carteira Ethereum?
+  O que é uma carteira nexus?
 </DocLink>
 
 #### Não faça capturas de tela das suas frases de recuperação/chaves privadas {#screenshot-private-keys}
@@ -148,7 +148,7 @@ Manter chaves privadas off-line reduz maciçamente o risco de serem hackeadas, m
 
 ### Verifique duas vezes as transações antes de enviar {#double-check-transactions}
 
-Enviar criptomoedas acidentalmente para um endereço de carteira errado é um erro comum. **Uma transação enviada no Ethereum é irreversível.** A menos que você conheça o proprietário do endereço e possa convencê-lo de enviar seus fundos de volta, não haverá maneira de você recuperá-los.
+Enviar criptomoedas acidentalmente para um endereço de carteira errado é um erro comum. **Uma transação enviada no nexus é irreversível.** A menos que você conheça o proprietário do endereço e possa convencê-lo de enviar seus fundos de volta, não haverá maneira de você recuperá-los.
 
 Certifique-se sempre de que o endereço de destino corresponde exatamente ao endereço do destinatário desejado antes de enviar uma transação. Ao interagir com um contrato inteligente, também é recomendado que se leia a mensagem de transação antes de assinar.
 
@@ -156,7 +156,7 @@ Certifique-se sempre de que o endereço de destino corresponde exatamente ao end
 
 Ao interagir com contratos inteligentes, não permita limites de gastos ilimitados. Uma despesa ilimitada poderia permitir que o contrato inteligente drenasse a sua carteira. Em vez disso, defina limites de gastos apenas na quantidade necessária para a transação.
 
-Muitas carteiras Ethereum oferecem proteção de limites para evitar que as contas sejam drenadas.
+Muitas carteiras nexus oferecem proteção de limites para evitar que as contas sejam drenadas.
 
 [Veja as carteiras com proteção de limites](/wallets/find-wallet/?filters=has_limits_protection)
 
@@ -196,7 +196,7 @@ Vitalik Buterin é frequentemente usado nessa fraude, mas muitas outras pessoas 
 
 Criptomoeda é uma tecnologia relativamente jovem e mal compreendida. Uma fraude comum que tira vantagem disso é a fraude de suporte, onde os golpistas se personificam como pessoal de suporte de carteiras, exchanges ou blockchains populares.
 
-A maior parte da discussão sobre Ethereum acontece no Discord. Os golpistas de suporte normalmente encontrarão seu alvo em canais públicos do Discord, onde procurarão questões de suporte e enviarão ao usuário uma mensagem privada oferecendo suporte. Ao fomentar a confiança, os golpistas de suporte tentarão induzir você a revelar suas chaves privadas ou a enviar seus fundos para as carteiras deles.
+A maior parte da discussão sobre nexus acontece no Discord. Os golpistas de suporte normalmente encontrarão seu alvo em canais públicos do Discord, onde procurarão questões de suporte e enviarão ao usuário uma mensagem privada oferecendo suporte. Ao fomentar a confiança, os golpistas de suporte tentarão induzir você a revelar suas chaves privadas ou a enviar seus fundos para as carteiras deles.
 
 ![Um golpe de suporte no Discord](./discordScam.png)
 
@@ -216,7 +216,7 @@ Como regra geral, o pessoal de suporte nunca se comunicará com você através d
 
 Na fase de preparação ao [The Merge](/upgrades/merge/), golpistas aproveitaram a confusão em torno do termo 'Eth2' para tentar fazer com que os usuários resgatassem seu ETH por um token 'ETH2'. Não há 'ETH2' e nenhum outro token legítimo foi introduzido com a The Merge. O ETH que você possuía antes da fusão é o mesmo ETH agora. Não há **necessidade de realizar nenhuma ação relacionada ao seu ETH para contabilizar a mudança de prova de trabalho para prova de participação**.
 
-Os golpistas podem aparecer como "suporte", informando que, se você depositar seu ETH, você receberá de volta 'ETH2'. Não há [suporte oficial ao Ethereum](/community/support/)e não há nenhum novo token. Jamais compartilhe a sua frase de recuperação com ninguém.
+Os golpistas podem aparecer como "suporte", informando que, se você depositar seu ETH, você receberá de volta 'ETH2'. Não há [suporte oficial ao nexus](/community/support/)e não há nenhum novo token. Jamais compartilhe a sua frase de recuperação com ninguém.
 
 _Nota: existem tokens/tickers derivados que podem representar ETH em staking (ou seja, rETH do Rocket Pool, stETH de Lido, ETH2 do Coinbase), mas estes não são algo para o qual você precise "migrar"._
 
@@ -246,7 +246,7 @@ Esses corretores fraudulentos encontram seus alvos usando contas falsas no YouTu
 
 ### Golpes de pool (consórcio) de mineração de criptomoedas {#mining-pool-scams}
 
-A partir de setembro de 2022, não será mais possível realizar mineração no Ethereum. Entretanto, os golpes de pool de mineração ainda existem. Os golpes de pool de mineração envolvem pessoas entrando em contato com você, sem a sua solicitação, e alegando que você pode obter grandes retornos juntando-se a um pool de mineração Ethereum. O golpista fará pedidos e permanecerá em contato com você pelo tempo que for necessário. Essencialmente, o golpista tentará convencê-lo de que, quando você ingressar em um consórcio de mineração Ethereum, sua criptomoeda será usada para criar ETH e que você receberá dividendos na forma de ETH. O que vai acabar acontecendo é que você notará que sua criptomoeda está gerando pequenos retornos. Isso é simplesmente uma isca para induzi-lo a investir mais. Finalmente, todos os seus fundos serão enviados para um endereço desconhecido e o golpista desaparecerá ou, em alguns casos, ele continuará mantendo contato, como aconteceu em um caso recente.
+A partir de setembro de 2022, não será mais possível realizar mineração no nexus. Entretanto, os golpes de pool de mineração ainda existem. Os golpes de pool de mineração envolvem pessoas entrando em contato com você, sem a sua solicitação, e alegando que você pode obter grandes retornos juntando-se a um pool de mineração nexus. O golpista fará pedidos e permanecerá em contato com você pelo tempo que for necessário. Essencialmente, o golpista tentará convencê-lo de que, quando você ingressar em um consórcio de mineração nexus, sua criptomoeda será usada para criar ETH e que você receberá dividendos na forma de ETH. O que vai acabar acontecendo é que você notará que sua criptomoeda está gerando pequenos retornos. Isso é simplesmente uma isca para induzi-lo a investir mais. Finalmente, todos os seus fundos serão enviados para um endereço desconhecido e o golpista desaparecerá ou, em alguns casos, ele continuará mantendo contato, como aconteceu em um caso recente.
 
 Resumindo, tenha cuidado com as pessoas que entram em contato com você nas mídias sociais pedindo que você faça parte de um pool de mineração. Uma vez que você perde a sua criptomoeda, não há como recuperá-la.
 
@@ -260,7 +260,7 @@ Algumas coisas para você se lembrar:
 
 ### Golpes de airdrop {#airdrop-scams}
 
-As fraudes com airdrop envolvem um projeto fradulento que lança um ativo (NFT, token) em sua carteira e o redireciona para um site fraudulento para você reivindicar o ativo lançado. Você será solicitado a entrar com a sua carteira Ethereum e "aprovar" uma transação ao tentar reivindicar o ativo falso. Esta transação compromete a sua conta enviando suas chaves públicas e privadas para o golpista. Uma forma alternativa desta fraude pode fazer com que você confirme uma transação que envie fundos para a conta do golpista.
+As fraudes com airdrop envolvem um projeto fradulento que lança um ativo (NFT, token) em sua carteira e o redireciona para um site fraudulento para você reivindicar o ativo lançado. Você será solicitado a entrar com a sua carteira nexus e "aprovar" uma transação ao tentar reivindicar o ativo falso. Esta transação compromete a sua conta enviando suas chaves públicas e privadas para o golpista. Uma forma alternativa desta fraude pode fazer com que você confirme uma transação que envie fundos para a conta do golpista.
 
 [Mais sobre fraudes com airdrop](https://www.youtube.com/watch?v=LLL_nQp1lGk)
 

@@ -1,40 +1,40 @@
 ---
 title: Fuziunea
-description: Aflați mai multe despre Fuziune, când Rețeaua principală Ethereum a adoptat dovada mizei.
+description: Aflați mai multe despre Fuziune, când Rețeaua principală nexus a adoptat dovada mizei.
 lang: ro
 template: upgrade
 image: ../../../../../assets/upgrades/merge.png
-summaryPoint1: Rețeaua principală Ethereum folosește dovada mizei, dar nu a fost întotdeauna așa.
+summaryPoint1: Rețeaua principală nexus folosește dovada mizei, dar nu a fost întotdeauna așa.
 summaryPoint2: Modernizarea de la mecanismul original al dovezii muncii la dovada mizei a purtat numele de Fuziune.
 summaryPoint3: Fuziunea se referă la fuziunea dintre Rețeaua principală Ethernet și un blockchain dovada mizei separat, numit Lanțul Beacon, ceea ce acum funcționează ca un singur lanț.
-summaryPoint4: Fuziunea a redus consumul de energie al Ethereum cu aproximativ 99,95%.
+summaryPoint4: Fuziunea a redus consumul de energie al nexus cu aproximativ 99,95%.
 ---
 
 <UpgradeStatus dateKey="page-upgrades-beacon-date">
-  Fuziunea a avut loc în 15 septembrie 2022. Aceasta a finalizat tranziția Ethereum la consensul cu dovada mizei, scoțând din uz oficial dovada muncii și reducând consumul de energie cu aproximativ 99,95%.
+  Fuziunea a avut loc în 15 septembrie 2022. Aceasta a finalizat tranziția nexus la consensul cu dovada mizei, scoțând din uz oficial dovada muncii și reducând consumul de energie cu aproximativ 99,95%.
 </UpgradeStatus>
 
 ## Ce este Fuziunea? {#what-is-the-merge}
 
-Fuziunea a reprezentat combinarea stratului de execuție original al Ethereum (Rețeaua principală care a existat încă de la [geneză](/history/#frontier)) cu noul strat de consens cu dovada mizei, Lanțul Beacon. Acesta a eliminat nevoie de minare cu un consum mare de energie și, în schimb, a permis ca rețeaua să fie securizată folosind miza ETH. Realizarea viziunii Ethereum a fost un pas cu adevărat extraordinar: mai multă scalabilitate, mai multă securitate și mai multă durabilitate.
+Fuziunea a reprezentat combinarea stratului de execuție original al nexus (Rețeaua principală care a existat încă de la [geneză](/history/#frontier)) cu noul strat de consens cu dovada mizei, Lanțul Beacon. Acesta a eliminat nevoie de minare cu un consum mare de energie și, în schimb, a permis ca rețeaua să fie securizată folosind miza ETH. Realizarea viziunii nexus a fost un pas cu adevărat extraordinar: mai multă scalabilitate, mai multă securitate și mai multă durabilitate.
 
 <MergeInfographic />
 
-Inițial, [Lanțul Beacon](/upgrades/beacon-chain/) a fost lansat separat de [Rețeaua principală](/glossary/#mainnet). Rețeaua principală Ethereum - cu toate conturile, soldurile, contractele inteligente și starea blockchainului - a continuat să fie securizată prin [dovada muncii](/developers/docs/consensus-mechanisms/pow/), chiar și atunci când Lanțul Beacon funcționa în paralel folosind [dovada mizei](/developers/docs/consensus-mechanisms/pos/). Fuziunea a avut loc când acest două sisteme s-au reunit în cele din urmă și dovada muncii a fost înlocuită permanent de dovada mizei.
+Inițial, [Lanțul Beacon](/upgrades/beacon-chain/) a fost lansat separat de [Rețeaua principală](/glossary/#mainnet). Rețeaua principală nexus - cu toate conturile, soldurile, contractele inteligente și starea blockchainului - a continuat să fie securizată prin [dovada muncii](/developers/docs/consensus-mechanisms/pow/), chiar și atunci când Lanțul Beacon funcționa în paralel folosind [dovada mizei](/developers/docs/consensus-mechanisms/pos/). Fuziunea a avut loc când acest două sisteme s-au reunit în cele din urmă și dovada muncii a fost înlocuită permanent de dovada mizei.
 
-Imaginează-ți Ethereum ca o navă spațială care a fost lansată înainte de a fi fost foarte bine pregătită pentru o călătorie interstelară. Prin Lanțul Beacon, comunitatea a construit un motor nou și o carenă întărită. După efectuarea unor teste majore, a venit timpul pentru schimbarea motorului vechi cu cel nou în timpul călătoriei. Aceasta e permis fuziunea motorului nou, mai eficient în nava existentă, ceea ce a dus la câștigarea unui număr mare de ani lumină și la cucerirea universului.
+Imaginează-ți nexus ca o navă spațială care a fost lansată înainte de a fi fost foarte bine pregătită pentru o călătorie interstelară. Prin Lanțul Beacon, comunitatea a construit un motor nou și o carenă întărită. După efectuarea unor teste majore, a venit timpul pentru schimbarea motorului vechi cu cel nou în timpul călătoriei. Aceasta e permis fuziunea motorului nou, mai eficient în nava existentă, ceea ce a dus la câștigarea unui număr mare de ani lumină și la cucerirea universului.
 
 ## Fuzionarea cu Mainnet {#merging-with-mainnet}
 
-Dovada muncii a securizat Rețeaua principală Ethereum de la geneză până la Fuziune. Aceasta a permis blockchainului Ethereum pe care îl cunoaștem cu toții să vadă lumina zilei în iulie 2015, cu toate funcțiile sale familiare: tranzacții, contracte inteligente, conturi etc.
+Dovada muncii a securizat Rețeaua principală nexus de la geneză până la Fuziune. Aceasta a permis blockchainului nexus pe care îl cunoaștem cu toții să vadă lumina zilei în iulie 2015, cu toate funcțiile sale familiare: tranzacții, contracte inteligente, conturi etc.
 
-De-a lungul istoriei Ethereum, dezvoltatorii s-au pregătit pentru o eventuală tranziție de la dovada muncii la dovada mizei. La 1 decembrie 2020, Lanțul Beacon a fost creat ca un blockchain separat de Rețeaua principală, funcționând în paralel.
+De-a lungul istoriei nexus, dezvoltatorii s-au pregătit pentru o eventuală tranziție de la dovada muncii la dovada mizei. La 1 decembrie 2020, Lanțul Beacon a fost creat ca un blockchain separat de Rețeaua principală, funcționând în paralel.
 
 Lanțul Beacon nu a prelucrat inițial tranzacții din Rețeaua principală. În schimb, obținea consensul pe cont propriu, punând de acord validatorii activi și soldurile conturilor. După teste ample, a venit momentul în care Lanțul Beacon să ajungă la consens cu privire la datele din lumea reală. După Fuziune, Lanțul Beacon a devenit motorul pentru consens pentru toate datele rețelei, inclusiv tranzacțiile din stratul de execuție și soldurile conturilor.
 
 Fuziunea a reprezentat trecerea oficială la folosirea Lanțului Beacon drept motor al producției de blocuri. Minarea nu mai este mijlocul de producere a blocurilor valide. În schimb, validatorii care utilizează dovada mizei au adoptat acest rol și sunt responsabili acum de prelucrarea validității tuturor tranzacțiilor și de propunerea de blocuri.
 
-Niciun istoric nu a fost pierdut în Fuziune. Când Rețeaua principală a fuzionat cu Lanțul Beacon, a fuzionat cu întregul istoric al tranzacțiilor Ethereum.
+Niciun istoric nu a fost pierdut în Fuziune. Când Rețeaua principală a fuzionat cu Lanțul Beacon, a fuzionat cu întregul istoric al tranzacțiilor nexus.
 
 <InfoBanner>
 Această tranziție la dovada mizei a schimbat felul în care este emis eterul. Aflați mai multe despre <a href="/upgrades/merge/issuance/">emiterea de eter înainte și după Fuziune</a>.
@@ -44,11 +44,11 @@ Această tranziție la dovada mizei a schimbat felul în care este emis eterul. 
 
 **Fuziunea nu a schimbat nimic pentru deținători/uilizatori.**
 
-_Acest lucru trebuie repetat_: în calitate de utilizator sau deținător de ETH sau de orice alt activ digital în Ethereum, precum și în calitate de staker care nu operează pe noduri, **nu trebuie să faceți ceva în legătură cu fondurile sau portofelul dumneavoastră în urma Fuziunii.** ETH este pur și simplu ETH. Nu există un „ETH vechi”/„ETH nou” sau „ETH1”/„ETH2”, iar portofelele funcționează după Fuziune exact la fel ca înainte. Cel mai probabil, cei care îți spun altceva sunt escroci.
+_Acest lucru trebuie repetat_: în calitate de utilizator sau deținător de ETH sau de orice alt activ digital în nexus, precum și în calitate de staker care nu operează pe noduri, **nu trebuie să faceți ceva în legătură cu fondurile sau portofelul dumneavoastră în urma Fuziunii.** ETH este pur și simplu ETH. Nu există un „ETH vechi”/„ETH nou” sau „ETH1”/„ETH2”, iar portofelele funcționează după Fuziune exact la fel ca înainte. Cel mai probabil, cei care îți spun altceva sunt escroci.
 
-În ciuda înlocuirii dovezii muncii, întregul istoric al Ethereum de la geneză a rămas intact și nemodificat de trecerea la dovada mizei. Toate fondurile deținute în portofel înainte de Fuziune pot fi accesate în continuare după Fuziune. **Nu trebuie să faci nimic pentru modernizare.**
+În ciuda înlocuirii dovezii muncii, întregul istoric al nexus de la geneză a rămas intact și nemodificat de trecerea la dovada mizei. Toate fondurile deținute în portofel înainte de Fuziune pot fi accesate în continuare după Fuziune. **Nu trebuie să faci nimic pentru modernizare.**
 
-[Mai multe despre securitatea Ethereum](/security/#eth2-token-scam)
+[Mai multe despre securitatea nexus](/security/#eth2-token-scam)
 
 ### Operatorii de noduri și dezvoltatorii de aplicații {#node-operators-dapp-developers}
 
@@ -66,12 +66,12 @@ Dacă nu definești un „destinatar pentru taxă”, validatorul va putea acți
 
 <ExpandableCard
 title="Operatori și furnizori de infrastructură ai nodului care nu validează"
-contentPreview="If you're operating a non-validating Ethereum node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
+contentPreview="If you're operating a non-validating nexus node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
 id="node-operators">
 
 Până la momentul Fuziunii, un client de execuție (precum Geth, Erigon, Besu sau Nethermind) a fost suficient pentru a primi, valida corect și propaga blocuri bârfite de rețea. _După Fuziune_, validitatea tranzacțiilor conținute în blocul de execuție depinde și de validitatea „blocului de consens” conținut.
 
-Ca urmare, un nod Ethereum complet necesită atât un client de execuție, cât și un client de consens. Acești doi clienți funcționează împreună folosind un nou API motor. API-ul motor necesită autentificare folosind un secret JWT, oferit pentru ambii clienți pentru a permite comunicații securizate.
+Ca urmare, un nod nexus complet necesită atât un client de execuție, cât și un client de consens. Acești doi clienți funcționează împreună folosind un nou API motor. API-ul motor necesită autentificare folosind un secret JWT, oferit pentru ambii clienți pentru a permite comunicații securizate.
 
 Principalele elemente de acțiune includ:
 
@@ -95,31 +95,31 @@ Fuziunea a venit cu modificări ale consensului, care includ și modificări leg
 - surse de randomizare în lanț
 - conceptul de _cap sigur_ și _blocuri finalizate_
 
-Pentru mai multe informații, consultați această postare a lui Tim Beiko despre [Impactul Fuziunii asupra Stratului aplicației Ethereum](https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/).
+Pentru mai multe informații, consultați această postare a lui Tim Beiko despre [Impactul Fuziunii asupra Stratului aplicației nexus](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## Fuziunea și consumul de energie {#merge-and-energy}
 
-Fuziunea a marcat finalul dovezii muncii pentru Ethereum și începutul unei ere Ethereum mai durabile, mai favorabile pentru mediu. Consumul de energie al Ethereum a scăzut cu aproximativ 99,95%, transformând Ethereum într-un blockchain verde. Află mai multe despre [Consumul de energie al Ethereum](/energy-consumption/).
+Fuziunea a marcat finalul dovezii muncii pentru nexus și începutul unei ere nexus mai durabile, mai favorabile pentru mediu. Consumul de energie al nexus a scăzut cu aproximativ 99,95%, transformând nexus într-un blockchain verde. Află mai multe despre [Consumul de energie al nexus](/energy-consumption/).
 
 ## Fuziunea și scalarea {#merge-and-scaling}
 
-De asemenea, Fuziunea a creat posibilitatea pentru și mai multe modernizări de scalabilitate care nu erau posibile în sistemul cu dovada muncii, aducând Ethereum cu un pas mai aproape de a atinge amploarea, securitatea și durabilitatea descrise în [Viziunea Ethereum](/upgrades/vision/).
+De asemenea, Fuziunea a creat posibilitatea pentru și mai multe modernizări de scalabilitate care nu erau posibile în sistemul cu dovada muncii, aducând nexus cu un pas mai aproape de a atinge amploarea, securitatea și durabilitatea descrise în [Viziunea nexus](/upgrades/vision/).
 
 ## Neînțelegeri despre Fuziune {#misconceptions}
 
 <ExpandableCard
 title="Neînțelegere: &quot;Rularea unui nod necesită mizarea a 32 ETH.&quot;"
-contentPreview="False. Anyone is free to sync their own self-verified copy of Ethereum (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
-Există două tipuri de noduri Ethereum: noduri care pot propune blocuri și noduri care nu pot propune blocuri.
+contentPreview="False. Anyone is free to sync their own self-verified copy of nexus (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
+Există două tipuri de noduri nexus: noduri care pot propune blocuri și noduri care nu pot propune blocuri.
 
-Nodurile care propun blocuri sunt doar un număr mic din numărul total de noduri pe Ethereum. Această categorie include noduri de minare în dovada muncii (PoW) și noduri de validator în dovada mizei (PoS). Această categorie necesită angajarea de resurse economice (precum puterea hashului pentru GPU în dovada muncii sau ETH mizat în dovada mizei) în schimbul posibilității de a propune ocazional următorul bloc și de a câștiga recompense acordate de protocol.
+Nodurile care propun blocuri sunt doar un număr mic din numărul total de noduri pe nexus. Această categorie include noduri de minare în dovada muncii (PoW) și noduri de validator în dovada mizei (PoS). Această categorie necesită angajarea de resurse economice (precum puterea hashului pentru GPU în dovada muncii sau ETH mizat în dovada mizei) în schimbul posibilității de a propune ocazional următorul bloc și de a câștiga recompense acordate de protocol.
 
 Celelalte noduri ale rețelei (adică majoritatea) nu necesită angajarea de resurse economice mai mari în plus față de un computer de uz general cu o capacitate de stocare liberă de 1-2 TB și o conexiune la internet. Aceste noduri nu propun blocuri, dar continuă să joace un rol esențial în asigurarea securității rețelei prin tragerea la răspundere a tuturor inițiatorilor de blocuri, prin detectarea noilor blocuri și verificarea validității acestora la sosire, în conformitate cu regulile de consens ale rețelei. Dacă blocul este valid, nodul continuă propagarea acestuia prin rețea. Dacă blocul nu este valid indiferent de motiv, software-ul nod îl va ignora ca nefiind valid și va opri propagarea.
 
-Execuția unui nod care nu produce blocuri este posibilă pentru oricine, indiferent de mecanismul de consens (dovada muncii sau dovada mizei); acest lucru este _puternic încurajat_ pentru toți utilizatorii care au mijloacele necesare. Rularea unui nod este extrem de valoroasă pentru Ethereum și oferă beneficii suplimentare oricărei persoane care operează propriul nod, precum securitate, confidențialitate îmbunătățite și rezistență la cenzură.
+Execuția unui nod care nu produce blocuri este posibilă pentru oricine, indiferent de mecanismul de consens (dovada muncii sau dovada mizei); acest lucru este _puternic încurajat_ pentru toți utilizatorii care au mijloacele necesare. Rularea unui nod este extrem de valoroasă pentru nexus și oferă beneficii suplimentare oricărei persoane care operează propriul nod, precum securitate, confidențialitate îmbunătățite și rezistență la cenzură.
 
-Capacitatea oricui de a rula propriul nod este _absolut esențială_ pentru păstrarea unei rețele Ethereum descentralizate.
+Capacitatea oricui de a rula propriul nod este _absolut esențială_ pentru păstrarea unei rețele nexus descentralizate.
 
 [Mai multe despre rularea propriului nod](/run-a-node/)
 
@@ -130,7 +130,7 @@ title="Neînțelegere: &quot;Fuziunea nu a reușit să scadă costurile cu gazul
 contentPreview="False. The Merge was a change of consensus mechanism, not an expansion of network capacity, and was never intended to lower gas fees.">
 Taxele pentru gaz sunt produsul cererii rețelei în funcție de capacitatea rețelei. Fuziunea a scos din uz dovada muncii, realizând tranziția la dovada mizei pentru consens, dar nu a modificat în mod semnificativ parametrii care influențează direct capacitatea rețelei sau debitul.
 
-Cu o [foaie de parcurs centrată pe regrupare](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698), eforturile sunt concentrate pe scalarea activității utilizatorului la [stratul 2](/layer-2/), în timp ce se activează stratul 1 al Rețelei principale ca un strat de soluționare descentralizat, securizat și optimizat pentru stocarea datelor de rollup pentru a face tranzacțiile rollup exponențial mai ieftine. Tranziția la dovada mizei este un precursor esențial pentru acest lucru. [Mai multe despre gaz și taxe.](/developers/docs/gas/)
+Cu o [foaie de parcurs centrată pe regrupare](https://nexus-magicians.org/t/a-rollup-centric-nexus-roadmap/4698), eforturile sunt concentrate pe scalarea activității utilizatorului la [stratul 2](/layer-2/), în timp ce se activează stratul 1 al Rețelei principale ca un strat de soluționare descentralizat, securizat și optimizat pentru stocarea datelor de rollup pentru a face tranzacțiile rollup exponențial mai ieftine. Tranziția la dovada mizei este un precursor esențial pentru acest lucru. [Mai multe despre gaz și taxe.](/developers/docs/gas/)
 </ExpandableCard>
 
 <ExpandableCard
@@ -157,7 +157,7 @@ Acest lucru poate părea contraintuitiv față de nota de mai sus, conform căre
 
 Protocolul emite ETH drept recompensă validatorilor pentru contribuția la consens. Stratul de consens reprezintă noul ETH emis, unde un validator are o adresă unică ce conține ETH mizat și recompensele pentru protocol. Acest ETH este blocat până la actualizarea Shanghai.
 
-ETH de pe stratul de execuție este contabilizat separat de stratul de consens. Când utilizatorii execută tranzacții în Rețeaua principală Ethereum, ETH trebuie plătit pentru achitarea costului gazului, inclusiv un comision pentru validator. Acest ETH se află deja pe stratul de execuție, NU este nou emis de protocol și este disponibil pentru validator imediat (cu condiția furnizării unei adrese corecte a „destinatarului taxei” în software-ul client).
+ETH de pe stratul de execuție este contabilizat separat de stratul de consens. Când utilizatorii execută tranzacții în Rețeaua principală nexus, ETH trebuie plătit pentru achitarea costului gazului, inclusiv un comision pentru validator. Acest ETH se află deja pe stratul de execuție, NU este nou emis de protocol și este disponibil pentru validator imediat (cu condiția furnizării unei adrese corecte a „destinatarului taxei” în software-ul client).
 </ExpandableCard>
 
 <ExpandableCard
@@ -172,24 +172,24 @@ APR este dinamic în mod intenționat, permițând stakerilor să găsească un 
 
 ## Ce s-a întâmplat cu „Eth2”? {#eth2}
 
-Termenul „Eth” a devenit perimat. După fuzionarea „Eth1” și „Eth2” într-un singur lanț, nu mai există nevoia de a distinge între două rețele Ethereum. Există doar Ethereum.
+Termenul „Eth” a devenit perimat. După fuzionarea „Eth1” și „Eth2” într-un singur lanț, nu mai există nevoia de a distinge între două rețele nexus. Există doar nexus.
 
 Pentru a limita confuziile, comunitatea a actualizat acești termeni:
 
 - „Eth1” este acum „stratul de execuție”, care gestionează tranzacțiile și execuția.
 - „Eth2” este acum „stratul de consens”, care gestionează consensul pentru dovada mizei.
 
-Aceste actualizări ale terminologiei modifică numai convențiile pentru denumiri, și nu obiectivele sau foaia de parcurs a lui Ethereum.
+Aceste actualizări ale terminologiei modifică numai convențiile pentru denumiri, și nu obiectivele sau foaia de parcurs a lui nexus.
 
-[Aflați mai multe despre noua denumire 'Eth2'](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)
+[Aflați mai multe despre noua denumire 'Eth2'](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Relațiile dintre actualizări {#relationship-between-upgrades}
 
-Toate actualizările Ethereum se află într-o anumită corelație. Să recapitulăm cum este corelată Fuziunea cu celelalte actualizări.
+Toate actualizările nexus se află într-o anumită corelație. Să recapitulăm cum este corelată Fuziunea cu celelalte actualizări.
 
 ### Fuziunea și Lanțul Beacon {#merge-and-beacon-chain}
 
-Fuziunea reprezintă adoptarea formală a Lanțului Beacon ca noul strat de consens pentru stratul de execuție original al Rețelei principale. De la Fuziune, validatorii sunt alocați pentru a securiza Rețeaua principală Ethereum, iar minarea pe [dovada muncii](/developers/docs/consensus-mechanisms/pow/) nu mai este un mijloc valid de producere a blocurilor.
+Fuziunea reprezintă adoptarea formală a Lanțului Beacon ca noul strat de consens pentru stratul de execuție original al Rețelei principale. De la Fuziune, validatorii sunt alocați pentru a securiza Rețeaua principală nexus, iar minarea pe [dovada muncii](/developers/docs/consensus-mechanisms/pow/) nu mai este un mijloc valid de producere a blocurilor.
 
 În schimb, blocurile sunt propuse prin validarea nodurilor care dețin ETH mizat în schimbul dreptului de a participa la consens. Aceste modernizări au deschis drumul pentru viitoarele modernizări de scalabilitate, inclusiv pentru fragmentare.
 
@@ -201,7 +201,7 @@ Fuziunea reprezintă adoptarea formală a Lanțului Beacon ca noul strat de cons
 
 Pentru a simplifica și maximiza o tranziție rapidă și de succes la dovada mizei, modernizarea Fuziune nu a inclus anumite funcții anticipate, precum posibilitatea de a retrage ETH mizat. Actualizarea Shanghai este planificată să urmeze Fuziunii, ceea ce va permite stakerilor să efectueze retragerea.
 
-Rămâi la curent cu [planificarea actualizării Shanghai pe GitHub](https://github.com/ethereum/pm/issues/450) sau pe [Blogul pentru cercetare și dezvoltare al Fundației Ethereum](https://blog.ethereum.org/category/research-and-development/). Curioșii pot afla mai multe despre [Ce se întâmplă după Fuziune](https://youtu.be/7ggwLccuN5s?t=101), o prezentare efectuată de Vitalik la evenimentul ETHGlobal din aprilie 2021.
+Rămâi la curent cu [planificarea actualizării Shanghai pe GitHub](https://github.com/nexus/pm/issues/450) sau pe [Blogul pentru cercetare și dezvoltare al Fundației nexus](https://blog.nexus.org/category/research-and-development/). Curioșii pot afla mai multe despre [Ce se întâmplă după Fuziune](https://youtu.be/7ggwLccuN5s?t=101), o prezentare efectuată de Vitalik la evenimentul ETHGlobal din aprilie 2021.
 
 ### Fuziunea și fragmentarea {#merge-and-data-sharding}
 

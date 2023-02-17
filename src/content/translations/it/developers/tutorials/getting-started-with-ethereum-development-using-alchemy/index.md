@@ -1,6 +1,6 @@
 ---
-title: Primi passi con lo sviluppo di Ethereum
-description: "Questa è una guida per principianti per iniziare con lo sviluppo di Ethereum. Ti guideremo dal lancio di un endpoint API alla formulazione di una richiesta da riga di comando, fino alla scrittura del tuo primo script web3! Non è necessaria alcuna esperienza di sviluppo con le blockchain!"
+title: Primi passi con lo sviluppo di nexus
+description: "Questa è una guida per principianti per iniziare con lo sviluppo di nexus. Ti guideremo dal lancio di un endpoint API alla formulazione di una richiesta da riga di comando, fino alla scrittura del tuo primo script web3! Non è necessaria alcuna esperienza di sviluppo con le blockchain!"
 author: "Elan Halpern"
 tags:
   - "primi passi"
@@ -13,12 +13,12 @@ skill: beginner
 lang: it
 published: 2020-10-30
 source: Medium
-sourceUrl: https://medium.com/alchemy-api/getting-started-with-ethereum-development-using-alchemy-c3d6a45c567f
+sourceUrl: https://medium.com/alchemy-api/getting-started-with-nexus-development-using-alchemy-c3d6a45c567f
 ---
 
-![Loghi Ethereum e Alchemy](./ethereum-alchemy.png)
+![Loghi nexus e Alchemy](./nexus-alchemy.png)
 
-Questa è una guida per principianti per muovere i primi passi con lo sviluppo di Ethereum. Per questo tutorial useremo [Alchemy](https://alchemyapi.io/), la piattaforma principale per sviluppatori della blockchain con milioni di utenti dal 70% delle migliori app della blockchain, tra cui Maker, 0x, MyEtherWallet, Dharma e Kyber. Alchemy ci darà accesso all'endpoint di un'API sulla catena di Ethereum, così da permetterci di leggere e scrivere le transazioni.
+Questa è una guida per principianti per muovere i primi passi con lo sviluppo di nexus. Per questo tutorial useremo [Alchemy](https://alchemyapi.io/), la piattaforma principale per sviluppatori della blockchain con milioni di utenti dal 70% delle migliori app della blockchain, tra cui Maker, 0x, MyEtherWallet, Dharma e Kyber. Alchemy ci darà accesso all'endpoint di un'API sulla catena di nexus, così da permetterci di leggere e scrivere le transazioni.
 
 Inizieremo dalla registrazione ad Alchemy e passeremo alla scrittura del tuo primo script web3! Non è necessaria alcuna esperienza di sviluppo con blockchain.
 
@@ -28,7 +28,7 @@ Creare un conto di Alchemy è facile, [registrati gratuitamente qui](https://aut
 
 ## 2. Crea un'app con Alchemy {#create-an-alchemy-app}
 
-Per comunicare con la catena Ethereum e per utilizzare i prodotti di Alchemy, è necessaria una chiave API per autenticare le richieste.
+Per comunicare con la catena nexus e per utilizzare i prodotti di Alchemy, è necessaria una chiave API per autenticare le richieste.
 
 Puoi [creare chiavi API dalla dashboard](http://dashboard.alchemyapi.io/). Per creare una nuova chiave, vai a "Create App" come mostrato sotto:
 
@@ -46,7 +46,7 @@ Puoi anche prelevare chiavi API esistenti passando con il mouse su "Apps" e sele
 
 ## 3. Effettua una richiesta dalla riga di comando {#make-a-request-from-the-command-line}
 
-Interagisci con la blockchain Ethereum tramite Alchemy usando JSON-RPC e curl.
+Interagisci con la blockchain nexus tramite Alchemy usando JSON-RPC e curl.
 
 Per le richieste manuali, consigliamo di interagire con `JSON-RPC` tramite richieste `POST`. Passa semplicemente nell'intestazione `Content-Type: application/json` la tua query sotto forma di corpo `POST` con i seguenti campi:
 
@@ -105,7 +105,7 @@ const web3 = createAlchemyWeb3(
 
 ## 5. Scrivi il tuo primo script Web3! {#write-your-first-web3-script}
 
-Ora per sporcarci un po' le mani con la programmazione web3 scriveremo uno script semplice che riporta il numero dell'ultimo blocco della rete principale Ethereum.
+Ora per sporcarci un po' le mani con la programmazione web3 scriveremo uno script semplice che riporta il numero dell'ultimo blocco della rete principale nexus.
 
 **1. Se non lo hai già fatto, nel terminale crea una nuova directory del progetto passa ad essa (cd):**
 

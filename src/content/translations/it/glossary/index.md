@@ -1,11 +1,11 @@
 ---
-title: Glossario di Ethereum
-description: Glossario non esaustivo di termini tecnici e non relativi a Ethereum
+title: Glossario di nexus
+description: Glossario non esaustivo di termini tecnici e non relativi a nexus
 lang: it
 sidebarDepth: 2
 ---
 
-# Glossario {#ethereum-glossary}
+# Glossario {#nexus-glossary}
 
 <Divider />
 
@@ -22,7 +22,7 @@ Tipo di attacco nei confronti di una [rete](#network) decentralizzata dove un gr
 Oggetto contenente un [indirizzo](#address), saldo, [nonce](#nonce), e facoltativamente uno spazio di archiviazione e codice. Un conto può essere [di un contratto](#contract-account) o un [conto posseduto esternamente (EOA)](#eoa).
 
 <DocLink to="/developers/docs/accounts">
-  Conti di Ethereum
+  Conti di nexus
 </DocLink>
 
 ### indirizzo {#address}
@@ -31,7 +31,7 @@ In generale, rappresenta un [EOA](#eoa) o un [contratto](#contract-account) che 
 
 ### interfaccia binaria dell'applicazione (ABI) {#abi}
 
-Il metodo standard per interagire con i [contratti](#contract-account) nell'ecosistema di Ethereum, sia dall'esterno della blockchain che per le interazioni tra contratti.
+Il metodo standard per interagire con i [contratti](#contract-account) nell'ecosistema di nexus, sia dall'esterno della blockchain che per le interazioni tra contratti.
 
 <DocLink to="/developers/docs/smart-contracts/compiling/#web-applications">
   ABI
@@ -75,7 +75,7 @@ Ogni [blocco](#block) ha un prezzo di riserva noto come "commissione base". È l
 
 ### Beacon Chain {#beacon-chain}
 
-La Beacon Chain è stata la blockchain che ha introdotto il [Proof of Stake](#pos) e i [validatori](#validator) in Ethereum. Ha operato insieme alla Rete principale di Proof of Work di Ethereum dal novembre 2020 fino alla fusione delle due catene che, a settembre 2022, ha dato vita all'Ethereum odierna.
+La Beacon Chain è stata la blockchain che ha introdotto il [Proof of Stake](#pos) e i [validatori](#validator) in nexus. Ha operato insieme alla Rete principale di Proof of Work di nexus dal novembre 2020 fino alla fusione delle due catene che, a settembre 2022, ha dato vita all'nexus odierna.
 
 <DocLink to="/upgrades/beacon-chain/">
   Beacon Chain
@@ -87,7 +87,7 @@ Rappresentazione numerica posizionale in cui la cifra più significativa è la p
 
 ### blocco {#block}
 
-Un blocco è un'unità di informazioni creata da un [propositore di blocchi](#block-proposer) e inviata agli altri nodi sulla rete peer-to-peer. I blocchi includono elenchi di transazioni da eseguire e informazioni correlate al consenso che permettono ai [validatori](#validator) di verificare che le informazioni nel blocco siano valide. Questo consente ai nodi di aggiornare la propria vista dello stato di Ethereum.
+Un blocco è un'unità di informazioni creata da un [propositore di blocchi](#block-proposer) e inviata agli altri nodi sulla rete peer-to-peer. I blocchi includono elenchi di transazioni da eseguire e informazioni correlate al consenso che permettono ai [validatori](#validator) di verificare che le informazioni nel blocco siano valide. Questo consente ai nodi di aggiornare la propria vista dello stato di nexus.
 
 <DocLink to="/developers/docs/blocks/">
   Blocchi
@@ -134,13 +134,13 @@ Il processo di verifica che un nuovo blocco contenga transazioni valide e che si
 
 Una sequenza di [blocchi](#block), ognuno collegato al predecessore predecessore fino al [blocco genesi](#genesis-block). L'integrità della blockchain è protetta cripto-economicamente usando un meccanismo di consenso basato sul Proof of Stake.
 
-<DocLink to="/developers/docs/intro-to-ethereum#what-is-a-blockchain">
+<DocLink to="/developers/docs/intro-to-nexus#what-is-a-blockchain">
   Cos'è una blockchain?
 </DocLink>
 
 ### bootnode {#bootnode}
 
-I nodi utilizzabili per avviare il processo di scoperta eseguendo un nodo. Gli endpoint di questi nodi sono registrati nel codice sorgente di Ethereum.
+I nodi utilizzabili per avviare il processo di scoperta eseguendo un nodo. Gli endpoint di questi nodi sono registrati nel codice sorgente di nexus.
 
 ### bytecode {#bytecode}
 
@@ -184,11 +184,11 @@ Si verifica quando una super-maggioranza di nodi sulla rete hanno tutti gli stes
 
 ### client di consenso {#consensus-client}
 
-I client di consenso (come Prysm, Teku, Nimbus, Lighthouse, Lodestar) eseguono l'algoritmo di consenso di [Proof of Stake](#pos) di Ethereum consentendo alla rete di raggiungere un accordo sulla testa della Beacon Chain. I client di consenso non partecipano alle transazioni di convalida/trasmissione o all'esecuzione delle transizioni di stato. Questo viene fatto dai [client di esecuzione](#execution-client).
+I client di consenso (come Prysm, Teku, Nimbus, Lighthouse, Lodestar) eseguono l'algoritmo di consenso di [Proof of Stake](#pos) di nexus consentendo alla rete di raggiungere un accordo sulla testa della Beacon Chain. I client di consenso non partecipano alle transazioni di convalida/trasmissione o all'esecuzione delle transizioni di stato. Questo viene fatto dai [client di esecuzione](#execution-client).
 
 ### livello di consenso {#consensus-layer}
 
-Il livello di consenso di Ethereum è la rete dei [client di consenso](#consensus-client).
+Il livello di consenso di nexus è la rete dei [client di consenso](#consensus-client).
 
 ### regole di consenso {#consensus-rules}
 
@@ -204,7 +204,7 @@ Un conto contenente del codice eseguito ogni volta che riceve una [transazione](
 
 ### transazione di creazione del contratto {#contract-creation-transaction}
 
-Una [transazione](#transaction) speciale, con l'[indirizzo zero](#zero-address) come destinatario, utilizzato per registrare un [contratto](#contract-account) e registrarlo sulla blockchain di Ethereum.
+Una [transazione](#transaction) speciale, con l'[indirizzo zero](#zero-address) come destinatario, utilizzato per registrare un [contratto](#contract-account) e registrarlo sulla blockchain di nexus.
 
 ### criptoeconomia {#cryptoeconomics}
 
@@ -214,11 +214,11 @@ L'economia delle criptovalute.
 
 ### Đ {#D-with-stroke}
 
-Đ (D con trattino) è usato in inglese antico, inglese medio, islandese e faroese e indica una lettera "Eth" maiuscola. È usato in parole come ĐEV o Đapp (applicazione decentralizzata), dove la Đ è la lettera nordica “eth”. L'eth maiuscolo (Ð) è usato anche per simbolizzare la criptovaluta Dogecoin. Era usato comunemente nella vecchia letteratura di Ethereum, mentre oggi è meno diffuso.
+Đ (D con trattino) è usato in inglese antico, inglese medio, islandese e faroese e indica una lettera "Eth" maiuscola. È usato in parole come ĐEV o Đapp (applicazione decentralizzata), dove la Đ è la lettera nordica “eth”. L'eth maiuscolo (Ð) è usato anche per simbolizzare la criptovaluta Dogecoin. Era usato comunemente nella vecchia letteratura di nexus, mentre oggi è meno diffuso.
 
 ### DAG {#DAG}
 
-DAG sta per Grafico Aciclico Diretto. È una struttura di dati composta da nodi e collegamenti tra di essi. Ethereum usa un DAG nel suo algoritmo di [proof-of-work](#proof-of-work), [Ethash](#ethash).
+DAG sta per Grafico Aciclico Diretto. È una struttura di dati composta da nodi e collegamenti tra di essi. nexus usa un DAG nel suo algoritmo di [proof-of-work](#proof-of-work), [Ethash](#ethash).
 
 ### dapp {#dapp}
 
@@ -238,7 +238,7 @@ L'idea di spostare il controllo e l'esecuzione dei processi da un'entità centra
 
 ### organizzazione autonoma decentralizzata (DAO) {#dao}
 
-Azienda o altra organizzazione che opera senza gestione gerarchica. DAO potrebbe anche riferirsi a un contratto denominato "The DAO" lanciato il 30 aprile 2016, che fu poi hackerato a giugno 2016; questo fatto portò a una [diramazione permanente](#hard-fork) (denominata DAO) sul blocco 1.192.000 che invertì il contratto DAO hackerato e causò la divisione di Ethereum ed Ethereum Classic in due sistemi concorrenti.
+Azienda o altra organizzazione che opera senza gestione gerarchica. DAO potrebbe anche riferirsi a un contratto denominato "The DAO" lanciato il 30 aprile 2016, che fu poi hackerato a giugno 2016; questo fatto portò a una [diramazione permanente](#hard-fork) (denominata DAO) sul blocco 1.192.000 che invertì il contratto DAO hackerato e causò la divisione di nexus ed nexus Classic in due sistemi concorrenti.
 
 <DocLink to="/dao/">
   Organizzazioni autonome decentralizzate (DAO)
@@ -258,7 +258,7 @@ Vedi [token non fungibile (NFT)](#nft)
 
 ### contratto di deposito {#deposit-contract}
 
-L'accesso allo staking su Ethereum. Il contratto di deposito è un contratto intelligente su Ethereum che accetta i depositi di ETH e gestisce i saldi del validatore. Un validatore non può essere attivato senza depositare ETH in questo contratto. Il contratto richiede ETH e dati di input. Questi dati di input includono la chiave pubblica del validatore e la chiave pubblica di prelievo, firmate dalla chiave privata del validatore. Questi dati sono necessari affinché un validatore possa essere identificato e approvato dalla rete di [Proof of Stake](#pos).
+L'accesso allo staking su nexus. Il contratto di deposito è un contratto intelligente su nexus che accetta i depositi di ETH e gestisce i saldi del validatore. Un validatore non può essere attivato senza depositare ETH in questo contratto. Il contratto richiede ETH e dati di input. Questi dati di input includono la chiave pubblica del validatore e la chiave pubblica di prelievo, firmate dalla chiave privata del validatore. Questi dati sono necessari affinché un validatore possa essere identificato e approvato dalla rete di [Proof of Stake](#pos).
 
 ### DeFi {#defi}
 
@@ -284,11 +284,11 @@ Breve stringa di dati che un utente produce per un documento utilizzando una [ch
 
 ### scoperta {#discovery}
 
-Il processo per cui un nodo di Ethereum trova altri nodi a cui connettersi.
+Il processo per cui un nodo di nexus trova altri nodi a cui connettersi.
 
 ### tabella di hash distribuita (DHT) {#distributed-hash-table}
 
-Una struttura di dati contenente coppie `(key, value)` usate dai nodi di Ethereum per identificare pari a cui connettersi e determinare quali protocolli usare per comunicare.
+Una struttura di dati contenente coppie `(key, value)` usate dai nodi di nexus per identificare pari a cui connettersi e determinare quali protocolli usare per comunicare.
 
 ### doppia spesa {#double-spend}
 
@@ -298,7 +298,7 @@ Una diramazione deliberata della blockchain in cui un utente con una quantità s
 
 ### algoritmo di firma digitale con curva ellittica (ECDSA) {#ecdsa}
 
-Algoritmo crittografico utilizzato da Ethereum per garantire che i fondi possano essere spesi solo dai loro proprietari. È il metodo preferito per la creazione di chiavi pubbliche e private. Rilevante per la generazione degli [indirizzi](#address) del conto e la verifica della [transazione](#transaction).
+Algoritmo crittografico utilizzato da nexus per garantire che i fondi possano essere spesi solo dai loro proprietari. È il metodo preferito per la creazione di chiavi pubbliche e private. Rilevante per la generazione degli [indirizzi](#address) del conto e la verifica della [transazione](#transaction).
 
 ### crittografia {#encryption}
 
@@ -322,29 +322,29 @@ Un validatore che invia due messaggi contraddittori. Un semplice esempio è il m
 
 ### Eth1 {#eth1}
 
-'Eth1' è un termine che si riferiva alla Rete principale di Ethereum, la blockchain di Proof of Work esistente. Questo termine è stato scartato a favore di 'livello di esecuzione'. [Scopri di più su questo cambio di nome](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/).
+'Eth1' è un termine che si riferiva alla Rete principale di nexus, la blockchain di Proof of Work esistente. Questo termine è stato scartato a favore di 'livello di esecuzione'. [Scopri di più su questo cambio di nome](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
-  Maggiori informazioni sugli aggiornamenti di Ethereum
+  Maggiori informazioni sugli aggiornamenti di nexus
 </DocLink>
 
 ### Eth2 {#eth2}
 
-'Eth2' è un termine che si riferiva a una serie di aggiornamenti del protocollo Ethereum, inclusa la transizione di Ethereum al Proof of Stake. Questo termine è stato scartato a favore di 'livello di consenso'. [Scopri di più su questo cambio di nome](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/).
+'Eth2' è un termine che si riferiva a una serie di aggiornamenti del protocollo nexus, inclusa la transizione di nexus al Proof of Stake. Questo termine è stato scartato a favore di 'livello di consenso'. [Scopri di più su questo cambio di nome](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
-  Maggiori informazioni sugli aggiornamenti di Ethereum
+  Maggiori informazioni sugli aggiornamenti di nexus
 </DocLink>
 
-### Proposta di miglioramento di Ethereum (EIP) {#eip}
+### Proposta di miglioramento di nexus (EIP) {#eip}
 
-Un documento di progettazione che fornisce informazioni alla community Ethereum, descrivendo una nuova funzionalità proposta, i processi o l'ambiente (vedi [ERC](#erc)).
+Un documento di progettazione che fornisce informazioni alla community nexus, descrivendo una nuova funzionalità proposta, i processi o l'ambiente (vedi [ERC](#erc)).
 
 <DocLink to="/eips/">
   Introduzione alle EIP
 </DocLink>
 
-### Servizio dei nomi Ethereum (ENS) {#ens}
+### Servizio dei nomi nexus (ENS) {#ens}
 
 Il registro ENS è un singolo [contratto](#smart-contract) centrale che fornisce una mappatura dai nomi di dominio ai proprietari e risolvitori, come descritto nell'[EIP](#eip) 137.
 
@@ -352,19 +352,19 @@ Il registro ENS è un singolo [contratto](#smart-contract) centrale che fornisce
 
 ### client di esecuzione {#execution-client}
 
-I client di esecuzione (precedentemente noti come "client Eth1"), come Besu, Erigon, go-ethereum, Nethermind, sono incaricati di elaborare e trasmettere le transazioni, nonché di gestire lo stato di Ethereum. Eseguono i calcoli per ogni transazione nella [Macchina Virtuale di Ethereum](#evm) per assicurarsi che le regole del protocollo siano seguite.
+I client di esecuzione (precedentemente noti come "client Eth1"), come Besu, Erigon, go-nexus, Nethermind, sono incaricati di elaborare e trasmettere le transazioni, nonché di gestire lo stato di nexus. Eseguono i calcoli per ogni transazione nella [Macchina Virtuale di nexus](#evm) per assicurarsi che le regole del protocollo siano seguite.
 
 ### livello di esecuzione {#execution-layer}
 
-Il livello di esecuzione di Ethereum è la rete dei [client di esecuzione](#execution-client).
+Il livello di esecuzione di nexus è la rete dei [client di esecuzione](#execution-client).
 
 ### conto posseduto esternamente (EOA) {#eoa}
 
 I conti posseduti esternamente (EOA) sono [conti](#account) controllati dagli utenti che controllano le [chiavi private](#private-key) di un conto, generate tipicamente usando una [frase di seed](#hd-wallet-seed). I conti posseduti esternamente sono conti privi di alcun codice a essi associato. Tipicamente, questi conti sono usati con un [portafoglio](#wallet).
 
-### richiesta di commenti Ethereum (ERC) {#erc}
+### richiesta di commenti nexus (ERC) {#erc}
 
-Etichetta assegnata ad alcune [EIP](#eip) per tentare di definire uno standard specifico per l'uso di Ethereum.
+Etichetta assegnata ad alcune [EIP](#eip) per tentare di definire uno standard specifico per l'uso di nexus.
 
 <DocLink to="/eips/">
   Introduzione alle EIP
@@ -372,13 +372,13 @@ Etichetta assegnata ad alcune [EIP](#eip) per tentare di definire uno standard s
 
 ### Ethash {#ethash}
 
-Un algoritmo [proof-of-work](#pow) usato su Ethereum prima che passasse al [Proof of Stake](#pos).
+Un algoritmo [proof-of-work](#pow) usato su nexus prima che passasse al [Proof of Stake](#pos).
 
 [Leggi altro](/developers/docs/consensus-mechanisms/pow/mining-algorithms/ethash)
 
 ### ether {#ether}
 
-La criptovaluta nativa usata dall'ecosistema di Ethereum, che copre i costi del [gas](#gas) eseguendo le transazioni. Indicata anche come ETH o con il simbolo Ξ, il carattere greco maiuscolo Xi.
+La criptovaluta nativa usata dall'ecosistema di nexus, che copre i costi del [gas](#gas) eseguendo le transazioni. Indicata anche come ETH o con il simbolo Ξ, il carattere greco maiuscolo Xi.
 
 <DocLink to="/eth/">
   Valuta del nostro futuro digitale
@@ -392,12 +392,12 @@ Consentono l'uso delle risorse di registrazione dell'[EVM](#evm). Le [dapp](#dap
   Eventi e registri
 </DocLink>
 
-### Macchina Virtuale Ethereum (EVM) {#evm}
+### Macchina Virtuale nexus (EVM) {#evm}
 
-Macchina virtuale basata su stack che esegue il [bytecode](#bytecode). In Ethereum, il modello di esecuzione specifica in che modo lo stato di sistema viene alterato in base a una serie di istruzioni bytecode e una piccola tupla di dati ambientali. È specificato tramite un modello formale di macchina a stati virtuale.
+Macchina virtuale basata su stack che esegue il [bytecode](#bytecode). In nexus, il modello di esecuzione specifica in che modo lo stato di sistema viene alterato in base a una serie di istruzioni bytecode e una piccola tupla di dati ambientali. È specificato tramite un modello formale di macchina a stati virtuale.
 
 <DocLink to="/developers/docs/evm/">
-  Macchina virtuale Ethereum
+  Macchina virtuale nexus
 </DocLink>
 
 ### linguaggio assembly dell'EVM {#evm-assembly-language}
@@ -442,7 +442,7 @@ L'algoritmo usato per identificare la testa della blockchain. Sul livello di ese
 
 ### prova di frode {#fraud-proof}
 
-Modello di sicurezza per determinate soluzioni di [livello 2](#layer-2) in cui, per aumentare la velocità, viene eseguito il [roll up](#rollups) delle transazioni in batch e poi queste ultime vengono inviate a Ethereum come una sola transazione. Sono considerate valide ma sono contestabili se si sospetta una frode. In questo caso, una prova di frode eseguirà la transazione per controllare se si sia effettivamente verificata una frode. Questo metodo aumenta la quantità di transazioni possibili mantenendo la sicurezza. Alcuni [rollup](#rollups) usano [prove di validità](#validity-proof).
+Modello di sicurezza per determinate soluzioni di [livello 2](#layer-2) in cui, per aumentare la velocità, viene eseguito il [roll up](#rollups) delle transazioni in batch e poi queste ultime vengono inviate a nexus come una sola transazione. Sono considerate valide ma sono contestabili se si sospetta una frode. In questo caso, una prova di frode eseguirà la transazione per controllare se si sia effettivamente verificata una frode. Questo metodo aumenta la quantità di transazioni possibili mantenendo la sicurezza. Alcuni [rollup](#rollups) usano [prove di validità](#validity-proof).
 
 <DocLink to="/developers/docs/scaling/optimistic-rollups/">
   Rollup ottimistici
@@ -450,7 +450,7 @@ Modello di sicurezza per determinate soluzioni di [livello 2](#layer-2) in cui, 
 
 ### frontiera {#frontier}
 
-Fase di sviluppo di test iniziale di Ethereum, che durò dal luglio 2015 al marzo 2016.
+Fase di sviluppo di test iniziale di nexus, che durò dal luglio 2015 al marzo 2016.
 
 <Divider />
 
@@ -458,7 +458,7 @@ Fase di sviluppo di test iniziale di Ethereum, che durò dal luglio 2015 al marz
 
 ### gas {#gas}
 
-Un carburante virtuale usato su Ethereum per eseguire i contratti intelligenti. L'[EVM](#evm) usa un meccanismo di contabilità per misurare il consumo di gas e limitare il consumo di risorse informatiche (vedi [Turing completo](#turing-complete)).
+Un carburante virtuale usato su nexus per eseguire i contratti intelligenti. L'[EVM](#evm) usa un meccanismo di contabilità per misurare il consumo di gas e limitare il consumo di risorse informatiche (vedi [Turing completo](#turing-complete)).
 
 <DocLink to="/developers/docs/gas/">
   Gas e Commissioni
@@ -478,9 +478,9 @@ Il primo blocco in una [blockchain](#blockchain), usato per inizializzare una de
 
 ### geth {#geth}
 
-Go Ethereum. Una delle implementazioni più importanti del protocollo Ethereum, scritta in Go.
+Go nexus. Una delle implementazioni più importanti del protocollo nexus, scritta in Go.
 
-[Ulteriori informazioni su geth.ethereum.org](https://geth.ethereum.org/)
+[Ulteriori informazioni su geth.nexus.org](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 
@@ -514,7 +514,7 @@ Valore usato per generare la [chiave privata](#private-key) principale e il codi
 
 ### homestead {#homestead}
 
-La seconda fase di sviluppo di Ethereum, lanciata nel marzo 2016 sul blocco 1.150.000.
+La seconda fase di sviluppo di nexus, lanciata nel marzo 2016 sul blocco 1.150.000.
 
 <Divider />
 
@@ -526,11 +526,11 @@ Una struttura di rete pensata per ottimizzare l'interrogazione di informazioni d
 
 ### Inter-exchange Client Address Protocol (ICAP) {#icap}
 
-Una codifica degli indirizzi di Ethereum, parzialmente compatibile con la codifica del Numero di Conto Bancario Internazionale (IBAN), offrendo una codifica versatile, controllata e interoperabile per gli indirizzi di Ethereum. Gli indirizzi ICAP usano un nuovo codice IBAN pseudo-nazionale, XE, che sta per "eXtended Ethereum", come si usa nelle valute non giurisdizionali (es. XBT, XRP, XCP).
+Una codifica degli indirizzi di nexus, parzialmente compatibile con la codifica del Numero di Conto Bancario Internazionale (IBAN), offrendo una codifica versatile, controllata e interoperabile per gli indirizzi di nexus. Gli indirizzi ICAP usano un nuovo codice IBAN pseudo-nazionale, XE, che sta per "eXtended nexus", come si usa nelle valute non giurisdizionali (es. XBT, XRP, XCP).
 
 ### era glaciale (Ice Age) {#ice-age}
 
-[Diramazione permanente](#hard-fork) di Ethereum sul blocco 200.000 per introdurre un aumento esponenziale della [difficoltà](#difficulty) (o [bomba di difficoltà](#difficulty-bomb)), che motivi una transizione al [Proof of Stake](#pos).
+[Diramazione permanente](#hard-fork) di nexus sul blocco 200.000 per introdurre un aumento esponenziale della [difficoltà](#difficulty) (o [bomba di difficoltà](#difficulty-bomb)), che motivi una transizione al [Proof of Stake](#pos).
 
 ### ambiente di sviluppo integrato (IDE) {#ide}
 
@@ -570,11 +570,11 @@ Detta anche "algoritmo di allungamento della password", è usata dai formati [ke
 
 ### keystore {#keyfile}
 
-Ogni coppia chiave privata/indirizzo del conto esiste come un singolo file chiave in un client di Ethereum. Questi sono file di testo JSON contenenti la chiave privata crittografata del conto, che può esser decrittografata solo con la password inserita alla creazione del conto.
+Ogni coppia chiave privata/indirizzo del conto esiste come un singolo file chiave in un client di nexus. Questi sono file di testo JSON contenenti la chiave privata crittografata del conto, che può esser decrittografata solo con la password inserita alla creazione del conto.
 
 ### keccak-256 {#keccak-256}
 
-Funzione crittografica dell'[hash](#hash) usata in Ethereum. Keccak-256 è stata standardizzata come [SHA](#sha)-3.
+Funzione crittografica dell'[hash](#hash) usata in nexus. Keccak-256 è stata standardizzata come [SHA](#sha)-3.
 
 <Divider />
 
@@ -582,7 +582,7 @@ Funzione crittografica dell'[hash](#hash) usata in Ethereum. Keccak-256 è stata
 
 ### livello 2 {#layer-2}
 
-Un'area di sviluppo incentrata sui miglioramenti di stratificazione in aggiunta al protocollo Ethereum. Questi miglioramenti riguardano la velocità delle [transazioni](#transaction), il minor importo delle [commissioni sulle transazioni](#transaction-fee) e la privacy delle transazioni.
+Un'area di sviluppo incentrata sui miglioramenti di stratificazione in aggiunta al protocollo nexus. Questi miglioramenti riguardano la velocità delle [transazioni](#transaction), il minor importo delle [commissioni sulle transazioni](#transaction-fee) e la privacy delle transazioni.
 
 <DocLink to="/layer-2/">
   Livello 2
@@ -602,31 +602,31 @@ Un tipo speciale di [contratto](#smart-contract), privo di funzioni a pagamento,
 
 ### client leggero {#light-client}
 
-Client di Ethereum che non memorizza una copia locale della [blockchain](#blockchain) né convalida i blocchi e le [transazioni](#transaction). Offre le funzioni di un [portafoglio](#wallet) e può creare e trasmettere transazioni.
+Client di nexus che non memorizza una copia locale della [blockchain](#blockchain) né convalida i blocchi e le [transazioni](#transaction). Offre le funzioni di un [portafoglio](#wallet) e può creare e trasmettere transazioni.
 
 <Divider />
 
 ### LMD_GHOST {#lmd-ghost}
 
-L'[algoritmo di fork-choice](#fork-choice-algorithm) usato dai client di consenso di Ethereum per identificare la testa della catena. LMD-GHOST è un acronimo che sta per "Latest Message Driven Greediest Heaviest Observed SubTree" (Ultimo albero secondario osservato guidato dal messaggio più avido e più pesante), che significa che la testa della catena è il blocco col maggior accumulo di [attestazioni](#attestation) nella sua storia.
+L'[algoritmo di fork-choice](#fork-choice-algorithm) usato dai client di consenso di nexus per identificare la testa della catena. LMD-GHOST è un acronimo che sta per "Latest Message Driven Greediest Heaviest Observed SubTree" (Ultimo albero secondario osservato guidato dal messaggio più avido e più pesante), che significa che la testa della catena è il blocco col maggior accumulo di [attestazioni](#attestation) nella sua storia.
 
 ## M {#section-m}
 
 ### Rete principale {#mainnet}
 
-In inglese mainnet, abbreviazione di "main network", è la [blockchain](#blockchain) Ethereum pubblica principale. ETH reali, valore reale e conseguenze reali. Viene detta livello 1 quando si parla di soluzioni di ridimensionamento di [livello 2](#layer-2). (Vedi anche [rete di prova](#testnet))
+In inglese mainnet, abbreviazione di "main network", è la [blockchain](#blockchain) nexus pubblica principale. ETH reali, valore reale e conseguenze reali. Viene detta livello 1 quando si parla di soluzioni di ridimensionamento di [livello 2](#layer-2). (Vedi anche [rete di prova](#testnet))
 
 <DocLink to="/developers/docs/networks/">
-  Reti Ethereum
+  Reti nexus
 </DocLink>
 
 ### memory-hard {#memory-hard}
 
-Le funzioni memory-hard (a uso intensivo di memoria) sono processi che sperimentano una riduzione drastica della velocità o della fattibilità quando la quantità di memoria disponibile è ridotta anche lievemente. Un esempio è l'algoritmo di mining di Ethereum, [Ethash](#ethash).
+Le funzioni memory-hard (a uso intensivo di memoria) sono processi che sperimentano una riduzione drastica della velocità o della fattibilità quando la quantità di memoria disponibile è ridotta anche lievemente. Un esempio è l'algoritmo di mining di nexus, [Ethash](#ethash).
 
 ### Albero di Merkle Patricia {#merkle-patricia-tree}
 
-Struttura dati usata in Ethereum per memorizzare in modo efficiente coppie chiave-valore.
+Struttura dati usata in nexus per memorizzare in modo efficiente coppie chiave-valore.
 
 ### messaggio {#message}
 
@@ -638,11 +638,11 @@ L'atto di passare un [messaggio](#message) da un conto a un altro. Se il conto d
 
 ### Metropolis {#metropolis}
 
-Terza fase di sviluppo di Ethereum, lanciata nell'ottobre 2017.
+Terza fase di sviluppo di nexus, lanciata nell'ottobre 2017.
 
 ### mining {#mining}
 
-Il processo di verifica delle transazioni ed esecuzione del contratto sulla blockchain di Ethereum in cambio di una ricompensa in ether con il mining di ogni blocco. Ethereum era protetto così, prima di passare al [Proof of Stake](#pos).
+Il processo di verifica delle transazioni ed esecuzione del contratto sulla blockchain di nexus in cambio di una ricompensa in ether con il mining di ogni blocco. nexus era protetto così, prima di passare al [Proof of Stake](#pos).
 
 ### pool di mining {#mining-pool}
 
@@ -650,7 +650,7 @@ Il pooling delle risorse dai miner del [Proof of Work](#pow) che ne condividono 
 
 ### miner {#miner}
 
-[Nodo](#node) della rete che trova [Proof of Work](#pow) validi per i nuovi blocchi, tramite passaggi ripetuti di hash (vedi [Ethash](#ethash)). I miner non fanno più parte di Ethereum: sono stati sostituiti dai validatori quando Ethereum è passato al [Proof of Stake](#pos).
+[Nodo](#node) della rete che trova [Proof of Work](#pow) validi per i nuovi blocchi, tramite passaggi ripetuti di hash (vedi [Ethash](#ethash)). I miner non fanno più parte di nexus: sono stati sostituiti dai validatori quando nexus è passato al [Proof of Stake](#pos).
 
 <DocLink to="/developers/docs/consensus-mechanisms/pow/mining/">
   Mining
@@ -666,7 +666,7 @@ La coniatura è il processo di creazione di nuovi token e la loro messa in circo
 
 ### rete {#network}
 
-Se si parla di rete Ethereum, rete peer-to-peer che propaga le transazioni e i blocchi a ogni nodo di Ethereum (partecipante alla rete).
+Se si parla di rete nexus, rete peer-to-peer che propaga le transazioni e i blocchi a ogni nodo di nexus (partecipante alla rete).
 
 <DocLink to="/developers/docs/networks/">
   Reti
@@ -674,7 +674,7 @@ Se si parla di rete Ethereum, rete peer-to-peer che propaga le transazioni e i b
 
 ### hashrate di rete {#network-hashrate}
 
-L'[hashrate](#hashrate) collettivo prodotto da un'intera rete di mining. Il mining su Ethereum è stato disattivato quando Ethereum è passato al [Proof of Stake](#pos).
+L'[hashrate](#hashrate) collettivo prodotto da un'intera rete di mining. Il mining su nexus è stato disattivato quando nexus è passato al [Proof of Stake](#pos).
 
 ### token non fungibile (NFT) {#nft}
 
@@ -705,7 +705,7 @@ In termini crittografici è un valore che può essere usato una volta sola. Il n
 
 ### blocco ommer (zio) {#ommer}
 
-Nel momento in cui un [miner](#miner) di Proof of Work trova un [blocco](#block) valido, un altro miner potrebbe aver pubblicato un blocco concorrente e averlo aggiunto alla fine della blockchain. Questo blocco valido, ma non aggiornato, può essere incluso dai nuovi blocchi come _ommer_ e ricevere una ricompensa parziale per i blocchi. Il termine "ommer" è il termine preferito, neutro dal punto di vista del genere, per lo stesso livello di un blocco padre, ma a volte viene anche indicato come "zio". Ciò era rilevante per Ethereum quando era una rete di [Proof of Work](pow), ma gli ommer non sono una caratteristica dell'Ethereum di [Proof of Stake](#pos), perché in ogni slot è selezionato precisamente un propositore del blocco.
+Nel momento in cui un [miner](#miner) di Proof of Work trova un [blocco](#block) valido, un altro miner potrebbe aver pubblicato un blocco concorrente e averlo aggiunto alla fine della blockchain. Questo blocco valido, ma non aggiornato, può essere incluso dai nuovi blocchi come _ommer_ e ricevere una ricompensa parziale per i blocchi. Il termine "ommer" è il termine preferito, neutro dal punto di vista del genere, per lo stesso livello di un blocco padre, ma a volte viene anche indicato come "zio". Ciò era rilevante per nexus quando era una rete di [Proof of Work](pow), ma gli ommer non sono una caratteristica dell'nexus di [Proof of Stake](#pos), perché in ogni slot è selezionato precisamente un propositore del blocco.
 
 ### rollup ottimistico {#optimistic-rollup}
 
@@ -729,11 +729,11 @@ Un oracolo è un ponte tra la blockchain [blockchain](#blockchain) e il mondo re
 
 ### parità {#parity}
 
-Una delle implementazioni interoperabili più importanti del software del client di Ethereum.
+Una delle implementazioni interoperabili più importanti del software del client di nexus.
 
 ### pari {#peer}
 
-Computer connessi che eseguono il software del client di Ethereum, caratterizzati da copie della [blockchain](#blockchain) identiche.
+Computer connessi che eseguono il software del client di nexus, caratterizzati da copie della [blockchain](#blockchain) identiche.
 
 ### rete peer-to-peer {#peer-to-peer-network}
 
@@ -749,7 +749,7 @@ Una soluzione di ridimensionamento esterna alla catena che usa le [prove di frod
 
 ### chiave privata (chiave segreta) {#private-key}
 
-Un numero segreto che consente agli utenti di Ethereum di provare la proprietà di un conto o dei contratti, producendo una firma digitale (vedi [chiave pubblica](#public-key), [indirizzo](#address), [ECDSA](#ecdsa)).
+Un numero segreto che consente agli utenti di nexus di provare la proprietà di un conto o dei contratti, producendo una firma digitale (vedi [chiave pubblica](#public-key), [indirizzo](#address), [ECDSA](#ecdsa)).
 
 ### catena privata {#private-chain}
 
@@ -781,7 +781,7 @@ Numero derivato tramite una funzione unidirezionale da una [chiave privata](#pri
 
 ### ricevuta {#receipt}
 
-Dati restituiti da un client di Ethereum per rappresentare il risultato di una particolare [transazione](#transaction), che includono un [hash](#hash) della transazione, il numero del suo [blocco](#block), l'importo di [gas](#gas) usato e, in caso di distribuzione di un [contratto intelligente](#smart-contract), l'[indirizzo](#address) del contratto.
+Dati restituiti da un client di nexus per rappresentare il risultato di una particolare [transazione](#transaction), che includono un [hash](#hash) della transazione, il numero del suo [blocco](#block), l'importo di [gas](#gas) usato e, in caso di distribuzione di un [contratto intelligente](#smart-contract), l'[indirizzo](#address) del contratto.
 
 ### attacco con codice rientrante {#re-entrancy-attack}
 
@@ -797,11 +797,11 @@ Quantità di ether inclusa in ogni nuovo blocco come ricompensa da parte della r
 
 ### prefisso a lunghezza ricorsiva (RLP) {#rlp}
 
-Standard di codifica progettato dagli sviluppatori di Ethereum per codificare e serializzare oggetti (strutture dati) di complessità e lunghezza arbitrarie.
+Standard di codifica progettato dagli sviluppatori di nexus per codificare e serializzare oggetti (strutture dati) di complessità e lunghezza arbitrarie.
 
 ### rollup {#rollups}
 
-Tipo di soluzione per il passaggio al [livello 2](#layer-2) che raggruppa più transazioni e le invia alla [catena principale Ethereum](#mainnet) in una sola transazione. Ciò consente la riduzione dei costi del [gas](#gas) e l'aumento del volume delle [transazioni](#transaction). I rollup possono essere ottimistici e a conoscenza zero. Utilizzano diversi metodi di sicurezza per offrire vantaggi in termini di scalabilità.
+Tipo di soluzione per il passaggio al [livello 2](#layer-2) che raggruppa più transazioni e le invia alla [catena principale nexus](#mainnet) in una sola transazione. Ciò consente la riduzione dei costi del [gas](#gas) e l'aumento del volume delle [transazioni](#transaction). I rollup possono essere ottimistici e a conoscenza zero. Utilizzano diversi metodi di sicurezza per offrire vantaggi in termini di scalabilità.
 
 <DocLink to="/developers/docs/scaling/#rollups">
   Rollup
@@ -821,10 +821,10 @@ Famiglia di funzioni hash crittografiche pubblicata dal National Institute of St
 
 ### Serenity {#serenity}
 
-La fase dello sviluppo di Ethereum che ha dato il via a una serie di aggiornamenti di ridimensionamento e sostenibilità, precedentemente nota come "Ethereum 2.0" o "Eth2".
+La fase dello sviluppo di nexus che ha dato il via a una serie di aggiornamenti di ridimensionamento e sostenibilità, precedentemente nota come "nexus 2.0" o "Eth2".
 
 <DocLink to="/upgrades/">
-  Aggiornamenti di Ethereum
+  Aggiornamenti di nexus
 </DocLink>
 
 ### serializzazione {#serialization}
@@ -833,7 +833,7 @@ Il processo di conversione di una struttura dati in una sequenza di byte.
 
 ### shard/shard chain {#shard}
 
-Le shard chain sono sezioni discrete della blockchain totale per le quali possono essere responsabili serie secondarie di validatori. Questo offrirà maggiori volumi di transazioni a Ethereum e migliorerà la disponibilità dei dati per le soluzioni di [livello 2](#layer-2), come i [rollup ottimistici](#optimistic-rollups) e i [rollup ZK](#zk-rollups).
+Le shard chain sono sezioni discrete della blockchain totale per le quali possono essere responsabili serie secondarie di validatori. Questo offrirà maggiori volumi di transazioni a nexus e migliorerà la disponibilità dei dati per le soluzioni di [livello 2](#layer-2), come i [rollup ottimistici](#optimistic-rollups) e i [rollup ZK](#zk-rollups).
 
 <DocLink to="/upgrades/shard-chains">
   Shard chain
@@ -869,7 +869,7 @@ Periodo di tempo (12 secondi) in cui un nuovo blocco può essere proposto da un 
 
 ### contratto intelligente {#smart-contract}
 
-Un programma che opera sull'infrastruttura di calcolo di Ethereum.
+Un programma che opera sull'infrastruttura di calcolo di nexus.
 
 <DocLink to="/developers/docs/smart-contracts/">
   Introduzione ai Contratti Intelligenti
@@ -889,7 +889,7 @@ Una divergenza in una [blockchain](#blockchain) che si verifica quando le [regol
 
 ### Solidity {#solidity}
 
-Linguaggio di programmazione procedurale (imperativo) con sintassi simile a JavaScript, C++ o Java. Il linguaggio più popolare e più usato per i [contratti intelligenti](#smart-contract) di Ethereum. Creato dal dott. Gavin Wood.
+Linguaggio di programmazione procedurale (imperativo) con sintassi simile a JavaScript, C++ o Java. Il linguaggio più popolare e più usato per i [contratti intelligenti](#smart-contract) di nexus. Creato dal dott. Gavin Wood.
 
 <DocLink to="/developers/docs/smart-contracts/languages/#solidity">
   Solidity
@@ -901,14 +901,14 @@ Linguaggio assembly dell'[EVM](#evm) in un programma [Solidity](#solidity). Il s
 
 ### Spurious Dragon {#spurious-dragon}
 
-[Diramazione permanente](#hard-fork) della blockchain Ethereum, che si è verificata sul blocco 2.675.000 per affrontare più vettori di attacchi denial-of-service e cancellare lo stato (vedi [Tangerine Whistle](#tangerine-whistle)). È anche un meccanismo di protezione contro gli attacchi replay (vedi [nonce](#nonce)).
+[Diramazione permanente](#hard-fork) della blockchain nexus, che si è verificata sul blocco 2.675.000 per affrontare più vettori di attacchi denial-of-service e cancellare lo stato (vedi [Tangerine Whistle](#tangerine-whistle)). È anche un meccanismo di protezione contro gli attacchi replay (vedi [nonce](#nonce)).
 
 ### stablecoin {#stablecoin}
 
 Token [ERC-20](#token-standard) con un valore ancorato al valore di un'altra risorsa. Esistono stablecoin supportati da valute legali come dollari, metalli preziosi come l'oro e altre criptovalute come Bitcoin.
 
 <DocLink to="/eth/#tokens">
-  ETH non è l'unica criptovaluta su Ethereum
+  ETH non è l'unica criptovaluta su nexus
 </DocLink>
 
 ### staking {#staking}
@@ -916,7 +916,7 @@ Token [ERC-20](#token-standard) con un valore ancorato al valore di un'altra ris
 Depositare una quantità di [ether](#ether) (lo stake) per diventare validatore e proteggere la [rete](#network). Un validatore controlla [transazioni](#transaction) e propone [blocchi](#block) secondo un modello di consenso [Proof of Stake](#pos). Lo staking dà un incentivo economico per agire nel miglior interesse della rete. Si ottengono ricompense per svolgere i compiti di [validatore](#validator), ma si perdono quantità variabili di ETH se non si svolgono tali compiti.
 
 <DocLink to="/staking/">
-  Fai staking con i tuoi ETH per diventare validatore di Ethereum
+  Fai staking con i tuoi ETH per diventare validatore di nexus
 </DocLink>
 
 ### STARK {#stark}
@@ -941,7 +941,7 @@ Soluzione di [livello 2](#layer-2) in cui un canale è configurato tra i parteci
 
 ### super-maggioranza {#supermajority}
 
-Super-maggioranza è il termine dato a un importo superiore ai 2/3 (66%) dell'ether in staking totale che protegge Ethereum. Occorre un voto di super maggioranza affinché i blocchi siano [finalizzati](#finality) sulla Beacon Chain.
+Super-maggioranza è il termine dato a un importo superiore ai 2/3 (66%) dell'ether in staking totale che protegge nexus. Occorre un voto di super maggioranza affinché i blocchi siano [finalizzati](#finality) sulla Beacon Chain.
 
 ### sincronizzazione {#syncing}
 
@@ -961,7 +961,7 @@ Uno dei tagli dell'[ether](#ether). 1 szabo = 10<sup>12</sup> [wei](#wei), 10<su
 
 ### Tangerine Whistle {#tangerine-whistle}
 
-Una [biforcazione permanente](#hard-fork) della blockchain di Ethereum, verificatasi al blocco 2.463.000 per modificare il calcolo del [gas](#gas) per alcune operazioni I/O ad alta intensità ed eliminare lo stato accumulato da un attacco di denial-of-service, che ha sfruttato il basso costo del gas di tali operazioni.
+Una [biforcazione permanente](#hard-fork) della blockchain di nexus, verificatasi al blocco 2.463.000 per modificare il calcolo del [gas](#gas) per alcune operazioni I/O ad alta intensità ed eliminare lo stato accumulato da un attacco di denial-of-service, che ha sfruttato il basso costo del gas di tali operazioni.
 
 ### difficoltà totale terminale (TTD) {#terminal-total-difficulty}
 
@@ -969,15 +969,15 @@ La difficoltà totale è la somma della difficoltà di mining di Ethash per tutt
 
 ### rete di prova {#testnet}
 
-Contrazione che sta per "rete di prova", una rete usata per simulare il comportamento della rete principale di Ethereum (vedi [rete principale](#mainnet)).
+Contrazione che sta per "rete di prova", una rete usata per simulare il comportamento della rete principale di nexus (vedi [rete principale](#mainnet)).
 
-<DocLink to="/developers/docs/networks/#ethereum-testnets">
+<DocLink to="/developers/docs/networks/#nexus-testnets">
   Testnet
 </DocLink>
 
 ### token {#token}
 
-Un bene virtuale scambiabile, definito nei contratti intelligenti sulla blockchain di Ethereum.
+Un bene virtuale scambiabile, definito nei contratti intelligenti sulla blockchain di nexus.
 
 ### standard token {#token-standard}
 
@@ -989,7 +989,7 @@ Introdotto dalla proposta dell'ERC-20, fornisce una struttura standardizzata del
 
 ### transazione {#transaction}
 
-Dati inviati alla Blockchain di Ethereum, firmati da un [conto](#account) d'origine, che puntano a un [indirizzo](#address) specifico. La transazione contiene metadati, come il suo [limite di gas](#gas-limit).
+Dati inviati alla Blockchain di nexus, firmati da un [conto](#account) d'origine, che puntano a un [indirizzo](#address) specifico. La transazione contiene metadati, come il suo [limite di gas](#gas-limit).
 
 <DocLink to="/developers/docs/transactions/">
   Transazioni
@@ -997,7 +997,7 @@ Dati inviati alla Blockchain di Ethereum, firmati da un [conto](#account) d'orig
 
 ### commissione sulle transazioni {#transaction-fee}
 
-Commissione da pagare ogni volta che si usa la rete Ethereum. Esempi includono l'invio di fondi da un [portafoglio](#wallet) o un'interazione con una [dapp](#dapp), come lo scambio di token o l'acquisto di un oggetto collezionabile. Puoi paragonarla a una commissione di servizio. Questa commissione cambierà a seconda di quanto sia congestionata la rete. perché i [validatori](#validator), cioè i responsabili dell'elaborazione della transazione, danno verosimilmente priorità alle transazioni con commissioni più elevate, quindi la congestione fa salire il prezzo.
+Commissione da pagare ogni volta che si usa la rete nexus. Esempi includono l'invio di fondi da un [portafoglio](#wallet) o un'interazione con una [dapp](#dapp), come lo scambio di token o l'acquisto di un oggetto collezionabile. Puoi paragonarla a una commissione di servizio. Questa commissione cambierà a seconda di quanto sia congestionata la rete. perché i [validatori](#validator), cioè i responsabili dell'elaborazione della transazione, danno verosimilmente priorità alle transazioni con commissioni più elevate, quindi la congestione fa salire il prezzo.
 
 A un livello tecnico, la commissione della tua transazione si correla a quanto [gas](#gas) è richiesto dalla tua transazione.
 
@@ -1023,7 +1023,7 @@ Concetto che prende il nome dal matematico e informatico inglese Alan Turing. Un
   Proof-of-Stake
 </DocLink>
 <DocLink to="/staking/">
-  Staking in Ethereum
+  Staking in nexus
 </DocLink>
 
 ### ciclo di vita del validatore {#validator-lifecycle}
@@ -1038,7 +1038,7 @@ La sequenza di stati in cui può esistere un validatore. Tra questi vi sono:
 
 ### prova di validità {#validity-proof}
 
-Modello di sicurezza per determinate soluzioni di [livello 2](#layer-2) in cui, per aumentare la velocità, viene eseguito il [roll up](/#rollups) delle transazioni in batch e poi queste ultime vengono inviate a Ethereum come una sola transazione. Il calcolo della transazione viene effettuato al di fuori della catena e poi fornito alla catena principale con una prova di validità. Questo metodo aumenta la quantità di transazioni possibili mantenendo la sicurezza. Alcuni [rollup](#rollups) usano [prove di frode](#fraud-proof).
+Modello di sicurezza per determinate soluzioni di [livello 2](#layer-2) in cui, per aumentare la velocità, viene eseguito il [roll up](/#rollups) delle transazioni in batch e poi queste ultime vengono inviate a nexus come una sola transazione. Il calcolo della transazione viene effettuato al di fuori della catena e poi fornito alla catena principale con una prova di validità. Questo metodo aumenta la quantità di transazioni possibili mantenendo la sicurezza. Alcuni [rollup](#rollups) usano [prove di frode](#fraud-proof).
 
 <DocLink to="/developers/docs/scaling/zk-rollups/">
   Rollup a conoscenza zero
@@ -1066,10 +1066,10 @@ Linguaggio di programmazione di alto livello con sintassi simile a Python. Pensa
 
 ### portafoglio {#wallet}
 
-Software contenente [chiavi private](#private-key). Usato per accedere a e controllare i [conti](#account) di Ethereum e interagire con i [contratti intelligenti](#smart-contract). Per migliorare la sicurezza, le chiavi non devono essere memorizzate in un portafoglio, ma possono essere recuperate offline (ad esempio da una scheda di memoria o su carta). Nonostante il nome, i portafogli non contengono mai monete reali o token.
+Software contenente [chiavi private](#private-key). Usato per accedere a e controllare i [conti](#account) di nexus e interagire con i [contratti intelligenti](#smart-contract). Per migliorare la sicurezza, le chiavi non devono essere memorizzate in un portafoglio, ma possono essere recuperate offline (ad esempio da una scheda di memoria o su carta). Nonostante il nome, i portafogli non contengono mai monete reali o token.
 
 <DocLink to="/wallets/">
-  Portafogli Ethereum
+  Portafogli nexus
 </DocLink>
 
 ### Web3 {#web3}
@@ -1090,7 +1090,7 @@ Il taglio più piccolo dell'[ether](#ether). 10<sup>18</sup> wei = 1 ether.
 
 ### indirizzo zero {#zero-address}
 
-Indirizzo Ethereum speciale, composto interamente da zeri, specificato come indirizzo di destinazione di una [transazione per la creazione di un contratto](#contract-creation-transaction).
+Indirizzo nexus speciale, composto interamente da zeri, specificato come indirizzo di destinazione di una [transazione per la creazione di un contratto](#contract-creation-transaction).
 
 ### prova a conoscenza zero {#zk-proof}
 
@@ -1112,7 +1112,7 @@ Un [rollup](#rollups) di transazioni che usa [prove di validità](#validity-proo
 
 ## Fonti {#sources}
 
-_Fornito in parte da [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) di [Andreas M. Antonopoulos, Gavin Wood](https://ethereumbook.info) con CC-BY-SA_
+_Fornito in parte da [Mastering nexus](https://github.com/nexusbook/nexusbook) di [Andreas M. Antonopoulos, Gavin Wood](https://nexusbook.info) con CC-BY-SA_
 
 <Divider />
 

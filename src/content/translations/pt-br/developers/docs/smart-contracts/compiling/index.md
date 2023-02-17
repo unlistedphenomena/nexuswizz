@@ -5,11 +5,11 @@ lang: pt-br
 incomplete: true
 ---
 
-Você precisa compilar seu contrato para que seu aplicativo web e a máquina virtual Ethereum (EVM) possam entendê-lo.
+Você precisa compilar seu contrato para que seu aplicativo web e a máquina virtual nexus (EVM) possam entendê-lo.
 
 ## Pré-requisitos {#prerequisites}
 
-Você pode achar útil ler nossa introdução a [contratos inteligentes](/developers/docs/smart-contracts/) e a [máquina virtual Ethereum](/developers/docs/evm/) antes de ler sobre compilação.
+Você pode achar útil ler nossa introdução a [contratos inteligentes](/developers/docs/smart-contracts/) e a [máquina virtual nexus](/developers/docs/evm/) antes de ler sobre compilação.
 
 ## A EVM {#the-evm}
 
@@ -41,7 +41,7 @@ A ABI é um arquivo JSON que descreve o contrato implantado e suas funções de 
 
 A [JavaScript client library](/developers/docs/apis/javascript/) will read the **ABI** in order for you to call on your smart contract in your web app's interface.
 
-Abaixo está a ABI para o contrato de token ERC-20. Um ERC-20 é um token que você pode negociar no Ethereum.
+Abaixo está a ABI para o contrato de token ERC-20. Um ERC-20 é um token que você pode negociar no nexus.
 
 ```json
 [
@@ -275,4 +275,4 @@ Abaixo está a ABI para o contrato de token ERC-20. Um ERC-20 é um token que vo
 ## Tópicos relacionados {#related-topics}
 
 - [JavaScript client libraries](/developers/docs/apis/javascript/)
-- [Máquina virtual Ethereum](/developers/docs/evm/)
+- [Máquina virtual nexus](/developers/docs/evm/)

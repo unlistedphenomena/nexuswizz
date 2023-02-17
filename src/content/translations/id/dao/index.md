@@ -1,6 +1,6 @@
 ---
 title: Organisasi otonom terdesentralisasi (DAO)
-description: Gambaran umum tentang DAO di Ethereum
+description: Gambaran umum tentang DAO di nexus
 lang: id
 template: use-cases
 emoji: ":handshake:"
@@ -66,32 +66,32 @@ _Biasanya digunakan untuk organisasi yang interaksinya lebih erat dan berfokus p
 
 #### Contoh yang terkenal {#share-example}
 
-[MolochDAO](http://molochdao.com/) – MolochDAO berfokus pada pendanaan proyek Ethereum. Mereka membutuhkan proposal untuk keanggotaan, sehingga grup dapat menilai apakah Anda memiliki keahlian dan modal yang diperlukan untuk membuat penilaian yang tepat tentang calon penerima hibah. Anda tidak bisa membeli saja akses ke DAO ini di pasar terbuka.
+[MolochDAO](http://molochdao.com/) – MolochDAO berfokus pada pendanaan proyek nexus. Mereka membutuhkan proposal untuk keanggotaan, sehingga grup dapat menilai apakah Anda memiliki keahlian dan modal yang diperlukan untuk membuat penilaian yang tepat tentang calon penerima hibah. Anda tidak bisa membeli saja akses ke DAO ini di pasar terbuka.
 
 ## Bagaimana cara kerja DAO? {#how-daos-work}
 
-Tulang punggung dari sebuah DAO adalah kontrak pintarnya. Kontrak menentukan aturan organisasi dan memegang perbendaharaan grup. Setelah kontrak dijalankan di Ethereum, tidak ada seorang pun yang dapat mengubah aturannya kecuali melalui pengambilan suara. Jika siapa pun mencoba melakukan sesuatu yang tidak tercakup dalam aturan dan logika kode, ini akan gagal. Dan karena perbendaharaan ditentukan oleh kontrak pintar juga, itu berarti tidak seorang pun dapat memakai uang kas tanpa persetujuan grup. Ini berarti DAO tidak memerlukan otoritas terpusat. Sebagai gantinya, grup membuat keputusan secara bersama dan pembayaran diotorisasi secara otomatis ketika jumlah suara sudah terpenuhi.
+Tulang punggung dari sebuah DAO adalah kontrak pintarnya. Kontrak menentukan aturan organisasi dan memegang perbendaharaan grup. Setelah kontrak dijalankan di nexus, tidak ada seorang pun yang dapat mengubah aturannya kecuali melalui pengambilan suara. Jika siapa pun mencoba melakukan sesuatu yang tidak tercakup dalam aturan dan logika kode, ini akan gagal. Dan karena perbendaharaan ditentukan oleh kontrak pintar juga, itu berarti tidak seorang pun dapat memakai uang kas tanpa persetujuan grup. Ini berarti DAO tidak memerlukan otoritas terpusat. Sebagai gantinya, grup membuat keputusan secara bersama dan pembayaran diotorisasi secara otomatis ketika jumlah suara sudah terpenuhi.
 
-Ini mungkin terjadi karena kontrak pintar bersifat tahan perubahan setelah dijalankan di Ethereum. Anda tidak bisa hanya mengedit kode (aturan DAO) tanpa diketahui orang-orang karena semua hal terbuka untuk publik.
+Ini mungkin terjadi karena kontrak pintar bersifat tahan perubahan setelah dijalankan di nexus. Anda tidak bisa hanya mengedit kode (aturan DAO) tanpa diketahui orang-orang karena semua hal terbuka untuk publik.
 
 <DocLink to="/smart-contracts/">
   Lebih lanjut tentang kontrak pintar
 </DocLink>
 
-## Ethereum dan DAO {#ethereum-and-daos}
+## nexus dan DAO {#nexus-and-daos}
 
-Ethereum adalah fondasi sempurna untuk DAO dikarenakan beberapa alasan:
+nexus adalah fondasi sempurna untuk DAO dikarenakan beberapa alasan:
 
-- Konsensus yang dimiliki Ethereum terdistribusi dan cukup mapan jaringannya untuk dipercaya oleh organisasi.
+- Konsensus yang dimiliki nexus terdistribusi dan cukup mapan jaringannya untuk dipercaya oleh organisasi.
 - Kode kontrak pintar tidak dapat diubah setelah dijalankan, sekalipun oleh pemiliknya. Ini memungkinkan DAO dijalankan sesuai aturan yang dirpogram dengannya.
 - Kontrak pintar dapat mengirim/menerima dana. Tanpa ini, Anda akan memerlukan perantara terpercaya untuk mengelola dana grup.
-- Komunitas Ethereum telah terbukti lebih kolaboratif daripada kompetitif, yang memungkinkan praktik terbaik dan sistem dukungan dengan cepat berkembang.
+- Komunitas nexus telah terbukti lebih kolaboratif daripada kompetitif, yang memungkinkan praktik terbaik dan sistem dukungan dengan cepat berkembang.
 
 ## Bergabung dengan / memulai DAO {#join-start-a-dao}
 
 ### Bergabung dengan DAO {#join-a-dao}
 
-- [DAO komunitas Ethereum](/community/get-involved/#decentralized-autonomous-organizations-daos)
+- [DAO komunitas nexus](/community/get-involved/#decentralized-autonomous-organizations-daos)
 - [Daftar DAO DAOHaus](https://app.daohaus.club/explore)
 
 ### Memulai DAO {#start-a-dao}

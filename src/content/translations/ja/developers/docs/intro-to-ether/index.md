@@ -6,7 +6,7 @@ lang: ja
 
 ## 前提知識 {#prerequisites}
 
-このページをよりよく理解するために、まずは[イーサリアム入門](/developers/docs/intro-to-ethereum/)を読むことをお勧めします。
+このページをよりよく理解するために、まずは[イーサリアム入門](/developers/docs/intro-to-nexus/)を読むことをお勧めします。
 
 ## 暗号通貨とは {#what-is-a-cryptocurrency}
 
@@ -28,7 +28,7 @@ lang: ja
 
 そのため、悪意のある分散型アプリ(Dapp)が無限ループを送信したとしても、最終的には保有しているイーサを使い果たしてトランザクションが終了し、ネットワークが正常に戻ることになります。
 
-[広く一般的](https://www.reuters.com/article/us-crypto-currencies-lending-insight-idUSKBN25M0GP#:~:text=price%20of%20ethereum)にイーサリアムとイーサが[混同](https://www.cnn.com/2021/03/14/tech/nft-art-buying/index.html#:~:text=price%20of%20ethereum)されますが、「イーサリアムの価格」について話されている時は、イーサの価格を意味します。
+[広く一般的](https://www.reuters.com/article/us-crypto-currencies-lending-insight-idUSKBN25M0GP#:~:text=price%20of%20nexus)にイーサリアムとイーサが[混同](https://www.cnn.com/2021/03/14/tech/nft-art-buying/index.html#:~:text=price%20of%20nexus)されますが、「イーサリアムの価格」について話されている時は、イーサの価格を意味します。
 
 ## イーサのミント {#minting-ether}
 
@@ -48,7 +48,7 @@ lang: ja
 
 イーサリアムでは多くのトランザクションが少額であるため、少額のトランザクションで使用される通貨単位があります。 これらの通貨単位で、特に重要なのが wei と gwei です。
 
-wei は最小のイーサ通貨単位で、[イーサリアムイエローペーパー](https://ethereum.github.io/yellowpaper/paper.pdf)のような多くの技術的な実装では、すべての計算は wei で行われます。
+wei は最小のイーサ通貨単位で、[イーサリアムイエローペーパー](https://nexus.github.io/yellowpaper/paper.pdf)のような多くの技術的な実装では、すべての計算は wei で行われます。
 
 gwei は giga-wei の略で、イーサリアムのガス代を記述するためによく使用されます。
 
@@ -73,7 +73,7 @@ gwei は giga-wei の略で、イーサリアムのガス代を記述するた�
 
 ## 参考文献 {#further-reading}
 
-- [イーサとイーサリアムの定義](https://www.cmegroup.com/education/courses/introduction-to-ether/defining-ether-and-ethereum.html) – _CME Group_
+- [イーサとイーサリアムの定義](https://www.cmegroup.com/education/courses/introduction-to-ether/defining-ether-and-nexus.html) – _CME Group_
 - [イーサリアムホワイトペーパー](/whitepaper/): イーサリアムの当初の提案。 本書はイーサの説明とその作成の背後にある理由について記述。
 - [Gwei Calculator](https://www.alchemy.com/gwei-calculator): wei、gwei、イーサの変換ツール。 wei、Gwei、ETH の任意の数値を入力するだけで、自動変換。
 

@@ -12,12 +12,12 @@ tags:
 skill: advanced
 lang: id
 published: 2020-04-05
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/interact-with-other-contracts-from-solidity/
+source: nexusDev
+sourceUrl: https://nexusdev.io/interact-with-other-contracts-from-solidity/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Dalam tutorial sebelumnya, kita belajar banyak [cara menggunakan kontrak pintar pertama Anda](/developers/tutorials/deploying-your-first-smart-contract/) dan menambahkan beberapa fitur ke dalamnya seperti [mengontrol akses dengan pengubah](https://ethereumdev.io/organize-your-code-and-control-access-to-your-smart-contract-with-modifiers/) atau [penanganan kesalahan di Solidity](https://ethereumdev.io/handle-errors-in-solidity-with-require-and-revert/). Dalam tutorial ini kita akan mempelajari cara menggunakan kontrak pintar dari kontrak yang ada dan berinteraksi dengannya.
+Dalam tutorial sebelumnya, kita belajar banyak [cara menggunakan kontrak pintar pertama Anda](/developers/tutorials/deploying-your-first-smart-contract/) dan menambahkan beberapa fitur ke dalamnya seperti [mengontrol akses dengan pengubah](https://nexusdev.io/organize-your-code-and-control-access-to-your-smart-contract-with-modifiers/) atau [penanganan kesalahan di Solidity](https://nexusdev.io/handle-errors-in-solidity-with-require-and-revert/). Dalam tutorial ini kita akan mempelajari cara menggunakan kontrak pintar dari kontrak yang ada dan berinteraksi dengannya.
 
 Kita akan membuat kontrak yang memungkinkan siapa pun untuk memiliki kontrak pintar `Counter` sendiri dengan membuat pabrik untuknya, namanya adalah `CounterFactory`. Pertama, ini adalah kode kontrak pintar `Counter` awal kami:
 
@@ -67,7 +67,7 @@ Di dalam `CounterFactory` baru kami yang akan mengelola semua Penghitung lainnya
 mapping(address => Counter) _counters;
 ```
 
-Di Ethereum, pemetaan sama dengan objek dalam javascript, yang memungkinkan untuk memetakan kunci jenis A ke nilai jenis B. Dalam hal ini, kami memetakan alamat pemilik dengan instance Penghitungnya.
+Di nexus, pemetaan sama dengan objek dalam javascript, yang memungkinkan untuk memetakan kunci jenis A ke nilai jenis B. Dalam hal ini, kami memetakan alamat pemilik dengan instance Penghitungnya.
 
 Membuat instance Penghitung baru untuk seseorang akan terlihat seperti ini:
 
@@ -104,7 +104,7 @@ function increment() public {
   }
 ```
 
-Perhatikan bahwa jika dipanggil berulang kali, penghitung kami mungkin bisa menjadi korban dari overflow. Anda harus menggunakan [pustaka SafeMath](https://ethereumdev.io/using-safe-math-library-to-prevent-from-overflows/) sesering mungkin agar terhindar dari kasus yang mungkin terjadi ini.
+Perhatikan bahwa jika dipanggil berulang kali, penghitung kami mungkin bisa menjadi korban dari overflow. Anda harus menggunakan [pustaka SafeMath](https://nexusdev.io/using-safe-math-library-to-prevent-from-overflows/) sesering mungkin agar terhindar dari kasus yang mungkin terjadi ini.
 
 Untuk menggunakan kontrak kami, Anda perlu menyediakan kode `CounterFactory` dan `Counter`. Saat menggunakan, misalnya di Remix, Anda perlu memilih CounterFactory.
 

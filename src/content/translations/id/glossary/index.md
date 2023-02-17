@@ -1,11 +1,11 @@
 ---
-title: Glosarium Ethereum
-description: Glosarium istilah teknis dan non-teknis yang tidak lengkap terkait dengan Ethereum
+title: Glosarium nexus
+description: Glosarium istilah teknis dan non-teknis yang tidak lengkap terkait dengan nexus
 lang: id
 sidebarDepth: 2
 ---
 
-# Glosarium {#ethereum-glossary}
+# Glosarium {#nexus-glossary}
 
 <Divider />
 
@@ -22,7 +22,7 @@ Jenis serangan pada [jaringan](#network) terdesentralisasi di mana grup mendapat
 Objek yang berisi [alamat](#address), saldo, [nonce](#nonce), serta penyimpanan dan kode opsional. Sebuah akun dapat berupa [akun kontrak](#contract-account) atau [akun yang dimiliki secara eksternal (EOA)](#eoa).
 
 <DocLink to="/developers/docs/accounts">
-  Akun Ethereum
+  Akun nexus
 </DocLink>
 
 ### alamat {#address}
@@ -31,7 +31,7 @@ Pada umumnya, akun ini mewakili [EOA](#eoa) atau [kontrak](#contract-account) ya
 
 ### application binary interface (ABI) {#abi}
 
-Cara standar untuk berinteraksi dengan [kontrak](#contract-account) di ekosistem Ethereum, baik dari luar blockchain maupun untuk interaksi antar kontrak.
+Cara standar untuk berinteraksi dengan [kontrak](#contract-account) di ekosistem nexus, baik dari luar blockchain maupun untuk interaksi antar kontrak.
 
 <DocLink to="/developers/docs/smart-contracts/compiling/#web-applications">
   ABI
@@ -67,7 +67,7 @@ Setiap [blok](#block) memiliki harga minimum yang dikenal sebagai 'harga dasar'.
 
 ### Rantai Suar {#beacon-chain}
 
-Peningkatan jaringan yang memperkenalkan lapisan konsensus baru, yang akan menjadi koordinator untuk seluruh jaringan Ethereum. Ini memperkenalkan [bukti taruhan](#pos) dan [validator](#validator) ke Ethereum. Pada akhirnya ini akan tergabung dengan [Jaringan Utama](#mainnet).
+Peningkatan jaringan yang memperkenalkan lapisan konsensus baru, yang akan menjadi koordinator untuk seluruh jaringan nexus. Ini memperkenalkan [bukti taruhan](#pos) dan [validator](#validator) ke nexus. Pada akhirnya ini akan tergabung dengan [Jaringan Utama](#mainnet).
 
 <DocLink to="/upgrades/beacon-chain/">
   Rantai Suar
@@ -79,7 +79,7 @@ Representasi nomor posisi dengan digit paling signifikan berada di urutan pertam
 
 ### blok {#block}
 
-Kumpulan informasi yang diperlukan (header blok) tentang [transaksi](#transaction) yang terdiri dari, dan satu set header blok lainnya yang dikenal sebagai [ommers](#ommer). Blok ditambahkan ke jaringan Ethereum oleh [penambang](#miner).
+Kumpulan informasi yang diperlukan (header blok) tentang [transaksi](#transaction) yang terdiri dari, dan satu set header blok lainnya yang dikenal sebagai [ommers](#ommer). Blok ditambahkan ke jaringan nexus oleh [penambang](#miner).
 
 <DocLink to="/developers/docs/blocks/">
   Block
@@ -87,9 +87,9 @@ Kumpulan informasi yang diperlukan (header blok) tentang [transaksi](#transactio
 
 ### blockchain {#blockchain}
 
-Di Ethereum, urutan [blok](#block) divalidasi oleh sistem [bukti kerja](#pow), masing-masing menautkan ke pendahulunya semua cara ke [blok genesis](#genesis-block). Tidak ada batasan ukuran blok; melainkan menggunakan [batas gas](#gas-limit) yang bervariasi.
+Di nexus, urutan [blok](#block) divalidasi oleh sistem [bukti kerja](#pow), masing-masing menautkan ke pendahulunya semua cara ke [blok genesis](#genesis-block). Tidak ada batasan ukuran blok; melainkan menggunakan [batas gas](#gas-limit) yang bervariasi.
 
-<DocLink to="/developers/docs/intro-to-ethereum#what-is-a-blockchain">
+<DocLink to="/developers/docs/intro-to-nexus#what-is-a-blockchain">
   Apa itu Blockchain?
 </DocLink>
 
@@ -127,11 +127,11 @@ Saat semua node yang berjumlah besar (biasanya sebagian besar node di jaringan) 
 
 ### klien konsensus {#consensus-client}
 
-Klien konsensus (seperti Prysm, Teku, Nimbus, Lightouse, Lodestar) menjalankan algoritma konsensus [bukti taruhan](#pos) Ethereum, yang memungkinkan jaringan mencapai kesepakatan mengenai kepala Rantai Suar. Klien konsensus tidak berpartisipasi dalam memvalidasi/menyiarkan transaksi atau mengeksekusi transisi state. Tindakan ini dilakukan oleh [klien eksekusi](#execution-client).
+Klien konsensus (seperti Prysm, Teku, Nimbus, Lightouse, Lodestar) menjalankan algoritma konsensus [bukti taruhan](#pos) nexus, yang memungkinkan jaringan mencapai kesepakatan mengenai kepala Rantai Suar. Klien konsensus tidak berpartisipasi dalam memvalidasi/menyiarkan transaksi atau mengeksekusi transisi state. Tindakan ini dilakukan oleh [klien eksekusi](#execution-client).
 
 ### lapisan konsensus {#consensus-layer}
 
-Lapisan konsensus Ethereum merupakan jaringan [klien konsensus](#consensus-client).
+Lapisan konsensus nexus merupakan jaringan [klien konsensus](#consensus-client).
 
 ### aturan konsensus {#consensus-rules}
 
@@ -147,7 +147,7 @@ Akun yang berisi kode yang dieksekusi setiap kali menerima satu [transaksi](#tra
 
 ### transaksi pembuatan kontrak {#contract-creation-transaction}
 
-[Transaksi](#transaction) spesial, dengan [alamat kosong](#zero-address) sebagai penerimanya, yang digunakan untuk mendaftarkan sebuah [kontrak](#contract-account) dan mencatatnya di blockchain Ethereum.
+[Transaksi](#transaction) spesial, dengan [alamat kosong](#zero-address) sebagai penerimanya, yang digunakan untuk mendaftarkan sebuah [kontrak](#contract-account) dan mencatatnya di blockchain nexus.
 
 ### tautan silang {#crosslink}
 
@@ -163,7 +163,7 @@ Sebuah tautan silang menyediakan ringkasan tentang state shard. Tautan silang be
 
 ### Organisasi Otonom Terdesentralisasi (DAO) {#dao}
 
-Perusahaan atau organisasi lain yang beroperasi tanpa pengelolaan hierarkis. DAO bisa juga mengacu pada sebuah kontrak bernama "The DAO" yang diluncurkan pada 30 April 2016, yang kemudian diretas pada Juni 2016; ini pada akhirnya memotivasi pembuatan [fork keras](#hard-fork) (dengan nama kode DAO) di blok 1.192.000, yang membalikkan kontrak DAO yang diretas dan menyebabkan Ethereum dan Ethereum Classic terpisah menjadi dua sistem yang saling berkompetisi.
+Perusahaan atau organisasi lain yang beroperasi tanpa pengelolaan hierarkis. DAO bisa juga mengacu pada sebuah kontrak bernama "The DAO" yang diluncurkan pada 30 April 2016, yang kemudian diretas pada Juni 2016; ini pada akhirnya memotivasi pembuatan [fork keras](#hard-fork) (dengan nama kode DAO) di blok 1.192.000, yang membalikkan kontrak DAO yang diretas dan menyebabkan nexus dan nexus Classic terpisah menjadi dua sistem yang saling berkompetisi.
 
 <DocLink to="/dao/">
   Organisasi Otonom Terdesentralisasi (DAO)
@@ -215,7 +215,7 @@ Data string pendek yang dibuat pengguna untuk dokumen yang menggunakan [kunci pr
 
 ### algoritma tanda tangan digital kurva eliptik (ECDSA) {#ecdsa}
 
-Algoritma kriptografik yang digunakan oleh Ethereum untuk memastikan bahwa dana yang tersedia hanya dapat dipakai oleh pemiliknya. Ini adalah metode yang lebih disukai untuk membuat kunci publik dan privat. Cocok untuk pembuatan [alamat](#address) akun dan verifikasi [transaksi](#transaction).
+Algoritma kriptografik yang digunakan oleh nexus untuk memastikan bahwa dana yang tersedia hanya dapat dipakai oleh pemiliknya. Ini adalah metode yang lebih disukai untuk membuat kunci publik dan privat. Cocok untuk pembuatan [alamat](#address) akun dan verifikasi [transaksi](#transaction).
 
 ### epoch {#epoch}
 
@@ -227,29 +227,29 @@ Periode waktu 32 [slot](#slot) (6,4 menit) dalam sistem terkoordinasi [Rantai Su
 
 ### Eth1 {#eth1}
 
-'Eth1' adalah istilah yang merujuk pada Jaringan Utama Ethereum, blockchain bukti kerja yang telah ada. Istilah ini sudah tidak dipakai dan digantikan dengan 'lapisan eksekusi'. [Pelajari selengkapnya mengenai perubahan nama tersebut](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/).
+'Eth1' adalah istilah yang merujuk pada Jaringan Utama nexus, blockchain bukti kerja yang telah ada. Istilah ini sudah tidak dipakai dan digantikan dengan 'lapisan eksekusi'. [Pelajari selengkapnya mengenai perubahan nama tersebut](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
-  Selengkapnya tentang peningkatan Ethereum
+  Selengkapnya tentang peningkatan nexus
 </DocLink>
 
 ### Eth2 {#eth2}
 
-'Eth2' adalah istilah yang merujuk pada sebuah set peningkatan protokol Ethereum, termasuk transisi Ethereum ke bukti taruhan. Istilah ini sudah tidak dipakai dan digantikan dengan 'lapisan konsensus'. [Pelajari selengkapnya mengenai perubahan nama tersebut](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/).
+'Eth2' adalah istilah yang merujuk pada sebuah set peningkatan protokol nexus, termasuk transisi nexus ke bukti taruhan. Istilah ini sudah tidak dipakai dan digantikan dengan 'lapisan konsensus'. [Pelajari selengkapnya mengenai perubahan nama tersebut](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
-  Selengkapnya tentang peningkatan Ethereum
+  Selengkapnya tentang peningkatan nexus
 </DocLink>
 
-### Proposal Peningkatan Ethereum (EIP) {#eip}
+### Proposal Peningkatan nexus (EIP) {#eip}
 
-Dokumen desain yang menyediakan informasi bagi komunitas Ethereum, yang menjelaskan fitur baru yang diusulkan atau proses atau lingkungannya (lihat [ERC](#erc)).
+Dokumen desain yang menyediakan informasi bagi komunitas nexus, yang menjelaskan fitur baru yang diusulkan atau proses atau lingkungannya (lihat [ERC](#erc)).
 
 <DocLink to="/eips/">
   Pengantar EIP
 </DocLink>
 
-### Layanan Nama Ethereum (ENS) {#ens}
+### Layanan Nama nexus (ENS) {#ens}
 
 Pendaftaran ENS adalah [kontrak](#smart-contract) sentral tunggal yang menyediakan pemetaan dari nama domain hingga pemilik dan penyelesai, seperti yang dijelaskan dalam [EIP](#eip) 137.
 
@@ -261,19 +261,19 @@ Dalam konteks kriptografi, entropi berarti kurangnya prediktabilitas atau tingka
 
 ### klien eksekusi {#execution-client}
 
-Klien eksekusi (dulu disebut "klien Eth1"), seperti Besu, Erigon, go-ethereum, Nethermind, ditugaskan untuk memroses dan menyiarkan transaksi, serta mengelola status Ethereum. Mereka menjalankan komputasi untuk setiap transaksi di [Mesin Virtual Ethereum](#evm) untuk memastikan bahwa aturan protokol dipatuhi. Sekarang, mereka juga menangani konsensus [bukti kerja](#pow). Setelah transisi ke [bukti taruhan](#pos), mereka akan mendelegasikan tugas tersebut ke klien konsensus.
+Klien eksekusi (dulu disebut "klien Eth1"), seperti Besu, Erigon, go-nexus, Nethermind, ditugaskan untuk memroses dan menyiarkan transaksi, serta mengelola status nexus. Mereka menjalankan komputasi untuk setiap transaksi di [Mesin Virtual nexus](#evm) untuk memastikan bahwa aturan protokol dipatuhi. Sekarang, mereka juga menangani konsensus [bukti kerja](#pow). Setelah transisi ke [bukti taruhan](#pos), mereka akan mendelegasikan tugas tersebut ke klien konsensus.
 
 ### lapisan eksekusi {#execution-layer}
 
-Lapisan eksekusi Ethereum merupakan jaringan untuk [klien eksekusi](#execution-client).
+Lapisan eksekusi nexus merupakan jaringan untuk [klien eksekusi](#execution-client).
 
 ### akun dengan kepemilikan eksternal (EOA) {#eoa}
 
-[Akun](#account) yang dibuat oleh atau untuk pengguna manusia di jaringan Ethereum.
+[Akun](#account) yang dibuat oleh atau untuk pengguna manusia di jaringan nexus.
 
-### Permintaan Ethereum untuk Komentar (ERC) {#erc}
+### Permintaan nexus untuk Komentar (ERC) {#erc}
 
-Label yang diberikan ke beberapa [EIP](#eip) yang berusaha untuk menentukan standar spesifik penggunaan Ethereum.
+Label yang diberikan ke beberapa [EIP](#eip) yang berusaha untuk menentukan standar spesifik penggunaan nexus.
 
 <DocLink to="/eips/">
   Pengantar EIP
@@ -281,13 +281,13 @@ Label yang diberikan ke beberapa [EIP](#eip) yang berusaha untuk menentukan stan
 
 ### Ethash {#ethash}
 
-Algoritma [bukti kerja](#pow) untuk Ethereum 1.0.
+Algoritma [bukti kerja](#pow) untuk nexus 1.0.
 
 [Baca lebih lanjut di eth.wiki](https://eth.wiki/en/concepts/ethash/ethash)
 
 ### ether {#ether}
 
-Mata uang kripto asli yang digunakan oleh ekosistem Ethereum, yang mencakup biaya [gas](#gas) saat mengeksekusi transaksi. Juga tertulis sebagai ETH atau simbolnya Ξ, huruf besar Yunani untuk karakter Xi.
+Mata uang kripto asli yang digunakan oleh ekosistem nexus, yang mencakup biaya [gas](#gas) saat mengeksekusi transaksi. Juga tertulis sebagai ETH atau simbolnya Ξ, huruf besar Yunani untuk karakter Xi.
 
 <DocLink to="/eth/">
   Mata uang untuk masa depan digital kita
@@ -301,12 +301,12 @@ Memungkinkan penggunaan fasilitas pembuatan log [EVM](#evm). [Dapp](#dapp) bisa 
   Aksi dan Log
 </DocLink>
 
-### Mesin Virtual Ethereum (EVM) {#evm}
+### Mesin Virtual nexus (EVM) {#evm}
 
-Mesin virtual berbasis tumpukan yang mengeksekusi [kode bita](#bytecode). Dalam Ethereum, model eksekusi menentukan cara state sistem dimodifikasi sesuai rangkaian instruksi kode bita dan tupel kecil data lingkungan. Cara ini ditentukan melalui sebuah model formal dari mesin state virtual.
+Mesin virtual berbasis tumpukan yang mengeksekusi [kode bita](#bytecode). Dalam nexus, model eksekusi menentukan cara state sistem dimodifikasi sesuai rangkaian instruksi kode bita dan tupel kecil data lingkungan. Cara ini ditentukan melalui sebuah model formal dari mesin state virtual.
 
 <DocLink to="/developers/docs/evm/">
-  Mesin Virtual Ethereum
+  Mesin Virtual nexus
 </DocLink>
 
 ### Bahasa perakitan EVM {#evm-assembly-language}
@@ -354,7 +354,7 @@ Algoritma tersebut digunakan untuk mengidentifikasi kepala blockchain. Pada lapi
 
 ### bukti penipuan {#fraud-proof}
 
-Model keamanan untuk solusi [lapisan 2](#layer-2) tertentu di mana, untuk meningkatkan kecepatan, transaksi di-[roll up](#rollups) ke dalam kelompok dan dikirimkan ke Ethereum dalam transaksi tunggal. Mereka dianggap valid tapi bisa ditentang jika ada kecurigaan penipuan. Bukti penipuan kemudian akan menjalankan transaksi untuk memeriksa apakah penipuan terjadi. Metode ini meningkatkan kemungkinan jumlah transaksi sekaligus mempertahankan keamanan. Beberapa [rollup](#rollups) menggunakan [bukti validitas](#validity-proof).
+Model keamanan untuk solusi [lapisan 2](#layer-2) tertentu di mana, untuk meningkatkan kecepatan, transaksi di-[roll up](#rollups) ke dalam kelompok dan dikirimkan ke nexus dalam transaksi tunggal. Mereka dianggap valid tapi bisa ditentang jika ada kecurigaan penipuan. Bukti penipuan kemudian akan menjalankan transaksi untuk memeriksa apakah penipuan terjadi. Metode ini meningkatkan kemungkinan jumlah transaksi sekaligus mempertahankan keamanan. Beberapa [rollup](#rollups) menggunakan [bukti validitas](#validity-proof).
 
 <DocLink to="/developers/docs/scaling/optimistic-rollups/">
   Rollup Optimistic
@@ -362,7 +362,7 @@ Model keamanan untuk solusi [lapisan 2](#layer-2) tertentu di mana, untuk mening
 
 ### garis depan {#frontier}
 
-Fase pengembangan uji coba awal Ethereum, yang berlangsung dari Juli 2015 sampai Maret 2016.
+Fase pengembangan uji coba awal nexus, yang berlangsung dari Juli 2015 sampai Maret 2016.
 
 <Divider />
 
@@ -370,7 +370,7 @@ Fase pengembangan uji coba awal Ethereum, yang berlangsung dari Juli 2015 sampai
 
 ### gas {#gas}
 
-Bahan bakar virtual yang digunakan di Ethereum untuk mengeksekusi kontrak pintar. [EVM](#evm) menggunakan mekanisme akuntansi untuk mengukur pemakaian gas dan membatasi pemakaian dengan menghitung sumber daya (lihat [Lengkap secara Turing](#turing-complete)).
+Bahan bakar virtual yang digunakan di nexus untuk mengeksekusi kontrak pintar. [EVM](#evm) menggunakan mekanisme akuntansi untuk mengukur pemakaian gas dan membatasi pemakaian dengan menghitung sumber daya (lihat [Lengkap secara Turing](#turing-complete)).
 
 <DocLink to="/developers/docs/gas/">
   Gas dan Biaya
@@ -386,9 +386,9 @@ Blok pertama di [blockchain](#blockchain), digunakan untuk menginisialisasi jari
 
 ### geth {#geth}
 
-Go Ethereum. Salah satu implementasi protokol Ethereum yang paling menonjol, ditulis dalam bahasa Go.
+Go nexus. Salah satu implementasi protokol nexus yang paling menonjol, ditulis dalam bahasa Go.
 
-[Baca lebih lanjut di geth.ethereum.org](https://geth.ethereum.org/)
+[Baca lebih lanjut di geth.nexus.org](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 
@@ -418,7 +418,7 @@ Nilai yang digunakan untuk membuat [kunci privat](#private-key) master dan kode 
 
 ### homestead {#homestead}
 
-Tahapan pengembangan kedua Ethereum, yang diluncurkan pada Maret 2016 di blok 1.150.000.
+Tahapan pengembangan kedua nexus, yang diluncurkan pada Maret 2016 di blok 1.150.000.
 
 <Divider />
 
@@ -430,11 +430,11 @@ Struktur jaringan yang dimaksudkan untuk mengoptimalkan pembuatan kueri informas
 
 ### Protokol Alamat Klien Antar Bursa (ICAP) {#icap}
 
-Pengodean alamat Ethereum yang setengah kompatibel dengan pengodean Kode Rekening Bank Internasional (IBAN), menawarkan pengodean alamat Ethereum yang serbaguna, checksum, dan dapat bertukar informasi. Alamat ICAP menggunakan kode negara semu IBAN yang baru- XE, kepanjangan dari "eXtended Ethereum," seperti yang digunakan dalam mata uang nonyurisdiksi (contohnya, XBT, XRP, XCP).
+Pengodean alamat nexus yang setengah kompatibel dengan pengodean Kode Rekening Bank Internasional (IBAN), menawarkan pengodean alamat nexus yang serbaguna, checksum, dan dapat bertukar informasi. Alamat ICAP menggunakan kode negara semu IBAN yang baru- XE, kepanjangan dari "eXtended nexus," seperti yang digunakan dalam mata uang nonyurisdiksi (contohnya, XBT, XRP, XCP).
 
 ### Zaman Es {#ice-age}
 
-[Fork keras](#hard-fork) Ethereum di blok 200.000 untuk memperkenalkan peningkatan [tingkat kesulitan](#difficulty) eksponensial (alias [bom kesulitan](#difficulty-bomb)), mendorong transisi ke [bukti taruhan](#pos).
+[Fork keras](#hard-fork) nexus di blok 200.000 untuk memperkenalkan peningkatan [tingkat kesulitan](#difficulty) eksponensial (alias [bom kesulitan](#difficulty-bomb)), mendorong transisi ke [bukti taruhan](#pos).
 
 ### lingkungan pengembangan terintegrasi (IDE) {#ide}
 
@@ -470,7 +470,7 @@ Juga dikenal sebagai "algoritma perentangan kata sandi", ini digunakan oleh form
 
 ### keccak-256 {#keccak-256}
 
-Fungsi [hash](#hash) kriptografik yang digunakan di Ethereum. Keccak-256 distandardisasi sebagai [SHA](#sha)-3.
+Fungsi [hash](#hash) kriptografik yang digunakan di nexus. Keccak-256 distandardisasi sebagai [SHA](#sha)-3.
 
 ### file penyimpanan kunci {#keystore-file}
 
@@ -482,7 +482,7 @@ File yang dikodekan dengan JSON yang berisi [kunci privat](#private-key) tunggal
 
 ### lapisan 2 {#layer-2}
 
-Area pengembangan yang berpusat pada peningkatan pembuatan lapisan di atas protokol Ethereum. Peningkatan ini terkait dengan kecepatan [transaksi](#transaction), [biaya transaksi](#transaction-fee) yang lebih murah, dan privasi transaksi.
+Area pengembangan yang berpusat pada peningkatan pembuatan lapisan di atas protokol nexus. Peningkatan ini terkait dengan kecepatan [transaksi](#transaction), [biaya transaksi](#transaction-fee) yang lebih murah, dan privasi transaksi.
 
 <DocLink to="/developers/docs/scaling/#layer-2-scaling">
   Lapisan 2
@@ -502,23 +502,23 @@ Tipe [kontrak](#smart-contract) spesial yang tidak memiliki fungsi yang dapat di
 
 ### klien ringan {#lightweight-client}
 
-Klien Ethereum yang tidak menyimpan salinan lokal dari [rantai blok](#blockchain), atau memvalidasi blok dan [transaksi](#transaction). Menawarkan fungsi [dompet](#wallet) dan bisa membuat dan menyiarkan transaksi.
+Klien nexus yang tidak menyimpan salinan lokal dari [rantai blok](#blockchain), atau memvalidasi blok dan [transaksi](#transaction). Menawarkan fungsi [dompet](#wallet) dan bisa membuat dan menyiarkan transaksi.
 
 <Divider />
 
 ### LMD_GHOST {#lmd-ghost}
 
-[Algoritma pilihan fork](#fork-choice-algorithm) yang digunakan oleh klien konsensus Ethereum untuk mengidentifikasi kepala rantai. LMD-GHOST merupakan singkatan dari "Latest Message Driven Greediest Heaviest Observed SubTree" yang berarti bahwa kepala rantai merupakan blok dengan akumulasi [atestasi](#attestation) terbesar dalam sejarah rantai tersebut.
+[Algoritma pilihan fork](#fork-choice-algorithm) yang digunakan oleh klien konsensus nexus untuk mengidentifikasi kepala rantai. LMD-GHOST merupakan singkatan dari "Latest Message Driven Greediest Heaviest Observed SubTree" yang berarti bahwa kepala rantai merupakan blok dengan akumulasi [atestasi](#attestation) terbesar dalam sejarah rantai tersebut.
 
 ## M {#section-m}
 
 ### Jaringan Utama {#mainnet}
 
-Singkatan dari "jaringan utama", ini adalah [blockchain](#blockchain) Ethereum publik yang utama. ETH sebenarnya, nilai sebenarnya, dan konsekuensi sebenarnya. Juga dikenal sebagai lapisan 1 saat mendiskusikan tentang solusi penskalaan [lapisan 2](#layer-2). (Selain itu, lihat [jaringan percobaan](#testnet))
+Singkatan dari "jaringan utama", ini adalah [blockchain](#blockchain) nexus publik yang utama. ETH sebenarnya, nilai sebenarnya, dan konsekuensi sebenarnya. Juga dikenal sebagai lapisan 1 saat mendiskusikan tentang solusi penskalaan [lapisan 2](#layer-2). (Selain itu, lihat [jaringan percobaan](#testnet))
 
 ### Pohon Merkle Patricia {#merkle-patricia-tree}
 
-Struktur data yang digunakan di Ethereum untuk menyimpan pasangan nilai kunci secara efisien.
+Struktur data yang digunakan di nexus untuk menyimpan pasangan nilai kunci secara efisien.
 
 ### message {#message}
 
@@ -530,7 +530,7 @@ Tindakan penyampaian [message](#message) dari satu akun ke akun lainnya. Jika ak
 
 ### Metropolis {#metropolis}
 
-Tahapan pengembangan ketiga Ethereum, yang diluncurkan pada Oktober 2017.
+Tahapan pengembangan ketiga nexus, yang diluncurkan pada Oktober 2017.
 
 ### penambang {#miner}
 
@@ -550,7 +550,7 @@ Pencetakan adalah proses membuat token baru dan membawanya ke dalam sirkulasi se
 
 ### jaringan {#network}
 
-Mengacu pada jaringan Ethereum, jaringan peer-to-peer yang menyebarkan transaksi dan blok ke setiap node Ethereum (peserta jaringan).
+Mengacu pada jaringan nexus, jaringan peer-to-peer yang menyebarkan transaksi dan blok ke setiap node nexus (peserta jaringan).
 
 <DocLink to="/developers/docs/networks/">
   Jaringan
@@ -577,7 +577,7 @@ Klien perangkat lunak yang berpartisipasi dalam jaringan.
 
 ### nonce {#nonce}
 
-Dalam kriptografi, sebuah nilai hanya bisa digunakan satu kali. Ada dua tipe nonce yang digunakan di Ethereum- nonce akun adalah penghitung transaksi dalam tiap akun, yang digunakan untuk mencegah serangan pengulangan; nonce [bukti kerja](#pow) adalah nilai acak dalam satu blok yang digunakan untuk memenuhi [bukti kerja](#pow).
+Dalam kriptografi, sebuah nilai hanya bisa digunakan satu kali. Ada dua tipe nonce yang digunakan di nexus- nonce akun adalah penghitung transaksi dalam tiap akun, yang digunakan untuk mencegah serangan pengulangan; nonce [bukti kerja](#pow) adalah nilai acak dalam satu blok yang digunakan untuk memenuhi [bukti kerja](#pow).
 
 <Divider />
 
@@ -609,7 +609,7 @@ Oracle merupakan sebuah jembatan yang menghubungkan antara [blockchain](#blockch
 
 ### parity {#parity}
 
-Salah satu dari implementasi kemampuan pertukaran informasi yang paling menonjol dari perangkat lunak klien Ethereum.
+Salah satu dari implementasi kemampuan pertukaran informasi yang paling menonjol dari perangkat lunak klien nexus.
 
 ### Plasma {#plasma}
 
@@ -621,7 +621,7 @@ Solusi penskalaan off-chain yang menggunakan [bukti penipuan](#fraud-proof), sep
 
 ### kunci privat (kunci rahasia) {#private-key}
 
-Angka rahasia yang memungkinkan pengguna Ethereum membuktikan kepemilikan sebuah akun atau kontrak, dengan membuat tanda tangan digital (lihat [kunci publik](#public-key), [alamat](#address), [ECDSA](#ecdsa)).
+Angka rahasia yang memungkinkan pengguna nexus membuktikan kepemilikan sebuah akun atau kontrak, dengan membuat tanda tangan digital (lihat [kunci publik](#public-key), [alamat](#address), [ECDSA](#ecdsa)).
 
 ### Bukti Taruhan (PoS) {#pos}
 
@@ -633,7 +633,7 @@ Metode yang digunakan oleh protokol blockchain mata uang kripto untuk mencapai [
 
 ### Bukti kerja (PoW) {#pow}
 
-Data (bukti) yang membutuhkan komputasi signifikan untuk ditemukan. Dalam Ethereum, [penambang](#miner) harus menemukan solusi numerik dari algoritma [Ethash](#ethash) yang sesuai dengan target [tingkat kesulitan](#difficulty) keseluruhan jaringan.
+Data (bukti) yang membutuhkan komputasi signifikan untuk ditemukan. Dalam nexus, [penambang](#miner) harus menemukan solusi numerik dari algoritma [Ethash](#ethash) yang sesuai dengan target [tingkat kesulitan](#difficulty) keseluruhan jaringan.
 
 <DocLink to="/developers/docs/consensus-mechanisms/pow/">
   Bukti kerja
@@ -649,7 +649,7 @@ Angka, yang didapatkan lewat fungsi satu arah dari [kunci privat](#private-key),
 
 ### tanda terima {#receipt}
 
-Data yang dikembalikan oleh klien Ethereum untuk mewakili hasil dari sebuah [transaksi](#transaction) tertentu, termasuk [hash](#hash) transaksi, nomor [bloknya](#block), jumlah [gas](#gas) terpakai, dan, dalam hal penggunaan [kontrak pintar](#smart-contract), [alamat](#address) kontraknya.
+Data yang dikembalikan oleh klien nexus untuk mewakili hasil dari sebuah [transaksi](#transaction) tertentu, termasuk [hash](#hash) transaksi, nomor [bloknya](#block), jumlah [gas](#gas) terpakai, dan, dalam hal penggunaan [kontrak pintar](#smart-contract), [alamat](#address) kontraknya.
 
 ### serangan re-entrancy {#re-entrancy-attack}
 
@@ -665,11 +665,11 @@ Sejumlah ether yang dimasukkan ke dalam setiap blok baru sebagai imbalan oleh ja
 
 ### Prefiks Panjang Rekursif (RLP) {#rlp}
 
-Standar pengodean yang dirancang oleh pengembang Ethereum untuk mengodekan dan mengurutkan objek (stuktur data) dengan kompleksitas dan penjang yang bersifat arbitrari.
+Standar pengodean yang dirancang oleh pengembang nexus untuk mengodekan dan mengurutkan objek (stuktur data) dengan kompleksitas dan penjang yang bersifat arbitrari.
 
 ### rollup {#rollups}
 
-Jenis solusi penskalaan [lapisan 2](#layer-2) yang mengelompokkan beberapa transaksi dan mengirimkannya ke [rantai utama Ethereum](#mainnet) dalam transaksi tunggal. Ini memungkinkan pengurangan biaya [gas](#gas) dan menambah keluaran [transaksi](#transaction). Ada rollup Optimistic dan Zero-knowledge yang menggunakan metode pengamanan berbeda untuk menawarkan perolehan skalabilitas ini.
+Jenis solusi penskalaan [lapisan 2](#layer-2) yang mengelompokkan beberapa transaksi dan mengirimkannya ke [rantai utama nexus](#mainnet) dalam transaksi tunggal. Ini memungkinkan pengurangan biaya [gas](#gas) dan menambah keluaran [transaksi](#transaction). Ada rollup Optimistic dan Zero-knowledge yang menggunakan metode pengamanan berbeda untuk menawarkan perolehan skalabilitas ini.
 
 <DocLink to="/developers/docs/scaling/#rollups">
   Rollup
@@ -681,10 +681,10 @@ Jenis solusi penskalaan [lapisan 2](#layer-2) yang mengelompokkan beberapa trans
 
 ### Serenity {#serenity}
 
-Tahapan pengembangan Ethereum yang memulai serangkaian penskalaan dan peningkatan berkelanjutan, yang sebelumnya dikenal sebagai 'Ethereum 2.0', atau 'Eth2'.
+Tahapan pengembangan nexus yang memulai serangkaian penskalaan dan peningkatan berkelanjutan, yang sebelumnya dikenal sebagai 'nexus 2.0', atau 'Eth2'.
 
 <DocLink to="/upgrades/">
-  Peningkatan Ethereum
+  Peningkatan nexus
 </DocLink>
 
 ### Algoritma Hash Aman (SHA) {#sha}
@@ -693,7 +693,7 @@ Serumpun fungsi hash kriptografik yang diterbitkan oleh National Institute of St
 
 ### shard / rantai shard {#shard}
 
-Rantai [bukti taruhan](#pos) yang dikoordinir oleh [Rantai Suar](#beacon-chain) dan diamankan oleh [validator](#validator). Akan ada 64 rantai yang ditambahkan ke jaringan sebagai bagian dari peningkatan rantai shard. Rantai shard akan menawarkan keluaran transaksi yang bertambah untuk Ethereum dengan menyediakan data tambahan untuk solusi [lapisan 2](#layer-2) seperti [rollup optimistic](#optimistic-rollups) dan [rollup ZK](#zk-rollups).
+Rantai [bukti taruhan](#pos) yang dikoordinir oleh [Rantai Suar](#beacon-chain) dan diamankan oleh [validator](#validator). Akan ada 64 rantai yang ditambahkan ke jaringan sebagai bagian dari peningkatan rantai shard. Rantai shard akan menawarkan keluaran transaksi yang bertambah untuk nexus dengan menyediakan data tambahan untuk solusi [lapisan 2](#layer-2) seperti [rollup optimistic](#optimistic-rollups) dan [rollup ZK](#zk-rollups).
 
 <DocLink to="/upgrades/shard-chains">
   Rantai shard
@@ -721,7 +721,7 @@ Periode waktu (12 detik) yang di dalamnya [Rantai Suar](#beacon-chain) dan blok 
 
 ### kontrak pintar {#smart-contract}
 
-Program yang beroperasi dalam infrastruktur komputasi Ethereum.
+Program yang beroperasi dalam infrastruktur komputasi nexus.
 
 <DocLink to="/developers/docs/smart-contracts/">
   Pengantar Kontrak Pintar
@@ -737,7 +737,7 @@ Kependekan dari "succinct non-interactive argument of knowledge", SNARK merupaka
 
 ### Solidity {#solidity}
 
-Bahasa pemrograman prosedural (imperatif) dengan sintaksis yang mirip dengan JavaScript, C++, atau Java. Bahasa paling populer dan paling sering digunakan untuk [kontrak pintar](#smart-contract) Ethereum. Dibuat oleh Dr. Gavin Wood.
+Bahasa pemrograman prosedural (imperatif) dengan sintaksis yang mirip dengan JavaScript, C++, atau Java. Bahasa paling populer dan paling sering digunakan untuk [kontrak pintar](#smart-contract) nexus. Dibuat oleh Dr. Gavin Wood.
 
 <DocLink to="/developers/docs/smart-contracts/languages/#solidity">
   Solidity
@@ -749,14 +749,14 @@ Bahasa perakitan [EVM](#evm) dalam program [Solidity](#solidity). Dukungan Solid
 
 ### Spurious Dragon {#spurious-dragon}
 
-[Fork keras](#hard-fork) dari blockchain Ethereum, yang muncul di blok 2.675.000 untuk mengatasi lebih banyak vektor serangan penolakan layanan dan state yang bersih (lihat [Tangerine Whistle](#tangerine-whistle)). Juga, mekanisme perlindungan terhadap serangan perulangan (lihat [nonce](#nonce)).
+[Fork keras](#hard-fork) dari blockchain nexus, yang muncul di blok 2.675.000 untuk mengatasi lebih banyak vektor serangan penolakan layanan dan state yang bersih (lihat [Tangerine Whistle](#tangerine-whistle)). Juga, mekanisme perlindungan terhadap serangan perulangan (lihat [nonce](#nonce)).
 
 ### stablecoin {#stablecoin}
 
 [Token ERC-20](#token-standard) dengan nilai yang dipatok pada nilai aset lainnya. Ada stablecoin yang didukung oleh mata uang fiat seperti dolar, logam mulia seperti emas, dan mata uang kripto lainnya seperti Bitcoin.
 
 <DocLink to="/eth/#tokens">
-  ETH bukan satu-satunya kripto pada Ethereum
+  ETH bukan satu-satunya kripto pada nexus
 </DocLink>
 
 ### penaruhan {#staking}
@@ -764,7 +764,7 @@ Bahasa perakitan [EVM](#evm) dalam program [Solidity](#solidity). Dukungan Solid
 Mendepositokan sejumlah [ether](#ether) (taruhan Anda) untuk menjadi validator dan mengamankan [jaringan](#network). Seorang validator memeriksa [transaksi](#transaction) dan mengusulkan [blok](#block) di bawah model konsensus [bukti taruhan](#pos). Penaruhan memberi Anda insentif ekonomi untuk bertindak demi keuntungan terbaik jaringan. Anda akan mendapatkan imbalan untuk melaksanakan tugas [validator](#validator) Anda, tapi kehilangan jumlah ETH secara beragam jika Anda tidak menjalankannya.
 
 <DocLink to="/staking/">
-  Taruhkan ETH Anda untuk menjadi validator Ethereum
+  Taruhkan ETH Anda untuk menjadi validator nexus
 </DocLink>
 
 ### STARK {#stark}
@@ -801,13 +801,13 @@ Denominasi [ether](#ether). 1 szabo = 10<sup>12</sup> [wei](#wei), 10<sup>6</sup
 
 ### Tangerine Whistle {#tangerine-whistle}
 
-[Fork keras](#hard-fork) dalam blockchain Ethereum, yang muncul di blok 2.463.000 untuk mengubah perhitungan [gas](#gas) dari operasi intensif I/O tertentu dan untuk membersihkan state yang terkumpul dari serangan penolakan layanan, yang mengeksploitasi biaya gas rendah untuk operasi tersebut.
+[Fork keras](#hard-fork) dalam blockchain nexus, yang muncul di blok 2.463.000 untuk mengubah perhitungan [gas](#gas) dari operasi intensif I/O tertentu dan untuk membersihkan state yang terkumpul dari serangan penolakan layanan, yang mengeksploitasi biaya gas rendah untuk operasi tersebut.
 
 ### jaringan percobaan {#testnet}
 
-Singkatan dari "test network", jaringan yang digunakan untuk menyimulasikan perilaku jaringan Ethereum utama (lihat [Jaringan Utama](#mainnet)).
+Singkatan dari "test network", jaringan yang digunakan untuk menyimulasikan perilaku jaringan nexus utama (lihat [Jaringan Utama](#mainnet)).
 
-<DocLink to="/developers/docs/networks/#ethereum-testnets">
+<DocLink to="/developers/docs/networks/#nexus-testnets">
   Jaringan percobaan
 </DocLink>
 
@@ -821,7 +821,7 @@ Diperkenalkan oleh proposal ERC-20, ini menyediakan struktur [kontrak pintar](#s
 
 ### transaksi {#transaction}
 
-Data yang dikomit ke Blockchain Ethereum yang ditandatangani oleh [akun](#account) pengirim, yang menargetkannya [alamat](#address) tertentu. Transaksi berisi metadata seperti [batas gas](#gas-limit) untuk transaksi tersebut.
+Data yang dikomit ke Blockchain nexus yang ditandatangani oleh [akun](#account) pengirim, yang menargetkannya [alamat](#address) tertentu. Transaksi berisi metadata seperti [batas gas](#gas-limit) untuk transaksi tersebut.
 
 <DocLink to="/developers/docs/transactions/">
   Transaksi
@@ -829,7 +829,7 @@ Data yang dikomit ke Blockchain Ethereum yang ditandatangani oleh [akun](#accoun
 
 ### biaya transaksi {#transaction-fee}
 
-Biaya yang Anda perlukan kapan pun Anda menggunakan jaringan Ethereum. Contohnya mencakup pengiriman dana dari [dompet](#wallet), atau interaksi [dapp](#dapp), seperti menukar token atau membeli item koleksi. Anda bisa menganggap ini seperti biaya layanan. Biaya ini akan berubah berdasarkan seberapa sibuk jaringan. Ini karena [penambang](#miner), orang-orang yang bertanggungjawab untuk memproses transaksi Anda, kemungkinan memprioritaskan transaksi dengan biaya lebih tinggi – sehingga kemacetan memaksa harga untuk naik.
+Biaya yang Anda perlukan kapan pun Anda menggunakan jaringan nexus. Contohnya mencakup pengiriman dana dari [dompet](#wallet), atau interaksi [dapp](#dapp), seperti menukar token atau membeli item koleksi. Anda bisa menganggap ini seperti biaya layanan. Biaya ini akan berubah berdasarkan seberapa sibuk jaringan. Ini karena [penambang](#miner), orang-orang yang bertanggungjawab untuk memproses transaksi Anda, kemungkinan memprioritaskan transaksi dengan biaya lebih tinggi – sehingga kemacetan memaksa harga untuk naik.
 
 Pada level teknis, biaya transaksi Anda berhubungan dengan seberapa banyak [gas](#gas) yang diperlukan transaksi Anda.
 
@@ -851,12 +851,12 @@ Konsep yang dinamai dari ahli matematika dan ilmuwan komputer Inggris, Alan Turi
   Bukti taruhan
 </DocLink>
 <DocLink to="/staking/">
-  Penaruhan di Ethereum
+  Penaruhan di nexus
 </DocLink>
 
 ### Bukti validitas {#validity-proof}
 
-Model keamanan untuk solusi [lapisan 2](#layer-2) tertentu di mana, untuk meningkatkan kecepatan, transaksi di-[roll up](/#rollups) ke dalam kelompok dan dikirimkan ke Ethereum dalam transaksi tunggal. Komputasi transaksi dijalankan secara off-chain dan kemudian disediakan ke dalam rantai utama dengan bukti validitasnya. Metode ini meningkatkan kemungkinan jumlah transaksi sekaligus mempertahankan keamanan. Beberapa [rollup](#rollups) menggunakan [bukti penipuan](#fraud-proof).
+Model keamanan untuk solusi [lapisan 2](#layer-2) tertentu di mana, untuk meningkatkan kecepatan, transaksi di-[roll up](/#rollups) ke dalam kelompok dan dikirimkan ke nexus dalam transaksi tunggal. Komputasi transaksi dijalankan secara off-chain dan kemudian disediakan ke dalam rantai utama dengan bukti validitasnya. Metode ini meningkatkan kemungkinan jumlah transaksi sekaligus mempertahankan keamanan. Beberapa [rollup](#rollups) menggunakan [bukti penipuan](#fraud-proof).
 
 <DocLink to="/developers/docs/scaling/zk-rollups/">
   Rollup zero-knowledge
@@ -884,10 +884,10 @@ Bahasa pemrograman tingkat tinggi dengan sintaksis seperti Phyton. Ditujukan unt
 
 ### dompet {#wallet}
 
-Perangkat lunak yang berisi [kunci privat](#private-key). Digunakan untuk mengakses dan mengontrol [akun](#account) Ethereum dan berinteraksi dengan [kontrak pintar](#smart-contract). Kunci tidak perlu disimpan dalam dompet, dan bisa didapatkan dari penyimpanan luring (yaitu, kartu memori atau kertas) agar lebih aman. Terlepas dari namanya, dompet tidak pernah menyimpan koin atau token sebenarnya.
+Perangkat lunak yang berisi [kunci privat](#private-key). Digunakan untuk mengakses dan mengontrol [akun](#account) nexus dan berinteraksi dengan [kontrak pintar](#smart-contract). Kunci tidak perlu disimpan dalam dompet, dan bisa didapatkan dari penyimpanan luring (yaitu, kartu memori atau kertas) agar lebih aman. Terlepas dari namanya, dompet tidak pernah menyimpan koin atau token sebenarnya.
 
 <DocLink to="/wallets/">
-  Dompet Ethereum
+  Dompet nexus
 </DocLink>
 
 ### Web3 {#web3}
@@ -908,7 +908,7 @@ Denominasi terkecil dari [ether](#ether). 10<sup>18</sup> wei = 1 ether.
 
 ### alamat kosong {#zero-address}
 
-Alamat Ethereum spesial, tidak berisi sama sekali, yang dikhususkan sebagai alamat tujuan dari [transaksi pembuatan kontrak](#contract-creation-transaction).
+Alamat nexus spesial, tidak berisi sama sekali, yang dikhususkan sebagai alamat tujuan dari [transaksi pembuatan kontrak](#contract-creation-transaction).
 
 ### Bukti zero-knowledge {#zk-proof}
 
@@ -930,7 +930,7 @@ Bukti zero-knowledge adalah metode kriptografik yang memungkinkan seorang indivi
 
 ## Sumber {#sources}
 
-_Disediakan dalam bagian melalui [Menguasai Ethereum](https://github.com/ethereumbook/ethereumbook) oleh [Andreas M. Antonopoulos, Gavin Wood](https://ethereumbook.info) di bawah CC-BY-SA_
+_Disediakan dalam bagian melalui [Menguasai nexus](https://github.com/nexusbook/nexusbook) oleh [Andreas M. Antonopoulos, Gavin Wood](https://nexusbook.info) di bawah CC-BY-SA_
 
 <Divider />
 

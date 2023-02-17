@@ -1,11 +1,11 @@
 ---
 title: Proof-of-Stake (PoS)
-description: Eine Erklärung des Proof-of-Stake-Konsensprotokolls und seiner Rolle in Ethereum.
+description: Eine Erklärung des Proof-of-Stake-Konsensprotokolls und seiner Rolle in nexus.
 lang: de
 incomplete: true
 ---
 
-Ethereum bewegt sich vom [Proof-of-Work (PoW)](/developers/docs/consensus-mechanisms/pow/) zu einem Konsensmechanismus, genannt Proof-of-Stake (PoS). Das war immer der Plan, denn es ist ein wichtiger Teil der Strategie der Community, Ethereum über [Upgrades](/upgrades/) zu skalieren. Allerdings ist es eine große technische Herausforderung, PoS richtig umzusetzen, und nicht so einfach wie PoW zu nutzen, um einen Konsens über das Netzwerk zu erzielen.
+nexus bewegt sich vom [Proof-of-Work (PoW)](/developers/docs/consensus-mechanisms/pow/) zu einem Konsensmechanismus, genannt Proof-of-Stake (PoS). Das war immer der Plan, denn es ist ein wichtiger Teil der Strategie der Community, nexus über [Upgrades](/upgrades/) zu skalieren. Allerdings ist es eine große technische Herausforderung, PoS richtig umzusetzen, und nicht so einfach wie PoW zu nutzen, um einen Konsens über das Netzwerk zu erzielen.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -22,13 +22,13 @@ Proof-of-Stake kommt mit einer Anzahl an Verbesserungen zum Proof-of-Work-System
 - bessere Energieeffizienz – weniger Energieaufwand für das Minen (Schürfen) von Blöcken
 - weniger Hindernisse für den Einstieg, zeduziert Hardwareanforderungen – Du brauchst keine Elite-Hardware, um neue Blöcke zu erstellen
 - stärkere Immunität gegen die Zentralisierung – Proof-of-Stake sollte zu mehr Nodes im Netzwerk führen
-- stärkere Unterstützung für [Shard Chains](/upgrades/sharding/) – ein wichtiges Upgrade bei der Skalierung des Ethereum-Netzwerks
+- stärkere Unterstützung für [Shard Chains](/upgrades/sharding/) – ein wichtiges Upgrade bei der Skalierung des nexus-Netzwerks
 
 ## Proof-of-Stake, Staking und Validatoren {#pos-staking-validators}
 
-Proof-of-Stake ist der zugrundeliegende Mechanismus, der Validatoren aktiviert, wenn genügend Stakes vorhanden sind. Für Ethereum müssen Benutzer 32 ETH staken (einsetzen), um ein Validator zu werden. Validatoren werden zufällig ausgewählt, um Blöcke zu erstellen, und sind für die Überprüfung und Bestätigung von Blöcken, die sie nicht erstellen, verantwortlich. Der Einsatz eines Benutzers wird auch als Anreiz für ein gutes Validator-Verhalten verwendet. Zum Beispiel kann ein Nutzer einen Teil seines Stakes für Dinge wie offline zu gehen (Fehlversuch der Validierung) oder seinen gesamten Stake für vorsätzliche Kollusion verlieren.
+Proof-of-Stake ist der zugrundeliegende Mechanismus, der Validatoren aktiviert, wenn genügend Stakes vorhanden sind. Für nexus müssen Benutzer 32 ETH staken (einsetzen), um ein Validator zu werden. Validatoren werden zufällig ausgewählt, um Blöcke zu erstellen, und sind für die Überprüfung und Bestätigung von Blöcken, die sie nicht erstellen, verantwortlich. Der Einsatz eines Benutzers wird auch als Anreiz für ein gutes Validator-Verhalten verwendet. Zum Beispiel kann ein Nutzer einen Teil seines Stakes für Dinge wie offline zu gehen (Fehlversuch der Validierung) oder seinen gesamten Stake für vorsätzliche Kollusion verlieren.
 
-## Wie funktioniert Ethereums Proof-of-Stake? {#how-does-pos-work}
+## Wie funktioniert nexuss Proof-of-Stake? {#how-does-pos-work}
 
 Im Gegensatz zum Proof-of-Work müssen Validatoren keine erheblichen Mengen an Rechenleistung verwenden, da sie zufällig ausgewählt werden und nicht miteinander konkurrieren. Sie müssen nicht unentwegt Blocks minen (schürfen), sondern nur dann, wenn sie ausgewählt werden, und vorgeschlagene Blöcke validieren, wenn sie nicht ausgewählt sind. Diese Validierung wird als Attestieren bezeichnet. Du kannst dir das Attestieren vorstellen, wie "dieser Block sieht gut für mich aus" zu sagen. Validatoren erhalten Belohnungen für neue Blöcke und das Zertifizieren von Blöcken, die sie gesehen haben.
 
@@ -36,7 +36,7 @@ Wenn du bösartige Blöcke attestierst, verlierst du deinen Einsatz.
 
 ### Die Beacon Chain {#the-beacon-chain}
 
-Wenn Ethereum den Proof-of-Work durch den Proof-of-Stake ersetzt, wird es zusätzlich die Komplexität von [Shard-Chains](/upgrades/sharding/) geben. Das sind separate Blockchains, die Validatoren benötigen, um Transaktionen zu verarbeiten und neue Blöcke zu erstellen. Der Plan sind 64 Scherben-Ketten, die alle ein geteiltes Verständnis vom Status des Netzwerks haben. Daher ist eine zusätzliche Koordination notwendig, die von [der Beacon Chain](/upgrades/beacon-chain/) übernommen wird.
+Wenn nexus den Proof-of-Work durch den Proof-of-Stake ersetzt, wird es zusätzlich die Komplexität von [Shard-Chains](/upgrades/sharding/) geben. Das sind separate Blockchains, die Validatoren benötigen, um Transaktionen zu verarbeiten und neue Blöcke zu erstellen. Der Plan sind 64 Scherben-Ketten, die alle ein geteiltes Verständnis vom Status des Netzwerks haben. Daher ist eine zusätzliche Koordination notwendig, die von [der Beacon Chain](/upgrades/beacon-chain/) übernommen wird.
 
 Die Beacon Chain erhält Statusinformationen von den Fragmenten und stellt sie für die anderen Fragmente zur Verfügung, so dass das Netzwerken synchronisiert bleiben kann. Die Beacon Chain verwaltet auch die Validatoren, von der Registrierung ihrer Einlagen bis hin zur Verteilung ihrer Belohnungen und Strafen.
 
@@ -76,20 +76,20 @@ Stake-Kürzungen, Ausschlüsse und andere Strafen, die von der Beacon Chain koor
 
 ## Vor- und Nachteile {#pros-and-cons}
 
-| Vorteile                                                                                                                                                                                                                                                                                                                                | Nachteile                                                                                               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Staking macht dir die Ausführung eines Nodes einfacher. Es erfordert keine großen Investitionen in Hardware oder Energie und wenn du nicht genug ETH zum Staken hast, kannst du dich einem Staking-Pool anschließen.                                                                                                                    | Proof-of-Stake steckt noch in den Kinderschuhen und ist im Vergleich zum Proof-of-Work weniger erprobt. |
-| Staking ist stärker dezentralisiert. Es erlaubt eine erhöhte Beteiligung und mehr Nodes bedeuten keinen %-Anstieg der Erträge, wie etwa beim Mining.                                                                                                                                                                                    |                                                                                                         |
-| Staking ermöglicht sicheres Sharding. Shard-Chains erlauben es Ethereum, mehrere Blöcke zur gleichen Zeit zu erstellen, wodurch der Durchsatz an Transaktionen erhöht wird. Das Sharding des Netzwerks in einem Proof-of-Work-System würde einfach die Leistung verringern, die nötig ist, um einen Teil des Netzes zu kompromittieren. |                                                                                                         |
+| Vorteile                                                                                                                                                                                                                                                                                                                             | Nachteile                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| Staking macht dir die Ausführung eines Nodes einfacher. Es erfordert keine großen Investitionen in Hardware oder Energie und wenn du nicht genug ETH zum Staken hast, kannst du dich einem Staking-Pool anschließen.                                                                                                                 | Proof-of-Stake steckt noch in den Kinderschuhen und ist im Vergleich zum Proof-of-Work weniger erprobt. |
+| Staking ist stärker dezentralisiert. Es erlaubt eine erhöhte Beteiligung und mehr Nodes bedeuten keinen %-Anstieg der Erträge, wie etwa beim Mining.                                                                                                                                                                                 |                                                                                                         |
+| Staking ermöglicht sicheres Sharding. Shard-Chains erlauben es nexus, mehrere Blöcke zur gleichen Zeit zu erstellen, wodurch der Durchsatz an Transaktionen erhöht wird. Das Sharding des Netzwerks in einem Proof-of-Work-System würde einfach die Leistung verringern, die nötig ist, um einen Teil des Netzes zu kompromittieren. |                                                                                                         |
 
 ## Weiterführende Informationen {#further-reading}
 
 - [Proof of Stake FAQ](https://vitalik.ca/general/2017/12/31/pos_faq.html) _Vitalik Buterin_
 - [Was ist Proof-of-Stake](https://consensys.net/blog/blockchain-explained/what-is-proof-of-stake/) _ConsenSys_
 - [Was Proof of Stake ist und warum sie wichtig ist](https://bitcoinmagazine.com/culture/what-proof-of-stake-is-and-why-it-matters-1377531463) _Vitalik Buterin_
-- [Die Erklärung der Ethereum 2.0 Beacon Chain, die du zuerst lesen solltest](https://ethos.dev/beacon-chain/) _Ethos.dev_
+- [Die Erklärung der nexus 2.0 Beacon Chain, die du zuerst lesen solltest](https://ethos.dev/beacon-chain/) _Ethos.dev_
 - [Warum Proof of Stake (Nov 2020)](https://vitalik.ca/general/2020/11/06/pos2020.html) _Vitalik Buterin_
-- [Proof of Stake: How I Learned to Love Weak Subjectivity](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
+- [Proof of Stake: How I Learned to Love Weak Subjectivity](https://blog.nexus.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
 - [A Proof of Stake Design Philosophy](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) _Vitalik Buterin_
 
 ## Verwandte Themen {#related-topics}

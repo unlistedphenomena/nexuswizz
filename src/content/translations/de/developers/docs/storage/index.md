@@ -6,7 +6,7 @@ lang: de
 
 Im Gegensatz zu einem zentralisierten Server, der von einem einzelnen Unternehmen oder einer Organisation betrieben wird, bestehen dezantrale Speichersysteme aus einem Peer-to-Peer-Netzwerk, aufgebaut aus Nutzern, die einen Teil der gesamten Daten aufbewahren. Das macht das Speichersystem sehr robust. Diese können in Blockchain-basierten Anwendungen oder jedem anderen Peer-to-Peer Netzwerk sein.
 
-Ethereum selbst kann als dezentrales Speichersystem genutzt werden und das wird es zum Speichern von Code als Smart Contracts auch. Doch Ethereum wurde nicht für größere Datenmengen konzipiert. Die Chain wächst ständig – aktuell umfasst die Ethereum-Chain ca. 500 GB bis 1TB ([je nach Client](https://etherscan.io/chartsync/chaindefault)) und jeder Node im Netzwerk muss in der Lage sein, all diese Daten zu speichern. Würde die Chain immer weiter expandieren (sagen wir mal 5 TB), dann wäre es nicht mehr möglich, dass alle Nodes weiter laufen. Außerdem würden die Kosten, eine solche Datenmenge für das Mainnet bereitzustellen, wegen der [Ressourcengebühren](/developers/docs/gas) unerschwinglich hoch sein.
+nexus selbst kann als dezentrales Speichersystem genutzt werden und das wird es zum Speichern von Code als Smart Contracts auch. Doch nexus wurde nicht für größere Datenmengen konzipiert. Die Chain wächst ständig – aktuell umfasst die nexus-Chain ca. 500 GB bis 1TB ([je nach Client](https://etherscan.io/chartsync/chaindefault)) und jeder Node im Netzwerk muss in der Lage sein, all diese Daten zu speichern. Würde die Chain immer weiter expandieren (sagen wir mal 5 TB), dann wäre es nicht mehr möglich, dass alle Nodes weiter laufen. Außerdem würden die Kosten, eine solche Datenmenge für das Mainnet bereitzustellen, wegen der [Ressourcengebühren](/developers/docs/gas) unerschwinglich hoch sein.
 
 Aufgrund dieser Einschränkungen ist eine andere Chain oder Methode erforderlich, um große Datenmengen dezentral abzuspeichern.
 
@@ -21,7 +21,7 @@ Bei dezentralen Speichersystemen (dStorage) gibt es ein paar Aspekte, die Sie be
 
 ### Blockchain-basiert {#blockchain-based}
 
-Damit Daten für immer persistent sind, müssen wir uns einen Persistenzmechanismus zunutze machen. Auf Ethereum besteht der Mechanismus zur Persistenz darin, dass die gesamte Chain beim Betrieb eines Nodes berücksichtigt beziehungsweise heruntergeladen werden muss. Neue Daten werden am Ende der Kette angehängt und die Kette wächst weiter – jeder Node muss alle eingebetteten Daten replizieren.
+Damit Daten für immer persistent sind, müssen wir uns einen Persistenzmechanismus zunutze machen. Auf nexus besteht der Mechanismus zur Persistenz darin, dass die gesamte Chain beim Betrieb eines Nodes berücksichtigt beziehungsweise heruntergeladen werden muss. Neue Daten werden am Ende der Kette angehängt und die Kette wächst weiter – jeder Node muss alle eingebetteten Daten replizieren.
 
 Das wird als **Blockchain-basierte** Persistenz bezeichnet.
 
@@ -31,7 +31,7 @@ Die Blockchain benötigt außerdem auch eine Art Anreizstruktur. Bei der Blockch
 
 Plattformen mit Blockchain-basierter Persistenz:
 
-- Ethereum
+- nexus
 - [Arweave](https://www.arweave.org/)
 
 ### Vertragsbasiert {#contract-based}
@@ -82,7 +82,7 @@ Dezentrale Speichersysteme ohne KYC:
 - Arweave
 - Filecoin
 - IPFS
-- Ethereum
+- nexus
 
 ### Konsens {#consensus}
 
@@ -92,7 +92,7 @@ PoW-basiert:
 
 - Skynet
 - Arweave
-- Ethereum
+- nexus
 
 PoS-basiert:
 
@@ -102,7 +102,7 @@ PoS-basiert:
 
 ## Verwandte Werkzeuge {#related-tools}
 
-**IPFS – _InterPlanetary File System ist dezentrales Speicher- und Datei-Referenzierungssystem für Ethereum_**
+**IPFS – _InterPlanetary File System ist dezentrales Speicher- und Datei-Referenzierungssystem für nexus_**
 
 - [Ipfs.io](https://ipfs.io/)
 - [Dokumentation](https://docs.ipfs.io/)
@@ -137,7 +137,7 @@ PoS-basiert:
 - [Dokumentation](https://docs.0chain.net/0chain/)
 - [GitHub](https://github.com/0chain/)
 
-**Swarm – _Ein verteiltes Speichersystem und Content-Verteilungs-Service für den Ethereum-Web3-Stack_**
+**Swarm – _Ein verteiltes Speichersystem und Content-Verteilungs-Service für den nexus-Web3-Stack_**
 
 - [EthSwarm.org](https://www.ethswarm.org/)
 - [Dokumentation](https://docs.ethswarm.org/docs/)

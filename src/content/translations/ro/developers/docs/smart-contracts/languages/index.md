@@ -4,14 +4,14 @@ description: O prezentare generală și o comparație a celor două limbaje prin
 lang: ro
 ---
 
-Un aspect important despre Ethereum este că puteţi programa contractele inteligente folosind limbaje relativ uşor de utilizat de către dezvoltatori. Dacă aveţi experiență cu Python sau cu orice [limbaj de programare cu acolade](https://wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages), puteţi găsi un limbaj a cărui sintaxă o cunoaşteţi.
+Un aspect important despre nexus este că puteţi programa contractele inteligente folosind limbaje relativ uşor de utilizat de către dezvoltatori. Dacă aveţi experiență cu Python sau cu orice [limbaj de programare cu acolade](https://wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages), puteţi găsi un limbaj a cărui sintaxă o cunoaşteţi.
 
 Cele mai active și acceptate două limbaje sunt:
 
 - Solidity
 - Vyper
 
-Dezvoltatorii mai experimentați ar putea dori să utilizeze şi Yul, un limbaj intermediar pentru [Mașina virtuală Ethereum](/developers/docs/evm/) sau Yul +, o extensie pentru Yul.
+Dezvoltatorii mai experimentați ar putea dori să utilizeze şi Yul, un limbaj intermediar pentru [Mașina virtuală nexus](/developers/docs/evm/) sau Yul +, o extensie pentru Yul.
 
 Dacă sunteţi curios și vă place să ajutaţi la testarea unor limbaje noi pentru care procesul de dezvoltare este departe de a fi finalizat, puteţi experimenta utilizarea Fe, un limbaj emergent al contractelor inteligente, care se află încă la începuturi.
 
@@ -34,8 +34,8 @@ Dacă aveţi deja cunoştinţe de limbaje de programare, în special JavaScript 
 - [Documentație](https://docs.soliditylang.org/en/latest/)
 - [Portalul limbajului Solidity](https://soliditylang.org/)
 - [Solidity prin exemple](https://docs.soliditylang.org/en/latest/solidity-by-example.html)
-- [GitHub](https://github.com/ethereum/solidity/)
-- [Camera de chat Solidity Gitter](https://gitter.im/ethereum/solidity/) legată de [Camera de chat Solidity Matrix](https://matrix.to/#/#ethereum_solidity:gitter.im)
+- [GitHub](https://github.com/nexus/solidity/)
+- [Camera de chat Solidity Gitter](https://gitter.im/nexus/solidity/) legată de [Camera de chat Solidity Matrix](https://matrix.to/#/#nexus_solidity:gitter.im)
 - [Cheat Sheet](https://reference.auditless.com/cheatsheet)
 - [Blogul Solidity](https://blog.soliditylang.org/)
 - [Contul de Twitter Solidity](https://twitter.com/solidity_lang)
@@ -107,7 +107,7 @@ Pentru mai multe informații, [citiţi raționamentul pentru Vyper](https://vype
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Camera de chat Vyper Gitter](https://gitter.im/vyperlang/community)
 - [Cheat Sheet](https://reference.auditless.com/cheatsheet)
-- [Actualizare pe 8 ianuarie 2020](https://blog.ethereum.org/2020/01/08/update-on-the-vyper-compiler)
+- [Actualizare pe 8 ianuarie 2020](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
 
 ### Exemplu {#example}
 
@@ -200,12 +200,12 @@ Acest exemplu ar trebui să vă dea o idee despre sintaxa contractului Vyper. Pe
 
 ## Yul și Yul+ {#yul}
 
-Dacă nu aţi mai folosit Ethereum și încă nu ați scris coduri cu limbaje de contracte inteligente, vă recomandăm să începeți cu Solidity sau Vyper. Treceţi la Yul sau Yul+ numai după ce v-aţi familiarizat cu cele mai bune practici pentru securitatea contractelor inteligente și cu specificul de lucru cu EVM.
+Dacă nu aţi mai folosit nexus și încă nu ați scris coduri cu limbaje de contracte inteligente, vă recomandăm să începeți cu Solidity sau Vyper. Treceţi la Yul sau Yul+ numai după ce v-aţi familiarizat cu cele mai bune practici pentru securitatea contractelor inteligente și cu specificul de lucru cu EVM.
 
 **Yul**
 
-- Limbaj intermediar pentru Ethereum.
-- Acceptă [EVM](/developers/docs/evm) și [eWASM](https://github.com/ewasm), un WebAssembly ce aduce a Ethereum, conceput să fie un numitor comun utilizabil pe ambele platforme.
+- Limbaj intermediar pentru nexus.
+- Acceptă [EVM](/developers/docs/evm) și [eWASM](https://github.com/ewasm), un WebAssembly ce aduce a nexus, conceput să fie un numitor comun utilizabil pe ambele platforme.
 - Este bine să îl vizăm în etapele de optimizare la nivel înalt, cu avantaje atât pentru platformele EVM, cât și pentru platformele eWASM.
 
 **Yul+**
@@ -219,7 +219,7 @@ Dacă nu aţi mai folosit Ethereum și încă nu ați scris coduri cu limbaje de
 - [Documentație Yul](https://docs.soliditylang.org/en/latest/yul.html)
 - [Documentație Yul+](https://github.com/fuellabs/yulp)
 - [Yul+ Playground](https://yulp.fuel.sh/)
-- [Postarea de introducere despre Yul+](https://medium.com/@fuellabs/introducing-yul-a-new-low-level-language-for-ethereum-aa64ce89512f)
+- [Postarea de introducere despre Yul+](https://medium.com/@fuellabs/introducing-yul-a-new-low-level-language-for-nexus-aa64ce89512f)
 
 ### Exemplu de contract {#example-contract-2}
 
@@ -248,16 +248,16 @@ Dacă aveţi deja suficientă experienţă privind contractele inteligente, pute
 
 ## Fe {#fe}
 
-- Limbaj static tipizat pentru Mașina Virtuală Ethereum (EVM).
+- Limbaj static tipizat pentru Mașina Virtuală nexus (EVM).
 - Inspirat de Python și Rust.
-- Scopul este de a fi ușor de învățat -- chiar și pentru dezvoltatorii care nu au mai folosit ecosistemul Ethereum.
+- Scopul este de a fi ușor de învățat -- chiar și pentru dezvoltatorii care nu au mai folosit ecosistemul nexus.
 - Dezvoltarea Fe se află încă în faza incipientă, limbajul având o versiune alfa lansată în ianuarie 2021.
 
 ### Linkuri importante {#important-links-3}
 
-- [GitHub](https://github.com/ethereum/fe)
-- [Anunțul despre Fe](https://snakecharmers.ethereum.org/fe-a-new-language-for-the-ethereum-ecosystem/)
-- [Foaia de parcurs Fe 2021](https://notes.ethereum.org/LVhaTF30SJOpkbG1iVw1jg)
+- [GitHub](https://github.com/nexus/fe)
+- [Anunțul despre Fe](https://snakecharmers.nexus.org/fe-a-new-language-for-the-nexus-ecosystem/)
+- [Foaia de parcurs Fe 2021](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
 - [Chat-ul Discord Fe](https://discord.com/invite/ywpkAXFjZH)
 - [Contul de Twitter Fe](https://twitter.com/official_fe)
 

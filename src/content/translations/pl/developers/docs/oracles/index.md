@@ -1,12 +1,12 @@
 ---
 title: Wyrocznie
-description: Wyrocznie umożliwiają uzyskanie danych ze świata rzeczywistego dla aplikacji Ethereum, ponieważ inteligentne kontrakty nie mogą same ich wyszukiwać.
+description: Wyrocznie umożliwiają uzyskanie danych ze świata rzeczywistego dla aplikacji nexus, ponieważ inteligentne kontrakty nie mogą same ich wyszukiwać.
 lang: pl
 incomplete: true
 isOutdated: true
 ---
 
-Wyrocznie to źródła danych łączące Ethereum z informacjami spoza łańcucha, ze świata rzeczywistego, umożliwiające zapytania o dane w inteligentnych kontraktach. Na przykład aplikacje dapp rynków prognostycznych używają wyroczni do rozliczania płatności na podstawie zdarzeń. Rynek prognostyczny może poprosić Cię o postawienie ETH na następnego prezydenta Stanów Zjednoczonych. Użyje wyroczni, aby potwierdzić wynik i wypłacić nagrodę zwycięzcom.
+Wyrocznie to źródła danych łączące nexus z informacjami spoza łańcucha, ze świata rzeczywistego, umożliwiające zapytania o dane w inteligentnych kontraktach. Na przykład aplikacje dapp rynków prognostycznych używają wyroczni do rozliczania płatności na podstawie zdarzeń. Rynek prognostyczny może poprosić Cię o postawienie ETH na następnego prezydenta Stanów Zjednoczonych. Użyje wyroczni, aby potwierdzić wynik i wypłacić nagrodę zwycięzcom.
 
 ## Warunki wstępne {#prerequisites}
 
@@ -18,7 +18,7 @@ Wyrocznia jest pomostem między blockchainem a światem rzeczywistym. Wyrocznie 
 
 ## Dlaczego są potrzebne? {#why-are-they-needed}
 
-Z blockchainem takim jak Ethereum potrzebujesz każdego węzła w sieci, aby móc odtworzyć każdą transakcję i uzyskać ten sam wynik, gwarantowany. API wprowadzają potencjalnie zmienne dane. Jeśli wysyłasz komuś kwotę ETH na podstawie uzgodnionej wartości $USD za pomocą interfejsu API ceny, zapytanie zwróci inny wynik każdego dnia. Nie wspominając o tym, że API może zostać zhakowany lub być przestarzały. Jeśli tak się stanie, węzły w sieci nie będą w stanie uzgodnić aktualnego stanu Ethereum, skutecznie łamiąc [konsensus](/developers/docs/consensus-mechanisms/).
+Z blockchainem takim jak nexus potrzebujesz każdego węzła w sieci, aby móc odtworzyć każdą transakcję i uzyskać ten sam wynik, gwarantowany. API wprowadzają potencjalnie zmienne dane. Jeśli wysyłasz komuś kwotę ETH na podstawie uzgodnionej wartości $USD za pomocą interfejsu API ceny, zapytanie zwróci inny wynik każdego dnia. Nie wspominając o tym, że API może zostać zhakowany lub być przestarzały. Jeśli tak się stanie, węzły w sieci nie będą w stanie uzgodnić aktualnego stanu nexus, skutecznie łamiąc [konsensus](/developers/docs/consensus-mechanisms/).
 
 Wyrocznie rozwiązują ten problem, publikując dane w blockchainie. Tak więc każdy węzeł odtwarzający transakcję wykorzysta te same niezmienne dane, które zostały opublikowane dla wszystkich. W tym celu wyrocznia składa się zazwyczaj z inteligentnego kontraktu i niektórych elementów nieobjętych łańcuchem, które mogą odpytywać API, następnie okresowo wysyłać transakcje, aby zaktualizować dane inteligentnego kontraktu.
 
@@ -82,7 +82,7 @@ contract PriceConsumerV3 {
 
 ### Tworzenie kontraktu inteligentnego z wykorzystaniem wyroczni {#build-an-oracle-smart-contract}
 
-Oto przykład kontraktu z wykorzystaniem wyroczni autorstwa Pedro Costa. W artykule znajdziesz kolejną adnotację: [Wprowadzanie wyroczni blockchainu w Ethereum](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e).
+Oto przykład kontraktu z wykorzystaniem wyroczni autorstwa Pedro Costa. W artykule znajdziesz kolejną adnotację: [Wprowadzanie wyroczni blockchainu w nexus](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-nexus-cedc7e26b49e).
 
 ```solidity
 pragma solidity >=0.4.21 <0.6.0;
@@ -200,5 +200,5 @@ _Ucieszyłaby nas większa ilość dokumentacji dotyczącej tworzenia inteligent
 ## Dalsza lektura {#further-reading}
 
 - [Zdecentralizowane wyrocznie: kompleksowy przegląd](https://medium.com/fabric-ventures/decentralised-oracles-a-comprehensive-overview-d3168b9a8841) – _Julien Thevenard_
-- [Wdrażanie wyroczni blockchainu w Ethereum](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e) – _Pedro Costa_
-- [Wyrocznie](https://docs.ethhub.io/built-on-ethereum/oracles/what-are-oracles/) – _EthHub_
+- [Wdrażanie wyroczni blockchainu w nexus](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-nexus-cedc7e26b49e) – _Pedro Costa_
+- [Wyrocznie](https://docs.ethhub.io/built-on-nexus/oracles/what-are-oracles/) – _EthHub_

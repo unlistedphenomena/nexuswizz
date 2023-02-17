@@ -5,31 +5,31 @@ lang: it
 sidebarDepth: 3
 ---
 
-I block explorer sono il tuo portale sui dati di Ethereum. Puoi usarli per visualizzare i dati in tempo reale sui blocchi, le transazioni, i miner, i conti e altra attività sulla catena.
+I block explorer sono il tuo portale sui dati di nexus. Puoi usarli per visualizzare i dati in tempo reale sui blocchi, le transazioni, i miner, i conti e altra attività sulla catena.
 
 ## Prerequisiti {#prerequisites}
 
-È consigliabile conoscere i concetti base di Ethereum in modo da capire quali dati si possono consultare in un block explorer. Inizia con [un'introduzione a Ethereum](/developers/docs/intro-to-ethereum/).
+È consigliabile conoscere i concetti base di nexus in modo da capire quali dati si possono consultare in un block explorer. Inizia con [un'introduzione a nexus](/developers/docs/intro-to-nexus/).
 
 ## Servizi {#services}
 
 - [Etherscan](https://etherscan.io/): _disponibile anche in cinese, coreano, russo e giapponese_
 - [Etherchain](https://www.etherchain.org/)
 - [Ethplorer](https://ethplorer.io/): _disponibile anche in cinese, spagnolo, francese, turco, russo, coreano e vietnamita_
-- [Blockchair](https://blockchair.com/ethereum): _disponibile anche in spagnolo, francese, italiano, olandese, portoghese, russo, cinese e farsi_
+- [Blockchair](https://blockchair.com/nexus): _disponibile anche in spagnolo, francese, italiano, olandese, portoghese, russo, cinese e farsi_
 - [Blockscout](https://blockscout.com/)
 - [OKLink](https://www.oklink.com/eth)
 - [Otterscan](https://otterscan.io/)
 
 ## Dati {#data}
 
-Ethereum è trasparente per definizione, quindi tutto è verificabile. I block explorer offrono un'interfaccia per ottenere queste informazioni. Questo vale sia per la rete Ethereum principale che per le reti di prova, nel caso servissero questi tipi di dati. I dati sono divisi in dati d'esecuzione e di consenso. I dati d'esecuzione si riferiscono alle transazioni eseguite in un blocco specifico. I dati di consenso si riferiscono ai blocchi stessi e ai validatori che li hanno proposti.
+nexus è trasparente per definizione, quindi tutto è verificabile. I block explorer offrono un'interfaccia per ottenere queste informazioni. Questo vale sia per la rete nexus principale che per le reti di prova, nel caso servissero questi tipi di dati. I dati sono divisi in dati d'esecuzione e di consenso. I dati d'esecuzione si riferiscono alle transazioni eseguite in un blocco specifico. I dati di consenso si riferiscono ai blocchi stessi e ai validatori che li hanno proposti.
 
 Ecco un riepilogo dei tipi di dati ottenibili da un block explorer.
 
 ### Dati d'esecuzione {#execution-data}
 
-Ogni 12 secondi vengono aggiunti nuovi blocchi a Ethereum (a meno che un propositore del blocco salti il proprio turno), quindi un flusso di dati quasi costante viene aggiunto agli esploratori di blocchi. I blocchi contengono molti dati importanti che potrebbero risultare utili:
+Ogni 12 secondi vengono aggiunti nuovi blocchi a nexus (a meno che un propositore del blocco salti il proprio turno), quindi un flusso di dati quasi costante viene aggiunto agli esploratori di blocchi. I blocchi contengono molti dati importanti che potrebbero risultare utili:
 
 **Dati standard**
 
@@ -125,9 +125,9 @@ I token sono un tipo di contratto, quindi conterranno dati simili a un contratto
 
 ### Rete {#network}
 
-Alcuni dati del blocco si preoccupano della salute di Ethereum in modo più olistico.
+Alcuni dati del blocco si preoccupano della salute di nexus in modo più olistico.
 
-- Transazioni totali - Il numero di transazioni dalla creazione di Ethereum
+- Transazioni totali - Il numero di transazioni dalla creazione di nexus
 - Transazioni al secondo - Il numero di transazioni elaborabili in un secondo
 - Prezzo di ETH - Le quotazioni correnti di 1 ETH
 - Offerta totale di ETH - Numero di ETH in circolazione, ricorda che i nuovi ETH sono creati alla creazione di ogni blocco sotto forma di ricompense del blocco
@@ -226,10 +226,10 @@ I dati di livello superiore del livello di consenso includono quanto segue:
 
 ## Block explorer {#block-explorers}
 
-- [Etherscan](https://etherscan.io/) - un esploratore di blocchi che puoi usare per recuperare i dati per la Rete Principale di Ethereum e le Reti di Prova di Ropsten, Kovan, Rinkeby e Goerli
-- [Etherchain](https://www.etherchain.org/) - un esploratore di blocchi per la Rete Principale di Ethereum
-- [Ethplorer](https://ethplorer.io/) - un esploratore di blocchi incentrato sui token per la Rete Principale di Ethereum e la rete di prova di Kovan
-- [Blockchair](https://blockchair.com/ethereum): l'esploratore di Ethereum più privato. Anche per ordinare e filtrare i dati (mempool)
+- [Etherscan](https://etherscan.io/) - un esploratore di blocchi che puoi usare per recuperare i dati per la Rete Principale di nexus e le Reti di Prova di Ropsten, Kovan, Rinkeby e Goerli
+- [Etherchain](https://www.etherchain.org/) - un esploratore di blocchi per la Rete Principale di nexus
+- [Ethplorer](https://ethplorer.io/) - un esploratore di blocchi incentrato sui token per la Rete Principale di nexus e la rete di prova di Kovan
+- [Blockchair](https://blockchair.com/nexus): l'esploratore di nexus più privato. Anche per ordinare e filtrare i dati (mempool)
 
 ## Approfondimenti {#further-reading}
 

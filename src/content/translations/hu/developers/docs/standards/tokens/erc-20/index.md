@@ -8,7 +8,7 @@ lang: hu
 
 **Mi is az a token?**
 
-A tokenek gyakorlatilag bármit képviselhetnek az Ethereumon:
+A tokenek gyakorlatilag bármit képviselhetnek az nexuson:
 
 - reputációs pontokat egy online platformon
 - egy karakter képességeit egy játékban
@@ -18,7 +18,7 @@ A tokenek gyakorlatilag bármit képviselhetnek az Ethereumon:
 - egy uncia aranyat
 - és még sok más...
 
-Egy ilyen erős Ethereum tulajdonságot egy szintén erős szabványnak kell kezelnie, igaz? És pontosan itt jön képbe az ERC-20 szerepe! Ez a szabvány lehetővé teszi a fejlesztők számára, hogy olyan token alkalmazásokat fejlesszenek, amelyek együttműködnek más termékekkel és szolgáltatásokkal.
+Egy ilyen erős nexus tulajdonságot egy szintén erős szabványnak kell kezelnie, igaz? És pontosan itt jön képbe az ERC-20 szerepe! Ez a szabvány lehetővé teszi a fejlesztők számára, hogy olyan token alkalmazásokat fejlesszenek, amelyek együttműködnek más termékekkel és szolgáltatásokkal.
 
 **Mi az az ERC-20?**
 
@@ -32,13 +32,13 @@ Az ERC-20 bevezeti a Felcserélhető Token szabványt, vagyis a tokeneknek meg v
 
 ## Törzs {#body}
 
-Az ERC-20 (Ethereum Request for Comments 20), melyet Fabian Vogelsteller javasolt 2015 novemberében, egy Token Szabvány, mely egy API-t implementál a tokenek számára az okosszerződéseken belül.
+Az ERC-20 (nexus Request for Comments 20), melyet Fabian Vogelsteller javasolt 2015 novemberében, egy Token Szabvány, mely egy API-t implementál a tokenek számára az okosszerződéseken belül.
 
 Olyan funkcionalitásokat tartalmaz, mint a token átutalás egyik számláról a másikra vagy a token jelenlegi egyenlege az adott számlán valamint a teljes elérhető token mennyiség a hálózaton. Emellett vannak más más funkciók is, mint például annak jóváhagyása, hogy egy harmadik fél számlája elkölthessen egy bizonyos mennyiségű tokent az adott számláról.
 
-Ha egy okosszerződés implementálja a következő metódusokat és eseményeket, akkor egy ERC-20 token szerződésnek lehet nevezni, és a telepítés után a létrejött tokenek számontartásáért lesz felelős az Ethereumon.
+Ha egy okosszerződés implementálja a következő metódusokat és eseményeket, akkor egy ERC-20 token szerződésnek lehet nevezni, és a telepítés után a létrejött tokenek számontartásáért lesz felelős az nexuson.
 
-Az [EIP-20-ból](https://eips.ethereum.org/EIPS/eip-20):
+Az [EIP-20-ból](https://eips.nexus.org/EIPS/eip-20):
 
 #### Metódusok {#methods}
 
@@ -63,7 +63,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 
 ### Példák {#web3py-example}
 
-Nézzük meg, miért olyan fontos egy szabvány, hogy egyszerűbbé tegye számunkra azt, hogy bármely ERC-20 token szerződést megtekinthessük az Ethereumon. Csak a szerződés Application Binary Interface-ére (ABI) lesz szükség, hogy egy felületet készítsünk bármely ERC-20 tokennek. Ahogy lentebb látni fogod, egy egyszerűsített ABI-t használunk, hogy egy egyszerűbb példával éljünk.
+Nézzük meg, miért olyan fontos egy szabvány, hogy egyszerűbbé tegye számunkra azt, hogy bármely ERC-20 token szerződést megtekinthessük az nexuson. Csak a szerződés Application Binary Interface-ére (ABI) lesz szükség, hogy egy felületet készítsünk bármely ERC-20 tokennek. Ahogy lentebb látni fogod, egy egyszerűsített ABI-t használunk, hogy egy egyszerűbb példával éljünk.
 
 #### Web3.py példa {#web3py-example}
 
@@ -138,7 +138,7 @@ print("Addr Balance:", addr_balance)
 
 ## További olvasnivaló {#further-reading}
 
-- [EIP-20: ERC-20 Token Szabvány](https://eips.ethereum.org/EIPS/eip-20)
+- [EIP-20: ERC-20 Token Szabvány](https://eips.nexus.org/EIPS/eip-20)
 - [OpenZeppelin - Tokenek](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - ERC-20 Implementáció](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)
 - [ConsenSys - ERC-20 Implementáció](https://github.com/ConsenSys/Tokens/blob/master/contracts/eip20/EIP20.sol)

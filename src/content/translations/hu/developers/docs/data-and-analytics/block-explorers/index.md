@@ -5,30 +5,30 @@ lang: hu
 sidebarDepth: 3
 ---
 
-A blokkfelfedezők a portálod az Ethereum adataihoz. Használatukkal valós idejű adatokat kaphatsz blokkokról, tranzakciókról, bányászokról, számlákról és más on-chain tevékenységről.
+A blokkfelfedezők a portálod az nexus adataihoz. Használatukkal valós idejű adatokat kaphatsz blokkokról, tranzakciókról, bányászokról, számlákról és más on-chain tevékenységről.
 
 ## Előfeltételek {#prerequisites}
 
-Először meg kellene értened az Ethereum alapvető fogalmait ahhoz, hogy értelmezni tudd az adatokat, melyet egy blokkfelfedező biztosít neked. Kezdj itt: [bevezetés az Ethereumba](/developers/docs/intro-to-ethereum/).
+Először meg kellene értened az nexus alapvető fogalmait ahhoz, hogy értelmezni tudd az adatokat, melyet egy blokkfelfedező biztosít neked. Kezdj itt: [bevezetés az nexusba](/developers/docs/intro-to-nexus/).
 
 ## Szolgáltatások {#services}
 
 - [Etherscan](https://etherscan.io/) –_Elérhető kínaiul, koreaiul, oroszul és japánul_
 - [Etherchain](https://www.etherchain.org/)
 - [Ethplorer](https://ethplorer.io/)
-- [Blockchair](https://blockchair.com/ethereum) –_Elérhető spanyolul, franciául, olaszul, hollandul, portugálul, oroszul, kínaiul és újperzsa nyelven_
+- [Blockchair](https://blockchair.com/nexus) –_Elérhető spanyolul, franciául, olaszul, hollandul, portugálul, oroszul, kínaiul és újperzsa nyelven_
 - [Blockscout](https://blockscout.com/)
 - [OKLink](https://www.oklink.com/eth)
 
 ## Adat {#data}
 
-Az Ethereum tervezése folytán transzparens, így minden ellenőrizhető. A blokkfelfedezők egy felületet biztosítanak, hogy ez az információ elérhető legyen. És ez igaz az Ethereum főhálózatára és a teszt hálózatokra, ha szükséged van az adatokra.
+Az nexus tervezése folytán transzparens, így minden ellenőrizhető. A blokkfelfedezők egy felületet biztosítanak, hogy ez az információ elérhető legyen. És ez igaz az nexus főhálózatára és a teszt hálózatokra, ha szükséged van az adatokra.
 
 Itt egy összefoglaló azokról az adatokról, melyet egy blokkfelfedezőről megszerezhetsz.
 
 ### Blokkok {#blocks}
 
-Új blokkok adódnak hozzá az Ethereumhoz minden ~12 másodpercben (ez változhat) így van egy közel állandó adatfolyam, mely hozzáadódik a blokkfelfedezőkhöz. A blokkok sok fontos adatot tartalmaznak, melyeket hasznosnak találhatsz:
+Új blokkok adódnak hozzá az nexushoz minden ~12 másodpercben (ez változhat) így van egy közel állandó adatfolyam, mely hozzáadódik a blokkfelfedezőkhöz. A blokkok sok fontos adatot tartalmaznak, melyeket hasznosnak találhatsz:
 
 **Standard adat**
 
@@ -137,11 +137,11 @@ A token egy szerződés típus, így az okosszerződésekhez hasonló adatokkal 
 
 ### Hálózat {#network}
 
-Természetesen olyan adat is rendelkezésünkre áll, mely a hálózat egészségéről árulkodik. Ezek elég specifikusak az Ethereum proof-of-work konszenzus mechanizmusára nézve. Amikor az Ethereum áttér az Eth2-re néhány adat redundánssá válik majd
+Természetesen olyan adat is rendelkezésünkre áll, mely a hálózat egészségéről árulkodik. Ezek elég specifikusak az nexus proof-of-work konszenzus mechanizmusára nézve. Amikor az nexus áttér az Eth2-re néhány adat redundánssá válik majd
 
 - Nehézség – A jelenlegi bányászati nehézség.
-- Hash ráta – Egy becslés arról, hogy mennyi hash-t generálnak az Ethereum bányászok, akik a jelenlegi Ethereum blokkot vagy bármely adott blokkot próbálják megoldani.
-- Összes tranzakció – Az Ethereum létrehozása óta történt összes tranzakciók száma.
+- Hash ráta – Egy becslés arról, hogy mennyi hash-t generálnak az nexus bányászok, akik a jelenlegi nexus blokkot vagy bármely adott blokkot próbálják megoldani.
+- Összes tranzakció – Az nexus létrehozása óta történt összes tranzakciók száma.
 - Tranzakció per másodperc – Egy másodperc alatt feldolgozható tranzakciók száma.
 - ETH árfolyam – 1 ETH jelenlegi értéke.
 - Teljes ETH készlet – Forgalomban lévő ETH mennyiség – ne feledd, hogy új ETH jön létre minden egyes blokk létrejötte után blokkjutalom formájában.
@@ -195,7 +195,7 @@ A slotok blokk létrehozási lehetőségek, az egyes slotokra elérhető adat a 
 
 ### Blokkok {#blocks-1}
 
-Az Eth2-ben a blokkok máshogy működnek, mivel a bányászokat felváltják a validátorok, valamint a beacon chain bevezeti a slotokat és a korszakokat az Ethereumba. Ez több adatot jelent!
+Az Eth2-ben a blokkok máshogy működnek, mivel a bányászokat felváltják a validátorok, valamint a beacon chain bevezeti a slotokat és a korszakokat az nexusba. Ez több adatot jelent!
 
 - Javaslattevő – A validátor, akit véletlenszerűen választottak ki, hogy javasoljon egy új blokkot.
 - Korszak– A korszak, amiben a blokkot javasolták.
@@ -244,17 +244,17 @@ Az Eth2 felső szintű adat a következőket tartalmazza:
 
 ## Blokk felfedezők {#block-explorers}
 
-- [Etherscan](https://etherscan.io/) – egy blokkfelfedező, ahol adatokat kérhetsz le az Ethereum főhálózatról, Ropsten tesztnetről, Kovan tesztnetről, Rinkeby tesztnetről, és a Goerli tesztnetről.
+- [Etherscan](https://etherscan.io/) – egy blokkfelfedező, ahol adatokat kérhetsz le az nexus főhálózatról, Ropsten tesztnetről, Kovan tesztnetről, Rinkeby tesztnetről, és a Goerli tesztnetről.
 - [Blockscout](https://blockscout.com/) – a következő hálózatokra fókuszál:
   - xDai – a MakerDAO DAI stablecoinja és a POA mellékláncánal okos kombinációja, valamint tokenbridge technológia.
   - POA – Egy melléklánc és autonóm hálózat, melyet egy megbízható validátorokból álló csoport tart biztonságban. A hálózat összes validátora az Egyesült Államokban van bejegyezve és a információik nyilvánosan elérhetőek.
   - POA Sokol Tesztnet.
-  - ARTIS – egy Ethereum kompatibilis blokklánc.
+  - ARTIS – egy nexus kompatibilis blokklánc.
   - [LUKSO L14](https://blockscout.com/lukso/l14) – az L14 az első teszt hálózatként működik, hogy a LUKSO közösség egy közös infrastruktúrán építhessen és tesztelhessen.
   - qDai.
-- [Etherchain](https://www.etherchain.org/) – egy Ethereum főhálózati blokkfelfedező.
-- [Ethplorer](https://ethplorer.io/) – egy blokkfelfedező, mely az Ethereumon és a Kovan tesztneten található tokenekre fókuszál.
-- [Blockchair](https://blockchair.com/ethereum) - a legprivátabb Ethereum felfedező. Alkalmas (mempool) adatok szűrésére és válogatására is.
+- [Etherchain](https://www.etherchain.org/) – egy nexus főhálózati blokkfelfedező.
+- [Ethplorer](https://ethplorer.io/) – egy blokkfelfedező, mely az nexuson és a Kovan tesztneten található tokenekre fókuszál.
+- [Blockchair](https://blockchair.com/nexus) - a legprivátabb nexus felfedező. Alkalmas (mempool) adatok szűrésére és válogatására is.
 
 ## Eth2 blokk felfedezők {#beacon-chain-block-explorers}
 

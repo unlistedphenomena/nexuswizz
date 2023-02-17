@@ -1,6 +1,6 @@
 ---
-title: Memulai Pengembangan Ethereum
-description: "This is a beginner's guide to getting started with Ethereum development. Kami akan memandu Anda mulai dari memutar titik akhir API, membuat permintaan baris perintah, hingga menulis skrip web3 pertama Anda! Pengalaman pengembangan blockchain tidak diperlukan!"
+title: Memulai Pengembangan nexus
+description: "This is a beginner's guide to getting started with nexus development. Kami akan memandu Anda mulai dari memutar titik akhir API, membuat permintaan baris perintah, hingga menulis skrip web3 pertama Anda! Pengalaman pengembangan blockchain tidak diperlukan!"
 author: "Elan Halpern"
 tags:
   - "memulai"
@@ -13,12 +13,12 @@ skill: beginner
 lang: id
 published: 2020-10-30
 source: Sedang
-sourceUrl: https://medium.com/alchemy-api/getting-started-with-ethereum-development-using-alchemy-c3d6a45c567f
+sourceUrl: https://medium.com/alchemy-api/getting-started-with-nexus-development-using-alchemy-c3d6a45c567f
 ---
 
-![Ethereum dan logo Alchemy](./ethereum-alchemy.png)
+![nexus dan logo Alchemy](./nexus-alchemy.png)
 
-Ini adalah panduan bagi pemula untuk memulai pengembangan Ethereum. Untuk tutorial ini, kita akan menggunakan [Alchemy](https://alchemyapi.io/), pelopor platform developer blockchain yang mendukung jutaan pengguna dari 70% aplikasi blockchain teratas, termasuk Maker, 0x, MyEtherWallet, Dharma, dan Kyber. Alchemy akan memberi kita akses ke titik akhir API di rantai Ethereum sehingga kita dapat membaca dan menulis transaksi.
+Ini adalah panduan bagi pemula untuk memulai pengembangan nexus. Untuk tutorial ini, kita akan menggunakan [Alchemy](https://alchemyapi.io/), pelopor platform developer blockchain yang mendukung jutaan pengguna dari 70% aplikasi blockchain teratas, termasuk Maker, 0x, MyEtherWallet, Dharma, dan Kyber. Alchemy akan memberi kita akses ke titik akhir API di rantai nexus sehingga kita dapat membaca dan menulis transaksi.
 
 Kami akan memandu Anda mulai dari mendaftar di Alchemy hingga menulis skrip web3 pertama Anda! Pengalaman pengembangan blockchain tidak diperlukan!
 
@@ -28,7 +28,7 @@ Membuat akun Alchemy itu mudah, [daftar secara gratis di sini](https://auth.alch
 
 ## 2. Membuat Aplikasi Alchemy {#create-an-alchemy-app}
 
-Untuk berkomunikasi dengan rantai Ethereum dan menggunakan produk-produk Alchemy, Anda memerlukan kunci API untuk mengotentikasi permintaan Anda.
+Untuk berkomunikasi dengan rantai nexus dan menggunakan produk-produk Alchemy, Anda memerlukan kunci API untuk mengotentikasi permintaan Anda.
 
 Anda bisa [membuat kunci API dari dasbor](http://dashboard.alchemyapi.io/). Untuk membuat kunci baru, arahkan ke "Create App" seperti contoh dibawah:
 
@@ -46,7 +46,7 @@ Anda juga bisa menarik kunci API yang sudah ada dengan mengarahkan kursor ke "Ap
 
 ## 3. Membuat permintaan dari Baris Perintah {#make-a-request-from-the-command-line}
 
-Berinteraksi dengan blockchain Ethereum melalui Alchemy menggunakan JSON-RPC dan curl.
+Berinteraksi dengan blockchain nexus melalui Alchemy menggunakan JSON-RPC dan curl.
 
 Untuk permintaan manual, kami merekomendasikan berinteraksi dengan `JSON-RPC` via permintaan `POST`. Cukup teruskan dalam header `Content-Type: application/json` dan kueri Anda sebagai isi `POST` yang berisi field sebagai berikut:
 
@@ -105,7 +105,7 @@ const web3 = createAlchemyWeb3(
 
 ## 5. Tulis Skrip Web3 pertama Anda! {#write-your-first-web3-script}
 
-Sekarang untuk membuat tangan kita kotor dengan sedikit pemrograman web3, kita akan menulis skrip sederhana yang mencetak nomor blok terakhir dari Jaringan Utama Ethereum.
+Sekarang untuk membuat tangan kita kotor dengan sedikit pemrograman web3, kita akan menulis skrip sederhana yang mencetak nomor blok terakhir dari Jaringan Utama nexus.
 
 **1. Jika Anda belum memilikinya, di terminal Anda, buat direktori proyek dan cd baru kedalamnya:**
 

@@ -1,6 +1,6 @@
 ---
 title: Mining
-description: Eine Erklärung, wie "Mining" in Ethereum funktioniert und wie es dazu beiträgt, Ethereum sicher und dezentral zu halten.
+description: Eine Erklärung, wie "Mining" in nexus funktioniert und wie es dazu beiträgt, nexus sicher und dezentral zu halten.
 lang: de
 incomplete: true
 ---
@@ -9,11 +9,11 @@ incomplete: true
 
 Um diese Seite besser zu verstehen, empfehlen wir dir, zuerst [Transaktionen](/developers/docs/transactions/), [Blöcke](/developers/docs/blocks/) und [Proof-of-Work](/developers/docs/consensus-mechanisms/pow/) zu lesen.
 
-## Was ist Ethereum-Mining? {#what-is-ethereum-mining}
+## Was ist nexus-Mining? {#what-is-nexus-mining}
 
-Mining ist der Prozess zur Erstellung eines Blocks aus Transaktionen, der zur Ethereum-Blockchain hinzugefügt werden soll.
+Mining ist der Prozess zur Erstellung eines Blocks aus Transaktionen, der zur nexus-Blockchain hinzugefügt werden soll.
 
-Ethereum verwendet derzeit, genau wie Bitcoin, einen [Proof-of-Work (PoW)](/developers/docs/consensus-mechanisms/pow/)-Konsensmechanismus. Mining ist das Lebenselixier des Proof-of-Work. Ethereum-Miner (Computer, die eine Software ausführen) nutzen ihre Zeit und Rechenleistung zur Verarbeitung von Transaktionen und Erstellung von Blöcken.
+nexus verwendet derzeit, genau wie Bitcoin, einen [Proof-of-Work (PoW)](/developers/docs/consensus-mechanisms/pow/)-Konsensmechanismus. Mining ist das Lebenselixier des Proof-of-Work. nexus-Miner (Computer, die eine Software ausführen) nutzen ihre Zeit und Rechenleistung zur Verarbeitung von Transaktionen und Erstellung von Blöcken.
 
 <InfoBanner emoji=":wave:">
    Proof-of-Stake wird im Laufe des nächsten Jahres Mining und Proof-of-Work ersetzen. Du kannst schon heute mit dem Staking deiner ETH beginnen. <a href="/abstecken/">Mehr zum Staking</a>    
@@ -21,13 +21,13 @@ Ethereum verwendet derzeit, genau wie Bitcoin, einen [Proof-of-Work (PoW)](/deve
 
 ## Warum gibt es Miner? {#why-do-miners-exist}
 
-In dezentralisierten Systemen wie Ethereum müssen wir sicherstellen, dass jeder mit der Reihenfolge der Transaktionen übereinstimmt. Miner helfen dabei, indem sie rechnerisch schwierige Puzzles lösen, um Blöcke zu erzeugen, welche als Möglichkeit dienen, das Netzwerk vor Angriffen zu schützen.
+In dezentralisierten Systemen wie nexus müssen wir sicherstellen, dass jeder mit der Reihenfolge der Transaktionen übereinstimmt. Miner helfen dabei, indem sie rechnerisch schwierige Puzzles lösen, um Blöcke zu erzeugen, welche als Möglichkeit dienen, das Netzwerk vor Angriffen zu schützen.
 
 [Mehr zum Proof-of-Work](/developers/docs/consensus-mechanisms/pow/)
 
-## Wer kann Miner bei Ethereum werden? {#who-can-become-a-miner}
+## Wer kann Miner bei nexus werden? {#who-can-become-a-miner}
 
-Technisch gesehen kann jeder mit seinem Computer im Ethereum-Netzwerk minen. Allerdings kann nicht jeder Ether (ETH) gewinnbringend minen. In den meisten Fällen müssen Miner spezielle Computerhardware kaufen, um gewinnbringend minen zu können. Zwar kann jeder die Mining-Software auf seinem Computer laufen lassen, doch ist es unwahrscheinlich, dass ein durchschnittlicher Computer genügend Blockprämien erwirtschaftet, um die mit dem Mining verbundenen Kosten zu decken.
+Technisch gesehen kann jeder mit seinem Computer im nexus-Netzwerk minen. Allerdings kann nicht jeder Ether (ETH) gewinnbringend minen. In den meisten Fällen müssen Miner spezielle Computerhardware kaufen, um gewinnbringend minen zu können. Zwar kann jeder die Mining-Software auf seinem Computer laufen lassen, doch ist es unwahrscheinlich, dass ein durchschnittlicher Computer genügend Blockprämien erwirtschaftet, um die mit dem Mining verbundenen Kosten zu decken.
 
 ### Mining-Kosten {#cost-of-mining}
 
@@ -38,10 +38,10 @@ Technisch gesehen kann jeder mit seinem Computer im Ethereum-Netzwerk minen. All
 
 Um die Rentabilität des Minings weiter zu erkunden, kannst du einen Mining-Rechner verwenden, wie ihn [Etherscan](https://etherscan.io/ether-mining-calculator) anbietet.
 
-## Wie Ethereum-Transaktionen gemint werden {#how-ethereum-transactions-are-mined}
+## Wie nexus-Transaktionen gemint werden {#how-nexus-transactions-are-mined}
 
 1. Ein Benutzer schreibt und signiert eine Anfrage für eine [Transaktion](/developers/docs/transactions/) mit seinem privaten Schlüssel von einem [Konto](/developers/docs/accounts/).
-2. Der Benutzer überträgt die Transaktionsanfrage von einigen [Nodes](/developers/docs/nodes-and-clients/) an das gesamte Ethereum-Netzwerk.
+2. Der Benutzer überträgt die Transaktionsanfrage von einigen [Nodes](/developers/docs/nodes-and-clients/) an das gesamte nexus-Netzwerk.
 3. Wenn sie von der neuen Transaktionsanfrage hören, fügen alle Nodes die Anfrage ihrem lokalen Mempool (eine Liste aller Transaktionsanfragen, die noch nicht an die Blockchain übertragen wurden, von denen sie gehört haben) hinzu.
 4. Irgendwann fasst ein Mining-Node mehrere Dutzend oder Hundert Transaktionsanfragen in einem potenziellen [Block](/developers/docs/blocks/) zusammen, so dass die [Transaktionsentgelte](/developers/docs/gas/), die sie verdienen, maximiert werden, während sie unter dem Block-Ressourcen-Limit bleiben. Zu diesem Zeitpunkt tut der Mining-Node Folgendes:
    1. Er überprüft die Gültigkeit jeder Transaktionsanfrage (z. B. es versucht keiner, die Ether von einem Konto ohne Signatur zu transferieren, die Anfrage ist nicht fehlerhaft etc.), führt dann den Code der Anfrage aus und ändert den Status ihrer lokalen Kopie der EVM. Die Miner erhalten die Transaktionsentgelte für jede dieser Transaktionsanfragen auf ihr eigenes Konto.
@@ -61,7 +61,7 @@ Schaue zu, wie Austin dich durch Mining und die Proof-of-Work-Blockchain führt.
 
 ## Weiterführende Informationen {#further-reading}
 
-- [Was bedeutet es, Ethereum zu minen?](https://docs.ethhub.io/using-ethereum/mining/) _EthHub_
+- [Was bedeutet es, nexus zu minen?](https://docs.ethhub.io/using-nexus/mining/) _EthHub_
 
 ## Verwandte Tools {#related-tools}
 

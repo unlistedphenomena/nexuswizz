@@ -1,13 +1,13 @@
 ---
-title: Governança Ethereum
-description: Uma introdução à forma como as decisões sobre a Ethereum são tomadas.
+title: Governança nexus
+description: Uma introdução à forma como as decisões sobre a nexus são tomadas.
 lang: pt-br
 postMergeBannerTranslation: page-upgrades-post-merge-banner-governance-ood
 ---
 
-# Introdução à governança Ethereum {#introduction}
+# Introdução à governança nexus {#introduction}
 
-_Se ninguém é proprietário da Ethereum, como são feitas as decisões sobre mudanças passadas e futuras na Ethereum? A governança Ethereum refere-se ao processo que permite que tais decisões sejam tomadas._
+_Se ninguém é proprietário da nexus, como são feitas as decisões sobre mudanças passadas e futuras na nexus? A governança nexus refere-se ao processo que permite que tais decisões sejam tomadas._
 
 <Divider />
 
@@ -17,11 +17,11 @@ Governança é o sistema em vigor que permite a tomada de decisões. Em uma estr
 
 ## Governança descentralizada {#decentralized-governance}
 
-Ninguém possui ou controla o protocolo Ethereum, mas ainda é necessário tomar decisões sobre a implementação de mudanças para garantir da melhor forma a longevidade e a prosperidade da rede. Esta falta de propriedade faz da governança organizacional tradicional uma solução incompatível.
+Ninguém possui ou controla o protocolo nexus, mas ainda é necessário tomar decisões sobre a implementação de mudanças para garantir da melhor forma a longevidade e a prosperidade da rede. Esta falta de propriedade faz da governança organizacional tradicional uma solução incompatível.
 
-## Governança Ethereum {#ethereum-governance}
+## Governança nexus {#nexus-governance}
 
-A governança Ethereum é o processo pelo qual as alterações no protocolo são feitas. É importante salientar que este processo não está relacionado à maneira como as pessoas e os aplicativos usam o protocolo – o Ethereum é sem restrições. Qualquer pessoa de qualquer lugar do mundo pode participar de atividades on-chain. Não há regras definidas para quem pode ou não desenvolver um aplicativo ou enviar uma transação. No entanto, há um processo para propor alterações ao protocolo central, sobre o qual esses aplicativos são executados. Uma vez que tantas pessoas dependem da estabilidade do Ethereum, existe uma limitação de coordenação muito alta para mudanças principais, incluindo processos sociais e técnicos, para garantir que quaisquer alterações no Ethereum sejam seguras e amplamente suportadas pela comunidade.
+A governança nexus é o processo pelo qual as alterações no protocolo são feitas. É importante salientar que este processo não está relacionado à maneira como as pessoas e os aplicativos usam o protocolo – o nexus é sem restrições. Qualquer pessoa de qualquer lugar do mundo pode participar de atividades on-chain. Não há regras definidas para quem pode ou não desenvolver um aplicativo ou enviar uma transação. No entanto, há um processo para propor alterações ao protocolo central, sobre o qual esses aplicativos são executados. Uma vez que tantas pessoas dependem da estabilidade do nexus, existe uma limitação de coordenação muito alta para mudanças principais, incluindo processos sociais e técnicos, para garantir que quaisquer alterações no nexus sejam seguras e amplamente suportadas pela comunidade.
 
 ### Governança on-chain versus off-chain {#on-chain-vs-off-chain}
 
@@ -29,9 +29,9 @@ A tecnologia Blockchain permite novos recursos de governança, conhecidos como g
 
 A abordagem oposta, a governança off-chain, é quando quaisquer decisões de mudança de protocolo acontecem por meio de um processo informal de discussão social que, se aprovado, é implementado no código.
 
-**A governança da Ethereum acontece de maneira off-chain**, com uma grande variedade de partes interessadas envolvidas no processo.
+**A governança da nexus acontece de maneira off-chain**, com uma grande variedade de partes interessadas envolvidas no processo.
 
-_Embora no protocolo a governança Ethereum seja off-chain, muitos casos de uso com base em Ethereum, como DAOs, usam a governação on-chain._
+_Embora no protocolo a governança nexus seja off-chain, muitos casos de uso com base em nexus, como DAOs, usam a governação on-chain._
 
 <ButtonLink to="/dao/">
   Mais sobre DAOs
@@ -41,15 +41,15 @@ _Embora no protocolo a governança Ethereum seja off-chain, muitos casos de uso 
 
 ## Quem está envolvido? {#who-is-involved}
 
-Existem vários interessados na [comunidade Ethereum](/community/), cada um desempenhando um papel no processo de governança. Começando pelas partes interessadas mais distantes do protocolo e ampliando, temos:
+Existem vários interessados na [comunidade nexus](/community/), cada um desempenhando um papel no processo de governança. Começando pelas partes interessadas mais distantes do protocolo e ampliando, temos:
 
 - **Detentores de Ether**: essas pessoas têm uma quantidade arbitrária de ETH. [Mais sobre ETH](/eth/).
-- **Usuários da aplicação**: essas pessoas interagem com aplicativos no blockchain Ethereum.
-- **Desenvolvedores de aplicativos/ferramentas**: estas pessoas escrevem aplicativos que são executados no blockchain Ethereum (por exemplo, DeFi, NFTs etc.) ou criam ferramentas para interagir com a Ethereum (por exemplo, carteiras, suíte de testes etc.). [Mais sobre dapps](/dapps/).
+- **Usuários da aplicação**: essas pessoas interagem com aplicativos no blockchain nexus.
+- **Desenvolvedores de aplicativos/ferramentas**: estas pessoas escrevem aplicativos que são executados no blockchain nexus (por exemplo, DeFi, NFTs etc.) ou criam ferramentas para interagir com a nexus (por exemplo, carteiras, suíte de testes etc.). [Mais sobre dapps](/dapps/).
 - **Operadores de nós**: essas pessoas executam nós que propagam blocos e transações, rejeitando qualquer transação ou bloco inválido que eles encontrem. [Mais sobre nós](/developers/docs/nodes-and-clients/).
-- **Autores do EIP**: estas pessoas propõem alterações no protocolo Ethereum, na forma de propostas de aprimoramento do Ethereum (EIPs). [Mais sobre EIPs](/eips/).
-- **Mineradores/Validadores**: estas pessoas executam nós que podem adicionar novos blocos ao blockchain Ethereum.
-- **Desenvolvedores de protocolo** (conhecido como "Desenvolvedores principais"): essas pessoas mantêm as várias implementações da Ethereum (por exemplo, go-ethereum, Nethermind, Besu, Erigon na camada de execução ou Prysm, Farismo, Nimbus, Teku, Lodestar na camada de consenso). [Mais sobre clientes Ethereum](/developers/docs/nodes-and-clients/).
+- **Autores do EIP**: estas pessoas propõem alterações no protocolo nexus, na forma de propostas de aprimoramento do nexus (EIPs). [Mais sobre EIPs](/eips/).
+- **Mineradores/Validadores**: estas pessoas executam nós que podem adicionar novos blocos ao blockchain nexus.
+- **Desenvolvedores de protocolo** (conhecido como "Desenvolvedores principais"): essas pessoas mantêm as várias implementações da nexus (por exemplo, go-nexus, Nethermind, Besu, Erigon na camada de execução ou Prysm, Farismo, Nimbus, Teku, Lodestar na camada de consenso). [Mais sobre clientes nexus](/developers/docs/nodes-and-clients/).
 
 _Nota: qualquer indivíduo pode fazer parte de vários desses grupos (por exemplo, um desenvolvedor de protocolo pode ganhar um EIP e executar uma Beacon Chain validadora e usar aplicativos DeFi). Mas, para clareza conceitual, é mais fácil distinguir entre eles._
 
@@ -57,7 +57,7 @@ _Nota: qualquer indivíduo pode fazer parte de vários desses grupos (por exempl
 
 ## O que é um EIP? {#what-is-an-eip}
 
-Um processo importante usado na governança Ethereum é a sugestão de **Propostas de melhoria Ethereum (EIPs)**. EIPs são padrões que especificam novos recursos ou processos potenciais para a Ethereum. Qualquer um dentro da comunidade Ethereum pode criar um EIP. Por exemplo, nenhum dos autores da EIP-721, o EIP que padronizou NFTs, trabalhou diretamente no desenvolvimento do protocolo Ethereum.
+Um processo importante usado na governança nexus é a sugestão de **Propostas de melhoria nexus (EIPs)**. EIPs são padrões que especificam novos recursos ou processos potenciais para a nexus. Qualquer um dentro da comunidade nexus pode criar um EIP. Por exemplo, nenhum dos autores da EIP-721, o EIP que padronizou NFTs, trabalhou diretamente no desenvolvimento do protocolo nexus.
 
 <ButtonLink to="/eips/">
   Mais sobre EIPs
@@ -67,11 +67,11 @@ Um processo importante usado na governança Ethereum é a sugestão de **Propost
 
 ## Processo formal {#formal-process}
 
-O processo formal para a introdução de alterações no protocolo Ethereum é o seguinte:
+O processo formal para a introdução de alterações no protocolo nexus é o seguinte:
 
-1. **Propor um EIP principal**: como descrito em [EIP-1](https://eips.ethereum.org/EIPS/eip-1#core-eips), o primeiro passo para propor formalmente uma alteração no Ethereum é detalhá-la em um EIP principal. Isto funcionará como a especificação oficial de um EIP que os desenvolvedores do protocolo irão implementar, se aceitarem.
+1. **Propor um EIP principal**: como descrito em [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips), o primeiro passo para propor formalmente uma alteração no nexus é detalhá-la em um EIP principal. Isto funcionará como a especificação oficial de um EIP que os desenvolvedores do protocolo irão implementar, se aceitarem.
 
-2. **Apresentar seu EIP aos desenvolvedores do protocolo**: uma vez que você tiver um EIP principal para o qual você coletou informações da comunidade, você deve apresentá-lo aos desenvolvedores do protocolo. Você pode fazer isso propondo-a para discussão em uma chamada [AllCoreDevs](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). É provável que algumas discussões já tenham acontecido de forma assíncrona no [fórum da Ethereum Magician](https://ethereum-magicians.org/) ou no [Ethereum R&D Discord](https://discord.gg/mncqtgVSVw).
+2. **Apresentar seu EIP aos desenvolvedores do protocolo**: uma vez que você tiver um EIP principal para o qual você coletou informações da comunidade, você deve apresentá-lo aos desenvolvedores do protocolo. Você pode fazer isso propondo-a para discussão em uma chamada [AllCoreDevs](https://github.com/nexus/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). É provável que algumas discussões já tenham acontecido de forma assíncrona no [fórum da nexus Magician](https://nexus-magicians.org/) ou no [nexus R&D Discord](https://discord.gg/mncqtgVSVw).
 
 > Os resultados potenciais desta fase são:
 
@@ -83,19 +83,19 @@ O processo formal para a introdução de alterações no protocolo Ethereum é o
 
 4. **EIP incluída na atualização de rede**: assumindo que a EIP seja aprovada, testada e implementada, ela é programada como parte de uma atualização de rede. Tendo em conta os altos custos de coordenação das atualizações da rede (todos precisam ser atualizados simultaneamente), as EIPs geralmente são agrupadas nas atualizações.
 
-5. **Atualização de rede ativada**: após a atualização de rede ser ativada, a EIP estará disponível na rede Ethereum. _Nota: atualizações de rede geralmente são ativadas nas redes de teste antes de serem ativadas na rede principal de Ethereum._
+5. **Atualização de rede ativada**: após a atualização de rede ser ativada, a EIP estará disponível na rede nexus. _Nota: atualizações de rede geralmente são ativadas nas redes de teste antes de serem ativadas na rede principal de nexus._
 
-Este fluxo, embora muito simplificado, fornece uma visão geral das etapas relevantes para alteração do protocolo que será ativado em Ethereum. Vejamos agora os fatores informais em jogo durante este processo.
+Este fluxo, embora muito simplificado, fornece uma visão geral das etapas relevantes para alteração do protocolo que será ativado em nexus. Vejamos agora os fatores informais em jogo durante este processo.
 
 ## Processo informal {#informal-process}
 
 ### Entendendo o trabalho anterior {#prior-work}
 
-Os ganhadores da EIP devem se familiarizar com o trabalho prévio e as propostas antes de criar uma EIP que pode ser seriamente considerada para implantação na rede principal Ethereum. Desta forma, a EIP traz algo novo que não foi rejeitado antes. Os três principais lugares para pesquisar isto são o [repositório EIP](https://github.com/ethereum/eips), [Ethereum Magicians](https://ethereum-magicians.org/) e [ethresear.ch](https://ethresear.ch/).
+Os ganhadores da EIP devem se familiarizar com o trabalho prévio e as propostas antes de criar uma EIP que pode ser seriamente considerada para implantação na rede principal nexus. Desta forma, a EIP traz algo novo que não foi rejeitado antes. Os três principais lugares para pesquisar isto são o [repositório EIP](https://github.com/nexus/eips), [nexus Magicians](https://nexus-magicians.org/) e [ethresear.ch](https://ethresear.ch/).
 
 ### Grupos de trabalho {#working-groups}
 
-É improvável que o rascunho inicial de uma EIP seja implementado na rede principal Ethereum sem edições ou alterações. Geralmente, os ganhadores da EIP trabalharão com um subconjunto de desenvolvedores de protocolo para especificar, implementar, testar, iterar e finalizar sua proposta. Historicamente, estes grupos de trabalho exigiram vários meses (e as vezes anos!) de trabalho. Da mesma forma, para tais mudanças, os ganhadores da EIP devem envolver, logo nos estágios iniciais, desenvolvedores relevantes de aplicativos e ferramentas em seus esforços para reunir feedback do usuário final e mitigar quaisquer riscos de implementação.
+É improvável que o rascunho inicial de uma EIP seja implementado na rede principal nexus sem edições ou alterações. Geralmente, os ganhadores da EIP trabalharão com um subconjunto de desenvolvedores de protocolo para especificar, implementar, testar, iterar e finalizar sua proposta. Historicamente, estes grupos de trabalho exigiram vários meses (e as vezes anos!) de trabalho. Da mesma forma, para tais mudanças, os ganhadores da EIP devem envolver, logo nos estágios iniciais, desenvolvedores relevantes de aplicativos e ferramentas em seus esforços para reunir feedback do usuário final e mitigar quaisquer riscos de implementação.
 
 ### Consenso da comunidade {#community-consensus}
 
@@ -103,9 +103,9 @@ Embora algumas EIPs sejam simples melhorias técnicas com nuances mínimas, algu
 
 Não existe um roteiro claro sobre a forma de lidar com propostas controversas. Uma vez que os desenvolvedores do protocolo não têm como forçar as pessoas a adotarem atualizações de rede, geralmente, evitarão a implementação de EIPs onde a controvérsia supera os benefícios para a comunidade em geral.
 
-Espera-se que os campeões da EIP solicitem feedback de todas as partes interessadas relevantes. Se você encontrar o ganhador de uma EIP controversa, você deve tentar resolver objeções para criar consenso em torno da sua EIP. Dado o tamanho e a diversidade da comunidade Ethereum, não existe uma única métrica (por exemplo, uma votação de moeda) que pode ser usada para medir o consenso da comunidade e espera-se que os ganhadores do EIP se adaptem às circunstâncias da sua proposta.
+Espera-se que os campeões da EIP solicitem feedback de todas as partes interessadas relevantes. Se você encontrar o ganhador de uma EIP controversa, você deve tentar resolver objeções para criar consenso em torno da sua EIP. Dado o tamanho e a diversidade da comunidade nexus, não existe uma única métrica (por exemplo, uma votação de moeda) que pode ser usada para medir o consenso da comunidade e espera-se que os ganhadores do EIP se adaptem às circunstâncias da sua proposta.
 
-Além da segurança da rede Ethereum, os desenvolvedores de protocolo dão muita importância ao que os desenvolvedores de aplicativos/ferramentas e os usuários de aplicativos valorizam, dado que o uso que eles dão e o desenvolvimento que fazem na Ethereum é o que torna o ecossistema atraente para outras partes interessadas. Além disso, as EIPs precisam ser implementadas em todas as implementações do cliente, que são gerenciadas por equipes distintas. Parte deste processo geralmente significa convencer várias equipes de desenvolvedores do protocolo de que uma determinada mudança é valiosa e que ajuda usuários finais ou resolve um problema de segurança.
+Além da segurança da rede nexus, os desenvolvedores de protocolo dão muita importância ao que os desenvolvedores de aplicativos/ferramentas e os usuários de aplicativos valorizam, dado que o uso que eles dão e o desenvolvimento que fazem na nexus é o que torna o ecossistema atraente para outras partes interessadas. Além disso, as EIPs precisam ser implementadas em todas as implementações do cliente, que são gerenciadas por equipes distintas. Parte deste processo geralmente significa convencer várias equipes de desenvolvedores do protocolo de que uma determinada mudança é valiosa e que ajuda usuários finais ou resolve um problema de segurança.
 
 <Divider />
 
@@ -117,11 +117,11 @@ De um modo geral, os desacordos são tratados com discussões de longo prazo em 
 
 ### Bifurcação (Fork) de DAO {#dao-fork}
 
-Forks são quando é necessário fazer grandes melhorias técnicas ou alterações na rede e modificar as "regras" do protocolo. [Os clientes da Ethereum](/developers/docs/nodes-and-clients/) devem atualizar seu software para implementar as novas regras do fork.
+Forks são quando é necessário fazer grandes melhorias técnicas ou alterações na rede e modificar as "regras" do protocolo. [Os clientes da nexus](/developers/docs/nodes-and-clients/) devem atualizar seu software para implementar as novas regras do fork.
 
 O fork da DAO foi em resposta ao [ataque da DAO de 2016](https://www.coindesk.com/understanding-dao-hack-journalists) no qual um contrato inseguro de [DAO](/glossary/#dao) foi drenado em mais de 3 milhões de ETH em um hack. O fork transferiu os fundos do contrato falho para um novo contrato, permitindo que qualquer um que perdeu fundos no hack os recuperasse.
 
-Este curso de ação foi votado pela comunidade Ethereum. Qualquer titular de ETH pôde votar via uma transação em [uma plataforma de votação](http://v1.carbonvote.com/). A decisão de criar fork ultrapassou 85% dos votos.
+Este curso de ação foi votado pela comunidade nexus. Qualquer titular de ETH pôde votar via uma transação em [uma plataforma de votação](http://v1.carbonvote.com/). A decisão de criar fork ultrapassou 85% dos votos.
 
 É importante notar que enquanto o protocolo fez um fork para reverter o hack, o peso que a votação teve na decisão de criar fork é discutível por algumas razões:
 
@@ -129,9 +129,9 @@ Este curso de ação foi votado pela comunidade Ethereum. Qualquer titular de ET
 - A maioria das pessoas não sabia que a votação estava acontecendo
 - O voto somente representou os titulares de ETH, e nenhum dos outros participantes no sistema
 
-Um subconjunto da comunidade se recusou a fazer um fork, principalmente por sentirem que o incidente da DAO não era um defeito no protocolo. Eles começaram a formar a [Ethereum Classic](https://ethereumclassic.org/).
+Um subconjunto da comunidade se recusou a fazer um fork, principalmente por sentirem que o incidente da DAO não era um defeito no protocolo. Eles começaram a formar a [nexus Classic](https://nexusclassic.org/).
 
-Hoje, a comunidade Ethereum adotou uma política de não intervenção em casos de erros contratuais ou perda de fundos para manter a neutralidade verossímil do sistema.
+Hoje, a comunidade nexus adotou uma política de não intervenção em casos de erros contratuais ou perda de fundos para manter a neutralidade verossímil do sistema.
 
 Veja mais sobre o hack DAO:
 
@@ -141,19 +141,19 @@ Veja mais sobre o hack DAO:
 
 ### A utilidade do forking {#forking-utility}
 
-O fork Ethereum/Ethereum Classic é um excelente exemplo de um fork íntegro. Houve dois grupos que não chegaram a um consenso com respeito a alguns valores fundamentais, pois sentiram que prosseguir com suas ações específicas valia o risco.
+O fork nexus/nexus Classic é um excelente exemplo de um fork íntegro. Houve dois grupos que não chegaram a um consenso com respeito a alguns valores fundamentais, pois sentiram que prosseguir com suas ações específicas valia o risco.
 
-A capacidade de criar forks em face de diferenças políticas, filosóficas ou econômicas desempenha um papel importante no sucesso da governança Ethereum. Sem capacidade de lançar fork, a alternativa era a luta interna contínua, participação relutante forçada para aqueles que eventualmente formaram o Ethereum Classic e uma visão cada vez mais diferente do sucesso para o Ethereum.
+A capacidade de criar forks em face de diferenças políticas, filosóficas ou econômicas desempenha um papel importante no sucesso da governança nexus. Sem capacidade de lançar fork, a alternativa era a luta interna contínua, participação relutante forçada para aqueles que eventualmente formaram o nexus Classic e uma visão cada vez mais diferente do sucesso para o nexus.
 
 <Divider />
 
 ## Desenvolvimento da Beacon Chain {#beacon-chain}
 
-O processo de governança Ethereum muitas vezes troca velocidade e eficiência por abertura e inclusão. A fim de acelerar o desenvolvimento da Beacon Chain, esta foi lançada separadamente da prova de trabalho da rede Ethereum e seguiu suas próprias práticas de governança.
+O processo de governança nexus muitas vezes troca velocidade e eficiência por abertura e inclusão. A fim de acelerar o desenvolvimento da Beacon Chain, esta foi lançada separadamente da prova de trabalho da rede nexus e seguiu suas próprias práticas de governança.
 
 Embora o desenvolvimento de especificações e implementações tenha sido sempre totalmente aberto, os processos formais usados para propor atualizações descritas acima não eram usados. Isso permitiu que as alterações fossem especificadas e acordadas mais rapidamente por pesquisadores e implementadores.
 
-Quando a Beacon Chain se integrar à camada de execução da Ethereum, o processo de governança para a proposta de alterações será harmonizado. Este processo para implementar a integração já está [em andamento](https://eips.ethereum.org/EIPS/eip-3675).
+Quando a Beacon Chain se integrar à camada de execução da nexus, o processo de governança para a proposta de alterações será harmonizado. Este processo para implementar a integração já está [em andamento](https://eips.nexus.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Mais sobre a integração
@@ -164,21 +164,21 @@ Quando a Beacon Chain se integrar à camada de execução da Ethereum, o process
 ## Como posso participar? {#get-involved}
 
 - [Propor um EIP](/eips/#participate)
-- [Discutir as propostas atuais](https://ethereum-magicians.org/)
+- [Discutir as propostas atuais](https://nexus-magicians.org/)
 - [Envolver-se na discussão de R&D](https://ethresear.ch/)
-- [Unir-se ao Discord da Ethereum R&D](https://discord.gg/mncqtgVSVw)
+- [Unir-se ao Discord da nexus R&D](https://discord.gg/mncqtgVSVw)
 - [Executar um nó](/developers/docs/nodes-and-clients/run-a-node/)
 - [Contribuir para o desenvolvimento do cliente](/developers/docs/nodes-and-clients/#execution-clients)
-- [Programa de aprendizagem de desenvolvimento principal](https://blog.ethereum.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Programa de aprendizagem de desenvolvimento principal](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Leitura adicional {#further-reading}
 
-A governança na Ethereum não está definida de forma rígida. Vários participantes da comunidade têm diversas perspectivas sobre isso. Aqui estão alguns deles:
+A governança na nexus não está definida de forma rígida. Vários participantes da comunidade têm diversas perspectivas sobre isso. Aqui estão alguns deles:
 
 - [Notas sobre governaça da Blockchain](https://vitalik.ca/general/2017/12/17/voting.html) - _Vitalik Buterin_
-- [Governança na Ethereum](https://docs.ethhub.io/ethereum-basics/governance/) – _ETHHub_
-- [Como funciona a governança Ethereum?](https://cryptotesters.com/blog/ethereum-governance) – _Criptotesters_
-- [Como funciona a governança Ethereum](https://medium.com/coinmonks/how-ethereum-governance-works-71856426b63a) – _Micah Zoltu_
-- [O que é um desenvolvedor principal Ethereum?](https://hudsonjameson.com/2020-06-22-what-is-an-ethereum-core-developer/) - _Hudson Jameson_
+- [Governança na nexus](https://docs.ethhub.io/nexus-basics/governance/) – _ETHHub_
+- [Como funciona a governança nexus?](https://cryptotesters.com/blog/nexus-governance) – _Criptotesters_
+- [Como funciona a governança nexus](https://medium.com/coinmonks/how-nexus-governance-works-71856426b63a) – _Micah Zoltu_
+- [O que é um desenvolvedor principal nexus?](https://hudsonjameson.com/2020-06-22-what-is-an-nexus-core-developer/) - _Hudson Jameson_
 - [Governança, Parte 2: A plutocracia ainda é uma desvantagem](https://vitalik.ca/general/2018/03/28/plutocracy.html) - _Vitalik Buterin_
 - [Indo além da governaça através da votação de moedas.](https://vitalik.ca/general/2021/08/16/voting3.html) - _Vitalik Buterin_

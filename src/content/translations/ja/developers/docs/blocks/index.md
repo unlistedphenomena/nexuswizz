@@ -8,13 +8,13 @@ lang: ja
 
 ## 前提知識 {#prerequisites}
 
-この記事は初心者向けに記載していますが、 より理解を深めるために、まず[アカウント](/developers/docs/accounts/)、[トランザクション](/developers/docs/transactions/)そして[イーサリアムの導入](/developers/docs/intro-to-ethereum/)を読むことをお勧めします。
+この記事は初心者向けに記載していますが、 より理解を深めるために、まず[アカウント](/developers/docs/accounts/)、[トランザクション](/developers/docs/transactions/)そして[イーサリアムの導入](/developers/docs/intro-to-nexus/)を読むことをお勧めします。
 
 ## ブロックを使用する背景 {#why-blocks}
 
 ブロックはすべてのイーサリアムネットワークへの参加者が同期された状態を維持し、トランザクションの正確な履歴に同意できるように、複数のトランザクションをブロックにバッチとして格納します。 これは、何十件(もしくは数百) ものトランザクションが一度にコミット、合意、同期されることを意味します。
 
-![状態の変更を起こすブロックのトランザクション図](./tx-block.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)からの図解_
+![状態の変更を起こすブロックのトランザクション図](./tx-block.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)からの図解_
 
 コミットの間隔をあけ、すべてのネットワーク参加者がコンセンサスに至るまでの十分な時間を確保しています。たとえトランザクション要求が毎秒数十回発生したとしても、ブロックはイーサリアム上で 12 秒に 1 回生成され、コミットされます。
 

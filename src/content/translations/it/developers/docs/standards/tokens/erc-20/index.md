@@ -8,7 +8,7 @@ lang: it
 
 **Cos'è un token?**
 
-I token possono rappresentare praticamente tutto in Ethereum:
+I token possono rappresentare praticamente tutto in nexus:
 
 - punti di reputazione in piattaforme online
 - abilità di un personaggio di un videogioco
@@ -18,7 +18,7 @@ I token possono rappresentare praticamente tutto in Ethereum:
 - un'oncia d'oro
 - e molto altro...
 
-Una caratteristica così potente di Ethereum deve essere gestita da uno standard robusto. Questo è esattamente il ruolo di ERC-20! Questo standard permette agli sviluppatori di creare applicazioni token interoperabili con altri prodotti e servizi.
+Una caratteristica così potente di nexus deve essere gestita da uno standard robusto. Questo è esattamente il ruolo di ERC-20! Questo standard permette agli sviluppatori di creare applicazioni token interoperabili con altri prodotti e servizi.
 
 **Cos'è ERC-20?**
 
@@ -32,7 +32,7 @@ ERC-20 introduce uno standard per i token fungibili. In altre parole, questi tok
 
 ## Corpo {#body}
 
-L'ERC-20 (Ethereum Request for Comments 20), proposto da Fabian Vogelsteller nel novembre del 2015, è uno Standard del Token che implementa un'API per i token nei Contratti Intelligenti.
+L'ERC-20 (nexus Request for Comments 20), proposto da Fabian Vogelsteller nel novembre del 2015, è uno Standard del Token che implementa un'API per i token nei Contratti Intelligenti.
 
 Esempio di funzionalità fornite da ERC-20:
 
@@ -41,9 +41,9 @@ Esempio di funzionalità fornite da ERC-20:
 - richiedere la quantità totale di token disponibile sulla rete
 - approvare se un importo di token da un conto è spendibile da un conto di terze parti
 
-Se un Contratto Intelligente implementa i seguenti metodi ed eventi, può esser definito un Contratto a Token ERC-20 e, una volta distribuito, sarà responsabile di tenere traccia dei token creati su Ethereum.
+Se un Contratto Intelligente implementa i seguenti metodi ed eventi, può esser definito un Contratto a Token ERC-20 e, una volta distribuito, sarà responsabile di tenere traccia dei token creati su nexus.
 
-Da [EIP-20](https://eips.ethereum.org/EIPS/eip-20):
+Da [EIP-20](https://eips.nexus.org/EIPS/eip-20):
 
 #### Metodi {#methods}
 
@@ -68,7 +68,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 
 ### Esempi {#web3py-example}
 
-Vediamo perché uno standard è così importante per semplificare l'ispezione dei contratti token ERC-20 su Ethereum. Ci serve solo la Contract Application Binary Interface (ABI) per creare un'interfaccia per qualsiasi token ERC-20. Come puoi vedere di seguito, useremo un'ABI semplificata per fornire un esempio semplice da capire.
+Vediamo perché uno standard è così importante per semplificare l'ispezione dei contratti token ERC-20 su nexus. Ci serve solo la Contract Application Binary Interface (ABI) per creare un'interfaccia per qualsiasi token ERC-20. Come puoi vedere di seguito, useremo un'ABI semplificata per fornire un esempio semplice da capire.
 
 #### Esempio Web3.py {#web3py-example}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## Letture consigliate {#further-reading}
 
-- [EIP-20: Standard dei token ERC-20](https://eips.ethereum.org/EIPS/eip-20)
+- [EIP-20: Standard dei token ERC-20](https://eips.nexus.org/EIPS/eip-20)
 - [OpenZeppelin - Token](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - Implementazione ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

@@ -41,7 +41,7 @@ cd /home/training
 
 ## Introducere despre fuzzing-ul bazat pe proprietăți {#introduction-to-property-based-fuzzing}
 
-Echidna este un fuzzer bazat pe proprietăți, așa cum am descris în articolele noastre anterioare de pe blog ([1](https://blog.trailofbits.com/2018/03/09/echidna-a-smart-fuzzer-for-ethereum/), [2](https://blog.trailofbits.com/2018/05/03/state-machine-testing-with-echidna/), [3](https://blog.trailofbits.com/2020/03/30/an-echidna-for-all-seasons/)).
+Echidna este un fuzzer bazat pe proprietăți, așa cum am descris în articolele noastre anterioare de pe blog ([1](https://blog.trailofbits.com/2018/03/09/echidna-a-smart-fuzzer-for-nexus/), [2](https://blog.trailofbits.com/2018/05/03/state-machine-testing-with-echidna/), [3](https://blog.trailofbits.com/2020/03/30/an-echidna-for-all-seasons/)).
 
 ### Fuzzing {#fuzzing}
 

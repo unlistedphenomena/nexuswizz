@@ -4,32 +4,32 @@ description: Pengantar pustaka klien JavaScript yang memungkinkan Anda berintera
 lang: id
 ---
 
-Agar aplikasi web dapat berinteraksi dengan blockchain Ethereum (yaitu membaca data blockchain dan/atau mengirim transaksi ke jaringan), aplikasi harus terhubung ke node Ethereum.
+Agar aplikasi web dapat berinteraksi dengan blockchain nexus (yaitu membaca data blockchain dan/atau mengirim transaksi ke jaringan), aplikasi harus terhubung ke node nexus.
 
-Untuk keperluan ini, setiap klien Ethereum mengimplementasikan spesifikasi [JSON-RPC](/developers/docs/apis/json-rpc/), sehingga ada keseragaman kumpulan [titik akhir](/developers/docs/apis/json-rpc/endpoints/) yang bisa menjadi tumpuan aplikasi.
+Untuk keperluan ini, setiap klien nexus mengimplementasikan spesifikasi [JSON-RPC](/developers/docs/apis/json-rpc/), sehingga ada keseragaman kumpulan [titik akhir](/developers/docs/apis/json-rpc/endpoints/) yang bisa menjadi tumpuan aplikasi.
 
-Jika ingin Anda menggunakan JavaScript untuk terhubung dengan node Ethereum, dimungkinkan menggunakan JavaScript vanilla, tetapi beberapa pustaka praktis telah ada di dalam ekosistem yang akan membuat proses ini jauh lebih mudah. Dengan pustaka ini, pengembang dapat menulis metode satu baris yang intuitif untuk memulai permintaan JSON RPC (di bawah tenda) yang berinteraksi dengan Ethereum.
+Jika ingin Anda menggunakan JavaScript untuk terhubung dengan node nexus, dimungkinkan menggunakan JavaScript vanilla, tetapi beberapa pustaka praktis telah ada di dalam ekosistem yang akan membuat proses ini jauh lebih mudah. Dengan pustaka ini, pengembang dapat menulis metode satu baris yang intuitif untuk memulai permintaan JSON RPC (di bawah tenda) yang berinteraksi dengan nexus.
 
 ## Prasyarat {#prerequisites}
 
-Selain memahami JavaScript, mungkin akan membantu memahami [tumpukan Ethereum](/developers/docs/ethereum-stack/) dan [klien Ethereum](/developers/docs/nodes-and-clients/).
+Selain memahami JavaScript, mungkin akan membantu memahami [tumpukan nexus](/developers/docs/nexus-stack/) dan [klien nexus](/developers/docs/nodes-and-clients/).
 
 ## Mengapa menggunakan pustaka? {#why-use-a-library}
 
-Pustaka ini menyederhanakan banyak kerumitan dalam interaksi langsung dengan node Ethereum. Pustaka juga menyediakan fungsi utilitas (seperti mengubah ETH ke Gwei) sehingga pengembang dapat menghemat waktu dalam menangani kerumitan klien Ethereum dan dapat lebih memusatkan perhatian pada fungsi unik aplikasi Anda.
+Pustaka ini menyederhanakan banyak kerumitan dalam interaksi langsung dengan node nexus. Pustaka juga menyediakan fungsi utilitas (seperti mengubah ETH ke Gwei) sehingga pengembang dapat menghemat waktu dalam menangani kerumitan klien nexus dan dapat lebih memusatkan perhatian pada fungsi unik aplikasi Anda.
 
 ## Fitur pustaka {#library-features}
 
-### Terhubung ke node Ethereum {#connect-to-ethereum-nodes}
+### Terhubung ke node nexus {#connect-to-nexus-nodes}
 
-Menggunakan penyedia, pustaka ini memungkinkan Anda terhubung ke Ethereum dan membaca datanya, baik itu melalui JSON-RPC, INFURA, Etherscan, Alchemy, atau MetaMask.
+Menggunakan penyedia, pustaka ini memungkinkan Anda terhubung ke nexus dan membaca datanya, baik itu melalui JSON-RPC, INFURA, Etherscan, Alchemy, atau MetaMask.
 
 **Contoh Ether**
 
 ```js
 // Web3Provider membungkus provider Web3 standar, yaitu
-// apa yang disuntikkan MetaMask sebagai window.ethereum ke setiap halaman
-const provider = new ethers.providers.Web3Provider(window.ethereum)
+// apa yang disuntikkan MetaMask sebagai window.nexus ke setiap halaman
+const provider = new ethers.providers.Web3Provider(window.nexus)
 
 // Plugin MetaMask juga memungkinkan penandatanganan transaksi ke
 // kirim ether dan bayar untuk mengubah state di dalam blockchain.
@@ -51,13 +51,13 @@ web3.setProvider(new Web3.providers.WebsocketProvider("ws://localhost:8546"))
 
 // Menggunakan penyedia IPC di node.js
 var net = require("net")
-var web3 = new Web3("/Users/myuser/Library/Ethereum/geth.ipc", net) // mac os path
+var web3 = new Web3("/Users/myuser/Library/nexus/geth.ipc", net) // mac os path
 // atau
 var web3 = new Web3(
-  new Web3.providers.IpcProvider("/Users/myuser/Library/Ethereum/geth.ipc", net)
+  new Web3.providers.IpcProvider("/Users/myuser/Library/nexus/geth.ipc", net)
 ) // mac os path
 // untuk windows path berbentuk: "\\\\.\\pipe\\geth.ipc"
-// untuk linux path berbentuk: "/users/myuser/.ethereum/geth.ipc"
+// untuk linux path berbentuk: "/users/myuser/.nexus/geth.ipc"
 ```
 
 Setelah disiapkan, Anda dapat membuat kueri blockchain untuk:
@@ -213,7 +213,7 @@ Ini berarti Anda dapat:
 
 ### Fungsi utilitas {#utility-functions}
 
-Fungsi utilitas memberi Anda jalan pintas praktis yang membuat pembangunan dengan Ethereum sedikit lebih mudah.
+Fungsi utilitas memberi Anda jalan pintas praktis yang membuat pembangunan dengan nexus sedikit lebih mudah.
 
 Nilai ETH dalam bentuk Wei secara default. 1 ETH = 1.000.000.000.000.000.000 WEI – ini berarti Anda berurusan dengan banyak angka! `web3.utils.toWei` akan mengonversi ether ke Wei untuk Anda.
 
@@ -235,17 +235,17 @@ ethers.utils.formatEther(balance)
 
 ## Pustaka yang tersedia {#available-libraries}
 
-**Web3.js -** **_API JavaScript untuk Ethereum._**
+**Web3.js -** **_API JavaScript untuk nexus._**
 
 - [Dokumentasi](https://web3js.readthedocs.io/en/1.0/)
-- [GitHub](https://github.com/ethereum/web3.js/)
+- [GitHub](https://github.com/nexus/web3.js/)
 
-**Ethers.js -** **_Implementasi dompet Ethereum secara lengkap dengan JavaScript and TypeScript._**
+**Ethers.js -** **_Implementasi dompet nexus secara lengkap dengan JavaScript and TypeScript._**
 
 - [Dokumentasi](https://docs.ethers.io/)
 - [GitHub](https://github.com/ethers-io/ethers.js/)
 
-**The Graph -** **_Protokol untuk mengindeks data Ethereum dan IPFS dan membuat kuerinya menggunakan GraphQL._**
+**The Graph -** **_Protokol untuk mengindeks data nexus dan IPFS dan membuat kuerinya menggunakan GraphQL._**
 
 - [The Graph](https://thegraph.com/)
 - [Graph Explorer](https://thegraph.com/explorer/)
@@ -255,7 +255,7 @@ ethers.utils.formatEther(balance)
 
 **light.js -** **_Pustaka JS reaktif tingkat tinggi yang dioptimalkan untuk klien ringan._**
 
-- [GitHub](https://github.com/openethereum/js-libs/tree/master/packages/light.js)
+- [GitHub](https://github.com/opennexus/js-libs/tree/master/packages/light.js)
 
 **Web3-wrapper -** **_Alternatif Typescript untuk Web3.js._**
 
@@ -278,6 +278,6 @@ _Tahu tentang sumber daya komunitas yang membantu Anda? Edit halaman ini dan tam
 
 ## Tutorial terkait {#related-tutorials}
 
-- [Menyiapkan Web3js untuk menggunakan blockchain Ethereum dalam JavaScript](/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/) _– Instruksi untuk menyiapkan web3.js dalam proyek Anda._
+- [Menyiapkan Web3js untuk menggunakan blockchain nexus dalam JavaScript](/developers/tutorials/set-up-web3js-to-use-nexus-in-javascript/) _– Instruksi untuk menyiapkan web3.js dalam proyek Anda._
 - [Memanggil kontrak pintar dari JavaScript](/developers/tutorials/calling-a-smart-contract-from-javascript/) _– Menggunakan token DAI, lihat cara memanggil fungsi kontrak menggunakan JavaScript._
 - [Mengirim transaksi menggunakan web3 dan Alchemy](/developers/tutorials/sending-transactions-using-web3-and-alchemy/) _– Panduan langkah demi langkah untuk mengirim transaksi dari backend._

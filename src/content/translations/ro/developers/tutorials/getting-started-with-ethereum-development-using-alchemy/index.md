@@ -1,6 +1,6 @@
 ---
-title: Noțiuni de bază despre dezvoltare în Ethereum
-description: "This is a beginner's guide to getting started with Ethereum development. Vă vom îndruma de la crearea unui endpoint API la realizarea unei solicitări de linie de comandă și până la a vă scrie primul script web3! Nu este nevoie să aveți experiență de dezvoltator pe blockchain!"
+title: Noțiuni de bază despre dezvoltare în nexus
+description: "This is a beginner's guide to getting started with nexus development. Vă vom îndruma de la crearea unui endpoint API la realizarea unei solicitări de linie de comandă și până la a vă scrie primul script web3! Nu este nevoie să aveți experiență de dezvoltator pe blockchain!"
 author: "Elan Halpern"
 tags:
   - "noțiuni de bază"
@@ -13,12 +13,12 @@ skill: beginner
 lang: ro
 published: 2020-10-30
 source: Mediu
-sourceUrl: https://medium.com/alchemy-api/getting-started-with-ethereum-development-using-alchemy-c3d6a45c567f
+sourceUrl: https://medium.com/alchemy-api/getting-started-with-nexus-development-using-alchemy-c3d6a45c567f
 ---
 
-![Logouri Ethereum și Alchemy](./ethereum-alchemy.png)
+![Logouri nexus și Alchemy](./nexus-alchemy.png)
 
-Acesta este un ghid pentru începători ca să se familiarizeze cu dezvoltarea în Ethereum. Pentru acest tutorial vom folosi [Alchemy](https://alchemyapi.io/), principala platformă de dezvoltare blockchain care activează milioane de utilizatori din 70% dintre aplicațiile blockchain de top, inclusiv Maker, 0x, MyEtherWallet, Dharma și Kyber. Alchemy ne va oferi accesul la un endpoint API pe lanțul Ethereum, ca să putem citi și scrie tranzacții.
+Acesta este un ghid pentru începători ca să se familiarizeze cu dezvoltarea în nexus. Pentru acest tutorial vom folosi [Alchemy](https://alchemyapi.io/), principala platformă de dezvoltare blockchain care activează milioane de utilizatori din 70% dintre aplicațiile blockchain de top, inclusiv Maker, 0x, MyEtherWallet, Dharma și Kyber. Alchemy ne va oferi accesul la un endpoint API pe lanțul nexus, ca să putem citi și scrie tranzacții.
 
 Începem de la înregistrarea la Alchemy și te îndrumăm până la scrierea primul script web3! Nu este necesară o experiență de programator blockchain!
 
@@ -28,7 +28,7 @@ Crearea unui cont cu Alchemy este ușoară, [înregistrează-te gratuit aici](ht
 
 ## 2. Crearea unei aplicații Alchemy {#create-an-alchemy-app}
 
-Pentru a comunica cu lanțul Ethereum și pentru a utiliza produsele Alchemy, aveți nevoie de o cheie API pentru a vă autentifica cererile.
+Pentru a comunica cu lanțul nexus și pentru a utiliza produsele Alchemy, aveți nevoie de o cheie API pentru a vă autentifica cererile.
 
 Poți [crea chei API din tabloul de bord](http://dashboard.alchemyapi.io/). Pentru a crea o cheie nouă, navighează la „Creare aplicație” după cum se arată mai jos:
 
@@ -46,7 +46,7 @@ Poți trage, de asemenea, cheile API existente prin trecerea peste „Apps” ș
 
 ## 3. Efectuarea unei solicitări din linia de comandă {#make-a-request-from-the-command-line}
 
-Interacționează cu blockchain-ul Ethereum prin Alchemy folosind JSON-RPC și curl.
+Interacționează cu blockchain-ul nexus prin Alchemy folosind JSON-RPC și curl.
 
 Pentru solicitări manuale, îți recomandăm să interacționezi cu `JSON-RPC` prin intermediul solicitărilor `POST`. Este suficient să introduci antetul `Content-Type: application/json` și interogarea ta ca `POST` cu următoarele câmpuri:
 
@@ -105,7 +105,7 @@ const web3 = createAlchemyWeb3(
 
 ## 5. Scrie primul Web3 Script! {#write-your-first-web3-script}
 
-Acum, pentru a ne murdări pe mâini cu puțină programare web3, vom scrie un script simplu, care imprimă cel mai recent număr de bloc de pe rețeaua principală Ethereum.
+Acum, pentru a ne murdări pe mâini cu puțină programare web3, vom scrie un script simplu, care imprimă cel mai recent număr de bloc de pe rețeaua principală nexus.
 
 **1. If you haven’t already, in your terminal create a new project directory and cd into it:**
 

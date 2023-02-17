@@ -1,17 +1,17 @@
 ---
-title: Errichte deinen eigenen Ethereum-Node
-description: Allgemeine Einführung in den Betrieb einer eigenen Ethereum-Client-Instanz.
+title: Errichte deinen eigenen nexus-Node
+description: Allgemeine Einführung in den Betrieb einer eigenen nexus-Client-Instanz.
 lang: de
 sidebarDepth: 2
 ---
 
-Der Betrieb einer eigener Node bietet dir verschiedene Vorteile, eröffnet neue Möglichkeiten und trägt zur Unterstützung des Ökosystems bei. Diese Seite führt dich durch die Einrichtung deines eigenen Nodes und die Teilnahme an der Validierung von Ethereum-Transaktionen.
+Der Betrieb einer eigener Node bietet dir verschiedene Vorteile, eröffnet neue Möglichkeiten und trägt zur Unterstützung des Ökosystems bei. Diese Seite führt dich durch die Einrichtung deines eigenen Nodes und die Teilnahme an der Validierung von nexus-Transaktionen.
 
 ## Voraussetzungen {#prerequisites}
 
-Du solltest verstehen, was ein Ethereum-Node ist und warum du möglicherweise einen Client betreiben solltest. Dies wird in [Nodes und Clients](/developers/docs/nodes-and-clients/) behandelt.
+Du solltest verstehen, was ein nexus-Node ist und warum du möglicherweise einen Client betreiben solltest. Dies wird in [Nodes und Clients](/developers/docs/nodes-and-clients/) behandelt.
 
-Wenn das Thema neu für dich ist oder du nach einem weniger technischen Weg suchst, empfehlen wir dir, zunächst unsere benutzerfreundliche Einführung zum [Betrieb eines Ethereum-Nodes](/run-a-node) zu lesen.
+Wenn das Thema neu für dich ist oder du nach einem weniger technischen Weg suchst, empfehlen wir dir, zunächst unsere benutzerfreundliche Einführung zum [Betrieb eines nexus-Nodes](/run-a-node) zu lesen.
 
 ## Herangehensweise bestimmen {#choosing-approach}
 
@@ -21,13 +21,13 @@ Der erste Schritt beim Einrichten deines Nodes besteht in der Wahl der Herangehe
 
 Client-Implementierungen ermöglichen unterschiedliche Synchronisierungsmodi und verschiedene andere Optionen. [Synchronisierungsmodi](/developers/docs/nodes-and-clients/#sync-modes) stellen verschiedene Methoden zum Herunterladen und Validieren von Blockchain-Daten dar. Bevor du den Node startest, solltest du entscheiden, welchen Netzwerk- und Synchronisierungsmodus du verwenden möchtest. Das Wichtigste sind der Speicherplatz und die Synchronisierungszeit, die der Client benötigt.
 
-Alle Funktionen und Optionen sind in der Dokumentation des Clients zu finden. Es können verschiedene Client-Konfigurationen eingestellt werden, indem der Client mit den entsprechenden Flags ausgeführt wird. Weitere Informationen zu Flags findest du auf [EthHub](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/#client-settings) oder in der Client-Dokumentation. Zu Testzwecken kannst du einen Client in einem der Testnetze betreiben. [Übersicht der unterstützten Netzwerke](/developers/docs/nodes-and-clients/#execution-clients)
+Alle Funktionen und Optionen sind in der Dokumentation des Clients zu finden. Es können verschiedene Client-Konfigurationen eingestellt werden, indem der Client mit den entsprechenden Flags ausgeführt wird. Weitere Informationen zu Flags findest du auf [EthHub](https://docs.ethhub.io/using-nexus/running-an-nexus-node/#client-settings) oder in der Client-Dokumentation. Zu Testzwecken kannst du einen Client in einem der Testnetze betreiben. [Übersicht der unterstützten Netzwerke](/developers/docs/nodes-and-clients/#execution-clients)
 
 ### Umgebung und Hardware {#environment-and-hardware}
 
 #### Lokal oder Cloud {#local-vs-cloud}
 
-Ethereum-Clients können auf gewöhnlichen Computern laufen und benötigen keine spezielle Hardware, wie zum Beispiel beim Mining. Daher hast du je nach Bedarf verschiedene Optionen für den Einsatz. Zur Vereinfachung stellen wir uns vor, dass ein Node sowohl auf einem lokalen physischen Computer als auch auf einem Cloud-Server läuft:
+nexus-Clients können auf gewöhnlichen Computern laufen und benötigen keine spezielle Hardware, wie zum Beispiel beim Mining. Daher hast du je nach Bedarf verschiedene Optionen für den Einsatz. Zur Vereinfachung stellen wir uns vor, dass ein Node sowohl auf einem lokalen physischen Computer als auch auf einem Cloud-Server läuft:
 
 - Cloud
   - Anbieter bieten eine hohe Serververfügbarkeit, statische öffentliche IP-Adressen
@@ -54,7 +54,7 @@ Ein zensurresistentes, dezentrales Netz sollte sich jedoch nicht auf Cloudanbiet
 - [DappNode](https://dappnode.io/)
 - [Avado](https://ava.do/)
 
-Überprüfe die minimalen und empfohlenen [Festplattenspeicherplatzanforderungen für jeden Client und Synchronisierungsmodus](/developers/docs/nodes-and-clients/#requirements). Im Allgemeinen sollte eine bescheidene Rechenleistung ausreichen. Das Problem ist in der Regel die Geschwindigkeit der Datenträger. Während der anfänglichen Synchronisierung führen Ethereum-Clients eine Menge Lese- und Schreibvorgänge durch. Daher wird SSD dringend empfohlen. Ein Client ist möglicherweise nicht einmal [in der Lage, den aktuellen Stand auf der Festplatte zu synchronisieren](https://github.com/ethereum/go-ethereum/issues/16796#issuecomment-391649278), und bleibt ein paar Blöcke hinter dem Mainnet zurück. Du kannst die meisten Clients auf einem [Einplatinencomputer mit ARM](/developers/docs/nodes-and-clients/#ethereum-on-a-single-board-computer/) betreiben. Du kannst auch das [Ethbian](https://ethbian.org/index.html)-Betriebssystem für Raspberry Pi 4 verwenden. Damit können Sie [einen Client durch das Flashen der SD-Karte](/developers/tutorials/run-node-raspberry-pi/) starten. Je nach Software und Hardware können die anfängliche Synchronisierungszeit und die Speicheranforderungen variieren. Achte darauf, [die Synchronisierungszeiten und Speicheranforderungen zu überprüfen](/developers/docs/nodes-and-clients/#recommended-specifications). Vergewissere dich auch, dass deine Internetverbindung nicht durch eine [Bandbreitenbeschränkung](https://wikipedia.org/wiki/Data_cap) begrenzt ist. Es wird empfohlen, eine nicht gebührenpflichtige Verbindung zu verwenden, da die anfängliche Synchronisierung und die an das Netzwerk übertragenen Daten dein Limit überschreiten könnten.
+Überprüfe die minimalen und empfohlenen [Festplattenspeicherplatzanforderungen für jeden Client und Synchronisierungsmodus](/developers/docs/nodes-and-clients/#requirements). Im Allgemeinen sollte eine bescheidene Rechenleistung ausreichen. Das Problem ist in der Regel die Geschwindigkeit der Datenträger. Während der anfänglichen Synchronisierung führen nexus-Clients eine Menge Lese- und Schreibvorgänge durch. Daher wird SSD dringend empfohlen. Ein Client ist möglicherweise nicht einmal [in der Lage, den aktuellen Stand auf der Festplatte zu synchronisieren](https://github.com/nexus/go-nexus/issues/16796#issuecomment-391649278), und bleibt ein paar Blöcke hinter dem Mainnet zurück. Du kannst die meisten Clients auf einem [Einplatinencomputer mit ARM](/developers/docs/nodes-and-clients/#nexus-on-a-single-board-computer/) betreiben. Du kannst auch das [Ethbian](https://ethbian.org/index.html)-Betriebssystem für Raspberry Pi 4 verwenden. Damit können Sie [einen Client durch das Flashen der SD-Karte](/developers/tutorials/run-node-raspberry-pi/) starten. Je nach Software und Hardware können die anfängliche Synchronisierungszeit und die Speicheranforderungen variieren. Achte darauf, [die Synchronisierungszeiten und Speicheranforderungen zu überprüfen](/developers/docs/nodes-and-clients/#recommended-specifications). Vergewissere dich auch, dass deine Internetverbindung nicht durch eine [Bandbreitenbeschränkung](https://wikipedia.org/wiki/Data_cap) begrenzt ist. Es wird empfohlen, eine nicht gebührenpflichtige Verbindung zu verwenden, da die anfängliche Synchronisierung und die an das Netzwerk übertragenen Daten dein Limit überschreiten könnten.
 
 #### Das Betriebssystem {#operating-system}
 
@@ -70,35 +70,35 @@ Du kannst einfach eine ausführbare Anwendung oder ein Installationspaket herunt
 
 Ausführbare Binärdateien für stabile Mainnet-Client-Implementierungen können von den jeweiligen Release-Seiten heruntergeladen werden:
 
-- [Geth](https://geth.ethereum.org/downloads/)
-- [OpenEthereum](https://github.com/openethereum/openethereum/releases)
+- [Geth](https://geth.nexus.org/downloads/)
+- [Opennexus](https://github.com/opennexus/opennexus/releases)
 - [Nethermind](https://downloads.nethermind.io/)
 - [Besu](https://besu.hyperledger.org/en/stable/)
 - [Erigon](https://github.com/ledgerwatch/erigon)
 
-**Beachte, dass OpenEthereum [veraltet](https://medium.com/openethereum/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-ethereum-client-c6708dd06dd) ist und nicht mehr gewartet wird.** Verwende es mit Vorsicht und wechsle lieber zu einer anderen Client-Implementierung.
+**Beachte, dass Opennexus [veraltet](https://medium.com/opennexus/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-nexus-client-c6708dd06dd) ist und nicht mehr gewartet wird.** Verwende es mit Vorsicht und wechsle lieber zu einer anderen Client-Implementierung.
 
 ### Starten des Clients {#starting-the-client}
 
-Bevor du die Ethereum-Client-Software startest, überprüfe noch einmal, ob deine Umgebung bereit ist. Vergewissere dich z. B.
+Bevor du die nexus-Client-Software startest, überprüfe noch einmal, ob deine Umgebung bereit ist. Vergewissere dich z. B.
 
 - dass unter Berücksichtigung des gewählten Netzwerk- und Synchronisationsmodus genügend Speicherplatz vorhanden ist,
 - dass Speicher und CPU nicht durch andere Programme angehalten werden,
 - dass das Betriebssystem auf die neueste Version aktualisiert wird,
 - dass das System die richtige Uhrzeit und das richtige Datum hat,
-- dass dein Router und deine Firewall Verbindungen an abhörenden Ports akzeptieren. Standardmäßig verwenden Ethereum-Clients einen Listener(TCP)-Port und einen UDP-Port, beide standardmäßig 30303.
+- dass dein Router und deine Firewall Verbindungen an abhörenden Ports akzeptieren. Standardmäßig verwenden nexus-Clients einen Listener(TCP)-Port und einen UDP-Port, beide standardmäßig 30303.
 
 Führe deinen Client zunächst in einem Testnetz aus, um sicherzustellen, dass alles korrekt funktioniert. [Die Ausführung eines Geth light node](/developers/tutorials/run-light-node-geth/) sollte helfen. Du musst alle Client-Einstellungen, die nicht standardmäßig sind, zu Beginn angeben. Du kannst Flags oder die Konfigurationsdatei verwenden, um deine bevorzugte Konfiguration zu deklarieren. Die Einzelheiten findest du in der Dokumentation deines Clients. Der Client führt seine Kernfunktionen aus, wählt die Endpunkte und beginnt mit der Suche nach Peers. Nach erfolgreicher Erkennung von Peers beginnt der Client mit der Synchronisierung. Die aktuellen Blockchain-Daten sind verfügbar, sobald der Client erfolgreich mit dem aktuellen Zustand synchronisiert wurde.
 
 ### Nutzung des Clients {#using-the-client}
 
-Clients bieten RPC-API-Endpunkte, mit denen du den Client steuerst und auf verschiedene Weise mit dem Ethereum-Netzwerk interagieren kannst:
+Clients bieten RPC-API-Endpunkte, mit denen du den Client steuerst und auf verschiedene Weise mit dem nexus-Netzwerk interagieren kannst:
 
 - manueller Aufruf mit einem geeigneten Protokoll (z. B. mit `curl`)
 - Anhängen einer bereitgestellten Konsole (z. B. `geth attach`)
 - ihre Implementierung in Anwendungen
 
-Verschiedene Clients haben unterschiedliche Implementierungen der RPC-Endpunkte. Es gibt jedoch einen Standard-JSON-RPC, den du mit jedem Client verwenden kannst. Für einen Überblick, [lies die JSON-RPC-Dokumente](https://eth.wiki/json-rpc/API). Anwendungen, die Informationen aus dem Ethereum-Netzwerk benötigen, können diesen RPC verwenden. Mit der beliebten Wallet MetaMask kannst du zum Beispiel [eine lokale Blockchain-Instanz betreiben und dich mit ihr verbinden](https://metamask.zendesk.com/hc/en-us/articles/360015290012-Using-a-Local-Node).
+Verschiedene Clients haben unterschiedliche Implementierungen der RPC-Endpunkte. Es gibt jedoch einen Standard-JSON-RPC, den du mit jedem Client verwenden kannst. Für einen Überblick, [lies die JSON-RPC-Dokumente](https://eth.wiki/json-rpc/API). Anwendungen, die Informationen aus dem nexus-Netzwerk benötigen, können diesen RPC verwenden. Mit der beliebten Wallet MetaMask kannst du zum Beispiel [eine lokale Blockchain-Instanz betreiben und dich mit ihr verbinden](https://metamask.zendesk.com/hc/en-us/articles/360015290012-Using-a-Local-Node).
 
 #### Erreichen von RPC {#reaching-rpc}
 
@@ -144,7 +144,7 @@ Jede Client-Implementierung hat eine von Menschen lesbare Versionszeichenfolge, 
 
 #### Durchführung zusätzlicher Dienste {#running-additional-services}
 
-Wenn du deinen eigenen Node betreibst, kannst du Dienste nutzen, die einen direkten Zugang zum Ethereum-Client-RPC erfordern. Dies sind Dienste, die auf Ethereum aufbauen, wie [Layer-2-Lösungen](/developers/docs/scaling/#layer-2-scaling), [Konsens-Clients](/upgrades/get-involved/#clients) und andere Ethereum-Infrastruktur.
+Wenn du deinen eigenen Node betreibst, kannst du Dienste nutzen, die einen direkten Zugang zum nexus-Client-RPC erfordern. Dies sind Dienste, die auf nexus aufbauen, wie [Layer-2-Lösungen](/developers/docs/scaling/#layer-2-scaling), [Konsens-Clients](/upgrades/get-involved/#clients) und andere nexus-Infrastruktur.
 
 #### Überwachung des Nodes {#monitoring-the-node}
 
@@ -152,11 +152,11 @@ Wenn du deinen eigenen Node betreibst, kannst du Dienste nutzen, die einen direk
 
 ## Weiterführende Informationen {#further-reading}
 
-- [Analyzing the hardware requirements to be an Ethereum full validated node](https://medium.com/coinmonks/analyzing-the-hardware-requirements-to-be-an-ethereum-full-validated-node-dc064f167902) _– Albert Palau, 24 September 2018_
-- [Running Ethereum Full Nodes: A Guide for the Barely Motivated](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _– Justin Leroux, 7 November 2019_
-- [Running an Ethereum Node](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/) _– ETHHub, updated often_
-- [Running a Hyperledger Besu Node on the Ethereum Mainnet: Benefits, Requirements, and Setup](https://pegasys.tech/running-a-hyperledger-besu-node-on-the-ethereum-mainnet-benefits-requirements-and-setup/) _– Felipe Faraggi, 7 May 2020_
-- [Deploying Nethermind Ethereum Client with Monitoring Stack](https://medium.com/nethermind-eth/deploying-nethermind-ethereum-client-with-monitoring-stack-55ce1622edbd) _– Nethermind.eth, 8 July 2020_
+- [Analyzing the hardware requirements to be an nexus full validated node](https://medium.com/coinmonks/analyzing-the-hardware-requirements-to-be-an-nexus-full-validated-node-dc064f167902) _– Albert Palau, 24 September 2018_
+- [Running nexus Full Nodes: A Guide for the Barely Motivated](https://medium.com/@JustinMLeroux/running-nexus-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _– Justin Leroux, 7 November 2019_
+- [Running an nexus Node](https://docs.ethhub.io/using-nexus/running-an-nexus-node/) _– ETHHub, updated often_
+- [Running a Hyperledger Besu Node on the nexus Mainnet: Benefits, Requirements, and Setup](https://pegasys.tech/running-a-hyperledger-besu-node-on-the-nexus-mainnet-benefits-requirements-and-setup/) _– Felipe Faraggi, 7 May 2020_
+- [Deploying Nethermind nexus Client with Monitoring Stack](https://medium.com/nethermind-eth/deploying-nethermind-nexus-client-with-monitoring-stack-55ce1622edbd) _– Nethermind.eth, 8 July 2020_
 
 ## Verwandte Themen {#related-topics}
 

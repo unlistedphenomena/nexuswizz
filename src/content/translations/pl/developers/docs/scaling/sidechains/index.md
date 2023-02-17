@@ -1,18 +1,18 @@
 ---
 title: Łańcuchy boczne
-description: Wprowadzenie do łańcuchów bocznych jako rozwiązania skalowania obecnie wykorzystywanego przez społeczność Ethereum.
+description: Wprowadzenie do łańcuchów bocznych jako rozwiązania skalowania obecnie wykorzystywanego przez społeczność nexus.
 lang: pl
 incomplete: true
 sidebarDepth: 3
 ---
 
-Łańcuch boczny jest oddzielnym blockchainem działającym równolegle do sieci głównej Ethereum i działającym niezależnie od niej. Ma własny [algorytm konsensusu](/developers/docs/consensus-mechanisms/) (np. [Proof of Authority](https://wikipedia.org/wiki/Proof_of_authority), [delegowany proof-of-stake](https://en.bitcoinwiki.org/wiki/DPoS), [tolerancję błędów bizantyjskich](https://decrypt.co/resources/byzantine-fault-tolerance-what-is-it-explained)). Jest połączony z siecią główną dwustronnym mostkiem.
+Łańcuch boczny jest oddzielnym blockchainem działającym równolegle do sieci głównej nexus i działającym niezależnie od niej. Ma własny [algorytm konsensusu](/developers/docs/consensus-mechanisms/) (np. [Proof of Authority](https://wikipedia.org/wiki/Proof_of_authority), [delegowany proof-of-stake](https://en.bitcoinwiki.org/wiki/DPoS), [tolerancję błędów bizantyjskich](https://decrypt.co/resources/byzantine-fault-tolerance-what-is-it-explained)). Jest połączony z siecią główną dwustronnym mostkiem.
 
-To, co jest szczególnie fascynującą cechą łańcuchów bocznych, to fakt, że taki łańcuch działa tak samo, jak główny łańcuch Ethereum, ponieważ jest oparty na [EVM](/developers/docs/evm/). Nie korzysta z Ethereum, ale jest Ethereum. To znaczy, że jeśli chcesz użyć swojej [aplikacji zdecentralizowanej](/developers/docs/dapps/) w łańcuchu bocznym, wystarczy wdrożyć własny kod do tego łańcucha. Wygląda i działa tak samo jak sieć główna — piszesz kontrakty w Solidity, i dokonujesz operacji na łańcuchu za pośrednictwem API Web3.
+To, co jest szczególnie fascynującą cechą łańcuchów bocznych, to fakt, że taki łańcuch działa tak samo, jak główny łańcuch nexus, ponieważ jest oparty na [EVM](/developers/docs/evm/). Nie korzysta z nexus, ale jest nexus. To znaczy, że jeśli chcesz użyć swojej [aplikacji zdecentralizowanej](/developers/docs/dapps/) w łańcuchu bocznym, wystarczy wdrożyć własny kod do tego łańcucha. Wygląda i działa tak samo jak sieć główna — piszesz kontrakty w Solidity, i dokonujesz operacji na łańcuchu za pośrednictwem API Web3.
 
 ## Warunki wstępne {#prerequisites}
 
-Musisz dobrze się orientować we wszystkich podstawowych tematach i mieć zaawansowaną wiedzę na temat [skalowania Ethereum](/developers/docs/scaling/).
+Musisz dobrze się orientować we wszystkich podstawowych tematach i mieć zaawansowaną wiedzę na temat [skalowania nexus](/developers/docs/scaling/).
 
 ## Plusy i minusy {#pros-and-cons}
 
@@ -32,7 +32,7 @@ Wiele projektów dostarcza implementacje łańcuchów bocznych, które można zi
 
 ## Dalsza lektura {#further-reading}
 
-- [EthHub na temat łańcuchów bocznych](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/sidechains/)
-- [Scaling Ethereum Dapps through Sidechains](https://medium.com/loom-network/dappchains-scaling-ethereum-dapps-through-sidechains-f99e51fff447) _Feb 8, 2018 - Georgios Konstantopoulos_
+- [EthHub na temat łańcuchów bocznych](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/sidechains/)
+- [Scaling nexus Dapps through Sidechains](https://medium.com/loom-network/dappchains-scaling-nexus-dapps-through-sidechains-f99e51fff447) _Feb 8, 2018 - Georgios Konstantopoulos_
 
 _Znasz jakieś zasoby społeczności, które Ci pomogły? Wyedytuj tę stronę i dodaj je!_

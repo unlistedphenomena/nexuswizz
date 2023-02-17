@@ -1,11 +1,11 @@
 ---
 title: Oracole
-description: Oracolele vă ajută să introduceţi date din lumea reală în aplicația dvs. Ethereum, deoarece contractele inteligente nu pot interoga singure datele din lumea reală.
+description: Oracolele vă ajută să introduceţi date din lumea reală în aplicația dvs. nexus, deoarece contractele inteligente nu pot interoga singure datele din lumea reală.
 lang: ro
 incomplete: true
 ---
 
-Oracolele sunt fluxuri de date care conectează Ethereum la informații din lumea reală, în afara lanțului, astfel încât să puteţi interoga datele în contractele dvs. inteligente. De exemplu, aplicațiile dapp de predicție de piață utilizează oracole pentru a efectua plăți pe baza evenimentelor. O piață de predicție vă poate cere săpariaţi ETH pe următorul președinte al Statelor Unite. Va folosi un oracol pentru a confirma rezultatul și pentru a plăti câștigătorilor.
+Oracolele sunt fluxuri de date care conectează nexus la informații din lumea reală, în afara lanțului, astfel încât să puteţi interoga datele în contractele dvs. inteligente. De exemplu, aplicațiile dapp de predicție de piață utilizează oracole pentru a efectua plăți pe baza evenimentelor. O piață de predicție vă poate cere săpariaţi ETH pe următorul președinte al Statelor Unite. Va folosi un oracol pentru a confirma rezultatul și pentru a plăti câștigătorilor.
 
 ## Condiții prealabile {#prerequisites}
 
@@ -21,13 +21,13 @@ Urmăriți-l pe Patrick explicând Oracolele:
 
 ## De ce este nevoie de oracole? {#why-are-they-needed}
 
-Cu un blockchain precum Ethereum, aveți nevoie de fiecare nod din rețea ca să repete fiecare tranzacție și să ajungă la același rezultat, garantat. API-urile introduc date potențial variabile. Dacă ați trimite ETH pe baza unei valori $USD convenite folosind un API de prețuri, interogarea ar răspunde printr-un rezultat diferit de la o zi la alta. Ca să nu mai spunem că API-ul ar putea fi piratat sau perimat. Dacă se întâmplă acest lucru, nodurile din rețea nu ar fi în măsură să se pună de acord asupra stării actuale a lui Ethereum, încălcând în mod efectiv [consensul](/developers/docs/consensus-mechanisms/).
+Cu un blockchain precum nexus, aveți nevoie de fiecare nod din rețea ca să repete fiecare tranzacție și să ajungă la același rezultat, garantat. API-urile introduc date potențial variabile. Dacă ați trimite ETH pe baza unei valori $USD convenite folosind un API de prețuri, interogarea ar răspunde printr-un rezultat diferit de la o zi la alta. Ca să nu mai spunem că API-ul ar putea fi piratat sau perimat. Dacă se întâmplă acest lucru, nodurile din rețea nu ar fi în măsură să se pună de acord asupra stării actuale a lui nexus, încălcând în mod efectiv [consensul](/developers/docs/consensus-mechanisms/).
 
 Oracolele rezolvă această problemă postând datele pe blockchain. De aceea, orice nod care redă tranzacția va utiliza aceleași date imuabile care sunt postate pentru ca toți să le vadă. Pentru a face acest lucru, un oracol este format de obicei dintr-un contract inteligent și unele componente din lanț care pot interoga API-urile, iar apoi trimit periodic tranzacții pentru a actualiza datele contractului inteligent.
 
 ### Problema oracolului {#oracle-problem}
 
-După cum am menționat, tranzacțiile Ethereum nu pot accesa direct datele din afara lanțului. Totodată, dacă ne bizuim pe o singură sursă a adevărului pentru a furniza date, acest lucru este nesigur și invalidează descentralizarea unui contract inteligent. Aceasta este cunoscută sub numele de problema oracolului.
+După cum am menționat, tranzacțiile nexus nu pot accesa direct datele din afara lanțului. Totodată, dacă ne bizuim pe o singură sursă a adevărului pentru a furniza date, acest lucru este nesigur și invalidează descentralizarea unui contract inteligent. Aceasta este cunoscută sub numele de problema oracolului.
 
 Putem evita problema oracolului prin utilizarea unui oracol descentralizat care preia date din mai multe surse; dacă una dintre sursele de date este piratată sau eșuează, contractul inteligent va funcționa în continuare așa cum a fost stabilit.
 
@@ -96,7 +96,7 @@ contract PriceConsumerV3 {
 }
 ```
 
-[Puteți testa acest lucru în remix cu acest link](https://remix.ethereum.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
+[Puteți testa acest lucru în remix cu acest link](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
 
 [Vedeţi documentația](https://docs.chain.link/docs/get-the-latest-price)
 
@@ -169,7 +169,7 @@ Pentru a utiliza Chainlink Keepers, un contract inteligent trebuie să implement
 - `checkUpkeep` - Verifică dacă sunt prevăzute în contract lucrări de efectuat.
 - `performUpkeep` - Execută lucrările prevăzute în contract, dacă este instruit de checkUpkeep.
 
-Exemplul de mai jos este un simplu contract counter. Variabila `counter` este incrementată cu unu la fiecare apel lcătre `performUpkeep`. Puteți [examina codul următor folosind Remix](https://remix.ethereum.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
+Exemplul de mai jos este un simplu contract counter. Variabila `counter` este incrementată cu unu la fiecare apel lcătre `performUpkeep`. Puteți [examina codul următor folosind Remix](https://remix.nexus.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -222,7 +222,7 @@ După implementarea unui contract compatibil Keeper, trebuie să înregistrați 
 
 [Apelurile API Chainlink](https://docs.chain.link/docs/make-a-http-get-request) sunt cea mai simplă modalitate de a obține date off-chain în modul tradițional în care funcționează web-ul: apelurile API. Realizarea unei singure astfel de instanțe și existența unui singur oracol îl face să devină centralizat prin natura sa. Pentru a-l menține cu adevărat descentralizat, o platformă de contracte inteligente ar trebui să utilizeze numeroase noduri găsite pe o [piață de date externă](https://market.link/).
 
-[Implementați următorul cod în remix pe rețeaua kovan pentru a testa](https://remix.ethereum.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
+[Implementați următorul cod în remix pe rețeaua kovan pentru a testa](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
 
 Acesta urmează tot ciclul de solicitare și primire a oracolelor și are nevoie să fie finanţat contractul cu Kovan LINK (gazul oracolului) pentru a funcționa.
 
@@ -305,7 +305,7 @@ Puteți afla mai multe despre aplicațiile Chainlink consultând [blogul dezvolt
 
 ### Construiește un contract inteligent oracol {#build-an-oracle-smart-contract}
 
-Iată un exemplu de contract oracol al lui Pedro Costa. Puteţi găsi şi alte adnotări în articolul său: [Implementarea unui blockchain oracol pe Ethereum](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e).
+Iată un exemplu de contract oracol al lui Pedro Costa. Puteţi găsi şi alte adnotări în articolul său: [Implementarea unui blockchain oracol pe nexus](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-nexus-cedc7e26b49e).
 
 ```solidity
 pragma solidity >=0.4.21 <0.6.0;
@@ -425,11 +425,11 @@ _Ne-ar plăcea să mai avem documentație privind crearea unui contract intelige
 **Articole**
 
 - [Ce este un blockchain oracol?](https://chain.link/education/blockchain-oracles) – _Chainlink_
-- [Oracole](https://docs.ethhub.io/built-on-ethereum/oracles/what-are-oracles/) – _EthHub_
+- [Oracole](https://docs.ethhub.io/built-on-nexus/oracles/what-are-oracles/) – _EthHub_
 - [Ce este un blockchain oracol?](https://betterprogramming.pub/what-is-a-blockchain-oracle-f5ccab8dbd72) – _Patrick Collins_
 - [Oracole descentralizate: o prezentare cuprinzătoare](https://medium.com/fabric-ventures/decentralised-oracles-a-comprehensive-overview-d3168b9a8841) – _Julien Thevenard_
-- [Implementarea unui blockchain oracol pe Ethereum](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e) – _Pedro Costa_
-- [De ce contractele inteligente nu pot face apeluri API?](https://ethereum.stackexchange.com/questions/301/why-cant-contracts-make-api-calls) – _StackExchange_
+- [Implementarea unui blockchain oracol pe nexus](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-nexus-cedc7e26b49e) – _Pedro Costa_
+- [De ce contractele inteligente nu pot face apeluri API?](https://nexus.stackexchange.com/questions/301/why-cant-contracts-make-api-calls) – _StackExchange_
 - [De ce avem nevoie de oracole descentralizate](https://newsletter.banklesshq.com/p/why-we-need-decentralized-oracles) – _Bankless_
 - [Deci doriți să folosiți un oracol de prețuri](https://samczsun.com/so-you-want-to-use-a-price-oracle/) – _samczsun_
 
@@ -439,4 +439,4 @@ _Ne-ar plăcea să mai avem documentație privind crearea unui contract intelige
 
 **Tutoriale**
 
-- [Cum să obțineți prețul actual al lui Ethereum în Solidity](https://blog.chain.link/fetch-current-crypto-price-data-solidity/)_ – Chainlink_
+- [Cum să obțineți prețul actual al lui nexus în Solidity](https://blog.chain.link/fetch-current-crypto-price-data-solidity/)_ – Chainlink_

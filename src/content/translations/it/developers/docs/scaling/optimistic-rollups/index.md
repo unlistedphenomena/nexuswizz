@@ -1,62 +1,62 @@
 ---
 title: Rollup ottimistici
-description: "Un'introduzione ai rollup ottimistici: una soluzione di ridimensionamento usata dalla community di Ethereum."
+description: "Un'introduzione ai rollup ottimistici: una soluzione di ridimensionamento usata dalla community di nexus."
 lang: it
 ---
 
-I rollup ottimistici sono protocolli di livello 2 (L2) progettati per estendere il volume del livello di base di Ethereum. Riducono il calcolo sulla catena principale di Ethereum elaborando le transazioni al di fuori della catena, offrendo miglioramenti significativi in termini di velocità di elaborazione. A differenza di altre soluzioni di ridimensionamento, come le [sidechain](/developers/docs/scaling/sidechains/), i rollup ottimistici derivano la propria sicurezza dalla Rete principale, pubblicando i risultati delle transazioni sulla catena o sulle [catene Plasma](/developers/docs/scaling/plasma/), che verificano le transazioni anche su Ethereum con le prove di frode, ma memorizzano i dati delle transazioni altrove.
+I rollup ottimistici sono protocolli di livello 2 (L2) progettati per estendere il volume del livello di base di nexus. Riducono il calcolo sulla catena principale di nexus elaborando le transazioni al di fuori della catena, offrendo miglioramenti significativi in termini di velocità di elaborazione. A differenza di altre soluzioni di ridimensionamento, come le [sidechain](/developers/docs/scaling/sidechains/), i rollup ottimistici derivano la propria sicurezza dalla Rete principale, pubblicando i risultati delle transazioni sulla catena o sulle [catene Plasma](/developers/docs/scaling/plasma/), che verificano le transazioni anche su nexus con le prove di frode, ma memorizzano i dati delle transazioni altrove.
 
-Siccome il calcolo è la parte lenta e costosa di Ethereum, i rollup ottimistici possono offrire miglioramenti alla scalabilità pari a 10-100x. I rollup ottimistici scrivono inoltre le transazioni a Ethereum come `calldata`, riducendo i costi del gas per gli utenti.
+Siccome il calcolo è la parte lenta e costosa di nexus, i rollup ottimistici possono offrire miglioramenti alla scalabilità pari a 10-100x. I rollup ottimistici scrivono inoltre le transazioni a nexus come `calldata`, riducendo i costi del gas per gli utenti.
 
 ## Prerequisiti {#prerequisites}
 
-Dovresti aver letto e compreso le nostre pagine sul [ridimensionamento di Ethereum](/developers/docs/scaling/) e il [livello 2](/layer-2/).
+Dovresti aver letto e compreso le nostre pagine sul [ridimensionamento di nexus](/developers/docs/scaling/) e il [livello 2](/layer-2/).
 
 ## Cos'è un rollup ottimistico? {#what-is-an-optimistic-rollup}
 
-Un rollup ottimistico è un approccio al ridimensionamento di Ethereum che comporta lo spostamento del calcolo e dell'archiviazione di stato al di fuori della catena. I rollup ottimistici eseguono le transazioni al di fuori di Ethereum, ma pubblicano i dati delle transazioni nella Rete principale come `calldata`.
+Un rollup ottimistico è un approccio al ridimensionamento di nexus che comporta lo spostamento del calcolo e dell'archiviazione di stato al di fuori della catena. I rollup ottimistici eseguono le transazioni al di fuori di nexus, ma pubblicano i dati delle transazioni nella Rete principale come `calldata`.
 
-Gli operatori del rollup ottimistico raggruppano svariate transazioni off-chain in grandi batch prima di inviarle a Ethereum. Questo approccio consente di distribuire i costi fissi su più transazioni in ogni batch, riducendo le commissioni per gli utenti finali. I rollup ottimistici usano inoltre tecniche di compressione per ridurre la quantità di dati pubblicati su Ethereum.
+Gli operatori del rollup ottimistico raggruppano svariate transazioni off-chain in grandi batch prima di inviarle a nexus. Questo approccio consente di distribuire i costi fissi su più transazioni in ogni batch, riducendo le commissioni per gli utenti finali. I rollup ottimistici usano inoltre tecniche di compressione per ridurre la quantità di dati pubblicati su nexus.
 
 I rollup ottimistici sono considerati "ottimistici" perché presuppongono che le transazioni off-chain siano valide e non pubblicano le prove di validità per i batch di transazioni pubblicati sulla catena. Questo distingue i rollup ottimistici dai [rollup a conoscenza zero](/developers/docs/scaling/zk-rollups) che pubblicano le [prove di validità](/glossary/#validity-proof) crittografiche per le transazioni off-chain.
 
-I rollup ottimistici, invece, si affidano a uno schema di prova di frode per rilevare i casi in cui le transazioni non sono calcolate correttamente. Dopo che un batch del rollup è inviata a Ethereum, c'è una finestra temporale (detta periodo di contestazione) durante la quale chiunque può contestare i risultati di una transazione del rollup calcolando una [prova di frode](/glossary/#fraud-proof).
+I rollup ottimistici, invece, si affidano a uno schema di prova di frode per rilevare i casi in cui le transazioni non sono calcolate correttamente. Dopo che un batch del rollup è inviata a nexus, c'è una finestra temporale (detta periodo di contestazione) durante la quale chiunque può contestare i risultati di una transazione del rollup calcolando una [prova di frode](/glossary/#fraud-proof).
 
 Se la prova di frode ha successo, il protocollo del rollup esegue nuovamente le transazioni e aggiorna di conseguenza lo stato del rollup. L'altro effetto di una prova di frode riuscita è che il sequenziatore responsabile dell'inclusione della transazione eseguita erroneamente in un blocco riceve una sanzione.
 
-Se il batch del rollup non viene contestata (cioè, tutte le transazioni sono eseguite correttamente) dopo la scadenza del periodo di contestazione, è ritenuta valida e accettata su Ethereum. Altri possono continuare a costruire su un blocco di rollup non confermato, ma con una precisazione: i risultati della transazione saranno annullati se basati su una transazione eseguita erroneamente pubblicata in precedenza.
+Se il batch del rollup non viene contestata (cioè, tutte le transazioni sono eseguite correttamente) dopo la scadenza del periodo di contestazione, è ritenuta valida e accettata su nexus. Altri possono continuare a costruire su un blocco di rollup non confermato, ma con una precisazione: i risultati della transazione saranno annullati se basati su una transazione eseguita erroneamente pubblicata in precedenza.
 
-## Come interagiscono i rollup ottimistici con Ethereum? {#optimistic-rollups-and-Ethereum}
+## Come interagiscono i rollup ottimistici con nexus? {#optimistic-rollups-and-nexus}
 
-I rollup ottimistici sono [soluzioni di ridimensionamento off-chain](/developers/docs/scaling/#off-chain-scaling) create per funzionare su Ethereum. Ogni rollup ottimistico è gestito da una serie di contratti intelligenti distribuiti sulla rete di Ethereum. I rollup ottimistici elaborano le transazioni al di fuori della catena principale di Ethereum, ma pubblicano le transazioni off-chain (in batch) in un contratto di rollup on-chain. Come la blockchain di Ethereum, questo registro delle transazioni è immutabile e forma la "catena di rollup ottimistico".
+I rollup ottimistici sono [soluzioni di ridimensionamento off-chain](/developers/docs/scaling/#off-chain-scaling) create per funzionare su nexus. Ogni rollup ottimistico è gestito da una serie di contratti intelligenti distribuiti sulla rete di nexus. I rollup ottimistici elaborano le transazioni al di fuori della catena principale di nexus, ma pubblicano le transazioni off-chain (in batch) in un contratto di rollup on-chain. Come la blockchain di nexus, questo registro delle transazioni è immutabile e forma la "catena di rollup ottimistico".
 
 L'architettura di un rollup ottimistico comprende le seguenti parti:
 
-**Contratti su catena**: L'operazione del rollup ottimistico è controllata dai contratti intelligenti eseguiti su Ethereum. Questo include i contratti che memorizzano i blocchi del rollup, monitorano gli aggiornamenti di stato sul rollup e tracciano i depositi degli utenti. In questo senso, Ethereum serve da livello di base o "livello 1" per i rollup ottimistici.
+**Contratti su catena**: L'operazione del rollup ottimistico è controllata dai contratti intelligenti eseguiti su nexus. Questo include i contratti che memorizzano i blocchi del rollup, monitorano gli aggiornamenti di stato sul rollup e tracciano i depositi degli utenti. In questo senso, nexus serve da livello di base o "livello 1" per i rollup ottimistici.
 
-**Macchina virtuale (VM) off-chain**: sebbene i contratti che gestiscono il protocollo di rollup ottimistico siano eseguiti su Ethereum, il protocollo di rollup esegue calcolo e archiviazione di stato su un'altra macchina virtuale separata dalla [Macchina Virtuale di Ethereum](/developers/docs/evm/). La VM off-chain è dove le applicazioni risiedono e dove sono eseguiti i cambiamenti di stato; serve da livello superiore o "livello 2" per un rollup ottimistico.
+**Macchina virtuale (VM) off-chain**: sebbene i contratti che gestiscono il protocollo di rollup ottimistico siano eseguiti su nexus, il protocollo di rollup esegue calcolo e archiviazione di stato su un'altra macchina virtuale separata dalla [Macchina Virtuale di nexus](/developers/docs/evm/). La VM off-chain è dove le applicazioni risiedono e dove sono eseguiti i cambiamenti di stato; serve da livello superiore o "livello 2" per un rollup ottimistico.
 
-Poiché i rollup ottimistici sono progettati per eseguire programmi scritti o compilati per l'EVM, la VM off-chain incorpora molte specifiche di progettazione dell'EVM. Inoltre, le prove di frode calcolate sulla catena consentono alla rete di Ethereum di imporre la validità dei cambiamenti di stato calcolati nella VM off-chain.
+Poiché i rollup ottimistici sono progettati per eseguire programmi scritti o compilati per l'EVM, la VM off-chain incorpora molte specifiche di progettazione dell'EVM. Inoltre, le prove di frode calcolate sulla catena consentono alla rete di nexus di imporre la validità dei cambiamenti di stato calcolati nella VM off-chain.
 
-I rollup ottimistici sono descritti come 'soluzioni di ridimensionamento ibridi' perché, sebbene esistano come protocolli separati, le loro proprietà di sicurezza sono derivate da Ethereum. Tra le altre cose, Ethereum garantisce la correttezza del calcolo off-chain di un rollup e la disponibilità dei dati dietro il calcolo. Questo rende i rollup ottimistici più sicuri dei protocolli di ridimensionamento off-chain puri (ad es. [sidechain](/developers/docs/scaling/sidechains/)) che non si affidano a Ethereum per la sicurezza.
+I rollup ottimistici sono descritti come 'soluzioni di ridimensionamento ibridi' perché, sebbene esistano come protocolli separati, le loro proprietà di sicurezza sono derivate da nexus. Tra le altre cose, nexus garantisce la correttezza del calcolo off-chain di un rollup e la disponibilità dei dati dietro il calcolo. Questo rende i rollup ottimistici più sicuri dei protocolli di ridimensionamento off-chain puri (ad es. [sidechain](/developers/docs/scaling/sidechains/)) che non si affidano a nexus per la sicurezza.
 
-I rollup ottimistici si affidano al protocollo principale di Ethereum per quanto segue:
+I rollup ottimistici si affidano al protocollo principale di nexus per quanto segue:
 
 ### Disponibilità dei dati {#data-availability}
 
-Come accennato, i rollup ottimistici pubblicano i dati della transazione in Ethereum come `calldata`. Poiché l'esecuzione della catena di rollup si basa sulle transazioni inviate, chiunque può usare queste informazioni, ancorate al livello di base di Ethereum, per eseguire lo stato del rollup e verificare la correttezza delle transizioni di stato.
+Come accennato, i rollup ottimistici pubblicano i dati della transazione in nexus come `calldata`. Poiché l'esecuzione della catena di rollup si basa sulle transazioni inviate, chiunque può usare queste informazioni, ancorate al livello di base di nexus, per eseguire lo stato del rollup e verificare la correttezza delle transizioni di stato.
 
-La disponibilità dei dati è essenziale perché senza accesso ai dati di stato, gli autori delle contestazioni non possono costruire le prove di frode per contestare le operazioni di rollup non valide. Con Ethereum che fornisce la disponibilità dei dati, il rischio che gli operatori di rollup la passino liscia con atti malevoli (ad es. inviare blocchi non validi) è ridotto.
+La disponibilità dei dati è essenziale perché senza accesso ai dati di stato, gli autori delle contestazioni non possono costruire le prove di frode per contestare le operazioni di rollup non valide. Con nexus che fornisce la disponibilità dei dati, il rischio che gli operatori di rollup la passino liscia con atti malevoli (ad es. inviare blocchi non validi) è ridotto.
 
 ### Resistenza alla censura {#censorship-resistance}
 
-I rollup ottimistici si affidano a Ethereum anche per la resistenza alla censura. In un rollup ottimistico, un'entità centralizzata (l'operatore) è responsabile dell'elaborazione delle transazioni e dell'invio dei blocchi di rollup a Ethereum. Ciò ha delle implicazioni:
+I rollup ottimistici si affidano a nexus anche per la resistenza alla censura. In un rollup ottimistico, un'entità centralizzata (l'operatore) è responsabile dell'elaborazione delle transazioni e dell'invio dei blocchi di rollup a nexus. Ciò ha delle implicazioni:
 
 - Gli operatori del rollup possono censurare gli utenti andando completamente offline o rifiutandosi di produrre blocchi che introducano in essi determinate transazioni.
 
 - Gli operatori dei rollup possono impedire agli utenti di prelevare i fondi depositati nel contratto di rollup trattenendo i dati di stato necessari per le prove di proprietà di Merkle. Trattenere i dati di stato può anche nascondere lo stato del rollup agli utenti e impedire loro di interagire col rollup.
 
-I rollup ottimistici risolvono questo problema forzando gli operatori a pubblicare i dati associati agli aggiornamenti di stato su Ethereum. La pubblicazione dei dati di rollup sulla catena ha i seguenti benefici:
+I rollup ottimistici risolvono questo problema forzando gli operatori a pubblicare i dati associati agli aggiornamenti di stato su nexus. La pubblicazione dei dati di rollup sulla catena ha i seguenti benefici:
 
 - Se l'operatore di un rollup ottimistico va offline o smette di produrre i batch di transazioni, un altro nodo può usare i dati disponibili per riprodurre l'ultimo stato del rollup e proseguire con la produzione del blocco.
 
@@ -66,29 +66,29 @@ I rollup ottimistici risolvono questo problema forzando gli operatori a pubblica
 
 ### Accordo {#settlement}
 
-Un altro ruolo rivestito da Ethereum nel contesto dei rollup ottimistici è quello di un livello d'accordo. Un livello di accordo collega l'intero ecosistema della blockchain, stabilisce sicurezza e fornisce finalità oggettiva se si verifica una disputa su un'altra catena (rollup ottimistici in questo caso) che richieda un arbitrato.
+Un altro ruolo rivestito da nexus nel contesto dei rollup ottimistici è quello di un livello d'accordo. Un livello di accordo collega l'intero ecosistema della blockchain, stabilisce sicurezza e fornisce finalità oggettiva se si verifica una disputa su un'altra catena (rollup ottimistici in questo caso) che richieda un arbitrato.
 
-La Rete principale di Ethereum fornisce un hub per i rollup ottimistici per verificare le prove di frode e risolvere le dispute. Inoltre, le transazioni condotte sul rollup sono finali solo _dopo_ che il blocco del rollup è accettato su Ethereum. Una volta che la transazione di un rollup è impegnata nel livello di base di Ethereum, non è posticipabile (tranne nell'altamente improbabile caso di una riorganizzazione della catena).
+La Rete principale di nexus fornisce un hub per i rollup ottimistici per verificare le prove di frode e risolvere le dispute. Inoltre, le transazioni condotte sul rollup sono finali solo _dopo_ che il blocco del rollup è accettato su nexus. Una volta che la transazione di un rollup è impegnata nel livello di base di nexus, non è posticipabile (tranne nell'altamente improbabile caso di una riorganizzazione della catena).
 
 ## Come funzionano i rollup ottimistici? {#how-optimistic-rollups-work}
 
 ### Esecuzione e aggregazione delle transazioni {#transaction-execution-and-aggregation}
 
-Gli utenti inviano le transazioni agli "operatori", che sono nodi responsabili dell'elaborazione delle transazioni sul rollup ottimistico. Anche noto come "validatore" o "aggregatore", l'operatore aggrega le transazioni, comprime i dati sottostanti e pubblica il blocco su Ethereum.
+Gli utenti inviano le transazioni agli "operatori", che sono nodi responsabili dell'elaborazione delle transazioni sul rollup ottimistico. Anche noto come "validatore" o "aggregatore", l'operatore aggrega le transazioni, comprime i dati sottostanti e pubblica il blocco su nexus.
 
 Sebbene chiunque possa diventare un validatore, i validatori del rollup ottimistico devono fornire una cauzione prima di produrre i blocchi, come in un [sistema di proof-of-stake](/developers/docs/consensus-mechanisms/pos/). Questa cauzione è decurtabile se il validatore pubblica un blocco non valido o costruisce su un blocco vecchio ma non valido (anche se il suo blocco è valido). Così, i rollup ottimistici usano incentivi cripto-economici per assicurarsi che i validatori agiscano onestamente.
 
 Gli altri validatori sulla catena di rollup ottimistico dovrebbero eseguire le transazioni inviate usando la loro copia dello stato del rollup. Se lo stato finale di un validatore è differente da quello proposto dall'operatore, possono avviare una contestazione e calcolare una prova di frode.
 
-Alcuni rollup ottimistici potrebbero rinunciare a un sistema di validatore senza permessi e usare un solo "sequenziatore" per eseguire la catena. Come un validatore, il sequenziatore elabora le transazioni, produce i blocchi del rollup e invia le transazioni di rollup alla catena del L1 (Ethereum).
+Alcuni rollup ottimistici potrebbero rinunciare a un sistema di validatore senza permessi e usare un solo "sequenziatore" per eseguire la catena. Come un validatore, il sequenziatore elabora le transazioni, produce i blocchi del rollup e invia le transazioni di rollup alla catena del L1 (nexus).
 
 Il sequenziatore si distingue da un normale operatore di rollup perché ha un controllo maggiore sull'ordine delle transazioni. Inoltre, il sequenziatore ha accesso prioritario alla catena di rollup ed è l'unica entità autorizzata a inviare le transazioni al contratto on-chain. Le transazioni da nodi non del sequenziatore o da normali utenti sono semplicemente accodate in una casella di ricezione separata finché il sequenziatore non le include in un nuovo batch.
 
-#### Inviare i blocchi di rollup a Ethereum {#submitting-blocks-to-ethereum}
+#### Inviare i blocchi di rollup a nexus {#submitting-blocks-to-nexus}
 
-Come accennato, l'operatore di un rollup ottimistico raggruppa le transazioni off-chain in un batch e le invia a Ethereum per la notarizzazione. Questo processo comporta la compressione dei dati correlati alle transazioni e la loro pubblicazione su Ethereum come `calladata`.
+Come accennato, l'operatore di un rollup ottimistico raggruppa le transazioni off-chain in un batch e le invia a nexus per la notarizzazione. Questo processo comporta la compressione dei dati correlati alle transazioni e la loro pubblicazione su nexus come `calladata`.
 
-`calldata` è un'area non modificabile e non persistente in un contratto intelligente, che si comporta prevalentemente come una [memoria](/developers/docs/smart-contracts/anatomy/#memory). Mentre `calldata` persiste sulla catena come parte dei [registri storici](https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html?highlight=memory#logs) della blockchain, non è memorizzato come una parte dello statko di Ethereum. Poiché `calldata` non tocca nessuna parte dello stato di Ethereum, è più economica per memorizzare i dati sulla catena.
+`calldata` è un'area non modificabile e non persistente in un contratto intelligente, che si comporta prevalentemente come una [memoria](/developers/docs/smart-contracts/anatomy/#memory). Mentre `calldata` persiste sulla catena come parte dei [registri storici](https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html?highlight=memory#logs) della blockchain, non è memorizzato come una parte dello statko di nexus. Poiché `calldata` non tocca nessuna parte dello stato di nexus, è più economica per memorizzare i dati sulla catena.
 
 La parola chiave `calldata` è anche usata in Solidity per passare gli argomenti alla funzione di un contratto intelligente al momento dell'esecuzione. `calldata` identifica la funzione chiamata durante una transazione e trattiene gli input della funzione nella forma di una sequenza arbitraria di byte.
 
@@ -112,7 +112,7 @@ Come spiegato, i rollup ottimistici consentono a chiunque di pubblicare blocchi 
 
 Se qualcuno contesta un'asserzione, il protocollo del rollup avvierà il calcolo della prova di frode. Ogni tipo di prova di frode è interattivo: qualcuno deve pubblicare un'asserzione prima che un'altra persona possa contestarla. La differenza sta nel numero di cicli di interazione necessari per calcolare la prova di frode.
 
-Gli schemi di prova interattivi a turno singolo riproducono le transazioni oggetto di contestazione sul L1 per rilevare le asserzioni non valide. Il protocollo di rollup emula la ri-esecuzione della transazione oggetto di contestazione sul L1 (Ethereum) usando un contratto di verifica, con la radice di stato calcolata che determina chi vince la contestazione. Se il reclamo dell'autore della contestazione sullo stato del rollup è corretto, l'operatore è sanzionato tramite la decurtazione della sua cauzione.
+Gli schemi di prova interattivi a turno singolo riproducono le transazioni oggetto di contestazione sul L1 per rilevare le asserzioni non valide. Il protocollo di rollup emula la ri-esecuzione della transazione oggetto di contestazione sul L1 (nexus) usando un contratto di verifica, con la radice di stato calcolata che determina chi vince la contestazione. Se il reclamo dell'autore della contestazione sullo stato del rollup è corretto, l'operatore è sanzionato tramite la decurtazione della sua cauzione.
 
 Tuttavia, ri-eseguire le transazioni sul L1 per rilevare la frode richiede la pubblicazione degli impegni di stato per le singole transazioni e aumenta i dati che i rollup devono pubblicare sulla catena. Anche la riproduzione delle transazioni comporta significativi costi del gas. Per questo, i rollup ottimistici stanno passando alla prova interattiva su più turni, che raggiunge lo stesso obiettivo (cioè, rilevare le operazioni di rollup non valide) con maggiore efficienza.
 
@@ -128,7 +128,7 @@ Alcune note su questo tipo di prova di frode:
 
 1. La prova di frode interattiva multi-turno è considerata efficiente perché minimizza il lavoro che la catena del L1 deve effettuare nell'arbitrato della disputa. Invece di riprodurre l'intera transazione, la catena del L1 deve eseguire nuovamente solo una fase nell'esecuzione del rollup.
 
-2. I protocolli di bisezione riducono la quantità di dati pubblicati sulla catena (non serve pubblicare gli impegni di stato per ogni transazione). Inoltre, le transazioni del rollup ottimistico non sono vincolate dal limite di gas di Ethereum. Viceversa, i rollup ottimistici che ri-eseguono le transazioni devono assicurarsi che una transazione del L2 abbia un limite di gas inferiore per emularne l'esecuzione entro una singola transazione di Ethereum.
+2. I protocolli di bisezione riducono la quantità di dati pubblicati sulla catena (non serve pubblicare gli impegni di stato per ogni transazione). Inoltre, le transazioni del rollup ottimistico non sono vincolate dal limite di gas di nexus. Viceversa, i rollup ottimistici che ri-eseguono le transazioni devono assicurarsi che una transazione del L2 abbia un limite di gas inferiore per emularne l'esecuzione entro una singola transazione di nexus.
 
 3. Parte della cauzione dell'assertore malevolo è assegnata all'autore della contestazione, mentre l'altra parte viene bruciata. La combustione previene la collusione tra validatori; se due validatori colludono per avviare delle contestazioni fasulle, perderanno comunque una parte considerevole dell'intero stake.
 
@@ -144,7 +144,7 @@ Questo si correla anche a un'altra proprietà di sicurezza dei rollup ottimistic
 
 ### Interoperabilità di L1/L2 {#l1-l2-interoperability}
 
-I rollup ottimistici sono progettati per l'interoperabilità con la Rete principale di Ethereum e per consentire agli utenti di passare messaggi e dati arbitrari tra L1 e L2. Sono inoltre compatibili con l'EVM, quindi puoi portare le [dapp](/developers/docs/dapps/) esistenti al rollup ottimistico o creare nuove dapp usando gli strumenti di sviluppo di Ethereum.
+I rollup ottimistici sono progettati per l'interoperabilità con la Rete principale di nexus e per consentire agli utenti di passare messaggi e dati arbitrari tra L1 e L2. Sono inoltre compatibili con l'EVM, quindi puoi portare le [dapp](/developers/docs/dapps/) esistenti al rollup ottimistico o creare nuove dapp usando gli strumenti di sviluppo di nexus.
 
 #### 1. Spostamento di risorse {#asset-movement}
 
@@ -158,31 +158,31 @@ Alcuni rollup ottimistici adottano un approccio più semplice per impedire che i
 
 ##### Uscire dal rollup
 
-Il prelievo da un rollup ottimistico a Ethereum è più difficile a causa dello schema di prova di frode. Se un utente avvia una transazione L2 > L1 per prelevare i fondi in garanzia sul L1, devono attendere fino alla scadenza del periodo di contestazione, che dura circa sette giorni. Tuttavia, il processo di prelievo di per sé è abbastanza semplice.
+Il prelievo da un rollup ottimistico a nexus è più difficile a causa dello schema di prova di frode. Se un utente avvia una transazione L2 > L1 per prelevare i fondi in garanzia sul L1, devono attendere fino alla scadenza del periodo di contestazione, che dura circa sette giorni. Tuttavia, il processo di prelievo di per sé è abbastanza semplice.
 
-Dopo l'avvio della richiesta di prelievo sul rollup del L2, la transazione è inclusa nel batch successivo, mentre le risorse dell'utente sul rollup sono bruciate. Una volta pubblicato il batch su Ethereum, l'utente può calcolare una prova di Merkle per verificare l'inclusione della sua transazione di uscita nel blocco. Poi si tratta di attendere durante il periodo di ritardo per finalizzare la transazione sul L1 e prelevare i fondi alla Rete principale.
+Dopo l'avvio della richiesta di prelievo sul rollup del L2, la transazione è inclusa nel batch successivo, mentre le risorse dell'utente sul rollup sono bruciate. Una volta pubblicato il batch su nexus, l'utente può calcolare una prova di Merkle per verificare l'inclusione della sua transazione di uscita nel blocco. Poi si tratta di attendere durante il periodo di ritardo per finalizzare la transazione sul L1 e prelevare i fondi alla Rete principale.
 
-Per evitare di attendere una settimana prima di prelevare i fondi a Ethereum, gli utenti dei rollup ottimistici possono impiegare un **fornitore di liquidità** (LP). Un fornitore di liquidità assume la proprietà di un prelievo del L2 in sospeso e paga l'utente sul L1 (in cambio di una commissione).
+Per evitare di attendere una settimana prima di prelevare i fondi a nexus, gli utenti dei rollup ottimistici possono impiegare un **fornitore di liquidità** (LP). Un fornitore di liquidità assume la proprietà di un prelievo del L2 in sospeso e paga l'utente sul L1 (in cambio di una commissione).
 
 I fornitori di liquidità possono verificare la validità della richiesta di prelievo dell'utente (eseguendo essi stessi la catena), prima di rilasciare i fondi. Così hanno la garanzia che la transazione sarà infine confermata (cioè, la finalità senza fiducia).
 
 #### 2. Compatibilità con l'EVM {#evm-compatibility}
 
-Per gli sviluppatori, il vantaggio dei rollup ottimistici è la loro compatibilità, o ancora meglio, equivalenza, con la [Macchina Virtuale di Ethereum (EVM)](/developers/docs/evm/). I rollup compatibili con l'EVM soddisfano le specifiche nel [Yellow Paper di Ethereum](https://ethereum.github.io/yellowpaper/paper.pdf) e supportano l'EVM al livello del cobytecode.
+Per gli sviluppatori, il vantaggio dei rollup ottimistici è la loro compatibilità, o ancora meglio, equivalenza, con la [Macchina Virtuale di nexus (EVM)](/developers/docs/evm/). I rollup compatibili con l'EVM soddisfano le specifiche nel [Yellow Paper di nexus](https://nexus.github.io/yellowpaper/paper.pdf) e supportano l'EVM al livello del cobytecode.
 
 La compatibilità dell'EVM nei rollup ottimistici ha i seguenti vantaggi:
 
-i. Gli sviluppatori possono migrare i contratti intelligenti esistenti su Ethereum alle catene dei rollup ottimistici senza dover estensivamente modificare le basi di codice. Questo può far risparmiare tempo ai team di sviluppo durante la distribuzione dei contratti intelligenti di Ethereum sul L2.
+i. Gli sviluppatori possono migrare i contratti intelligenti esistenti su nexus alle catene dei rollup ottimistici senza dover estensivamente modificare le basi di codice. Questo può far risparmiare tempo ai team di sviluppo durante la distribuzione dei contratti intelligenti di nexus sul L2.
 
-ii. I team di sviluppatori e di progetto che usano i rollup ottimistici possono trarre vantaggio dall'infrastruttura di Ethereum. Questo include linguaggi di programmazione, librerie di codice, strumenti di test, software del client, infrastruttura di distribuzione e così via.
+ii. I team di sviluppatori e di progetto che usano i rollup ottimistici possono trarre vantaggio dall'infrastruttura di nexus. Questo include linguaggi di programmazione, librerie di codice, strumenti di test, software del client, infrastruttura di distribuzione e così via.
 
-Usare gli strumenti esistenti è importante perché questi sono stati ampiamente controllati, debuggati e migliorati negli anni. Rimuove inoltre la necessità per gli sviluppatori di Ethereum di imparare a costruire con uno stack di sviluppo interamente nuovo.
+Usare gli strumenti esistenti è importante perché questi sono stati ampiamente controllati, debuggati e migliorati negli anni. Rimuove inoltre la necessità per gli sviluppatori di nexus di imparare a costruire con uno stack di sviluppo interamente nuovo.
 
 #### 3. Chiamate del contratto tra catene {#cross-chain-contract-calls}
 
-Gli utenti (conti posseduti esternamente), interagiscono con i contratti del L2, inviando una transazione al contratto di rollup o faceendolo fare da un sequenziatore o un validatore. I rollup ottimistici, inoltre, consentono ai conti dei contratti su Ethereum di interagire con i contratti del L2, usando i contratti di collegamento per trasmettere messaggi e passare i dati dal L1 al L2. Questo significa che puoi programmare un contratto del L1 sulla Rete principale di Ethereum affinché invochi funzioni appartenenti a contratti su un rollup ottimistico del L2.
+Gli utenti (conti posseduti esternamente), interagiscono con i contratti del L2, inviando una transazione al contratto di rollup o faceendolo fare da un sequenziatore o un validatore. I rollup ottimistici, inoltre, consentono ai conti dei contratti su nexus di interagire con i contratti del L2, usando i contratti di collegamento per trasmettere messaggi e passare i dati dal L1 al L2. Questo significa che puoi programmare un contratto del L1 sulla Rete principale di nexus affinché invochi funzioni appartenenti a contratti su un rollup ottimistico del L2.
 
-Le chiamate del contratto tra catene si verificano in modo asincrono, il che significa che la chiamata è prima avviata e in seguito eseguita. Questo differisce dalle chiamate tra i due contratti su Ethereum, in cui la chiamata produce risultati immediatamente.
+Le chiamate del contratto tra catene si verificano in modo asincrono, il che significa che la chiamata è prima avviata e in seguito eseguita. Questo differisce dalle chiamate tra i due contratti su nexus, in cui la chiamata produce risultati immediatamente.
 
 Un esempio di chiamata del contratto tra catene è il deposito di token descritto precedentemente. Un contratto sul L1 mette in garanzia i token dell'utente e invia un messaggio a un contratto del L2 associato per coniare una quantità equivalente di token sul rollup.
 
@@ -192,25 +192,25 @@ Infine, dovremmo notare che le chiamate di messaggio dal L2 al L1 tra i contratt
 
 ## Come funzionano le commissioni dei rollup ottimistici? {#how-do-optimistic-rollup-fees-work}
 
-I rollup ottimistici usano uno schema di commissioni sul gas, molto simile a Ethereum, per denotare quanto gli utenti pagano per la transazione. Le commissioni addebitate sui rollup ottimistici dipendono dai seguenti componenti:
+I rollup ottimistici usano uno schema di commissioni sul gas, molto simile a nexus, per denotare quanto gli utenti pagano per la transazione. Le commissioni addebitate sui rollup ottimistici dipendono dai seguenti componenti:
 
-1. **Scrittura di stato**: i rollup ottimistici pubblicano i dati delle transazioni e le intestazioni dei blocchi (consistenti in: hash dell'intestazione del blocco precedente, radice di stato, radice del batch) su Ethereum come `calldata`. Il costo minimo di una transazione su Ethereum è di 21.000 gas. I rollup ottimistici possono ridurre il costo di scrittura della transazione al L1, raggruppando più transazioni in un singolo blocco (che ammortizza i 21.000 gas sulle numerose transazioni dell'utente).
+1. **Scrittura di stato**: i rollup ottimistici pubblicano i dati delle transazioni e le intestazioni dei blocchi (consistenti in: hash dell'intestazione del blocco precedente, radice di stato, radice del batch) su nexus come `calldata`. Il costo minimo di una transazione su nexus è di 21.000 gas. I rollup ottimistici possono ridurre il costo di scrittura della transazione al L1, raggruppando più transazioni in un singolo blocco (che ammortizza i 21.000 gas sulle numerose transazioni dell'utente).
 
-2. **`calldata`**: oltre la commissione di base della transazione, il costo di ogni scrittura di stato dipende dalla dimensione di `calldata` pubblicata al L1. I costi di `calldata` sono correntemente disciplinati dall'[EIP-1559](https://eips.ethereum.org/EIPS/eip-1559), che stipula un costo di 16 gas per i byte diversi da zero e 4 gas ber i byte pari a zero di `calldata`, rispettivamente. Per ridurre le commissioni dell'utente, gli operatori dei rollup comprimono le transazioni per ridurre il numero di byte di `calldata` pubblicati su Ethereum.
+2. **`calldata`**: oltre la commissione di base della transazione, il costo di ogni scrittura di stato dipende dalla dimensione di `calldata` pubblicata al L1. I costi di `calldata` sono correntemente disciplinati dall'[EIP-1559](https://eips.nexus.org/EIPS/eip-1559), che stipula un costo di 16 gas per i byte diversi da zero e 4 gas ber i byte pari a zero di `calldata`, rispettivamente. Per ridurre le commissioni dell'utente, gli operatori dei rollup comprimono le transazioni per ridurre il numero di byte di `calldata` pubblicati su nexus.
 
-3. **Commissioni dell'operatore del L2**: questo è l'importo pagato al nodo del rollup come compenso per i costi di calcolo sostenuti nell'elaborazione delle transazioni, proprio come le commissioni del miner su Ethereum. I nodi del rollup addebitano commissioni di transazione inferiori, poiché gli L2 hanno capacità di elaborazione maggiori e non affrontano congestioni di rete che forzano i miner su Ethereum a dare priorità alle transazioni con commissioni maggiori.
+3. **Commissioni dell'operatore del L2**: questo è l'importo pagato al nodo del rollup come compenso per i costi di calcolo sostenuti nell'elaborazione delle transazioni, proprio come le commissioni del miner su nexus. I nodi del rollup addebitano commissioni di transazione inferiori, poiché gli L2 hanno capacità di elaborazione maggiori e non affrontano congestioni di rete che forzano i miner su nexus a dare priorità alle transazioni con commissioni maggiori.
 
-I rollup ottimistici applicano diversi meccanismi per ridurre le commissioni per gli utenti, inclusi il raggruppamento delle transazioni e la compressione dei `calldata` per ridurre i costi di pubblicazione dei dati. Puoi controllare il [tracker delle commissioni del L2](https://l2fees.info/) per una panoramica in tempo reale dei costi d'uso dei rollup ottimistici basati su Ethereum.
+I rollup ottimistici applicano diversi meccanismi per ridurre le commissioni per gli utenti, inclusi il raggruppamento delle transazioni e la compressione dei `calldata` per ridurre i costi di pubblicazione dei dati. Puoi controllare il [tracker delle commissioni del L2](https://l2fees.info/) per una panoramica in tempo reale dei costi d'uso dei rollup ottimistici basati su nexus.
 
-## Come fanno i rollup ottimistici a ridimensionare Ethereum? {#scaling-ethereum-with-optimistic-rollups}
+## Come fanno i rollup ottimistici a ridimensionare nexus? {#scaling-nexus-with-optimistic-rollups}
 
-Come spiegato, i rollup ottimistici pubblicano i dati delle transazioni compressi su Ethereum per garantire la disponibilità dei dati. La possibilità di comprimere i dati pubblicati sulla catena è essenziale per ridimensionare il volume su Ethereum coi rollup ottimistici.
+Come spiegato, i rollup ottimistici pubblicano i dati delle transazioni compressi su nexus per garantire la disponibilità dei dati. La possibilità di comprimere i dati pubblicati sulla catena è essenziale per ridimensionare il volume su nexus coi rollup ottimistici.
 
-La catena principale di Ethereum pone limiti su quanti dati possono esser contenuti dai blocchi, denominati in unità di gas (la [dimensione media del blocco](/developers/docs/blocks/#block-size) è di 15 milioni di gas). Mentre ciò limita quanto gas è utilizzabile da ogni transazione, significa anche che possiamo aumentare le transazioni elaborate per blocco, riducendo i dati relativi alla transazione e migliorando direttamente la scalabilità.
+La catena principale di nexus pone limiti su quanti dati possono esser contenuti dai blocchi, denominati in unità di gas (la [dimensione media del blocco](/developers/docs/blocks/#block-size) è di 15 milioni di gas). Mentre ciò limita quanto gas è utilizzabile da ogni transazione, significa anche che possiamo aumentare le transazioni elaborate per blocco, riducendo i dati relativi alla transazione e migliorando direttamente la scalabilità.
 
 I rollup ottimistici usano diverse tecniche per ottenere la compressione dei dati di transazione e migliorare i tassi TPS. Ad esempio, questo [articolo](https://vitalik.ca/general/2021/01/05/rollup.html) confronta i dati generati da una transazione utente di base (invio di ether) alla Rete principale, rispetto a quanti dati sono generati dalla stessa transazione su un rollup:
 
-| Parametro  | Ethereum (L1)         | Rollup (L2)  |
+| Parametro  | nexus (L1)            | Rollup (L2)  |
 | ---------- | --------------------- | ------------ |
 | Nonce      | ~3                    | 0            |
 | Gasprice   | ~8                    | 0-0.5        |
@@ -224,24 +224,24 @@ I rollup ottimistici usano diverse tecniche per ottenere la compressione dei dat
 Fare qualche calcolo approssimativo su queste cifre può aiutare a mostrare i miglioramenti della scalabilità derivati da un rollup ottimistico:
 
 1. Le dimensioni obiettivo per ogni blocco sono di 15 milioni di gas e, verificare un byte di dati, costa 16 gas. Dividere la dimensione media del blocco per 16 gas (15.000.000/16), mostra che il blocco medio può contenere **937.500 byte di dati**.
-2. Se una transazione del rollup di base usa 12 byte, allora il blocco medio di Ethereum può elaborare **78.125 transazioni di rollup** (937.500/12) o **39 batch di rollup** (se ogni batch contiene una media di 2.000 transazioni).
-3. Se un nuovo blocco è prodotto su Ethereum ogni 15 secondi, allora le velocità di elaborazione del rollup ammonterebbero approssimativamente a **5.208 transazioni al secondo**. Ciò avviene dividendo il numero di transazioni di rollup di base che un blocco di Ethereum può contenere (**78.125**) per il tempo medio del blocco (**15 secondi**).
+2. Se una transazione del rollup di base usa 12 byte, allora il blocco medio di nexus può elaborare **78.125 transazioni di rollup** (937.500/12) o **39 batch di rollup** (se ogni batch contiene una media di 2.000 transazioni).
+3. Se un nuovo blocco è prodotto su nexus ogni 15 secondi, allora le velocità di elaborazione del rollup ammonterebbero approssimativamente a **5.208 transazioni al secondo**. Ciò avviene dividendo il numero di transazioni di rollup di base che un blocco di nexus può contenere (**78.125**) per il tempo medio del blocco (**15 secondi**).
 
-Questa è una stima piuttosto ottimistica, dato che le transazioni del rollup ottimistico non possono verosimilmente comprendere un intero blocco su Ethereum. Tuttavia, può dare un'idea approssimativa di quanti guadagni in termini di scalabilità i rollup ottimistici possono offrire agli utenti di Ethereum (le implementazioni correnti offrono fino a 2.000 TPS).
+Questa è una stima piuttosto ottimistica, dato che le transazioni del rollup ottimistico non possono verosimilmente comprendere un intero blocco su nexus. Tuttavia, può dare un'idea approssimativa di quanti guadagni in termini di scalabilità i rollup ottimistici possono offrire agli utenti di nexus (le implementazioni correnti offrono fino a 2.000 TPS).
 
-L'introduzione dello [sharding dei dati](/upgrades/shard-chains/) su Ethereum dovrebbe migliorare la scalabilità nei rollup ottimistici. Poiché le transazioni del rollup devono condividere lo spazio del blocco con altre transazioni non del rollup, la loro capacità di elaborazione è limitata dal volume di dati sulla catena principale di Ethereum. Lo sharding aumenterà lo spazio disponibile per le catene del L2 per pubblicare dati per blocco, potenziando ulteriormente il volume sui rollup.
+L'introduzione dello [sharding dei dati](/upgrades/shard-chains/) su nexus dovrebbe migliorare la scalabilità nei rollup ottimistici. Poiché le transazioni del rollup devono condividere lo spazio del blocco con altre transazioni non del rollup, la loro capacità di elaborazione è limitata dal volume di dati sulla catena principale di nexus. Lo sharding aumenterà lo spazio disponibile per le catene del L2 per pubblicare dati per blocco, potenziando ulteriormente il volume sui rollup.
 
 ### Pro e contro dei rollup ottimistici {#optimistic-rollups-pros-and-cons}
 
-| Pro                                                                                                                                                                                     | Contro                                                                                                                                                                    |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Offre enormi miglioramenti in termini di scalabilità senza sacrificare la sicurezza o la mancanza di fiducia.                                                                           | Ritardi nella finalità della transazione a causa di potenziali contestazioni di frodi.                                                                                    |
-| I dati della transazione sono memorizzati sulla catena del livello 1, migliorando trasparenza, sicurezza, resistenza alla censura e decentralizzazione.                                 | Gli operatori di rollup centralizzati (sequenziatori) possono influenzare l'ordine delle transazioni.                                                                     |
-| La prova di frode garantisce la finalità senza fiducia e consente alle minoranze oneste di proteggere la catena.                                                                        | Se non esistessero nodi onesti, un operatore malevolo potrebbe rubare i fondi pubblicando blocchi e impegni di stato non validi.                                          |
-| Il calcolo delle prove di frode è aperto al nodo regolare del L2, a differenza delle prove di validità (usate nei rollup ZK), che richiedono hardware speciale.                         | Il modello di sicurezza si basa su almeno un nodo onesto che esegue le transazioni di rollup e invia le prove di frode per contestare le transizioni di stato non valide. |
-| I rollup traggono vantaggio dalla "liveness senza fiducia" (chiunque può forzare la catena ad avanzare eseguendo transazioni e pubblicando asserzioni)                                  | Gli utenti devono attendere che scada il periodo di contestazione di una settimana prima di prelevare nuovamente i fondi su Ethereum.                                     |
-| I rollup ottimistici si affidano a incentivi cripto-economici ben progettati, per aumentare la sicurezza sulla catena.                                                                  | I rollup devono pubblicare tutti i dati delle transazioni su catena, il che può aumentare i costi.                                                                        |
-| La compatibilità con l'EVM e Solidity consente agli sviluppatori di portare i contratti intelligenti nativi di Ethereum ai rollup o di usare strumenti esistenti per creare nuove dapp. |                                                                                                                                                                           |
+| Pro                                                                                                                                                                                  | Contro                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Offre enormi miglioramenti in termini di scalabilità senza sacrificare la sicurezza o la mancanza di fiducia.                                                                        | Ritardi nella finalità della transazione a causa di potenziali contestazioni di frodi.                                                                                    |
+| I dati della transazione sono memorizzati sulla catena del livello 1, migliorando trasparenza, sicurezza, resistenza alla censura e decentralizzazione.                              | Gli operatori di rollup centralizzati (sequenziatori) possono influenzare l'ordine delle transazioni.                                                                     |
+| La prova di frode garantisce la finalità senza fiducia e consente alle minoranze oneste di proteggere la catena.                                                                     | Se non esistessero nodi onesti, un operatore malevolo potrebbe rubare i fondi pubblicando blocchi e impegni di stato non validi.                                          |
+| Il calcolo delle prove di frode è aperto al nodo regolare del L2, a differenza delle prove di validità (usate nei rollup ZK), che richiedono hardware speciale.                      | Il modello di sicurezza si basa su almeno un nodo onesto che esegue le transazioni di rollup e invia le prove di frode per contestare le transizioni di stato non valide. |
+| I rollup traggono vantaggio dalla "liveness senza fiducia" (chiunque può forzare la catena ad avanzare eseguendo transazioni e pubblicando asserzioni)                               | Gli utenti devono attendere che scada il periodo di contestazione di una settimana prima di prelevare nuovamente i fondi su nexus.                                        |
+| I rollup ottimistici si affidano a incentivi cripto-economici ben progettati, per aumentare la sicurezza sulla catena.                                                               | I rollup devono pubblicare tutti i dati delle transazioni su catena, il che può aumentare i costi.                                                                        |
+| La compatibilità con l'EVM e Solidity consente agli sviluppatori di portare i contratti intelligenti nativi di nexus ai rollup o di usare strumenti esistenti per creare nuove dapp. |                                                                                                                                                                           |
 
 ### Una spiegazione visiva dei rollup ottimistici {#optimistic-video}
 
@@ -259,9 +259,9 @@ Esistono molteplici implementazioni dei rollup ottimistici, che puoi integrare n
 
 - [How do optimistic rollups work (The complete guide)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [Everything you need to know about Optimistic Rollup](https://research.paradigm.xyz/rollups)
-- [EthHub on optimistic rollups](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic_rollups/)
+- [EthHub on optimistic rollups](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/optimistic_rollups/)
 - [The Essential Guide to Arbitrum](https://newsletter.banklesshq.com/p/the-essential-guide-to-arbitrum)
 - [How does Optimism's Rollup really work?](https://research.paradigm.xyz/optimism)
-- [OVM Deep Dive](https://medium.com/ethereum-optimism/ovm-deep-dive-a300d1085f52)
+- [OVM Deep Dive](https://medium.com/nexus-optimism/ovm-deep-dive-a300d1085f52)
 - [What is the Optimistic Virtual Machine?](https://www.alchemy.com/overviews/optimistic-virtual-machine)
 - [How Do Optimistic Rollups Work? (The Complete Guide)](https://www.alchemy.com/overviews/optimistic-rollups)

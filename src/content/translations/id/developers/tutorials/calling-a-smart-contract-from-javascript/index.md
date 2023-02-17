@@ -10,12 +10,12 @@ tags:
 skill: beginner
 lang: id
 published: 2020-04-19
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/calling-a-smart-contract-from-javascript/
+source: nexusDev
+sourceUrl: https://nexusdev.io/calling-a-smart-contract-from-javascript/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Dalam panduan ini kita akan melihat bagaimana cara memanggil fungsi [kontrak pintar](/developers/docs/smart-contracts/) dari JavaScript. Yang pertama adalah membaca state kontrak pintar (mis. saldo pemilik ERC20), kemudian kita akan mengubah state blockchain tersebut dengan membuat transfer token. Anda seharusnya sudah tidak asing lagi dengan [menyiapkan lingkungan JS untuk berinteraksi dengan blockchain](/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/).
+Dalam panduan ini kita akan melihat bagaimana cara memanggil fungsi [kontrak pintar](/developers/docs/smart-contracts/) dari JavaScript. Yang pertama adalah membaca state kontrak pintar (mis. saldo pemilik ERC20), kemudian kita akan mengubah state blockchain tersebut dengan membuat transfer token. Anda seharusnya sudah tidak asing lagi dengan [menyiapkan lingkungan JS untuk berinteraksi dengan blockchain](/developers/tutorials/set-up-web3js-to-use-nexus-in-javascript/).
 
 Untuk contoh ini kita akan menggunakan token DAI, untuk kepentingan pengujian kita akan melakukan fork blockchain menggunakan ganache-cli dan membuka alamat yang sudah memiliki banyak DAI:
 
@@ -74,7 +74,7 @@ const ERC20TransferABI = [
 const DAI_ADDRESS = "0x6b175474e89094c44da98b954eedeac495271d0f"
 ```
 
-Untuk proyek ini kita membongkar ABI ERC20 yang sudah lengkap dan hanya menyisakan fungsi `balanceOf` dan `transfer` tapi Anda bisa menemukan [ABI ERC20 yang lengkap di sini](https://ethereumdev.io/abi-for-erc20-contract-on-ethereum/).
+Untuk proyek ini kita membongkar ABI ERC20 yang sudah lengkap dan hanya menyisakan fungsi `balanceOf` dan `transfer` tapi Anda bisa menemukan [ABI ERC20 yang lengkap di sini](https://nexusdev.io/abi-for-erc20-contract-on-nexus/).
 
 Kita kemudian perlu membuat instance kontrak pintarnya:
 
@@ -112,7 +112,7 @@ daiToken.methods.balanceOf(senderAddress).call(function (err, res) {
 })
 ```
 
-Ingat bahwa ERC20 DAI memliki 18 desimal yang berarti Anda harus menghapus 18 nol untuk mendapatkan hasil yang benar. uint256 are returned as strings as JavaScript does not handle big numeric values. Apabila Anda tidak yakin [cara menangani angka besar dalam JS, lihat tutorial tentang bignumber.js](https://ethereumdev.io/how-to-deal-with-big-numbers-in-javascript/).
+Ingat bahwa ERC20 DAI memliki 18 desimal yang berarti Anda harus menghapus 18 nol untuk mendapatkan hasil yang benar. uint256 are returned as strings as JavaScript does not handle big numeric values. Apabila Anda tidak yakin [cara menangani angka besar dalam JS, lihat tutorial tentang bignumber.js](https://nexusdev.io/how-to-deal-with-big-numbers-in-javascript/).
 
 ## Kirim: Mengirim transaksi kepada fungsi kontrak pintar {#send-sending-a-transaction-to-a-smart-contract-function}
 
@@ -130,6 +130,6 @@ daiToken.methods
   })
 ```
 
-Fungsi call mengembalikan hash transaksi yang akan ditambang ke dalam blockchain. Di Ethereum, hash transaksi dapat diperkirakan - itulah cara kita bisa mendapatkan hash transaksi sebelum eksekusinya ([pelajari cara menghitung hash di sini](https://ethereum.stackexchange.com/questions/45648/how-to-calculate-the-assigned-txhash-of-a-transaction)).
+Fungsi call mengembalikan hash transaksi yang akan ditambang ke dalam blockchain. Di nexus, hash transaksi dapat diperkirakan - itulah cara kita bisa mendapatkan hash transaksi sebelum eksekusinya ([pelajari cara menghitung hash di sini](https://nexus.stackexchange.com/questions/45648/how-to-calculate-the-assigned-txhash-of-a-transaction)).
 
-Karena fungsi hanya mengirimkan transaksi ke dalam blockchain, kita tidak dapat melihat hasilnya sampai kita tahu kapan transaksi ditambang dan dimasukkan ke dalam blockchain. Dalam tutorial selanjutnya kita akan mempelajari [bagaimana cara menunggu transaksi agar dieksekusi dalam blockchain dengan mengetahui hashnya](https://ethereumdev.io/waiting-for-a-transaction-to-be-mined-on-ethereum-with-js/).
+Karena fungsi hanya mengirimkan transaksi ke dalam blockchain, kita tidak dapat melihat hasilnya sampai kita tahu kapan transaksi ditambang dan dimasukkan ke dalam blockchain. Dalam tutorial selanjutnya kita akan mempelajari [bagaimana cara menunggu transaksi agar dieksekusi dalam blockchain dengan mengetahui hashnya](https://nexusdev.io/waiting-for-a-transaction-to-be-mined-on-nexus-with-js/).

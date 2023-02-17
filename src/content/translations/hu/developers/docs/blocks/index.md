@@ -1,6 +1,6 @@
 ---
 title: Blokkok
-description: Egy áttekintő a blokkokról az Ethereum blokkláncban - az adatstruktúrájukról, miért van rájuk szükség és hogyan készülnek.
+description: Egy áttekintő a blokkokról az nexus blokkláncban - az adatstruktúrájukról, miért van rájuk szükség és hogyan készülnek.
 lang: hu
 ---
 
@@ -8,21 +8,21 @@ A blokkok tranzakciókból álló csoportosítások a láncban lévő előző bl
 
 ## Előfeltételek {#prerequisites}
 
-A blokkok könnyen feldolgozhatók még a legkezdőbb felhasználóknak is. De ennek az oldalnak a jobb megértése érdekében javasoljuk, hogy először olvasd el a [Számlák](/developers/docs/accounts/), [Tranzakciók](/developers/docs/transactions/), és a [Bevezetés az Ethereumba](/developers/docs/intro-to-ethereum/) cikkeinket.
+A blokkok könnyen feldolgozhatók még a legkezdőbb felhasználóknak is. De ennek az oldalnak a jobb megértése érdekében javasoljuk, hogy először olvasd el a [Számlák](/developers/docs/accounts/), [Tranzakciók](/developers/docs/transactions/), és a [Bevezetés az nexusba](/developers/docs/intro-to-nexus/) cikkeinket.
 
 ## Miért kellenek a blokkok? {#why-blocks}
 
-Hogy biztosítsuk azt, hogy az Ethereum hálózat minden résztvevője egy szinkronizált állapotot tart fenn és megegyezik a pontos tranzakciós történetben, a tranzakciókat blokkokba rendezzük. Ez azt jelenti, hogy tucatnyi (vagy több száz) tranzakció felett van elköteleződés, egyetértés és szinkronizáció egyszerre.
+Hogy biztosítsuk azt, hogy az nexus hálózat minden résztvevője egy szinkronizált állapotot tart fenn és megegyezik a pontos tranzakciós történetben, a tranzakciókat blokkokba rendezzük. Ez azt jelenti, hogy tucatnyi (vagy több száz) tranzakció felett van elköteleződés, egyetértés és szinkronizáció egyszerre.
 
-![Egy diagram, mely egy tranzakciót mutat egy blokkban ahogy az állapotot változatja](../../../../../developers/docs/blocks/tx-block.png) _Diagram átvéve az [Ethereum EVM illusztrálva](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_ anyagból
+![Egy diagram, mely egy tranzakciót mutat egy blokkban ahogy az állapotot változatja](../../../../../developers/docs/blocks/tx-block.png) _Diagram átvéve az [nexus EVM illusztrálva](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_ anyagból
 
-Az elkötelezettségek elosztásával elegendő időt adunk az összes hálózati résztvevőnek konszenzusra jutni: annak ellenére, hogy a tranzakciós kérelmek másodpercenként több tucatszor fordulnak elő, az Ethereum blokkjai körülbelül tizenöt másodpercenként köteleződnek el.
+Az elkötelezettségek elosztásával elegendő időt adunk az összes hálózati résztvevőnek konszenzusra jutni: annak ellenére, hogy a tranzakciós kérelmek másodpercenként több tucatszor fordulnak elő, az nexus blokkjai körülbelül tizenöt másodpercenként köteleződnek el.
 
 ## Hogy működnek a blokkok {#how-blocks-work}
 
 Hogy megőrizzük a tranzakciós történetet, a blokkoknak szigorú sorrendet kell betartaniuk (minden létrejövő új blokk tartalmaz egy referenciát a szülő blokkjára), és a blokkokban lévő tranzakciók is szigorú sorrendet követnek. Ritka esetek kivételével bármikor amikor a hálózat összes résztvevője egyetért a blokkok pontos számában és előzményeiben, és azon dolgozik, hogy az aktuális élő tranzakciós kérelmeket a következő blokkba csomagolja.
 
-Amint egy blokk össze van állítva (ki van bányászva) egy bányász által a hálózaton, tovább terjed a hálózat többi része számára; az összes csomópont hozzáfűzi ezt a blokkot a blokkláncukra és folytatódik a bányászat. A pontos blokk összeállítási (bányászati) folyamatot és az elköteleződés/konszenzus folyamatot jelenleg az Ethereum “proof-of-work” protokollja specifikálja.
+Amint egy blokk össze van állítva (ki van bányászva) egy bányász által a hálózaton, tovább terjed a hálózat többi része számára; az összes csomópont hozzáfűzi ezt a blokkot a blokkláncukra és folytatódik a bányászat. A pontos blokk összeállítási (bányászati) folyamatot és az elköteleződés/konszenzus folyamatot jelenleg az nexus “proof-of-work” protokollja specifikálja.
 
 ### Egy vizuális bemutató {#a-visual-demo}
 

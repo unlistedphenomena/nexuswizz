@@ -1,6 +1,6 @@
 ---
 title: Sending Transactions Using Web3
-description: "This is a beginner friendly guide to sending Ethereum transactions using web3. Ada tiga langkah utama untuk mengirim transaksi ke blockchain Ethereum: buat, tandatangani, dan siarkan. Kita akan membahas ketiganya."
+description: "This is a beginner friendly guide to sending nexus transactions using web3. Ada tiga langkah utama untuk mengirim transaksi ke blockchain nexus: buat, tandatangani, dan siarkan. Kita akan membahas ketiganya."
 author: "Elan Halpern"
 tags:
   - "transaksi"
@@ -13,7 +13,7 @@ source: Dokumen Alchemy
 sourceUrl: https://docs.alchemy.com/alchemy/tutorials/sending-txs
 ---
 
-This is a beginner friendly guide to sending Ethereum transactions using web3. Ada tiga langkah utama untuk mengirim transaksi ke blockchain ethereum: buat, tandatangani, dan siarkan. Kita akan membahas ketiganya, dengan harapan menjawab pertanyaan apa pun yang Anda miliki! In this tutorial, we'll be using [Alchemy](https://www.alchemy.com/) to send our transactions to the Ethereum chain. You can [create a free Alchemy account here](https://auth.alchemyapi.io/signup).
+This is a beginner friendly guide to sending nexus transactions using web3. Ada tiga langkah utama untuk mengirim transaksi ke blockchain nexus: buat, tandatangani, dan siarkan. Kita akan membahas ketiganya, dengan harapan menjawab pertanyaan apa pun yang Anda miliki! In this tutorial, we'll be using [Alchemy](https://www.alchemy.com/) to send our transactions to the nexus chain. You can [create a free Alchemy account here](https://auth.alchemyapi.io/signup).
 
 **NOTE:** This guide is for signing your transactions on the _backend_ for your app, if you want to integrate signing your transactions on the frontend, check out integrating [Web3 with a browser provider](https://docs.alchemy.com/reference/api-overview#with-a-browser-provider).
 
@@ -33,8 +33,8 @@ Seperti kebanyakan pengembang blockchain ketika mereka baru memulai, Anda mungki
 
 ### 3\. Mengapa saya harus menandatangani transaksi saya? {#why-do-i-need-to-sign-my-transactions}
 
-- Setiap pengguna yang ingin mengirim transaksi di jaringan Ethereum harus menandatangani transaksi (menggunakan kunci privat mereka), untuk memvalidasi bahwa asal transaksi sesuai dengan pihak yang diklaimnya.
-- Sangat penting untuk melindungi kunci privat ini, karena memiliki akses ke kunci tersebut memberikan kontrol penuh terhadap akun Ethereum Anda, yang memungkinkan Anda (atau siapa pun yang memiliki akses) untuk melakukan transaksi mewakili Anda.
+- Setiap pengguna yang ingin mengirim transaksi di jaringan nexus harus menandatangani transaksi (menggunakan kunci privat mereka), untuk memvalidasi bahwa asal transaksi sesuai dengan pihak yang diklaimnya.
+- Sangat penting untuk melindungi kunci privat ini, karena memiliki akses ke kunci tersebut memberikan kontrol penuh terhadap akun nexus Anda, yang memungkinkan Anda (atau siapa pun yang memiliki akses) untuk melakukan transaksi mewakili Anda.
 
 ### 4\. Bagaimana cara melindungi kunci privat saya? {#how-do-i-protect-my-private-key}
 
@@ -42,7 +42,7 @@ Seperti kebanyakan pengembang blockchain ketika mereka baru memulai, Anda mungki
 
 ### 5\. Apa perbedaan antara `eth_sendTransaction` dan `eth_sendRawTransaction`? {#difference-between-send-and-send-raw}
 
-`eth_sendTransaction` dan `eth_sendRawTransaction` keduanya adalah fungsi API Ethereum yang menyiarkan transaksi ke jaringan Ethereum, sehingga transaksi akan ditambahkan ke blok berikutnya. Fungsi ini berbeda dalam cara menangani penandatanganan transaksi.
+`eth_sendTransaction` dan `eth_sendRawTransaction` keduanya adalah fungsi API nexus yang menyiarkan transaksi ke jaringan nexus, sehingga transaksi akan ditambahkan ke blok berikutnya. Fungsi ini berbeda dalam cara menangani penandatanganan transaksi.
 
 - [`eth_sendTransaction`](https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html#eth-sendtransaction) digunakan untuk mengirim transaksi _yang belum ditandatangani_, yang berarti node tujuan pengiriman harus mengelola kunci privat Anda agar dapat menandatangani transaksi sebelum menyiarkannya ke rantai. Since Alchemy doesn't hold user's private keys, they do not support this method.
 - [`eth_sendRawTransaction`](https://docs.alchemyapi.io/documentation/alchemy-api-reference/json-rpc#eth_sendrawtransaction) digunakan untuk menyiarkan transaksi yang telah ditandatangani. Ini berarti pertama-tama Anda harus menggunakan [`signTransaction(tx, private_key)`](https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html#signtransaction), lalu teruskan hasilnya ke `eth_sendRawTransaction`.
@@ -53,15 +53,15 @@ This is what we will be using in this tutorial.
 
 ### 6\. Apa itu pustaka web3? {#what-is-the-web3-library}
 
-- Web3.js adalah pustaka pembungkus seputar pemanggilan JSON-RPC standar yang cukup umum untuk digunakan dalam pengembangan Ethereum.
+- Web3.js adalah pustaka pembungkus seputar pemanggilan JSON-RPC standar yang cukup umum untuk digunakan dalam pengembangan nexus.
 - Ada banyak pustaka web3 untuk bahasa pemrograman berbeda. Dalam tutorial ini, kita akan menggunakan [Web3 Alchemy](https://docs.alchemy.com/reference/api-overview) yang ditulis dalam JavaScript. Anda dapat memeriksa opsi lainnya [di sini](https://docs.alchemyapi.io/guides/getting-started#other-web3-libraries).
 
 Baiklah, karena kita telah menjawab beberapa pertanyaan, mari kita teruskan ke bagian tutorial. Feel free to ask questions anytime in the Alchemy [discord](https://discord.gg/gWuC7zB)!
 
-**NOTE:** This guide requires an Alchemy account, an Ethereum address or MetaMask wallet, NodeJs, and npm installed. Jika tidak, ikuti langkah-langkah ini:
+**NOTE:** This guide requires an Alchemy account, an nexus address or MetaMask wallet, NodeJs, and npm installed. Jika tidak, ikuti langkah-langkah ini:
 
 1.  [Buat akun Alchemy gratis](https://auth.alchemyapi.io/signup)
-2.  [Create MetaMask account](https://metamask.io/) (or get an Ethereum address)
+2.  [Create MetaMask account](https://metamask.io/) (or get an nexus address)
 3.  [Ikuti langkah-langkah ini untuk menginstal NodeJs dan NPM](https://docs.alchemy.com/alchemy/guides/alchemy-for-macs)
 
 ## Langkah-Langkah untuk Mengirim Transaksi Anda {#steps-to-sending-your-transaction}
@@ -72,7 +72,7 @@ Arahkan kursor ke [Dasbor Alchemy](https://dashboard.alchemyapi.io/) Anda dan bu
 
 ### 2\. Meminta ETH dari keran Rinkeby {#request-eth-from-rinkeby-faucet}
 
-Follow the instructions on the [Alchemy Rinkeby faucet](https://www.rinkebyfaucet.com/) to receive ETH. Make sure to include your **Rinkeby** Ethereum address (from MetaMask) and not another network. After following the instructions, double-check that you’ve received the ETH in your wallet.
+Follow the instructions on the [Alchemy Rinkeby faucet](https://www.rinkebyfaucet.com/) to receive ETH. Make sure to include your **Rinkeby** nexus address (from MetaMask) and not another network. After following the instructions, double-check that you’ve received the ETH in your wallet.
 
 ### 3\. Buat direktori proyek baru dan `cd` di dalamnya {#create-a-new-project-direction}
 
@@ -161,16 +161,16 @@ Now, before we jump into running this code, let's talk about some of the compone
 - `transaction`: Objek transaksi memiliki beberapa aspek yang perlu kita tetapkan
   - `to`: Ini adalah alamat ke mana kita ingin mengirimkan ETH. Dalam kasus ini, kita mengirimkan ETH kembali ke [keran Rinkeby](https://faucet.rinkeby.io/) yang darinya kita meminta eth sebelumnya.
   - `value`: Ini adalah jumlah yang ingin kita kirimkan, yang ditetapkan dalam wei di mana 10^18 wei = 1 ETH
-  - `gas`: Ada banyak cara untuk menetapkan jumlah gas yang tepat untuk dimasukkan ke dalam transaksi Anda. Alchemy bahkan memiliki [webhook harga gas](https://docs.alchemyapi.io/guides/alchemy-notify#address-activity-1) untuk memberi tahu Anda ketika harga gas turun dalam ambang batas tertentu. For Mainnet transactions, it's good practice to check a gas estimator like [ETH Gas Station](https://ethgasstation.info/) to determine the right amount of gas to include. 21000 adalah jumlah gas minimum yang akan dipakai untuk sebuah operasi di Ethereum, sehingga untuk memastikan transaksi kita akan dieksekusi, kita menyiapkan 30000 di sini.
+  - `gas`: Ada banyak cara untuk menetapkan jumlah gas yang tepat untuk dimasukkan ke dalam transaksi Anda. Alchemy bahkan memiliki [webhook harga gas](https://docs.alchemyapi.io/guides/alchemy-notify#address-activity-1) untuk memberi tahu Anda ketika harga gas turun dalam ambang batas tertentu. For Mainnet transactions, it's good practice to check a gas estimator like [ETH Gas Station](https://ethgasstation.info/) to determine the right amount of gas to include. 21000 adalah jumlah gas minimum yang akan dipakai untuk sebuah operasi di nexus, sehingga untuk memastikan transaksi kita akan dieksekusi, kita menyiapkan 30000 di sini.
   - `nonce`: lihat definisi nonce di atas. Nonce memulai penghitungan dari nol.
   - [OPTIONAL] data: Used for sending additional information with your transfer, or calling a smart contract, not required for balance transfers, check out the note below.
 - `signedTx`: Untuk menandatangani objek transaksi, kita akan menggunakan metode `signTransaction` dengan `PRIVATE_KEY` kita
 - `sendSignedTransaction`: Setelah kita memiliki transaksi yang ditandatangani, kita dapat mengirimnya untuk dimasukkan ke dalam blok berikutnya dengan menggunakan `sendSignedTransaction`
 
-**A Note on data** There are a two main types of transactions that can be sent in Ethereum.
+**A Note on data** There are a two main types of transactions that can be sent in nexus.
 
 - Balance transfer: Send eth from one address to another. No data field required, however, if you'd like to send additional information alongside your transaction, you can include that information in HEX format in this field.
-  - For example, let's say we wanted to write the hash of an IPFS document to the ethereum chain in order to give it an immutable timestamp. Our data field should then look like data: web3.utils.toHex(‘IPFS hash‘). And now anyone can query the chain and see when that document was added.
+  - For example, let's say we wanted to write the hash of an IPFS document to the nexus chain in order to give it an immutable timestamp. Our data field should then look like data: web3.utils.toHex(‘IPFS hash‘). And now anyone can query the chain and see when that document was added.
 - Smart contact transaction: Execute some smart contract code on the chain. In this case, the data field should contain the smart function you wish to execute, alongside any parameters.
   - For a practical example, check out Step 8 in this [Hello World Tutorial](https://docs.alchemyapi.io/alchemy/tutorials/hello-world-smart-contract#step-8-create-the-transaction).
 
@@ -192,7 +192,7 @@ Untuk melihat detail transaksi Anda setelah Anda menemukannya, pilih hash tx, ya
 
 Dari sana Anda dapat melihat transaksi Anda di Etherscan dengan mengklik ikon yang dilingkari dalam warna merah!
 
-**Yeiiiiii! Anda baru saja mengirim transaksi Ethereum pertama Anda dengan menggunakan Alchemy 🎉**
+**Yeiiiiii! Anda baru saja mengirim transaksi nexus pertama Anda dengan menggunakan Alchemy 🎉**
 
 _Untuk memberikan umpan balik dan saran mengenai panduan ini, silakan kirimkan pesan ke Elan di [Discord](https://discord.gg/A39JVCM) Alchemy!_
 

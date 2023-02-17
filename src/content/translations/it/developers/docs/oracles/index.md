@@ -1,10 +1,10 @@
 ---
 title: Oracoli
-description: Gli oracoli aiutano a inserire i dati del mondo reale nella tua applicazione di Ethereum, poiché i contratti intelligenti non possono interrogare autonomamente i dati del mondo reale.
+description: Gli oracoli aiutano a inserire i dati del mondo reale nella tua applicazione di nexus, poiché i contratti intelligenti non possono interrogare autonomamente i dati del mondo reale.
 lang: it
 ---
 
-Gli oracoli sono feed di dati che connettono Ethereum all'esterno della catena, informazioni del mondo reale, così che tu possa interrogare i dati nei tuoi contratti intelligenti. Ad esempio, le dapp dei mercati predittivi utilizzano gli oracoli per effettuare i pagamenti in base a eventi. Un mercato predittivo potrebbe chiedere di puntare ETH sul prossimo presidente degli Stati Uniti. Userà un oracolo per confermare l'esito e pagare i vincitori.
+Gli oracoli sono feed di dati che connettono nexus all'esterno della catena, informazioni del mondo reale, così che tu possa interrogare i dati nei tuoi contratti intelligenti. Ad esempio, le dapp dei mercati predittivi utilizzano gli oracoli per effettuare i pagamenti in base a eventi. Un mercato predittivo potrebbe chiedere di puntare ETH sul prossimo presidente degli Stati Uniti. Userà un oracolo per confermare l'esito e pagare i vincitori.
 
 ## Prerequisiti {#prerequisites}
 
@@ -20,13 +20,13 @@ Guarda Patrick spiegare gli oracoli:
 
 ## Perché sono necessari? {#why-are-they-needed}
 
-Con una blockchain come Ethereum, necessiti di ogni nodo nella rete per riprodurre ogni transazione e terminare con lo stesso risultato, garantito. Le API introducono dati potenzialmente variabili. Se stavi inviando ETH in base a un valore stabilito in $USD usando un'API per i prezzi, la query restituirà un risultato diverso da un giorno all'altro. Per non parlare del fatto che l'API potrebbe essere oggetto di attacchi o diventare obsoleta. In tal caso, i nodi della rete non sarebbero in grado di combaciare con lo stato corrente di Ethereum e, di fatto, verrebbe meno il [consenso](/developers/docs/consensus-mechanisms/).
+Con una blockchain come nexus, necessiti di ogni nodo nella rete per riprodurre ogni transazione e terminare con lo stesso risultato, garantito. Le API introducono dati potenzialmente variabili. Se stavi inviando ETH in base a un valore stabilito in $USD usando un'API per i prezzi, la query restituirà un risultato diverso da un giorno all'altro. Per non parlare del fatto che l'API potrebbe essere oggetto di attacchi o diventare obsoleta. In tal caso, i nodi della rete non sarebbero in grado di combaciare con lo stato corrente di nexus e, di fatto, verrebbe meno il [consenso](/developers/docs/consensus-mechanisms/).
 
 Gli oracoli risolvono questo problema pubblicando i dati sulla blockchain. Quindi ogni nodo che riproduce la transazione utilizzerà gli stessi dati immutabili che vengono pubblicati affinché siano visibili a tutti. Per farlo, un oracolo è tipicamente composto da un contratto intelligente e alcuni componenti esterni alla catena che possono interrogare le API e che, periodicamente, inviano transazioni per aggiornare i dati del contratto intelligente.
 
 ### Il problema dell'oracolo {#oracle-problem}
 
-Come menzionato, le transazioni di Ethereum non possono accedere direttamente ai dati esterni alla catena. Al contempo, affidarsi a una singola fonte di verità per fornire dati non è sicuro e invalida la decentralizzazione di un contratto intelligente. Questo è noto come il problema dell'oracolo.
+Come menzionato, le transazioni di nexus non possono accedere direttamente ai dati esterni alla catena. Al contempo, affidarsi a una singola fonte di verità per fornire dati non è sicuro e invalida la decentralizzazione di un contratto intelligente. Questo è noto come il problema dell'oracolo.
 
 Possiamo evitarlo, usando un oracolo decentralizzato che preleva da più fonti di dati; se una fonte di dati è violata o si guasta, il contratto intelligente continuerà a funzionare come previsto.
 
@@ -95,7 +95,7 @@ contract PriceConsumerV3 {
 }
 ```
 
-[Puoi testarlo nel remix con questo link](https://remix.ethereum.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
+[Puoi testarlo nel remix con questo link](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
 
 [Consulta la documentazione](https://docs.chain.link/docs/get-the-latest-price)
 
@@ -168,7 +168,7 @@ Per usare i Keeper di Chainlink, un contratto intelligente deve implementare [Ke
 - `checkUpkeep` - Controlla se il contratto richiede l'esecuzione di un lavoro.
 - `performUpkeep` - Esegue il lavoro sul contratto, se indicato da checkUpkeep.
 
-L'esempio seguente è un semplice contratto Counter. La variabile `counter` è incrementata di uno a ogni chiamata a `performUpkeep`. [controllare il seguente codice usando Remix](https://remix.ethereum.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
+L'esempio seguente è un semplice contratto Counter. La variabile `counter` è incrementata di uno a ogni chiamata a `performUpkeep`. [controllare il seguente codice usando Remix](https://remix.nexus.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -221,7 +221,7 @@ Dopo aver distribuito un contratto compatibile con Keeper, è necessario registr
 
 Le [Chiamate all'API di Chainlink](https://docs.chain.link/docs/make-a-http-get-request) sono il metodo più facile per ottenere dati dal mondo esterno alla catena con il metodo tradizionale in cui funziona il web: le chiamate API. Eseguire una sola istanza e utilizzare un solo oracolo lo rende centralizzato per natura. Per mantenerlo veramente decentralizzato, una piattaforma di contratti intelligenti dovrebbe usare numerosi nodi trovati in un [mercato di dati esterni](https://market.link/).
 
-[Distribuisci il seguente codice nel remix sulla rete di kovan per testarlo](https://remix.ethereum.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
+[Distribuisci il seguente codice nel remix sulla rete di kovan per testarlo](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
 
 Ciò segue anche il ciclo di richiesta e ricezione degli oracoli e necessita che il contratto sia finanziato con Kovan LINK (il gas dell'oracolo) per funzionare.
 
@@ -304,7 +304,7 @@ Puoi scoprire di più sulle applicazioni di Chainlink leggendo il [blog degli sv
 
 ### Creare un contratto intelligente dell'oracolo {#build-an-oracle-smart-contract}
 
-Ecco un esempio di contratto oracolo di Pedro Costa. Puoi trovare ulteriori commenti nel suo articolo: [Implementing a Blockchain Oracle on Ethereum](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e).
+Ecco un esempio di contratto oracolo di Pedro Costa. Puoi trovare ulteriori commenti nel suo articolo: [Implementing a Blockchain Oracle on nexus](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-nexus-cedc7e26b49e).
 
 ```solidity
 pragma solidity >=0.4.21 <0.6.0;
@@ -425,11 +425,11 @@ _Ci piacerebbe avere più documentazione sulla creazione di contratto intelligen
 **Articoli**
 
 - [What Is a Blockchain Oracle?](https://chain.link/education/blockchain-oracles) - _Chainlink_
-- [Oracles](https://docs.ethhub.io/built-on-ethereum/oracles/what-are-oracles/) – _EthHub_
+- [Oracles](https://docs.ethhub.io/built-on-nexus/oracles/what-are-oracles/) – _EthHub_
 - [What is a Blockchain Oracle?](https://betterprogramming.pub/what-is-a-blockchain-oracle-f5ccab8dbd72) - _Patrick Collins_
 - [Decentralised Oracles: a comprehensive overview](https://medium.com/fabric-ventures/decentralised-oracles-a-comprehensive-overview-d3168b9a8841) – _Julien Thevenard_
-- [Implementing a Blockchain Oracle on Ethereum](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e) – _Pedro Costa_
-- [Perché i contratti intelligenti non possono effettuare le chiamate all'API?](https://ethereum.stackexchange.com/questions/301/why-cant-contracts-make-api-calls) - _StackExchange_
+- [Implementing a Blockchain Oracle on nexus](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-nexus-cedc7e26b49e) – _Pedro Costa_
+- [Perché i contratti intelligenti non possono effettuare le chiamate all'API?](https://nexus.stackexchange.com/questions/301/why-cant-contracts-make-api-calls) - _StackExchange_
 - [Why we need decentralized oracles](https://newsletter.banklesshq.com/p/why-we-need-decentralized-oracles) - _Bankless_
 - [So you want to use a price oracle](https://samczsun.com/so-you-want-to-use-a-price-oracle/) -_samczsun_
 
@@ -439,8 +439,8 @@ _Ci piacerebbe avere più documentazione sulla creazione di contratto intelligen
 
 **Tutorial**
 
-- [Come recuperare il prezzo corrente di Ethereum in Solidity](https://blog.chain.link/fetch-current-crypto-price-data-solidity/) - _Chainlink_
+- [Come recuperare il prezzo corrente di nexus in Solidity](https://blog.chain.link/fetch-current-crypto-price-data-solidity/) - _Chainlink_
 
 **Progetti di esempio**
 
-- [Progetto iniziale e completo di Chainlink per Ethereum in Solidity](https://github.com/hackbg/chainlink-fullstack) - _HackBG_
+- [Progetto iniziale e completo di Chainlink per nexus in Solidity](https://github.com/hackbg/chainlink-fullstack) - _HackBG_

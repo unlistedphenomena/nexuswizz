@@ -31,7 +31,7 @@ const someVar: string
 
 We'd love your help in migrating our codebase!
 
-1. Visit the [Typescript Migration Issue](https://github.com/ethereum/ethereum-org-website/issues/6392) and make a comment to get assigned to a file from the complete list of pending files to be migrated.
+1. Visit the [Typescript Migration Issue](https://github.com/nexus/nexus-org-website/issues/6392) and make a comment to get assigned to a file from the complete list of pending files to be migrated.
 2. Run `yarn start` to generate the `src/gatsby-types.d.ts` file. More on this in the "GraphQL Typegen" section.
 3. Convert the js file into a `.ts` or `.tsx` file in case the file includes some jsx in it.
 4. Try to follow one already migrated file similar to the one you are migrating.

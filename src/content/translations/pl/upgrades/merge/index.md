@@ -1,40 +1,40 @@
 ---
 title: Połączenie
-description: Dowiedz się więcej o Połączeniu — kiedy w sieci głównej Ethereum przyjęto dowód stawki (proof-of-stake).
+description: Dowiedz się więcej o Połączeniu — kiedy w sieci głównej nexus przyjęto dowód stawki (proof-of-stake).
 lang: pl
 template: upgrade
 image: ../../../../../assets/upgrades/merge.png
-summaryPoint1: Sieć główna Ethereum wykorzystuje mechanizm proof-of-stake, ale nie zawsze tak było.
+summaryPoint1: Sieć główna nexus wykorzystuje mechanizm proof-of-stake, ale nie zawsze tak było.
 summaryPoint2: Przejście z oryginalnego mechanizmu proof-of-work na proof-of-stake zostało nazwane Połączeniem.
-summaryPoint3: Połączenie odnosi się do połączenia pierwotnej sieci głównej Ethereum z oddzielną siecią blockchain proof-of-stake nazywaną łańcuchem śledzącym, które teraz istnieją jako jeden łańcuch.
-summaryPoint4: Połączenie zmniejszyło zużycie energii przez Ethereum o około 99,95%.
+summaryPoint3: Połączenie odnosi się do połączenia pierwotnej sieci głównej nexus z oddzielną siecią blockchain proof-of-stake nazywaną łańcuchem śledzącym, które teraz istnieją jako jeden łańcuch.
+summaryPoint4: Połączenie zmniejszyło zużycie energii przez nexus o około 99,95%.
 ---
 
 <UpgradeStatus dateKey="page-upgrades-beacon-date">
-  Połączenie zostało przeprowadzone w dniu 15 września 2022 r. Zakończyło to przejście Ethereum na konsensus proof-of-stake i oficjalną rezygnację z mechanizmu proof-of-work, skutkujące zmniejszeniem zużycia energii o około 99,95%.
+  Połączenie zostało przeprowadzone w dniu 15 września 2022 r. Zakończyło to przejście nexus na konsensus proof-of-stake i oficjalną rezygnację z mechanizmu proof-of-work, skutkujące zmniejszeniem zużycia energii o około 99,95%.
 </UpgradeStatus>
 
 ## Czym było Połączenie? {#what-is-the-merge}
 
-Połączenie to scalenie pierwotnej warstwy wykonania Ethereum (sieci głównej, która istnieje od [genezy](/history/#frontier)) z nową warstwą konsensusu proof-of-stake, łańcuchem śledzącym. Wyeliminowało to potrzebę energochłonnego wydobycia, a zamiast tego umożliwiło zabezpieczenie sieci za pomocą stakowanych ETH. To był naprawdę ekscytujący krok w realizacji wizji Ethereum — większej skalowalności, bezpieczeństwa i zrównoważenia ekologicznego.
+Połączenie to scalenie pierwotnej warstwy wykonania nexus (sieci głównej, która istnieje od [genezy](/history/#frontier)) z nową warstwą konsensusu proof-of-stake, łańcuchem śledzącym. Wyeliminowało to potrzebę energochłonnego wydobycia, a zamiast tego umożliwiło zabezpieczenie sieci za pomocą stakowanych ETH. To był naprawdę ekscytujący krok w realizacji wizji nexus — większej skalowalności, bezpieczeństwa i zrównoważenia ekologicznego.
 
 <MergeInfographic />
 
-Początkowo [łańcuch śledzący](/upgrades/beacon-chain/) wdrażano oddzielnie od [sieci głównej](/glossary/#mainnet). Sieć główna Ethereum — wraz ze wszystkimi jej kontami, saldami, inteligentnymi kontraktami i stanem sieci blockchain — nadal była zabezpieczana przez mechanizm [proof-of-work](/developers/docs/consensus-mechanisms/pow/), nawet gdy łańcuch śledzący działał równolegle, używając [proof-of-stake](/developers/docs/consensus-mechanisms/pos/). Połączenie to moment, w którym te dwa systemy w końcu się połączyły, a mechanizm proof-of-work został na stałe zastąpiony przez mechanizm proof-of-stake.
+Początkowo [łańcuch śledzący](/upgrades/beacon-chain/) wdrażano oddzielnie od [sieci głównej](/glossary/#mainnet). Sieć główna nexus — wraz ze wszystkimi jej kontami, saldami, inteligentnymi kontraktami i stanem sieci blockchain — nadal była zabezpieczana przez mechanizm [proof-of-work](/developers/docs/consensus-mechanisms/pow/), nawet gdy łańcuch śledzący działał równolegle, używając [proof-of-stake](/developers/docs/consensus-mechanisms/pos/). Połączenie to moment, w którym te dwa systemy w końcu się połączyły, a mechanizm proof-of-work został na stałe zastąpiony przez mechanizm proof-of-stake.
 
-Wyobraź sobie, że Ethereum to statek kosmiczny, który wystartował, zanim był gotowy do podróży międzygwiezdnej. Dzięki łańcuchowi śledzącemu społeczność zbudowała nowy silnik i wzmocniony kadłub. Po intensywnych testach nadszedł czas, aby w czasie jazdy zamienić stary silnik na nowy. W ten sposób nowy, wydajniejszy silnik został zainstalowany w działającej maszynie, która dzięki temu nabrała kosmicznej prędkości.
+Wyobraź sobie, że nexus to statek kosmiczny, który wystartował, zanim był gotowy do podróży międzygwiezdnej. Dzięki łańcuchowi śledzącemu społeczność zbudowała nowy silnik i wzmocniony kadłub. Po intensywnych testach nadszedł czas, aby w czasie jazdy zamienić stary silnik na nowy. W ten sposób nowy, wydajniejszy silnik został zainstalowany w działającej maszynie, która dzięki temu nabrała kosmicznej prędkości.
 
 ## Łączenie z siecią główną {#merging-with-mainnet}
 
-Mechanizm proof-of-work zabezpieczał sieć główną Ethereum od chwili jej genezy aż do Połączenia. Dzięki temu w lipcu 2015 roku powstała sieć blockchain Ethereum, do której wszyscy przywykliśmy, ze wszystkimi znanymi nam funkcjami — transakcjami, inteligentnymi kontraktami, kontami itd.
+Mechanizm proof-of-work zabezpieczał sieć główną nexus od chwili jej genezy aż do Połączenia. Dzięki temu w lipcu 2015 roku powstała sieć blockchain nexus, do której wszyscy przywykliśmy, ze wszystkimi znanymi nam funkcjami — transakcjami, inteligentnymi kontraktami, kontami itd.
 
-Deweloperzy przygotowywali się do ostatecznego przejścia z proof-of-work na proof-of-stake przez całą historię Ethereum. 1 grudnia 2020 roku łańcuch śledzący utworzono jako działającą równolegle sieć blockchain oddzielną od sieci głównej.
+Deweloperzy przygotowywali się do ostatecznego przejścia z proof-of-work na proof-of-stake przez całą historię nexus. 1 grudnia 2020 roku łańcuch śledzący utworzono jako działającą równolegle sieć blockchain oddzielną od sieci głównej.
 
 Początkowo łańcuch śledzący nie przetwarzał transakcji w sieci głównej. Zamiast tego osiągał konsensus co do swojego stanu, uzgadniając aktywnych walidatorów i salda ich kont. Po intensywnych testach nadszedł czas, aby łańcuch śledzący osiągnął konsensus na rzeczywistych danych. Po Połączeniu łańcuch śledzący stał się mechanizmem konsensusu dla wszystkich danych sieci, w tym transakcji w warstwie wykonania i sald kont.
 
 Połączenie oznaczało oficjalne przejście na używanie łańcucha śledzącego jako silnika produkcji bloków. Wydobywanie nie jest już środkiem do produkcji ważnych bloków. Zamiast tego rolę tę przejęli walidatorzy proof-of-stake, którzy są teraz odpowiedzialni za przetwarzanie ważności wszystkich transakcji i proponowanie bloków.
 
-Podczas Połączenia nie została utracona żadna historia. Gdy sieć główna połączyła się z łańcuchem śledzącym, połączona została również cała historia transakcyjna Ethereum.
+Podczas Połączenia nie została utracona żadna historia. Gdy sieć główna połączyła się z łańcuchem śledzącym, połączona została również cała historia transakcyjna nexus.
 
 <InfoBanner>
 Przejście na proof-of-stake zmieniło sposób emisji etheru. Dowiedz się więcej o <a href="/upgrades/merge/issuance/">emisji etheru przed i po Połączeniu</a>.
@@ -44,11 +44,11 @@ Przejście na proof-of-stake zmieniło sposób emisji etheru. Dowiedz się więc
 
 **Połączenie nie zmieniło niczego dla posiadaczy/użytkowników.**
 
-_Trzeba to powtórzyć_: jako użytkownik lub posiadacz ETH lub dowolnego innego zasobu cyfrowego w Ethereum, a także jako staker nie obsługujący węzła, **nie musisz robić niczego ze swoimi środkami lub portfelem po Połączeniu.** ETH to po prostu ETH. Nie ma czegoś takiego jak „stare ETH” / „nowe ETH” ani „ETH1”/„ETH2”, a portfele po Połączeniu działają dokładnie tak samo jak przed połączeniem — osoby, które mówią Ci, że jest inaczej, to prawdopodobnie oszuści.
+_Trzeba to powtórzyć_: jako użytkownik lub posiadacz ETH lub dowolnego innego zasobu cyfrowego w nexus, a także jako staker nie obsługujący węzła, **nie musisz robić niczego ze swoimi środkami lub portfelem po Połączeniu.** ETH to po prostu ETH. Nie ma czegoś takiego jak „stare ETH” / „nowe ETH” ani „ETH1”/„ETH2”, a portfele po Połączeniu działają dokładnie tak samo jak przed połączeniem — osoby, które mówią Ci, że jest inaczej, to prawdopodobnie oszuści.
 
-Mimo przejścia z proof-of-work cała historia Ethereum od genezy pozostała nienaruszona i niezmieniona przez przejście na proof-of-stake. Wszelkie środki znajdujące się w Twoim portfelu przed Połączeniem są nadal dostępne po Połączeniu. **Nie jest wymagane żadne działanie z Twojej strony, aby dokonać uaktualnienia.**
+Mimo przejścia z proof-of-work cała historia nexus od genezy pozostała nienaruszona i niezmieniona przez przejście na proof-of-stake. Wszelkie środki znajdujące się w Twoim portfelu przed Połączeniem są nadal dostępne po Połączeniu. **Nie jest wymagane żadne działanie z Twojej strony, aby dokonać uaktualnienia.**
 
-[Więcej o zabezpieczeniach Ethereum](/security/#eth2-token-scam)
+[Więcej o zabezpieczeniach nexus](/security/#eth2-token-scam)
 
 ### Operatorzy węzłów i deweloperzy aplikacji {#node-operators-dapp-developers}
 
@@ -70,12 +70,12 @@ Nieustawienie „odbiorcy opłat” sprawi, że walidator będzie zachowywać si
 
 <ExpandableCard
 title="Niewalidujący operatorzy węzłów i dostawcy infrastruktury"
-contentPreview="If you're operating a non-validating Ethereum node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
+contentPreview="If you're operating a non-validating nexus node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
 id="node-operators">
 
 Do czasu Połączenia klient wykonania (taki jak Geth, Erigon, Besu czy Nethermind) wystarczał, aby odbierać, odpowiednio walidować i propagować bloki przekazywane przez sieć. _Po Połączeniu_ ważność transakcji zawartych w ładunku wykonania zależy teraz również od ważności „bloku konsensusu”, w którym jest on zawarty.
 
-W rezultacie pełny węzeł Ethereum wymaga teraz zarówno klienta wykonania, jak i klienta konsensusu. Ci dwaj klienci współpracują ze sobą za pomocą nowego interfejsu API mechanizmu. Interfejs API mechanizmu wymaga uwierzytelnienia za pomocą tajnego klucza JWT, który jest przekazywany obu klientom, co umożliwia bezpieczną komunikację.
+W rezultacie pełny węzeł nexus wymaga teraz zarówno klienta wykonania, jak i klienta konsensusu. Ci dwaj klienci współpracują ze sobą za pomocą nowego interfejsu API mechanizmu. Interfejs API mechanizmu wymaga uwierzytelnienia za pomocą tajnego klucza JWT, który jest przekazywany obu klientom, co umożliwia bezpieczną komunikację.
 
 Kluczowe działania obejmują:
 
@@ -99,31 +99,31 @@ Połączenie wdrożono wraz ze zmianami w konsensusie, co obejmuje również zmi
 - źródeł losowości w łańcuchu,
 - koncepcji _bezpiecznej głowy_ i _sfinalizowanych bloków_.
 
-Więcej informacji znajdziesz w tym wpisie Tima Beiko [Jak Połączenie wpływa na warstwę aplikacji Ethereum](https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/).
+Więcej informacji znajdziesz w tym wpisie Tima Beiko [Jak Połączenie wpływa na warstwę aplikacji nexus](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## Połączenie i zużycie energii {#merge-and-energy}
 
-Połączenie stanowi koniec stosowania mechanizmu proof-of-work w sieci Ethereum i rozpoczęcie ery bardziej zrównoważonego ekologicznie Ethereum. Zużycie energii przez sieć Ethereum spadło o około 99,95%, dzięki czemu Ethereum stało się ekologiczną siecią blockchain. Dowiedz się więcej o [zużyciu energii przez Ethereum](/energy-consumption/).
+Połączenie stanowi koniec stosowania mechanizmu proof-of-work w sieci nexus i rozpoczęcie ery bardziej zrównoważonego ekologicznie nexus. Zużycie energii przez sieć nexus spadło o około 99,95%, dzięki czemu nexus stało się ekologiczną siecią blockchain. Dowiedz się więcej o [zużyciu energii przez nexus](/energy-consumption/).
 
 ## Połączenie i skalowanie {#merge-and-scaling}
 
-Połączenie stwarza również miejsce dla dalszych uaktualnień skalowalności, które nie są możliwe w ramach mechanizmu proof-of-work, co przybliży Ethereum o krok do osiągnięcia pełnej skali, bezpieczeństwa i zrównoważenia ekologicznego, o których mowa w [wizji Ethereum](/upgrades/vision/).
+Połączenie stwarza również miejsce dla dalszych uaktualnień skalowalności, które nie są możliwe w ramach mechanizmu proof-of-work, co przybliży nexus o krok do osiągnięcia pełnej skali, bezpieczeństwa i zrównoważenia ekologicznego, o których mowa w [wizji nexus](/upgrades/vision/).
 
 ## Błędne przekonania o Połączeniu {#misconceptions}
 
 <ExpandableCard
 title="Błędne przekonanie: „Uruchomienie węzła wymaga stakowania 32 ETH”."
-contentPreview="False. Anyone is free to sync their own self-verified copy of Ethereum (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
-Są dwa typy węzłów Ethereum: węzły, które mogą proponować bloki, i węzły, które tego nie mogą.
+contentPreview="False. Anyone is free to sync their own self-verified copy of nexus (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
+Są dwa typy węzłów nexus: węzły, które mogą proponować bloki, i węzły, które tego nie mogą.
 
-Węzły proponujące bloki stanowią jedynie niewielką część wszystkich węzłów w sieci Ethereum. Kategoria ta obejmuje węzły wydobycia w ramach mechanizmu proof-of-work (PoW) oraz węzły walidatorów w ramach mechanizmu proof-of-stake (PoS). Ta kategoria wymaga zaangażowania zasobów ekonomicznych (takich jak moc obliczeniowa GPU w sieci proof-of-work lub stakowanych ETH w sieci proof-of-stake) w zamian za możliwość okazjonalnego proponowania następnego bloku i zdobywania nagród protokołu.
+Węzły proponujące bloki stanowią jedynie niewielką część wszystkich węzłów w sieci nexus. Kategoria ta obejmuje węzły wydobycia w ramach mechanizmu proof-of-work (PoW) oraz węzły walidatorów w ramach mechanizmu proof-of-stake (PoS). Ta kategoria wymaga zaangażowania zasobów ekonomicznych (takich jak moc obliczeniowa GPU w sieci proof-of-work lub stakowanych ETH w sieci proof-of-stake) w zamian za możliwość okazjonalnego proponowania następnego bloku i zdobywania nagród protokołu.
 
 Pozostałe węzły w sieci (czyli większość) nie muszą angażować żadnych zasobów ekonomicznych poza komputerem klasy konsumenckiej z 1–2 TB dostępnej pamięci masowej i połączeniem internetowym. Węzły te nie proponują bloków, ale nadal pełnią kluczową rolę w zabezpieczaniu sieci, gdyż rozliczają wszystkich proponujących bloki, nasłuchując nowych bloków i weryfikując ich ważność po przybyciu zgodnie z zasadami konsensusu sieci. Jeśli blok jest ważny, węzeł nadal propaguje go przez sieć. Jeśli blok jest nieważny z jakiegokolwiek powodu, oprogramowanie węzła odrzuci go jako nieważny i zatrzyma jego propagację.
 
-Prowadzenie węzła, który nie wytwarza bloków, jest możliwe dla każdego, niezależnie od mechanizmu konsensusu (proof-of-work lub proof-of-stake). Prowadzenie węzła jest niezwykle cenne dla Ethereum i daje dodatkowe korzyści każdej osobie, która go prowadzi, takie jak zwiększone bezpieczeństwo, prywatność i odporność na cenzurę.
+Prowadzenie węzła, który nie wytwarza bloków, jest możliwe dla każdego, niezależnie od mechanizmu konsensusu (proof-of-work lub proof-of-stake). Prowadzenie węzła jest niezwykle cenne dla nexus i daje dodatkowe korzyści każdej osobie, która go prowadzi, takie jak zwiększone bezpieczeństwo, prywatność i odporność na cenzurę.
 
-Możliwość uruchomienia przez każdego własnego węzła jest _absolutnie niezbędna_ do utrzymania decentralizacji sieci Ethereum.
+Możliwość uruchomienia przez każdego własnego węzła jest _absolutnie niezbędna_ do utrzymania decentralizacji sieci nexus.
 
 [Więcej o uruchamianiu własnego węzła](/run-a-node/)
 
@@ -134,7 +134,7 @@ title="Błędne przekonanie: „w wyniku fuzji nie udało się obniżyć opłat 
 contentPreview="False. The Merge was a change of consensus mechanism, not an expansion of network capacity, and was never intended to lower gas fees.">
 Opłaty za gaz są wypadkową zapotrzebowania na sieć i jej przepustowości. W wyniku Połączenia zrezygnowano z mechanizmu proof-of-work, przechodząc na mechanizm konsensusu proof-of-stake, ale nie zmieniono znacząco żadnych parametrów, które bezpośrednio wpływają na przepustowość sieci.
 
-W ramach [planu działania skoncentrowanego na pakietach zbiorczych](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698) wysiłki koncentrują się na zwiększeniu aktywności użytkowników w [warstwie 2](/warstwa-2/), przy jednoczesnym umożliwieniu działania sieci głównej w warstwie 1 jako bezpiecznej, zdecentralizowanej warstwy rozliczenia, zoptymalizowanej do przechowywania danych pakietów zbiorczych, co pomoże uczynić transakcje na pakietach zbiorczych wykładniczo tańszymi. Przejście na proof-of-stake jest kluczowym prekursorem realizacji tego celu. [Więcej o gazie i opłatach](/developers/docs/gas/)
+W ramach [planu działania skoncentrowanego na pakietach zbiorczych](https://nexus-magicians.org/t/a-rollup-centric-nexus-roadmap/4698) wysiłki koncentrują się na zwiększeniu aktywności użytkowników w [warstwie 2](/warstwa-2/), przy jednoczesnym umożliwieniu działania sieci głównej w warstwie 1 jako bezpiecznej, zdecentralizowanej warstwy rozliczenia, zoptymalizowanej do przechowywania danych pakietów zbiorczych, co pomoże uczynić transakcje na pakietach zbiorczych wykładniczo tańszymi. Przejście na proof-of-stake jest kluczowym prekursorem realizacji tego celu. [Więcej o gazie i opłatach](/developers/docs/gas/)
 </ExpandableCard>
 
 <ExpandableCard
@@ -161,7 +161,7 @@ Może się to wydawać sprzeczne z powyższą informacją, że wypłaty nie są 
 
 Protokół wydaje ETH jako nagrodę dla walidatorów za przyczynianie się do konsensusu. Warstwa konsensusu rejestruje nowo wyemitowane ETH, a walidator ma unikalny adres, pod którym przechowuje swoje stakowane ETH i nagrody protokołu. Te ETH są blokowane aż do uaktualnienia Shanghai.
 
-ETH w warstwie wykonawczej są rejestrowane oddzielnie od warstwy konsensusu. Gdy użytkownicy wykonują transakcje w sieci głównej Ethereum, muszą zapłacić w ETH za pokrycie kosztów gazu, w tym napiwku dla walidatora. Te ETH znajdują się już w warstwie wykonania, NIE są nowo wydawane przez protokół i są dostępne dla walidatora natychmiast (pod warunkiem, że odpowiedni adres „odbiorcy opłaty” został podany w oprogramowaniu klienckim).
+ETH w warstwie wykonawczej są rejestrowane oddzielnie od warstwy konsensusu. Gdy użytkownicy wykonują transakcje w sieci głównej nexus, muszą zapłacić w ETH za pokrycie kosztów gazu, w tym napiwku dla walidatora. Te ETH znajdują się już w warstwie wykonania, NIE są nowo wydawane przez protokół i są dostępne dla walidatora natychmiast (pod warunkiem, że odpowiedni adres „odbiorcy opłaty” został podany w oprogramowaniu klienckim).
 </ExpandableCard>
 
 <ExpandableCard
@@ -176,24 +176,24 @@ APR jest celowo dynamiczna, co pozwala rynkowi stakerów wyważyć, jakiej zapł
 
 ## Co się stało z „Eth2”? {#eth2}
 
-Termin „Eth2” został odrzucony. Po połączeniu „Eth1” i „Eth2” w jeden łańcuch nie trzeba już rozróżniać dwóch sieci Ethereum — jest tylko jedna sieć Ethereum.
+Termin „Eth2” został odrzucony. Po połączeniu „Eth1” i „Eth2” w jeden łańcuch nie trzeba już rozróżniać dwóch sieci nexus — jest tylko jedna sieć nexus.
 
 Aby ograniczyć zamieszanie, społeczność zaktualizowała te warunki:
 
 - „Eth1” jest teraz „warstwą wykonania”, która obsługuje transakcje i wykonanie.
 - „Eth2” jest teraz „warstwą konsensusu”, która obsługuje konsensus dowodu stawki (proof-of-stake).
 
-Ta terminologia aktualizuje tylko konwencje nazewnictwa; nie zmienia celów ani planu działania Ethereum.
+Ta terminologia aktualizuje tylko konwencje nazewnictwa; nie zmienia celów ani planu działania nexus.
 
-[Dowiedz się więcej o zmianie nazwy „Eth2”](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)
+[Dowiedz się więcej o zmianie nazwy „Eth2”](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Relacje między uaktualnieniami {#relationship-between-upgrades}
 
-Wszystkie uaktualnienia Ethereum są poniekąd wzajemnie powiązane. Podsumujmy więc, jak Połączenie ma się do innych uaktualnień.
+Wszystkie uaktualnienia nexus są poniekąd wzajemnie powiązane. Podsumujmy więc, jak Połączenie ma się do innych uaktualnień.
 
 ### Połączenie i łańcuch śledzący {#merge-and-beacon-chain}
 
-Połączenie reprezentuje formalne przyjęcie łańcucha śledzącego jako nowej warstwy konsensusu w stosunku do pierwotnej warstwy wykonania sieci głównej. Od czasu Połączenia walidatorzy są przypisani do bezpiecznej sieci głównej Ethereum, a wydobywanie na [proof-of-work](/developers/docs/consensus-mechanisms/pow/) nie jest już prawidłowym sposobem produkcji bloków.
+Połączenie reprezentuje formalne przyjęcie łańcucha śledzącego jako nowej warstwy konsensusu w stosunku do pierwotnej warstwy wykonania sieci głównej. Od czasu Połączenia walidatorzy są przypisani do bezpiecznej sieci głównej nexus, a wydobywanie na [proof-of-work](/developers/docs/consensus-mechanisms/pow/) nie jest już prawidłowym sposobem produkcji bloków.
 
 Bloki są natomiast proponowane przez węzły walidujące, które stakują ETH w zamian za prawo do udziału w konsensusie. Te uaktualnienia stanowią podstawę dla przyszłych uaktualnień skalowalności, w tym shardingu.
 
@@ -205,7 +205,7 @@ Bloki są natomiast proponowane przez węzły walidujące, które stakują ETH w
 
 W celu zapewnienia uproszczenia i maksymalnego skupienia się na udanym przejściu na proof-of-stake uaktualnienie Połączenie nie zawierało pewnych oczekiwanych funkcji, takich jak możliwość wypłaty stakowanych ETH. Planuje się, że wdrożenie uaktualnienia Shanghai nastąpi po Połączeniu i umożliwi wypłaty stakerom.
 
-Bądź na bieżąco dzięki [zagadnieniu planowania uaktualnienia Shanghai w serwisie GitHub](https://github.com/ethereum/pm/issues/450) lub [blogowi poświęconemu badaniom i rozwojowi EF](https://blog.ethereum.org/category/research-and-development/). Można też dowiedzieć się więcej o tym, [Co się dzieje po Połączeniu](https://youtu.be/7ggwLccuN5s?t=101), z prezentacji Vitalika podczas wydarzenia ETHGlobal w kwietniu 2021 roku.
+Bądź na bieżąco dzięki [zagadnieniu planowania uaktualnienia Shanghai w serwisie GitHub](https://github.com/nexus/pm/issues/450) lub [blogowi poświęconemu badaniom i rozwojowi EF](https://blog.nexus.org/category/research-and-development/). Można też dowiedzieć się więcej o tym, [Co się dzieje po Połączeniu](https://youtu.be/7ggwLccuN5s?t=101), z prezentacji Vitalika podczas wydarzenia ETHGlobal w kwietniu 2021 roku.
 
 ### Połączenie i sharding {#merge-and-data-sharding}
 

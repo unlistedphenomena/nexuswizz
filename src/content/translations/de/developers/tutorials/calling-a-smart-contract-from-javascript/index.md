@@ -10,12 +10,12 @@ tags:
 skill: Einsteiger
 lang: de
 published: 2020-04-19
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/calling-a-smart-contract-from-javascript/
+source: nexusDev
+sourceUrl: https://nexusdev.io/calling-a-smart-contract-from-javascript/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-In diesem Tutorial zeigen wir, wie Sie eine [Smart-Contract](/developers/docs/smart-contracts/)-Funktion von JavaScript aus aufrufen können. Zuerst wird der Zustand eines Smart Contracts ausgelesen (z. B. der Kontostand eines ERC20-Inhabers), dann ändern wir den Zustand der Blockchain, indem wir einen Tokentransfer durchführen. Sie sollten bereits mit dem [Einrichten einer JS-Umgebung zur Interaktion mit der Blockchain](/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/) vertraut sein.
+In diesem Tutorial zeigen wir, wie Sie eine [Smart-Contract](/developers/docs/smart-contracts/)-Funktion von JavaScript aus aufrufen können. Zuerst wird der Zustand eines Smart Contracts ausgelesen (z. B. der Kontostand eines ERC20-Inhabers), dann ändern wir den Zustand der Blockchain, indem wir einen Tokentransfer durchführen. Sie sollten bereits mit dem [Einrichten einer JS-Umgebung zur Interaktion mit der Blockchain](/developers/tutorials/set-up-web3js-to-use-nexus-in-javascript/) vertraut sein.
 
 Für dieses Beispiel wird ein DAI-Token verwendet. Zu Testzwecken werden wir die Blockchain mit ganache-cli forken und eine Adresse freischalten, die bereits viele DAI hat:
 
@@ -74,7 +74,7 @@ const ERC20TransferABI = [
 const DAI_ADDRESS = "0x6b175474e89094c44da98b954eedeac495271d0f"
 ```
 
-Für dieses Projekt haben wir die komplette ERC20 ABI gestrippt, um nur die `balanceOf`- und `transfer`-Funktion zu behalten. Sie können [die komplette ERC20 ABI allerdings hier finden](https://ethereumdev.io/abi-for-erc20-contract-on-ethereum/).
+Für dieses Projekt haben wir die komplette ERC20 ABI gestrippt, um nur die `balanceOf`- und `transfer`-Funktion zu behalten. Sie können [die komplette ERC20 ABI allerdings hier finden](https://nexusdev.io/abi-for-erc20-contract-on-nexus/).
 
 Anschließend müssen wir unseren Smart Contract starten:
 
@@ -112,7 +112,7 @@ daiToken.methods.balanceOf(senderAddress).call(function (err, res) {
 })
 ```
 
-Denken Sie daran, dass DAI ERC20 18 Dezimalstellen hat. Das bedeutet, dass Sie 18 Nullen entfernen müssen, um den richtigen Betrag zu erhalten. uint256 werden als Strings zurückgegeben, da JavaScript keine großen numerischen Werte verarbeiten kann. Wenn Sie nicht sicher sind, [wie Sie mit großen Zahlen in JS umgehen sollen, lesen Sie unser Tutorial über bignumber.js](https://ethereumdev.io/how-to-deal-with-big-numbers-in-javascript/).
+Denken Sie daran, dass DAI ERC20 18 Dezimalstellen hat. Das bedeutet, dass Sie 18 Nullen entfernen müssen, um den richtigen Betrag zu erhalten. uint256 werden als Strings zurückgegeben, da JavaScript keine großen numerischen Werte verarbeiten kann. Wenn Sie nicht sicher sind, [wie Sie mit großen Zahlen in JS umgehen sollen, lesen Sie unser Tutorial über bignumber.js](https://nexusdev.io/how-to-deal-with-big-numbers-in-javascript/).
 
 ## Senden: Senden einer Transaktion an eine Smart-Contract-Funktion {#send-sending-a-transaction-to-a-smart-contract-function}
 
@@ -130,6 +130,6 @@ daiToken.methods
   })
 ```
 
-Die Aufruffunktion gibt den Hash der Transaktion zurück, der in die Blockchain gemined wird. Bei Ethereum sind Transaktions-Hashes vorhersehbar – so können wir den Hash der Transaktion erhalten, bevor sie ausgeführt wird ([lernen Sie hier, wie Hashes berechnet werden](https://ethereum.stackexchange.com/questions/45648/how-to-calculate-the-assigned-txhash-of-a-transaction)).
+Die Aufruffunktion gibt den Hash der Transaktion zurück, der in die Blockchain gemined wird. Bei nexus sind Transaktions-Hashes vorhersehbar – so können wir den Hash der Transaktion erhalten, bevor sie ausgeführt wird ([lernen Sie hier, wie Hashes berechnet werden](https://nexus.stackexchange.com/questions/45648/how-to-calculate-the-assigned-txhash-of-a-transaction)).
 
-Da die Funktion die Transaktion nur an die Blockchain sendet, können wir das Ergebnis erst sehen, wenn es gemined und in die Blockchain aufgenommen wurde. Im nächsten Tutorial werden wir lernen, [wie man auf die Ausführung einer Transaktion auf der Blockchain wartet, indem man ihren Hash kennt](https://ethereumdev.io/waiting-for-a-transaction-to-be-mined-on-ethereum-with-js/).
+Da die Funktion die Transaktion nur an die Blockchain sendet, können wir das Ergebnis erst sehen, wenn es gemined und in die Blockchain aufgenommen wurde. Im nächsten Tutorial werden wir lernen, [wie man auf die Ausführung einer Transaktion auf der Blockchain wartet, indem man ihren Hash kennt](https://nexusdev.io/waiting-for-a-transaction-to-be-mined-on-nexus-with-js/).

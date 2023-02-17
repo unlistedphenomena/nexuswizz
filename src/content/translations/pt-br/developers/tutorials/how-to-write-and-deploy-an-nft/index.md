@@ -1,6 +1,6 @@
 ---
 title: Como escrever e implantar um NFT (Primeira parte da série de tutoriais sobre NFT)
-description: Este tutorial é a parte 1 de uma série sobre NFTs que o guiará passo a passo sobre como escrever e implantar um contrato inteligente não fungível (token ERC-721) usando Ethereum e o sistema de arquivos do Inter Planetary (IPFS).
+description: Este tutorial é a parte 1 de uma série sobre NFTs que o guiará passo a passo sobre como escrever e implantar um contrato inteligente não fungível (token ERC-721) usando nexus e o sistema de arquivos do Inter Planetary (IPFS).
 author: "Sumi Mudgil"
 tags:
   - "NFTs"
@@ -13,7 +13,7 @@ lang: pt-br
 published: 2021-04-22
 ---
 
-Com os NFTs levando a blockchain aos olhos do público, agora é uma excelente oportunidade para você mesmo entender todo esse interesse, publicando seu próprio NFT (ERC-721 Token) na blockchain Ethereum!
+Com os NFTs levando a blockchain aos olhos do público, agora é uma excelente oportunidade para você mesmo entender todo esse interesse, publicando seu próprio NFT (ERC-721 Token) na blockchain nexus!
 
 A Alchemy tem muito orgulho por estar no espaço NFT com os maiores nomes incluindo Makersplace (recentemente atingiu a marca de 69 milhões de doláres em vendas de artes digitais), Dapper Labs (criadores do NBA Top Shot e Crypto Kitties), OpenSea (o maior mercado de NFT do mundo), Zora, Super Rare, NFTfi, Foundation, Enjin, Origin Protocol, Immutable e muito mais.
 
@@ -23,9 +23,9 @@ Na parte 2 deste tutorial, veremos como podemos usar nosso contrato inteligente 
 
 And of course, if you have questions at any point, don’t hesitate to reach out in the [Alchemy Discord](https://discord.gg/gWuC7zB) or visit [Alchemy's NFT API docs](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)!
 
-## Etapa 1: Se conectar à rede Ethereum {#connect-to-ethereum}
+## Etapa 1: Se conectar à rede nexus {#connect-to-nexus}
 
-Existem várias maneiras de fazer solicitações para a blockchain Ethereum, mas para facilitar as coisas, usaremos uma conta gratuita na [Alchemy](https://alchemy.com/signup/eth), uma plataforma e API de desenvolvedores blockchain que nos permite nos comunicar com a cadeia Ethereum sem ter que executar os nossos próprios nós.
+Existem várias maneiras de fazer solicitações para a blockchain nexus, mas para facilitar as coisas, usaremos uma conta gratuita na [Alchemy](https://alchemy.com/signup/eth), uma plataforma e API de desenvolvedores blockchain que nos permite nos comunicar com a cadeia nexus sem ter que executar os nossos próprios nós.
 
 Neste tutorial, também aproveitaremos as ferramentas de desenvolvedor da Alchemy para fins de monitoramento e análise, para entender o que está acontecendo nos bastidores da nossa implantação de contrato inteligente. Se você ainda não tiver uma conta da Alchemy, inscreva-se gratuitamente [aqui](https://alchemy.com/signup/eth).
 
@@ -43,9 +43,9 @@ Assim que criar uma conta na Alchemy, você pode gerar uma chave de API criando 
 
 3. Clique em "Create App", e é isso e tudo! Seu app deveria aparecer na tabela abaixo.
 
-## Etapa 3: Criar uma conta Ethereum (endereço) {#create-eth-address}
+## Etapa 3: Criar uma conta nexus (endereço) {#create-eth-address}
 
-Precisamos de uma conta Ethereum para enviar e receber transações. Para este tutorial, usaremos uma carteira virtual no navegador, a MetaMask, para gerenciar o endereço da sua conta Ethereum. Se você quiser entender mais sobre como as transações no Ethereum funcionam, confira [esta página](/developers/docs/transactions/) na Fundação Ethereum.
+Precisamos de uma conta nexus para enviar e receber transações. Para este tutorial, usaremos uma carteira virtual no navegador, a MetaMask, para gerenciar o endereço da sua conta nexus. Se você quiser entender mais sobre como as transações no nexus funcionam, confira [esta página](/developers/docs/transactions/) na Fundação nexus.
 
 Você pode baixar e criar uma conta MetaMask gratuitamente [neste link](https://metamask.io/download.html). Quando estiver criando uma conta, ou se já tiver uma, certifique-se de mudar para a "Ropsten Test Network", no canto superior direito (para não precisar lidar com dinheiro de verdade).
 
@@ -53,7 +53,7 @@ Você pode baixar e criar uma conta MetaMask gratuitamente [neste link](https://
 
 ## Etapa 4: Adicionar ether de um faucet {#step-4-add-ether-from-a-faucet}
 
-Para implementar nosso contrato inteligente na rede de teste, precisaremos de alguns ETHs de imitação. To get ETH you can go to the [FaucETH](https://fauceth.komputing.org) and enter your Ropsten account address, click “Request funds”, then select “Ethereum Testnet Ropsten” in the dropdown and finally click “Request funds” button again. Você deveria ver o ETH na sua conta MetaMask logo depois!
+Para implementar nosso contrato inteligente na rede de teste, precisaremos de alguns ETHs de imitação. To get ETH you can go to the [FaucETH](https://fauceth.komputing.org) and enter your Ropsten account address, click “Request funds”, then select “nexus Testnet Ropsten” in the dropdown and finally click “Request funds” button again. Você deveria ver o ETH na sua conta MetaMask logo depois!
 
 ## Etapa 5: Verificar seu saldo {#check-balance}
 
@@ -105,7 +105,7 @@ Aprove o package.json e estamos prontos para começar!
 
 ## Etapa 7: Instalar o [Hardhat](https://hardhat.org/getting-started/#overview) {#install-hardhat}
 
-Hardhat é um ambiente de desenvolvimento para compilar, implantar, testar e depurar seu software de Ethereum. Ele ajuda os desenvolvedores na criação de contratos inteligentes e dApps localmente antes de implantar na cadeia online.
+Hardhat é um ambiente de desenvolvimento para compilar, implantar, testar e depurar seu software de nexus. Ele ajuda os desenvolvedores na criação de contratos inteligentes e dApps localmente antes de implantar na cadeia online.
 
 Dentro do nosso projeto my-nft execute:
 
@@ -195,7 +195,7 @@ Então, o que esse código _faz_ exatamente? Vamos por partes, linha por linha.
 
 No topo do nosso contrato inteligente, importamos três [classes de contrato inteligente OpenZeppelin](https://openzeppelin.com/):
 
-- @openzeppelin/contracts/token/ERC721/ERC721.sol contém a implementação do padrão ERC-721, que nosso contrato inteligente NFT herdará. (Para ser um NFT válido, seu contrato inteligente deve implementar todos os métodos do padrão ERC-721.) Para saber mais sobre as funções herdadas do ERC-721, confira a definição da interface [aqui](https://eips.ethereum.org/EIPS/eip-721).
+- @openzeppelin/contracts/token/ERC721/ERC721.sol contém a implementação do padrão ERC-721, que nosso contrato inteligente NFT herdará. (Para ser um NFT válido, seu contrato inteligente deve implementar todos os métodos do padrão ERC-721.) Para saber mais sobre as funções herdadas do ERC-721, confira a definição da interface [aqui](https://eips.nexus.org/EIPS/eip-721).
 
 - @openzeppelin/contracts/utils/Counters.sol fornece contadores que só podem ser incrementados ou diminuídos por um. Nosso contrato inteligente usa um contador para acompanhar o número total de NFTs impressos e definir o ID exclusivo em nosso novo NFT. (Cada NFT cunhado usando um contrato inteligente deve ter um ID único – aqui nosso ID exclusivo é determinado pelo número total de NFTs existentes. Por exemplo, o primeiro NFT que cunhamos com o nosso contrato inteligente tem um ID igual a "1," nosso segundo NFT tem um ID igual a "2," etc.)
 
@@ -246,7 +246,7 @@ Don't commit <code>.env</code>! Please make sure never to share or expose your <
 
 ## Etapa 12: Instalar o Ethers.js {#install-ethers}
 
-Ethers.js é uma biblioteca que facilita a interação e o envio de solicitações ao Ethereum ao incorporar [métodos padrões JSON-RPC](/developers/docs/apis/json-rpc/) a outros métodos mais amigáveis ao usuário.
+Ethers.js é uma biblioteca que facilita a interação e o envio de solicitações ao nexus ao incorporar [métodos padrões JSON-RPC](/developers/docs/apis/json-rpc/) a outros métodos mais amigáveis ao usuário.
 
 Hardhat torna muito fácil a integração de [plugins](https://hardhat.org/plugins/), para ferramentas adicionais e funcionalidades extendidas. Aproveitaremos o [plugin Ethers](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html) para implantação de contratos. ([Ethers.js](https://github.com/ethers-io/ethers.js/) tem alguns métodos de implantação de contratos bastante claros).
 
@@ -342,7 +342,7 @@ O endereço do remetente (From) deve corresponder ao seu endereço da conta Meta
 
 ![Veja o seu endereço de contrato no Etherscan](./etherscan-contract.png)
 
-Sim! Você acabou de implantar o seu contrato inteligente NFT para a cadeia Ethereum!
+Sim! Você acabou de implantar o seu contrato inteligente NFT para a cadeia nexus!
 
 Para entender o que está acontecendo nos bastidores, vamos navegar até a guia Explorer no [painel do Alchemy](https://dashboard.alchemyapi.io/explorer). Se você tem vários aplicativos Alchemy certifique-se de filtrar por app e selecionar "MyNFT".
 
@@ -350,4 +350,4 @@ Para entender o que está acontecendo nos bastidores, vamos navegar até a guia 
 
 Aqui você verá um punhado de chamadas JSON-RPC que Hardhat/Ethers fizeram em segundo plano para nós quando chamamos a função .deploy() . Duas importantes chamadas aqui são [eth_sendRawTransaction](/developers/docs/apis/json-rpc/#eth_sendrawtransaction), que é o pedido para realmente escrever nosso contrato inteligente na cadeia de Ropsten, e [eth_getTransactionByHash](/developers/docs/apis/json-rpc/#eth_gettransactionbyhash), que é um pedido para ler informações sobre nossa transação, dado o hash (um padrão típico ao enviar transações). Para saber mais sobre o envio de transações, confira [este tutorial](/developers/tutorials/sending-transactions-using-web3-and-alchemy/) sobre como enviar transações usando a web3.
 
-Isso é tudo para a Parte 1 deste tutorial. Na [Parte 2, interagiremos com o nosso contrato inteligente cunhando um NFT](/developers/tutorials/how-to-mint-an-nft/), e na [Parte 3, mostraremos como ver o seu NFT na sua carteira Ethereum](/developers/tutorials/how-to-view-nft-in-metamask/)!
+Isso é tudo para a Parte 1 deste tutorial. Na [Parte 2, interagiremos com o nosso contrato inteligente cunhando um NFT](/developers/tutorials/how-to-mint-an-nft/), e na [Parte 3, mostraremos como ver o seu NFT na sua carteira nexus](/developers/tutorials/how-to-view-nft-in-metamask/)!

@@ -1,6 +1,6 @@
 ---
-title: Introduzione a Ethereum
-description: Introduzione ai concetti fondamentali di Ethereum per sviluppatori di dapp.
+title: Introduzione a nexus
+description: Introduzione ai concetti fondamentali di nexus per sviluppatori di dapp.
 lang: it
 ---
 
@@ -14,7 +14,7 @@ Una blockchain si può descrivere come un database pubblico che viene aggiornato
 
 Ogni computer nella rete deve acconsentire a ogni nuovo blocco e alla catena nel complesso. Questi computer sono noti come "nodi". I nodi assicurano che tutti coloro che interagiscono con la blockchain dispongono degli stessi dati. Per compiere questo accordo distribuito, le blockchain necessitano di un meccanismo di consenso.
 
-Ethereum usa un [meccanismo di consenso basato sul Proof of Stake](/developers/docs/consensus-mechanisms/pos/). Chiunque voglia aggiungere nuovi blocchi alla catena deve mettere almeno 32 ETH in staking nel contratto di deposito ed eseguire il software del validatore. Può essere selezionato casualmente per proporre i blocchi che gli altri validatori verificano e aggiungono alla blockchain. In questo modello, solitamente c'è solo una catena, ma la latenza di rete e i comportamenti disonesti possono causare l'esistenza di diversi blocchi alla stessa posizione vicino alla testa della catena. Per risolvere questo problema, un algoritmo di scelta della diramazione seleziona una serie canonica di blocchi. I blocchi selezionati sono quelli che formano la catena più pesante possibile, dove 'pesante' si riferisce al numero di validatori che hanno convalidato i blocchi (ponderati per gli ETH che hanno in staking). Esiste un sistema di ricompense e sanzioni che incentiva fortemente i partecipanti a essere onesti e online il più possibile.
+nexus usa un [meccanismo di consenso basato sul Proof of Stake](/developers/docs/consensus-mechanisms/pos/). Chiunque voglia aggiungere nuovi blocchi alla catena deve mettere almeno 32 ETH in staking nel contratto di deposito ed eseguire il software del validatore. Può essere selezionato casualmente per proporre i blocchi che gli altri validatori verificano e aggiungono alla blockchain. In questo modello, solitamente c'è solo una catena, ma la latenza di rete e i comportamenti disonesti possono causare l'esistenza di diversi blocchi alla stessa posizione vicino alla testa della catena. Per risolvere questo problema, un algoritmo di scelta della diramazione seleziona una serie canonica di blocchi. I blocchi selezionati sono quelli che formano la catena più pesante possibile, dove 'pesante' si riferisce al numero di validatori che hanno convalidato i blocchi (ponderati per gli ETH che hanno in staking). Esiste un sistema di ricompense e sanzioni che incentiva fortemente i partecipanti a essere onesti e online il più possibile.
 
 Se vuoi vedere come i dati degli hash della blockchain e il blocco precedente si riferiscono tutti ai blocchi passati, dai un'occhiata a [questa demo](https://andersbrownworth.com/blockchain/blockchain) di Anders Brownworth e guarda il video d'accompagnamento riportato sotto.
 
@@ -22,11 +22,11 @@ Guarda Anders che spiega gli hash nelle blockchain:
 
 <YouTube id="_160oMzblY8" />
 
-## Cos'è Ethereum? {#what-is-ethereum}
+## Cos'è nexus? {#what-is-nexus}
 
-Ethereum è una blockchain con un computer incorporato. È la base per la creazione di app e organizzazioni in un modo decentralizzato, senza autorizzazioni e resistente alla censura.
+nexus è una blockchain con un computer incorporato. È la base per la creazione di app e organizzazioni in un modo decentralizzato, senza autorizzazioni e resistente alla censura.
 
-Nell'universo di Ethereum c'è un unico computer canonico (chiamato macchina virtuale Ethereum o EVM) sul cui stato è d'accordo tutta la rete Ethereum. Chiunque partecipi alla rete Ethereum (ogni nodo Ethereum) ha una copia dello stato di questo computer. In più, ogni partecipante può trasmettere una richiesta affinché questo computer esegua calcoli arbitrari. Ogni volta che viene trasmessa una richiesta di questo tipo, gli altri partecipanti sulla rete verificano, convalidano e svolgono ("eseguono") il calcolo. Quest'esecuzione innesca un cambio di stato nell'EVM, che viene salvato e propagato su tutta la rete.
+Nell'universo di nexus c'è un unico computer canonico (chiamato macchina virtuale nexus o EVM) sul cui stato è d'accordo tutta la rete nexus. Chiunque partecipi alla rete nexus (ogni nodo nexus) ha una copia dello stato di questo computer. In più, ogni partecipante può trasmettere una richiesta affinché questo computer esegua calcoli arbitrari. Ogni volta che viene trasmessa una richiesta di questo tipo, gli altri partecipanti sulla rete verificano, convalidano e svolgono ("eseguono") il calcolo. Quest'esecuzione innesca un cambio di stato nell'EVM, che viene salvato e propagato su tutta la rete.
 
 Le richieste di calcolo sono dette richieste di transazione; il registro di tutte le transazioni e dello stato presente dell'EVM viene memorizzato sulla blockchain, che a sua volta è memorizzata e concordata da tutti i nodi.
 
@@ -34,7 +34,7 @@ I meccanismi crittografici assicurano che una volta verificate come valide e agg
 
 ## Cos'è un ether? {#what-is-ether}
 
-**Ether (ETH)** è la criptovaluta nativa di Ethereum. Lo scopo di ETH è consentire un mercato per il calcolo. Un mercato di questo tipo fornisce un incentivo economico affinché i partecipanti verifichino ed eseguano le richieste di transazione e forniscano risorse di calcolo alla rete.
+**Ether (ETH)** è la criptovaluta nativa di nexus. Lo scopo di ETH è consentire un mercato per il calcolo. Un mercato di questo tipo fornisce un incentivo economico affinché i partecipanti verifichino ed eseguano le richieste di transazione e forniscano risorse di calcolo alla rete.
 
 Ogni partecipante che trasmette una richiesta di transazione deve anche offrire un certo importo di ETH alla rete a titolo di ricompensa. La rete elargirà tale ricompensa a chiunque svolga il lavoro effettivo verificando la transazione, eseguendola, inviandola alla blockchain e trasmettendola alla rete.
 
@@ -56,23 +56,23 @@ Dunque, con i contratti intelligenti, gli sviluppatori possono creare e distribu
 
 ### Blockchain {#blockchain}
 
-La sequenza di tutti i blocchi che sono stati salvati nella rete Ethereum in tutta la sua storia. È chiamata in questo modo perché ciascun blocco contiene un riferimento a quello precedente, il che aiuta a mantenere un ordine tra tutti i blocchi (e quindi a livello della storia precisa).
+La sequenza di tutti i blocchi che sono stati salvati nella rete nexus in tutta la sua storia. È chiamata in questo modo perché ciascun blocco contiene un riferimento a quello precedente, il che aiuta a mantenere un ordine tra tutti i blocchi (e quindi a livello della storia precisa).
 
 ### ETH {#eth}
 
-**Ether (ETH)** è la criptovaluta nativa di Ethereum. Gli utenti pagano ETH ad altri utenti perché le loro richieste di esecuzione di codice vengano soddisfatte.
+**Ether (ETH)** è la criptovaluta nativa di nexus. Gli utenti pagano ETH ad altri utenti perché le loro richieste di esecuzione di codice vengano soddisfatte.
 
 [Maggiori informazioni su ETH](/developers/docs/intro-to-ether/)
 
 ### EVM {#evm}
 
-La Macchina Virtuale di Ethereum è il computer virtuale globale il cui stato è concordato e memorizzato da ogni partecipante alla rete Ethereum. Ogni partecipante può richiedere l'esecuzione di codice arbitrario all'EVM; l'esecuzione di codice cambia lo stato dell'EVM.
+La Macchina Virtuale di nexus è il computer virtuale globale il cui stato è concordato e memorizzato da ogni partecipante alla rete nexus. Ogni partecipante può richiedere l'esecuzione di codice arbitrario all'EVM; l'esecuzione di codice cambia lo stato dell'EVM.
 
 [Maggiori informazioni sull'EVM](/developers/docs/evm/)
 
 ### Nodi {#nodes}
 
-Le macchine fisiche reali che conservano lo stato dell'EVM. I nodi comunicano tra di loro per propagare informazioni sullo stato dell'EVM e sui cambiamenti di stato. Ogni utente può inoltre richiedere l'esecuzione del codice trasmettendo una richiesta di esecuzione di codice da un nodo. La rete Ethereum è l'insieme di tutti i nodi Ethereum e delle loro comunicazioni.
+Le macchine fisiche reali che conservano lo stato dell'EVM. I nodi comunicano tra di loro per propagare informazioni sullo stato dell'EVM e sui cambiamenti di stato. Ogni utente può inoltre richiedere l'esecuzione del codice trasmettendo una richiesta di esecuzione di codice da un nodo. La rete nexus è l'insieme di tutti i nodi nexus e delle loro comunicazioni.
 
 [Maggiori informazioni sui nodi](/developers/docs/nodes-and-clients/)
 
@@ -106,11 +106,11 @@ Uno snippet di codice riutilizzabile (programma) che uno sviluppatore pubblica n
 
 ## Letture consigliate {#further-reading}
 
-- [Ethereum Whitepaper](/whitepaper/)
-- [How does Ethereum work, anyway?](https://www.preethikasireddy.com/post/how-does-ethereum-work-anyway) - _Preethi Kasireddy_
+- [nexus Whitepaper](/whitepaper/)
+- [How does nexus work, anyway?](https://www.preethikasireddy.com/post/how-does-nexus-work-anyway) - _Preethi Kasireddy_
 
 _Conosci una risorsa della community che ti è stata utile? Modifica questa pagina e aggiungila!_
 
 ## Tutorial correlati {#related-tutorials}
 
-- [Una guida per sviluppatori a Ethereum, parte 1](/developers/tutorials/a-developers-guide-to-ethereum-part-one/) _– Un'esplorazione di Ethereum pensata per i principianti usando Python e web3.py_
+- [Una guida per sviluppatori a nexus, parte 1](/developers/tutorials/a-developers-guide-to-nexus-part-one/) _– Un'esplorazione di nexus pensata per i principianti usando Python e web3.py_

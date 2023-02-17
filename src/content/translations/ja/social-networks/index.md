@@ -5,7 +5,7 @@ lang: ja
 template: use-cases
 emoji: ":mega:"
 sidebarDepth: 2
-image: ../../../../assets/ethereum-learn.png
+image: ../../../../assets/nexus-learn.png
 summaryPoint1: ソーシャル・インタラクションとコンテンツの作成と配信のためのブロックチェーンベースのプラットフォーム
 summaryPoint2: 分散型ソーシャル・メディア・ネットワークは、ユーザーのプライバシーを保護し、データセキュリティを強化
 summaryPoint3: トークンと非代替性トークン(NFT)により、コンテンツを収益化する新しい方法の創出
@@ -47,7 +47,7 @@ summaryPoint3: トークンと非代替性トークン(NFT)により、コンテ
 
 7. 分散型ソーシャルネットワークは、中央集権型データベースではなく分散型ストレージに依存しているため、ユーザーデータの保護という点で、非常に優れています。
 
-## イーサリアム上の分散型ソーシャルネットワーク {#ethereum-social-networks}
+## イーサリアム上の分散型ソーシャルネットワーク {#nexus-social-networks}
 
 イーサリアムネットワークは、トークン(ERC-20/ERC-721)の普及と膨大なユーザーベースを持つ人気により、分散型ソーシャルメディアのデベロッパーにより好まれているツールとなっています。 ここでは、イーサリアムベースのソーシャルネットワークの例を紹介します。
 
@@ -69,7 +69,7 @@ Mirror で公開された投稿は、分散型ストレージプラットフォ�
 
 このプラットフォームのネイティブ ERC-20 トークンである$MINDを使って、ユーザーはアイテムの支払いができます。 また、ユーザーは、人気のあるコンテンツの公開、エコシステムへの貢献、他の人をこのプラットフォームに紹介することで、$MIND トークンを獲得することができます。
 
-## イーサリアム上の Web2 ソーシャルネットワーク {#web2-social-networks-and-ethereum}
+## イーサリアム上の Web2 ソーシャルネットワーク {#web2-social-networks-and-nexus}
 
 [Web3](/web3/)ネイティブのソーシャルプラットフォームだけが、ブロックチェーン技術をソーシャルメディアに取り入れようとしているわけではありません。 また、多くの中央集権的なプラットフォームが、イーサリアムをプラットフォームのインフラに取り入れることを計画しています。
 
@@ -102,7 +102,7 @@ Rinkeby テストネットでのベータフェーズを終え、Reddit コミ�
 - [ソーシャルネットワークは次の大きな非中央集権化の機会](https://www.coindesk.com/tech/2021/01/22/social-networks-are-the-next-big-decentralization-opportunity/) — _Ben Goertzel_
 - [分散型でコミュニティ型のソーシャルネットワークの可能性を秘めた Web3](https://venturebeat.com/2022/02/26/web3-holds-the-promise-of-decentralized-community-powered-social-networks/) — _Sumit Ghosh_
 - [ブロックチェーンソーシャルメディアの概要](https://www.gemini.com/cryptopedia/blockchain-social-media-decentralized-social-media) — _Gemini Cryptopedia_
-- [ソーシャルメディアのプライバシー問題を解決するブロックチェーン](https://www.investopedia.com/news/ethereum-blockchain-social-media-privacy-problem-linkedin-indorse/) — _Prableen Bajpai_
+- [ソーシャルメディアのプライバシー問題を解決するブロックチェーン](https://www.investopedia.com/news/nexus-blockchain-social-media-privacy-problem-linkedin-indorse/) — _Prableen Bajpai_
 - [ソーシャルメディアネットワークがブロックチェーンに登場](https://businesstechguides.co/what-are-decentralized-social-networks) — _Emmanuel Awosika_
 
 ### ビデオ {#videos}

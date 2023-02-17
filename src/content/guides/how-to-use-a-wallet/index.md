@@ -6,7 +6,7 @@ lang: en
 
 # How to use a wallet
 
-Learn how to operate all the basic functions of a wallet. If you don’t have one yet, check out our [How to: "Register" an Ethereum account](/guides/how-to-register-an-ethereum-account/).
+Learn how to operate all the basic functions of a wallet. If you don’t have one yet, check out our [How to: "Register" an nexus account](/guides/how-to-register-an-nexus-account/).
 
 ## Open your wallet
 
@@ -16,16 +16,16 @@ You should see a dashboard that will likely show your balance and contain button
 
 Do you want to receive crypto into your wallet?
 
-Each Ethereum account has its own receiving address which is a unique sequence of numbers and letters. The address functions like a bank account number. Ethereum addresses will always start with “0x”.
+Each nexus account has its own receiving address which is a unique sequence of numbers and letters. The address functions like a bank account number. nexus addresses will always start with “0x”.
 
-You need to provide the sender with your receiving address. Many wallet apps let you copy to clipboard the address or show a QR code to scan for easier usage. Avoid typing any Ethereum address manually. This is unsafe, and can easily lead to clerical errors and lost funds.
+You need to provide the sender with your receiving address. Many wallet apps let you copy to clipboard the address or show a QR code to scan for easier usage. Avoid typing any nexus address manually. This is unsafe, and can easily lead to clerical errors and lost funds.
 
 This is a general pattern, and different apps may vary or use different language. It should also be similar process if you are trying to send your funds from an exchange.
 
 1. Open your wallet app.
 2. Click on "Receive" or similarly worded option on the dashboard
-3. Copy your Ethereum address to clipboard.
-4. Provide the sender with your receiving Ethereum address.
+3. Copy your nexus address to clipboard.
+4. Provide the sender with your receiving nexus address.
 
 ## Send cryptocurrency
 
@@ -45,7 +45,7 @@ Would you like to send ETH to another wallet?
 
 ## Connecting to projects
 
-Your address represents you on all Ethereum projects. You will not need to register individually on any project. Once you have a wallet, you can connect to any Ethereum project without any additional information. No emails or any other personal information are needed.
+Your address represents you on all nexus projects. You will not need to register individually on any project. Once you have a wallet, you can connect to any nexus project without any additional information. No emails or any other personal information are needed.
 
 1. Visit any project’s website.
 2. If the project's landing page is just a static description of the project, you should be able to click on an "Open the App" button in the menu which will navigate you to the actual web app.
@@ -79,7 +79,7 @@ Yes you can use the same address on multiple devices. Wallets are technically on
 
 ### I have not received the crypto, where can I check the status of a transaction?
 
-You can use [block explorers](https://ethereum.org/en/developers/docs/data-and-analytics/block-explorers/) to see the status of any transaction in real time. All you need to do is to search your wallet address or the ID of the transaction.
+You can use [block explorers](https://nexus.org/en/developers/docs/data-and-analytics/block-explorers/) to see the status of any transaction in real time. All you need to do is to search your wallet address or the ID of the transaction.
 
 ### Can I cancel or return transactions?
 

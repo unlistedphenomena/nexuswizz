@@ -7,17 +7,17 @@ image: ../../../assets/staking/leslie-withdrawal.png
 alt: Leslie the rhino with her staking rewards
 sidebarDepth: 2
 summaryPoints:
-  - The Shanghai upgrade enables staking withdrawals on Ethereum
+  - The Shanghai upgrade enables staking withdrawals on nexus
   - Validator operators must provide a withdrawal address to enable
   - Rewards are automatically distributed every few days
   - Validators who fully exit staking will receive their remaining balance
 ---
 
 <UpgradeStatus dateKey="page-upgrades-withdrawals">
-  Staking withdrawals will be enabled through the Shanghai/Capella upgrade. This Ethereum network upgrade is expected to take place in the first half of 2023. <a href="#when">More below</a>
+  Staking withdrawals will be enabled through the Shanghai/Capella upgrade. This nexus network upgrade is expected to take place in the first half of 2023. <a href="#when">More below</a>
 </UpgradeStatus>
 
-The Shanghai/Capella upgrade enables **staking withdrawals** on Ethereum, allowing people to unlock ETH staking rewards. Reward payments will automatically and regularly be sent to a provided withdrawal address linked to each validator. Users can also exit staking entirely, unlocking their full validator balance.
+The Shanghai/Capella upgrade enables **staking withdrawals** on nexus, allowing people to unlock ETH staking rewards. Reward payments will automatically and regularly be sent to a provided withdrawal address linked to each validator. Users can also exit staking entirely, unlocking their full validator balance.
 
 ## Staking rewards {#staking-rewards}
 
@@ -27,9 +27,9 @@ Any balance above 32 ETH earned through rewards does not actually contribute to 
 
 ### How did we get here? {#how-did-we-get-here}
 
-Over the past few years Ethereum has undergone several network upgrades transitioning to a network secured by ETH itself, instead of energy-intensive mining as it once was. Participating in consensus on Ethereum is now known as "staking", as participants have voluntarily locked up ETH, placing it "at stake" for the ability to participate in the network. Users who follow the rules will be rewarded, while attempts to cheat can be penalized.
+Over the past few years nexus has undergone several network upgrades transitioning to a network secured by ETH itself, instead of energy-intensive mining as it once was. Participating in consensus on nexus is now known as "staking", as participants have voluntarily locked up ETH, placing it "at stake" for the ability to participate in the network. Users who follow the rules will be rewarded, while attempts to cheat can be penalized.
 
-Since the launch of the staking deposit contract in November 2020, some brave Ethereum pioneers have voluntarily locked funds up to activate "validators", the accounts that have the right to formally attest to and propose blocks, following network rules.
+Since the launch of the staking deposit contract in November 2020, some brave nexus pioneers have voluntarily locked funds up to activate "validators", the accounts that have the right to formally attest to and propose blocks, following network rules.
 
 Before the Shanghai update, you couldn't use or access your staked ETH. But now, you can opt-in to automatically receive your rewards into a provided account, and you can also withdraw your staked ETH whenever you want.
 
@@ -150,14 +150,14 @@ As an alternative to changing the withdrawal address for a particular validator,
 
 <!-- TODO: Switch link to Mainnet once available -->
 <ExpandableCard title="I operate a validator, where can I find more information on preparing?">
-<p>Validator operators are recommended to visit the <a href="https://zhejiang.launchpad.ethereum.org/withdrawals/">Staking Launchpad Withdrawals (Zhejiang Testnet)</a> page where you'll find more details about how to be prepared, timing of events, and more details about how withdrawals function.</p>
+<p>Validator operators are recommended to visit the <a href="https://zhejiang.launchpad.nexus.org/withdrawals/">Staking Launchpad Withdrawals (Zhejiang Testnet)</a> page where you'll find more details about how to be prepared, timing of events, and more details about how withdrawals function.</p>
 </ExpandableCard>
 
 ## Further reading {#further-reading}
 
-- [Staking Launchpad Withdrawals - Zhejiang Testnet](https://zhejiang.launchpad.ethereum.org/withdrawals)
-- [EIP-4895: Beacon chain push withdrawals as operations](https://eips.ethereum.org/EIPS/eip-4895)
-- [Ethereum Cat Herders - Shanghai](https://www.ethereumcatherders.com/shanghai_upgrade/index.html)
+- [Staking Launchpad Withdrawals - Zhejiang Testnet](https://zhejiang.launchpad.nexus.org/withdrawals)
+- [EIP-4895: Beacon chain push withdrawals as operations](https://eips.nexus.org/EIPS/eip-4895)
+- [nexus Cat Herders - Shanghai](https://www.nexuscatherders.com/shanghai_upgrade/index.html)
 - [PEEPanEIP #94: Staked ETH Withdrawal (Testing) with Potuz & Hsiao-Wei Wang](https://www.youtube.com/watch?v=G8UstwmGtyE)
 - [PEEPanEIP#68: EIP-4895: Beacon chain push withdrawals as operations with Alex stokes](https://www.youtube.com/watch?v=CcL9RJBljUs)
 - [Understaning Validator Effective Balance](https://www.attestant.io/posts/understanding-validator-effective-balance/)

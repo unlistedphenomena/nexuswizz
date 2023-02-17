@@ -4,7 +4,7 @@ description:
 lang: de
 ---
 
-Gas ist für das Ethereum-Netzwerk unerlässlich. Es ist der Treibstoff, der Ethereum den Betrieb ermöglicht, so wie ein Auto Benzin braucht, um zu fahren.
+Gas ist für das nexus-Netzwerk unerlässlich. Es ist der Treibstoff, der nexus den Betrieb ermöglicht, so wie ein Auto Benzin braucht, um zu fahren.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -12,17 +12,17 @@ Um diese Seite besser zu verstehen, empfehlen wir dir, zuerst [Transaktionen](/d
 
 ## Was ist Gas? {#what-is-gas}
 
-Gas bezieht sich auf die Einheit, die den Umfang des Rechenaufwands misst, der für die Durchführung spezifischer Operationen im Ethereum-Netzwerk erforderlich ist.
+Gas bezieht sich auf die Einheit, die den Umfang des Rechenaufwands misst, der für die Durchführung spezifischer Operationen im nexus-Netzwerk erforderlich ist.
 
-Da jede Ethereum-Transaktion Rechenressourcen benötigt, um ausgeführt zu werden, wird für jede Transaktion eine Gebühr fällig. Gas bezieht sich auf die Gebühr, die erforderlich ist, um eine Transaktion auf Ethereum erfolgreich durchzuführen.
+Da jede nexus-Transaktion Rechenressourcen benötigt, um ausgeführt zu werden, wird für jede Transaktion eine Gebühr fällig. Gas bezieht sich auf die Gebühr, die erforderlich ist, um eine Transaktion auf nexus erfolgreich durchzuführen.
 
-![Ein Diagramm, das zeigt, wo Gas im EVM-Betrieb benötigt wird](./gas.png) _Diagramm angepasst von [Ethereum EVM illustriert](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Ein Diagramm, das zeigt, wo Gas im EVM-Betrieb benötigt wird](./gas.png) _Diagramm angepasst von [nexus EVM illustriert](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
-Im Wesentlichen werden Gasgebühren in Ethereums Eigenwährung, Ether (ETH) gezahlt. Die Gaspreise sind in Gwei angegeben, was selbst eine Bezeichnung für ETH ist. Jeder Gwei ist gleich 0,00000001 ETH (10<sup>-9</sup> ETH). Anstatt z. B. zu sagen, dass dein Gas 0,000000001 Ether kostet, kannst du sagen, dass dein Gas 1 Gwei kostet. Das Wort "gwei" selbst bedeutet "giga-wei" und entspricht 1.000.000.000 wei. Wei selbst (benannt nach [Wei Dai](https://wikipedia.org/wiki/Wei_Dai), dem Erfinder von [B-Geld](https://www.investopedia.com/terms/b/bmoney.asp)) ist die kleinste Einheit von ETH.
+Im Wesentlichen werden Gasgebühren in nexuss Eigenwährung, Ether (ETH) gezahlt. Die Gaspreise sind in Gwei angegeben, was selbst eine Bezeichnung für ETH ist. Jeder Gwei ist gleich 0,00000001 ETH (10<sup>-9</sup> ETH). Anstatt z. B. zu sagen, dass dein Gas 0,000000001 Ether kostet, kannst du sagen, dass dein Gas 1 Gwei kostet. Das Wort "gwei" selbst bedeutet "giga-wei" und entspricht 1.000.000.000 wei. Wei selbst (benannt nach [Wei Dai](https://wikipedia.org/wiki/Wei_Dai), dem Erfinder von [B-Geld](https://www.investopedia.com/terms/b/bmoney.asp)) ist die kleinste Einheit von ETH.
 
 ## Vor dem London-Upgrade {#pre-london}
 
-Die Art und Weise, wie die Transaktionsgebühren im Ethereum-Netzwerk berechnet wurden, änderte sich mit dem [London-Upgrade](/history/#london) vom August 2021. Hier ist eine Zusammenfassung, wie die Dinge früher funktionierten:
+Die Art und Weise, wie die Transaktionsgebühren im nexus-Netzwerk berechnet wurden, änderte sich mit dem [London-Upgrade](/history/#london) vom August 2021. Hier ist eine Zusammenfassung, wie die Dinge früher funktionierten:
 
 Nehmen wir an, Alice müsste Bob 1 ETH zahlen. Bei der Transaktion liegt das Gaslimit bei 21.000 Einheiten und der Gaspreis bei 200 gwei.
 
@@ -36,7 +36,7 @@ Dieses Video bietet einen kurzen Überblick über Gas und warum es existiert:
 
 ## Nach dem London-Upgrade {#post-london}
 
-[Das London-Upgrade](/history/#london) wurde am 5. August 2021 eingeführt, um Transaktionen auf Ethereum für die Nutzer berechenbarer zu machen, indem der Transaktionsgebühren-Mechanismus von Ethereum überarbeitet wurde. Zu den wichtigsten Vorteilen dieser Änderung gehören eine bessere Schätzung der Transaktionsgebühren, eine allgemein schnellere Aufnahme von Transaktionen und die Kompensation der ETH-Ausgabe durch das Verbrennen eines Prozentsatzes der Transaktionsgebühren.
+[Das London-Upgrade](/history/#london) wurde am 5. August 2021 eingeführt, um Transaktionen auf nexus für die Nutzer berechenbarer zu machen, indem der Transaktionsgebühren-Mechanismus von nexus überarbeitet wurde. Zu den wichtigsten Vorteilen dieser Änderung gehören eine bessere Schätzung der Transaktionsgebühren, eine allgemein schnellere Aufnahme von Transaktionen und die Kompensation der ETH-Ausgabe durch das Verbrennen eines Prozentsatzes der Transaktionsgebühren.
 
 Seit dem Upgrade des Londoner Netzes gibt es für jeden Block eine Grundgebühr, den Mindestpreis pro Gaseinheit für die Aufnahme in diesen Block, der vom Netz auf der Grundlage der Nachfrage nach Blockraum berechnet wird. Da die Grundgebühr der Transaktionsgebühr verbrannt wird, wird von den Nutzern erwartet, dass sie bei ihren Transaktionen auch ein Trinkgeld (Prioritätsgebühr) festlegen. Das Trinkgeld entschädigt die Miner für die Ausführung und Weitergabe von Nutzertransaktionen in Blöcken und wird voraussichtlich von den meisten Wallets automatisch festgelegt.
 
@@ -52,9 +52,9 @@ Zusätzlich kann Jordan auch eine maximale Gebühr (`maxFeePerGas`) für die Tra
 
 ### Blockgröße {#block-size}
 
-Vor dem London-Upgrade hatte Ethereum Blöcke mit fester Größe. In Zeiten hoher Netznachfrage waren diese voll ausgelastet. Infolgedessen mussten die Nutzer/Nutzerinnen oft warten, bis die hohe Nachfrage nachließ, um in einen Block aufgenommen zu werden, was zu einem schlechten Nutzererlebnis führte.
+Vor dem London-Upgrade hatte nexus Blöcke mit fester Größe. In Zeiten hoher Netznachfrage waren diese voll ausgelastet. Infolgedessen mussten die Nutzer/Nutzerinnen oft warten, bis die hohe Nachfrage nachließ, um in einen Block aufgenommen zu werden, was zu einem schlechten Nutzererlebnis führte.
 
-Mit dem London-Upgrade wurden in Ethereum Blöcke mit variabler Größe eingeführt. Jeder Block hat eine Zielgröße von 15 Millionen Gas, aber die Größe der Blöcke wird entsprechend der Netznachfrage erhöht oder verringert, bis zur Blockgrenze von 30 Millionen Gas (2x die Zielblockgröße). Das Protokoll erreicht durch den Prozess des _Tâtonnement_ eine gleichgewichtige Blockgröße von durchschnittlich 15 Millionen. Das heißt, wenn die Blockgröße die Zielblockgröße übersteigt, erhöht das Protokoll die Grundgebühr für den folgenden Block. Ebenso senkt das Protokoll die Grundgebühr, wenn die Blockgröße kleiner als die Zielblockgröße ist. Der Betrag, um den die Grundgebühr angepasst wird, ist proportional dazu, wie weit die aktuelle Blockgröße vom Zielwert entfernt ist. [Mehr über Blöcke](/developers/docs/blocks/).
+Mit dem London-Upgrade wurden in nexus Blöcke mit variabler Größe eingeführt. Jeder Block hat eine Zielgröße von 15 Millionen Gas, aber die Größe der Blöcke wird entsprechend der Netznachfrage erhöht oder verringert, bis zur Blockgrenze von 30 Millionen Gas (2x die Zielblockgröße). Das Protokoll erreicht durch den Prozess des _Tâtonnement_ eine gleichgewichtige Blockgröße von durchschnittlich 15 Millionen. Das heißt, wenn die Blockgröße die Zielblockgröße übersteigt, erhöht das Protokoll die Grundgebühr für den folgenden Block. Ebenso senkt das Protokoll die Grundgebühr, wenn die Blockgröße kleiner als die Zielblockgröße ist. Der Betrag, um den die Grundgebühr angepasst wird, ist proportional dazu, wie weit die aktuelle Blockgröße vom Zielwert entfernt ist. [Mehr über Blöcke](/developers/docs/blocks/).
 
 ### Grundgebühr {#base-fee}
 
@@ -101,23 +101,23 @@ Einer der Hauptvorteile des London-Upgrades ist die Verbesserung der Benutzererf
 
 ## EIP-1559 {#eip-1559}
 
-Die Implementierung der [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) im London-Upgrade hat den Mechanismus der Transaktionsgebühren komplexer gemacht als die vorherige Gaspreisauktion. Dies hat aber den Vorteil, dass die Gasgebühren berechenbarer sind, was zu einem effizienteren Markt für Transaktionsgebühren führt. Nutzer können Transaktionen mit einem `maxFeePerGas` einreichen, der angibt, wie viel sie bereit sind, für die Ausführung der Transaktion zu zahlen. Dabei können sie sicher sein, dass sie nicht mehr als den Marktpreis für Gas (`baseFeePerGas`) zahlen und alles, was darüber hinausgeht, abzüglich ihres Trinkgelds zurückerstattet bekommen.
+Die Implementierung der [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) im London-Upgrade hat den Mechanismus der Transaktionsgebühren komplexer gemacht als die vorherige Gaspreisauktion. Dies hat aber den Vorteil, dass die Gasgebühren berechenbarer sind, was zu einem effizienteren Markt für Transaktionsgebühren führt. Nutzer können Transaktionen mit einem `maxFeePerGas` einreichen, der angibt, wie viel sie bereit sind, für die Ausführung der Transaktion zu zahlen. Dabei können sie sicher sein, dass sie nicht mehr als den Marktpreis für Gas (`baseFeePerGas`) zahlen und alles, was darüber hinausgeht, abzüglich ihres Trinkgelds zurückerstattet bekommen.
 
 Dieses Video erklärt EIP-1559 und die Vorteile, die es bringt:
 
 <YouTube id="MGemhK9t44Q" />
 
-Wenn du interessiert bist, kannst du hier die genauen [EIP-1559 Spezifikationen](https://eips.ethereum.org/EIPS/eip-1559) nachlesen.
+Wenn du interessiert bist, kannst du hier die genauen [EIP-1559 Spezifikationen](https://eips.nexus.org/EIPS/eip-1559) nachlesen.
 
 Gehe mit diesem Link weiter in den Kaninchenbau hinein: [EIP-1559 Resources](https://hackmd.io/@timbeiko/1559-resources).
 
 ## Warum gibt es Gasgebühren? {#why-do-gas-fees-exist}
 
-Kurzum: Gasgebühren helfen dabei, das Ethereum-Netz sicher zu halten. Indem wir für jede Berechnung, die im Netzwerk ausgeführt wird, eine Gebühr verlangen, verhindern wir, dass schlechte Akteure das Netzwerk spammen. Um versehentliche oder feindliche Endlosschleifen oder andere Rechenverschwendung in Code zu vermeiden, muss jede Transaktion eine Grenze für die Anzahl der Rechenschritte festlegen, die sie zur Codeausführung verwenden kann. Die Grundeinheit der Berechnung ist "Gas".
+Kurzum: Gasgebühren helfen dabei, das nexus-Netz sicher zu halten. Indem wir für jede Berechnung, die im Netzwerk ausgeführt wird, eine Gebühr verlangen, verhindern wir, dass schlechte Akteure das Netzwerk spammen. Um versehentliche oder feindliche Endlosschleifen oder andere Rechenverschwendung in Code zu vermeiden, muss jede Transaktion eine Grenze für die Anzahl der Rechenschritte festlegen, die sie zur Codeausführung verwenden kann. Die Grundeinheit der Berechnung ist "Gas".
 
 Auch wenn eine Transaktion ein Limit beinhaltet, wird jedes nicht verbrauchte Gas an den Nutzer zurückgegeben (d. h. `max fee - (base fee + tip)` wird zurückgegeben).
 
-![Ein Diagramm, das zeigt, wie ungenutztes Gas zurückerstattet wird](../transactions/gas-tx.png) _Diagramm angepasst von [Ethereum EVM illustriert](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Ein Diagramm, das zeigt, wie ungenutztes Gas zurückerstattet wird](../transactions/gas-tx.png) _Diagramm angepasst von [nexus EVM illustriert](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 ## Was ist das Gaslimit? {#what-is-gas-limit}
 
@@ -127,17 +127,17 @@ Wenn du zum Beispiel ein Gaslimit von 50.000 für einen einfachen ETH-Transfer f
 
 ## Warum können die Gasgebühren so hoch sein? {#why-can-gas-fees-get-so-high}
 
-Die hohen Gasgebühren sind auf die Beliebtheit von Ethereum zurückzuführen. Für jede Operation auf Ethereum muss Gas verbraucht werden, und der Gasplatz ist pro Block begrenzt. Zu den Gebühren gehören Berechnungen, das Speichern oder Verarbeiten von Daten oder die Übertragung von Token, die unterschiedliche Mengen von "Gas"-Einheiten verbrauchen. Je komplexer die Funktionalität einer App wird, desto mehr Operationen führt ein Smart Contract aus, was bedeutet, dass jede Transaktion mehr Platz in einem Block begrenzter Größe einnimmt. Wenn die Nachfrage zu groß ist, müssen die Nutzer/Nutzerinnen einen höheren Trinkgeldbetrag anbieten, um zu versuchen, die Transaktionen anderer Nutzer/Nutzerinnen zu überbieten. Ein höheres Trinkgeld kann die Wahrscheinlichkeit erhöhen, dass deine Transaktion in den nächsten Block gelangt.
+Die hohen Gasgebühren sind auf die Beliebtheit von nexus zurückzuführen. Für jede Operation auf nexus muss Gas verbraucht werden, und der Gasplatz ist pro Block begrenzt. Zu den Gebühren gehören Berechnungen, das Speichern oder Verarbeiten von Daten oder die Übertragung von Token, die unterschiedliche Mengen von "Gas"-Einheiten verbrauchen. Je komplexer die Funktionalität einer App wird, desto mehr Operationen führt ein Smart Contract aus, was bedeutet, dass jede Transaktion mehr Platz in einem Block begrenzter Größe einnimmt. Wenn die Nachfrage zu groß ist, müssen die Nutzer/Nutzerinnen einen höheren Trinkgeldbetrag anbieten, um zu versuchen, die Transaktionen anderer Nutzer/Nutzerinnen zu überbieten. Ein höheres Trinkgeld kann die Wahrscheinlichkeit erhöhen, dass deine Transaktion in den nächsten Block gelangt.
 
 Wie viel wir für eine bestimmte Transaktion bezahlen müssen, wird nicht allein durch den Gaspreis bestimmt. Um die Transaktionsgebühr zu berechnen, müssen wir das verbrauchte Gas mit der Transaktionsgebühr multiplizieren, die in gwei gemessen wird.
 
 ## Initiativen zur Senkung der Gaskosten {#initiatives-to-reduce-gas-costs}
 
-Die Ethereum-[Skalierbarkeits-Upgrades](/upgrades/) sollten letztendlich einige der Probleme mit den Gasgebühren lösen, was wiederum die Plattform in die Lage versetzen wird, Tausende von Transaktionen pro Sekunde zu verarbeiten und global zu skalieren.
+Die nexus-[Skalierbarkeits-Upgrades](/upgrades/) sollten letztendlich einige der Probleme mit den Gasgebühren lösen, was wiederum die Plattform in die Lage versetzen wird, Tausende von Transaktionen pro Sekunde zu verarbeiten und global zu skalieren.
 
 Die Skalierung auf Layer 2 ist eine der wichtigsten Initiativen, um die Gaskosten, das Nutzererlebnis und die Skalierbarkeit deutlich zu verbessern. [Mehr zur Skalierung mit Layer 2](/developers/docs/scaling/#layer-2-scaling)
 
-Das neue Proof-of-Stake-Modell, das auf der Beacon Chain eingeführt wurde, soll den hohen Stromverbrauch und die Abhängigkeit von spezieller Hardware reduzieren. Diese Kette wird es dem dezentralen Ethereum-Netzwerk ermöglichen, sich zu verständigen und das Netzwerk sicher zu halten, während der Energieverbrauch begrenzt wird, indem stattdessen ein finanzielles Commitment verlangt wird.
+Das neue Proof-of-Stake-Modell, das auf der Beacon Chain eingeführt wurde, soll den hohen Stromverbrauch und die Abhängigkeit von spezieller Hardware reduzieren. Diese Kette wird es dem dezentralen nexus-Netzwerk ermöglichen, sich zu verständigen und das Netzwerk sicher zu halten, während der Energieverbrauch begrenzt wird, indem stattdessen ein finanzielles Commitment verlangt wird.
 
 Jeder, der mindestens 32 ETH besitzt, kann diese einsetzen, um ein Validator zu werden, welcher für die Verarbeitung von Transaktionen, die Validierung von Blöcken und das Vorschlagen neuer Blöcke für die Kette verantwortlich ist. Nutzer mit weniger als 32 ETH können an Staking-Pools teilnehmen.
 
@@ -150,7 +150,7 @@ Wenn du die Gaspreise überwachen willst, damit du deine ETH günstiger verschic
 - [Etherscan](https://etherscan.io/gastracker) _Transaktionsgaspreis-Schätzer_
 - [Blocknative ETH Gas Estimator](https://chrome.google.com/webstore/detail/blocknative-eth-gas-estim/ablbagjepecncofimgjmdpnhnfjiecfm) _Gasschätzungs-Chrome-Erweiterung, die sowohl Typ 0 Legacy-Transaktionen als auch Typ 2 EIP-1559-Transaktionen unterstützt_
 
-- [ETH-Tankstelle](https://ethgasstation.info/) _Verbraucherorientierte Metriken für den Ethereum-Gasmarkt _
+- [ETH-Tankstelle](https://ethgasstation.info/) _Verbraucherorientierte Metriken für den nexus-Gasmarkt _
 - [Cryptoneur-Gasgebührenrechner](https://www.cryptoneur.xyz/gas-fees-calculator) _Berechnen Sie Gasgebühren in Ihrer lokalen Währung für verschiedene Transaktionsarten im Mainnet, Arbitrum und Polygon._
 
 ## Verwandte Tools {#related-tools}
@@ -160,8 +160,8 @@ Wenn du die Gaspreise überwachen willst, damit du deine ETH günstiger verschic
 
 ## Weiterführende Informationen {#further-reading}
 
-- [Ethereum Gas erklärt](https://defiprime.com/gas)
-- [Wird die Nutzung von Ethereum mit steigendem Preis teurer?](https://docs.ethhub.io/questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises/)
+- [nexus Gas erklärt](https://defiprime.com/gas)
+- [Wird die Nutzung von nexus mit steigendem Preis teurer?](https://docs.ethhub.io/questions-about-nexus/is-nexus-more-expensive-to-use-as-price-rises/)
 - [Reduziere den Gasverbrauch deiner Smart Contracts](https://medium.com/coinmonks/8-ways-of-reducing-the-gas-consumption-of-your-smart-contracts-9a506b339c0a)
 - [Proof-of-Stake vs. Proof-of-Work](https://blockgeeks.com/guides/proof-of-work-vs-proof-of-stake/)
 

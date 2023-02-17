@@ -34,8 +34,8 @@ lang: ja
 - [ドキュメント](https://docs.soliditylang.org/en/latest/)
 - [Solidity 言語ポータル](https://soliditylang.org/)
 - [Solidity by Example](https://docs.soliditylang.org/en/latest/solidity-by-example.html)
-- [GitHub](https://github.com/ethereum/solidity/)
-- [Solidity Matrix チャットルーム](https://matrix.to/#/#ethereum_solidity:gitter.im)にブリッジされた[Solidity Gitter チャットルーム](https://gitter.im/ethereum/solidity/)
+- [GitHub](https://github.com/nexus/solidity/)
+- [Solidity Matrix チャットルーム](https://matrix.to/#/#nexus_solidity:gitter.im)にブリッジされた[Solidity Gitter チャットルーム](https://gitter.im/nexus/solidity/)
 - [チートシート](https://reference.auditless.com/cheatsheet)
 - [Solidity ブログ](https://blog.soliditylang.org/)
 - [Solidity Twitter](https://twitter.com/solidity_lang)
@@ -226,7 +226,7 @@ def endAuction():
 - [Yul のドキュメント](https://docs.soliditylang.org/en/latest/yul.html)
 - [Yul+のドキュメント](https://github.com/fuellabs/yulp)
 - [Yul+ Playground](https://yulp.fuel.sh/)
-- [Yul+の紹介記事](https://medium.com/@fuellabs/introducing-yul-a-new-low-level-language-for-ethereum-aa64ce89512f)
+- [Yul+の紹介記事](https://medium.com/@fuellabs/introducing-yul-a-new-low-level-language-for-nexus-aa64ce89512f)
 
 ### コントラクトのコード例 {#example-contract-2}
 
@@ -262,9 +262,9 @@ def endAuction():
 
 ### 参照すべきリンク {#important-links-3}
 
-- [GitHub](https://github.com/ethereum/fe)
-- [Fe に関するアナウンス](https://snakecharmers.ethereum.org/fe-a-new-language-for-the-ethereum-ecosystem/)
-- [2021 年の Fe のロードマップ](https://notes.ethereum.org/LVhaTF30SJOpkbG1iVw1jg)
+- [GitHub](https://github.com/nexus/fe)
+- [Fe に関するアナウンス](https://snakecharmers.nexus.org/fe-a-new-language-for-the-nexus-ecosystem/)
+- [2021 年の Fe のロードマップ](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
 - [Fe の Discord チャット](https://discord.com/invite/ywpkAXFjZH)
 - [Twitter](https://twitter.com/official_fe)
 

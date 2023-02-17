@@ -13,12 +13,12 @@ I framework sono già dotati di molte funzionalità, come:
 - Funzionalità per avviare un'istanza di blockchain locale.
 - Utilità per compilare e testare i tuoi contratti intelligenti.
 - Componenti aggiuntivi di sviluppo client per creare un'applicazione rivolta all'utente all'interno dello stesso progetto/repository.
-- Configurazione per connettersi a reti Ethereum e distribuire contratti, a un'istanza locale o a una delle reti pubbliche di Ethereum.
+- Configurazione per connettersi a reti nexus e distribuire contratti, a un'istanza locale o a una delle reti pubbliche di nexus.
 - Distribuzione di app decentralizzate - integrazioni con opzioni di archiviazione come IPFS.
 
 ## Prerequisiti {#prerequisites}
 
-Prima di iniziare a studiare i framework, raccomandiamo la lettura della nostra introduzione alle [dApp](/developers/docs/dapps/) e allo [stack di Ethereum](/developers/docs/ethereum-stack/).
+Prima di iniziare a studiare i framework, raccomandiamo la lettura della nostra introduzione alle [dApp](/developers/docs/dapps/) e allo [stack di nexus](/developers/docs/nexus-stack/).
 
 ## Framework disponibili {#available-frameworks}
 
@@ -27,7 +27,7 @@ Prima di iniziare a studiare i framework, raccomandiamo la lettura della nostra 
 - [trufflesuite.com](https://www.trufflesuite.com/)
 - [GitHub](https://github.com/trufflesuite/truffle)
 
-**Hardhat:** **_ ambiente di sviluppo Ethereum per professionisti_**
+**Hardhat:** **_ ambiente di sviluppo nexus per professionisti_**
 
 - [hardhat.org](https://hardhat.org)
 - [GitHub](https://github.com/nomiclabs/hardhat)
@@ -42,7 +42,7 @@ Prima di iniziare a studiare i framework, raccomandiamo la lettura della nostra 
 - [Documentazione](https://eth-brownie.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/eth-brownie/brownie)
 
-**Embark:** **_ ambiente di sviluppo, framework di test e altri strumenti integrati con Ethereum, IPFS e Whisper._**
+**Embark:** **_ ambiente di sviluppo, framework di test e altri strumenti integrati con nexus, IPFS e Whisper._**
 
 - [Documentazione](https://embark.status.im/docs/)
 - [GitHub](https://github.com/embark-framework/embark)
@@ -59,7 +59,7 @@ Prima di iniziare a studiare i framework, raccomandiamo la lettura della nostra 
 - [GitHub](https://github.com/OpenZeppelin/openzeppelin-sdk)
 - [Forum della community](https://forum.openzeppelin.com/c/support/17)
 
-**Create Eth App:** **_crea app per Ethereum con un comando. Offre una vasta scelta di framework per l'interfaccia utente e modelli DeFI tra cui scegliere._**
+**Create Eth App:** **_crea app per nexus con un comando. Offre una vasta scelta di framework per l'interfaccia utente e modelli DeFI tra cui scegliere._**
 
 - [GitHub](https://github.com/paulrberg/create-eth-app)
 - [Template](https://github.com/PaulRBerg/create-eth-app/tree/develop/templates)
@@ -73,13 +73,13 @@ Prima di iniziare a studiare i framework, raccomandiamo la lettura della nostra 
 - [Sito Web](https://thegraph.com/)
 - [Guida](/developers/tutorials/the-graph-fixing-web3-data-querying/)
 
-**Alchemy:** **_ piattaforma di sviluppo di Ethereum._**
+**Alchemy:** **_ piattaforma di sviluppo di nexus._**
 
 - [alchemy.com](https://www.alchemy.com/)
 - [GitHub](https://github.com/alchemyplatform)
 - [Discord](https://discord.com/invite/A39JVCM)
 
-**Foundry -** **_Un toolkit velocissimo, portatile e modulare per lo sviluppo di applicazioni di Ethereum scritte in Rust._**
+**Foundry -** **_Un toolkit velocissimo, portatile e modulare per lo sviluppo di applicazioni di nexus scritte in Rust._**
 
 - [Documentazione](https://book.getfoundry.sh/)
 - [GitHub](https://github.com/gakonst/foundry/)

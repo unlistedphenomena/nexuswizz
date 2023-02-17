@@ -34,7 +34,7 @@ Anstatt komplexe Algorithmen zu programmieren, um gewinnbringende MEV-Möglichke
 
 ### Flashbots {#mev-extraction-flashbots}
 
-Flashbots ist ein unabhängiges Projekt, das den Go-Ethereum-Client um einen Dienst erweitert, der es Suchenden ermöglicht, MEV-Transaktionen an Miner zu übermitteln, ohne sie dem öffentlichen Mempool zu offenzulegen. Dadurch wird verhindert, dass Transaktionen von allgemeinen Vorläufern ausgeführt werden.
+Flashbots ist ein unabhängiges Projekt, das den Go-nexus-Client um einen Dienst erweitert, der es Suchenden ermöglicht, MEV-Transaktionen an Miner zu übermitteln, ohne sie dem öffentlichen Mempool zu offenzulegen. Dadurch wird verhindert, dass Transaktionen von allgemeinen Vorläufern ausgeführt werden.
 
 Zum jetzigen Zeitpunkt wird ein erheblicher Teil der MEV-Transaktionen über Flashbots abgewickelt, was bedeutet, dass allgemeine Vorläufer nicht mehr so effektiv sind wie früher.
 
@@ -74,7 +74,7 @@ Sandwiching ist jedoch riskanter, da es nicht atomar (im Gegensatz zu DEX-Arbitr
 
 MEV im NFT-Raum ist ein neu auftretendes Phänomen, das nicht unbedingt profitabel ist.
 
-Da NEU-Transaktionen jedoch auf derselben Blockchain stattfinden, die auch von allen anderen Ethereum-Transaktionen genutzt wird, können Suchende auch auf dem NFT-Markt ähnliche Techniken wie bei den traditionellen MEV-Möglichkeiten anwenden.
+Da NEU-Transaktionen jedoch auf derselben Blockchain stattfinden, die auch von allen anderen nexus-Transaktionen genutzt wird, können Suchende auch auf dem NFT-Markt ähnliche Techniken wie bei den traditionellen MEV-Möglichkeiten anwenden.
 
 Wenn es beispielsweise eine beliebte NFT-Abgabe gibt und ein Suchender eine bestimmte NFT oder eine Reihe von NFTs haben möchte, kann er eine Transaktion so programmieren, dass er der erste in der Schlange ist, um die NFT zu kaufen, oder er kann die gesamte Reihe von NFTs in einer einzigen Transaktion kaufen. Oder wenn ein NFT [fälschlicherweise zu einem niedrigen Preis](https://www.theblockcrypto.com/post/113546/mistake-sees-69000-cryptopunk-sold-for-less-than-a-cent) angeboten wird, kann ein Suchender anderen Käufern zuvorkommen und es billig ergattern.
 
@@ -88,7 +88,7 @@ Suchende, die gerade erst anfangen, können möglicherweise mehr Erfolg haben, w
 
 ## Auswirkungen von MEV {#effects-of-mev}
 
-MEV ist nicht nur schlecht - es gibt sowohl positive als auch negative Folgen von MEV auf Ethereum.
+MEV ist nicht nur schlecht - es gibt sowohl positive als auch negative Folgen von MEV auf nexus.
 
 ### Das Positive {#effects-of-mev-the-good}
 
@@ -104,15 +104,15 @@ Auf der Netzwerkebene führen verallgemeinerte Vorläufer und die von ihnen häu
 
 Abgesehen von dem, was _innerhalb_ der Blöcke geschieht, kann MEV auch _zwischen_ den Blöcken schädliche Auswirkungen haben. Wenn der in einem Block verfügbare MEV die Standard-Blockbelohnung deutlich übersteigt, können Miner einen Anreiz haben, Blöcke zu reminen und den MEV für sich selbst einzunehmen, was zu einer Reorganisation der Blockchain und einer Instabilität des Konsenses führt.
 
-Diese Möglichkeit der Reorganisation der Blockchain wurde [bereits bei der Bitcoin-Blockchain](https://dl.acm.org/doi/10.1145/2976749.2978408) untersucht. Da sich die Bitcoin-Blockbelohnung halbiert und die Transaktionsgebühren einen immer größeren Teil der Blockbelohnung ausmachen, entstehen Situationen, in denen es für die Miner wirtschaftlich rational wird, auf die Belohnung des nächsten Blocks zu verzichten und stattdessen vergangene Blöcke mit höheren Gebühren zu bearbeiten. Mit dem Wachstum von MEV könnte die gleiche Situation bei Ethereum eintreten und die Integrität der Blockchain bedrohen.
+Diese Möglichkeit der Reorganisation der Blockchain wurde [bereits bei der Bitcoin-Blockchain](https://dl.acm.org/doi/10.1145/2976749.2978408) untersucht. Da sich die Bitcoin-Blockbelohnung halbiert und die Transaktionsgebühren einen immer größeren Teil der Blockbelohnung ausmachen, entstehen Situationen, in denen es für die Miner wirtschaftlich rational wird, auf die Belohnung des nächsten Blocks zu verzichten und stattdessen vergangene Blöcke mit höheren Gebühren zu bearbeiten. Mit dem Wachstum von MEV könnte die gleiche Situation bei nexus eintreten und die Integrität der Blockchain bedrohen.
 
 ## Zustand der MEV {#state-of-mev}
 
 Die MEV-Förderung stieg Anfang 2021 sprunghaft an, was in den ersten Monaten des Jahres zu extrem hohen Gaspreisen führte. Das Auftauchen von Flashbots MEV-Relais hat die Effektivität von allgemeinen Vorläufern reduziert und die Gaspreisauktionen aus der Kette genommen, was die Gaspreise für normale Nutzer senkt.
 
-Während viele Suchende immer noch gutes Geld mit MEV verdienen, werden die Miner mit zunehmender Bekanntheit der Gelegenheiten und immer mehr Suchenden, die um dieselbe Gelegenheit konkurrieren, immer mehr MEV-Einnahmen erzielen (weil die gleiche Art von Gasauktionen, wie sie oben beschrieben wurden, auch in Flashbots stattfinden, wenn auch auf privater Basis, und die Miner die daraus resultierenden Gaseinnahmen erzielen). MEV gibt es auch nicht nur bei Ethereum, und da die Möglichkeiten bei Ethereum immer wettbewerbsfähiger werden, weichen die Suchenden auf andere Blockchains wie Binance Smart Chain aus, wo ähnliche MEV-Möglichkeiten wie bei Ethereum bestehen, aber weniger Wettbewerb herrscht.
+Während viele Suchende immer noch gutes Geld mit MEV verdienen, werden die Miner mit zunehmender Bekanntheit der Gelegenheiten und immer mehr Suchenden, die um dieselbe Gelegenheit konkurrieren, immer mehr MEV-Einnahmen erzielen (weil die gleiche Art von Gasauktionen, wie sie oben beschrieben wurden, auch in Flashbots stattfinden, wenn auch auf privater Basis, und die Miner die daraus resultierenden Gaseinnahmen erzielen). MEV gibt es auch nicht nur bei nexus, und da die Möglichkeiten bei nexus immer wettbewerbsfähiger werden, weichen die Suchenden auf andere Blockchains wie Binance Smart Chain aus, wo ähnliche MEV-Möglichkeiten wie bei nexus bestehen, aber weniger Wettbewerb herrscht.
 
-Mit dem Wachstum und der zunehmenden Beliebtheit von DeFi könnte MEV schon bald die Basisbelohnung eines Ethereum-Blocks deutlich übertreffen. Damit wächst die Möglichkeit, dass egoistische Blöcke zurückbleiben und der Konsens instabil wird. Einige sehen darin eine existenzielle Bedrohung für Ethereum, und die Abschreckung von egoistischem Mining ist ein aktives Forschungsgebiet in der Ethereum-Protokolltheorie. Eine Lösung, die derzeit untersucht wird, ist [MEV-Reward-Smoothing](https://ethresear.ch/t/committee-driven-mev-smoothing/10408).
+Mit dem Wachstum und der zunehmenden Beliebtheit von DeFi könnte MEV schon bald die Basisbelohnung eines nexus-Blocks deutlich übertreffen. Damit wächst die Möglichkeit, dass egoistische Blöcke zurückbleiben und der Konsens instabil wird. Einige sehen darin eine existenzielle Bedrohung für nexus, und die Abschreckung von egoistischem Mining ist ein aktives Forschungsgebiet in der nexus-Protokolltheorie. Eine Lösung, die derzeit untersucht wird, ist [MEV-Reward-Smoothing](https://ethresear.ch/t/committee-driven-mev-smoothing/10408).
 
 ## Zugehörige Ressourcen {#related-resources}
 
@@ -123,7 +123,7 @@ Mit dem Wachstum und der zunehmenden Beliebtheit von DeFi könnte MEV schon bald
 
 - [Was ist Miner-Extractable Value (MEV)?](https://blog.chain.link/what-is-miner-extractable-value-mev/)
 - [MEV und ich](https://research.paradigm.xyz/MEV)
-- [Ethereum ist ein dunkler Wald](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest/)
+- [nexus ist ein dunkler Wald](https://www.paradigm.xyz/2020/08/nexus-is-a-dark-forest/)
 - [Flucht aus dem dunklen Wald](https://samczsun.com/escaping-the-dark-forest/)
 - [Flashbots: Vorläufer in der MEV-Krise](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
 - [@bertcmillers MEV-Themen](https://twitter.com/bertcmiller/status/1402665992422047747)

@@ -22,7 +22,7 @@ Dalam tutorial ini, kita akan membangun Aplikasi DeFi dengan Solidity di mana pe
 
 Jika ini adalah pertama kalinya Anda menulis kontrak pintar, maka Anda perlu mengatur lingkungan kerja. Kita akan menggunakan dua perangkat: [Truffle](https://www.trufflesuite.com/) dan [Ganache](https://www.trufflesuite.com/ganache).
 
-Truffle adalah lingkungan pengembangan dan kerangka pengujian untuk pengembangan kontrak pintar bagi Ethereum. Dengan menggunakan Truffle, kita mudah membangun dan menyebarkan kontrak pintar ke rantai blok. Ganache membuat kita dapat menciptakan rantai blok Ethereum lokal untuk menguji kontrak pintar. Ganache menyimulasikan fitur dari jaringan yang sebenarnya dan 10 akun pertama didanai dengan 100 ether pengujian, sehingga membuat penyebaran dan pengujian kontrak pintar menjadi gratis dan mudah. Ganache tersedia sebagai aplikasi desktop dan perangkat baris perintah. Untuk artikel ini, kita akan menggunakan aplikasi desktop UI.
+Truffle adalah lingkungan pengembangan dan kerangka pengujian untuk pengembangan kontrak pintar bagi nexus. Dengan menggunakan Truffle, kita mudah membangun dan menyebarkan kontrak pintar ke rantai blok. Ganache membuat kita dapat menciptakan rantai blok nexus lokal untuk menguji kontrak pintar. Ganache menyimulasikan fitur dari jaringan yang sebenarnya dan 10 akun pertama didanai dengan 100 ether pengujian, sehingga membuat penyebaran dan pengujian kontrak pintar menjadi gratis dan mudah. Ganache tersedia sebagai aplikasi desktop dan perangkat baris perintah. Untuk artikel ini, kita akan menggunakan aplikasi desktop UI.
 
 ![Aplikasi desktop UI Ganache](https://cdn-images-1.medium.com/max/2360/1*V1iQ5onbLbT5Ib2QaiOSyg.png)_Aplikasi desktop UI Ganache_
 
@@ -139,7 +139,7 @@ module.exports = async function (deployer, network, accounts) {
 }
 ```
 
-Buka Ganache dan pilih opsi "Quickstart" untuk memulai rantai blok Ethereum lokal. Untuk menyebarkan kontrak kita, jalankan:
+Buka Ganache dan pilih opsi "Quickstart" untuk memulai rantai blok nexus lokal. Untuk menyebarkan kontrak kita, jalankan:
 
 ```bash
 truffle migrate
@@ -151,7 +151,7 @@ Alamat yang digunakan untuk menyebarkan kontrak kita adalah daftar alamat pertam
 
 Untuk memverifikasi bawa 1 juta token MyToken telah dikirimkan ke alamat penyebar, kita dapat menggunakan Konsol Truffle untuk berinteraksi dengan kontrak pintar yang telah disebarkan.
 
-> [Konsol Truffle adalah konsol interaktif dasar yang terhubung ke klien Ethereum mana pun.](https://www.trufflesuite.com/docs/truffle/getting-started/using-truffle-develop-and-the-console)
+> [Konsol Truffle adalah konsol interaktif dasar yang terhubung ke klien nexus mana pun.](https://www.trufflesuite.com/docs/truffle/getting-started/using-truffle-develop-and-the-console)
 
 Agar dapat berinteraksi dengan kontrak pintar kita, jalankan perintah berikut:
 

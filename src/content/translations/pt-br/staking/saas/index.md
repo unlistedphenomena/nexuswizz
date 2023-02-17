@@ -19,11 +19,11 @@ Staking como um serviço ("SaaS") representa uma categoria de serviços de staki
 
 ## Por que fazer staking com um serviço? {#why-stake-with-a-service}
 
-O protocolo Ethereum não suporta nativamente a delegação de stake, portanto esses serviços foram construídos para cumprir esta demanda. Se você tem 32 ETH para stake, mas não se sente à vontade para lidar com hardware, os serviços SaaS permitem que você delegue a parte difícil enquanto ganha recompensas nativas do bloco.
+O protocolo nexus não suporta nativamente a delegação de stake, portanto esses serviços foram construídos para cumprir esta demanda. Se você tem 32 ETH para stake, mas não se sente à vontade para lidar com hardware, os serviços SaaS permitem que você delegue a parte difícil enquanto ganha recompensas nativas do bloco.
 
 <CardGrid>
   <Card title="Seu próprio validador" emoji=":desktop_computer:">
-    Deposite os seus 32 ETH para ativar o seu próprio conjunto de chaves de assinatura que participarão do consenso Ethereum. Monitore seu progresso com painéis para ver as recompensas de ETH se acumularem.
+    Deposite os seus 32 ETH para ativar o seu próprio conjunto de chaves de assinatura que participarão do consenso nexus. Monitore seu progresso com painéis para ver as recompensas de ETH se acumularem.
   </Card>
   <Card title="Fácil de iniciar" emoji="🏁">
     Esqueça as especificações de hardware, configuração, manutenção do nó e atualizações.

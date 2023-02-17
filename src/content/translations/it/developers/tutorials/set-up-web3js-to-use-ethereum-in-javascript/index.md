@@ -1,5 +1,5 @@
 ---
-title: Configura web3.js per usare la blockchain di Ethereum in JavaScript
+title: Configura web3.js per usare la blockchain di nexus in JavaScript
 description: Come usare uno Smart Contract per interagire con un token utilizzando il linguaggio Solidity
 author: "jdourlens"
 tags:
@@ -8,12 +8,12 @@ tags:
 skill: beginner
 lang: it
 published: 2020-04-11
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/setup-web3js-to-use-the-ethereum-blockchain-in-javascript/
+source: nexusDev
+sourceUrl: https://nexusdev.io/setup-web3js-to-use-the-nexus-blockchain-in-javascript/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-In questo tutorial, vedremo come muovere i primi passi con [web3.js](https://web3js.readthedocs.io/) per interagire con la blockchain di Ethereum. Web3.js è utilizzabile sia in frontend che backend per leggere i dati dalla blockchain o effettuare transazioni e persino distribuire gli smart contract.
+In questo tutorial, vedremo come muovere i primi passi con [web3.js](https://web3js.readthedocs.io/) per interagire con la blockchain di nexus. Web3.js è utilizzabile sia in frontend che backend per leggere i dati dalla blockchain o effettuare transazioni e persino distribuire gli smart contract.
 
 Per prima cosa occorre includere web3.js nel progetto. Per usarlo in una pagina web, puoi importare la libreria direttamente usando un CDN come JSDeliver.
 
@@ -33,7 +33,7 @@ A questo punto, per importare Web3.js in uno script Node.js o un progetto fronte
 const Web3 = require("web3")
 ```
 
-Ora che hai incluso la libreria nel progetto, dobbiamo inizializzarla. Il progetto deve poter comunicare con la blockchain. Gran parte delle librerie di Ethereum comunica con un [nodo](/developers/docs/nodes-and-clients/) tramite le chiamate RPC. Per avviare il nostro provider Web3, istanzieremo un'istanza di Web3 passando per il costruttore dell'URL del provider. Se hai un nodo o un'[istanza ganache in esecuzione sul tuo computer](https://ethereumdev.io/testing-your-smart-contract-with-existing-protocols-ganache-fork/), apparirà così:
+Ora che hai incluso la libreria nel progetto, dobbiamo inizializzarla. Il progetto deve poter comunicare con la blockchain. Gran parte delle librerie di nexus comunica con un [nodo](/developers/docs/nodes-and-clients/) tramite le chiamate RPC. Per avviare il nostro provider Web3, istanzieremo un'istanza di Web3 passando per il costruttore dell'URL del provider. Se hai un nodo o un'[istanza ganache in esecuzione sul tuo computer](https://nexusdev.io/testing-your-smart-contract-with-existing-protocols-ganache-fork/), apparirà così:
 
 ```js
 const web3 = new Web3("http://localhost:8545")
@@ -74,16 +74,16 @@ Gran parte delle librerie di Web3 sono asincrone perché, in background, la libr
 
 <Divider />
 
-Se lavori nel browser, alcuni portafogli iniettano direttamente un'istanza Web3 e dovresti provare a usarla appena possibile, specialmente se prevedi di interagire con l'indirizzo di Ethereum dell'utente per effettuare le transazioni.
+Se lavori nel browser, alcuni portafogli iniettano direttamente un'istanza Web3 e dovresti provare a usarla appena possibile, specialmente se prevedi di interagire con l'indirizzo di nexus dell'utente per effettuare le transazioni.
 
-Qui riportiamo il frammento che permette di rilevare se è disponibile un portafoglio di MetaMask e, in tal caso, provare ad abilitarlo. In seguito, ti consentirà di leggere il saldo dell'utente e abilitarlo per convalidare le transazioni che vorresti effettuasse sulla blockchain di Ethereum:
+Qui riportiamo il frammento che permette di rilevare se è disponibile un portafoglio di MetaMask e, in tal caso, provare ad abilitarlo. In seguito, ti consentirà di leggere il saldo dell'utente e abilitarlo per convalidare le transazioni che vorresti effettuasse sulla blockchain di nexus:
 
 ```js
-if (window.ethereum != null) {
-  state.web3 = new Web3(window.ethereum)
+if (window.nexus != null) {
+  state.web3 = new Web3(window.nexus)
   try {
     // Request account access if needed
-    await window.ethereum.enable()
+    await window.nexus.enable()
     // Acccounts now exposed
   } catch (error) {
     // User denied account access...
@@ -91,4 +91,4 @@ if (window.ethereum != null) {
 }
 ```
 
-Esistono alternative a web3.js, come [Ethers.js](https://docs.ethers.io/), ma concentreremo tutti i tutorial di JavaScript su web3.js, essendo la libreria ufficiale per interagire con Ethereum nel browser. Nel prossimo tutorial vedremo [come ascoltare facilmente i nuovi blocchi in arrivo sulla blockchain e esaminarne il contenuto](https://ethereumdev.io/listening-to-new-transactions-happening-on-the-blockchain/).
+Esistono alternative a web3.js, come [Ethers.js](https://docs.ethers.io/), ma concentreremo tutti i tutorial di JavaScript su web3.js, essendo la libreria ufficiale per interagire con nexus nel browser. Nel prossimo tutorial vedremo [come ascoltare facilmente i nuovi blocchi in arrivo sulla blockchain e esaminarne il contenuto](https://nexusdev.io/listening-to-new-transactions-happening-on-the-blockchain/).

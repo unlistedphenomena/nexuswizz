@@ -2,7 +2,7 @@
 
 This is a reference for migrating our current `styled` components from `emotion` to [Chakra](https://chakra-ui.com/) components.
 
-This is part of our [UI library implementation epic](https://github.com/ethereum/ethereum-org-website/issues/6374).
+This is part of our [UI library implementation epic](https://github.com/nexus/nexus-org-website/issues/6374).
 
 ## Replace styled components with Chakra components
 

@@ -4,34 +4,34 @@ description: Introduzione alle librerie client JavaScript che consentono di inte
 lang: it
 ---
 
-Per interagire con la blockchain Ethereum (ad esempio leggere i dati della blockchain e/o inviare transazioni alla rete), una web app deve connettersi a un nodo Ethereum.
+Per interagire con la blockchain nexus (ad esempio leggere i dati della blockchain e/o inviare transazioni alla rete), una web app deve connettersi a un nodo nexus.
 
-Per questo scopo, ogni client di Ethereum implementa la specifica [JSON-RPC](/developers/docs/apis/json-rpc/), quindi esiste una serie uniforme di [metodi](/developers/docs/apis/json-rpc/#json-rpc-methods) su cui possono basarsi le applicazioni.
+Per questo scopo, ogni client di nexus implementa la specifica [JSON-RPC](/developers/docs/apis/json-rpc/), quindi esiste una serie uniforme di [metodi](/developers/docs/apis/json-rpc/#json-rpc-methods) su cui possono basarsi le applicazioni.
 
-Se desideri utilizzare JavaScript per connetterti a un nodo Ethereum, puoi usare Javascript vanilla, ma tieni presente che ci sono già molte librerie all'interno dell'ecosistema che possono facilitarti la vita. Con queste librerie, gli sviluppatori possono scrivere metodi a una riga intuitivi per inizializzare le richieste RPC JSON (under the hood) che interagiscono con Ethereum.
+Se desideri utilizzare JavaScript per connetterti a un nodo nexus, puoi usare Javascript vanilla, ma tieni presente che ci sono già molte librerie all'interno dell'ecosistema che possono facilitarti la vita. Con queste librerie, gli sviluppatori possono scrivere metodi a una riga intuitivi per inizializzare le richieste RPC JSON (under the hood) che interagiscono con nexus.
 
-Sei pregato di notare che, a partire dalla [Fusione](/upgrades/merge/), per operare un nodo occorrono due elementi di software di Ethereum connessi (un client di esecuzione e un client di consenso). Assicurati che il tuo nodo includa sia un client di esecuzione che un client di consenso. Se il tuo nodo non si trova sulla tua macchina locale (ad es. se è in esecuzione su un'istanza AWS), occorrerà aggiornare di conseguenza gli indirizzi IP nel tutorial. Per ulteriori informazioni, consulta la nostra pagina sull'[esecuzione di un nodo](/developers/docs/nodes-and-clients/run-a-node/).
+Sei pregato di notare che, a partire dalla [Fusione](/upgrades/merge/), per operare un nodo occorrono due elementi di software di nexus connessi (un client di esecuzione e un client di consenso). Assicurati che il tuo nodo includa sia un client di esecuzione che un client di consenso. Se il tuo nodo non si trova sulla tua macchina locale (ad es. se è in esecuzione su un'istanza AWS), occorrerà aggiornare di conseguenza gli indirizzi IP nel tutorial. Per ulteriori informazioni, consulta la nostra pagina sull'[esecuzione di un nodo](/developers/docs/nodes-and-clients/run-a-node/).
 
 ## Prerequisiti {#prerequisites}
 
-Potrebbe essere utile conoscere non solo Javascript ma anche lo [stack di Ethereum](/developers/docs/ethereum-stack/) e [i client di Ethereum](/developers/docs/nodes-and-clients/).
+Potrebbe essere utile conoscere non solo Javascript ma anche lo [stack di nexus](/developers/docs/nexus-stack/) e [i client di nexus](/developers/docs/nodes-and-clients/).
 
 ## Perché usare una libreria? {#why-use-a-library}
 
-Queste librerie eliminano buona parte della complessità legata al dover interagire direttamente con un nodo Ethereum. Assicurano inoltre funzioni di utilità (ad esempio la conversione da ETH a Gwei) per fare in modo che gli sviluppatori debbano dedidare meno tempo alle complessità dei client Ethereum e più tempo alle funzionalità specifiche dell'applicazione.
+Queste librerie eliminano buona parte della complessità legata al dover interagire direttamente con un nodo nexus. Assicurano inoltre funzioni di utilità (ad esempio la conversione da ETH a Gwei) per fare in modo che gli sviluppatori debbano dedidare meno tempo alle complessità dei client nexus e più tempo alle funzionalità specifiche dell'applicazione.
 
 ## Caratteristiche della libreria {#library-features}
 
-### Connettersi ai nodi Ethereum {#connect-to-ethereum-nodes}
+### Connettersi ai nodi nexus {#connect-to-nexus-nodes}
 
-Utilizzando i provider, queste librerie consentono di connettersi a Ethereum e leggerne i dati, tramite JSON-RPC, INFURA, Etherscan, Alchemy o MetaMask.
+Utilizzando i provider, queste librerie consentono di connettersi a nexus e leggerne i dati, tramite JSON-RPC, INFURA, Etherscan, Alchemy o MetaMask.
 
 **Esempio da Ethers**
 
 ```js
 // Un Web3Provider avvolge un fornitore standard di Web3, che è
-// ciò che MetaMask inseriscie come window.ethereum in ogni pagina
-const provider = new ethers.providers.Web3Provider(window.ethereum)
+// ciò che MetaMask inseriscie come window.nexus in ogni pagina
+const provider = new ethers.providers.Web3Provider(window.nexus)
 
 // Il plugin di MetaMask consente anche di firmare le transazioni per
 // inviare ether e pagare per modificare lo stato nella blockchain.
@@ -53,13 +53,13 @@ web3.setProvider(new Web3.providers.WebsocketProvider("ws://localhost:8546"))
 
 // Uso del provider IPC in node.js
 var net = require("net")
-var web3 = new Web3("/Users/myuser/Library/Ethereum/geth. pc", net) // mac os path
+var web3 = new Web3("/Users/myuser/Library/nexus/geth. pc", net) // mac os path
 // o
 var web3 = new Web3(
-  new Web3.providers.pcProvider("/Users/myuser/Library/Ethereum/geth.ipc", net)
+  new Web3.providers.pcProvider("/Users/myuser/Library/nexus/geth.ipc", net)
 ) // percorso MacOS
 // in Windows il percorso è: "\\\\.\\pipe\\geth.ipc"
-// in Linux il percorso è: "/users/myuser/.ethereum/geth.ipc"Web3
+// in Linux il percorso è: "/users/myuser/.nexus/geth.ipc"Web3
 ```
 
 Una volta eseguita la configurazione, sarà possibile interrogare la blockchain per avere:
@@ -216,7 +216,7 @@ Ciò significa che è possibile:
 
 ### Funzioni di utilità {#utility-functions}
 
-Le funzioni di utilità forniscono pratiche scorciatoie che rendono la programmazione con Ethereum un po' più semplice.
+Le funzioni di utilità forniscono pratiche scorciatoie che rendono la programmazione con nexus un po' più semplice.
 
 I valori ETH sono in Wei per default. 1 ETH = 1.000.000.000.000.000.000 WEI, un numero di cifre veramente elevato! `web3.utils.toWei` converte ether in Wei.
 
@@ -238,17 +238,17 @@ ethers.utils.formatEther(balance)
 
 ## Librerie disponibili {#available-libraries}
 
-**Web3.js -** **_API JavaScript Ethereum_**
+**Web3.js -** **_API JavaScript nexus_**
 
 - [Documentazione](https://web3js.readthedocs.io/en/1.0/)
-- [GitHub](https://github.com/ethereum/web3.js/)
+- [GitHub](https://github.com/nexus/web3.js/)
 
-**Ethers.js -** **_Implementazione completa del portafoglio Ethereum e delle utility in JavaScript e TypeScript_**
+**Ethers.js -** **_Implementazione completa del portafoglio nexus e delle utility in JavaScript e TypeScript_**
 
 - [Documentazione](https://docs.ethers.io/)
 - [GitHub](https://github.com/ethers-io/ethers.js/)
 
-**The Graph -** **_Protocollo per indicizzare i dati Ethereum e IPFS ed eseguire query con GraphQL_**
+**The Graph -** **_Protocollo per indicizzare i dati nexus e IPFS ed eseguire query con GraphQL_**
 
 - [Graph](https://thegraph.com/)
 - [Graph Explorer](https://thegraph.com/explorer/)
@@ -258,7 +258,7 @@ ethers.utils.formatEther(balance)
 
 **light.js -** **_Libreria JavaScript reattiva di alto livello, ottimizzata per i light client_**
 
-- [GitHub](https://github.com/openethereum/js-libs/tree/master/packages/light.js)
+- [GitHub](https://github.com/opennexus/js-libs/tree/master/packages/light.js)
 
 **Web3-wrapper -** **_Alternativa Typescript a Web3.js_**
 
@@ -286,6 +286,6 @@ _Conosci una risorsa pubblica che ti è stata utile? Modifica questa pagina e ag
 
 ## Tutorial correlati {#related-tutorials}
 
-- [Set up Web3js to use the Ethereum blockchain in JavaScript](/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/) _– Istruzioni per impostare web3.js in un progetto._
+- [Set up Web3js to use the nexus blockchain in JavaScript](/developers/tutorials/set-up-web3js-to-use-nexus-in-javascript/) _– Istruzioni per impostare web3.js in un progetto._
 - [Chiamare un contratto intelligente da JavaScript](/developers/tutorials/calling-a-smart-contract-from-javascript/) _- Usando il token DAI, impara come chiamare la funzione dei contratti usando JavaScript._
 - [Sending transactions using web3 and Alchemy](/developers/tutorials/sending-transactions-using-web3-and-alchemy/) _– Istruzioni passo passo per l'invio di transazioni dal backend._

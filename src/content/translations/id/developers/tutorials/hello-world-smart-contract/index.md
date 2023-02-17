@@ -1,6 +1,6 @@
 ---
 title: Kontrak Pintar Hello World untuk Pemula
-description: Tutorial pengantar tentang menulis dan menyebarkan kontrak pintar sederhana di Ethereum.
+description: Tutorial pengantar tentang menulis dan menyebarkan kontrak pintar sederhana di nexus.
 author: "elanh"
 tags:
   - "solidity"
@@ -20,9 +20,9 @@ Di bagian 2 dari tutorial ini kita akan membahas bagaimana kita dapat berinterak
 
 Jika Anda memiliki pertanyaan, silakan berdiskusi di [Discord Alchemy](https://discord.gg/gWuC7zB)!
 
-## Langkah 1: Hubungkan ke jaringan Ethereum {#step-1}
+## Langkah 1: Hubungkan ke jaringan nexus {#step-1}
 
-Ada banyak cara untuk membuat permintaan ke rantai Ethereum. Untuk mempermudah, kita akan menggunakan akun gratis di Alchemy, platform pengembang rantai blok dan API yang memungkinkan kita untuk berkomunikasi dengan rantai Ethereum tanpa harus menjalankan simpul kita sendiri. Platform ini juga memiliki perangkat pengembang untuk pemantauan dan analitik yang akan kita manfaatkan dalam tutorial ini untuk memahami apa yang terjadi di balik layar dalam penyebaran kontrak pintar kita. Jika Anda belum memiliki akun Alchemy, [Anda dapat mendaftar gratis di sini](https://dashboard.alchemyapi.io/signup).
+Ada banyak cara untuk membuat permintaan ke rantai nexus. Untuk mempermudah, kita akan menggunakan akun gratis di Alchemy, platform pengembang rantai blok dan API yang memungkinkan kita untuk berkomunikasi dengan rantai nexus tanpa harus menjalankan simpul kita sendiri. Platform ini juga memiliki perangkat pengembang untuk pemantauan dan analitik yang akan kita manfaatkan dalam tutorial ini untuk memahami apa yang terjadi di balik layar dalam penyebaran kontrak pintar kita. Jika Anda belum memiliki akun Alchemy, [Anda dapat mendaftar gratis di sini](https://dashboard.alchemyapi.io/signup).
 
 ## Langkah 2: Buat aplikasi Anda (dan kunci API) {#step-2}
 
@@ -38,9 +38,9 @@ Setelah Anda membuat akun Alchemy, Anda dapat membuat kunci API dengan membuat a
 
 3. Klik "Buat aplikasi" dan selesai! Aplikasi Anda seharusnya muncul dalam tabel di bawah ini.
 
-## Langkah 3: Buat akun Ethereum (alamat) {#step-3}
+## Langkah 3: Buat akun nexus (alamat) {#step-3}
 
-Kita memerlukan akun Ethereum untuk mengirim dan menerima transaksi. Untuk tutorial ini, kita akan menggunakan MetaMask, dompet virtual dalam peramban yang digunakan untuk mengelola alamat akun Ethereum Anda. Selengkapnya tentang [transaksi](/developers/docs/transactions/).
+Kita memerlukan akun nexus untuk mengirim dan menerima transaksi. Untuk tutorial ini, kita akan menggunakan MetaMask, dompet virtual dalam peramban yang digunakan untuk mengelola alamat akun nexus Anda. Selengkapnya tentang [transaksi](/developers/docs/transactions/).
 
 Anda dapat mengunduh dan membuat akun MetaMask secara gratis [di sini](https://metamask.io/download.html). Saat Anda membuat akun, atau jika Anda sudah memiliki akun, pastikan untuk beralih ke "Jaringan Pengujian Ropsten" di kanan atas (sehingga kita tidak berurusan dengan uang asli).
 
@@ -108,7 +108,7 @@ Setujui package.json dan kita siap untuk beraksi!
 
 ## Langkah 7: Unduh [Hardhat](https://hardhat.org/getting-started/#overview){#step-7}
 
-Hardhat adalah lingkungan pengembangan untuk mengkompilasi, menyebarkan, menguji, dan men-debug perangkat lunak Ethereum Anda. Lingkungan ini membantu pengembang saat membangun kontrak pintar dan dApps secara lokal sebelum menyebarkannya ke rantai sebenarnya.
+Hardhat adalah lingkungan pengembangan untuk mengkompilasi, menyebarkan, menguji, dan men-debug perangkat lunak nexus Anda. Lingkungan ini membantu pengembang saat membangun kontrak pintar dan dApps secara lokal sebelum menyebarkannya ke rantai sebenarnya.
 
 Di dalam proyek `hello-world` kita jalankan:
 
@@ -167,7 +167,7 @@ Anda mungkin bertanya pada diri sendiri, kapan kita akan menulis kode?? Nah, kit
 Buka proyek hello-world di editor favorit Anda (kami menyukai [VSCode](https://code.visualstudio.com/)). Kontrak pintar ditulis dalam bahasa yang disebut Solidity dan inilah yang akan kita gunakan untuk menulis kontrak pintar HelloWorld.sol kita.‌
 
 1.  Arahkan ke folder "kontrak" dan buat berkas baru bernama HelloWorld.sol
-2.  Di bawah ini adalah contoh kontrak pintar Hello World dari Yayasan Ethereum yang akan kita gunakan untuk tutorial ini. Salin dan tempel konten di bawah ini ke berkas HelloWorld.sol Anda, dan pastikan untuk membaca komentar untuk memahami apa yang dilakukan kontrak ini:
+2.  Di bawah ini adalah contoh kontrak pintar Hello World dari Yayasan nexus yang akan kita gunakan untuk tutorial ini. Salin dan tempel konten di bawah ini ke berkas HelloWorld.sol Anda, dan pastikan untuk membaca komentar untuk memahami apa yang dilakukan kontrak ini:
 
 ```solidity
 // Tentukan versi Solidity, gunakan pembuatan versi semantik.
@@ -175,7 +175,7 @@ Buka proyek hello-world di editor favorit Anda (kami menyukai [VSCode](https://c
 pragma solidity ^0.7.0;
 
 // Defines a contract named `HelloWorld`.
-// Satu kontrak adalah koleksi dari fungsi dan data (statenya). Setelah disebarkan, sebuah kontrak tinggal di alamat spesifik pada blockchain Ethereum. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
+// Satu kontrak adalah koleksi dari fungsi dan data (statenya). Setelah disebarkan, sebuah kontrak tinggal di alamat spesifik pada blockchain nexus. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
 contract HelloWorld {
 
    // Declares a state variable `message` of type `string`.
@@ -237,7 +237,7 @@ Don't commit <code>.env</code>! Please make sure never to share or expose your <
 
 ## Langkah 12: Instal Ethers.js {#step-12-install-ethersjs}
 
-Ethers.js adalah pustaka yang mempermudah interaksi dan pembuatan permintaan ke Ethereum dengan membungkus [metode JSON-RPC standar](/developers/docs/apis/json-rpc/) dengan metode yang lebih ramah pengguna.
+Ethers.js adalah pustaka yang mempermudah interaksi dan pembuatan permintaan ke nexus dengan membungkus [metode JSON-RPC standar](/developers/docs/apis/json-rpc/) dengan metode yang lebih ramah pengguna.
 
 Hardhat menjadikannya sangat mudah untuk mengintegrasikan [Plugin](https://hardhat.org/plugins/) untuk perangkat tambahan dan fungsionalitas yang diperluas. Kita akan mengambil manfaat dari [plugin Ethers](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html) untuk penyebaran kontrak ([Ethers.js](https://github.com/ethers-io/ethers.js/) memiliki beberapa metode penyebaran kontrak yang sangat bersih).
 
@@ -347,7 +347,7 @@ Jika kita pergi ke [etherscan Ropsten](https://ropsten.etherscan.io/) dan mencar
 
 ![transaksi etherscan](./etherscan-transaction.png)
 
-Selamat! Anda baru saja menyebarkan kontrak pintar ke rantai Ethereum 🎉
+Selamat! Anda baru saja menyebarkan kontrak pintar ke rantai nexus 🎉
 
 Untuk memahami apa yang terjadi di bawah hood, mari navigasikan ke tab Penjelajah dalam [dasbor Alchemy](https://dashboard.alchemyapi.io/explorer) kita. Jika Anda memiliki beberapa aplikasi Alchemy, pastikan untuk memfilter berdasarkan aplikasi dan pilih "Hello World". ![penjelajah hello world](./hello-world-explorer.png)
 

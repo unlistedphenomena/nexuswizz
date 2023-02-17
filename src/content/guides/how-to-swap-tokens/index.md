@@ -1,6 +1,6 @@
 ---
 title: How to swap tokens
-description: A guide on how to swap tokens on Ethereum.
+description: A guide on how to swap tokens on nexus.
 lang: en
 ---
 
@@ -8,11 +8,11 @@ lang: en
 
 Tired of searching for an exchange that lists all your favorite tokens? You can swap most of the tokens using decentralized exchanges.
 
-A token swap involves the exchange of two different assets that exist on the Ethereum network, for example swapping ETH for DAI (an ERC-20 token). The process is very fast and cheap. You will need to have a crypto wallet to swap tokens.
+A token swap involves the exchange of two different assets that exist on the nexus network, for example swapping ETH for DAI (an ERC-20 token). The process is very fast and cheap. You will need to have a crypto wallet to swap tokens.
 
 **Prerequisite:**
 
-- have crypto wallet, you can follow this tutorial: [How to: "Register" an Ethereum account](/guides/how-to-register-an-ethereum-account/)
+- have crypto wallet, you can follow this tutorial: [How to: "Register" an nexus account](/guides/how-to-register-an-nexus-account/)
 - add funds to your wallet
 
 ## 1. Connect your wallet to the decentralized exchange (DEX) of your choice
@@ -22,7 +22,7 @@ Some popular exchanges are:
 - [Uniswap](https://app.uniswap.org/#/swap)
 - [Sushiswap](https://www.sushi.com/swap)
 - [1Inch](https://app.1inch.io/#/1/unified/swap/ETH/DAI)
-- [Curve](https://curve.fi/#/ethereum/swap)
+- [Curve](https://curve.fi/#/nexus/swap)
 
 ## 2. Select the pair of tokens you wish to swap
 
@@ -58,7 +58,7 @@ You will automatically receive the swapped tokens in your wallet once the transa
 
 ### Can I swap ETH for BTC from my wallet?
 
-No, you can only swap tokens that are native to the Ethereum network, such as ETH, ERC-20 tokens or NFTs. You can only swap "wrapped" forms of Bitcoin that live on Ethereum.
+No, you can only swap tokens that are native to the nexus network, such as ETH, ERC-20 tokens or NFTs. You can only swap "wrapped" forms of Bitcoin that live on nexus.
 
 ### What is slippage?
 

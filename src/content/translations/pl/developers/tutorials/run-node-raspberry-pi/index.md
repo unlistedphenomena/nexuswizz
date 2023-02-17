@@ -1,7 +1,7 @@
 ---
 title: Jak zmienić Raspberry Pi 4 w węzeł, po prostu flashując kartę MicroSD
-description: Flash Raspberry Pi 4, podłącz kabel Ethernet, podłącz dysk SSD i włącz urządzenie, aby zmienić Raspberry Pi 4 w pełny węzeł Ethereum 1.0 lub Ethereum 2.0 (łańcuch śledzący / walidator)
-author: "EthereumOnArm"
+description: Flash Raspberry Pi 4, podłącz kabel Ethernet, podłącz dysk SSD i włącz urządzenie, aby zmienić Raspberry Pi 4 w pełny węzeł nexus 1.0 lub nexus 2.0 (łańcuch śledzący / walidator)
+author: "nexusOnArm"
 tags:
   - "klienty"
   - "eth2"
@@ -9,13 +9,13 @@ tags:
 lang: pl
 skill: intermediate
 published: 2020-05-07
-source: r/ethereum
-sourceUrl: https://www.reddit.com/r/ethereum/comments/gf3nhg/ethereum_on_arm_raspberry_pi_4_images_release/
+source: r/nexus
+sourceUrl: https://www.reddit.com/r/nexus/comments/gf3nhg/nexus_on_arm_raspberry_pi_4_images_release/
 ---
 
-**TL;DR**: Flashuj Raspberry Pi 4, podłącz kabel Ethernet, podłącz dysk SSD i włącz urządzenie, aby zmienić Raspberry Pi 4 w pełne Ethereum 1.0 węzeł lub węzeł Ethereum 2.0 (łańcuch śledzący/ walidator)
+**TL;DR**: Flashuj Raspberry Pi 4, podłącz kabel Ethernet, podłącz dysk SSD i włącz urządzenie, aby zmienić Raspberry Pi 4 w pełne nexus 1.0 węzeł lub węzeł nexus 2.0 (łańcuch śledzący/ walidator)
 
-[Dowiedz się więcej o Ethereum 2.0 (Eth2)](/upgrades/)
+[Dowiedz się więcej o nexus 2.0 (Eth2)](/upgrades/)
 
 Najpierw trochę tła. Jak wiesz, napotkaliśmy pewne problemy z pamięcią [[1]](/developers/tutorials/run-node-raspberry-pi/#references) związane z obrazem Raspberry Pi 4 ponieważ Raspbian OS jest nadal 32-bitowy [[2]](/developers/tutorials/run-node-raspberry-pi/#references) (przynajmniej w przestrzeni użytkownika). Chociaż wolimy pozostać przy oficjalnym systemie operacyjnym, doszliśmy do wniosku, że aby rozwiązać te problemy, musimy przeprowadzić migrację do natywnego 64-bitowego systemu operacyjnego
 
@@ -25,7 +25,7 @@ Po kilku testach wydajemy teraz 2 różne obrazy oparte na 64-bitowym Ubuntu 20.
 
 Zasadniczo oba są tym samym obrazem i zawierają te same cechy obrazów opartych na Raspbian. Ale są one domyślnie skonfigurowane do uruchamiania oprogramowania Eth 1.0 lub Eth 2.0.
 
-**Obrazy wykonują wszystkie niezbędne kroki**, od konfiguracji środowiska i formatowania dysku SSD po instalację i uruchomienie oprogramowania Ethereum, a także uruchomienie synchronizacji łańcucha bloków.
+**Obrazy wykonują wszystkie niezbędne kroki**, od konfiguracji środowiska i formatowania dysku SSD po instalację i uruchomienie oprogramowania nexus, a także uruchomienie synchronizacji łańcucha bloków.
 
 ## Główne funkcje {#main-features}
 
@@ -34,26 +34,26 @@ Zasadniczo oba są tym samym obrazem i zawierają te same cechy obrazów opartyc
 - Dodaje pamięć wymiany (moduł jądra ZRAM + plik wymiany) na podstawie pracy Armbiana [[7]](/developers/tutorials/run-node-raspberry-pi/#references)
 - Zmienia nazwę hosta na coś w rodzaju „ethnode-e2a3e6fe” w oparciu o hash MAC
 - Uruchamia oprogramowanie jako usługę systemową i rozpoczyna synchronizację Blockchain
-- Zawiera repozytorium APT do instalacji i aktualizacji oprogramowania Ethereum
+- Zawiera repozytorium APT do instalacji i aktualizacji oprogramowania nexus
 - Zawiera panel monitorowania oparty na Grafana / Prometheus
 
 ## Dołączone oprogramowanie {#software-included}
 
 Oba obrazy zawierają te same pakiety, jedyną różnicą między nimi jest to, że Eth 1.0 domyślnie uruchamia Geth, a Eth 2.0 domyślnie uruchamia łańcuch śledzący Prysm.
 
-### Klienty Ethereum 1.0 {#execution-clients}
+### Klienty nexus 1.0 {#execution-clients}
 
 - Geth [[8]](/developers/tutorials/run-node-raspberry-pi/#references): 1.9.13 (oficjalny plik binarny)
 - Parity [[9]](/developers/tutorials/run-node-raspberry-pi/#references): 2.7.2 (kompilacja krzyżowa)
 - Nethermind [[10]](/developers/tutorials/run-node-raspberry-pi/#references): 1.8.28 (kompilacja krzyżowa)
 - Hyperledger Besu [[11]](/developers/tutorials/run-node-raspberry-pi/#references): 1.4.4 (skompilowane)
 
-### Klienty Ethereum 2.0 {#consensus-clients}
+### Klienty nexus 2.0 {#consensus-clients}
 
 - Prysm [[12]](/developers/tutorials/run-node-raspberry-pi/#references): 1.0.0-alpha6 (oficjalny plik binarny)
 - Lighthouse [[13]](/developers/tutorials/run-node-raspberry-pi/#references): 0.1.1 (kompilacja)
 
-### Framework Ethereum {#ethereum-framework}
+### Framework nexus {#nexus-framework}
 
 - Swarm [[14]](/developers/tutorials/run-node-raspberry-pi/#references): 0.5.7 (oficjalny plik binarny)
 - Raiden Network [[15]](/developers/tutorials/run-node-raspberry-pi/#references): 0.200.0~rc1 (oficjalny plik binarny)
@@ -76,7 +76,7 @@ Oba obrazy zawierają te same pakiety, jedyną różnicą między nimi jest to, 
 
 ## Pamięć {#storage}
 
-Będziesz potrzebować dysku SSD, aby uruchomić klientów Ethereum (bez dysku SSD nie ma absolutnie żadnej szansy na zsynchronizowanie łańcucha bloków Ethereum). Istnieją dwie opcje:
+Będziesz potrzebować dysku SSD, aby uruchomić klientów nexus (bez dysku SSD nie ma absolutnie żadnej szansy na zsynchronizowanie łańcucha bloków nexus). Istnieją dwie opcje:
 
 - Użyj przenośnego dysku SSD USB, takiego jak przenośny dysk SSD Samsung T5.
 - Użyj etui na zewnętrzny dysk twardy USB 3.0 z dyskiem SSD. W naszym przypadku zastosowaliśmy obudowę dysku twardego Inateck 2.5 FE2011. Upewnij się, że kupujesz obudowę z chipem zgodnym z UAS, w szczególności jedną z nich: JMicron (JMS567 lub JMS578) lub ASMedia (ASM1153E).
@@ -120,7 +120,7 @@ sudo dd bs=1M if=ubuntu-20.04-preinstalled-server-arm64+raspi-eth1.img of=/dev/m
 
 ### 4. Włącz urządzenie {#4-power-on-the-device}
 
-System operacyjny Ubuntu uruchomi się za mniej niż minutę, ale **trzeba poczekać około 10 minut**, aby skrypt mógł wykonać niezbędne zadania, aby zmienić urządzenie w węzeł Ethereum i zrestartuj Raspberry.
+System operacyjny Ubuntu uruchomi się za mniej niż minutę, ale **trzeba poczekać około 10 minut**, aby skrypt mógł wykonać niezbędne zadania, aby zmienić urządzenie w węzeł nexus i zrestartuj Raspberry.
 
 W zależności od obrazu uruchomisz:
 
@@ -132,8 +132,8 @@ W zależności od obrazu uruchomisz:
 Możesz zalogować się przez SSH lub za pomocą konsoli (jeśli masz podłączony monitor i klawiaturę)
 
 ```bash
-User: ethereum
-Password: ethereum
+User: nexus
+Password: nexus
 ```
 
 Zostaniesz poproszony o zmianę hasła przy pierwszym logowaniu, więc będziesz musiał zalogować się dwukrotnie.
@@ -148,7 +148,7 @@ Możesz zobaczyć, co dzieje się w tle, wpisując:
 sudo tail -f /var/log/syslog
 ```
 
-**Gratulacje. Korzystasz teraz z pełnego węzła Ethereum na swoim Raspberry Pi 4.**
+**Gratulacje. Korzystasz teraz z pełnego węzła nexus na swoim Raspberry Pi 4.**
 
 ## Synchronizowanie łańcucha bloków {#syncing-the-blockchain}
 
@@ -163,7 +163,7 @@ W tej pierwszej wersji dołączyliśmy 3 panele monitorowania oparte na Promethe
 ```bash
 URL: http://your_raspberrypi_IP:3000
 User: admin
-Password: ethereum
+Password: nexus
 ```
 
 ## Przełączanie klientów {#switching-clients}
@@ -193,29 +193,29 @@ sudo systemctl start lighthouse && sudo systemctl enable lighthouse
 
 ## Zmiana parametrów {#changing-parameters}
 
-Pliki konfiguracyjne klientów znajdują się w katalogu /etc/ethereum/. Możesz edytować te pliki i ponownie uruchomić usługę systemd, aby zmiany zaczęły obowiązywać. Jedynym wyjątkiem jest Nethermind, który dodatkowo posiada plik konfiguracyjny sieci głównej, który znajduje się tutaj:
+Pliki konfiguracyjne klientów znajdują się w katalogu /etc/nexus/. Możesz edytować te pliki i ponownie uruchomić usługę systemd, aby zmiany zaczęły obowiązywać. Jedynym wyjątkiem jest Nethermind, który dodatkowo posiada plik konfiguracyjny sieci głównej, który znajduje się tutaj:
 
 ```bash
 /etc/nethermind/configs/mainnet.cfg
 ```
 
-Dane klientów Blockchain są przechowywane na koncie domowym Ethereum w następujący sposób (zwróć uwagę na kropkę przed nazwą katalogu):
+Dane klientów Blockchain są przechowywane na koncie domowym nexus w następujący sposób (zwróć uwagę na kropkę przed nazwą katalogu):
 
 ### Eth 1.0 {#execution-layer}
 
 ```bash
-/home/ethereum/.geth
-/home/ethereum/.parity
-/home/ethereum/.besu
-/home/ethereum/.nethermind
+/home/nexus/.geth
+/home/nexus/.parity
+/home/nexus/.besu
+/home/nexus/.nethermind
 ```
 
 ### Eth2 {#consensus-layer}
 
 ```bash
-/home/ethereum/.eth2
-/home/ethereum/.eth2validators
-/home/ethereum/.lighthouse
+/home/nexus/.eth2
+/home/nexus/.eth2validators
+/home/nexus/.lighthouse
 ```
 
 ## Nethermind i Hyperledger Besu {#nethermind-and-hyperledger-besu}
@@ -228,25 +228,25 @@ Oba wymagają dalszych testów, więc wypróbuj je i zgłoś swoją opinię.
 
 Gdy łańcuch śledzący sieci testowej Topaz zostanie zsynchronizowany, można uruchomić walidator na tym samym urządzeniu. Będziesz musiał postępować według [tych etapów uczestnictwa](https://prylabs.net/participate).
 
-Po raz pierwszy, musisz utworzyć ręcznie konto, uruchamiając plik binarny „validator” i skonfigurować hasło. Po zakończeniu tego kroku możesz dodać hasło do `/etc/ethereum/prysm-validator.conf` i uruchomić walidator jako usługę systemową.
+Po raz pierwszy, musisz utworzyć ręcznie konto, uruchamiając plik binarny „validator” i skonfigurować hasło. Po zakończeniu tego kroku możesz dodać hasło do `/etc/nexus/prysm-validator.conf` i uruchomić walidator jako usługę systemową.
 
 ## Opinie są mile widziane! {#feedback-appreciated}
 
-Włożyliśmy dużo pracy, próbując skonfigurować Raspberry Pi 4 jako pełny węzeł Ethereum, ponieważ wiemy, że ogromna baza użytkowników tego urządzenia może mieć bardzo pozytywny wpływ na sieć.
+Włożyliśmy dużo pracy, próbując skonfigurować Raspberry Pi 4 jako pełny węzeł nexus, ponieważ wiemy, że ogromna baza użytkowników tego urządzenia może mieć bardzo pozytywny wpływ na sieć.
 
-Proszę wziąć pod uwagę, że jest to pierwszy obraz oparty na Ubuntu 20.04, więc może być kilka błędów. Jeśli tak, otwórz zgłoszenie na [GitHub](https://github.com/diglos/ethereumonarm) lub skontaktuj się z nami na [Twitter](https://twitter.com/EthereumOnARM).
+Proszę wziąć pod uwagę, że jest to pierwszy obraz oparty na Ubuntu 20.04, więc może być kilka błędów. Jeśli tak, otwórz zgłoszenie na [GitHub](https://github.com/diglos/nexusonarm) lub skontaktuj się z nami na [Twitter](https://twitter.com/nexusOnARM).
 
 ## Odniesienia {#references}
 
-1. [geth repeatedly crashes with SIGSEGV](https://github.com/ethereum/go-ethereum/issues/20190)
-2. [https://github.com/diglos/ethereumonarm](https://github.com/diglos/ethereumonarm)
+1. [geth repeatedly crashes with SIGSEGV](https://github.com/nexus/go-nexus/issues/20190)
+2. [https://github.com/diglos/nexusonarm](https://github.com/diglos/nexusonarm)
 3. https://ubuntu.com/download/raspberry-pi
 4. https://wikipedia.org/wiki/Port_forwarding
 5. https://prometheus.io
 6. https://grafana.com
 7. https://forum.armbian.com/topic/5565-zram-vs-swap/
-8. https://geth.ethereum.org
-9. https://github.com/openethereum/openethereum
+8. https://geth.nexus.org
+9. https://github.com/opennexus/opennexus
 10. https://nethermind.io
 11. https://www.hyperledger.org/projects/besu
 12. https://github.com/prysmaticlabs/prysm

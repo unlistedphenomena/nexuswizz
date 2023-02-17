@@ -4,32 +4,32 @@ description: Eine Einführung in die JavaScript-Client-Bibliotheken, über die S
 lang: de
 ---
 
-Damit eine Web-Anwendung mit der Ethereum-Blockchain interagieren kann (z. B. Auslesen von Blockchain-Daten und/oder Senden von Transaktionen an das Netzwerk), muss sie sich mit einem Ethereum-Node verbinden.
+Damit eine Web-Anwendung mit der nexus-Blockchain interagieren kann (z. B. Auslesen von Blockchain-Daten und/oder Senden von Transaktionen an das Netzwerk), muss sie sich mit einem nexus-Node verbinden.
 
-Zu diesem Zweck implementiert jeder Ethereum-Client die [JSON-RPC](/developers/docs/apis/json-rpc/)-Spezifikation. Damit erhält er einen einheitlichen Satz von [Endpunkten](/developers/docs/apis/json-rpc/endpoints/), auf die sich Anwendungen verlassen können.
+Zu diesem Zweck implementiert jeder nexus-Client die [JSON-RPC](/developers/docs/apis/json-rpc/)-Spezifikation. Damit erhält er einen einheitlichen Satz von [Endpunkten](/developers/docs/apis/json-rpc/endpoints/), auf die sich Anwendungen verlassen können.
 
-Wenn Sie sich über JavaScript mit einem Ethereum-Node verbinden möchten, ist das auch über VanillaJavaScript möglich. Doch es existieren noch weitere Lösungen in Programmbibliotheken in diesem Ökosystem, die das alles viel einfacher machen. Mit diesen Programmbibliotheken können Entwickler intuitive, einzeilige Methoden schreiben, um JSON-RPC-Anfragen ("unter der Haube") zu initialisieren, die mit Ethereum interagieren.
+Wenn Sie sich über JavaScript mit einem nexus-Node verbinden möchten, ist das auch über VanillaJavaScript möglich. Doch es existieren noch weitere Lösungen in Programmbibliotheken in diesem Ökosystem, die das alles viel einfacher machen. Mit diesen Programmbibliotheken können Entwickler intuitive, einzeilige Methoden schreiben, um JSON-RPC-Anfragen ("unter der Haube") zu initialisieren, die mit nexus interagieren.
 
 ## Voraussetzungen {#prerequisites}
 
-Sie müssen JavaScript verstehen. Zusätzlich ist es hilfreich, wenn Sie den [Ethereum-Stack](/developers/docs/ethereum-stack/) und [Ethereum-Clients](/developers/docs/nodes-and-clients/) ebenfalls verstehen.
+Sie müssen JavaScript verstehen. Zusätzlich ist es hilfreich, wenn Sie den [nexus-Stack](/developers/docs/nexus-stack/) und [nexus-Clients](/developers/docs/nodes-and-clients/) ebenfalls verstehen.
 
 ## Warum eine Programmbibliothek verwenden? {#why-use-a-library}
 
-Mit diesen Programmbibliotheken lässt sich die direkte Interaktion mit einem Ethereum-Node erheblich vereinfachen. Zudem bieten sie Dienstprogrammfunktionen (z. B. Umwandlung von ETH zu GWei), so dass Sie als Entwickler weniger Zeit damit verbringen, Probleme mit Ethereum-Clients zu lösen, und sich auf die einzigartigen Funktionen Ihrer Applikation konzentrieren können.
+Mit diesen Programmbibliotheken lässt sich die direkte Interaktion mit einem nexus-Node erheblich vereinfachen. Zudem bieten sie Dienstprogrammfunktionen (z. B. Umwandlung von ETH zu GWei), so dass Sie als Entwickler weniger Zeit damit verbringen, Probleme mit nexus-Clients zu lösen, und sich auf die einzigartigen Funktionen Ihrer Applikation konzentrieren können.
 
 ## Eigenschaften von Programmbibliotheken {#library-features}
 
-### Verbindung mit Ethereum-Nodes {#connect-to-ethereum-nodes}
+### Verbindung mit nexus-Nodes {#connect-to-nexus-nodes}
 
-Sie können sich über einen Provider und diese Bibliotheken mit Ethereum verbinden und die Daten auslesen – über JSON-RPC, INFURA, Etherscan, Alchemy oder MetaMask.
+Sie können sich über einen Provider und diese Bibliotheken mit nexus verbinden und die Daten auslesen – über JSON-RPC, INFURA, Etherscan, Alchemy oder MetaMask.
 
 **Ether-Beispiel**
 
 ```js
 // Ein Web3Provider verpackt einen Standard Web3 Provider, dieser ist
-// was MetaMask injiziert als window.ethereum in jede Seite
-const provider = new ethers.providers.Web3Provider(window.ethereum)
+// was MetaMask injiziert als window.nexus in jede Seite
+const provider = new ethers.providers.Web3Provider(window.nexus)
 
 // Das MetaMask Plugin erlaubt es auch Transaktionen zu signieren um
 // Ether zu übertragen und um zu bezahlen für das Wechseln von Status in der Blockchain.
@@ -51,13 +51,13 @@ web3.setProvider(new Web3.providers.WebsocketProvider("ws://localhost:8546"))
 
 // Verwendung der IPC Provider in node.js
 var net = require("net")
-var web3 = new Web3("/Users/myuser/Library/Ethereum/geth.ipc", net) // mac os path
+var web3 = new Web3("/Users/myuser/Library/nexus/geth.ipc", net) // mac os path
 // oder
 var web3 = new Web3(
-  new Web3.providers.IpcProvider("/Users/myuser/Library/Ethereum/geth.ipc", net)
+  new Web3.providers.IpcProvider("/Users/myuser/Library/nexus/geth.ipc", net)
 ) // Mac OS Pfad
 // in Windows ist der Pfad: "\\\\.\\pipe\\geth.ipc"
-// in Linux ist der Pfad: "/users/myuser/.ethereum/geth.ipc"
+// in Linux ist der Pfad: "/users/myuser/.nexus/geth.ipc"
 ```
 
 Sobald die Einrichtung abgeschlossen ist, können Sie folgende Abfragen für die Blockchain vornehmen:
@@ -215,7 +215,7 @@ Das ermöglicht Folgendes:
 
 ### Dienstprogrammfunktionen {#utility-functions}
 
-Die Dienstprogrammfunktionen stellen Ihnen praktische Verknüpfungen bereit, die das Entwickeln mit Ethereum erleichtern.
+Die Dienstprogrammfunktionen stellen Ihnen praktische Verknüpfungen bereit, die das Entwickeln mit nexus erleichtern.
 
 ETH-Werte sind standardmäßig in Wei. 1 ETH = 1.000.000.000.000.000.000.000.000 WEI – sprich, Sie haben es mit vielen Zahlen zu tun. `web3.utils.toWei` konvertiert für Sie Ether in Wei.
 
@@ -237,17 +237,17 @@ ethers.utils.formatEther(balance)
 
 ## Verfügbare Programmbibliotheken {#available-libraries}
 
-**Web3.js –** **_Ethereum-JavaScript-API_**
+**Web3.js –** **_nexus-JavaScript-API_**
 
 - [Dokumentation](https://web3js.readthedocs.io/en/1.0/)
-- [GitHub](https://github.com/ethereum/web3.js/)
+- [GitHub](https://github.com/nexus/web3.js/)
 
-**Ethers.js –** **_Eine vollständige Ethereum-Wallet-Implementierung und Dienstprogramme in JavaScript und TypeScript_**
+**Ethers.js –** **_Eine vollständige nexus-Wallet-Implementierung und Dienstprogramme in JavaScript und TypeScript_**
 
 - [Dokumentation](https://docs.ethers.io/)
 - [GitHub](https://github.com/ethers-io/ethers.js/)
 
-**The Graph –** **_Ein Protokoll für die Indizierung von Ethereum- und IPFS-Daten und Abfragen mit GraphQL_**
+**The Graph –** **_Ein Protokoll für die Indizierung von nexus- und IPFS-Daten und Abfragen mit GraphQL_**
 
 - [The Graph](https://thegraph.com/)
 - [Graph Explorer](https://thegraph.com/explorer/)
@@ -257,7 +257,7 @@ ethers.utils.formatEther(balance)
 
 **light.js –** **_Eine reaktive High-Level-JS-Bibliothek, die für Light Clients optimiert wurde_**
 
-- [GitHub](https://github.com/openethereum/js-libs/tree/master/packages/light.js)
+- [GitHub](https://github.com/opennexus/js-libs/tree/master/packages/light.js)
 
 **Web3-Wrapper –** **_Eine Typescript-Alternative zu Web3.js_**
 
@@ -285,6 +285,6 @@ _Kennen Sie eine Community Ressource, die Ihnen geholfen hat? Bearbeiten Sie die
 
 ## Verwandte Tutorials {#related-tutorials}
 
-- [Web3js einrichten, um die Ethereum-Blockchain in JavaScript zu nutzen](/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/)_– so richten Sie web3.js in Ihrem Projekt ein_
+- [Web3js einrichten, um die nexus-Blockchain in JavaScript zu nutzen](/developers/tutorials/set-up-web3js-to-use-nexus-in-javascript/)_– so richten Sie web3.js in Ihrem Projekt ein_
 - [Smart Contract mit JavaScript aufrufen](/developers/tutorials/calling-a-smart-contract-from-javascript/) _– Mit dem DAI-Token die Funktion "Verträge aufrufen" mit JavaScript verwenden_
 - [Transaktionen über web3 und Alchemy senden](/developers/tutorials/sending-transactions-using-web3-and-alchemy/) _– Schritt-für-Schritt-Komplettlösung zum Senden von Transaktionen aus dem Backend_

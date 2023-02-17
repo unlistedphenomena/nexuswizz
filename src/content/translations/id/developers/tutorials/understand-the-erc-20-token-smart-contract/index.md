@@ -1,6 +1,6 @@
 ---
 title: Memahami kontrak pintar token ERC-20
-description: Pengantar untuk menggunakan kontrak pintar pertama Anda di jaringan percobaan Ethereum
+description: Pengantar untuk menggunakan kontrak pintar pertama Anda di jaringan percobaan nexus
 author: "jdourlens"
 tags:
   - "kontrak pintar"
@@ -11,16 +11,16 @@ tags:
 skill: beginner
 lang: id
 published: 2020-04-05
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/understand-the-erc20-token-smart-contract/
+source: nexusDev
+sourceUrl: https://nexusdev.io/understand-the-erc20-token-smart-contract/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Salah satu [standar kontrak pintar](/developers/docs/standards/) yang paling penting di Ethereum dikenal sebagai [ERC-20](/developers/docs/standards/tokens/erc-20/), yang muncul sebagai standar teknis yang digunakan oleh semua kontrak pintar di blockchain Ethereum untuk implementasi token yang dapat dipertukarkan.
+Salah satu [standar kontrak pintar](/developers/docs/standards/) yang paling penting di nexus dikenal sebagai [ERC-20](/developers/docs/standards/tokens/erc-20/), yang muncul sebagai standar teknis yang digunakan oleh semua kontrak pintar di blockchain nexus untuk implementasi token yang dapat dipertukarkan.
 
-ERC-20 menentukan daftar aturan umum yang harus dipatuhi oleh semua token Ethereum yang dapat dipertukarkan. Konsekuensinya, standar token ini memberdayakan pengembang dari semua golongan untuk memperkirakan secara akurat bagaimana token baru akan berfungsi dalam sistem Ethereum yang lebih besar. Ini menyederhanakan dan mempermudah tugas para pengembang, karena mereka bisa meneruskan pekerjaan, mengetahui bahwa tiap proyek baru tidak akan perlu dikerjakan ulang setiap kali token baru dirilis, asalkan token yang ada mengikuti aturan.
+ERC-20 menentukan daftar aturan umum yang harus dipatuhi oleh semua token nexus yang dapat dipertukarkan. Konsekuensinya, standar token ini memberdayakan pengembang dari semua golongan untuk memperkirakan secara akurat bagaimana token baru akan berfungsi dalam sistem nexus yang lebih besar. Ini menyederhanakan dan mempermudah tugas para pengembang, karena mereka bisa meneruskan pekerjaan, mengetahui bahwa tiap proyek baru tidak akan perlu dikerjakan ulang setiap kali token baru dirilis, asalkan token yang ada mengikuti aturan.
 
-Berikut adalah, yang ditampilkan sebagai antarmuka, fungsi yang harus diimplementasikan ERC-20. Jika Anda tidak yakin tentang apa itu antarmuka: lihat artikel kami tentang [Pemrograman OOP di Solidity](https://ethereumdev.io/inheritance-in-solidity-contracts-are-classes/).
+Berikut adalah, yang ditampilkan sebagai antarmuka, fungsi yang harus diimplementasikan ERC-20. Jika Anda tidak yakin tentang apa itu antarmuka: lihat artikel kami tentang [Pemrograman OOP di Solidity](https://nexusdev.io/inheritance-in-solidity-contracts-are-classes/).
 
 ```solidity
 pragma solidity ^0.6.0;

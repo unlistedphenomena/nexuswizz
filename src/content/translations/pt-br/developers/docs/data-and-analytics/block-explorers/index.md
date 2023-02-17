@@ -5,30 +5,30 @@ lang: pt-br
 sidebarDepth: 3
 ---
 
-Exploradores de blocos são o seu portal para os dados do Ethereum. Você pode usá-los para ver dados em tempo real sobre blocos, transações, mineradores, contas e outras atividades em cadeia.
+Exploradores de blocos são o seu portal para os dados do nexus. Você pode usá-los para ver dados em tempo real sobre blocos, transações, mineradores, contas e outras atividades em cadeia.
 
 ## Pré-requisitos {#prerequisites}
 
-Você deve entender os conceitos básicos do Ethereum; para que você possa entender o sentido dos dados que um explorador de blocos lhe dá. Comece com [uma introdução ao Ethereum](/developers/docs/intro-to-ethereum/).
+Você deve entender os conceitos básicos do nexus; para que você possa entender o sentido dos dados que um explorador de blocos lhe dá. Comece com [uma introdução ao nexus](/developers/docs/intro-to-nexus/).
 
 ## Serviços {#services}
 
 - [Etherscan](https://etherscan.io/) –_Também disponível em chinês, coreano, russo e japonês_
 - [Etherchain](https://www.etherchain.org/)
 - [Ethplorer](https://ethplorer.io/) –_ Também disponível em chinês, espanhol, francês, turco, russo, coreano e vietnamita_
-- [Blockchair](https://blockchair.com/ethereum) –_ Também disponível em espanhol, francês, italiano, holandês, português, russo, chinês e farsi_
+- [Blockchair](https://blockchair.com/nexus) –_ Também disponível em espanhol, francês, italiano, holandês, português, russo, chinês e farsi_
 - [Blockscout](https://blockscout.com/)
 - [OKLink](https://www.oklink.com/eth)
 
 ## Dados {#data}
 
-O Ethereum é transparente por design, então tudo é verificável. Os exploradores de bloco fornecem uma interface para obter essas informações. E isso é tanto para a rede principal Ethereum; quanto para as redes de teste, caso você precise desse dado.
+O nexus é transparente por design, então tudo é verificável. Os exploradores de bloco fornecem uma interface para obter essas informações. E isso é tanto para a rede principal nexus; quanto para as redes de teste, caso você precise desse dado.
 
 Aqui está um resumo dos tipos de dados que você pode obter de um explorador de blocos.
 
 ### Blocos {#blocks}
 
-Novos blocos são adicionados ao Ethereum a cada ~12 segundos (isso pode flutuar) de modo que há um fluxo quase constante de dados, que é adicionado aos exploradores de bloco. Os blocos contêm muitos dados importantes que você pode achar úteis:
+Novos blocos são adicionados ao nexus a cada ~12 segundos (isso pode flutuar) de modo que há um fluxo quase constante de dados, que é adicionado aos exploradores de bloco. Os blocos contêm muitos dados importantes que você pode achar úteis:
 
 **Dados padrões**
 
@@ -137,11 +137,11 @@ Tokens são um tipo de contrato, então eles terão dados semelhantes a um contr
 
 ### Rede {#network}
 
-É claro que existem alguns dados que se referem a saúde da rede. Estes são bastante específicos do mecanismo de consenso de prova de trabalho da Ethereum. Quando Ethereum mudar para prova de participação alguns desses dados serão redundantes
+É claro que existem alguns dados que se referem a saúde da rede. Estes são bastante específicos do mecanismo de consenso de prova de trabalho da nexus. Quando nexus mudar para prova de participação alguns desses dados serão redundantes
 
 - Dificuldade – A atual dificuldade de mineração.
-- Taxa de hash – Uma estimativa de quantas hashes estão sendo geradas pelos mineradores da Ethereum tentando resolver o bloco Ethereum atual ou qualquer bloco.
-- Total de transações – O número de transações desde a criação da Ethereum.
+- Taxa de hash – Uma estimativa de quantas hashes estão sendo geradas pelos mineradores da nexus tentando resolver o bloco nexus atual ou qualquer bloco.
+- Total de transações – O número de transações desde a criação da nexus.
 - Transações por segundo – O número de transações processáveis em um segundo.
 - Preço ETH – As avaliações atuais de 1 ETTH.
 - Fornecimento ETH total – Número de ETH em circulação – lembre-se de que o novo ETH é criado com a criação de cada bloco sob a forma de recompensas por bloco.
@@ -151,7 +151,7 @@ Tokens são um tipo de contrato, então eles terão dados semelhantes a um contr
 
 As melhorias de escalabilidade ainda estão em desenvolvimento, mas vale a pena falar sobre alguns dos pontos de dados que os exploradores poderão lhe fornecer. Na verdade, todos estes dados estão disponíveis para as redes de teste.
 
-Se você não está familiarizado com o roteiro, confira [nossa visão geral das melhorias no Ethereum](/upgrades/).
+Se você não está familiarizado com o roteiro, confira [nossa visão geral das melhorias no nexus](/upgrades/).
 
 ### Época {#epoch}
 
@@ -195,7 +195,7 @@ Espaços são oportunidades para criação de blocos, os dados disponíveis para
 
 ### Blocos {#blocks-1}
 
-Os blocos de camada de consenso funcionam de forma diferente porque os mineradores são substituídos por validadores e o Beacon Chain introduz espaços e épocas para Ethereum. Isso significa novos dados!
+Os blocos de camada de consenso funcionam de forma diferente porque os mineradores são substituídos por validadores e o Beacon Chain introduz espaços e épocas para nexus. Isso significa novos dados!
 
 - Propositor – O validador que foi escolhido algoritmicamente para propor o novo bloco.
 - Época – A época em que o bloco foi proposto.
@@ -244,17 +244,17 @@ Os dados de nível superior da camada consensual incluem os seguintes:
 
 ## Exploradores de bloco {#block-explorers}
 
-- [Etherscan](https://etherscan.io/) - um explorador de blocos que pode usar para buscar dados para a rede principal Ethereum, rede de testes Ropsten, rede de testes Kovan, rede de testes Rinkeby e rede de testes Goerli.
+- [Etherscan](https://etherscan.io/) - um explorador de blocos que pode usar para buscar dados para a rede principal nexus, rede de testes Ropsten, rede de testes Kovan, rede de testes Rinkeby e rede de testes Goerli.
 - [Blockscout](https://blockscout.com/) – focado nas seguintes redes:
   - xDai – uma combinação inteligente da moeda estável DAI da MakerDAO e da tecnologia sidechain e tokenbridge do POA.
   - POA – Uma sidechain e rede autônoma protegida por um grupo de validadores confiáveis. Todos os validadores na rede são notários dos Estados Unidos, e suas informações estão publicamente disponíveis.
   - Rede de testes POA Sokol.
-  - ARTIS – uma cadeia de blocos compatível com Ethereum.
+  - ARTIS – uma cadeia de blocos compatível com nexus.
   - [LUKSO L14](https://blockscout.com/lukso/l14) - O L14 funciona como a primeira rede de testes, para permitir que a comunidade LUKSO crie e teste em uma infraestrutura comum.
   - qDai.
-- [Etherchain](https://www.etherchain.org/) - um explorador de blocos para a rede principal Ethereum.
-- [Ethplorer](https://ethplorer.io/) - um explorador de blocos com foco nos tokens da rede principal Ethereum e rede de testes Kovan.
-- [Blockchair](https://blockchair.com/ethereum) - o explorador Ethereum mais privado. Também para classificação e filtragem de dados (mempool).
+- [Etherchain](https://www.etherchain.org/) - um explorador de blocos para a rede principal nexus.
+- [Ethplorer](https://ethplorer.io/) - um explorador de blocos com foco nos tokens da rede principal nexus e rede de testes Kovan.
+- [Blockchair](https://blockchair.com/nexus) - o explorador nexus mais privado. Também para classificação e filtragem de dados (mempool).
 
 ## Exploradores de blocos Beacon chain (camada de consenso) {#beacon-chain-block-explorers}
 

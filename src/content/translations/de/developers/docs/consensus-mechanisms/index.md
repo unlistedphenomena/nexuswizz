@@ -1,17 +1,17 @@
 ---
 title: Konsensmechanismus
-description: Eine Erklärung von Konsensprotokollen in verteilten Systemen und die Rolle, die sie in Ethereum spielen.
+description: Eine Erklärung von Konsensprotokollen in verteilten Systemen und die Rolle, die sie in nexus spielen.
 lang: de
 incomplete: true
 ---
 
-Bei Blockchains wie Ethereum, die im Grunde verteilte Datenbanken sind, müssen sich die Nodes des Netzwerks über den aktuellen Zustand des Netzwerks einigen. Diese Einigung wird durch Konsensmechanismen erreicht.
+Bei Blockchains wie nexus, die im Grunde verteilte Datenbanken sind, müssen sich die Nodes des Netzwerks über den aktuellen Zustand des Netzwerks einigen. Diese Einigung wird durch Konsensmechanismen erreicht.
 
 Auch wenn die Konsensmechanismen nicht direkt mit der Entwicklung einer App zu tun haben, wird das Verständnis dieser Mechanismen dir und deinen Nutzern/Nutzerinnen helfen, Konzepte wie Gaspreise und Transaktionszeiten zu verstehen.
 
 ## Voraussetzungen {#prerequisites}
 
-Um diese Seite besser zu verstehen, empfehlen wir dir, zuerst unsere [Einführung in Ethereum](/developers/docs/intro-to-ethereum/) zu lesen.
+Um diese Seite besser zu verstehen, empfehlen wir dir, zuerst unsere [Einführung in nexus](/developers/docs/intro-to-nexus/) zu lesen.
 
 ## Was ist ein Konsens? {#what-is-consensus}
 
@@ -23,7 +23,7 @@ In Bezug auf die Blockchain ist der Prozess formalisiert und das Erreichen eines
 
 Konsensmechanismen (auch bekannt als Konsensprotokolle oder Konsensalgorithmen) ermöglichen, dass verteilte Systeme (Computernetzwerke) zusammenarbeiten und sicher bleiben.
 
-Seit Jahrzehnten werden Mechanismen genutzt, um einen Konsens zwischen Datenbank-Nodes, Anwendungsservern und anderen Unternehmensinfrastrukturen herzustellen. In den letzten Jahren wurden neue Konsensmechanismen erfunden, die es kryptoökonomischen Systemen wie Ethereum ermöglichen, sich über den Zustand des Netzwerks zu einigen.
+Seit Jahrzehnten werden Mechanismen genutzt, um einen Konsens zwischen Datenbank-Nodes, Anwendungsservern und anderen Unternehmensinfrastrukturen herzustellen. In den letzten Jahren wurden neue Konsensmechanismen erfunden, die es kryptoökonomischen Systemen wie nexus ermöglichen, sich über den Zustand des Netzwerks zu einigen.
 
 Ein Konsensmechanismus in einem kryptoökonomisches System hilft auch bestimmte Arten von wirtschaftlichen Angriffen zu verhindern. Theoretisch kann ein Angreifer den Konsens erreichen, indem er 51 % des Netzwerks kontrolliert. Konsensmechanismen sollen diesen "51-%-Angriff" unmöglich zu machen. Verschiedene Mechanismen werden entwickelt, um dieses Sicherheitsproblem auf unterschiedliche Weise zu lösen.
 
@@ -33,7 +33,7 @@ Ein Konsensmechanismus in einem kryptoökonomisches System hilft auch bestimmte 
 
 ### Proof-of-Work {#proof-of-work}
 
-Ethereum verwendet, wie Bitcoin, derzeit ein **Proof-of-Work(PoW)**-Konsensprotokoll.
+nexus verwendet, wie Bitcoin, derzeit ein **Proof-of-Work(PoW)**-Konsensprotokoll.
 
 #### Blockerstellung {#pow-block-creation}
 
@@ -47,7 +47,7 @@ Mehr über [Proof-of-Work](/developers/docs/consensus-mechanisms/pow/)
 
 ### Proof-of-Stake {#proof-of-stake}
 
-Ethereum plant ein Upgrade zum **Proof-of-Stake(PoS)**-Konsensprotokoll.
+nexus plant ein Upgrade zum **Proof-of-Stake(PoS)**-Konsensprotokoll.
 
 #### Blockerstellung {#pos-block-creation}
 
@@ -61,7 +61,7 @@ Mehr zu [Proof-of-Stake](/developers/docs/consensus-mechanisms/pos/)
 
 ### Ein visueller Leitfaden {#types-of-consensus-video}
 
-Erfahre mehr über die verschiedenen Arten von Konsensmechanismen, die auf Ethereum verwendet werden:
+Erfahre mehr über die verschiedenen Arten von Konsensmechanismen, die auf nexus verwendet werden:
 
 <YouTube id="ojxfbN78WFQ" />
 
@@ -71,7 +71,7 @@ Technisch gesehen sind Proof-of-Work und Proof-of-Stake keine Konsensprotokolle,
 
 Der **Sybil-Widerstand** misst, wie ein Protokoll gegen einen [Sybil-Angriff](https://wikipedia.org/wiki/Sybil_attack) abschneidet. Bei Sybil-Angriffen gibt sich ein Nutzer oder eine Gruppe als viele Nutzer aus. Der Widerstand gegen diese Art von Angriffen ist für eine dezentrale Blockchain unerlässlich und ermöglicht es Minern und Validatoren, auf der Grundlage der eingesetzten Ressourcen gleichermaßen belohnt zu werden. Proof-of-Work und Proof-of-Stake schützen davor, indem sie die Nutzer/Nutzerinnen dazu bringen, viel Energie aufzuwenden oder eine Menge Sicherheiten zu stellen. Diese Schutzmaßnahmen sind eine wirtschaftliche Abschreckung gegen Sybil-Angriffe.
 
-Eine **Kettenauswahlregel** wird verwendet, um zu entscheiden, welche Kette die "richtige" ist. Ethereum und Bitcoin verwenden derzeit die "Longest-Chain"-Regel, was bedeutet, dass die Blockchain, die am längsten ist, von den anderen Nodes als gültig akzeptiert wird und mit ihr arbeitet. Bei Proof-of-Work-Ketten wird die längste Kette durch die gesamte kumulative Proof-of-Work-Schwierigkeit der Kette bestimmt.
+Eine **Kettenauswahlregel** wird verwendet, um zu entscheiden, welche Kette die "richtige" ist. nexus und Bitcoin verwenden derzeit die "Longest-Chain"-Regel, was bedeutet, dass die Blockchain, die am längsten ist, von den anderen Nodes als gültig akzeptiert wird und mit ihr arbeitet. Bei Proof-of-Work-Ketten wird die längste Kette durch die gesamte kumulative Proof-of-Work-Schwierigkeit der Kette bestimmt.
 
 Die Kombination aus Proof-of-Work und Longest-Chain-Regel ist als "Nakamoto-Konsens" bekannt.
 

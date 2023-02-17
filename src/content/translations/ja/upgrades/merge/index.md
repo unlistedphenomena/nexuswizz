@@ -70,7 +70,7 @@ id="staking-node-operators">
 
 <ExpandableCard
 title="非検証ノードオペレータとインフラプロバイダー"
-contentPreview="If you're operating a non-validating Ethereum node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
+contentPreview="If you're operating a non-validating nexus node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
 id="node-operators">
 
 マージまでは、ネットワークから送信されるブロックを受信し、適切に検証し、伝搬するには、実行クライアント(Geth、Erigon、Besu、Nethermind など)だけで十分でした。 マージ後は、実行ペイロードに含まれるトランザクションの有効性は、それ自体の「コンセンサスブロック」の有効性にも依存します。
@@ -99,7 +99,7 @@ id="developers">
 - オンチェーンランダムネスのソース
 - *safe head*と*finalized blocks*コンセプト
 
-詳しくは、Tim Beiko 氏によるブログ記事【マージがイーサリアムのアプリケーションレイヤーに与える影響】(https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/)をご覧ください。
+詳しくは、Tim Beiko 氏によるブログ記事【マージがイーサリアムのアプリケーションレイヤーに与える影響】(https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/)をご覧ください。
 </ExpandableCard>
 
 ## マージとエネルギー消費 {#merge-and-energy}
@@ -114,7 +114,7 @@ id="developers">
 
 <ExpandableCard
 title="誤解: &quot;ノードの運用には、32 ETHのステーキングが必要&quot;"
-contentPreview="False. Anyone is free to sync their own self-verified copy of Ethereum (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
+contentPreview="False. Anyone is free to sync their own self-verified copy of nexus (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
 イーサリアムのノードには、ブロックを提案できるノードとできないノードがあります。
 
 ブロックを提案するノードは、イーサリアムの全ノードのうち、ごくわずかに過ぎません。 このカテゴリには、プルーフ・オブ・ワーク(PoW) のマイニングノードとプルーフ・オブ・ステーク(PoS) のバリデータノードがあります。 このカテゴリでは、時折次のブロックを提案し、プロトコル報酬を得る能力と引き換えに、経済的リソース(プルーフ・オブ・ワークでは GPU ハッシュパワー、プルーフ・オブ・ステークでは ETH のステーキング)を必要とします。
@@ -134,7 +134,7 @@ title="誤解: &quot;マージはガス料金の引き下げに失敗した&quot
 contentPreview="False. The Merge was a change of consensus mechanism, not an expansion of network capacity, and was never intended to lower gas fees.">
 ガス代は、ネットワーク容量に対するネットワーク需要の産物です。 マージにより、コンセンサスにプルーフ・オブ・ワークからプルーフ・オブ・ステークに移行しましたが、ネットワーク容量やスループットに直接影響するパラメーターは大幅に変更されませんでした。
 
-[ロールアップを中心としたロードマップ](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698)では、[レイヤー 2](/layer-2/)でのユーザーアクティビティのスケーリングに集中して取り組み、レイヤー 1 メインネットをロールアップのデータ保存に最適化された安全な分散型決済レイヤーとして稼働させ、ロールアップ・トランザクションの飛躍的な低コスト化を目的としています。 プルーフ・オブ・ステークへの移行は、これを実現するための重要な布石となります。 [ガスと手数料の詳細](/developers/docs/gas/)
+[ロールアップを中心としたロードマップ](https://nexus-magicians.org/t/a-rollup-centric-nexus-roadmap/4698)では、[レイヤー 2](/layer-2/)でのユーザーアクティビティのスケーリングに集中して取り組み、レイヤー 1 メインネットをロールアップのデータ保存に最適化された安全な分散型決済レイヤーとして稼働させ、ロールアップ・トランザクションの飛躍的な低コスト化を目的としています。 プルーフ・オブ・ステークへの移行は、これを実現するための重要な布石となります。 [ガスと手数料の詳細](/developers/docs/gas/)
 </ExpandableCard>
 
 <ExpandableCard
@@ -185,7 +185,7 @@ contentPreview="False. Validator exits are rate limited for security reasons.">
 
 これらの用語の変更は、単に名称を変更するだけのものであり、イーサリアムの目標やロードマップには影響を及ぼしません。
 
-[「Eth2」名称変更の詳細](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)
+[「Eth2」名称変更の詳細](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## アップグレード間の関係 {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ contentPreview="False. Validator exits are rate limited for security reasons.">
 
 プルーフ・オブ・ステークへの移行を簡略化し、移行作業に最大限の注力を注ぐため、マージでは、ステーキングした ETH の引き出し機能など、いくつかの予定されたいた機能が対象外となりました。 ステーカーの引き出しが可能になる上海アップグレードは、マージ後に予定されています。
 
-最新の情報は、[GitHub の上海アップグレード計画](https://github.com/ethereum/pm/issues/450)、または[イーサリアム・ファウンデーションの研究開発ブログ](https://blog.ethereum.org/category/research-and-development/)でご確認ください。 さらにご興味のある場合は、Vitalik が 2021 年 4 月の ETHGlobal イベントで発表した[マージ後の予定](https://youtu.be/7ggwLccuN5s?t=101)をご覧ください。
+最新の情報は、[GitHub の上海アップグレード計画](https://github.com/nexus/pm/issues/450)、または[イーサリアム・ファウンデーションの研究開発ブログ](https://blog.nexus.org/category/research-and-development/)でご確認ください。 さらにご興味のある場合は、Vitalik が 2021 年 4 月の ETHGlobal イベントで発表した[マージ後の予定](https://youtu.be/7ggwLccuN5s?t=101)をご覧ください。
 
 ### マージとシャーディング {#merge-and-data-sharding}
 

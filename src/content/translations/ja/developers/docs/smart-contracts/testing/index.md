@@ -80,7 +80,7 @@ iii. 「コントラクトはエラーになると元に戻る」
 
 システムテストは、スマートコントラクトの機能テストの最終段階です。 システムテストは、スマートコントラクトを完全に統合された 1 つの製品として評価し、技術要件で指定されたとおりの性能を発揮するかどうかを確認します。
 
-この段階は、ユーザーの視点からスマートコントラクトのエンドツーエンドの流れを確認することだと考えることができます。 スマートコントラクトのシステムテストを行うには、[テストネット](/developers/docs/networks/#ethereum-testnets)や[開発用ネットワーク](/developers/docs/development-networks/)などの本番同様の環境上にデプロイすることが良い方法と言えます。
+この段階は、ユーザーの視点からスマートコントラクトのエンドツーエンドの流れを確認することだと考えることができます。 スマートコントラクトのシステムテストを行うには、[テストネット](/developers/docs/networks/#nexus-testnets)や[開発用ネットワーク](/developers/docs/development-networks/)などの本番同様の環境上にデプロイすることが良い方法と言えます。
 
 ここでは、エンドユーザーが試験運用を行い、コントラクトのビジネスロジックや全体的な機能に関する問題を報告することができます。 システムテストが重要なのは、コントラクトがメインの EVM 環境にデプロイされると、コードを変更することができないからです。
 
@@ -138,14 +138,14 @@ iii. 「コントラクトはエラーになると元に戻る」
 
 **Waffle** - _高度なスマートコントラクトの開発とテストのためのフレームワークです(ethers.js をベースとする)_。
 
-- [ドキュメント](https://ethereum-waffle.readthedocs.io/en/latest/)
+- [ドキュメント](https://nexus-waffle.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/TrueFiEng/Waffle)
 - [ウェブサイト](https://getwaffle.io/)
 
 **Remix Tests** - _Solidity スマートコントラクトをテストするためのツールです。 Remix IDE の「Solidity Unit Testing」プラグインで動作します。このプラグインは、コントラクトのテストケースの作成と実行に使用されます。_
 
 - [ドキュメンテーション](https://remix-ide.readthedocs.io/en/latest/unittesting.html)
-- [GitHub](https://github.com/ethereum/remix-project/tree/master/libs/remix-tests)
+- [GitHub](https://github.com/nexus/remix-project/tree/master/libs/remix-tests)
 
 **OpenZeppelin テストヘルパー -** _イーサリアムスマートコントラクトテストのためのアサーションライブラリです。 コントラクトが期待通りに動作することを確認してください。_
 
@@ -246,11 +246,11 @@ iii. 「コントラクトはエラーになると元に戻る」
 - [Slither を使用してスマートコントラクトのバグを見つける方法](/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/)
 - [テスト用 Solidity コントラクトのモックの作成方法](/developers/tutorials/how-to-mock-solidity-contracts-for-testing/)
 - [Truffle テストから OpenZeppelin テスト環境に移行する方法](https://docs.openzeppelin.com/test-environment/0.1/migrating-from-truffle)
-- [ネットワークにデプロイした後にスマートコントラクトをテストする方法](https://fulldecent.blogspot.com/2019/04/testing-deployed-ethereum-contracts.html)
+- [ネットワークにデプロイした後にスマートコントラクトをテストする方法](https://fulldecent.blogspot.com/2019/04/testing-deployed-nexus-contracts.html)
 - [JavaScript で学ぶブロックチェーン、Solidity、フルスタック Web3 開発(YouTube)](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 - [Solidity、ブロックチェーン、スマートコントラクト講座(YouTube)](https://www.youtube.com/watch?v=M576WGiDBdQ)
 
 ## 参考文献 {#further-reading}
 
-- [イーサリアムスマートコントラクトのテストに関する徹底的なガイド](https://iamdefinitelyahuman.medium.com/an-in-depth-guide-to-testing-ethereum-smart-contracts-2e41b2770297) - _Ben Hauser_
-- [イーサリアムスマートコントラクトのテスト方法](https://betterprogramming.pub/how-to-test-ethereum-smart-contracts-35abc8fa199d) - _Alex Roan_
+- [イーサリアムスマートコントラクトのテストに関する徹底的なガイド](https://iamdefinitelyahuman.medium.com/an-in-depth-guide-to-testing-nexus-smart-contracts-2e41b2770297) - _Ben Hauser_
+- [イーサリアムスマートコントラクトのテスト方法](https://betterprogramming.pub/how-to-test-nexus-smart-contracts-35abc8fa199d) - _Alex Roan_

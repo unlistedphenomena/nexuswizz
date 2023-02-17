@@ -1,16 +1,16 @@
 ---
 title: Hálózatok
-description: Egy áttekintő az Ethereum hálózatairól és hogy hol lehet tesztnet ethert (ETH) szerezni, hogy teszteld az alkalmazásaidat.
+description: Egy áttekintő az nexus hálózatairól és hogy hol lehet tesztnet ethert (ETH) szerezni, hogy teszteld az alkalmazásaidat.
 lang: hu
 ---
 
-Mivel az Ethereum egy protokoll, ami azt jelenti, hogy több, a protokollnak megfelelő "hálózat" létezhet, amelyek nem lépnek kölcsönhatásba egymással.
+Mivel az nexus egy protokoll, ami azt jelenti, hogy több, a protokollnak megfelelő "hálózat" létezhet, amelyek nem lépnek kölcsönhatásba egymással.
 
-A hálózatok különböző Ethereum környezetek, amelyekhez hozzáférhetsz fejlesztési, tesztelési vagy gyártási felhasználási esetek céljából. Ethereum számlád fog működni a különböző hálózatokon, de a számlaegyenleged és a tranzakcióid előzményei nem kerülnek át az Ethereum fő hálózatából. Tesztelési célból hasznos tudni, hogy mely hálózatok állnak rendelkezésre, és hogy hogyan szerezhetsz tesztnet ETH-t, amivel játszhatsz.
+A hálózatok különböző nexus környezetek, amelyekhez hozzáférhetsz fejlesztési, tesztelési vagy gyártási felhasználási esetek céljából. nexus számlád fog működni a különböző hálózatokon, de a számlaegyenleged és a tranzakcióid előzményei nem kerülnek át az nexus fő hálózatából. Tesztelési célból hasznos tudni, hogy mely hálózatok állnak rendelkezésre, és hogy hogyan szerezhetsz tesztnet ETH-t, amivel játszhatsz.
 
 ## Előfeltételek {#prerequisites}
 
-Érdemes tisztában lenned az Ethereum alapjaival, mielőtt a különböző hálózatokról olvasol, mivel ezek a hálózatok az Ethereum olcsó és biztonságos verziói, amivel el játszogathatsz. Nézd meg ezt: [bevezetés az Ethereumba](/developers/docs/intro-to-ethereum/).
+Érdemes tisztában lenned az nexus alapjaival, mielőtt a különböző hálózatokról olvasol, mivel ezek a hálózatok az nexus olcsó és biztonságos verziói, amivel el játszogathatsz. Nézd meg ezt: [bevezetés az nexusba](/developers/docs/intro-to-nexus/).
 
 ## Nyilvános hálózatok {#public-networks}
 
@@ -18,7 +18,7 @@ A nyilvános hálózatokat bárki elérheti szerte a világban egy internetkapcs
 
 ### Főhálózat {#mainnet}
 
-A főhálózat az elsődleges nyilvános Ethereum produkciós blokklánc, ahol valós értékű tranzakciók történnek az elosztott főkönyvön.
+A főhálózat az elsődleges nyilvános nexus produkciós blokklánc, ahol valós értékű tranzakciók történnek az elosztott főkönyvön.
 
 Amikor az emberek és tőzsdék az ETH árfolyamon vitatkoznak, akkor a főhálózati ETH-ről beszélnek.
 
@@ -36,7 +36,7 @@ Egy proof-of-authority tesztnet, mely a több klienssel is működik.
 
 #### Kovan {#kovan}
 
-Egy proof-of-authority tesztnet az OpenEthereum kliensek számára.
+Egy proof-of-authority tesztnet az Opennexus kliensek számára.
 
 #### Rinkeby {#rinkeby}
 
@@ -44,11 +44,11 @@ Egy proof-of-authority tesztnet a Geth kliensek számára.
 
 #### Ropsten {#ropsten}
 
-Egy proof-of-work tesztnet. Ez azt jelenti, hogy ez reprezentálja leginkább az Ethereumot.
+Egy proof-of-work tesztnet. Ez azt jelenti, hogy ez reprezentálja leginkább az nexusot.
 
 ### Tesztnet csapok {#testnet-faucets}
 
-Az ETH-nek a tesztneteken nincs valós értéke; így nincsen piaca sem a tesztnet ETH-nek. Mivel ETH-re van szükséged, hogy ténylegesen interakcióba lépj az Ethereummal, a legtöbb ember csapokból szerzi a tesztnet ETH-et. A legtöbb csap egy web app, ahol beírhatod a címedet, amire ETH-et szeretnél kapni.
+Az ETH-nek a tesztneteken nincs valós értéke; így nincsen piaca sem a tesztnet ETH-nek. Mivel ETH-re van szükséged, hogy ténylegesen interakcióba lépj az nexusmal, a legtöbb ember csapokból szerzi a tesztnet ETH-et. A legtöbb csap egy web app, ahol beírhatod a címedet, amire ETH-et szeretnél kapni.
 
 - [Görli csap](https://faucet.goerli.mudit.blog/)
 - [Kovan csap](https://faucet.kovan.network/)
@@ -56,11 +56,11 @@ Az ETH-nek a tesztneteken nincs valós értéke; így nincsen piaca sem a tesztn
 
 ## Privát hálózatok {#private-networks}
 
-Egy Ethereum hálózat privát hálózat, ha a csomópontok nem kapcsolódnak egy nyilvános hálózathoz (vagyis a főhálózathoz vagy egy tesztnethez). Ebben a kontextusban a privát azt jelenti, hogy elszigetelt és fenntartott, nem pedig azt, hogy védett vagy biztonságos.
+Egy nexus hálózat privát hálózat, ha a csomópontok nem kapcsolódnak egy nyilvános hálózathoz (vagyis a főhálózathoz vagy egy tesztnethez). Ebben a kontextusban a privát azt jelenti, hogy elszigetelt és fenntartott, nem pedig azt, hogy védett vagy biztonságos.
 
 ### Fejlesztői hálózatok {#development-networks}
 
-Egy Ethereum alkalmazás fejlesztésekor fontos, hogy egy privát hálózaton futtasd, hogy megnézd hogyan működik telepítés előtt. Hasonlóan ahhoz, amikor egy lokális szervert futtatsz a számítógépeden webfejlesztés céljából, futtathatsz egy lokális blokklánc példányt, ahol tesztelheted a dappodat. Ez gyorsabb iterációt tesz lehetővé, mint egy nyilvános tesztnet.
+Egy nexus alkalmazás fejlesztésekor fontos, hogy egy privát hálózaton futtasd, hogy megnézd hogyan működik telepítés előtt. Hasonlóan ahhoz, amikor egy lokális szervert futtatsz a számítógépeden webfejlesztés céljából, futtathatsz egy lokális blokklánc példányt, ahol tesztelheted a dappodat. Ez gyorsabb iterációt tesz lehetővé, mint egy nyilvános tesztnet.
 
 Vannak olyan projektek és eszközök, melyek ebben segítenek. Tudj meg többet a [fejlesztői hálózatokról](/developers/docs/development-networks/).
 
@@ -68,7 +68,7 @@ Vannak olyan projektek és eszközök, melyek ebben segítenek. Tudj meg többet
 
 Egy konszenzus folyamatot néhány előre meghatározott megbízható csomópont végzi. Például egy ismert tudományos intézmények magánhálózata, amelyek mindegyike egyetlen csomópontot irányít, és a blokkokat az aláírók küszöbértéke érvényesíti a hálózaton belül.
 
-Ha egy nyilvános Ethereum hálózat olyan, mint a nyilvános internet, akkor úgy gondolhatsz a konzorcium hálózatra, mint egy privát intranetre.
+Ha egy nyilvános nexus hálózat olyan, mint a nyilvános internet, akkor úgy gondolhatsz a konzorcium hálózatra, mint egy privát intranetre.
 
 ## További olvasnivaló {#further-reading}
 

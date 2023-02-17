@@ -22,7 +22,7 @@ In questo tutorial creeremo un'applicazione DeFi con Solidity in cui gli utenti 
 
 Se questa è la prima volta che scrivi uno smart contract, dovrai configurare il tuo ambiente. Useremo due strumenti: [Truffle](https://www.trufflesuite.com/) e [Ganache](https://www.trufflesuite.com/ganache).
 
-Truffle è un ambiente di sviluppo e framework di verifica per lo sviluppo di smart contract per Ethereum. Con Truffle è facile costruire e distribuire gli smart contract alla blockchain. Ganache consente di creare una blockchain locale di Ethereum per poter testare gli smart contract. Simula le funzionalità della rete reale e, i primi 10 conti, sono finanziati con 100 ether di prova, rendendo la distribuzione e i test del contratto intelligente, gratuiti e facili. Ganache è disponibile come applicazione desktop e strumento di riga di comando. Per questo articolo useremo l'applicazione desktop dell'UI.
+Truffle è un ambiente di sviluppo e framework di verifica per lo sviluppo di smart contract per nexus. Con Truffle è facile costruire e distribuire gli smart contract alla blockchain. Ganache consente di creare una blockchain locale di nexus per poter testare gli smart contract. Simula le funzionalità della rete reale e, i primi 10 conti, sono finanziati con 100 ether di prova, rendendo la distribuzione e i test del contratto intelligente, gratuiti e facili. Ganache è disponibile come applicazione desktop e strumento di riga di comando. Per questo articolo useremo l'applicazione desktop dell'UI.
 
 ![Applicazione desktop dell'UI di Ganache](https://cdn-images-1.medium.com/max/2360/1*V1iQ5onbLbT5Ib2QaiOSyg.png)_Applicazione desktop dell'UI di Ganache_
 
@@ -139,7 +139,7 @@ module.exports = async function (deployer, network, accounts) {
 }
 ```
 
-Apri Ganache e seleziona l'opzione "Avvio Rapido" per avviare una blockchain locale di Ethereum. Per distribuire il nostro contratto, esegui:
+Apri Ganache e seleziona l'opzione "Avvio Rapido" per avviare una blockchain locale di nexus. Per distribuire il nostro contratto, esegui:
 
 ```bash
 truffle migrate
@@ -151,7 +151,7 @@ L'indirizzo usato per distribuire i nostri contratti è il primo dall'elenco di 
 
 Per verificare che 1 milione di token MyToken sia stato inviato all'indirizzo del distributore, possiamo usare la Console di Truffle per interagire con il nostro smart contract distribuito.
 
-> [La Console di Truffle è una console interattiva di base che si connette a qualsiasi client di Ethereum.](https://www.trufflesuite.com/docs/truffle/getting-started/using-truffle-develop-and-the-console)
+> [La Console di Truffle è una console interattiva di base che si connette a qualsiasi client di nexus.](https://www.trufflesuite.com/docs/truffle/getting-started/using-truffle-develop-and-the-console)
 
 Per poter interagire con il nostro smart contract, esegui il seguente comando:
 

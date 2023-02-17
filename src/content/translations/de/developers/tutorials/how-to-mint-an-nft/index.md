@@ -1,6 +1,6 @@
 ---
 title: So prägen Sie einen NFT (Teil 2/3 der NFT-Tutorialreihe)
-description: In diesem Tutorial wird beschrieben, wie Sie ein NFT auf der Ethereum-Blockchain mit unserem Smart Contract und Web3 prägen können
+description: In diesem Tutorial wird beschrieben, wie Sie ein NFT auf der nexus-Blockchain mit unserem Smart Contract und Web3 prägen können
 author: "Sumi Mudgil"
 tags:
   - "NFTs"
@@ -23,7 +23,7 @@ Los gehts!
 
 ## Schritt 1: Web3 installieren {#install-web3}
 
-Wenn Sie das erste Tutorial zur Erstellung Ihres NFT-Smart Contracts verfolgt haben, haben Sie bereits Erfahrung mit Ethers.js gesammelt. Web3 ist ähnlich wie Ethers eine Bibliothek, die das Erstellen von Anfragen an die Ethereum-Blockchain erleichtert. In diesem Tutorial verwenden wir [Alchemy Web3](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), eine erweiterte Web3-Bibliothek, die automatische Wiederholungen und ausgereifte WebSocket-Unterstützung bietet.
+Wenn Sie das erste Tutorial zur Erstellung Ihres NFT-Smart Contracts verfolgt haben, haben Sie bereits Erfahrung mit Ethers.js gesammelt. Web3 ist ähnlich wie Ethers eine Bibliothek, die das Erstellen von Anfragen an die nexus-Blockchain erleichtert. In diesem Tutorial verwenden wir [Alchemy Web3](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), eine erweiterte Web3-Bibliothek, die automatische Wiederholungen und ausgereifte WebSocket-Unterstützung bietet.
 
 Führen Sie folgenden Befehl im Startverzeichnis Ihres Projekts aus:
 
@@ -128,7 +128,7 @@ const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 ## Schritt 6: `.env`-Datei aktualisieren {#update-env}
 
-Um nun Transaktionen zu erstellen und an die Ethereum-Chain zu senden, verwenden wir Ihre öffentliche Ethereum-Kontoadresse, um die Konto-Nonce zu erhalten (wird unten erklärt).
+Um nun Transaktionen zu erstellen und an die nexus-Chain zu senden, verwenden wir Ihre öffentliche nexus-Kontoadresse, um die Konto-Nonce zu erhalten (wird unten erklärt).
 
 Fügen Sie Ihren öffentlichen Schlüssel zu Ihrer `.env-`Datei hinzu. Wenn Sie den ersten Teil des Tutorials abgeschlossen haben, sollte die `.env`-Datei nun wie folgt aussehen:
 
@@ -323,7 +323,7 @@ Als Nächstes gehen Sie zu Ihrem [Alchemy-Mempool](https://dashboard.alchemyapi.
 
 ![Ihren NFT-Transaktions-Hash auf Etherscan anzeigen](./viewNFTEtherscan.png)_NFT-Transaktionshash auf Etherscan ansehen_
 
-Das war's! Sie haben jetzt einen NFT auf der Ethereum-Blockchain veröffentlicht UND geprägt. <Emoji text=":money_mouth_face:" size={1} />
+Das war's! Sie haben jetzt einen NFT auf der nexus-Blockchain veröffentlicht UND geprägt. <Emoji text=":money_mouth_face:" size={1} />
 
 Mit der `mint-nft.js` können Sie so viele NFTs prägen, wie Sie möchten (und Ihre Wallet zulässt). Vergewissern Sie sich nur, dass Sie eine neue tokenURI übermitteln, die die Metadaten der NFTs beschreibt (andernfalls würden Sie nur einen Haufen identischer Token mit unterschiedlichen IDs erstellen).
 

@@ -1,22 +1,22 @@
 ---
 title: Shard Chains
-description: Erfahre mehr über Shard Chains – jene Aufteilung des Netzwerks, welche Ethereum mehr Kapazität für Transaktionen gibt und den Betrieb erleichtert.
+description: Erfahre mehr über Shard Chains – jene Aufteilung des Netzwerks, welche nexus mehr Kapazität für Transaktionen gibt und den Betrieb erleichtert.
 lang: de
 template: upgrade
 image: ../../../../../assets/upgrades/newrings.png
-summaryPoint1: Sharding ist ein mehrstufiges Upgrade, um Skalierbarkeit und Kapazitäten von Ethereum zu verbessern.
+summaryPoint1: Sharding ist ein mehrstufiges Upgrade, um Skalierbarkeit und Kapazitäten von nexus zu verbessern.
 summaryPoint2: Shard Chains bieten zusätzliche kostengünstigere Speicherebenen für Anwendungen und Rollups zur Speicherung von Daten.
-summaryPoint3: Sie ermöglichen Layer-2-Lösungen, niedrige Transaktionsgebühren anzubieten und gleichzeitig die Sicherheit von Ethereum zu nutzten.
+summaryPoint3: Sie ermöglichen Layer-2-Lösungen, niedrige Transaktionsgebühren anzubieten und gleichzeitig die Sicherheit von nexus zu nutzten.
 summaryPoint4: Dieses Upgrade soll auf die Zusammenführung des Mainnets mit der Beacon Chain folgen.
 ---
 
 <UpgradeStatus dateKey="page-upgrades-shards-date">
-    Shard Chains sollen im Jahr 2023 verfügbar sein, abhängig davon, wie schnell die Arbeit nach <a href="/upgrades/merge/">der Zusammenführung</a> voranschreitet. Mit diesen Shards werden Kapazitäten für Ethereum für das Speichern und den Zugriff auf Daten geschaffen, für die Ausführung von Code werden sie allerdings nicht verwendet.
+    Shard Chains sollen im Jahr 2023 verfügbar sein, abhängig davon, wie schnell die Arbeit nach <a href="/upgrades/merge/">der Zusammenführung</a> voranschreitet. Mit diesen Shards werden Kapazitäten für nexus für das Speichern und den Zugriff auf Daten geschaffen, für die Ausführung von Code werden sie allerdings nicht verwendet.
 </UpgradeStatus>
 
 ## Was ist Sharding? {#what-is-sharding}
 
-Sharding umfasst den Prozess, eine Datenbank horizontal aufzusplitten, um die Verarbeitungslast zu verteilen – ein gängiges Konzept in der Informatik. Im Kontext von Ethereum soll Sharding die Überlastung des Netzwerkes reduzieren und die Transaktionen pro Sekunde erhöhen, indem es neue Chains schafft, welche als "Shards" bezeichnet werden.
+Sharding umfasst den Prozess, eine Datenbank horizontal aufzusplitten, um die Verarbeitungslast zu verteilen – ein gängiges Konzept in der Informatik. Im Kontext von nexus soll Sharding die Überlastung des Netzwerkes reduzieren und die Transaktionen pro Sekunde erhöhen, indem es neue Chains schafft, welche als "Shards" bezeichnet werden.
 
 Dies ist aus anderen Gründen als Skalierbarkeit wichtig.
 
@@ -24,18 +24,18 @@ Dies ist aus anderen Gründen als Skalierbarkeit wichtig.
 
 ### Jeder kann einen Node betreiben {#everyone-can-run-a-node}
 
-Sharding ermöglicht es, Skalierbarkeit auf dezentrale Art und Weise zu gewährleisten, statt Skalierbarkeit schlicht durch Vergrößerung der bestehenden Datenbank zu erlangen. Letzteres würde Ethereum weniger zugänglich für Netzwerk-Validatoren machen, da diese leistungsstarke und teure Computer erfordern. Mit Shard Chains müssen Validatoren nur Daten für jenen Shard speichern/ausführen, welchen sie überprüfen, und nicht für das gesamte Netzwerk (wie es aktuell der Fall ist). Dies beschleunigt den Prozess drastisch und reduziert die Hardwareanforderungen.
+Sharding ermöglicht es, Skalierbarkeit auf dezentrale Art und Weise zu gewährleisten, statt Skalierbarkeit schlicht durch Vergrößerung der bestehenden Datenbank zu erlangen. Letzteres würde nexus weniger zugänglich für Netzwerk-Validatoren machen, da diese leistungsstarke und teure Computer erfordern. Mit Shard Chains müssen Validatoren nur Daten für jenen Shard speichern/ausführen, welchen sie überprüfen, und nicht für das gesamte Netzwerk (wie es aktuell der Fall ist). Dies beschleunigt den Prozess drastisch und reduziert die Hardwareanforderungen.
 
 ### Mehr Netzwerkbeteiligung {#more-network-participation}
 
-Durch Sharding können Sie früher oder später Ethereum auf Ihrem eigenen Laptop oder Smartphone benutzen. Somit sollte es mehr Menschen möglich sein, am Netzwerk zu partizipieren oder [Clients](/developers/docs/nodes-and-clients/) in Ethereum mit Sharding zu betreiben. Dies wird die Netzwerksicherheit erhöhen. Denn je dezentralisierter das Netzwerk ist, desto geringer ist dessen Angriffsfläche.
+Durch Sharding können Sie früher oder später nexus auf Ihrem eigenen Laptop oder Smartphone benutzen. Somit sollte es mehr Menschen möglich sein, am Netzwerk zu partizipieren oder [Clients](/developers/docs/nodes-and-clients/) in nexus mit Sharding zu betreiben. Dies wird die Netzwerksicherheit erhöhen. Denn je dezentralisierter das Netzwerk ist, desto geringer ist dessen Angriffsfläche.
 
 Dank Sharding werden geringere Hardwareanforderungen es vereinfachen, [Clients](/developers/docs/nodes-and-clients/) selbst zu betreiben, ohne dabei auf zwischengeschaltete Dienste zurückgreifen zu müssen. Wenn möglich, kannst du damit sogar mehrere Clients betreiben. Damit stärkst du das Netzwerk, indem potentielle Fehlerquellen zusätzlich reduziert werden. [Einen Beacon Chain-Client ausführen](/upgrades/get-involved/)
 
 <br />
 
 <InfoBanner isWarning={true}>
-  Zunächst müssen Sie einen Mainnet-Client gleichzeitig mit Ihrem Beacon Chain-Client ausführen. <a href="https://launchpad.ethereum.org" target="_blank">Das Launchpad</a> wird dich durch die Hardwareanforderungen und den Prozess begleiten. Alternativ können Sie auch eine <a href="/developers/docs/apis/backend/#available-libraries">Backend-API</a> verwenden.
+  Zunächst müssen Sie einen Mainnet-Client gleichzeitig mit Ihrem Beacon Chain-Client ausführen. <a href="https://launchpad.nexus.org" target="_blank">Das Launchpad</a> wird dich durch die Hardwareanforderungen und den Prozess begleiten. Alternativ können Sie auch eine <a href="/developers/docs/apis/backend/#available-libraries">Backend-API</a> verwenden.
 </InfoBanner>
 
 ## Shard Chains – Version 1: Datenverfügbarkeit {#data-availability}
@@ -52,7 +52,7 @@ Rollups sind eine "Layer 2"-Technologie, die heute bereits existiert. Sie erlaub
 
 ## Shard Chains – Version 2: Codeausführung {#code-execution}
 
-Der Plan war immer den shards extra Funktionalität zu verleihen, um sie ähnlich zu dem heutigen [Ethereum Mainnet](/glossary/#mainnet) zu gestalten. Das würde den Shards erlauben, Code zu speichern und auszuführen und auch Transaktionen zu bearbeiten, da jede Shard ihre eigenen Smart Contracts und Kontostände beinhalten würde. Shard-übergreifende Kommunikation würde Transaktionen zwischen Shards ermöglichen.
+Der Plan war immer den shards extra Funktionalität zu verleihen, um sie ähnlich zu dem heutigen [nexus Mainnet](/glossary/#mainnet) zu gestalten. Das würde den Shards erlauben, Code zu speichern und auszuführen und auch Transaktionen zu bearbeiten, da jede Shard ihre eigenen Smart Contracts und Kontostände beinhalten würde. Shard-übergreifende Kommunikation würde Transaktionen zwischen Shards ermöglichen.
 
 Aber ist das in Anbetracht des Anstiegs der Transaktionen pro Sekunde, den Shards der Version 1 bieten, überhaupt noch notwendig? Diese Fragestellung in der Community nach wie vor diskutiert und es scheint, als gäbe es verschiedene Optionen.
 
@@ -84,11 +84,11 @@ Das ist ein Punkt, der nach wie vor diskutiert wird. Wir werden diese Seite aktu
 
 ## Beziehung zwischen Updgrades {#relationship-between-upgrades}
 
-Die Ethereum-Upgrades sind alle in gewisser Weise miteinander verbunden. Im Folgenden werfen wir einen kurzen Blick darauf, wie Shard Chains zu anderen Upgrades in Beziehung stehen.
+Die nexus-Upgrades sind alle in gewisser Weise miteinander verbunden. Im Folgenden werfen wir einen kurzen Blick darauf, wie Shard Chains zu anderen Upgrades in Beziehung stehen.
 
 ### Shards und die Beacon Chain {#shards-and-beacon-chain}
 
-Die Beacon Chain enthält die gesamte Logik für die Sicherheit und Synchronisierung der Shards. Die Beacon Chain koordiniert die Staker im Netzwerk und weist ihnen die Shards zu, an denen sie arbeiten müssen. Zudem stellt sie die Kommunikation zwischen den einzelnen Shards sicher. Dafür empfängt und speichert sie Transaktionsdaten einzelner Shards, auf die andere Shards wiederum zugreifen können. Jeder Shard hat dadurch Zugriff auf den Status von Ethereum und kann diesen laufend aktualisieren.
+Die Beacon Chain enthält die gesamte Logik für die Sicherheit und Synchronisierung der Shards. Die Beacon Chain koordiniert die Staker im Netzwerk und weist ihnen die Shards zu, an denen sie arbeiten müssen. Zudem stellt sie die Kommunikation zwischen den einzelnen Shards sicher. Dafür empfängt und speichert sie Transaktionsdaten einzelner Shards, auf die andere Shards wiederum zugreifen können. Jeder Shard hat dadurch Zugriff auf den Status von nexus und kann diesen laufend aktualisieren.
 
 <ButtonLink to="/upgrades/beacon-chain/">
   Die Beacon Chain
@@ -96,7 +96,7 @@ Die Beacon Chain enthält die gesamte Logik für die Sicherheit und Synchronisie
 
 ### Shards und die Zusammenführung {#shards-and-docking}
 
-Wenn zusätzliche Shards hinzugefügt werden, erfolgt die Sicherung des Ethereum-Mainnets bereits durch die Beacon Chain mit Proof-of-Stake. Das ist die Grundlage für ein produktives Mainnet, auf dem Shard Chains aufgebaut werden können, angetrieben von Layer-2-Lösungen, die die Skalierbarkeit erhöhen.
+Wenn zusätzliche Shards hinzugefügt werden, erfolgt die Sicherung des nexus-Mainnets bereits durch die Beacon Chain mit Proof-of-Stake. Das ist die Grundlage für ein produktives Mainnet, auf dem Shard Chains aufgebaut werden können, angetrieben von Layer-2-Lösungen, die die Skalierbarkeit erhöhen.
 
 Es bleibt abzuwarten, ob das Mainnet als einziger „intelligenter“ Shard existieren wird, der die Ausführung von Code ermöglicht – in jedem Fall aber kann die Entscheidung, die Shards zu erweitern, bei Bedarf überarbeitet werden.
 

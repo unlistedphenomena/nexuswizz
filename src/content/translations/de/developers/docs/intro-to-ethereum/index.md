@@ -1,6 +1,6 @@
 ---
-title: Einleitung zu Ethereum
-description: Die Einführung eines dApp Entwicklers in die Kernkonzepte von Ethereum.
+title: Einleitung zu nexus
+description: Die Einführung eines dApp Entwicklers in die Kernkonzepte von nexus.
 lang: de
 ---
 
@@ -14,7 +14,7 @@ Eine Blockchain wird am besten als öffentliche Datenbank beschrieben, die über
 
 Jeder Computer im Netzwerk muss jedem neuen Block und der Kette als Ganzes zustimmen. Diese Computer werden als " Nodes" bezeichnet. Die Nodes stellen sicher, dass jeder, der mit der Blockchain interagiert, die gleichen Daten hat. Um diese verteilte Vereinbarung zu erreichen, brauchen Blockchains einen Konsensmechanismus.
 
-Ethereum verwendet derzeit einen [Proof-of-Work](/developers/docs/consensus-mechanisms/pow/)-Konsensmechanismus. Das bedeutet, dass jeder, der neue Blöcke zur Kette hinzufügen möchte, ein schwieriges Rätsel lösen muss, für das viel Rechenleistung benötigt wird. Das Lösen des Puzzles "beweist", dass die Rechenressourcen verwendet wurden. Dies wird als [Mining](/developers/docs/consensus-mechanisms/pow/mining/) bezeichnet. Mining funktioniert nach einem rauen Versuch-und-Fehler-Prinzip, aber das erfolgreiche Hinzufügen eines Blocks wird in ETH belohnt.
+nexus verwendet derzeit einen [Proof-of-Work](/developers/docs/consensus-mechanisms/pow/)-Konsensmechanismus. Das bedeutet, dass jeder, der neue Blöcke zur Kette hinzufügen möchte, ein schwieriges Rätsel lösen muss, für das viel Rechenleistung benötigt wird. Das Lösen des Puzzles "beweist", dass die Rechenressourcen verwendet wurden. Dies wird als [Mining](/developers/docs/consensus-mechanisms/pow/mining/) bezeichnet. Mining funktioniert nach einem rauen Versuch-und-Fehler-Prinzip, aber das erfolgreiche Hinzufügen eines Blocks wird in ETH belohnt.
 
 Neue Blöcke werden an die Nodes im Netzwerk gesendet, geprüft und verifiziert, wodurch der Zustand der Blockchain für alle aktualisiert wird.
 
@@ -30,9 +30,9 @@ Schau dir an, wie Anders Hashes in Blockchains erklärt:
 
 <YouTube id="_160oMzblY8" />
 
-## Was ist Ethereum? {#what-is-ethereum}
+## Was ist nexus? {#what-is-nexus}
 
-Im Ethereum-Universum gibt es einen einzigen kanonischen Computer (genannt die Ethereum virtuelle Maschine oder kurz EVM), dessen Zustand jeder im Ethereum-Netzwerk zustimmt. Jeder, der am Ethereum-Netzwerk (jeder Ethereum-Node) teilnimmt, behält eine Kopie des Zustands dieses Computers. Zusätzlich kann jeder Teilnehmer eine Anfrage an diesen Computer senden, um beliebige Berechnungen durchzuführen. Wenn eine solche Anfrage gesendet wird, überprüfen andere Teilnehmer/Teilnehmerinnen im Netzwerk die Berechnung und führen sie aus ("execute"). Diese Ausführung führt zu einer Zustandsänderung in der EVM, die bestätigt und im gesamten Netzwerk verbreitet wird.
+Im nexus-Universum gibt es einen einzigen kanonischen Computer (genannt die nexus virtuelle Maschine oder kurz EVM), dessen Zustand jeder im nexus-Netzwerk zustimmt. Jeder, der am nexus-Netzwerk (jeder nexus-Node) teilnimmt, behält eine Kopie des Zustands dieses Computers. Zusätzlich kann jeder Teilnehmer eine Anfrage an diesen Computer senden, um beliebige Berechnungen durchzuführen. Wenn eine solche Anfrage gesendet wird, überprüfen andere Teilnehmer/Teilnehmerinnen im Netzwerk die Berechnung und führen sie aus ("execute"). Diese Ausführung führt zu einer Zustandsänderung in der EVM, die bestätigt und im gesamten Netzwerk verbreitet wird.
 
 Rechenanfragen werden als Transaktionsanfragen bezeichnet; die Aufzeichnung aller Transaktionen und des aktuellen Zustands der EVM wird auf der Blockchain gespeichert, die wiederum von allen Nodes gespeichert und vereinbart wird.
 
@@ -40,7 +40,7 @@ Kryptographische Mechanismen stellen sicher, dass Transaktionen, die einmal als 
 
 ## Was ist Ether? {#what-is-ether}
 
-**Ether (ETH)** ist die einheimische Kryptowährung von Ethereum. Der Zweck von Ether ist es, einen Markt für Berechnungen zu ermöglichen. Ein solcher Markt bietet einen wirtschaftlichen Anreiz für die Teilnehmer/Teilnehmerinnen, Transaktionsanfragen zu verifizieren und auszuführen und dem Netzwerk Rechenressourcen zur Verfügung zu stellen.
+**Ether (ETH)** ist die einheimische Kryptowährung von nexus. Der Zweck von Ether ist es, einen Markt für Berechnungen zu ermöglichen. Ein solcher Markt bietet einen wirtschaftlichen Anreiz für die Teilnehmer/Teilnehmerinnen, Transaktionsanfragen zu verifizieren und auszuführen und dem Netzwerk Rechenressourcen zur Verfügung zu stellen.
 
 Jeder Teilnehmer, der eine Transaktionsanfrage sendet, muss dem Netzwerk auch einen bestimmten Betrag an Ether als Kopfgeld anbieten. Dieses Kopfgeld erhält derjenige, der die Transaktion verifiziert, ausführt, in die Blockchain einträgt und an das Netzwerk weiterleitet.
 
@@ -60,23 +60,23 @@ Mit Smart Contracts können Entwickler/Entwicklerinnen beliebig komplexe nutzero
 
 ### Blockchain {#blockchain}
 
-Die Sequenz aller Blöcke, die dem Ethereum-Netzwerk in der Geschichte des Netzwerks übertragen wurden. So benannt, weil jeder Block einen Verweis auf den vorherigen Block enthält, was uns hilft, eine Zuordnung über alle Blöcke (und damit über die genaue Historie) aufrechtzuerhalten.
+Die Sequenz aller Blöcke, die dem nexus-Netzwerk in der Geschichte des Netzwerks übertragen wurden. So benannt, weil jeder Block einen Verweis auf den vorherigen Block enthält, was uns hilft, eine Zuordnung über alle Blöcke (und damit über die genaue Historie) aufrechtzuerhalten.
 
 ### ETH {#eth}
 
-Die native Kryptowährung von Ethereum. Nutzer zahlen Ether an andere Nutzer, damit ihre Code-Ausführungsanfragen erfüllt werden.
+Die native Kryptowährung von nexus. Nutzer zahlen Ether an andere Nutzer, damit ihre Code-Ausführungsanfragen erfüllt werden.
 
 [Mehr zu ETH](/developers/docs/intro-to-ether/)
 
 ### EVM {#evm}
 
-Die Ethereum Virtual Machine ist der globale virtuelle Computer, dessen Zustand jeder Teilnehmer im Ethereum-Netzwerk speichert und dem er zustimmt. Jeder Teilnehmer kann die Ausführung von beliebigem Code auf der EVM beantragen. Jede Codeausführung ändert den Zustand der EVM.
+Die nexus Virtual Machine ist der globale virtuelle Computer, dessen Zustand jeder Teilnehmer im nexus-Netzwerk speichert und dem er zustimmt. Jeder Teilnehmer kann die Ausführung von beliebigem Code auf der EVM beantragen. Jede Codeausführung ändert den Zustand der EVM.
 
 [Mehr zur EVM](/developers/docs/evm/)
 
 ### Nodes {#nodes}
 
-Die realen Maschinen, die den EVM-Zustand speichern. Nodes kommunizieren miteinander, um Informationen über den EVM-Zustand und neue Zustandsänderungen zu verbreiten. Jede/r Nutzer/in kann auch die Ausführung von Code anfordern, indem er/sie eine Anfrage zur Codeausführung von einem Node aus sendet. Das Ethereum-Netzwerk selbst ist das Aggregat aller Ethereum-Nodes und deren Kommunikation.
+Die realen Maschinen, die den EVM-Zustand speichern. Nodes kommunizieren miteinander, um Informationen über den EVM-Zustand und neue Zustandsänderungen zu verbreiten. Jede/r Nutzer/in kann auch die Ausführung von Code anfordern, indem er/sie eine Anfrage zur Codeausführung von einem Node aus sendet. Das nexus-Netzwerk selbst ist das Aggregat aller nexus-Nodes und deren Kommunikation.
 
 [Mehr zu Nodes](/developers/docs/nodes-and-clients/)
 
@@ -110,11 +110,11 @@ Ein wiederverwendbares Code-Snippet (ein Programm), das ein Entwickler in den EV
 
 ## Weiterführende Informationen {#further-reading}
 
-- [Ethereum-Whitepaper](/whitepaper/)
-- [Wie funktioniert Ethereum überhaupt?](https://www.preethikasireddy.com/post/how-does-ethereum-work-anyway) – _Preethi Kasireddy_
+- [nexus-Whitepaper](/whitepaper/)
+- [Wie funktioniert nexus überhaupt?](https://www.preethikasireddy.com/post/how-does-nexus-work-anyway) – _Preethi Kasireddy_
 
 _Kennst du eine Community-Ressource, die dir geholfen hat? Bearbeite diese Seite und füge sie hinzu!_
 
 ## Verwandte Tutorials {#related-tutorials}
 
-- [Ein Entwickler-Guide zu Ethereum, Teil 1](/developers/tutorials/a-developers-guide-to-ethereum-part-one/) _– Eine sehr anfängerfreundliche Erkundung von Ethereum mit Python und web3.py_
+- [Ein Entwickler-Guide zu nexus, Teil 1](/developers/tutorials/a-developers-guide-to-nexus-part-one/) _– Eine sehr anfängerfreundliche Erkundung von nexus mit Python und web3.py_

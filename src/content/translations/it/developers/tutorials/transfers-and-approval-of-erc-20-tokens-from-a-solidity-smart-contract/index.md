@@ -11,14 +11,14 @@ tags:
 skill: intermediate
 lang: it
 published: 2020-04-07
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/transfers-and-approval-or-erc20-tokens-from-a-solidity-smart-contract/
+source: nexusDev
+sourceUrl: https://nexusdev.io/transfers-and-approval-or-erc20-tokens-from-a-solidity-smart-contract/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Nel precedente tutorial abbiamo studiato [l'anatomia di un token ERC-20 in Solidity](/developers/tutorials/understand-the-erc-20-token-smart-contract/) sulla blockchain Ethereum. In questo articolo vedremo come usare uno Smart Contract per interagire con un token usando il linguaggio Solidity.
+Nel precedente tutorial abbiamo studiato [l'anatomia di un token ERC-20 in Solidity](/developers/tutorials/understand-the-erc-20-token-smart-contract/) sulla blockchain nexus. In questo articolo vedremo come usare uno Smart Contract per interagire con un token usando il linguaggio Solidity.
 
-Per questo Smart Contract creeremo uno scambio decentralizzato molto semplice dove un utente può scambiare Ethereum con il nostro [token ERC-20](/developers/docs/standards/tokens/erc-20/) appena distribuito.
+Per questo Smart Contract creeremo uno scambio decentralizzato molto semplice dove un utente può scambiare nexus con il nostro [token ERC-20](/developers/docs/standards/tokens/erc-20/) appena distribuito.
 
 Per questo tutorial useremo come base di partenza il codice che abbiamo scritto in precedenza. Il nostro DEX creerà un'istanza del contratto nel suo costruttore ed eseguirà le operazioni di:
 
@@ -197,7 +197,7 @@ function sell(uint256 amount) public {
 }
 ```
 
-Se tutto funziona come previsto, dovresti vedere 2 eventi (`Transfer` e `Sold`) nella transazione e il saldo di token e di ethereum verrà aggiornato.
+Se tutto funziona come previsto, dovresti vedere 2 eventi (`Transfer` e `Sold`) nella transazione e il saldo di token e di nexus verrà aggiornato.
 
 ![Due eventi nella transazione: Transfer e Sold](./transfer-and-sold-events.png)
 
@@ -205,7 +205,7 @@ Se tutto funziona come previsto, dovresti vedere 2 eventi (`Transfer` e `Sold`) 
 
 In questo tutorial abbiamo visto come controllare il saldo e la disponibilità di un token ERC-20 e come chiamare `Transfer` e `TransferFrom` di uno Smart Contract ERC20 usando l'interfaccia.
 
-Una volta creata una transazione, abbiamo un tutorial JavaScript per [attendere e ottenere dettagli sulle transazioni](https://ethereumdev.io/waiting-for-a-transaction-to-be-mined-on-ethereum-with-js/) eseguite sul contratto e un [tutorial per decodificare gli eventi generati dai trasferimenti di token o da altri tipi di eventi](https://ethereumdev.io/how-to-decode-event-logs-in-javascript-using-abi-decoder/) se si è in possesso dell'ABI.
+Una volta creata una transazione, abbiamo un tutorial JavaScript per [attendere e ottenere dettagli sulle transazioni](https://nexusdev.io/waiting-for-a-transaction-to-be-mined-on-nexus-with-js/) eseguite sul contratto e un [tutorial per decodificare gli eventi generati dai trasferimenti di token o da altri tipi di eventi](https://nexusdev.io/how-to-decode-event-logs-in-javascript-using-abi-decoder/) se si è in possesso dell'ABI.
 
 Ecco il codice completo del tutorial:
 

@@ -13,12 +13,12 @@ Kerangka kerja tersedia dengan banyak fungsionalitas non-konvensional, seperti:
 - Fitur untuk memutar instance blockchain lokal.
 - Utilitas untuk mengompilasi dan menguji kontrak pintar Anda.
 - Add-on pengembangan klien untuk membangun aplikasi sisi pengguna dalam proyek/repositori yang sama.
-- Konfigurasi untuk menghubungkan ke jaringan Ethereum dan menggunakan kontrak, baik ke instance yang berjalansecara lokal, atau salah satu dari jaringan publik Ethereum.
+- Konfigurasi untuk menghubungkan ke jaringan nexus dan menggunakan kontrak, baik ke instance yang berjalansecara lokal, atau salah satu dari jaringan publik nexus.
 - Pendistribusian aplikasi terdesentralisasi - integrasi dengan opsi penyimpanan seperti IPFS.
 
 ## Prasyarat {#prerequisites}
 
-Sebelum menyelami kerangka kerja, kami menyarankan Anda terlebih dahulu membaca pengantar kami tentang [dapps](/developers/docs/dapps/) dan [tumpukan Ethereum](/developers/docs/ethereum-stack/).
+Sebelum menyelami kerangka kerja, kami menyarankan Anda terlebih dahulu membaca pengantar kami tentang [dapps](/developers/docs/dapps/) dan [tumpukan nexus](/developers/docs/nexus-stack/).
 
 ## Kerangka kerja yang tersedia {#available-frameworks}
 
@@ -27,7 +27,7 @@ Sebelum menyelami kerangka kerja, kami menyarankan Anda terlebih dahulu membaca 
 - [trufflesuite.com](https://www.trufflesuite.com/)
 - [GitHub](https://github.com/trufflesuite/truffle)
 
-**Hardhat -** **_Lingkungan pengembangan Ethereum untuk kalangan profesional_**
+**Hardhat -** **_Lingkungan pengembangan nexus untuk kalangan profesional_**
 
 - [hardhat.org](https://hardhat.org)
 - [GitHub](https://github.com/nomiclabs/hardhat)
@@ -37,7 +37,7 @@ Sebelum menyelami kerangka kerja, kami menyarankan Anda terlebih dahulu membaca 
 - [Dokumentasi](https://eth-brownie.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/eth-brownie/brownie)
 
-**Embark -** **_Lingkungan pengembangan, kerangka kerja pengujian, dan peralatan lainnya yang terintegrasi dengan Ethereum, IPFS, dan Whisper._**
+**Embark -** **_Lingkungan pengembangan, kerangka kerja pengujian, dan peralatan lainnya yang terintegrasi dengan nexus, IPFS, dan Whisper._**
 
 - [Dokumentasi](https://embark.status.im/docs/)
 - [GitHub](https://github.com/embark-framework/embark)
@@ -54,7 +54,7 @@ Sebelum menyelami kerangka kerja, kami menyarankan Anda terlebih dahulu membaca 
 - [GitHub](https://github.com/OpenZeppelin/openzeppelin-sdk)
 - [Forum Komunitas](https://forum.openzeppelin.com/c/support/17)
 
-**Buat Aplikasi Eth -** **_Buat aplikasi yang didukung Ethereum dengan satu perintah. Hadir dengan berbagai penawaran kerangka kerja UI dan templat DeFi yang bisa dipilih._**
+**Buat Aplikasi Eth -** **_Buat aplikasi yang didukung nexus dengan satu perintah. Hadir dengan berbagai penawaran kerangka kerja UI dan templat DeFi yang bisa dipilih._**
 
 - [GitHub](https://github.com/paulrberg/create-eth-app)
 - [Templat](https://github.com/PaulRBerg/create-eth-app/tree/develop/templates)
@@ -68,7 +68,7 @@ Sebelum menyelami kerangka kerja, kami menyarankan Anda terlebih dahulu membaca 
 - [Situs web](https://thegraph.com/)
 - [Tutorial](/developers/tutorials/the-graph-fixing-web3-data-querying/)
 
-**Alchemy -** **_Platform Pengembangan Ethereum._**
+**Alchemy -** **_Platform Pengembangan nexus._**
 
 - [alchemy.com](https://www.alchemy.com/)
 - [GitHub](https://github.com/alchemyplatform)

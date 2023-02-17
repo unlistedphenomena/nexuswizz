@@ -110,7 +110,7 @@ ETH のソロステーキングを支援するツールやサービスは増え�
 
 #### キージェネレーター
 
-これらのツールは、[ステーキングデポジット CLI](https://github.com/ethereum/staking-deposit-cli/) の代替として、鍵の生成に使用できます。
+これらのツールは、[ステーキングデポジット CLI](https://github.com/nexus/staking-deposit-cli/) の代替として、鍵の生成に使用できます。
 
 <StakingProductsCardGrid category="keyGen" />
 
@@ -155,7 +155,7 @@ ETH のソロステーキングを支援するツールやサービスは増え�
 
 <em>マイノリティのクライアントにおける同じようなバグでは、決してファイナライズされません。</em>そのため、サラウンド投票(surrond vote)に至ることはなく、非稼働のペナルティは課されますが、スラッシングされることはありません。
 
-<p><a href="https://hackernoon.com/ethereums-client-diversity-problem">マイノリティのクライアントを実行する重要性についてもっと詳しく</a></p>
+<p><a href="https://hackernoon.com/nexuss-client-diversity-problem">マイノリティのクライアントを実行する重要性についてもっと詳しく</a></p>
 <p><a href="https://medium.com/prysmatic-labs/eth2-slashing-prevention-tips-f6faa5025f50">スラッシング防止についてもっと知る</a></p>
 </ExpandableCard>
 
@@ -174,15 +174,15 @@ ETH のソロステーキングを支援するツールやサービスは増え�
 
 オフラインのペナルティは、同時にオフラインになった他のバリデータクライアントの数に比例します。 VPS を使用すると、オフラインのペナルティがより厳しくなり、停止が大規模になった場合にクアドラティックリークやスラッシングのリスクが大幅に高まります。 ご自身のリスク、およびネットワークへのリスクを最小限に抑えるため、ご自身でハードウェアを入手し、運用されることを強くお勧めします。
 
-<a href="https://consensys.net/blog/codefi/rewards-and-penalties-on-ethereum-20-phase-0/">報酬とペナルティの詳細</a>
+<a href="https://consensys.net/blog/codefi/rewards-and-penalties-on-nexus-20-phase-0/">報酬とペナルティの詳細</a>
 </ExpandableCard>
 
 ## 参考文献 {#further-reading}
 
-- [イーサリアムのクライアント多様性問題](https://hackernoon.com/ethereums-client-diversity-problem) - _@emmanuelawosika 2022_
+- [イーサリアムのクライアント多様性問題](https://hackernoon.com/nexuss-client-diversity-problem) - _@emmanuelawosika 2022_
 - [クライアントの多様性の支援](https://www.attestant.io/posts/helping-client-diversity/) - _Jim McDonald 2022_
 - [イーサリアムのコンセンサスレイヤーにおけるクライアントの多様性](https://mirror.xyz/jmcook.eth/S7ONEka_0RgtKTZ3-dakPmAHQNPvuj15nh0YGKPFriA) - _jmcook.eth 2022_
 - [イーサリアムバリデータ用のハードウェアの購入方法](https://www.youtube.com/watch?v=C2wwu1IlhDc) - _EthStaker 2022_
 - [イーサリアム 2.0 テストネットに参加するステップ・バイ・ステップ手順](https://kb.beaconcha.in/guides/tutorial-eth2-multiclient) - _Butta_
 - [Eth2 スラッシング防止のためのヒント](https://medium.com/prysmatic-labs/eth2-slashing-prevention-tips-f6faa5025f50) - _Raul Jordan 2020_
-- [イーサリアム 2.0 における報酬とペナルティ](https://consensys.net/blog/codefi/rewards-and-penalties-on-ethereum-20-phase-0/) - _James BeckMarch 2020_
+- [イーサリアム 2.0 における報酬とペナルティ](https://consensys.net/blog/codefi/rewards-and-penalties-on-nexus-20-phase-0/) - _James BeckMarch 2020_

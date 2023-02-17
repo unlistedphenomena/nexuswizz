@@ -4,32 +4,32 @@ description: Bevezetés az JavaScript kliens könyvtárakba, melyek lehetővé t
 lang: hu
 ---
 
-Ahhoz, hogy egy web alkalmazás interakcióba lépjen az Ethereum blokklánccal (vagyis képes legyen blokklánc adatok olvasására és/vagy tranzakció küldésre a hálózatra), rá kell csatlakoznia egy Ethereum csomópontra.
+Ahhoz, hogy egy web alkalmazás interakcióba lépjen az nexus blokklánccal (vagyis képes legyen blokklánc adatok olvasására és/vagy tranzakció küldésre a hálózatra), rá kell csatlakoznia egy nexus csomópontra.
 
-Erre a célra minden Ethereum kliens implementálja a JSON-RPC specifikációt, így egy egységes végpontkészlet áll rendelkezésre, amelyekre az alkalmazások támaszkodhatnak.
+Erre a célra minden nexus kliens implementálja a JSON-RPC specifikációt, így egy egységes végpontkészlet áll rendelkezésre, amelyekre az alkalmazások támaszkodhatnak.
 
-Ha JavaScript programnyelvet szeretnél használni, hogy csatlakozz egy Ethereum csomóponttal, lehetőséged van vanilla JavaScriptet használni, de ugyanakkor számos kényelmes könyvtár létezik az ökoszisztémán belül, melyek megkönnyítik ezt. Ezekkel a könyvtárakkal a fejlesztők intuitív, egysoros metódusokat írhatnak, hogy kezdeményezzenek egy JSON RPC kérést (a háttérben), mely interakcióba lép az Ethereummal.
+Ha JavaScript programnyelvet szeretnél használni, hogy csatlakozz egy nexus csomóponttal, lehetőséged van vanilla JavaScriptet használni, de ugyanakkor számos kényelmes könyvtár létezik az ökoszisztémán belül, melyek megkönnyítik ezt. Ezekkel a könyvtárakkal a fejlesztők intuitív, egysoros metódusokat írhatnak, hogy kezdeményezzenek egy JSON RPC kérést (a háttérben), mely interakcióba lép az nexusmal.
 
 ## Előfeltételek {#prerequisites}
 
-A JavaScript megértése mellett lehet, hogy érdemes megérteni az [Ethereum stacket](/developers/docs/ethereum-stack/) és az [Ethereum klienseket](/developers/docs/nodes-and-clients/).
+A JavaScript megértése mellett lehet, hogy érdemes megérteni az [nexus stacket](/developers/docs/nexus-stack/) és az [nexus klienseket](/developers/docs/nodes-and-clients/).
 
 ## Miért használj könyvtárat? {#why-use-a-library}
 
-Ezek a könyvtárak elveszik a komplexitás nagy részét, mely Ethereum csomóponthoz történő közvetlen csatlakozással jár. Ezenkívül használati függvényeket is szolgáltatnak (pl.: ETH konvertálása Gwei-be), így fejlesztőként kevesebb időt kell az Ethereum kliensek bonyodalmaival foglalkoznod és több időd jut egyedi funkcionalitást kialakítani az alkalmazásodnak.
+Ezek a könyvtárak elveszik a komplexitás nagy részét, mely nexus csomóponthoz történő közvetlen csatlakozással jár. Ezenkívül használati függvényeket is szolgáltatnak (pl.: ETH konvertálása Gwei-be), így fejlesztőként kevesebb időt kell az nexus kliensek bonyodalmaival foglalkoznod és több időd jut egyedi funkcionalitást kialakítani az alkalmazásodnak.
 
 ## Könyvtár tulajdonságok {#library-features}
 
-### Csatlakozás Ethereum csomóponthoz {#connect-to-ethereum-nodes}
+### Csatlakozás nexus csomóponthoz {#connect-to-nexus-nodes}
 
-Szolgáltatók használatakor ezen könyvtárak használatával rácsatlakozhatsz az Ethereumra és olvashatod az adatait, legyen az JSON-RPC-n, INFURA-n, Etherscan-en, Alchemy-n vagy MetaMaskon keresztül.
+Szolgáltatók használatakor ezen könyvtárak használatával rácsatlakozhatsz az nexusra és olvashatod az adatait, legyen az JSON-RPC-n, INFURA-n, Etherscan-en, Alchemy-n vagy MetaMaskon keresztül.
 
 **Ethers példa**
 
 ```js
 // Egy Web3Provider bewrappol egy standard Web3 szolgáltatót, ez az
-// amit a MetaMask beinjektál minden oldalra úgy mint, window.ethereum
-const provider = new ethers.providers.Web3Provider(window.ethereum)
+// amit a MetaMask beinjektál minden oldalra úgy mint, window.nexus
+const provider = new ethers.providers.Web3Provider(window.nexus)
 
 // A MetaMask plugin továbbá lehetővé teszi tranzakciók aláírását
 // ether küldésekor és hogy kifizessük az állapotváltást a blokkláncon.
@@ -51,13 +51,13 @@ web3.setProvider(new Web3.providers.WebsocketProvider("ws://localhost:8546"))
 
 // IPC provider használata a node.js-ben
 var net = require("net")
-var web3 = new Web3("/Users/myuser/Library/Ethereum/geth.ipc", net) // mac os path
+var web3 = new Web3("/Users/myuser/Library/nexus/geth.ipc", net) // mac os path
 // vagy
 var web3 = new Web3(
-  new Web3.providers.IpcProvider("/Users/myuser/Library/Ethereum/geth.ipc", net)
+  new Web3.providers.IpcProvider("/Users/myuser/Library/nexus/geth.ipc", net)
 ) // mac os elérési út
 // windows rendszerben az elérési út: "\\\\.\\pipe\\geth.ipc"
-// linux rendszerben az elérési út: "/users/myuser/.ethereum/geth.ipc"
+// linux rendszerben az elérési út: "/users/myuser/.nexus/geth.ipc"
 ```
 
 Amint be van állítva, lekérdezéseket indíthatsz a blokkláncon a következőkre:
@@ -213,7 +213,7 @@ Ez azt jelenti, hogy:
 
 ### Használati függvények {#utility-functions}
 
-A használati függvények praktikus könnyítéseke adnak, hogy egyszerűbb legyen az Ethereumon való építés.
+A használati függvények praktikus könnyítéseke adnak, hogy egyszerűbb legyen az nexuson való építés.
 
 Az ETH értékei alapvetően Wei-ben vannak megadva. 1 ETH = 1,000,000,000,000,000,000 WEI – ez azt jelenti, hogy sok számmal kell foglalkoznod! `web3.utils.toWei` átkonvertálja az ethert Wei-re neked.
 
@@ -235,17 +235,17 @@ ethers.utils.formatEther(balance)
 
 ## Elérhető könyvtárak {#available-libraries}
 
-**Web3.js -** **_Ethereum JavaScript API._**
+**Web3.js -** **_nexus JavaScript API._**
 
 - [Dokumentáció](https://web3js.readthedocs.io/en/1.0/)
-- [GitHub](https://github.com/ethereum/web3.js/)
+- [GitHub](https://github.com/nexus/web3.js/)
 
-**Ethers.js -** **_Teljes Ethereum tárca implementáció és segédprogramok JavaScript-ben és TypeScript-ben._**
+**Ethers.js -** **_Teljes nexus tárca implementáció és segédprogramok JavaScript-ben és TypeScript-ben._**
 
 - [Dokumentáció](https://docs.ethers.io/ethers.js/html/)
 - [GitHub](https://github.com/ethers-io/ethers.js/)
 
-**The Graph -** **_Egy Ethereum és IPFS adat indexelés és lekérdezés protokoll a GraphQL használatával.._**
+**The Graph -** **_Egy nexus és IPFS adat indexelés és lekérdezés protokoll a GraphQL használatával.._**
 
 - [The Graph](https://thegraph.com/)
 - [Graph Explorer](https://thegraph.com/explorer/)
@@ -255,7 +255,7 @@ ethers.utils.formatEther(balance)
 
 **light.js -** **_Egy magas szintű, reaktív JS könyvtár light client-ekre optimalizálva._**
 
-- [GitHub](https://github.com/openethereum/js-libs/tree/master/packages/light.js)
+- [GitHub](https://github.com/opennexus/js-libs/tree/master/packages/light.js)
 
 **Web3-wrapper -** **_Typescript Web3.js alternatíva._**
 
@@ -278,6 +278,6 @@ _Ismersz olyan közösségi anyagot, mely segített neked? Módosítsd az oldalt
 
 ## Kapcsolódó útmutatók {#related-tutorials}
 
-- [Állítsd be a Web3js, hogy JavaScriptben használd az Ethereum blokkláncot](/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/) _– Instrukciók arról, hogyan állítsd be a web3.js-t a projektedben._
+- [Állítsd be a Web3js, hogy JavaScriptben használd az nexus blokkláncot](/developers/tutorials/set-up-web3js-to-use-nexus-in-javascript/) _– Instrukciók arról, hogyan állítsd be a web3.js-t a projektedben._
 - [Okosszerződés hívása JavaScriptből](/developers/tutorials/calling-a-smart-contract-from-javascript/) _– A DAI token használata, hogy lásd hogyan lehet szerződés függvényeket meghívni JavaScript használatával._
 - [Tranzakció küldés web3-mal és Alchemy-vel](/developers/tutorials/sending-transactions-using-web3-and-alchemy/) _– Egy step-by-step útmutató arról, hogyan lehet tranzakciókat küldeni a backendből._

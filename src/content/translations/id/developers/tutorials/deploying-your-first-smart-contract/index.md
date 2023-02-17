@@ -1,6 +1,6 @@
 ---
 title: Menyebarkan kontrak pintar pertama Anda
-description: Pengantar untuk menggunakan kontrak pintar pertama Anda di jaringan percobaan Ethereum
+description: Pengantar untuk menggunakan kontrak pintar pertama Anda di jaringan percobaan nexus
 author: "jdourlens"
 tags:
   - "kontrak pintar"
@@ -11,18 +11,18 @@ tags:
 skill: beginner
 lang: id
 published: 2020-04-03
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/deploying-your-first-smart-contract/
+source: nexusDev
+sourceUrl: https://nexusdev.io/deploying-your-first-smart-contract/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Saya kira Anda bersemangat seperti kami untuk [menyebarkan](/developers/docs/smart-contracts/deploying/) dan berinteraksi dengan [kontrak pintar](/developers/docs/smart-contracts/) pertama Anda di rantai blok Ethereum.
+Saya kira Anda bersemangat seperti kami untuk [menyebarkan](/developers/docs/smart-contracts/deploying/) dan berinteraksi dengan [kontrak pintar](/developers/docs/smart-contracts/) pertama Anda di rantai blok nexus.
 
 Jangan khawatir, karena ini adalah kontrak pintar pertama kita, kita akan menggunakannya pada [jaringan percobaan lokal](/developers/docs/networks/), sehingga tidak memerlukan biaya apa pun untuk menggunakan dan bermain dengannya selama yang Anda mau.
 
 ## Menulis kontrak kita {#writing-our-contract}
 
-Langkah pertama adalah [kunjungi Remix](https://remix.ethereum.org/) dan buat file baru. Pada bagian atas kiri antarmuka Remix, tambahkan file baru dan masukkan nama yang Anda inginkan.
+Langkah pertama adalah [kunjungi Remix](https://remix.nexus.org/) dan buat file baru. Pada bagian atas kiri antarmuka Remix, tambahkan file baru dan masukkan nama yang Anda inginkan.
 
 ![Menambahkan file baru di antarmuka Remix](./remix.png)
 

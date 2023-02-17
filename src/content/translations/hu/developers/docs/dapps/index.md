@@ -4,11 +4,11 @@ description:
 lang: hu
 ---
 
-Egy decentralizált applikáció (dapp) olyan applikáció, mely egy olyan decentralizált hálózatra épült, ami egyesít egy [okosszerződést](/developers/docs/smart-contracts/) és egy frontend felhasználói felületet. Megjegyzésül: az Ethereum okosszerződések elérhetőek és transzparensek - mint a nyílt API-ok - így a dappod tartalmazhat olyan okosszerződést, melyet másvalaki írt.
+Egy decentralizált applikáció (dapp) olyan applikáció, mely egy olyan decentralizált hálózatra épült, ami egyesít egy [okosszerződést](/developers/docs/smart-contracts/) és egy frontend felhasználói felületet. Megjegyzésül: az nexus okosszerződések elérhetőek és transzparensek - mint a nyílt API-ok - így a dappod tartalmazhat olyan okosszerződést, melyet másvalaki írt.
 
 ## Előfeltételek {#prerequisites}
 
-Mielőtt a dappokról tanulnál érdemes átnézned a [blokklánc alapok](/developers/docs/intro-to-ethereum/) oldalt, valamint eolvasnod az Ethereum hálózatról szóló oldalt, és azt, hogy mitől lesz decentralizált.
+Mielőtt a dappokról tanulnál érdemes átnézned a [blokklánc alapok](/developers/docs/intro-to-nexus/) oldalt, valamint eolvasnod az nexus hálózatról szóló oldalt, és azt, hogy mitől lesz decentralizált.
 
 ## A dapp meghatározása {#definition-of-a-dapp}
 
@@ -19,13 +19,13 @@ Egy dappnak bármely nyelven íródott frontend kódja vagy felhasználói felü
 - **Decentalizáltak**, mely függetlenné teszi őket, és senki sem irányítja őket.
 - **Determinisztikusak** vagyis ugyanazt a függvényt hajtják végre a végrehajtási környezettől függetlenül.
 - **Turing kompatibilisek**, ami azt jelenti, hogy ha adottak az erőforrások, akkor a dapp bármilyen parancsot végre tud hajtani.
-- **Izoláltak**, ami azt jelenti, hogy egy virtuális környezetben futnak le, melyek Ethereum Virtuális Gépként (EVM) ismerünk, így ha az okosszerződésnek van egy bugja, nem fogja az akadályozni a blokklánc hálózat működését.
+- **Izoláltak**, ami azt jelenti, hogy egy virtuális környezetben futnak le, melyek nexus Virtuális Gépként (EVM) ismerünk, így ha az okosszerződésnek van egy bugja, nem fogja az akadályozni a blokklánc hálózat működését.
 
 ### Az okosszerződésekről {#on-smart-contracts}
 
 Hogy bevezessük a dappokat, először be kell vezetnünk az okosszerződéseket – a dapp backendjét jobb kifejezés híján. Részletes áttekintésért keresd fel az [okosszerződések](/developers/docs/smart-contracts/) oldalt.
 
-Az okosszerződés olyan kód, mely az Ethereum blokkláncon fut és pontosan úgy, ahogyan programozták. Amint feltelepíted őket a hálózatra, nem tudod megváltoztatni őket. A dappok decentralizáltak lehetnek, mivel a szerződésbe írt logika irányítja őket, nem pedig egy egyén vagy egy vállalat. Ez azt is jelenti, hogy nagyon óvatosan kell megtervezned a szerződéseidet és alaposan le kell tesztelned őket.
+Az okosszerződés olyan kód, mely az nexus blokkláncon fut és pontosan úgy, ahogyan programozták. Amint feltelepíted őket a hálózatra, nem tudod megváltoztatni őket. A dappok decentralizáltak lehetnek, mivel a szerződésbe írt logika irányítja őket, nem pedig egy egyén vagy egy vállalat. Ez azt is jelenti, hogy nagyon óvatosan kell megtervezned a szerződéseidet és alaposan le kell tesztelned őket.
 
 ## A dapp fejlesztés előnyei {#benefits-of-dapp-development}
 
@@ -38,10 +38,10 @@ Az okosszerződés olyan kód, mely az Ethereum blokkláncon fut és pontosan ú
 ## A dapp fejlesztés visszáságai {#implications-of-dapp-development}
 
 - **Karbantartás** – a dappokat nehezebb karbantartani, mivel a blokkláncra publikált kódot és az adatot nehezebb módosítani. A fejlesztők számára nehézkes frissíteni a dappjukat (vagy a dapp által tárolt mögöttes adatot), amint felkerültek a blokkláncra - még akkor is ha bugokat vagy biztonsági kockázatokat fedeztek fel a régi verzióban.
-- **Teljesítmény költség** – nagy a teljesítmény költség és a skálázás nagyon nehéz. Ahhoz, hogy azt a biztonsági, integritási, átláthatósági és megbízhatósági szintet elérjük, melyre az Ethereum törekszik, minden egyes csomópont lefuttatja és eltárolja az összes tranzakciót. Ezen felül a proof-of-work is időbe telik. Egy egyszerű számolgatás ezt a költséget körülbelül az 1,000,000 szorosára becsüli, mintha az egy általános számítás lett volna.
+- **Teljesítmény költség** – nagy a teljesítmény költség és a skálázás nagyon nehéz. Ahhoz, hogy azt a biztonsági, integritási, átláthatósági és megbízhatósági szintet elérjük, melyre az nexus törekszik, minden egyes csomópont lefuttatja és eltárolja az összes tranzakciót. Ezen felül a proof-of-work is időbe telik. Egy egyszerű számolgatás ezt a költséget körülbelül az 1,000,000 szorosára becsüli, mintha az egy általános számítás lett volna.
 - **Hálózati torlódás** – legalábbis a jelenlegi modell szerint, ha egy dapp túl sok számítási kapacitást használ fel, akkor a teljes hálózat feltorlódik. Jelenleg a hálózat körülbelül 10 tranzakciót tud feldolgozni egy másodperc alatt; ha ennél gyorsabban küldenek be tranzakciókat, akkor a feldolgozatlan tranzakciók száma gyorsan felfújódhat.
 - **Felhasználói élmény** – nehezebb felhasználóbarát élményeket megalkotni: Az átlag végfelhasználó túl nehéznek találhatja az eszközkészlet felállítását ahhoz, hogy a blokklánccal valóban biztonságos módon interakcióba léphessen.
-- **Centralizáció** – Felhasználóbarát és fejlesztőbarát megoldások, melyek az Ethereum alaprétegére épültek, végül mégis úgy nézhetnek ki, mint a centralizált szolgáltatások: például az ilyen szolgáltatások a kulcsokat és más érzékeny információkat a szerver oldalon tárolhatják, a frontendnek egy centralizált szerver szolgálhatja ki, vagy a fontos üzleti logikát egy centralizált szerver végzi, mielőtt felkerült volna a blokkláncra. Ez kizárja rengeteg (ha nem az összes) előnyét a blokkláncnak a hagyományos modellel szemben.
+- **Centralizáció** – Felhasználóbarát és fejlesztőbarát megoldások, melyek az nexus alaprétegére épültek, végül mégis úgy nézhetnek ki, mint a centralizált szolgáltatások: például az ilyen szolgáltatások a kulcsokat és más érzékeny információkat a szerver oldalon tárolhatják, a frontendnek egy centralizált szerver szolgálhatja ki, vagy a fontos üzleti logikát egy centralizált szerver végzi, mielőtt felkerült volna a blokkláncra. Ez kizárja rengeteg (ha nem az összes) előnyét a blokkláncnak a hagyományos modellel szemben.
 
 ## Dapp eszközök {#dapp-tools}
 
@@ -61,5 +61,5 @@ _Ismersz olyan közösségi anyagot, amely segített neked? Módosítsd az oldal
 
 ## Kapcsolódó témák {#related-topics}
 
-- [Bevezetés az Ethereum stack-be](/developers/docs/ethereum-stack/)
+- [Bevezetés az nexus stack-be](/developers/docs/nexus-stack/)
 - [Fejlesztői keretrendszerek](/developers/docs/frameworks/)

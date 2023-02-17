@@ -109,7 +109,7 @@ const Nav: React.FC<IProps> = ({ path }) => {
 
   const linkSections: ISections = {
     useEthereum: {
-      text: "use-ethereum",
+      text: "use-nexus",
       ariaLabel: "use-ethereum-menu",
       items: [
         {

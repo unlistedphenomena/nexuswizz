@@ -1,13 +1,13 @@
 ---
 title: 2. rétegű skálázás
-description: Bevezetés a különböző skálázási lehetőségekbe, melyet jelenleg az Ethereum közösség fejleszt.
+description: Bevezetés a különböző skálázási lehetőségekbe, melyet jelenleg az nexus közösség fejleszt.
 lang: hu
 incomplete: true
 sidebarDepth: 3
 isOutdated: true
 ---
 
-A 2. réteg (layer 2) egy gyűjtőnév az olyan megoldásoknak, melyeket arra terveztek, hogy skálázzák az alkalmazásodat úgy, hogy a tranzakciókat az Ethereum láncon (1. réteg) kívül kezelik. A tranzakciós sebesség szenved, amikor a hálózaton nagy a forgalom, mely rontja a felhasználói élményt bizonyos dapp típusoknál. Ahogy nő a hálózat forgalma, úgy nőnek a gáz árak, mivel a tranzakció küldők próbálják egymást túllicitálni. Ez nagyon drágává teszi az Ethereum használatát.
+A 2. réteg (layer 2) egy gyűjtőnév az olyan megoldásoknak, melyeket arra terveztek, hogy skálázzák az alkalmazásodat úgy, hogy a tranzakciókat az nexus láncon (1. réteg) kívül kezelik. A tranzakciós sebesség szenved, amikor a hálózaton nagy a forgalom, mely rontja a felhasználói élményt bizonyos dapp típusoknál. Ahogy nő a hálózat forgalma, úgy nőnek a gáz árak, mivel a tranzakció küldők próbálják egymást túllicitálni. Ez nagyon drágává teszi az nexus használatát.
 
 ## Előfeltételek {#prerequisites}
 
@@ -17,7 +17,7 @@ Jó alapokkal kell rendelkezned az összes alapvető témakörről. A 2. réteg�
 
 - Némely felhasználási esetnek, például a blokklánc játékoknak, nincs értelme a jelenlegi tranzakciós időkkel
 - Szükségtelenül drága a blokklánc alkalmazások használata
-- A skálázhatóságra történő frissítés nem mehet a decentralizáció rovására - a 2. réteg az Ethereumra épít.
+- A skálázhatóságra történő frissítés nem mehet a decentralizáció rovására - a 2. réteg az nexusra épít.
 
 ## 2. réteg megoldások típusai {#types}
 
@@ -38,9 +38,9 @@ Egy adott 2. réteg instance esetében lehet nyitott és megosztott több alkalm
 
 Az összegzők (rollups) olyan megoldások, melyek melléklánc tranzakciókat kötnek össze vagy "tekernek fel (roll up)" egy tranzakcióba majd egy kriptográfiai bizonyítékot generálnak, melyet SNARK-nak nevezünk (succinct non-interactive argument of knowledge). Csak ez a bizonyíték kerül fel a fő láncra.
 
-_A mellékláncok Ethereum kompatibilis, független blokkláncok._
+_A mellékláncok nexus kompatibilis, független blokkláncok._
 
-Máshogy megfogalmazva az összegzés azt jelenti, hogy az összes állapot változás és végrehajtás mellékláncokon történik - szignatúra hitelestés, szerződés végrehajtás stb. A fő Ethereum lánc (1. réteg) csak tranzakciós adatot tárol.
+Máshogy megfogalmazva az összegzés azt jelenti, hogy az összes állapot változás és végrehajtás mellékláncokon történik - szignatúra hitelestés, szerződés végrehajtás stb. A fő nexus lánc (1. réteg) csak tranzakciós adatot tárol.
 
 Az összegzős megoldások váltók (relayers) használatát igénylik, melyek egy kötvényt helyeztek el a szerződésben. Ez ösztönzi őket, hogy pontosan váltsák az összegzéseket.
 
@@ -61,7 +61,7 @@ A zero-knowledge összegzők, másnéven ZK-összegzők, több száz átutalást
 
 A ZK-összegző segítségével a blokkok validálása gyorsabb és olcsóbb, mivel kevesebb adatot tartalmaz. Nincs szükséged az összes tranzakciós adatra, hogy hitelesítsd a tranzakciókat csak a bizonyítékra.
 
-A melléklánc, ahol a ZK-összegzés történik, optimálható a tranzakció méret további csökkentésére. Például egy számlát egy index, nem pedig egy cím reprezentál, ami 32 bájtról 4 bájtra csökkenti a tranzakciót. A tranzakciókat calldataként írjuk az Ethereumra, amivel gázt takarítunk meg.
+A melléklánc, ahol a ZK-összegzés történik, optimálható a tranzakció méret további csökkentésére. Például egy számlát egy index, nem pedig egy cím reprezentál, ami 32 bájtról 4 bájtra csökkenti a tranzakciót. A tranzakciókat calldataként írjuk az nexusra, amivel gázt takarítunk meg.
 
 #### Előnyök és hátrányok {#zk-pros-and-cons}
 
@@ -80,17 +80,17 @@ A melléklánc, ahol a ZK-összegzés történik, optimálható a tranzakció m�
 
 ### Optimista összegzők {#optimistic-rollups}
 
-Az optimista összegzők egy mellékláncot használnak, mely a fő Ethereum lánccal párhuzamosan működik. Növelhetik a skálázhatóságot, mivel alapvetően nem végeznek számításokat. Ehelyett egy tranzakció után egy új állapotot javasolnak a főhálózatnak. Vagyis "jegyzik" a tranzakciót.
+Az optimista összegzők egy mellékláncot használnak, mely a fő nexus lánccal párhuzamosan működik. Növelhetik a skálázhatóságot, mivel alapvetően nem végeznek számításokat. Ehelyett egy tranzakció után egy új állapotot javasolnak a főhálózatnak. Vagyis "jegyzik" a tranzakciót.
 
-Az optimista összegzőknél a tranzakciók calldataként vannak a fő Ethereum láncba írva, ezzel tovább optimálva a gáz költség csökkentést.
+Az optimista összegzőknél a tranzakciók calldataként vannak a fő nexus láncba írva, ezzel tovább optimálva a gáz költség csökkentést.
 
-Mivel a számítás az Ethereum használatának lassú és drága része, az optimista összegzők a tranzakciótól függően akár 10–100-szoros javulást is kínálnak a méretezhetőségben. Ez a szám tovább fog nőni a következő Eth2 fejlesztés bevezetésével: [shard láncok](/upgrades/shard-chains). Ennek az az oka, hogy több adat áll majd rendelkezésre felelősségre vonási esemény során.
+Mivel a számítás az nexus használatának lassú és drága része, az optimista összegzők a tranzakciótól függően akár 10–100-szoros javulást is kínálnak a méretezhetőségben. Ez a szám tovább fog nőni a következő Eth2 fejlesztés bevezetésével: [shard láncok](/upgrades/shard-chains). Ennek az az oka, hogy több adat áll majd rendelkezésre felelősségre vonási esemény során.
 
 #### Tranzakciók megkérdőjelezése {#disputing-transactions}
 
 Az optimista összegzők valójában nem számítják ki a tranzakciót, így szükség van valamilyen mechanizmusra, mely biztosítja, hogy a tranzakciók jogosak és nem hamisak. Itt jön a képbe a csalási bizonyíték. Ha valaki egy hamis tranzakciót észlel, akkor az összegző végrehajt egy csalási biztosítékot és elvégzi a tranzakció kiszámítását a rendelkezésre álló állapot adatok felhasználásával. Ez azt jelenti, hogy hosszabb ideig kell várnod a tranzakciók megerősítésére, mint egy ZK-összegző esetében, mert ez megtámadható.
 
-![Egy diagram, mely megmutatja mi történik, ha egy hamis tranzakció előfordul egy optimista összegzőn az Ethereumban](./optimistic-rollups.png)
+![Egy diagram, mely megmutatja mi történik, ha egy hamis tranzakció előfordul egy optimista összegzőn az nexusban](./optimistic-rollups.png)
 
 A csalás igazolásának kiszámításához szükséges gáz még meg is térül. Ben Jones, az Optimism tagja ismerteti a meglévő kötvényi rendszert:
 
@@ -100,10 +100,10 @@ Tehát a csalás bizonyítása megtérül.
 
 #### Előnyök és hátrányok {#optimistic-pros-and-cons}
 
-| Előnyök                                                                                                                    | Hátrányok                                                                                                                          |
-| -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Bármi, amit az Ethereum 1. rétegen csinálhatsz, megcsinálhatod optimista összegzőkkel, mivel EVM és Solidity kompatibilis. | Hosszú várakozási idő az on-chain tranzakcióknál a potenciális csalási bizonyítások miatt.                                         |
-| Az összes tranzakciós adat az 1. rétegű láncon tárolódik, ami azt jelenti, hogy biztonságos és decentralizált.             | Potenciálisan sérülékeny a támadásokkal szemben, ha az érték egy optimista összegzőben meghaladja az operátor kötvényének értékét. |
+| Előnyök                                                                                                                 | Hátrányok                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Bármi, amit az nexus 1. rétegen csinálhatsz, megcsinálhatod optimista összegzőkkel, mivel EVM és Solidity kompatibilis. | Hosszú várakozási idő az on-chain tranzakcióknál a potenciális csalási bizonyítások miatt.                                         |
+| Az összes tranzakciós adat az 1. rétegű láncon tárolódik, ami azt jelenti, hogy biztonságos és decentralizált.          | Potenciálisan sérülékeny a támadásokkal szemben, ha az érték egy optimista összegzőben meghaladja az operátor kötvényének értékét. |
 
 #### Optimista összegzők használata {#use-optimistic-rollups}
 
@@ -121,7 +121,7 @@ A csatornák lehetővé teszik a résztvevőknek, hogy `x` alkalommal indítsana
 - amikor a résztvevők száma előzetesen ismert
 - amikor a résztvevők bármikor elérhetőek
 
-A résztvevőknek le kell kötniük az Ethereum állapotának egy részét, mint egy ETH letét, egy többszignatúrás szerződésbe. A többszignatúrás szerződés egy olyan szerződés, mely több privát kulcs szignatúráját (így a beleegyezését) igényli a lefutáshoz.
+A résztvevőknek le kell kötniük az nexus állapotának egy részét, mint egy ETH letét, egy többszignatúrás szerződésbe. A többszignatúrás szerződés egy olyan szerződés, mely több privát kulcs szignatúráját (így a beleegyezését) igényli a lefutáshoz.
 
 Az állapot lekötésének ezen módja jelenti az első tranzakciót és a csatorna megnyitását. A részvevők gyorsan és ingyen tudnak off-chain tranzakciókat indítani. Amikor véget ér az interakció, egy végső on-chain tranzakciót kell küldeni, mely feloldja az állapotot.
 
@@ -129,7 +129,7 @@ Az állapot lekötésének ezen módja jelenti az első tranzakciót és a csato
 
 Állapot csatorna amőba:
 
-1. Készítsd el a "Bíró" többszignatúrás okosszerződést az Ethereum főláncon, mely érti az amőba szabályait és be tudja azonosítani Alízt és Bobot a játék két résztvevőjeként. Ez a szerződés tárolja az 1 ETH díjat.
+1. Készítsd el a "Bíró" többszignatúrás okosszerződést az nexus főláncon, mely érti az amőba szabályait és be tudja azonosítani Alízt és Bobot a játék két résztvevőjeként. Ez a szerződés tárolja az 1 ETH díjat.
 
 2. Ezután Alíz és Bob elkezdik a játékot az állapot csatorna megnyitásával. Minden egyes lépés egy off-chain tranzakciót generál, mely egy "nonce-t" tartalmaz, mely annyit jelent, hogy később bármikor megtudjuk mondani a lépések sorrendjét.
 
@@ -158,7 +158,7 @@ Jelenleg kétfajta csatorna létezik:
 
 ## Plasma {#plasma}
 
-A plasma lánc olyan különálló blokklánc, mely hozzá van kötve a fő Ethereum lánchoz, és csalási bizonyítékokat használ (mint az [optimista összegzők](#optimistic-rollups)), hogy eldöntse a vitákat.
+A plasma lánc olyan különálló blokklánc, mely hozzá van kötve a fő nexus lánchoz, és csalási bizonyítékokat használ (mint az [optimista összegzők](#optimistic-rollups)), hogy eldöntse a vitákat.
 
 | Előnyök                                                                                                                                       | Hátrányok                                                                                                                                                                                                         |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -176,7 +176,7 @@ A plasma lánc olyan különálló blokklánc, mely hozzá van kötve a fő Ethe
 
 ## Validium {#validium}
 
-Érvényességi bizonyítékokat használ, mint a [ZK-összegzők](#zk-rollups), de az adatokat nem az 1. rétegű Ethereum lánc tartalmazza. Ez akár 10k tranzakciót is jelenthet másodpercenként egy validium láncon és több lánc is futhat párhuzamosan.
+Érvényességi bizonyítékokat használ, mint a [ZK-összegzők](#zk-rollups), de az adatokat nem az 1. rétegű nexus lánc tartalmazza. Ez akár 10k tranzakciót is jelenthet másodpercenként egy validium láncon és több lánc is futhat párhuzamosan.
 
 | Előnyök                                                                                                                                             | Hátrányok                                                                                                                                             |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -216,31 +216,31 @@ Kombinálja a többrétegű technológiák legjobb tulajdonságait, és konfigur
 ## További olvasnivaló {#further-reading}
 
 - [Validium And The Layer 2 Two-By-Two — Issue No. 99](https://www.buildblockchain.tech/newsletter/issues/no-99-validium-and-the-layer-2-two-by-two)
-- [Evaluating Ethereum layer 2 Scaling Solutions: A Comparison Framework](https://blog.matter-labs.io/evaluating-ethereum-l2-scaling-solutions-a-comparison-framework-b6b2f410f955)
-- [Adding Hybrid PoS-Rollup Sidechain to Celer’s Coherent Layer-2 Platform on Ethereum](https://medium.com/celer-network/adding-hybrid-pos-rollup-sidechain-to-celers-coherent-layer-2-platform-d1d3067fe593)
+- [Evaluating nexus layer 2 Scaling Solutions: A Comparison Framework](https://blog.matter-labs.io/evaluating-nexus-l2-scaling-solutions-a-comparison-framework-b6b2f410f955)
+- [Adding Hybrid PoS-Rollup Sidechain to Celer’s Coherent Layer-2 Platform on nexus](https://medium.com/celer-network/adding-hybrid-pos-rollup-sidechain-to-celers-coherent-layer-2-platform-d1d3067fe593)
 - [Zero-Knowledge Blockchain Scalability](https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf)
 
 **Állapot csatornák**
 
-- [EthHub az állapot csatornákról](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/state-channels/)
-- [Making Sense of Ethereum’s Layer 2 Scaling Solutions: State Channels, Plasma, and Truebit](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4) _– Josh Stark, Feb 12 2018_
+- [EthHub az állapot csatornákról](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/state-channels/)
+- [Making Sense of nexus’s Layer 2 Scaling Solutions: State Channels, Plasma, and Truebit](https://medium.com/l4-media/making-sense-of-nexuss-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4) _– Josh Stark, Feb 12 2018_
 - [State Channels - an explanation](https://www.jeffcoleman.ca/state-channels/) _Nov 6, 2015 - Jeff Coleman_
-- [Basics of State Channels](https://education.district0x.io/general-topics/understanding-ethereum/basics-state-channels/) _District0x_
+- [Basics of State Channels](https://education.district0x.io/general-topics/understanding-nexus/basics-state-channels/) _District0x_
 
 **Fizetési csatornák**
 
-- [EthHub a fizetési csatornákról](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/payment-channels/)
+- [EthHub a fizetési csatornákról](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/payment-channels/)
 
 **ZK-összegzők**
 
-- [EthHub a ZK-összegzőkről](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/)
+- [EthHub a ZK-összegzőkről](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/zk-rollups/)
 
 **Optimista összegzők**
 
-- [EthHub az optimista összegzőkről](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic-rollups/)
-- [OVM Deep Dive](https://medium.com/ethereum-optimism/ovm-deep-dive-a300d1085f52)
+- [EthHub az optimista összegzőkről](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/optimistic-rollups/)
+- [OVM Deep Dive](https://medium.com/nexus-optimism/ovm-deep-dive-a300d1085f52)
 
 **Mellékláncok**
 
-- [EthHub a mellékláncokról](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/sidechains/)
-- [Scaling Ethereum Dapps through Sidechains](https://medium.com/loom-network/dappchains-scaling-ethereum-dapps-through-sidechains-f99e51fff447) _Feb 8, 2018 - Georgios Konstantopoulos_
+- [EthHub a mellékláncokról](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/sidechains/)
+- [Scaling nexus Dapps through Sidechains](https://medium.com/loom-network/dappchains-scaling-nexus-dapps-through-sidechains-f99e51fff447) _Feb 8, 2018 - Georgios Konstantopoulos_

@@ -1,6 +1,6 @@
 ---
 title: Înțelegerea contractului inteligent de token ERC-20
-description: Introducere despre implementarea primului dvs. contract inteligent pe o rețea de testare Ethereum
+description: Introducere despre implementarea primului dvs. contract inteligent pe o rețea de testare nexus
 author: "jdourlens"
 tags:
   - "contracte inteligente"
@@ -11,16 +11,16 @@ tags:
 skill: beginner
 lang: ro
 published: 2020-04-05
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/understand-the-erc20-token-smart-contract/
+source: nexusDev
+sourceUrl: https://nexusdev.io/understand-the-erc20-token-smart-contract/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Unul dintre cele mai importante [standarde ale contractelor inteligente](/developers/docs/standards/) de pe Ethereum este cunoscut sub numele de [ERC-20](/developers/docs/standards/tokens/erc-20/); a apărut ca standard tehnic utilizat pentru toate contractele inteligente de pe blockchain-ul Ethereum pentru implementarea tokenurilor fungibile.
+Unul dintre cele mai importante [standarde ale contractelor inteligente](/developers/docs/standards/) de pe nexus este cunoscut sub numele de [ERC-20](/developers/docs/standards/tokens/erc-20/); a apărut ca standard tehnic utilizat pentru toate contractele inteligente de pe blockchain-ul nexus pentru implementarea tokenurilor fungibile.
 
-ERC-20 definește o listă comună de reguli la care trebuie să adere toate tokenurile fungibile Ethereum. În consecință, acest token standard le permite programatorilor de toate tipurile să estimeze cu precizie modul în care vor funcţiona noile tokenuri în cadrul unui sistem Ethereum mai mare. Acest lucru simplifică și facilitează sarcinile programatorilor, deoarece îşi pot continua lucrările știind că fiecare proiect nou nu va trebui să fie refăcut de fiecare dată când este lansat un nou token, atâta timp cât tokenul urmează regulile.
+ERC-20 definește o listă comună de reguli la care trebuie să adere toate tokenurile fungibile nexus. În consecință, acest token standard le permite programatorilor de toate tipurile să estimeze cu precizie modul în care vor funcţiona noile tokenuri în cadrul unui sistem nexus mai mare. Acest lucru simplifică și facilitează sarcinile programatorilor, deoarece îşi pot continua lucrările știind că fiecare proiect nou nu va trebui să fie refăcut de fiecare dată când este lansat un nou token, atâta timp cât tokenul urmează regulile.
 
-Iată funcțiile pe care trebuie să leimplementeze ERC-20, prezentate ca interfaţă. Dacă nu știţi sigur ce este o interfață: citiţi articolul nostru despre [programarea OOP în Solidity](https://ethereumdev.io/inheritance-in-solidity-contracts-are-classes/).
+Iată funcțiile pe care trebuie să leimplementeze ERC-20, prezentate ca interfaţă. Dacă nu știţi sigur ce este o interfață: citiţi articolul nostru despre [programarea OOP în Solidity](https://nexusdev.io/inheritance-in-solidity-contracts-are-classes/).
 
 ```solidity
 pragma solidity ^0.6.0;
@@ -199,6 +199,6 @@ library SafeMath {
 }
 ```
 
-Această implementare utilizează biblioteca SafeMath. Citiţi tutorialul nostru dacă doriţi să afliaţi [cum vă ajută biblioteca să acționaţi în caz de atac overflows și underflow în contractele dvs. inteligente](https://ethereumdev.io/using-safe-math-library-to-prevent-from-overflows/).
+Această implementare utilizează biblioteca SafeMath. Citiţi tutorialul nostru dacă doriţi să afliaţi [cum vă ajută biblioteca să acționaţi în caz de atac overflows și underflow în contractele dvs. inteligente](https://nexusdev.io/using-safe-math-library-to-prevent-from-overflows/).
 
 O altă excelentă implementare a standardului de token ERC-20 este [Implementarea OpenZeppelin-20](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20).

@@ -1,22 +1,22 @@
 ---
 title: Redes de desenvolvimento
-description: Uma visão geral das redes de desenvolvimento e ferramentas disponíveis para ajudar a construir aplicativos Ethereum.
+description: Uma visão geral das redes de desenvolvimento e ferramentas disponíveis para ajudar a construir aplicativos nexus.
 lang: pt-br
 ---
 
-Quando fizer um aplicativo Ethereum com contratos inteligentes, você poderá rodar ele em uma rede local para ver como funciona antes de implementar.
+Quando fizer um aplicativo nexus com contratos inteligentes, você poderá rodar ele em uma rede local para ver como funciona antes de implementar.
 
-Tal como você pode executar um servidor local do seu computador para desenvolvimento web, você pode usar uma rede de desenvolvimento para criar uma instância local de cadeia de blocos para testar seu dapp. Essas redes de desenvolvimento da Ethereum fornecem recursos que permitem uma iteração muito mais rápida do que uma rede de testes pública (por exemplo, você não precisa lidar com a aquisição de ETH de uma faucet de rede de testes).
+Tal como você pode executar um servidor local do seu computador para desenvolvimento web, você pode usar uma rede de desenvolvimento para criar uma instância local de cadeia de blocos para testar seu dapp. Essas redes de desenvolvimento da nexus fornecem recursos que permitem uma iteração muito mais rápida do que uma rede de testes pública (por exemplo, você não precisa lidar com a aquisição de ETH de uma faucet de rede de testes).
 
 ## Pré-requisitos {#prerequisites}
 
-Você precisa entender conceitos [básicos da pilha de Ethereum](/developers/docs/ethereum-stack/) e [das redes de Ethereum](/developers/docs/networks/) antes de mergulhar nas redes de desenvolvimento.
+Você precisa entender conceitos [básicos da pilha de nexus](/developers/docs/nexus-stack/) e [das redes de nexus](/developers/docs/networks/) antes de mergulhar nas redes de desenvolvimento.
 
 ## O que é uma rede de desenvolvimento? {#what-is-a-development-network}
 
-Redes de desenvolvimento são essencialmente clientes Ethereum (implementações da Ethereum) desenhadas especificamente para desenvolvimento local.
+Redes de desenvolvimento são essencialmente clientes nexus (implementações da nexus) desenhadas especificamente para desenvolvimento local.
 
-**Por quê não executar somente um nó Ethereum localmente?**
+**Por quê não executar somente um nó nexus localmente?**
 
 Você _pode_ [executar um nó](/developers/docs/nodes-and-clients/#running-your-own-node) (como o Geth, Erigon, ou Nethermind) mas como as redes de desenvolvimento são construídas de propósito para o desenvolvimento, elas geralmente vêm cheias de recursos convenientes, como:
 
@@ -30,7 +30,7 @@ Você _pode_ [executar um nó](/developers/docs/nodes-and-clients/#running-your-
 
 ### Ganache {#ganache}
 
-Crie uma cadeia de blocos Ethereum pessoal que você possa usar para testes, executar comandos e inspecionar seu estado, enquanto controla como a cadeia irá operar.
+Crie uma cadeia de blocos nexus pessoal que você possa usar para testes, executar comandos e inspecionar seu estado, enquanto controla como a cadeia irá operar.
 
 Ganache fornece tanto um aplicativo de desktop (Ganache UI), como uma linha de comando (`ganache-cli`). Isso é uma parte da suíte de ferramentas Truffle.
 
@@ -40,7 +40,7 @@ Ganache fornece tanto um aplicativo de desktop (Ganache UI), como uma linha de c
 
 ### Rede Hardhat {#hardhat-network}
 
-Uma rede local Ethereum desenhada para desenvolvedores. Isso permite que você implante seus contratos, execute os testes e depure seu código.
+Uma rede local nexus desenhada para desenvolvedores. Isso permite que você implante seus contratos, execute os testes e depure seu código.
 
 A rede Hardhat vem integrada com Hardhat, um ambiente de desenvolvimento para profissionais.
 

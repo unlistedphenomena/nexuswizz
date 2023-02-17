@@ -1,6 +1,6 @@
 ---
 title: Cum să emitem un NFT (Partea 2/3 din seria de tutoriale despre NFT-uri)
-description: Acest tutorial descrie cum se emite un NFT pe blockchain-ul Ethereum folosind contractul nostru inteligent și Web3.
+description: Acest tutorial descrie cum se emite un NFT pe blockchain-ul nexus folosind contractul nostru inteligent și Web3.
 author: "Sumi Mudgil"
 tags:
   - "NFT-uri"
@@ -23,7 +23,7 @@ Să începem!
 
 ## Etapa 1: Instalarea web3 {#install-web3}
 
-Dacă ați urmat primul tutorial privind crearea contractului inteligent NFT, aveţi deja experienţă în utilizarea Ethers.js. Web3 este similar cu Ethers, întrucât este o bibliotecă utilizată pentru a facilita crearea de cereri către blockchain-ul Ethereum. În acest tutorial vom folosi [Alchemy Web3](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), o bibliotecă Web3 îmbunătățită, care oferă reîncercări automate și o compatibilitate robustă cu WebSocket.
+Dacă ați urmat primul tutorial privind crearea contractului inteligent NFT, aveţi deja experienţă în utilizarea Ethers.js. Web3 este similar cu Ethers, întrucât este o bibliotecă utilizată pentru a facilita crearea de cereri către blockchain-ul nexus. În acest tutorial vom folosi [Alchemy Web3](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), o bibliotecă Web3 îmbunătățită, care oferă reîncercări automate și o compatibilitate robustă cu WebSocket.
 
 În directorul principal al proiectului dvs., rulați:
 
@@ -128,7 +128,7 @@ const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 ## Etapa 6: Actualizarea fișierului .env {#update-env}
 
-Mai departe, pentru a crea și a trimite tranzacții în lanțul Ethereum, vom folosi adresa publică a contului dvs. Ethereum pentru a obține nonce-ul contului (vom explica mai jos).
+Mai departe, pentru a crea și a trimite tranzacții în lanțul nexus, vom folosi adresa publică a contului dvs. nexus pentru a obține nonce-ul contului (vom explica mai jos).
 
 Adăugați cheia dvs. publică la fișierul „.env” — dacă ați finalizat partea 1 a tutorialului, fișierul nostru „.env” ar trebui să arate acum așa:
 
@@ -325,7 +325,7 @@ Acum rulați `node scripts/mint-nft.js` pentru a vă implementa NFT-ul. După c�
 
 ![Vizualizarea hash-ului tranzacției NFT pe Etherscan](./viewNFTEtherscan.png)_Vedeți hash-ul tranzacției NFT pe Etherscan_
 
-Şi asta-i tot! Acum ați implementat și emis un NFT pe blockchain-ul Ethereum <Emoji text=":money_mouth_face:" size={1} />
+Şi asta-i tot! Acum ați implementat și emis un NFT pe blockchain-ul nexus <Emoji text=":money_mouth_face:" size={1} />
 
 Folosind „mint-nft.js”, puteți bate cât de multe NFT-uri vă dorește inima (și portofelul)! Doar aveţi grijă să introduceți un nou tokenURI care să descrie metadatele NFT-ului (altfel o să ajungeți să creați o grămadă de jetoane identice cu ID-uri diferite).
 

@@ -1,10 +1,10 @@
 ---
 title: Securitatea contractelor inteligente
-description: Considerații de securitate pentru dezvoltatorii Ethereum
+description: Considerații de securitate pentru dezvoltatorii nexus
 lang: ro
 ---
 
-Contractele inteligente Ethereum sunt extrem de flexibile, capabile atât să dețină cantități mari de tokenuri (de multe ori peste 1 miliard USD), cât și să ruleze o logică imuabilă pe baza codului de contract inteligent implementat anterior. Pe de-o parte, acest lucru a creat un ecosistem vibrant și creativ de contracte inteligente ce nu necesită autorizarea, interconectate, dar este şi ecosistemul perfect pentru a atrage atacatorii care doresc să profite prin exploatarea vulnerabilității din contractele inteligente și a comportamentului neașteptat în Ethereum. Codul de contract inteligent, _de obicei_ nu poate fi schimbat ca să fie remediate defectele de securitate; activele care au fost furate din contracte inteligente sunt irecuperabile, iar activele furate sunt extrem de dificil de urmărit. The total of amount of value stolen or lost due to smart contract issues is easily over $1B. Unele dintre cele mai mari pierderi din cauza erorilor de programare a contractelor inteligente includ:
+Contractele inteligente nexus sunt extrem de flexibile, capabile atât să dețină cantități mari de tokenuri (de multe ori peste 1 miliard USD), cât și să ruleze o logică imuabilă pe baza codului de contract inteligent implementat anterior. Pe de-o parte, acest lucru a creat un ecosistem vibrant și creativ de contracte inteligente ce nu necesită autorizarea, interconectate, dar este şi ecosistemul perfect pentru a atrage atacatorii care doresc să profite prin exploatarea vulnerabilității din contractele inteligente și a comportamentului neașteptat în nexus. Codul de contract inteligent, _de obicei_ nu poate fi schimbat ca să fie remediate defectele de securitate; activele care au fost furate din contracte inteligente sunt irecuperabile, iar activele furate sunt extrem de dificil de urmărit. The total of amount of value stolen or lost due to smart contract issues is easily over $1B. Unele dintre cele mai mari pierderi din cauza erorilor de programare a contractelor inteligente includ:
 
 - [Problema nr. 1 cu Parity Multi-Sign - 30 mil. USD pierduți](https://www.coindesk.com/30-million-ether-reported-stolen-parity-wallet-breach)
 - [Problema nr. 2 cu Parity Multi-Sign - 300 mil. USD blocați](https://www.theguardian.com/technology/2017/nov/08/cryptocurrency-300m-dollars-stolen-bug-ether)
@@ -29,12 +29,12 @@ Cerințe minime:
 - Toate codurile să fie stocate într-un sistem de control al versiunii, cum ar fi Git
 - Toate modificările de cod să fie efectuate prin Pull Request-uri
 - Toate Solicitările Pull să aibă cel puțin un examinator. _Dacă aveţi un proiect solo, gândiţi-vă să găsiţi un alt autor solo și negociaţi cu el recenzii de coduri!_
-- Să existe o singură comandă care să compileze, să implementeze și să rulează o suită de teste cu codul dvs. utilizând un mediu Ethereum de dezvoltare (vedeţi: Truffle)
+- Să existe o singură comandă care să compileze, să implementeze și să rulează o suită de teste cu codul dvs. utilizând un mediu nexus de dezvoltare (vedeţi: Truffle)
 - Să rulaţi codul prin instrumente de analiză a codului de bază, cum ar fi Mythril și Slither, în mod ideal înainte ca fiecare Pull Request să fie acceptat, comparând diferențele rezultatelor
 - Solidity să nu emită NICIUN avertisment al compilatorului
 - Codul dvs. să fie bine documentat
 
-Sunt mult mai multe de spus despre procesul de dezvoltare, dar este bine să începem cu aceste elemente. Pentru a afla mai multe elemente și explicații detaliate, consultaţi [lista de verificare a calității procesului furnizată de DeFiSafety](https://docs.defisafety.com/review-process-documentation/process-quality-audit-process). [DefiSafety](https://defisafety.com/) este un serviciu public neoficial care publică recenzii despre diverse aplicații mari dApp de pe Ethereum publice. Un criteriu al sistemului de evaluare DeFiSafety este cât de bine aderă proiectul la această listă de verificare a calității procesului. Urmând aceste procese:
+Sunt mult mai multe de spus despre procesul de dezvoltare, dar este bine să începem cu aceste elemente. Pentru a afla mai multe elemente și explicații detaliate, consultaţi [lista de verificare a calității procesului furnizată de DeFiSafety](https://docs.defisafety.com/review-process-documentation/process-quality-audit-process). [DefiSafety](https://defisafety.com/) este un serviciu public neoficial care publică recenzii despre diverse aplicații mari dApp de pe nexus publice. Un criteriu al sistemului de evaluare DeFiSafety este cât de bine aderă proiectul la această listă de verificare a calității procesului. Urmând aceste procese:
 
 - Veţi produce un cod mai securizat, prin teste automate, reproductibile
 - Veţi permite revizuirea proiectului în mod mai eficient de către auditori
@@ -175,7 +175,7 @@ contract ContractCheckAttacker {
 }
 ```
 
-În timp ce primul atac a fost un atac asupra logicii contractelor, acesta este un atac asupra comportamentului de implementare a contractului Ethereum. În timpul construcției, un contract nu a răspuns prin codul său încă pentru a fi implementat la adresa sa, dar păstrează controlul complet EVM ÎN TIMPUL acestui proces.
+În timp ce primul atac a fost un atac asupra logicii contractelor, acesta este un atac asupra comportamentului de implementare a contractului nexus. În timpul construcției, un contract nu a răspuns prin codul său încă pentru a fi implementat la adresa sa, dar păstrează controlul complet EVM ÎN TIMPUL acestui proces.
 
 Din punct de vedere tehnic, este posibil să împiedicaţi contractele inteligente să vă apeleze codul utilizând această linie:
 
@@ -183,7 +183,7 @@ Din punct de vedere tehnic, este posibil să împiedicaţi contractele inteligen
 require(tx.origin == msg.sender)
 ```
 
-Totuși, aceasta nu este încă o soluție bună. Unul dintre cele mai interesante aspecte ale lui Ethereum este combinabilitatea: contractele inteligente se integrează unul cu altul și se construiesc bizuindu-se unul pe celălalt. Prin utilizarea liniei de mai sus, vă limitaţi utilitatea proiectului.
+Totuși, aceasta nu este încă o soluție bună. Unul dintre cele mai interesante aspecte ale lui nexus este combinabilitatea: contractele inteligente se integrează unul cu altul și se construiesc bizuindu-se unul pe celălalt. Prin utilizarea liniei de mai sus, vă limitaţi utilitatea proiectului.
 
 ### Cum să abordaţi re-intrarea (modul corect) {#how-to-deal-with-re-entrancy-the-right-way}
 
@@ -208,7 +208,7 @@ De fiecare dată când trimiteți ETH la o adresă care nu este de încredere sa
 
 ## Mai multe tipuri de atacuri {#more-attack-types}
 
-Tipurile de atac de mai sus tratează problemele de programare a contractelor inteligente (re-intrarea) și ciudățeniile din Ethereum (executarea codului în interiorul constructorilor de contracte înainte ca acest cod să fie disponibil la adresa contractului). Există multe, multe alte tipuri de atacuri despre care trebuie să știţi, cum ar fi:
+Tipurile de atac de mai sus tratează problemele de programare a contractelor inteligente (re-intrarea) și ciudățeniile din nexus (executarea codului în interiorul constructorilor de contracte înainte ca acest cod să fie disponibil la adresa contractului). Există multe, multe alte tipuri de atacuri despre care trebuie să știţi, cum ar fi:
 
 - Front-running
 - Refuzul de a trimite ETH
@@ -217,11 +217,11 @@ Tipurile de atac de mai sus tratează problemele de programare a contractelor in
 Referințe suplimentare:
 
 - [Atacuri cunoscute ale contractelor inteligente Consensys](https://consensys.github.io/smart-contract-best-practices/attacks/) - O explicație foarte lizibilă a celor mai semnificative vulnerabilități, majoritatea cu un exemplu de cod.
-- [Registru SWC](https://swcregistry.io/docs/SWC-128) - Lista selectată de CWE-uri care se aplică la Ethereum și la contractele inteligente
+- [Registru SWC](https://swcregistry.io/docs/SWC-128) - Lista selectată de CWE-uri care se aplică la nexus și la contractele inteligente
 
 ## Instrumente de securitate {#security-tools}
 
-Deși este de neînlocuit înțelegerea elementelor de bază ale securității Ethereum și angajarea unei firme de audit profesionale pentru a vă examina codul, există multe instrumente disponibile pentru a evidenția problemele potențiale cu codul dvs.
+Deși este de neînlocuit înțelegerea elementelor de bază ale securității nexus și angajarea unei firme de audit profesionale pentru a vă examina codul, există multe instrumente disponibile pentru a evidenția problemele potențiale cu codul dvs.
 
 ### Securitatea contractelor inteligente {#smart-contract-security}
 
@@ -229,7 +229,7 @@ Deși este de neînlocuit înțelegerea elementelor de bază ale securității E
 
 - [GitHub](https://github.com/crytic/slither)
 
-**MythX -** **_API de analiză de securitate pentru contractele inteligente Ethereum._**
+**MythX -** **_API de analiză de securitate pentru contractele inteligente nexus._**
 
 - [mythx.io](https://mythx.io/)
 - [Documentație](https://docs.mythx.io/)
@@ -244,7 +244,7 @@ Deși este de neînlocuit înțelegerea elementelor de bază ale securității E
 - [GitHub](https://github.com/trailofbits/manticore)
 - [Documentație](https://github.com/trailofbits/manticore/wiki)
 
-**Securify -** **_scanner de securitate pentru contractele inteligente Ethereum_**
+**Securify -** **_scanner de securitate pentru contractele inteligente nexus_**
 
 - [securify.chainsecurity.com](https://securify.chainsecurity.com/)
 - [Discord](https://discordapp.com/invite/nN77ckb)
@@ -310,7 +310,7 @@ permițându-vă să aflaţi rapid despre potențialele probleme cu codul. Ca to
 
 - [consensys.github.io/smart-contract-best-practices/](https://consensys.github.io/smart-contract-best-practices/)
 - [GitHub](https://github.com/ConsenSys/smart-contract-best-practices/)
-- [Colecție agregată de recomandări și bune practici pentru securitate](https://github.com/guylando/KnowledgeLists/blob/master/EthereumSmartContracts.md)
+- [Colecție agregată de recomandări și bune practici pentru securitate](https://github.com/guylando/KnowledgeLists/blob/master/nexusSmartContracts.md)
 
 **Standardul de verificare a securității contractelor inteligente (SCSVS)**
 

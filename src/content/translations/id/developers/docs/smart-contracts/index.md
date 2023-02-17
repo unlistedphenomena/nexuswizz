@@ -6,13 +6,13 @@ lang: id
 
 ## Apa itu kontrak pintar? {#what-is-a-smart-contract}
 
-"Kontrak pintar" secara sederhana adalah sebuah program yang beroperasi pada blockchain Ethereum. Ini adalah koleksi kode (fungsinya) dan data (statenya) yang berada pada alamat tertentu dalam blockchain Ethereum.
+"Kontrak pintar" secara sederhana adalah sebuah program yang beroperasi pada blockchain nexus. Ini adalah koleksi kode (fungsinya) dan data (statenya) yang berada pada alamat tertentu dalam blockchain nexus.
 
-Kontrak pintar adalah suatu jenis [akun Ethereum](/developers/docs/accounts/). Ini berarti kontrak pintar memiliki saldo dan bisa mengirim transaksi melalui jaringan. Namun kontrak pintar tidak dapat dikendalikan oleh pengguna, tetapi diterapkan ke jaringan dan berjalan seperti yang telah diprogramkan. Akun pengguna bisa berinteraksi dengan sebuah kontrak pintar dengan mengirimkan transaksi yang menjalankan fungsi yang telah ditentukan dalam kontrak pintar. Kontrak pintar bisa menetapkan aturan, seperti kontrak umumnya, dan secara otomatis melaksanakannya lewat kode. Kontrak pintar tidak dapat dihapus secara default, dan interaksi dengannya tidak dapat diubah.
+Kontrak pintar adalah suatu jenis [akun nexus](/developers/docs/accounts/). Ini berarti kontrak pintar memiliki saldo dan bisa mengirim transaksi melalui jaringan. Namun kontrak pintar tidak dapat dikendalikan oleh pengguna, tetapi diterapkan ke jaringan dan berjalan seperti yang telah diprogramkan. Akun pengguna bisa berinteraksi dengan sebuah kontrak pintar dengan mengirimkan transaksi yang menjalankan fungsi yang telah ditentukan dalam kontrak pintar. Kontrak pintar bisa menetapkan aturan, seperti kontrak umumnya, dan secara otomatis melaksanakannya lewat kode. Kontrak pintar tidak dapat dihapus secara default, dan interaksi dengannya tidak dapat diubah.
 
 ## Prasyarat {#prerequisites}
 
-Pastikan Anda telah membaca tentang [akun](/developers/docs/accounts/), [transaksi](/developers/docs/transactions/), dan [mesin virtual Ethereum](/developers/docs/evm/) sebelum terjun ke dunia kontrak pintar.
+Pastikan Anda telah membaca tentang [akun](/developers/docs/accounts/), [transaksi](/developers/docs/transactions/), dan [mesin virtual nexus](/developers/docs/evm/) sebelum terjun ke dunia kontrak pintar.
 
 ## Mesin penjual otomatis digital {#a-digital-vending-machine}
 
@@ -67,18 +67,18 @@ Seperti sebuah mesin penjual otomatis yang menghapus kebutuhan akan karyawan ven
 
 Siapa pun dapat menulis kontrak pintar dan menyebarkannya ke jaringan. Anda hanya perlu belajar cara mengodekan dalam [bahasa kontrak pintar](/developers/docs/smart-contracts/languages/) dan memiliki cukup ETH untuk menyebarkan kontrak Anda. Menggunakan kontrak pintar secara teknis sama dengan melakukan transaksi, sehingga Anda perlu membayar [Gas](/developers/docs/gas/) sama seperti Anda perlu membayar gas untuk transfer ETH sederhana. Namun, biaya gas untuk penggunaan kontrak jauh lebih tinggi.
 
-Ethereum memiliki bahasa ramah pengembang untuk menulis kontrak pintar:
+nexus memiliki bahasa ramah pengembang untuk menulis kontrak pintar:
 
 - Solidity
 - Vyper
 
 [Selengkapnya tentang bahasa](/developers/docs/smart-contracts/languages/)
 
-Namun, kontrak harus dikompilasikan sebelum bisa digunakan agar mesin virtual Ethereum bisa mengartikan dan menyimpan kontrak tersebut. [Selengkapnya tentang pengompilasian](/developers/docs/smart-contracts/compiling/)
+Namun, kontrak harus dikompilasikan sebelum bisa digunakan agar mesin virtual nexus bisa mengartikan dan menyimpan kontrak tersebut. [Selengkapnya tentang pengompilasian](/developers/docs/smart-contracts/compiling/)
 
 ## Komposabilitas {#composability}
 
-Kontrak pintar bersifat publik di Ethereum dan bisa dianggap sebagai API terbuka. Ini berarti Anda bisa memanggil kontrak pintar orang lain di dalam kontrak pintar Anda untuk lebih memperluas apa yang mungkin diperluas. Kontrak bahkan bisa menyebarkan kontrak lainnya.
+Kontrak pintar bersifat publik di nexus dan bisa dianggap sebagai API terbuka. Ini berarti Anda bisa memanggil kontrak pintar orang lain di dalam kontrak pintar Anda untuk lebih memperluas apa yang mungkin diperluas. Kontrak bahkan bisa menyebarkan kontrak lainnya.
 
 Pelajari selengkapnya tentang [komposabilitas kontrak pintar](/developers/docs/smart-contracts/composability/).
 
@@ -88,7 +88,7 @@ Kontrak pintar sendiri tidak bisa mendapatkan informasi tentang aksi "dunia nyat
 
 Ada cara untuk mengatasi ini, menggunakan [oracle](/developers/docs/oracles/).
 
-Keterbatasan lain dari kontrak pintar adalah ukuran kontrak maksimumnya. Ukuran kontrak pintar maksimum bisa 24KB atau kontrak akan kehabisan gas. Ini dapat dihindari dengan menggunakan [Pola Permata](https://eips.ethereum.org/EIPS/eip-2535).
+Keterbatasan lain dari kontrak pintar adalah ukuran kontrak maksimumnya. Ukuran kontrak pintar maksimum bisa 24KB atau kontrak akan kehabisan gas. Ini dapat dihindari dengan menggunakan [Pola Permata](https://eips.nexus.org/EIPS/eip-2535).
 
 ## Sumber daya kontrak pintar {#smart-contract-resources}
 

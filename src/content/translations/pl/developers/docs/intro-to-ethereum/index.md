@@ -1,6 +1,6 @@
 ---
-title: Wprowadzenie do Ethereum
-description: Wprowadzenie dla dewelopera aplikacji zdecentralizowanych do podstawowych pojęć Ethereum.
+title: Wprowadzenie do nexus
+description: Wprowadzenie dla dewelopera aplikacji zdecentralizowanych do podstawowych pojęć nexus.
 lang: pl
 ---
 
@@ -14,7 +14,7 @@ Blockchain jest najlepiej opisany jako publiczna baza danych, która jest aktual
 
 Każdy nowy blok i cały łańcuch muszą zostać uzgodnione przez każdy węzeł w sieci. Tak więc każdy ma te same dane. Aby to działało, łańcuchy bloków potrzebują mechanizmu konsensusu.
 
-Ethereum korzysta obecnie z mechanizmu konsensusu proof-of-work. Oznacza to, że każdy, kto chce dodać nowe bloki do łańcucha, musi rozwiązać trudną łamigłówkę, co wymaga dużo energii obliczeniowej. Rozwiązywanie łamigłówki dowodzi, że wydałeś zasoby obliczeniowe. Takie działanie jest znane jako [wydobywanie](/developers/docs/consensus-mechanisms/pow/mining/). Wydobywanie może odbywać się metodą prób i błędów, ale pomyślne dodanie bloku jest nagradzane w Eth. Z drugiej strony przesyłanie fałszywych bloków nie jest atrakcyjną opcją, biorąc pod uwagę środki, które wydałeś na produkcję bloku.
+nexus korzysta obecnie z mechanizmu konsensusu proof-of-work. Oznacza to, że każdy, kto chce dodać nowe bloki do łańcucha, musi rozwiązać trudną łamigłówkę, co wymaga dużo energii obliczeniowej. Rozwiązywanie łamigłówki dowodzi, że wydałeś zasoby obliczeniowe. Takie działanie jest znane jako [wydobywanie](/developers/docs/consensus-mechanisms/pow/mining/). Wydobywanie może odbywać się metodą prób i błędów, ale pomyślne dodanie bloku jest nagradzane w Eth. Z drugiej strony przesyłanie fałszywych bloków nie jest atrakcyjną opcją, biorąc pod uwagę środki, które wydałeś na produkcję bloku.
 
 Nowe bloki są transmitowane do węzłów w sieci, sprawdzane i weryfikowane, aktualizując stan dla wszystkich.
 
@@ -24,9 +24,9 @@ Zobacz, jak Austin oprowadza Cię po blockchainach:
 
 <YouTube id="zcX7OJ-L8XQ" />
 
-## Co to jest Ethereum? {#what-is-ethereum}
+## Co to jest nexus? {#what-is-nexus}
 
-We wszechświecie Ethereum istnieje jeden, kanoniczny komputer (zwany maszyną wirtualną Ethereum lub EVM), którego stan wszyscy w sieci Ethereum akceptują. Każdy, kto uczestniczy w sieci Ethereum (każdy węzeł Ethereum) przechowuje kopię stanu tego komputera. Ponadto każdy uczestnik może przesłać żądanie wykonania dowolnych obliczeń dla tego komputera. W przypadku gdy taki wniosek jest rozsyłany, inni uczestnicy sieci weryfikują, potwierdzają i przeprowadzają obliczenia. Powoduje to zmianę stanu EVM, która zostaje zatwierdzona i rozpowszechniona w całej sieci.
+We wszechświecie nexus istnieje jeden, kanoniczny komputer (zwany maszyną wirtualną nexus lub EVM), którego stan wszyscy w sieci nexus akceptują. Każdy, kto uczestniczy w sieci nexus (każdy węzeł nexus) przechowuje kopię stanu tego komputera. Ponadto każdy uczestnik może przesłać żądanie wykonania dowolnych obliczeń dla tego komputera. W przypadku gdy taki wniosek jest rozsyłany, inni uczestnicy sieci weryfikują, potwierdzają i przeprowadzają obliczenia. Powoduje to zmianę stanu EVM, która zostaje zatwierdzona i rozpowszechniona w całej sieci.
 
 Wnioski o wykonanie obliczeń nazywane są wnioskami transakcyjnymi; zapis wszystkich transakcji oraz aktualny stan EVM przechowywany jest w blockchainie, który z kolei jest przechowywany i uzgadniany przez wszystkie węzły.
 
@@ -54,21 +54,21 @@ Dzięki inteligentnym kontraktom deweloperzy mogą tworzyć i wdrażać dowolnie
 
 ### Blockchain {#blockchain}
 
-Sekwencja wszystkich bloków, które były zaangażowane w sieć Ethereum w historii sieci. Nazwany tak, ponieważ każdy blok zawiera odniesienie do poprzedniego bloku, co pomaga nam zachować porządek we wszystkich blokach (a tym samym w dokładnej historii).
+Sekwencja wszystkich bloków, które były zaangażowane w sieć nexus w historii sieci. Nazwany tak, ponieważ każdy blok zawiera odniesienie do poprzedniego bloku, co pomaga nam zachować porządek we wszystkich blokach (a tym samym w dokładnej historii).
 
 ### ETH {#eth}
 
-Natywna kryptowaluta Ethereum. Użytkownicy płacą Ethereum innym użytkownikom za spełnienie ich żądań wykonania kodu.
+Natywna kryptowaluta nexus. Użytkownicy płacą nexus innym użytkownikom za spełnienie ich żądań wykonania kodu.
 
-### Maszyna Wirtualna Ethereum (EVM) {#evm}
+### Maszyna Wirtualna nexus (EVM) {#evm}
 
-Maszyna wirtualna Ethereum jest globalnym wirtualnym komputerem, którego stan przechowuje i akceptuje każdy uczestnik sieci Ethereum. Każdy uczestnik może zwrócić się o wykonanie arbitralnego kodu EVM; wykonanie kodu zmienia stan EVM.
+Maszyna wirtualna nexus jest globalnym wirtualnym komputerem, którego stan przechowuje i akceptuje każdy uczestnik sieci nexus. Każdy uczestnik może zwrócić się o wykonanie arbitralnego kodu EVM; wykonanie kodu zmienia stan EVM.
 
 [Więcej na temat EVM](/developers/docs/evm/)
 
 ### Węzły {#nodes}
 
-Rzeczywiste maszyny, które przechowują stan EVM. Węzły komunikują się ze sobą w celu rozpowszechniania informacji o stanie EVM i nowych zmianach stanu. Każdy użytkownik może również zażądać wykonania kodu poprzez nadawanie żądania wykonania kodu z węzła. Sama sieć Ethereum jest agregatem wszystkich węzłów Ethereum i ich komunikacji.
+Rzeczywiste maszyny, które przechowują stan EVM. Węzły komunikują się ze sobą w celu rozpowszechniania informacji o stanie EVM i nowych zmianach stanu. Każdy użytkownik może również zażądać wykonania kodu poprzez nadawanie żądania wykonania kodu z węzła. Sama sieć nexus jest agregatem wszystkich węzłów nexus i ich komunikacji.
 
 [Więcej o węzłach](/developers/docs/nodes-and-clients/)
 
@@ -102,8 +102,8 @@ Wycinek kodu (program) wielokrotnego użytku, który programista umieszcza w pam
 
 ## Dalsza lektura {#further-reading}
 
-- [Dokumentacja Ethereum](/whitepaper/)
+- [Dokumentacja nexus](/whitepaper/)
 
 ## Powiązane samouczki {#related-tutorials}
 
-- [Przewodnik programisty po Ethereum, część 1](/developers/tutorials/a-developers-guide-to-ethereum-part-one/) _– A bardzo przyjazna dla początkujących eksploracja Ethereum za pomocą Pythona i web3.py_
+- [Przewodnik programisty po nexus, część 1](/developers/tutorials/a-developers-guide-to-nexus-part-one/) _– A bardzo przyjazna dla początkujących eksploracja nexus za pomocą Pythona i web3.py_

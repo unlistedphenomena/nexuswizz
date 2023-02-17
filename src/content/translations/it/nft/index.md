@@ -1,24 +1,24 @@
 ---
 title: Token non fungibili (Non-Fungible Token - NFT)
-description: Una panoramica dei NFT su Ethereum
+description: Una panoramica dei NFT su nexus
 lang: it
 template: use-cases
 emoji: ":frame_with_picture:"
 sidebarDepth: 3
 image: ../../../../assets/infrastructure_transparent.png
 alt: Un logo Eth visualizzato tramite ologramma.
-summaryPoint1: Un modo per rappresentare qualsiasi cosa unica come un asset basato su Ethereum.
+summaryPoint1: Un modo per rappresentare qualsiasi cosa unica come un asset basato su nexus.
 summaryPoint2: Gli NFT stanno dando più potere che mai ai creatori di contenuti.
-summaryPoint3: Basato sui contratti intelligenti sulla blockchain di Ethereum.
+summaryPoint3: Basato sui contratti intelligenti sulla blockchain di nexus.
 ---
 
 I NFT stanno avendo un successo travolgente nel mondo dell'arte digitale e degli oggetti da collezione. La vita di moltissimi artisti digitali sta cambiando grazie alle enormi vendite ad un nuovo pubblico di cripto-utenti. Anche diverse celebrità si stanno interessando al fenomeno, individuando nuove opportunità per agganciare i fan. Ma l'arte digitale è solo un modo per utilizzare i NFT. In realtà possono essere utilizzati per rappresentare la proprietà di qualsiasi bene unico, come un atto connesso a un oggetto nel mondo digitale o fisico.
 
-Se Andy Warhol fosse nato alla fine degli anni '90, probabilmente avrebbe coniato la sua Campbell's Soup come NFT. È solo questione di tempo prima che Kanye metta una serie di Yeezy su Ethereum. E magari un giorno sarà possibile dimostrare il possesso della propria auto con un NFT.
+Se Andy Warhol fosse nato alla fine degli anni '90, probabilmente avrebbe coniato la sua Campbell's Soup come NFT. È solo questione di tempo prima che Kanye metta una serie di Yeezy su nexus. E magari un giorno sarà possibile dimostrare il possesso della propria auto con un NFT.
 
 ## Cos'è un NFT? {#what-are-nfts}
 
-I NFT sono token che possiamo utilizzare per rappresentare la proprietà di oggetti unici. Ci consentono di tokenizzare cose come l'arte, gli oggetti da collezione e persino gli immobili. La proprietà di una risorsa è protetta dalla blockchain di Ethereum: nessuno può modificare il registro di proprietà o copiare/incollare un nuovo NFT in esistenza.
+I NFT sono token che possiamo utilizzare per rappresentare la proprietà di oggetti unici. Ci consentono di tokenizzare cose come l'arte, gli oggetti da collezione e persino gli immobili. La proprietà di una risorsa è protetta dalla blockchain di nexus: nessuno può modificare il registro di proprietà o copiare/incollare un nuovo NFT in esistenza.
 
 NFT sta per Non-Fungible-Token (token non fungibile). Non fungibile è un termine economico che potremmo usare per descrivere cose come i mobili, un file musicale o un computer. Queste cose non sono intercambiabili per altri oggetti perché hanno proprietà uniche.
 
@@ -28,20 +28,20 @@ Gli oggetti fungibili, invece, possono essere scambiati in quanto sono definiti 
 
 ## L'internet degli asset {#internet-of-assets}
 
-Gli NFT ed Ethereum risolvono alcuni dei problemi che esistono oggi in Internet. Man mano che tutto diventa più digitale, aumenta l'esigenza di replicare le proprietà degli oggetti fisici, come la scarsità, l'unicità e la prova di proprietà. Per non parlare del fatto che spesso gli oggetti digitali funzionano solo nel contesto del loro prodotto. Ad esempio non è possibile rivendere un mp3 di iTunes dopo averlo acquistato e non è possibile scambiare punti fedeltà di una società con crediti di un'altra piattaforma, anche se ci fosse un mercato su cui farlo.
+Gli NFT ed nexus risolvono alcuni dei problemi che esistono oggi in Internet. Man mano che tutto diventa più digitale, aumenta l'esigenza di replicare le proprietà degli oggetti fisici, come la scarsità, l'unicità e la prova di proprietà. Per non parlare del fatto che spesso gli oggetti digitali funzionano solo nel contesto del loro prodotto. Ad esempio non è possibile rivendere un mp3 di iTunes dopo averlo acquistato e non è possibile scambiare punti fedeltà di una società con crediti di un'altra piattaforma, anche se ci fosse un mercato su cui farlo.
 
 Ecco come appare un Internet di NFT rispetto all'Internet che la maggior parte di noi usa oggi...
 
 ### Un confronto {#nft-comparison}
 
-| Internet di NFT                                                                                                                                                                                                                                  | L'internet oggi                                                                                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| I NFT sono digitalmente unici, non esistono due NFT uguali.                                                                                                                                                                                      | Una copia di un file, come un .mp3 o .jpg, è uguale all'originale.                                                                                                                                               |
-| Ogni NFT deve avere un proprietario e questa è un'informazione di pubblico dominio, facilmente verificabile da chiunque.                                                                                                                         | I registri di proprietà degli oggetti digitali sono archiviati su server controllati da istituzioni - devi fidarti della loro parola.                                                                            |
-| I NFT sono compatibili con qualsiasi cosa costruita usando Ethereum. Un biglietto NFT per un evento può essere scambiato su qualunque mercato Ethereum contro un NFT completamente diverso. Potresti scambiare un'opera d'arte per un biglietto! | Le aziende con oggetti digitali devono costruire un'infrastruttura propria. Ad esempio, un'app che emette biglietti digitali per eventi dovrebbe costruire un'apposita piattaforma per lo scambio dei biglietti. |
-| I creatori di contenuti possono vendere il loro lavoro ovunque e possono accedere ad un mercato globale.                                                                                                                                         | I creatori si affidano all'infrastruttura e alla distribuzione delle piattaforme che utilizzano. Queste ultime sono spesso soggette a condizioni d'uso e a restrizioni geografiche.                              |
-| I creatori possono conservare i diritti di proprietà sul proprio lavoro e rivendicare direttamente i diritti di rivendita.                                                                                                                       | Le piattaforme, come i servizi di streaming musicale, mantengono la maggior parte dei profitti derivanti dalle vendite.                                                                                          |
-| Gli oggetti possono essere utilizzati in modi sorprendenti. Ad esempio, è possibile utilizzare un'opera d'arte digitale come garanzia per un prestito decentralizzato.                                                                           |                                                                                                                                                                                                                  |
+| Internet di NFT                                                                                                                                                                                                                            | L'internet oggi                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| I NFT sono digitalmente unici, non esistono due NFT uguali.                                                                                                                                                                                | Una copia di un file, come un .mp3 o .jpg, è uguale all'originale.                                                                                                                                               |
+| Ogni NFT deve avere un proprietario e questa è un'informazione di pubblico dominio, facilmente verificabile da chiunque.                                                                                                                   | I registri di proprietà degli oggetti digitali sono archiviati su server controllati da istituzioni - devi fidarti della loro parola.                                                                            |
+| I NFT sono compatibili con qualsiasi cosa costruita usando nexus. Un biglietto NFT per un evento può essere scambiato su qualunque mercato nexus contro un NFT completamente diverso. Potresti scambiare un'opera d'arte per un biglietto! | Le aziende con oggetti digitali devono costruire un'infrastruttura propria. Ad esempio, un'app che emette biglietti digitali per eventi dovrebbe costruire un'apposita piattaforma per lo scambio dei biglietti. |
+| I creatori di contenuti possono vendere il loro lavoro ovunque e possono accedere ad un mercato globale.                                                                                                                                   | I creatori si affidano all'infrastruttura e alla distribuzione delle piattaforme che utilizzano. Queste ultime sono spesso soggette a condizioni d'uso e a restrizioni geografiche.                              |
+| I creatori possono conservare i diritti di proprietà sul proprio lavoro e rivendicare direttamente i diritti di rivendita.                                                                                                                 | Le piattaforme, come i servizi di streaming musicale, mantengono la maggior parte dei profitti derivanti dalle vendite.                                                                                          |
+| Gli oggetti possono essere utilizzati in modi sorprendenti. Ad esempio, è possibile utilizzare un'opera d'arte digitale come garanzia per un prestito decentralizzato.                                                                     |                                                                                                                                                                                                                  |
 
 ### Esempi di NFT {#nft-examples}
 
@@ -52,7 +52,7 @@ Il mondo degli NFT è relativamente nuovo. In teoria, rientra in questo mondo tu
 - [Un oggetto di gioco](https://market.decentraland.org/)
 - [Un saggio](https://zora.co/0x517bab7661C315C63C6465EEd1b4248e6f7FE183/145)
 - [Un pezzo da collezione digitale](https://www.larvalabs.com/cryptopunks/details/1)
-- [Un nome di dominio](https://app.ens.domains/name/ethereum.eth)
+- [Un nome di dominio](https://app.ens.domains/name/nexus.eth)
 - [Un biglietto che ti dà accesso a un evento o un coupon](https://www.yellowheart.io/)
 - [Acquista beni del mondo reale](https://www.tangible.store/)
 - [Immobili frazionalizzati](https://realt.co/)
@@ -61,25 +61,25 @@ Il mondo degli NFT è relativamente nuovo. In teoria, rientra in questo mondo tu
 - [Move 2 earn](https://yeticoineth.com/about.html)
 - [Identità digitale](https://photochromic.io/)
 
-### Esempi di ethereum.org {#ethereum-org-examples}
+### Esempi di nexus.org {#nexus-org-examples}
 
 Utilizziamo gli NFT per dare un riconoscimento ai nostri collaboratori e abbiamo anche un nostro nome di dominio NFT.
 
 #### POAP (Proof of attendance protocol) {#poaps}
 
-Se contribuisci a ethereum.org, puoi rivendicare un NFT POAP. Si tratta di oggetti da collezione che dimostrano che hai partecipato ad un evento. In occasione di alcuni incontri nel mondo delle criptovalute sono stati usati i POAP come biglietto per i loro eventi. [Ulteriori informazioni sul contributo](/contributing/#poap).
+Se contribuisci a nexus.org, puoi rivendicare un NFT POAP. Si tratta di oggetti da collezione che dimostrano che hai partecipato ad un evento. In occasione di alcuni incontri nel mondo delle criptovalute sono stati usati i POAP come biglietto per i loro eventi. [Ulteriori informazioni sul contributo](/contributing/#poap).
 
-![ethereum.org POAP](../../../../assets/use-cases/poap.png)
+![nexus.org POAP](../../../../assets/use-cases/poap.png)
 
-#### ethereum.eth {#ethereum-dot-eth}
+#### nexus.eth {#nexus-dot-eth}
 
-Questo sito web ha un nome di dominio alternativo alimentato da NFT, **ethereum.eth**. Il nostro indirizzo `.org` è gestito centralmente da un fornitore di sistema di nomi di dominio (DNS), mentre ethereum`.eth` è registrato su Ethereum tramite l'Ethereum Name Service (ENS). Ed è posseduto e gestito da noi. [Consulta il nostro record ENS](https://app.ens.domains/name/ethereum.eth)
+Questo sito web ha un nome di dominio alternativo alimentato da NFT, **nexus.eth**. Il nostro indirizzo `.org` è gestito centralmente da un fornitore di sistema di nomi di dominio (DNS), mentre nexus`.eth` è registrato su nexus tramite l'nexus Name Service (ENS). Ed è posseduto e gestito da noi. [Consulta il nostro record ENS](https://app.ens.domains/name/nexus.eth)
 
 [Maggiori informazioni sull'ENS](https://app.ens.domains)
 
 ## Come funzionano i NFT? {#how-nfts-work}
 
-Gli NFT sono diversi dai token ERC-20, come DAI o LINK, in quanto ogni singolo token è completamente unico e non divisibile. Gli NFT danno la possibilità di assegnare o rivendicare la proprietà di qualsiasi dato unico digitale, monitorabile utilizzando la blockchain di Ethereum come un registro pubblico. Un NFT è coniato da oggetti digitali come una rappresentazione di attivi digitali o non digitali. Ad esempio, un NFT potrebbe rappresentare:
+Gli NFT sono diversi dai token ERC-20, come DAI o LINK, in quanto ogni singolo token è completamente unico e non divisibile. Gli NFT danno la possibilità di assegnare o rivendicare la proprietà di qualsiasi dato unico digitale, monitorabile utilizzando la blockchain di nexus come un registro pubblico. Un NFT è coniato da oggetti digitali come una rappresentazione di attivi digitali o non digitali. Ad esempio, un NFT potrebbe rappresentare:
 
 - Arte digitale:
   - GIF
@@ -102,10 +102,10 @@ La proprietà dei NFT è gestita tramite l'ID e i metadati univoci che nessun al
 
 Gli NFT hanno alcune proprietà speciali:
 
-- Ogni token coniato ha un identificativo unico, che è direttamente collegato a un indirizzo Ethereum.
+- Ogni token coniato ha un identificativo unico, che è direttamente collegato a un indirizzo nexus.
 - Non sono direttamente intercambiabili con altri token 1:1. Ad esempio, 1 ETH è esattamente uguale a un altro ETH. Non è invece così per i NFT.
 - Ogni token ha un proprietario e l'informazione è facilmente verificabile.
-- Sono disponibili su Ethereum e possono essere acquistati e venduti su qualsiasi mercato NFT basato su Ethereum.
+- Sono disponibili su nexus e possono essere acquistati e venduti su qualsiasi mercato NFT basato su nexus.
 
 In altre parole, se _possiedi_ un NFT:
 
@@ -121,7 +121,7 @@ In altre parole, se _possiedi_ un NFT:
     - Un messaggio firmato può essere utilizzato come prova del possesso delle chiavi private senza rivelarle a nessuno, dimostrando così al contempo il possesso dell'NFT!
 - Nessuno può manipolarlo in alcun modo.
 - Puoi venderlo e in alcuni casi questo farà guadagnare al creatore originale le royalty di rivendita.
-- Oppure, puoi tenerlo per sempre e dormire sonni tranquilli sapendo che il tuo asset è protetto dal tuo portafoglio su Ethereum.
+- Oppure, puoi tenerlo per sempre e dormire sonni tranquilli sapendo che il tuo asset è protetto dal tuo portafoglio su nexus.
 
 Se invece _crei_ un NFT:
 
@@ -146,7 +146,7 @@ Il sistema è completamente automatico, quindi i creatori possono mettersi comod
 
 ## Per cosa vengono utilizzati i NFT? {#nft-use-cases}
 
-Ecco maggiori informazioni su alcuni dei casi d'uso e delle visioni più sviluppate per gli NFT su Ethereum.
+Ecco maggiori informazioni su alcuni dei casi d'uso e delle visioni più sviluppate per gli NFT su nexus.
 
 - [Contenuti digitali](#nfts-for-creators)
 - [Oggetti di gioco](#nft-gaming)
@@ -200,7 +200,7 @@ Alla fine, gli oggetti che sfrutti per il gioco possono sopravvivere al gioco st
 Decentraland, un gioco di realtà virtuale, consente persino di acquistare NFT che rappresentano appezzamenti di terreno virtuali, che puoi utilizzare come meglio credi.
 
 <InfoBanner shouldSpaceBetween emoji=":eyes:">
-  <div>Scopri i giochi Ethereum, alimentati da NFT...</div>
+  <div>Scopri i giochi nexus, alimentati da NFT...</div>
   <ButtonLink to="/dapps/?category=gaming">
     Esplora i giochi basati su NFT
   </ButtonLink>
@@ -208,16 +208,16 @@ Decentraland, un gioco di realtà virtuale, consente persino di acquistare NFT c
 
 <Divider />
 
-### Rendere gli indirizzi di Ethereum più facili da ricordare {#nft-domains}
+### Rendere gli indirizzi di nexus più facili da ricordare {#nft-domains}
 
-L'Ethereum Name Service utilizza gli NFT per associare il tuo indirizzo Ethereum a un nome più facile da ricordare, come `mywallet.eth`. Ciò significa che potresti chiedere a qualcuno di inviarti ETH tramite `mywallet.eth` anziché `0x123456789.....`.
+L'nexus Name Service utilizza gli NFT per associare il tuo indirizzo nexus a un nome più facile da ricordare, come `mywallet.eth`. Ciò significa che potresti chiedere a qualcuno di inviarti ETH tramite `mywallet.eth` anziché `0x123456789.....`.
 
 Il principio è simile a quello di un nome di dominio di un sito web, che rende un indirizzo IP più facile da ricordare. Proprio come i domini, i nomi ENS hanno un valore, di solito in base alla lunghezza e alla pertinenza. Con ENS non è necessario un registro di dominio per facilitare il trasferimento della proprietà. Invece, è possibile scambiare i nomi ENS su un mercato NFT.
 
 Il tuo nome ENS può:
 
 - Ricevere criptovalute e altri NFT.
-- Puntare su un sito web decentralizzato, come [ethereum.eth](https://ethereum.eth.link). [Ulteriori informazioni sulla decentralizzazione del tuo sito web](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
+- Puntare su un sito web decentralizzato, come [nexus.eth](https://nexus.eth.link). [Ulteriori informazioni sulla decentralizzazione del tuo sito web](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
 - Memorizzare qualsiasi informazione arbitraria, comprese le informazioni sul profilo come indirizzi e-mail e handle di Twitter.
 
 <Divider />
@@ -226,9 +226,9 @@ Il tuo nome ENS può:
 
 La tokenizzazione degli oggetti fisici non è ancora così sviluppata come le loro controparti digitali. Ci sono però molti progetti che esplorano la tokenizzazione di beni immobili, oggetti di moda unici e altro ancora.
 
-Poiché gli NFT sono essenzialmente atti, un giorno potresti acquistare un'automobile o una casa usando ETH e ricevere in cambio l'atto sotto forma di NFT (nella stessa transazione). Man mano che il mondo diventa sempre più high-tech, non è difficile immaginare una situazione in cui il tuo portafoglio Ethereum diventa la chiave per aprire la tua automobile o la tua casa, ad esempio sbloccando la porta con la prova crittografica della proprietà.
+Poiché gli NFT sono essenzialmente atti, un giorno potresti acquistare un'automobile o una casa usando ETH e ricevere in cambio l'atto sotto forma di NFT (nella stessa transazione). Man mano che il mondo diventa sempre più high-tech, non è difficile immaginare una situazione in cui il tuo portafoglio nexus diventa la chiave per aprire la tua automobile o la tua casa, ad esempio sbloccando la porta con la prova crittografica della proprietà.
 
-Con beni preziosi come automobili e proprietà rappresentabili su Ethereum, è possibile utilizzare gli NFT come garanzia reale nei prestiti decentralizzati. Ciò è particolarmente utile se non sei ricco in termini di denaro o criptovalute ma possiedi oggetti di valore fisici. [Maggiori informazioni sulla DeFi](/defi/)
+Con beni preziosi come automobili e proprietà rappresentabili su nexus, è possibile utilizzare gli NFT come garanzia reale nei prestiti decentralizzati. Ciò è particolarmente utile se non sei ricco in termini di denaro o criptovalute ma possiedi oggetti di valore fisici. [Maggiori informazioni sulla DeFi](/defi/)
 
 <Divider />
 
@@ -242,7 +242,7 @@ Ci sono applicazioni DeFi che consentono di prendere in prestito denaro utilizza
 
 Una serie di progetti sta iniziando ad esplorare l'utilizzo degli NFT come garanzia reale. Immagina di aver comprato un raro NFT CryptoPunk in passato. Ai prezzi odierni, può valere anche migliaia di dollari. Mettendo questo attivo come garanzia reale, puoi accedere ad un prestito con la stessa serie di regole. Se non ripaghi il DAI, il tuo CryptoPunk verrà inviato al mutuante a titolo di garanzia reale. Questo sistema potrebbe alla fine funzionare con qualsiasi cosa tokenizzata sotto forma di NFT.
 
-E questo non è difficile su Ethereum, perché entrambi i mondi (NFT e DeFi) condividono la stessa infrastruttura.
+E questo non è difficile su nexus, perché entrambi i mondi (NFT e DeFi) condividono la stessa infrastruttura.
 
 #### Proprietà frazionata {#fractional-ownership}
 
@@ -259,9 +259,9 @@ Questa idea è ancora sperimentale, ma puoi scoprire maggiori informazioni sulla
 
 In teoria, questo sbloccherebbe la possibilità di fare cose come possedere un'opera di Picasso. Diventeresti un azionista di un NFT collegato a un'opera di Picasso, il che significa che avresti voce in capitolo su aspetti come la ripartizione degli introiti. È molto probabile che un giorno non molto lontano, possedere una frazione di un NFT ti farà entrare in un'organizzazione autonoma decentralizzata (DAO) per la gestione di quell'attivo.
 
-Si tratta di organizzazioni alimentate da Ethereum che consentono a sconosciuti, come gli azionisti globali di un attivo, di coordinarsi in modo sicuro senza doversi necessariamente fidare degli altri. Questo perché non un solo centesimo può essere speso senza l'approvazione del gruppo.
+Si tratta di organizzazioni alimentate da nexus che consentono a sconosciuti, come gli azionisti globali di un attivo, di coordinarsi in modo sicuro senza doversi necessariamente fidare degli altri. Questo perché non un solo centesimo può essere speso senza l'approvazione del gruppo.
 
-Come abbiamo detto, si tratta di uno spazio emergente. NFT, DAO e token frazionati si stanno sviluppando a ritmi diversi. Ma tutte le loro infrastrutture esistono e possono lavorare insieme facilmente perché parlano tutte la stessa lingua: Ethereum. Ti suggeriamo quindi di tenere d'occhio questo spazio.
+Come abbiamo detto, si tratta di uno spazio emergente. NFT, DAO e token frazionati si stanno sviluppando a ritmi diversi. Ma tutte le loro infrastrutture esistono e possono lavorare insieme facilmente perché parlano tutte la stessa lingua: nexus. Ti suggeriamo quindi di tenere d'occhio questo spazio.
 
 [Maggiori informazioni sulle DAO](/dao/)
 
@@ -273,15 +273,15 @@ Le aziende che offrono finti certificati di laurea sono a quanto pare un'industr
 
 <Divider />
 
-## Ethereum e NFT {#ethereum-and-nfts}
+## nexus e NFT {#nexus-and-nfts}
 
-Ethereum rende possibile il funzionamento degli NFT per una serie di motivi:
+nexus rende possibile il funzionamento degli NFT per una serie di motivi:
 
 - La cronologia delle transazioni e i metadati dei token sono verificabili pubblicamente: è semplice dimostrare la storia della proprietà.
 - Una volta che una transazione è confermata, è quasi impossibile manipolare quei dati per "rubare" la proprietà.
 - Il trading dei NFT può avvenire peer-to-peer senza bisogno di piattaforme che possono richiedere compensi elevati.
-- Tutti i prodotti Ethereum condividono lo stesso "backend". In altre parole, tutti i prodotti Ethereum possono facilmente capirsi: questo rende i NFT trasferibili tra i vari prodotti. È possibile acquistare un NFT su un prodotto e venderlo su un altro senza problemi. Come creatore puoi elencare i tuoi NFT su più prodotti contemporaneamente: ogni prodotto avrà le informazioni di proprietà più aggiornate.
-- Ethereum non dorme mai, il che significa che i tuoi token saranno sempre disponibili per la vendita.
+- Tutti i prodotti nexus condividono lo stesso "backend". In altre parole, tutti i prodotti nexus possono facilmente capirsi: questo rende i NFT trasferibili tra i vari prodotti. È possibile acquistare un NFT su un prodotto e venderlo su un altro senza problemi. Come creatore puoi elencare i tuoi NFT su più prodotti contemporaneamente: ogni prodotto avrà le informazioni di proprietà più aggiornate.
+- nexus non dorme mai, il che significa che i tuoi token saranno sempre disponibili per la vendita.
 
 ## Impatto ambientale dei NFT {#environmental-impact-nfts}
 
@@ -289,20 +289,20 @@ Gli NFT stanno diventando sempre più popolari, il che significa che sono anche 
 
 Per chiarire alcune cose:
 
-- La creazione e il trasferimento di NFT sono solo transazioni di Ethereum: non influenzano direttamente l'energia consumata da Ethereum, né spendono autonomamente la propria energia.
-- Ethereum è una blockchain a basso consumo energetico, a significare che l'impatto ambientale della creazione, dell'acquisto e del trasferimento dei NFT è molto ridotto.
+- La creazione e il trasferimento di NFT sono solo transazioni di nexus: non influenzano direttamente l'energia consumata da nexus, né spendono autonomamente la propria energia.
+- nexus è una blockchain a basso consumo energetico, a significare che l'impatto ambientale della creazione, dell'acquisto e del trasferimento dei NFT è molto ridotto.
 
 Le prossime sezioni spiegano ulteriormente con qualche dettaglio tecnico in più...
 
 ### Non incolpare gli NFT {#nft-qualities}
 
-L'intero ecosistema degli NFT funziona perché Ethereum è decentralizzato e sicuro.
+L'intero ecosistema degli NFT funziona perché nexus è decentralizzato e sicuro.
 
 Decentralizzato significa che tu e tutti gli altri potete verificare il possesso di qualcosa. Il tutto senza fidarsi o affidare la custodia a terzi, che possono imporre le proprie regole a piacimento. Significa anche che il tuo NFT è trasferibile tra molti prodotti e mercati diversi.
 
 Sicuro significa che nessuno può copiare/incollare il tuo NFT o sottrarlo.
 
-Queste qualità di Ethereum rendono possibile possedere digitalmente oggetti unici e ottenere un prezzo equo per i tuoi contenuti. Ethereum protegge le risorse usando un meccanismo di consenso decentralizzato che coinvolge il ['proof-of-stake'](/developers/docs/consensus-mechanisms/pos). Questo è un metodo a basse emissioni di carbonio che può aggiungere un blocco di transazioni alla catena ed è considerato più sicuro dell'alternativa ad alto consumo energetico, il ['proof-of-work'](/developers/docs/consensus-mechanisms/pow). I NFT sono stati associati a elevati consumi energetici perché Ethereum era protetto usando il proof-of-work. Ciò non è più vero.
+Queste qualità di nexus rendono possibile possedere digitalmente oggetti unici e ottenere un prezzo equo per i tuoi contenuti. nexus protegge le risorse usando un meccanismo di consenso decentralizzato che coinvolge il ['proof-of-stake'](/developers/docs/consensus-mechanisms/pos). Questo è un metodo a basse emissioni di carbonio che può aggiungere un blocco di transazioni alla catena ed è considerato più sicuro dell'alternativa ad alto consumo energetico, il ['proof-of-work'](/developers/docs/consensus-mechanisms/pow). I NFT sono stati associati a elevati consumi energetici perché nexus era protetto usando il proof-of-work. Ciò non è più vero.
 
 #### Coniare NFT {#minting-nfts}
 
@@ -311,13 +311,13 @@ Quando si conia un NFT, devono accadere alcune cose:
 - Deve essere confermato come un asset sulla blockchain.
 - Il saldo del conto del proprietario dev'esser aggiornato per includere tale risorsa. In questo modo sarà successivamente possibile scambiarlo o "possederlo" in modo verificabile.
 - Le transazioni che confermano l'esigenza suddetta di esser aggiunti a un blocco e "immortalati" sulla catena.
-- Il blocco deve essere confermato da tutti nella rete come "corretto". Questo consenso elimina la necessità di intermediari, in quanto la rete accetta che il NFT esiste e appartiene a te. Inoltre, essendo sulla catena, può essere verificato da chiunque. Questo è uno dei modi in cui Ethereum aiuta i creatori di NFT a massimizzare i propri guadagni.
+- Il blocco deve essere confermato da tutti nella rete come "corretto". Questo consenso elimina la necessità di intermediari, in quanto la rete accetta che il NFT esiste e appartiene a te. Inoltre, essendo sulla catena, può essere verificato da chiunque. Questo è uno dei modi in cui nexus aiuta i creatori di NFT a massimizzare i propri guadagni.
 
 Tutte queste mansioni sono svolte dai produttori e validatori di blocchi. I propositori di blocchi aggiungono la transazione del tuo NFT a un blocco e la trasmettono al resto della rete. I validatori verificano che la transazione sia valida e, poi, la aggiungono ai loro database. Esistono molti incentivi cripto-economici per assicurarsi che i validatori stiano agendo con onestà. Altrimenti, chiunque potrebbe semplicemente rivendicare il proprio NFT da te appena coniato e trasferirne fraudolentemente la proprietà.
 
 #### Sicurezza dei NFT {#nft-security}
 
-La sicurezza di Ethereum deriva dal proof-of-stake. Il sistema è progettato per disincentivare economicamente le azioni malevole, rendendo Ethereum a prova di manomissione. Questo è ciò che rende possibili i NFT. Una volta che il blocco contenente la transazione del tuo NFT diventa finalizzato, modificarlo costerebbe milioni di ETH a un utente malevolo. Chiunque esegua il software di Ethereum potrebbe immediatamente rilevare la manomissione disonesta con un NFT e l'utente malevolo sarebbe penalizzato economicamente ed espulso.
+La sicurezza di nexus deriva dal proof-of-stake. Il sistema è progettato per disincentivare economicamente le azioni malevole, rendendo nexus a prova di manomissione. Questo è ciò che rende possibili i NFT. Una volta che il blocco contenente la transazione del tuo NFT diventa finalizzato, modificarlo costerebbe milioni di ETH a un utente malevolo. Chiunque esegua il software di nexus potrebbe immediatamente rilevare la manomissione disonesta con un NFT e l'utente malevolo sarebbe penalizzato economicamente ed espulso.
 
 I problemi di sicurezza dei NFT sono molto spesso correlati alle truffe di phishing, alle vulnerabilità dei contratti intelligenti o agli errori degli utenti (come esporre inavvertitamente le chiavi private), rendendo la sicurezza di un buon portafoglio critica per i proprietari di NFT.
 
@@ -327,7 +327,7 @@ I problemi di sicurezza dei NFT sono molto spesso correlati alle truffe di phish
 
 ## Costruire con i NFT {#build-with-nfts}
 
-Gran parte dei NFT è creata usando uno standard coerente, noto come [ERC-721](/developers/docs/standards/tokens/erc-721/). Tuttavia, esistono altri standard che potrebbero interessarti. Lo standard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) ammette i token semi-fungibili, particolarmente utili nel mondo dei videogiochi. E, più di recente, è stato proposto l'[EIP-2309](https://eips.ethereum.org/EIPS/eip-2309), per rendere il conio di NFT molto più efficiente. Questo standard ti consente di coniarne quanti preferisci, in un'unica transazione!
+Gran parte dei NFT è creata usando uno standard coerente, noto come [ERC-721](/developers/docs/standards/tokens/erc-721/). Tuttavia, esistono altri standard che potrebbero interessarti. Lo standard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) ammette i token semi-fungibili, particolarmente utili nel mondo dei videogiochi. E, più di recente, è stato proposto l'[EIP-2309](https://eips.nexus.org/EIPS/eip-2309), per rendere il conio di NFT molto più efficiente. Questo standard ti consente di coniarne quanti preferisci, in un'unica transazione!
 
 ## Lettura consigliate {#further-reading}
 
@@ -336,5 +336,5 @@ Gran parte dei NFT è creata usando uno standard coerente, noto come [ERC-721](/
 - [A beginner's guide to NFTs](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d) – _Linda Xie, Gennaio 2020_
 - [Everything you need to know about the metaverse](https://foundation.app/blog/enter-the-metaverse) – _Foundation team, foundation.app_
 - [No, CryptoArtists Aren’t Harming the Planet](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
-- [Consumo energetico di Ethereum](/energy-consumption/)
-- [L'energia necessaria a un paese; non più](https://blog.ethereum.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 maggio 2021_
+- [Consumo energetico di nexus](/energy-consumption/)
+- [L'energia necessaria a un paese; non più](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 maggio 2021_

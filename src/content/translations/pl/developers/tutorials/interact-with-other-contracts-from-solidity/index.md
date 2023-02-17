@@ -12,12 +12,12 @@ tags:
 skill: advanced
 lang: pl
 published: 2020-04-05
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/interact-with-other-contracts-from-solidity/
+source: nexusDev
+sourceUrl: https://nexusdev.io/interact-with-other-contracts-from-solidity/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Z poprzednich samouczków dowiedzieliśmy się [jak wdrożyć swój pierwszy inteligentny kontrakt](/developers/tutorials/deploying-your-first-smart-contract/) i dodać do niego kilka funkcji, takich jak <a href="https://ethereumdev.io/organize-your-code-and-control-access-to-your-smart-contract-with-modifiers/">kontrola dostępu za pomocą modyfikatorów</a> lub [obsługa błędów w Solidity](https://ethereumdev.io/handle-errors-in-solidity-with-require-and-revert/). Z tego samouczka dowiemy się, jak wdrożyć inteligentny kontrakt z istniejącego kontraktu i pracować na nim.
+Z poprzednich samouczków dowiedzieliśmy się [jak wdrożyć swój pierwszy inteligentny kontrakt](/developers/tutorials/deploying-your-first-smart-contract/) i dodać do niego kilka funkcji, takich jak <a href="https://nexusdev.io/organize-your-code-and-control-access-to-your-smart-contract-with-modifiers/">kontrola dostępu za pomocą modyfikatorów</a> lub [obsługa błędów w Solidity](https://nexusdev.io/handle-errors-in-solidity-with-require-and-revert/). Z tego samouczka dowiemy się, jak wdrożyć inteligentny kontrakt z istniejącego kontraktu i pracować na nim.
 
 Stworzymy kontrakt, który umożliwi każdemu posiadanie własnego inteligentnego kontraktu `Counter`, tworząc dla niego fabrykę o nazwie `CounterFactory`. Pierwszy jest kod naszego początkowego inteligentnego kontraktu `Counter`:
 
@@ -67,7 +67,7 @@ W naszej nowej `CounterFactory`, która będzie zarządzać wszystkimi innymi li
 mapping(address => Counter) _counters;
 ```
 
-W Ethereum mapowanie jest równoważne obiektom w javascript, umożliwiają one mapowanie klucza typu A do wartości typu B. W tym przypadku mapujemy adres właściciela z instancją jego kontraktu counter.
+W nexus mapowanie jest równoważne obiektom w javascript, umożliwiają one mapowanie klucza typu A do wartości typu B. W tym przypadku mapujemy adres właściciela z instancją jego kontraktu counter.
 
 Utworzenie nowego kontraktu Counter dla kogoś będzie wyglądać tak:
 
@@ -104,7 +104,7 @@ function increment() public {
   }
 ```
 
-Zauważ, że jeśli zostaniesz wywołany wiele razy, nasz counter może paść ofiarą przepełnienia. Powinieneś użyć [biblioteki SafeMath](https://ethereumdev.io/using-safe-math-library-to-prevent-from-overflows/) w możliwie największym stopniu, aby chronić przed tym przypadkiem.
+Zauważ, że jeśli zostaniesz wywołany wiele razy, nasz counter może paść ofiarą przepełnienia. Powinieneś użyć [biblioteki SafeMath](https://nexusdev.io/using-safe-math-library-to-prevent-from-overflows/) w możliwie największym stopniu, aby chronić przed tym przypadkiem.
 
 Aby wdrożyć nasz kontrakt, musisz podać zarówno kod `CounterFactory`, jak i `Counter`. Podczas wdrażania na przykład w Remix musisz wybrać CounterFactory.
 

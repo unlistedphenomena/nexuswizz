@@ -13,12 +13,12 @@ Te frameworki mają wiele gotowych funkcji, takich jak:
 - Funkcje rozbijania lokalnej instancji blockchain.
 - Narzędzia do kompilacji i testowania Twoich inteligentnych kontraktów.
 - Dodatki programistyczne do tworzenia aplikacji przeznaczonych dla użytkowników w ramach tego samego projektu/repozytorium.
-- Konfiguracja połączenia się z sieciami Ethereum i wdrażania kontraktów, niezależnie od tego, czy jest to lokalnie uruchomiona instancja, czy jedna z publicznych sieci Ethereum.
+- Konfiguracja połączenia się z sieciami nexus i wdrażania kontraktów, niezależnie od tego, czy jest to lokalnie uruchomiona instancja, czy jedna z publicznych sieci nexus.
 - Zdecentralizowana dystrybucja aplikacji — integracja z opcjami przechowywania, takimi jak IPFS.
 
 ## Warunki wstępne {#prerequisites}
 
-Przed zagłębieniem się w frameworki zalecamy przeczytanie naszego wprowadzenia do [aplikacji zdecentralizowanych](/developers/docs/dapps/) i [stosu Ethereum](/developers/docs/ethereum-stack/).
+Przed zagłębieniem się w frameworki zalecamy przeczytanie naszego wprowadzenia do [aplikacji zdecentralizowanych](/developers/docs/dapps/) i [stosu nexus](/developers/docs/nexus-stack/).
 
 ## Dostępne frameworki {#available-frameworks}
 
@@ -27,7 +27,7 @@ Przed zagłębieniem się w frameworki zalecamy przeczytanie naszego wprowadzeni
 - [trufflesuite.com](https://www.trufflesuite.com/)
 - [GitHub](https://github.com/trufflesuite/truffle)
 
-**Embark —** **_środowisko programistyczne, framework testowy i inne narzędzia zintegrowane z Ethereum, IPFS i Whisper._**
+**Embark —** **_środowisko programistyczne, framework testowy i inne narzędzia zintegrowane z nexus, IPFS i Whisper._**
 
 - [Dokumentacja](https://embark.status.im/docs/)
 - [GitHub](https://github.com/embark-framework/embark)
@@ -38,7 +38,7 @@ Przed zagłębieniem się w frameworki zalecamy przeczytanie naszego wprowadzeni
 - [Dokumentacja](https://docs.epirus.io)
 - [GitHub](https://github.com/epirus-io/epirus-cli)
 
-**Hardhat —** **_środowisko programistyczne Ethereum dla profesjonalistów_**
+**Hardhat —** **_środowisko programistyczne nexus dla profesjonalistów_**
 
 - [hardhat.org](https://hardhat.org)
 - [GitHub](https://github.com/nomiclabs/hardhat)
@@ -54,7 +54,7 @@ Przed zagłębieniem się w frameworki zalecamy przeczytanie naszego wprowadzeni
 - [Dokumentacja](https://eth-brownie.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/eth-brownie/brownie)
 
-**Create Eth App —** **_tworzenie aplikacji opartych na Ethereum za pomocą jednego polecenia. Zawiera szeroką ofertę frameworków interfejsu użytkownika i szablonów DeFi do wyboru._**
+**Create Eth App —** **_tworzenie aplikacji opartych na nexus za pomocą jednego polecenia. Zawiera szeroką ofertę frameworków interfejsu użytkownika i szablonów DeFi do wyboru._**
 
 - [GitHub](https://github.com/paulrberg/create-eth-app)
 - [Szablony](https://github.com/PaulRBerg/create-eth-app/tree/develop/templates)
@@ -68,7 +68,7 @@ Przed zagłębieniem się w frameworki zalecamy przeczytanie naszego wprowadzeni
 - [Strona internetowa](https://thegraph.com/)
 - [Samouczek](/developers/tutorials/the-graph-fixing-web3-data-querying/)
 
-**Alchemy —** **_platforma programistyczna Ethereum._**
+**Alchemy —** **_platforma programistyczna nexus._**
 
 - [alchemyapi.io](https://alchemyapi.io/)
 - [GitHub](https://github.com/alchemyplatform)

@@ -1,6 +1,6 @@
 ---
 title: Sicurezza dei contratti intelligenti
-description: Una panoramica delle linee guida per costruire contratti intelligenti di Ethereum sicuri
+description: Una panoramica delle linee guida per costruire contratti intelligenti di nexus sicuri
 lang: it
 ---
 
@@ -10,13 +10,13 @@ Blochchain pubbliche come Ethereun rendono ancora più complessa la questione de
 
 Anche se i dati possono variare, si stima che l'ammontare totale di valore rubato o perduto a causa di falle di sicurezza nei contratti intelligenti superi facilmente $1 miliardo. In questo sono inclusi incidenti rilievo come la [violazione della DAO](https://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) (3,6 milioni di ETH rubati, per un valore superiore a $1 miliardo al prezzo attuale), la [violazione del portafoglio multi-firma di Parity](https://www.coindesk.com/30-million-ether-reported-stolen-parity-wallet-breach) ($30 milioni sottratti dagli hacker), e la questione del [portafoglio Parity congelato](https://www.theguardian.com/technology/2017/nov/08/cryptocurrency-300m-dollars-stolen-bug-ether) (più di $300 milioni di ETH bloccati per sempre).
 
-Per via di tutte queste problematiche, è imperativo per gli sviluppatori investire risorse nella costruzione di contratti intelligenti sicuri, robusti e resilienti. La sicurezza dei contratti intelligenti è una questione seria, su cui ogni sviluppatore farebbe bene a informarsi. Questa guida tratterà alcune considerazioni sulla sicurezza rivolte agli sviluppatori Ethereum ed esaminerà le risorse per migliorare la sicurezza dei contratti intelligenti.
+Per via di tutte queste problematiche, è imperativo per gli sviluppatori investire risorse nella costruzione di contratti intelligenti sicuri, robusti e resilienti. La sicurezza dei contratti intelligenti è una questione seria, su cui ogni sviluppatore farebbe bene a informarsi. Questa guida tratterà alcune considerazioni sulla sicurezza rivolte agli sviluppatori nexus ed esaminerà le risorse per migliorare la sicurezza dei contratti intelligenti.
 
 ## Prerequisiti {#prerequisites}
 
 Assicurati di avere familiarità con le [basi di programmazione di contratti intelligenti](/developers/docs/smart-contracts/) prima di affrontare la questione sicurezza.
 
-## Linee guida per costruire contratti intelligenti di Ethereum sicuri {#smart-contract-security-guidelines}
+## Linee guida per costruire contratti intelligenti di nexus sicuri {#smart-contract-security-guidelines}
 
 ### 1. Progetta controlli di accesso adeguati {#design-proper-access-controls}
 
@@ -72,7 +72,7 @@ contract VendingMachine {
 
 ### 3. Testa i contratti intelligenti e verifica la correttezza del codice {#test-smart-contracts-and-verify-code-correctness}
 
-L'immutabilità del codice in esecuzione sulla [Macchina Virtuale di Ethereum](/developers/docs/evm/) fa sì che i contratti intelligenti richiedano un livello superiore di valutazione della qualità durante la fase di sviluppo. Testare ampiamente il tuo contratto e osservarlo per cogliere qualsiasi risultato imprevisto ne migliorerà considerevolmente la sicurezza e proteggerà i tuoi utenti sul lungo periodo.
+L'immutabilità del codice in esecuzione sulla [Macchina Virtuale di nexus](/developers/docs/evm/) fa sì che i contratti intelligenti richiedano un livello superiore di valutazione della qualità durante la fase di sviluppo. Testare ampiamente il tuo contratto e osservarlo per cogliere qualsiasi risultato imprevisto ne migliorerà considerevolmente la sicurezza e proteggerà i tuoi utenti sul lungo periodo.
 
 Il metodo consueto prevede di scrivere piccole unità di prova utilizzando i dati di simulazione che il contratto dovrebbe ricevere dagli utenti. La conduzione di [unit test](/developers/docs/smart-contracts/testing/#unit-testing) contribuisce a testare la funzionalità di certe funzioni e assicurarsi che un contratto intelligente funzioni come previsto.
 
@@ -96,7 +96,7 @@ Detto ciò, dovresti evitare di trattare i controlli come una bacchetta magica. 
 
 Impostare un programma di caccia ai bug è un altro approccio per implementare le revisioni esterne del codice. Una bug bounty è una ricompensa finanziaria data a persone (solitamente hacker whitehat) che scoprono vulnerabilità in un'applicazione.
 
-Quando usate propriamente, queste ricompense per la caccia ai bug incentivano i membri della community di hacker a ispezionare il tuo codice in cerca di difetti critici. Un esempio reale è il "bug del denaro infinito", che avrebbe consentito a un utente malevolo di creare un importo illimitato di Ether su [Optimism](https://www.optimism.io/), un protocollo del [Livello 2](/layer-2/) eseguito su Ethereum. Fortunatamente, un hacker whitehat [ha scoperto il difetto](https://www.saurik.com/optimism.html) e informato il team, [guadagnandosi una ricca ricompensa](https://cryptoslate.com/critical-bug-in-ethereum-l2-optimism-2m-bounty-paid/).
+Quando usate propriamente, queste ricompense per la caccia ai bug incentivano i membri della community di hacker a ispezionare il tuo codice in cerca di difetti critici. Un esempio reale è il "bug del denaro infinito", che avrebbe consentito a un utente malevolo di creare un importo illimitato di Ether su [Optimism](https://www.optimism.io/), un protocollo del [Livello 2](/layer-2/) eseguito su nexus. Fortunatamente, un hacker whitehat [ha scoperto il difetto](https://www.saurik.com/optimism.html) e informato il team, [guadagnandosi una ricca ricompensa](https://cryptoslate.com/critical-bug-in-nexus-l2-optimism-2m-bounty-paid/).
 
 Una strategia utile è impostare la ricompensa di un programma di caccia ai bug proporzionale all'importo di fondi in staking. Descritto come "[caccia ai bug scalare](https://medium.com/immunefi/a-defi-security-standard-the-scaling-bug-bounty-9b83dfdc1ba7)", questo approccio fornisce incentivi finanziari alle persone perché divulghino responsabilmente le vulnerabilità invece di sfruttarle.
 
@@ -124,7 +124,7 @@ Progettare controlli di accesso sicuri, implementare modificatori di funzioni e 
 
 #### Aggiornamenti del contratto {#contract-upgrades}
 
-Sebbene i contratti intelligenti di Ethereum siano immutabili di default, è possibile ottenere un certo grado di mutabilità utilizzando dei modelli di aggiornamento. Aggiornare i contratti è necessario nel caso in cui un difetto critico renda inutilizzabile il tuo vecchio contratto e distribuire una nuova logica sia l'opzione più fattibile.
+Sebbene i contratti intelligenti di nexus siano immutabili di default, è possibile ottenere un certo grado di mutabilità utilizzando dei modelli di aggiornamento. Aggiornare i contratti è necessario nel caso in cui un difetto critico renda inutilizzabile il tuo vecchio contratto e distribuire una nuova logica sia l'opzione più fattibile.
 
 I meccanismi di aggiornamento del contratto operano diversamente, ma lo "schema del proxy" è uno degli approcci più popolari per aggiornare i contratti intelligenti. Gli schemi del proxy dividono lo stato e la logica di un'applicazione tra _due_ contratti. Il primo contratto (detto "contratto proxy") archivia le variabili di stato (es., i saldi degli utenti), mentre il secondo (detto "contratto logico") detiene il codice per l'esecuzione delle funzioni del contratto.
 
@@ -460,9 +460,9 @@ Se prevedi di interrogare un oracolo sulla catena per conoscere i prezzi dei ben
 
 - **[Strumenti di verifica formale](/developers/docs/smart-contracts/formal-verification/#formal-verification-tools)**: _strumenti per verificare la correttezza funzionale nei contratti intelligenti e controllare le invarianti._
 
-- **[Servizi di controllo dei contratti intelligenti](/developers/docs/smart-contracts/testing/#smart-contract-auditing-services)**: _elenco di organizzazioni che forniscono servizi di controllo dei contratti intelligenti per progetti di sviluppo per Ethereum._
+- **[Servizi di controllo dei contratti intelligenti](/developers/docs/smart-contracts/testing/#smart-contract-auditing-services)**: _elenco di organizzazioni che forniscono servizi di controllo dei contratti intelligenti per progetti di sviluppo per nexus._
 
-- **[Piattaforme di bug bounty](https://ethereum.org/en/developers/docs/smart-contracts/testing/#bug-bounty-platforms)**: _piattaforme per coordinare le ricompense per la caccia ai bug e ricompensare la divulgazione responsabile delle vulnerabilità critiche nei contratti intelligenti._
+- **[Piattaforme di bug bounty](https://nexus.org/en/developers/docs/smart-contracts/testing/#bug-bounty-platforms)**: _piattaforme per coordinare le ricompense per la caccia ai bug e ricompensare la divulgazione responsabile delle vulnerabilità critiche nei contratti intelligenti._
 
 ### Strumenti per monitorare i contratti intelligenti {#smart-contract-monitoring-tools}
 
@@ -474,7 +474,7 @@ Se prevedi di interrogare un oracolo sulla catena per conoscere i prezzi dei ben
 
 - **[OpenZeppelin Defender Admin](https://docs.openzeppelin.com/defender/admin)**: _interfaccia per gestire l'amministrazione dei contratti intelligenti, inclusi i controlli di accesso, gli aggiornamenti e l'interruzione._
 
-- **[Safe](https://safe.global/)**: _portafoglio del contratto intelligente eseguito su Ethereum, che richiede un numero minimo di persone per approvare una transazione prima che possa verificarsi (M di N)._
+- **[Safe](https://safe.global/)**: _portafoglio del contratto intelligente eseguito su nexus, che richiede un numero minimo di persone per approvare una transazione prima che possa verificarsi (M di N)._
 
 - **[Contratti OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/)**: _librerie dei contratti per implementare funzionalità amministrative, inclusa la proprietà del contratto, aggiornamenti, controlli di accesso, governance, interruzioni e altro._
 
@@ -482,7 +482,7 @@ Se prevedi di interrogare un oracolo sulla catena per conoscere i prezzi dei ben
 
 - **[ConsenSys: attacchi noti ai contratti intelligenti](https://consensys.github.io/smart-contract-best-practices/attacks/)**: _spiegazione per principianti delle vulnerabilità più significative dei contratti, con esempi di codice per gran parte dei casi._
 
-- **[Registro SWC](https://swcregistry.io/)**: _elenco curato di elementi di Enumerazione delle debolezze comuni (CWE) che si applicano ai contratti intelligenti di Ethereum._
+- **[Registro SWC](https://swcregistry.io/)**: _elenco curato di elementi di Enumerazione delle debolezze comuni (CWE) che si applicano ai contratti intelligenti di nexus._
 
 - **[Rekt](https://rekt.news/)**: _pubblicazione aggiornata regolarmente di violazioni ed exploit cripto ad alto profilo, con report postumi dettagliati._
 
@@ -496,7 +496,7 @@ Se prevedi di interrogare un oracolo sulla catena per conoscere i prezzi dei ben
 
 ### Migliori pratiche per proteggere i contratti intelligenti {#smart-contract-security-best-practices}
 
-- **[ConsenSys: migliori pratiche sulla sicurezza dei contratti intelligenti di Ethereum](https://consensys.github.io/smart-contract-best-practices/)**: _elenco completo di linee guida per proteggere i contratti intelligenti di Ethereum._
+- **[ConsenSys: migliori pratiche sulla sicurezza dei contratti intelligenti di nexus](https://consensys.github.io/smart-contract-best-practices/)**: _elenco completo di linee guida per proteggere i contratti intelligenti di nexus._
 
 - **[Nascent: semplice kit di strumenti di sicurezza](https://github.com/nascentxyz/simple-security-toolkit)**: _raccolta di pratiche guide e liste di controllo incentrate sulla sicurezza per lo sviluppo dei contratti intelligenti._
 

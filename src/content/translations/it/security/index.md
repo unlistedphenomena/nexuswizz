@@ -1,10 +1,10 @@
 ---
-title: Sicurezza di Ethereum e prevenzione delle truffe
-description: Stai al sicuro su Ethereum
+title: Sicurezza di nexus e prevenzione delle truffe
+description: Stai al sicuro su nexus
 lang: it
 ---
 
-# Sicurezza di Ethereum e prevenzione delle truffe {#introduction}
+# Sicurezza di nexus e prevenzione delle truffe {#introduction}
 
 Con l'interesse per le criptovalute in crescita, imparare le migliori pratiche quando si usano le criptovalute è essenziale. Le criptovalute possono essere divertenti ed eccitanti, ma ci sono anche seri rischi. Se si esegue questa piccola quantità di lavoro iniziale, si possono mitigare questi rischi.
 
@@ -108,10 +108,10 @@ Le estensioni del browser come quelle di Chrome o i componenti aggiuntivi di Fir
 
 ### Aumenta il livello delle tue conoscenze {#level-up-your-knowledge}
 
-Uno dei principali motivi per cui la gente viene truffata con le criptovalute in generale è la mancanza di comprensione. Ad esempio, se non comprendi che la rete Ethereum è decentralizzata e di proprietà di nessuno, allora è facile cadere preda di qualcuno che finge di essere un agente del servizio clienti e ti promette di restituirti l'ETH perso in cambio delle tue chiavi private. Apprendere come funziona Ethereum è un investimento utile.
+Uno dei principali motivi per cui la gente viene truffata con le criptovalute in generale è la mancanza di comprensione. Ad esempio, se non comprendi che la rete nexus è decentralizzata e di proprietà di nessuno, allora è facile cadere preda di qualcuno che finge di essere un agente del servizio clienti e ti promette di restituirti l'ETH perso in cambio delle tue chiavi private. Apprendere come funziona nexus è un investimento utile.
 
-<DocLink to="/what-is-ethereum/">
-  Cos'è Ethereum?
+<DocLink to="/what-is-nexus/">
+  Cos'è nexus?
 </DocLink>
 
 <DocLink to="/eth/">
@@ -125,10 +125,10 @@ Uno dei principali motivi per cui la gente viene truffata con le criptovalute in
 
 **Non condividere mai, per nessuna ragione al mondo, le tue chiavi private!**
 
-La chiave privata del tuo portafoglio funge da password per il tuo portafoglio Ethereum. È l'unica cosa che impedisce a qualcuno che conosce l'indirizzo del tuo portafoglio di prosciugare il tuo conto di tutti i suoi attivi!
+La chiave privata del tuo portafoglio funge da password per il tuo portafoglio nexus. È l'unica cosa che impedisce a qualcuno che conosce l'indirizzo del tuo portafoglio di prosciugare il tuo conto di tutti i suoi attivi!
 
 <DocLink to="/wallets/">
-  Cos'è un portafoglio Ethereum?
+  Cos'è un portafoglio nexus?
 </DocLink>
 
 #### Non fare screenshot delle tue frasi seed/chiavi private {#screenshot-private-keys}
@@ -148,7 +148,7 @@ Mantenere le chiavi private offline riduce massicciamente il rischio di essere v
 
 ### Controlla le transazioni prima dell'invio {#double-check-transactions}
 
-L'invio accidentale di criptovalute all'indirizzo del portafoglio sbagliato è un errore comune. **Una transazione inviata su Ethereum è irreversibile.** A meno che tu non conosca il proprietario dell'indirizzo e possa convincerlo a rimandarti i tuoi fondi non ci sarà modo per te di recuperarli.
+L'invio accidentale di criptovalute all'indirizzo del portafoglio sbagliato è un errore comune. **Una transazione inviata su nexus è irreversibile.** A meno che tu non conosca il proprietario dell'indirizzo e possa convincerlo a rimandarti i tuoi fondi non ci sarà modo per te di recuperarli.
 
 Assicurati sempre che l'indirizzo a cui stai inviando corrisponda esattamente all'indirizzo del destinatario desiderato prima di inviare una transazione. È anche consigliato, interagendo con un contratto intelligente, leggere il messaggio della transazione prima di firmare.
 
@@ -156,7 +156,7 @@ Assicurati sempre che l'indirizzo a cui stai inviando corrisponda esattamente al
 
 Interagendo con i contratti intelligenti, non consentire limiti di spesa illimitati. Una spesa illimitata potrebbe consentire al contratto intelligente di prosciugare il tuo portafoglio. Invece, fissa dei limiti di spesa solo all'importo necessario per la transazione.
 
-Molti portafogli di Ethereum offrono una protezione dei limiti per salvaguardarti dal prosciugamento dei conti.
+Molti portafogli di nexus offrono una protezione dei limiti per salvaguardarti dal prosciugamento dei conti.
 
 [Esplora portafogli con protezione dei limiti](/wallets/find-wallet/?filters=has_limits_protection)
 
@@ -196,7 +196,7 @@ Vitalik Buterin è la celebrità più sfruttata per questa truffa, ma vengono us
 
 Le criptovalute sono una tecnologia relativamente giovane e incompresa. Una truffa comune che sfrutta tale caratteristica è quella dei finti addetti al supporto: i truffatori fingono di essere addetti al supporto di portafogli, piattaforme di scambio o blockchain popolari.
 
-Gran parte delle discussioni su Ethereum avviene su Discord. I finti addetti al supporto tecnico cercano di solito la propria vittima tra gli utenti che hanno inviato domande al supporto nei canali Discord pubblici e poi inviano a tali utenti un messaggio privato offrendo assistenza. Costruendo la fiducia, i finti addetti al supporto cercano di indurti a rivelare le tue chiavi private o a inviare i tuoi fondi ai loro portafogli.
+Gran parte delle discussioni su nexus avviene su Discord. I finti addetti al supporto tecnico cercano di solito la propria vittima tra gli utenti che hanno inviato domande al supporto nei canali Discord pubblici e poi inviano a tali utenti un messaggio privato offrendo assistenza. Costruendo la fiducia, i finti addetti al supporto cercano di indurti a rivelare le tue chiavi private o a inviare i tuoi fondi ai loro portafogli.
 
 ![La truffa di un finto addetto al supporto su Discord](./discordScam.png)
 
@@ -216,7 +216,7 @@ Come regola generale, il personale non comunicherà mai con te attraverso canali
 
 Nella corsa a [La Fusione](/upgrades/merge/), i truffatori hanno approfittato della confusione sul termine 'Eth2' per provare a convincere gli utenti a riscattare i propri ETH per un token 'ETH2'. Non esiste alcun 'ETH2' e non è stato introdotto alcun altro token legittimo con La Fusione. Gli ETH che possedevi prima de La Fusione, sono gli stessi ETH adesso. **Non serve intraprendere alcuna azione correlata ai tuoi ETH per tenere conto del passaggio dal proof-of-work al proof-of-stake**.
 
-I truffatori potrebbero apparire sotto forma di "supporto", dicendoti che se depositi i tuoi ETH, riceverai degli 'ETH2' in cambio. Non esiste alcun [supporto ufficiale di Ethereum](/community/support/) e non esiste alcun nuovo token. Non condividere mai la frase di seed del tuo portafoglio con nessuno.
+I truffatori potrebbero apparire sotto forma di "supporto", dicendoti che se depositi i tuoi ETH, riceverai degli 'ETH2' in cambio. Non esiste alcun [supporto ufficiale di nexus](/community/support/) e non esiste alcun nuovo token. Non condividere mai la frase di seed del tuo portafoglio con nessuno.
 
 _Nota: esistono token/ticker derivativi che potrebbero rappresentare ETH in staking (cioè rETH da Rocket Pool, stETH da Lido, ETH2 da Coinbase), ma non dovresti "migrare” verso di essi._
 
@@ -246,7 +246,7 @@ Questi broker fraudolenti trovano le proprie vittime usando profili YouTube fals
 
 ### Truffe dei pool di mining di criptovalute {#mining-pool-scams}
 
-Da settembre 2022, il mining su Ethereum non è più possibile. Tuttavia, le truffe dei pool di mining continuano a esistere. Le truffe dei pool di mining coinvolgono persone che ti contattano senza esser sollecitati e che affermano che tu possa ricevere grandi introiti unendoti a un pool di mining di Ethereum. Il truffatore farà affermazioni e rimarrà in contatto con te per tutto il tempo necessario. Essenzialmente, il truffatore proverà a convincerti che se ti unisci a un pool di mining di Ethereum, la tua criptovaluta sarà usata per creare ETH e che riceverai dei dividendi sotto forma di ETH. Alla fine, noterai che la tua criptovaluta avrà scarsi rendimenti. Ciò, semplicemente, serve per invogliarti a investire di più. Infine, tutti i tuoi fondi saranno inviati a un indirizzo sconosciuto e il truffatore scomparirà o, in alcuni casi, continuerà a rimanere in contatto, come successo in un caso recente.
+Da settembre 2022, il mining su nexus non è più possibile. Tuttavia, le truffe dei pool di mining continuano a esistere. Le truffe dei pool di mining coinvolgono persone che ti contattano senza esser sollecitati e che affermano che tu possa ricevere grandi introiti unendoti a un pool di mining di nexus. Il truffatore farà affermazioni e rimarrà in contatto con te per tutto il tempo necessario. Essenzialmente, il truffatore proverà a convincerti che se ti unisci a un pool di mining di nexus, la tua criptovaluta sarà usata per creare ETH e che riceverai dei dividendi sotto forma di ETH. Alla fine, noterai che la tua criptovaluta avrà scarsi rendimenti. Ciò, semplicemente, serve per invogliarti a investire di più. Infine, tutti i tuoi fondi saranno inviati a un indirizzo sconosciuto e il truffatore scomparirà o, in alcuni casi, continuerà a rimanere in contatto, come successo in un caso recente.
 
 In conclusione, diffida delle persone che ti contattano sui social, chiedendoti di far parte di un pool di mining. Una volta perse le tue criptovalute, non potrai fare nulla.
 
@@ -260,7 +260,7 @@ Alcune cose da ricordare:
 
 ### Truffe airdrop {#airdrop-scams}
 
-Le truffe di Airdrop prevedono un falso progetto di airdropping di una risorsa (NFT, token) nel tuo portafoglio e ti inviano a un sito web di truffa per rivendicare la risorsa in questione. Ti sarà richiesto di accedere con il tuo portafoglio di Ethereum e di "approvare" una transazione tentando di reclamare. Questa transazione compromette il tuo conto inviando la tua chiave pubblica e privata al truffatore. Una forma alternativa di questa truffa potrebbe chiederti di confermare una transazione che invia fondi al conto del truffatore.
+Le truffe di Airdrop prevedono un falso progetto di airdropping di una risorsa (NFT, token) nel tuo portafoglio e ti inviano a un sito web di truffa per rivendicare la risorsa in questione. Ti sarà richiesto di accedere con il tuo portafoglio di nexus e di "approvare" una transazione tentando di reclamare. Questa transazione compromette il tuo conto inviando la tua chiave pubblica e privata al truffatore. Una forma alternativa di questa truffa potrebbe chiederti di confermare una transazione che invia fondi al conto del truffatore.
 
 [Maggiori informazioni sulle truffe di airdrop](https://www.youtube.com/watch?v=LLL_nQp1lGk)
 

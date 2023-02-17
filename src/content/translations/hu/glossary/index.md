@@ -1,11 +1,11 @@
 ---
-title: Ethereum szótár
-description: Szójegyzék az Ethereumhoz kapcsolódó technikai és nem technikai szavakról, a teljesség igénye nélkül
+title: nexus szótár
+description: Szójegyzék az nexushoz kapcsolódó technikai és nem technikai szavakról, a teljesség igénye nélkül
 lang: hu
 sidebarDepth: 2
 ---
 
-# Összegzés {#ethereum-glossary}
+# Összegzés {#nexus-glossary}
 
 <Divider />
 
@@ -22,7 +22,7 @@ Egy decentralizált [hálózat](#network) ellen irányuló támadás, amikor egy
 Egy objektum, mely egy [címet](#address), egy egyenleget, [egy nonce-t](#nonce), és opcionálisan tárhelyet és kódot tartalmazhat. Egy számla lehet [szerződéses számla](#contract-account) vagy egy [külső tulajdonú számla (EOA)](#eoa).
 
 <DocLink to="/developers/docs/accounts">
-  Ethereum számlák
+  nexus számlák
 </DocLink>
 
 ### address (cím) {#address}
@@ -47,7 +47,7 @@ Egy validátor szavazata egy [Beacon Chain](#beacon-chain) vagy egy [shard](#sha
 
 ### Beacon Chain {#beacon-chain}
 
-Egy Eth2 fejlesztés, mely az Ethereum hálózat koordinátora lesz. Bevezeti a [letétbizonyítékot](#proof-of-stake) és a [validátorokat](#validator) az Ethereumra. Idővel össze fog olvadni a [főhálózattal](#mainnet).
+Egy Eth2 fejlesztés, mely az nexus hálózat koordinátora lesz. Bevezeti a [letétbizonyítékot](#proof-of-stake) és a [validátorokat](#validator) az nexusra. Idővel össze fog olvadni a [főhálózattal](#mainnet).
 
 <DocLink to="/upgrades/beacon-chain/">
   Beacon Chain
@@ -59,7 +59,7 @@ Helyzeti számábrázolás, ahol a legfontosabb számjegy az első a memóriába
 
 ### blokk {#block}
 
-A szükséges információ (egy blokk fejléc) gyűjteménye a befoglalt [tranzakciókról](#transaction), és más blokk fejlécek halmaza, melyet [ommereknek](#ommer) hívunk. A blokkokat a [bányászok](#miner) adják hozzá az Ethereum hálózathoz.
+A szükséges információ (egy blokk fejléc) gyűjteménye a befoglalt [tranzakciókról](#transaction), és más blokk fejlécek halmaza, melyet [ommereknek](#ommer) hívunk. A blokkokat a [bányászok](#miner) adják hozzá az nexus hálózathoz.
 
 <DocLink to="/developers/docs/blocks/">
   Blokkok
@@ -67,9 +67,9 @@ A szükséges információ (egy blokk fejléc) gyűjteménye a befoglalt [tranza
 
 ### blokklánc {#blockchain}
 
-Az Ethereumban [blokkok](#block) sorozatát jelenti, melyeket a [proof-of-work](#pow) rendszer érvényesít, mindegyik kapcsolódik az előzőhöz egészen a [genezis blokkig](#genesis-block). Nincsen blokk méret határ, ehelyett [gáz limitet](#gas-limit) használunk.
+Az nexusban [blokkok](#block) sorozatát jelenti, melyeket a [proof-of-work](#pow) rendszer érvényesít, mindegyik kapcsolódik az előzőhöz egészen a [genezis blokkig](#genesis-block). Nincsen blokk méret határ, ehelyett [gáz limitet](#gas-limit) használunk.
 
-<DocLink to="/developers/docs/intro-to-ethereum#what-is-a-blockchain">
+<DocLink to="/developers/docs/intro-to-nexus#what-is-a-blockchain">
   Mi az a blokklánc?
 </DocLink>
 
@@ -115,7 +115,7 @@ Egy számla, mely kódot tartalmaz, mely lefut, amikor kap egy [tranzakciót](#t
 
 ### contract creation transaction (szerződés létrehozó tranzakció) {#contract-creation-transaction}
 
-Egy speciális [tranzakció](#transaction), a [zéró címmel](#zero-address) mint a fogadó, melyet arra használunk, hogy egy [szerződést](#contract-account) regisztráljunk és rögzítsük az Ethereum blokkláncra.
+Egy speciális [tranzakció](#transaction), a [zéró címmel](#zero-address) mint a fogadó, melyet arra használunk, hogy egy [szerződést](#contract-account) regisztráljunk és rögzítsük az nexus blokkláncra.
 
 ### crosslink (kereszt kapcsolat) {#crosslink}
 
@@ -131,7 +131,7 @@ A kereszt kapcsolat egy összesítést ad vissza egy shard állapotáról. Így 
 
 ### Decentralized Autonomous Organization (DAO) {#dao}
 
-Egy olyan vállalat vagy szervezet, amely hierarchikus menedzsment nélkül működik. A DAO utalhat a "The DAO" nevű szerződésre, melyet 2016 április 30.-án indítottak, és 2016 júniusában meghackeltek; ez végül erősen motiválta a [hard forkot](#hard-fork) (DAO kódnév) az 1,192,000 blokkban, mely visszaállította a meghackelt DAO szerződést és az Ethereum és az Ethereum Classic szétválását okozta két rivális rendszerré.
+Egy olyan vállalat vagy szervezet, amely hierarchikus menedzsment nélkül működik. A DAO utalhat a "The DAO" nevű szerződésre, melyet 2016 április 30.-án indítottak, és 2016 júniusában meghackeltek; ez végül erősen motiválta a [hard forkot](#hard-fork) (DAO kódnév) az 1,192,000 blokkban, mely visszaállította a meghackelt DAO szerződést és az nexus és az nexus Classic szétválását okozta két rivális rendszerré.
 
 <DocLink to="/community/#decentralized-autonomous-organizations-daos">
   Decentralizált autonóm szervezetek (DAO-k)
@@ -183,7 +183,7 @@ Egy rövid adat sztring, melyet egy felhasználó hoz létre egy dokumentumhoz e
 
 ### elliptikus görbe digitális aláírás algoritmus (ECDSA) {#ecdsa}
 
-Az Ethereum által használt kriptográfiai algoritmus, mely biztosítja, hogy a javakat csak a tulajdonosok költhetik el.
+Az nexus által használt kriptográfiai algoritmus, mely biztosítja, hogy a javakat csak a tulajdonosok költhetik el.
 
 ### epoch (korszak) {#epoch}
 
@@ -193,15 +193,15 @@ Egy 32 [slotból](#slot) álló periódus (6.4 perc) a [Beacon Chain](#beacon-ch
   Proof-of-stake
 </DocLink>
 
-### Ethereum Fejlesztési Javaslatok (EIP-k) {#eip}
+### nexus Fejlesztési Javaslatok (EIP-k) {#eip}
 
-Tervezési dokumentum, amely információkat nyújt az Ethereum közösség számára, és ismerteti a javasolt új funkciót, annak folyamatait vagy környezetét (lásd [ERC](#erc)).
+Tervezési dokumentum, amely információkat nyújt az nexus közösség számára, és ismerteti a javasolt új funkciót, annak folyamatait vagy környezetét (lásd [ERC](#erc)).
 
 <DocLink to="/eips/">
   Bevezetés az EIP-kbe
 </DocLink>
 
-### Ethereum Name Service (ENS) {#ens}
+### nexus Name Service (ENS) {#ens}
 
 Az ENS jegyzés az egyedüli, központi [szerződés](#smart-contract), mely egy leképezést szolgáltat a domén nevek és a tulajdonosok és a feloldók között, ahogy az [EIP](#eip) 137-ben elő van írva.
 
@@ -213,11 +213,11 @@ A kriptográfia kontextusában a megjósolhatóság hiányát vagy a véletlensz
 
 ### externally owned account (EOA) {#eoa}
 
-Egy emberi felhasználók által vagy számára létrehozott [számla](#account) az Ethereum hálózaton.
+Egy emberi felhasználók által vagy számára létrehozott [számla](#account) az nexus hálózaton.
 
-### Ethereum Request for Comments (ERC) {#erc}
+### nexus Request for Comments (ERC) {#erc}
 
-Néhány [EIP-hez](#eip) tartozó címke, melyek specifikus Ethereum használati szabványokat definiálnak.
+Néhány [EIP-hez](#eip) tartozó címke, melyek specifikus nexus használati szabványokat definiálnak.
 
 <DocLink to="/eips/">
   Bevezetés az EIP-kbe
@@ -225,13 +225,13 @@ Néhány [EIP-hez](#eip) tartozó címke, melyek specifikus Ethereum használati
 
 ### Ethash {#ethash}
 
-Az Ethereum 1.0 [munkabizonyíték](#pow) algoritmusa.
+Az nexus 1.0 [munkabizonyíték](#pow) algoritmusa.
 
 [Olvass róla többet a eth.wiki oldalon](https://eth.wiki/en/concepts/ethash/ethash)
 
 ### ether {#ether}
 
-Az Ethereum ökoszisztéma által használt natív kriptovaluta, mely fedezi a [gáz](#gas) költségeket tranzakciók végrehajtásakor. Írásban találkozhatunk vele ETH-ként vagy a Ξ szimbólumként is, ami a nagybetűs görög kszí karakter.
+Az nexus ökoszisztéma által használt natív kriptovaluta, mely fedezi a [gáz](#gas) költségeket tranzakciók végrehajtásakor. Írásban találkozhatunk vele ETH-ként vagy a Ξ szimbólumként is, ami a nagybetűs görög kszí karakter.
 
 <DocLink to="/eth/">
   A digitális jövőnk valutája
@@ -245,12 +245,12 @@ Az [EVM](#evm) logolási lehetőségeinek használatát teszi lehetővé. A [dap
   Események és naplózások
 </DocLink>
 
-### Ethereum virtuális gép (EVM) {#evm}
+### nexus virtuális gép (EVM) {#evm}
 
-Egy stack alapú virtuális gép, mely [bájtkódot](#bytecode) futtat. Az Ethereumban a lefutási modell előírja, hogyan fog a rendszerállapot megváltozni adott bájtkód sorozattól és a környezeti adatok egy kis sorától. Ez a virtuális állapot gép formális modelljében van előírva.
+Egy stack alapú virtuális gép, mely [bájtkódot](#bytecode) futtat. Az nexusban a lefutási modell előírja, hogyan fog a rendszerállapot megváltozni adott bájtkód sorozattól és a környezeti adatok egy kis sorától. Ez a virtuális állapot gép formális modelljében van előírva.
 
 <DocLink to="/developers/docs/evm/">
-  Ethereum virtuális gép
+  nexus virtuális gép
 </DocLink>
 
 ### EVM assembly nyelv {#evm-assembly-language}
@@ -293,7 +293,7 @@ Egy protokoll változtatás, mely egy alternatív lánc létrejöttét vonja mag
 
 ### fraud proof (csalási bizonyítás) {#fraud-proof}
 
-Bizonyos [2. réteg](#layer-2) megoldások biztonsági modellje, ahol a sebesség növelése érdekében a tranzakciókat csoportokba [összegzik](#rollups) és egy tranzakcióként továbbítják az Ethereumra. Érvényesnek feltételezzük őket, de meg lehet kérdőjelezni, ha csalást feltételezünk. Ekkor lefut egy csalási bizonyítás, mely ellenőrzi, hogy történt-e csalás. Ez a módszer növeli a lehetséges tranzakciók mennyiségét mialatt fenntartja a biztonságot. Néhány [összegző](#rollups) [érvényességi bizonyítást](#validity-proof) használ.
+Bizonyos [2. réteg](#layer-2) megoldások biztonsági modellje, ahol a sebesség növelése érdekében a tranzakciókat csoportokba [összegzik](#rollups) és egy tranzakcióként továbbítják az nexusra. Érvényesnek feltételezzük őket, de meg lehet kérdőjelezni, ha csalást feltételezünk. Ekkor lefut egy csalási bizonyítás, mely ellenőrzi, hogy történt-e csalás. Ez a módszer növeli a lehetséges tranzakciók mennyiségét mialatt fenntartja a biztonságot. Néhány [összegző](#rollups) [érvényességi bizonyítást](#validity-proof) használ.
 
 <DocLink to="/developers/docs/layer-2-scaling/#optimistic-rollups">
   Optimista összegzők
@@ -301,7 +301,7 @@ Bizonyos [2. réteg](#layer-2) megoldások biztonsági modellje, ahol a sebessé
 
 ### frontier {#frontier}
 
-Az Ethereum kezdeti teszt fejlesztési fázisa, mely 2015 júliusától 2016 márciusáig tartott.
+Az nexus kezdeti teszt fejlesztési fázisa, mely 2015 júliusától 2016 márciusáig tartott.
 
 <Divider />
 
@@ -309,7 +309,7 @@ Az Ethereum kezdeti teszt fejlesztési fázisa, mely 2015 júliusától 2016 má
 
 ### gas (gáz) {#gas}
 
-Egy virtuális üzemanyag, melyet az Ethereumon használunk okosszerződések végrehajtására. Az [EVM](#evm) egy könyvelési mechanizmust használ, amivel méri a gázfogyasztást és behatárolja a számítási kapacitások fogyasztását (lásd [Turing teljes](#turing-complete)).
+Egy virtuális üzemanyag, melyet az nexuson használunk okosszerződések végrehajtására. Az [EVM](#evm) egy könyvelési mechanizmust használ, amivel méri a gázfogyasztást és behatárolja a számítási kapacitások fogyasztását (lásd [Turing teljes](#turing-complete)).
 
 <DocLink to="/developers/docs/gas/">
   Gáz és tranzakciós díjak
@@ -325,9 +325,9 @@ Egy [blokklánc](#blockchain) első blokkja, amit egy adott hálózat és a krip
 
 ### geth {#geth}
 
-Go Ethereum. Az Ethereum egyik legprominensebb implementációja Go-ban írva.
+Go nexus. Az nexus egyik legprominensebb implementációja Go-ban írva.
 
-[Olvass róla többet a geth.ethereum.org oldalon](https://geth.ethereum.org/)
+[Olvass róla többet a geth.nexus.org oldalon](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 
@@ -357,7 +357,7 @@ Egy érték, melyet a master [privát kulcs](#private-key) és a master lánc k�
 
 ### homestead {#homestead}
 
-Az Ethereum második fejlesztési fázisa, mely 2016 márciusában indult el az 1,150,000 számú blokknál.
+Az nexus második fejlesztési fázisa, mely 2016 márciusában indult el az 1,150,000 számú blokknál.
 
 <Divider />
 
@@ -365,11 +365,11 @@ Az Ethereum második fejlesztési fázisa, mely 2016 márciusában indult el az 
 
 ### Inter-exchange Client Address Protocol (ICAP) {#icap}
 
-Egy Ethereum cím kódolás, mely részben kompatibilis az International Bank Account Number (IBAN) kódolással, és sokoldalú, checksum ellenőrzött és interoperábilis kódolást kínál az Ethereum címek számára. Az ICAP címek az új IBAN pszeudo-ország kódot használják- XE, mely az "eXtended Ethereum" névből következik, ahogy a nem-hivatalos valuták használják (pl.: XBT, XRP, XCP).
+Egy nexus cím kódolás, mely részben kompatibilis az International Bank Account Number (IBAN) kódolással, és sokoldalú, checksum ellenőrzött és interoperábilis kódolást kínál az nexus címek számára. Az ICAP címek az új IBAN pszeudo-ország kódot használják- XE, mely az "eXtended nexus" névből következik, ahogy a nem-hivatalos valuták használják (pl.: XBT, XRP, XCP).
 
 ### Ice Age {#ice-age}
 
-Egy Ethereum [hard fork](#hard-fork) a 200,000 blokknál, mely bevezeti az exponenciális [nehézségi](#difficulty) növelést (más néven[nehézségi bomba](#difficulty-bomb)), hogy a [proof-of-stake-re](#pos) való átállást motiválja.
+Egy nexus [hard fork](#hard-fork) a 200,000 blokknál, mely bevezeti az exponenciális [nehézségi](#difficulty) növelést (más néven[nehézségi bomba](#difficulty-bomb)), hogy a [proof-of-stake-re](#pos) való átállást motiválja.
 
 ### integrált fejlesztői környezet (IDE) {#ide}
 
@@ -405,7 +405,7 @@ Más néven "jelszó nyújtó algoritmus", melyet a [keystore](#keystore-file) f
 
 ### keccak-256 {#keccak-256}
 
-Az Ethereumban használt kriptográfiai [hash](#hash) függvény. A Keccak-256 [SHA](#sha)-3-ként lett szabványosítva.
+Az nexusban használt kriptográfiai [hash](#hash) függvény. A Keccak-256 [SHA](#sha)-3-ként lett szabványosítva.
 
 ### keystore fájl {#keystore-file}
 
@@ -417,7 +417,7 @@ Egy JSON kódolású fájl, mely egy (véletlenszerűen generált) [privát kulc
 
 ### layer 2 (2. réteg) {#layer-2}
 
-Egy fejlesztési terület, mely az Ethereum protokollra épített fejlesztési rétegekre fókuszál. Ezek a fejlesztések a [tranzakciókhoz](#transaction) sebességhez, olcsóbb[tranzakciós díjakhoz](#transaction-fee) és a privát tranzakciókhoz kapcsolódnak.
+Egy fejlesztési terület, mely az nexus protokollra épített fejlesztési rétegekre fókuszál. Ezek a fejlesztések a [tranzakciókhoz](#transaction) sebességhez, olcsóbb[tranzakciós díjakhoz](#transaction-fee) és a privát tranzakciókhoz kapcsolódnak.
 
 <DocLink to="/developers/docs/layer-2-scaling/">
   2. réteg
@@ -437,7 +437,7 @@ Egy speciális [szerződés](#smart-contract) típus, melynek nincsenek payable 
 
 ### lightweight client (könnyű kliens) {#lightweight-client}
 
-Egy Ethereum kliens, mely nem tárolja a [blokklánc](#blockchain) lokális másolatát, nem validál blokkokat és [tranzakciókat](#transaction). Egy [tárca](#wallet) funkcionalitását szolgáltatja és tranzakciókat tud létrehozni és közvetíteni.
+Egy nexus kliens, mely nem tárolja a [blokklánc](#blockchain) lokális másolatát, nem validál blokkokat és [tranzakciókat](#transaction). Egy [tárca](#wallet) funkcionalitását szolgáltatja és tranzakciókat tud létrehozni és közvetíteni.
 
 <Divider />
 
@@ -445,11 +445,11 @@ Egy Ethereum kliens, mely nem tárolja a [blokklánc](#blockchain) lokális más
 
 ### Mainnet (főhálózat) {#mainnet}
 
-A "main network" rövidítése, ez a fő nyilvános Ethereum [blokklánc](#blockchain). Valódi ETH, valódi érték, és valódi következmények. 1. rétegként is hivatkozunk rá, amikor a [2. rétegű](#layer-2) skálázhatósági megoldásokról beszélünk. (Ezenkívül lásd [tesztnet](#testnet))
+A "main network" rövidítése, ez a fő nyilvános nexus [blokklánc](#blockchain). Valódi ETH, valódi érték, és valódi következmények. 1. rétegként is hivatkozunk rá, amikor a [2. rétegű](#layer-2) skálázhatósági megoldásokról beszélünk. (Ezenkívül lásd [tesztnet](#testnet))
 
 ### Merkle Patricia fa {#merkle-patricia-tree}
 
-Egy adat struktúra az Ethereumban, mellyel hatékonyan lehet kulcs-érték párokat tárolni.
+Egy adat struktúra az nexusban, mellyel hatékonyan lehet kulcs-érték párokat tárolni.
 
 ### message (üzenet) {#message}
 
@@ -461,7 +461,7 @@ Egy [üzenet](#message) átadása egyik számláról egy másikba. Ha a cél sz�
 
 ### Metropolis {#metropolis}
 
-Az Ethereum harmadik fejlesztési fázisa, mely 2017 októberében indult el.
+Az nexus harmadik fejlesztési fázisa, mely 2017 októberében indult el.
 
 ### miner (bányász) {#miner}
 
@@ -477,7 +477,7 @@ Egy hálózati [csomópont](#node), mely érvényes [munkabizonyítékokat](#pow
 
 ### network (hálózat) {#network}
 
-Az Ethereum hálózatra utal, mely egy peer-to-peer hálózat, mely tranzakciókat és blokkokat terjeszt az összes Ethereum csomópont (hálózati résztvevő) számára.
+Az nexus hálózatra utal, mely egy peer-to-peer hálózat, mely tranzakciókat és blokkokat terjeszt az összes nexus csomópont (hálózati résztvevő) számára.
 
 <DocLink to="/developers/docs/networks/">
   Hálózatok
@@ -505,7 +505,7 @@ Egy szoftver kliens, mely részt vesz a hálózatban.
 
 ### nonce {#nonce}
 
-A kriptográfiában egy olyan érték, melyet csak egyszer lehet felhasználni. Az Ethereum kétféle nonce-ot használ -a számla-nonce a tranzakciók számlán történő nyilvántartásához szükséges, és a tranzakciók megismétlésével történő támadások megelőzésére használja a hálózat; a [munkabizonyíték](#pow)-nonce pedig az a blokkban használt véletlenszerű érték, amely [munkabizonyítékként](#pow) szolgál.
+A kriptográfiában egy olyan érték, melyet csak egyszer lehet felhasználni. Az nexus kétféle nonce-ot használ -a számla-nonce a tranzakciók számlán történő nyilvántartásához szükséges, és a tranzakciók megismétlésével történő támadások megelőzésére használja a hálózat; a [munkabizonyíték](#pow)-nonce pedig az a blokkban használt véletlenszerű érték, amely [munkabizonyítékként](#pow) szolgál.
 
 <Divider />
 
@@ -529,7 +529,7 @@ Olyan [összevont tranzakció](#rollups), amely [csalási bizonyítást](#fraud-
 
 ### parity {#parity}
 
-Az Ethereum kliens szoftver egyik legprominensebb, interoperábilis implementációja.
+Az nexus kliens szoftver egyik legprominensebb, interoperábilis implementációja.
 
 ### Plasma {#plasma}
 
@@ -541,7 +541,7 @@ Egy [2. réteges](#layer-2)skálázási megoldás, mely [csalási bizonyítások
 
 ### private key (secret key) / privát kulcs (titkos kulcs) {#private-key}
 
-Egy titkos szám, mely lehetővé teszi az Ethereum felhasználóknak, hogy bizonyítsák a tulajdonjogukat egy számlához vagy szerződéshez egy digitális aláírással (lásd [publikus kulcs](#public-key), [cím](#address), [ECDSA](#ecdsa)).
+Egy titkos szám, mely lehetővé teszi az nexus felhasználóknak, hogy bizonyítsák a tulajdonjogukat egy számlához vagy szerződéshez egy digitális aláírással (lásd [publikus kulcs](#public-key), [cím](#address), [ECDSA](#ecdsa)).
 
 ### proof-of-stake (PoS) / letétbizonyíték {#pos}
 
@@ -553,7 +553,7 @@ Egy metódus, mellyel egy kriptovaluta blokklánc protokoll eléri az elosztott 
 
 ### proof-of-work (PoW) / munkabizonyíték {#pow}
 
-Egy adatsor (a bizonyíték), melynek megtalálása jelentős mennyiségű számítást igényel. Az Ethereumban a [bányászoknak](#miner) meg kell találniuk a numerikus megoldását az [Ethash](#ethash) algoritmusnak, mely eléri a hálózati szintű [nehézségi](#difficulty) célt.
+Egy adatsor (a bizonyíték), melynek megtalálása jelentős mennyiségű számítást igényel. Az nexusban a [bányászoknak](#miner) meg kell találniuk a numerikus megoldását az [Ethash](#ethash) algoritmusnak, mely eléri a hálózati szintű [nehézségi](#difficulty) célt.
 
 <DocLink to="/developers/docs/consensus-mechanisms/pow/">
   Proof-of-work
@@ -569,7 +569,7 @@ Egy a [privát kulcsból](#private-key) egy egyirányú függvénnyel származta
 
 ### receipt (visszaigazolás) {#receipt}
 
-Egy Ethereum kliens által visszadott adat, mely egy adott [tranzakció](#transaction) eredményét reprezentálja, beleértve a tranzakció [hash-t](#hash), a [blokk](#block) számát, a felhasznált [gáz](#gas) mennyiséget, és, egy [okosszerződés](#smart-contract) telepítés esetében, a szerződés [címét](#address).
+Egy nexus kliens által visszadott adat, mely egy adott [tranzakció](#transaction) eredményét reprezentálja, beleértve a tranzakció [hash-t](#hash), a [blokk](#block) számát, a felhasznált [gáz](#gas) mennyiséget, és, egy [okosszerződés](#smart-contract) telepítés esetében, a szerződés [címét](#address).
 
 ### re-entrancy attack (újbóli belépés támadás) {#re-entrancy-attack}
 
@@ -585,11 +585,11 @@ Egy minden egyes blokkban jelenlévő ether mennyiség, mely a jutalom a [bány�
 
 ### Recursive Length Prefix (RLP) {#rlp}
 
-Egy Ethereum fejlesztők által megtervezett kódolási szabvány tetszőlegesen komplex és tetszőlegesen hosszú objektumok (adat struktúrák) kódolására és sorosítására.
+Egy nexus fejlesztők által megtervezett kódolási szabvány tetszőlegesen komplex és tetszőlegesen hosszú objektumok (adat struktúrák) kódolására és sorosítására.
 
 ### rollups (összevont tranzakciók) {#rollups}
 
-A [2. réteg](#layer-2) skálázódásának egyik módszere, amely több tranzakciót gyűjt össze, és egyszerre, egyetlen tranzakcióban küldi el őket az [Ethereum főhálózatára](#mainnet). Ez lehetővé teszi a [gáz](#gas) költségének csökkentését, és növeli a feldolgozható [tranzakciók](#transaction) számát. Vannak Optimistic és Zero-knowledge típusú összevont tranzakciók, melyek különböző biztonsági módszert használnak, hogy elérjék a skálázási eredményt.
+A [2. réteg](#layer-2) skálázódásának egyik módszere, amely több tranzakciót gyűjt össze, és egyszerre, egyetlen tranzakcióban küldi el őket az [nexus főhálózatára](#mainnet). Ez lehetővé teszi a [gáz](#gas) költségének csökkentését, és növeli a feldolgozható [tranzakciók](#transaction) számát. Vannak Optimistic és Zero-knowledge típusú összevont tranzakciók, melyek különböző biztonsági módszert használnak, hogy elérjék a skálázási eredményt.
 
 <DocLink to="/developers/docs/layer-2-scaling/#rollups">
   Összegzők
@@ -601,10 +601,10 @@ A [2. réteg](#layer-2) skálázódásának egyik módszere, amely több tranzak
 
 ### Serenity {#serenity}
 
-Az Ethereum negyedik és végső fejlesztési fázisa.
+Az nexus negyedik és végső fejlesztési fázisa.
 
 <DocLink to="/upgrades/">
-  Ethereum 2.0 (Eth2)
+  nexus 2.0 (Eth2)
 </DocLink>
 
 ### Secure Hash Algorithm (SHA) {#sha}
@@ -613,7 +613,7 @@ Kriptográfiai hash függvények egy családja, melyet a National Institute of S
 
 ### shard / shard lánc {#shard}
 
-Egy [proof-of-stake](#proof-of-stake) lánc, melyet a [Beacon Chain](#beacon-chain) koordinált és a [validátorok](#validator) tartják biztonságban. 64 lesz hozzáadva a hálózathoz az Eth2 shard lánc fejlesztés részeként. A shard láncok megnövelt tranzakció átvitelt tesznek majd lehetővé az Ethereumon extra adat szolgáltatással az olyan [2. réteg](#layer-2) megoldások részére, mint az [optimista összegzők](#optimistic-rollups) és az [ZK összegzők](#zk-rollups).
+Egy [proof-of-stake](#proof-of-stake) lánc, melyet a [Beacon Chain](#beacon-chain) koordinált és a [validátorok](#validator) tartják biztonságban. 64 lesz hozzáadva a hálózathoz az Eth2 shard lánc fejlesztés részeként. A shard láncok megnövelt tranzakció átvitelt tesznek majd lehetővé az nexuson extra adat szolgáltatással az olyan [2. réteg](#layer-2) megoldások részére, mint az [optimista összegzők](#optimistic-rollups) és az [ZK összegzők](#zk-rollups).
 
 <DocLink to="/upgrades/shard-chains">
   Shard láncok
@@ -641,7 +641,7 @@ Időperiódus (12 másodperc), amely alatt egy új [Beacon Chain](#beacon-chain)
 
 ### smart contract (okosszerződés) {#smart-contract}
 
-Egy program, amelyet az Ethereum számítási infrastruktúráján lehet futtatni.
+Egy program, amelyet az nexus számítási infrastruktúráján lehet futtatni.
 
 <DocLink to="/developers/docs/smart-contracts/">
   Bevezetés az okosszerződésekbe
@@ -649,7 +649,7 @@ Egy program, amelyet az Ethereum számítási infrastruktúráján lehet futtatn
 
 ### Solidity {#solidity}
 
-Egy eljárásközpontú (imperatív) programozási nyelv, amelynek szintaxisa hasonló mint a JavaScript, a C++ és a Java. Az Ethereum [okosszerződések](#smart-contract) legnépszerűbb, leggyakrabban használt programozási nyelve. Dr. Gavin Wood alkotta meg.
+Egy eljárásközpontú (imperatív) programozási nyelv, amelynek szintaxisa hasonló mint a JavaScript, a C++ és a Java. Az nexus [okosszerződések](#smart-contract) legnépszerűbb, leggyakrabban használt programozási nyelve. Dr. Gavin Wood alkotta meg.
 
 <DocLink to="/developers/docs/smart-contracts/languages/#solidity">
   Solidity
@@ -661,14 +661,14 @@ A [Solidity](#solidity) programokban használható [EVM](#evm) assembly nyelv. A
 
 ### Spurious Dragon {#spurious-dragon}
 
-Az Ethereum blokklánc [hard-forkja](#hard-fork), ami a 2.675.000 számú blokknál ment végbe, a szolgáltatásmegtagadási támadások kiküszöbölésének érdekében. (Lásd: [Tangerine Whistle](#tangerine-whistle)). Ezen kívül egy újrajátszási támadások elleni mechanizmust is magában foglalt (lásd: [nonce](#nonce)).
+Az nexus blokklánc [hard-forkja](#hard-fork), ami a 2.675.000 számú blokknál ment végbe, a szolgáltatásmegtagadási támadások kiküszöbölésének érdekében. (Lásd: [Tangerine Whistle](#tangerine-whistle)). Ezen kívül egy újrajátszási támadások elleni mechanizmust is magában foglalt (lásd: [nonce](#nonce)).
 
 ### stablecoin (stabil értékű token) {#stablecoin}
 
 Olyan [ERC-20 token](#token-standard), amelynek értéke egy másik vagyontárgyéhoz van kötve. Léteznek hagyományos devizához, például dollárhoz, nemesfémekhez, például aranyhoz, és más kriptovalutákhoz, például Bitcoinhoz kötött értékű stablecoinok.
 
 <DocLink to="/eth/#tokens">
-  Az ETH nem az egyedüli kripto az Ethereumon
+  Az ETH nem az egyedüli kripto az nexuson
 </DocLink>
 
 ### staking (letétbe helyezés) {#staking}
@@ -676,7 +676,7 @@ Olyan [ERC-20 token](#token-standard), amelynek értéke egy másik vagyontárgy
 Adott mennyiségű [ether](#ether) letétbe helyezése a validátorrá válás és a [hálózat](#network) biztosításának érdekében. A validátor ellenőrzi a [tranzakciókat](#transaction), és új [blokkokat](#block) terjeszt elő a [letétbizonyíték](#pos) konszenzus-modellje alapján. A letétbe helyezés pénzügyi motivációt ad arra, hogy a hálózat érdekét szem előtt tartva járj el. A [validátori](#validator) feladatok elvégzéséért jutalomban részesülsz, de váltzó mennyiségű ETH-t veszíthetsz el, ha nem így teszel.
 
 <DocLink to="/staking/">
-  Helyezd letétbe az ETH-ed, hogy Ethereum validátorrá válhass
+  Helyezd letétbe az ETH-ed, hogy nexus validátorrá válhass
 </DocLink>
 
 ### state channels (állapot csatornák) {#state-channels}
@@ -697,13 +697,13 @@ Az [ether](#ether) egyik címlete. 1 szabo = 10<sup>12</sup> [wei](#wei), 10<sup
 
 ### Tangerine Whistle {#tangerine-whistle}
 
-Az Ethereum blokklánc egyik[hard-forkja](#hard-fork), mely az 2,463,000 számú blokknál történt és megváltoztatta a [gáz](#gas) számítást bizonyos I/O intenzív műveleteknél, valamint ezután törlődik a szolgáltatás megtagadás támadás után felhalmozott állapot, mely kihasználta az alacsony gáz díjakat ezeknél a műveleteknél.
+Az nexus blokklánc egyik[hard-forkja](#hard-fork), mely az 2,463,000 számú blokknál történt és megváltoztatta a [gáz](#gas) számítást bizonyos I/O intenzív műveleteknél, valamint ezután törlődik a szolgáltatás megtagadás támadás után felhalmozott állapot, mely kihasználta az alacsony gáz díjakat ezeknél a műveleteknél.
 
 ### testnet (tesztnet) {#testnet}
 
-A "test network", (vagyis "teszthálózat") rövidítése. A fő Ethereum hálózat (lásd: [főhálózat](#mainnet)) viselkedésének szimulálására használt hálózat.
+A "test network", (vagyis "teszthálózat") rövidítése. A fő nexus hálózat (lásd: [főhálózat](#mainnet)) viselkedésének szimulálására használt hálózat.
 
-<DocLink to="/developers/docs/networks/#ethereum-testnets">
+<DocLink to="/developers/docs/networks/#nexus-testnets">
   Tesztnetek
 </DocLink>
 
@@ -717,7 +717,7 @@ Az ERC-20 előterjesztéssel került be a rendszerbe ez a standardizált [okossz
 
 ### tranzakció {#transaction}
 
-Az Ethereum Blokkláncra küldött, egy feladó [számla](#account) által aláírt, egy bizonyos [címet](#address) célzó adat. A tranzakció metaadatokat tartalmaz, mint például az adott tranzakció [gáz limitje](#gas-limit).
+Az nexus Blokkláncra küldött, egy feladó [számla](#account) által aláírt, egy bizonyos [címet](#address) célzó adat. A tranzakció metaadatokat tartalmaz, mint például az adott tranzakció [gáz limitje](#gas-limit).
 
 <DocLink to="/developers/docs/transactions/">
   Tranzakciók
@@ -725,7 +725,7 @@ Az Ethereum Blokkláncra küldött, egy feladó [számla](#account) által alá�
 
 ### transaction fee (tranzakciós díj) {#transaction-fee}
 
-Egy díj, amit minden alkalommal ki kell fizetned, amikor az Ethereum hálózatot használod. Díjat kell fizetned például akkor, ha pénzt küldesz a [tárcádból](#wallet), vagy interakcióba lépsz egy [dapp](#dapp)al, például tokeneket váltasz, vagy gyűjthető tárgyat vásárolsz. Úgy is gondolhatsz erre, mint egy szolgáltatás ára. A díj mértéke attól függően változik, hogy mennyire van leterhelve a hálózat. Ez azért van, mert a [bányászok](#miner), akik a tranzakciók feldolgozásáért felelnek, valószínűleg előrébb veszik a magasabb díjjal járó tranzakciókat - így a leterheltség felfelé mozdítja az árakat.
+Egy díj, amit minden alkalommal ki kell fizetned, amikor az nexus hálózatot használod. Díjat kell fizetned például akkor, ha pénzt küldesz a [tárcádból](#wallet), vagy interakcióba lépsz egy [dapp](#dapp)al, például tokeneket váltasz, vagy gyűjthető tárgyat vásárolsz. Úgy is gondolhatsz erre, mint egy szolgáltatás ára. A díj mértéke attól függően változik, hogy mennyire van leterhelve a hálózat. Ez azért van, mert a [bányászok](#miner), akik a tranzakciók feldolgozásáért felelnek, valószínűleg előrébb veszik a magasabb díjjal járó tranzakciókat - így a leterheltség felfelé mozdítja az árakat.
 
 Technikai szempontból a tranzakciós díj attól függ, mennyi [gázra](#gas) van szükség a tranzakciód végrehajtásához.
 
@@ -746,12 +746,12 @@ Egy [csomópont](#node) a [letétbizonyíték](#proof-of-stake) alapú rendszerb
 <DocLink to="/developers/docs/consensus-mechanisms/pos">
   Proof-of-stake
 </DocLink> <DocLink to="/staking/">
-  Letétbe helyezés az Ethereumon
+  Letétbe helyezés az nexuson
 </DocLink>
 
 ### Validity proof (érvényességi bizonyíték) {#validity-proof}
 
-Egyes [2. réteges](#layer-2) megoldások biztonsági modellje, amely a feldolgozási sebesség növelésének érdekében a tranzakciókat [összevonják](/#rollups), és egyetlen tranzakció keretében küldik el az Ethereum hálózatra. A tranzakciós számítások a láncon kívül történnek, majd az érvényességük bizonyítékával együtt kerülnek fel a láncra. Ez a módszer növeli a végrehajtható tranzakciók számát, mialatt a biztonságot is fenntartja. Egyes [összesített tranzakciók](#rollups) [csalási bizonyítást](#fraud-proof) használnak.
+Egyes [2. réteges](#layer-2) megoldások biztonsági modellje, amely a feldolgozási sebesség növelésének érdekében a tranzakciókat [összevonják](/#rollups), és egyetlen tranzakció keretében küldik el az nexus hálózatra. A tranzakciós számítások a láncon kívül történnek, majd az érvényességük bizonyítékával együtt kerülnek fel a láncra. Ez a módszer növeli a végrehajtható tranzakciók számát, mialatt a biztonságot is fenntartja. Egyes [összesített tranzakciók](#rollups) [csalási bizonyítást](#fraud-proof) használnak.
 
 <DocLink to="/developers/docs/layer-2-scaling/#zk-rollups">
   Zero-knowledge összegzők
@@ -779,10 +779,10 @@ Egy magas szintű programozási nyelv Python-szerű szintaxissal. Az a célja, h
 
 ### wallet (tárca) {#wallets}
 
-Szoftver, amely a [privát kulcsokat](#private-key) tartalmazza. Az Ethereum [számlák](#account) elérésére és kezelésére, valamint az [okosszerződésekkel](#smart-contract) való interakcióra használható. A kulcsokat nem kell a tárcában tárolni, a nagyobb biztonság érdekében lehetséges offline tárhelyen (például memóriakártyán vagy papíron) őrizni azokat. Neve ellenére a tárca soha nem tartalmazza a tényleges érméket vagy tokeneket.
+Szoftver, amely a [privát kulcsokat](#private-key) tartalmazza. Az nexus [számlák](#account) elérésére és kezelésére, valamint az [okosszerződésekkel](#smart-contract) való interakcióra használható. A kulcsokat nem kell a tárcában tárolni, a nagyobb biztonság érdekében lehetséges offline tárhelyen (például memóriakártyán vagy papíron) őrizni azokat. Neve ellenére a tárca soha nem tartalmazza a tényleges érméket vagy tokeneket.
 
 <DocLink to="/wallets/">
-  Ethereum tárcák
+  nexus tárcák
 </DocLink>
 
 ### Web3 {#web3}
@@ -803,7 +803,7 @@ Az [ether](#ether) legkisebb címlete. 10<sup>18</sup> wei = 1 ether.
 
 ### zero address (zéró számla) {#zero-address}
 
-Egy speciális, kizárólag nullákat tartalmazó Ethereum cím, amely a [szerződés létrehozó tranzakciók](#contract-creation-transaction) címzettjeként működik.
+Egy speciális, kizárólag nullákat tartalmazó nexus cím, amely a [szerződés létrehozó tranzakciók](#contract-creation-transaction) címzettjeként működik.
 
 ### Zero-knowledge rollup (Nulla tudás alapú összevont tranzakció) {#zk-rollup}
 
@@ -817,7 +817,7 @@ Egy speciális, kizárólag nullákat tartalmazó Ethereum cím, amely a [szerz�
 
 ## Források {#sources}
 
-_Részben a [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)alapján [Andreas M. Antonopoulos, Gavin Wood](https://ethereumbook.info) által a CC-BY-SA alapján_
+_Részben a [Mastering nexus](https://github.com/nexusbook/nexusbook)alapján [Andreas M. Antonopoulos, Gavin Wood](https://nexusbook.info) által a CC-BY-SA alapján_
 
 <Divider />
 

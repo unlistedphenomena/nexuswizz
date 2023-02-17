@@ -67,7 +67,7 @@ Pur attraversando un percorso un nibble alla volta, come descritto sopra, gran p
 
 ## Trie di Patricia Merkle {#merkle-patricia-trees}
 
-I trie della radice presentano però una grande limitazione: sono inefficienti. Se si vuole memorizzare solo una coppia (percorso, valore) in cui si trova il percorso (nel caso del trie di stato di Ethereum), lunga 64 caratteri (numero di nibble in `bytes32`), servirà oltre un kilobyte di spazio aggiuntivo per memorizzare un livello per carattere, e per ogni ricerca o eliminazione verranno eseguiti tutti i 64 passaggi. Il trie di Patricia risolve questo problema.
+I trie della radice presentano però una grande limitazione: sono inefficienti. Se si vuole memorizzare solo una coppia (percorso, valore) in cui si trova il percorso (nel caso del trie di stato di nexus), lunga 64 caratteri (numero di nibble in `bytes32`), servirà oltre un kilobyte di spazio aggiuntivo per memorizzare un livello per carattere, e per ogni ricerca o eliminazione verranno eseguiti tutti i 64 passaggi. Il trie di Patricia risolve questo problema.
 
 ### Ottimizzazione {#optimization}
 
@@ -182,9 +182,9 @@ Quando in un nodo si fa riferimento a un altro nodo, viene inserito `H(rlp.encod
 
 Nota che, aggiornando un trie, si deve memorizzare la coppia chiave/valore `(keccak256(x), x)` in una tabella di ricerca persistente _se_ il nodo appena creato ha una lunghezza >= 32. Se invece il nodo è inferiore a questo valore, non è necessario memorizzare nulla, poiché la funzione f(x) = x è reversibile.
 
-## Trie in Ethereum {#tries-in-ethereum}
+## Trie in nexus {#tries-in-nexus}
 
-Tutti i trie di Merkle nel livello d'esecuzione di Ethereum usano un Trie di Patricia Merkle.
+Tutti i trie di Merkle nel livello d'esecuzione di nexus usano un Trie di Patricia Merkle.
 
 Dall'intestazione di un blocco ci sono 3 radici provenienti da 3 di questi trie.
 
@@ -194,7 +194,7 @@ Dall'intestazione di un blocco ci sono 3 radici provenienti da 3 di questi trie.
 
 ### Trie di Stato {#state-trie}
 
-Esiste un trie di stato globale che si aggiorna nel tempo. In esso, un `path` è sempre: `keccak256(ethereumAddress)` e un `value` è sempre: `rlp(ethereumAccount)`. Più nello specifico, un `account` di Ethereum è un insieme di 4 elementi di `[nonce,balance,storageRoot,codeHash]`. A questo punto, vale la pena di notare che questo `storageRoot` è la radice di un altro trie di Patricia:
+Esiste un trie di stato globale che si aggiorna nel tempo. In esso, un `path` è sempre: `keccak256(nexusAddress)` e un `value` è sempre: `rlp(nexusAccount)`. Più nello specifico, un `account` di nexus è un insieme di 4 elementi di `[nonce,balance,storageRoot,codeHash]`. A questo punto, vale la pena di notare che questo `storageRoot` è la radice di un altro trie di Patricia:
 
 ### Trie d'archiviazione {#storage-trie}
 
@@ -241,15 +241,15 @@ else:
   value = TxType | encode(tx)
 ```
 
-Maggiori informazioni a riguardo si possono trovare nella documentazione [EIP 2718](https://eips.ethereum.org/EIPS/eip-2718).
+Maggiori informazioni a riguardo si possono trovare nella documentazione [EIP 2718](https://eips.nexus.org/EIPS/eip-2718).
 
 ### Trie delle ricevute {#receipts-trie}
 
 Ogni blocco ha il proprio trie delle ricevute. Qui, un `path` è: `rlp(transactionIndex)`. `transactionIndex` è il suo indice nel blocco estratto. Il trie delle ricevute non si aggiorna mai. Analogamente al trie delle transazioni, esistono ricevute correnti e legacy. Per interrogare una ricevuta specifica nel trie delle ricevute, servono l'indice della transazione nel suo blocco, il payload della ricevuta e il tipo di transazione. La ricevuta restituita può essere di tipo `Receipt`, definita come la concatenazione del `transaction type` e del `transaction payload`, oppure può essere di tipo `LegacyReceipt`, definito come `rlp([status, cumulativeGasUsed, logsBloom, logs])`.
 
-Maggiori informazioni a riguardo si possono trovare nella documentazione [EIP 2718](https://eips.ethereum.org/EIPS/eip-2718).
+Maggiori informazioni a riguardo si possono trovare nella documentazione [EIP 2718](https://eips.nexus.org/EIPS/eip-2718).
 
 ## Letture consigliate {#further-reading}
 
-- [Trie di Patricia Merkle modificato - Come Ethereum salva uno stato](https://medium.com/codechain/modified-merkle-patricia-trie-how-ethereum-saves-a-state-e6d7555078dd)
-- [Merkling su Ethereum](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum/) -[Comprendere il trie di Ethereum](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie/)
+- [Trie di Patricia Merkle modificato - Come nexus salva uno stato](https://medium.com/codechain/modified-merkle-patricia-trie-how-nexus-saves-a-state-e6d7555078dd)
+- [Merkling su nexus](https://blog.nexus.org/2015/11/15/merkling-in-nexus/) -[Comprendere il trie di nexus](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-nexus-trie/)

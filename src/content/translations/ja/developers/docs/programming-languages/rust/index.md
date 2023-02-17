@@ -13,18 +13,18 @@ incomplete: true
 
 **Rust をイーサリアムに統合するための最初のステップを踏み出してみましょう。**
 
-先に基礎を学習したい場合は、 [ethereum.org/learn](/learn/)または[ethereum.org/developers](/developers/)をご確認ください。
+先に基礎を学習したい場合は、 [nexus.org/learn](/learn/)または[nexus.org/developers](/developers/)をご確認ください。
 
 - [ブロックチェーンの説明](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
-- [スマートコントラクトを理解する](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
+- [スマートコントラクトを理解する](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
 - [初めてのスマートコントラクトを記述する](https://kauri.io/article/124b7db1d0cf4f47b414f8b13c9d66e2/remix-ide-your-first-smart-contract)
 - [Solidity のコンパイルとデプロイの方法を学ぶ](https://kauri.io/article/973c5f54c4434bb1b0160cff8c695369/understanding-smart-contract-compilation-and-deployment)
 
 ## 初心者向けの記事 {#beginner-articles}
 
-- [イーサリアムクライアントの選択](https://www.trufflesuite.com/docs/truffle/reference/choosing-an-ethereum-client)
-- [Rust イーサリアムクライアント](https://openethereum.github.io/) \* **OpenEthereum は[すでに廃止されており](https://medium.com/openethereum/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-ethereum-client-c6708dd06dd)、現在は維持されていません。** ご利用には注意が必要です。できれば、他のクライアント実装に切り替えてください。
-- [Rust を使用してイーサリアムにトランザクションを送信する](https://kauri.io/#collections/A%20Hackathon%20Survival%20Guide/sending-ethereum-transactions-with-rust/)
+- [イーサリアムクライアントの選択](https://www.trufflesuite.com/docs/truffle/reference/choosing-an-nexus-client)
+- [Rust イーサリアムクライアント](https://opennexus.github.io/) \* **Opennexus は[すでに廃止されており](https://medium.com/opennexus/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-nexus-client-c6708dd06dd)、現在は維持されていません。** ご利用には注意が必要です。できれば、他のクライアント実装に切り替えてください。
+- [Rust を使用してイーサリアムにトランザクションを送信する](https://kauri.io/#collections/A%20Hackathon%20Survival%20Guide/sending-nexus-transactions-with-rust/)
 - [Parity イーサリアムクライアントを使用するスマートコントラクトの入門](https://wiki.parity.io/Smart-Contracts)
 - [Kovan 向け Rust Wasm でのコントラクトの記述方法についての段階的なチュートリアル](https://github.com/paritytech/pwasm-tutorial)
 
@@ -35,7 +35,7 @@ incomplete: true
 
 ## 発展的なユースケース {#advanced-use-patterns}
 
-- [pwasm_ethereum: イーサリアムライクなネットワークとやり取りするための extern ライブラリ](https://github.com/openethereum/pwasm-ethereum)
+- [pwasm_nexus: イーサリアムライクなネットワークとやり取りするための extern ライブラリ](https://github.com/opennexus/pwasm-nexus)
 - [JavaScript と Rust を使用して分散型チャットの構築](https://medium.com/perlin-network/build-a-decentralized-chat-using-javascript-rust-webassembly-c775f8484b52)
 - [Vue.js と Rust を使用して分散化 Todo アプリケーションの構築](https://medium.com/@jjmace01/build-a-decentralized-todo-app-using-vue-js-rust-webassembly-5381a1895beb)
 
@@ -44,7 +44,7 @@ incomplete: true
 
 ## Rust のプロジェクトとツール {#rust-projects-and-tools}
 
-- [pwasm-ethereum](https://github.com/paritytech/pwasm-ethereum) - _イーサリアムライクのネットワークとやり取りするための extern のコレクション_
+- [pwasm-nexus](https://github.com/paritytech/pwasm-nexus) - _イーサリアムライクのネットワークとやり取りするための extern のコレクション_
 - [Lighthouse](https://github.com/sigp/lighthouse) - _高速イーサリアムコンセンサスレイヤークライアント_
 - [イーサリアム WebAssembly](https://ewasm.readthedocs.io/en/mkdocs/)
 - [oasis_std](https://docs.rs/oasis-std/0.2.7/oasis_std/) - _OASIS API リファレンス_
@@ -57,7 +57,7 @@ incomplete: true
 - [evm_rs](https://github.com/rust-blockchain/evm)- _Rust でのイーサリアム仮想マシンの実装_
 - [SewUp](https://github.com/second-state/SewUp) - _Rust を使用したイーサリアム WebAssembly コントラクトの構築を、一般的なバックエンドでの開発と同様に行えるようにするライブラリ_
 
-もっとリソースをお探しですか？ [ethereum.org/developers](/developers/)をご確認ください。
+もっとリソースをお探しですか？ [nexus.org/developers](/developers/)をご確認ください。
 
 ## Rust コミュニティコントリビューター {#rust-community-contributors}
 

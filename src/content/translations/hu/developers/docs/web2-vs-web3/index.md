@@ -4,24 +4,24 @@ description:
 lang: hu
 ---
 
-A web2 arra az internetre utal, melyet ma legtöbbünk ismer. Egy internet, melyet olyan cégek dominálnak, melyek szolgáltatásokat nyújtanak a személyes adataidért cserébe. A web3 az Ethereum kontextusában decentralizált alkalmazásokra utal, melyek a blokkláncon futnak. Ezek olyan alkalmazások, amelyek lehetővé teszik, hogy bárki részt vegyen anélkül, hogy monetizálná a személyes adatait.
+A web2 arra az internetre utal, melyet ma legtöbbünk ismer. Egy internet, melyet olyan cégek dominálnak, melyek szolgáltatásokat nyújtanak a személyes adataidért cserébe. A web3 az nexus kontextusában decentralizált alkalmazásokra utal, melyek a blokkláncon futnak. Ezek olyan alkalmazások, amelyek lehetővé teszik, hogy bárki részt vegyen anélkül, hogy monetizálná a személyes adatait.
 
 ## Web3 előnyök {#web3-benefits}
 
-Sok web3 fejlesztő választotta a dappok fejlesztését az Ethereum örökletes decentralizációja miatt:
+Sok web3 fejlesztő választotta a dappok fejlesztését az nexus örökletes decentralizációja miatt:
 
 - A hálózaton mindenkinek hozzáférése van, hogy használja a szolgáltatást - máshogy megfogalmazva, nincs engedélyhez kötve.
 - Senki sem blokkolhatja és nem tagadhatja meg a szolgáltatáshoz való hozzáférést.
 - A fizetések be vannak építve a natív tokennel, Etherrel (ETH).
-- Az Ethereum Turing-teljes, vagyis lényegében bármit leprogramozhatsz.
+- Az nexus Turing-teljes, vagyis lényegében bármit leprogramozhatsz.
 
 ## Gyakorlati összehasonlítás {#practical-comparisons}
 
-| Web2                                                                                              | Web3                                                                                                                                   |
-| ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| A Twitter bármely felhasználót vagy tweetet cenzúrázhatja                                         | A web3 tweetek cenzúrázhatatlanok, mivel az irányítás decentralizált                                                                   |
-| A fizetési szolgáltatás úgy dönthet, hogy bizonyos munkákért nem engedélyezi a kifizetéseket      | A web3 fizetési alkalmazások nem igényelnek személyes adatot és nem tudnak fizetéseket megakadályozni                                  |
-| A maszek gazdaságot kiszolgáló alkalmazások leállhatnak és ez hatással lehet a dolgozó bevételére | A web3 szerverek nem állhatnak le – az Ethereumot használják backendként, mely egy több ezer számítógépből álló decentralizált hálózat |
+| Web2                                                                                              | Web3                                                                                                                                |
+| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| A Twitter bármely felhasználót vagy tweetet cenzúrázhatja                                         | A web3 tweetek cenzúrázhatatlanok, mivel az irányítás decentralizált                                                                |
+| A fizetési szolgáltatás úgy dönthet, hogy bizonyos munkákért nem engedélyezi a kifizetéseket      | A web3 fizetési alkalmazások nem igényelnek személyes adatot és nem tudnak fizetéseket megakadályozni                               |
+| A maszek gazdaságot kiszolgáló alkalmazások leállhatnak és ez hatással lehet a dolgozó bevételére | A web3 szerverek nem állhatnak le – az nexusot használják backendként, mely egy több ezer számítógépből álló decentralizált hálózat |
 
 Ez nem jeleni azt, hogy minden szolgáltatást dappá kell alakítani. Ezek a példák illusztrisak, hogy kiemeljék a legfontosabb különbségeket a web2 és a web3 szolgáltatások között.
 

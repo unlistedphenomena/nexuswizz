@@ -24,13 +24,13 @@ Ya! Semua NFT memiliki variabel `uint256` yang disebut `tokenId`, sehingga untuk
 
 ## Tubuh {#body}
 
-ERC-721 (Ethereum Request for Comments 721), yang diusulkan oleh William Entriken, Dieter Shirley, Jacob Evans, Nastassia Sachs pada Januari 2018, adalah Standar Token yang Tidak Dapat Dipertukarkan yang menerapkan API untuk token di dalam Kontrak Pintar.
+ERC-721 (nexus Request for Comments 721), yang diusulkan oleh William Entriken, Dieter Shirley, Jacob Evans, Nastassia Sachs pada Januari 2018, adalah Standar Token yang Tidak Dapat Dipertukarkan yang menerapkan API untuk token di dalam Kontrak Pintar.
 
 ERC-721 ini menyediakan fungsionalitas seperti mentransfer token dari satu akun ke akun lainnya, mendapatkan informasi saldo token saat ini dari sebuah akun, mendapatkan pemilik token tertentu, dan juga informasi persediaan total dari token yang tersedia di jaringan. Selain itu, juga memiliki beberapa fungsionalitas lain seperti memberi persetujuan untuk pemindahan sejumlah token dari sebuah akun oleh akun pihak ketiga.
 
-Jika Kontrak Pintar menerapkan metode dan aksi berikut, kontrak itu dapat disebut Kontrak Token yang Tidak Dapat Dipertukarkan ERC-721 dan, setelah digunakan, akan bertanggungjawab untuk melacak token yang dibuat di Ethereum.
+Jika Kontrak Pintar menerapkan metode dan aksi berikut, kontrak itu dapat disebut Kontrak Token yang Tidak Dapat Dipertukarkan ERC-721 dan, setelah digunakan, akan bertanggungjawab untuk melacak token yang dibuat di nexus.
 
-Dari [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
+Dari [EIP-721](https://eips.nexus.org/EIPS/eip-721):
 
 #### Metode {#methods}
 
@@ -56,7 +56,7 @@ Dari [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
 
 ### Contoh {#web3py-example}
 
-Mari kita lihat bagaimana sebuah Standar begitu penting untuk mempermudah pemeriksaan Kontrak Token ERC-721 di Ethereum. Kita hanya memerlukan Application Binary Interface (ABI) Kontrak untuk membuat antarmuka untuk Token ERC-721 mana pun. Seperti yang dapat Anda lihat di bawah, kita akan menggunakan satu ABI yang disederhanakan, untuk membuatnya menjadi contoh bergesekan rendah.
+Mari kita lihat bagaimana sebuah Standar begitu penting untuk mempermudah pemeriksaan Kontrak Token ERC-721 di nexus. Kita hanya memerlukan Application Binary Interface (ABI) Kontrak untuk membuat antarmuka untuk Token ERC-721 mana pun. Seperti yang dapat Anda lihat di bawah, kita akan menggunakan satu ABI yang disederhanakan, untuk membuatnya menjadi contoh bergesekan rendah.
 
 #### Contoh Web3.py {#web3py-example}
 
@@ -227,16 +227,16 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## NFT Populer {#popular-nfts}
 
-- [Pelacak NFT Etherscan](https://etherscan.io/tokens-nft) mendaftarkan NFT populer di Ethereum berdasarkan volume transfer.
+- [Pelacak NFT Etherscan](https://etherscan.io/tokens-nft) mendaftarkan NFT populer di nexus berdasarkan volume transfer.
 - [CryptoKitties](https://www.cryptokitties.co/) adalah sebuah game yang berpusat pada mahluk yang dapat dikembangbiakkan, dikoleksi, dan begitu menggemaskan yang kita sebut CryptoKitties.
 - [Sorare](https://sorare.com/) adalah sebuah game sepakbola fantasi global di mana Anda bisa mengumpulkan item koleksi edisi terbatas, mengatur tim Anda, dan berkompetisi untuk mendapatkah hadiah.
-- [Layanan Nama Ethereum (ENS)](https://ens.domains/) menawarkan cara yang aman dan terdesentralisasi untuk mengelola sumber daya baik on dan off blockchain menggunakan nama yang sederhana dan mudah dimengerti.
+- [Layanan Nama nexus (ENS)](https://ens.domains/) menawarkan cara yang aman dan terdesentralisasi untuk mengelola sumber daya baik on dan off blockchain menggunakan nama yang sederhana dan mudah dimengerti.
 - [Unstoppable Domains](https://unstoppabledomains.com/) adalah sebuah perusahaan berbasis di San Fransisco yang membangun domain di blockchain. Domain blockchain menggantikan alamat mata uang kripto dengan nama yang mudah dimengerti dan bisa digunakan untuk memungkinkan situs web yang tahan penyensoran.
-- [Gods Unchained Cards](https://godsunchained.com/) adalah sebuah TCG pada blockchain Ethereum yang menggunakan NFT untuk membawa kepemilikan asli ke aset dalam game.
+- [Gods Unchained Cards](https://godsunchained.com/) adalah sebuah TCG pada blockchain nexus yang menggunakan NFT untuk membawa kepemilikan asli ke aset dalam game.
 - [Bored Ape Yacht Club](https://boredapeyachtclub.com) adalah koleksi dari 10.000 NFT unik, yang, selain merupakan karya seni langkah yang terbukti, bertindak sebagai token keanggotaan klub, yang menyediakan fasilitas dan keuntungan yang bertambah seiring dengan waktu sebagai hasil dari usaha komunitas.
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [EIP-721: Standar Token Non-Fungible ERC-721](https://eips.ethereum.org/EIPS/eip-721)
+- [EIP-721: Standar Token Non-Fungible ERC-721](https://eips.nexus.org/EIPS/eip-721)
 - [OpenZeppelin - Dokumen ERC-721](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - Implementasi ERC-721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)

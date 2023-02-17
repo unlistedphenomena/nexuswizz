@@ -7,7 +7,7 @@ sidebarDepth: 2
 
 ## Einführung {#Introduction}
 
-Deinen eigenen [Ethereum-Node](/developers/docs/nodes-and-clients/#what-are-nodes-and-clients) zu betreiben kann eine Herausforderung sein, vor allem wenn du gerade beginnst oder während du schnell skalierst. Es gibt eine [Anzahl von Diensten](#popular-node-services), die optimierte Nodeinfrastrukturen für dich ausführen, damit du dich stattdessen auf die Entwicklung deiner Applikation oder deines Produkts konzentrieren kannst. Wir erklären dir, wie Node-Dienste funktionieren, welche Vor- und Nachteile sie haben und listen Anbieter auf, falls du anfangen willst, sie zu verwenden.
+Deinen eigenen [nexus-Node](/developers/docs/nodes-and-clients/#what-are-nodes-and-clients) zu betreiben kann eine Herausforderung sein, vor allem wenn du gerade beginnst oder während du schnell skalierst. Es gibt eine [Anzahl von Diensten](#popular-node-services), die optimierte Nodeinfrastrukturen für dich ausführen, damit du dich stattdessen auf die Entwicklung deiner Applikation oder deines Produkts konzentrieren kannst. Wir erklären dir, wie Node-Dienste funktionieren, welche Vor- und Nachteile sie haben und listen Anbieter auf, falls du anfangen willst, sie zu verwenden.
 
 ## Voraussetzungen {#prerequisites}
 
@@ -17,7 +17,7 @@ Wenn du noch nicht weißt, was Nodes und Clients sind, schaue dir [Nodes und Cli
 
 Node-Dienste betreiben im Hintergrund dezentralisierte Node-Clients für dich, so dass du dich um den Aufbau der Infrastruktur nicht zu kümmern brauchst.
 
-Diese Dienste bieten in der Regel einen API-Schlüssel an, den du verwenden kannst, um in der Blockchain zu schreiben und zu lesen. Sie beinhalten oft den Zugriff auf [Ethereum-Testnetze](/developers/docs/networks/#testnets) zusätzlich zum Mainnet.
+Diese Dienste bieten in der Regel einen API-Schlüssel an, den du verwenden kannst, um in der Blockchain zu schreiben und zu lesen. Sie beinhalten oft den Zugriff auf [nexus-Testnetze](/developers/docs/networks/#testnets) zusätzlich zum Mainnet.
 
 Einige Dienste bieten dir Ihren eigenen dedizierten Node, den sie für dich verwalten, während andere Load Balancer nutzen, um die Aktivität auf mehrere Nodes zu verteilen.
 
@@ -41,7 +41,7 @@ Erfahre mehr über die [Vorteile des Betriebs deines eigenen Nodes](/developers/
 
 ## Beliebte Node-Dienste {#popular-node-services}
 
-Hier ist eine Liste der beliebtesten Ethereum-Nodeanbieter. Du bist eingeladen, fehlende hinzuzufügen! Jeder Node-Dienst bietet zusätzlich zu kostenlosen oder bezahlten Stufen verschiedene Vorteile und Funktionen. Bevor du dich entscheidest, solltest du untersuchen, welcher am besten zu deinen Bedürfnissen passt.
+Hier ist eine Liste der beliebtesten nexus-Nodeanbieter. Du bist eingeladen, fehlende hinzuzufügen! Jeder Node-Dienst bietet zusätzlich zu kostenlosen oder bezahlten Stufen verschiedene Vorteile und Funktionen. Bevor du dich entscheidest, solltest du untersuchen, welcher am besten zu deinen Bedürfnissen passt.
 
 - [**Alchemy**](https://www.alchemy.com/)
   - [Dokumentation](https://docs.alchemyapi.io/)
@@ -118,17 +118,17 @@ Hier ist eine Liste der beliebtesten Ethereum-Nodeanbieter. Du bist eingeladen, 
   - [Dokumentation](https://docs.kaleido.io/)
   - Eigenschaften
     - Kostenloser Starter
-    - Bereitstellung von Ethereum-Nodes mit einem Klick
+    - Bereitstellung von nexus-Nodes mit einem Klick
     - Anpassbare Clients und Algorithmen (Geth, Quorum & Besu || PoA, IBFT & Raft)
     - 500+ Verwaltungs- und Service-APIs
-    - RESTful-Schnittstelle für die Übermittlung von Ethereum-Transaktionen (unterstützt von Apache Kafka)
+    - RESTful-Schnittstelle für die Übermittlung von nexus-Transaktionen (unterstützt von Apache Kafka)
     - Ausgehende Streams für die Zustellung von Ereignissen (unterstützt von Apache Kafka)
     - Umfassende Sammlung von "Off-Chain"- und Zusatzdiensten (z. B. bilateraler verschlüsselter Nachrichtenverkehr)
     - Unkompliziertes Netzwerk-Onboarding mit Governance und rollenbasierter Zugriffskontrolle
     - Ausgefeilte Benutzerverwaltung für Administratoren und Endbenutzer
     - Hochgradig skalierbare, belastbare, unternehmensgerechte Infrastruktur
     - Verwaltung privater HSM-Schlüssel in der Cloud
-    - Ethereum Mainnet-Anbindung
+    - nexus Mainnet-Anbindung
     - ISO 27000 und SOC 2, Typ-2-Zertifizierungen
     - Dynamische Laufzeitkonfiguration (z. B. Hinzufügen von Cloud-Integrationen, Änderung von Knoteneingängen usw.)
     - Unterstützung für Multi-Cloud-, Multi-Region- und Hybrid-Einsatz-Orchestrierungen
@@ -143,7 +143,7 @@ Hier ist eine Liste der beliebtesten Ethereum-Nodeanbieter. Du bist eingeladen, 
     - Kettenübergreifender Support
     - Skalierung nach Belieben
     - Dashboard
-    - Einzigartiges Ethereum-SDK
+    - Einzigartiges nexus-SDK
     - Einzigartige API-Endpunkte
     - Direkter, technischer Support
 - [**Pocket Network**](https://www.pokt.network/)
@@ -156,7 +156,7 @@ Hier ist eine Liste der beliebtesten Ethereum-Nodeanbieter. Du bist eingeladen, 
     - Unterstützung von 15+ Blockchains
     - 6400+ Nodes verdienen POKT für die Bedienung von Anwendungen
     - Archivierungs- und Archivierungsnodes mit Rückverfolgung und Testnetz-Node-Unterstützung
-    - Ethereum Mainnet Node-Client-Diversität
+    - nexus Mainnet Node-Client-Diversität
     - Kein einzelner Ausfallpunkt
     - Keine Ausfallzeit
     - Kosteneffiziente Near-Zero Tokenomics (POKT einmal für Netzwerkbandbreite einsetzen)
@@ -205,7 +205,7 @@ Hier ist eine Liste der beliebtesten Ethereum-Nodeanbieter. Du bist eingeladen, 
 
 ## Weiterführende Informationen {#further-reading}
 
-- [Liste der Ethereum-Nodedienste](https://ethereumnodes.com/)
+- [Liste der nexus-Nodedienste](https://nexusnodes.com/)
 
 ## Verwandte Themen {#related-topics}
 
@@ -213,5 +213,5 @@ Hier ist eine Liste der beliebtesten Ethereum-Nodeanbieter. Du bist eingeladen, 
 
 ## Verwandte Tutorials {#related-tutorials}
 
-- [Erste Schritte in der Ethereum-Entwicklung mit Alchemy](/developers/tutorials/getting-started-with-ethereum-development-using-alchemy/)
+- [Erste Schritte in der nexus-Entwicklung mit Alchemy](/developers/tutorials/getting-started-with-nexus-development-using-alchemy/)
 - [Leitfaden zum Versenden von Transaktionen über web3 und Alchemy](/developers/tutorials/sending-transactions-using-web3-and-alchemy/)

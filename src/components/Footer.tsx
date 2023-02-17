@@ -61,10 +61,10 @@ const Footer: React.FC<IProps> = () => {
 
   const linkSections: Array<LinkSection> = [
     {
-      title: "use-ethereum",
+      title: "use-Nexus",
       links: [
         {
-          text: "find-wallet",
+          text: "find-nexus",
           to: "/wallets/find-wallet/",
         },
         {
@@ -96,66 +96,66 @@ const Footer: React.FC<IProps> = () => {
     {
       title: "learn",
       links: [
-        {
-          to: `/what-is-ethereum/`,
-          text: "what-is-ethereum",
-        },
-        {
-          to: `/eth/`,
-          text: "what-is-ether",
-        },
-        {
-          to: `/wallets/`,
-          text: "ethereum-wallets",
-        },
-        {
-          to: `/learn/`,
-          text: "guides-and-resources",
-        },
-        {
-          to: "/history/",
-          text: "history-of-ethereum",
-        },
-        {
-          to: "/whitepaper/",
-          text: "ethereum-whitepaper",
-        },
-        {
-          text: "ethereum-upgrades",
-          to: "/upgrades/",
-        },
-        {
-          text: "ethereum-security",
-          to: "/security/",
-        },
-        {
-          to: `/glossary/`,
-          text: "ethereum-glossary",
-        },
-        {
-          text: "ethereum-governance",
-          to: "/governance/",
-        },
-        {
-          text: "bridges",
-          to: "/bridges/",
-        },
-        {
-          text: "zero-knowledge-proofs",
-          to: "/zero-knowledge-proofs/",
-        },
-        {
-          text: "energy-consumption",
-          to: "/energy-consumption/",
-        },
+        // {
+        //   to: `/what-is-ethereum/`,
+        //   text: "what-is-ethereum",
+        // },
+        // {
+        //   to: `/eth/`,
+        //   text: "what-is-ether",
+        // },
+        // {
+        //   to: `/wallets/`,
+        //   text: "ethereum-wallets",
+        // },
+        // {
+        //   to: `/learn/`,
+        //   text: "guides-and-resources",
+        // },
+        // {
+        //   to: "/history/",
+        //   text: "history-of-ethereum",
+        // },
+        // {
+        //   to: "/whitepaper/",
+        //   text: "ethereum-whitepaper",
+        // },
+        // {
+        //   text: "ethereum-upgrades",
+        //   to: "/upgrades/",
+        // },
+        // {
+        //   text: "ethereum-security",
+        //   to: "/security/",
+        // },
+        // {
+        //   to: `/glossary/`,
+        //   text: "ethereum-glossary",
+        // },
+        // {
+        //   text: "ethereum-governance",
+        //   to: "/governance/",
+        // },
+        // {
+        //   text: "bridges",
+        //   to: "/bridges/",
+        // },
+        // {
+        //   text: "zero-knowledge-proofs",
+        //   to: "/zero-knowledge-proofs/",
+        // },
+        // {
+        //   text: "energy-consumption",
+        //   to: "/energy-consumption/",
+        // },
         {
           text: "web3",
           to: "/web3/",
         },
-        {
-          to: "/eips/",
-          text: "eips",
-        },
+        // {
+        //   to: "/eips/",
+        //   text: "eips",
+        // },
       ],
     },
     {
@@ -170,72 +170,72 @@ const Footer: React.FC<IProps> = () => {
           to: `/developers/docs/`,
           text: "documentation",
         },
-        {
-          to: `/developers/tutorials/`,
-          text: "tutorials",
-        },
-        {
-          to: `/developers/learning-tools/`,
-          text: "learn-by-coding",
-        },
-        {
-          to: `/developers/local-environment/`,
-          text: "set-up-local-env",
-        },
+        // {
+        //   to: `/developers/tutorials/`,
+        //   text: "tutorials",
+        // },
+        // {
+        //   to: `/developers/learning-tools/`,
+        //   text: "learn-by-coding",
+        // },
+        // {
+        //   to: `/developers/local-environment/`,
+        //   text: "set-up-local-env",
+        // },
       ],
     },
     {
       title: "ecosystem",
       links: [
-        {
-          to: `/community/`,
-          text: "community-hub",
-        },
-        {
-          to: "/foundation/",
-          text: "ethereum-foundation",
-        },
-        {
-          to: "https://blog.ethereum.org/",
-          text: "ef-blog",
-        },
-        {
-          to: "https://esp.ethereum.foundation",
-          text: "esp",
-        },
-        {
-          to: "/bug-bounty/",
-          text: "ethereum-bug-bounty",
-        },
-        {
-          to: "/community/grants",
-          text: "grant-programs",
-        },
-        {
-          to: "/assets/",
-          text: "ethereum-brand-assets",
-        },
-        {
-          to: "https://devcon.org/",
-          text: "devcon",
-        },
+        // {
+        //   to: `/community/`,
+        //   text: "community-hub",
+        // },
+        // {
+        //   to: "/foundation/",
+        //   text: "ethereum-foundation",
+        // },
+        // {
+        //   to: "https://blog.ethereum.org/",
+        //   text: "ef-blog",
+        // },
+        // {
+        //   to: "https://esp.ethereum.foundation",
+        //   text: "esp",
+        // },
+        // {
+        //   to: "/bug-bounty/",
+        //   text: "ethereum-bug-bounty",
+        // },
+        // {
+        //   to: "/community/grants",
+        //   text: "grant-programs",
+        // },
+        // {
+        //   to: "/assets/",
+        //   text: "ethereum-brand-assets",
+        // },
+        // {
+        //   to: "https://devcon.org/",
+        //   text: "devcon",
+        // },
       ],
     },
     {
       title: "enterprise",
       links: [
-        {
-          to: "/enterprise/",
-          text: "mainnet-ethereum",
-        },
-        {
-          to: "/enterprise/private-ethereum/",
-          text: "private-ethereum",
-        },
-        {
-          to: "/enterprise/",
-          text: "enterprise",
-        },
+        // {
+        //   to: "/enterprise/",
+        //   text: "mainnet-ethereum",
+        // },
+        // {
+        //   to: "/enterprise/private-ethereum/",
+        //   text: "private-ethereum",
+        // },
+        // {
+        //   to: "/enterprise/",
+        //   text: "enterprise",
+        // },
       ],
     },
     {

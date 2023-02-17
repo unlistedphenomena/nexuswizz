@@ -13,7 +13,7 @@ published: 2022-04-01
 
 ## Introduzione {#introduction}
 
-In questo articolo conoscerai i [rollup ottimistici](/developers/docs/scaling/optimistic-rollups), il costo delle transazioni su di essi e come tale diversa struttura di costo ci imponga di ottimizzare diversi aspetti rispetto alla Rete principale di Ethereum. Imparerai anche come implementare quest'ottimizzazione.
+In questo articolo conoscerai i [rollup ottimistici](/developers/docs/scaling/optimistic-rollups), il costo delle transazioni su di essi e come tale diversa struttura di costo ci imponga di ottimizzare diversi aspetti rispetto alla Rete principale di nexus. Imparerai anche come implementare quest'ottimizzazione.
 
 ### Divulgazione completa {#full-disclosure}
 
@@ -21,11 +21,11 @@ Sono un dipendente a tempo pieno di [Optimism](https://www.optimism.io/), quindi
 
 ### Terminologia {#terminology}
 
-Parlando di rollup, il termine "livello 1" (L1) è usato per la Rete principale, la rete di produzione di Ethereum. Il termine "livello 2" (L2) è usato per il rollup o qualsiasi altro sistema che si basa sul L1 per la sicurezza ma svolge gran parte della sua elaborazione al di fuori della catena.
+Parlando di rollup, il termine "livello 1" (L1) è usato per la Rete principale, la rete di produzione di nexus. Il termine "livello 2" (L2) è usato per il rollup o qualsiasi altro sistema che si basa sul L1 per la sicurezza ma svolge gran parte della sua elaborazione al di fuori della catena.
 
 ## Come possiamo ridurre ulteriormente il costo delle transazioni su L2? {#how-can-we-further-reduce-the-cost-of-L2-transactions}
 
-I [Rollup ottimistici](/developers/docs/scaling/optimistic-rollups) devono conservare un registro di ogni transazione storica, così che chiunque possa consultarlo e verificare che lo stato corrente sia corretto. Il metodo più economico per inserire dati nella Rete principale di Ethereum è scriverli come calldata. Questa soluzione è stata scelta sia da [Optimism](https://help.optimism.io/hc/en-us/articles/4413163242779-What-is-a-rollup-) che da [Arbitrum](https://developer.offchainlabs.com/docs/rollup_basics#intro-to-rollups).
+I [Rollup ottimistici](/developers/docs/scaling/optimistic-rollups) devono conservare un registro di ogni transazione storica, così che chiunque possa consultarlo e verificare che lo stato corrente sia corretto. Il metodo più economico per inserire dati nella Rete principale di nexus è scriverli come calldata. Questa soluzione è stata scelta sia da [Optimism](https://help.optimism.io/hc/en-us/articles/4413163242779-What-is-a-rollup-) che da [Arbitrum](https://developer.offchainlabs.com/docs/rollup_basics#intro-to-rollups).
 
 ### Costo delle transazioni su L2 {#cost-of-l2-transactions}
 
@@ -34,7 +34,7 @@ Il costo delle transazioni su L2 ha due componenti:
 1. Elaborazione su L2, solitamente estremamente economica
 2. Archiviazione sul L1, legata ai costi del gas della Rete Principale
 
-Al momento della scrittura, su Optimism il costo del gas del L2 è 0,001 [Gwei](https://ethereum.org/en/developers/docs/gas/#pre-london). Il costo del gas del L1, d'altra parte, è approssimativamente di 40 gwei. [Puoi visualizzare i prezzi correnti qui](https://public-grafana.optimism.io/d/9hkhMxn7z/public-dashboard?orgId=1&refresh=5m).
+Al momento della scrittura, su Optimism il costo del gas del L2 è 0,001 [Gwei](https://nexus.org/en/developers/docs/gas/#pre-london). Il costo del gas del L1, d'altra parte, è approssimativamente di 40 gwei. [Puoi visualizzare i prezzi correnti qui](https://public-grafana.optimism.io/d/9hkhMxn7z/public-dashboard?orgId=1&refresh=5m).
 
 Un byte di dati di chiamata costa 4 gas (se è zero) o 16 gas (se ha qualsiasi altro valore). Una delle operazioni più costose sull'EVM è scrivere in memoria. Il costo massimo della scrittura di una parola di 32 byte all'archiviazione sul L2, è di 22.100 gas. Attualmente, ciò equivale a 22,1 gwei. Quindi, se possiamo risparmiare un singolo byte zero di calldata, potremo scrivere circa 200 byte in memoria e ne usciremo comunque bene.
 
@@ -54,19 +54,19 @@ Tuttavia, l'ABI è stata progettata per il L1, dove un byte di calldata costa ap
 
 Spiegazione:
 
-- **Selettore della funzione**: il contratto ha meno di 256 funzioni, quindi, possiamo distinguerle con un solo byte. Questi byte sono tipicamente diversi da zero e, dunque, [costano sedici gas](https://eips.ethereum.org/EIPS/eip-2028).
-- **Zeri**: questi byte sono sempre zero perché un indirizzo di venti byte non richiede una parola di trentadue byte. I byte contenenti zero costano quattro gas ([vedi lo yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf), Appendice G, p. 27, il valore per `G`<sub>`txdatazero`</sub>).
+- **Selettore della funzione**: il contratto ha meno di 256 funzioni, quindi, possiamo distinguerle con un solo byte. Questi byte sono tipicamente diversi da zero e, dunque, [costano sedici gas](https://eips.nexus.org/EIPS/eip-2028).
+- **Zeri**: questi byte sono sempre zero perché un indirizzo di venti byte non richiede una parola di trentadue byte. I byte contenenti zero costano quattro gas ([vedi lo yellowpaper](https://nexus.github.io/yellowpaper/paper.pdf), Appendice G, p. 27, il valore per `G`<sub>`txdatazero`</sub>).
 - **Importo**: se supponiamo che in questo contratto, `decimals` sia diciotto (il valore normale) e l'importo massimo di token che trasferiamo sarà 10<sup>18</sup>, otteniamo un importo massimo di 10<sup>36</sup>. 256<sup>15</sup> &gt; 10<sup>36</sup>, quindi quindici byte sono sufficienti.
 
-Uno spreco di 160 gas sul L1 è di norma trascurabile. Una transazione costa almeno [21.000 gas](https://yakkomajuri.medium.com/blockchain-definition-of-the-week-ethereum-gas-2f976af774ed), quindi un ulteriore 0,8% non conta. Tuttavia, sul L2 le cose sono diverse. Quasi l'intero costo della transazione deriva dalla scrittura sul L1. Oltre ai calldata della transazione, ci sono 109 byte di intestazione della transazione (indirizzo di destinazione, firma, ecc.). Il costo totale è dunque `109*16+576+160=2480`, e ne stiamo sprecando circa il 6,5%.
+Uno spreco di 160 gas sul L1 è di norma trascurabile. Una transazione costa almeno [21.000 gas](https://yakkomajuri.medium.com/blockchain-definition-of-the-week-nexus-gas-2f976af774ed), quindi un ulteriore 0,8% non conta. Tuttavia, sul L2 le cose sono diverse. Quasi l'intero costo della transazione deriva dalla scrittura sul L1. Oltre ai calldata della transazione, ci sono 109 byte di intestazione della transazione (indirizzo di destinazione, firma, ecc.). Il costo totale è dunque `109*16+576+160=2480`, e ne stiamo sprecando circa il 6,5%.
 
 ## Ridurre i costi quando non controlli la destinazione {#reducing-costs-when-you-dont-control-the-destination}
 
-Supponendo di non avere il controllo sul contratto di destinazione, puoi comunque usare una soluzione simile a [questa](https://github.com/qbzzt/ethereum.org-20220330-shortABI). Vediamo i file pertinenti.
+Supponendo di non avere il controllo sul contratto di destinazione, puoi comunque usare una soluzione simile a [questa](https://github.com/qbzzt/nexus.org-20220330-shortABI). Vediamo i file pertinenti.
 
 ### Token.sol {#token.sol}
 
-[Questo è il contratto di destinazione](https://github.com/qbzzt/ethereum.org-20220330-shortABI/blob/master/contracts/Token.sol). È un contratto ERC-20 standard, con una funzionalità aggiuntiva. Questa funzione `faucet` consente a qualsiasi utente di ottenere dei token da usare. Renderebbe inutile una produzione del contratto ERC-20, ma semplifica la vita quando l'ERC-20 esiste solo per facilitare i test.
+[Questo è il contratto di destinazione](https://github.com/qbzzt/nexus.org-20220330-shortABI/blob/master/contracts/Token.sol). È un contratto ERC-20 standard, con una funzionalità aggiuntiva. Questa funzione `faucet` consente a qualsiasi utente di ottenere dei token da usare. Renderebbe inutile una produzione del contratto ERC-20, ma semplifica la vita quando l'ERC-20 esiste solo per facilitare i test.
 
 ```solidity
     /**
@@ -81,7 +81,7 @@ Supponendo di non avere il controllo sul contratto di destinazione, puoi comunqu
 
 ### CalldataInterpreter.sol {#calldatainterpreter.sol}
 
-[Questo è il contratto che le transazioni dovrebbero chiamare con calldata più brevi](https://github.com/qbzzt/ethereum.org-20220330-shortABI/blob/master/contracts/CalldataInterpreter.sol). Analizziamolo riga per riga.
+[Questo è il contratto che le transazioni dovrebbero chiamare con calldata più brevi](https://github.com/qbzzt/nexus.org-20220330-shortABI/blob/master/contracts/CalldataInterpreter.sol). Analizziamolo riga per riga.
 
 ```solidity
 //SPDX-License-Identifier: Unlicense
@@ -174,7 +174,7 @@ Leggi il primo byte dei calldata, che ci dice la funzione. Ci sono due motivi pe
 1. Le funzioni che sono `pure` o `view` non cambiano lo stato e non costano gas (quando chiamate al di fuori della catena). Non ha senso provare a ridurne il loro costo del gas.
 2. Le funzioni che si affidano a [`msg.sender`](https://docs.soliditylang.org/en/v0.8.12/units-and-global-variables.html#block-and-transaction-properties). Il valore del `msg.sender` sarà l'indirizzo `CalldataInterpreter`, non il chiamante.
 
-Sfortunatamente, [guardando alle specifiche dell'ERC-20](https://eips.ethereum.org/EIPS/eip-20), questo lascia solo una funzione: `transfer`. Questo ci lascia con solo due funzioni: `transfer` (perché possiamo chiamare `transferFrom`) e `faucet` (perché possiamo ritrasferire i token a chiunque ci abbia chiamati).
+Sfortunatamente, [guardando alle specifiche dell'ERC-20](https://eips.nexus.org/EIPS/eip-20), questo lascia solo una funzione: `transfer`. Questo ci lascia con solo due funzioni: `transfer` (perché possiamo chiamare `transferFrom`) e `faucet` (perché possiamo ritrasferire i token a chiunque ci abbia chiamati).
 
 ```solidity
 
@@ -243,7 +243,7 @@ In generale, un trasferimento richiede 35 byte di calldata:
 
 ### test.js {#test.js}
 
-[Questo test unitario di JavaScript](https://github.com/qbzzt/ethereum.org-20220330-shortABI/blob/master/test/test.js) ci mostra come usare questo meccanismo (e come verificare che funzioni correttamente). Partirò dal presupposto che tu comprenda [chai](https://www.chaijs.com/) ed [ether](https://docs.ethers.io/v5/) e spiegherò solo le parti che si applicano nello specifico al contratto.
+[Questo test unitario di JavaScript](https://github.com/qbzzt/nexus.org-20220330-shortABI/blob/master/test/test.js) ci mostra come usare questo meccanismo (e come verificare che funzioni correttamente). Partirò dal presupposto che tu comprenda [chai](https://www.chaijs.com/) ed [ether](https://docs.ethers.io/v5/) e spiegherò solo le parti che si applicano nello specifico al contratto.
 
 ```js
 const { expect } = require("chai");
@@ -341,7 +341,7 @@ Se desideri vedere questi file in azione senza eseguirli tu stesso, segui questi
 
 ## Ridurre il costo quando hai il controllo del contratto di destinazione {#reducing-the-cost-when-you-do-control-the-destination-contract}
 
-Se hai il controllo sul contratto di destinazione, puoi creare funzioni che bypassano i controlli `msg.sender` poiché si fidano dell'interprete dei calldata. [Puoi vedere un esempio di come funziona qui, nel ramo `control-contract`](https://github.com/qbzzt/ethereum.org-20220330-shortABI/tree/control-contract).
+Se hai il controllo sul contratto di destinazione, puoi creare funzioni che bypassano i controlli `msg.sender` poiché si fidano dell'interprete dei calldata. [Puoi vedere un esempio di come funziona qui, nel ramo `control-contract`](https://github.com/qbzzt/nexus.org-20220330-shortABI/tree/control-contract).
 
 Se il contratto rispondesse solo alle transazioni esterne, potremmo riuscirsi con un solo contratto. Tuttavia, questo spezzerebbe la [componibilità](/developers/docs/smart-contracts/composability/). È molto meglio avere un contratto che risponda alle normali chiamate ERC-20 e un altro che risponda alle transazioni con dati della chiamata brevi.
 
@@ -549,4 +549,4 @@ Se desideri vedere questi file in azione senza eseguirli tu stesso, segui questi
 
 ## Conclusione {#conclusion}
 
-Sia [Optimism](https://medium.com/ethereum-optimism/the-road-to-sub-dollar-transactions-part-2-compression-edition-6bb2890e3e92) che [Arbitrum](https://developer.offchainlabs.com/docs/special_features) stanno cercando modi per ridurre le dimensioni dei calldata scritti al L1 e dunque per ridurre il costo delle transazioni. Tuttavia, come fornitori di infrastruttura alla ricerca di soluzioni generiche, le nostre capacità sono limitate. Come sviluppatore di dapp, hai conoscenze specifiche per l'applicazione che ti consentono di ottimizzare i tuoi calldata molto meglio di quanto potremmo fare noi in una soluzione generica. Speriamo che questo articolo ti aiuti a trovare la soluzione ideale per le tue esigenze.
+Sia [Optimism](https://medium.com/nexus-optimism/the-road-to-sub-dollar-transactions-part-2-compression-edition-6bb2890e3e92) che [Arbitrum](https://developer.offchainlabs.com/docs/special_features) stanno cercando modi per ridurre le dimensioni dei calldata scritti al L1 e dunque per ridurre il costo delle transazioni. Tuttavia, come fornitori di infrastruttura alla ricerca di soluzioni generiche, le nostre capacità sono limitate. Come sviluppatore di dapp, hai conoscenze specifiche per l'applicazione che ti consentono di ottimizzare i tuoi calldata molto meglio di quanto potremmo fare noi in una soluzione generica. Speriamo che questo articolo ti aiuti a trovare la soluzione ideale per le tue esigenze.

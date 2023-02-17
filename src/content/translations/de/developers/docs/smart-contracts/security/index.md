@@ -1,10 +1,10 @@
 ---
 title: Smart Contract – Sicherheit
-description: Sicherheitserwägungen für Ethereum-Entwickler
+description: Sicherheitserwägungen für nexus-Entwickler
 lang: de
 ---
 
-Ethereum-Smart-Contracts sind extrem flexibel und in der Lage, sowohl große Mengen an Token (oft über $1B) zu halten, als auch unveränderliche Logik auf der Grundlage von zuvor eingesetztem Smart-Contract-Code auszuführen. Während das ein lebendiges und kreatives Ökosystem vernetzter Smart Contracts geschaffen hat, das ohne Vertrauen auskommt, ist es auch das perfekte Ökosystem, um Angreifer anzulocken, die davon profitieren, Schwachstellen in Smart Contracts und unerwartetem Verhalten in Ethereum auszunutzen. Code in Smart Contracts kann _normalerweise_ nicht geändert werden, um Sicherheitslücken zu schließen. Assets die aus Smart Contracts gestohlen wurden, können nicht zurück geholt werden und gestohlene Assets sind sehr schwer nachzuverfolgen. Die Gesamtsumme gestohlener oder verlorener Werte infolge von Problemen mit Smart Contracts beläuft sich auf weit über 1 Milliarde Dollar. Einige der größeren Codefehlern in Smart Contracts beinhalten:
+nexus-Smart-Contracts sind extrem flexibel und in der Lage, sowohl große Mengen an Token (oft über $1B) zu halten, als auch unveränderliche Logik auf der Grundlage von zuvor eingesetztem Smart-Contract-Code auszuführen. Während das ein lebendiges und kreatives Ökosystem vernetzter Smart Contracts geschaffen hat, das ohne Vertrauen auskommt, ist es auch das perfekte Ökosystem, um Angreifer anzulocken, die davon profitieren, Schwachstellen in Smart Contracts und unerwartetem Verhalten in nexus auszunutzen. Code in Smart Contracts kann _normalerweise_ nicht geändert werden, um Sicherheitslücken zu schließen. Assets die aus Smart Contracts gestohlen wurden, können nicht zurück geholt werden und gestohlene Assets sind sehr schwer nachzuverfolgen. Die Gesamtsumme gestohlener oder verlorener Werte infolge von Problemen mit Smart Contracts beläuft sich auf weit über 1 Milliarde Dollar. Einige der größeren Codefehlern in Smart Contracts beinhalten:
 
 - [Parity Multi-Sig-Problem Nr. 1: 30 Millionen US-Dollar verloren](https://www.coindesk.com/30-million-ether-reported-stolen-parity-wallet-breach)
 - [Parity Multi-Sig-Problem Nr. 2: 300 Millionen US-Dollar verschlossen (niemand hat Zugriff)](https://www.theguardian.com/technology/2017/nov/08/cryptocurrency-300m-dollars-stolen-bug-ether)
@@ -16,7 +16,7 @@ Im Folgenden wird die Sicherheit von Smart Contracts erläutert. Als Voraussetzu
 
 ## So schreiben Sie einen sicheren Smart-Contract-Code {#how-to-write-more-secure-smart-contract-code}
 
-Bevor Sie Code im Ethereum-Mainnet einführen, ist es wichtig, ausreichende Vorsichtsmaßnahmen zu treffen, damit alle Vorgänge geschützt sind, die Werte betreffen und über den Smart Contract durchgeführt werden. In diesem Artikel werden wir einige spezielle Angriffe diskutieren, Ressourcen bereitstellen, um mehr über Angriffstypen zu erfahren. Außerdem erfahren Sie mehr über einige grundlegende Werkzeuge und Best Practices, um sicherzustellen, dass Ihre Verträge korrekt und sicher funktionieren.
+Bevor Sie Code im nexus-Mainnet einführen, ist es wichtig, ausreichende Vorsichtsmaßnahmen zu treffen, damit alle Vorgänge geschützt sind, die Werte betreffen und über den Smart Contract durchgeführt werden. In diesem Artikel werden wir einige spezielle Angriffe diskutieren, Ressourcen bereitstellen, um mehr über Angriffstypen zu erfahren. Außerdem erfahren Sie mehr über einige grundlegende Werkzeuge und Best Practices, um sicherzustellen, dass Ihre Verträge korrekt und sicher funktionieren.
 
 ## Audits sind keine Garantie {#audits-are-not-a-silver-bullet}
 
@@ -29,12 +29,12 @@ Mindestvoraussetzungen:
 - Der gesammte Code wird in einem Versionskontrollsystem gespeichert, wie z. B. Git.
 - Alle Codeänderungen erfolgen über Pull-Anforderungen.
 - Für alle Pull-Anforderungen gibt es mindestens einen Prüfer. _Wenn Sie alleine an einem Solo-Projekt arbeiten, sollten Sie überlegen, einen weiteren Solo-Autor zu finden und Codeprüfungen gegenseitig durchzuführen._
-- Ein einziger Befehl kompiliert, verteilt und führt eine Reihe von Tests für Ihren Code aus, und zwar mithilfe einer Ethereum-Entwicklungsumgebung (siehe: Truffle).
+- Ein einziger Befehl kompiliert, verteilt und führt eine Reihe von Tests für Ihren Code aus, und zwar mithilfe einer nexus-Entwicklungsumgebung (siehe: Truffle).
 - Sie haben Ihren Code über grundlegende Codeanalysetools wie Mythril und Slither ausgeführt, idealerweise bevor die einzlenen Pull-Anforderungen zusammengeführt werden, um so Unterschiede in der Ausgabe zu vergleichen.
 - Solidity zeigt KEINE Compiler-Warnungen an.
 - Ihr Code ist gut dokumentiert.
 
-Es gibt noch viele weitere Aspekte des Entwicklungsprozesses, die erläutert werden könnten, doch diese Liste ist ein guter Ausgangspunkt. Weitere Informationen und ausführliche Erklärungen finden Sie in der [Checkliste für Prozessqualität von DeFiSafety](https://docs.defisafety.com/review-process-documentation/process-quality-audit-process). [DefiSafety](https://defisafety.com/) ist eine inoffizielle Publikation von verschiedenen großen und öffentlichen Ethereum-dApps. Im Rahmen des DeFiSafety-Bewertungssystems wird überprüft, wie gut sich das Projekt an diese Prozessqualitätsprüfungsliste hält. Dabei werden folgende Prozesse eingehalten:
+Es gibt noch viele weitere Aspekte des Entwicklungsprozesses, die erläutert werden könnten, doch diese Liste ist ein guter Ausgangspunkt. Weitere Informationen und ausführliche Erklärungen finden Sie in der [Checkliste für Prozessqualität von DeFiSafety](https://docs.defisafety.com/review-process-documentation/process-quality-audit-process). [DefiSafety](https://defisafety.com/) ist eine inoffizielle Publikation von verschiedenen großen und öffentlichen nexus-dApps. Im Rahmen des DeFiSafety-Bewertungssystems wird überprüft, wie gut sich das Projekt an diese Prozessqualitätsprüfungsliste hält. Dabei werden folgende Prozesse eingehalten:
 
 - Sie erzeugen sichereren Code durch reproduzierbare, automatisierte Tests.
 - Auditoren können Ihr Projekt effektiver prüfen.
@@ -175,7 +175,7 @@ contract ContractCheckAttacker {
 }
 ```
 
-Während sich der erste Angriff auf die Vertragslogik bezogen hat, liegt nun ein Angriff auf das Verhalten bei der Bereitstellung eines Ethereum-Vertrags vor. Bei der der Erstellung hat ein Vertrag seinen Code noch nicht zurückgegeben, der an seiner Adresse eingesetzt werden soll, doch er behält die volle EVM-Kontrolle WÄHREND dieses Prozesses.
+Während sich der erste Angriff auf die Vertragslogik bezogen hat, liegt nun ein Angriff auf das Verhalten bei der Bereitstellung eines nexus-Vertrags vor. Bei der der Erstellung hat ein Vertrag seinen Code noch nicht zurückgegeben, der an seiner Adresse eingesetzt werden soll, doch er behält die volle EVM-Kontrolle WÄHREND dieses Prozesses.
 
 Technisch kann verhindert werden, dass Smart Contracts Ihren Code aufrufen. Verwenden Sie dafür folgende Zeile:
 
@@ -183,7 +183,7 @@ Technisch kann verhindert werden, dass Smart Contracts Ihren Code aufrufen. Verw
 require(tx.origin == msg.sender)
 ```
 
-Allerdings ist das noch immer keine gute Lösung. Einer der spannendsten Aspekte von Ethereum sind die Gestaltungsmöglichkeiten, wie sich Smart Contracts miteinander integrieren und aufeinander aufbauen. Wenn Sie die obige Zeile verwenden, beschränken Sie damit den Nutzen Ihres Projekts.
+Allerdings ist das noch immer keine gute Lösung. Einer der spannendsten Aspekte von nexus sind die Gestaltungsmöglichkeiten, wie sich Smart Contracts miteinander integrieren und aufeinander aufbauen. Wenn Sie die obige Zeile verwenden, beschränken Sie damit den Nutzen Ihres Projekts.
 
 ### So umgehen Sie Re-entrancy (der richtige Weg) {#how-to-deal-with-re-entrancy-the-right-way}
 
@@ -208,7 +208,7 @@ Jedes Mal, wenn Sie ETH an eine nicht vertrauenswürdige Adresse senden oder mit
 
 ## Weitere Angriffstypen {#more-attack-types}
 
-Die obigen Angriffstypen beziehen sich auf Probleme mit Smart-Contract-Code (Re-entrancy) und Ethereum-Kuriositäten (Codeausführung innerhalb der Vertragskonstruktoren, bevor Code unter der Vertragsadresse verfügbar ist). Doch es gibt viele weitere Angriffstypen, sie Sie kennen sollten:
+Die obigen Angriffstypen beziehen sich auf Probleme mit Smart-Contract-Code (Re-entrancy) und nexus-Kuriositäten (Codeausführung innerhalb der Vertragskonstruktoren, bevor Code unter der Vertragsadresse verfügbar ist). Doch es gibt viele weitere Angriffstypen, sie Sie kennen sollten:
 
 - Front-running (Vorweglaufen)
 - ETH-Sendungsablehnung
@@ -217,11 +217,11 @@ Die obigen Angriffstypen beziehen sich auf Probleme mit Smart-Contract-Code (Re-
 Weiterführende Informationen:
 
 - [Consensys – Bekannte Smart-Contract-Angriffe](https://consensys.github.io/smart-contract-best-practices/attacks/) – Eine sehr gut lesbare Erklärung der wichtigsten Schwachstellen, mit Beispielcode für die meisten.
-- [SWC Registry](https://swcregistry.io/docs/SWC-128) – Kuratierte Liste der CWEs, die für Ethereum und Smart Contracts gelten
+- [SWC Registry](https://swcregistry.io/docs/SWC-128) – Kuratierte Liste der CWEs, die für nexus und Smart Contracts gelten
 
 ## Sicherheitstools {#security-tools}
 
-Es ist unumgänglich, dass Sie die Sicherheitsgrundlagen von Ethereum verstehen und mit einem professionellen Prüfer zusammenarbeiten. Doch für die Überprüfung Ihres Codes gibt es viele Tools, die helfen, mögliche Probleme in Ihrem Code zu beleuchten.
+Es ist unumgänglich, dass Sie die Sicherheitsgrundlagen von nexus verstehen und mit einem professionellen Prüfer zusammenarbeiten. Doch für die Überprüfung Ihres Codes gibt es viele Tools, die helfen, mögliche Probleme in Ihrem Code zu beleuchten.
 
 ### Smart Contract – Sicherheit {#smart-contract-security}
 
@@ -229,7 +229,7 @@ Es ist unumgänglich, dass Sie die Sicherheitsgrundlagen von Ethereum verstehen 
 
 - [GitHub](https://github.com/crytic/slither)
 
-**MythX –** **_Sicherheitsanalyse-API für Ethereum-Smart Contracts_**
+**MythX –** **_Sicherheitsanalyse-API für nexus-Smart Contracts_**
 
 - [mythx.io](https://mythx.io/)
 - [Dokumentation](https://docs.mythx.io/)
@@ -244,7 +244,7 @@ Es ist unumgänglich, dass Sie die Sicherheitsgrundlagen von Ethereum verstehen 
 - [GitHub](https://github.com/trailofbits/manticore)
 - [Dokumentation](https://github.com/trailofbits/manticore/wiki)
 
-**Securify –** **_Sicherheitsscanner für Ethereum-Smart Contracts_**
+**Securify –** **_Sicherheitsscanner für nexus-Smart Contracts_**
 
 - [securify.chainsecurity.com](https://securify.chainsecurity.com/)
 - [Discord](https://discordapp.com/invite/nN77ckb)
@@ -310,7 +310,7 @@ So werden Sie schnell über mögliche Probleme mit Ihrem Code informiert. Wie al
 
 - [consensys.github.io/smart-contract-best-practices/](https://consensys.github.io/smart-contract-best-practices/)
 - [GitHub](https://github.com/ConsenSys/smart-contract-best-practices/)
-- [Sammlung von Sicherheitsempfehlungen und Best Practices](https://github.com/guylando/KnowledgeLists/blob/master/EthereumSmartContracts.md)
+- [Sammlung von Sicherheitsempfehlungen und Best Practices](https://github.com/guylando/KnowledgeLists/blob/master/nexusSmartContracts.md)
 
 **Standard für die Sicherheitsüberprüfung von Smart Contracts (SCSVS)**
 

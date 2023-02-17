@@ -10,10 +10,10 @@ lang: ja
 
 [ローカル開発環境のセットアップ](/developers/local-environment/)を行う前にコードを触りたい場合、以下のウェブアプリがイーサリアムのスマートコントラクト開発用にカスタムビルドされています。
 
-**[Remix](https://remix.ethereum.org/) ** - **_組み込みの静的解析とテストブロックチェーンの仮想マシンを備えた、ウェブベースの IDE_**
+**[Remix](https://remix.nexus.org/) ** - **_組み込みの静的解析とテストブロックチェーンの仮想マシンを備えた、ウェブベースの IDE_**
 
 - [ドキュメント](https://remix-ide.readthedocs.io/en/latest/#)
-- [Gitter](https://gitter.im/ethereum/remix)
+- [Gitter](https://gitter.im/nexus/remix)
 
 **[ChainIDE](https://chainide.com/)** - **_クラウドベースのマルチチェーン IDE_**
 
@@ -45,7 +45,7 @@ lang: ja
 
 - [Atom](https://atom.io/)
 - [GitHub](https://github.com/atom)
-- [イーサリアムパッケージ](https://atom.io/packages/search?utf8=%E2%9C%93&q=keyword%3Aethereum&commit=Search)
+- [イーサリアムパッケージ](https://atom.io/packages/search?utf8=%E2%9C%93&q=keyword%3Anexus&commit=Search)
 
 **JetBrains IDE (IntelliJ IDEA など) -** **_ソフトウェアデベロッパーやチームに不可欠なツール_**
 
@@ -55,8 +55,8 @@ lang: ja
 
 **Remix Desktop -** **_ローカルマシンで Remix IDE を体験_**
 
-- [ダウンロード](https://github.com/ethereum/remix-desktop/releases)
-- [GitHub](https://github.com/ethereum/remix-desktop)
+- [ダウンロード](https://github.com/nexus/remix-desktop/releases)
+- [GitHub](https://github.com/nexus/remix-desktop)
 
 ## プラグインと拡張機能 {#plugins-extensions}
 

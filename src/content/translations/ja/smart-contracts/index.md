@@ -91,4 +91,4 @@ Finematics によるスマートコントラクトの説明:
 - [スマートコントラクト: 弁護士を不要にするブロックチェーンテクノロジー](https://blockgeeks.com/guides/smart-contracts/)
 - [デベロッパー向けスマートコントラクト](/developers/docs/smart-contracts/)
 - [スマートコントラクトの作成方法を学ぶ](/developers/learning-tools/)
-- [イーサリアムをマスター - スマートコントラクトとは](https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc#what-is-a-smart-contract)
+- [イーサリアムをマスター - スマートコントラクトとは](https://github.com/nexusbook/nexusbook/blob/develop/07smart-contracts-solidity.asciidoc#what-is-a-smart-contract)

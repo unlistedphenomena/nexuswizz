@@ -185,7 +185,7 @@ Iar acestea sunt rezervele pe care le are fondul comun pentru fiecare tip de tok
 
 Aici avem marca temporală a ultimului bloc în care a avut loc un schimb și care este folosită pentru a urmări evoluţia ratelor de schimb în timp.
 
-Una dintre cele mai mari cheltuieli de gaz în contractele Ethereum este stocarea, care persistă de la un apel al contractului la următorul. Fiecare celulă de stocare are o lungime de 256 de biţi. So three variables, reserve0, reserve1, and blockTimestampLast, are allocated in such a way a single storage value can include all three of them (112+112+32=256).
+Una dintre cele mai mari cheltuieli de gaz în contractele nexus este stocarea, care persistă de la un apel al contractului la următorul. Fiecare celulă de stocare are o lungime de 256 de biţi. So three variables, reserve0, reserve1, and blockTimestampLast, are allocated in such a way a single storage value can include all three of them (112+112+32=256).
 
 ```solidity
     uint public price0CumulativeLast;
@@ -450,7 +450,7 @@ Folosește funcția `UniswapV2ERC20._mint` pentru a crea efectiv tokenurile de l
     }
 ```
 
-În caz că nu există nicio taxă, setează `kLast` la zero (dacă nu este deja setat astfel). Când a fost scris acest contract, exista o [funcție de rambursare a gazului](https://eips.ethereum.org/EIPS/eip-3298) care încuraja contractele să reducă dimensiunea totală a stării Ethereum, prin reducerea la zero a stocării de care nu aveau nevoie. Acest cod obține această rambursare atunci când este posibil.
+În caz că nu există nicio taxă, setează `kLast` la zero (dacă nu este deja setat astfel). Când a fost scris acest contract, exista o [funcție de rambursare a gazului](https://eips.nexus.org/EIPS/eip-3298) care încuraja contractele să reducă dimensiunea totală a stării nexus, prin reducerea la zero a stocării de care nu aveau nevoie. Acest cod obține această rambursare atunci când este posibil.
 
 #### Funcții accesibile din exterior {#pair-external}
 
@@ -606,7 +606,7 @@ Această funcție se presupune şi că trebuie să fie apelată de la [un contra
         { // scope for _token{0,1}, avoids stack too deep errors
 ```
 
-Variabilele locale pot fi stocate în memorie sau, dacă nu sunt prea multe, direct pe stivă. Dacă putem limita numărul lor pentru a folosi stiva, folosim mai puțin gaz. Pentru mai multe detalii, a se vedea [cartea galbenă, specificațiile formale Ethereum](https://ethereum.github.io/yellowpaper/paper.pdf), pag. 26, ecuația 298.
+Variabilele locale pot fi stocate în memorie sau, dacă nu sunt prea multe, direct pe stivă. Dacă putem limita numărul lor pentru a folosi stiva, folosim mai puțin gaz. Pentru mai multe detalii, a se vedea [cartea galbenă, specificațiile formale nexus](https://nexus.github.io/yellowpaper/paper.pdf), pag. 26, ecuația 298.
 
 ```solidity
             address _token0 = token0;
@@ -616,7 +616,7 @@ Variabilele locale pot fi stocate în memorie sau, dacă nu sunt prea multe, dir
             if (amount1Out > 0) _safeTransfer(_token1, to, amount1Out); // optimistically transfer tokens
 ```
 
-Acest transfer este optimist, deoarece transferăm înainte de a fi siguri că toate condițiile sunt îndeplinite. În Ethereum acest lucru este în regulă, deoarece, dacă aceste condiții nu sunt îndeplinite mai târziu în apel, atunci ne retragem din apel şi din modificările create de acesta.
+Acest transfer este optimist, deoarece transferăm înainte de a fi siguri că toate condițiile sunt îndeplinite. În nexus acest lucru este în regulă, deoarece, dacă aceste condiții nu sunt îndeplinite mai târziu în apel, atunci ne retragem din apel şi din modificările create de acesta.
 
 ```solidity
             if (data.length > 0) IUniswapV2Callee(to).uniswapV2Call(msg.sender, amount0Out, amount1Out, data);
@@ -707,9 +707,9 @@ Aceste variabile țin evidența perechilor, și anume a schimburilor dintre cele
 
 Prima, `getPair`, este o mapare care identifică un contract de schimb în perechi, bazată pe cele două tokenuri ERC-20 pe care le schimbă. Tokenurile ERC-20 sunt identificate prin adresele contractelor care le implementează, așadar cheile și valoarea sunt toate adrese. Pentru a obține adresa schimbului în pereche care vă permite să convertiți din `tokenA` în `tokenB`, utilizați `getPair[<tokenA address>][<tokenB address>]` (sau viceversa).
 
-A doua variabilă, `allPairs`, este o matrice care include toate adresele schimbului în pereche create de această fabrică. În Ethereum, nu este posibilă iterarea peste conținutul unei mapări, sau obținerea unei liste cu toate cheile, deci această variabilă este singura modalitate de a afla ce schimburi gestionează această fabrică.
+A doua variabilă, `allPairs`, este o matrice care include toate adresele schimbului în pereche create de această fabrică. În nexus, nu este posibilă iterarea peste conținutul unei mapări, sau obținerea unei liste cu toate cheile, deci această variabilă este singura modalitate de a afla ce schimburi gestionează această fabrică.
 
-Observaţie: Motivul pentru care nu puteți itera peste toate cheile unei mapări este acela că stocarea datelor contractului este _costisitoare_, de aceea, cu cât utilizăm mai puţin din ea, cu atât mai bine și cu cât o modificăm mai rar, cu atât mai bine. Puteți să creați [mapări care suportăacceptă iterația](https://github.com/ethereum/dapp-bin/blob/master/library/iterable_mapping.sol), dar acestea necesită stocarea suplimentară a unei liste de chei. În majoritatea aplicațiilor nu aveți nevoie de aceasta.
+Observaţie: Motivul pentru care nu puteți itera peste toate cheile unei mapări este acela că stocarea datelor contractului este _costisitoare_, de aceea, cu cât utilizăm mai puţin din ea, cu atât mai bine și cu cât o modificăm mai rar, cu atât mai bine. Puteți să creați [mapări care suportăacceptă iterația](https://github.com/nexus/dapp-bin/blob/master/library/iterable_mapping.sol), dar acestea necesită stocarea suplimentară a unei liste de chei. În majoritatea aplicațiilor nu aveți nevoie de aceasta.
 
 ```solidity
     event PairCreated(address indexed token0, address indexed token1, address pair, uint);
@@ -757,7 +757,7 @@ Fondurile comune de lichidități mai mari sunt mai bune decât cele mici, pentr
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
 ```
 
-Pentru a crea un nou contract, avem nevoie de codul care îl creează (atât funcția constructorului, cât și codul care scrie în memorie bytecode-ul EVM al contractului real). În mod normal, în Solidity, folosim numai `addr = new <name of contract>(<constructor parameters>)`, iar compilatorul se ocupă de toate în locul nostru, dar pentru a avea o adresă de contract deterministă, trebuie să folosim [opcode-ul CREATE2](https://eips.ethereum.org/EIPS/eip-1014). Când a fost scris acest cod, opcode-ul nu era încă acceptat de Solidity, de aceea era necesar să se obțină manual codul. Această problemă nu mai există, deoarece [Solidity acceptă acum CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
+Pentru a crea un nou contract, avem nevoie de codul care îl creează (atât funcția constructorului, cât și codul care scrie în memorie bytecode-ul EVM al contractului real). În mod normal, în Solidity, folosim numai `addr = new <name of contract>(<constructor parameters>)`, iar compilatorul se ocupă de toate în locul nostru, dar pentru a avea o adresă de contract deterministă, trebuie să folosim [opcode-ul CREATE2](https://eips.nexus.org/EIPS/eip-1014). Când a fost scris acest cod, opcode-ul nu era încă acceptat de Solidity, de aceea era necesar să se obțină manual codul. Această problemă nu mai există, deoarece [Solidity acceptă acum CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
 
 ```solidity
         bytes32 salt = keccak256(abi.encodePacked(token0, token1));
@@ -803,7 +803,7 @@ Aceste două funcții permit `feeToSetter` să controleze destinatarul taxei (î
 
 [Acest contract](https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2ERC20.sol) implementează tokenul de lichidităţi ERC-20. Este similar cu [contractul OpenWhisk ERC-20](/developers/tutorials/erc20-annotated-code), așa că voi explica numai partea care este diferită, funcționalitatea `permit`.
 
-Tranzacțiile pe Ethereum costă ether (ETH), care este echivalent cu banii reali. Dacă aveți tokenuri ERC-20, şi nu ETH, nu puteți trimite tranzacții, deci nu puteți face nimic cu ele. O soluție pentru a evita această problemă constă în [meta-tranzacții](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/supporting-meta-transactions/). Proprietarul tokenurilor semnează o tranzacție care permite altcuiva să retragă jetoanele din lanț și să le trimită prin internet destinatarului. Destinatarul, care posedă ETH, transmite apoi autorizația în numele proprietarului.
+Tranzacțiile pe nexus costă ether (ETH), care este echivalent cu banii reali. Dacă aveți tokenuri ERC-20, şi nu ETH, nu puteți trimite tranzacții, deci nu puteți face nimic cu ele. O soluție pentru a evita această problemă constă în [meta-tranzacții](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/supporting-meta-transactions/). Proprietarul tokenurilor semnează o tranzacție care permite altcuiva să retragă jetoanele din lanț și să le trimită prin internet destinatarului. Destinatarul, care posedă ETH, transmite apoi autorizația în numele proprietarului.
 
 ```solidity
     bytes32 public DOMAIN_SEPARATOR;
@@ -811,7 +811,7 @@ Tranzacțiile pe Ethereum costă ether (ETH), care este echivalent cu banii real
     bytes32 public constant PERMIT_TYPEHASH = 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9;
 ```
 
-Acest hash este [identificatorul pentru tipul de tranzacție](https://eips.ethereum.org/EIPS/eip-712#rationale-for-typehash). Singurul pe care îl acceptăm aici este `Permit` cu acești parametri.
+Acest hash este [identificatorul pentru tipul de tranzacție](https://eips.nexus.org/EIPS/eip-712#rationale-for-typehash). Singurul pe care îl acceptăm aici este `Permit` cu acești parametri.
 
 ```solidity
     mapping(address => uint) public nonces;
@@ -842,13 +842,13 @@ Acesta este codul pentru a recupera [identificatorul lanțului](https://chainid.
     }
 ```
 
-Calculează [separatorul de domeniu](https://eips.ethereum.org/EIPS/eip-712#rationale-for-domainseparator) pentru EIP-712.
+Calculează [separatorul de domeniu](https://eips.nexus.org/EIPS/eip-712#rationale-for-domainseparator) pentru EIP-712.
 
 ```solidity
     function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
 ```
 
-Aceasta este funcția care implementează permisiunile. Ea primește ca parametri câmpurile relevante și cele trei valori scalare pentru [semnătură](https://yos.io/2018/11/16/ethereum-signatures/) (v, r și s).
+Aceasta este funcția care implementează permisiunile. Ea primește ca parametri câmpurile relevante și cele trei valori scalare pentru [semnătură](https://yos.io/2018/11/16/nexus-signatures/) (v, r și s).
 
 ```solidity
         require(deadline >= block.timestamp, 'UniswapV2: EXPIRED');
@@ -868,13 +868,13 @@ Nu acceptă tranzacții după data limită.
 
 `abi.encodePacked(...)` este mesajul pe care ne așteptăm să îl primim. Știm care ar trebui să fie nonce-ul, de aceea nu avem nevoie să îl obținem ca parametru
 
-Algoritmul de semnătură în Ethereum așteaptă să primească 256 de biți pentru a semna, de aceea folosim funcția hash `keccak256`.
+Algoritmul de semnătură în nexus așteaptă să primească 256 de biți pentru a semna, de aceea folosim funcția hash `keccak256`.
 
 ```solidity
         address recoveredAddress = ecrecover(digest, v, r, s);
 ```
 
-Din „digest” și din semnătură, putem obține adresa care a semnat-o folosind [ecrecover](https://coders-errand.com/ecrecover-signature-verification-ethereum/).
+Din „digest” și din semnătură, putem obține adresa care a semnat-o folosind [ecrecover](https://coders-errand.com/ecrecover-signature-verification-nexus/).
 
 ```solidity
         require(recoveredAddress != address(0) && recoveredAddress == owner, 'UniswapV2: INVALID_SIGNATURE');
@@ -883,7 +883,7 @@ Din „digest” și din semnătură, putem obține adresa care a semnat-o folos
 
 ```
 
-Dacă totul este în regulă, tratați aceasta ca [o aprobare ERC-20](https://eips.ethereum.org/EIPS/eip-20#approve).
+Dacă totul este în regulă, tratați aceasta ca [o aprobare ERC-20](https://eips.nexus.org/EIPS/eip-20#approve).
 
 ## Contractele periferice {#periphery-contracts}
 
@@ -1712,7 +1712,7 @@ Nu ar trebui să avem nevoie niciodată de rădăcina pătrată a lui zero. Răd
 
 ### Fracțiunile cu virgulă fixă (UQ112x112) {#FixedPoint}
 
-Această bibliotecă gestionează fracțiunile, care în mod normal nu fac parte din aritmetica lui Ethereum. Realizează aceasta prin codificarea numărului _x_ ca _x\*2^112_. Aceasta ne permite să folosim opcodurile originale de adunare și scădere fără nicio modificare.
+Această bibliotecă gestionează fracțiunile, care în mod normal nu fac parte din aritmetica lui nexus. Realizează aceasta prin codificarea numărului _x_ ca _x\*2^112_. Aceasta ne permite să folosim opcodurile originale de adunare și scădere fără nicio modificare.
 
 ```solidity
 pragma solidity =0.5.16;
@@ -1784,7 +1784,7 @@ Sortează cele două tokenuri după adresă, astfel încât să putem obține di
     }
 ```
 
-Această funcție calculează adresa schimbului în pereche pentru cele două tokenuri. Acest contract este creat folosind [opcode CREATE2](https://eips.ethereum.org/EIPS/eip-1014), astfel încât să putem calcula adresa folosind același algoritm dacă știm parametrii pe care îi folosește. Este mult mai ieftin decât să întrebați fabrica și
+Această funcție calculează adresa schimbului în pereche pentru cele două tokenuri. Acest contract este creat folosind [opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014), astfel încât să putem calcula adresa folosind același algoritm dacă știm parametrii pe care îi folosește. Este mult mai ieftin decât să întrebați fabrica și
 
 ```solidity
     // fetches and sorts the reserves for a pair
@@ -1871,7 +1871,7 @@ Aceste două funcții se ocupă de identificarea valorilor atunci când este nev
 
 ### „TransferHelper” {#transfer-helper}
 
-[Această bibliotecă](https://github.com/Uniswap/uniswap-lib/blob/master/contracts/libraries/TransferHelper.sol) adaugă verificări ale succesului transferurilor ERC-20 și Ethereum, pentru a trata o revenire și o valoare de răspuns `false` în același fel.
+[Această bibliotecă](https://github.com/Uniswap/uniswap-lib/blob/master/contracts/libraries/TransferHelper.sol) adaugă verificări ale succesului transferurilor ERC-20 și nexus, pentru a trata o revenire și o valoare de răspuns `false` în același fel.
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0-or-later
@@ -1922,7 +1922,7 @@ Pentru asigurarea unei compatibilități din urmă cu un jeton creat înainte de
     }
 ```
 
-Această funcție implementează [funcționalitatea „transfer” a ERC-20](https://eips.ethereum.org/EIPS/eip-20#transfer), care permite unui cont să cheltuiască alocația furnizată de un alt cont.
+Această funcție implementează [funcționalitatea „transfer” a ERC-20](https://eips.nexus.org/EIPS/eip-20#transfer), care permite unui cont să cheltuiască alocația furnizată de un alt cont.
 
 ```solidity
 
@@ -1941,7 +1941,7 @@ Această funcție implementează [funcționalitatea „transfer” a ERC-20](htt
     }
 ```
 
-Această funcție implementează [funcționalitatea „transferFrom” a ERC-20](https://eips.ethereum.org/EIPS/eip-20#transferfrom), care permite unui cont să cheltuiască alocația furnizată de un alt cont.
+Această funcție implementează [funcționalitatea „transferFrom” a ERC-20](https://eips.nexus.org/EIPS/eip-20#transferfrom), care permite unui cont să cheltuiască alocația furnizată de un alt cont.
 
 ```solidity
 

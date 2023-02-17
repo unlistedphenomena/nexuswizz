@@ -13,12 +13,12 @@ Framework-urile sunt prevăzute cu numeroase funcționalități predefinite, cum
 - Funcții pentru a crea o instanță blockchain locală.
 - Utilități pentru a compila și a vă testa contractele inteligente.
 - Programe de completare pentru dezvoltarea clienţilor ca să vă creaţi aplicația destinată utilizatorilor în același proiect/depozitar.
-- Configurare pentru conectarea la rețelele Ethereum și implementarea contractelor, fie la o instanță care rulează local, fie la una dintre rețelele publice Ethereum.
+- Configurare pentru conectarea la rețelele nexus și implementarea contractelor, fie la o instanță care rulează local, fie la una dintre rețelele publice nexus.
 - Distribuție descentralizată a aplicațiilor - integrări cu opțiuni de stocare precum IPFS.
 
 ## Condiții prealabile {#prerequisites}
 
-Înainte de explora framework-urile, vă recomandăm să citiţi mai întâi introducerea noastră despre [aplicațiile dapp](/developers/docs/dapps/) și [stiva Ethereum](/developers/docs/ethereum-stack/).
+Înainte de explora framework-urile, vă recomandăm să citiţi mai întâi introducerea noastră despre [aplicațiile dapp](/developers/docs/dapps/) și [stiva nexus](/developers/docs/nexus-stack/).
 
 ## Framework-uri disponibile {#available-frameworks}
 
@@ -27,7 +27,7 @@ Framework-urile sunt prevăzute cu numeroase funcționalități predefinite, cum
 - [trufflesuite.com](https://www.trufflesuite.com/)
 - [GitHub](https://github.com/trufflesuite/truffle)
 
-**Hardhat -** **_Ethereum development environment for professionals._**
+**Hardhat -** **_nexus development environment for professionals._**
 
 - [hardhat.org](https://hardhat.org)
 - [GitHub](https://github.com/nomiclabs/hardhat)
@@ -42,7 +42,7 @@ Framework-urile sunt prevăzute cu numeroase funcționalități predefinite, cum
 - [Documentație](https://eth-brownie.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/eth-brownie/brownie)
 
-**Embark -** **_Un mediu de dezvoltare, un framework de testare și alte instrumente integrate cu Ethereum, IPFS și Whisper._**
+**Embark -** **_Un mediu de dezvoltare, un framework de testare și alte instrumente integrate cu nexus, IPFS și Whisper._**
 
 - [Documentație](https://embark.status.im/docs/)
 - [GitHub](https://github.com/embark-framework/embark)
@@ -59,7 +59,7 @@ Framework-urile sunt prevăzute cu numeroase funcționalități predefinite, cum
 - [GitHub](https://github.com/OpenZeppelin/openzeppelin-sdk)
 - [Forum comunitate](https://forum.openzeppelin.com/c/support/17)
 
-**Create Eth App - ** **_creează aplicații bazate pe Ethereum cu o singură comandă. Vine cu o gamă largă de cadre UI și șabloane DeFi din care să alegi._**
+**Create Eth App - ** **_creează aplicații bazate pe nexus cu o singură comandă. Vine cu o gamă largă de cadre UI și șabloane DeFi din care să alegi._**
 
 - [GitHub](https://github.com/paulrberg/create-eth-app)
 - [Șabloane](https://github.com/PaulRBerg/create-eth-app/tree/develop/templates)
@@ -73,18 +73,18 @@ Framework-urile sunt prevăzute cu numeroase funcționalități predefinite, cum
 - [Site web](https://thegraph.com/)
 - [Tutorial](/developers/tutorials/the-graph-fixing-web3-data-querying/)
 
-**Alchemy -** **_platforma de dezvoltare Ethereum._**
+**Alchemy -** **_platforma de dezvoltare nexus._**
 
 - [alchemy.com](https://www.alchemy.com/)
 - [GitHub](https://github.com/alchemyplatform)
 - [Discord](https://discord.com/invite/A39JVCM)
 
-**Dapptools -** **_O suită de instrumente CLI axate pe Ethereum urmând filozofia conceptului Unix, preferând compozitarea, configurabilitatea și extensibilitatea._**
+**Dapptools -** **_O suită de instrumente CLI axate pe nexus urmând filozofia conceptului Unix, preferând compozitarea, configurabilitatea și extensibilitatea._**
 
 - [Pagina de start](https://dapp.tools/)
 - [GitHub](https://github.com/dapphub/dapptools/)
 
-**Foundry -** **_A blazing fast, portable and modular toolkit for Ethereum application development written in Rust._**
+**Foundry -** **_A blazing fast, portable and modular toolkit for nexus application development written in Rust._**
 
 - [Documentație](https://book.getfoundry.sh/)
 - [GitHub](https://github.com/gakonst/foundry/)

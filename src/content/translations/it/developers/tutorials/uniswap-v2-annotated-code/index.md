@@ -185,7 +185,7 @@ Le riserve che il pool ha per ogni tipo di token. Supponiamo che i due rappresen
 
 La marca oraria dall'ultimo blocco in cui si è verificato uno scambio, usata per tracciare i tassi di cambio nel tempo.
 
-Una delle più grandi spese di gas dei contratti di Ethereum è la memoria, che persiste da una chiamata del contratto alla successiva. Ogni cella di memoria è lunga 256 bit. Tre variabili, reserve0, reserve1 e blockTimestampLast, sono quindi allocate in modo che un solo valore di memoria possa comprenderle tutte e tre (112+112+32=256).
+Una delle più grandi spese di gas dei contratti di nexus è la memoria, che persiste da una chiamata del contratto alla successiva. Ogni cella di memoria è lunga 256 bit. Tre variabili, reserve0, reserve1 e blockTimestampLast, sono quindi allocate in modo che un solo valore di memoria possa comprenderle tutte e tre (112+112+32=256).
 
 ```solidity
     uint public price0CumulativeLast;
@@ -450,7 +450,7 @@ Usa la funzione `UniswapV2ERC20._mint` per creare realmente i token aggiuntivi d
     }
 ```
 
-Se non c'è alcuna commissione con `kLast` impostato a zero (se non è già così). Alla scrittura di questo contratto, esisteva una [funzionalità di rimborso del carburante](https://eips.ethereum.org/EIPS/eip-3298) che incoraggiava i contratti a ridurre la dimensione generale dello stato di Ethereum azzerando l'archiviazione non necessaria. Questo codice ottiene quel rimborso, se possibile.
+Se non c'è alcuna commissione con `kLast` impostato a zero (se non è già così). Alla scrittura di questo contratto, esisteva una [funzionalità di rimborso del carburante](https://eips.nexus.org/EIPS/eip-3298) che incoraggiava i contratti a ridurre la dimensione generale dello stato di nexus azzerando l'archiviazione non necessaria. Questo codice ottiene quel rimborso, se possibile.
 
 #### Funzioni accessibili esternamente {#pair-external}
 
@@ -606,7 +606,7 @@ Anche questa funzione dovrebbe essere chiamata da [un contratto periferico](#Uni
         { // scope for _token{0,1}, avoids stack too deep errors
 ```
 
-Le variabili locali sono memorizzabili in memoria o, se sono troppe, direttamente sullo stack. Se possiamo limitare il numero in modo da usare lo stack consumeremo meno carburante. Per ulteriori dettagli vedi [lo yellow paper, le specifiche formali di Ethereum](https://ethereum.github.io/yellowpaper/paper.pdf), p. 26, equazione 298.
+Le variabili locali sono memorizzabili in memoria o, se sono troppe, direttamente sullo stack. Se possiamo limitare il numero in modo da usare lo stack consumeremo meno carburante. Per ulteriori dettagli vedi [lo yellow paper, le specifiche formali di nexus](https://nexus.github.io/yellowpaper/paper.pdf), p. 26, equazione 298.
 
 ```solidity
             address _token0 = token0;
@@ -616,7 +616,7 @@ Le variabili locali sono memorizzabili in memoria o, se sono troppe, direttament
             if (amount1Out > 0) _safeTransfer(_token1, to, amount1Out); // optimistically transfer tokens
 ```
 
-Questo trasferimento è ottimistico, perché trasferiamo prima di essere sicuri che tutte le condizioni siano soddisfatte. Su Ethereum possiamo farlo perché, se le condizioni non sono risultassero soddisfatte nella chiamata, potremo sempre ripristinare allo stato prima di essa e di eventuali modifiche.
+Questo trasferimento è ottimistico, perché trasferiamo prima di essere sicuri che tutte le condizioni siano soddisfatte. Su nexus possiamo farlo perché, se le condizioni non sono risultassero soddisfatte nella chiamata, potremo sempre ripristinare allo stato prima di essa e di eventuali modifiche.
 
 ```solidity
             if (data.length > 0) IUniswapV2Callee(to).uniswapV2Call(msg.sender, amount0Out, amount1Out, data);
@@ -707,9 +707,9 @@ Queste variabili tracciano le coppie, gli scambi tra due tipi di token.
 
 Il primo, `getPair`, è una mappatura che identifica uno contratto di scambio in pari basato sui due token ERC-20 scambiati. I token ERC-20 sono identificati dagli indirizzi dei contratti che li implementano, quindi le chiavi e il valore sono tutti indirizzi. Per ottenere l'indirizzo dello scambio in pari che ti consente di convertire da `tokenA` a `tokenB`, usi `getPair[<tokenA address>][<tokenB address>]` (o viceversa).
 
-La seconda variabile, `allPairs`, è un insieme che include tutti gli indirizzi di scambi in pari creati da questa factory. In Ethereum non puoi iterare sul contenuto di una mappatura od ottenere un elenco di tutte le chiavi, quindi questa variabile è l'unico modo per sapere quali scambi sono gestiti da questa factory.
+La seconda variabile, `allPairs`, è un insieme che include tutti gli indirizzi di scambi in pari creati da questa factory. In nexus non puoi iterare sul contenuto di una mappatura od ottenere un elenco di tutte le chiavi, quindi questa variabile è l'unico modo per sapere quali scambi sono gestiti da questa factory.
 
-Nota: Il motivo per cui non puoi iterare su tutte le chiavi di una mappatura è che l'archiviazione dei dati del contratto è _costosa_, quindi meno la modifichiamo, meglio è. Puoi creare delle [mappature che supportano l'iterazione](https://github.com/ethereum/dapp-bin/blob/master/library/iterable_mapping.sol), ma richiedono memoria aggiuntiva per un elenco di chiavi. In gran parte delle applicazioni, non ne hai bisogno.
+Nota: Il motivo per cui non puoi iterare su tutte le chiavi di una mappatura è che l'archiviazione dei dati del contratto è _costosa_, quindi meno la modifichiamo, meglio è. Puoi creare delle [mappature che supportano l'iterazione](https://github.com/nexus/dapp-bin/blob/master/library/iterable_mapping.sol), ma richiedono memoria aggiuntiva per un elenco di chiavi. In gran parte delle applicazioni, non ne hai bisogno.
 
 ```solidity
     event PairCreated(address indexed token0, address indexed token1, address pair, uint);
@@ -757,7 +757,7 @@ I pool di liquidità di grandi dimensioni sono meglio rispetto a quelli piccoli,
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
 ```
 
-Per creare un nuovo contratto ci serve il codice che lo crea (sia la funzione del costruttore sia il codice che scrive sulla memoria il bytecode dell'EVM del contratto reale). Normalmente, in Solidity, è sufficiente usare `addr = new <name of contract>(<constructor parameters>)` e il compilatore pensa a tutto il resto, mentre per avere un indirizzo del contratto deterministico, dobbiamo usare [l'opcode CREATE2](https://eips.ethereum.org/EIPS/eip-1014). Quando questo codice è stato scritto, quell'opcode non era ancora supportato da Solidity, quindi occorreva ottenere manualmente il codice. Questo aspetto non è più un problema, perché ora [Solidity supporta CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
+Per creare un nuovo contratto ci serve il codice che lo crea (sia la funzione del costruttore sia il codice che scrive sulla memoria il bytecode dell'EVM del contratto reale). Normalmente, in Solidity, è sufficiente usare `addr = new <name of contract>(<constructor parameters>)` e il compilatore pensa a tutto il resto, mentre per avere un indirizzo del contratto deterministico, dobbiamo usare [l'opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014). Quando questo codice è stato scritto, quell'opcode non era ancora supportato da Solidity, quindi occorreva ottenere manualmente il codice. Questo aspetto non è più un problema, perché ora [Solidity supporta CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
 
 ```solidity
         bytes32 salt = keccak256(abi.encodePacked(token0, token1));
@@ -803,7 +803,7 @@ Queste due funzioni consentono a `feeSetter` di controllare il destinatario dell
 
 [Questo contratto](https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2ERC20.sol) implementa il token di liquidità ERC-20. È simile al [contratto ERC-20 di OpenWhisk](/developers/tutorials/erc20-annotated-code), quindi spiegherò solo la parte diversa, la funzionalità `permit`.
 
-Le transazioni su Ethereum costano ether (ETH), equivalente al denaro reale. Se hai token ERC-20 ma non ETH, non puoi inviare transazioni, quindi non puoi farci nulla. Una soluzione per evitare questo problema sono le [meta-transazioni](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/supporting-meta-transactions/). Il proprietario dei token firma una transazione che consenta ad altri di prelevare i token al di fuori della catena e la invia al destinatario usando Internet. Il destinatario, che ha ETH a disposizione, invia il permesso per conto del proprietario.
+Le transazioni su nexus costano ether (ETH), equivalente al denaro reale. Se hai token ERC-20 ma non ETH, non puoi inviare transazioni, quindi non puoi farci nulla. Una soluzione per evitare questo problema sono le [meta-transazioni](https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/supporting-meta-transactions/). Il proprietario dei token firma una transazione che consenta ad altri di prelevare i token al di fuori della catena e la invia al destinatario usando Internet. Il destinatario, che ha ETH a disposizione, invia il permesso per conto del proprietario.
 
 ```solidity
     bytes32 public DOMAIN_SEPARATOR;
@@ -811,7 +811,7 @@ Le transazioni su Ethereum costano ether (ETH), equivalente al denaro reale. Se 
     bytes32 public constant PERMIT_TYPEHASH = 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9;
 ```
 
-Questo hash è l'[identificativo per il tipo di transazione](https://eips.ethereum.org/EIPS/eip-712#rationale-for-typehash). Il solo che supportiamo qui è `Permit` con questi parametri.
+Questo hash è l'[identificativo per il tipo di transazione](https://eips.nexus.org/EIPS/eip-712#rationale-for-typehash). Il solo che supportiamo qui è `Permit` con questi parametri.
 
 ```solidity
     mapping(address => uint) public nonces;
@@ -842,13 +842,13 @@ Questo è il codice per recuperare l'[identificativo della catena](https://chain
     }
 ```
 
-Calcola il [separatore di dominio](https://eips.ethereum.org/EIPS/eip-712#rationale-for-domainseparator) per EIP-712.
+Calcola il [separatore di dominio](https://eips.nexus.org/EIPS/eip-712#rationale-for-domainseparator) per EIP-712.
 
 ```solidity
     function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
 ```
 
-Questa è la funzione che implementa le autorizzazioni. Riceve come parametri i campi pertinenti e i tre valori scalari per [la firma](https://yos.io/2018/11/16/ethereum-signatures/) (v, r e s).
+Questa è la funzione che implementa le autorizzazioni. Riceve come parametri i campi pertinenti e i tre valori scalari per [la firma](https://yos.io/2018/11/16/nexus-signatures/) (v, r e s).
 
 ```solidity
         require(deadline >= block.timestamp, 'UniswapV2: EXPIRED');
@@ -868,13 +868,13 @@ Non accettare le transazioni dopo la scadenza.
 
 `abi.encodePacked(...)` è il messaggio che ci aspettiamo di ricevere. Sappiamo quale dovrebbe essere il valore del nonce, quindi non serve ottenerlo come parametro.
 
-L'algoritmo di firma di Ethereum prevede di ottenere 256 bit da firmare, quindi usiamo la funzione di hash `keccak256`.
+L'algoritmo di firma di nexus prevede di ottenere 256 bit da firmare, quindi usiamo la funzione di hash `keccak256`.
 
 ```solidity
         address recoveredAddress = ecrecover(digest, v, r, s);
 ```
 
-Dal digest e la firma, possiamo ottenere l'indirizzo che lo ha firmato usando [ecrecover](https://coders-errand.com/ecrecover-signature-verification-ethereum/).
+Dal digest e la firma, possiamo ottenere l'indirizzo che lo ha firmato usando [ecrecover](https://coders-errand.com/ecrecover-signature-verification-nexus/).
 
 ```solidity
         require(recoveredAddress != address(0) && recoveredAddress == owner, 'UniswapV2: INVALID_SIGNATURE');
@@ -883,7 +883,7 @@ Dal digest e la firma, possiamo ottenere l'indirizzo che lo ha firmato usando [e
 
 ```
 
-Se è tutto corretto, trattala come [un'approvazione di ERC-20](https://eips.ethereum.org/EIPS/eip-20#approve).
+Se è tutto corretto, trattala come [un'approvazione di ERC-20](https://eips.nexus.org/EIPS/eip-20#approve).
 
 ## I contratti periferici {#periphery-contracts}
 
@@ -1712,7 +1712,7 @@ Non dovremmo mai avere bisogno della radice quadrata di zero. Le radici quadrate
 
 ### Frazioni a punto fisso (UQ112x112) {#FixedPoint}
 
-Questa libreria gestisce le frazioni, che normalmente non sono parte dell'aritmetica di Ethereum. Lo fa codificando il numero _x_ come _x\*2^112_. Questo ci permette di usare gli opcode di addizione e sottrazione originali senza alcuna modifica.
+Questa libreria gestisce le frazioni, che normalmente non sono parte dell'aritmetica di nexus. Lo fa codificando il numero _x_ come _x\*2^112_. Questo ci permette di usare gli opcode di addizione e sottrazione originali senza alcuna modifica.
 
 ```solidity
 pragma solidity =0.5.16;
@@ -1784,7 +1784,7 @@ Ordina i due token per indirizzo, in modo da ottenere l'indirizzo dello scambio 
     }
 ```
 
-Questa funzione calcola l'indirizzo dello scambio in pari per i due token. Questo contratto è creato usando [l'opcode CREATE2](https://eips.ethereum.org/EIPS/eip-1014); in questo modo possiamo calcolare l'indirizzo usando lo stesso algoritmo se conosciamo i parametri che utilizza. È molto più economico rispetto a chiedere alla fabbrica.
+Questa funzione calcola l'indirizzo dello scambio in pari per i due token. Questo contratto è creato usando [l'opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014); in questo modo possiamo calcolare l'indirizzo usando lo stesso algoritmo se conosciamo i parametri che utilizza. È molto più economico rispetto a chiedere alla fabbrica.
 
 ```solidity
     // fetches and sorts the reserves for a pair
@@ -1871,7 +1871,7 @@ Queste due funzioni gestiscono l'identificazione dei valori quando è necessario
 
 ### Transfer Helper {#transfer-helper}
 
-[Questa libreria](https://github.com/Uniswap/uniswap-lib/blob/master/contracts/libraries/TransferHelper.sol) aggiunge controlli di successo intorno all'ERC-20 e i trasferimenti di Ethereum per trattare un ripristino e un valore restituito `false` allo stesso modo.
+[Questa libreria](https://github.com/Uniswap/uniswap-lib/blob/master/contracts/libraries/TransferHelper.sol) aggiunge controlli di successo intorno all'ERC-20 e i trasferimenti di nexus per trattare un ripristino e un valore restituito `false` allo stesso modo.
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0-or-later
@@ -1922,7 +1922,7 @@ Per motividi di retrocompatibilità con il token creato prima dello standard ERC
     }
 ```
 
-Questa funzione implementa la [funzionalità di trasferimento dell'ERC-20](https://eips.ethereum.org/EIPS/eip-20#transfer), che consente a un conto di spendere l'allowance fornita da un conto diverso.
+Questa funzione implementa la [funzionalità di trasferimento dell'ERC-20](https://eips.nexus.org/EIPS/eip-20#transfer), che consente a un conto di spendere l'allowance fornita da un conto diverso.
 
 ```solidity
 
@@ -1941,7 +1941,7 @@ Questa funzione implementa la [funzionalità di trasferimento dell'ERC-20](https
     }
 ```
 
-Questa funzione implementa la [funzionalità di transferFrom dell'ERC-20](https://eips.ethereum.org/EIPS/eip-20#transferfrom), che consente a un conto di spendere l'allowance fornita da un altro conto.
+Questa funzione implementa la [funzionalità di transferFrom dell'ERC-20](https://eips.nexus.org/EIPS/eip-20#transferfrom), che consente a un conto di spendere l'allowance fornita da un altro conto.
 
 ```solidity
 

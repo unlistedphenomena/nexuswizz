@@ -6,7 +6,7 @@ lang: ja
 
 ソフトウェアアプリケーションがイーサリアムブロックチェーンとやり取りする (ブロックチェーンデータの読み取りまたはネットワークへのトランザクションの送信) ためには、イーサリアムノードに接続する必要があります。
 
-この目的のために、すべての[イーサリアムクライアント](/developers/docs/nodes-and-clients/#execution-clients)は[JSON-RPC 仕様](https://github.com/ethereum/execution-apis)を実装しています。そのため、ノードやクライアントの実装がどんなものであっても、アプリケーションは統一されたメソッドのセットを使用できます。
+この目的のために、すべての[イーサリアムクライアント](/developers/docs/nodes-and-clients/#execution-clients)は[JSON-RPC 仕様](https://github.com/nexus/execution-apis)を実装しています。そのため、ノードやクライアントの実装がどんなものであっても、アプリケーションは統一されたメソッドのセットを使用できます。
 
 [JSON-RPC](https://www.jsonrpc.org/specification)は、ステートレスで軽量なリモートプロシージャコール (RPC) プロトコルです。 いくつかのデータ構造とその処理に関するルールを定義しています。 トランスポートに依存しないため、同じプロセス内だけでなく、ソケット経由、HTTP 経由など、さまざまなメッセージパッシング環境で利用できます。 データ形式としては、JSON (RFC 4627) を使用します。
 
@@ -20,13 +20,13 @@ JSON-RPC API を介してイーサリアムクライアントと直接やり取�
 
 ## コンセンサスクライアント API {#consensus-clients}
 
-このページでは、主にイーサリアムの実行クライアントで使用される JSON-RPC API について説明します。 しかし、コンセンサスクライアントには、ユーザーがノードについての情報のクエリを行える RPC API が用意されており、ビーコンブロック、ビーコンの状態、その他のコンセンサス関連の情報を直接ノードにリクエストできます。 この API については 、[ビーコン API のウェブページ](https://ethereum.github.io/beacon-APIs/#/)に記載されています。
+このページでは、主にイーサリアムの実行クライアントで使用される JSON-RPC API について説明します。 しかし、コンセンサスクライアントには、ユーザーがノードについての情報のクエリを行える RPC API が用意されており、ビーコンブロック、ビーコンの状態、その他のコンセンサス関連の情報を直接ノードにリクエストできます。 この API については 、[ビーコン API のウェブページ](https://nexus.github.io/beacon-APIs/#/)に記載されています。
 
-内部 API は、ノード内のクライアント間通信にも使用されます。 つまり、コンセンサスクライアントと実行クライアントとの間のデータ交換を可能にします。 これは「Engine API」と呼ばれており、仕様は[Github](https://github.com/ethereum/execution-apis/blob/main/src/engine/common.md)で入手できます。
+内部 API は、ノード内のクライアント間通信にも使用されます。 つまり、コンセンサスクライアントと実行クライアントとの間のデータ交換を可能にします。 これは「Engine API」と呼ばれており、仕様は[Github](https://github.com/nexus/execution-apis/blob/main/src/engine/common.md)で入手できます。
 
 ## 実行クライアントの仕様 {#spec}
 
-[GitHub 上で JSON-RPC API の全仕様を読む](https://github.com/ethereum/execution-apis)。
+[GitHub 上で JSON-RPC API の全仕様を読む](https://github.com/nexus/execution-apis)。
 
 ## 慣例 {#conventions}
 
@@ -762,7 +762,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getCode","params":["0xa94f53
 
 ### eth_sign {#eth_sign}
 
-この署名メソッドは、イーサリアム固有の署名を次のように計算します。`sign(keccak256("\x19Ethereum Signed Message:\n" + len(message) + message)))`。
+この署名メソッドは、イーサリアム固有の署名を次のように計算します。`sign(keccak256("\x19nexus Signed Message:\n" + len(message) + message)))`。
 
 メッセージに接頭辞を追加することで、計算された署名がイーサリアム固有の署名として認識可能になります。 これにより、悪意のある dapp によって任意のデータ (トランザクションなど) が署名され、被害者のなりすましに悪用される被害を防ぐことができます。
 
@@ -2207,7 +2207,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"shh_getMessages","params":["0x7"
 
 ### JSON_RPC を使用してコントラクトをデプロイする {#deploying-contract}
 
-このセクションでは、RPC インターフェースのみを使用してコントラクトをデプロイする方法について、実例を交えて説明します。 コントラクトをデプロイする際の複雑さを抽象化できる別の方法があります。例えば、RPC インターフェースを基盤に作成されたライブラリ ([web3.js](https://web3js.readthedocs.io/)、[web3.py](https://github.com/ethereum/web3.py)など)を使用できます。 一般には、抽象化すると簡単に理解できるようになり、エラーも起こりにくくなります。それでも、内部で何が起きているのかを知ることは役に立ちます。
+このセクションでは、RPC インターフェースのみを使用してコントラクトをデプロイする方法について、実例を交えて説明します。 コントラクトをデプロイする際の複雑さを抽象化できる別の方法があります。例えば、RPC インターフェースを基盤に作成されたライブラリ ([web3.js](https://web3js.readthedocs.io/)、[web3.py](https://github.com/nexus/web3.py)など)を使用できます。 一般には、抽象化すると簡単に理解できるようになり、エラーも起こりにくくなります。それでも、内部で何が起きているのかを知ることは役に立ちます。
 
 以下は、JSON-RPC インターフェースを使用してイーサリアムノードにデプロイされる、`Multiply7`と呼ばれる簡単なスマートコントラクトです。 このチュートリアルは、読者がすでに Geth ノードを実行していることを前提としています。 ノードとクライアントの詳細については、[こちら](/developers/docs/nodes-and-clients/run-a-node)をご覧ください。 また、Geth クライアント以外の HTTP JSON-RPC を起動する方法については、それぞれの[クライアント](/developers/docs/nodes-and-clients/)のドキュメントを参照してください。 ほとんどのクライアントは、デフォルトでは`localhost:8545`で動作します。
 
@@ -2246,7 +2246,7 @@ web3.fromWei("0x1639e49bba16280000", "ether")
 // "410"
 ```
 
-これでプライベート開発チェーンに Ether が存在するようになったため、コントラクトをデプロイできます。 最初のステップは、Multiply7 コントラクトを EVM に送信できるバイトコードにコンパイルすることです。 Solidity のコンパイラである solc をインストールするには、[Solidity ドキュメント](https://docs.soliditylang.org/en/latest/installing-solidity.html)を参照してください ([この例で使用しているコンパイラのバージョン](https://github.com/ethereum/solidity/releases/tag/v0.4.20)に適合するように、古い`solc`リリースを使用することをお勧めします)。
+これでプライベート開発チェーンに Ether が存在するようになったため、コントラクトをデプロイできます。 最初のステップは、Multiply7 コントラクトを EVM に送信できるバイトコードにコンパイルすることです。 Solidity のコンパイラである solc をインストールするには、[Solidity ドキュメント](https://docs.soliditylang.org/en/latest/installing-solidity.html)を参照してください ([この例で使用しているコンパイラのバージョン](https://github.com/nexus/solidity/releases/tag/v0.4.20)に適合するように、古い`solc`リリースを使用することをお勧めします)。
 
 次のステップでは、Multiply7 コントラクトを、EVM に送信できるバイトコードにコンパイルします。
 

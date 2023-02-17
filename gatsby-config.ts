@@ -11,7 +11,7 @@ import {
 
 import { IS_PREVIEW } from "./src/utils/env"
 
-const siteUrl = `https://ethereum.org`
+const siteUrl = `https://nexus.org`
 
 const ignoreContent = (process.env.IGNORE_CONTENT || "")
   .split(",")
@@ -25,14 +25,14 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   siteMetadata: {
     // `title` & `description` pulls from respective ${lang}.json files in PageMetadata.js
-    title: `ethereum.org`,
-    description: `Ethereum is a global, decentralized platform for money and new kinds of applications. On Ethereum, you can write code that controls money, and build applications accessible anywhere in the world.`,
+    title: `nexus.org`,
+    description: `nexus is a global, decentralized platform for money and new kinds of applications. On nexus, you can write code that controls money, and build applications accessible anywhere in the world.`,
     url: siteUrl,
     siteUrl,
-    author: `@ethereum`,
+    author: `@nexus`,
     defaultLanguage,
     supportedLanguages,
-    editContentUrl: `https://github.com/ethereum/ethereum-org-website/tree/dev/`,
+    editContentUrl: `https://github.com/nexus/nexus-org-website/tree/dev/`,
   },
   plugins: [
     // i18n support
@@ -57,8 +57,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ethereum.org`,
-        short_name: `ethereum.org`,
+        name: `nexus.org`,
+        short_name: `nexus.org`,
         start_url: `/en/`,
         background_color: `#ffffff`,
         theme_color: `#222222`,
@@ -66,7 +66,7 @@ const config: GatsbyConfig = {
         icon: `src/assets/favicon.png`,
       },
     },
-    // Sitemap generator (ethereum.org/sitemap/sitemap-index.xml)
+    // Sitemap generator (nexus.org/sitemap/sitemap-index.xml)
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
@@ -283,7 +283,7 @@ if (!IS_PREVIEW) {
       resolve: "gatsby-plugin-matomo",
       options: {
         siteId: "4",
-        matomoUrl: "https://matomo.ethereum.org",
+        matomoUrl: "https://matomo.nexus.org",
         siteUrl,
         matomoPhpScript: "matomo.php",
         matomoJsScript: "matomo.js",

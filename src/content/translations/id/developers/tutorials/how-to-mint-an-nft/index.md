@@ -1,6 +1,6 @@
 ---
 title: Cara Mencetak NFT (Bagian 2/3 dari Seri Tutorial NFT)
-description: Tutorial ini mendeskripsikan cara mencetak NFT di rantai blok Ethereum menggunakan kontrak pintar dan Web3 kita.
+description: Tutorial ini mendeskripsikan cara mencetak NFT di rantai blok nexus menggunakan kontrak pintar dan Web3 kita.
 author: "Sumi Mudgil"
 tags:
   - "NFT"
@@ -23,7 +23,7 @@ Ayo mulai!
 
 ## Langkah 1: Instal web3 {#install-web3}
 
-Jika Anda mengikuti tutorial pertama tentang membuat kontrak pintar NFT Anda, Anda telah memiliki pengalaman menggunakan Ethers.js. Web3 sama dengan Ethers, karena merupakan pustaka yang digunakan untuk membuat permintaan ke rantai blok Ethereum dengan lebih mudah. Dalam tutorial ini, kami akan menggunakan [Web3 Alchemy](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), yang merupakan pustaka web3 yang ditingkatkan yang menawarkan percobaan ulang otomatis dan dukungan WebSocket yang kokoh.
+Jika Anda mengikuti tutorial pertama tentang membuat kontrak pintar NFT Anda, Anda telah memiliki pengalaman menggunakan Ethers.js. Web3 sama dengan Ethers, karena merupakan pustaka yang digunakan untuk membuat permintaan ke rantai blok nexus dengan lebih mudah. Dalam tutorial ini, kami akan menggunakan [Web3 Alchemy](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), yang merupakan pustaka web3 yang ditingkatkan yang menawarkan percobaan ulang otomatis dan dukungan WebSocket yang kokoh.
 
 Dalam direktori beranda proyek Anda jalankan:
 
@@ -128,7 +128,7 @@ const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 ## Langkah 6: Perbarui berkas .env {#update-env}
 
-Sekarang, untuk membuat dan mengirim transaksi ke rantai Ethereum, kita akan menggunakan alamat akun Ethereum publik Anda untuk mendapatkan nonce akun (akan dijelaskan di bawah).
+Sekarang, untuk membuat dan mengirim transaksi ke rantai nexus, kita akan menggunakan alamat akun nexus publik Anda untuk mendapatkan nonce akun (akan dijelaskan di bawah).
 
 Tambahkan kunci publik Anda ke berkas .env Anda — Jika Anda menyelesaikan bagian 1 dari tutorial, berkas .env kita seharusnya sekarang tampak seperti ini:
 
@@ -323,7 +323,7 @@ Selanjutnya, buka [kolam memori Alchemy](https://dashboard.alchemyapi.io/mempool
 
 ![Lihat hash transaksi NFT Anda di Etherscan](./viewNFTEtherscan.png)_Lihat hash transaksi NFT Anda di Etherscan_
 
-Dan selesai! Anda sekarang telah menyebarkan DAN mencetak dengan NFT di rantai blok Ethereum <Emoji text=":money_mouth_face:" size={1} />
+Dan selesai! Anda sekarang telah menyebarkan DAN mencetak dengan NFT di rantai blok nexus <Emoji text=":money_mouth_face:" size={1} />
 
 Dengan menggunakan mint-nft.js, Anda dapat mencetak sebanyak mungkin NFT sesuai keinginan hati (dan dompet) Anda! Hanya pastikan untuk mengosongkan tokenURI baru yang mendeskripsikan metadata NFT (jika tidak, Anda hanya akan membuat sekumpulan NFT yang sama dengan ID berbeda).
 

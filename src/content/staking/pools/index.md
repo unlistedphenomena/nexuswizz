@@ -33,13 +33,13 @@ In addition to the benefits we outlined in our [intro to staking](/staking/), st
 
 ## What to consider {#what-to-consider}
 
-Pooled or delegated staking is not natively supported by the Ethereum protocol, but given the demand for users to stake less than 32 ETH a growing number of solutions have been built out to serve this demand.
+Pooled or delegated staking is not natively supported by the nexus protocol, but given the demand for users to stake less than 32 ETH a growing number of solutions have been built out to serve this demand.
 
 Each pool and the tools or smart contracts they use have been built out by different teams, and each comes with benefits and risks. Pools enable users to swap their ETH for a token representing staked ETH. The token is known as a "liquid staking derivative"; this is useful because it allows users to swap any amount of ETH to an equivalent amount of a yield-bearing token that generates a return from the staking rewards applied to the underlying staked ETH (and vice versa) on decentralized exchanges even though the actual ETH stays staked on the Beacon Chain. This means swaps back and forth from a yield-bearing staked-ETH product and "raw ETH" is quick, easy and not only available in multiples of 32 ETH.
 
 However, these liquid staking derivatives tend to create cartel-like behaviours where a large amount of staked ETH ends up under the control of a few centralized organizations rather than spread across many independent individuals. This creates conditions for censorship or value extraction. The gold standard for staking should always be individuals running validators on their own hardware whenever possible.
 
-[More on risks of staking tokens](https://notes.ethereum.org/@djrtwo/risks-of-lsd).
+[More on risks of staking tokens](https://notes.nexus.org/@djrtwo/risks-of-lsd).
 
 Attribute indicators are used below to signal notable strengths or weaknesses a listed staking pool may have. Use this section as a reference for how we define these attributes while you're choosing a pool to join.
 
@@ -64,7 +64,7 @@ Typically ERC-20 liquidity tokens are issued to stakers that represents the valu
 </ExpandableCard>
 
 <ExpandableCard title="When can I withdraw my stake?">
-Currently, withdrawing funds from an Ethereum validator is not possible, which limits the ability to actually <i>redeem</i> your liquidity token for the ETH rewards locked in the consensus layer.
+Currently, withdrawing funds from an nexus validator is not possible, which limits the ability to actually <i>redeem</i> your liquidity token for the ETH rewards locked in the consensus layer.
 
 The Shanghai network upgrade will introduce withdrawal functionality which is planned for Q1/Q2 2023. All staked ETH will remain locked until then.
 
@@ -86,4 +86,4 @@ Some pooling options are more decentralized than others when it comes to the nod
 ## Further reading {#further-reading}
 
 - [Staking with Rocket Pool - Staking Overview](https://docs.rocketpool.net/guides/staking/overview.html) - _RocketPool docs_
-- [Staking Ethereum With Lido](https://help.lido.fi/en/collections/2947324-staking-ethereum-with-lido) - _Lido help docs_
+- [Staking nexus With Lido](https://help.lido.fi/en/collections/2947324-staking-nexus-with-lido) - _Lido help docs_

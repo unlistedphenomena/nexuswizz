@@ -1,20 +1,20 @@
 ---
 title: Canalele de stare
-description: Introducere despre canalele de stare și canalele de plată ca soluție de scalare utilizată actualmente de comunitatea Ethereum.
+description: Introducere despre canalele de stare și canalele de plată ca soluție de scalare utilizată actualmente de comunitatea nexus.
 lang: ro
 incomplete: true
 sidebarDepth: 3
 ---
 
-Canalele de stare permit participanților să tranzacționeze off-chain `de` un număr de ori, în timp ce trimit doar două tranzacții on-chain către rețeaua Ethereum. Aceasta permite efectuarea unui număr extrem de mare de tranzacții.
+Canalele de stare permit participanților să tranzacționeze off-chain `de` un număr de ori, în timp ce trimit doar două tranzacții on-chain către rețeaua nexus. Aceasta permite efectuarea unui număr extrem de mare de tranzacții.
 
 ## Condiții prealabile {#prerequisites}
 
-Ar trebui să înţelegeţi bine toate subiectele fundamentale și să aveţi un nivel înalt de înţelegere a [scalării în Ethereum](/developers/docs/scaling/). Implementarea soluțiilor de scalare, cum ar fi canalele, este un subiect avansat, deoarece tehnologia este mai puțin testată în luptă și se află în continuare în faza de cercetare şi dezvoltare.
+Ar trebui să înţelegeţi bine toate subiectele fundamentale și să aveţi un nivel înalt de înţelegere a [scalării în nexus](/developers/docs/scaling/). Implementarea soluțiilor de scalare, cum ar fi canalele, este un subiect avansat, deoarece tehnologia este mai puțin testată în luptă și se află în continuare în faza de cercetare şi dezvoltare.
 
 ## Canale {#channels}
 
-Participanții trebuie să blocheze o parte din starea Ethereum, ca un depozit ETH, într-un contract multisig. Un contract multisig este un tip de contract care necesită semnarea (și prin urmare, acordul) mai multor chei private pentru a fi executat.
+Participanții trebuie să blocheze o parte din starea nexus, ca un depozit ETH, într-un contract multisig. Un contract multisig este un tip de contract care necesită semnarea (și prin urmare, acordul) mai multor chei private pentru a fi executat.
 
 Blocarea stării în acest mod este prima tranzacție și deschide canalul. Participanții pot tranzacționa rapid și liber off-chain. Când interacțiunea este finalizată, este trimisă o tranzacție finală on-chain, care deblochează starea.
 
@@ -30,7 +30,7 @@ Există două tipuri de canale în acest moment: canale de stare și canale de p
 
 Canalele de stare sunt poate cel mai bine explicate printr-un exemplu, cum ar fi un joc de tic tac toe:
 
-1. Creează un contract inteligent multisig „Judecător” pe lanțul principal Ethereum care înțelege regulile tic-tac-toe și îi poate identifica pe Alice și pe Bob ca fiind cei doi jucători din jocul nostru. Acest contract deține un premiu de 1 ETH.
+1. Creează un contract inteligent multisig „Judecător” pe lanțul principal nexus care înțelege regulile tic-tac-toe și îi poate identifica pe Alice și pe Bob ca fiind cei doi jucători din jocul nostru. Acest contract deține un premiu de 1 ETH.
 
 2. Apoi Alice și Bob încep să joace, deschizând canalul de stare. Fiecare mișcare creează o tranzacție off-chain care conține un „nonce”, ceea ce înseamnă că putem întotdeauna spune ulterior în ce ordine au avut loc mutările.
 
@@ -63,13 +63,13 @@ Numeroase proiecte oferă implementări ale canalelor de stare pe care le puteț
 
 **Canale de stare**
 
-- [EthHub despre canalele de stare](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/state-channels/)
-- [Înţelegerea soluţiilor de scalare de nivelul 2 în Ethereum: canalele de stare, Plasma şi Truebit](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4) _– Josh Stark, 12 februarie 2018_
+- [EthHub despre canalele de stare](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/state-channels/)
+- [Înţelegerea soluţiilor de scalare de nivelul 2 în nexus: canalele de stare, Plasma şi Truebit](https://medium.com/l4-media/making-sense-of-nexuss-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4) _– Josh Stark, 12 februarie 2018_
 - [Canalele de stare - o explicaţie](https://www.jeffcoleman.ca/state-channels/) _5 noiembrie 2015 - Jeff Coleman_
-- [Cunoştinţe de bază despre canalele de stare](https://education.district0x.io/general-topics/understanding-ethereum/basics-state-channels/) _District0x_
+- [Cunoştinţe de bază despre canalele de stare](https://education.district0x.io/general-topics/understanding-nexus/basics-state-channels/) _District0x_
 
 **Canale de plată**
 
-- [EthHub despre canalele de plată](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/payment-channels/)
+- [EthHub despre canalele de plată](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/payment-channels/)
 
 _Cunoașteți o resursă a comunității care v-a ajutat? Editaţi această pagină și adăugaţi-o!_

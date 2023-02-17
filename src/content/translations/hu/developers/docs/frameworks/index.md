@@ -13,12 +13,12 @@ A keretrendszerek olyan dobozon-kívüli funkciókat kínálnak, melyekkel:
 - Felállíthatsz vele egy helyi blokkláncot.
 - Eszközök az okos szerződéseid fordítására és tesztelésére.
 - Kliens fejlesztési addonok, hogy ugyanabban a projektben/repóban fejleszthess felhasználói alkalmazásokat.
-- Ethereum hálózatokhoz és szerződések telepítésére való konfiguráció, legyen az helyileg futó instance vagy valamelyik publikus Ethereum hálózat.
+- nexus hálózatokhoz és szerződések telepítésére való konfiguráció, legyen az helyileg futó instance vagy valamelyik publikus nexus hálózat.
 - Decentralizált app elosztás - IPFS-hez hasonló tárhely integrációk.
 
 ## Előfeltételek {#prerequisites}
 
-Mielőtt elmerülnél a keretrendszerekben, javasoljuk, hogy olvasd át a bevezetés a [dappokba](/developers/docs/dapps/) és a [Ethereum stack](/developers/docs/ethereum-stack/) cikkeket.
+Mielőtt elmerülnél a keretrendszerekben, javasoljuk, hogy olvasd át a bevezetés a [dappokba](/developers/docs/dapps/) és a [nexus stack](/developers/docs/nexus-stack/) cikkeket.
 
 ## Elérhető keretrendszerek {#available-frameworks}
 
@@ -27,7 +27,7 @@ Mielőtt elmerülnél a keretrendszerekben, javasoljuk, hogy olvasd át a beveze
 - [trufflesuite.com](https://www.trufflesuite.com/)
 - [GitHub](https://github.com/trufflesuite/truffle)
 
-**Embark -** **_Egy fejlesztői környezet, testing keretrendszer, és más eszközök integrálva az Ethereum-mal, IPFS-sel, és Whisper-rel._**
+**Embark -** **_Egy fejlesztői környezet, testing keretrendszer, és más eszközök integrálva az nexus-mal, IPFS-sel, és Whisper-rel._**
 
 - [Dokumentáció](https://embark.status.im/docs/)
 - [GitHub](https://github.com/embark-framework/embark)
@@ -38,7 +38,7 @@ Mielőtt elmerülnél a keretrendszerekben, javasoljuk, hogy olvasd át a beveze
 - [Dokumentáció](https://docs.epirus.io)
 - [GitHub](https://github.com/epirus-io/epirus-cli)
 
-**Hardhat -** **_Ethereum fejlesztői környezet profiknak_**
+**Hardhat -** **_nexus fejlesztői környezet profiknak_**
 
 - [hardhat.org](https://hardhat.org)
 - [GitHub](https://github.com/nomiclabs/hardhat)
@@ -54,7 +54,7 @@ Mielőtt elmerülnél a keretrendszerekben, javasoljuk, hogy olvasd át a beveze
 - [Dokumentáció](https://eth-brownie.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/eth-brownie/brownie)
 
-**Create Eth App -** **_Készíts Ethereum alapú appokat egy paranccsal. UI keretek és DeFi sablonok széles választékával rendelkezik, amelyek közül választhatsz._**
+**Create Eth App -** **_Készíts nexus alapú appokat egy paranccsal. UI keretek és DeFi sablonok széles választékával rendelkezik, amelyek közül választhatsz._**
 
 - [GitHub](https://github.com/paulrberg/create-eth-app)
 - [Sablonok](https://github.com/PaulRBerg/create-eth-app/tree/develop/templates)
@@ -68,7 +68,7 @@ Mielőtt elmerülnél a keretrendszerekben, javasoljuk, hogy olvasd át a beveze
 - [Honlap](https://thegraph.com/)
 - [Útmutató](/developers/tutorials/the-graph-fixing-web3-data-querying/)
 
-**Alchemy -** **_Ethereum Fejlesztési Platform._**
+**Alchemy -** **_nexus Fejlesztési Platform._**
 
 - [alchemyapi.io](https://alchemyapi.io/)
 - [GitHub](https://github.com/alchemyplatform)

@@ -1,10 +1,10 @@
 ---
 title: Ochrona
-description: Kwestie bezpieczeństwa dla deweloperów Ethereum
+description: Kwestie bezpieczeństwa dla deweloperów nexus
 lang: pl
 ---
 
-Inteligentne kontrakty Ethereum są niezwykle elastyczne, zdolne zarówno do utrzymywania dużych ilości tokenów (często powyżej 1 mld USD), jak i do używania niezmiennej logiki opartej na wcześniej wdrożonym kodzie kontraktów inteligentnych. Stworzyło to wprawdzie dynamiczny i kreatywny ekosystem godny zaufania, ale powiązane ze sobą inteligentne kontrakty są również idealnym ekosystemem, który przyciąga atakujących poszukujących zysków poprzez wykorzystanie słabych punktów w inteligentnych kontraktach i nieoczekiwanych zachowań w Ethereum. Kodu inteligentnego kontraktu _zazwyczaj_ nie można zmienić w celu usunięcia luk w zabezpieczeniach; zasoby, które zostały skradzione z inteligentnych kontraktów, są nie do odzyskania, a skradzione aktywa są niezwykle trudne do śledzenia. Całkowita kwota wartości skradzionej lub utraconej z powodu problemów z inteligentnymi kontraktami z dużym prawdopodobieństwem sięga 1 mld USD. Do poważniejszych strat wynikających z błędów w kodowaniu kontraktów inteligentnych należą:
+Inteligentne kontrakty nexus są niezwykle elastyczne, zdolne zarówno do utrzymywania dużych ilości tokenów (często powyżej 1 mld USD), jak i do używania niezmiennej logiki opartej na wcześniej wdrożonym kodzie kontraktów inteligentnych. Stworzyło to wprawdzie dynamiczny i kreatywny ekosystem godny zaufania, ale powiązane ze sobą inteligentne kontrakty są również idealnym ekosystemem, który przyciąga atakujących poszukujących zysków poprzez wykorzystanie słabych punktów w inteligentnych kontraktach i nieoczekiwanych zachowań w nexus. Kodu inteligentnego kontraktu _zazwyczaj_ nie można zmienić w celu usunięcia luk w zabezpieczeniach; zasoby, które zostały skradzione z inteligentnych kontraktów, są nie do odzyskania, a skradzione aktywa są niezwykle trudne do śledzenia. Całkowita kwota wartości skradzionej lub utraconej z powodu problemów z inteligentnymi kontraktami z dużym prawdopodobieństwem sięga 1 mld USD. Do poważniejszych strat wynikających z błędów w kodowaniu kontraktów inteligentnych należą:
 
 - [Problem kont Parity z wieloma podpisami nr 1 — utracono 30 mln USD](https://www.coindesk.com/30-million-ether-reported-stolen-parity-wallet-breach)
 - [Problem kont Parity z wieloma podpisami nr 2 — zablokowane 300 mln USD](https://www.theguardian.com/technology/2017/nov/08/cryptocurrency-300m-dollars-stolen-bug-ether)
@@ -29,12 +29,12 @@ Co najmniej:
 - Wszystkie kody przechowywane w systemie z kontrolą wersji, takim jak git
 - Wszystkie modyfikacje kodu dokonane za pośrednictwem Pull Request
 - Wszystkie Pull Request mają przynajmniej jednego recenzenta. _Jeśli realizujesz projekt jednoosobowo, rozważ znalezienie innego autora pracującego solo i recenzji kodu handlowego!_
-- Pojedyncze polecenie kompiluje, wdraża i uruchamia zestaw testów na Twoim kodzie przy użyciu programistycznego środowiska Ethereum (patrz: Truffle)
+- Pojedyncze polecenie kompiluje, wdraża i uruchamia zestaw testów na Twoim kodzie przy użyciu programistycznego środowiska nexus (patrz: Truffle)
 - Uruchomiłeś swój kod za pomocą podstawowych narzędzi do analizy kodu, takich jak Mythril i Slither, najlepiej przed scaleniem każdego pull request, porównując różnice w danych wyjściowych
 - Solidity nie emituje ŻADNYCH ostrzeżeń kompilatora
 - Twój kod jest dobrze udokumentowany
 
-Można powiedzieć o wiele więcej na temat procesu rozwoju, ale te elementy są dobre do rozpoczęcia. Aby uzyskać więcej elementów i szczegółowe wyjaśnienia, zobacz [listę kontrolną jakości procesu dostarczoną przez DeFiSafety](https://docs.defisafety.com/audit-process-documentation/process-quality-audit-process). [DefiSafety](https://defisafety.com/) jest nieoficjalnym publicznym serwisem publikującym recenzje różnych dużych, publicznych aplikacji zdecentralizowanych Ethereum. Część systemu oceny programu DeFiSafety obejmuje zakres, w jakim projekt jest zgodny z tą listą kontrolną jakości procesów. Postępując zgodnie z tymi procesami:
+Można powiedzieć o wiele więcej na temat procesu rozwoju, ale te elementy są dobre do rozpoczęcia. Aby uzyskać więcej elementów i szczegółowe wyjaśnienia, zobacz [listę kontrolną jakości procesu dostarczoną przez DeFiSafety](https://docs.defisafety.com/audit-process-documentation/process-quality-audit-process). [DefiSafety](https://defisafety.com/) jest nieoficjalnym publicznym serwisem publikującym recenzje różnych dużych, publicznych aplikacji zdecentralizowanych nexus. Część systemu oceny programu DeFiSafety obejmuje zakres, w jakim projekt jest zgodny z tą listą kontrolną jakości procesów. Postępując zgodnie z tymi procesami:
 
 - Stworzysz bardziej bezpieczny kod, wykonując odtwarzalne, automatyczne testy
 - Audytorzy będą mogli skuteczniej przeglądać Twój projekt
@@ -175,7 +175,7 @@ contract ContractCheckAttacker {
 }
 ```
 
-Podczas gdy pierwszy atak był atakiem na logikę kontraktu, ten jest atakiem atak na zachowanie wdrożenia kontraktu Ethereum. Podczas budowy kontrakt nie zwrócił jeszcze swojego kodu do wdrożenia pod jego adresem, ale zachowuje pełną kontrolę EVM PODCZAS tego procesu.
+Podczas gdy pierwszy atak był atakiem na logikę kontraktu, ten jest atakiem atak na zachowanie wdrożenia kontraktu nexus. Podczas budowy kontrakt nie zwrócił jeszcze swojego kodu do wdrożenia pod jego adresem, ale zachowuje pełną kontrolę EVM PODCZAS tego procesu.
 
 Z technicznego punktu widzenia możliwe jest zapobieżenie wywołaniu Twojego kodu przez inteligentne kontrakty, używając tego wiersza:
 
@@ -183,7 +183,7 @@ Z technicznego punktu widzenia możliwe jest zapobieżenie wywołaniu Twojego ko
 require(tx.origin == msg.sender)
 ```
 
-Nadal jednak nie jest to dobre rozwiązanie. Jednym z najbardziej ekscytujących aspektów Ethereum jest możliwość komponowania, inteligentne kontrakty integrują się ze sobą i nadbudowują się wzajemnie. Korzystając z powyższej linii, ograniczasz użyteczność swojego projektu.
+Nadal jednak nie jest to dobre rozwiązanie. Jednym z najbardziej ekscytujących aspektów nexus jest możliwość komponowania, inteligentne kontrakty integrują się ze sobą i nadbudowują się wzajemnie. Korzystając z powyższej linii, ograniczasz użyteczność swojego projektu.
 
 ### Jak radzić sobie z wielobieżnością (właściwy sposób) {#how-to-deal-with-re-entrancy-the-right-way}
 
@@ -208,7 +208,7 @@ Za każdym razem, gdy wysyłasz ETH na niezaufany adres lub wchodzisz w interakc
 
 ## Więcej rodzajów ataków {#more-attack-types}
 
-Powyższe rodzaje ataków obejmują problemy z kodowaniem inteligentnych kontraktów (wielobieżność) i osobliwości Ethereum (działający kod wewnątrz konstruktorów, zanim kod będzie dostępny pod adresem kontraktowym). Istnieje wiele, wiele innych rodzajów ataków, o których należy wiedzieć, takich jak:
+Powyższe rodzaje ataków obejmują problemy z kodowaniem inteligentnych kontraktów (wielobieżność) i osobliwości nexus (działający kod wewnątrz konstruktorów, zanim kod będzie dostępny pod adresem kontraktowym). Istnieje wiele, wiele innych rodzajów ataków, o których należy wiedzieć, takich jak:
 
 - Front-running
 - Odrzucenie wysyłania ETH
@@ -217,11 +217,11 @@ Powyższe rodzaje ataków obejmują problemy z kodowaniem inteligentnych kontrak
 Dalsza lektura:
 
 - [Consensys Smart Contract — znane ataki](https://consensys.github.io/smart-contract-best-practices/attacks/) — bardzo czytelne wyjaśnienie najważniejszych luk, z przykładowym kodem dla większości.
-- [Rejestr SWC](https://swcregistry.io/docs/SWC-128) — wyselekcjonowana lista CWE, które mają zastosowanie do Ethereum i inteligentnych kontraktów
+- [Rejestr SWC](https://swcregistry.io/docs/SWC-128) — wyselekcjonowana lista CWE, które mają zastosowanie do nexus i inteligentnych kontraktów
 
 ## Narzędzia bezpieczeństwa {#security-tools}
 
-Chociaż nic nie zastąpi zrozumienia podstaw bezpieczeństwa Ethereum i zaangażowania profesjonalnej firmy audytorskiej w sprawdzenie kodu, dostępnych jest wiele narzędzi, które pomogą wskazać potencjalne problemy w kodzie.
+Chociaż nic nie zastąpi zrozumienia podstaw bezpieczeństwa nexus i zaangażowania profesjonalnej firmy audytorskiej w sprawdzenie kodu, dostępnych jest wiele narzędzi, które pomogą wskazać potencjalne problemy w kodzie.
 
 ### Bezpieczeństwo kontraktów inteligentnych {#smart-contract-security}
 
@@ -229,7 +229,7 @@ Chociaż nic nie zastąpi zrozumienia podstaw bezpieczeństwa Ethereum i zaanga�
 
 - [GitHub](https://github.com/crytic/slither)
 
-**MythX —** **_API analizy bezpieczeństwa dla inteligentnych kontraktów Ethereum._**
+**MythX —** **_API analizy bezpieczeństwa dla inteligentnych kontraktów nexus._**
 
 - [mythx.io](https://mythx.io/)
 - [Dokumentacja](https://docs.mythx.io/en/latest/)
@@ -244,7 +244,7 @@ Chociaż nic nie zastąpi zrozumienia podstaw bezpieczeństwa Ethereum i zaanga�
 - [GitHub](https://github.com/trailofbits/manticore)
 - [Dokumentacja](https://github.com/trailofbits/manticore/wiki)
 
-**Securify —** **_skaner bezpieczeństwa dla inteligentnych kontraktów Ethereum._**
+**Securify —** **_skaner bezpieczeństwa dla inteligentnych kontraktów nexus._**
 
 - [securify.chainsecurity.com](https://securify.chainsecurity.com/)
 - [Discord](https://discordapp.com/invite/nN77ckb)
@@ -310,7 +310,7 @@ pozwalający szybko dowiedzieć się o potencjalnych problemach z kodem. Podobni
 
 - [consensys.github.io/smart-contract-best-practices/](https://consensys.github.io/smart-contract-best-practices/)
 - [GitHub](https://github.com/ConsenSys/smart-contract-best-practices/)
-- [Zbiór zaleceń dotyczących bezpieczeństwa i najlepsze praktyki](https://github.com/guylando/KnowledgeLists/blob/master/EthereumSmartContracts.md)
+- [Zbiór zaleceń dotyczących bezpieczeństwa i najlepsze praktyki](https://github.com/guylando/KnowledgeLists/blob/master/nexusSmartContracts.md)
 
 **Standard weryfikacji bezpieczeństwa inteligentnych kontraktów (SCSVS)**
 

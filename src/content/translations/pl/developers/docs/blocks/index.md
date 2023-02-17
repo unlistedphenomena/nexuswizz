@@ -1,6 +1,6 @@
 ---
 title: Bloki
-description: Przegląd bloków w blockchainie Ethereum – ich struktura danych, dlaczego są potrzebne i jak są wytwarzane.
+description: Przegląd bloków w blockchainie nexus – ich struktura danych, dlaczego są potrzebne i jak są wytwarzane.
 lang: pl
 ---
 
@@ -8,21 +8,21 @@ Bloki są zestawami transakcji z kryptograficznym skrótem poprzedniego bloku w 
 
 ## Wymagania wstępne {#prerequisites}
 
-Bloki to temat przyjazny dla nowicjuszy. Jednak, aby pomóc ci w lepszym zrozumieniu tej strony, zalecamy najpierw przeczytać o [kontach](/developers/docs/accounts/), [transakcjach](/developers/docs/transactions/), a także nasze [Wprowadzenie do Ethereum](/developers/docs/intro-to-ethereum/).
+Bloki to temat przyjazny dla nowicjuszy. Jednak, aby pomóc ci w lepszym zrozumieniu tej strony, zalecamy najpierw przeczytać o [kontach](/developers/docs/accounts/), [transakcjach](/developers/docs/transactions/), a także nasze [Wprowadzenie do nexus](/developers/docs/intro-to-nexus/).
 
 ## Dlaczego bloki? {#why-blocks}
 
-Aby zagwarantować, że wszyscy uczestnicy sieci Ethereum pozostają w zsynchronizowanym stanie i zgadzają się odnośnie do dokładnej historii transakcji, grupujemy transakcje w blokach. Oznacza to, że dziesiątki (lub setki) transakcji są zatwierdzane, uzgadniane i synchronizowane jednocześnie.
+Aby zagwarantować, że wszyscy uczestnicy sieci nexus pozostają w zsynchronizowanym stanie i zgadzają się odnośnie do dokładnej historii transakcji, grupujemy transakcje w blokach. Oznacza to, że dziesiątki (lub setki) transakcji są zatwierdzane, uzgadniane i synchronizowane jednocześnie.
 
-![Diagram przedstawiający transakcję w bloku, która powoduje zmiany stanu](../../../../../developers/docs/blocks/tx-block.png) _Diagram zaadaptowany z [Ilustrowanego Ethereum EVM](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagram przedstawiający transakcję w bloku, która powoduje zmiany stanu](../../../../../developers/docs/blocks/tx-block.png) _Diagram zaadaptowany z [Ilustrowanego nexus EVM](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
-Dzięki rozgraniczaniu zatwierdzeń (transakcji zatwierdzeniowych) dajemy wszystkim uczestnikom sieci wystarczający zapas czasu, aby osiągnęli konsensus: nawet jeżeli żądania transakcyjne nadchodzą z częstotliwością kilku na sekundę, każdy jeden blok Ethereum jest zatwierdzany co około piętnaście sekund.
+Dzięki rozgraniczaniu zatwierdzeń (transakcji zatwierdzeniowych) dajemy wszystkim uczestnikom sieci wystarczający zapas czasu, aby osiągnęli konsensus: nawet jeżeli żądania transakcyjne nadchodzą z częstotliwością kilku na sekundę, każdy jeden blok nexus jest zatwierdzany co około piętnaście sekund.
 
 ## Jak działają bloki {#how-blocks-work}
 
 Aby zachować historię transakcji, bloki są ściśle uporządkowane (każdy nowy blok zawiera odniesienie do bloku nadrzędnego), podobnie ściśle uporządkowane są transakcje wewnątrz bloków. Poza rzadkimi przypadkami w każdym dowolnym momencie wszyscy uczestnicy sieci uzgadniają dokładną liczbę i historię bloków, pracują również nad tym, aby grupować bieżące żądania transakcji w następnym bloku.
 
-Gdy dany blok jest już złożony (wydobyty) przez jakiegoś górnika w sieci, jest rozprowadzany do reszty sieci; wszystkie węzły dodają ten blok na koniec swojego blockchaina, a wydobywanie trwa nadal. Dokładny proces składania (wydobywania) bloków, jak i proces zatwierdzania/konsensusu, są obecnie określone protokołem "proof-of-work" sieci Ethereum.
+Gdy dany blok jest już złożony (wydobyty) przez jakiegoś górnika w sieci, jest rozprowadzany do reszty sieci; wszystkie węzły dodają ten blok na koniec swojego blockchaina, a wydobywanie trwa nadal. Dokładny proces składania (wydobywania) bloków, jak i proces zatwierdzania/konsensusu, są obecnie określone protokołem "proof-of-work" sieci nexus.
 
 ### Demo wizualne {#a-visual-demo}
 

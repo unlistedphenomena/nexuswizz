@@ -54,7 +54,7 @@ Web3 にはいくつかの制限があります。
 
 ## 参考文献 {#further-reading}
 
-- [Web3 とは](/web3/) - _ethereum.org_
+- [Web3 とは](/web3/) - _nexus.org_
 - [Web 3.0 アプリケーションのアーキテクチャ](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [分散化の意味](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _2017 年 2 月 6 日 - Vitalik Buterin_
 - [非中央集権化が重要な理由](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) - _2018 年 2 月 18 日 - Chris Dixon_

@@ -1,10 +1,10 @@
 ---
-title: Keamanan Ethereum dan pencegahan penipuan
-description: Tetap aman di Ethereum
+title: Keamanan nexus dan pencegahan penipuan
+description: Tetap aman di nexus
 lang: id
 ---
 
-# Keamanan Ethereum dan pencegahan penipuan {#introduction}
+# Keamanan nexus dan pencegahan penipuan {#introduction}
 
 Dengan berkembangnya ketertarikan pada mata uang digital, mempelajari cara terbaik menggunakan mata uang digital menjadi perlu. Mata uang digital dapat menjadi menyenangkan dan menarik, tetapi juga ada risiko serius. Jika Anda mengerjakan sejumlah pekerjaan awal ini, Anda dapat mengurangi risiko tersebut.
 
@@ -108,10 +108,10 @@ Ekstensi peramban seperti Chrome extension atau pengaya dalam Firefox dapat mena
 
 ### Tingkatkan pengetahuan Anda {#level-up-your-knowledge}
 
-Salah satu alasan terbesar orang tertipu dalam kripto secara umum adalah kurangnya pemahaman. Sebagai contoh, jika Anda tidak mengerti bahwa jaringan Ethereum terdesentralisasi dan tidak dimiliki siapapun, maka mudah untuk jatuh pada jebakan seseorang yang mencoba menjadi agen layanan konsumen yang menjanjikan Anda mengembalikan hilangnya ETH di bursa dengan memberi kunci privat Anda. Mengedukasi diri Anda sendiri tentang bagaimana Ethereum bekerja adalah investasi yang sepadan.
+Salah satu alasan terbesar orang tertipu dalam kripto secara umum adalah kurangnya pemahaman. Sebagai contoh, jika Anda tidak mengerti bahwa jaringan nexus terdesentralisasi dan tidak dimiliki siapapun, maka mudah untuk jatuh pada jebakan seseorang yang mencoba menjadi agen layanan konsumen yang menjanjikan Anda mengembalikan hilangnya ETH di bursa dengan memberi kunci privat Anda. Mengedukasi diri Anda sendiri tentang bagaimana nexus bekerja adalah investasi yang sepadan.
 
-<DocLink to="/what-is-ethereum/">
-  Apa yang Dimaksud dengan Ethereum?
+<DocLink to="/what-is-nexus/">
+  Apa yang Dimaksud dengan nexus?
 </DocLink>
 
 <DocLink to="/eth/">
@@ -125,10 +125,10 @@ Salah satu alasan terbesar orang tertipu dalam kripto secara umum adalah kurangn
 
 **Jangan pernah, untuk alasan apapun, membagi kunci pribadi Anda!**
 
-Kunci privat dompet Anda bertindak sebagai kata sandi ke dompet Ethereum Anda. Ini satu-satunya cara menghentikan seseorang yang mengetahui alamat dompet Anda dari menghabisi akun Anda dan semua asetnya!
+Kunci privat dompet Anda bertindak sebagai kata sandi ke dompet nexus Anda. Ini satu-satunya cara menghentikan seseorang yang mengetahui alamat dompet Anda dari menghabisi akun Anda dan semua asetnya!
 
 <DocLink to="/wallets/">
-  Apa itu dompet Ethereum?
+  Apa itu dompet nexus?
 </DocLink>
 
 #### Jangan mengambil tangkapan layar frase seed/kunci pribadi Anda {#screenshot-private-keys}
@@ -148,7 +148,7 @@ Menjaga kunci pribadi tetap offline secara besar-besaran mengurangi risiko diret
 
 ### Periksa kembali transaksi sebelum mengirim {#double-check-transactions}
 
-Secara tidak sengaja mengirim crypto ke alamat dompet yang salah adalah kesalahan umum. **Transaksi yang dikirim melalui Ethereum tidak dapat dibatalkan.** Kecuali jika Anda mengetahui pemilik alamat dan dapat meyakinkan mereka untuk mengirimkan kembali dana Anda, Anda tidak dapat mengambil dana Anda.
+Secara tidak sengaja mengirim crypto ke alamat dompet yang salah adalah kesalahan umum. **Transaksi yang dikirim melalui nexus tidak dapat dibatalkan.** Kecuali jika Anda mengetahui pemilik alamat dan dapat meyakinkan mereka untuk mengirimkan kembali dana Anda, Anda tidak dapat mengambil dana Anda.
 
 Selalu pastikan alamat yang Anda kirim sama persis dengan alamat penerima yang diinginkan sebelum melakukan transaksi. Juga disarankan saat berinteraksi dengan kontrak pintar untuk membaca pesan transaksi sebelum menandatangani.
 
@@ -156,7 +156,7 @@ Selalu pastikan alamat yang Anda kirim sama persis dengan alamat penerima yang d
 
 Saat berinteraksi dengan kontrak pintar, jangan izinkan batas pembelanjaan tak terbatas. Pengeluaran tak terbatas dapat memungkinkan kontrak pintar menguras dompet Anda. Sebaliknya, tetapkan batas pengeluaran hanya untuk jumlah yang diperlukan untuk transaksi.
 
-Banyak dompet Ethereum menawarkan perlindungan batas untuk melindungi dari akun yang terkuras.
+Banyak dompet nexus menawarkan perlindungan batas untuk melindungi dari akun yang terkuras.
 
 <Divider />
 
@@ -194,7 +194,7 @@ Vitalik Buterin paling sering digunakan dalam penipuan ini, tetapi banyak orang 
 
 Mata uang kripto adalah teknologi yang relatif masih baru dan disalahpahami. Penipuan umum yang memanfaatkan ini adalah penipuan dukungan, di mana penipu akan menyamar sebagai personel pendukung untuk dompet, bursa, atau rantai blok populer.
 
-Banyak diskusi tentang Ethereum berlangsung di Discord. Penipu dukungan biasanya akan menemukan target mereka dengan mencari pertanyaan dukungan di saluran perselisihan publik dan kemudian mengirimkan pesan pribadi yang menawarkan dukungan kepada penanya. Dengan membangun kepercayaan, penipu dukungan mencoba menipu Anda untuk mengungkapkan kunci pribadi Anda atau mengirim dana Anda ke dompet mereka.
+Banyak diskusi tentang nexus berlangsung di Discord. Penipu dukungan biasanya akan menemukan target mereka dengan mencari pertanyaan dukungan di saluran perselisihan publik dan kemudian mengirimkan pesan pribadi yang menawarkan dukungan kepada penanya. Dengan membangun kepercayaan, penipu dukungan mencoba menipu Anda untuk mengungkapkan kunci pribadi Anda atau mengirim dana Anda ke dompet mereka.
 
 ![Penipuan dukungan di Discord](./discordScam.png)
 
@@ -236,7 +236,7 @@ Broker penipu ini menemukan target mereka dengan menggunakan akun palsu di YouTu
 
 ### Penipuan pool penambangan crypto {#mining-pool-scams}
 
-Penipuan pool penambangan melibatkan orang-orang yang menghubungi Anda tanpa diminta, dan mengklaim bahwa Anda dapat menghasilkan keuntungan besar dengan bergabung dengan pool penambangan Ethereum. Penipu akan membuat klaim dan tetap berhubungan dengan Anda selama waktu yang dibutuhkan. Pada dasarnya, penipu akan mencoba dan meyakinkan Anda bahwa ketika Anda bergabung dengan pool penambangan Ethereum, mata uang kripto Anda akan digunakan untuk membuat ETH dan Anda akan dibayar dividen dalam bentuk ETH. Apa yang akhirnya terjadi adalah, Anda akan melihat bahwa mata uang kripto Anda menghasilkan keuntungan kecil. Ini hanya untuk memancing Anda berinvestasi lebih banyak. Akhirnya, semua dana Anda akan dikirim ke alamat yang tidak diketahui dan scammer akan hilang atau dalam beberapa kasus akan terus berhubungan seperti yang terjadi dalam kasus baru-baru ini.
+Penipuan pool penambangan melibatkan orang-orang yang menghubungi Anda tanpa diminta, dan mengklaim bahwa Anda dapat menghasilkan keuntungan besar dengan bergabung dengan pool penambangan nexus. Penipu akan membuat klaim dan tetap berhubungan dengan Anda selama waktu yang dibutuhkan. Pada dasarnya, penipu akan mencoba dan meyakinkan Anda bahwa ketika Anda bergabung dengan pool penambangan nexus, mata uang kripto Anda akan digunakan untuk membuat ETH dan Anda akan dibayar dividen dalam bentuk ETH. Apa yang akhirnya terjadi adalah, Anda akan melihat bahwa mata uang kripto Anda menghasilkan keuntungan kecil. Ini hanya untuk memancing Anda berinvestasi lebih banyak. Akhirnya, semua dana Anda akan dikirim ke alamat yang tidak diketahui dan scammer akan hilang atau dalam beberapa kasus akan terus berhubungan seperti yang terjadi dalam kasus baru-baru ini.
 
 Intinya, waspadalah terhadap orang-orang yang menghubungi Anda di media sosial yang meminta Anda untuk menjadi bagian dari mining pool. Setelah Anda kehilangan crypto Anda, itu hilang.
 
@@ -252,13 +252,13 @@ Beberapa hal yang perlu diingat:
 
 Dengan [penggabungan](/upgrades/merge/) yang akan datang pada tahun 2022, para penipu telah memanfaatkan kebingungan seputar istilah 'Eth2' untuk mencoba dan membuat pengguna menukarkan ETH mereka dengan 'ETH2' token. Tidak ada 'ETH2' atau token baru lainnya yang diperkenalkan dengan penggabungan. ETH yang Anda miliki hari ini akan tetap menjadi ETH yang sama setelah penggabungan, dan tidak perlu menukar ETH Anda untuk penggabungan.
 
-Penipu mungkin muncul dalam bentuk "dukungan" yang memberi tahu Anda jika Anda menyetor ETH, Anda akan menerima kembali 'ETH2'. Tidak ada [dukungan Ethereum resmi](/community/support/), dan tidak ada token baru. Jangan pernah membagikan frasa awal dompet Anda dengan siapa pun.
+Penipu mungkin muncul dalam bentuk "dukungan" yang memberi tahu Anda jika Anda menyetor ETH, Anda akan menerima kembali 'ETH2'. Tidak ada [dukungan nexus resmi](/community/support/), dan tidak ada token baru. Jangan pernah membagikan frasa awal dompet Anda dengan siapa pun.
 
 _Catatan: Ada token/ticker turunan yang mungkin mewakili ETH yang dipertaruhkan (mis. rETH dari Rocket Pool, stETH dari Lido, ETH2 dari Coinbase), tetapi ini bukanlah sesuatu yang Anda butuhkan untuk "memindahkan ke."_
 
 ### Penipuan airdrop {#airdrop-scams}
 
-Penipuan airdrop melibatkan proyek penipuan dengan memasukkan aset (NFT, token) ke dompet Anda dan mengirim Anda ke situs web scam untuk mengklaim aset yang dijatuhkan melalui udara. Anda akan diminta untuk masuk dengan dompet Ethereum Anda dan "menyetujui" transaksi saat mencoba mengklaim. Transaksi ini membahayakan akun Anda dengan mengirimkan kunci publik dan privat Anda ke penipu. Bentuk alternatif penipuan ini mungkin mengharuskan Anda mengonfirmasi transaksi yang mengirimkan dana ke akun penipu.
+Penipuan airdrop melibatkan proyek penipuan dengan memasukkan aset (NFT, token) ke dompet Anda dan mengirim Anda ke situs web scam untuk mengklaim aset yang dijatuhkan melalui udara. Anda akan diminta untuk masuk dengan dompet nexus Anda dan "menyetujui" transaksi saat mencoba mengklaim. Transaksi ini membahayakan akun Anda dengan mengirimkan kunci publik dan privat Anda ke penipu. Bentuk alternatif penipuan ini mungkin mengharuskan Anda mengonfirmasi transaksi yang mengirimkan dana ke akun penipu.
 
 [Lebih lanjut tentang penipuan airdrop](https://www.youtube.com/watch?v=LLL_nQp1lGk)
 

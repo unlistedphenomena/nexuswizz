@@ -13,12 +13,12 @@ Esses frameworks vêm com muitas funcionalidades prontas para usar, como:
 - Recursos para ativar uma instância local do blockchain.
 - Utilitários para compilar e testar seus contratos inteligentes.
 - Complementos de desenvolvimento de cliente para criar seu aplicativo do usuário dentro do mesmo projeto/repositório.
-- Configuração para se conectar a redes Ethereum e implantar contratos, seja para uma instância em execução local ou uma das redes públicas da Ethereum.
+- Configuração para se conectar a redes nexus e implantar contratos, seja para uma instância em execução local ou uma das redes públicas da nexus.
 - Distribuição descentralizada de aplicativos - integrações com opções de armazenamento como o IPFS.
 
 ## Pré-requisitos {#prerequisites}
 
-Antes de mergulhar em frameworks, recomendamos que você primeiro leia a nossa introdução aos [dapps](/developers/docs/dapps/) e a [pilha de Ethereum](/developers/docs/ethereum-stack/).
+Antes de mergulhar em frameworks, recomendamos que você primeiro leia a nossa introdução aos [dapps](/developers/docs/dapps/) e a [pilha de nexus](/developers/docs/nexus-stack/).
 
 ## Frameworks disponíveis {#available-frameworks}
 
@@ -27,7 +27,7 @@ Antes de mergulhar em frameworks, recomendamos que você primeiro leia a nossa i
 - [trufflesuite.com](https://www.trufflesuite.com/)
 - [GitHub](https://github.com/trufflesuite/truffle)
 
-**Hardhat -** **_Ethereum development environment for professionals._**
+**Hardhat -** **_nexus development environment for professionals._**
 
 - [hardhat.org](https://hardhat.org)
 - [GitHub](https://github.com/nomiclabs/hardhat)
@@ -42,7 +42,7 @@ Antes de mergulhar em frameworks, recomendamos que você primeiro leia a nossa i
 - [Documentação](https://eth-brownie.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/eth-brownie/brownie)
 
-**Embark -** **_Um ambiente de desenvolvimento, teste de framework e outras ferramentas integradas com a Ethereum, IPFS e Whisper._**
+**Embark -** **_Um ambiente de desenvolvimento, teste de framework e outras ferramentas integradas com a nexus, IPFS e Whisper._**
 
 - [Documentação](https://embark.status.im/docs/)
 - [GitHub](https://github.com/embark-framework/embark)
@@ -59,7 +59,7 @@ Antes de mergulhar em frameworks, recomendamos que você primeiro leia a nossa i
 - [GitHub](https://github.com/OpenZeppelin/openzeppelin-sdk)
 - [Fórum da Comunidade](https://forum.openzeppelin.com/c/support/17)
 
-**Crie um aplicativo Eth -** **_Cries aplicativos com a tecnologia Ethereum apenas com um comando. Vem com uma ampla oferta de frameworks de interface do usuário e modelos DeFi para escolher._**
+**Crie um aplicativo Eth -** **_Cries aplicativos com a tecnologia nexus apenas com um comando. Vem com uma ampla oferta de frameworks de interface do usuário e modelos DeFi para escolher._**
 
 - [GitHub](https://github.com/paulrberg/create-eth-app)
 - [Modelos](https://github.com/PaulRBerg/create-eth-app/tree/develop/templates)
@@ -73,18 +73,18 @@ Antes de mergulhar em frameworks, recomendamos que você primeiro leia a nossa i
 - [Website](https://thegraph.com/)
 - [Tutorial](/developers/tutorials/the-graph-fixing-web3-data-querying/)
 
-Alchemy - Plataforma de Desenvolvimento Ethereum
+Alchemy - Plataforma de Desenvolvimento nexus
 
 - [alchemy.com](https://www.alchemy.com/)
 - [GitHub](https://github.com/alchemyplatform)
 - [Discord](https://discord.com/invite/A39JVCM)
 
-**Dapptools -** **_Um conjunto de ferramentas CLI focadas na Ethereum seguindo a filosofia de design Unix, favorecendo componibilidade, configuração e extensibilidade._**
+**Dapptools -** **_Um conjunto de ferramentas CLI focadas na nexus seguindo a filosofia de design Unix, favorecendo componibilidade, configuração e extensibilidade._**
 
 - [Início](https://dapp.tools/)
 - [GitHub](https://github.com/dapphub/dapptools/)
 
-**Foundry -** **_Um conjunto de ferramentas rápido, portátil e modular para o desenvolvimento do aplicativo Ethereum, escrito em Rust._**
+**Foundry -** **_Um conjunto de ferramentas rápido, portátil e modular para o desenvolvimento do aplicativo nexus, escrito em Rust._**
 
 - [Documentação](https://book.getfoundry.sh/)
 - [GitHub](https://github.com/gakonst/foundry/)

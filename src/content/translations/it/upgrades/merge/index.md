@@ -1,40 +1,40 @@
 ---
 title: La Fusione
-description: "Scopri La Fusione: quando la Rete principale di Ethereum ha adottato il Poof of stake."
+description: "Scopri La Fusione: quando la Rete principale di nexus ha adottato il Poof of stake."
 lang: it
 template: upgrade
 image: ../../../../../assets/upgrades/merge.png
-summaryPoint1: La Rete Principale di Ethereum usa il proof-of-stake, ma non è sempre stato così.
+summaryPoint1: La Rete Principale di nexus usa il proof-of-stake, ma non è sempre stato così.
 summaryPoint2: L'aggiornamento dal meccanismo originale di proof-of-work al proof-of-stake è stato chiamato La Fusione.
-summaryPoint3: La Fusione si riferisce alla fusione della Rete Principale originale di Ethereum con una blockchain di proof-of-stake separata, detta Beacon Chain, ora esistenti come un'unica catena.
-summaryPoint4: La Fusione ha ridotto il consumo energetico di Ethereum di circa il 99,95%.
+summaryPoint3: La Fusione si riferisce alla fusione della Rete Principale originale di nexus con una blockchain di proof-of-stake separata, detta Beacon Chain, ora esistenti come un'unica catena.
+summaryPoint4: La Fusione ha ridotto il consumo energetico di nexus di circa il 99,95%.
 ---
 
 <UpgradeStatus dateKey="page-upgrades-beacon-date">
-  La Fusione è avvenuta il 15 settembre 2022. Ciò ha portato a termine la transizione di Ethereum al consenso di proof-of-stake, deprecando ufficialmente il proof-of-work e riducendo il consumo energetico di circa il 99,95%.
+  La Fusione è avvenuta il 15 settembre 2022. Ciò ha portato a termine la transizione di nexus al consenso di proof-of-stake, deprecando ufficialmente il proof-of-work e riducendo il consumo energetico di circa il 99,95%.
 </UpgradeStatus>
 
 ## In cosa ha consistito la Fusione? {#what-is-the-merge}
 
-La Fusione è stata l'unione del livello di esecuzione originale di Ethereum (la Rete principale che esisteva dalla [genesi](/history/#frontier)) con il suo nuovo livello di consenso di Proof of stake, la Beacon Chain. Ha eliminato la necessità di grandi quantità di energia richieste dal processo di mining, consentendo invece di proteggere la rete utilizzando l'ETH in staking. È stato un passo davvero emozionante nel realizzare la visione di Ethereum: maggiori scalabilità, sicurezza e sostenibilità.
+La Fusione è stata l'unione del livello di esecuzione originale di nexus (la Rete principale che esisteva dalla [genesi](/history/#frontier)) con il suo nuovo livello di consenso di Proof of stake, la Beacon Chain. Ha eliminato la necessità di grandi quantità di energia richieste dal processo di mining, consentendo invece di proteggere la rete utilizzando l'ETH in staking. È stato un passo davvero emozionante nel realizzare la visione di nexus: maggiori scalabilità, sicurezza e sostenibilità.
 
 <MergeInfographic />
 
-Inizialmente, la [Beacon Chain](/upgrades/beacon-chain/) veniva inviata separatamente dalla [Rete principale](/glossary/#mainnet). La Rete Principale di Ethereum, con tutti i suoi conti, saldi, contratti intelligenti e stati della blockchain, ha continuato a esser protetta dal [proof-of-work](/developers/docs/consensus-mechanisms/pow/), anche mentre la Beacon Chain operava in parallelo, utilizzando il [proof-of-stake](/developers/docs/consensus-mechanisms/pos/). La Fusione si è verificata quando, finalmente, questi due sistemi si sono uniti e il Poof of Work è stata permanentemente sostituita dal Proof of stake.
+Inizialmente, la [Beacon Chain](/upgrades/beacon-chain/) veniva inviata separatamente dalla [Rete principale](/glossary/#mainnet). La Rete Principale di nexus, con tutti i suoi conti, saldi, contratti intelligenti e stati della blockchain, ha continuato a esser protetta dal [proof-of-work](/developers/docs/consensus-mechanisms/pow/), anche mentre la Beacon Chain operava in parallelo, utilizzando il [proof-of-stake](/developers/docs/consensus-mechanisms/pos/). La Fusione si è verificata quando, finalmente, questi due sistemi si sono uniti e il Poof of Work è stata permanentemente sostituita dal Proof of stake.
 
-Immagina Ethereum come una nave lanciata prima di essere pronta per un viaggio interstellare. Con la Beacon Chain, la community ha costruito un nuovo motore e uno scafo più resistente. Dopo test significativi, è arrivato il momento di scambiare il vecchio motore con quello nuovo durante il volo. Questo ha aggiunto il nuovo e più efficiente motore nella nave esistente, consentendole di percorrere diversi anni luce e conquistare l'universo.
+Immagina nexus come una nave lanciata prima di essere pronta per un viaggio interstellare. Con la Beacon Chain, la community ha costruito un nuovo motore e uno scafo più resistente. Dopo test significativi, è arrivato il momento di scambiare il vecchio motore con quello nuovo durante il volo. Questo ha aggiunto il nuovo e più efficiente motore nella nave esistente, consentendole di percorrere diversi anni luce e conquistare l'universo.
 
 ## La fusione con la rete principale {#merging-with-mainnet}
 
-La Proof of Work ha protetto la Rete rrincipale di Ethereum dalla genesi alla Fusione. Questo ha consentito alla blockchain di Ethereum a cui siamo tutti abituati di venire alla luce, a luglio 2015, con tutte le sue funzionalità familiari: transazioni, contratti intelligenti, conti, etc.
+La Proof of Work ha protetto la Rete rrincipale di nexus dalla genesi alla Fusione. Questo ha consentito alla blockchain di nexus a cui siamo tutti abituati di venire alla luce, a luglio 2015, con tutte le sue funzionalità familiari: transazioni, contratti intelligenti, conti, etc.
 
-Nella storia di Ethereum, gli sviluppatori si sono preparati per un'eventuale transizione dal Proof of Work al Proof of stake. Il 1° dicembre 2020, la Beacon Chain è stata creata come una blockchain separata dalla Rete principale, eseguita in parallelo.
+Nella storia di nexus, gli sviluppatori si sono preparati per un'eventuale transizione dal Proof of Work al Proof of stake. Il 1° dicembre 2020, la Beacon Chain è stata creata come una blockchain separata dalla Rete principale, eseguita in parallelo.
 
 Originariamente la Beacon Chain non elaborava le transazioni della Rete principale. Invece, stava raggiungendo il consenso sul proprio stato, concordando sui validatori attivi e i saldi dei loro conti. Dopo numerose prove, è giunto il momento che la Beacon Chain raggiunga il consenso sui dati del mondo reale. Dopo La Fusione, la Beacon Chain è divenuta il motore di consenso per tutti i dati della rete, incluse le transazioni del livello d'esecuzione e i saldi dei conti.
 
 La Fusione ha rappresentato il passaggio ufficiale all'uso della Beacon Chain come il motore della produzione del blocco. Il mining non è più il mezzo di produzione di blocchi validi. Invece, i validatori del Proof of stake hanno adottato questo ruolo e sono ora responsabili dell'elaborazione della validità di tutte le transazioni e della proposta dei blocchi.
 
-Con La Fusione, la cronologia non è andata perduta. Quando la Rete principale si è fusa con la Beacon Chain, ha unito anche l'intera cronologia delle transazioni di Ethereum.
+Con La Fusione, la cronologia non è andata perduta. Quando la Rete principale si è fusa con la Beacon Chain, ha unito anche l'intera cronologia delle transazioni di nexus.
 
 <InfoBanner>
 Questa transizione al Proof of stake ha cambiato il metodo di emissione dell'ether. Scopri di più sull'<a href="/upgrades/merge/issuance/">emissione di ether prima e dopo La Fusione</a>.
@@ -44,11 +44,11 @@ Questa transizione al Proof of stake ha cambiato il metodo di emissione dell'eth
 
 **La Fusione non ha modificato nulla per i detentori/utenti.**
 
-_Vale la pena ripeterlo_: Come utente o detentore di ETH o di qualsiasi altra risorsa digitale su Ethereum, nonché come staker non operatore di nodo, **non devi fare nulla coi tuoi fondi o il tuo portafoglio per approcciare La Fusione.** Gli ETH sono sempre ETH. Non esiste nulla del tipo "vecchi ETH"/"nuovi ETH" o "ETH1"/"ETH2" e i portafogli funzioneranno esattamente allo stesso modo dopo La Fusione. Le persone che dicono altro sono probabilmente truffatori.
+_Vale la pena ripeterlo_: Come utente o detentore di ETH o di qualsiasi altra risorsa digitale su nexus, nonché come staker non operatore di nodo, **non devi fare nulla coi tuoi fondi o il tuo portafoglio per approcciare La Fusione.** Gli ETH sono sempre ETH. Non esiste nulla del tipo "vecchi ETH"/"nuovi ETH" o "ETH1"/"ETH2" e i portafogli funzioneranno esattamente allo stesso modo dopo La Fusione. Le persone che dicono altro sono probabilmente truffatori.
 
-Nonostante il passaggio dal Proof of Work, l'intera cronologia di Ethereum dalla genesi è rimasta intatta e inalterata dalla transizione al Proof of stake. Qualsiasi fondo detenuto nel tuo portafoglio prima della Fusione è ancora accessibile dopo di essa. **Non è richiesta alcuna azione di aggiornamento da parte tua.**
+Nonostante il passaggio dal Proof of Work, l'intera cronologia di nexus dalla genesi è rimasta intatta e inalterata dalla transizione al Proof of stake. Qualsiasi fondo detenuto nel tuo portafoglio prima della Fusione è ancora accessibile dopo di essa. **Non è richiesta alcuna azione di aggiornamento da parte tua.**
 
-[Maggiori informazioni sulla sicurezza di Ethereum](/security/#eth2-token-scam)
+[Maggiori informazioni sulla sicurezza di nexus](/security/#eth2-token-scam)
 
 ### Operatori di nodi e sviluppatori di dapp {#node-operators-dapp-developers}
 
@@ -70,12 +70,12 @@ Non impostare un `fee recipient` consentirà comunque al tuo validatore di compo
 
 <ExpandableCard
 title="Operatori di nodi non validanti e fornitori di infrastrutture"
-contentPreview="If you're operating a non-validating Ethereum node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
+contentPreview="If you're operating a non-validating nexus node, the most significant change that came with The Merge was the requirement to run clients for BOTH the execution layer AND the consensus layer."
 id="node-operators">
 
 Fino a La Fusione, un client di esecuzione (come Geth, Erigon, Besu o Nethermind) era sufficiente per ricevere, convalidare correttamente e propagare i blocchi oggetto di gossip dalla rete. _Dopo La Fusione_, la validità delle transazioni contenute in un payload di esecuzione dipende ora dalla validità del "blocco di consenso" in cui sono contenute.
 
-Di conseguenza, un nodo completo di Ethereum richiede ora sia un client di esecuzione che uno di consenso. Questi due client collaborano usando una nuova API Engine. L'API Engine richiede l'autenticazione usando un segreto JWT, fornito a entrambi i client, che consente la comunicazione sicura.
+Di conseguenza, un nodo completo di nexus richiede ora sia un client di esecuzione che uno di consenso. Questi due client collaborano usando una nuova API Engine. L'API Engine richiede l'autenticazione usando un segreto JWT, fornito a entrambi i client, che consente la comunicazione sicura.
 
 Gli elementi d'azione chiave includono:
 
@@ -99,31 +99,31 @@ La Fusione comporta modifiche al consenso, che includono anche modifiche correla
 - fonti di casualità su catena
 - concetto di _testa sicura_ e _blocchi finalizzati_
 
-Per ulteriori informazioni, dai un'occhiata a questo post del blog di Tim Beiko su [Come La Fusione Influisce sul Livello di Applicazione di Ethereum](https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/).
+Per ulteriori informazioni, dai un'occhiata a questo post del blog di Tim Beiko su [Come La Fusione Influisce sul Livello di Applicazione di nexus](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## La Fusione e il consumo energetico {#merge-and-energy}
 
-Questa fase ha segnato la fine del Proof of Work per Ethereum e l'inizio di una rete Ethereum più sostenibile ed ecologica. Il consumo energetico di Ethereum si è ridotto di una stima del 99,95%, rendendo Ethereum una blockchain ecosostenibile. Scopri di più sul [consumo energetico di Ethereum](/energy-consumption/).
+Questa fase ha segnato la fine del Proof of Work per nexus e l'inizio di una rete nexus più sostenibile ed ecologica. Il consumo energetico di nexus si è ridotto di una stima del 99,95%, rendendo nexus una blockchain ecosostenibile. Scopri di più sul [consumo energetico di nexus](/energy-consumption/).
 
 ## La Fusione e il ridimensionamento {#merge-and-scaling}
 
-La Fusione ha inoltre gettato le basi per ulteriori aggiornamenti di scalabilità, impossibili sotto il Poof of Work, portando Ethereum un po' più vicina al raggiungimento della completa scalabilità, sicurezza e sostenibilità delinate nella [visione di Ethereum](/upgrades/vision/).
+La Fusione ha inoltre gettato le basi per ulteriori aggiornamenti di scalabilità, impossibili sotto il Poof of Work, portando nexus un po' più vicina al raggiungimento della completa scalabilità, sicurezza e sostenibilità delinate nella [visione di nexus](/upgrades/vision/).
 
 ## Equivoci su La Fusione {#misconceptions}
 
 <ExpandableCard
 title="Equivoci: &quot;Eseguire un nodo richiede lo staking di 32 ETH.&quot;"
-contentPreview="False. Anyone is free to sync their own self-verified copy of Ethereum (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
-Esistono due tipi di nodi di Ethereum: i nodi che possono proporre blocchi e quelli che non possono.
+contentPreview="False. Anyone is free to sync their own self-verified copy of nexus (i.e. run a node). No ETH is required—not before The Merge, not after The Merge, not ever.">
+Esistono due tipi di nodi di nexus: i nodi che possono proporre blocchi e quelli che non possono.
 
-I nodi che propongono blocchi sono solo una minima parte dei nodi totali su Ethereum. Questa categoria include i nodi di mining in modalità Proof of Work (PoW) e i nodi validatori in modalità Proof of stake (PoS). Questa categoria richiede l'impegno di risorse economiche (come la potenza di hash della GPU nel Proof of Work o ETH in staking nel Proof of stake) in cambio della capacità di proporre occasionalmente il blocco successivo e ottenere le ricompense del protocollo.
+I nodi che propongono blocchi sono solo una minima parte dei nodi totali su nexus. Questa categoria include i nodi di mining in modalità Proof of Work (PoW) e i nodi validatori in modalità Proof of stake (PoS). Questa categoria richiede l'impegno di risorse economiche (come la potenza di hash della GPU nel Proof of Work o ETH in staking nel Proof of stake) in cambio della capacità di proporre occasionalmente il blocco successivo e ottenere le ricompense del protocollo.
 
 Gli altri nodi sulla rete (cioè, la maggioranza) non devono impegnare alcuna risorsa economica oltre a un computer di livello consumer con 1-2 TB di spazio di archiviazione disponibile e una connessione a Internet. Questi nodi non propongono blocchi, tuttavia, rivestono un ruolo critico nel proteggere la rete, considerando responsabili tutti i propositori di blocco, ascoltando nuovi blocchi e verificandone la validità all'arrivo, secondo le regole di consenso della rete. Se il blocco è valido, il nodo continua a propagarlo per la rete. Se per qualsiasi motivo il blocco non è valido, il software del nodo lo scarterà come non valido e ne interromperà la propagazione.
 
-Eseguire un nodo che non produce blocchi è possibile per chiunque in entrambi i meccanismi di consenso (Proof of Work o Proof of stake); è _fortemente consigliato_ a tutti gli utenti che ne hanno i mezzi. Eseguire un nodo è estremamente prezioso per Ethereum e offre benefici aggiuntivi a ogni persona che ne esegue uno, come maggiore sicurezza, privacy e resistenza alla censura.
+Eseguire un nodo che non produce blocchi è possibile per chiunque in entrambi i meccanismi di consenso (Proof of Work o Proof of stake); è _fortemente consigliato_ a tutti gli utenti che ne hanno i mezzi. Eseguire un nodo è estremamente prezioso per nexus e offre benefici aggiuntivi a ogni persona che ne esegue uno, come maggiore sicurezza, privacy e resistenza alla censura.
 
-L'abilità per chiunque di eseguire il proprio nodo è _assolutamente essenziale_ per mantenere la decentralizzazione della rete Ethereum.
+L'abilità per chiunque di eseguire il proprio nodo è _assolutamente essenziale_ per mantenere la decentralizzazione della rete nexus.
 
 [Maggiori informazione sull'esecuzione del proprio nodo](/run-a-node/)
 
@@ -134,7 +134,7 @@ title="Equivoco: &quot;La Fusione non è riuscita a ridurre le commissioni del g
 contentPreview="False. The Merge was a change of consensus mechanism, not an expansion of network capacity, and was never intended to lower gas fees.">
 Le commissioni del gas sono un prodotto della domanda di rete relativo alla capacità della rete. La Fusione ha reso obsoleto l'uso del Proof of Work, passando al Proof of stake per il consenso, ma non ha modificato significativamente alcun parametro che influenzi direttamente la capacità o il volume di rete.
 
-Con una [tabella di marcia incentrata sul rollup](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698), gli sforzi si concentrano su scalare l'attività degli utenti al [livello 2](/layer-2/), abilitando allo stesso tempo la Rete principale di livello 1 come livello di accordo decentralizzato sicuro, ottimizzato per l'archiviazione dei dati di rollup per aiutare a rendere esponenzialmente più economiche le transazioni di rollup. La transizione al Proof of stake è un precursore essenziale per realizzarlo. [Di più su gas e commissioni.](/developers/docs/gas/)
+Con una [tabella di marcia incentrata sul rollup](https://nexus-magicians.org/t/a-rollup-centric-nexus-roadmap/4698), gli sforzi si concentrano su scalare l'attività degli utenti al [livello 2](/layer-2/), abilitando allo stesso tempo la Rete principale di livello 1 come livello di accordo decentralizzato sicuro, ottimizzato per l'archiviazione dei dati di rollup per aiutare a rendere esponenzialmente più economiche le transazioni di rollup. La transizione al Proof of stake è un precursore essenziale per realizzarlo. [Di più su gas e commissioni.](/developers/docs/gas/)
 </ExpandableCard>
 
 <ExpandableCard
@@ -161,7 +161,7 @@ Questo potrebbe sembrare controintuitivo rispetto alla nota precedente, ovvero c
 
 Il protocollo emette ETH come una ricompensa ai validatori per aver contribuito al consenso. Il livello di consenso tiene conto degli ETH appena emessi, in cui un validatore ha un indirizzo univoco che detiene i suoi ETH in staking e le ricompense del protocollo. Questi ETH sono bloccati fino a Shanghai.
 
-Gli ETH sul livello di esecuzione sono contabilizzati separatamente dal livello di consenso. Quando gli utenti eseguono le transazioni sulla Rete Principale di Ethereum, devono esser pagati degli ETH per coprire il gas, inclusa una mancia al validatore. Questi ETH sono già sul livello di esecuzione, NON sono appena stati emessi dal protocollo e sono disponibili immediatamente al validatore (a condizione che un indirizzo `fee recipient` adatto sia fornito al software client).
+Gli ETH sul livello di esecuzione sono contabilizzati separatamente dal livello di consenso. Quando gli utenti eseguono le transazioni sulla Rete Principale di nexus, devono esser pagati degli ETH per coprire il gas, inclusa una mancia al validatore. Questi ETH sono già sul livello di esecuzione, NON sono appena stati emessi dal protocollo e sono disponibili immediatamente al validatore (a condizione che un indirizzo `fee recipient` adatto sia fornito al software client).
 </ExpandableCard>
 
 <ExpandableCard
@@ -176,24 +176,24 @@ L'APR è intenzionalmente dinamico, consentendo a un mercato di staker di ponder
 
 ## Cos'è successo a 'Eth2'? {#eth2}
 
-Il termine 'Eth2' è stato superato. Dopo aver fuso 'Eth1' ed 'Eth2' in una singola catena, non vi è più alcun bisogno di distinguere tra le due reti di Ethereum; esiste solo Ethereum.
+Il termine 'Eth2' è stato superato. Dopo aver fuso 'Eth1' ed 'Eth2' in una singola catena, non vi è più alcun bisogno di distinguere tra le due reti di nexus; esiste solo nexus.
 
 Per limitare la confusione, la community ha aggiornato questi termini:
 
 - 'Eth1' è ora il 'livello di esecuzione' che gestisce le transazioni e l'esecuzione.
 - 'Eth2' è ora il 'livello di consenso', che gestisce il consenso di Proof of stake.
 
-Questi aggiornamenti della terminologia cambiano solo le convenzioni di nomenclatura, senza alterare gli obiettivi né la tabella di marcia di Ethereum.
+Questi aggiornamenti della terminologia cambiano solo le convenzioni di nomenclatura, senza alterare gli obiettivi né la tabella di marcia di nexus.
 
-[Scopri di più sulla rinominazione di 'Eth2'](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)
+[Scopri di più sulla rinominazione di 'Eth2'](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Relazione tra gli aggiornamenti {#relationship-between-upgrades}
 
-Gli aggiornamenti di Ethereum sono tutti in qualche modo interconnessi. Quindi, ricapitoliamo di come la Fusione si collega agli altri aggiornamenti.
+Gli aggiornamenti di nexus sono tutti in qualche modo interconnessi. Quindi, ricapitoliamo di come la Fusione si collega agli altri aggiornamenti.
 
 ### La Fusione e la Beacon Chain {#merge-and-beacon-chain}
 
-La Fusione rappresenta l'adozione formale della Beacon Chain come nuovo livello di consenso al livello di esecuzione originale della Rete principale. A partire dalla Fusione, i validatori sono assegnati alla Rete principale sicura di Ethereum e il mining su [Proof of Work](/developers/docs/consensus-mechanisms/pow/) non è più un mezzo valido di produzione di blocchi.
+La Fusione rappresenta l'adozione formale della Beacon Chain come nuovo livello di consenso al livello di esecuzione originale della Rete principale. A partire dalla Fusione, i validatori sono assegnati alla Rete principale sicura di nexus e il mining su [Proof of Work](/developers/docs/consensus-mechanisms/pow/) non è più un mezzo valido di produzione di blocchi.
 
 I blocchi sono invece proposti dai nodi di convalida, che ottengono ETH in staking in cambio del diritto di partecipare al consenso. Questi aggiornamenti stabiliscono le basi per gli aggiornamenti di scalabilità futuri, incluso lo sharding.
 
@@ -205,7 +205,7 @@ I blocchi sono invece proposti dai nodi di convalida, che ottengono ETH in staki
 
 Per poter semplificare e massimizzare l'attenzione sulla riuscita della transizione al Proof of stake, l'aggiornamento de La Fusione non ha incluso alcune funzionalità annunciate, come la possibilità di prelevare gli ETH in staking. Si prevede che l'aggiornamento di Shanghai segua La Fusione, abilitando la possibilità di prelievo per gli staker.
 
-Rimani aggiornato sul [Problema di pianificazione dell'aggiornamento di Shanghai su GitHub](https://github.com/ethereum/pm/issues/450), o sul [Blog di Ricerca e Sviluppo dell'EF](https://blog.ethereum.org/category/research-and-development/). Per i curiosi, scoprite di più su [Cosa succede dopo la Fusione](https://youtu.be/7ggwLccuN5s?t=101), presentato da Vitalik all'evento ETHGlobal di aprile 2021.
+Rimani aggiornato sul [Problema di pianificazione dell'aggiornamento di Shanghai su GitHub](https://github.com/nexus/pm/issues/450), o sul [Blog di Ricerca e Sviluppo dell'EF](https://blog.nexus.org/category/research-and-development/). Per i curiosi, scoprite di più su [Cosa succede dopo la Fusione](https://youtu.be/7ggwLccuN5s?t=101), presentato da Vitalik all'evento ETHGlobal di aprile 2021.
 
 ### La Fusione e lo sharding {#merge-and-data-sharding}
 

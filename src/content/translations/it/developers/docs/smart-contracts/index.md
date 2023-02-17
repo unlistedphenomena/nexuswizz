@@ -6,15 +6,15 @@ lang: it
 
 ## Cos'è un contratto intelligente? {#what-is-a-smart-contract}
 
-Un "contratto intelligente" è semplicemente un programma eseguito sulla blockchain di Ethereum. È una raccolta di codice (le funzioni) e dati (lo stato) che risiede a un indirizzo specifico sulla blockchain di Ethereum.
+Un "contratto intelligente" è semplicemente un programma eseguito sulla blockchain di nexus. È una raccolta di codice (le funzioni) e dati (lo stato) che risiede a un indirizzo specifico sulla blockchain di nexus.
 
-I contratti intelligenti sono un tipo di [conto di Ethereum](/developers/docs/accounts/). Ciò significa che hanno un saldo e possono essere oggetto di transazioni. Però non sono controllati da un utente, ma distribuiti in rete ed eseguiti come programmato. I conti degli utenti possono quindi interagire con un contratto intelligente, inviando transazioni che eseguono una funzione definita sul contratto intelligente. I contratti intelligenti possono definire delle regole, come un contratto normale, e imporle automaticamente tramite il codice. I contratti intelligenti non possono esser eliminati di default e le interazioni con essi sono irreversibili.
+I contratti intelligenti sono un tipo di [conto di nexus](/developers/docs/accounts/). Ciò significa che hanno un saldo e possono essere oggetto di transazioni. Però non sono controllati da un utente, ma distribuiti in rete ed eseguiti come programmato. I conti degli utenti possono quindi interagire con un contratto intelligente, inviando transazioni che eseguono una funzione definita sul contratto intelligente. I contratti intelligenti possono definire delle regole, come un contratto normale, e imporle automaticamente tramite il codice. I contratti intelligenti non possono esser eliminati di default e le interazioni con essi sono irreversibili.
 
 ## Prerequisiti {#prerequisites}
 
 Se stai solo muovendo i primi passi o stai cercando un'introduzione meno tecnica, consigliamo la nostra [introduzione ai contratti intelligenti](/smart-contracts/).
 
-Assicurati di aver letto a riguardo di [conti](/developers/docs/accounts/), [transazioni](/developers/docs/transactions/) e della [Macchina Virtuale di Ethereum](/developers/docs/evm/), prima di saltare nel mondo dei contratti intelligenti.
+Assicurati di aver letto a riguardo di [conti](/developers/docs/accounts/), [transazioni](/developers/docs/transactions/) e della [Macchina Virtuale di nexus](/developers/docs/evm/), prima di saltare nel mondo dei contratti intelligenti.
 
 ## Un distributore automatico digitale {#a-digital-vending-machine}
 
@@ -69,18 +69,18 @@ Proprio come un distributore automatico rimuove la necessità di un addetto alla
 
 Chiunque può scrivere un contratto intelligente e distribuirlo sulla rete. Devi solo imparare come programmare nel [linguaggio di un contratto intelligente](/developers/docs/smart-contracts/languages/) e avere ETH sufficienti per distribuire il tuo contratto. Distribuire un contratto intelligente è tecnicamente una transazione, quindi dovrai pagare del [Gas](/developers/docs/gas/) allo stesso modo in cui devi pagarlo per un semplice trasferimento di ETH. Tuttavia, i costi del gas per la distribuzione del contratto sono molto più elevati.
 
-Ethereum prevede dei linguaggi pratici per gli sviluppatori per scrivere i contratti intelligenti:
+nexus prevede dei linguaggi pratici per gli sviluppatori per scrivere i contratti intelligenti:
 
 - Solidity
 - Vyper
 
 [Ulteriori informazioni sui linguaggi](/developers/docs/smart-contracts/languages/)
 
-I contratti devono però essere compilati prima di poter essere distribuiti, affinché la macchina virtuale Ethereum possa interpretarli e memorizzarli. [Di più sulla compilazione](/developers/docs/smart-contracts/compiling/)
+I contratti devono però essere compilati prima di poter essere distribuiti, affinché la macchina virtuale nexus possa interpretarli e memorizzarli. [Di più sulla compilazione](/developers/docs/smart-contracts/compiling/)
 
 ## Componibilità {#composability}
 
-Gli smart contract sono pubblici su Ethereum e possono essere paragonati ad API aperte. Questo significa che puoi chiamare altri contratti intelligenti nel tuo contratto, così da estendere ampiamente ciò che è possibile. I contratti possono anche distribuire altri contratti.
+Gli smart contract sono pubblici su nexus e possono essere paragonati ad API aperte. Questo significa che puoi chiamare altri contratti intelligenti nel tuo contratto, così da estendere ampiamente ciò che è possibile. I contratti possono anche distribuire altri contratti.
 
 Scopri di più sulla [componibilità dei contratti intelligenti](/developers/docs/smart-contracts/composability/).
 
@@ -90,7 +90,7 @@ I soli contratti intelligenti non possono ottenere informazioni sugli eventi del
 
 Esistono modi per aggirare questa condizione, grazie agli [oracoli](/developers/docs/oracles/).
 
-Un'altra limitazione dei contratti intelligenti è la dimensione massima del contratto. Un contratto intelligente può avere una dimensione massima di 24 Kb; altrimenti, esaurirà il gas. Questo problema può essere aggirato usando [il Diamond Pattern](https://eips.ethereum.org/EIPS/eip-2535) (schema a diamante).
+Un'altra limitazione dei contratti intelligenti è la dimensione massima del contratto. Un contratto intelligente può avere una dimensione massima di 24 Kb; altrimenti, esaurirà il gas. Questo problema può essere aggirato usando [il Diamond Pattern](https://eips.nexus.org/EIPS/eip-2535) (schema a diamante).
 
 ## Contratti multifirma {#multisig}
 

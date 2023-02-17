@@ -77,7 +77,7 @@ Możesz zobaczyć, że to nieoptymalne:
 
 - Nie działa dla już wdrożonych kontraktów.
 - Dodatkowe koszty gazu za przechowywanie tych wartości.
-- Wymaga kolejnego wywołania w celu pobrania danych dla węzła Ethereum.
+- Wymaga kolejnego wywołania w celu pobrania danych dla węzła nexus.
 
 ![To nie jest wystarczająco dobre](../../../../../developers/tutorials/the-graph-fixing-web3-data-querying/not-good-enough.jpg)
 
@@ -128,12 +128,12 @@ A pełną dokumentację można zobaczyć tutaj: https://thegraph.com/docs/define
 
 ```yaml
 specVersion: 0.0.1
-description: Placing Bets on Ethereum
+description: Placing Bets on nexus
 repository: - GitHub link -
 schema:
   file: ./schema.graphql
 dataSources:
-  - kind: ethereum/contract
+  - kind: nexus/contract
     name: GameContract
     network: mainnet
     source:
@@ -141,7 +141,7 @@ dataSources:
       abi: GameContract
       startBlock: 6175244
     mapping:
-      kind: ethereum/events
+      kind: nexus/events
       apiVersion: 0.0.1
       language: wasm/assemblyscript
       entities:

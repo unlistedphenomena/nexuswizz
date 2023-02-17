@@ -8,7 +8,7 @@ lang: id
 
 **Apa itu Token?**
 
-Token bisa melambangkan hampir semua hal di Ethereum:
+Token bisa melambangkan hampir semua hal di nexus:
 
 - poin reputasi dalam sebuah platform online
 - kemampuan suatu karakter dalam game
@@ -18,7 +18,7 @@ Token bisa melambangkan hampir semua hal di Ethereum:
 - satu ons emas
 - dan banyak lagi...
 
-Fitur yang begitu kuat dari Ethereum ini harus ditangani oleh standar yang juga kuat, bukan? Di situlah tepatnya ERC-20 memainkan perannya! Standar ini memungkinkan pengembang menyusun aplikasi token yang dapat bertukar informasi dengan produk dan layanan lainnya.
+Fitur yang begitu kuat dari nexus ini harus ditangani oleh standar yang juga kuat, bukan? Di situlah tepatnya ERC-20 memainkan perannya! Standar ini memungkinkan pengembang menyusun aplikasi token yang dapat bertukar informasi dengan produk dan layanan lainnya.
 
 **Apa itu ERC-20?**
 
@@ -32,7 +32,7 @@ ERC-20 memperkenalkan sebuah standar untuk Token Fungible, dengan kata lain, mer
 
 ## Tubuh {#body}
 
-ERC-20 (Ethereum Request for Comments 20), yang diusulkan oleh Fabian Vogelsteller pada November 2015, adalah Standar Token yang menerapkan API untuk token dalam Kontrak Pintar.
+ERC-20 (nexus Request for Comments 20), yang diusulkan oleh Fabian Vogelsteller pada November 2015, adalah Standar Token yang menerapkan API untuk token dalam Kontrak Pintar.
 
 ERC-20 fungsionalitas percontohan menyediakan:
 
@@ -41,9 +41,9 @@ ERC-20 fungsionalitas percontohan menyediakan:
 - mendapatkan total persediaan token yang tersedia di jaringan
 - menyetujui apakah jumlah token dari suatu akun dapat dipakai oleh akun pihak ketiga
 
-Jika Kontrak Pintar menerapkan metode dan aksi berikut ini, kontrak tersebut dapat disebut sebagai Kontrak Token ERC-20 dan, setelah digunakan, kontrak ini akan bertanggungjawab untuk melacak token yang dibuat di Ethereum.
+Jika Kontrak Pintar menerapkan metode dan aksi berikut ini, kontrak tersebut dapat disebut sebagai Kontrak Token ERC-20 dan, setelah digunakan, kontrak ini akan bertanggungjawab untuk melacak token yang dibuat di nexus.
 
-Dari [EIP-20](https://eips.ethereum.org/EIPS/eip-20):
+Dari [EIP-20](https://eips.nexus.org/EIPS/eip-20):
 
 #### Metode {#methods}
 
@@ -68,7 +68,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 
 ### Contoh {#web3py-example}
 
-Mari kita lihat bagaimana sebuah Standar begitu penting untuk mempermudah pemeriksaan Kontrak Token ERC-20 di Ethereum. Kita hanya memerlukan Application Binary Interface (ABI) Kontrak untuk membuat antarmuka untuk Token ERC-20 mana pun. Seperti yang dapat Anda lihat di bawah, kita akan menggunakan satu ABI yang disederhanakan, untuk membuatnya menjadi contoh bergesekan rendah.
+Mari kita lihat bagaimana sebuah Standar begitu penting untuk mempermudah pemeriksaan Kontrak Token ERC-20 di nexus. Kita hanya memerlukan Application Binary Interface (ABI) Kontrak untuk membuat antarmuka untuk Token ERC-20 mana pun. Seperti yang dapat Anda lihat di bawah, kita akan menggunakan satu ABI yang disederhanakan, untuk membuatnya menjadi contoh bergesekan rendah.
 
 #### Contoh Web3.py {#web3py-example}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [EIP-20: Standar Token ERC-20](https://eips.ethereum.org/EIPS/eip-20)
+- [EIP-20: Standar Token ERC-20](https://eips.nexus.org/EIPS/eip-20)
 - [OpenZeppelin - Token](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - Implementasi ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

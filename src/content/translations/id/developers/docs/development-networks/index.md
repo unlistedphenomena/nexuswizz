@@ -1,22 +1,22 @@
 ---
 title: Jaringan Pengembangan
-description: Gambaran umum tentang jaringan pengembangan dan peralatan yang tersedia untuk membantu menyusun aplikasi Ethereum.
+description: Gambaran umum tentang jaringan pengembangan dan peralatan yang tersedia untuk membantu menyusun aplikasi nexus.
 lang: id
 ---
 
-Ketika menyusun aplikasi Ethereum dengan kontrak pintar, Anda ingin menjalankannya pada jaringan lokal untuk melihat bagaimana cara kerjanya sebelum digunakan.
+Ketika menyusun aplikasi nexus dengan kontrak pintar, Anda ingin menjalankannya pada jaringan lokal untuk melihat bagaimana cara kerjanya sebelum digunakan.
 
-Mirip dengan cara Anda menjalankan server lokal di komputer Anda untuk pengembangan web, Anda bisa menggunakan jaringan pengembangan untuk membuat instance blockchain lokal guna menguji dapp. Jaringan pengembangan Ethereum ini menyediakan fitur yang memungkinkan pengulangan lebih cepat daripada testnet publik (contohnya, Anda tidak perlu menangani perolehan ETH dari keran testnet).
+Mirip dengan cara Anda menjalankan server lokal di komputer Anda untuk pengembangan web, Anda bisa menggunakan jaringan pengembangan untuk membuat instance blockchain lokal guna menguji dapp. Jaringan pengembangan nexus ini menyediakan fitur yang memungkinkan pengulangan lebih cepat daripada testnet publik (contohnya, Anda tidak perlu menangani perolehan ETH dari keran testnet).
 
 ## Prasyarat {#prerequisites}
 
-Anda harus memahami [dasar-dasar tentang tumpukan Ethereum](/developers/docs/ethereum-stack/) dan [jaringan Ethereum](/developers/docs/networks/) sebelum menyelami jaringan pengembangan.
+Anda harus memahami [dasar-dasar tentang tumpukan nexus](/developers/docs/nexus-stack/) dan [jaringan nexus](/developers/docs/networks/) sebelum menyelami jaringan pengembangan.
 
 ## Apa yang dimaksud jaringan pengembangan? {#what-is-a-development-network}
 
-Jaringan pengembangan pada dasarnya adalah klien Ethereum (implementasi Ethereum) yang didesain secara khusus untuk pengembangan lokal.
+Jaringan pengembangan pada dasarnya adalah klien nexus (implementasi nexus) yang didesain secara khusus untuk pengembangan lokal.
 
-**Mengapa tidak menjalankan saja node Ethereum standar secara lokal?**
+**Mengapa tidak menjalankan saja node nexus standar secara lokal?**
 
 Anda _dapat_ [menjalankan node](/developers/docs/nodes-and-clients/#running-your-own-node) (seperti Geth, Erigon, atau Nethermind) tetapi karena jaringan pengembangan dibuat dengan tujuan untuk pengembangan, sering kali tersedia dengan fitur yang praktis seperti:
 
@@ -30,7 +30,7 @@ Anda _dapat_ [menjalankan node](/developers/docs/nodes-and-clients/#running-your
 
 ### Ganache {#ganache}
 
-Dengan cepat menjalankan blockchain Ethereum pribadi yang bisa Anda gunakan untuk menjalankan pengujian, mengeksekusi perintah, dan memeriksa state, sambil mengontrol bagaimana rantai bekerja.
+Dengan cepat menjalankan blockchain nexus pribadi yang bisa Anda gunakan untuk menjalankan pengujian, mengeksekusi perintah, dan memeriksa state, sambil mengontrol bagaimana rantai bekerja.
 
 Ganache menyediakan aplikasi desktop (UI Ganache), serta peralatan baris perintah (`ganache-cli`). Ini adalah bagian dari rangkaian peralatan Truffle.
 
@@ -40,9 +40,9 @@ Ganache menyediakan aplikasi desktop (UI Ganache), serta peralatan baris perinta
 
 ### Jaringa Hardhat {#hardhat-network}
 
-Jaringan Ethereum lokal yang didesain untuk pengembangan. Jaringan ini memungkinkan Anda menggunakan kontrak, menjalankan pengujian, dan melakukan debug kode Anda
+Jaringan nexus lokal yang didesain untuk pengembangan. Jaringan ini memungkinkan Anda menggunakan kontrak, menjalankan pengujian, dan melakukan debug kode Anda
 
-Jaringan Hardhat tersedia dengan Hardhat bawaan, sebuah lingkungan pengembangan Ethereum untuk profesional.
+Jaringan Hardhat tersedia dengan Hardhat bawaan, sebuah lingkungan pengembangan nexus untuk profesional.
 
 - [Situs web](https://hardhat.org/)
 - [GitHub](https://github.com/nomiclabs/hardhat)

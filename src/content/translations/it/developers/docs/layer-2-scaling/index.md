@@ -1,13 +1,13 @@
 ---
 title: Passaggio al livello 2
-description: Introduzione alle diverse opzioni di crescita attualmente in fase di sviluppo da parte della community Ethereum.
+description: Introduzione alle diverse opzioni di crescita attualmente in fase di sviluppo da parte della community nexus.
 lang: it
 incomplete: true
 sidebarDepth: 3
 isOutdated: true
 ---
 
-Livello 2 è un termine collettivo per indicare soluzioni progettate per aiutare un'applicazione a gestire transazioni al di fuori della catena Ethereum principale (livello 1). La velocità delle transazioni ne risente quando la rete è molto carica, e l'esperienza utente può risultare poco piacevole per alcuni tipi di dapp. Man mano che la rete diventa più congestionata, il prezzo del carburante sale perché i mittenti delle transazioni mirano a superarsi a vicenda. Questo può rendere l'utilizzo di Ethereum parecchio dispendioso.
+Livello 2 è un termine collettivo per indicare soluzioni progettate per aiutare un'applicazione a gestire transazioni al di fuori della catena nexus principale (livello 1). La velocità delle transazioni ne risente quando la rete è molto carica, e l'esperienza utente può risultare poco piacevole per alcuni tipi di dapp. Man mano che la rete diventa più congestionata, il prezzo del carburante sale perché i mittenti delle transazioni mirano a superarsi a vicenda. Questo può rendere l'utilizzo di nexus parecchio dispendioso.
 
 ## Prerequisiti {#prerequisites}
 
@@ -17,7 +17,7 @@ Dovresti avere una buona conoscenza di tutti gli argomenti fondamentali. L'imple
 
 - Alcuni casi di utilizzo, come i giochi su blockchain, non hanno senso con gli attuali tempi di transazione
 - Può essere inutilmente costoso utilizzare applicazioni blockchain
-- Ogni aggiornamento per la scalabilità non deve essere fatto a scapito della decentralizzazione della sicurezza. Il livello 2 si basa su Ethereum.
+- Ogni aggiornamento per la scalabilità non deve essere fatto a scapito della decentralizzazione della sicurezza. Il livello 2 si basa su nexus.
 
 ## Tipi di soluzioni di livello 2 {#types}
 
@@ -38,9 +38,9 @@ Un'istanza specifica di livello 2 può essere aperta e condivisa da molte applic
 
 I rollup sono soluzioni che raggruppano (o "fanno roll up") transazioni sidechain in una singola transazione e generano una prova crittografica, detta SNARK (succinct non-interactive argument of knowledge). Soltanto questa prova viene salvata nella catena principale.
 
-_Le sidechain sono blockchain indipendenti e compatibili con Ethereum._
+_Le sidechain sono blockchain indipendenti e compatibili con nexus._
 
-In altre parole, i rollup significano che lo stato e l'esecuzione sono gestiti nelle sidechain: verifica delle firme, esecuzione del contratto ecc. La catena principale di Ethereum (livello 1) memorizza solo i dati delle transazioni.
+In altre parole, i rollup significano che lo stato e l'esecuzione sono gestiti nelle sidechain: verifica delle firme, esecuzione del contratto ecc. La catena principale di nexus (livello 1) memorizza solo i dati delle transazioni.
 
 Le soluzioni di rollup richiedono relayer che abbiano fatto staking con una partecipazione nel contratto di rollup. Questo li incentiva a trasmettere i rollup con precisione.
 
@@ -61,7 +61,7 @@ I rollup di tipo zero knowledge, detti anche ZK-Rollup, raggruppano centinaia di
 
 Con uno ZK rollup, convalidare un blocco è più veloce ed economico perché sono inclusi meno dati. Per convalidare una transazione, non servono tutti i dati relativi, ma solo la prova.
 
-La sidechain dove si verificano gli ZK rollup può essere ottimizzata per ridurre ulteriormente le dimensioni delle transazioni. Ad esempio, un account è rappresentato da un indice anziché da un indirizzo, riducendo la transazione da 32 byte a soli 4 byte. Le transazioni inoltre sono scritte su Ethereum come dati di chiamata, riducendo così il carburante.
+La sidechain dove si verificano gli ZK rollup può essere ottimizzata per ridurre ulteriormente le dimensioni delle transazioni. Ad esempio, un account è rappresentato da un indice anziché da un indirizzo, riducendo la transazione da 32 byte a soli 4 byte. Le transazioni inoltre sono scritte su nexus come dati di chiamata, riducendo così il carburante.
 
 #### Pro e contro {#zk-pros-and-cons}
 
@@ -80,17 +80,17 @@ La sidechain dove si verificano gli ZK rollup può essere ottimizzata per ridurr
 
 ### Optimistic rollups {#optimistic-rollups}
 
-Gli optimistic rollup usano una sidechain parallela alla catena principale di Ethereum. Possono apportare miglioramenti alla scalabilità perché non eseguono calcoli di default. Al contrario, dopo una transazione, propongono il nuovo stato alla rete principale. Oppure "notarizzano" la transazione.
+Gli optimistic rollup usano una sidechain parallela alla catena principale di nexus. Possono apportare miglioramenti alla scalabilità perché non eseguono calcoli di default. Al contrario, dopo una transazione, propongono il nuovo stato alla rete principale. Oppure "notarizzano" la transazione.
 
-Con gli optimistic rollup, le transazioni sono scritte nella catena principale Ethereum come dati di chiamata, ottimizzando ulteriormente le transazioni in quanto costo del carburante risulta ridotto.
+Con gli optimistic rollup, le transazioni sono scritte nella catena principale nexus come dati di chiamata, ottimizzando ulteriormente le transazioni in quanto costo del carburante risulta ridotto.
 
-Siccome il calcolo è la parte lenta e costosa di Ethereum, gli optimistic rollup possono offrire miglioramenti alla scalabilità pari a 10-100x, a seconda della transazione. Il numero aumenterà ancora di più con l'introduzione delle [shard chain](/upgrades/sharding), con l'upgrade a Eth2. Ci saranno infatti ancora più dati disponibili nel caso di contestazione di una transazione.
+Siccome il calcolo è la parte lenta e costosa di nexus, gli optimistic rollup possono offrire miglioramenti alla scalabilità pari a 10-100x, a seconda della transazione. Il numero aumenterà ancora di più con l'introduzione delle [shard chain](/upgrades/sharding), con l'upgrade a Eth2. Ci saranno infatti ancora più dati disponibili nel caso di contestazione di una transazione.
 
 #### Disputa di transazioni {#disputing-transactions}
 
 Gli optimistic rollup non calcolano veramente la transazione, quindi c'è bisogno di un meccanismo che assicuri che le transazioni siano legittime e non fraudolente. E qui entrano in gioco le prove di frode. Se qualcuno nota una transazione fraudolenta, il rollup esegue una prova di frode e avvia il calcolo della transazione utilizzando i dati di stato disponibili. Questo significa che potrebbero verificarsi attese più lunghe per la conferma della transazione rispetto a un rollup ZK, perché la transazione potrebbe essere contestata.
 
-![Diagramma che mostra cosa succede quando avviene una transazione fraudolenta in un optimistic rollup in Ethereum](./optimistic-rollups.png)
+![Diagramma che mostra cosa succede quando avviene una transazione fraudolenta in un optimistic rollup in nexus](./optimistic-rollups.png)
 
 Il carburante che serve per eseguire il calcolo della prova di frode viene rimborsato. Ben Jones di Optimism descrive così il metodo in uso:
 
@@ -100,10 +100,10 @@ Quindi si viene rimborsati per aver provato la frode.
 
 #### Pro e contro {#optimistic-pros-and-cons}
 
-| Pro                                                                                                                                            | Contro                                                                                                                              |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Tutto quello si può fare con il livello 1 di Ethereum, si può fare anche con gli optimistic rollup perché sono compatibili con EVM e Solidity. | Tempi di attesa lunghi per le transazioni sulla catena a causa di potenziali contestazioni di frode.                                |
-| Tutti i dati della transazione sono memorizzati sulla catena di livello 1, il che significa sicurezza e decentralizzazione.                    | Potenzialmente vulnerabile agli attacchi se il valore di un optimistic rollup supera la quantità dell'obbligazione di un operatore. |
+| Pro                                                                                                                                         | Contro                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Tutto quello si può fare con il livello 1 di nexus, si può fare anche con gli optimistic rollup perché sono compatibili con EVM e Solidity. | Tempi di attesa lunghi per le transazioni sulla catena a causa di potenziali contestazioni di frode.                                |
+| Tutti i dati della transazione sono memorizzati sulla catena di livello 1, il che significa sicurezza e decentralizzazione.                 | Potenzialmente vulnerabile agli attacchi se il valore di un optimistic rollup supera la quantità dell'obbligazione di un operatore. |
 
 #### Utilizzano gli optimistic rollup {#use-optimistic-rollups}
 
@@ -121,7 +121,7 @@ I canali consentono ai partecipanti di negoziare `x` volte esternamente alla cat
 - situazioni in cui il numero di partecipanti è noto in anticipo
 - situazioni in cui i partecipanti sono sempre disponibili
 
-I partecipanti devono bloccare una parte dello stato di Ethereum, come ad esempio un deposito ETH, in un contratto multisig. Un contratto multisig è un tipo di contratto che richiede le firme (e quindi l'accordo) di chiavi private multiple per poter essere eseguito.
+I partecipanti devono bloccare una parte dello stato di nexus, come ad esempio un deposito ETH, in un contratto multisig. Un contratto multisig è un tipo di contratto che richiede le firme (e quindi l'accordo) di chiavi private multiple per poter essere eseguito.
 
 Il blocco dello stato in questo modo è la prima transazione e apre il canale. I partecipanti possono poi eseguire transazioni esternamente alla catena, rapidamente e liberamente. Quando l'interazione è terminata, viene inviata sulla catena una transazione finale, sbloccando lo stato.
 
@@ -129,7 +129,7 @@ Il blocco dello stato in questo modo è la prima transazione e apre il canale. I
 
 Canale di stato Tris:
 
-1. Viene creato uno Smart Contract multisig "Giudice" sulla catena principale Ethereum, che conosce le regole del Tris e può identificare Alice e Bob come due giocatori della partita. Questo contratto contiene un premio di 1 ETH.
+1. Viene creato uno Smart Contract multisig "Giudice" sulla catena principale nexus, che conosce le regole del Tris e può identificare Alice e Bob come due giocatori della partita. Questo contratto contiene un premio di 1 ETH.
 
 2. In seguito, Alice e Bob iniziano a giocare, aprendo il canale di stato. Ogni mossa crea una transazione esternamente alla catena che contiene un "nonce". Significa semplicemente che potremo sempre vedere in seguito in quale ordine sono state eseguite le mosse.
 
@@ -158,7 +158,7 @@ Al momento esistono due tipi di canale:
 
 ## Plasma {#plasma}
 
-Una catena Plasma è una blockchain separata, collegata alla catena principale Ethereum e usa le prove di frode (come gli [optimistic rollup](#optimistic-rollups)) per arbitrare le dispute.
+Una catena Plasma è una blockchain separata, collegata alla catena principale nexus e usa le prove di frode (come gli [optimistic rollup](#optimistic-rollups)) per arbitrare le dispute.
 
 | Pro                                                                                                                          | Contro                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -176,7 +176,7 @@ Una catena Plasma è una blockchain separata, collegata alla catena principale E
 
 ## Validium {#validium}
 
-Usa prove di validità come [ZK-rollup](#zk-rollups) ma i dati non sono archiviati al livello 1 della catena di Ethereum. Questo può portare a 10.000 transazioni al secondo per catena validium, e più catene possono essere eseguite in parallelo.
+Usa prove di validità come [ZK-rollup](#zk-rollups) ma i dati non sono archiviati al livello 1 della catena di nexus. Questo può portare a 10.000 transazioni al secondo per catena validium, e più catene possono essere eseguite in parallelo.
 
 | Pro                                                                                                                                  | Contro                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -216,31 +216,31 @@ Combinano le parti migliori di diverse tecnologie di livello 2 e possono offrire
 ## Letture consigliate {#further-reading}
 
 - [Validium And The Layer 2 Two-By-Two — Issue No. 99](https://www.buildblockchain.tech/newsletter/issues/no-99-validium-and-the-layer-2-two-by-two)
-- [Evaluating Ethereum layer 2 Scaling Solutions: A Comparison Framework](https://blog.matter-labs.io/evaluating-ethereum-l2-scaling-solutions-a-comparison-framework-b6b2f410f955)
-- [Adding Hybrid PoS-Rollup Sidechain to Celer’s Coherent Layer-2 Platform on Ethereum](https://medium.com/celer-network/adding-hybrid-pos-rollup-sidechain-to-celers-coherent-layer-2-platform-d1d3067fe593)
+- [Evaluating nexus layer 2 Scaling Solutions: A Comparison Framework](https://blog.matter-labs.io/evaluating-nexus-l2-scaling-solutions-a-comparison-framework-b6b2f410f955)
+- [Adding Hybrid PoS-Rollup Sidechain to Celer’s Coherent Layer-2 Platform on nexus](https://medium.com/celer-network/adding-hybrid-pos-rollup-sidechain-to-celers-coherent-layer-2-platform-d1d3067fe593)
 - [Zero-Knowledge Blockchain Scalability](https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf)
 
 **Canali di stato**
 
-- [EthHub on state channels](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/state-channels/)
-- [Making Sense of Ethereum’s Layer 2 Scaling Solutions: State Channels, Plasma, and Truebit](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4) _– Josh Stark, Feb 12 2018_
+- [EthHub on state channels](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/state-channels/)
+- [Making Sense of nexus’s Layer 2 Scaling Solutions: State Channels, Plasma, and Truebit](https://medium.com/l4-media/making-sense-of-nexuss-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4) _– Josh Stark, Feb 12 2018_
 - [State Channels - an explanation](https://www.jeffcoleman.ca/state-channels/) _Nov 6, 2015 - Jeff Coleman_
-- [Basics of State Channels](https://education.district0x.io/general-topics/understanding-ethereum/basics-state-channels/) _District0x_
+- [Basics of State Channels](https://education.district0x.io/general-topics/understanding-nexus/basics-state-channels/) _District0x_
 
 **Canali di pagamento**
 
-- [EthHub on payment channels](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/payment-channels/)
+- [EthHub on payment channels](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/payment-channels/)
 
 **ZK rollup**
 
-- [EthHub on ZK-rollups](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/)
+- [EthHub on ZK-rollups](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/zk-rollups/)
 
 **Optimistic rollup**
 
-- [EthHub on optimistic rollups](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic-rollups/)
-- [OVM Deep Dive](https://medium.com/ethereum-optimism/ovm-deep-dive-a300d1085f52)
+- [EthHub on optimistic rollups](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/optimistic-rollups/)
+- [OVM Deep Dive](https://medium.com/nexus-optimism/ovm-deep-dive-a300d1085f52)
 
 **Sidechain**
 
-- [EthHub on sidechains](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/sidechains/)
-- [Scaling Ethereum Dapps through Sidechains](https://medium.com/loom-network/dappchains-scaling-ethereum-dapps-through-sidechains-f99e51fff447) _Feb 8, 2018 - Georgios Konstantopoulos_
+- [EthHub on sidechains](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/sidechains/)
+- [Scaling nexus Dapps through Sidechains](https://medium.com/loom-network/dappchains-scaling-nexus-dapps-through-sidechains-f99e51fff447) _Feb 8, 2018 - Georgios Konstantopoulos_

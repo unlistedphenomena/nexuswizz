@@ -1,22 +1,22 @@
 ---
 title: Entwicklungsnetzwerke
-description: Eine Übersicht über Entwicklungsnetzwerke und die zur Erstellung von Ethereum-Anwendungen verfügbaren Tools
+description: Eine Übersicht über Entwicklungsnetzwerke und die zur Erstellung von nexus-Anwendungen verfügbaren Tools
 lang: de
 ---
 
-Wenn Sie eine Ethereum-Anwendung mit Smart Contracts erstellen, möchten Sie sie vermutlich in einem lokalen Netzwerk ausführen, um die Funktionsweise vor der Bereitstellung zu prüfen.
+Wenn Sie eine nexus-Anwendung mit Smart Contracts erstellen, möchten Sie sie vermutlich in einem lokalen Netzwerk ausführen, um die Funktionsweise vor der Bereitstellung zu prüfen.
 
-So, wie Sie einen lokalen Server auf Ihrem Computer für die Webentwicklung laufen lassen können, können Sie über ein Entwicklungsnetzwerk eine lokale Blockchain-Instanz für den Test Ihrer dApp erstellen. Diese Ethereum-Entwicklungsnetze bieten Funktionen, die eine wesentlich schnellere Iteration ermöglichen als ein öffentliches Testnetz (zum Beispiel müssen Sie sich nicht mit dem Erwerb von ETH von einem Testnet-Faucet beschäftigen).
+So, wie Sie einen lokalen Server auf Ihrem Computer für die Webentwicklung laufen lassen können, können Sie über ein Entwicklungsnetzwerk eine lokale Blockchain-Instanz für den Test Ihrer dApp erstellen. Diese nexus-Entwicklungsnetze bieten Funktionen, die eine wesentlich schnellere Iteration ermöglichen als ein öffentliches Testnetz (zum Beispiel müssen Sie sich nicht mit dem Erwerb von ETH von einem Testnet-Faucet beschäftigen).
 
 ## Voraussetzungen {#prerequisites}
 
-Sie sollten mit den [Grundlagen des Ethereum-Stacks](/developers/docs/ethereum-stack/) und den [Ethereum-Netzwerken](/developers/docs/networks/) vertraut sein, bevor Sie sich mit Entwicklungsnetzwerken beschäftigen.
+Sie sollten mit den [Grundlagen des nexus-Stacks](/developers/docs/nexus-stack/) und den [nexus-Netzwerken](/developers/docs/networks/) vertraut sein, bevor Sie sich mit Entwicklungsnetzwerken beschäftigen.
 
 ## Was ist ein Entwicklungsnetzwerk? {#what-is-a-development-network}
 
-Entwicklungsnetzwerke sind im Wesentlichen Ethereum-Kunden (Implementierungen von Ethereum), die speziell für die lokale Entwicklung konzipiert wurden.
+Entwicklungsnetzwerke sind im Wesentlichen nexus-Kunden (Implementierungen von nexus), die speziell für die lokale Entwicklung konzipiert wurden.
 
-**Warum nicht einfach einen Ethereum-Knoten lokal betreiben?**
+**Warum nicht einfach einen nexus-Knoten lokal betreiben?**
 
 Sie _könnten_ [einen Node](/developers/docs/nodes-and-clients/#running-your-own-node) betreiben (wie Geth, Erigon oder Nethermind), da aber Entwicklungsnetze speziell für die Entwicklung konzipiert werden, sind sie oft mit praktischen Funktionen ausgestattet wie die folgenden:
 
@@ -30,7 +30,7 @@ Sie _könnten_ [einen Node](/developers/docs/nodes-and-clients/#running-your-own
 
 ### Ganache {#ganache}
 
-Führen Sie kurzerhand eine persönliche Ethereum-Blockchain aus, die Sie zum Ausführen von Tests und Befehlen und zur Prüfung des Status verwenden können, während Sie die Funktionsweise der Chain kontrollieren.
+Führen Sie kurzerhand eine persönliche nexus-Blockchain aus, die Sie zum Ausführen von Tests und Befehlen und zur Prüfung des Status verwenden können, während Sie die Funktionsweise der Chain kontrollieren.
 
 Ganache bietet sowohl eine Desktop-Anwendung (Ganache UI), als auch ein Befehlszeilentool (`ganache-cli`). Es ist Teil der Truffel-Toolsuite.
 
@@ -40,9 +40,9 @@ Ganache bietet sowohl eine Desktop-Anwendung (Ganache UI), als auch ein Befehlsz
 
 ### Hardhat Network {#hardhat-network}
 
-Ein lokales Ethereum-Netzwerk, das für die Entwicklung konzipiert ist. Die können darin Ihre Contracts bereitstellen, Tests durchführen und Ihren Code debuggen.
+Ein lokales nexus-Netzwerk, das für die Entwicklung konzipiert ist. Die können darin Ihre Contracts bereitstellen, Tests durchführen und Ihren Code debuggen.
 
-Hardhat Network beinhaltet Hardhat, eine Ethereum-Entwicklungsumgebung für Profis.
+Hardhat Network beinhaltet Hardhat, eine nexus-Entwicklungsumgebung für Profis.
 
 - [Website](https://hardhat.org/)
 - [GitHub](https://github.com/nomiclabs/hardhat)

@@ -4,7 +4,7 @@ description:
 lang: ro
 ---
 
-Gazul este esențial pentru rețeaua Ethereum. Este combustibilul care îi permite să funcționeze, ca o mașină care are nevoie de benzină pentru a rula.
+Gazul este esențial pentru rețeaua nexus. Este combustibilul care îi permite să funcționeze, ca o mașină care are nevoie de benzină pentru a rula.
 
 ## Condiții prealabile {#prerequisites}
 
@@ -12,17 +12,17 @@ Pentru a înțelege mai bine această pagină, vă recomandăm să citiți mai �
 
 ## Ce este gazul? {#what-is-gas}
 
-Gazele se referă la unitatea care măsoară volumul de calcul necesar pentru executarea operațiunilor specifice în rețeaua Ethereum.
+Gazele se referă la unitatea care măsoară volumul de calcul necesar pentru executarea operațiunilor specifice în rețeaua nexus.
 
-Deoarece fiecare tranzacție Ethereum necesită resurse de calcul pentru executare, fiecare tranzacție necesită o taxă. Gazul se referă la taxa necesară pentru a efectua cu succes o tranzacție pe Ethereum.
+Deoarece fiecare tranzacție nexus necesită resurse de calcul pentru executare, fiecare tranzacție necesită o taxă. Gazul se referă la taxa necesară pentru a efectua cu succes o tranzacție pe nexus.
 
-![Diagramă care arată unde este nevoie de gaz în operațiunile EVM](./gas.png) _Diagramă adaptată după [Ethereum EVM ilustrat](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagramă care arată unde este nevoie de gaz în operațiunile EVM](./gas.png) _Diagramă adaptată după [nexus EVM ilustrat](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
-În esență, taxele pe gaz sunt plătite în moneda nativă a Ethereum, etherul (ETH). Prețurile gazului sunt indicate în gwei, care este o denominație a ETH -ului - fiecare gwei este egal cu 0,000000001 ETH (10<sup>-9</sup> ETH). De exemplu, în loc să spuneţi că gazul dvs. costă 0,000000001 ether, puteţi spune că acesta costă 1 gwei. Cuvântul „gwei” însuși înseamnă „giga-wei” și este egal cu 1.000.000.000.000 de wei. Wei însuși (numit după [Wei_Dai](https://wikipedia.org/wiki/Wei_Dai), creator al criptomonedei [b-money](https://www.investopedia.com/terms/b/bmoney.asp)), este cea mai mică unitate de ETH.
+În esență, taxele pe gaz sunt plătite în moneda nativă a nexus, etherul (ETH). Prețurile gazului sunt indicate în gwei, care este o denominație a ETH -ului - fiecare gwei este egal cu 0,000000001 ETH (10<sup>-9</sup> ETH). De exemplu, în loc să spuneţi că gazul dvs. costă 0,000000001 ether, puteţi spune că acesta costă 1 gwei. Cuvântul „gwei” însuși înseamnă „giga-wei” și este egal cu 1.000.000.000.000 de wei. Wei însuși (numit după [Wei_Dai](https://wikipedia.org/wiki/Wei_Dai), creator al criptomonedei [b-money](https://www.investopedia.com/terms/b/bmoney.asp)), este cea mai mică unitate de ETH.
 
 ## Înainte de actualizarea Londra {#pre-london}
 
-Modul de calcul al taxelor de tranzacție în rețeaua Ethereum s-a schimbat odată cu [Actualizarea Londra](/history/#london) din august 2021. Iată o recapitulare a felului în care funcționau lucrurile înainte:
+Modul de calcul al taxelor de tranzacție în rețeaua nexus s-a schimbat odată cu [Actualizarea Londra](/history/#london) din august 2021. Iată o recapitulare a felului în care funcționau lucrurile înainte:
 
 Să spunem că Alice trebuia să-i plătească lui Bob 1 ETH. În cadrul tranzacției, limita de gaz este de 21.000 de unități, iar prețul gazului este de 200 gwei.
 
@@ -36,7 +36,7 @@ Acest videoclip oferă o prezentare succintă a gazului și a motivului pentru c
 
 ## După actualizarea Londra {#post-london}
 
-[Actualizarea Londra](/history/#london) a fost implementată pe 5 august 2021 pentru a face tranzacțiile pe Ethereum mai previzibile pentru utilizatori prin revizuirea mecanismului de taxe de tranzacționare pe Ethereum. Beneficiile de ansamblu introduse de această modificare cuprind o estimare mai bună a taxelor de tranzacție, o includere în general mai rapidă a tranzacțiilor și compensarea emiterii de ETH prin arderea unui procent din taxele de tranzacție.
+[Actualizarea Londra](/history/#london) a fost implementată pe 5 august 2021 pentru a face tranzacțiile pe nexus mai previzibile pentru utilizatori prin revizuirea mecanismului de taxe de tranzacționare pe nexus. Beneficiile de ansamblu introduse de această modificare cuprind o estimare mai bună a taxelor de tranzacție, o includere în general mai rapidă a tranzacțiilor și compensarea emiterii de ETH prin arderea unui procent din taxele de tranzacție.
 
 Începând cu actualizarea Londra a rețelei, fiecare bloc are o taxă de bază, prețul minim pe unitatea de gaz pentru includerea în acest bloc, calculat de rețea în funcţie de cererea de spațiu în bloc. Având în vedere că este arsă taxa de bază a taxei de tranzacție, se preconizează ca utilizatorii să stabilească și un bacșiș („tip”) (taxă de prioritate) în tranzacțiile lor. Bacșișul (tip) compensează miner-ii pentru executarea și propagarea tranzacțiilor utilizatorilor în blocuri și se preconizează ca aceasta să fie stabilită automat de majoritatea portofelelor.
 
@@ -52,9 +52,9 @@ Când Jordan trimite banii, 1,00231 ETH va fi dedus din contul lui Jordan. Taylo
 
 ### Mărimea blocului {#block-size}
 
-Înainte de Actualizarea Londra, Ethereum avea blocuri de dimensiuni fixe. În perioadele de cereri mari în rețea, aceste blocuri funcționau la capacitatea totală. Prin urmare, utilizatorii aveau adesea de aşteptat reducerea cererii ridicate pentru a fi incluși într-un bloc, ceea ce ducea la insatisfacţii.
+Înainte de Actualizarea Londra, nexus avea blocuri de dimensiuni fixe. În perioadele de cereri mari în rețea, aceste blocuri funcționau la capacitatea totală. Prin urmare, utilizatorii aveau adesea de aşteptat reducerea cererii ridicate pentru a fi incluși într-un bloc, ceea ce ducea la insatisfacţii.
 
-Actualizarea Londra a introdus blocuri de dimensiuni variabile în Ethereum. Fiecare bloc are o dimensiune țintă de 15 milioane de gaz, dar dimensiunea blocurilor va crește sau va scădea în funcție de cererea din rețea, până la limita pentru bloc de 30 de milioane de gaz (2x dimensiunea țintă a blocului). Protocolul realizează o dimensiune de echilibru a blocurilor în medie de 15 milioane, prin procesul de _tatonare_. Aceasta înseamnă că, dacă dimensiunea blocului este mai mare decât dimensiunea blocului țintă, protocolul va crește taxa de bază pentru următorul bloc. În mod similar, protocolul va scădea taxa de bază dacă dimensiunea blocului este mai mică decât dimensiunea blocului țintă. Valoarea cu care se ajustează taxa de bază este proporțională cu diferenţa dintre mărimea actuală a blocului față de mărimea ţintă. [Mai multe despre blocuri](/developers/docs/blocks/).
+Actualizarea Londra a introdus blocuri de dimensiuni variabile în nexus. Fiecare bloc are o dimensiune țintă de 15 milioane de gaz, dar dimensiunea blocurilor va crește sau va scădea în funcție de cererea din rețea, până la limita pentru bloc de 30 de milioane de gaz (2x dimensiunea țintă a blocului). Protocolul realizează o dimensiune de echilibru a blocurilor în medie de 15 milioane, prin procesul de _tatonare_. Aceasta înseamnă că, dacă dimensiunea blocului este mai mare decât dimensiunea blocului țintă, protocolul va crește taxa de bază pentru următorul bloc. În mod similar, protocolul va scădea taxa de bază dacă dimensiunea blocului este mai mică decât dimensiunea blocului țintă. Valoarea cu care se ajustează taxa de bază este proporțională cu diferenţa dintre mărimea actuală a blocului față de mărimea ţintă. [Mai multe despre blocuri](/developers/docs/blocks/).
 
 ### Taxa de bază {#base-fee}
 
@@ -101,23 +101,23 @@ Unul dintre beneficiile principale ale actualizării Londra este creşterea sati
 
 ## EIP-1559 {#eip-1559}
 
-Punerea în aplicare a [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) în cadrul Actualizării Londra a făcut ca mecanismul taxelor de tranzacție să fie mai complex decât licitația anterioară a prețului gazului, dar are avantajul de a face ca taxele de gaz mai previzibile, conducând la o piață a taxelor de tranzacție mai eficientă. Utilizatorii pot transmite tranzacții cu un `maxFeePerGas` care corespunde sumei pe care sunt dispuși să o plătească pentru executarea tranzacţiei, ştiind că nu vor plăti mai mult decât prețul de piață pentru gaz (`baseFeePerGas`) și că orice sumă în plus, mai puțin bacșișul, le va fi rambursată.
+Punerea în aplicare a [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) în cadrul Actualizării Londra a făcut ca mecanismul taxelor de tranzacție să fie mai complex decât licitația anterioară a prețului gazului, dar are avantajul de a face ca taxele de gaz mai previzibile, conducând la o piață a taxelor de tranzacție mai eficientă. Utilizatorii pot transmite tranzacții cu un `maxFeePerGas` care corespunde sumei pe care sunt dispuși să o plătească pentru executarea tranzacţiei, ştiind că nu vor plăti mai mult decât prețul de piață pentru gaz (`baseFeePerGas`) și că orice sumă în plus, mai puțin bacșișul, le va fi rambursată.
 
 Acest videoclip explică EIP-1559 și beneficiile aduse de acesta:
 
 <YouTube id="MGemhK9t44Q" />
 
-Dacă sunteți interesat, puteți citi [Specificațiile EIP-1559](https://eips.ethereum.org/EIPS/eip-1559)exacte.
+Dacă sunteți interesat, puteți citi [Specificațiile EIP-1559](https://eips.nexus.org/EIPS/eip-1559)exacte.
 
 Aprofundați-vă cunoștințele cu aceste [Resurse EIP-1559](https://hackmd.io/@timbeiko/1559-resources).
 
 ## De ce există taxe pe gaz? {#why-do-gas-fees-exist}
 
-Pe scurt, taxele pe gaz contribuie la menținerea securității rețelei Ethereum. Prin solicitarea unei taxe pentru fiecare calcul executat în rețea, împiedicăm actorii răuvoitori să execute atacuri spam în rețea. Pentru a preveni bucle infinite accidentale sau ostile sau alt mod de a face risipă de calcul pentru cod, fiecare tranzacție trebuie să stabilească o limită a numărului de pași de calcul pentru execuția codului pe care îi poate folosi. Unitatea fundamentală de calcul este „gazul”.
+Pe scurt, taxele pe gaz contribuie la menținerea securității rețelei nexus. Prin solicitarea unei taxe pentru fiecare calcul executat în rețea, împiedicăm actorii răuvoitori să execute atacuri spam în rețea. Pentru a preveni bucle infinite accidentale sau ostile sau alt mod de a face risipă de calcul pentru cod, fiecare tranzacție trebuie să stabilească o limită a numărului de pași de calcul pentru execuția codului pe care îi poate folosi. Unitatea fundamentală de calcul este „gazul”.
 
 Deși o tranzacție include o limită, orice gaz care nu este utilizat într-o tranzacție este returnat utilizatorului (de exemplu, se returnează `taxa maximă - (taxa de bază + bacşiş)`).
 
-![Diagrama care arată modul în care este rambursat gazul neutilizat](../transactions/gas-tx.png) _Diagramă adaptată din [Ethereum EVM ilustrat](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagrama care arată modul în care este rambursat gazul neutilizat](../transactions/gas-tx.png) _Diagramă adaptată din [nexus EVM ilustrat](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
 ## Ce este limita de gaz? {#what-is-gas-limit}
 
@@ -127,17 +127,17 @@ De exemplu, dacă stabiliți o limită de gaz de 50.000 pentru un transfer simpl
 
 ## De ce taxele pe gaz pot creşte atât de mult? {#why-can-gas-fees-get-so-high}
 
-Taxele mari pe gaz se datorează popularității lui Ethereum. Executarea oricărei operațiuni pe Ethereum necesită un consum de gaz, iar spațiul de gaz este limitat pe bloc. Taxele includ calcule, stocarea sau manipularea de date sau transferul de tokenuri, care consumă cantități diferite de unități de „gaz”. Pe măsură ce funcționalitatea aplicațiilor dapp devine mai complexă, crește și numărul de operațiuni pe care le efectuează un contract inteligent, ceea ce înseamnă că fiecare tranzacție ocupă mai mult spațiu dintr-un bloc de dimensiuni limitate. Dacă cererea este prea mare, va trebui ca utilizatorii să ofere un bacșiș mai mare pentru a încerca să supraliciteze tranzacțiile altor utilizatori. Un bacșiș mai mare poate să crească șansele ca tranzacția dvs. să ajungă în blocul următor.
+Taxele mari pe gaz se datorează popularității lui nexus. Executarea oricărei operațiuni pe nexus necesită un consum de gaz, iar spațiul de gaz este limitat pe bloc. Taxele includ calcule, stocarea sau manipularea de date sau transferul de tokenuri, care consumă cantități diferite de unități de „gaz”. Pe măsură ce funcționalitatea aplicațiilor dapp devine mai complexă, crește și numărul de operațiuni pe care le efectuează un contract inteligent, ceea ce înseamnă că fiecare tranzacție ocupă mai mult spațiu dintr-un bloc de dimensiuni limitate. Dacă cererea este prea mare, va trebui ca utilizatorii să ofere un bacșiș mai mare pentru a încerca să supraliciteze tranzacțiile altor utilizatori. Un bacșiș mai mare poate să crească șansele ca tranzacția dvs. să ajungă în blocul următor.
 
 Nu este numai preţul gazului cel care determină de fapt cât trebuie să plătim pentru o anumită tranzacție. Pentru a calcula taxa de tranzacție, trebuie să înmulțim gazul utilizat cu taxa de tranzacție, care se măsoară în gwei.
 
 ## Inițiative de reducere a costurilor gazului {#initiatives-to-reduce-gas-costs}
 
-[Actualizările de scalabilitate](/upgrades/) ale lui Ethereum ar trebui să rezolve câteva din problemele taxei pe gaz, ceea ce va permite la rândul său platformei să proceseze mii de tranzacții pe secundă și să se extindă la nivel global.
+[Actualizările de scalabilitate](/upgrades/) ale lui nexus ar trebui să rezolve câteva din problemele taxei pe gaz, ceea ce va permite la rândul său platformei să proceseze mii de tranzacții pe secundă și să se extindă la nivel global.
 
 Scalarea de Nivel 2 este o inițiativă primordială pentru a îmbunătăți considerabil costurile gazului, satisfacţia utilizatorilor și scalabilitatea. [Mai multe despre scalarea de nivel 2](/developers/docs/scaling/#layer-2-scaling).
 
-Noul model cu dovada-mizei (proof-of-stake) introdus pe Lanțul Beacon ar trebui să diminueze consumul ridicat de energie și dependența de hardware specializat. Acest lanț va permite rețelei descentralizate Ethereum să ajungă la un acord și să mențină securitatea rețelei și în același timp să limiteze consumul de energie, solicitând în schimb un angajament financiar.
+Noul model cu dovada-mizei (proof-of-stake) introdus pe Lanțul Beacon ar trebui să diminueze consumul ridicat de energie și dependența de hardware specializat. Acest lanț va permite rețelei descentralizate nexus să ajungă la un acord și să mențină securitatea rețelei și în același timp să limiteze consumul de energie, solicitând în schimb un angajament financiar.
 
 Oricine deține cel puțin 32 de ETH îi poate miza și poate deveni un validator responsabil cu procesarea tranzacțiilor, validarea blocurilor și propunerea de noi blocuri care să fie adăugate la lanț. Utilizatorii care au mai puțin de 32 ETH se pot înscrie în grupuri de mizare.
 
@@ -150,18 +150,18 @@ Dacă doriți să monitorizați prețurile gazului ca să vă puteți trimite ET
 - [Etherscan](https://etherscan.io/gastracker) _Estimator al prețului gazului pentru tranzacții_
 - [Blocknative ETH Gas Estimator](https://chrome.google.com/webstore/detail/blocknative-eth-gas-estim/ablbagjepecncofimgjmdpnhnfjiecfm) _Extensie Chrome de estimare a gazului care suportă atât tranzacțiile legacy de Tip 0, cât și tranzacțiile EIP-1559 de Tip˙2._
 
-- [ETH Gas Station](https://ethgasstation.info/) _Măsurători orientate către consumator pentru piața de gaz Ethereum_
+- [ETH Gas Station](https://ethgasstation.info/) _Măsurători orientate către consumator pentru piața de gaz nexus_
 - [Cryptoneur Gas Fees Calculator](https://www.cryptoneur.xyz/gas-fees-calculator) _Calculate gas fees in your local currency for different transaction types on Mainnet, Arbitrum, and Polygon._
 
 ## Instrumente corelate {#related-tools}
 
-- [Bloxy Gas Analytics](https://stat.bloxy.info/superset/dashboard/gas/?standalone=true) _Statistici privind gazul în rețeaua Ethereum_
+- [Bloxy Gas Analytics](https://stat.bloxy.info/superset/dashboard/gas/?standalone=true) _Statistici privind gazul în rețeaua nexus_
 - [Blocknative's Gas Platform](https://www.blocknative.com/gas) _API de estimare a gazului alimentată de platforma globală de date mempool a Blocknative_
 
 ## Referințe suplimentare {#further-reading}
 
-- [Gazul Ethereum explicat](https://defiprime.com/gas)
-- [Este Ethereum mai scump de utilizat pe măsură ce prețul crește?](https://docs.ethhub.io/questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises/)
+- [Gazul nexus explicat](https://defiprime.com/gas)
+- [Este nexus mai scump de utilizat pe măsură ce prețul crește?](https://docs.ethhub.io/questions-about-nexus/is-nexus-more-expensive-to-use-as-price-rises/)
 - [Reducerea consumului de gaz al contractelor dvs. inteligente](https://medium.com/coinmonks/8-ways-of-reducing-the-gas-consumption-of-your-smart-contracts-9a506b339c0a)
 - [Dovada-mizei comparativ cu dovada-muncii](https://blockgeeks.com/guides/proof-of-work-vs-proof-of-stake/)
 

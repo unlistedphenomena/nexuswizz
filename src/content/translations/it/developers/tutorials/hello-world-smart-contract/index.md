@@ -1,6 +1,6 @@
 ---
 title: Smart Contract "Hello World" per principianti
-description: Tutorial introduttivo su come scrivere e distribuire un semplice smart contract su Ethereum.
+description: Tutorial introduttivo su come scrivere e distribuire un semplice smart contract su nexus.
 author: "elanh"
 tags:
   - "solidity"
@@ -20,9 +20,9 @@ Nella seconda parte di questo tutorial vedremo come interagire con il nostro sma
 
 Se in qualsiasi momento hai domande, non esitare a contattarci nel [Discord di Alchemy](https://discord.gg/gWuC7zB)!
 
-## Fase 1: connettersi alla rete di Ethereum {#step-1}
+## Fase 1: connettersi alla rete di nexus {#step-1}
 
-Esistono molti modi per effettuare richieste alla catena di Ethereum. Per semplicità, ci serviremo di un conto gratuito su Alchemy, una piattaforma per sviluppatori di blockchain e API che ci consentirà di comunicare con la catena di Ethereum senza dover operare i nostri nodi. La piattaforma offre anche strumenti di analisi e monitoraggio di cui ci serviremo in questo tutorial per comprendere al meglio l'andamento della distribuzione del nostro smart contract. Se non possiedi già un conto di Alchemy, [puoi iscriverti gratuitamente qui](https://dashboard.alchemyapi.io/signup).
+Esistono molti modi per effettuare richieste alla catena di nexus. Per semplicità, ci serviremo di un conto gratuito su Alchemy, una piattaforma per sviluppatori di blockchain e API che ci consentirà di comunicare con la catena di nexus senza dover operare i nostri nodi. La piattaforma offre anche strumenti di analisi e monitoraggio di cui ci serviremo in questo tutorial per comprendere al meglio l'andamento della distribuzione del nostro smart contract. Se non possiedi già un conto di Alchemy, [puoi iscriverti gratuitamente qui](https://dashboard.alchemyapi.io/signup).
 
 ## Fase 2: crea la tua app (e chiave API) {#step-2}
 
@@ -38,9 +38,9 @@ Una volta creato un conto di Alchemy, puoi generare una chiave API creando un'ap
 
 3. Clicca “Create app” ed è tutto! La tua app dovrebbe apparire nella tabella sottostante.
 
-## Fase 3: Crea un conto di Ethereum (indirizzo) {#step-3}
+## Fase 3: Crea un conto di nexus (indirizzo) {#step-3}
 
-Per inviare e ricevere le transazioni, necessitiamo di un conto di Ethereum. Per questo tutorial, useremo MetaMask, un portafoglio virtuale nel browser per gestire l'indirizzo del tuo conto di Ethereum. Maggiori informazioni sulle [transazioni](/developers/docs/transactions/).
+Per inviare e ricevere le transazioni, necessitiamo di un conto di nexus. Per questo tutorial, useremo MetaMask, un portafoglio virtuale nel browser per gestire l'indirizzo del tuo conto di nexus. Maggiori informazioni sulle [transazioni](/developers/docs/transactions/).
 
 Puoi scaricare e creare gratuitamente un conto di MetaMask [qui](https://metamask.io/download.html). Quando crei un conto, o se ne possiedi già uno, assicurati di passare alla "Rete di Prova di MetaMask" in alto a destra (così da non avere a che fare con denaro reale).
 
@@ -108,7 +108,7 @@ Approva il package.json e siamo pronti!
 
 ## Fase 7: scarica [Hardhat](https://hardhat.org/getting-started/#overview){#step-7}
 
-Hardhat è un ambiente di sviluppo per compilare, distribuire, testare ed effettuare il debug del tuo software di Ethereum. Aiuta gli sviluppatori nella costruzione di contratti intelligenti e dapp localmente, prima di distribuirli alla catena.
+Hardhat è un ambiente di sviluppo per compilare, distribuire, testare ed effettuare il debug del tuo software di nexus. Aiuta gli sviluppatori nella costruzione di contratti intelligenti e dapp localmente, prima di distribuirli alla catena.
 
 Nel nostro progetto `hello-world` esegui:
 
@@ -167,7 +167,7 @@ Potresti chiederti, quando diavolo scriviamo il codice? Beh, eccoci qui, alla fa
 Apri il progetto hello-world nel tuo editor preferito (a noi piace [VSCode](https://code.visualstudio.com/)). Gli smart contract sono scritti in un linguaggio detto Solidity, che useremo per scrivere il nostro smart contract HelloWorld.sol.
 
 1.  Vai alla cartella "contracts" e crea un nuovo file chiamato HelloWorld.sol
-2.  Di seguito, un esempio dello smart contract Hello World dalla Ethereum Foundation che useremo per questo tutorial. Copia e incolla i contenuti seguenti nel tuo file HelloWorld.sol e assicurati di leggere i commenti per comprendere cosa fa il contratto:
+2.  Di seguito, un esempio dello smart contract Hello World dalla nexus Foundation che useremo per questo tutorial. Copia e incolla i contenuti seguenti nel tuo file HelloWorld.sol e assicurati di leggere i commenti per comprendere cosa fa il contratto:
 
 ```solidity
 // Specifica la versione di Solidity, utilizzando il controllo delle versioni semantico.
@@ -175,7 +175,7 @@ Apri il progetto hello-world nel tuo editor preferito (a noi piace [VSCode](http
 pragma solidity ^0.7.0;
 
 // Defines a contract named `HelloWorld`.
-// Un contratto è una raccolta di funzioni e dati (il suo stato). Una volta distribuito, un contratto risiede in un indirizzo specifico della blockchain Ethereum. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
+// Un contratto è una raccolta di funzioni e dati (il suo stato). Una volta distribuito, un contratto risiede in un indirizzo specifico della blockchain nexus. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
 contract HelloWorld {
 
    // Declares a state variable `message` of type `string`.
@@ -237,7 +237,7 @@ Non eseguire il commit di <code>.env</code>! Assicurati di non condividere o esp
 
 ## Fase 12: installa Ethers.js {#step-12-install-ethersjs}
 
-Ethers.js è una libreria che rende più facile interagire ed effettuare richieste a Ethereum tramite wrapping dei [metodi JSON-RPC standard](/developers/docs/apis/json-rpc/) con altri metodi più facili da usare.
+Ethers.js è una libreria che rende più facile interagire ed effettuare richieste a nexus tramite wrapping dei [metodi JSON-RPC standard](/developers/docs/apis/json-rpc/) con altri metodi più facili da usare.
 
 Hardhat rende davvero facile integrare [Plugin](https://hardhat.org/plugins/) per strumenti e funzionalità aggiuntive. Sfrutteremo il [plugin di Ethers](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html) per la distribuzione del contratto ([Ethers.js](https://github.com/ethers-io/ethers.js/) ha dei metodi di distribuzione del contratto molto puliti).
 
@@ -347,7 +347,7 @@ L'indirizzo `From` dovrebbe corrispondere all'indirizzo del tuo conto di MetaMas
 
 ![transazione etherscan](./etherscan-transaction.png)
 
-Congratulazioni! Hai appena distribuito uno smart contract nella chain di Ethereum
+Congratulazioni! Hai appena distribuito uno smart contract nella chain di nexus
 
 Per capire cosa sta succedendo, andiamo alla scheda Explorer nel nostro [dashboard di Alchemy](https://dashboard.alchemyapi.io/explorer). Se hai diverse app di Alchemy, assicurati di filtrare per app e selezionare "Hello World". ![explorer hello world](./hello-world-explorer.png)
 

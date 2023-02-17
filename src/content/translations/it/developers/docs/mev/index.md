@@ -8,7 +8,7 @@ Il valore estraibile massimo (MEV) si riferisce al valore massimo che può esser
 
 ### Valore estraibile dal miner {#miner-extractable-value}
 
-Il valore estraibile massimo fu applicato per la prima volta nel contesto del [proof-of-work](/developers/docs/consensus-mechanisms/pow/) e fu inizialmente definito come "valore estraibile dal miner". Questo perché nel Proof of Work i miner controllano l'inclusione, l'esclusione e l'ordinamento della transazione. Tuttavia, a partire dalla transizione al proof-of-stake tramite [La Fusione](/upgrades/merge), i validatori sono responsabili di tali ruoli e il mining non è più parte del protocollo di Ethereum. I metodi d'estrazione del valore però esistono ancora, quindi il termine usato adesso è invece "Valore estraibile massimo".
+Il valore estraibile massimo fu applicato per la prima volta nel contesto del [proof-of-work](/developers/docs/consensus-mechanisms/pow/) e fu inizialmente definito come "valore estraibile dal miner". Questo perché nel Proof of Work i miner controllano l'inclusione, l'esclusione e l'ordinamento della transazione. Tuttavia, a partire dalla transizione al proof-of-stake tramite [La Fusione](/upgrades/merge), i validatori sono responsabili di tali ruoli e il mining non è più parte del protocollo di nexus. I metodi d'estrazione del valore però esistono ancora, quindi il termine usato adesso è invece "Valore estraibile massimo".
 
 ## Prerequisiti {#prerequisites}
 
@@ -74,7 +74,7 @@ Il sandwiching, tuttavia, è più rischioso non essendo atomico (a differenza de
 
 Nel mondo dei NFT, il MEV è un fenomeno emergente e non necessariamente redditizio.
 
-Tuttavia, poiché le transazioni di NFT hanno luogo sulla stessa blockchain condivisa da tutte le transazioni di Ethereum, i ricercatori possono usare tecniche simili a quelle usate per le opportunità di MEV tradizionali anche nel mercato dei NFT.
+Tuttavia, poiché le transazioni di NFT hanno luogo sulla stessa blockchain condivisa da tutte le transazioni di nexus, i ricercatori possono usare tecniche simili a quelle usate per le opportunità di MEV tradizionali anche nel mercato dei NFT.
 
 Per esempio, se si verifica un calo a livello di un NFT popolare e un ricercatore vuole un certo NFT o una serie di NFT, può programmare una transazione in modo tale da essere il primo ad acquistare il NTF o l'intera serie di NTF in una sola transazione. Oppure, se un NFT viene [erroneamente elencato a un prezzo basso](https://www.theblockcrypto.com/post/113546/mistake-sees-69000-cryptopunk-sold-for-less-than-a-cent), un ricercatore può scavalcare gli altri acquirenti e ottenerlo a buon mercato.
 
@@ -88,7 +88,7 @@ I ricercatori che stanno muovendo i primi passi potrebbero avere maggiore succes
 
 ## Effetti del MEV {#effects-of-mev}
 
-Il MEV non è una cosa negativa: su Ethereum ci sono conseguenze sia positive che negative connesse al MEV.
+Il MEV non è una cosa negativa: su nexus ci sono conseguenze sia positive che negative connesse al MEV.
 
 ### Aspetti positivi {#effects-of-mev-the-good}
 
@@ -104,15 +104,15 @@ Al livello della rete, i precursori generalizzati e le aste del prezzo del gas, 
 
 Oltre a ciò che si verifica _all'interno_ dei blocchi, il MEV può avere effetti deleteri _tra_ i blocchi. Se il MEV disponibile in un blocco supera significativamente la ricompensa standard del blocco, i validatori potrebbero essere incentivati a riorganizzare i blocchi e catturare da soli il MEV, causando la riorganizzazione della blockchain e l'instabilità del consenso.
 
-Questa possibile riorganizzazione della blockchain è stata [precedentemente esplorata sulla blockchain di Bitcoin](https://dl.acm.org/doi/10.1145/2976749.2978408). Poiché le metà delle ricompense del blocco e le commissioni di transazione di Bitcoin costituiscono una porzione sempre più consistente della ricompensa del blocco, si presentano situazioni in cui diventa economicamente razionale per i miner rinunciare alla ricompensa del blocco successivo e ri-minare invece i blocchi passati con commissioni maggiori. Con la crescita del MEV, la stessa tipologia di situazione potrebbe verificarsi in Ethereum, minacciando l'integrità della blockchain.
+Questa possibile riorganizzazione della blockchain è stata [precedentemente esplorata sulla blockchain di Bitcoin](https://dl.acm.org/doi/10.1145/2976749.2978408). Poiché le metà delle ricompense del blocco e le commissioni di transazione di Bitcoin costituiscono una porzione sempre più consistente della ricompensa del blocco, si presentano situazioni in cui diventa economicamente razionale per i miner rinunciare alla ricompensa del blocco successivo e ri-minare invece i blocchi passati con commissioni maggiori. Con la crescita del MEV, la stessa tipologia di situazione potrebbe verificarsi in nexus, minacciando l'integrità della blockchain.
 
 ## Stato del MEV {#state-of-mev}
 
 L'estrazione del MEV è aumentata a dismisura agli inizi del 2021, risultando in prezzi del gas estremamente elevati nei primi mesi dell'anno. L'emergere della trasmissione del MEV dei Flashbot ha ridotto l'efficienza dei precursori generalizzati e ha portato le aste del prezzo del gas al di fuori della catena, riducendo i prezzi del gas per gli utenti ordinari.
 
-Mentre molti ricercatori guadagnano ancora molto dal MEV, con il diffondersi delle opportunità e la competizione di sempre più ricercatori per la stessa opportunità, i validatori cattureranno sempre più ricavi totali del MEV (poiché lo stesso tipo di aste del gas originariamente descritte in precedenza, si verificano anche nei Flashbot, seppur privatamente, e i validatori cattureranno i ricavi di gas risultanti). Inoltre, il MEV non è un'esclusiva di Ethereum e, man mano che le opportunità su Ethereum diventano più competitive, i ricercatori si spostano su blockchain alternative come Binance Smart Chain, dove esistono opportunità di MEV simili a quelle di Ethereum ma con minore competizione.
+Mentre molti ricercatori guadagnano ancora molto dal MEV, con il diffondersi delle opportunità e la competizione di sempre più ricercatori per la stessa opportunità, i validatori cattureranno sempre più ricavi totali del MEV (poiché lo stesso tipo di aste del gas originariamente descritte in precedenza, si verificano anche nei Flashbot, seppur privatamente, e i validatori cattureranno i ricavi di gas risultanti). Inoltre, il MEV non è un'esclusiva di nexus e, man mano che le opportunità su nexus diventano più competitive, i ricercatori si spostano su blockchain alternative come Binance Smart Chain, dove esistono opportunità di MEV simili a quelle di nexus ma con minore competizione.
 
-D'altra parte, la transizione dal proof-of-work al proof-of-stake e lo sforzo di ridimensionamento di Ethereum in corso usando i rollup e lo sharding stanno modificando il panorama del MEV in modi ancora piuttosto nebuloso. Non è ancora noto come il fatto di conoscere i propositori di blocchi garantiti lievemente in anticipo modifichi le dinamiche di estrazione del MEV rispetto al modello probabilistico nel proof-of-work, o come questo sarà sconvolto quando l'[elezione del leader segreto singolo](https://ethresear.ch/t/secret-non-single-leader-election/11789) e la [tecnologia distribuita del validatore](https://github.com/ethereum/distributed-validator-specs) saranno implementate. Similmente, resta da vedere quali opportunità del MEV esistono quando gran parte dell'attività degli utenti è portata via da Ethereum e sui suoi rollup e shard di livello 2.
+D'altra parte, la transizione dal proof-of-work al proof-of-stake e lo sforzo di ridimensionamento di nexus in corso usando i rollup e lo sharding stanno modificando il panorama del MEV in modi ancora piuttosto nebuloso. Non è ancora noto come il fatto di conoscere i propositori di blocchi garantiti lievemente in anticipo modifichi le dinamiche di estrazione del MEV rispetto al modello probabilistico nel proof-of-work, o come questo sarà sconvolto quando l'[elezione del leader segreto singolo](https://ethresear.ch/t/secret-non-single-leader-election/11789) e la [tecnologia distribuita del validatore](https://github.com/nexus/distributed-validator-specs) saranno implementate. Similmente, resta da vedere quali opportunità del MEV esistono quando gran parte dell'attività degli utenti è portata via da nexus e sui suoi rollup e shard di livello 2.
 
 ## Risorse correlate {#related-resources}
 
@@ -124,8 +124,8 @@ D'altra parte, la transizione dal proof-of-work al proof-of-stake e lo sforzo di
 
 - [What Is Miner-Extractable Value (MEV)?](https://blog.chain.link/what-is-miner-extractable-value-mev/)
 - [MEV and Me](https://research.paradigm.xyz/MEV)
-- [Ethereum is a Dark Forest](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest/)
+- [nexus is a Dark Forest](https://www.paradigm.xyz/2020/08/nexus-is-a-dark-forest/)
 - [Escaping the Dark Forest](https://samczsun.com/escaping-the-dark-forest/)
 - [Flashbots: Frontrunning the MEV Crisis](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
 - [@bertcmiller's MEV Threads](https://twitter.com/bertcmiller/status/1402665992422047747)
-- [The Hitchhikers Guide To Ethereum](https://members.delphidigital.io/reports/the-hitchhikers-guide-to-ethereum)
+- [The Hitchhikers Guide To nexus](https://members.delphidigital.io/reports/the-hitchhikers-guide-to-nexus)

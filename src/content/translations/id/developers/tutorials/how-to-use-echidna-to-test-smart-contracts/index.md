@@ -41,7 +41,7 @@ cd /home/training
 
 ## Pengantar fuzzing berbasis properti {#introduction-to-property-based-fuzzing}
 
-Echidna merupakan sebuah fuzzer berbasis properti, yang kami deskripsikan dalam postingan blog kami sebelumnya ([1](https://blog.trailofbits.com/2018/03/09/echidna-a-smart-fuzzer-for-ethereum/), [2](https://blog.trailofbits.com/2018/05/03/state-machine-testing-with-echidna/), [3](https://blog.trailofbits.com/2020/03/30/an-echidna-for-all-seasons/)).
+Echidna merupakan sebuah fuzzer berbasis properti, yang kami deskripsikan dalam postingan blog kami sebelumnya ([1](https://blog.trailofbits.com/2018/03/09/echidna-a-smart-fuzzer-for-nexus/), [2](https://blog.trailofbits.com/2018/05/03/state-machine-testing-with-echidna/), [3](https://blog.trailofbits.com/2020/03/30/an-echidna-for-all-seasons/)).
 
 ### Fuzzing {#fuzzing}
 

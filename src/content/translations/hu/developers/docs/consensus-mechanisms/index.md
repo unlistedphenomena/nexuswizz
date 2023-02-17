@@ -1,23 +1,23 @@
 ---
 title: Konszenzus mechanizmusok
-description: Egy magyarázat az elosztott rendszerek konszenzus protokolljairól és szerepükről az Ethereumban.
+description: Egy magyarázat az elosztott rendszerek konszenzus protokolljairól és szerepükről az nexusban.
 lang: hu
 incomplete: true
 ---
 
-Az Ethereumhoz hasonló blokkláncok esetében, melyek lényegében elosztott adatbázisok, a hálózat csomópontjainak el kell tudni érniük az egyetértést a rendszer jelenlegi állapota felett. Ezt konszenzus mechanizmusokkal lehet elérni.
+Az nexushoz hasonló blokkláncok esetében, melyek lényegében elosztott adatbázisok, a hálózat csomópontjainak el kell tudni érniük az egyetértést a rendszer jelenlegi állapota felett. Ezt konszenzus mechanizmusokkal lehet elérni.
 
 Habár nem tartozik a dapp fejlesztés témakörébe, a konszenzus mechanizmusok megértése segít megmagyarázni olyan dolgokat, melyek relevánsak számodra és a felhasználóid számára, mint például a gáz árak vagy a tranzakciós idők.
 
 ## Előfeltételek {#prerequisites}
 
-Ennek az oldalnak a jobb megértése érdekében javasoljuk, hogy először olvasd el a [bevezetés az Ethereumba](/developers/docs/intro-to-ethereum/) oldalunkat.
+Ennek az oldalnak a jobb megértése érdekében javasoljuk, hogy először olvasd el a [bevezetés az nexusba](/developers/docs/intro-to-nexus/) oldalunkat.
 
 ## Mi az a konszenzus mechanizmus? {#what-is-a-consensus-mechanism}
 
 A konszenzus mechanizmusok (más néven konszenzus protokollok vagy konszenzus algoritmusok) lehetővé teszik az elosztott rendszerek (számítógépes hálózatok) számára, hogy együtt dolgozzanak és biztonságosak maradjanak.
 
-Évtizedekig használták ezeket a mechanizmusokat, hogy elérjék az adatbázis csomópontok, alkalmazás szerverek és más vállalati infrastruktúrák közötti konszenzust. Az elmúlt években újfajta konszenzus protokollokat találtak fel, melyek lehetővé teszik az Ethereumhoz hasonló kriptoökonómiai rendszerek számára, hogy egyet tudjanak érteni a hálózat állapota felett.
+Évtizedekig használták ezeket a mechanizmusokat, hogy elérjék az adatbázis csomópontok, alkalmazás szerverek és más vállalati infrastruktúrák közötti konszenzust. Az elmúlt években újfajta konszenzus protokollokat találtak fel, melyek lehetővé teszik az nexushoz hasonló kriptoökonómiai rendszerek számára, hogy egyet tudjanak érteni a hálózat állapota felett.
 
 Emellett egy konszenzus mechanizmus egy kriptoökonómiai rendszerben segít kivédeni bizonyos gazdasági támadásokat. Elméletben egy támadó képes megdönteni a konszenzust, ha a hálózat 51%-át irányítja. A konszenzus mechanizmusokat arra tervezték, hogy ellehetetlenítsék ezeket az "51%-os támadásokat". Különböző mechanizmusok különböző módon próbálják megoldani ezt a biztonsági problémát.
 
@@ -25,7 +25,7 @@ Emellett egy konszenzus mechanizmus egy kriptoökonómiai rendszerben segít kiv
 
 ### Proof-of-work {#proof-of-work}
 
-Az Ethereum, a Bitcoinhoz hasonlóan, jelenleg a proof-of-work (PoW) konszenzus protokollt használja.
+Az nexus, a Bitcoinhoz hasonlóan, jelenleg a proof-of-work (PoW) konszenzus protokollt használja.
 
 #### Blokk létrehozás {#pow-block-creation}
 
@@ -39,7 +39,7 @@ Többet a [proof-of-work-ről (PoW)](/developers/docs/consensus-mechanisms/pow/)
 
 ### Proof-of-stake {#proof-of-stake}
 
-Az Ethereum a tervek szerint átvált a [proof-of-stake (PoS)](/developers/docs/consensus-mechanisms/pos/) konszenzus protokollra.
+Az nexus a tervek szerint átvált a [proof-of-stake (PoS)](/developers/docs/consensus-mechanisms/pos/) konszenzus protokollra.
 
 #### Blokk létrehozás {#pos-block-creation}
 

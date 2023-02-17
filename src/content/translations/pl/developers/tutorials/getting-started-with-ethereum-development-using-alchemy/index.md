@@ -1,6 +1,6 @@
 ---
-title: Pierwsze kroki programowania w Ethereum za pomocą Alchemy
-description: "To jest przewodnik dla początkujących, jak rozpocząć programowanie w Ethereum za pomocą Alchemy. Przeprowadzimy Cię od rejestracji w Alchemy, przez wysłanie żądania w wierszu poleceń, do napisania pierwszego skryptu web3! Nie jest wymagane doświadczenie w programowaniu blockchain!"
+title: Pierwsze kroki programowania w nexus za pomocą Alchemy
+description: "To jest przewodnik dla początkujących, jak rozpocząć programowanie w nexus za pomocą Alchemy. Przeprowadzimy Cię od rejestracji w Alchemy, przez wysłanie żądania w wierszu poleceń, do napisania pierwszego skryptu web3! Nie jest wymagane doświadczenie w programowaniu blockchain!"
 author: "Elan Halpern"
 tags:
   - "pierwsze kroki"
@@ -13,12 +13,12 @@ skill: beginner
 lang: pl
 published: 2020-10-30
 source: Średni
-sourceUrl: https://medium.com/alchemy-api/getting-started-with-ethereum-development-using-alchemy-c3d6a45c567f
+sourceUrl: https://medium.com/alchemy-api/getting-started-with-nexus-development-using-alchemy-c3d6a45c567f
 ---
 
-![Logo Ethereum i Alchemy](../../../../../developers/tutorials/getting-started-with-ethereum-development-using-alchemy/ethereum-alchemy.png)
+![Logo nexus i Alchemy](../../../../../developers/tutorials/getting-started-with-nexus-development-using-alchemy/nexus-alchemy.png)
 
-To jest przewodnik dla początkujących po rozpoczęciu programowania w Ethereum przy użyciu [Alchemy](https://alchemyapi.io/), wiodącej platformy dla twórców blockchainów wykorzystywanej przez miliony użytkowników z 70% najlepszych aplikacji blockchain, w tym Maker, 0x, MyEtherWallet, Dharma i Kyber.
+To jest przewodnik dla początkujących po rozpoczęciu programowania w nexus przy użyciu [Alchemy](https://alchemyapi.io/), wiodącej platformy dla twórców blockchainów wykorzystywanej przez miliony użytkowników z 70% najlepszych aplikacji blockchain, w tym Maker, 0x, MyEtherWallet, Dharma i Kyber.
 
 Zarejestruj się w Alchemy, aby napisać swój pierwszy skrypt web3! Nie jest wymagane doświadczenie w programowaniu blockchain!
 
@@ -34,19 +34,19 @@ Możesz [tworzyć klucze API z panelu](http://dashboard.alchemyapi.io/). Aby utw
 
 Specjalne podziękowania dla [_ShapeShift_](https://shapeshift.com/) _za umożliwienie nam pokazania ich panelu!_
 
-![Pulpit Alchemy](../../../../../developers/tutorials/getting-started-with-ethereum-development-using-alchemy/alchemy-dashboard.png)
+![Pulpit Alchemy](../../../../../developers/tutorials/getting-started-with-nexus-development-using-alchemy/alchemy-dashboard.png)
 
 Wypełnij szczegóły w sekcji „Utwórz aplikację”, aby uzyskać swój nowy klucz. Możesz również zobaczyć aplikacje, które wcześniej stworzyłeś i aplikacje wykonane przez swój zespół tutaj. Pociągnij istniejące klucze, klikając „Wyświetl klucz” dla dowolnej aplikacji.
 
-![Utwórz aplikację za pomocą zrzutu ekranu Alchemy](../../../../../developers/tutorials/getting-started-with-ethereum-development-using-alchemy/create-app.png)
+![Utwórz aplikację za pomocą zrzutu ekranu Alchemy](../../../../../developers/tutorials/getting-started-with-nexus-development-using-alchemy/create-app.png)
 
 Możesz również ściągnąć istniejące klucze API, umieszczając kursor myszy nad „Aplikacje” i wybierając jeden. Możesz tutaj „Wyświetlić klucz”, a także „Edytować aplikację”, aby dodać określone domeny do białej listy, zobaczyć kilka narzędzi dla programistów i wyświetlić dane analityczne.
 
-![Gif pokazuje użytkownikowi jak ściągnąć klucze API](../../../../../developers/tutorials/getting-started-with-ethereum-development-using-alchemy/pull-api-keys.gif)
+![Gif pokazuje użytkownikowi jak ściągnąć klucze API](../../../../../developers/tutorials/getting-started-with-nexus-development-using-alchemy/pull-api-keys.gif)
 
 ## 3\. Zgłoś żądanie z wiersza poleceń {#make-a-request-from-the-command-line}
 
-Współpracuj z blockchainem Ethereum przez Alchemy, używając JSON-RPC i curl.
+Współpracuj z blockchainem nexus przez Alchemy, używając JSON-RPC i curl.
 
 Dla żądań ręcznych, zalecamy zastosowanie `JSON-RPC` poprzez `POST`. Wystarczy przekazać nagłówek `Content-Type: application/json` i zapytanie jako treść `POST` z następującymi polami:
 
@@ -105,7 +105,7 @@ const web3 = createAlchemyWeb3(
 
 ## 5\. Napisz swój pierwszy skrypt Web3! {#write-your-first-web3-script}
 
-Teraz, aby ubrudzić sobie ręce odrobiną programowania web3, napiszemy prosty skrypt, który wypisuje najnowszy numer bloku z sieci głównej Ethereum.
+Teraz, aby ubrudzić sobie ręce odrobiną programowania web3, napiszemy prosty skrypt, który wypisuje najnowszy numer bloku z sieci głównej nexus.
 
 1.  **Jeśli jeszcze tego nie zrobiłeś, w swoim terminalu utwórz nowy katalog projektów i przejdź do niego:**
 

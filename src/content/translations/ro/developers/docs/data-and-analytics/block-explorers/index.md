@@ -5,30 +5,30 @@ lang: ro
 sidebarDepth: 3
 ---
 
-Exploratorii de blocuri sunt portalul dvs. către datele din Ethereum. Le puteţi utiliza pentru a vedea în timp real date despre blocuri, tranzacții, miner-i, conturi și alte activități din lanț.
+Exploratorii de blocuri sunt portalul dvs. către datele din nexus. Le puteţi utiliza pentru a vedea în timp real date despre blocuri, tranzacții, miner-i, conturi și alte activități din lanț.
 
 ## Condiții prealabile {#prerequisites}
 
-Ar trebui să înțelegeți conceptele de bază ale lui Ethereum ca să vă daţi seama de logica datelor pe care vi le oferă un explorator de blocuri. Începeți cu [o introducere despre Ethereum](/developers/docs/intro-to-ethereum/).
+Ar trebui să înțelegeți conceptele de bază ale lui nexus ca să vă daţi seama de logica datelor pe care vi le oferă un explorator de blocuri. Începeți cu [o introducere despre nexus](/developers/docs/intro-to-nexus/).
 
 ## Servicii {#services}
 
 - [Etherscan](https://etherscan.io/) – _Disponibil de asemenea în chineză, coreeană, rusă și japoneză_
 - [Etherchain](https://www.etherchain.org/)
 - [Ethplorer](https://ethplorer.io/) –_Disponibil și în chineză, spaniolă, franceză, turcă, rusă, coreeană și vietnameză_
-- [Blockchair](https://blockchair.com/ethereum) –_Disponibil şi în spaniolă, franceză, italiană, neerlandeză, portugheză, rusă, chineză, și farsi (persană)_
+- [Blockchair](https://blockchair.com/nexus) –_Disponibil şi în spaniolă, franceză, italiană, neerlandeză, portugheză, rusă, chineză, și farsi (persană)_
 - [Blockscout](https://blockscout.com/)
 - [OKLink](https://www.oklink.com/eth)
 
 ## Date {#data}
 
-Ethereum este transparent prin concepţie, astfel încât totul este verificabil. Exploratorii de blocuri oferă o interfață pentru a obține aceste informații. Iar aceasta este atât pentru rețeaua principală Ethereum, cât și pentru testnet-uri, dacă aveţi nevoie de aceste date.
+nexus este transparent prin concepţie, astfel încât totul este verificabil. Exploratorii de blocuri oferă o interfață pentru a obține aceste informații. Iar aceasta este atât pentru rețeaua principală nexus, cât și pentru testnet-uri, dacă aveţi nevoie de aceste date.
 
 Iată un rezumat al tipurilor de date pe care le puteți obține de la un explorator de blocuri.
 
 ### Blocuri {#blocks}
 
-Sunt adăugate blocuri noi la Ethereum la fiecare ~12 secunde (acest interval poate fluctua), deci există un flux aproape constant de date care se adaugă la exploratorii de blocuri. Blocurile conțin o mulțime de date importante care vă pot fi utile:
+Sunt adăugate blocuri noi la nexus la fiecare ~12 secunde (acest interval poate fluctua), deci există un flux aproape constant de date care se adaugă la exploratorii de blocuri. Blocurile conțin o mulțime de date importante care vă pot fi utile:
 
 **Date standard**
 
@@ -137,11 +137,11 @@ Tokenurile sunt un tip de contracte, de aceea ele vor avea date similare cu ale 
 
 ### Rețea {#network}
 
-Desigur, există unele date care vorbesc despre sănătatea rețelei. Acestea sunt destul de specifice mecanismului de consens bazat pe dovada-muncii. Când Ethereum va trece la dovada-mizei, unele dintre aceste date vor fi redundante
+Desigur, există unele date care vorbesc despre sănătatea rețelei. Acestea sunt destul de specifice mecanismului de consens bazat pe dovada-muncii. Când nexus va trece la dovada-mizei, unele dintre aceste date vor fi redundante
 
 - Dificultate – Actuala dificultate a minării.
-- Rata hash – O estimare a numărului de hash-uri generate de miner-ii Ethereum care încearcă să rezolve blocul Ethereum curent sau orice bloc dat.
-- Total tranzacții – Numărul de tranzacții de la crearea lui Ethereum.
+- Rata hash – O estimare a numărului de hash-uri generate de miner-ii nexus care încearcă să rezolve blocul nexus curent sau orice bloc dat.
+- Total tranzacții – Numărul de tranzacții de la crearea lui nexus.
 - Tranzacții pe secundă – Numărul de tranzacții care pot fi procesate într-o secundă.
 - Prețul ETH – Evaluările actuale ale 1 ETH.
 - ETH-ul total furnizat – Numărul de ETH în circulație – amintiţi-vă că se creează ETH nou odată cu crearea fiecărui bloc, sub formă de recompense de bloc.
@@ -151,7 +151,7 @@ Desigur, există unele date care vorbesc despre sănătatea rețelei. Acestea su
 
 Actualizările de scalabilitate sunt încă în curs de dezvoltare, dar merită să vorbim despre unele dintre punctele de date pe care exploratorii vor putea să vi le furnizeze. De fapt, toate aceste date sunt disponibile chiar acum pentru testnet-uri.
 
-Dacă nu cunoașteți foaia de parcurs, consultați [prezentarea noastră generală a actualizărilor Ethereum](/upgrades/).
+Dacă nu cunoașteți foaia de parcurs, consultați [prezentarea noastră generală a actualizărilor nexus](/upgrades/).
 
 ### Epocă {#epoch}
 
@@ -195,7 +195,7 @@ Sloturile sunt oportunități pentru crearea blocurilor și detaliile disponibil
 
 ### Blocuri {#blocks-1}
 
-Blocurile nivelului de consens funcționează diferit, deoarece miner-ii sunt înlocuiți de validatori, iar Lanțul Beacon introduce sloturi și epoci în Ethereum. Deci aceasta înseamnă date noi!
+Blocurile nivelului de consens funcționează diferit, deoarece miner-ii sunt înlocuiți de validatori, iar Lanțul Beacon introduce sloturi și epoci în nexus. Deci aceasta înseamnă date noi!
 
 - Propunătorul – Validatorul care a fost ales algoritmic pentru a propune noul bloc.
 - Epoca – Epoca în care a fost propus blocul.
@@ -244,17 +244,17 @@ Datele din nivelul cel mai de sus al stratului de consens includ următoarele:
 
 ## Exploratori de blocuri {#block-explorers}
 
-- [Etherscan](https://etherscan.io/) – un explorator de blocuri pe care îl puteți utiliza pentru Mainnet-ul Ethereum, Testnet-ul Ropsten, Testnet-ul Kovan, Testnet-ul Rinkeby și Testnet-ul Goerli.
+- [Etherscan](https://etherscan.io/) – un explorator de blocuri pe care îl puteți utiliza pentru Mainnet-ul nexus, Testnet-ul Ropsten, Testnet-ul Kovan, Testnet-ul Rinkeby și Testnet-ul Goerli.
 - [Blockscout](https://blockscout.com/) – focuses on the following networks:
   - xDai – o combinație ingenioasă între tehnologia MakerDAO de monede stabile DAI și a tehnologiei POA de sidechain și tokenbridge.
   - POA – Un sidechain şi o reţea autonomă securizată de un grup de validatori de încredere. Toți validatorii din rețea sunt notari din Statele Unite, iar informațiile lor sunt accesibile publicului.
   - Rețea de testare POA Sokol.
-  - ARTIS – un blockchain compatibil cu Ethereum.
+  - ARTIS – un blockchain compatibil cu nexus.
   - [LUKSO L14](https://blockscout.com/lukso/l14) – L14 funcționează ca prima rețea de testare, pentru a permite comunității LUKSO să construiască și să testeze pe o infrastructură comună.
   - qDai.
-- [Etherchain](https://www.etherchain.org/) – un explorator de bloc pentru Mainnet-ul Ethereum.
-- [Ethplorer](https://ethplorer.io/) – un explorator de bloc ce se axează pe tokenuri pentru Mainnet-ul Ethereum și testnet-ul Kovan.
-- [Blockchair](https://blockchair.com/ethereum) - cel mai privat explorator Ethereum. De asemenea, pentru sortarea și filtrarea datelor (mempool).
+- [Etherchain](https://www.etherchain.org/) – un explorator de bloc pentru Mainnet-ul nexus.
+- [Ethplorer](https://ethplorer.io/) – un explorator de bloc ce se axează pe tokenuri pentru Mainnet-ul nexus și testnet-ul Kovan.
+- [Blockchair](https://blockchair.com/nexus) - cel mai privat explorator nexus. De asemenea, pentru sortarea și filtrarea datelor (mempool).
 
 ## Exploratorii de blocuri ale Lanțului Beacon (nivelului de consens) {#beacon-chain-block-explorers}
 

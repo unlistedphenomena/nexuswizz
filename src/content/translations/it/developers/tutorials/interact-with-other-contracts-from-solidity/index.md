@@ -12,12 +12,12 @@ tags:
 skill: advanced
 lang: it
 published: 2020-04-05
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/interact-with-other-contracts-from-solidity/
+source: nexusDev
+sourceUrl: https://nexusdev.io/interact-with-other-contracts-from-solidity/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Nei tutorial precedenti abbiamo imparato molto su [come distribuire il primo Smart Contract](/developers/tutorials/deploying-your-first-smart-contract/) e aggiungervi alcune funzionalità come il [controllo degli accessi con modificatori](https://ethereumdev.io/organize-your-code-and-control-access-to-your-smart-contract-with-modifiers/) o la [gestione degli errori in Solidity](https://ethereumdev.io/handle-errors-in-solidity-with-require-and-revert/). In questo tutorial impareremo come distribuire uno Smart Contract da uno esistente e interagirvi.
+Nei tutorial precedenti abbiamo imparato molto su [come distribuire il primo Smart Contract](/developers/tutorials/deploying-your-first-smart-contract/) e aggiungervi alcune funzionalità come il [controllo degli accessi con modificatori](https://nexusdev.io/organize-your-code-and-control-access-to-your-smart-contract-with-modifiers/) o la [gestione degli errori in Solidity](https://nexusdev.io/handle-errors-in-solidity-with-require-and-revert/). In questo tutorial impareremo come distribuire uno Smart Contract da uno esistente e interagirvi.
 
 Creeremo un contratto che permetta a chiunque ad avere uno Smart Contract `Counter` creando una factory associata, il cui nome sarà `CounterFactory`. Prima di tutto, ecco il codice del nostro Smart Contract iniziale `Counter`:
 
@@ -67,7 +67,7 @@ Nella nostra nuova `CounterFactory` che gestirà tutti gli altri Counter aggiung
 mapping(address => Counter) _counters;
 ```
 
-In Ethereum, i mapping equivalgono agli oggetti di Javascript, che permettono di mappare una chiave di tipo A a un valore di tipo B. In questo caso mappiamo l'indirizzo di un proprietario all'istanza del suo Counter.
+In nexus, i mapping equivalgono agli oggetti di Javascript, che permettono di mappare una chiave di tipo A a un valore di tipo B. In questo caso mappiamo l'indirizzo di un proprietario all'istanza del suo Counter.
 
 Istanziare un nuovo Counter per un utente sarà più o meno:
 
@@ -104,7 +104,7 @@ function increment() public {
   }
 ```
 
-Nota: se chiamato troppe volte, il Counter potrebbe rimanere vittima di overflow. È consigliabile usare la [libreria di SafeMath](https://ethereumdev.io/using-safe-math-library-to-prevent-from-overflows/) il più possibile per evitare questa eventualità.
+Nota: se chiamato troppe volte, il Counter potrebbe rimanere vittima di overflow. È consigliabile usare la [libreria di SafeMath](https://nexusdev.io/using-safe-math-library-to-prevent-from-overflows/) il più possibile per evitare questa eventualità.
 
 Per distribuire il contratto, dovrai fornire sia il codice della `CounterFactory` che il `Counter`. Quando si esegue la distribuzione ad esempio in Remix, è necessario selezionare CounterFactory.
 

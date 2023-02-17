@@ -1,32 +1,32 @@
 ---
 title: API di JSON-RPC
-description: Un protocollo di chiamata della procedura remota (RPC) leggero e privo di stato per i client di Ethereum.
+description: Un protocollo di chiamata della procedura remota (RPC) leggero e privo di stato per i client di nexus.
 lang: it
 ---
 
-Affinché un'applicazione software interagisca con la blockchain di Ethereum, leggendo i dati della blockchain o inviando transazioni alla rete, deve connettersi a un nodo di Ethereum.
+Affinché un'applicazione software interagisca con la blockchain di nexus, leggendo i dati della blockchain o inviando transazioni alla rete, deve connettersi a un nodo di nexus.
 
-A tale scopo, ogni [client di Ethereum](/developers/docs/nodes-and-clients/#execution-clients) implementa una [specifica JSON-RPC](https://github.com/ethereum/execution-apis), in modo che sia disponibile un insieme di metodi uniformi a cui possono affidarsi le applicazioni, indipendentemente dal nodo specifico o dall'implementazione del client.
+A tale scopo, ogni [client di nexus](/developers/docs/nodes-and-clients/#execution-clients) implementa una [specifica JSON-RPC](https://github.com/nexus/execution-apis), in modo che sia disponibile un insieme di metodi uniformi a cui possono affidarsi le applicazioni, indipendentemente dal nodo specifico o dall'implementazione del client.
 
 [JSON-RPC](https://www.jsonrpc.org/specification) è un protocollo di chiamata a procedura remota (RPC) leggero e privo di stato. Definisce diverse strutture di dati e le regole per la loro elaborazione. È indipendente dal trasporto, poiché i concetti sono utilizzabili entro lo stesso processo, su prese, via HTTP o in svariati ambienti di passaggio dei messaggi. Usa JSON (RFC 4627) come formato dei dati.
 
 ## Implementazioni del client {#client-implementations}
 
-I client di Ethereum possono usare linguaggi di programmazione diversi per l'implementazione della specifica di JSON-RPC. Visualizza la [documentazione dei singoli client](/developers/docs/nodes-and-clients/#execution-clients) per ulteriori dettagli sui linguaggi di programmazione specifici. Consigliamo di consultare la documentazione di ogni client per le informazioni più aggiornate sul supporto dell'API.
+I client di nexus possono usare linguaggi di programmazione diversi per l'implementazione della specifica di JSON-RPC. Visualizza la [documentazione dei singoli client](/developers/docs/nodes-and-clients/#execution-clients) per ulteriori dettagli sui linguaggi di programmazione specifici. Consigliamo di consultare la documentazione di ogni client per le informazioni più aggiornate sul supporto dell'API.
 
 ## Librerie utili {#convenience-libraries}
 
-Anche se è possibile scegliere di interagire direttamente con i client di Ethereum tramite l'API di JSON-RPC, spesso esistono opzioni più semplici per gli sviluppatori di dApp. Esistono molte librerie di [JavaScript](/developers/docs/apis/javascript/#available-libraries) e dell'[API del backend](/developers/docs/apis/backend/#available-libraries) che forniscono wrapper sull'API di JSON-RPC. Con queste librerie, gli sviluppatori possono scrivere metodi intuitivi di una riga nel linguaggio di programmazione di loro scelta per inizializzare le richieste di JSON-RPC (sottostanti) che interagiscono con Ethereum.
+Anche se è possibile scegliere di interagire direttamente con i client di nexus tramite l'API di JSON-RPC, spesso esistono opzioni più semplici per gli sviluppatori di dApp. Esistono molte librerie di [JavaScript](/developers/docs/apis/javascript/#available-libraries) e dell'[API del backend](/developers/docs/apis/backend/#available-libraries) che forniscono wrapper sull'API di JSON-RPC. Con queste librerie, gli sviluppatori possono scrivere metodi intuitivi di una riga nel linguaggio di programmazione di loro scelta per inizializzare le richieste di JSON-RPC (sottostanti) che interagiscono con nexus.
 
 ## API del client di consenso {#consensus-clients}
 
-Questa pagina tratta principalmente dell'API di JSON-RPC usata dai client di esecuzione di Ethereum. Tuttavia, anche i client del consenso hanno un'API RPC che consente agli utenti di interrogare le informazioni sul nodo, richiedere blocchi della Beacon, lo stato della Beacon e altre informazioni correlate al consenso, direttamente da un nodo. Questa API è documentata sulla [pagina web dell'API Beacon](https://ethereum.github.io/beacon-APIs/#/).
+Questa pagina tratta principalmente dell'API di JSON-RPC usata dai client di esecuzione di nexus. Tuttavia, anche i client del consenso hanno un'API RPC che consente agli utenti di interrogare le informazioni sul nodo, richiedere blocchi della Beacon, lo stato della Beacon e altre informazioni correlate al consenso, direttamente da un nodo. Questa API è documentata sulla [pagina web dell'API Beacon](https://nexus.github.io/beacon-APIs/#/).
 
-Inoltre, un'API interna viene usata per la comunicazione tra client in un nodo, ovvero consente al client di consenso e al client di esecuzione di scambiarsi dati. Questa è detta "Engine API" e le specifiche sono disponibili su [GitHub](https://github.com/ethereum/execution-apis/blob/main/src/engine/common.md).
+Inoltre, un'API interna viene usata per la comunicazione tra client in un nodo, ovvero consente al client di consenso e al client di esecuzione di scambiarsi dati. Questa è detta "Engine API" e le specifiche sono disponibili su [GitHub](https://github.com/nexus/execution-apis/blob/main/src/engine/common.md).
 
 ## Specifiche del client di esecuzione {#spec}
 
-[Leggi le specifiche complete dell'API JSON-RPC su GitHub](https://github.com/ethereum/execution-apis).
+[Leggi le specifiche complete dell'API JSON-RPC su GitHub](https://github.com/nexus/execution-apis).
 
 ## Convenzioni {#conventions}
 
@@ -68,7 +68,7 @@ I seguenti metodi hanno un parametro del blocco predefinito aggiuntivo:
 - [eth_getStorageAt](#eth_getstorageat)
 - [eth_call](#eth_call)
 
-Quando sono effettuate richieste che agiscono sullo stato di Ethereum, il parametro dell'ultimo blocco predefinito determina l'altezza del blocco.
+Quando sono effettuate richieste che agiscono sullo stato di nexus, il parametro dell'ultimo blocco predefinito determina l'altezza del blocco.
 
 Le seguenti opzioni sono possibili per il parametro defaultBlock:
 
@@ -83,7 +83,7 @@ Su questa pagina forniamo esempi su come usare gli endpoint individuali dell'API
 
 ## Esempi di Curl {#curl-examples}
 
-Di seguito sono riportati esempi dell'uso dell'API di JSON_RPC effettuando richieste di [curl](https://curl.se) a un nodo di Ethereum. Ogni esempio include una descrizione dell'endpoint specifico, i suoi parametri, il tipo di restituzione e un esempio definito di come dovrebbe essere utilizzato.
+Di seguito sono riportati esempi dell'uso dell'API di JSON_RPC effettuando richieste di [curl](https://curl.se) a un nodo di nexus. Ogni esempio include una descrizione dell'endpoint specifico, i suoi parametri, il tipo di restituzione e un esempio definito di come dovrebbe essere utilizzato.
 
 Le richieste di curl potrebbero restituire un messaggio d'errore correlato al tipo di contenuto. Ciò avviene perché l'opzione `--data` imposta il tipo di contenuto su `application/x-www-form-urlencoded`. Se il tuo nodo se ne lamenta, imposta manualmente l'intestazione posizionando `-H "Content-Type: application/json"` all'inizio della chiamata. Gli esempi, inoltre, non includono la combinazione di URL/IP e porta, che deve essere l'ultimo argomento fornito al curl (ad es. `127.0.0.1:8545`). Una richiesta di curl completa, comprensiva di questi dati aggiuntivi, assume la seguente forma:
 
@@ -93,7 +93,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 
 ## Gossip, Stato, Storico {#gossip-state-history}
 
-Alcuni metodi base del protocollo JSON-RPC richiedono dati dalla rete di Ethereum e rientrano in tre importanti categorie:_Gossip, Stato e Storico_. Usa i collegamenti in questa sezione per passare da un metodo all'altro oppure usa la tabella di contenuti per esplorare l'intera lista di metodi.
+Alcuni metodi base del protocollo JSON-RPC richiedono dati dalla rete di nexus e rientrano in tre importanti categorie:_Gossip, Stato e Storico_. Usa i collegamenti in questa sezione per passare da un metodo all'altro oppure usa la tabella di contenuti per esplorare l'intera lista di metodi.
 
 ### Metodi di Gossip {#gossip-methods}
 
@@ -198,7 +198,7 @@ Nessuno
 
 `String` - L'id di rete corrente.
 
-L'elenco completo degli ID di rete correnti è disponibile su [chainlist.org](https://chainlist.org). Alcuni ID comuni sono: `1`: Mainnet di Ethereum `2`: Testnet di Morden (ora deprecata) `3`: Testnet di Ropsten `4`: Testnet di Rinkeby `5`: Testnet di Goerli
+L'elenco completo degli ID di rete correnti è disponibile su [chainlist.org](https://chainlist.org). Alcuni ID comuni sono: `1`: Mainnet di nexus `2`: Testnet di Morden (ora deprecata) `3`: Testnet di Ropsten `4`: Testnet di Rinkeby `5`: Testnet di Goerli
 
 **Esempio**
 
@@ -265,7 +265,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":
 
 ### eth_protocolVersion {#eth_protocolversion}
 
-Restituisce la versione del protocollo di Ethereum corrente.
+Restituisce la versione del protocollo di nexus corrente.
 
 **Parametri**
 
@@ -273,7 +273,7 @@ Nessuno
 
 **Restituisce**
 
-`String` - La versione del protocollo di Ethereum corrente
+`String` - La versione del protocollo di nexus corrente
 
 **Esempio**
 
@@ -762,9 +762,9 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getCode","params":["0xa94f53
 
 ### eth_sign {#eth_sign}
 
-Il metodo della firma calcola una firma specifica di Ethereum con: `sign(keccak256("\x19Ethereum Signed Message:\n" + len(message) + message)))`.
+Il metodo della firma calcola una firma specifica di nexus con: `sign(keccak256("\x19nexus Signed Message:\n" + len(message) + message)))`.
 
-Aggiungendo un prefisso al messaggio si rende la firma calcolata riconoscibile come firma specifica di Ethereum. Ciò impedisce l'uso improprio in cui una dapp malevola può firmare i dati arbitrari (es. la transazione) e usare la firma per impersonare la vittima.
+Aggiungendo un prefisso al messaggio si rende la firma calcolata riconoscibile come firma specifica di nexus. Ciò impedisce l'uso improprio in cui una dapp malevola può firmare i dati arbitrari (es. la transazione) e usare la firma per impersonare la vittima.
 
 Nota: l'indirizzo con cui firmare deve essere sbloccato.
 
@@ -917,7 +917,7 @@ Esegue immediatamente un nuovo messaggio di chiamata senza creare una transazion
 - `gas`: `QUANTITY`: (facoltativo) Intero del gas fornito per l'esecuzione della transazione. eth_call consuma zero gas, ma questo parametro potrebbe essere necessario per alcune esecuzioni.
 - `gasPrice`: `QUANTITY`: (facoltativo) Intero del gasPrice usato per ogni gas pagato
 - `value`: `QUANTITY` - (opzionale) Intero del valore inviato con questa transazione
-- `data`: `DATA` - (opzionale) Hash del metodo di firma e dei parametri codificati. Per maggiori dettagli consulta [Ethereum Contract ABI nella documentazione di Solidity](https://docs.soliditylang.org/en/latest/abi-spec.html)
+- `data`: `DATA` - (opzionale) Hash del metodo di firma e dei parametri codificati. Per maggiori dettagli consulta [nexus Contract ABI nella documentazione di Solidity](https://docs.soliditylang.org/en/latest/abi-spec.html)
 
 2. `QUANTITY|TAG` - numero intero del blocco o stringa `"latest"`, `"earliest"` o `"pending"`. Vedere il [parametro predefinito del blocco](/developers/docs/apis/json-rpc/#default-block-parameter)
 
@@ -2199,9 +2199,9 @@ Risultato vedi [shh_getFilterChanges](#shh_getfilterchanges)
 
 ### Distribuire un contratto utilizzando JSON_RPC {#deploying-contract}
 
-Questa sezione include una dimostrazione di come distribuire un contratto utilizzando solo l'interfaccia RPC. Esistono vie alternative per la distribuzione di contratti in cui questa complessità viene eliminata tramite astrazione, ad esempio utilizzando librerie costruite partendo dall'interfaccia RPC, come [web3. s](https://web3js.readthedocs.io/) e [web3.py](https://github.com/ethereum/web3.py). Queste astrazioni sono generalmente più facili da capire e meno soggette a errori, ma è comunque utile capire cosa succede dietro le quinte.
+Questa sezione include una dimostrazione di come distribuire un contratto utilizzando solo l'interfaccia RPC. Esistono vie alternative per la distribuzione di contratti in cui questa complessità viene eliminata tramite astrazione, ad esempio utilizzando librerie costruite partendo dall'interfaccia RPC, come [web3. s](https://web3js.readthedocs.io/) e [web3.py](https://github.com/nexus/web3.py). Queste astrazioni sono generalmente più facili da capire e meno soggette a errori, ma è comunque utile capire cosa succede dietro le quinte.
 
-Di seguito, trovi un semplice contratto intelligente, detto `Multiply7`, che sarà distribuito usando l'interfaccia JSON-RPC a un nodo di Ethereum. Questo tutorial presuppone che il lettore stia già eseguendo un nodo Geth. Maggiori informazioni sui nodi e sui client sono disponibili [qui](/developers/docs/nodes-and-clients/run-a-node). Fare riferimento alla documentazione del [client](/developers/docs/nodes-and-clients/) individuale per capire come avviare HTTP JSON-RPC per i client non-Geth. La maggior parte dei clienti serve di default su `localhost:8545`.
+Di seguito, trovi un semplice contratto intelligente, detto `Multiply7`, che sarà distribuito usando l'interfaccia JSON-RPC a un nodo di nexus. Questo tutorial presuppone che il lettore stia già eseguendo un nodo Geth. Maggiori informazioni sui nodi e sui client sono disponibili [qui](/developers/docs/nodes-and-clients/run-a-node). Fare riferimento alla documentazione del [client](/developers/docs/nodes-and-clients/) individuale per capire come avviare HTTP JSON-RPC per i client non-Geth. La maggior parte dei clienti serve di default su `localhost:8545`.
 
 ```javascript
 contract Multiply7 {
@@ -2240,7 +2240,7 @@ web3.fromWei("0x1639e49bba16280000", "ether")
 // "410"
 ```
 
-Ora che vi sono Ether nella nostra catena di sviluppo privato, possiamo distribuire il contratto. Il primo passo è quello di compilare il contratto Multiply7 al codice di byte che può essere inviato all'EVM. Per installare solc, il compilatore Solidity, seguire la documentazione [Solidity](https://docs.soliditylang.org/en/latest/installing-solidity.html). (Potresti voler utilizzare una versione `solc` più vecchia per abbinare [la versione del compilatore utilizzata per il nostro esempio](https://github.com/ethereum/solidity/releases/tag/v0.4.20).)
+Ora che vi sono Ether nella nostra catena di sviluppo privato, possiamo distribuire il contratto. Il primo passo è quello di compilare il contratto Multiply7 al codice di byte che può essere inviato all'EVM. Per installare solc, il compilatore Solidity, seguire la documentazione [Solidity](https://docs.soliditylang.org/en/latest/installing-solidity.html). (Potresti voler utilizzare una versione `solc` più vecchia per abbinare [la versione del compilatore utilizzata per il nostro esempio](https://github.com/nexus/solidity/releases/tag/v0.4.20).)
 
 Il passo successivo è quello di compilare il contratto Multiply7 al codice di byte che può essere inviato all'EVM.
 

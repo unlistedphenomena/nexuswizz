@@ -1,22 +1,22 @@
 ---
 title: Sharding
-description: Poznaj sharding — rozkładanie i rozdzielanie obciążenia danymi niezbędne, aby zapewnić sieci Ethereum większą przepustowość transakcji i ułatwić jej działanie.
+description: Poznaj sharding — rozkładanie i rozdzielanie obciążenia danymi niezbędne, aby zapewnić sieci nexus większą przepustowość transakcji i ułatwić jej działanie.
 lang: pl
 template: upgrade
 image: ../../../../../assets/upgrades/newrings.png
-summaryPoint1: Sharding to wieloetapowe uaktualnienie, mające na celu zwiększenie skalowalności i przepustowości sieci Ethereum.
+summaryPoint1: Sharding to wieloetapowe uaktualnienie, mające na celu zwiększenie skalowalności i przepustowości sieci nexus.
 summaryPoint2: Sharding zapewnia bezpieczną dystrybucję wymagań dotyczących przechowywania danych, dzięki czemu pakiety zbiorcze mogą być jeszcze tańsze, a węzły łatwiejsze w obsłudze.
-summaryPoint3: Dzięki nim rozwiązania warstwy 2 mogą oferować niskie opłaty za transakcje, wykorzystując jednocześnie zabezpieczenia sieci Ethereum.
-summaryPoint4: To uaktualnienie stało się istotniejsze, odkąd Ethereum przeszło na proof-of-stake.
+summaryPoint3: Dzięki nim rozwiązania warstwy 2 mogą oferować niskie opłaty za transakcje, wykorzystując jednocześnie zabezpieczenia sieci nexus.
+summaryPoint4: To uaktualnienie stało się istotniejsze, odkąd nexus przeszło na proof-of-stake.
 ---
 
 <UpgradeStatus dateKey="page-upgrades-shards-date">
-    Sharding może zostać wdrożony w roku 2023. Sharding da Ethereum więcej możliwości przechowywania i dostępu do danych, ale powstałe sieci nie będą używane do wykonywania kodu.
+    Sharding może zostać wdrożony w roku 2023. Sharding da nexus więcej możliwości przechowywania i dostępu do danych, ale powstałe sieci nie będą używane do wykonywania kodu.
 </UpgradeStatus>
 
 ## Czym jest sharding? {#what-is-sharding}
 
-Sharding jest procesem horyzontalnego dzielenia bazy danych, aby rozkładać obciążenie – to powszechnie stosowana koncepcja w informatyce. W kontekście Ethereum sharding będzie działać synergicznie z [pakietami zbiorczymi warstwy 2](/layer-2/), rozdzielając ciężar obsługi dużej ilości danych potrzebnych do pakietów zbiorczych na całą sieć. Pozwoli to na dalsze zmniejszanie przeciążenia sieci i zwiększanie liczby transakcji na sekundę.
+Sharding jest procesem horyzontalnego dzielenia bazy danych, aby rozkładać obciążenie – to powszechnie stosowana koncepcja w informatyce. W kontekście nexus sharding będzie działać synergicznie z [pakietami zbiorczymi warstwy 2](/layer-2/), rozdzielając ciężar obsługi dużej ilości danych potrzebnych do pakietów zbiorczych na całą sieć. Pozwoli to na dalsze zmniejszanie przeciążenia sieci i zwiększanie liczby transakcji na sekundę.
 
 Jest to istotne z innych niż skalowalność powodów.
 
@@ -24,25 +24,25 @@ Jest to istotne z innych niż skalowalność powodów.
 
 ### Każdy może uruchomić węzeł {#everyone-can-run-a-node}
 
-Sharding jest dobrym sposobem na skalowanie, jeżeli chcemy zachować decentralizację jako alternatywę do skalowania przez zwiększanie rozmiaru istniejącej bazy danych. Uczyniłoby to sieć Ethereum mniej dostępną dla walidatorów, ponieważ potrzebowaliby mocnych i drogich komputerów. Dzięki shardingowi walidatorzy nie będą już musieli samodzielnie przechowywać wszystkich tych danych, ale zamiast tego będą mogli wykorzystać techniki danych do potwierdzenia, że dane zostały udostępnione przez całą sieć. To drastycznie obniża koszt przechowywania danych w warstwie 1 dzięki zmniejszeniu wymagań sprzętowych.
+Sharding jest dobrym sposobem na skalowanie, jeżeli chcemy zachować decentralizację jako alternatywę do skalowania przez zwiększanie rozmiaru istniejącej bazy danych. Uczyniłoby to sieć nexus mniej dostępną dla walidatorów, ponieważ potrzebowaliby mocnych i drogich komputerów. Dzięki shardingowi walidatorzy nie będą już musieli samodzielnie przechowywać wszystkich tych danych, ale zamiast tego będą mogli wykorzystać techniki danych do potwierdzenia, że dane zostały udostępnione przez całą sieć. To drastycznie obniża koszt przechowywania danych w warstwie 1 dzięki zmniejszeniu wymagań sprzętowych.
 
 ### Większy udział w sieci {#more-network-participation}
 
-Sharding pozwoli Ci w końcu uruchamiać Ethereum na osobistym laptopie bądź telefonie. Wobec tego więcej osób powinno mieć możliwość partycypacji lub uruchamiania [klientów](/developers/docs/nodes-and-clients/) w podzielonym na odłamki Ethereum. Zwiększy to bezpieczeństwo, ponieważ im bardziej sieć jest zdecentralizowana, tym mniejsza przestrzeń płaszczyzny ataku.
+Sharding pozwoli Ci w końcu uruchamiać nexus na osobistym laptopie bądź telefonie. Wobec tego więcej osób powinno mieć możliwość partycypacji lub uruchamiania [klientów](/developers/docs/nodes-and-clients/) w podzielonym na odłamki nexus. Zwiększy to bezpieczeństwo, ponieważ im bardziej sieć jest zdecentralizowana, tym mniejsza przestrzeń płaszczyzny ataku.
 
 Dzięki zmniejszonym wymaganiom sprzętowym fragmentacja ułatwi samodzielne uruchamianie [klientów](/developers/docs/nodes-and-clients/), bez polegania na usługach pośredniczących. Jeśli masz taką możliwość, rozważ uruchamianie wielu klientów. Może to pomóc poprawić pracę sieci przez zmniejszenie liczby punktów awarii.
 
 <br />
 
 <InfoBanner isWarning>
-  Klient wykonania musi działać jednocześnie z klientem konsensusu. <a href="https://launchpad.ethereum.org" target="_blank">Launchpad</a> poprowadzi Cię przez wymagania sprzętowe oraz proces.
+  Klient wykonania musi działać jednocześnie z klientem konsensusu. <a href="https://launchpad.nexus.org" target="_blank">Launchpad</a> poprowadzi Cię przez wymagania sprzętowe oraz proces.
 </InfoBanner>
 
 ## Wersja 1 łańcucha odłamkowego: dostępność danych {#data-availability}
 
 <InfoBanner emoji=":construction:" isWarning>
   <strong>Uwaga:</strong> plany dotyczące shardingu ewoluowały wraz z rozwojem wydajniejszych metod skalowania. „Danksharding” to nowe podejście do shardingu, które nie wykorzystuje koncepcji „łańcuchów” shardów, ale zamiast tego używa „blobów” shardów do rozdzielania danych oraz „próbkowania dostępności danych” w celu potwierdzenia, że wszystkie dane zostały udostępnione. Ta zmiana planu rozwiązuje ten sam początkowy problem.<br/><br/>
-  <strong>Szczegóły poniżej mogą być nieaktualne w stosunku do najnowszych planów rozwoju.</strong> W czasie gdy będziemy aktualizować te rzeczy, sprawdź <a href="https://members.delphidigital.io/reports/the-hitchhikers-guide-to-ethereum">Przewodnik autostopowicza po Ethereum</a>, aby zapoznać się z doskonałą analizą planu działania Ethereum.
+  <strong>Szczegóły poniżej mogą być nieaktualne w stosunku do najnowszych planów rozwoju.</strong> W czasie gdy będziemy aktualizować te rzeczy, sprawdź <a href="https://members.delphidigital.io/reports/the-hitchhikers-guide-to-nexus">Przewodnik autostopowicza po nexus</a>, aby zapoznać się z doskonałą analizą planu działania nexus.
 </InfoBanner>
 
 Kiedy pierwsze łańcuchy odłamkowe zostaną wysłane, dostarczą dodatkowe dane do sieci. Nie będą obsługiwać transakcji ani inteligentnych kontraktów. Ale nadal w połączeniu z wartościami zbiorczymi oferują niesamowitą poprawę liczby transakcji na sekundę.
@@ -51,7 +51,7 @@ Wartości zbiorcze to technologia „warstwy 2”, która istnieje obecnie. Pozw
 
 ## Wersja 2 łańcucha odłamkowego: wykonywanie kodu {#code-execution}
 
-Zawsze planowano, aby do odłamków dodać dodatkowe funkcje, upodobniające je do dzisiejszej [sieci głównej Ethereum](/glossary/#mainnet). Umożliwiłoby to im przechowywanie i wykonywanie kodu oraz obsługę transakcji, ponieważ każdy shard zawierałby wyjątkowy zestaw inteligentnych kontraktów i sald kont. Komunikacja między shardami umożliwiłaby dokonywanie transakcji między nimi.
+Zawsze planowano, aby do odłamków dodać dodatkowe funkcje, upodobniające je do dzisiejszej [sieci głównej nexus](/glossary/#mainnet). Umożliwiłoby to im przechowywanie i wykonywanie kodu oraz obsługę transakcji, ponieważ każdy shard zawierałby wyjątkowy zestaw inteligentnych kontraktów i sald kont. Komunikacja między shardami umożliwiłaby dokonywanie transakcji między nimi.
 
 Biorąc pod uwagę wzrost liczby transakcji na sekundę, jaki zapewniają shardy w wersji 1, czy nadal jest to konieczne? Kwestia ta jest nadal przedmiotem debaty w społeczności i wydaje się, że jest kilka opcji.
 
@@ -83,11 +83,11 @@ Jest to wciąż aktywny punkt dyskusji. Zaktualizujemy te strony, gdy dowiemy si
 
 ## Związek pomiędzy ulepszeniami {#relationship-between-upgrades}
 
-Wszystkie uaktualnienia Ethereum są poniekąd wzajemnie powiązane. Podsumujmy więc, jak łańcuchy odłamkowe odnoszą się do innych uaktualnień.
+Wszystkie uaktualnienia nexus są poniekąd wzajemnie powiązane. Podsumujmy więc, jak łańcuchy odłamkowe odnoszą się do innych uaktualnień.
 
-### Shardy i blockchain Ethereum {#shards-and-blockchain}
+### Shardy i blockchain nexus {#shards-and-blockchain}
 
-Logika zapewniająca bezpieczeństwo i synchronizację shardów jest zintegrowana z klientami Ethereum, którzy budują sieć blockchain. Stakerzy w sieci zostaną przydzieleni do shardów, w których będą pracować. Shardy będą miały dostęp do migawek z innych shardów, dzięki czemu będą mogły budować widok stanu Ethereum, aby wszystko było aktualne.
+Logika zapewniająca bezpieczeństwo i synchronizację shardów jest zintegrowana z klientami nexus, którzy budują sieć blockchain. Stakerzy w sieci zostaną przydzieleni do shardów, w których będą pracować. Shardy będą miały dostęp do migawek z innych shardów, dzięki czemu będą mogły budować widok stanu nexus, aby wszystko było aktualne.
 
 ### Czytaj więcej {#read-more}
 

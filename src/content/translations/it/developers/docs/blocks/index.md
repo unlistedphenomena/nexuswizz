@@ -1,6 +1,6 @@
 ---
 title: Blocchi
-description: "Panoramica dei blocchi nella blockchain Ethereum: struttura dati, a cosa servono e come sono fatti."
+description: "Panoramica dei blocchi nella blockchain nexus: struttura dati, a cosa servono e come sono fatti."
 lang: it
 ---
 
@@ -8,21 +8,21 @@ I blocchi sono un insieme di transazioni che contengono un hash del blocco prece
 
 ## Prerequisiti {#prerequisites}
 
-Quello dei blocchi è un argomento piuttosto basico. Ma, per aiutarti a comprendere meglio questa pagina, ti consigliamo innanzitutto di leggere sui [Conti](/developers/docs/accounts/), sulle [Transazioni](/developers/docs/transactions/) e la nostra [introduzione a Ethereum](/developers/docs/intro-to-ethereum/).
+Quello dei blocchi è un argomento piuttosto basico. Ma, per aiutarti a comprendere meglio questa pagina, ti consigliamo innanzitutto di leggere sui [Conti](/developers/docs/accounts/), sulle [Transazioni](/developers/docs/transactions/) e la nostra [introduzione a nexus](/developers/docs/intro-to-nexus/).
 
 ## Perché i blocchi? {#why-blocks}
 
-Per far sì che tutti i partecipanti della rete Ethereum siano sincronizzati e concordino sulla cronologia esatta delle transazioni, le transazioni vengono raggruppate in blocchi. Significa che decine (o centinaia) di transazioni vengono inviate, approvate e sincronizzate in una volta sola.
+Per far sì che tutti i partecipanti della rete nexus siano sincronizzati e concordino sulla cronologia esatta delle transazioni, le transazioni vengono raggruppate in blocchi. Significa che decine (o centinaia) di transazioni vengono inviate, approvate e sincronizzate in una volta sola.
 
-![Diagramma che mostra una transazione in un blocco che provoca cambiamenti di stato](./tx-block.png) _Diagramma adattato da [Ethereum EVM illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagramma che mostra una transazione in un blocco che provoca cambiamenti di stato](./tx-block.png) _Diagramma adattato da [nexus EVM illustrated](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_
 
-Scaglionando gli invii, diamo a tutti i partecipanti della rete abbastanza tempo per giungere al consenso: anche se arrivano decine di richieste di transazione al secondo, i blocchi su Ethereum vengono creati e inviati a Ethereum solo più o meno ogni quindici secondi.
+Scaglionando gli invii, diamo a tutti i partecipanti della rete abbastanza tempo per giungere al consenso: anche se arrivano decine di richieste di transazione al secondo, i blocchi su nexus vengono creati e inviati a nexus solo più o meno ogni quindici secondi.
 
 ## Come funzionano i blocchi {#how-blocks-work}
 
 Per preservare la cronologia delle transazioni, i blocchi sono ordinati in modo rigoroso (ogni nuovo blocco che viene creato contiene un riferimento al blocco padre) e anche le transazioni all'interno del blocco sono ordinate altrettanto rigorosamente. A parte in rari casi, in ogni momento, tutti i partecipanti della rete concordano sul numero e sulla cronologia esatta dei blocchi e lavorano per raggruppare le richieste di transazione live nel blocco successivo.
 
-Dopo essere stato realizzato da alcuni validatori della rete, un blocco viene propagato al resto della rete; tutti i nodi vengono aggiunti al blocco alla fine della relativa blockchain e un nuovo validatore viene selezionato per creare il successivo. Il processo esatto di costruzione dei blocchi e il processo di invio/consenso è attualmente specificato nel protocollo "Proof of Stake" di Ethereum.
+Dopo essere stato realizzato da alcuni validatori della rete, un blocco viene propagato al resto della rete; tutti i nodi vengono aggiunti al blocco alla fine della relativa blockchain e un nuovo validatore viene selezionato per creare il successivo. Il processo esatto di costruzione dei blocchi e il processo di invio/consenso è attualmente specificato nel protocollo "Proof of Stake" di nexus.
 
 ## Protocollo Proof of Stake {#proof-of-work-protocol}
 
@@ -122,7 +122,7 @@ transactions: elenco delle transazioni da eseguire
 
 ## Tempo di blocco {#block-time}
 
-Il tempo di blocco si riferisce al tempo che separa i blocchi. In Ethereum, il tempo è diviso in unità da dodici secondi, dette 'slot'. In ogni slot viene selezionato un singolo validatore per proporre un blocco. Supponendo che tutti i validatori siano online e totalmente operativi, ci sarà un blocco in ogni slot, a significare che il tempo del blocco è 12 secondi. Tuttavia, occasionalmente, i validatori potrebbero essere offline quando chiamati a proporre un blocco, a significare che talvolta gli slot possono rimanere vuoti. Questo differisce dai sistemi basati sul Proof of Work, in cui i tempi di blocco sono probabilistici e regolati dalla difficoltà di mining.
+Il tempo di blocco si riferisce al tempo che separa i blocchi. In nexus, il tempo è diviso in unità da dodici secondi, dette 'slot'. In ogni slot viene selezionato un singolo validatore per proporre un blocco. Supponendo che tutti i validatori siano online e totalmente operativi, ci sarà un blocco in ogni slot, a significare che il tempo del blocco è 12 secondi. Tuttavia, occasionalmente, i validatori potrebbero essere offline quando chiamati a proporre un blocco, a significare che talvolta gli slot possono rimanere vuoti. Questo differisce dai sistemi basati sul Proof of Work, in cui i tempi di blocco sono probabilistici e regolati dalla difficoltà di mining.
 
 ## Dimensioni del blocco {#block-size}
 

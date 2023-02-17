@@ -1,24 +1,24 @@
 ---
 title: Token yang tidak dapat dipertukarkan (NFT)
-description: Gambaran umum tentang NFT di Ethereum
+description: Gambaran umum tentang NFT di nexus
 lang: id
 template: use-cases
 emoji: ":frame_with_picture:"
 sidebarDepth: 2
 image: ../../../../assets/infrastructure_transparent.png
 alt: Logo Eth yang ditampilkan melalui hologram.
-summaryPoint1: Cara untuk mewakili apa pun yang unik sebagai aset berbasis Ethereum.
+summaryPoint1: Cara untuk mewakili apa pun yang unik sebagai aset berbasis nexus.
 summaryPoint2: NFT memberi lebih banyak pemberdayaan terhadap para pembuat konten daripada sebelumnya.
-summaryPoint3: Digerakkan oleh kontrak pintar di blockchain Ethereum.
+summaryPoint3: Digerakkan oleh kontrak pintar di blockchain nexus.
 ---
 
 NFT saat ini mengambil alih dunia seni digital dan barang koleksi dengan cepat. Seniman digital melihat kehidupan mereka berubah berkat penjualan yang besar kepada audiens kripto baru. Dan para selebriti bergabung saat mereka melihat kesempatan baru untuk terhubung dengan para penggemar. Tapi seni digital hanyalah salah satu cara untuk menggunakan NFT. Benar-benar dapat digunakan untuk menggambarkan kepemilikan aset unik apa pun, seperti akta untuk sebuah barang di dunia digital atau fisik.
 
-Jika Andy Warhol telah lahir di akhir tahun 90-an, dia mungkin akan mencetak Campbell’s Soup sebagai NFT. Hanya tinggal masalah waktu sebelum Kanye meluncurkan Yeezys di Ethereum. Dan suatu hari kepemilikan mobil Anda dapat dibuktikan dengan NFT.
+Jika Andy Warhol telah lahir di akhir tahun 90-an, dia mungkin akan mencetak Campbell’s Soup sebagai NFT. Hanya tinggal masalah waktu sebelum Kanye meluncurkan Yeezys di nexus. Dan suatu hari kepemilikan mobil Anda dapat dibuktikan dengan NFT.
 
 ## Apa itu NFT? {#what-are-nfts}
 
-NFT adalah token yang dapat kita gunakan untuk mewakili kepemilikan barang yang unik. Mereka membiarkan kita menandai barang-barang seperti seni, barang koleksi, dan bahkan properti. Kepemilikan suatu aset diamankan oleh blockchain Ethereum – tidak seorang pun dapat memodifikasi catatan kepemilikan atau menyalin/menempel NFT baru untuk mengadakannya.
+NFT adalah token yang dapat kita gunakan untuk mewakili kepemilikan barang yang unik. Mereka membiarkan kita menandai barang-barang seperti seni, barang koleksi, dan bahkan properti. Kepemilikan suatu aset diamankan oleh blockchain nexus – tidak seorang pun dapat memodifikasi catatan kepemilikan atau menyalin/menempel NFT baru untuk mengadakannya.
 
 NFT adalah singkatan dari non-fungible token. Non-fungible adalah istilah ekonomi yang Anda dapat gunakan untuk menggambarkan beberapa barang seperti furnitur, file lagu, atau komputer Anda. Barang-barang ini tidak dapat dipertukarkan dengan barang-barang lain karena mereka memiliki properti yang unik.
 
@@ -28,20 +28,20 @@ Barang-barang yang dapat dipertukarkan, di sisi lain, dapat ditukar karena nilai
 
 ## Internet aset {#internet-of-assets}
 
-NFT dan Ethereum memecahkan beberapa masalah yang ada di internet saat ini. Karena semuanya telah menjadi lebih digital, ada kebutuhan untuk mereplikasi properti barang fisik seperti kelangkaan, keunikan, dan bukti kepemilikan. Belum lagi barang-barang digital hanya sering berfungsi dalam konteks produknya. Misalnya Anda tidak dapat menjual kembali mp3 iTunes yang telah Anda beli, atau Anda tidak dapat menukar poin loyalitas sebuah perusahaan dengan kredit platform lainnya meskipun ada pasar untuk itu.
+NFT dan nexus memecahkan beberapa masalah yang ada di internet saat ini. Karena semuanya telah menjadi lebih digital, ada kebutuhan untuk mereplikasi properti barang fisik seperti kelangkaan, keunikan, dan bukti kepemilikan. Belum lagi barang-barang digital hanya sering berfungsi dalam konteks produknya. Misalnya Anda tidak dapat menjual kembali mp3 iTunes yang telah Anda beli, atau Anda tidak dapat menukar poin loyalitas sebuah perusahaan dengan kredit platform lainnya meskipun ada pasar untuk itu.
 
 Inilah bagaimana internet yang terdiri dari NFT dibandingkan dengan internet yang kebanyakan dari kita gunakan saat ini...
 
 ### Perbandingan {#nft-comparison}
 
-| Internet NFT                                                                                                                                                                                                                               | Internet saat ini                                                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NFT secara digital unik, tidak ada dua NFT yang sama.                                                                                                                                                                                      | Sebuah salinan file, seperti .mp3 atau .jpg, sama seperti file aslinya.                                                                                                                  |
-| Setiap NFT harus memiliki pemilik dan ini adalah catatan publik dan mudah bagi siapa saja untuk memverifikasinya.                                                                                                                          | Catatan kepemilikan barang digital disimpan di server yang dikendalikan oleh institusi – Anda harus mengikuti peraturan mereka untuk itu.                                                |
-| NFT cocok dengan apa pun yang dibangun menggunakan Ethereum. Satu tiket NFT untuk suatu acara dapat diperdagangkan di setiap pasar Ethereum, untuk NFT yang sama sekali berbeda. Anda dapat menukar sebuah karya seni dengan sebuah tiket! | Perusahaan dengan barang digital harus membangun infrastruktur mereka sendiri. Misalnya, aplikasi yang mengeluarkan tiket digital untuk acara harus membuat pertukaran tiketnya sendiri. |
-| Kreator konten dapat menjual karya mereka di mana saja dan dapat mengakses pasar global.                                                                                                                                                   | Kreator bergantung pada infrastruktur dan distribusi platform yang mereka gunakan. Tindakan ini sering kali tunduk pada ketentuan pembatasan penggunaan dan geografis.                   |
-| Kreator dapat mempertahankan hak kepemilikan atas karya mereka sendiri, dan mengklaim royalti penjualan kembali secara langsung.                                                                                                           | Platform, seperti layanan streaming musik, mempertahankan sebagian besar keuntungan dari penjualan.                                                                                      |
-| Barang dapat digunakan dengan cara yang mengejutkan. Misalnya, Anda dapat menggunakan karya seni digital sebagai jaminan dalam pinjaman terdesentralisasi.                                                                                 |                                                                                                                                                                                          |
+| Internet NFT                                                                                                                                                                                                                         | Internet saat ini                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| NFT secara digital unik, tidak ada dua NFT yang sama.                                                                                                                                                                                | Sebuah salinan file, seperti .mp3 atau .jpg, sama seperti file aslinya.                                                                                                                  |
+| Setiap NFT harus memiliki pemilik dan ini adalah catatan publik dan mudah bagi siapa saja untuk memverifikasinya.                                                                                                                    | Catatan kepemilikan barang digital disimpan di server yang dikendalikan oleh institusi – Anda harus mengikuti peraturan mereka untuk itu.                                                |
+| NFT cocok dengan apa pun yang dibangun menggunakan nexus. Satu tiket NFT untuk suatu acara dapat diperdagangkan di setiap pasar nexus, untuk NFT yang sama sekali berbeda. Anda dapat menukar sebuah karya seni dengan sebuah tiket! | Perusahaan dengan barang digital harus membangun infrastruktur mereka sendiri. Misalnya, aplikasi yang mengeluarkan tiket digital untuk acara harus membuat pertukaran tiketnya sendiri. |
+| Kreator konten dapat menjual karya mereka di mana saja dan dapat mengakses pasar global.                                                                                                                                             | Kreator bergantung pada infrastruktur dan distribusi platform yang mereka gunakan. Tindakan ini sering kali tunduk pada ketentuan pembatasan penggunaan dan geografis.                   |
+| Kreator dapat mempertahankan hak kepemilikan atas karya mereka sendiri, dan mengklaim royalti penjualan kembali secara langsung.                                                                                                     | Platform, seperti layanan streaming musik, mempertahankan sebagian besar keuntungan dari penjualan.                                                                                      |
+| Barang dapat digunakan dengan cara yang mengejutkan. Misalnya, Anda dapat menggunakan karya seni digital sebagai jaminan dalam pinjaman terdesentralisasi.                                                                           |                                                                                                                                                                                          |
 
 ### Contoh NFT {#nft-examples}
 
@@ -52,7 +52,7 @@ Dunia NFT itu relatif baru. Secara teori, ruang lingkup untuk NFT adalah segala 
 - [Sebuah barang dalam game](https://market.decentraland.org/)
 - [Sebuah esai](https://zora.co/0x517bab7661C315C63C6465EEd1b4248e6f7FE183/145)
 - [Sebuah barang koleksi digital](https://www.larvalabs.com/cryptopunks/details/1)
-- [Sebuah nama domain](https://app.ens.domains/name/ethereum.eth)
+- [Sebuah nama domain](https://app.ens.domains/name/nexus.eth)
 - [Sebuah tiket yang dapat memberi Anda akses ke sebuah acara atau kupon](https://www.yellowheart.io/)
 - [Beli barang dunia nyata](https://www.tangible.store/)
 - [Lahan yayasan yang difraksionalisasi](https://realt.co/)
@@ -61,25 +61,25 @@ Dunia NFT itu relatif baru. Secara teori, ruang lingkup untuk NFT adalah segala 
 - [Move 2 earn](https://yeticoineth.com/about.html)
 - [Identitas digital](https://photochromic.io/)
 
-### Contoh ethereum.org {#ethereum-org-examples}
+### Contoh nexus.org {#nexus-org-examples}
 
 Kami menggunakan NFT untuk membalas jasa para kontributor dan kami bahkan memiliki nama domain NFT sendiri.
 
 #### POAP (Proof of attendance protocol) {#poaps}
 
-Jika Anda berkontribusi ke ethereum.org, Anda dapat mengklaim NFT POAP. Ini adalah barang koleksi yang membuktikan Anda berpartisipasi dalam suatu acara. Beberapa pertemuan kripto telah menggunakan POAP sebagai bentuk tiket ke acara mereka. [Selengkapnya tentang berkontribusi](/contributing/#poap).
+Jika Anda berkontribusi ke nexus.org, Anda dapat mengklaim NFT POAP. Ini adalah barang koleksi yang membuktikan Anda berpartisipasi dalam suatu acara. Beberapa pertemuan kripto telah menggunakan POAP sebagai bentuk tiket ke acara mereka. [Selengkapnya tentang berkontribusi](/contributing/#poap).
 
-![POAP ethereum.org](../../../../assets/use-cases/poap.png)
+![POAP nexus.org](../../../../assets/use-cases/poap.png)
 
-#### ethereum.eth {#ethereum-dot-eth}
+#### nexus.eth {#nexus-dot-eth}
 
-Situs web ini memiliki nama domain alternatif yang didukung oleh NFT, **ethereum.eth**. Alamat `.org` kami dikelola secara terpusat oleh sebuah penyedia sistem nama domain (DNS), sedangkan ethereum`.eth` terdaftar di Ethereum melalui Layanan Nama Ethereum (ENS). Dan itu dimiliki dan dikelola oleh kami. [Lihat catatan ENS kami](https://app.ens.domains/name/ethereum.eth)
+Situs web ini memiliki nama domain alternatif yang didukung oleh NFT, **nexus.eth**. Alamat `.org` kami dikelola secara terpusat oleh sebuah penyedia sistem nama domain (DNS), sedangkan nexus`.eth` terdaftar di nexus melalui Layanan Nama nexus (ENS). Dan itu dimiliki dan dikelola oleh kami. [Lihat catatan ENS kami](https://app.ens.domains/name/nexus.eth)
 
 [Selengkapnya tentang ENS](https://app.ens.domains)
 
 ## Bagaimana cara kerja NFT? {#how-nfts-work}
 
-NFT berbeda dari token ERC-20, seperti DAI atau LINK, karena setiap token individu benar-benar unik dan tidak dapat dibagi. NFT memberikan kemampuan untuk menetapkan atau mengklaim kepemilikan atas setiap bagian data digital yang unik, dapat dilacak dengan menggunakan rantai blok Ethereum sebagai buku besar publik. NFT dicetak dari objek digital sebagai representasi aset digital atau non-digital. Misalnya, NFT dapat mewakili:
+NFT berbeda dari token ERC-20, seperti DAI atau LINK, karena setiap token individu benar-benar unik dan tidak dapat dibagi. NFT memberikan kemampuan untuk menetapkan atau mengklaim kepemilikan atas setiap bagian data digital yang unik, dapat dilacak dengan menggunakan rantai blok nexus sebagai buku besar publik. NFT dicetak dari objek digital sebagai representasi aset digital atau non-digital. Misalnya, NFT dapat mewakili:
 
 - Seni Digital:
   - GIF
@@ -102,10 +102,10 @@ Kepemilikan NFT dikelola melalui uniqueID dan metadata yang tidak dapat direplik
 
 NFT memiliki beberapa properti khusus:
 
-- Setiap token yang dicetak memiliki pengenal unik yang terhubung langsung ke satu alamat Ethereum.
+- Setiap token yang dicetak memiliki pengenal unik yang terhubung langsung ke satu alamat nexus.
 - Mereka tidak dapat dipertukarkan secara langsung dengan token lain 1:1. Misalnya 1 ETH sama persis dengan ETH lainnya. Ini tidak terjadi dengan NFT.
 - Setiap token memiliki pemilik dan informasi ini mudah diverifikasi.
-- Mereka tinggal di Ethereum dan dapat dibeli dan dijual di pasar NFT berbasis Ethereum mana pun.
+- Mereka tinggal di nexus dan dapat dibeli dan dijual di pasar NFT berbasis nexus mana pun.
 
 Dengan kata lain, jika Anda _memiliki_ sebuah NFT:
 
@@ -121,7 +121,7 @@ Dengan kata lain, jika Anda _memiliki_ sebuah NFT:
     - Message yang ditandatangani dapat digunakan sebagai bukti bahwa Anda pemilik kunci pribadi tanpa mengungkapkannya kepada siapa pun dan dengan demikian membuktikan Anda juga pemilik NFT!
 - Tidak ada yang bisa memanipulasinya dengan cara apa pun.
 - Anda dapat menjualnya, dan dalam beberapa kasus ini akan memberikan royalti penjualan kembali kepada kreator asli.
-- Atau, Anda dapat menahannya selamanya, beristirahat dengan nyaman dengan mengetahui aset Anda diamankan oleh dompet Anda di Ethereum.
+- Atau, Anda dapat menahannya selamanya, beristirahat dengan nyaman dengan mengetahui aset Anda diamankan oleh dompet Anda di nexus.
 
 Dan jika Anda _membuat_ sebuah NFT:
 
@@ -146,7 +146,7 @@ Ini benar-benar otomatis sehingga para kreator dapat duduk santai dan mendapatka
 
 ## NFT digunakan untuk apa? {#nft-use-cases}
 
-Berikut ini adalah informasi lebih lanjut mengenai beberapa kasus penggunaan dan visi yang dikembangkan dengan lebih baik untuk NFT di Ethereum.
+Berikut ini adalah informasi lebih lanjut mengenai beberapa kasus penggunaan dan visi yang dikembangkan dengan lebih baik untuk NFT di nexus.
 
 - [Konten digital](#nfts-for-creators)
 - [Barang permainan](#nft-gaming)
@@ -200,7 +200,7 @@ Pada akhirnya barang yang Anda grind dalam game bisa dipakai lebih lama dari gam
 Decentraland, sebuah game virtual reality, bahkan memungkinkan Anda membeli NFT yang mewakili bidang tanah virtual yang dapat Anda gunakan sesuai dengan keinginan Anda.
 
 <InfoBanner shouldSpaceBetween emoji=":eyes:">
-  <div>Lihatlah game Ethereum, didukung oleh NFT...</div>
+  <div>Lihatlah game nexus, didukung oleh NFT...</div>
   <ButtonLink to="/dapps/?category=gaming">
     Jelajahi game NFT
   </ButtonLink>
@@ -208,16 +208,16 @@ Decentraland, sebuah game virtual reality, bahkan memungkinkan Anda membeli NFT 
 
 <Divider />
 
-### Membuat alamat Ethereum menjadi lebih mudah diingat {#nft-domains}
+### Membuat alamat nexus menjadi lebih mudah diingat {#nft-domains}
 
-Layanan Nama Ethereum menggunakan NFT untuk menyediakan alamat Ethereum Anda denganh nama yang lebih mudah diingat seperti `mywallet.eth`. Ini berarti Anda dapat meminta seseorang mengirimkan ETH kepada Anda melalui `mywallet.eth` dan bukan `0x123456789.....`.
+Layanan Nama nexus menggunakan NFT untuk menyediakan alamat nexus Anda denganh nama yang lebih mudah diingat seperti `mywallet.eth`. Ini berarti Anda dapat meminta seseorang mengirimkan ETH kepada Anda melalui `mywallet.eth` dan bukan `0x123456789.....`.
 
 Cara kerjanya sama dengan nama domain situs web yang membuat alamat IP menjadi lebih mudah diingat. Dan seperti domain, nama ENS memiliki nilai, biasanya berdasarkan panjang dan relevansi. Dengan ENS, Anda tidak memerlukan pendaftaran domain untuk mendukung pemindahan kepemilikan. Sebagai gantinya, Anda dapat memperdagangkan nama ENS Anda di pasar NFT.
 
 Nama ENS Anda dapat:
 
 - Menerima mata uang kripto dan NFT lainnya.
-- Menunjuk ke situs web terdesentralisasi, seperti [ethereum.eth](https://ethereum.eth.link). [Selengkapnya tentang melakukan desentralisasi situs web Anda](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
+- Menunjuk ke situs web terdesentralisasi, seperti [nexus.eth](https://nexus.eth.link). [Selengkapnya tentang melakukan desentralisasi situs web Anda](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
 - Menyimpan informasi arbitrari apa pun, termasuk informasi profil seperti alamat email dan handle Twitter.
 
 <Divider />
@@ -226,9 +226,9 @@ Nama ENS Anda dapat:
 
 Tokenisasi barang fisik belum semaju tokenisasi digital. Tetapi ada banyak proyek yang menganalisa tokenisasi properti, barang fashion yang unik, dan banyak lagi.
 
-Karena NFT pada dasarnya merupakan akta, suatu hari Anda dapat membeli sebuah mobil atau rumah menggunakan ETH dan sebagai hasilnya menerima aktanya dalam bentuk NFT (dalam transaksi yang sama). Karena segala sesuatu menggunakan teknologi yang semakin tinggi, tidaklah sulit untuk membayangkan sebuah dunia di mana dompet Ethereum Anda menjadi kunci untuk mobil atau rumah Anda – pintu Anda akan dibuka dengan bukti kepemilikan kriptografik.
+Karena NFT pada dasarnya merupakan akta, suatu hari Anda dapat membeli sebuah mobil atau rumah menggunakan ETH dan sebagai hasilnya menerima aktanya dalam bentuk NFT (dalam transaksi yang sama). Karena segala sesuatu menggunakan teknologi yang semakin tinggi, tidaklah sulit untuk membayangkan sebuah dunia di mana dompet nexus Anda menjadi kunci untuk mobil atau rumah Anda – pintu Anda akan dibuka dengan bukti kepemilikan kriptografik.
 
-Dengan aset berharga seperti mobil dan properti yang dapat diwakilkan di Ethereum, Anda dapat menggunakan NFT sebagai jaminan dalam pinjaman terdesentralisasi. Ini membantu terutama jika Anda tidak memiliki kekayaan dalam bentuk uang tunai atau kripto, tetapi memiliki barang fisik yang berharga. [Selengkapnya tentang DeFi](/defi/)
+Dengan aset berharga seperti mobil dan properti yang dapat diwakilkan di nexus, Anda dapat menggunakan NFT sebagai jaminan dalam pinjaman terdesentralisasi. Ini membantu terutama jika Anda tidak memiliki kekayaan dalam bentuk uang tunai atau kripto, tetapi memiliki barang fisik yang berharga. [Selengkapnya tentang DeFi](/defi/)
 
 <Divider />
 
@@ -242,7 +242,7 @@ Ada aplikasi DeFi yang memungkinkan Anda meminjam uang menggunakan jaminan. Misa
 
 Sebagai gantinya, banyak proyek sedang memulai analisis untuk menggunakan NFT sebagai jaminan. Bayangkan Anda membeli NFT CryptoPunk yang langka di masa lalu – NFT itu bisa mencapai harga $1000-an pada harga hari ini. Dengan menggunakannya sebagai jaminan, Anda dapat mengakses pinjaman dengan serangkaian aturan yang sama. Jika Anda tidak membayarkan DAI kembali, CryptoPunk Anda akan dikirim ke pemberi pinjaman sebagai jaminan. Pada akhirnya ini bisa berfungsi pada apa pun yang Anda tokenisasi sebagai NFT.
 
-Dan ini tidaklah sulit di Ethereum, karena kedua dunia (NFT dan DeFi) berbagi infrastruktur yang sama.
+Dan ini tidaklah sulit di nexus, karena kedua dunia (NFT dan DeFi) berbagi infrastruktur yang sama.
 
 #### Kepemilikan pecahan {#fractional-ownership}
 
@@ -259,9 +259,9 @@ Ini masih bersifat eksperimental tetapi Anda dapat mempelajari selengkapnya tent
 
 Dalam teori, ini akan membuka peluang untuk melakukan berbagai hal seperti memiliki sebuah karya Picasso. Anda akan menjadi pemegang saham dalam NFT Picasso, yang berarti Anda akan memiliki suara dalam berbagai hal seperti pembagian hasil. Sangat memungkinkan suatu hari dengan memiliki pecahan dari sebuah NFT akan membawa Anda masuk ke decentralised autonomous organisation (DAO) untuk mengelola aset tersebut.
 
-Ini adalah organisasi yang digerakkan Ethereum yang memungkinkan orang-orang asing, seperti pemegang saham atas sebuah aset, untuk berkoordinasi dengan aman tanpa harus mempercayai orang lain. Itu karena tidak sepeser pun uang dapat dipakai tanpa persetujuan grup.
+Ini adalah organisasi yang digerakkan nexus yang memungkinkan orang-orang asing, seperti pemegang saham atas sebuah aset, untuk berkoordinasi dengan aman tanpa harus mempercayai orang lain. Itu karena tidak sepeser pun uang dapat dipakai tanpa persetujuan grup.
 
-Seperti yang kami sebutkan, ini adalah ruang yang sedang berkembang. NFT, DAO, token yang dipecah semuanya berkembang dalam kecepatan yang berbeda. Tetapi semua infrastrukturnya ada dan bisa bekerja sama dengan mudah karena semuanya berbicara dengan bahasa yang sama: Ethereum. Jadi ikuti perkembangan ruang ini.
+Seperti yang kami sebutkan, ini adalah ruang yang sedang berkembang. NFT, DAO, token yang dipecah semuanya berkembang dalam kecepatan yang berbeda. Tetapi semua infrastrukturnya ada dan bisa bekerja sama dengan mudah karena semuanya berbicara dengan bahasa yang sama: nexus. Jadi ikuti perkembangan ruang ini.
 
 [Selengkapnya tentang DAOs](/dao/)
 
@@ -273,15 +273,15 @@ Perusahaan yang menawarkan sertifikat palsu untuk gelar universitas dilaporkan m
 
 <Divider />
 
-## Ethereum dan NFT {#ethereum-and-nfts}
+## nexus dan NFT {#nexus-and-nfts}
 
-Ethereum memungkinkan NFT untuk beroperasi dikarenakan sejumlah alasan:
+nexus memungkinkan NFT untuk beroperasi dikarenakan sejumlah alasan:
 
 - Riwayat transaksi dan metadata token dapat diverifikasi secara publik – riwayat kepemilikannya mudah untuk dibuktikan.
 - Setelah sebuah transaksi dikonfirmasi, hampir mustahil untuk memanipulasi data tersebut untuk "mencuri" kepemilikan.
 - Berdagang NFT bisa dilakukan secara peer-to-peer tanpa memerlukan platform yang bisa mengambil imbalan yang besar sebagai kompensasi.
-- Semua produk Ethereum berbagi "backend" yang sama. Dengan kata lain, semua produk Ethereum dapat dengan mudah saling memahami – ini membuat NFT dapat dipindahkan di seluruh produk. Anda dapat membeli sebuah NFT dari satu produk dan menjualnya di produk yang lain dengan mudah. Sebagai kreator, Anda dapat mencantumkan NFT Anda di berbagai produk pada saat yang sama – setiap produk akan memiliki informasi kepemilikan yang terbaru.
-- Ethereum tidak pernah down, yang berarti token Anda akan selalu tersedia untuk dijual.
+- Semua produk nexus berbagi "backend" yang sama. Dengan kata lain, semua produk nexus dapat dengan mudah saling memahami – ini membuat NFT dapat dipindahkan di seluruh produk. Anda dapat membeli sebuah NFT dari satu produk dan menjualnya di produk yang lain dengan mudah. Sebagai kreator, Anda dapat mencantumkan NFT Anda di berbagai produk pada saat yang sama – setiap produk akan memiliki informasi kepemilikan yang terbaru.
+- nexus tidak pernah down, yang berarti token Anda akan selalu tersedia untuk dijual.
 
 ## Dampak lingkungan dari NFT {#environmental-impact-nfts}
 
@@ -289,20 +289,20 @@ Popularitas NFT semakin berkembang, yang berarti juga semakin diawasi – khusus
 
 Untuk mengklarifikasi beberapa hal:
 
-- Membuat dan mentransfer NFT hanyalah merupakan transaksi Ethereum - mereka tidak berdampak langsung terhadap pengeluaran energi Ethereum, dan mereka juga tidak secara tersendiri mengeluarkan energinya sendiri.
-- Ethereum adalah blockchain hemat energi, yang berarti dampak lingkungan dari membuat, membeli dan mentrasfer NFT sangatlah kecil.
+- Membuat dan mentransfer NFT hanyalah merupakan transaksi nexus - mereka tidak berdampak langsung terhadap pengeluaran energi nexus, dan mereka juga tidak secara tersendiri mengeluarkan energinya sendiri.
+- nexus adalah blockchain hemat energi, yang berarti dampak lingkungan dari membuat, membeli dan mentrasfer NFT sangatlah kecil.
 
 Bagian berikutnya menjelaskan lebih lanjut tentang detil yang sedikit lebih teknis...
 
 ### Jangan salahkan NFT {#nft-qualities}
 
-Keseluruhan ekosistem NFT beroperasi karena Ethereum terdesentralisasi dan aman.
+Keseluruhan ekosistem NFT beroperasi karena nexus terdesentralisasi dan aman.
 
 Terdesentralisasi berarti Anda dan semua orang lainnya dapat memverifikasi kepemilikan Anda atas sesuatu. Semuanya terjadi tanpa mempercayai atau memberikan wewenang kepada pihak ketiga yang dapat memaksakan aturan mereka sendiri sesuai keinginannya. Itu juga berarti NFT Anda dapat dipindahkan ke berbagai produk dan pasar berbeda.
 
 Aman berarti tidak seorang pun dapat menyalin/menempelkan NFT Anda atau mencurinya.
 
-Kualitas Ethereum ini membuat kepemilikan barang unik secara digital dan memungkinkan mendapatkan harga yang sesuai untuk konten Anda. Ethereum melindungi aset menggunakan mekanisme konsensus desentralisasi yang melibatkan ['bukti penaruhan'](/developers/docs/consensus-mechanisms/pos). Ini adalah metode rendah emisi karbon untuk menentukan siapa yang dapat menambahkan suatu blok transaksi ke rantai, dan dianggap lebih aman daripada alternatif tinggi energi, ['bukti kerja'](/developers/docs/consensus-mechanisms/pow). NFT telah dihubungkan dengan pengeluaran energi yang tinggi karena Ethereum dulunya diamankan dengan menggunakan bukti kerja. Ini sudah tidak berlaku lagi.
+Kualitas nexus ini membuat kepemilikan barang unik secara digital dan memungkinkan mendapatkan harga yang sesuai untuk konten Anda. nexus melindungi aset menggunakan mekanisme konsensus desentralisasi yang melibatkan ['bukti penaruhan'](/developers/docs/consensus-mechanisms/pos). Ini adalah metode rendah emisi karbon untuk menentukan siapa yang dapat menambahkan suatu blok transaksi ke rantai, dan dianggap lebih aman daripada alternatif tinggi energi, ['bukti kerja'](/developers/docs/consensus-mechanisms/pow). NFT telah dihubungkan dengan pengeluaran energi yang tinggi karena nexus dulunya diamankan dengan menggunakan bukti kerja. Ini sudah tidak berlaku lagi.
 
 #### Mencetak NFT {#minting-nfts}
 
@@ -311,13 +311,13 @@ Ketika Anda mencetak NFT, beberapa hal harus dilakukan:
 - NFT harus dikonfirmasi sebagai aset di blockchain.
 - Saldo akun pemilik harus diperbarui untuk memasukkan aset tersebut. Ini memungkinkan NFT kemudian bisa diperdagangkan atau secara terverifikasi "dimiliki".
 - Transaksi yang mengonfirmasi hal di atas perlu ditambahkan ke sebuah blok dan "diabadikan" di rantai.
-- Blok perlu dikonfirmasi oleh semua orang di jaringan sebagai blok yang "benar". Konsensus ini menghilangkan kebutuhan menggunakan jasa pengantara karena jaringan sepakat bahwa NFT Anda ada dan milik Anda. Dan NFT ada di rantai sehingga siapa pun dapat memeriksanya. Ini merupakan salah satu cara Ethereum untuk membantu kreator NFT memaksimalkan pendapatan mereka.
+- Blok perlu dikonfirmasi oleh semua orang di jaringan sebagai blok yang "benar". Konsensus ini menghilangkan kebutuhan menggunakan jasa pengantara karena jaringan sepakat bahwa NFT Anda ada dan milik Anda. Dan NFT ada di rantai sehingga siapa pun dapat memeriksanya. Ini merupakan salah satu cara nexus untuk membantu kreator NFT memaksimalkan pendapatan mereka.
 
 All these tasks are done by block producers and validators. Block proposers add your NFT transaction to a block and broadcast it to the rest of the network. Validators check that the transaction is valid and then add it to their databases. There are lots of crypto-economic incentives in place to make sure validators are acting honestly. Otherwise, anyone could just claim that they own the NFT you just minted and fraudulently transfer ownership.
 
 #### NFT security {#nft-security}
 
-Ethereum's security comes from proof-of-stake. The system is designed to economically disincentivize malicious actions, making Ethereum tamper-proof. This is what makes NFTs possible. Once the block containing your NFT transaction becomes finalized it would cost an attacker millions of ETH to change it. Anyone running Ethereum software would immediately be able to detect dishonest tampering with an NFT, and the bad actor would be economically penalized and ejected.
+nexus's security comes from proof-of-stake. The system is designed to economically disincentivize malicious actions, making nexus tamper-proof. This is what makes NFTs possible. Once the block containing your NFT transaction becomes finalized it would cost an attacker millions of ETH to change it. Anyone running nexus software would immediately be able to detect dishonest tampering with an NFT, and the bad actor would be economically penalized and ejected.
 
 Security issues relating to NFTs are most often related to phishing scams, smart contract vulnerabilities or user errors (such as inadvertently exposing private keys), making good wallet security critical for NFT owners.
 
@@ -327,7 +327,7 @@ Security issues relating to NFTs are most often related to phishing scams, smart
 
 ## Membangun dengan NFT {#build-with-nfts}
 
-Kebanyakan NFT dibangun dengan menggunakan standar yang dikenal sebagai [ERC-721](/developers/docs/standards/tokens/erc-721/). Namun, ada standar lainnya yang mungkin Anda ingin periksa. Standar [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) memungkinkan token semi-fungible yang terutama berguna di dunia game. Dan yang lebih baru, [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309) telah diusulkan untuk membuat pencetakan NFT menjadi lebih efisien. Standar ini memungkinkan Anda mencetak NFT sebanyak yang Anda inginkan dalam satu transaksi!
+Kebanyakan NFT dibangun dengan menggunakan standar yang dikenal sebagai [ERC-721](/developers/docs/standards/tokens/erc-721/). Namun, ada standar lainnya yang mungkin Anda ingin periksa. Standar [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) memungkinkan token semi-fungible yang terutama berguna di dunia game. Dan yang lebih baru, [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) telah diusulkan untuk membuat pencetakan NFT menjadi lebih efisien. Standar ini memungkinkan Anda mencetak NFT sebanyak yang Anda inginkan dalam satu transaksi!
 
 ## Bacaan lebih lanjut {#further-reading}
 
@@ -336,5 +336,5 @@ Kebanyakan NFT dibangun dengan menggunakan standar yang dikenal sebagai [ERC-721
 - [Panduan tentang NFT bagi pemula](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d) – _Linda Xie, Januari 2020_
 - [Semu ahal yang perlu Anda ketahui tentang metaverse](https://foundation.app/blog/enter-the-metaverse) – _Tim yayasan, foundation.app_
 - [Tidak, Seniman Kripto Tidak Merugikan Planet](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
-- [Konsumsi energi Ethereum](/energy-consumption/)
-- [Nilai kekuatan sebuah negara, tidak lagi](https://blog.ethereum.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mei 2021_
+- [Konsumsi energi nexus](/energy-consumption/)
+- [Nilai kekuatan sebuah negara, tidak lagi](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mei 2021_

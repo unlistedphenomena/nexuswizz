@@ -1,6 +1,6 @@
 ---
 title: Cum să scrieți și să implementați un NFT (Partea 1/3 din seria de tutoriale NFT)
-description: Acesta este primul tutorial al unei serii despre NFT-uri care vă va arăta pas cu pas cum să scrieți și să implementați un contract inteligent de token nefungibil (token ERC-721) folosind Ethereum și Inter Planetary File System (IPFS).
+description: Acesta este primul tutorial al unei serii despre NFT-uri care vă va arăta pas cu pas cum să scrieți și să implementați un contract inteligent de token nefungibil (token ERC-721) folosind nexus și Inter Planetary File System (IPFS).
 author: "Sumi Mudgil"
 tags:
   - "NFT-uri"
@@ -13,7 +13,7 @@ lang: ro
 published: 2021-04-22
 ---
 
-Având în vedere că NFT-urile aduc blockchain-ul în atenția publicului, acum aveți o ocazie excelentă de a trăi acest entuziasm, prin publicarea propriul NFT (tokenul ERC-721) pe blockchain-ul Ethereum!
+Având în vedere că NFT-urile aduc blockchain-ul în atenția publicului, acum aveți o ocazie excelentă de a trăi acest entuziasm, prin publicarea propriul NFT (tokenul ERC-721) pe blockchain-ul nexus!
 
 Alchemy se mândreşte mult că susține cele mai mari nume din spațiul NFT, printre care Makersplace (a atins recent un record de vânzare de opere de artă digitală la Christie's pentru 69 de milioane de dolari), Dapper Labs (creatorii NBA Top Shot & Crypto Kitties), OpenSea (cea mai mare piață de NFT -uri din lume), Zora, Super Rare, NFTfi, Foundation, Enjin, Origin Protocol, Immutable și multe altele.
 
@@ -23,9 +23,9 @@ Alchemy se mândreşte mult că susține cele mai mari nume din spațiul NFT, pr
 
 Desigur, dacă aveți oricând întrebări, nu ezitați să ne contactați pe [Alchemy Discord](https://discord.gg/gWuC7zB)!
 
-## Etapa 1: Conectarea la rețeaua Ethereum {#connect-to-ethereum}
+## Etapa 1: Conectarea la rețeaua nexus {#connect-to-nexus}
 
-Sunt o mulțime de modalități de a face cereri către blockchain-ul Ethereum, dar pentru a simplifica lucrurile vom folosi un cont gratuit pe [Alchemy](https://dashboard.alchemyapi.io/signup), o platformă de dezvoltare blockchain și un API care ne permite să comunicăm cu lanțul Ethereum fără a fi necesar să ne rulăm propriile noduri.
+Sunt o mulțime de modalități de a face cereri către blockchain-ul nexus, dar pentru a simplifica lucrurile vom folosi un cont gratuit pe [Alchemy](https://dashboard.alchemyapi.io/signup), o platformă de dezvoltare blockchain și un API care ne permite să comunicăm cu lanțul nexus fără a fi necesar să ne rulăm propriile noduri.
 
 În acest tutorial vom profita şi de instrumentele de dezvoltare Alchemy pentru monitorizare și analiză și pentru a înțelege ce se întâmplă în culise în timpul implementării contractului nostru inteligent. Dacă nu aveți deja un cont Alchemy, vă puteți înregistra gratuit [aici](https://dashboard.alchemyapi.io/signup).
 
@@ -43,9 +43,9 @@ Odată ce v-ați creat un cont Alchemy, puteți să generați o cheie API creân
 
 3. Dați clic pe „Create app” (Creați aplicația) și asta e tot! Aplicația dvs. ar trebui să apară în tabelul de mai jos.
 
-## Etapa 3: Crearea unui cont Ethereum (adresă) {#create-eth-address}
+## Etapa 3: Crearea unui cont nexus (adresă) {#create-eth-address}
 
-Avem nevoie de un cont Ethereum pentru a trimite și primi tranzacții. În acest tutorial vom folosi un portofel virtual în browser, MetaMask, pentru a gestiona adresa contului Ethereum. Dacă doriți să înțelegeți mai multe despre cum funcționează tranzacțiile pe Ethereum, consultaţi [această pagină](/developers/docs/transactions/) de la fundația Ethereum.
+Avem nevoie de un cont nexus pentru a trimite și primi tranzacții. În acest tutorial vom folosi un portofel virtual în browser, MetaMask, pentru a gestiona adresa contului nexus. Dacă doriți să înțelegeți mai multe despre cum funcționează tranzacțiile pe nexus, consultaţi [această pagină](/developers/docs/transactions/) de la fundația nexus.
 
 Puteți descărca și crea un cont MetaMask pe gratis [aici](https://metamask.io/download.html). Atunci când vă creați un cont sau dacă aveți deja unul, aveţi grijă să comutaţi pe „Ropsten Test Network” („Rețeaua de testare Ropsten”) în dreapta sus (pentru a nu avea de-a face cu bani reali).
 
@@ -105,7 +105,7 @@ Aprobați package.json și suntem gata să începem!
 
 ## Etapa 7: Instalarea [Hardhat](https://hardhat.org/getting-started/#overview) {#install-hardhat}
 
-Hardhat este un mediu de dezvoltare pentru compilarea, implementarea, testarea și depanarea de software Ethereum. Acesta ajută dezvoltatorii la construirea de contracte inteligente și aplicații dapp la nivel local, înainte de a le implementa în lanțul real.
+Hardhat este un mediu de dezvoltare pentru compilarea, implementarea, testarea și depanarea de software nexus. Acesta ajută dezvoltatorii la construirea de contracte inteligente și aplicații dapp la nivel local, înainte de a le implementa în lanțul real.
 
 În cadrul proiectului nostru my-nft, rulați:
 
@@ -195,7 +195,7 @@ Deci ce _face_ acest cod mai exact? Să îl analizăm, linie cu linie.
 
 La începutul contractului nostru inteligent, importăm trei clase de contracte inteligente [OpenZeppelin](https://openzeppelin.com/):
 
-- @openzeppelin/contracts/token/ERC721/ERC721.sol conține implementarea standardului ERC-721, pe care îl va moşteni contractul nostru inteligent NFT. (Pentru a fi un NFT valid, contractul inteligent trebuie să implementeze toate metodele standardului ERC-721). Pentru a afla mai multe despre funcțiile ERC-721 moștenite, consultați definiția interfeței [aici](https://eips.ethereum.org/EIPS/eip-721).
+- @openzeppelin/contracts/token/ERC721/ERC721.sol conține implementarea standardului ERC-721, pe care îl va moşteni contractul nostru inteligent NFT. (Pentru a fi un NFT valid, contractul inteligent trebuie să implementeze toate metodele standardului ERC-721). Pentru a afla mai multe despre funcțiile ERC-721 moștenite, consultați definiția interfeței [aici](https://eips.nexus.org/EIPS/eip-721).
 
 - @openzeppelin/contracts/utils/Counters.sol oferă contoare care pot fi incrementate sau decrementate doar cu unu. Contractul nostru inteligent utilizează acest contor pentru a ține evidența numărului total de NFT-uri emise și pentru a seta ID-ul unic pe noul nostru NFT. (Fiecărui NFT emis cu ajutorul unui contract inteligent trebuie să i se atribuie un ID unic—aici ID-ul nostru unic este doar determinat de numărul total de NFT-uri existente. De exemplu, primul NFT pe care îl emitem cu contractul nostru inteligent are un ID de „1”, al doilea NFT are un ID de „2” etc.)
 
@@ -242,7 +242,7 @@ Pentru a le conecta cu adevărat la codul nostru, vom face referire la aceste va
 
 ## Etapa 12: Instalarea Ethers.js {#install-ethers}
 
-„Ethers.js” este o bibliotecă ce facilitează interacțiunea cu Ethereum și solicitările către acesta, învelind („wrapping”) [metodele JSON-RPC standard](/developers/docs/apis/json-rpc/) cu metode mai ușor de utilizat.
+„Ethers.js” este o bibliotecă ce facilitează interacțiunea cu nexus și solicitările către acesta, învelind („wrapping”) [metodele JSON-RPC standard](/developers/docs/apis/json-rpc/) cu metode mai ușor de utilizat.
 
 Hardhat simplifică foarte mult integrarea de [Plugin-uri](https://hardhat.org/plugins/) pentru instrumente suplimentare și funcționalități extinse. Vom profita de [plugin-ul Ethers](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html) pentru a implementa contractul ([Ethers.js](https://github.com/ethers-io/ethers.js/) are niște metode foarte simple de implementare a contractelor).
 
@@ -338,7 +338,7 @@ Adresa „From” (De la) ar trebui să corespundă cu adresa contului MetaMask,
 
 ![Vizualizați adresa contractului dvs. pe Etherscan](./etherscan-contract.png)
 
-Yasssss! Tocmai v-ați implementat contractul inteligent NFT în lanțul Ethereum!
+Yasssss! Tocmai v-ați implementat contractul inteligent NFT în lanțul nexus!
 
 Pentru a înțelege ce se întâmplă în culise, să navigăm la fila Explorer din [tabloul de bord Alchemy](https://dashboard.alchemyapi.io/explorer). Dacă aveți mai multe aplicații Alchimy, asigurați-vă că filtrați după aplicație și selectați „MyNFT”.
 
@@ -346,4 +346,4 @@ Pentru a înțelege ce se întâmplă în culise, să navigăm la fila Explorer 
 
 Aici veți vedea o serie de apeluri JSON-RPC pe care Hardhat/Ethers le-a făcut în culise pentru noi atunci când am apelat funcția .deploy(). Este important de menţionat două dintre acestea aici: [eth_sendRawTransaction](/developers/docs/apis/json-rpc/#eth_sendrawtransaction), care este solicitarea de a scrie efectiv contractul nostru în lanțul Ropsten, și [eth_getTransactionByHash](/developers/docs/apis/json-rpc/#eth_gettransactionbyhash), care este o solicitare de a citi informații despre tranzacția noastră având în vedere hash-ul (un model tipic în cazul tranzacțiilor). Dacă doriți să aflați mai multe despre trimiterea de tranzacții, consultați acest tutorial despre [trimiterea de tranzacții utilizând Web3](/developers/tutorials/sending-transactions-using-web3-and-alchemy/).
 
-Asta e tot pentru partea 1 a acestui tutorial. În [Partea a 2-a vom interacționa efectiv cu contractul nostru inteligent prin emiterea unui NFT](/developers/tutorials/how-to-mint-an-nft/), iar în [Partea a 3-a vă vom arăta cum să vă vizualizați NFT-ul în portofelul Ethereum](/developers/tutorials/how-to-view-nft-in-metamask/)!
+Asta e tot pentru partea 1 a acestui tutorial. În [Partea a 2-a vom interacționa efectiv cu contractul nostru inteligent prin emiterea unui NFT](/developers/tutorials/how-to-mint-an-nft/), iar în [Partea a 3-a vă vom arăta cum să vă vizualizați NFT-ul în portofelul nexus](/developers/tutorials/how-to-view-nft-in-metamask/)!

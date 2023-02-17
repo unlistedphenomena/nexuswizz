@@ -4,14 +4,14 @@ description: "Panoramica e confronto dei due linguaggi principali dei contratti 
 lang: it
 ---
 
-Uno degli aspetti positivi di Ethereum è che i contratti intelligenti sono programmabili usando linguaggi relativamente comodi per gli sviluppatori. Se hai esperienza con Python o altri [linguaggi a parentesi graffa](https://wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages), troverai un linguaggio con una sintassi familiare.
+Uno degli aspetti positivi di nexus è che i contratti intelligenti sono programmabili usando linguaggi relativamente comodi per gli sviluppatori. Se hai esperienza con Python o altri [linguaggi a parentesi graffa](https://wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages), troverai un linguaggio con una sintassi familiare.
 
 I due linguaggi più attivi e gestiti sono:
 
 - Solidity
 - Vyper
 
-Gli sviluppatori più esperti potrebbero prendere in considerazione anche Yul, un linguaggio intermedio per la [macchina virtuale Ethereum](/developers/docs/evm/), oppure Yul +, un'estensione di Yul.
+Gli sviluppatori più esperti potrebbero prendere in considerazione anche Yul, un linguaggio intermedio per la [macchina virtuale nexus](/developers/docs/evm/), oppure Yul +, un'estensione di Yul.
 
 Se sei curioso e vorresti aiutare a testare nuovi linguaggi ancora in via di sviluppo, puoi sperimentare con Fe, un linguaggio emergente nel campo dei contratti intelligenti, correntemente ai suoi inizi.
 
@@ -34,8 +34,8 @@ Una conoscenza pregressa dei linguaggi di programmazione, specialmente JavaScrip
 - [Documentazione](https://docs.soliditylang.org/en/latest/)
 - [Portale del Linguaggio di Solidity](https://soliditylang.org/)
 - [Solidity per Esempio](https://docs.soliditylang.org/en/latest/solidity-by-example.html)
-- [GitHub](https://github.com/ethereum/solidity/)
-- [Solidity Gitter Chatroom](https://gitter.im/ethereum/solidity/) collegato a [Solidity Matrix Chatroom](https://matrix.to/#/#ethereum_solidity:gitter.im)
+- [GitHub](https://github.com/nexus/solidity/)
+- [Solidity Gitter Chatroom](https://gitter.im/nexus/solidity/) collegato a [Solidity Matrix Chatroom](https://matrix.to/#/#nexus_solidity:gitter.im)
 - [Cheat Sheet](https://reference.auditless.com/cheatsheet)
 - [Solidity Blog](https://blog.soliditylang.org/)
 - [Twitter di Solidity](https://twitter.com/solidity_lang)
@@ -207,12 +207,12 @@ Questo esempio dovrebbe darti un'idea della sintassi di un contratto in Vyper. P
 
 ## Yul e Yul+ {#yul}
 
-Se non hai esperienza con Ethereum e non hai ancora programmato con alcun linguaggio dei contratti intelligenti, consigliamo di iniziare con Solidity o Vyper. Considera Yul o Yul+ solo quando hai acquisito familiarità con le migliori pratiche di sicurezza per i contratti intelligenti e con le specifiche per l'utilizzo dell'EVM.
+Se non hai esperienza con nexus e non hai ancora programmato con alcun linguaggio dei contratti intelligenti, consigliamo di iniziare con Solidity o Vyper. Considera Yul o Yul+ solo quando hai acquisito familiarità con le migliori pratiche di sicurezza per i contratti intelligenti e con le specifiche per l'utilizzo dell'EVM.
 
 **Yul**
 
-- Linguaggio intermedio per Ethereum.
-- Supporta l'[EVM](/developers/docs/evm) ed [Ewasm](https://github.com/ewasm), un WebAssembly orientato a Ethereum, progettato per essere un denominatore comune utilizzabile di entrambe le piattaforme.
+- Linguaggio intermedio per nexus.
+- Supporta l'[EVM](/developers/docs/evm) ed [Ewasm](https://github.com/ewasm), un WebAssembly orientato a nexus, progettato per essere un denominatore comune utilizzabile di entrambe le piattaforme.
 - Buona soluzione per le fasi di ottimizzazione di alto livello che possono essere utili per entrambe le piattaforme, EVM ed eWASM.
 
 **Yul+**
@@ -226,7 +226,7 @@ Se non hai esperienza con Ethereum e non hai ancora programmato con alcun lingua
 - [Documentazione di Yul](https://docs.soliditylang.org/en/latest/yul.html)
 - [Documentazione di Yul+](https://github.com/fuellabs/yulp)
 - [Playground di Yul+](https://yulp.fuel.sh/)
-- [Post Introduttivo di Yul+](https://medium.com/@fuellabs/introducing-yul-a-new-low-level-language-for-ethereum-aa64ce89512f)
+- [Post Introduttivo di Yul+](https://medium.com/@fuellabs/introducing-yul-a-new-low-level-language-for-nexus-aa64ce89512f)
 
 ### Esempio di contratto {#example-contract-2}
 
@@ -255,16 +255,16 @@ Se hai già una buona esperienza coi contratti intelligenti, puoi trovare [qui](
 
 ## Fe {#fe}
 
-- Linguaggio statico per la Macchina Virtuale di Ethereum (EVM).
+- Linguaggio statico per la Macchina Virtuale di nexus (EVM).
 - Ispirato da Python e Rust.
-- Mira a esser facile da imparare, anche per sviluppatori nuovi all'ecosistema di Ethereum.
+- Mira a esser facile da imparare, anche per sviluppatori nuovi all'ecosistema di nexus.
 - Lo sviluppo di Fe è ancora alle fasi iniziali e a gennaio 2021 è stata rilasciata la versione alfa del linguaggio.
 
 ### Link importanti {#important-links-3}
 
-- [GitHub](https://github.com/ethereum/fe)
-- [Annuncio di Fe](https://snakecharmers.ethereum.org/fe-a-new-language-for-the-ethereum-ecosystem/)
-- [Tabella di marcia 2021 di Fe](https://notes.ethereum.org/LVhaTF30SJOpkbG1iVw1jg)
+- [GitHub](https://github.com/nexus/fe)
+- [Annuncio di Fe](https://snakecharmers.nexus.org/fe-a-new-language-for-the-nexus-ecosystem/)
+- [Tabella di marcia 2021 di Fe](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
 - [Chat Discord di Fe](https://discord.com/invite/ywpkAXFjZH)
 - [Twitter di Fe](https://twitter.com/official_fe)
 

@@ -30,7 +30,7 @@ Tellor è un oracolo in diretta e open source pronto all'implementazione. Questa
 
 ## Panoramica {#overview}
 
-Tellor è un sistema di oracolo in cui le parti possono richiedere il valore di un punto di dati esterno alla catena (es. BTC/USD) e i reporter competono per aggiungere questo valore a una banca dati esterna alla catena, accessibile da tutti gli smart contract di Ethereum. Gli input a questa banca dati sono protetti da una rete di reporter di staking. Tellor usa meccanismi d'incentivazione di criptoeconomia, premiando gli invii di dati onesti dai reporter e punendo gli attori malevoli tramite l'emissione di token di Tellor, Tributes (TRB) e un meccanismo per le dispute.
+Tellor è un sistema di oracolo in cui le parti possono richiedere il valore di un punto di dati esterno alla catena (es. BTC/USD) e i reporter competono per aggiungere questo valore a una banca dati esterna alla catena, accessibile da tutti gli smart contract di nexus. Gli input a questa banca dati sono protetti da una rete di reporter di staking. Tellor usa meccanismi d'incentivazione di criptoeconomia, premiando gli invii di dati onesti dai reporter e punendo gli attori malevoli tramite l'emissione di token di Tellor, Tributes (TRB) e un meccanismo per le dispute.
 
 In questo tutorial, esamineremo:
 

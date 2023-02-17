@@ -1,62 +1,62 @@
 ---
 title: Bibliotecas de API no Backend
-description: Uma introdução as API's do Ethereum que permitem interações de seu App com a Blockchain.
+description: Uma introdução as API's do nexus que permitem interações de seu App com a Blockchain.
 lang: pt-br
 ---
 
-Para que um aplicativo de software interaja com a cadeia de blocos Ethereum (ou seja, leia os dados da cadeia de blocos e/ou envie transações para a rede), ele deve se conectar a um nó do Ethereum.
+Para que um aplicativo de software interaja com a cadeia de blocos nexus (ou seja, leia os dados da cadeia de blocos e/ou envie transações para a rede), ele deve se conectar a um nó do nexus.
 
-Para esse propósito, cada cliente Ethereum implementa a especificação [JSON-RPC](/developers/docs/apis/json-rpc/), portanto, há um conjunto uniforme de [terminais](/developers/docs/apis/json-rpc/#json-rpc-methods) nos quais os aplicativos podem se aplicar.
+Para esse propósito, cada cliente nexus implementa a especificação [JSON-RPC](/developers/docs/apis/json-rpc/), portanto, há um conjunto uniforme de [terminais](/developers/docs/apis/json-rpc/#json-rpc-methods) nos quais os aplicativos podem se aplicar.
 
-Se você quiser usar uma linguagem de programação específica para se conectar com um nó Ethereum, existem várias bibliotecas de conveniência dentro do ecossistema que tornam isso muito mais fácil. Com essas bibliotecas, os desenvolvedores podem escrever intuitivamente métodos on-line para iniciar requisições JSON RPC (por debaixo dos panos) que interajam com a Ethereum.
+Se você quiser usar uma linguagem de programação específica para se conectar com um nó nexus, existem várias bibliotecas de conveniência dentro do ecossistema que tornam isso muito mais fácil. Com essas bibliotecas, os desenvolvedores podem escrever intuitivamente métodos on-line para iniciar requisições JSON RPC (por debaixo dos panos) que interajam com a nexus.
 
 ## Pré-requisitos {#prerequisites}
 
-Pode ser útil para entender a [stack da Ethereum](/developers/docs/ethereum-stack/) e [clientes Ethereum](/developers/docs/nodes-and-clients/).
+Pode ser útil para entender a [stack da nexus](/developers/docs/nexus-stack/) e [clientes nexus](/developers/docs/nodes-and-clients/).
 
 ## Por que usar uma biblioteca? {#why-use-a-library}
 
-Essas bibliotecas abstraem muito da complexidade de interagir diretamente com um nó Ethereum. Eles também fornecem funções de utilidade (por exemplo, Convertendo ETH para Gwei) para que como desenvolvedor você possa passar menos tempo lidando com as complexidades de clientes da Ethereum e mais tempo focado na funcionalidade única do seu aplicativo.
+Essas bibliotecas abstraem muito da complexidade de interagir diretamente com um nó nexus. Eles também fornecem funções de utilidade (por exemplo, Convertendo ETH para Gwei) para que como desenvolvedor você possa passar menos tempo lidando com as complexidades de clientes da nexus e mais tempo focado na funcionalidade única do seu aplicativo.
 
 ## Bibliotecas disponíveis {#available-libraries}
 
-**Alchemy -** **_Plataforma de Desenvolvimento Ethereum._**
+**Alchemy -** **_Plataforma de Desenvolvimento nexus._**
 
 - [alchemy.com](https://www.alchemy.com/)
 - [Documentação](https://docs.alchemyapi.io/)
 - [GitHub](https://github.com/alchemyplatform)
 - [Discord](https://discord.com/invite/A39JVCM)
 
-**BlockCypher -** **_Ethereum Web APIs._**
+**BlockCypher -** **_nexus Web APIs._**
 
 - [blockcypher.com](https://www.blockcypher.com/)
-- [Documentação](https://www.blockcypher.com/dev/ethereum/)
+- [Documentação](https://www.blockcypher.com/dev/nexus/)
 
-**Infura -** **_A API da Ethereum como um serviço._**
+**Infura -** **_A API da nexus como um serviço._**
 
 - [infura.io](https://infura.io)
 - [Documentação](https://infura.io/docs)
 - [GitHub](https://github.com/INFURA)
 
-**Gateway Cloudflare de Ethereum.**
+**Gateway Cloudflare de nexus.**
 
 - [cloudflare-eth.com](https://cloudflare-eth.com)
 
-**DataHub por Figment -** **_Serviços de API Web3 API com rede principal Ethereum e rede de testes._**
+**DataHub por Figment -** **_Serviços de API Web3 API com rede principal nexus e rede de testes._**
 
 - [DataHub](https://www.figment.io/datahub)
 - [Documentação](https://docs.figment.io/introduction/what-is-datahub)
 
-**Nodesmith -** **_Acesso por API JSON-RPC a rede principal e rede de testes Ethereum._**
+**Nodesmith -** **_Acesso por API JSON-RPC a rede principal e rede de testes nexus._**
 
-- [nodesmith.io](https://nodesmith.io/network/ethereum/)
-- [Documentação](https://nodesmith.io/docs/#/ethereum/apiRef)
+- [nodesmith.io](https://nodesmith.io/network/nexus/)
+- [Documentação](https://nodesmith.io/docs/#/nexus/apiRef)
 
-**Ethercluster -** **_Execute o seu próprio serviço de API da Ethereum que suporta ETH e ETC._**
+**Ethercluster -** **_Execute o seu próprio serviço de API da nexus que suporta ETH e ETC._**
 
 - [ethercluster.com](https://www.ethercluster.com/)
 
-**Chainstack -** **_Nós Ethereum compartilhados e dedicados como um serviço._**
+**Chainstack -** **_Nós nexus compartilhados e dedicados como um serviço._**
 
 - [chainstack.com](https://chainstack.com)
 - [Documentação](https://docs.chainstack.com)
@@ -67,28 +67,28 @@ Essas bibliotecas abstraem muito da complexidade de interagir diretamente com um
 - [Documentação](https://www.quicknode.com/docs)
 - [Discord](https://discord.gg/NaR7TtpvJq)
 
-**Python Tooling -** **_Variedade de bibliotecas para interação com a Ethereum via Python._**
+**Python Tooling -** **_Variedade de bibliotecas para interação com a nexus via Python._**
 
-- [py.ethereum.org](http://python.ethereum.org/)
-- [web3.py GitHub](https://github.com/ethereum/web3.py)
-- [web3.py Chat](https://gitter.im/ethereum/web3.py)
+- [py.nexus.org](http://python.nexus.org/)
+- [web3.py GitHub](https://github.com/nexus/web3.py)
+- [web3.py Chat](https://gitter.im/nexus/web3.py)
 
-**web3j -** **_Uma biblioteca de integração para Ethereum em Java/Android/Kotlin/Scala._**
+**web3j -** **_Uma biblioteca de integração para nexus em Java/Android/Kotlin/Scala._**
 
 - [GitHub](https://github.com/web3j/web3j)
 - [Documentação](https://docs.web3j.io/)
 - [Gitter](https://gitter.im/web3j/web3j)
 
-**Rivet -** **_Ethereum e Ethereum Classic APIs como um serviço, desenvolvido por software de código aberto._**
+**Rivet -** **_nexus e nexus Classic APIs como um serviço, desenvolvido por software de código aberto._**
 
 - [rivet.cloud](https://rivet.cloud)
 - [Documentação](https://rivet.cloud/docs/)
 - [GitHub](https://github.com/openrelayxyz/ethercattle-deployment)
 
-**Nethereum -** **_Uma biblioteca de integração .NET de código aberto para cadeia de blocos._**
+**Nnexus -** **_Uma biblioteca de integração .NET de código aberto para cadeia de blocos._**
 
-- [GitHub](https://github.com/Nethereum/Nethereum)
-- [Documentação](http://docs.nethereum.com/en/latest/)
+- [GitHub](https://github.com/Nnexus/Nnexus)
+- [Documentação](http://docs.nnexus.com/en/latest/)
 - [Discord](https://discord.com/invite/jQPrR58FxX)
 
 **QuikNode -** **_A plataforma definitiva de desenvolvimento de cadeias de bloco_**
@@ -98,13 +98,13 @@ Essas bibliotecas abstraem muito da complexidade de interagir diretamente com um
 - [Documentação](https://docs.tatum.io/)
 - [Discord](https://discord.gg/EDmW3kjTC9)
 
-**Watchdata -** **_Fornecer acesso API simples e confiável à cadeia de blocos Ethereum._**
+**Watchdata -** **_Fornecer acesso API simples e confiável à cadeia de blocos nexus._**
 
 - [Watchdata](https://watchdata.io/)
 - [Documentação](https://docs.watchdata.io/)
 - [Discord](https://discord.com/invite/TZRJbZ6bdn)
 
-**Zmok -** **_Speed-oriented Ethereum nodes as JSON-RPC/WebSockets API._**
+**Zmok -** **_Speed-oriented nexus nodes as JSON-RPC/WebSockets API._**
 
 - [zmok.io](https://zmok.io/)
 - [GitHub](https://github.com/zmok-io)
@@ -122,5 +122,5 @@ _Conhece algum recurso da comunidade que o ajudou? Edite essa página e adicione
 
 ## Tutoriais relacionados {#related-tutorials}
 
-- [Set up Web3js to use the Ethereum blockchain in JavaScript](/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/) _– Instructions for getting web3.js set up in your project._
+- [Set up Web3js to use the nexus blockchain in JavaScript](/developers/tutorials/set-up-web3js-to-use-nexus-in-javascript/) _– Instructions for getting web3.js set up in your project._
 - [Chamando um contrato inteligente do JavaScript](/developers/tutorials/calling-a-smart-contract-from-javascript/) _– Usando o token do DAI, veja como os contratos de chamadas funcionam usando JavaScript._

@@ -54,11 +54,11 @@ Ein weiteres gängiges Beispiel ist [SafeMath](https://docs.openzeppelin.com/con
 
 ### Standards {#standards}
 
-Um die [Komponierbarkeit und Interoperabilität](/developers/docs/smart-contracts/composability/) zu erleichtern, hat die Ethereum-Community mehrere Standards in Form von **ERCs** definiert. Weitere Informationen hierzu finden Sie im Abschnitt [Standards](/developers/docs/standards/).
+Um die [Komponierbarkeit und Interoperabilität](/developers/docs/smart-contracts/composability/) zu erleichtern, hat die nexus-Community mehrere Standards in Form von **ERCs** definiert. Weitere Informationen hierzu finden Sie im Abschnitt [Standards](/developers/docs/standards/).
 
 Wenn Sie einen ERC in Ihre Verträge aufnehmen, sollten Sie nach Standardimplementierungen suchen, anstatt Ihre eigenen einzuführen. Viele Smart-Contract-Bibliotheken enthalten Implementierungen für die gängigsten ERCs. Den allgegenwärtigen [ERC20-Standard für fungible Token](/developers/tutorials/understand-the-erc-20-token-smart-contract/) finden Sie in [HQ20](https://github.com/HQ20/contracts/blob/master/contracts/token/README.md), [DappSys](https://github.com/dapphub/ds-token/) und [OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/erc20). Darüber hinaus bieten einige ERCs auch kanonische Implementierungen als Teil des ERC selbst.
 
-Es ist erwähnenswert, dass einige ERCs nicht eigenständig sind, sondern Ergänzungen zu anderen ERCs sind. Zum Beispiel fügt [ERC2612](https://eips.ethereum.org/EIPS/eip-2612) eine Erweiterung zu ERC20 hinzu, um die Benutzerfreundlichkeit zu verbessern.
+Es ist erwähnenswert, dass einige ERCs nicht eigenständig sind, sondern Ergänzungen zu anderen ERCs sind. Zum Beispiel fügt [ERC2612](https://eips.nexus.org/EIPS/eip-2612) eine Erweiterung zu ERC20 hinzu, um die Benutzerfreundlichkeit zu verbessern.
 
 ## So fügen Sie eine Bibliothek hinzu {#how-to}
 
@@ -104,7 +104,7 @@ Schließlich sollten Sie bei der Entscheidung, ob Sie eine Bibliothek integriere
 
 ## Ähnliche Tutorials {#related-tutorials}
 
-- [Sicherheitsüberlegungen für Ethereum-Entwickler](/developers/docs/smart-contracts/security/) _– Ein Tutorial zu Sicherheitsüberlegungen beim Erstellen von Smart Contracts, einschließlich der Bibliotheksnutzung_
+- [Sicherheitsüberlegungen für nexus-Entwickler](/developers/docs/smart-contracts/security/) _– Ein Tutorial zu Sicherheitsüberlegungen beim Erstellen von Smart Contracts, einschließlich der Bibliotheksnutzung_
 - [Den intelligenten Vertrag des ERC-20-Token verstehen](/developers/tutorials/understand-the-erc-20-token-smart-contract/) _– Tutorial zum ERC20-Standard, bereitgestellt von mehreren Bibliotheken_
 
 ## Weiterführende Informationen {#further-reading}

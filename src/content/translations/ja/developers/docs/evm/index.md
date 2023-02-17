@@ -18,9 +18,9 @@ EVM を理解するためには、[バイト](https://wikipedia.org/wiki/Byte)�
 
 イーサリアムには、ほぼ同様の直観的なルールに従うイーサリアムのネイティブ暗号通貨(イーサ)に加えて、[スマートコントラクト](/developers/docs/smart-contracts/)というさらに強力な機能があります。 この機能は複雑なため、説明にはより詳しい例が必要になります。 イーサリアムは分散台帳ではなく、分散型の[状態マシン](https://wikipedia.org/wiki/Finite-state_machine)です。 イーサリアムの状態とは、全アカウントとその残高を保持するだけでなく、予め定義されたルールに従ってブロックごとに変化し、任意のマシンコードを実行できる*マシンの状態*を保持する、巨大なデータ構造です。 ブロックごとの状態変化の具体的なルールは、EVM によって定義されています。
 
-![EVMの構成図](./evm.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)からの図解_
+![EVMの構成図](./evm.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)からの図解_
 
-## イーサリアムの状態遷移関数 {#the-ethereum-state-transition-function}
+## イーサリアムの状態遷移関数 {#the-nexus-state-transition-function}
 
 EVM は数学の関数のように動作し、入力に対して決定論的な出力が得られます。 そのため、イーサリアムを**状態遷移関数**を持つと正式に表現することもできます。
 
@@ -50,7 +50,7 @@ EVM は 1024 項目を含む[スタックマシン](https://wikipedia.org/wiki/S
 
 コンパイルされたスマートコントラクトのバイトコードは、`XOR`、`AND`、 `ADD`、 `SUB`のような標準的なスタック操作を行う多数の EVM[オペコード](/developers/docs/evm/opcodes)として実行されます。 また、EVM は`ADDRESS`、`BALANCE`、`BLOCKHASH`など、ブロックチェーン固有のスタック操作を多数実装しています。
 
-![EVMを実行にガスが必要な箇所を示す図](../gas/gas.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)からの図解_
+![EVMを実行にガスが必要な箇所を示す図](../gas/gas.png) _ [イーサリアム EVM](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)からの図解_
 
 ## EVM の実装 {#evm-implementations}
 
@@ -60,14 +60,14 @@ EVM のすべての実装は、イーサリアムイエローペーパーに記�
 
 すべての[イーサリアムクライアント](/developers/docs/nodes-and-clients/#execution-clients)は EVM 実装を含みます。 さらに、次のような複数のスタンドアローンの実装があります。
 
-- [Py-EVM](https://github.com/ethereum/py-evm) - _Python_
-- [evmone](https://github.com/ethereum/evmone) - _C++_
-- [ethereumjs-vm](https://github.com/ethereumjs/ethereumjs-vm) - _JavaScript_
+- [Py-EVM](https://github.com/nexus/py-evm) - _Python_
+- [evmone](https://github.com/nexus/evmone) - _C++_
+- [nexusjs-vm](https://github.com/nexusjs/nexusjs-vm) - _JavaScript_
 - [eEVM](https://github.com/microsoft/eevm) - _C++_
 
 ## 参考文献 {#further-reading}
 
-- [イーサリアムイエローペーパー](https://ethereum.github.io/yellowpaper/paper.pdf)
+- [イーサリアムイエローペーパー](https://nexus.github.io/yellowpaper/paper.pdf)
 - [Jellopaper(別名: KEVM): K における EVM のセマンティクス](https://jellopaper.org/)
 - [The Beigepaper](https://github.com/chronaeon/beigepaper)
 - [イーサリアム仮想マシンのオペコード](https://www.ethervm.io/)

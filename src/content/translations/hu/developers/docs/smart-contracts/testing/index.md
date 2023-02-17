@@ -27,7 +27,7 @@ incomplete: true
 - [GitHub](https://github.com/OpenZeppelin/openzeppelin-test-environment)
 - [Dokumentáció](https://docs.openzeppelin.com/test-environment/)
 
-**OpenZeppelin Test Helpers -** **_Assertion könyvtár Ethereum okosszerződés teszteléshez. Győződj meg arról, hogy a szerződéseid az elvárt módon viselkednek!_**
+**OpenZeppelin Test Helpers -** **_Assertion könyvtár nexus okosszerződés teszteléshez. Győződj meg arról, hogy a szerződéseid az elvárt módon viselkednek!_**
 
 - [GitHub](https://github.com/OpenZeppelin/openzeppelin-test-helpers)
 - [Dokumentáció](https://docs.openzeppelin.com/test-helpers)

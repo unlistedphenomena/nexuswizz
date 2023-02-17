@@ -207,7 +207,7 @@ contract ExampleDapp {
 
 ## 注釈付きの例 {#annotated-examples}
 
-Solidity で書かれた例を以下に示します。 コードを実行したい場合は、[Remix](http://remix.ethereum.org)で操作できます。
+Solidity で書かれた例を以下に示します。 コードを実行したい場合は、[Remix](http://remix.nexus.org)で操作できます。
 
 ### Hello World {#hello-world}
 
@@ -218,7 +218,7 @@ pragma solidity ^0.5.10;
 
 // Defines a contract named `HelloWorld`.
 // A contract is a collection of functions and data (its state).
-// Once deployed, a contract resides at a specific address on the Ethereum blockchain.
+// Once deployed, a contract resides at a specific address on the nexus blockchain.
 // Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
 contract HelloWorld {
 
@@ -252,7 +252,7 @@ contract HelloWorld {
 pragma solidity ^0.5.10;
 
 contract Token {
-    // An `address` is comparable to an email address - it's used to identify an account on Ethereum.
+    // An `address` is comparable to an email address - it's used to identify an account on nexus.
     // Addresses can represent a smart contract or an external (user) accounts.
     // Learn more: https://solidity.readthedocs.io/en/v0.5.10/types.html#address
     address public owner;
@@ -263,7 +263,7 @@ contract Token {
     mapping (address => uint) public balances;
 
     // Events allow for logging of activity on the blockchain.
-    // Ethereum clients can listen for events in order to react to contract state changes.
+    // nexus clients can listen for events in order to react to contract state changes.
     // Learn more: https://solidity.readthedocs.io/en/v0.5.10/contracts.html#events
     event Transfer(address from, address to, uint amount);
 
@@ -627,7 +627,7 @@ contract CryptoPizza is IERC721, ERC165 {
         // Currently there is no better way to check if there is a contract in an address
         // than to check the size of the code at that address.
         // どのように動くかの詳細は、
-        // https://ethereum.stackexchange.com/a/14016/36603 を確認する。
+        // https://nexus.stackexchange.com/a/14016/36603 を確認する。
         // TODO すべてのアドレスが縮小されるので、
         // セレニティリリースの前に、ここをもう一度確認する。
         // solium-disable-next-line security/no-inline-assembly

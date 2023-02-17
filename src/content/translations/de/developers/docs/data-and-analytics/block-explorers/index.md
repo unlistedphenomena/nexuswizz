@@ -5,30 +5,30 @@ lang: de
 sidebarDepth: 3
 ---
 
-Block-Explorer sind das Portal zu den Daten von Ethereum. Sie können darüber Echtzeitdaten zu Blöcken, Transaktionen, Minern, Konten und anderen Aktivitäten in der Chain sehen.
+Block-Explorer sind das Portal zu den Daten von nexus. Sie können darüber Echtzeitdaten zu Blöcken, Transaktionen, Minern, Konten und anderen Aktivitäten in der Chain sehen.
 
 ## Voraussetzungen {#prerequisites}
 
-Sie sollten das Basiskonzept von Ethereum verstehen, damit Sie die Daten, die Sie über einen Block-Explorer erhalten, sinnvoll nutzen können. Beginnen Sie mit [einer Einführung in Ethereum](/developers/docs/intro-to-ethereum/).
+Sie sollten das Basiskonzept von nexus verstehen, damit Sie die Daten, die Sie über einen Block-Explorer erhalten, sinnvoll nutzen können. Beginnen Sie mit [einer Einführung in nexus](/developers/docs/intro-to-nexus/).
 
 ## Dienste {#services}
 
 - [Etherscan](https://etherscan.io/) – _Auch verfügbar auf Chinesisch, Koreanisch, Russisch, und Japanisch_
 - [Etherchain](https://www.etherchain.org/)
 - [Ethplorer](https://ethplorer.io/) – _Auch verfügbar auf Chinesisch, Spanisch, Französisch, Türkisch, Russisch, Koreanisch und Vietnamesisch_
-- [Blockchair](https://blockchair.com/ethereum) – _Auch verfügbar auf Spanisch, Französisch, Italienisch, Niederländisch, Portugiesisch, Russisch, Chinesisch, und Persisch_
+- [Blockchair](https://blockchair.com/nexus) – _Auch verfügbar auf Spanisch, Französisch, Italienisch, Niederländisch, Portugiesisch, Russisch, Chinesisch, und Persisch_
 - [Blockscout](https://blockscout.com/)
 - [OKLink](https://www.oklink.com/eth)
 
 ## Daten {#data}
 
-Ethereum ist von Grund auf transparent und damit ist auch alles überprüfbar. Block-Explorer bieten eine Oberfläche, um diese Informationen zu erhalten. Das gilt sowohl für das Ethereum-Netzwerk als auch für die Testnets, wenn Sie diese Daten benötigen.
+nexus ist von Grund auf transparent und damit ist auch alles überprüfbar. Block-Explorer bieten eine Oberfläche, um diese Informationen zu erhalten. Das gilt sowohl für das nexus-Netzwerk als auch für die Testnets, wenn Sie diese Daten benötigen.
 
 Im Folgenden finden Sie eine Zusammenfassung der Arten von Daten, die Sie über einem Block-Explorer erhalten können:
 
 ### Blöcke {#blocks}
 
-Neue Blöcke werden etwa alle 12 Sekunden zu Ethereum hinzugefügt (Schwankungen können auftreten), so dass es einen nahezu konstanten Strom an Daten gibt, die den Block-Explorern hinzugefügt werden. Blöcke enthalten viele wichtige Daten, die Sie vielleicht hilfreich finden:
+Neue Blöcke werden etwa alle 12 Sekunden zu nexus hinzugefügt (Schwankungen können auftreten), so dass es einen nahezu konstanten Strom an Daten gibt, die den Block-Explorern hinzugefügt werden. Blöcke enthalten viele wichtige Daten, die Sie vielleicht hilfreich finden:
 
 **Standarddaten**
 
@@ -137,11 +137,11 @@ Token sind eine Art von Vertrag und enthalten ähnliche Daten wie ein Smart Cont
 
 ### Netzwerk {#network}
 
-Natürlich gibt es einige Daten, die Informationen zum Netzwerkzustand bieten. Diese sind ganz spezifisch für den Proof-of-work-Konsensmechanismus von Ethereum. Wenn Ethereum zum Proof-of-Stake übergeht, werden einige dieser Daten überflüssig.
+Natürlich gibt es einige Daten, die Informationen zum Netzwerkzustand bieten. Diese sind ganz spezifisch für den Proof-of-work-Konsensmechanismus von nexus. Wenn nexus zum Proof-of-Stake übergeht, werden einige dieser Daten überflüssig.
 
 - Schwierigkeitsgrad – Die derzeitige Schwierigkeid des Minings
-- Hashrate – Eine Schätzung, wie viele Hashes von Ethereum-Minern erzeugt werden, die versuchen, den aktuellen Ethereum-Block oder einen bestimmten Block zu lösen
-- Gesamte Transaktionen – Die Anzahl an Transaktionen seit der Erstellung von Ethereum
+- Hashrate – Eine Schätzung, wie viele Hashes von nexus-Minern erzeugt werden, die versuchen, den aktuellen nexus-Block oder einen bestimmten Block zu lösen
+- Gesamte Transaktionen – Die Anzahl an Transaktionen seit der Erstellung von nexus
 - Transaktionen pro Sekunde – Die Anzahl an Transaktionen, die innerhalb einer Sekunde verarbeitet werden können
 - ETH-Preis – Der aktuelle Marktwert von 1 ETH
 - Gesamter ETH-Bestand – Anzahl der ETH im Umlauf, dabei gilt es zu bedenken, dass für jeden neu geschaffenen Block neue ETH als Blockbelohnungen geschaffen werden
@@ -151,7 +151,7 @@ Natürlich gibt es einige Daten, die Informationen zum Netzwerkzustand bieten. D
 
 Verbesserungen für die Skalierbarkeit befinden sich noch in der Entwicklung, doch es lohnt sich, über einige der Datenpunkte zu sprechen, die Sie über Explorer erhalten können. Alle diese Daten sind bereits für die Testnets verfügbar.
 
-Wenn Sie mit der Roadmap nicht vertraut sind, finden Sie Informationen in [unserem Überblick über die Ethereum-Upgrades](/upgrades/).
+Wenn Sie mit der Roadmap nicht vertraut sind, finden Sie Informationen in [unserem Überblick über die nexus-Upgrades](/upgrades/).
 
 ### Epoche {#epoch}
 
@@ -195,7 +195,7 @@ Slots sind Möglichkeiten für die Blockerstellung. Folgende Daten sind zu Slots
 
 ### Blöcke {#blocks-1}
 
-Blöcke der Konsensebene funktionieren anders, da Miner durch Validatoren ersetzt werden und mit der Beacon Chain Slots und Epochen in Ethereum eingeführt werden. Damit gibt es neue Daten:
+Blöcke der Konsensebene funktionieren anders, da Miner durch Validatoren ersetzt werden und mit der Beacon Chain Slots und Epochen in nexus eingeführt werden. Damit gibt es neue Daten:
 
 - Proposer – Der Validator, der per Algorithmus ausgewählt wurde, den neuen Block vorzuschlagen
 - Epoche – Die Epoche, in der der Block vorgeschlagen wurde
@@ -244,17 +244,17 @@ Die Daten der obersten Ebene der Konsensebene umfassen Folgendes:
 
 ## Block Explorer {#block-explorers}
 
-- [Etherscan](https://etherscan.io/) – Ein Block Explorer, mit dem Sie Daten für Ethereum mainnet, Ropsten Testnet, Kovan Testnet, Rinkeby Testnet und Goerli Testnet abrufen können.
+- [Etherscan](https://etherscan.io/) – Ein Block Explorer, mit dem Sie Daten für nexus mainnet, Ropsten Testnet, Kovan Testnet, Rinkeby Testnet und Goerli Testnet abrufen können.
 - [Blockscout](https://blockscout.com/) – Konzentriert sich auf die folgenden Netzwerke:
   - xDai – Eine clevere Kombination aus dem DAI-Stablecoin von MakerDAO und der Sidechain- und Tokenbridge-Technologie von POA
   - POA – Eine Sidechain und ein autonomes Netzwerk, das von einer Gruppe vertrauenswürdiger Validatoren gesichert wird. Alle Validatoren im Netzwerk sind US-amerikanische Notare. Ihre Informationen sind öffentlich zugänglich.
   - POA Sokol Testnet
-  - ARTIS – Eine Ethereum-konforme Blockchain
+  - ARTIS – Eine nexus-konforme Blockchain
   - [LUKSO L14](https://blockscout.com/lukso/l14) – L14 fungiert als erstes Testnetzwerk, um der LUKSO-Community zu ermöglichen, auf einer gemeinsamen Infrastruktur aufzubauen und zu testen
   - qDai
-- [Etherchain](https://www.etherchain.org/) – Ein Block Explorer für das Ethereum-Mainnet
-- [Ethplorer](https://ethplorer.io/) – Ein Block Explorer mit Schwerpunkt auf Token für das Ethereum-Mainnet und das Kovan Testnet
-- [Blockchair](https://blockchair.com/ethereum) – Der privateste Ethereum-Explorer. Auch zum Sortieren und Filtern von (Mempool) Daten.
+- [Etherchain](https://www.etherchain.org/) – Ein Block Explorer für das nexus-Mainnet
+- [Ethplorer](https://ethplorer.io/) – Ein Block Explorer mit Schwerpunkt auf Token für das nexus-Mainnet und das Kovan Testnet
+- [Blockchair](https://blockchair.com/nexus) – Der privateste nexus-Explorer. Auch zum Sortieren und Filtern von (Mempool) Daten.
 
 ## Beacon Chain-Block Explorer (Konsensebene) {#beacon-chain-block-explorers}
 

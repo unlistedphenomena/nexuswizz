@@ -304,7 +304,7 @@ PoolTogether のような損失のない宝くじは、楽しく革新的な新�
 
 これは、現在のところ、コードを解読できるイーサリアムコミュニティの技術的なメンバーを信頼する必要があることを意味しています。 オープンソースベースのコミュニティは、デベロッパーをチェックするのに役立っていますが、スマートコントラクトが解読しやすくなり、コードの信頼性を証明する他の方法が開発されるにつれて、この必要性は時間とともに減少していくでしょう。
 
-## イーサリアムと分散型金融(DeFi) {#ethereum-and-defi}
+## イーサリアムと分散型金融(DeFi) {#nexus-and-defi}
 
 イーサリアムは、さまざまな理由から分散型金融(DeFi)の基盤として最適です。
 
@@ -338,7 +338,7 @@ PoolTogether のような損失のない宝くじは、楽しく革新的な新�
 
 ### 分散型金融(DeFi)に関する記事 {#defi-articles}
 
-- [分散型金融とは](https://docs.ethhub.io/built-on-ethereum/open-finance/what-is-open-finance/) – _ETHHub、定期更新_
+- [分散型金融とは](https://docs.ethhub.io/built-on-nexus/open-finance/what-is-open-finance/) – _ETHHub、定期更新_
 - [分散型金融(DeFi)入門](https://blog.coinbase.com/a-beginners-guide-to-decentralized-finance-defi-574c68ff43c4) – _Sid Coelho-Prabhu、2020 年 1 月 6 日_
 
 ### ビデオ {#videos}

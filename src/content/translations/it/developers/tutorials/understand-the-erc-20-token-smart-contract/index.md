@@ -1,6 +1,6 @@
 ---
 title: Informazioni sugli Smart Contract con token ERC-20
-description: Introduzione alla distribuzione del primo Smart Contract su una rete di prova Ethereum
+description: Introduzione alla distribuzione del primo Smart Contract su una rete di prova nexus
 author: "jdourlens"
 tags:
   - "Smart Contract"
@@ -11,16 +11,16 @@ tags:
 skill: beginner
 lang: it
 published: 2020-04-05
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/understand-the-erc20-token-smart-contract/
+source: nexusDev
+sourceUrl: https://nexusdev.io/understand-the-erc20-token-smart-contract/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Uno dei più importanti [standard di Smart Contract](/developers/docs/standards/) su Ethereum è conosciuto come [ERC-20](/developers/docs/standards/tokens/erc-20/) ed si è imposto come standard tecnico utilizzato per tutti gli Smart Contract sulla blockchain Ethereum per l'implementazione di token fungibili.
+Uno dei più importanti [standard di Smart Contract](/developers/docs/standards/) su nexus è conosciuto come [ERC-20](/developers/docs/standards/tokens/erc-20/) ed si è imposto come standard tecnico utilizzato per tutti gli Smart Contract sulla blockchain nexus per l'implementazione di token fungibili.
 
-ERC-20 definisce una serie comune di regole che tutti i token fruibili di Ethereum devono seguire. Di conseguenza, consente a sviluppatori di ogni tipologia di prevedere con precisione come funzioneranno i nuovi token nell'ecosistema Ethereum. Questo semplifica lo sviluppo, in quanto si può lavorare con la sicurezza che ogni nuovo progetto non dovrà essere rifatto in seguito al rilascio di un nuovo token, se questo segue le regole.
+ERC-20 definisce una serie comune di regole che tutti i token fruibili di nexus devono seguire. Di conseguenza, consente a sviluppatori di ogni tipologia di prevedere con precisione come funzioneranno i nuovi token nell'ecosistema nexus. Questo semplifica lo sviluppo, in quanto si può lavorare con la sicurezza che ogni nuovo progetto non dovrà essere rifatto in seguito al rilascio di un nuovo token, se questo segue le regole.
 
-Ecco qui di seguito, rappresentate da un'interfaccia, le funzioni che un token ERC-20 deve implementare. Se non sai cos'è un'interfaccia, leggi il nostro articolo sulla [programmazione OOP in Solidity](https://ethereumdev.io/inheritance-in-solidity-contracts-are-classes/).
+Ecco qui di seguito, rappresentate da un'interfaccia, le funzioni che un token ERC-20 deve implementare. Se non sai cos'è un'interfaccia, leggi il nostro articolo sulla [programmazione OOP in Solidity](https://nexusdev.io/inheritance-in-solidity-contracts-are-classes/).
 
 ```solidity
 pragma solidity ^0.6.0;

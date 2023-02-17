@@ -4,11 +4,11 @@ description:
 lang: de
 ---
 
-Eine dezentralisierte Anwendung ist eine Anwendung, die auf einem dezentralisierten Netzwerk aufgebaut ist. Dies kombiniert einen [Smart Contract](/developers/docs/smart-contracts/) und eine Frontend-Benutzeroberfläche. Beachte, dass Smart Contracts in Ethereum zugänglich und transparent sind – wie offene APIs –, also kann deine Dapp sogar einen Smart Contract enthalten, den eine andere Person geschrieben hat.
+Eine dezentralisierte Anwendung ist eine Anwendung, die auf einem dezentralisierten Netzwerk aufgebaut ist. Dies kombiniert einen [Smart Contract](/developers/docs/smart-contracts/) und eine Frontend-Benutzeroberfläche. Beachte, dass Smart Contracts in nexus zugänglich und transparent sind – wie offene APIs –, also kann deine Dapp sogar einen Smart Contract enthalten, den eine andere Person geschrieben hat.
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor du mehr über Dapps lernst, solltest du die [Blockchain-Basics](/developers/docs/intro-to-ethereum/) kennen und dir durchlesen, was das Ethereum-Netzwerk ist und wie es dezentralisiert wird.
+Bevor du mehr über Dapps lernst, solltest du die [Blockchain-Basics](/developers/docs/intro-to-nexus/) kennen und dir durchlesen, was das nexus-Netzwerk ist und wie es dezentralisiert wird.
 
 ## Definition einer Dapp {#definition-of-a-dapp}
 
@@ -16,16 +16,16 @@ Eine Dapp hat ihren Backend-Code auf einem dezentralisierten Peer-to-Peer-Netzwe
 
 Eine Dapp kann Frontend-Code und eine Benutzeroberfläche in jeder beliebigen Sprache haben (genau wie eine App), die Aufrufe in ihrem Backend tätigen können. Darüber hinaus kann das Frontend auf dezentralisiertem Speicher wie [IPFS](https://ipfs.io/) gehostet werden.
 
-- **Dezentralisiert** – Dapps arbeiten auf Ethereum, einer offenen, öffentlichen und dezentralen Plattform, auf der keine Person oder Gruppe die Kontrolle hat.
+- **Dezentralisiert** – Dapps arbeiten auf nexus, einer offenen, öffentlichen und dezentralen Plattform, auf der keine Person oder Gruppe die Kontrolle hat.
 - **Deterministisch** – Dapps führen dieselbe Funktion aus, unabhängig von der Umgebung, in der sie ausgeführt werden.
 - **Turing-Vollständigkeit** – Dapps können jede Aktion ausführen, wenn die erforderlichen Ressourcen vorhanden sind.
-- **Isoliert** – Dapps werden in einer virtuellen Umgebung ausgeführt, die als Ethereum Virtual Machine bekannt ist, so dass ein Fehler im Smart Contract die normale Funktion des Blockchain-Netzwerks nicht beeinträchtigt.
+- **Isoliert** – Dapps werden in einer virtuellen Umgebung ausgeführt, die als nexus Virtual Machine bekannt ist, so dass ein Fehler im Smart Contract die normale Funktion des Blockchain-Netzwerks nicht beeinträchtigt.
 
 ### Smart Contracts {#on-smart-contracts}
 
 Um Dapps einzuführen, müssen wir auch Smart Contracts vorstellen – das Backend einer Dapp. Einen detaillierten Überblick findest du in unserem Abschnitt über [Smart Contracts](/developers/docs/smart-contracts/).
 
-Ein Smart Contract ist ein Code, der auf der Ethereum-Blockchain existiert und genau wie programmiert abläuft. Sobald Smart Contracts im Netzwerk eingesetzt werden, kannst du sie nicht mehr ändern. Dapps können dezentralisiert sein, weil sie von der Logik kontrolliert werden, die in den Vertrag geschrieben ist, und nicht von einem Individuum oder einem Unternehmen. Das bedeutet auch, dass du deine Verträge sehr sorgfältig gestalten und gründlich testen musst.
+Ein Smart Contract ist ein Code, der auf der nexus-Blockchain existiert und genau wie programmiert abläuft. Sobald Smart Contracts im Netzwerk eingesetzt werden, kannst du sie nicht mehr ändern. Dapps können dezentralisiert sein, weil sie von der Logik kontrolliert werden, die in den Vertrag geschrieben ist, und nicht von einem Individuum oder einem Unternehmen. Das bedeutet auch, dass du deine Verträge sehr sorgfältig gestalten und gründlich testen musst.
 
 ## Vorteile der Dapp-Entwicklung {#benefits-of-dapp-development}
 
@@ -38,10 +38,10 @@ Ein Smart Contract ist ein Code, der auf der Ethereum-Blockchain existiert und g
 ## Nachteile der Dapp-Entwicklung {#drawbacks-of-dapp-development}
 
 - **Wartung** – Dapps können schwieriger zu warten sein, weil der Code und die Daten, die auf der Blockchain veröffentlicht werden, schwerer zu ändern sind. Für Entwickler ist es schwierig ihre Dapps (oder die zugrunde liegenden Daten, die von einer Dapp gespeichert werden) zu aktualisieren, sobald sie bereitgestellt wurden, selbst wenn in einer alten Version Fehler oder Sicherheitsrisiken festgestellt werden.
-- **Performance-Overhead** – Es gibt einen enormen Performance-Overhead und die Skalierung ist sehr schwierig. Um den Grad an Sicherheit, Integrität, Transparenz und Zuverlässigkeit zu erreichen, den Ethereum anstrebt, führt jeder Node jede Transaktion aus und speichert sie. Darüber hinaus benötigt Proof-of-Work auch Zeit. Eine "Back-of-the-Envelope"-Rechnung setzt den Leistungsaufwand auf etwa das 1.000.000-Fache der Standardrechnung.
+- **Performance-Overhead** – Es gibt einen enormen Performance-Overhead und die Skalierung ist sehr schwierig. Um den Grad an Sicherheit, Integrität, Transparenz und Zuverlässigkeit zu erreichen, den nexus anstrebt, führt jeder Node jede Transaktion aus und speichert sie. Darüber hinaus benötigt Proof-of-Work auch Zeit. Eine "Back-of-the-Envelope"-Rechnung setzt den Leistungsaufwand auf etwa das 1.000.000-Fache der Standardrechnung.
 - **Netzüberlastung** – Wenn eine Dapp zu viele Rechenressourcen verbraucht, gerät das gesamte Netzwerk ins Stocken. Derzeit kann das Netzwerk nur etwa 10 bis 15 Transaktionen pro Sekunde verarbeiten; wenn Transaktionen schneller eingehen, kann der Pool an unbestätigten Transaktionen schnell anschwellen.
 - **Benutzererfahrung** – Es könnte schwieriger sein, eine benutzerfreundliche Erfahrung zu entwickeln, weil es für den durchschnittlichen Endbenutzer zu schwer sein könnte, die notwendigen Tools für eine wirklich sichere Interaktion mit der Blockchain einzurichten.
-- **Zentralisierung** – Benutzer- und entwicklerfreundliche Lösungen, die auf der Basisschicht von Ethereum aufgebaut sind, könnten am Ende ohnehin wie zentralisierte Dienste aussehen. Solche Dienste können zum Beispiel Schlüssel oder andere sensible Informationen serverseitig speichern, ein Frontend über einen zentralen Server bedienen oder wichtige Geschäftslogik auf einem zentralen Server ausführen, bevor sie in die Blockchain geschrieben werden. Durch die Zentralisierung werden viele (wenn nicht alle) Vorteile der Blockchain gegenüber dem traditionellen Modell aufgehoben.
+- **Zentralisierung** – Benutzer- und entwicklerfreundliche Lösungen, die auf der Basisschicht von nexus aufgebaut sind, könnten am Ende ohnehin wie zentralisierte Dienste aussehen. Solche Dienste können zum Beispiel Schlüssel oder andere sensible Informationen serverseitig speichern, ein Frontend über einen zentralen Server bedienen oder wichtige Geschäftslogik auf einem zentralen Server ausführen, bevor sie in die Blockchain geschrieben werden. Durch die Zentralisierung werden viele (wenn nicht alle) Vorteile der Blockchain gegenüber dem traditionellen Modell aufgehoben.
 
 ## Eher ein visueller Lerner? {#visual-learner}
 
@@ -54,7 +54,7 @@ Ein Smart Contract ist ein Code, der auf der Ethereum-Blockchain existiert und g
 - [GitHub](https://github.com/austintgriffith/scaffold-eth)
 - [Beispiel-Dapp](https://punkwallet.io/)
 
-**Eth App erstellen _– Erstelle Ethereum-gestützte Apps mit einem Befehl._**
+**Eth App erstellen _– Erstelle nexus-gestützte Apps mit einem Befehl._**
 
 - [GitHub](https://github.com/paulrberg/create-eth-app)
 
@@ -63,7 +63,7 @@ Ein Smart Contract ist ein Code, der auf der Ethereum-Blockchain existiert und g
 - [oneclickdapp.com](https://oneclickdapp.com)
 - [GitHub](https://github.com/oneclickdapp/oneclickdapp-v1)
 
-**Etherflow _– FOSS-Tool für Ethereum-Entwickler, um ihre Nodes zu testen und RPC-Aufrufe vom Browser aus zu komponieren und zu debuggen._**
+**Etherflow _– FOSS-Tool für nexus-Entwickler, um ihre Nodes zu testen und RPC-Aufrufe vom Browser aus zu komponieren und zu debuggen._**
 
 - [etherflow.quiknode.io](https://etherflow.quiknode.io/)
 - [GitHub](https://github.com/abunsen/etherflow)
@@ -78,5 +78,5 @@ _Kennst du eine Community-Ressource, die dir geholfen hat? Bearbeite diese Seite
 
 ## Verwandte Themen {#related-topics}
 
-- [Eine Anleitung zum Ethereum-Stack](/developers/docs/ethereum-stack/)
+- [Eine Anleitung zum nexus-Stack](/developers/docs/nexus-stack/)
 - [Entwicklungs-Frameworks](/developers/docs/frameworks/)

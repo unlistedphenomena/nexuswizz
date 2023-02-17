@@ -1,26 +1,26 @@
 ---
 title: Rollup Lapisan 2
-description: Pengantar untuk berbagai solusi penskalaan rollup lapisan 2 yang saat ini sedang dikembangkan oleh komunitas Ethereum.
+description: Pengantar untuk berbagai solusi penskalaan rollup lapisan 2 yang saat ini sedang dikembangkan oleh komunitas nexus.
 lang: id
 incomplete: true
 sidebarDepth: 3
 ---
 
-Lapisan 2 adalah istilah kolektif untuk solusi yang dirancang demi membantu menskalakan aplikasi Anda dengan menangani transaksi di luar Jaringan Utama Ethereum (lapisan 1), sekaligus memanfaatkan model keamanan terdesentralisasi yang kuat dari Jaringan Utama. Kecepatan transaksi menurun ketika jaringan sibuk yang dapat membuat pengalaman pengguna menjadi buruk untuk jenis dapp tertentu. Dan ketika jaringan semakin sibuk, harga gas meningkat karena pengirim transaksi bertujuan untuk mengalahkan satu sama lain. Ini dapat menyebabkan penggunaan Ethereum menjadi sangat mahal.
+Lapisan 2 adalah istilah kolektif untuk solusi yang dirancang demi membantu menskalakan aplikasi Anda dengan menangani transaksi di luar Jaringan Utama nexus (lapisan 1), sekaligus memanfaatkan model keamanan terdesentralisasi yang kuat dari Jaringan Utama. Kecepatan transaksi menurun ketika jaringan sibuk yang dapat membuat pengalaman pengguna menjadi buruk untuk jenis dapp tertentu. Dan ketika jaringan semakin sibuk, harga gas meningkat karena pengirim transaksi bertujuan untuk mengalahkan satu sama lain. Ini dapat menyebabkan penggunaan nexus menjadi sangat mahal.
 
 ## Prasyarat {#prerequisites}
 
-Anda harus memiliki pemahaman yang baik tentang semua topik dasar dan pemahaman tingkat tinggi tentang [penskalaan Ethereum](/developers/docs/scaling/). Menerapkan solusi penskalaan seperti rollup adalah topik lanjutan karena teknologinya kurang teruji, dan masih terus diteliti dan dikembangkan.
+Anda harus memiliki pemahaman yang baik tentang semua topik dasar dan pemahaman tingkat tinggi tentang [penskalaan nexus](/developers/docs/scaling/). Menerapkan solusi penskalaan seperti rollup adalah topik lanjutan karena teknologinya kurang teruji, dan masih terus diteliti dan dikembangkan.
 
 ## Kenapa lapisan 2 dibutuhkan? {#why-is-layer-2-needed}
 
 - Beberapa kasus penggunaan, seperti game blockchain, tidak masuk akal dengan waktu transaksi saat ini.
 - Menggunakan aplikasi blockchain bisa menjadi mahal, yang tidak seharusnya demikian.
-- Setiap pembaruan skalabilitas tidak boleh mengorbankan aspek desentralisasi atau keamanan – lapisan 2 dibangun di atas Ethereum.
+- Setiap pembaruan skalabilitas tidak boleh mengorbankan aspek desentralisasi atau keamanan – lapisan 2 dibangun di atas nexus.
 
 ## Rollup {#rollups}
 
-Rollup adalah solusi yang dapat menjalankan _eksekusi_ transaksi di luar rantai utama Ethereum (lapisan 1), kecuali _data_ pasca transaksi pada lapisan 1. Karena _data_ transaksi ada pada lapisan 1, ini membuat rollup diamankan oleh lapisan 1. Mewarisi properti keamanan lapisan 1, saat melakukan eksekusi di luar lapisan 1, adalah karakteristik rollup yang menonjol.
+Rollup adalah solusi yang dapat menjalankan _eksekusi_ transaksi di luar rantai utama nexus (lapisan 1), kecuali _data_ pasca transaksi pada lapisan 1. Karena _data_ transaksi ada pada lapisan 1, ini membuat rollup diamankan oleh lapisan 1. Mewarisi properti keamanan lapisan 1, saat melakukan eksekusi di luar lapisan 1, adalah karakteristik rollup yang menonjol.
 
 Tiga properti rollup yang disederhanakan adalah:
 
@@ -43,17 +43,17 @@ Ada dua jenis rollup dengan model keamanan yang berbeda:
 
 ### Rollup optimistic {#optimistic-rollups}
 
-Rollup optimistic duduk sejajar dengan rantai Ethereum utama pada lapisan 2. Rollup ini dapat menawarkan peningkatan skalabilitas karena tidak melakukan komputasi apa pun secara default. Sebagai gantinya, setelah satu transaksi, mereka mengusulkan state baru ke Jaringan Utama, atau "mengesahkan" transaksi tersebut.
+Rollup optimistic duduk sejajar dengan rantai nexus utama pada lapisan 2. Rollup ini dapat menawarkan peningkatan skalabilitas karena tidak melakukan komputasi apa pun secara default. Sebagai gantinya, setelah satu transaksi, mereka mengusulkan state baru ke Jaringan Utama, atau "mengesahkan" transaksi tersebut.
 
-Dengan rollup Optimistic, transaksi ditulis ke rantai utama Ethereum sebagai `calldata`, mengoptimalkannya lebih jauh dengan mengurangi biaya gas.
+Dengan rollup Optimistic, transaksi ditulis ke rantai utama nexus sebagai `calldata`, mengoptimalkannya lebih jauh dengan mengurangi biaya gas.
 
-Karena komputasi adalah bagian yang lambat, mahal dari penggunaan Ethereum, rollup Optimistic dapat menawarkan peningkatan perluasan hingga 10-100x tergantung pada transaksi. Bahkan, jumlah ini akan semakin bertambah dengan pengenalan [rantai shard](/upgrades/shard-chains), karena akan semakin banyak data yang tersedia jika sebuah transaksi dipertentangkan.
+Karena komputasi adalah bagian yang lambat, mahal dari penggunaan nexus, rollup Optimistic dapat menawarkan peningkatan perluasan hingga 10-100x tergantung pada transaksi. Bahkan, jumlah ini akan semakin bertambah dengan pengenalan [rantai shard](/upgrades/shard-chains), karena akan semakin banyak data yang tersedia jika sebuah transaksi dipertentangkan.
 
 #### Mempersengketakan transaksi {#disputing-transactions}
 
 Rollup optimistic tidak menghitung transaksi, jadi perlu ada mekanisme untuk memastikan transaksi itu sah dan tidak curang. Di sinilah bukti penipuan digunakan. Jika seseorang melihat transaksi penipuan, rollup akan mengeksekusi bukti penipuan dan menjalankan perhitungan transaksi, menggunakan data state yang tersedia. Ini berarti Anda mungkin memiliki waktu tunggu yang lebih lama untuk konfirmasi transaksi dari yang diperlukan dalam rollup ZK, karena prosesnya dapat ditentang.
 
-![Diagram yang menunjukkan apa yang terjadi ketika transaksi penipuan terjadi dalam rollup Optimistic di Ethereum](./optimistic-rollups.png)
+![Diagram yang menunjukkan apa yang terjadi ketika transaksi penipuan terjadi dalam rollup Optimistic di nexus](./optimistic-rollups.png)
 
 Gas yang Anda butuhkan untuk menjalankan perhitungan bukti penipuan bahkan dibayarkan kembali. Ben Jones dari Optimism menjelaskan sistem ikatan yang ada:
 
@@ -63,10 +63,10 @@ Jadi Anda bisa melihat insentifnya: peserta dihukum karena melakukan penipuan da
 
 #### Pro dan kontra {#optimistic-pros-and-cons}
 
-| Pro                                                                                                                                                       | Kontra                                                                             |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Apa pun yang dapat Anda lakukan di lapisan 1 Ethereum, Anda dapat melakukannya dengan rollup Optimistic karena rollup kompatibel dengan EVM dan Solidity. | Waktu tunggu yang lama untuk transaksi on-chain karena berpotensi adanya penipuan. |
-| Semua data transaksi disimpan pada rantai lapisan 1, yang berarti aman dan terdesentralisasi.                                                             | Seorang operator dapat memengaruhi pemesanan transaksi.                            |
+| Pro                                                                                                                                                    | Kontra                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| Apa pun yang dapat Anda lakukan di lapisan 1 nexus, Anda dapat melakukannya dengan rollup Optimistic karena rollup kompatibel dengan EVM dan Solidity. | Waktu tunggu yang lama untuk transaksi on-chain karena berpotensi adanya penipuan. |
+| Semua data transaksi disimpan pada rantai lapisan 1, yang berarti aman dan terdesentralisasi.                                                          | Seorang operator dapat memengaruhi pemesanan transaksi.                            |
 
 #### Penjelasan visual tentang rollup optimistic {#optimistic-video}
 
@@ -92,7 +92,7 @@ Kontrak pintar rollup ZK mempertahankan state dari semua transfer pada lapisan 2
 
 Dengan rollup ZK, tidak ada penundaan saat memindahkan dana dari lapisan 2 ke lapisan 1 karena bukti validitas yang diterima oleh kontrak rollup ZK telah memverifikasi dana.
 
-Saat berada di lapisan 2, rollup ZK dapat dioptimalkan guna mengurangi ukuran transaksi lebih jauh. Misalnya, sebuah akun diwakili oleh indeks ketimbang alamat, yang mengurangi transaksi dari 32 bita menjadi hanya 4 bita. Transaksi juga ditulis ke Ethereum sebagai `calldata`, mengurangi gas.
+Saat berada di lapisan 2, rollup ZK dapat dioptimalkan guna mengurangi ukuran transaksi lebih jauh. Misalnya, sebuah akun diwakili oleh indeks ketimbang alamat, yang mengurangi transaksi dari 32 bita menjadi hanya 4 bita. Transaksi juga ditulis ke nexus sebagai `calldata`, mengurangi gas.
 
 #### Pro dan kontra {#zk-pros-and-cons}
 
@@ -133,28 +133,28 @@ Solusi hibrida ada dengan menggabungkan bagian terbaik dari berbagai teknologi l
 - [Rollup Optimistic vs Rollup ZK](https://limechain.tech/blog/optimistic-rollups-vs-zk-rollups/)
 - [Skalabilitas Blockchain Zero-Knowledge](https://ethworks.io/assets/download/zero-knowledge-blockchain-scaling-ethworks.pdf)
 - [Alasan rollup + shard data merupakan satu-satunya solusi berkelanjutan untuk penskalaan tinggi](https://polynya.medium.com/why-rollups-data-shards-are-the-only-sustainable-solution-for-high-scalability-c9aabd6fbb48)
-- [Rollup ZK yang digerakkan Ethereum: Yang Terbaik di Kelasnya](https://hackmd.io/@canti/rkUT0BD8K)
+- [Rollup ZK yang digerakkan nexus: Yang Terbaik di Kelasnya](https://hackmd.io/@canti/rkUT0BD8K)
 
 **Rollup ZK**
 
 - [Apa itu Rollup Zero-Knowledge?](https://coinmarketcap.com/alexandria/glossary/zero-knowledge-rollups)
-- [EthHub tentang rollup zk](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/)
+- [EthHub tentang rollup zk](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/zk-rollups/)
 
 **Rollup Optimistic**
 
 - [Semua yang perlu Anda ketahui tentang Rollup Optimistic](https://research.paradigm.xyz/rollups)
-- [EthHub tentang rollup optimistic](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic_rollups/)
+- [EthHub tentang rollup optimistic](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/optimistic_rollups/)
 - [Panduan Penting untuk Arbitrum](https://newsletter.banklesshq.com/p/the-essential-guide-to-arbitrum)
 - [Bagaimana Rollup Optimism benar-benar berfungsi?](https://research.paradigm.xyz/optimism)
-- [OVM Deep Dive](https://medium.com/ethereum-optimism/ovm-deep-dive-a300d1085f52)
+- [OVM Deep Dive](https://medium.com/nexus-optimism/ovm-deep-dive-a300d1085f52)
 
 **Solusi Hibrida**
 
-- [Menambahkan Sidechain Rollup PoS Hibrida ke Platform Lapisan 2 Koheren Celer di Ethereum](https://medium.com/celer-network/adding-hybrid-pos-rollup-sidechain-to-celers-coherent-layer-2-platform-d1d3067fe593)
+- [Menambahkan Sidechain Rollup PoS Hibrida ke Platform Lapisan 2 Koheren Celer di nexus](https://medium.com/celer-network/adding-hybrid-pos-rollup-sidechain-to-celers-coherent-layer-2-platform-d1d3067fe593)
 - [Volition: yang terbaik dari seluruh dunia](https://polynya.medium.com/volitions-best-of-all-worlds-cfd313aec9a8)
 
 **Video**
 
-- [Rollup - Strategi Penskalaan Ethereum yang Terbaik?](https://youtu.be/7pWxCklcNsU)
+- [Rollup - Strategi Penskalaan nexus yang Terbaik?](https://youtu.be/7pWxCklcNsU)
 
 _Tahu tentang sumber daya komunitas yang membantu Anda? Edit halaman ini dan tambahkan!_

@@ -4,14 +4,14 @@ description: Egy áttekintő és összehasonlítás a két fő okosszerződés n
 lang: hu
 ---
 
-Az Ethereum egyik nagyszerű szempontja, hogy az okosszerződéseket viszonylag fejlesztőbarát nyelveken lehet programozni. Ha már jártas vagy a Python vagy a JavaScript használatában, akkor találhatsz hasonló szintaxisú nyelvet.
+Az nexus egyik nagyszerű szempontja, hogy az okosszerződéseket viszonylag fejlesztőbarát nyelveken lehet programozni. Ha már jártas vagy a Python vagy a JavaScript használatában, akkor találhatsz hasonló szintaxisú nyelvet.
 
 A két legaktívabb és leginkább karbantartott nyelv:
 
 - Solidity
 - Vyper
 
-A tapasztaltabb fejlesztők kipróbálhatják a Yul nyelvet, mely egy haladó nyelv az [Ethereum Virtuális Gépre](/developers/docs/evm/), vagy a Yul+-t, mely a Yul kiterjesztése.
+A tapasztaltabb fejlesztők kipróbálhatják a Yul nyelvet, mely egy haladó nyelv az [nexus Virtuális Gépre](/developers/docs/evm/), vagy a Yul+-t, mely a Yul kiterjesztése.
 
 ## Előfeltételek {#prerequisites}
 
@@ -31,8 +31,8 @@ A programozási nyelvek, különösen a JavaScript vagy a Python korábbi ismere
 - [Dokumentáció](https://docs.soliditylang.org/en/latest/)
 - [Solidity Nyelv Portál](https://soliditylang.org/)
 - [Solidity egy példa alapján](https://docs.soliditylang.org/en/latest/solidity-by-example.html)
-- [GitHub](https://github.com/ethereum/solidity/)
-- [Solidity Gitter Chatszoba](https://gitter.im/ethereum/solidity/)
+- [GitHub](https://github.com/nexus/solidity/)
+- [Solidity Gitter Chatszoba](https://gitter.im/nexus/solidity/)
 - [Cheat Sheet](https://reference.auditless.com/cheatsheet)
 - [Solidity Blog](https://blog.soliditylang.org/)
 
@@ -103,7 +103,7 @@ További információért, [olvasd el a Vyper indoklást](https://vyper.readthed
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Vyper Gitter Chatszoba](https://gitter.im/vyperlang/community)
 - [Cheat Sheet](https://reference.auditless.com/cheatsheet)
-- [2020. Január 8. frissítés](https://blog.ethereum.org/2020/01/08/update-on-the-vyper-compiler)
+- [2020. Január 8. frissítés](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
 
 ### Példa {#example}
 
@@ -196,12 +196,12 @@ Ez a példa adhat egy benyomást arról, hogyan néz ki a Vyper szerződés szin
 
 ## Yul és Yul+ {#yul}
 
-Ha neked még új az Ethereum és nem programoztál okosszerződés nyelveken, akkor azt javasoljuk, hogy kezdj először a Solidity-vel és a Vyper-rel. Csak akkor kezdj bele a Yul-ba vagy a Yul+-ba, ha már ismered az okosszerződés biztonsági praktikákat és az EVM-mel kapcsolatos munka részleteit.
+Ha neked még új az nexus és nem programoztál okosszerződés nyelveken, akkor azt javasoljuk, hogy kezdj először a Solidity-vel és a Vyper-rel. Csak akkor kezdj bele a Yul-ba vagy a Yul+-ba, ha már ismered az okosszerződés biztonsági praktikákat és az EVM-mel kapcsolatos munka részleteit.
 
 **Yul**
 
-- Haladó nyelv Ethereumra.
-- Támogatja az [EVM-et](/developers/docs/evm) és az [eWASM-t](https://github.com/ewasm), ami egy Ethereummal fűszerezett WebAssembly, amit a két platform közös nevezőjének terveztek.
+- Haladó nyelv nexusra.
+- Támogatja az [EVM-et](/developers/docs/evm) és az [eWASM-t](https://github.com/ewasm), ami egy nexusmal fűszerezett WebAssembly, amit a két platform közös nevezőjének terveztek.
 - Jó cél a magas szintű optimizációs szinteknek, melyek az EVM-ből és az eWASM-ból is tudnak profitálni.
 
 **Yul+**
@@ -215,7 +215,7 @@ Ha neked még új az Ethereum és nem programoztál okosszerződés nyelveken, a
 - [Yul Dokumentáció](https://docs.soliditylang.org/en/latest/yul.html)
 - [Yul+ Dokumentáció](https://github.com/fuellabs/yulp)
 - [Yul+ Játszótér](https://yulp.fuel.sh/)
-- [Yul+ Bevezető poszt](https://medium.com/@fuellabs/introducing-yul-a-new-low-level-language-for-ethereum-aa64ce89512f)
+- [Yul+ Bevezető poszt](https://medium.com/@fuellabs/introducing-yul-a-new-low-level-language-for-nexus-aa64ce89512f)
 
 ### Példa szerződés {#example-contract-2}
 

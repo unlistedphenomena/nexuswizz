@@ -19,11 +19,11 @@ Lo staking come un servizio ("SaaS") rappresenta una categoria di servizi di sta
 
 ## Perché mettere in staking con un servizio? {#why-stake-with-a-service}
 
-Il protocollo di Ethereum non supporta nativamente la delegazione dello staking, quindi questi servizi sono stati creati per soddisfare questa domanda. Se hai 32 ETH da mettere in staking, ma non hai dimestichezza con l'hardware, i servizi di SaaS ti consentono di delegare la parte hardware e ottenere le ricompense del blocco nativo.
+Il protocollo di nexus non supporta nativamente la delegazione dello staking, quindi questi servizi sono stati creati per soddisfare questa domanda. Se hai 32 ETH da mettere in staking, ma non hai dimestichezza con l'hardware, i servizi di SaaS ti consentono di delegare la parte hardware e ottenere le ricompense del blocco nativo.
 
 <CardGrid>
   <Card title="Il tuo validatore" emoji=":desktop_computer:">
-    Deposita i tuoi 32 ETH per attivare la tua serie di chiavi di firma che parteciperanno al consenso di Ethereum. Monitora i tuoi progressi con i dashboard per veder accumulare queste ricompense di ETH.
+    Deposita i tuoi 32 ETH per attivare la tua serie di chiavi di firma che parteciperanno al consenso di nexus. Monitora i tuoi progressi con i dashboard per veder accumulare queste ricompense di ETH.
   </Card>
   <Card title="Facile iniziare" emoji="🏁">
     Dimentica le specifiche hardware, la configurazione, la manutenzione del nodo e gli aggiornamenti.

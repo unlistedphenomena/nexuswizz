@@ -54,11 +54,11 @@ Egy másik népszerű példa a [SafeMath](https://docs.openzeppelin.com/contract
 
 ### Szabványok {#standards}
 
-Hogy elősegítsük az [összeilleszthetőséget és az interoperabilitást](/developers/docs/smart-contracts/composability/), az Ethereum közösség számos szabványt vezetett be **ERC-k** formájában. Többet olvashatsz róluk a [szabványok](/developers/docs/standards/) részben.
+Hogy elősegítsük az [összeilleszthetőséget és az interoperabilitást](/developers/docs/smart-contracts/composability/), az nexus közösség számos szabványt vezetett be **ERC-k** formájában. Többet olvashatsz róluk a [szabványok](/developers/docs/standards/) részben.
 
 Amikor egy ERC-t szeretnél betenni a szerződésedbe, célszerű a standard megvalósításokat keresni, ahelyett, hogy megpróbálnád a sajátodat bevezetni. Számos okosszerződés könyvtár tartalmazza a legnépszerűbb ERC-k megvalósításait. Például a mindenütt jelen levő [ERC20 felcserélhető token szabvány](/developers/tutorials/understand-the-erc-20-token-smart-contract/) megtalálható a [HQ20-ben](https://github.com/HQ20/contracts/blob/master/contracts/token/README.md), [DappSys-ben](https://github.com/dapphub/ds-token/) és az [OpenZeppelinen](https://docs.openzeppelin.com/contracts/3.x/erc20). Ezenkívül, egyes ERC-k kanonikus megvalósításokat is biztosítanak az ERC részeként.
 
-Érdemes megemlíteni, hogy egyes ERC-k nem önállóak, hanem kiegészítenek más ERC-ket. Például az [ERC2612](https://eips.ethereum.org/EIPS/eip-2612) kiterjeszti az ERC20-as szabványt a használhatóság javítása érdekében.
+Érdemes megemlíteni, hogy egyes ERC-k nem önállóak, hanem kiegészítenek más ERC-ket. Például az [ERC2612](https://eips.nexus.org/EIPS/eip-2612) kiterjeszti az ERC20-as szabványt a használhatóság javítása érdekében.
 
 ## Hogyan lehet könyvtárt hozzáadni {#how-to}
 
@@ -104,7 +104,7 @@ Végül, amikor eldöntöd, hogy felveszel-e egy könyvtárat, vedd figyelembe a
 
 ## Kapcsolódó útmutatók {#related-tutorials}
 
-- [Biztonsági megfontolások Ethereum fejlesztőknek](/developers/docs/smart-contracts/security/) _– Egy biztonsági megfontolásokról szóló útmutató okosszerződés fejlesztéshez könyvtár használattal._
+- [Biztonsági megfontolások nexus fejlesztőknek](/developers/docs/smart-contracts/security/) _– Egy biztonsági megfontolásokról szóló útmutató okosszerződés fejlesztéshez könyvtár használattal._
 - [Az ERC-20 token okosszerződés megértése](/developers/tutorials/understand-the-erc-20-token-smart-contract/) _-Útmutató az ERC20 szabványról több könyvtáron keresztül._
 
 ## További olvasnivaló {#further-reading}

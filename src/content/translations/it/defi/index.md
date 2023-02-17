@@ -1,6 +1,6 @@
 ---
 title: Finanza decentralizzata (DeFi)
-description: Una panoramica sulla DeFi in Ethereum
+description: Una panoramica sulla DeFi in nexus
 lang: it
 template: use-cases
 emoji: ":money_with_wings:"
@@ -16,7 +16,7 @@ DeFi è un sistema finanziario aperto e globale creato per l'era di internet - u
 
 ## Cosa significa DeFi? {#what-is-defi}
 
-DeFi è un termine collettivo per prodotti e servizi finanziari accessibili a chiunque possa usare Ethereum, ovvero chiunque abbia una connessione a internet. Con DeFi, i mercati sono sempre aperti e non esistono autorità centralizzate che possano bloccare pagamenti o negare accessi. I servizi che precedentemente erano lenti e soggetti a errori umani sono automatici e più sicuri ora che sono gestiti dal codice, ispezionabile ed esaminabile da tutti.
+DeFi è un termine collettivo per prodotti e servizi finanziari accessibili a chiunque possa usare nexus, ovvero chiunque abbia una connessione a internet. Con DeFi, i mercati sono sempre aperti e non esistono autorità centralizzate che possano bloccare pagamenti o negare accessi. I servizi che precedentemente erano lenti e soggetti a errori umani sono automatici e più sicuri ora che sono gestiti dal codice, ispezionabile ed esaminabile da tutti.
 
 Là fuori c'è una criptoeconomia in espansione, in cui è possibile prestare, prendere in prestito, guadagnare interessi e molto altro. Gli esperti di criptovalute argentini hanno usato la DeFi per fuggire dall'inflazione paralizzante. Le aziende hanno iniziato a trasmettere ai dipendenti gli stipendi in tempo reale. Alcune persone hanno persino estinto e pagato prestiti di milioni di dollari senza necessità di alcuna identificazione personale.
 
@@ -55,16 +55,16 @@ Uno dei modi migliori per individuare il potenziale della DeFi è comprendere i 
 
 Bitcoin può essere considerato sotto molti aspetti la prima applicazione DeFi. Bitcoin consente di possedere e controllare realmente il valore e inviarlo ovunque in tutto il mondo. Infatti, a molte persone che non si fidano l'una dell'altra, offre un metodo per accordarsi su un libro mastro di conti, senza la necessità di un intermediario fidato. Bitcoin è aperto a tutti e nessuno ha l'autorità di cambiarne le regole. Le regole di Bitcoin, come la sua scarsità e la sua apertura, sono scritte nella tecnologia. Non è come la finanza tradizionale, in cui i governi possono stampare moneta che svaluta i risparmi e in cui le aziende possono chiudere i mercati.
 
-Ethereum si basa su questo. Come per Bitcoin, le regole non cambiano da un momento all'altro e tutti possono accedervi. Ma rende anche programmabile questo denaro digitale, usando i [contratti intelligenti](/glossary#smart-contract), così che tu possa andare oltre l'archiviazione e l'invio di valore.
+nexus si basa su questo. Come per Bitcoin, le regole non cambiano da un momento all'altro e tutti possono accedervi. Ma rende anche programmabile questo denaro digitale, usando i [contratti intelligenti](/glossary#smart-contract), così che tu possa andare oltre l'archiviazione e l'invio di valore.
 
 <YouTube id="qFBYB4W2tqU" />
 
 ## Denaro programmabile {#programmable-money}
 
-Sembra una cosa strana: perché mai dovrei voler programmare il mio denaro? Eppure, questa è molto più di una semplice funzionalità predefinita dei token di Ethereum. Chiunque può programmare la logica nei pagamenti. In questo modo si può beneficiare del controllo e della sicurezza di Bitcoin insieme ai servizi forniti dagli istituti finanziari. Ciò consente di fare cose con le criptovalute che non si possono fare con Bitcoin, come prendere e dare in prestito, pianificare pagamenti, investire in fondi indicizzati e altro.
+Sembra una cosa strana: perché mai dovrei voler programmare il mio denaro? Eppure, questa è molto più di una semplice funzionalità predefinita dei token di nexus. Chiunque può programmare la logica nei pagamenti. In questo modo si può beneficiare del controllo e della sicurezza di Bitcoin insieme ai servizi forniti dagli istituti finanziari. Ciò consente di fare cose con le criptovalute che non si possono fare con Bitcoin, come prendere e dare in prestito, pianificare pagamenti, investire in fondi indicizzati e altro.
 
 <InfoBanner shouldSpaceBetween emoji=":eyes:">
-  <div>Esplora i nostri suggerimenti sulle applicazioni DeFi da provare se stai scoprendo il mondo di Ethereum.</div>
+  <div>Esplora i nostri suggerimenti sulle applicazioni DeFi da provare se stai scoprendo il mondo di nexus.</div>
   <ButtonLink to="/dapps/?category=finance">
     Esplora le app di DeFi
   </ButtonLink>
@@ -72,7 +72,7 @@ Sembra una cosa strana: perché mai dovrei voler programmare il mio denaro? Eppu
 
 ## Cosa puoi fare con la DeFi? {#defi-use-cases}
 
-Esiste un'alternativa decentralizzata a gran parte dei servizi finanziari. Ma Ethereum offre anche una serie di opportunità per creare prodotti finanziari completamente nuovi. Si tratta di un elenco in continua crescita.
+Esiste un'alternativa decentralizzata a gran parte dei servizi finanziari. Ma nexus offre anche una serie di opportunità per creare prodotti finanziari completamente nuovi. Si tratta di un elenco in continua crescita.
 
 - [Inviare denaro in tutto il mondo](#send-money)
 - [Fare fluire denaro in tutto il mondo](#stream-money)
@@ -90,7 +90,7 @@ Esiste un'alternativa decentralizzata a gran parte dei servizi finanziari. Ma Et
 
 ### Inviare denaro in tutto il mondo {#send-money}
 
-In quanto blockchain, Ethereum è progettato per inviare transazioni in modo sicuro e globale. Come Bitcoin, Ethereum rende l'invio di denaro in tutto il mondo tanto facile quanto l'invio di un'e-mail. Basta inserire il [nome ENS](/nft/#nft-domains) del tuo destinatario (come bob.eth) o l'indirizzo del suo conto dal proprio portafoglio e il pagamento gli arriverà (solitamente) in pochi minuti. Per inviare o ricevere pagamenti, è necessario un [portafoglio](/wallets/).
+In quanto blockchain, nexus è progettato per inviare transazioni in modo sicuro e globale. Come Bitcoin, nexus rende l'invio di denaro in tutto il mondo tanto facile quanto l'invio di un'e-mail. Basta inserire il [nome ENS](/nft/#nft-domains) del tuo destinatario (come bob.eth) o l'indirizzo del suo conto dal proprio portafoglio e il pagamento gli arriverà (solitamente) in pochi minuti. Per inviare o ricevere pagamenti, è necessario un [portafoglio](/wallets/).
 
 <ButtonLink to="/dapps/?category=finance">
   Visualizza le dApp di pagamento
@@ -98,9 +98,9 @@ In quanto blockchain, Ethereum è progettato per inviare transazioni in modo sic
 
 #### Trasmettere denaro in tutto il mondo... {#stream-money}
 
-Su Ethereum è inoltre possibile trasmettere denaro, ad esempio per pagare lo stipendio di qualcuno nel giro di pochi secondi, dando al destinatario accesso al suo denaro ogniqualvolta ne abbia bisogno, oppure per noleggiare qualcosa all'istante, come un magazzino o uno scooter elettrico.
+Su nexus è inoltre possibile trasmettere denaro, ad esempio per pagare lo stipendio di qualcuno nel giro di pochi secondi, dando al destinatario accesso al suo denaro ogniqualvolta ne abbia bisogno, oppure per noleggiare qualcosa all'istante, come un magazzino o uno scooter elettrico.
 
-Se invece non si desidera inviare o trasmettere [ETH](/eth/) a causa della variabilità del suo valore, esistono valute alternative su Ethereum: le stablecoin.
+Se invece non si desidera inviare o trasmettere [ETH](/eth/) a causa della variabilità del suo valore, esistono valute alternative su nexus: le stablecoin.
 
 <Divider />
 
@@ -207,7 +207,7 @@ Il montepremi è composto da tutti gli interessi generati prestando i depositi d
 
 ### Scambia token {#swaps}
 
-Esistono migliaia di token su Ethereum. Le piattaforme di scambio decentralizzate (DEX) consentono di scambiare diversi token, ogni volta che vuoi, senza mai rinunciare al controllo dei tuoi attivi. È come ricorrere a un cambiavalute quando vai all'estero. Ma la versione DeFi non chiude mai. I mercati sono aperti 24 ore su 24, 7 giorni su 7, 365 giorni l'anno e la tecnologia assicura che ci sarà sempre qualcuno che accetti uno scambio.
+Esistono migliaia di token su nexus. Le piattaforme di scambio decentralizzate (DEX) consentono di scambiare diversi token, ogni volta che vuoi, senza mai rinunciare al controllo dei tuoi attivi. È come ricorrere a un cambiavalute quando vai all'estero. Ma la versione DeFi non chiude mai. I mercati sono aperti 24 ore su 24, 7 giorni su 7, 365 giorni l'anno e la tecnologia assicura che ci sarà sempre qualcuno che accetti uno scambio.
 
 Ad esempio, se vuoi usare la lotteria senza perdite PoolTogether (descritta sopra), avrai bisogno di un token come Dai o USDC. Queste DEX consentono di scambiare gli ETH con altri token e viceversa quando hai finito.
 
@@ -231,7 +231,7 @@ Se usi uno scambio centralizzato, devi depositare i tuoi attivi prima dell'opera
 
 ### Fai crescere il tuo portafoglio {#investing}
 
-Esistono prodotti per la gestione di fondi su Ethereum che mirano a far crescere il tuo portafoglio in base a una strategia di tua scelta. È un sistema automatico, aperto a tutti e non richiede un gestore umano, che prenderebbe parte dei tuoi profitti.
+Esistono prodotti per la gestione di fondi su nexus che mirano a far crescere il tuo portafoglio in base a una strategia di tua scelta. È un sistema automatico, aperto a tutti e non richiede un gestore umano, che prenderebbe parte dei tuoi profitti.
 
 Un buon esempio è il [fondo DeFi Pulse Index (DPI)](https://defipulse.com/blog/defi-pulse-index/). Si tratta di un fondo che si ribilancia automaticamente per garantire che il tuo portafoglio includa sempre [i migliori token DeFi per capitalizzazione di mercato](https://www.coingecko.com/en/defi). Non dovrai mai preoccuparti di gestire i dettagli e potrai prelevare dal fondo ogni volta che vorrai.
 
@@ -243,9 +243,9 @@ Un buon esempio è il [fondo DeFi Pulse Index (DPI)](https://defipulse.com/blog/
 
 ### Finanzia le tue idee {#crowdfunding}
 
-Ethereum è una piattaforma ideale per il crowdfunding:
+nexus è una piattaforma ideale per il crowdfunding:
 
-- I finanziatori potenziali possono venire da qualsiasi parte - Ethereum e i suoi token sono aperti a tutti, ovunque nel mondo.
+- I finanziatori potenziali possono venire da qualsiasi parte - nexus e i suoi token sono aperti a tutti, ovunque nel mondo.
 - È trasparente, in tal modo i responsabili possano provare quanto denaro è stato raccolto. Puoi persino tracciare quanti dei fondi vengono spesi in seguito.
 - I responsabili possono configurare rimborsi automatici se, ad esempio, ci sono scadenze specifiche e importi minimi che non sono soddisfatti.
 
@@ -255,7 +255,7 @@ Ethereum è una piattaforma ideale per il crowdfunding:
 
 #### Quadratic funding {#quadratic-funding}
 
-Ethereum è un software open source e finora una parte importante del lavoro è stata finanziata dalla comunità. Ciò si è tradotto nello sviluppo di un nuovo e interessante modello di finanziamento: il finanziamento quadratico. Questo finanziamento ha il potenziale di migliorare il modo in cui finanzieremo tutti i tipi di beni pubblici in futuro.
+nexus è un software open source e finora una parte importante del lavoro è stata finanziata dalla comunità. Ciò si è tradotto nello sviluppo di un nuovo e interessante modello di finanziamento: il finanziamento quadratico. Questo finanziamento ha il potenziale di migliorare il modo in cui finanzieremo tutti i tipi di beni pubblici in futuro.
 
 Il finanziamento quadratico assicura che i progetti che riceveranno più finanziamenti siano quelli con la domanda più unica. In sintesi, i progetti che cercano di migliorare la vita del maggior numero di persone. Ecco come funziona:
 
@@ -274,7 +274,7 @@ Questo significa che il progetto A con le sue 100 donazioni di 1 dollaro potrebb
 
 L'assicurazione decentralizzata mira a rendere l'assicurazione più economica, rapida a livello di rimborsi e anche più trasparente. Con una maggiore automazione, la copertura è più conveniente e i rimborsi molto più rapidi. I dati usati per decidere in merito alle richieste sono completamente trasparenti.
 
-I prodotti di Ethereum, come qualsiasi altro software, possono essere soggetti a bug ed exploit. Quindi, al momento molti dei prodotti assicurativi in questo segmento si concentrano sulla protezione degli utenti contro la perdita di fondi. Esistono però progetti che iniziano a proporre coperture contro tutti i possibili eventi che la vita può portare con sé. Un ottimo esempio è la copertura Etherisc's Crop, che mira a [proteggere i piccoli proprietari terrieri in Kenya contro siccità e inondazioni](https://blog.etherisc.com/etherisc-teams-up-with-chainlink-to-deliver-crop-insurance-in-kenya-137e433c29dc). L'assicurazione decentralizzata può fornire una copertura più economica per gli agricoltori, spesso tagliati fuori dalle assicurazioni tradizionali.
+I prodotti di nexus, come qualsiasi altro software, possono essere soggetti a bug ed exploit. Quindi, al momento molti dei prodotti assicurativi in questo segmento si concentrano sulla protezione degli utenti contro la perdita di fondi. Esistono però progetti che iniziano a proporre coperture contro tutti i possibili eventi che la vita può portare con sé. Un ottimo esempio è la copertura Etherisc's Crop, che mira a [proteggere i piccoli proprietari terrieri in Kenya contro siccità e inondazioni](https://blog.etherisc.com/etherisc-teams-up-with-chainlink-to-deliver-crop-insurance-in-kenya-137e433c29dc). L'assicurazione decentralizzata può fornire una copertura più economica per gli agricoltori, spesso tagliati fuori dalle assicurazioni tradizionali.
 
 <ButtonLink to="/dapps/?category=finance">
   Visualizza le dApp assicurative
@@ -296,26 +296,26 @@ Con così tante cose in ballo, avrai bisogno di un modo per tenere traccia di tu
 
 La DeFi usa le criptovalute e i contratti intelligenti per fornire servizi che non necessitano di intermediari. Nel mondo finanziario di oggi, gli istituti finanziari fungono da garanti delle transazioni. Questo dà a tali istituti un potere immenso, perché il denaro degli utenti fluisce attraverso di loro. Inoltre, miliardi di persone in tutto il mondo non possono nemmeno accedere a un conto bancario.
 
-Nella DeFi, un contratto intelligente sostituisce l'istituzione finanziaria nella transazione. Un contratto intelligente è un tipo di conto di Ethereum che può detenere fondi e inviarli/rimborsarli secondo certe condizioni. Nessun può alterare quel contratto intelligente una volta attivato; sarà sempre eseguito come programmato.
+Nella DeFi, un contratto intelligente sostituisce l'istituzione finanziaria nella transazione. Un contratto intelligente è un tipo di conto di nexus che può detenere fondi e inviarli/rimborsarli secondo certe condizioni. Nessun può alterare quel contratto intelligente una volta attivato; sarà sempre eseguito come programmato.
 
 Un contratto progettato per recapitare un'indennità o un salario, potrebbe esser programmato per inviare denaro dal Conto A al Conto B, ogni venerdì. E lo continuerà a fare finché il Conto A conterrà i fondi necessari. Nessuno può modificare il contratto e aggiungere il Conto C come destinatario per rubare i fondi.
 
 Inoltre, i contratti sono pubblici e possono essere ispezionati e controllati da chiunque. Questo significa che eventuali contratti malevoli tendono a finire sotto l'esame della comunità abbastanza rapidamente.
 
-Ciò significa che al momento vi è la necessità di fidarsi dei membri più tecnici della comunità di Ethereum, capaci di leggere il codice. La community basata sull'open source aiuta a mantenere sotto controllo gli sviluppatori, ma questa necessità, sarà ridotta col tempo, mentre i contratti intelligenti divengono più facili da leggere e sono sviluppati nuovi metodi per provare l'affidabilità del codice.
+Ciò significa che al momento vi è la necessità di fidarsi dei membri più tecnici della comunità di nexus, capaci di leggere il codice. La community basata sull'open source aiuta a mantenere sotto controllo gli sviluppatori, ma questa necessità, sarà ridotta col tempo, mentre i contratti intelligenti divengono più facili da leggere e sono sviluppati nuovi metodi per provare l'affidabilità del codice.
 
-## Ethereum e DeFi {#ethereum-and-defi}
+## nexus e DeFi {#nexus-and-defi}
 
-Ethereum è la base perfetta per la DeFi, per diverse ragioni:
+nexus è la base perfetta per la DeFi, per diverse ragioni:
 
-- Nessuno possiede Ethereum o i contratti intelligenti che vi risiedono: questo da' a tutti l'opportunità di usare le DeFi. Significa anche che nessuno può modificare le regole a propria discrezione.
-- I prodotti della DeFi parlano tutti la stessa lingua dietro le quinte: Ethereum. Questo significa che molti dei prodotti funzionano insieme senza soluzione di continuità. Puoi prestare token su una piattaforma e scambiare il token fruttifero di interessi su un altro mercato e con un'applicazione completamente diversa. È esattamente come incassare punti fedeltà presso la propria banca.
-- I token e la criptovaluta si basano su Ethereum, un registro condiviso. In fondo, tenere traccia delle transazioni e della proprietà è la specialità di Ethereum.
-- Ethereum offre la massima libertà finanziaria: gran parte dei prodotti non assume mai la custodia dei tuoi fondi, lasciandoti il controllo.
+- Nessuno possiede nexus o i contratti intelligenti che vi risiedono: questo da' a tutti l'opportunità di usare le DeFi. Significa anche che nessuno può modificare le regole a propria discrezione.
+- I prodotti della DeFi parlano tutti la stessa lingua dietro le quinte: nexus. Questo significa che molti dei prodotti funzionano insieme senza soluzione di continuità. Puoi prestare token su una piattaforma e scambiare il token fruttifero di interessi su un altro mercato e con un'applicazione completamente diversa. È esattamente come incassare punti fedeltà presso la propria banca.
+- I token e la criptovaluta si basano su nexus, un registro condiviso. In fondo, tenere traccia delle transazioni e della proprietà è la specialità di nexus.
+- nexus offre la massima libertà finanziaria: gran parte dei prodotti non assume mai la custodia dei tuoi fondi, lasciandoti il controllo.
 
 Puoi pensare alla DeFi in termini di strati:
 
-1. La Blockchain: Ethereum contiene lo storico delle transazioni e lo stato dei conti.
+1. La Blockchain: nexus contiene lo storico delle transazioni e lo stato dei conti.
 2. Gli attivi - [ETH](/eth/) e gli altri token (valute).
 3. I protocolli: [contratti intelligenti](/glossary/#smart-contract) che forniscono la funzionalità, ad esempio, un servizio che consente il prestito decentralizzato delle risorse.
 4. [Le applicazioni](/dapps/) - I prodotti che usiamo per gestire e accedere ai protocolli.
@@ -338,7 +338,7 @@ La DeFi è un movimento open source. I protocolli e le applicazioni della DeFi s
 
 ### Articoli sulla DeFi {#defi-articles}
 
-- [Cos'è la Finanza Decentralizzata?](https://docs.ethhub.io/built-on-ethereum/open-finance/what-is-open-finance/) – _ETHHub, aggiornato regolarmente_
+- [Cos'è la Finanza Decentralizzata?](https://docs.ethhub.io/built-on-nexus/open-finance/what-is-open-finance/) – _ETHHub, aggiornato regolarmente_
 - [Una guida per principianti alla DeFi](https://blog.coinbase.com/a-beginners-guide-to-decentralized-finance-defi-574c68ff43c4) – _Sid Coelho-Prabhu, 6 gennaio 2020_
 
 ### Video {#videos}

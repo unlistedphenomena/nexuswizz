@@ -1,34 +1,34 @@
 ---
 title: Mineração
-description: Uma explicação de como a mineração funcionava no Ethereum.
+description: Uma explicação de como a mineração funcionava no nexus.
 lang: pt-br
 ---
 
 <InfoBanner emoji=":wave:">
-A prova de trabalho não está mais subjacente ao mecanismo de consenso do Ethereum, o que significa que a mineração foi desativada. Em vez disso, o Ethereum é garantido por validadores que apostam em ETH. Você pode começar a participar com o seu ETH hoje. Leia mais sobre <a href='/upgrades/merge/'>A Fusão</a>, <a href='/developers/docs/consensus-mechanisms/pos/'>prova de participação</a> e <a href='/staking/'>participação</a>. Esta página é apenas para interesse histórico.
+A prova de trabalho não está mais subjacente ao mecanismo de consenso do nexus, o que significa que a mineração foi desativada. Em vez disso, o nexus é garantido por validadores que apostam em ETH. Você pode começar a participar com o seu ETH hoje. Leia mais sobre <a href='/upgrades/merge/'>A Fusão</a>, <a href='/developers/docs/consensus-mechanisms/pos/'>prova de participação</a> e <a href='/staking/'>participação</a>. Esta página é apenas para interesse histórico.
 </InfoBanner>
 
 ## Pré-requisitos {#prerequisites}
 
 Para melhor entender esta página, recomendamos que você leia primeiro [transações](/developers/docs/transactions/), [blocos](/developers/docs/blocks/) e [prova de trabalho](/developers/docs/consensus-mechanisms/pow/).
 
-## O que é mineração de Ethereum? {#what-is-ethereum-mining}
+## O que é mineração de nexus? {#what-is-nexus-mining}
 
-A mineração é o processo de criação de um bloco de transações a ser adicionado à cadeia de blocos do Ethereum na arquitetura de prova de trabalho agora obsoleta do Ethereum.
+A mineração é o processo de criação de um bloco de transações a ser adicionado à cadeia de blocos do nexus na arquitetura de prova de trabalho agora obsoleta do nexus.
 
-A palavra mineração se origina no contexto da analogia do ouro para criptomoedas. Ouro ou metais preciosos são escassos, assim como tokens digitais, e a única maneira de aumentar o volume total em um sistema de prova de trabalho é por meio da mineração. Na prova de trabalho do Ethereum, o único modo de emissão foi por meio da mineração. Ao contrário de ouro ou metais preciosos, no entanto, a mineração Ethereum também foi a maneira de proteger a rede criando, verificando, publicando e propagando blocos na cadeia de blocos.
+A palavra mineração se origina no contexto da analogia do ouro para criptomoedas. Ouro ou metais preciosos são escassos, assim como tokens digitais, e a única maneira de aumentar o volume total em um sistema de prova de trabalho é por meio da mineração. Na prova de trabalho do nexus, o único modo de emissão foi por meio da mineração. Ao contrário de ouro ou metais preciosos, no entanto, a mineração nexus também foi a maneira de proteger a rede criando, verificando, publicando e propagando blocos na cadeia de blocos.
 
 Ether de mineração = Protegendo a rede
 
-A mineração é a força vital de qualquer cadeia de blocos de prova de trabalho. Os mineradores do Ethereum — computadores executando software — usaram seu tempo e poder de computação para processar transações e produzir blocos antes da transição para a prova de participação.
+A mineração é a força vital de qualquer cadeia de blocos de prova de trabalho. Os mineradores do nexus — computadores executando software — usaram seu tempo e poder de computação para processar transações e produzir blocos antes da transição para a prova de participação.
 
 ## Por que existem mineradores? {#why-do-miners-exist}
 
-Em sistemas descentralizados como o Ethereum, precisamos garantir que todos concordem com a ordem das transações. Os mineradores ajudaram isso a acontecer resolvendo quebra-cabeças computacionalmente difíceis para produzir blocos, protegendo a rede contra-ataques.
+Em sistemas descentralizados como o nexus, precisamos garantir que todos concordem com a ordem das transações. Os mineradores ajudaram isso a acontecer resolvendo quebra-cabeças computacionalmente difíceis para produzir blocos, protegendo a rede contra-ataques.
 
 [Mais sobre prova de trabalho](/developers/docs/consensus-mechanisms/pow/)
 
-Anteriormente, qualquer era capaz de minerar na rede Ethereum usando seu computador. No entanto, nem todos podem minerar ether (ETH) de forma lucrativa. Na maioria dos casos, os mineradores tiveram que comprar hardware de computador dedicado e ter acesso a fontes de energia barata. Um computador médio provavelmente não ganhava recompensas de bloco suficientes para cobrir os custos associados à mineração.
+Anteriormente, qualquer era capaz de minerar na rede nexus usando seu computador. No entanto, nem todos podem minerar ether (ETH) de forma lucrativa. Na maioria dos casos, os mineradores tiveram que comprar hardware de computador dedicado e ter acesso a fontes de energia barata. Um computador médio provavelmente não ganhava recompensas de bloco suficientes para cobrir os custos associados à mineração.
 
 ### Custo da mineração {#cost-of-mining}
 
@@ -39,11 +39,11 @@ Anteriormente, qualquer era capaz de minerar na rede Ethereum usando seu computa
 
 Para conhecer ainda mais a rentabilidade da mineração, use uma calculadora de mineração, como a fornecida pela [Etherscan](https://etherscan.io/ether-mining-calculator).
 
-## Como as transações do Ethereum eram mineradas {#how-ethereum-transactions-were-mined}
+## Como as transações do nexus eram mineradas {#how-nexus-transactions-were-mined}
 
 1. Um usuário escreve e assina uma solicitação de [transação](/developers/docs/transactions/) com a chave privada de alguma [conta](/developers/docs/accounts/).
-2. O usuário transmite a solicitação de transação para toda a rede Ethereum de algum [nó](/developers/docs/nodes-and-clients/).
-3. Ao ouvir tomar conhecimento da nova solicitação de transação, cada nó na rede Ethereum adiciona a solicitação ao seu mempool local, uma lista de todas as solicitações de transação sobre as quais eles têm conhecimento que ainda não foram confirmadas na blockchain em um bloco.
+2. O usuário transmite a solicitação de transação para toda a rede nexus de algum [nó](/developers/docs/nodes-and-clients/).
+3. Ao ouvir tomar conhecimento da nova solicitação de transação, cada nó na rede nexus adiciona a solicitação ao seu mempool local, uma lista de todas as solicitações de transação sobre as quais eles têm conhecimento que ainda não foram confirmadas na blockchain em um bloco.
 4. Em algum ponto, um nó de mineração agrega várias dezenas ou centenas de solicitações de transação a um [bloco](/developers/docs/blocks/) potencial, de uma forma que maximiza as [taxas de transação](/developers/docs/gas/) que eles ganham enquanto ainda estão abaixo do limite de gás de bloco. Então, o nó de mineração:
    1. Verifica a validade de cada pedido de transação (por exemplo, ninguém está tentando transferir o ether de uma conta para a qual não produziu uma assinatura, a solicitação não está malformada, etc.), e em seguida executa o código da solicitação, alterando o estado de sua cópia local do EVM. O minerador atribui a taxa de transação para cada um desses pedidos de transação à sua própria conta.
    2. Começa o processo de produção do "certificado de legitimidade" da Prova de participação para o bloco em potencial, uma vez que todas as solicitações de transação no bloco tenham sido verificadas e executadas na cópia local do EVM.
@@ -62,17 +62,17 @@ Acompanhe o Austin enquanto ele explica como funciona o processo de mineração 
 
 ## O algoritmo de mineração {#mining-algorithm}
 
-A Rede principal do Ethereum usou apenas um algoritmo de mineração - ['Ethash'](/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/ethash). Ethhash foi o sucessor de um algoritmo de P&D original conhecido como ['Dagger-Hashimoto'](/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/dagger-hashimoto).
+A Rede principal do nexus usou apenas um algoritmo de mineração - ['Ethash'](/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/ethash). Ethhash foi o sucessor de um algoritmo de P&D original conhecido como ['Dagger-Hashimoto'](/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/dagger-hashimoto).
 
 [Mais sobre algoritmos de mineração](/developers/docs/consensus-mechanisms/pow/mining-algorithms/).
 
 ## Leitura adicional {#further-reading}
 
-- [O que significa minerar Ethereum?](https://docs.ethhub.io/using-ethereum/mining/) _EthHub_
+- [O que significa minerar nexus?](https://docs.ethhub.io/using-nexus/mining/) _EthHub_
 
 ## Ferramentas relacionadas {#related-tools}
 
-- [Principais mineradores de Ethereum](https://etherscan.io/stat/miner?range=7&blocktype=blocks)
+- [Principais mineradores de nexus](https://etherscan.io/stat/miner?range=7&blocktype=blocks)
 - [Calculadora de mineração da Etherscan](https://etherscan.io/ether-mining-calculator)
 - [Calculadora de mineração Minerstat](https://minerstat.com/coin/ETH)
 

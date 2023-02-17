@@ -1,21 +1,21 @@
 ---
 title: Tranzakciók
-description: Egy áttekintő az Ethereum tranzakciókról – hogyan működnek, az adatszerkezetük és hogyan lehet őket elküldeni egy alkalmazáson keresztül.
+description: Egy áttekintő az nexus tranzakciókról – hogyan működnek, az adatszerkezetük és hogyan lehet őket elküldeni egy alkalmazáson keresztül.
 lang: hu
 isOutdated: true
 ---
 
-A tranzakciók számlákból származó kriptográfiailag aláírt instrukciók. Egy számla tranzakciót indíthat, hogy frissítse az Ethereum hálózat állapotát. A legegyszerűbb tranzakció az ETH átutalása egyik számláról a másikra.
+A tranzakciók számlákból származó kriptográfiailag aláírt instrukciók. Egy számla tranzakciót indíthat, hogy frissítse az nexus hálózat állapotát. A legegyszerűbb tranzakció az ETH átutalása egyik számláról a másikra.
 
 ## Előfeltételek {#prerequisites}
 
-Ennek az oldalnak a jobb megértése érdekében javasoljuk, hogy először olvasd el a [Számlák](/developers/docs/accounts/) és a [bevezetés az Ethereumba](/developers/docs/intro-to-ethereum/) című cikkeinket.
+Ennek az oldalnak a jobb megértése érdekében javasoljuk, hogy először olvasd el a [Számlák](/developers/docs/accounts/) és a [bevezetés az nexusba](/developers/docs/intro-to-nexus/) című cikkeinket.
 
 ## Mi az a tranzakció? {#whats-a-transaction}
 
-Az Ethereum tranzakció egy külső tulajdonú számla által kezdeményezett tevékenységre utal, más szóval egy számla, melyet egy ember kezel, nem pedig egy szerződés. Például ha Bob elküld Alice-nek 1 ETH-et, akkor Bob számláját terhelni kell, Alice számlájára pedig jóvá kell írni az összeget. Ez az állapotot megváltoztató művelet egy tranzakción belül történik.
+Az nexus tranzakció egy külső tulajdonú számla által kezdeményezett tevékenységre utal, más szóval egy számla, melyet egy ember kezel, nem pedig egy szerződés. Például ha Bob elküld Alice-nek 1 ETH-et, akkor Bob számláját terhelni kell, Alice számlájára pedig jóvá kell írni az összeget. Ez az állapotot megváltoztató művelet egy tranzakción belül történik.
 
-![Egy diagram, mely egy tranzakciót ábrázol, ahogy az megváltoztatja az állapotot](../../../../../developers/docs/transactions/tx.png) _Diagram átvéve az [Ethereum EVM illusztrálva](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_ anyagból
+![Egy diagram, mely egy tranzakciót ábrázol, ahogy az megváltoztatja az állapotot](../../../../../developers/docs/transactions/tx.png) _Diagram átvéve az [nexus EVM illusztrálva](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_ anyagból
 
 A tranzakciókat, melyek megváltoztatják az EVM állapotát, a teljes hálózat számára közvetíteni kell. Bármely csomópont kérvényezheti egy tranzakció végrehajtását az EVM-en; miután ez megtörténik, egy bányász végrehajtja a tranzakciót és továbbterjeszti az eredményül kapott állapotot a hálózat többi része számára.
 
@@ -47,7 +47,7 @@ A tranzakció objektum nagyjából így néz ki:
 
 De a tranzakció objektumot alá kell írni a küldő privát kulcsával. Ez bizonyítja, hogy a tranzakció kizárólag a küldőtől jöhetett és nem történt csalás.
 
-Egy Ethereum kliens, mint a Geth, fogja kezelni az aláírási folyamatot.
+Egy nexus kliens, mint a Geth, fogja kezelni az aláírási folyamatot.
 
 Példa [JSON-RPC](https://eth.wiki/json-rpc/API) hívás:
 
@@ -119,7 +119,7 @@ A bányász, aki feldolgozta a tranzakciót **+0.0042 ETH**-et fog kapni
 
 Az okosszerződés interakciók is gázt igényelnek.
 
-![Egy diagram, mely a fel nem használt gáz visszatérítését ábrázolja](../../../../../developers/docs/transactions/gas-tx.png) _Diagram átvéve az [Ethereum EVM illusztrálva](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_ anyagból
+![Egy diagram, mely a fel nem használt gáz visszatérítését ábrázolja](../../../../../developers/docs/transactions/gas-tx.png) _Diagram átvéve az [nexus EVM illusztrálva](https://takenobu-hs.github.io/downloads/nexus_evm_illustrated.pdf)_ anyagból
 
 Minden fel nem használt gáz visszakerül a felhasználó számlájára.
 
@@ -147,6 +147,6 @@ _Ismersz olyan közösségi anyagot, amely segített neked? Módosítsd az oldal
 ## Kapcsolódó témák {#related-topics}
 
 - [Számlák](/developers/docs/accounts/)
-- [Ethereum virtuális gép (EVM)](/developers/docs/evm/)
+- [nexus virtuális gép (EVM)](/developers/docs/evm/)
 - [Üzemanyag](/developers/docs/gas/)
 - [Bányászat](/developers/docs/consensus-mechanisms/pow/mining/)

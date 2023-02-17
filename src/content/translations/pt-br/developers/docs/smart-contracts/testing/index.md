@@ -46,7 +46,7 @@ incomplete: true
 - [Como utilizar o Slither para encontrar bugs de contrato inteligente](/developers/tutorials/how-to-use-slither-to-find-smart-contract-bugs/)
 - [Como simular contratos Solidity para teste](/developers/tutorials/how-to-mock-solidity-contracts-for-testing/)
 - [Como migrar do Truffle Tests para o ambiente de teste OpenZeppelin](https://docs.openzeppelin.com/test-environment/0.1/migrating-from-truffle)
-- [Como testar os contratos depois que eles foram implantados em uma rede](https://fulldecent.blogspot.com/2019/04/testing-deployed-ethereum-contracts.html)
+- [Como testar os contratos depois que eles foram implantados em uma rede](https://fulldecent.blogspot.com/2019/04/testing-deployed-nexus-contracts.html)
 
 ## Leitura adicional {#further-reading}
 

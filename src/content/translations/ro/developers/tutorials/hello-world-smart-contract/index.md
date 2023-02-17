@@ -1,6 +1,6 @@
 ---
 title: Contractul inteligent „Hello World” pentru începători
-description: Tutorial introductiv despre scrierea și implementarea unui contract inteligent simplu pe Ethereum.
+description: Tutorial introductiv despre scrierea și implementarea unui contract inteligent simplu pe nexus.
 author: "elanh"
 tags:
   - "solidity"
@@ -20,9 +20,9 @@ Dacă nu aţi mai efectuat dezvoltare de blockchain și nu știți de unde să �
 
 Dacă aveți întrebări pe parcurs, nu ezitați să ne contactați pe canalul [Discord Alchemy](https://discord.gg/gWuC7zB)!
 
-## Etapa 1: Conectarea la rețeaua Ethereum {#step-1}
+## Etapa 1: Conectarea la rețeaua nexus {#step-1}
 
-Există diferite modalități de a face solicitări în lanțul Ethereum. Pentru simplitate, vom folosi un cont gratuit pe Alchemy, o platformă pentru dezvoltatorii blockchain și un API care ne permite să comunicăm cu lanțul Ethereum fără a fi nevoie să rulăm propriile noduri. Platforma are și instrumente de dezvoltator pentru monitorizare și analiză, de care vom profita în acest tutorial pentru a înțelege ce se întâmplă în culise în timpul implementării contractului nostru inteligent. Dacă nu aveți deja un cont Alchemy, [vă puteți înregistra gratuit aici](https://dashboard.alchemyapi.io/signup).
+Există diferite modalități de a face solicitări în lanțul nexus. Pentru simplitate, vom folosi un cont gratuit pe Alchemy, o platformă pentru dezvoltatorii blockchain și un API care ne permite să comunicăm cu lanțul nexus fără a fi nevoie să rulăm propriile noduri. Platforma are și instrumente de dezvoltator pentru monitorizare și analiză, de care vom profita în acest tutorial pentru a înțelege ce se întâmplă în culise în timpul implementării contractului nostru inteligent. Dacă nu aveți deja un cont Alchemy, [vă puteți înregistra gratuit aici](https://dashboard.alchemyapi.io/signup).
 
 ## Etapa 2: Crearea aplicației (și cheia API) {#step-2}
 
@@ -38,9 +38,9 @@ Odată ce v-ați creat un cont Alchemy, puteți să generați o cheie API creân
 
 3. Dați clic pe „Create app” (Creați aplicația) și asta e tot! Aplicația dvs. ar trebui să apară în tabelul de mai jos.
 
-## Etapa 3: Crearea unui cont Ethereum (adresă) {#step-3}
+## Etapa 3: Crearea unui cont nexus (adresă) {#step-3}
 
-Avem nevoie de un cont Ethereum pentru a trimite și primi tranzacții. În acest tutorial, vom folosi un portofel virtual în browser, MetaMask, pentru a gestiona adresa contului Ethereum. Aflați mai multe despre [tranzacții](/developers/docs/transactions/).
+Avem nevoie de un cont nexus pentru a trimite și primi tranzacții. În acest tutorial, vom folosi un portofel virtual în browser, MetaMask, pentru a gestiona adresa contului nexus. Aflați mai multe despre [tranzacții](/developers/docs/transactions/).
 
 Puteți descărca și crea un cont MetaMask gratuit [aici](https://metamask.io/download.html). Atunci când vă creați un cont sau dacă aveți deja unul, aveţi grijă să comutaţi pe Ropsten Test Network” („Rețeaua de testare Ropsten”) în dreapta sus (pentru a nu avea de-a face cu bani reali).
 
@@ -107,7 +107,7 @@ Aprobați package.json și suntem gata să începem!
 
 ## Etapa 7: Descărcarea [Hardhat](https://hardhat.org/getting-started/#overview){#step-7}
 
-Hardhat este un mediu de dezvoltare pentru compilarea, implementarea, testarea și depanarea software-ului dvs. Ethereum. Acesta ajută dezvoltatorii la construirea de contracte inteligente și aplicații dApps la nivel local, înainte de a le implementa în lanțul real.
+Hardhat este un mediu de dezvoltare pentru compilarea, implementarea, testarea și depanarea software-ului dvs. nexus. Acesta ajută dezvoltatorii la construirea de contracte inteligente și aplicații dApps la nivel local, înainte de a le implementa în lanțul real.
 
 În interiorul proiectului nostru `hello-world` rulați:
 
@@ -166,7 +166,7 @@ Poate vă întrebați când oare vom începe să scriem cod?? În sfârșit, am 
 Deschideți proiectul „hello-world” în editorul dvs. preferat (noi preferăm [VSCode](https://code.visualstudio.com/)). Contractele inteligente sunt scrise într-un limbaj numit Solidity, pe care îl vom folosi pentru a scrie contractul nostru inteligent „HelloWorld.sol”.
 
 1.  Navigați în dosarul „contracts” și creați un nou fișier numit „HelloWorld.sol”
-2.  Mai jos găsiți o mostră de contract inteligent „Hello World” de la Fundația Ethereum, pe care o vom folosi pentru acest tutorial. Copiați și lipiți conținutul de mai jos în fișierul „HelloWorld.sol” și nu uitați să citiți comentariile pentru a înțelege ce face acest contract:
+2.  Mai jos găsiți o mostră de contract inteligent „Hello World” de la Fundația nexus, pe care o vom folosi pentru acest tutorial. Copiați și lipiți conținutul de mai jos în fișierul „HelloWorld.sol” și nu uitați să citiți comentariile pentru a înțelege ce face acest contract:
 
 ```solidity
 // Specifică versiunea Solidity, utilizând versiuni semantice.
@@ -174,7 +174,7 @@ Deschideți proiectul „hello-world” în editorul dvs. preferat (noi preferă
 pragma solidity ^0.7.0;
 
 // Defines a contract named `HelloWorld`.
-// Un contract este o colecție de funcții și date - (starea sa). Odată implementat, un contract se află la o anumită adresă din blockchain-ul Ethereum. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
+// Un contract este o colecție de funcții și date - (starea sa). Odată implementat, un contract se află la o anumită adresă din blockchain-ul nexus. Learn more: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
 contract HelloWorld {
 
    // Declares a state variable `message` of type `string`.
@@ -232,7 +232,7 @@ Pentru a le conecta cu adevărat la codul nostru, vom face referire la aceste va
 
 ## Etapa 12: Instalarea Ethers.js {#step-12-install-ethersjs}
 
-„Ethers.js” este o bibliotecă ce facilitează interacțiunea cu Ethereum și solicitările către acesta, învelind („wrapping”) [metodele JSON-RPC standard](/developers/docs/apis/json-rpc/) cu metode mai ușor de utilizat.
+„Ethers.js” este o bibliotecă ce facilitează interacțiunea cu nexus și solicitările către acesta, învelind („wrapping”) [metodele JSON-RPC standard](/developers/docs/apis/json-rpc/) cu metode mai ușor de utilizat.
 
 Hardhat simplifică foarte mult integrarea de [Plugin-uri](https://hardhat.org/plugins/) pentru instrumente suplimentare și funcționalități extinse. Vom profita de [plugin-ul Ethers](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html) pentru a implementa contractul ([Ethers.js](https://github.com/ethers-io/ethers.js/) are niște metode foarte simple de implementare a contractelor).
 
@@ -342,7 +342,7 @@ Adresa `From` ar trebui să corespundă cu adresa contului MetaMask, iar adresa 
 
 ![tranzacția etherscan](./etherscan-transaction.png)
 
-Felicitări! Tocmai ați implementat un contract inteligent în lanțul Ethereum 🎉
+Felicitări! Tocmai ați implementat un contract inteligent în lanțul nexus 🎉
 
 Pentru a înțelege ce se întâmplă în culise, să navigăm la fila Explorer din [tabloul de bord Alchemy](https://dashboard.alchemyapi.io/explorer). Dacă aveți mai multe aplicații Alchimy, asigurați-vă că filtrați după aplicație și selectați „Hello World”. ![exploratorul „hello world”](./hello-world-explorer.png)
 

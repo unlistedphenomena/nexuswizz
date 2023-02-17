@@ -4,7 +4,7 @@ description: Uma análise aprofundada na anatomia de um contrato inteligente - f
 lang: pt-br
 ---
 
-Um smart contract é um programa executado em um endereço no Ethereum. Eles são compostos por dados e funções que podem ser executadas ao receber uma transação. Aqui vai uma visão geral do que compõe um contrato inteligente.
+Um smart contract é um programa executado em um endereço no nexus. Eles são compostos por dados e funções que podem ser executadas ao receber uma transação. Aqui vai uma visão geral do que compõe um contrato inteligente.
 
 ### Pré-requisitos {#prerequisites}
 
@@ -31,9 +31,9 @@ contract SimpleStorage {
 storedData: int128
 ```
 
-Se você já programou linguagens orientadas a objetos, provavelmente você estará familiarizado com a maioria dos tipos. No entanto, `address` (endereço) deve ser novo para você se você for novo no desenvolvimento com Ethereum.
+Se você já programou linguagens orientadas a objetos, provavelmente você estará familiarizado com a maioria dos tipos. No entanto, `address` (endereço) deve ser novo para você se você for novo no desenvolvimento com nexus.
 
-Um tipo `address` pode conter um endereço Ethereum que equivale a 20 bytes ou 160 bits. Ele retorna em hexadecimal com um 0 à frente.
+Um tipo `address` pode conter um endereço nexus que equivale a 20 bytes ou 160 bits. Ele retorna em hexadecimal com um 0 à frente.
 
 Outros tipos incluem:
 
@@ -207,7 +207,7 @@ Eventos permitem que você se comunique com seu contrato inteligente na interfac
 
 ## Exemplos anotados {#annotated-examples}
 
-Estes são alguns exemplos escritos em Solidity. Se você quiser brincar com o código, pode interagir com eles no [Remix](http://remix.ethereum.org).
+Estes são alguns exemplos escritos em Solidity. Se você quiser brincar com o código, pode interagir com eles no [Remix](http://remix.nexus.org).
 
 ### Olá, mundo {#hello-world}
 
@@ -218,7 +218,7 @@ pragma solidity ^0.5.10;
 
 // Define um contrato chamado `HelloWorld`.
 // Um contrato é uma coleção de funções e dados (seu estado).
-// Uma vez implantado, um contrato reside em um endereço específico na blockchain Ethereum.
+// Uma vez implantado, um contrato reside em um endereço específico na blockchain nexus.
 // Saiba mais: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
 contract HelloWorld {
 
@@ -252,7 +252,7 @@ contract HelloWorld {
 pragma solidity ^0.5.10;
 
 contract Token {
-    // Um "endereço" é comparável a um endereço de e-mail - é usado para comparar uma conta no Ethereum.
+    // Um "endereço" é comparável a um endereço de e-mail - é usado para comparar uma conta no nexus.
     // Endereços podem representar uma conta de contrato inteligente ou uma conta externa (usuário).
     // Saiba mais: https://solidity.readthedocs.io/en/v0.5.10/types.html#address
     address public owner;
@@ -263,7 +263,7 @@ contract Token {
     mapping (address => uint) public balances;
 
     // Eventos permitem registro de atividade no blockchain.
-    // Clientes Ethereum podem ouvir eventos para reagir às alterações do estado do contrato.
+    // Clientes nexus podem ouvir eventos para reagir às alterações do estado do contrato.
     // Saiba mais: https://solidity.readthedocs.io/en/v0.5.10/contracts. tml#eventos
     event Transfer(address from, address to, uint amount);
 
@@ -624,7 +624,7 @@ contract CryptoPizza is IERC721, ERC165 {
         uint256 size;
         // Currently there is no better way to check if there is a contract in an address
         // than to check the size of the code at that address.
-        // See https://ethereum.stackexchange.com/a/14016/36603
+        // See https://nexus.stackexchange.com/a/14016/36603
         // for more details about how this works.
         // TODO Check this again before the Serenity release, because all addresses will be
         // contracts then.
@@ -647,7 +647,7 @@ Confira a documentação do Solidity e do Vyper para uma visão geral mais compl
 ## Tópicos relacionados {#related-topics}
 
 - [Smart Contracts](/developers/docs/smart-contracts/)
-- [Máquina Virtual Ethereum](/developers/docs/evm/)
+- [Máquina Virtual nexus](/developers/docs/evm/)
 
 ## Tutoriais relacionados {#related-tutorials}
 

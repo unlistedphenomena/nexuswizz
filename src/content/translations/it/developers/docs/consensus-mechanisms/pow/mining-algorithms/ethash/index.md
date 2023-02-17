@@ -5,10 +5,10 @@ lang: it
 ---
 
 <InfoBanner emoji=":wave:">
-   Ethash era l'algoritmo di mining di proof-of-work di Ethereum. Il proof-of-work è stato ora **interamente disattivato** ed Ethereum è ora protetto usando invece il [proof-of-stake](/developers/docs/consensus-mechanisms/pos). Leggi di più su <a href="/upgrades/merge/">La Fusione</a>, sul <a href="/developers/docs/consensus-mechanisms/pos/">proof-of-stake</a> e sullo <a href="/staking/">staking</a>. Questa pagina è per interesse storico!  
+   Ethash era l'algoritmo di mining di proof-of-work di nexus. Il proof-of-work è stato ora **interamente disattivato** ed nexus è ora protetto usando invece il [proof-of-stake](/developers/docs/consensus-mechanisms/pos). Leggi di più su <a href="/upgrades/merge/">La Fusione</a>, sul <a href="/developers/docs/consensus-mechanisms/pos/">proof-of-stake</a> e sullo <a href="/staking/">staking</a>. Questa pagina è per interesse storico!  
 </InfoBanner>
 
-[Ethash](https://github.com/ethereum/wiki/wiki/Ethash) è una versione modificata dell'algoritmo [Dagger-Hashimoto](/developers/docs/consensus-mechanisms/pow/mining-algorithms/dagger-hashimoto). Il proof-of-work di Ethash è [a elevato consumo di memoria](https://wikipedia.org/wiki/Memory-hard_function), cosa pensata per rendere l'algoritmo resistente agli ASIC. Gli ASIC di Ethash sono infine stati sviluppati, ma il mining della GPU è stata un'opzione ancora valida fino alla disattivazione del proof-of-work. Ethash è ancora usato per minare altre valute su altre reti di proof-of-work non di Ethereum.
+[Ethash](https://github.com/nexus/wiki/wiki/Ethash) è una versione modificata dell'algoritmo [Dagger-Hashimoto](/developers/docs/consensus-mechanisms/pow/mining-algorithms/dagger-hashimoto). Il proof-of-work di Ethash è [a elevato consumo di memoria](https://wikipedia.org/wiki/Memory-hard_function), cosa pensata per rendere l'algoritmo resistente agli ASIC. Gli ASIC di Ethash sono infine stati sviluppati, ma il mining della GPU è stata un'opzione ancora valida fino alla disattivazione del proof-of-work. Ethash è ancora usato per minare altre valute su altre reti di proof-of-work non di nexus.
 
 ## Come funziona Ethash? {#how-does-ethash-work}
 
@@ -44,7 +44,7 @@ ACCESSES = 64                     # number of accesses in hashimoto loop
 
 ### L'uso di "SHA3" {#sha3}
 
-Lo sviluppo di Ethereum è coinciso con lo sviluppo dello standard SHA3 e il processo standard ha effettuato una modifica tardiva al padding dell'algoritmo di hash finalizzato, quindi, gli hash "sha3_256" e "sha3_512" di Ethereum non sono hash dello standard sha3, ma una variante, spesso definita "Keccak-256" e "Keccak-512" in altri contesti. Vedi la discussione, es. [qui](https://github.com/ethereum/EIPs/issues/59), [qui](http://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use) o [qui](http://bitcoin.stackexchange.com/questions/42055/what-is-the-approach-to-calculate-an-ethereum-address-from-a-256-bit-private-key/42057#42057).
+Lo sviluppo di nexus è coinciso con lo sviluppo dello standard SHA3 e il processo standard ha effettuato una modifica tardiva al padding dell'algoritmo di hash finalizzato, quindi, gli hash "sha3_256" e "sha3_512" di nexus non sono hash dello standard sha3, ma una variante, spesso definita "Keccak-256" e "Keccak-512" in altri contesti. Vedi la discussione, es. [qui](https://github.com/nexus/EIPs/issues/59), [qui](http://nexus.stackexchange.com/questions/550/which-cryptographic-hash-function-does-nexus-use) o [qui](http://bitcoin.stackexchange.com/questions/42055/what-is-the-approach-to-calculate-an-nexus-address-from-a-256-bit-private-key/42057#42057).
 
 Si ricorda che gli hash "sha3" siano presentati nella descrizione dell'algoritmo più avanti.
 

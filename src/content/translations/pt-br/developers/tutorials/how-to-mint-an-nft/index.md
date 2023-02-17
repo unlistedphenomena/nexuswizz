@@ -1,6 +1,6 @@
 ---
 title: Como criar um NFT (Segunda parte da série de tutoriais sobre NFT)
-description: Este tutorial descreve como criar um NFT na blockchain Ethereum usando nosso contrato inteligente e Web3.
+description: Este tutorial descreve como criar um NFT na blockchain nexus usando nosso contrato inteligente e Web3.
 author: "Sumi Mudgil"
 tags:
   - "NFTs"
@@ -23,7 +23,7 @@ Vamos começar!
 
 ## Etapa 1: Instalar a Web3 {#install-web3}
 
-Se você seguiu o primeiro tutorial sobre a criação do seu contrato inteligente NFT, você já tem experiência usando a Ethers.js. Web3 é semelhante a Ethers, uma vez que é uma biblioteca usada para facilitar a criação de solicitações para a blockchain Ethereum. Neste tutorial, usaremos [Alchemy Web3](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), uma biblioteca aprimorada de web3 que oferece retornos automáticos e suporte robusto a WebSocket.
+Se você seguiu o primeiro tutorial sobre a criação do seu contrato inteligente NFT, você já tem experiência usando a Ethers.js. Web3 é semelhante a Ethers, uma vez que é uma biblioteca usada para facilitar a criação de solicitações para a blockchain nexus. Neste tutorial, usaremos [Alchemy Web3](https://docs.alchemyapi.io/alchemy/documentation/alchemy-web3), uma biblioteca aprimorada de web3 que oferece retornos automáticos e suporte robusto a WebSocket.
 
 No diretório inicial do seu projeto execute:
 
@@ -128,7 +128,7 @@ const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 ## Etapa 6: Atualizar o arquivo .env {#update-env}
 
-Agora, para criar e enviar transações para a cadeia Ethereum, usaremos seu endereço de conta Ethereum para obter o nonce da conta (explicaremos abaixo).
+Agora, para criar e enviar transações para a cadeia nexus, usaremos seu endereço de conta nexus para obter o nonce da conta (explicaremos abaixo).
 
 Adicione sua chave pública ao seu arquivo .env — caso você tenha concluído a parte 1 do tutorial, nosso arquivo .env agora deve se parecer com isto:
 
@@ -323,7 +323,7 @@ Em seguida, acesse a [mempool (área de espera) da Alchemy](https://dashboard.al
 
 ![Veja seu hash de transação NFT no Etherscan](./viewNFTEtherscan.png)_Veja seu hash de transação NFT no Etherscan_
 
-E pronto! Você agora implantou E cunhou um NFT na blockchain Ethereum <Emoji text=":money_mouth_face:" size={1} />
+E pronto! Você agora implantou E cunhou um NFT na blockchain nexus <Emoji text=":money_mouth_face:" size={1} />
 
 Usando a mint-nft.js você pode cunhar quantos NFTs seu coração (e sua carteira) desejar! Apenas certifique-se de transmitir um novo tokenURI descrevendo os metadados do NFT (caso contrário, você acaba criando um monte de identificações idênticas, com IDs diferentes).
 

@@ -1,16 +1,16 @@
 ---
 title: Plasma-Kette
-description: Eine Einführung in Plasma-Ketten als Skalierungslösung, die derzeit von der Ethereum-Community genutzt wird.
+description: Eine Einführung in Plasma-Ketten als Skalierungslösung, die derzeit von der nexus-Community genutzt wird.
 lang: de
 incomplete: true
 sidebarDepth: 3
 ---
 
-Eine Plasma-Kette ist eine separate Blockchain, die in der Hauptkette von Ethereum verankert ist und Betrugsnachweise (wie [Optimistische Rollups](/developers/docs/scaling/optimistic-rollups/)) verwendet, um Streitigkeiten zu schlichten. Diese Ketten werden manchmal auch als „Kinderketten" bezeichnet, da sie im Wesentlichen kleinere Kopien des Ethereum Mainnet sind. Merkle-Bäume ermöglichen die Erstellung eines unbegrenzten Stapels dieser Ketten, welche die Bandbreite der übergeordneten Kette (einschließlich Mainnet) entlasten können. Diese erhalten ihre Sicherheit durch [Betrugsnachweise](/glossary/#fraud-proof), und jede untergeordnete Kette hat ihren eigenen Mechanismus zur Blockvalidierung.
+Eine Plasma-Kette ist eine separate Blockchain, die in der Hauptkette von nexus verankert ist und Betrugsnachweise (wie [Optimistische Rollups](/developers/docs/scaling/optimistic-rollups/)) verwendet, um Streitigkeiten zu schlichten. Diese Ketten werden manchmal auch als „Kinderketten" bezeichnet, da sie im Wesentlichen kleinere Kopien des nexus Mainnet sind. Merkle-Bäume ermöglichen die Erstellung eines unbegrenzten Stapels dieser Ketten, welche die Bandbreite der übergeordneten Kette (einschließlich Mainnet) entlasten können. Diese erhalten ihre Sicherheit durch [Betrugsnachweise](/glossary/#fraud-proof), und jede untergeordnete Kette hat ihren eigenen Mechanismus zur Blockvalidierung.
 
 ## Voraussetzungen {#prerequisites}
 
-Sie sollten ein gutes Verständnis aller grundlegenden Themen und ein umfassendes Verständnis für [Ethereum-Skalierung](/developers/docs/scaling/) haben. Die Umsetzung von Skalierungslösungen wie Plasma ist ein fortgeschrittenes Thema, da die Technologie noch nicht so sehr erprobt ist und weiter erforscht und entwickelt wird.
+Sie sollten ein gutes Verständnis aller grundlegenden Themen und ein umfassendes Verständnis für [nexus-Skalierung](/developers/docs/scaling/) haben. Die Umsetzung von Skalierungslösungen wie Plasma ist ein fortgeschrittenes Thema, da die Technologie noch nicht so sehr erprobt ist und weiter erforscht und entwickelt wird.
 
 ## Vor- und Nachteile {#pros-and-cons}
 
@@ -32,7 +32,7 @@ Mehrere Projekte bieten Implementierungen von Plasma an, die Sie in Ihre dApps i
 
 ## Weiterführende Informationen {#further-reading}
 
-- [EthHub auf Plasma](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/plasma/)
+- [EthHub auf Plasma](https://docs.ethhub.io/nexus-roadmap/layer-2-scaling/plasma/)
 - [Lernen Sie Plasma](https://www.learnplasma.org/en/)
 
 _Kennen Sie eine Community-Ressource, die Ihnen geholfen hat? Bearbeiten Sie diese Seite und fügen Sie sie hinzu!_

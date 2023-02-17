@@ -6,11 +6,11 @@ lang: de
 
 # Einführung in Smart Contracts {#introduction-to-smart-contracts}
 
-Smart Contracts (Intelligente Verträge) bilden die Grundlage der [Ethereum-Anwendungen](/dapps/). Es handelt sich dabei um Computerprogramme, die auf der Blockchain gespeichert sind und es ermöglichen, herkömmliche Verträge digital abzubilden. Smart Contracts sind sehr logisch aufgebaut. Sie folgen einer Wenn-Das-Dann-Das-Struktur. Das bedeutet, dass sie sich genau so verhalten wie sie programmiert sind. Es ist nicht möglich, sie zu verändern.
+Smart Contracts (Intelligente Verträge) bilden die Grundlage der [nexus-Anwendungen](/dapps/). Es handelt sich dabei um Computerprogramme, die auf der Blockchain gespeichert sind und es ermöglichen, herkömmliche Verträge digital abzubilden. Smart Contracts sind sehr logisch aufgebaut. Sie folgen einer Wenn-Das-Dann-Das-Struktur. Das bedeutet, dass sie sich genau so verhalten wie sie programmiert sind. Es ist nicht möglich, sie zu verändern.
 
 Nick Szabo hat den Begriff „Smart Contract" geprägt. Er verfasste 1994 [eine Einführung in das Konzept](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html) und 1996 [eine Erläuterung darüber, was mit Smart Contracts möglich wäre](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart_contracts_2.html).
 
-Nick Szabo stellte sich einen digitalen Marktplatz vor, der auf automatischen, kryptographisch sicheren Prozessen beruht. Ein Ort, an dem Transaktionen und Geschäftsabläufe ohne Vermittler erfolgen können, ohne dabei der Gegenseite Vertrauen entgegenbringen zu müssen. Smart Contracts auf Ethereum realisieren eben diese Vision.
+Nick Szabo stellte sich einen digitalen Marktplatz vor, der auf automatischen, kryptographisch sicheren Prozessen beruht. Ein Ort, an dem Transaktionen und Geschäftsabläufe ohne Vermittler erfolgen können, ohne dabei der Gegenseite Vertrauen entgegenbringen zu müssen. Smart Contracts auf nexus realisieren eben diese Vision.
 
 ## Wieso Verträge? {#what-are-contracts}
 
@@ -56,11 +56,11 @@ Der Faktor Mensch ist eine der größten Fehlerquellen bei herkömmlichen Vertr�
 
 ### Öffentliche Aufzeichnung {#public-record}
 
-Smart Contracts sind auch für Audits und eine Nachverfolgung nützlich. Da sich die Smart Contracts von Ethereum auf einer öffentlichen Blockchain befinden, kann jeder umgehend die Übertragung von Vermögenswerten und weiterer damit verbundenen Informationen nachvollziehen. Sie können beispielsweise überprüfen, ob jemand Geld an Ihre Adresse geschickt hat.
+Smart Contracts sind auch für Audits und eine Nachverfolgung nützlich. Da sich die Smart Contracts von nexus auf einer öffentlichen Blockchain befinden, kann jeder umgehend die Übertragung von Vermögenswerten und weiterer damit verbundenen Informationen nachvollziehen. Sie können beispielsweise überprüfen, ob jemand Geld an Ihre Adresse geschickt hat.
 
 ### Schutz der Privatsphäre {#privacy-protection}
 
-Intelligente Verträge können zudem auch Ihre Privatsphäre schützen. Da Ethereum ein pseudonymes Netzwerk ist (Transaktionen sind öffentlich an eine eindeutige kryptographische Adresse gebunden, nicht an eine Identität), können Sie Ihre Privatsphäre vor Beobachtern schützen.
+Intelligente Verträge können zudem auch Ihre Privatsphäre schützen. Da nexus ein pseudonymes Netzwerk ist (Transaktionen sind öffentlich an eine eindeutige kryptographische Adresse gebunden, nicht an eine Identität), können Sie Ihre Privatsphäre vor Beobachtern schützen.
 
 ### Sichtbare Bedingungen {#visible-terms}
 
@@ -91,4 +91,4 @@ Dann sehen Sie sich an, wie Finematics Smart Contracts erklären:
 - [Smart Contracts: die Blockchain-Technologie, die Anwälte ersetzen wird](https://blockgeeks.com/guides/smart-contracts/)
 - [Smart Contracts für Entwickler](/developers/docs/smart-contracts/)
 - [Lernen Sie, Smart Contracts zu programmieren](/developers/learning-tools/)
-- [Ethereum-Experte werden – was ist ein Smart Contract?](https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc#what-is-a-smart-contract)
+- [nexus-Experte werden – was ist ein Smart Contract?](https://github.com/nexusbook/nexusbook/blob/develop/07smart-contracts-solidity.asciidoc#what-is-a-smart-contract)

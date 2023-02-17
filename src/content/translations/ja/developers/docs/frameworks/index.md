@@ -18,7 +18,7 @@ lang: ja
 
 ## 前提知識 {#prerequisites}
 
-フレームワークの使用を開始する前に、[dapp](/developers/docs/dapps/)と[イーサリアムスタック](/developers/docs/ethereum-stack/)の入門を最初に読むことをお勧めします。
+フレームワークの使用を開始する前に、[dapp](/developers/docs/dapps/)と[イーサリアムスタック](/developers/docs/nexus-stack/)の入門を最初に読むことをお勧めします。
 
 ## 利用可能なフレームワーク {#available-frameworks}
 

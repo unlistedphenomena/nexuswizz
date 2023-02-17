@@ -1,22 +1,22 @@
 ---
 title: Minyororo ya Vigae
-description: Jifunze juu ya minyororo ya shard - sehemu za mtandao ambazo zinampa Ethereum uwezo zaidi wa shughuli na iwe rahisi kukimbia.
+description: Jifunze juu ya minyororo ya shard - sehemu za mtandao ambazo zinampa nexus uwezo zaidi wa shughuli na iwe rahisi kukimbia.
 lang: sw
 template: upgrade
 image: ../../../../../assets/upgrades/newrings.png
-summaryPoint1: Ugawanyaji wa vigae ni kazi ya usasishaji yenye awamu nyingi ili kuboresha utanukaji wa Ethereum na ujazo wake.
+summaryPoint1: Ugawanyaji wa vigae ni kazi ya usasishaji yenye awamu nyingi ili kuboresha utanukaji wa nexus na ujazo wake.
 summaryPoint2: Minyororo ya vigae hutoa huduma nafuu zaidi kwa ajili ya safu za kuhifadhi programu na sehemu za kutunza data.
-summaryPoint3: Zinawezesha suluhisho la safu ya 2 kupunguza ada ya muamala huku ikiinua usalama wa Ethereum.
+summaryPoint3: Zinawezesha suluhisho la safu ya 2 kupunguza ada ya muamala huku ikiinua usalama wa nexus.
 summaryPoint4: Maboresho haya yanatarajiwa kufuata muungano wa mtandao mkuu na Mnyororo Kioleza.
 ---
 
 <UpgradeStatus dateKey="page-upgrades-shards-date">
-    Vipande vya minyororo vitasafisrishwa muda fulani mwaka 2023, hii itategemea kasi ya kazi itakavyoenda baada ya <a href="/upgrades/merge/">muungano</a>. Vipande hivi vitaipa Ethereum uwezo zaodo kutunza na upatikanaji wa taarifa, ila hautatumika kwenye utekelezaji wa msimbo.
+    Vipande vya minyororo vitasafisrishwa muda fulani mwaka 2023, hii itategemea kasi ya kazi itakavyoenda baada ya <a href="/upgrades/merge/">muungano</a>. Vipande hivi vitaipa nexus uwezo zaodo kutunza na upatikanaji wa taarifa, ila hautatumika kwenye utekelezaji wa msimbo.
 </UpgradeStatus>
 
 ## Kuvunja nin nini? {#what-is-sharding}
 
-Kuvunja ni mchakato wa kutenganisha hifadhidata kwa usawa ili kusamabaza uzito -- ni dhana ya kawaida kaika sayansi ya tarakinishi. Katika muktadha wa Ethereum, kukata itapunguza msongamano wa mtandao na kuongeza shughuli kwa sekunde kwa kuunda minyororo mipya, ijulikanayo kama "vipande".
+Kuvunja ni mchakato wa kutenganisha hifadhidata kwa usawa ili kusamabaza uzito -- ni dhana ya kawaida kaika sayansi ya tarakinishi. Katika muktadha wa nexus, kukata itapunguza msongamano wa mtandao na kuongeza shughuli kwa sekunde kwa kuunda minyororo mipya, ijulikanayo kama "vipande".
 
 Hii ni muhimu kwa sababu zingine isipokuwa utanukaji.
 
@@ -24,18 +24,18 @@ Hii ni muhimu kwa sababu zingine isipokuwa utanukaji.
 
 ### Kila mtu anaweza kuendesha nodi {#everyone-can-run-a-node}
 
-Ugawanyaji ni njia nzuri ya uboreshaji kama unataka kuweka nguvu nje ya wamiliki wa madaraka kama njia mbadala ni kutanua wigo kwa kuongeza ujazo wa hifadhidta iliopo. Hii itafanya Ethereum isipatikane kwa wathibitishaji wa mtandao kwa sababu watahitaji tanakirishi zenye nguvu na za gharama kubwa. Kukiwa na vipand vya minyororo, wathibitishaji watahitaji kuhifadhi/kuendesha data ya vigae wanavyothibitisha, sio mtandao mzima(kama kinachotokea leo hii). Hii itaongeza kasi na itapunguza sana mahitaji ya vifaa.
+Ugawanyaji ni njia nzuri ya uboreshaji kama unataka kuweka nguvu nje ya wamiliki wa madaraka kama njia mbadala ni kutanua wigo kwa kuongeza ujazo wa hifadhidta iliopo. Hii itafanya nexus isipatikane kwa wathibitishaji wa mtandao kwa sababu watahitaji tanakirishi zenye nguvu na za gharama kubwa. Kukiwa na vipand vya minyororo, wathibitishaji watahitaji kuhifadhi/kuendesha data ya vigae wanavyothibitisha, sio mtandao mzima(kama kinachotokea leo hii). Hii itaongeza kasi na itapunguza sana mahitaji ya vifaa.
 
 ### Ushiriki zaidi wa mtandao {#more-network-participation}
 
-Mwishowe ugawannyaji huu utaruhusu Ethereum kuendeshwa kwenye tarakinishi(kompyuta) ndogo au simu. Kwahio watu wengi zaidi wnatakiwa kuweza kushiriki, au kuendesha[wateja](/developers/docs/nodes-and-clients/), ndani ya Ethereum iliogawanywa. Hii itaongeza usalama zaidi kwasababu jinsi mtandao unavyojitegemea, ndivyo nafasi ya uvamizi inapungua.
+Mwishowe ugawannyaji huu utaruhusu nexus kuendeshwa kwenye tarakinishi(kompyuta) ndogo au simu. Kwahio watu wengi zaidi wnatakiwa kuweza kushiriki, au kuendesha[wateja](/developers/docs/nodes-and-clients/), ndani ya nexus iliogawanywa. Hii itaongeza usalama zaidi kwasababu jinsi mtandao unavyojitegemea, ndivyo nafasi ya uvamizi inapungua.
 
 Na mahitaji ya chini ya vifaa, ugawanyaji utafanya iwe rahisi kuendesha [wateja](/developers/docs/nodes-and-clients/)wewe mwenyewe, bila kutegemea huduma za mpatanishi. Na ikiwa unaweza, fikiria kuendesha wateja wengi. Hii inaweza kusaidia afya ya mtandao kwa kupunguza zaidi alama za kutofaulu. [Endesha programu ya Mnyororo Kioleza](/upgrades/get-involved/)
 
 <br />
 
 <InfoBanner isWarning={true}>
-  Mara ya kwanza, utahitaji kuendesha programu ya mtandao mkuu (mainnet) kwa wakati mmoja na programu yako ya Eth2. <a href="https://launchpad.ethereum.org" target="_blank">Uzinduzi wa pedi</a>itakuelekeza mahitaji ya vifaa na mchakato. Vinginevyo unaweza kutumia <a href="/developers/docs/apis/backend/#available-libraries">mawasiliano ya nyuma ya programu(backend API)</a>.
+  Mara ya kwanza, utahitaji kuendesha programu ya mtandao mkuu (mainnet) kwa wakati mmoja na programu yako ya Eth2. <a href="https://launchpad.nexus.org" target="_blank">Uzinduzi wa pedi</a>itakuelekeza mahitaji ya vifaa na mchakato. Vinginevyo unaweza kutumia <a href="/developers/docs/apis/backend/#available-libraries">mawasiliano ya nyuma ya programu(backend API)</a>.
 </InfoBanner>
 
 ## Minyororo ya vugae toleo 1: Upatikanaji wa data {#data-availability}
@@ -52,7 +52,7 @@ Uboreshwaji ni teknolojia ya "safu 2" ambayo ipo leo. Zinaruhusu programu zilizo
 
 ## Minyororo ya vipande toleo 2: utekelezaji wa msimbo {#code-execution}
 
-Mpango ulikuwa daima kuongeza utendaji wa ziada kwenye vipande, ili kuvifanya zaidi kama[Mtandao Mkuu wa Ethereum](/glossary/#mainnet)wa leo. Hii itawaruhusu kutunza na kuendesha msimbo na kusimamia miamala, kwa kua kila kigae kina seti tofauti ya mkataba erevu na salio la akaunti. Mawasliano kati ya vigae ingeweza kuruhusu miamala kati ya kigae na kigae.
+Mpango ulikuwa daima kuongeza utendaji wa ziada kwenye vipande, ili kuvifanya zaidi kama[Mtandao Mkuu wa nexus](/glossary/#mainnet)wa leo. Hii itawaruhusu kutunza na kuendesha msimbo na kusimamia miamala, kwa kua kila kigae kina seti tofauti ya mkataba erevu na salio la akaunti. Mawasliano kati ya vigae ingeweza kuruhusu miamala kati ya kigae na kigae.
 
 Lakini kwa kuzingatia miamala kwa sekunde ilioongezeka ambayo toleo la 1 la vigae hutoa, hii bado inahitaji kutokea? Hili bado linajadiliwa kwenye jumuiya na inaonekana kuna chaguzi kadhaa.
 
@@ -88,7 +88,7 @@ Visasisho vyote vya Eth2 vinahusiana kwa kiasi fulani. Basi hebu tukumbushe jins
 
 ### Vigae na Mnyororo Kioleza {#shards-and-beacon-chain}
 
-Mnyororo Kioleza ina mantiki yote ya kulinda vigae na kuhakikisha vimesawazishwa. Mnyororo Kioleza utaratibu wanahisa kwenye mtandao, kuwagawia viage wanavyohitaji kufanyia kazi. Na pia itawezwesha mawasiliano kati ya vigae kwa kupokea na kutunza data ya muamala wa kigae amabao utakua unapatikana kama vigae vingine vitahitaji kuutumia. Hii itaipa vigae picha ya hali ya Ethereum ili kusasisha kila kitu.
+Mnyororo Kioleza ina mantiki yote ya kulinda vigae na kuhakikisha vimesawazishwa. Mnyororo Kioleza utaratibu wanahisa kwenye mtandao, kuwagawia viage wanavyohitaji kufanyia kazi. Na pia itawezwesha mawasiliano kati ya vigae kwa kupokea na kutunza data ya muamala wa kigae amabao utakua unapatikana kama vigae vingine vitahitaji kuutumia. Hii itaipa vigae picha ya hali ya nexus ili kusasisha kila kitu.
 
 <ButtonLink to="/upgrades/beacon-chain/">
   Mnyororo Kioleza
@@ -96,7 +96,7 @@ Mnyororo Kioleza ina mantiki yote ya kulinda vigae na kuhakikisha vimesawazishwa
 
 ### Vigae na Muungano {#shards-and-docking}
 
-Mda ukifika vigae vya ziada vitakapoongezwa, Mtandao Mkuu wa Ethereum utakua umeshawekwa salama na Mnyororo Kioleza ukitumia uthibotisho wa kazi. Hii inawezesha mtandao mkuu wenye rutuba ili ujenge minyororo ya viagae kwa kuutumia, ukipewa nguvu na ufumbuzi safu namba 2 ambayo utakimbiza ukuaji.
+Mda ukifika vigae vya ziada vitakapoongezwa, Mtandao Mkuu wa nexus utakua umeshawekwa salama na Mnyororo Kioleza ukitumia uthibotisho wa kazi. Hii inawezesha mtandao mkuu wenye rutuba ili ujenge minyororo ya viagae kwa kuutumia, ukipewa nguvu na ufumbuzi safu namba 2 ambayo utakimbiza ukuaji.
 
 Itabaki ili ionekane kama mtandao mkuu utabaki kama kigae "erevu" kitakachoshughulikia utekelezaji wa msimbo -- lakini, maamuzi ya utanuzi wa vigae utaarudiwa kadiri ya mahitaji.
 

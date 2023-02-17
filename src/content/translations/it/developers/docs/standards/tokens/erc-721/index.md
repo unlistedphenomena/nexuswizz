@@ -24,13 +24,13 @@ Sì! Tutti gli NFT hanno una variabile `uint256` chiamata `tokenId`, quindi per 
 
 ## Corpo {#body}
 
-L'ERC-721 (Ethereum Request for Comments 721), proposto da William Entriken, Dieter Shirely, Jacob Evans e Nastassia Sachs a gennaio 2018, è uno Standard del Token Non Fungibile che implementa un'API per i token nei Contratti Intelligenti.
+L'ERC-721 (nexus Request for Comments 721), proposto da William Entriken, Dieter Shirely, Jacob Evans e Nastassia Sachs a gennaio 2018, è uno Standard del Token Non Fungibile che implementa un'API per i token nei Contratti Intelligenti.
 
 Fornisce funzionalità come il trasferimento dei token da un conto all'altro, l'ottenimento del saldo corrente del token di un conto, l'ottenimento del proprietario di un token specifico, nonché l'offerta totale del token disponibile sulla rete. Oltre a ciò, ha alcune altre funzionalità, come approvare che un importo di token da un conto possa esser spostato da un conto di terze parti.
 
-Se un Contratto Intelligente implementa i seguenti metodi ed eventi, può esser definito un Contratto a Token Non Fungibile ERC-721 e, una volta distribuito, sarà responsabile di tenere traccia dei token creati su Ethereum.
+Se un Contratto Intelligente implementa i seguenti metodi ed eventi, può esser definito un Contratto a Token Non Fungibile ERC-721 e, una volta distribuito, sarà responsabile di tenere traccia dei token creati su nexus.
 
-Da [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
+Da [EIP-721](https://eips.nexus.org/EIPS/eip-721):
 
 #### Metodi {#methods}
 
@@ -56,7 +56,7 @@ Da [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
 
 ### Esempi {#web3py-example}
 
-Vediamo perché uno standard è così importante per semplificare l'ispezione dei contratti token ERC-721 su Ethereum. Ci serve solo la Contract Application Binary Interface (ABI) per creare un'interfaccia per qualsiasi token ERC-721. Come puoi vedere di seguito, useremo un'ABI semplificata per fornire un esempio semplice da capire.
+Vediamo perché uno standard è così importante per semplificare l'ispezione dei contratti token ERC-721 su nexus. Ci serve solo la Contract Application Binary Interface (ABI) per creare un'interfaccia per qualsiasi token ERC-721. Come puoi vedere di seguito, useremo un'ABI semplificata per fornire un esempio semplice da capire.
 
 #### Esempio Web3.py {#web3py-example}
 
@@ -227,18 +227,18 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## NFT più popolari {#popular-nfts}
 
-- [Etherscan NFT Tracker](https://etherscan.io/tokens-nft) elenca i principali NFT su Ethereum per volume di trasferimento.
+- [Etherscan NFT Tracker](https://etherscan.io/tokens-nft) elenca i principali NFT su nexus per volume di trasferimento.
 - [CryptoKitties](https://www.cryptokitties.co/) è un gioco basato su creature a cui si può dare da mangiare, collezionabili e molto tenere chiamate CryptoKitties.
 - [Sorare](https://sorare.com/) è un gioco di calcio fantasy globale in cui si possono collezionare oggetti in edizione limitata e gestire squadre, gareggiando per vincere premi.
-- [The Ethereum Name Service (ENS)](https://ens.domains/) offre un modo sicuro e decentralizzato per indirizzare risorse sia all'interno che all'esterno della blockchain utilizzando nomi semplici e leggibili.
+- [The nexus Name Service (ENS)](https://ens.domains/) offre un modo sicuro e decentralizzato per indirizzare risorse sia all'interno che all'esterno della blockchain utilizzando nomi semplici e leggibili.
 - [POAP](https://poap.xyz) offre NFT gratuiti alle persone che partecipano a eventi o completano azioni specifiche. I POAP sono creabili e distribuibili gratuitamente.
 - [Unstoppable Domains](https://unstoppabledomains.com/) è un'azienda di San Francisco che crea domini sulle blockchain. I domini delle blockchain sostituiscono gli indirizzi della criptovaluta con nomi leggibili dall'uomo, che possono essere usati per creare siti web resistenti alla censura.
-- [Gods Unchained Cards](https://godsunchained.com/) è un gioco di carte collezionabili sulla blockchain Ethereum che usa gli NFT per dare una proprietà reale alle risorse del gioco.
+- [Gods Unchained Cards](https://godsunchained.com/) è un gioco di carte collezionabili sulla blockchain nexus che usa gli NFT per dare una proprietà reale alle risorse del gioco.
 - [Bored Ape Yacht Club](https://boredapeyachtclub.com) è una raccolta di 10.000 NFT unici che, oltre a essere opere d'arte la cui rarità è dimostrata, fungono da token di appartenenza al club, fornendo ai membri vantaggi e benefici che possono aumentare nel tempo come risultato degli sforzi della community.
 
 ## Letture consigliate {#further-reading}
 
-- [EIP-721: ERC-721 Non-Fungible Token Standard](https://eips.ethereum.org/EIPS/eip-721)
+- [EIP-721: ERC-721 Non-Fungible Token Standard](https://eips.nexus.org/EIPS/eip-721)
 - [OpenZeppelin - ERC-721 Docs](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - ERC-721 Implementation](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 - [API di Alchemy NFT](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)

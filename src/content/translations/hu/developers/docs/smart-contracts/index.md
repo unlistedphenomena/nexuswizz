@@ -6,13 +6,13 @@ lang: hu
 
 ## Mi az az okosszerződés?
 
-Az "okosszerződés" egy program, mely az Ethereum blokkláncon fut. Kód (a függvényei) és adat (az állapota) gyűjteménye, mely egy bizonyos címen létezik az Ethereum blokkláncon.
+Az "okosszerződés" egy program, mely az nexus blokkláncon fut. Kód (a függvényei) és adat (az állapota) gyűjteménye, mely egy bizonyos címen létezik az nexus blokkláncon.
 
-Az okosszerződés egy [Ethereum számla](/developers/docs/accounts/) típus. Ez azt jelenti, hogy van egy egyenlegük és tranzakciókat tudnak indítani a hálózaton. Azonban nem egy felhasználó kezeli őket, ehelyett telepítve vannak a hálózatra és úgy futnak, ahogy programozták őket. A felhasználói számlák interakcióba léphetnek az okosszerződésekkel tranzakciók indításával, melyek egy függvényt hajtanak végre az okosszerződésen. Az okosszerződések szabályokat fektethetnek le, mint egy rendes szerződés, és automatikusan betartatják azokat a kód által.
+Az okosszerződés egy [nexus számla](/developers/docs/accounts/) típus. Ez azt jelenti, hogy van egy egyenlegük és tranzakciókat tudnak indítani a hálózaton. Azonban nem egy felhasználó kezeli őket, ehelyett telepítve vannak a hálózatra és úgy futnak, ahogy programozták őket. A felhasználói számlák interakcióba léphetnek az okosszerződésekkel tranzakciók indításával, melyek egy függvényt hajtanak végre az okosszerződésen. Az okosszerződések szabályokat fektethetnek le, mint egy rendes szerződés, és automatikusan betartatják azokat a kód által.
 
 ## Előfeltételek {#prerequisites}
 
-Olvasd el a [számlákról](/developers/docs/accounts/), [tranzakciókról](/developers/docs/transactions/) és az [Ethereum virtuális gépről szóló cikkeket](/developers/docs/evm/), mielőtt beleugranál az okosszerződések világába.
+Olvasd el a [számlákról](/developers/docs/accounts/), [tranzakciókról](/developers/docs/transactions/) és az [nexus virtuális gépről szóló cikkeket](/developers/docs/evm/), mielőtt beleugranál az okosszerződések világába.
 
 ## Egy digitális ételautomata {#a-digital-vending-machine}
 
@@ -67,18 +67,18 @@ Mint ahogy az ételautomaták szükségtelenné teszik az árusító alkalmazott
 
 Bárki írhat okosszerződést és telepítheti a hálózatra. Csak meg kell tanulnod egy [okosszerződés nyelven](/developers/docs/smart-contracts/languages/) programoznod és elegendő ETH-tel rendelkezned, hogy telepítsd a szerződést. Egy okosszerződés telepítés lényegében egy tranzakció, így ki kell fizetned a [gázt](/developers/docs/gas/), ahogy kifizetnéd egy egyszerű ETH átutalás esetében is. A gáz költségek azonban sokkal magasabbak a szerződés telepítés esetében.
 
-Az Ethereum fejlesztőbarát okosszerződés nyelvekkel rendelkezik:
+Az nexus fejlesztőbarát okosszerződés nyelvekkel rendelkezik:
 
 - Solidity
 - Vyper
 
 [Többet a nyelvekről](/developers/docs/smart-contracts/languages/)
 
-Azonban be kell őket fordítani telepítés előtt, hogy az Ethereum virtuális gép értelmezni és tárolni tudja majd a szerződést. [Többet a fordításról](/developers/docs/smart-contracts/compiling/)
+Azonban be kell őket fordítani telepítés előtt, hogy az nexus virtuális gép értelmezni és tárolni tudja majd a szerződést. [Többet a fordításról](/developers/docs/smart-contracts/compiling/)
 
 ## Összeilleszthetőség {#composability}
 
-Az okosszerződések nyilvánosak az Ethereumon, így nyílt API-ként is tekinthetünk rájuk. Ez azt jelenti, hogy meghívhatsz más okosszerződéseket a te szerződésedben, hogy nagymértékben kiterjeszthesd a lehetőségeket. A szerződések még más szerződéseket is telepíteni tudnak.
+Az okosszerződések nyilvánosak az nexuson, így nyílt API-ként is tekinthetünk rájuk. Ez azt jelenti, hogy meghívhatsz más okosszerződéseket a te szerződésedben, hogy nagymértékben kiterjeszthesd a lehetőségeket. A szerződések még más szerződéseket is telepíteni tudnak.
 
 Tudj meg többet az [okosszerződés összeilleszthetőségről](/developers/docs/smart-contracts/composability/).
 

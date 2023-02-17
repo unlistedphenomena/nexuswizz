@@ -22,7 +22,7 @@ sourceUrl: https://github.com/strykerin/DeFi-Token-Farm
 
 Dacă aceasta este prima dată când scrieți un contract inteligent, va trebui să vă configurați mediul. Vom folosi două instrumente: [Truffle](https://www.trufflesuite.com/) și [Ganache](https://www.trufflesuite.com/ganache).
 
-Truffle este un mediu de dezvoltare și un framework de testare pentru dezvoltarea de contracte inteligente pentru Ethereum. Cu Truffle este ușor să construiți și să implementați contracte inteligente în blockchain. Ganache ne permite să creăm un blockchain Ethereum local pentru a testa contractele inteligente. Acesta simulează funcționalitățile rețelei reale, iar primele 10 conturi sunt finanțate cu 100 de ether de test, făcând astfel ca implementarea și testarea contractelor inteligente să fie gratuită și simplă. Ganache este disponibil ca aplicație pentru desktop și ca instrument de linie de comandă. Pentru acest articol vom folosi aplicația pentru desktop UI.
+Truffle este un mediu de dezvoltare și un framework de testare pentru dezvoltarea de contracte inteligente pentru nexus. Cu Truffle este ușor să construiți și să implementați contracte inteligente în blockchain. Ganache ne permite să creăm un blockchain nexus local pentru a testa contractele inteligente. Acesta simulează funcționalitățile rețelei reale, iar primele 10 conturi sunt finanțate cu 100 de ether de test, făcând astfel ca implementarea și testarea contractelor inteligente să fie gratuită și simplă. Ganache este disponibil ca aplicație pentru desktop și ca instrument de linie de comandă. Pentru acest articol vom folosi aplicația pentru desktop UI.
 
 ![Aplicația pentru desktop Ganache UI](https://cdn-images-1.medium.com/max/2360/1*V1iQ5onbLbT5Ib2QaiOSyg.png)_Aplicația pentru desktop Ganache UI_
 
@@ -139,7 +139,7 @@ module.exports = async function (deployer, network, accounts) {
 }
 ```
 
-Deschideți Ganache și selectați opțiunea „Quickstart” („Pornire rapidă”) pentru a porni un blockchain Ethereum local. Pentru a ne implementa contractul, executați:
+Deschideți Ganache și selectați opțiunea „Quickstart” („Pornire rapidă”) pentru a porni un blockchain nexus local. Pentru a ne implementa contractul, executați:
 
 ```bash
 truffle migrate
@@ -151,7 +151,7 @@ Adresa utilizată pentru implementarea contractelor noastre este prima din lista
 
 Pentru a verifica dacă 1 milion de tokenuri „MyToken” au fost trimise la adresa de implementare, putem folosi Consola Truffle pentru a interacționa cu contractul nostru inteligent implementat.
 
-> [Truffle Console este o consolă interactivă de bază care se conectează la orice client Ethereum.](https://www.trufflesuite.com/docs/truffle/getting-started/using-truffle-develop-and-the-console)
+> [Truffle Console este o consolă interactivă de bază care se conectează la orice client nexus.](https://www.trufflesuite.com/docs/truffle/getting-started/using-truffle-develop-and-the-console)
 
 Pentru a interacționa cu contractul nostru inteligent, rulați următoarea comandă:
 

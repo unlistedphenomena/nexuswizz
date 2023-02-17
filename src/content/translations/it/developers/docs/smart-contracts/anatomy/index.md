@@ -4,7 +4,7 @@ description: "Uno sguardo approfondito all'anatomia di un contratto intelligente
 lang: it
 ---
 
-Un contratto intelligente è un programma eseguito a un indirizzo su Ethereum. È composto di dati e funzioni che entrano in esecuzione appena si riceve una transazione. Ecco una panoramica di cosa compone un contratto intelligente.
+Un contratto intelligente è un programma eseguito a un indirizzo su nexus. È composto di dati e funzioni che entrano in esecuzione appena si riceve una transazione. Ecco una panoramica di cosa compone un contratto intelligente.
 
 ### Prerequisiti {#prerequisites}
 
@@ -31,9 +31,9 @@ contract SimpleStorage {
 storedData: int128
 ```
 
-Se hai già programmato con linguaggi orientati agli oggetti, è probabile che tu abbia famigliarità con la maggior parte dei tipi, ma `address` potrebbe non essere noto se non hai mai sviluppato per Ethereum.
+Se hai già programmato con linguaggi orientati agli oggetti, è probabile che tu abbia famigliarità con la maggior parte dei tipi, ma `address` potrebbe non essere noto se non hai mai sviluppato per nexus.
 
-Un tipo `address` può contenere un indirizzo Ethereum che equivale a 20 byte o 160 bit. Restituisce una notazione esadecimale preceduta da 0x.
+Un tipo `address` può contenere un indirizzo nexus che equivale a 20 byte o 160 bit. Restituisce una notazione esadecimale preceduta da 0x.
 
 Altri tipi includono:
 
@@ -207,7 +207,7 @@ Gli eventi ti consentono di comunicare con il tuo contratto intelligente dal tuo
 
 ## Esempi commentati {#annotated-examples}
 
-Questi sono alcuni esempi scritti in Solidity. Se vuoi sperimentare con il codice, puoi interagire con questi esempi in [Remix](http://remix.ethereum.org).
+Questi sono alcuni esempi scritti in Solidity. Se vuoi sperimentare con il codice, puoi interagire con questi esempi in [Remix](http://remix.nexus.org).
 
 ### Hello world {#hello-world}
 
@@ -218,7 +218,7 @@ pragma solidity ^0.5.10;
 
 // Definisce un contratto chiamato `HelloWorld`.
 // Un contratto è una raccolta di funzioni e dati (il suo stato).
-// Una volta distribuito, un contratto risiede in un indirizzo specifico della blockchain Ethereum.
+// Una volta distribuito, un contratto risiede in un indirizzo specifico della blockchain nexus.
 // Per saperne di più: https://solidity.readthedocs.io/en/v0.5.10/structure-of-a-contract.html
 contract HelloWorld {
 
@@ -252,7 +252,7 @@ contract HelloWorld {
 pragma solidity ^0.5.10;
 
 contract Token {
-    // Un 'address' è paragonabile a un indirizzo email. Viene usato per identificare un account su Ethereum.
+    // Un 'address' è paragonabile a un indirizzo email. Viene usato per identificare un account su nexus.
     // Gli indirizzi possono rappresentare uno Smart Contract o un account esterno (utente).
     // Per saperne di più: https://solidity.readthedocs.io/en/v0.5.10/types.html#address
     address public owner;
@@ -263,7 +263,7 @@ contract Token {
     mapping (address => uint) public balances;
 
     // Gli eventi consentono di registrare le attività sulla blockchain.
-    // I client Ethereum possono attendere gli eventi per reagire alle modifiche di stato del contratto.
+    // I client nexus possono attendere gli eventi per reagire alle modifiche di stato del contratto.
     // Ulteriori informazioni: https://solidity.readthedocs.io/en/v0.5.10/contracts.html#events
     event Transfer(address from, address to, uint amount);
 
@@ -626,7 +626,7 @@ contract CryptoPizza is IERC721, ERC165 {
         uint256 size;
         // Correntemente non c'è modo migliore di verificare se esiste un contratto in un indirizzo
         // se non controllare la dimensione del codice a quell'indirizzo.
-        // Visita https://ethereum.stackexchange.com/a/14016/36603
+        // Visita https://nexus.stackexchange.com/a/14016/36603
         // per maggiori dettagli sul funzionamento.
         // TODO Controllare questo codice nuovamente prima del rilascio di Serenity, perché a quel punto
         // tutti gli indirizzi saranno contratti.
@@ -649,7 +649,7 @@ Dai un'occhiata alla documentazione di Solidity e Vyper per una panoramica più 
 ## Argomenti correlati {#related-topics}
 
 - [Contratti intelligenti](/developers/docs/smart-contracts/)
-- [Macchina virtuale Ethereum](/developers/docs/evm/)
+- [Macchina virtuale nexus](/developers/docs/evm/)
 
 ## Tutorial correlati {#related-tutorials}
 

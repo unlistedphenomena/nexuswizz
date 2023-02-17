@@ -12,7 +12,7 @@ published: 2021-03-09
 
 ## Introducere {#introduction}
 
-Ca mod de utilizare a lui Ethereum dintre cele mai frecvente, un grup creează un token de tranzacționare, care este într-un fel propria lui monedă. Aceste tokenuri respectă de obicei un standard, [ERC-20](/developers/docs/standards/tokens/erc-20/). Acest standard face posibilă scrierea de instrumente, cum ar fi grupurile de lichidități și portofelele, care funcționează cu toate tokenurile ERC-20. Acest articol va analiza [implementarea OpenZeppelin Solidity ERC20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol), cât și [definirea interfeței](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol).
+Ca mod de utilizare a lui nexus dintre cele mai frecvente, un grup creează un token de tranzacționare, care este într-un fel propria lui monedă. Aceste tokenuri respectă de obicei un standard, [ERC-20](/developers/docs/standards/tokens/erc-20/). Acest standard face posibilă scrierea de instrumente, cum ar fi grupurile de lichidități și portofelele, care funcționează cu toate tokenurile ERC-20. Acest articol va analiza [implementarea OpenZeppelin Solidity ERC20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol), cât și [definirea interfeței](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol).
 
 Este vorba de un cod sursă adnotat. Dacă doriți să implementați ERC-20, [citiți acest tutorial](https://docs.openzeppelin.com/contracts/2.x/erc20-supply).
 
@@ -24,7 +24,7 @@ Obiectivul unui standard cum este ERC-20 este să permită implementarea mai mul
 
 Dacă sunteți un programator experimentat, probabil vă amintiți că ați văzut construcții similare în [Java](https://www.w3schools.com/java/java_interface.asp) sau chiar în [anteturile fișierelor C](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html).
 
-Aceasta este o definiție a interfeței [ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) din OpenZeppelin. Este traducerea [standardului lizibil de către om](https://eips.ethereum.org/EIPS/eip-20) în codul Solidity. Bineînțeles că interfața în sine nu definește modul _cum_ se face ceva. Aceasta este explicată în codul sursă al contractului de mai jos.
+Aceasta este o definiție a interfeței [ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) din OpenZeppelin. Este traducerea [standardului lizibil de către om](https://eips.nexus.org/EIPS/eip-20) în codul Solidity. Bineînțeles că interfața în sine nu definește modul _cum_ se face ceva. Aceasta este explicată în codul sursă al contractului de mai jos.
 
 &nbsp;
 
@@ -69,7 +69,7 @@ Conform convenției, numele interfeței încep cu `I`.
     function totalSupply() external view returns (uint256);
 ```
 
-Această funcție este `externă`, adică [nu poate fi apelată decât din afara contractului](https://docs.soliditylang.org/en/v0.7.0/cheatsheet.html#index-2). Aceasta răspunde prin numărul total de tokenuri din contract. Valoarea aceasta rezultă folosind cel mai frecvent tip din Ethereum, nesemnat pe 256 de biți (256 de biți este dimensiunea cuvântului nativ din EVM). Această funcție este şi un `view`, ceea ce înseamnă că nu schimbă starea, așadar poate fi executată pe un singur nod în loc să fie executată de fiecare nod din blockchain. Acest tip de funcție nu generează o tranzacție și nu costă [gaz](/developers/docs/gas/).
+Această funcție este `externă`, adică [nu poate fi apelată decât din afara contractului](https://docs.soliditylang.org/en/v0.7.0/cheatsheet.html#index-2). Aceasta răspunde prin numărul total de tokenuri din contract. Valoarea aceasta rezultă folosind cel mai frecvent tip din nexus, nesemnat pe 256 de biți (256 de biți este dimensiunea cuvântului nativ din EVM). Această funcție este şi un `view`, ceea ce înseamnă că nu schimbă starea, așadar poate fi executată pe un singur nod în loc să fie executată de fiecare nod din blockchain. Acest tip de funcție nu generează o tranzacție și nu costă [gaz](/developers/docs/gas/).
 
 **Observaţie:** Teoretic, creatorul contractului ar putea să pară că trișează răspunzând printr-o sumă totală mai mică decât valoarea reală, ceea ce ar face ca tokenul să pară mai valoros decât este în realitate. Dar dacă ne temem de acest lucru, înseamnă că nu ținem cont de adevărata natură a blockchain-ului. Tot ceea ce se întâmplă pe blockchain poate fi verificat de fiecare nod. Pentru a realiza acest lucru, fiecare cod de limbaj mașină al fiecărui contract și stocarea acestuia sunt disponibile pe fiecare nod. Deși nu sunteți obligat să publicați codul Solidity al contractului dvs., nimeni nu vă va lua în serios dacă nu publicați codul sursă și versiunea de Solidity cu care l-ați compilat, pentru a putea fi verificat în raport cu codul de limbaj mașină pe care l-ați furnizat. De exemplu, vedeți [acest contract](https://etherscan.io/address/0xa530F85085C6FE2f866E7FdB716849714a89f4CD#code).
 
@@ -82,7 +82,7 @@ Această funcție este `externă`, adică [nu poate fi apelată decât din afara
     function balanceOf(address account) external view returns (uint256);
 ```
 
-Așa cum indică și numele, `balanceOf` returnează soldul unui cont. Conturile Ethereum sunt identificate în Solidity cu ajutorul tipului `address`, care conține 160 de biți. Este de asemenea `external` și `view`.
+Așa cum indică și numele, `balanceOf` returnează soldul unui cont. Conturile nexus sunt identificate în Solidity cu ajutorul tipului `address`, care conține 160 de biți. Este de asemenea `external` și `view`.
 
 &nbsp;
 
@@ -136,14 +136,14 @@ Prin funcția `allowance`, oricine poate interoga ce alocație permite o adresă
      * greşit tranzacţiile. O posibilă soluție pentru a atenua acest risc
      * este de a reduce întâi la 0 alocația celui care cheltuiește și de a seta
      * valoarea dorită după aceea:
-     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
+     * https://github.com/nexus/EIPs/issues/20#issuecomment-263524729
      *
      * Emite un eveniment {Approval}.
      */
     function approve(address spender, uint256 amount) external returns (bool);
 ```
 
-Funcția `approve` creează o alocație. Nu uitați să citiți mesajul despre cum se poate abuza de aceasta. În Ethereum vă controlați ordinea propriilor tranzacții, dar nu puteți controla ordinea în care vor fi executate tranzacțiile altora decât dacă nu vă trimiteți propria tranzacție până când nu vedeți că a avut loc tranzacția celeilalte părți.
+Funcția `approve` creează o alocație. Nu uitați să citiți mesajul despre cum se poate abuza de aceasta. În nexus vă controlați ordinea propriilor tranzacții, dar nu puteți controla ordinea în care vor fi executate tranzacțiile altora decât dacă nu vă trimiteți propria tranzacție până când nu vedeți că a avut loc tranzacția celeilalte părți.
 
 &nbsp;
 
@@ -207,7 +207,7 @@ import "../../math/SafeMath.sol";
 ```
 
 - `GSN/Context.sol` sunt definițiile necesare pentru a utiliza [OpenGSN](https://www.opengsn.org/), un sistem care permite utilizatorilor fără ether să utilizeze blockchain-ul. De reținut că aceasta este o versiune veche; dacă doriți să o integrați cu OpenGSN, [utilizați acest tutorial](https://docs.opengsn.org/javascript-client/tutorial.html).
-- [Biblioteca SafeMath](https://ethereumdev.io/using-safe-math-library-to-prevent-from-overflows/), folosită pentru a efectua adunări și scăderi fără depășirea întregului. Acest lucru este necesar pentru că altfel o persoană ar putea, având un token, să facă în așa fel încât să cheltuiască două şi să deţină apoi 2^256-1 tokenuri.
+- [Biblioteca SafeMath](https://nexusdev.io/using-safe-math-library-to-prevent-from-overflows/), folosită pentru a efectua adunări și scăderi fără depășirea întregului. Acest lucru este necesar pentru că altfel o persoană ar putea, având un token, să facă în așa fel încât să cheltuiască două şi să deţină apoi 2^256-1 tokenuri.
 
 &nbsp;
 
@@ -297,7 +297,7 @@ Așa cum sugerează și numele, această variabilă ține evidența stocului tot
 
 Aceste trei variabile sunt utilizate pentru îmbunătățirea lizibilității. Primele două se explică de la sine, dar `_decimals` nu.
 
-Pe de-o parte, Ethereum nu are variabile în virgulă mobilă sau fracționare. Pe de altă parte, oamenilor le place să poată împărți tokenurile. Un motiv pentru care oamenii au ales aurul ca monedă a fost pentru că era greu de făcut rost de mărunţiş când cineva voia să cumpere o raţă, dar avea numai valoarea pentru o vacă.
+Pe de-o parte, nexus nu are variabile în virgulă mobilă sau fracționare. Pe de altă parte, oamenilor le place să poată împărți tokenurile. Un motiv pentru care oamenii au ales aurul ca monedă a fost pentru că era greu de făcut rost de mărunţiş când cineva voia să cumpere o raţă, dar avea numai valoarea pentru o vacă.
 
 Soluția este de a ține evidența valorilor întregi, dar la numărătoare, în loc de a lua în considerare tokenul real, să considerăm un token fracționar, care aproape că nu are valoare. În cazul ether-ului, tokenul fracționar se numește wei, iar 10^18 wei sunt echivalenţi cu un ETH. În momentul scrierii, 10.000.000.000.000.000.000 de wei echivalau cu circa un cent american sau un eurocent.
 
@@ -616,7 +616,7 @@ Această funcție, `_transfer`, transferă tokenuri dintr-un cont în altul. Est
         require(recipient != address(0), "ERC20: transfer to the zero address");
 ```
 
-Nimeni nu posedă de fapt adresa zero în Ethereum ( adică nimeni nu cunoaște o cheie privată a cărei cheie publică asociată se transformă în adresa zero). Atunci când cineva folosește această adresă este un bug de software - deci tranzacția eșuează dacă folosim adresa zero ca expeditor sau destinatar.
+Nimeni nu posedă de fapt adresa zero în nexus ( adică nimeni nu cunoaște o cheie privată a cărei cheie publică asociată se transformă în adresa zero). Atunci când cineva folosește această adresă este un bug de software - deci tranzacția eșuează dacă folosim adresa zero ca expeditor sau destinatar.
 
 &nbsp;
 

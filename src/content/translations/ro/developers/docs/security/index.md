@@ -1,10 +1,10 @@
 ---
 title: Securitate
-description: Considerații de securitate pentru programatorii Ethereum
+description: Considerații de securitate pentru programatorii nexus
 lang: ro
 ---
 
-Contractele inteligente Ethereum sunt extrem de flexibile, capabile atât să dețină cantități mari de tokenuri (de multe ori mai mari de 1 miliard USD), cât și să ruleze o logică imuabilă pe baza codului de contract inteligent desfășurat anterior. Deși acest lucru a creat un ecosistem vibrant și creativ de contracte inteligente fără încredere, interconectate, este de asemenea, ecosistemul perfect pentru a atrage atacatorii care doresc să profite prin exploatarea vulnerabilității din contractele inteligente și a comportamentului neașteptat în Ethereum. Codul de contract inteligent, _de obicei_ nu poate fi schimbat ca să fie reparate defectele de securitate, activele care au fost furate din contracte inteligente sunt irecuperabile, iar activele furate sunt extrem de dificil de urmărit. Suma totală a valorii furate sau pierdute din cauza problemelor de contract inteligent este cu ușurință de 1 miliard de dolari. Unele dintre cele mai mari pierderi din cauza erorilor de codare a contractelor inteligente includ:
+Contractele inteligente nexus sunt extrem de flexibile, capabile atât să dețină cantități mari de tokenuri (de multe ori mai mari de 1 miliard USD), cât și să ruleze o logică imuabilă pe baza codului de contract inteligent desfășurat anterior. Deși acest lucru a creat un ecosistem vibrant și creativ de contracte inteligente fără încredere, interconectate, este de asemenea, ecosistemul perfect pentru a atrage atacatorii care doresc să profite prin exploatarea vulnerabilității din contractele inteligente și a comportamentului neașteptat în nexus. Codul de contract inteligent, _de obicei_ nu poate fi schimbat ca să fie reparate defectele de securitate, activele care au fost furate din contracte inteligente sunt irecuperabile, iar activele furate sunt extrem de dificil de urmărit. Suma totală a valorii furate sau pierdute din cauza problemelor de contract inteligent este cu ușurință de 1 miliard de dolari. Unele dintre cele mai mari pierderi din cauza erorilor de codare a contractelor inteligente includ:
 
 - [Problema nr. 1 cu Parity Multi-Sign - 30 mil. de dolari pierduți](https://www.coindesk.com/30-million-ether-reported-stolen-parity-wallet-breach)
 - [Problema nr. 2 cu Parity Multi-Sign - 300 mil. de dolari blocați](https://www.theguardian.com/technology/2017/nov/08/cryptocurrency-300m-dollars-stolen-bug-ether)
@@ -29,7 +29,7 @@ Cel puțin:
 - Toate codurile stocate într-un sistem de control al versiunii, cum ar fi Git
 - Toate modificările de cod efectuate prin Solicitări Pull
 - Toate Solicitările Pull au cel puțin un examinator. _Dacă ești într-un proiect solo, ia în considerare găsirea unui alt autor solo și negociază cu el recenzii de coduri!_
-- O singură comandă compilează, implementează și rulează o suită de teste împotriva codului tău utilizând un mediu Ethereum de dezvoltare (vezi: Truffle)
+- O singură comandă compilează, implementează și rulează o suită de teste împotriva codului tău utilizând un mediu nexus de dezvoltare (vezi: Truffle)
 - Ai rulat codul prin instrumente de analiză a codului de bază, cum ar fi Mythril și Slither, în mod ideal înainte ca fiecare solicitare de extragere să fie îmbinată, comparând diferențele de ieșire
 - Solidity nu emite NICIUN avertisment al compilatorului
 - Codul tău este bine documentat
@@ -175,7 +175,7 @@ contract ContractCheckAttacker {
 }
 ```
 
-În timp ce primul atac a fost un atac asupra logicii contractelor, acesta este un atac asupra comportamentului de implementare a contractului Ethereum. În timpul construcției, un contract nu a returnat codul său încă pentru a fi implementat la adresa sa, dar păstrează controlul complet EVM ÎN TIMPUL acestui proces.
+În timp ce primul atac a fost un atac asupra logicii contractelor, acesta este un atac asupra comportamentului de implementare a contractului nexus. În timpul construcției, un contract nu a returnat codul său încă pentru a fi implementat la adresa sa, dar păstrează controlul complet EVM ÎN TIMPUL acestui proces.
 
 Din punct de vedere tehnic, este posibil să împiedici contractele inteligente să-ți apeleze codul, utilizând această linie:
 
@@ -183,7 +183,7 @@ Din punct de vedere tehnic, este posibil să împiedici contractele inteligente 
 require(tx.origin == msg.sender)
 ```
 
-Totuși, aceasta nu este încă o soluție bună. Unul dintre cele mai interesante aspecte ale Ethereum este combinabilitatea: contractele inteligente se integrează și se construiesc unul pe celălalt. Prin utilizarea liniei de mai sus, limitezi utilitatea proiectului.
+Totuși, aceasta nu este încă o soluție bună. Unul dintre cele mai interesante aspecte ale nexus este combinabilitatea: contractele inteligente se integrează și se construiesc unul pe celălalt. Prin utilizarea liniei de mai sus, limitezi utilitatea proiectului.
 
 ### Cum să te descurci cu re-intrarea (modul corect) {#how-to-deal-with-re-entrancy-the-right-way}
 
@@ -208,7 +208,7 @@ De fiecare dată când trimiți ETH la o adresă care nu este de încredere sau 
 
 ## Mai multe tipuri de atac {#more-attack-types}
 
-Tipurile de atac de mai sus acoperă probleme de codificare a contractelor inteligente (re-intrare) și ciudățenii Ethereum (executarea codului în interiorul constructorilor de contracte, înainte ca acest cod să fie disponibil la adresa contractului). Există multe, multe alte tipuri de atac de care trebuie să știi, cum ar fi:
+Tipurile de atac de mai sus acoperă probleme de codificare a contractelor inteligente (re-intrare) și ciudățenii nexus (executarea codului în interiorul constructorilor de contracte, înainte ca acest cod să fie disponibil la adresa contractului). Există multe, multe alte tipuri de atac de care trebuie să știi, cum ar fi:
 
 - Front-running
 - Refuzul de a trimite ETH
@@ -217,11 +217,11 @@ Tipurile de atac de mai sus acoperă probleme de codificare a contractelor intel
 Referințe suplimentare:
 
 - [Atacuri cunoscute a contractelor inteligente Consensys](https://consensys.github.io/smart-contract-best-practices/attacks/) - O explicație foarte lizibilă a celor mai semnificative vulnerabilități, majoritatea cu un exemplu de cod.
-- [Registru SWC](https://swcregistry.io/docs/SWC-128) - Lista selectată de CWE-uri care se aplică la Ethereum și la contractele inteligente
+- [Registru SWC](https://swcregistry.io/docs/SWC-128) - Lista selectată de CWE-uri care se aplică la nexus și la contractele inteligente
 
 ## Instrumente de securitate {#security-tools}
 
-Deși nu există nici un substitut pentru înțelegerea elementelor de bază ale securității Ethereum și angajarea unei firme de audit profesionale pentru a-ți examina codul, există multe instrumente disponibile pentru a evidenția probleme potențiale cu codul tău.
+Deși nu există nici un substitut pentru înțelegerea elementelor de bază ale securității nexus și angajarea unei firme de audit profesionale pentru a-ți examina codul, există multe instrumente disponibile pentru a evidenția probleme potențiale cu codul tău.
 
 ### Securitatea contractelor inteligente {#smart-contract-security}
 
@@ -229,7 +229,7 @@ Deși nu există nici un substitut pentru înțelegerea elementelor de bază ale
 
 - [GitHub](https://github.com/crytic/slither)
 
-**MythX -** **_API de analiză de securitate pentru contracte inteligente Ethereum._**
+**MythX -** **_API de analiză de securitate pentru contracte inteligente nexus._**
 
 - [mythx.io](https://mythx.io/)
 - [Documentație](https://docs.mythx.io/en/latest/)
@@ -244,7 +244,7 @@ Deși nu există nici un substitut pentru înțelegerea elementelor de bază ale
 - [GitHub](https://github.com/trailofbits/manticore)
 - [Documentație](https://github.com/trailofbits/manticore/wiki)
 
-**Securify -** **_scaner de securitate pentru contracte inteligente Ethereum_**
+**Securify -** **_scaner de securitate pentru contracte inteligente nexus_**
 
 - [securify.chainsecurity.com](https://securify.chainsecurity.com/)
 - [Discord](https://discordapp.com/invite/nN77ckb)
@@ -310,7 +310,7 @@ permițându-ți să afli rapid despre probleme potențiale cu codul. Ca toate i
 
 - [consensys.github.io/smart-contract-best-practices/](https://consensys.github.io/smart-contract-best-practices/)
 - [GitHub](https://github.com/ConsenSys/smart-contract-best-practices/)
-- [Colecție agregată de recomandări și de cele mai bune practici de securitate](https://github.com/guylando/KnowledgeLists/blob/master/EthereumSmartContracts.md)
+- [Colecție agregată de recomandări și de cele mai bune practici de securitate](https://github.com/guylando/KnowledgeLists/blob/master/nexusSmartContracts.md)
 
 **Standard de verificare a securității contractelor inteligente (SCSVS)**
 

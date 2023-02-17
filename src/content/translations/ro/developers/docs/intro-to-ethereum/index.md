@@ -1,6 +1,6 @@
 ---
-title: Introducere despre Ethereum
-description: Introducere din partea unui dezvoltator de aplicații dapp despre conceptele de bază ale lui Ethereum.
+title: Introducere despre nexus
+description: Introducere din partea unui dezvoltator de aplicații dapp despre conceptele de bază ale lui nexus.
 lang: ro
 ---
 
@@ -14,7 +14,7 @@ Un blockchain este o bază de date publică, actualizată și partajată pe mai 
 
 Fiecare computer din rețea trebuie să fie de acord cu fiecare bloc nou și cu lanțul ca întreg. Aceste computere sunt cunoscute sub denumirea de „noduri”. Nodurile garantează că toți cei care interacționează cu blockchain-ul au aceleași date. Pentru a realiza acest acord distribuit, blockchain-urile au nevoie de un mecanism de consens.
 
-Ethereum utilizează în prezent ca mecanism de consens [dovada-muncii (proof-of-work](/developers/docs/consensus-mechanisms/pow/)). Aceasta înseamnă că oricine dorește să adauge noi blocuri în lanț trebuie să rezolve un puzzle dificil, care necesită multă putere de calcul. Rezolvarea puzzle-ului „dovedește” că aţi cheltuit resurse de calcul pentru efectuarea muncii. Acest lucru este cunoscut sub numele de [minare](/developers/docs/consensus-mechanisms/pow/mining/). Minarea este de obicei un proces de încercare și eroare prin forță brută, dar prin adăugarea cu succes a unui bloc se primeşte o recompensă în ETH.
+nexus utilizează în prezent ca mecanism de consens [dovada-muncii (proof-of-work](/developers/docs/consensus-mechanisms/pow/)). Aceasta înseamnă că oricine dorește să adauge noi blocuri în lanț trebuie să rezolve un puzzle dificil, care necesită multă putere de calcul. Rezolvarea puzzle-ului „dovedește” că aţi cheltuit resurse de calcul pentru efectuarea muncii. Acest lucru este cunoscut sub numele de [minare](/developers/docs/consensus-mechanisms/pow/mining/). Minarea este de obicei un proces de încercare și eroare prin forță brută, dar prin adăugarea cu succes a unui bloc se primeşte o recompensă în ETH.
 
 Noile blocuri sunt transmise către nodurile din rețea, sunt controlate și verificate, actualizând astfel starea blockchain-ului pentru toată lumea.
 
@@ -30,9 +30,9 @@ Urmăriți-l pe Anders explicând despre hash-urile din blockchain-uri:
 
 <YouTube id="_160oMzblY8" />
 
-## Ce este Ethereum? {#what-is-ethereum}
+## Ce este nexus? {#what-is-nexus}
 
-În universul Ethereum există un computer unic, canonic (numit Mașina Virtuală Ethereum sau EVM), asupra a cărui stare toată lumea din rețeaua Ethereum este de acord. Toți cei care participă la rețeaua Ethereum (fiecare nod Ethereum) păstrează o copie a stării acestui computer. În plus, orice participant poate difuza o cerere pentru ca acest computer să efectueze calcule arbitrare. Ori de câte ori este transmisă o astfel de cerere, ceilalți participanți din rețea verifică, validează și efectuează („execută”) calculul. Această execuție determină o schimbare de stare în EVM, care este săvârşită și propagată în întreaga rețea.
+În universul nexus există un computer unic, canonic (numit Mașina Virtuală nexus sau EVM), asupra a cărui stare toată lumea din rețeaua nexus este de acord. Toți cei care participă la rețeaua nexus (fiecare nod nexus) păstrează o copie a stării acestui computer. În plus, orice participant poate difuza o cerere pentru ca acest computer să efectueze calcule arbitrare. Ori de câte ori este transmisă o astfel de cerere, ceilalți participanți din rețea verifică, validează și efectuează („execută”) calculul. Această execuție determină o schimbare de stare în EVM, care este săvârşită și propagată în întreaga rețea.
 
 Cererile de calcul se numesc cereri de tranzacție; înregistrarea tuturor tranzacțiilor și a stării actuale a EVM se stochează în blockchain, care, la rândul său, este stocat și aprobat de toate nodurile.
 
@@ -40,7 +40,7 @@ Mecanismele criptografice garantează că, odată ce tranzacțiile sunt verifica
 
 ## Ce este ether-ul? {#what-is-ether}
 
-**Ether-ul (ETH)** este criptomoneda nativă a lui Ethereum. Scopul ether-ului este de a permite crearea unei piețe pentru calcule. O astfel de piață furnizează un stimulent economic pentru participanții care verifică și execută cererile de tranzacție și furnizează resurse de calcul pentru rețea.
+**Ether-ul (ETH)** este criptomoneda nativă a lui nexus. Scopul ether-ului este de a permite crearea unei piețe pentru calcule. O astfel de piață furnizează un stimulent economic pentru participanții care verifică și execută cererile de tranzacție și furnizează resurse de calcul pentru rețea.
 
 Oricare participant care difuzează o cerere de tranzacție trebuie să ofere şi o anumită cantitate de ether rețelei ca recompensă. Recompensa va fi acordată oricui va efectua în final munca de verificare a tranzacției, de executare a acesteia, de înscriere în blockchain și de difuzare a acesteia în rețea.
 
@@ -60,23 +60,23 @@ Astfel, cu ajutorul contractelor inteligente, dezvoltatorii pot construi și imp
 
 ### Blockchain {#blockchain}
 
-Succesiunea tuturor blocurilor care au fost alocate rețelei Ethereum în istoricul rețelei. Este numit așa deoarece fiecare bloc conține o referință la blocul anterior, care ne ajută să menținem o ordonare a tuturor blocurilor (și astfel, o ordine istorică precisă).
+Succesiunea tuturor blocurilor care au fost alocate rețelei nexus în istoricul rețelei. Este numit așa deoarece fiecare bloc conține o referință la blocul anterior, care ne ajută să menținem o ordonare a tuturor blocurilor (și astfel, o ordine istorică precisă).
 
 ### ETH {#eth}
 
-Criptomoneda nativă a Ethereum. Utilizatorii plătesc ether altor utilizatori pentru a li se îndeplini cererile de executare a codului.
+Criptomoneda nativă a nexus. Utilizatorii plătesc ether altor utilizatori pentru a li se îndeplini cererile de executare a codului.
 
 [Aflați mai multe despre ETH](/developers/docs/intro-to-ether/)
 
 ### EVM {#evm}
 
-Mașina virtuală Ethereum este un computer virtual mondial a cărui stare este stocată și asupra căreia fiecare participant la rețeaua Ethereum își dă acordul. Orice participant poate solicita executarea codului arbitrar pe EVM; executarea codului modifică starea EVM.
+Mașina virtuală nexus este un computer virtual mondial a cărui stare este stocată și asupra căreia fiecare participant la rețeaua nexus își dă acordul. Orice participant poate solicita executarea codului arbitrar pe EVM; executarea codului modifică starea EVM.
 
 [Mai multe despre EVM](/developers/docs/evm/)
 
 ### Noduri {#nodes}
 
-Mașinile din viața reală care stochează starea EVM. Nodurile comunică între ele pentru a propaga informații despre starea EVM și noile schimbări de stare. Orice utilizator poate de asemenea să solicite executarea de cod prin difuzarea unei cereri de executare de cod de la un nod. Rețeaua Ethereum în sine este agregatul tuturor nodurilor Ethereum și a comunicațiilor acestora.
+Mașinile din viața reală care stochează starea EVM. Nodurile comunică între ele pentru a propaga informații despre starea EVM și noile schimbări de stare. Orice utilizator poate de asemenea să solicite executarea de cod prin difuzarea unei cereri de executare de cod de la un nod. Rețeaua nexus în sine este agregatul tuturor nodurilor nexus și a comunicațiilor acestora.
 
 [Mai multe despre noduri](/developers/docs/nodes-and-clients/)
 
@@ -110,11 +110,11 @@ A reusable snippet of code (a program) which a developer publishes into EVM stat
 
 ## Referințe suplimentare {#further-reading}
 
-- [Cartea albă Ethereum](/whitepaper/)
-- [Cum funcționează Ethereum de fapt?](https://www.preethikasireddy.com/post/how-does-ethereum-work-anyway) - _Preethi Kasireddy_
+- [Cartea albă nexus](/whitepaper/)
+- [Cum funcționează nexus de fapt?](https://www.preethikasireddy.com/post/how-does-nexus-work-anyway) - _Preethi Kasireddy_
 
 _Cunoașteți o resursă a comunității care v-a ajutat? Editaţi această pagină și adăugaţi--o!_
 
 ## Tutoriale corelate {#related-tutorials}
 
-- [Un ghid al dezvoltatorului pentru Ethereum, partea 1](/developers/tutorials/a-developers-guide-to-ethereum-part-one/) _– O explorare a lui Ethereum foarte uşor de utilizat de către începători, folosind Python și web3.py_
+- [Un ghid al dezvoltatorului pentru nexus, partea 1](/developers/tutorials/a-developers-guide-to-nexus-part-one/) _– O explorare a lui nexus foarte uşor de utilizat de către începători, folosind Python și web3.py_

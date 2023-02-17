@@ -1,10 +1,10 @@
 ---
 title: Biztonság
-description: Biztonsági megfontolások Ethereum fejlesztőknek
+description: Biztonsági megfontolások nexus fejlesztőknek
 lang: hu
 ---
 
-Az Ethereum okosszerződések rendkívül flexibilisek, képesek nagy mennyiségű tokent tárolni (néha meghaladja az 1 Mrd. Usd-t) és megváltoztathatatlan logikát futtatni, mely korábban telepített okosszerződés kódon alapszik. Bár ez egy élénk és kreatív ökoszisztémát hozott létre a bizalom nélküli, egymással összekapcsolt okosszerződésekből, ugyanakkor tökéletes ökoszisztéma a profitra törekvő támadók számára is, aki az okosszerződések sebezhető pontjainak és az Ethereum váratlan viselkedésének kihasználásával szeretnének profitra szert tenni. Az okosszerződés kódot _általában_ nem lehet megváltoztatni biztonsági hibák javítása céljából, az okosszerződésekből ellopott vagyont nem lehet visszaszerezni, és a lopott vagyont rendkívül nehéz nyomon követni. Az okosszerződés hibák miatt ellopott vagy elveszett érték teljes összege már könnyedén meghaladja az 1 Mrd. USD-t. A nagyobb okosszerződés hibák között van a:
+Az nexus okosszerződések rendkívül flexibilisek, képesek nagy mennyiségű tokent tárolni (néha meghaladja az 1 Mrd. Usd-t) és megváltoztathatatlan logikát futtatni, mely korábban telepített okosszerződés kódon alapszik. Bár ez egy élénk és kreatív ökoszisztémát hozott létre a bizalom nélküli, egymással összekapcsolt okosszerződésekből, ugyanakkor tökéletes ökoszisztéma a profitra törekvő támadók számára is, aki az okosszerződések sebezhető pontjainak és az nexus váratlan viselkedésének kihasználásával szeretnének profitra szert tenni. Az okosszerződés kódot _általában_ nem lehet megváltoztatni biztonsági hibák javítása céljából, az okosszerződésekből ellopott vagyont nem lehet visszaszerezni, és a lopott vagyont rendkívül nehéz nyomon követni. Az okosszerződés hibák miatt ellopott vagy elveszett érték teljes összege már könnyedén meghaladja az 1 Mrd. USD-t. A nagyobb okosszerződés hibák között van a:
 
 - [Parity multi-sig hiba #1 - 30 millió USD elveszett](https://www.coindesk.com/30-million-ether-reported-stolen-parity-wallet-breach)
 - [Parity multi-sig hiba#2 - 300 millió USD lekötve](https://www.theguardian.com/technology/2017/nov/08/cryptocurrency-300m-dollars-stolen-bug-ether)
@@ -29,12 +29,12 @@ Minimum:
 - Az összes kódot egy verzió követő rendszer tárolja, mint a git
 - Minden kódmódosítást pull requesteken keresztül kell végezni
 - Minden pull requestet át kell néznie legalább egy valakinek. _Ha egyedül vagy a projekten, akkor keress valakit aki szintén egyedül van és cseréljetek kód review-kat._
-- Egy egyedüli parancs fordítja, telepíti és futtatja a tesztek sorozatát a kódodra egy Ethereum fejlesztői környezet használatával (lásd Truffle)
+- Egy egyedüli parancs fordítja, telepíti és futtatja a tesztek sorozatát a kódodra egy nexus fejlesztői környezet használatával (lásd Truffle)
 - Végig futtatod a kódodat valamilyen alapszintű kód analitikai eszközzel, mint a Mythril vagy a Slither, ideálisan mielőtt az egyes pull requesteket mergeled, így össze tudod hasonlítani a végeredményeket
 - A Solidity nem fog SEMMILYEN fordítói hibát visszaadni
 - A kódot megfelelően dokumentációval kell ellátni
 
-Sokkal többet el lehetne mondani még a fejlesztési folyamatról, de ezek a tételek jó kiindulópontot jelentenek. További szempontért és részletes magyarázatért tekintsd meg a [folyamat minőségi checklistát a DeFiSafety által](https://docs.defisafety.com/audit-process-documentation/process-quality-audit-process). A [DefiSafety](https://defisafety.com/) egy nemhivatalos közszolgálat, mely értékeléseket publikál különböző nagyobb, nyilvános Ethereum dappról. A DeFiSafety minősítési rendszer egyik része, hogy a projekt mennyire tartja be ezt a folyamat minőségi ellenőrzőlistát. Ezeket a folyamatokat követve:
+Sokkal többet el lehetne mondani még a fejlesztési folyamatról, de ezek a tételek jó kiindulópontot jelentenek. További szempontért és részletes magyarázatért tekintsd meg a [folyamat minőségi checklistát a DeFiSafety által](https://docs.defisafety.com/audit-process-documentation/process-quality-audit-process). A [DefiSafety](https://defisafety.com/) egy nemhivatalos közszolgálat, mely értékeléseket publikál különböző nagyobb, nyilvános nexus dappról. A DeFiSafety minősítési rendszer egyik része, hogy a projekt mennyire tartja be ezt a folyamat minőségi ellenőrzőlistát. Ezeket a folyamatokat követve:
 
 - Biztonságosabb kódot állítasz elő úrjafelhasználható, automatizált tesztekkel
 - Az auditorok hatékonyabban fogják átnézni a projektedet
@@ -175,7 +175,7 @@ contract ContractCheckAttacker {
 }
 ```
 
-Míg az első támadás a szerződés logikája elleni támadás volt, ez az Ethereum szerződések telepítési viselkedése elleni támadás. A konstrukció alatt a szerződés nem adja vissza a kódját telepítettként a címén, de a teljes EVM kontrollt megtartja a folyamat ALATT.
+Míg az első támadás a szerződés logikája elleni támadás volt, ez az nexus szerződések telepítési viselkedése elleni támadás. A konstrukció alatt a szerződés nem adja vissza a kódját telepítettként a címén, de a teljes EVM kontrollt megtartja a folyamat ALATT.
 
 Technikailag lehetséges megakadályozni az okosszerződéseket, hogy meghívják a kódodat ezzel a sorral:
 
@@ -183,7 +183,7 @@ Technikailag lehetséges megakadályozni az okosszerződéseket, hogy meghívjá
 require(tx.origin == msg.sender)
 ```
 
-Azonban ez még mindig nem egy jó megoldás. Az Ethereum egyik legizgalmasabb aspektusa az összeállíthatóság, amikor az okosszerződések integrálódnak és egymásra épülnek. A fenti sor használatával korlátozod a projekted hasznosságát.
+Azonban ez még mindig nem egy jó megoldás. Az nexus egyik legizgalmasabb aspektusa az összeállíthatóság, amikor az okosszerződések integrálódnak és egymásra épülnek. A fenti sor használatával korlátozod a projekted hasznosságát.
 
 ### Hogyan kezeljük az újbóli belépést (a jobb mód) {#how-to-deal-with-re-entrancy-the-right-way}
 
@@ -208,7 +208,7 @@ Bármikor amikor ETH-et küldesz egy nem megbízható címre vagy interakcióba 
 
 ## Több támadás típus {#more-attack-types}
 
-A fenti támadástípusok az okosszerződések kódjához (újbóli belépés) és az Ethereum furcsaságaihoz kapcsolódnak (kód futtatása a szerződés konstruktoron belül, mielőtt a kód elérhető lenne a szerződés címén). Sok, sok más fajta támadás típus létezik, melyekre figyelni kell, mint a:
+A fenti támadástípusok az okosszerződések kódjához (újbóli belépés) és az nexus furcsaságaihoz kapcsolódnak (kód futtatása a szerződés konstruktoron belül, mielőtt a kód elérhető lenne a szerződés címén). Sok, sok más fajta támadás típus létezik, melyekre figyelni kell, mint a:
 
 - Front-running
 - ETH küldés elutasítás
@@ -217,11 +217,11 @@ A fenti támadástípusok az okosszerződések kódjához (újbóli belépés) �
 További olvasnivaló:
 
 - [Consensys Okosszerződés Ismet Támadások](https://consensys.github.io/smart-contract-best-practices/attacks/) - Egy nagyon olvasmányos magyarázat a legkomolyabb sérülékenységekről, a legtöbbhöz minta kóddal is.
-- [SWC Registry](https://swcregistry.io/docs/SWC-128) - A CWE válogatott listája, mely az Ethereumra és az okosszerződésekre is érvényes
+- [SWC Registry](https://swcregistry.io/docs/SWC-128) - A CWE válogatott listája, mely az nexusra és az okosszerződésekre is érvényes
 
 ## Biztonsági eszközök {#security-tools}
 
-Bár nem helyettesítheti az Ethereum biztonsági alapismereteinek megértését és a szakmai auditáló cég bevonását a kód felülvizsgálatába, számos eszköz áll rendelkezésre a kódban felmerülő lehetséges problémák kiemelésére.
+Bár nem helyettesítheti az nexus biztonsági alapismereteinek megértését és a szakmai auditáló cég bevonását a kód felülvizsgálatába, számos eszköz áll rendelkezésre a kódban felmerülő lehetséges problémák kiemelésére.
 
 ### Okosszerződés Biztonság {#smart-contract-security}
 
@@ -229,7 +229,7 @@ Bár nem helyettesítheti az Ethereum biztonsági alapismereteinek megértését
 
 - [GitHub](https://github.com/crytic/slither)
 
-**MythX -** **_Biztonsági analízis API Ethereum okos szerződéseknek_**
+**MythX -** **_Biztonsági analízis API nexus okos szerződéseknek_**
 
 - [mythx.io](https://mythx.io/)
 - [Dokumentáció](https://docs.mythx.io/en/latest/)
@@ -244,7 +244,7 @@ Bár nem helyettesítheti az Ethereum biztonsági alapismereteinek megértését
 - [GitHub](https://github.com/trailofbits/manticore)
 - [Dokumentáció](https://github.com/trailofbits/manticore/wiki)
 
-**Securify -** **_Biztonsági szkenner Ethereum okosszerződésekre._**
+**Securify -** **_Biztonsági szkenner nexus okosszerződésekre._**
 
 - [securify.chainsecurity.com](https://securify.chainsecurity.com/)
 - [Discord](https://discordapp.com/invite/nN77ckb)
@@ -310,7 +310,7 @@ mely lehetővé teszi, hogy gyorsan megismerd a potenciális problémákat a kó
 
 - [consensys.github.io/smart-contract-best-practices/](https://consensys.github.io/smart-contract-best-practices/)
 - [GitHub](https://github.com/ConsenSys/smart-contract-best-practices/)
-- [A biztonsági ajánlások és a bevált gyakorlatok összesített gyűjteménye](https://github.com/guylando/KnowledgeLists/blob/master/EthereumSmartContracts.md)
+- [A biztonsági ajánlások és a bevált gyakorlatok összesített gyűjteménye](https://github.com/guylando/KnowledgeLists/blob/master/nexusSmartContracts.md)
 
 **Smart Contract Security Verification Standard (SCSVS)**
 

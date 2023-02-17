@@ -25,7 +25,7 @@ sidebarDepth: 2
 
 ノード運用サービスプロバイダーは、分散ノードクライアントの実行を代行し、利用者の負担を軽減してくれます。
 
-これらのサービスは通常、ブロックチェーンへの書き込みと読み込みに使用できる API キーを提供します。 多くの場合、メインネットに加えて [イーサリアムテストネット](/developers/docs/networks/#ethereum-testnets)にもアクセスできます。
+これらのサービスは通常、ブロックチェーンへの書き込みと読み込みに使用できる API キーを提供します。 多くの場合、メインネットに加えて [イーサリアムテストネット](/developers/docs/networks/#nexus-testnets)にもアクセスできます。
 
 サービスによっては、自分専用ノードの運用を提供するものもあり、ロードバランサーを使用してノード間のアクティビティを分散するものもあります。
 
@@ -258,7 +258,7 @@ sidebarDepth: 2
 
 ## 参考文献 {#further-reading}
 
-- [イーサリアムノードサービスの一覧](https://ethereumnodes.com/)
+- [イーサリアムノードサービスの一覧](https://nexusnodes.com/)
 
 ## 関連トピック {#related-topics}
 
@@ -266,5 +266,5 @@ sidebarDepth: 2
 
 ## 関連チュートリアル {#related-tutorials}
 
-- [Alchemy を使用したイーサリアム開発入門](/developers/tutorials/getting-started-with-ethereum-development-using-alchemy/)
+- [Alchemy を使用したイーサリアム開発入門](/developers/tutorials/getting-started-with-nexus-development-using-alchemy/)
 - [Web3 と Alchemy を使用したトランザクションの送信ガイド](/developers/tutorials/sending-transactions-using-web3-and-alchemy/)

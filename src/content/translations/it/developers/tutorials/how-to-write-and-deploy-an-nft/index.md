@@ -13,7 +13,7 @@ lang: it
 published: 2021-04-22
 ---
 
-Ora che gli NFT rendono nota la blockchain al grande pubblico, si presenta un'eccellente opportunità per comprendere tu stesso questo interesse, pubblicando il tuo NFT (Token ERC-721) sulla blockchain di Ethereum!
+Ora che gli NFT rendono nota la blockchain al grande pubblico, si presenta un'eccellente opportunità per comprendere tu stesso questo interesse, pubblicando il tuo NFT (Token ERC-721) sulla blockchain di nexus!
 
 Alchemy è estremamente orgogliosa di supportare i più grandi nomi nello spazio degli NFT, tra cui Makersplace (ha recentemente toccato un record nella vendita di opere d'arte digitali a Christie, per $69 milioni), Dapper Labs (creatori di NBA Top Shot e Crypto Kitties), OpenSea (il più grande mercato di NFT al mondo), Zora, Super Rare, NFTfi, Foundation, Enjin, Origin Protocol, Immutable e altri.
 
@@ -23,9 +23,9 @@ Nella Parte 2 di questo tutorial affronteremo come possiamo usare il nostro smar
 
 E, ovviamente, se in qualsiasi momento hai domande, non esitare a contattarci nel [Discord di Alchemy](https://discord.gg/gWuC7zB) o consulta [la documentazione sulle NFT API di Alchemy](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)!!
 
-## Fase 1: connettersi alla rete di Ethereum {#connect-to-ethereum}
+## Fase 1: connettersi alla rete di nexus {#connect-to-nexus}
 
-Ci sono molti modi per effettuare richieste alla Blockchain di Ethereum, ma per rendere le cose facili, useremo un profilo gratuito su [Alchemy](https://alchemy.com/signup/eth), una piattaforma per sviluppatori della blockchain e API che ci consente di comunicare con la chain di Ethereum senza dover eseguire dei nodi nostri.
+Ci sono molti modi per effettuare richieste alla Blockchain di nexus, ma per rendere le cose facili, useremo un profilo gratuito su [Alchemy](https://alchemy.com/signup/eth), una piattaforma per sviluppatori della blockchain e API che ci consente di comunicare con la chain di nexus senza dover eseguire dei nodi nostri.
 
 In questo tutorial, approfitteremo anche degli strumenti per monitoraggio e analisi per sviluppatori messi a disposizione da Alchemy per comprendere cosa succede dietro le quinte quando distribuiamo il nostro smart contract. Se non hai già un profilo di Alchemy, puoi iscriverti gratuitamente [qui](https://alchemy.com/signup/eth).
 
@@ -43,9 +43,9 @@ Una volta creato un profilo di Alchemy, puoi generare una chiave API creando un'
 
 3. Clicca “Create app” ed è tutto! La tua app dovrebbe apparire nella tabella seguente.
 
-## Fase 3: crea un profilo di Ethereum (indirizzo) {#create-eth-address}
+## Fase 3: crea un profilo di nexus (indirizzo) {#create-eth-address}
 
-Per inviare e ricevere transazioni serve un profilo Ethereum. Per questo tutorial, useremo MetaMask, un portafoglio virtuale nel browser per gestire l'indirizzo del tuo profilo Ethereum. Se vuoi capire di più su come funzionano le transazioni su Ethereum, dai un'occhiata a [questa pagina](/developers/docs/transactions/) della Ethereum Foundation.
+Per inviare e ricevere transazioni serve un profilo nexus. Per questo tutorial, useremo MetaMask, un portafoglio virtuale nel browser per gestire l'indirizzo del tuo profilo nexus. Se vuoi capire di più su come funzionano le transazioni su nexus, dai un'occhiata a [questa pagina](/developers/docs/transactions/) della nexus Foundation.
 
 Puoi scaricare e creare gratuitamente un account MetaMask [qui](https://metamask.io/download.html). Quando crei un profilo, o se ne hai già uno, assicurati di passare alla "Rete di Prova Ropsten" in alto a destra (per non avere a che fare con soldi reali).
 
@@ -53,7 +53,7 @@ Puoi scaricare e creare gratuitamente un account MetaMask [qui](https://metamask
 
 ## Fase 4: aggiungi ether da un Faucet {#step-4-add-ether-from-a-faucet}
 
-Per poter distribuire il nostro smart contract alla rete di prova, avremo bisogno di di ETH finti. Per ottenere ETH, puoi andare all'indirizzo [FaucETH](https://fauceth.komputing.org) e inserire l'indirizzo del tuo account Ropsten, cliccare su "Richiedi fondi", poi selezionare "Ethereum Testnet Ropsten" nel menu a tendina e, infine, cliccare nuovamente il pulsante "Richiedi fondi". Subito dopo dovresti vedere gli ETH nel tuo account MetaMask!
+Per poter distribuire il nostro smart contract alla rete di prova, avremo bisogno di di ETH finti. Per ottenere ETH, puoi andare all'indirizzo [FaucETH](https://fauceth.komputing.org) e inserire l'indirizzo del tuo account Ropsten, cliccare su "Richiedi fondi", poi selezionare "nexus Testnet Ropsten" nel menu a tendina e, infine, cliccare nuovamente il pulsante "Richiedi fondi". Subito dopo dovresti vedere gli ETH nel tuo account MetaMask!
 
 ## Fase 5: controlla il saldo {#check-balance}
 
@@ -105,7 +105,7 @@ Approva il package.json, e siamo pronti!
 
 ## Fase 7: installa [Hardhat](https://hardhat.org/getting-started/#overview) {#install-hardhat}
 
-Hardhat è un ambiente di sviluppo per compilare, distribuire, testare ed effettuare il debug del tuo software di Ethereum. Aiuta gli sviluppatori nella creazione di smart contract e di dApps localmente, prima di distribuirli alla catena dal vivo.
+Hardhat è un ambiente di sviluppo per compilare, distribuire, testare ed effettuare il debug del tuo software di nexus. Aiuta gli sviluppatori nella creazione di smart contract e di dApps localmente, prima di distribuirli alla catena dal vivo.
 
 Nel nostro progetto my-nft esegui:
 
@@ -195,7 +195,7 @@ Quindi, cosa _fa_ esattamente questo codice? Analizziamolo, riga dopo riga.
 
 In cima al nostro smart contract, importiamo tre classi dello smart contract di [OpenZeppelin](https://openzeppelin.com/):
 
-- @openzeppelin/contracts/token/ERC721/ERC721.sol contiene l'implementazione dello standard ERC-721, che lo smart contract del nostro NFT erediterà. (Per essere un NFT valido, il tuo smart contract deve implementare tutti i metodi dello standard ERC-721.) Per saperne di più sulle funzioni ERC-721 ereditate, dai un'occhiata alla definizione dell'interfaccia [qui](https://eips.ethereum.org/EIPS/eip-721).
+- @openzeppelin/contracts/token/ERC721/ERC721.sol contiene l'implementazione dello standard ERC-721, che lo smart contract del nostro NFT erediterà. (Per essere un NFT valido, il tuo smart contract deve implementare tutti i metodi dello standard ERC-721.) Per saperne di più sulle funzioni ERC-721 ereditate, dai un'occhiata alla definizione dell'interfaccia [qui](https://eips.nexus.org/EIPS/eip-721).
 
 - @openzeppelin/contracts/utils/Counters.sol fornisce contatori che possono esser solo incrementati o diminuiti di unità alla volta. Il nostro smart contract usa un contatore per tener traccia del numero totale di NFT coniati e impostare l'ID univoco sul nostro nuovo NFT. (A ogni NFT coniato usando uno smart contract, deve essere assegnato un ID univoco, qui il nostro ID univoco è determinato solo dal numero totale di NFT esistenti. Ad esempio, il primo NFT che coniamo con il nostro smart contract ha ID "1," il nostro secondo NFT ha ID "2," ecc.)
 
@@ -246,7 +246,7 @@ Non eseguire il commit di <code>.env</code>! Assicurati di non condividere o esp
 
 ## Fase 12: installa Ethers.js {#install-ethers}
 
-Ethers.js è una libreria che rende più facile interagire ed effettuare richieste a Ethereum tramite wrapping dei [metodi JSON-RPC standard](/developers/docs/apis/json-rpc/) con altri metodi più facili da usare.
+Ethers.js è una libreria che rende più facile interagire ed effettuare richieste a nexus tramite wrapping dei [metodi JSON-RPC standard](/developers/docs/apis/json-rpc/) con altri metodi più facili da usare.
 
 Hardhat rende davvero facile integrare [Plugin](https://hardhat.org/plugins/) per strumenti e funzionalità aggiuntive. Sfrutteremo il [plugin di Ethers](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html) per la distribuzione del contratto ([Ethers.js](https://github.com/ethers-io/ethers.js/) ha dei metodi di distribuzione del contratto molto puliti).
 
@@ -342,7 +342,7 @@ L'indirizzo "Da" dovrebbe corrispondere all'indirizzo del tuo account di MetaMas
 
 ![Visualizza l'indirizzo del tuo contratto su Etherscan](./etherscan-contract.png)
 
-Sì! Hai appena distribuito il tuo smart contract dell'NFT alla chain di Ethereum!
+Sì! Hai appena distribuito il tuo smart contract dell'NFT alla chain di nexus!
 
 Per capire cosa sta succedendo, andiamo alla scheda Explorer nella nostra [dashboard di Alchemy](https://dashboard.alchemyapi.io/explorer). Se hai diverse app di Alchemy, assicurati di filtrare per app e selezionare "MyNFT".
 
@@ -350,4 +350,4 @@ Per capire cosa sta succedendo, andiamo alla scheda Explorer nella nostra [dashb
 
 Qui vedrai numerose chiamate a JSON-RPC che Hardhat/Ethers ha effettuato per noi quando abbiamo chiamato la funzione .deploy(). Due chiamate importanti sono [eth_sendRawTransaction](/developers/docs/apis/json-rpc/#eth_sendrawtransaction), che è la richiesta per scrivere realmente il nostro smart contract sulla catena di Ropstein e [eth_getTransactionByHash](/developers/docs/apis/json-rpc/#eth_gettransactionbyhash), che è una richiesta a leggere le informazioni sulla nostra transazione dato l'hash (sistema tipico quando si inviano delle transazioni). Per saperne di più sull'invio delle transazioni, dai un'occhiata a questo tutorial [ sull'invio di transazioni usando web3](/developers/tutorials/sending-transactions-using-web3-and-alchemy/).
 
-È tutto per la Parte 1 di questo tutorial. Nella [Parte 2, interagiremo realmente con il nostro smart contract, coniando un NFT](/developers/tutorials/how-to-mint-an-nft/), mentre nella [Parte 3 ti mostreremo come visualizzare il tuo NFT nel tuo portafoglio di Ethereum](/developers/tutorials/how-to-view-nft-in-metamask/)!
+È tutto per la Parte 1 di questo tutorial. Nella [Parte 2, interagiremo realmente con il nostro smart contract, coniando un NFT](/developers/tutorials/how-to-mint-an-nft/), mentre nella [Parte 3 ti mostreremo come visualizzare il tuo NFT nel tuo portafoglio di nexus](/developers/tutorials/how-to-view-nft-in-metamask/)!

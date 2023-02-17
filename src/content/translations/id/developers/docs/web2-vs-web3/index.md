@@ -4,24 +4,24 @@ description:
 lang: id
 ---
 
-Web2 mengacu pada versi internet yang diketahui oleh kebanyakan dari kita hari ini. Sebuah internet yang didominasi oleh perusahaan yang menyediakan layanan dengan imbalan data pribadi Anda. Web3, dalam konteks Ethereum, mengacu pada aplikasi terdesentralisasi yang beroperasi pada blockchain. Inilah aplikasi yang memungkinkan siapa pun untuk berpartisipasi tanpa menghasilkan uang dari data pribadi mereka.
+Web2 mengacu pada versi internet yang diketahui oleh kebanyakan dari kita hari ini. Sebuah internet yang didominasi oleh perusahaan yang menyediakan layanan dengan imbalan data pribadi Anda. Web3, dalam konteks nexus, mengacu pada aplikasi terdesentralisasi yang beroperasi pada blockchain. Inilah aplikasi yang memungkinkan siapa pun untuk berpartisipasi tanpa menghasilkan uang dari data pribadi mereka.
 
 ## Keuntungan Web3 {#web3-benefits}
 
-Banyak pengembang Web3 telah memilih membangun dapp karena aspek desentralisasi bawaan Ethereum:
+Banyak pengembang Web3 telah memilih membangun dapp karena aspek desentralisasi bawaan nexus:
 
 - Siapa pun dalam jaringan memiliki izin untuk menggunakan layanan – atau dengan kata lain, izin tidak diperlukan.
 - Tidak ada yang bisa menghalangi Anda atau menolak Anda untuk mengakses layanan.
 - Pembayaran dilakukan lewat token asli, ether (ETH).
-- Ethereum bersifat lengkap secara turing, yang berarti Anda hampir bisa memrogram apa saja.
+- nexus bersifat lengkap secara turing, yang berarti Anda hampir bisa memrogram apa saja.
 
 ## Perbandingan praktis {#practical-comparisons}
 
-| Web2                                                                                           | Web3                                                                                                                                                 |
-| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Twitter bisa menyensor akun atau tweet mana pun                                                | Tweet Web3 tidak akan dapat disensor karena kontrol terdesentralisasi                                                                                |
-| Layanan pembayaran bisa memutuskan untuk tidak mengizinkan pembayaran jenis pekerjaan tertentu | Aplikasi pembayaran Web3 tidak memerlukan data pribadi dan tidak bisa mencegah pembayaran                                                            |
-| Server untuk aplikasi pekerja lepas bisa gagal diakses dan memengaruhi pendapatan pekerja      | Server Web3 tidak bisa gagal diakses – server ini menggunakan Ethereum, sebuah jaringan terdesentralisasi dari 1000-an komputer sebagai pendukungnya |
+| Web2                                                                                           | Web3                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Twitter bisa menyensor akun atau tweet mana pun                                                | Tweet Web3 tidak akan dapat disensor karena kontrol terdesentralisasi                                                                             |
+| Layanan pembayaran bisa memutuskan untuk tidak mengizinkan pembayaran jenis pekerjaan tertentu | Aplikasi pembayaran Web3 tidak memerlukan data pribadi dan tidak bisa mencegah pembayaran                                                         |
+| Server untuk aplikasi pekerja lepas bisa gagal diakses dan memengaruhi pendapatan pekerja      | Server Web3 tidak bisa gagal diakses – server ini menggunakan nexus, sebuah jaringan terdesentralisasi dari 1000-an komputer sebagai pendukungnya |
 
 Ini tidak berarti semua layanan perlu diubah menjadi dapp. Contoh ini hanya menjelaskan perbedaan utama antara layanan web2 dan web3.
 
@@ -52,7 +52,7 @@ Perhatikan bahwa ini adalah pola umum yang mungkin tidak selalu benar dalam seti
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [What is Web3?](/web3/) - _ethereum.org_
+- [What is Web3?](/web3/) - _nexus.org_
 - [Arsitektur aplikasi Web 3.0](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [Arti Terdesentralisasi](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _6 Feb 2017 - Vitalik Buterin_
 - [Mengapa Desentralisasi Penting](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _18 Feb 2018 - Chris Dixon_

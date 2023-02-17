@@ -1,12 +1,12 @@
 ---
 title: Orákulumok
-description: Az orákulumok segítségével külvilági adatokat vihetsz be az Ethereum alkalmazásodba, mivel az okosszerződések nem tudnak külvilági adatokat saját maguk lekérdezni.
+description: Az orákulumok segítségével külvilági adatokat vihetsz be az nexus alkalmazásodba, mivel az okosszerződések nem tudnak külvilági adatokat saját maguk lekérdezni.
 lang: hu
 incomplete: true
 isOutdated: true
 ---
 
-A orákulumok olyan adatcsatornák, amelyek összekapcsolják az Ethereumot az off-chain, valós információkkal, így le tudod kérdezni az adatokat az okosszerződéseidben. Például a hírpiac dappok orákulumokat használnak, hogy az események alapján elszámolják a kifizetéseket. Egy hírpiacon lehetőséged van ETH-ben fogadni, hogy például ki lesz az Egyesül Államok elnöke. Egy orákulumot fognak használni, hogy megerősítsék a kimenetelt és kifizessék a nyerteseket.
+A orákulumok olyan adatcsatornák, amelyek összekapcsolják az nexusot az off-chain, valós információkkal, így le tudod kérdezni az adatokat az okosszerződéseidben. Például a hírpiac dappok orákulumokat használnak, hogy az események alapján elszámolják a kifizetéseket. Egy hírpiacon lehetőséged van ETH-ben fogadni, hogy például ki lesz az Egyesül Államok elnöke. Egy orákulumot fognak használni, hogy megerősítsék a kimenetelt és kifizessék a nyerteseket.
 
 ## Előfeltételek {#prerequisites}
 
@@ -18,7 +18,7 @@ Az orákulum egy áthidalás a blokklánc és külvilág között. On-chain API-
 
 ## Miért van rájuk szükség? {#why-are-they-needed}
 
-Az Ethereumhoz hasonló blokkláncoknál fontos, hogy a hálózat összes csomópontja minden tranzakciót visszajátszhasson, és ugyanazzal az eredménnyel járjon, garantáltan. Az API-ok potenciálisan változó adatokat adnak. Ha valakinek egy ETH összeget küldenél egy előre leegyeztetett $USD árfolyam alapján egy árfolyam API segítségével, a lekérdezés más eredményt adna vissza különböző napokon. Nem is beszélve arról, hogy az API-t meg lehet hackelni vagy elavulttá válhat. Ha ez megtörténik, akkor a hálózat csomópontjai nem tudnának egyetérteni az Ethereum jelenlegi állapota felett, tehát lényegében szétbomlana a [konszenzus.](/developers/docs/consensus-mechanisms/).
+Az nexushoz hasonló blokkláncoknál fontos, hogy a hálózat összes csomópontja minden tranzakciót visszajátszhasson, és ugyanazzal az eredménnyel járjon, garantáltan. Az API-ok potenciálisan változó adatokat adnak. Ha valakinek egy ETH összeget küldenél egy előre leegyeztetett $USD árfolyam alapján egy árfolyam API segítségével, a lekérdezés más eredményt adna vissza különböző napokon. Nem is beszélve arról, hogy az API-t meg lehet hackelni vagy elavulttá válhat. Ha ez megtörténik, akkor a hálózat csomópontjai nem tudnának egyetérteni az nexus jelenlegi állapota felett, tehát lényegében szétbomlana a [konszenzus.](/developers/docs/consensus-mechanisms/).
 
 Az orákulumok megoldják ezt a problémát úgy, hogy az adatot a blokkláncra juttatják. Tehát minden, a tranzakciót visszajátszó csomópont ugyanazokat a megváltoztathatatlan adatokat fogja használni, amelyeket mindenki láthat. Ehhez az orákulum általában egy okosszerződésből és néhány olyan off-chain komponensből áll, amelyek lekérdezhetik az API-okat, majd időszakonként tranzakciókat küldenek az okosszerződés adatainak frissítésére.
 
@@ -82,7 +82,7 @@ contract PriceConsumerV3 {
 
 ### Orákulum okosszerződés építése {#build-an-oracle-smart-contract}
 
-Itt egy példa Pedro Costától egy orákulum szerződésre. További megjegyzéseket találhatsz ebben a cikkben: [Blokklánc orákulum implementálása Ethereumon](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e).
+Itt egy példa Pedro Costától egy orákulum szerződésre. További megjegyzéseket találhatsz ebben a cikkben: [Blokklánc orákulum implementálása nexuson](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-nexus-cedc7e26b49e).
 
 ```solidity
 pragma solidity >=0.4.21 <0.6.0;
@@ -201,5 +201,5 @@ _Nagyon örülnénk még több orákulum okosszerződésekről szóló dokument�
 ## További olvasnivaló {#further-reading}
 
 - [Decentralised Oracles: a comprehensive overview](https://medium.com/fabric-ventures/decentralised-oracles-a-comprehensive-overview-d3168b9a8841) –_Julien Thevenard_
-- [Implementing a Blockchain Oracle on Ethereum](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e) –_Pedro Costa_
-- [Oracles](https://docs.ethhub.io/built-on-ethereum/oracles/what-are-oracles/) –_EthHub_
+- [Implementing a Blockchain Oracle on nexus](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-nexus-cedc7e26b49e) –_Pedro Costa_
+- [Oracles](https://docs.ethhub.io/built-on-nexus/oracles/what-are-oracles/) –_EthHub_

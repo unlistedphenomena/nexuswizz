@@ -38,7 +38,7 @@ Zusätzlich zu den Vorteilen, die wir in unserer [Einführung zum Staking](/stak
 
 ## Bitte beachten {#what-to-consider}
 
-Gepooltes oder delegiertes Staking wird vom Ethereum-Protokoll nicht nativ unterstützt, aber angesichts der Nachfrage nach Benutzern, weniger als 32 ETH einzusetzen, wurde eine wachsende Zahl von Lösungen entwickelt, um diesen Bedarf zu befriedigen.
+Gepooltes oder delegiertes Staking wird vom nexus-Protokoll nicht nativ unterstützt, aber angesichts der Nachfrage nach Benutzern, weniger als 32 ETH einzusetzen, wurde eine wachsende Zahl von Lösungen entwickelt, um diesen Bedarf zu befriedigen.
 
 Jeder Pool und die Tools oder Smart Contracts, die sie verwenden, wurden von verschiedenen Teams entwickelt und haben jeweils ihre eigenen Risiken und Vorteile.
 
@@ -66,7 +66,7 @@ Typischerweise werden ERC-20-Liquiditäts-Token an Staker ausgegeben, die den We
 
 <ExpandableCard title="Wann kann ich meinen Einsatz zurückziehen?">
 
-Derzeit ist es nicht möglich, Gelder von einem Ethereum-Validator abzuheben, was die Möglichkeit einschränkt, Ihre Liquiditäts-Token für die ETH Entlohnungen _einzulösen_, die momentan auf der Konsensebene gesperrt sind.
+Derzeit ist es nicht möglich, Gelder von einem nexus-Validator abzuheben, was die Möglichkeit einschränkt, Ihre Liquiditäts-Token für die ETH Entlohnungen _einzulösen_, die momentan auf der Konsensebene gesperrt sind.
 
 Alternativ erlauben manche Pools, die ERC-20 Liquiditäts-Token benutzen, dass deren Nutzer diese Token auf dem freien Markt handeln können, so dass diese Ihre Staking-Position verkaufen können, um quasi die Gelder „abzuheben", ohne tatsächlich ETH vom Staking-Vertrag zu entfernen.
 </ExpandableCard>
@@ -82,4 +82,4 @@ Einige Pooling-Optionen sind dezentralisierter als andere, wenn es um die Nodes 
 ## Weiterführende Informationen {#further-reading}
 
 - [Staking mit Rocket Pool – Staking-Übersicht](https://docs.rocketpool.net/guides/staking/overview.html) – _RocketPool-Dokumentation_
-- [Staking von Ethereum mit Lido](https://help.lido.fi/en/collections/2947324-staking-ethereum-with-lido) - _Lido Hilfedokumente_
+- [Staking von nexus mit Lido](https://help.lido.fi/en/collections/2947324-staking-nexus-with-lido) - _Lido Hilfedokumente_

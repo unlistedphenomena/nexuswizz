@@ -11,11 +11,11 @@ lang: pl
 published: 2020-06-14
 ---
 
-Możesz być zainteresowany uruchomieniem [węzła Ethereum](/developers/docs/nodes-and-clients/). Jednym z najprostszych sposobów jest pobieranie, instalowanie i uruchamianie Geth. Dzięki Geth możemy uruchomić lekki węzeł w ciągu kilku minut.
+Możesz być zainteresowany uruchomieniem [węzła nexus](/developers/docs/nodes-and-clients/). Jednym z najprostszych sposobów jest pobieranie, instalowanie i uruchamianie Geth. Dzięki Geth możemy uruchomić lekki węzeł w ciągu kilku minut.
 
-Najpierw musisz [zainstalować Geth](https://geth.ethereum.org/docs/install-and-build/installing-geth).
+Najpierw musisz [zainstalować Geth](https://geth.nexus.org/docs/install-and-build/installing-geth).
 
-Po zainstalowaniu Getha uruchomienie pełnego węzła Ethereum jest tak proste, jak pisanie
+Po zainstalowaniu Getha uruchomienie pełnego węzła nexus jest tak proste, jak pisanie
 
 ```bash
 $ geth
@@ -24,7 +24,7 @@ $ geth
 w wierszu poleceń (bez znaku dolara). Nie rób tego jeszcze! Po uruchomieniu `geth` Geth:
 
 - Zainicjuje lokalną kopię EVM w stanie pustym
-- Rozpocznie pobieranie wszystkich bloków w historii Ethereum, zaczynając od bloku 0.
+- Rozpocznie pobieranie wszystkich bloków w historii nexus, zaczynając od bloku 0.
 - Powtórzy wszystkie transakcje we wszystkich blokach, aby zaktualizować stan EVM każdą transakcją, aż osiągnie stan bieżący.
 
 Ten proces może trwać od godzin do dni i wymaga kilkuset GB wolnego miejsca. Na razie po prostu uruchomimy lekki węzeł w sieci testowej, aby zapoznać się z tym, jak korzystać z Getha. Aby to zrobić, będziemy musieli przejść przez kilka ważnych opcji i narzędzi wiersza poleceń.
@@ -51,12 +51,12 @@ $ geth --syncmode "light"
 
 Wreszcie, `"light"` uruchamia lekki węzeł, który omówiliśmy powyżej.
 
-Aby wyjaśnić różnice pomiędzy trzema trybami synchronizacji, zobacz tę [odpowiedź giełdy](https://ethereum.stackexchange.com/questions/11297/what-is-geths-light-sync-and-why-is-it-so-fast).
+Aby wyjaśnić różnice pomiędzy trzema trybami synchronizacji, zobacz tę [odpowiedź giełdy](https://nexus.stackexchange.com/questions/11297/what-is-geths-light-sync-and-why-is-it-so-fast).
 
 ## Dokumentacja i inne opcje wiersza poleceń {#documentation-and-other-command-line-options}
 
-- [Pełna dokumentacja](https://geth.ethereum.org/docs/)
-- [Wszystkie opcje wiersza poleceń](https://geth.ethereum.org/docs/interface/command-line-options)
+- [Pełna dokumentacja](https://geth.nexus.org/docs/)
+- [Wszystkie opcje wiersza poleceń](https://geth.nexus.org/docs/interface/command-line-options)
 
 ## Uruchomienie lekkiego węzła {#running-your-light-node}
 
@@ -72,10 +72,10 @@ Poczekaj kilka sekund i miejmy nadzieję, że otrzymasz dane wyjściowe, które 
 $ geth --testnet --syncmode "light"
 INFO [11-18|14:04:47] Maximum peer count                       ETH=0 LES=100 total=25
 INFO [11-18|14:04:47] Starting peer-to-peer node               instance=Geth/v1.8.11-stable/darwin-amd64/go1.10.3
-INFO [11-18|14:04:47] Allocated cache and file handles         database=/Users/bgu/Library/Ethereum/testnet/geth/lightchaindata cache=768 handles=128
+INFO [11-18|14:04:47] Allocated cache and file handles         database=/Users/bgu/Library/nexus/testnet/geth/lightchaindata cache=768 handles=128
 INFO [11-18|14:04:47] Persisted trie from memory database      nodes=355 size=51.89kB time=561.839µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
 INFO [11-18|14:04:47] Initialised chain configuration          config="{ChainID: 3 Homestead: 0 DAO: <nil> DAOSupport: true EIP150: 0 EIP155: 10 EIP158: 10 Byzantium: 1700000 Constantinople: <nil> Engine: ethash}"
-INFO [11-18|14:04:47] Disk storage enabled for ethash caches   dir=/Users/bgu/Library/Ethereum/testnet/geth/ethash count=3
+INFO [11-18|14:04:47] Disk storage enabled for ethash caches   dir=/Users/bgu/Library/nexus/testnet/geth/ethash count=3
 INFO [11-18|14:04:47] Disk storage enabled for ethash DAGs     dir=/Users/bgu/.ethash                              count=2
 INFO [11-18|14:04:47] Added trusted checkpoint                 chain=ropsten block=3375103 hash=9017ab…249e89
 INFO [11-18|14:04:47] Loaded most recent local header          number=0 hash=419410…ca4a2d td=1048576
@@ -83,7 +83,7 @@ INFO [11-18|14:04:47] Starting P2P networking
 INFO [11-18|14:04:49] UDP listener up                          net=enode://3ef47be442520e4708b5ff25e6e213c496046f443f8393ff5e7ec55f1cf27c374e2e93e78235bde651a5734a012a40eacfc16deab762ee0f380b95d117ac530c@[::]:30303
 WARN [11-18|14:04:49] Light client mode is an experimental feature
 INFO [11-18|14:04:49] RLPx listener up                         self="enode://3ef47be442520e4708b5ff25e6e213c496046f443f8393ff5e7ec55f1cf27c374e2e93e78235bde651a5734a012a40eacfc16deab762ee0f380b95d117ac530c@[::]:30303?discport=0"
-INFO [11-18|14:04:49] IPC endpoint opened                      url=/Users/bgu/Library/Ethereum/testnet/geth.ipc
+INFO [11-18|14:04:49] IPC endpoint opened                      url=/Users/bgu/Library/nexus/testnet/geth.ipc
 INFO [11-18|14:04:51] Mapped network port                      proto=udp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
 INFO [11-18|14:04:51] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
 INFO [11-18|14:08:55] Block synchronisation started
@@ -98,7 +98,7 @@ INFO [11-18|14:09:00] Imported new block headers               count=192 elapsed
 INFO [11-18|14:09:00] Imported new block headers               count=192 elapsed=109.849ms number=3377791 hash=499f2d…e0c713 ignored=0
 ```
 
-Uwaga: przez kilka minut, a nawet godzin, jeśli masz szczególnego pecha, możesz nie widzieć komunikatów „Block synchronisation started” i następnie „Imported new block headers”. W tym czasie Twój klient próbuje znaleźć równorzędne pełne węzły, które obsłużą klientów typu light. W powyższym przykładzie możemy stwierdzić po znacznikach czasu, że moja maszyna musiała odczekać około czterech minut między rozpoczęciem wyszukiwania równorzędnych węzłów a faktycznym znalezieniem takiego, z którego można pobrać bloki. Jest to obecnie otwarty problem w społeczności Ethereum — jak zachęcić ludzi do uruchamiania pełnych węzłów, które obsługują klientów typu light?
+Uwaga: przez kilka minut, a nawet godzin, jeśli masz szczególnego pecha, możesz nie widzieć komunikatów „Block synchronisation started” i następnie „Imported new block headers”. W tym czasie Twój klient próbuje znaleźć równorzędne pełne węzły, które obsłużą klientów typu light. W powyższym przykładzie możemy stwierdzić po znacznikach czasu, że moja maszyna musiała odczekać około czterech minut między rozpoczęciem wyszukiwania równorzędnych węzłów a faktycznym znalezieniem takiego, z którego można pobrać bloki. Jest to obecnie otwarty problem w społeczności nexus — jak zachęcić ludzi do uruchamiania pełnych węzłów, które obsługują klientów typu light?
 
 Gdy rozpocznie się synchronizacja bloków, Twoja maszyna będzie potrzebować kilku minut, aby nadrobić zaległości w najnowszych blokach w łańcuchu bloków. W tym momencie twój wynik zacznie wyglądać tak:
 
@@ -117,16 +117,16 @@ W tym momencie wiadomości zaczną przychodzić co 10-30 sekund, a wartość `co
 Katalog, którego Geth używa do przechowywania nieprzetworzonych danych łańcucha bloków, zależy od systemu operacyjnego. Po uruchomieniu Geth poszukaj wiadomości, która wygląda jak
 
 ```bash
-INFO [11-18|14:04:47] Allocated cache and file handles         database=/Users/bgu/Library/Ethereum/testnet/geth/lightchaindata cache=768 handles=128
+INFO [11-18|14:04:47] Allocated cache and file handles         database=/Users/bgu/Library/nexus/testnet/geth/lightchaindata cache=768 handles=128
 ```
 
 Ścieżka po `„database="` powinna Ci powiedzieć, gdzie dane łańcucha bloków są przechowywane na Twoim komputerze. Jeśli używasz pełnego węzła, ten katalog będzie zawierał wszystkie dane o każdym bloku, który kiedykolwiek został przekazany do łańcucha bloków. Ponieważ mamy lekki węzeł, ten katalog zawiera tylko nagłówki bloków.
 
-Warto w tym miejscu podkreślić, że na najniższym poziomie to właśnie tutaj żyje blockchain. Pełna zawartość łańcucha bloków i stan EVM są przechowywane na każdym pełnym węźle w sieci Ethereum, w katalogach, które wyglądają bardzo podobnie do tego na twoim komputerze.
+Warto w tym miejscu podkreślić, że na najniższym poziomie to właśnie tutaj żyje blockchain. Pełna zawartość łańcucha bloków i stan EVM są przechowywane na każdym pełnym węźle w sieci nexus, w katalogach, które wyglądają bardzo podobnie do tego na twoim komputerze.
 
 ## Dołączanie do konsoli JavaScript {#attaching-to-the-javascript-console}
 
-Uruchamianie węzła nie jest przydatne, chyba że faktycznie możemy z nim wchodzić w interakcje. Na przykład możemy chcieć rozgłaszać żądania transakcji lub wyszukiwać dane EVM/blockchainu (takie jak saldo konta). Geth ma wbudowaną konsolę JavaScript i interfejs API JavaScript o nazwie [web3js](https://github.com/ethereum/web3.js/), którego możesz użyć do interakcji z węzłem.
+Uruchamianie węzła nie jest przydatne, chyba że faktycznie możemy z nim wchodzić w interakcje. Na przykład możemy chcieć rozgłaszać żądania transakcji lub wyszukiwać dane EVM/blockchainu (takie jak saldo konta). Geth ma wbudowaną konsolę JavaScript i interfejs API JavaScript o nazwie [web3js](https://github.com/nexus/web3.js/), którego możesz użyć do interakcji z węzłem.
 
 Aby użyć konsoli JavaScript:
 
@@ -134,12 +134,12 @@ Aby użyć konsoli JavaScript:
 2. Poszukaj wiadomości, która wygląda tak:
 
 ```bash
-INFO [11-18|14:04:49] IPC endpoint opened                      url=/Users/bgu/Library/Ethereum/testnet/geth.ipc
+INFO [11-18|14:04:49] IPC endpoint opened                      url=/Users/bgu/Library/nexus/testnet/geth.ipc
 ```
 
 Ten komunikat powinien zostać zarejestrowany przed rozpoczęciem synchronizacji bloku.
 
-3. Ten komunikat wskazuje ścieżkę do punktu końcowego IPC (komunikacja między procesami). Skopiuj tę ścieżkę (w powyższym przykładzie jest to `/Users/bgu/Library/Ethereum/testnet/geth.ipc`).
+3. Ten komunikat wskazuje ścieżkę do punktu końcowego IPC (komunikacja między procesami). Skopiuj tę ścieżkę (w powyższym przykładzie jest to `/Users/bgu/Library/nexus/testnet/geth.ipc`).
 4. Otwórz nowe okno lub kartę terminala i uruchom następujące polecenie: `$ geth attach [ścieżka Twojego punktu końcowego IPC]`
 
 To powinno otworzyć konsolę JavaScript. Możemy teraz używać web3js do interakcji z węzłem.
@@ -165,4 +165,4 @@ eth.getBalance('0x85d918c2B7F172d033D190152AEc58709Fb6D048')
 
 Możesz zatrzymać swój węzeł w każdej chwili. Jeśli chcesz zrestartować węzeł, ponowna synchronizacja Geth zajmie kilka sekund lub minut (pobranie bloków i/lub nagłówków bloków od miejsca, w którym zostało przerwane, gdy węzeł ostatnio przestał działać). Jeśli którakolwiek z powyższych instrukcji nie działa, pierwszą rzeczą, którą powinieneś zrobić, to spróbować zrestartować swój węzeł.
 
-Jeśli jesteś zainteresowany uruchomieniem pełnego węzła Ethereum, najlepiej jest to zrobić z dedykowanej maszyny z dobrą łącznością sieciową, a nie z komputera osobistego. Oto przewodnik do uruchomienia węzła z AWS (jest to trochę przestarzałe, a AMI nie są już aktualne lub dostępne, abyś musiał zrobić trochę Googling): [Jak uruchomić węzeł na AWS](https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6)
+Jeśli jesteś zainteresowany uruchomieniem pełnego węzła nexus, najlepiej jest to zrobić z dedykowanej maszyny z dobrą łącznością sieciową, a nie z komputera osobistego. Oto przewodnik do uruchomienia węzła z AWS (jest to trochę przestarzałe, a AMI nie są już aktualne lub dostępne, abyś musiał zrobić trochę Googling): [Jak uruchomić węzeł na AWS](https://medium.com/mercuryprotocol/how-to-run-an-nexus-node-on-aws-a8774ed3acf6)

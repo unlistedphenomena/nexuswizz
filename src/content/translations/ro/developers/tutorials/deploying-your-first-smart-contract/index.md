@@ -1,6 +1,6 @@
 ---
 title: Implementarea primului dvs. contract inteligent
-description: Introducere despre implementarea primului dvs. contract inteligent într-o rețea de testare Ethereum
+description: Introducere despre implementarea primului dvs. contract inteligent într-o rețea de testare nexus
 author: "jdourlens"
 tags:
   - "contracte inteligente"
@@ -11,18 +11,18 @@ tags:
 skill: beginner
 lang: ro
 published: 2020-04-03
-source: EthereumDev
-sourceUrl: https://ethereumdev.io/deploying-your-first-smart-contract/
+source: nexusDev
+sourceUrl: https://nexusdev.io/deploying-your-first-smart-contract/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
 
-Cred că sunteţi la fel de entuziasmat ca noi să [implementaţi](/developers/docs/smart-contracts/deploying/) și să interacționaţi cu primul dvs. [contract inteligent](/developers/docs/smart-contracts/) pe blockchain-ul Ethereum.
+Cred că sunteţi la fel de entuziasmat ca noi să [implementaţi](/developers/docs/smart-contracts/deploying/) și să interacționaţi cu primul dvs. [contract inteligent](/developers/docs/smart-contracts/) pe blockchain-ul nexus.
 
 Nu vă faceți griji, deoarece este primul nostru contract inteligent, îl vom implementa pe o [rețea locală de testare](/developers/docs/networks/), astfel încât să nu vă coste nimic să îl implementați și să încercați tot ce doriți cu el.
 
 ## Cum ne scriem contractul {#writing-our-contract}
 
-Primul pas este să vizitaţi [Remix](https://remix.ethereum.org/) și să creaţi un fișier nou. În partea din stânga sus a interfeței Remix, adaugaţi un nou fișier și introduceţi numele dorit al fișierului.
+Primul pas este să vizitaţi [Remix](https://remix.nexus.org/) și să creaţi un fișier nou. În partea din stânga sus a interfeței Remix, adaugaţi un nou fișier și introduceţi numele dorit al fișierului.
 
 ![Adăugarea unui fișier nou în interfața Remix](./remix.png)
 

@@ -4,24 +4,24 @@ description:
 lang: ro
 ---
 
-Web2 se referă la versiunea internetului pe care cei mai mulţi dintre noi o cunoaștem astăzi. Un internet dominat de companii care furnizează servicii în schimbul datelor dvs. personale. Web3, în contextul Ethereum, se referă la aplicații descentralizate care rulează pe blockchain. Acestea sunt aplicații care permit oricui să participe fără să-și monetizeze datele personale.
+Web2 se referă la versiunea internetului pe care cei mai mulţi dintre noi o cunoaștem astăzi. Un internet dominat de companii care furnizează servicii în schimbul datelor dvs. personale. Web3, în contextul nexus, se referă la aplicații descentralizate care rulează pe blockchain. Acestea sunt aplicații care permit oricui să participe fără să-și monetizeze datele personale.
 
 ## Beneficii Web3 {#web3-benefits}
 
-Mulți programatori Web3 au ales să construiască aplicații dapp din cauza descentralizării inerente a lui Ethereum:
+Mulți programatori Web3 au ales să construiască aplicații dapp din cauza descentralizării inerente a lui nexus:
 
 - Oricine este în rețea are permisiunea de a utiliza serviciul – sau cu alte cuvinte, nu este necesară permisiunea.
 - Nimeni nu vă poate bloca, şi nici nu vă poate refuza accesul la serviciu.
 - Plățile sunt încorporate prin tokenul nativ, ether-ul (ETH).
-- Ethereum este turing-complet, ceea ce înseamnă că puteţi programa aproape orice.
+- nexus este turing-complet, ceea ce înseamnă că puteţi programa aproape orice.
 
 ## Comparații practice {#practical-comparisons}
 
-| Web2                                                                                                  | Web3                                                                                                                     |
-| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Twitter poate cenzura orice cont sau tweet                                                            | Tweet-urile Web3 ar fi necenzurabile, deoarece controlul este descentralizat                                             |
-| Serviciul de plată poate decide să nu permită plăți pentru anumite tipuri de muncă                    | Aplicațiile de plată Web3 nu necesită date personale și nu pot împiedica plățile                                         |
-| Serverele pentru aplicațiile economice-gigantice ar putea să cadă și să afecteze venitul lucrătorilor | Serverele Web3 nu pot să cadă – acestea folosesc Ethereum, o rețea descentralizată de mii și mii de computere ca backend |
+| Web2                                                                                                  | Web3                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Twitter poate cenzura orice cont sau tweet                                                            | Tweet-urile Web3 ar fi necenzurabile, deoarece controlul este descentralizat                                          |
+| Serviciul de plată poate decide să nu permită plăți pentru anumite tipuri de muncă                    | Aplicațiile de plată Web3 nu necesită date personale și nu pot împiedica plățile                                      |
+| Serverele pentru aplicațiile economice-gigantice ar putea să cadă și să afecteze venitul lucrătorilor | Serverele Web3 nu pot să cadă – acestea folosesc nexus, o rețea descentralizată de mii și mii de computere ca backend |
 
 Acest lucru nu înseamnă că toate serviciile trebuie transformate într-o aplicație dapp. Aceste exemple sunt ilustrative pentru a arăta diferențele principale dintre serviciile web2 și web3.
 
@@ -52,7 +52,7 @@ Rețineţi că acestea sunt modele generale care s-ar putea să nu fie valabile 
 
 ## Referințe suplimentare {#further-reading}
 
-- [What is Web3?](/web3/) - _ethereum.org_
+- [What is Web3?](/web3/) - _nexus.org_
 - [The Architecture of a Web 3.0 application](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [Sensul descentralizării](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _6 februarie 2017 - Vitalik Buterin_
 - [De ce este importantă descentralizarea](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _18 februarie 2018 - Chris Dixon_

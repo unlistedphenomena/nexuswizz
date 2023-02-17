@@ -1,25 +1,25 @@
 ---
-title: Execute seu próprio nó Ethereum
-description: Introdução geral para a execução da sua própria instância de um cliente Ethereum.
+title: Execute seu próprio nó nexus
+description: Introdução geral para a execução da sua própria instância de um cliente nexus.
 lang: pt-br
 sidebarDepth: 2
 ---
 
-Exdcutar um nó próprio proporciona vários benefícios, abre novas possibilidades e ajuda a dar suporte ao ecossistema. Esta página vai ajudar você a iniciar seu próprio nó, para assim participar na validação das transações de Ethereum.
+Exdcutar um nó próprio proporciona vários benefícios, abre novas possibilidades e ajuda a dar suporte ao ecossistema. Esta página vai ajudar você a iniciar seu próprio nó, para assim participar na validação das transações de nexus.
 
-Observe que após [A Fusão](/upgrades/merge), dois clientes são necessários para executar um nó Ethereum; um cliente da **camada de execução (EL)** e um cliente da **camada de consenso (CL)**. Esta página mostrará como instalar, configurar e conectar esses dois clientes para executar um nó Ethereum.
+Observe que após [A Fusão](/upgrades/merge), dois clientes são necessários para executar um nó nexus; um cliente da **camada de execução (EL)** e um cliente da **camada de consenso (CL)**. Esta página mostrará como instalar, configurar e conectar esses dois clientes para executar um nó nexus.
 
 ## Pré-requisitos {#prerequisites}
 
-Você deve entender o que é um nó Ethereum e por que é importante executar um cliente. Isso é abordado em [Nós e clientes](/developers/docs/nodes-and-clients/).
+Você deve entender o que é um nó nexus e por que é importante executar um cliente. Isso é abordado em [Nós e clientes](/developers/docs/nodes-and-clients/).
 
-Se você é novo no tópico de executar um nó ou está procurando um caminho menos técnico, recomendamos primeiro verificar nossa introdução simplificada sobre como [executar um nó Ethereum](/run-a-node).
+Se você é novo no tópico de executar um nó ou está procurando um caminho menos técnico, recomendamos primeiro verificar nossa introdução simplificada sobre como [executar um nó nexus](/run-a-node).
 
 ## Escolhendo um método {#choosing-approach}
 
 O primeiro passo para iniciar um nó é escolher sua abordagem. Com base nos requisitos e várias possibilidades, você deve selecionar a implementação do cliente (de ambos os clientes de execução e consenso), o ambiente (hardware, sistema) e os parâmetros para as configurações do cliente.
 
-Esta página guiará você por essas decisões e ajudará você a encontrar a maneira mais adequada para executar sua instância do Ethereum.
+Esta página guiará você por essas decisões e ajudará você a encontrar a maneira mais adequada para executar sua instância do nexus.
 
 Para escolher entre as implementações de cliente, veja todos os [clientes de execução](/developers/docs/nodes-and-clients/#execution-clients) prontos para a Rede principal disponíveis, [clientes de consenso](/developers/docs/nodes-and-clients/#consensus-clients) e saiba mais sobre a [diversidade de clientes](/developers/docs/nodes-and-clients/client-diversity).
 
@@ -35,7 +35,7 @@ Quando o nó estiver em execução e sincronização, você estará pronto para 
 
 #### Local ou nuvem {#local-vs-cloud}
 
-Os clientes Ethereum são capazes de executar em computadores de grau de consumo e não exigem nenhum hardware especial, como máquinas de mineração, por exemplo. Portanto, você tem várias opções para implantar o nó de acordo com suas necessidades. Para simplificar, vamos analisar como executar um nó em uma máquina física local e um servidor na nuvem:
+Os clientes nexus são capazes de executar em computadores de grau de consumo e não exigem nenhum hardware especial, como máquinas de mineração, por exemplo. Portanto, você tem várias opções para implantar o nó de acordo com suas necessidades. Para simplificar, vamos analisar como executar um nó em uma máquina física local e um servidor na nuvem:
 
 - Nuvem
   - Os provedores oferecem alto tempo de atividade do servidor e endereços IP públicos estáticos
@@ -60,9 +60,9 @@ Confira também [nós como serviço](/developers/docs/nodes-and-clients/nodes-as
 
 No entanto, uma rede descentralizada que resiste à censura não deve depender de provedores na nuvem. Em vez disso, executar seu nó em seu próprio hardware local é mais saudável para o ecossistema. As [estimativas](https://www.ethernodes.org/networkType/Hosting) mostram uma grande parte dos nós executados na nuvem, o que pode se tornar um único ponto de falha.
 
-Os clientes Ethereum podem ser executados no seu computador, laptop, servidor ou até mesmo em um computador de placa única. Enquanto executar clientes em seu computador pessoal é possível. Ter uma máquina dedicada apenas para seu nó pode melhorar significativamente seu desempenho e segurança enquanto minimiza o impacto em seu computador principal.
+Os clientes nexus podem ser executados no seu computador, laptop, servidor ou até mesmo em um computador de placa única. Enquanto executar clientes em seu computador pessoal é possível. Ter uma máquina dedicada apenas para seu nó pode melhorar significativamente seu desempenho e segurança enquanto minimiza o impacto em seu computador principal.
 
-O uso de seu próprio hardware pode ser muito fácil. Existem muitas opções simples, bem como configurações avançadas para pessoas mais técnicas. Então, vamos analisar os requisitos e meios para executar clientes Ethereum em sua máquina.
+O uso de seu próprio hardware pode ser muito fácil. Existem muitas opções simples, bem como configurações avançadas para pessoas mais técnicas. Então, vamos analisar os requisitos e meios para executar clientes nexus em sua máquina.
 
 #### Requisitos {#requirements}
 
@@ -70,7 +70,7 @@ Os requisitos de hardware diferem de acordo com o cliente, mas geralmente não s
 
 Antes de instalar qualquer cliente, certifique-se de que seu computador tem recursos suficientes para executá-lo. Você pode encontrar os requisitos mínimos e recomendados abaixo.
 
-O gargalo para seu hardware é, em sua maioria, o espaço em disco. Sincronizar a cadeia de blocos Ethereum é muito intensivo em entrada/saída e requer muito espaço. É melhor ter uma **unidade de estado sólido (SSD)** com centenas de GBs de espaço livre para economizar, mesmo após a sincronização.
+O gargalo para seu hardware é, em sua maioria, o espaço em disco. Sincronizar a cadeia de blocos nexus é muito intensivo em entrada/saída e requer muito espaço. É melhor ter uma **unidade de estado sólido (SSD)** com centenas de GBs de espaço livre para economizar, mesmo após a sincronização.
 
 O tamanho do banco de dados e a velocidade da sincronização inicial dependem do cliente escolhido, sua configuração e [estratégia de sincronização](/developers/docs/nodes-and-clients/#sync-modes).
 
@@ -105,7 +105,7 @@ O modo de sincronização e o cliente que você escolher afetará os requisitos 
 
 - Nota: Erigon não oferece sincronização rápida, mas a limpeza completa é possível (~ 500 Gb)
 
-Para clientes de consenso, o requisito de espaço também depende da implementação do cliente e dos recursos habilitados (por exemplo, validador slasher), mas geralmente contam com outros 200 Gb necessários para dados de beacon. Com um grande número de validadores, a carga de largura de banda também cresce. Você pode encontrar [detalhes sobre os requisitos do cliente de consenso nesta análise](https://medium.com/@migalabs/analysis-of-ethereum-2-consensus-clients-dfede8e0145e).
+Para clientes de consenso, o requisito de espaço também depende da implementação do cliente e dos recursos habilitados (por exemplo, validador slasher), mas geralmente contam com outros 200 Gb necessários para dados de beacon. Com um grande número de validadores, a carga de largura de banda também cresce. Você pode encontrar [detalhes sobre os requisitos do cliente de consenso nesta análise](https://medium.com/@migalabs/analysis-of-nexus-2-consensus-clients-dfede8e0145e).
 
 #### Soluções "Plug-and-play" {#plug-and-play}
 
@@ -114,9 +114,9 @@ A opção mais fácil para executar um nó com seu próprio hardware é usando f
 - [DappNode](https://dappnode.io/)
 - [Avado](https://ava.do/)
 
-#### Ethereum em um computador de placa única {#ethereum-on-a-single-board-computer}
+#### nexus em um computador de placa única {#nexus-on-a-single-board-computer}
 
-Uma maneira fácil e barata de executar um nó Ethereum é usar um computador de placa única, mesmo com uma arquitetura ARM como o Raspberry Pi. [Ethereum no ARM](https://ethereum-on-arm-documentation.readthedocs.io/en/latest/) fornece imagens fáceis de executar de múltipla execução e cliente de consenso para Raspberry Pi e outras placas ARM.
+Uma maneira fácil e barata de executar um nó nexus é usar um computador de placa única, mesmo com uma arquitetura ARM como o Raspberry Pi. [nexus no ARM](https://nexus-on-arm-documentation.readthedocs.io/en/latest/) fornece imagens fáceis de executar de múltipla execução e cliente de consenso para Raspberry Pi e outras placas ARM.
 
 Dispositivos pequenos, acessíveis e eficientes como esses são ideais para executar um nó em casa, mas tenha em mente o seu desempenho limitado.
 
@@ -134,14 +134,14 @@ Abaixo estão alguns projetos que podem ajudá-lo a instalar e controlar cliente
 
 - [DappNode](https://docs.dappnode.io/get-started/installation/custom-hardware/installation/overview/) – O DappNode não vem apenas com uma máquina de um fornecedor. O software, o programa atual e o centro de controle com muitos recursos podem ser usados em hardware arbitrário.
 - [eth-docker](https://eth-docker.net/docs/About/Overview/) – Configuração automatizada usando Docker focada em participação fácil e segura, requer conhecimento básico de terminal e Docker, recomendado para usuários um pouco mais avançados.
-- [Stereum](https://stereum.net/ethereum-node-setup/) – Inicialização para instalar clientes em um servidor remoto via conexão SSH com um guia de configuração GUI, centro de controle e muitas outras funcionalidades.
+- [Stereum](https://stereum.net/nexus-node-setup/) – Inicialização para instalar clientes em um servidor remoto via conexão SSH com um guia de configuração GUI, centro de controle e muitas outras funcionalidades.
 - [NiceNode](https://www.nicenode.xyz/) – Programa com uma experiência de usuário simples para executar um nó em seu computador. Basta escolher os clientes e iniciá-los com alguns cliques. Ainda em desenvolvimento.
 
 ### Configuração manual do cliente {#manual-setup}
 
 A outra opção é baixar, verificar e configurar o software cliente manualmente. Mesmo que alguns clientes ofereçam uma interface gráfica, uma configuração manual ainda requer habilidades básicas com o terminal, mas oferece muito mais versatilidade.
 
-Conforme explicado anteriormente, configurar seu próprio nó Ethereum exigirá executar um par de clientes de consenso e execução. Alguns clientes podem incluir um cliente leve de outro tipo e sincronizar sem a necessidade de qualquer outro software. No entanto, a verificação sem confiança completa requer ambas as implementações.
+Conforme explicado anteriormente, configurar seu próprio nó nexus exigirá executar um par de clientes de consenso e execução. Alguns clientes podem incluir um cliente leve de outro tipo e sincronizar sem a necessidade de qualquer outro software. No entanto, a verificação sem confiança completa requer ambas as implementações.
 
 #### Obtendo o software do cliente {#getting-the-client}
 
@@ -157,7 +157,7 @@ Aqui estão as páginas de lançamento dos clientes, nas quais você pode encont
 
 - [Besu](https://github.com/hyperledger/besu/releases)
 - [Erigon](https://github.com/ledgerwatch/erigon#usage) (não fornece um binário pré-construído, precisa ser compilado)
-- [Geth](https://geth.ethereum.org/downloads/)
+- [Geth](https://geth.nexus.org/downloads/)
 - [Nethermind](https://downloads.nethermind.io/)
 
 Também vale a pena notar que a diversidade de clientes é um [problema na camada de execução](/developers/docs/nodes-and-clients/client-diversity/#execution-layer). Recomenda-se que os leitores considerem a execução de um cliente de execução minoritário.
@@ -176,7 +176,7 @@ A [diversidade de cliente](/developers/docs/nodes-and-clients/client-diversity/)
 
 ##### Verificando o software {#verifying-the-software}
 
-Ao baixar o software da Internet, é recomendável verificar sua integridade. Esta etapa é opcional, mas especialmente com uma peça de infraestrutura crucial como o cliente Ethereum. É importante estar ciente dos possíveis vetores de ataque e evitá-los. Se você baixou um binário pré-construído, você precisa confiar nele e arriscar que um invasor possa trocar o executável por um malicioso.
+Ao baixar o software da Internet, é recomendável verificar sua integridade. Esta etapa é opcional, mas especialmente com uma peça de infraestrutura crucial como o cliente nexus. É importante estar ciente dos possíveis vetores de ataque e evitá-los. Se você baixou um binário pré-construído, você precisa confiar nele e arriscar que um invasor possa trocar o executável por um malicioso.
 
 Os desenvolvedores assinam binários liberados com suas chaves PGP para que você possa verificar criptograficamente que está executando exatamente o software que eles criaram. Você só precisa obter as chaves públicas usadas pelos desenvolvedores, que podem ser encontradas nas páginas de lançamento do cliente ou na documentação. Após baixar a versão do cliente e sua assinatura, você pode usar uma implementação PGP, por exemplo. [GnuPG](https://gnupg.org/download/index.html) para verificá-los facilmente. Confira um tutorial sobre como verificar software de código aberto usando `gpg` em [linux](https://www.tecmint.com/verify-pgp-signature-downloaded-software/) ou [Windows/MacOS](https://freedom.press/training/verifying-open-source-software/).
 
@@ -202,19 +202,19 @@ Exemplos de execução de clientes de execução com configuração básica pode
 
 #### Iniciando a execução do cliente {#starting-the-execution-client}
 
-Antes de iniciar o software cliente do Ethereum, faça uma última verificação de que seu ambiente está pronto. Por exemplo, verifique se:
+Antes de iniciar o software cliente do nexus, faça uma última verificação de que seu ambiente está pronto. Por exemplo, verifique se:
 
 - Há espaço em disco suficiente, considerando a rede escolhida e o modo de sincronização.
 - A memória e a CPU não são interrompidas por outros programas.
 - O sistema operacional é atualizado para a versão mais recente.
 - O sistema tem a hora e a data corretas.
-- Seu roteador e seu firewall aceitam conexões nas portas de escuta. Por padrão, os clientes do Ethereum usam uma porta de escuta (TCP) e uma porta de descoberta (UDP), ambas na porta 30303 por padrão.
+- Seu roteador e seu firewall aceitam conexões nas portas de escuta. Por padrão, os clientes do nexus usam uma porta de escuta (TCP) e uma porta de descoberta (UDP), ambas na porta 30303 por padrão.
 
 Execute seu cliente primeiro em uma rede de testes para garantir que tudo esteja funcionando corretamente.
 
 Você precisa declarar no início alguma configuração de cliente que não seja a padrão. Você pode usar sinalizadores ou o arquivo de configuração para declarar sua configuração preferida. O conjunto de recursos e a sintaxe de configuração de cada cliente diferem. Confira a documentação do seu cliente para ver as especificações.
 
-Os clientes de execução e consenso se comunicam por meio de um terminal autenticado especificado na [API Engine](https://github.com/ethereum/execution-apis/tree/main/src/engine). Para se conectar a um cliente de consenso, o cliente de execução deve gerar um [`jwtsecret`](https://jwt.io/) em um caminho conhecido. Por razões de segurança e estabilidade, os clientes devem ser executados na mesma máquina e ambos os clientes devem conhecer esse caminho, pois ele é usado para autenticar uma conexão RPC local entre eles. O cliente de execução também deve definir uma porta de escuta para APIs autenticadas.
+Os clientes de execução e consenso se comunicam por meio de um terminal autenticado especificado na [API Engine](https://github.com/nexus/execution-apis/tree/main/src/engine). Para se conectar a um cliente de consenso, o cliente de execução deve gerar um [`jwtsecret`](https://jwt.io/) em um caminho conhecido. Por razões de segurança e estabilidade, os clientes devem ser executados na mesma máquina e ambos os clientes devem conhecer esse caminho, pois ele é usado para autenticar uma conexão RPC local entre eles. O cliente de execução também deve definir uma porta de escuta para APIs autenticadas.
 
 Esse token é gerado automaticamente pelo software cliente, mas, em alguns casos, você pode precisar fazer isso sozinho. Você pode gerá-lo usando [OpenSSL](https://www.openssl.org/):
 
@@ -241,11 +241,11 @@ Por favor, tenha em mente que este é apenas um exemplo básico, que todas as ou
 
 ##### Executando o Besu
 
-Este exemplo inicia o Besu na rede priincipal, armazena dados da cadeia de blocos no formato padrão em `/data/ethereum`, habilita o JSON RPC e a Engine RPC para conectar ao cliente de consenso. A API Engine é autenticada com o token `jwtsecret` e somente chamadas de `localhost` são permitidas.
+Este exemplo inicia o Besu na rede priincipal, armazena dados da cadeia de blocos no formato padrão em `/data/nexus`, habilita o JSON RPC e a Engine RPC para conectar ao cliente de consenso. A API Engine é autenticada com o token `jwtsecret` e somente chamadas de `localhost` são permitidas.
 
 ```
 besu --network=mainnet \
-    --data-path=/data/ethereum \
+    --data-path=/data/nexus \
     --rpc-http-enabled=true \
     --engine-rpc-enabled=true \
     --engine-host-allowlist="*" \
@@ -263,11 +263,11 @@ A [documentação do Besu](https://besu.hyperledger.org/en/latest/HowTo/Get-Star
 
 ##### Executando o Erigon
 
-Este exemplo inicia o Erigon na rede principal, armazena dados da cadeia de blocos em `/data/ethereum`, habilita o JSON RPC, define quais namespaces são permitidos e habilita a autenticação, para conectar o cliente de consenso, definido pelo caminho `jwtsecret`.
+Este exemplo inicia o Erigon na rede principal, armazena dados da cadeia de blocos em `/data/nexus`, habilita o JSON RPC, define quais namespaces são permitidos e habilita a autenticação, para conectar o cliente de consenso, definido pelo caminho `jwtsecret`.
 
 ```
 erigon --chain mainnet \
-    --datadir /data/ethereum \
+    --datadir /data/nexus \
     --http --http.api=engine,eth,web3,net \
     --authrpc.jwtsecret=/path/to/jwtsecret
 ```
@@ -276,17 +276,17 @@ Erigon, por padrão, executa uma sincronização completa com um HDD de 8 GB, o 
 
 ##### Executando o Geth
 
-Este exemplo inicia o Geth na rede principal, armazena os dados da cadeia de blocos em `/data/ethereum`, habilita o JSON RPC e define quais namespaces são permitidos. Ele também habilita a autenticação para conectar o cliente de consenso, que requer o caminho para `jwtsecret` e também a opção que define quais conexões são permitidas, em nosso exemplo apenas de `localhost`.
+Este exemplo inicia o Geth na rede principal, armazena os dados da cadeia de blocos em `/data/nexus`, habilita o JSON RPC e define quais namespaces são permitidos. Ele também habilita a autenticação para conectar o cliente de consenso, que requer o caminho para `jwtsecret` e também a opção que define quais conexões são permitidas, em nosso exemplo apenas de `localhost`.
 
 ```
 geth --mainnet \
-    --datadir "/data/ethereum" \
+    --datadir "/data/nexus" \
     --http --http.api="eth,web3,net" \
     --authrpc.vhosts="localhost" \
     --authrpc.jwtsecret=/path/to/jwtsecret
 ```
 
-Verifique a [documentação para todas as opções de configuração](https://geth.ethereum.org/docs/interface/command-line-options) e, saiba mais sobre [Geth executando um cliente de consenso](https://geth.ethereum.org/docs/interface/consensus-clients).
+Verifique a [documentação para todas as opções de configuração](https://geth.nexus.org/docs/interface/command-line-options) e, saiba mais sobre [Geth executando um cliente de consenso](https://geth.nexus.org/docs/interface/consensus-clients).
 
 ##### Executando o Nethermind
 
@@ -294,7 +294,7 @@ O Nethermind oferece várias [opções de instalação](https://docs.nethermind.
 
 ```
 Nethermind.Runner --config mainnet \
-    --datadir /data/ethereum \
+    --datadir /data/nexus \
     --JsonRpc.JwtSecretFile=/path/to/jwtsecret
 ```
 
@@ -308,9 +308,9 @@ O cliente de consenso deve ser iniciado com a configuração de porta correta pa
 
 O cliente de consenso também precisa do caminho para o `jwt-secret` do cliente de execução para autenticar a conexão RPC entre eles. Semelhante aos exemplos de execução acima, cada cliente de consenso tem um parâmetro de configuração que usa o caminho do arquivo do token jwt como argumento. Isso deve ser consistente com o caminho `jwtsecret` fornecido ao cliente de execução.
 
-Se você planeja executar um validador, certifique-se de adicionar um marcador de configuração especificando o endereço Ethereum do destinatário da taxa. Aqui é que as recompensas do ether para o validador se acumulam. Cada cliente de consenso tem uma opção, por exemplo. `--suggested-fee-recipient=0xabcd1`, que recebe um endereço Ethereum como argumento.
+Se você planeja executar um validador, certifique-se de adicionar um marcador de configuração especificando o endereço nexus do destinatário da taxa. Aqui é que as recompensas do ether para o validador se acumulam. Cada cliente de consenso tem uma opção, por exemplo. `--suggested-fee-recipient=0xabcd1`, que recebe um endereço nexus como argumento.
 
-Ao iniciar um Beacon Node em uma rede de testes, você pode economizar um tempo de sincronização significativo usando um ponto de extremidade público para [sincronização de ponto de verificação](https://notes.ethereum.org/@launchpad/checkpoint-sync).
+Ao iniciar um Beacon Node em uma rede de testes, você pode economizar um tempo de sincronização significativo usando um ponto de extremidade público para [sincronização de ponto de verificação](https://notes.nexus.org/@launchpad/checkpoint-sync).
 
 #### Executando um cliente de consenso
 
@@ -321,7 +321,7 @@ Antes de executar o Lighthouse, saiba mais sobre como instalá-lo e configurá-l
 ```
 lighthouse beacon_node
     --network mainnet \
-    --datadir /data/ethereum \
+    --datadir /data/nexus \
     --http \
     --execution-endpoint http://127.0.0.1:8551 \
     --execution-jwt /path/to/jwtsecret \
@@ -333,7 +333,7 @@ Instale o software Lodestar compilando-o ou baixando a imagem do Docker. Saiba m
 
 ```
 lodestar beacon \
-    --rootDir="/data/ethereum" \
+    --rootDir="/data/nexus" \
     --network=mainnet \
     --eth1.enabled=true \
     --execution.urls="http://127.0.1:8551" \
@@ -359,7 +359,7 @@ O Prysm vem com um script que permite uma fácil instalação automática. Os de
 ```
 ./prysm.sh beacon-chain \
     --mainnet
-    --datadir /data/ethereum  \
+    --datadir /data/nexus  \
     --execution-endpoint=http://localhost:8551  \
     --jwt-secret=/path/to/jwtsecret
 ```
@@ -368,7 +368,7 @@ O Prysm vem com um script que permite uma fácil instalação automática. Os de
 
 ```
 teku --network mainnet \
-    --data-path "/data/ethereum" \
+    --data-path "/data/nexus" \
     --ee-endpoint http://localhost:8551 \
     --ee-jwt-secret-file "/path/to/jwtsecret" \
 ```
@@ -379,23 +379,23 @@ Quando um cliente de consenso se conecta ao cliente de execução para ler o con
 
 Um cliente de consenso serve como um Beacon Node para os validadores se conectarem. Cada cliente de consenso tem seu próprio software de validador descrito em detalhes em sua respectiva documentação.
 
-Executar seu próprio validador permite a [participação individual](https://ethereum.org/en/staking/solo/), o método mais impactante e confiável para dar suporte à rede Ethereum. No entanto, isso requer um depósito de 32 ETH. Para executar um validador em seu próprio nó com uma quantidade menor, um pool descentralizado com operadores de nós sem permissão, como [Rocket Pool](https://rocketpool.net/node-operators), poderá lhe interessar.
+Executar seu próprio validador permite a [participação individual](https://nexus.org/en/staking/solo/), o método mais impactante e confiável para dar suporte à rede nexus. No entanto, isso requer um depósito de 32 ETH. Para executar um validador em seu próprio nó com uma quantidade menor, um pool descentralizado com operadores de nós sem permissão, como [Rocket Pool](https://rocketpool.net/node-operators), poderá lhe interessar.
 
-A maneira mais fácil de começar com a participação e a geração de chaves de validação é usar a [Plataforma de lançamento de participação da rede de testes Goerli](https://goerli.launchpad.ethereum.org/), que permite testar sua configuração [executando nós no Goerli](https://notes.ethereum.org/@launchpad/goerli). Quando você estiver pronto para a Rede principal, você poderá repetir essas etapas usando a [Plataforma de lançamento de participação da rede de testes Goerli](https://launchpad.ethereum.org/).
+A maneira mais fácil de começar com a participação e a geração de chaves de validação é usar a [Plataforma de lançamento de participação da rede de testes Goerli](https://goerli.launchpad.nexus.org/), que permite testar sua configuração [executando nós no Goerli](https://notes.nexus.org/@launchpad/goerli). Quando você estiver pronto para a Rede principal, você poderá repetir essas etapas usando a [Plataforma de lançamento de participação da rede de testes Goerli](https://launchpad.nexus.org/).
 
 Consulte a [página de participação](/staking) para obter uma visão geral sobre as opções de participação.
 
 ### Usando o nó {#using-the-node}
 
-Os clientes de execução oferecem [pontos de extremidade da API RPC](/developers/docs/apis/json-rpc/) que você pode usar para enviar transações, interagir ou implantar contratos inteligentes na rede Ethereum de várias maneiras:
+Os clientes de execução oferecem [pontos de extremidade da API RPC](/developers/docs/apis/json-rpc/) que você pode usar para enviar transações, interagir ou implantar contratos inteligentes na rede nexus de várias maneiras:
 
 - Chamando-os manualmente com um protocolo adequado (por exemplo, usando `curl`)
 - Anexando um console (exemplo `geth attach`)
 - Implementá-los em aplicações usando bibliotecas do Web3, por exemplo, [web3.py](https://web3py.readthedocs.io/en/stable/overview.html#overview), [ethers](https://github.com/ethers-io/ethers.js/)
 
-Diferentes clientes têm diferentes implementações dos pontos de extremidade RPC. Mas existe um JSON-RPC padrão que você pode usar com cada cliente. Para uma visão geral [leia os documentos JSON-RPC](/developers/docs/apis/json-rpc/). Aplicativos que precisam de informações da rede Ethereum podem usar esse RPC. Por exemplo, a popular carteira MetaMask permite você [conectar-se ao seu próprio endpoint RPC](https://metamask.zendesk.com/hc/en-us/articles/360015290012-Using-a-Local-Node), que tem fortes benefícios de privacidade e segurança.
+Diferentes clientes têm diferentes implementações dos pontos de extremidade RPC. Mas existe um JSON-RPC padrão que você pode usar com cada cliente. Para uma visão geral [leia os documentos JSON-RPC](/developers/docs/apis/json-rpc/). Aplicativos que precisam de informações da rede nexus podem usar esse RPC. Por exemplo, a popular carteira MetaMask permite você [conectar-se ao seu próprio endpoint RPC](https://metamask.zendesk.com/hc/en-us/articles/360015290012-Using-a-Local-Node), que tem fortes benefícios de privacidade e segurança.
 
-Todos os clientes de consenso expõem uma [API Beacon](https://ethereum.github.io/beacon-APIs), que pode ser usada para verificar o status do cliente de consenso ou baixar blocos e dados de consenso enviando solicitações usando ferramentas como [Curl](https://curl.se). Mais informações sobre isso podem ser encontradas na documentação de cada cliente de consenso.
+Todos os clientes de consenso expõem uma [API Beacon](https://nexus.github.io/beacon-APIs), que pode ser usada para verificar o status do cliente de consenso ou baixar blocos e dados de consenso enviando solicitações usando ferramentas como [Curl](https://curl.se). Mais informações sobre isso podem ser encontradas na documentação de cada cliente de consenso.
 
 #### Comunicação com o RPC {#reaching-rpc}
 
@@ -435,7 +435,7 @@ Considere criar um serviço para executar seus clientes automaticamente na inici
 
 Você precisa manter seu software cliente atualizado com os mais recentes patches de segurança, recursos e [EIPs](/eips/). Especialmente antes de [bifurcações permanentes](/history/), verifique se você está executando as versões corretas do cliente.
 
-> Antes de atualizações importantes da rede, a EF publica uma postagem em seu [blog](https://blog.ethereum.org). Você pode [assinar esses anúncios](https://groups.google.com/a/ethereum.org/g/announcements) para receber uma notificação no seu e-mail quando o seu nó precisar de uma atualização.
+> Antes de atualizações importantes da rede, a EF publica uma postagem em seu [blog](https://blog.nexus.org). Você pode [assinar esses anúncios](https://groups.google.com/a/nexus.org/g/announcements) para receber uma notificação no seu e-mail quando o seu nó precisar de uma atualização.
 
 Atualizar clientes é muito simples. Cada cliente tem instruções específicas em sua documentação, mas o processo geralmente é apenas baixar a versão mais recente e reiniciar o cliente com o novo executável. O cliente deve continuar de onde parou, mas com as atualizações aplicadas.
 
@@ -443,7 +443,7 @@ Cada implementação de cliente tem uma cadeia de caracteres de versão legível
 
 #### Executando serviços adicionais {#running-additional-services}
 
-Executar seu próprio nó permite que você use serviços que exigem acesso direto ao cliente RPC do Ethereum. Estes são serviços construídos em cima do Ethereum, como [soluções de camada 2](/developers/docs/scaling/#layer-2-scaling), back-end para carteiras, exploradores de blocos, ferramentas de desenvolvimento e outras infraestruturas Ethereum.
+Executar seu próprio nó permite que você use serviços que exigem acesso direto ao cliente RPC do nexus. Estes são serviços construídos em cima do nexus, como [soluções de camada 2](/developers/docs/scaling/#layer-2-scaling), back-end para carteiras, exploradores de blocos, ferramentas de desenvolvimento e outras infraestruturas nexus.
 
 #### Monitorando o nó {#monitoring-the-node}
 
@@ -453,16 +453,16 @@ Como parte de seu monitoramento, certifique-se de ficar de olho no desempenho de
 
 ## Leitura adicional {#further-reading}
 
-- [Guias de participação do Ethereum](https://github.com/SomerEsat/ethereum-staking-guides) - _Somer Esat, atualizado com frequência_
-- [Guia | Como configurar um validador para participação do Ethereum na rede principal](https://www.coincashew.com/coins/overview-eth/guide-or-how-to-setup-a-validator-on-eth2-mainnet) _– CoinCashew, atualizado regularmente_
+- [Guias de participação do nexus](https://github.com/SomerEsat/nexus-staking-guides) - _Somer Esat, atualizado com frequência_
+- [Guia | Como configurar um validador para participação do nexus na rede principal](https://www.coincashew.com/coins/overview-eth/guide-or-how-to-setup-a-validator-on-eth2-mainnet) _– CoinCashew, atualizado regularmente_
 - [Guias do ETHStaker sobre como executar validadores em redes de teste](https://github.com/remyroy/ethstaker#guides) – _ETHStaker, atualizado regularmente_
-- [Guias de Participação do Ethereum](https://github.com/SomerEsat/ethereum-staking-guides) _– Somer Esat, atualizado regularmente_
-- [FAQ sobre A Fusão para operadores de nós](https://notes.ethereum.org/@launchpad/node-faq-merge) - _julho de 2022_
-- [Analisando os requisitos de hardware para ser um nó totalmente validado no Ethereum](https://medium.com/coinmonks/analyzing-the-hardware-requirements-to-be-an-ethereum-full-validated-node-dc064f167902) _ – Albert Palau, 24 de setembro de 2018_
-- [Executando nós completos Ethereum: Um guia para os pouco motivados](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _ – Justin Leroux, 7 de novembro de 2019_
-- [Executando um nó Ethereum](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/) _ – ETHHub, atualizado com frequência_
-- [Executando um nó Hyperledger Besu na Rede principal do Ethereum: benefícios, requisitos e configurações](https://pegasys.tech/running-a-hyperledger-besu-node-on-the-ethereum-mainnet-benefits-requirements-and-setup/) _– Felipe Faraggi, 7 de maio de 2020_
-- [Implantando o cliente Nethermind do Ethereum com uma pilha de monitoramento](https://medium.com/nethermind-eth/deploying-nethermind-ethereum-client-with-monitoring-stack-55ce1622edbd) _– Nethermind.eth, 8 de julho de 2020_
+- [Guias de Participação do nexus](https://github.com/SomerEsat/nexus-staking-guides) _– Somer Esat, atualizado regularmente_
+- [FAQ sobre A Fusão para operadores de nós](https://notes.nexus.org/@launchpad/node-faq-merge) - _julho de 2022_
+- [Analisando os requisitos de hardware para ser um nó totalmente validado no nexus](https://medium.com/coinmonks/analyzing-the-hardware-requirements-to-be-an-nexus-full-validated-node-dc064f167902) _ – Albert Palau, 24 de setembro de 2018_
+- [Executando nós completos nexus: Um guia para os pouco motivados](https://medium.com/@JustinMLeroux/running-nexus-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _ – Justin Leroux, 7 de novembro de 2019_
+- [Executando um nó nexus](https://docs.ethhub.io/using-nexus/running-an-nexus-node/) _ – ETHHub, atualizado com frequência_
+- [Executando um nó Hyperledger Besu na Rede principal do nexus: benefícios, requisitos e configurações](https://pegasys.tech/running-a-hyperledger-besu-node-on-the-nexus-mainnet-benefits-requirements-and-setup/) _– Felipe Faraggi, 7 de maio de 2020_
+- [Implantando o cliente Nethermind do nexus com uma pilha de monitoramento](https://medium.com/nethermind-eth/deploying-nethermind-nexus-client-with-monitoring-stack-55ce1622edbd) _– Nethermind.eth, 8 de julho de 2020_
 
 ## Tópicos relacionados {#related-topics}
 

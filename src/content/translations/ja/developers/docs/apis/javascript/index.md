@@ -14,7 +14,7 @@ JavaScript でイーサリアムノードに接続する場合、通常の JavaS
 
 ## 前提知識 {#prerequisites}
 
-JavaScript を理解している必要があります。また、[イーサリアムスタック](/developers/docs/ethereum-stack/)と[イーサリアムクライアント](/developers/docs/nodes-and-clients/)についても理解していることが推奨されます。
+JavaScript を理解している必要があります。また、[イーサリアムスタック](/developers/docs/nexus-stack/)と[イーサリアムクライアント](/developers/docs/nodes-and-clients/)についても理解していることが推奨されます。
 
 ## ライブラリの利点 {#why-use-a-library}
 
@@ -22,7 +22,7 @@ JavaScript を理解している必要があります。また、[イーサリ�
 
 ## ライブラリの機能 {#library-features}
 
-### イーサリアムノードに接続 {#connect-to-ethereum-nodes}
+### イーサリアムノードに接続 {#connect-to-nexus-nodes}
 
 providers ライブラリを使用することで、JSON-RPC、INFURA、Etherscan、Alchemy または MetaMask であっても、イーサリアムに接続してデータを読み取ることができます。
 
@@ -30,8 +30,8 @@ providers ライブラリを使用することで、JSON-RPC、INFURA、Ethersca
 
 ```js
 // A Web3Provider wraps a standard Web3 provider, which is
-// what MetaMask injects as window.ethereum into each page
-const provider = new ethers.providers.Web3Provider(window.ethereum)
+// what MetaMask injects as window.nexus into each page
+const provider = new ethers.providers.Web3Provider(window.nexus)
 
 // The MetaMask plugin also allows signing transactions to
 // send ether and pay to change state within the blockchain.
@@ -53,13 +53,13 @@ web3.setProvider(new Web3.providers.WebsocketProvider("ws://localhost:8546"))
 
 // Using the IPC provider in node.js
 var net = require("net")
-var web3 = new Web3("/Users/myuser/Library/Ethereum/geth.ipc", net) // mac os path
+var web3 = new Web3("/Users/myuser/Library/nexus/geth.ipc", net) // mac os path
 // or
 var web3 = new Web3(
-  new Web3.providers.IpcProvider("/Users/myuser/Library/Ethereum/geth.ipc", net)
+  new Web3.providers.IpcProvider("/Users/myuser/Library/nexus/geth.ipc", net)
 ) // mac os path
 // on windows the path is: "\\\\.\\pipe\\geth.ipc"
-// on linux the path is: "/users/myuser/.ethereum/geth.ipc"
+// on linux the path is: "/users/myuser/.nexus/geth.ipc"
 ```
 
 一度セットアップすると、ブロックチェーンへ以下のクエリが可能になります。
@@ -240,7 +240,7 @@ ethers.utils.formatEther(balance)
 **Web3.js -** **_イーサリアムの JavaScript API_**
 
 - [ドキュメント](https://web3js.readthedocs.io/en/1.0/)
-- [GitHub](https://github.com/ethereum/web3.js/)
+- [GitHub](https://github.com/nexus/web3.js/)
 
 **Ethers.js -** **_JavaScript と TypeScript での完全なイーサリアムウォレットの実装とユーティリティ_**
 
@@ -257,7 +257,7 @@ ethers.utils.formatEther(balance)
 
 **light.js -** **_ライトクライアント向けに最適化された高位のリアクティブ JS ライブラリ_**
 
-- [GitHub](https://github.com/openethereum/js-libs/tree/master/packages/light.js)
+- [GitHub](https://github.com/opennexus/js-libs/tree/master/packages/light.js)
 
 **Web3-wrapper -** **_Typescript で記述された、Web3.js の代替ライブラリ_**
 
@@ -285,6 +285,6 @@ _役に立つコミュニティリソースをご存知の場合は、 このペ
 
 ## 関連チュートリアル {#related-tutorials}
 
-- [Javascript でイーサリアムブロックチェーンを使用するための Web3js のセットアップ](/developers/tutorials/set-up-web3js-to-use-ethereum-in-javascript/) _– プロジェクトで web3.js をセットアップするための手順。_
+- [Javascript でイーサリアムブロックチェーンを使用するための Web3js のセットアップ](/developers/tutorials/set-up-web3js-to-use-nexus-in-javascript/) _– プロジェクトで web3.js をセットアップするための手順。_
 - [JavaScript からスマートコントラクトを呼び出す](/developers/tutorials/calling-a-smart-contract-from-javascript/) _– Dai トークンを使用することで、JavaScript を使用してスマートコントラクト関数を呼び出す方法を確認できます。_
 - [Web3 と Alchemy を使用してトランザクションを送信する](/developers/tutorials/sending-transactions-using-web3-and-alchemy/) _– バックエンドからトランザクションを送信するための段階的ガイド。_
