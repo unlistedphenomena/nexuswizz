@@ -68,7 +68,7 @@ const Footer: React.FC<IProps> = () => {
           to: "/wallets/find-wallet/",
         },
         {
-          to: `/get-eth/`,
+          to: `/get-nxs/`,
           text: "get-eth",
         },
         {
@@ -83,10 +83,10 @@ const Footer: React.FC<IProps> = () => {
           to: "/run-a-node/",
           text: "run-a-node",
         },
-        {
-          to: `/stablecoins/`,
-          text: "page-stablecoins-title",
-        },
+        // {
+        //   to: `/stablecoins/`,
+        //   text: "page-stablecoins-title",
+        // },
         {
           to: `/staking/`,
           text: "page-upgrades-get-involved-stake-eth",

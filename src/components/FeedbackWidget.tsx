@@ -144,7 +144,7 @@ const FeedbackWidget: React.FC<FeedbackWidgetProps> = ({ location = "" }) => {
   const closeButtonSize = "24px"
   return (
     <>
-      <FixedDot
+      {/* <FixedDot
         onClick={handleOpen}
         bottomOffset={bottomOffset}
         isExpanded={isExpanded}
@@ -176,7 +176,7 @@ const FeedbackWidget: React.FC<FeedbackWidgetProps> = ({ location = "" }) => {
             </ScaleFade>
           )}
         </Box>
-      </FixedDot>
+      </FixedDot> */}
       {isOpen && (
         <Box
           display="block"
@@ -236,13 +236,13 @@ const FeedbackWidget: React.FC<FeedbackWidgetProps> = ({ location = "" }) => {
                 <Icon as={MdClose} h={closeButtonSize} w={closeButtonSize} />
               </Button>
 
-              <Text fontWeight="bold" fontSize="xl" lineHeight={6}>
+              {/* <Text fontWeight="bold" fontSize="xl" lineHeight={6}>
                 {feedbackSubmitted ? (
                   <Translation id="feedback-widget-thank-you-title" />
                 ) : (
                   <Translation id="feedback-widget-prompt" />
                 )}
-              </Text>
+              </Text> */}
               {feedbackSubmitted && (
                 <Text fontWeight="normal" fontSize="md" lineHeight={5}>
                   <Translation id="feedback-widget-thank-you-subtitle" />

@@ -68,7 +68,7 @@ const Slider: React.FC<IProps> = ({ children, onSlideChange }) => {
         justifyContent={{ sm: "left", base: "center" }}
         mb={{ sm: 0, base: 4 }}
       >
-        <IconButton
+        {/* <IconButton
           aria-label="MdChevronLeft"
           onClick={scrollPrev}
           icon={<MdChevronLeft fontSize={24} focusable={true} />}
@@ -90,7 +90,7 @@ const Slider: React.FC<IProps> = ({ children, onSlideChange }) => {
           bg={nextBtnEnabled ? "sliderBtnBg" : "sliderBtnBgDisabled"}
           size="sm"
           color={nextBtnEnabled ? "sliderBtnColor" : "sliderBtnColorDisabled"}
-        />
+        /> */}
       </Flex>
       <Center
         position={{ sm: "absolute" }}

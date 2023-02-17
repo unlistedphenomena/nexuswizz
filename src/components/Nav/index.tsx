@@ -118,7 +118,7 @@ const Nav: React.FC<IProps> = ({ path }) => {
         },
         {
           text: "get-eth",
-          to: "/get-eth/",
+          to: "/get-nxs/",
         },
         {
           text: "decentralized-applications-dapps",
@@ -140,12 +140,12 @@ const Nav: React.FC<IProps> = ({ path }) => {
           text: "dao-page",
           to: "/dao/",
         },
+        // {
+        //   text: "page-stablecoins-title",
+        //   to: "/stablecoins/",
+        // },
         {
-          text: "page-stablecoins-title",
-          to: "/stablecoins/",
-        },
-        {
-          text: "page-stake-eth",
+          text: "page-stake-nxs",
           to: "/staking/",
         },
         {
@@ -187,22 +187,22 @@ const Nav: React.FC<IProps> = ({ path }) => {
         },
         {
           // @ts-ignore: until we add the translations
-          text: "Ethereum basics",
+          text: "Nexus basics",
           items: [
             {
-              text: "what-is-ethereum",
+              text: "what-is-nexus",
               to: "/what-is-ethereum/",
             },
             {
-              text: "what-is-ether",
+              text: "what-is-nexus",
               to: "/eth/",
             },
             {
-              text: "ethereum-wallets",
+              text: "nexus-wallets",
               to: "/wallets/",
             },
             {
-              text: "ethereum-security",
+              text: "nexus-security",
               to: "/security/",
             },
             {
@@ -217,34 +217,34 @@ const Nav: React.FC<IProps> = ({ path }) => {
         },
         {
           // @ts-ignore: until we add the translations
-          text: "Ethereum protocol",
+          text: "Nexus protocol",
           items: [
             {
               text: "energy-consumption",
               to: "/energy-consumption/",
             },
             {
-              text: "ethereum-upgrades",
+              text: "nexus-upgrades",
               to: "/upgrades/",
             },
+            // {
+            //   text: "eips",
+            //   to: "/eips/",
+            // },
+            // {
+            //   text: "history-of-ethereum",
+            //   to: "/history/",
+            // },
             {
-              text: "eips",
-              to: "/eips/",
-            },
-            {
-              text: "history-of-ethereum",
-              to: "/history/",
-            },
-            {
-              text: "ethereum-whitepaper",
+              text: "nexus-whitepaper",
               to: "/whitepaper/",
             },
             {
-              text: "ethereum-glossary",
+              text: "nexus-glossary",
               to: "/glossary/",
             },
             {
-              text: "ethereum-governance",
+              text: "nexus-governance",
               to: "/governance/",
             },
             {
@@ -290,11 +290,11 @@ const Nav: React.FC<IProps> = ({ path }) => {
       ariaLabel: "enterprise-menu",
       items: [
         {
-          text: "mainnet-ethereum",
+          text: "mainnet-nexus",
           to: "/enterprise/",
         },
         {
-          text: "private-ethereum",
+          text: "private-nexus",
           to: "/enterprise/private-ethereum/",
         },
       ],
@@ -308,11 +308,11 @@ const Nav: React.FC<IProps> = ({ path }) => {
           to: "/community/",
         },
         {
-          text: "ethereum-online",
+          text: "nexus-online",
           to: "/community/online/",
         },
         {
-          text: "ethereum-events",
+          text: "nexus-events",
           to: "/community/events/",
         },
         {
@@ -328,7 +328,7 @@ const Nav: React.FC<IProps> = ({ path }) => {
           to: "/community/grants/",
         },
         {
-          text: "ethereum-support",
+          text: "nexus-support",
           to: "/community/support/",
         },
         {
