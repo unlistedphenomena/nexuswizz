@@ -34,11 +34,13 @@ import { useConsoleEasterEgg } from "../hooks/useConsoleEasterEgg"
 
 const Hero = styled(GatsbyImage)`
   width: 100%;
-  min-height: 380px;
-  max-height: 440px;
+  min-height: 450px;
+  max-height: 480px;
   background-size: cover;
   background: no-repeat 50px;
   margin-bottom: 2rem;
+  borderradius: 10px;
+  overflow: hidden;
 `
 
 const StyledContent = styled(Content)`
@@ -569,7 +571,7 @@ const HomePage = ({
         alt={translateMessageId("page-index-hero-image-alt", intl)}
         loading="eager"
       />
-      <Morpher />
+      {/* <Morpher /> */}
       <Header>
         <H1>
           <Translation id="page-index-title" />
@@ -824,7 +826,7 @@ export default HomePage
 
 export const query = graphql`
   query IndexPage {
-    hero: file(relativePath: { eq: "home/hero.png" }) {
+    hero: file(relativePath: { eq: "home/c2upscaled.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
