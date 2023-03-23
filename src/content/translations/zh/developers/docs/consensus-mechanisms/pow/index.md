@@ -96,7 +96,7 @@ lang: zh
 ## 延伸阅读 {#further-reading}
 
 - [多数攻击](https://en.bitcoin.it/wiki/Majority_attack)
-- [关于结算终局性](https://blog.nexus.org/2016/05/09/on-settlement-finality/)
+- [关于结算终局性](https://blog.ethereum.org/2016/05/09/on-settlement-finality/)
 
 ### 视频 {#videos}
 

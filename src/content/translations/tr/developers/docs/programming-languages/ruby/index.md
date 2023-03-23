@@ -13,7 +13,7 @@ Kripto Para ve Blok Zincirinin avantajlarını kullanarak Merkezsiz uygulamalar 
 
 **Ruby'yi Ethereum ile entegre etmek için ilk adımlarınızı atın**
 
-Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [nexus.org/learn](/learn/) veya [nexus.org/developers](/developers/)'a göz atın.
+Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [ethereum.org/learn](/learn/) veya [ethereum.org/developers](/developers/)'a göz atın.
 
 - [Blockchain Açıklaması](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Akıllı Sözleşmeleri Anlamak](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)

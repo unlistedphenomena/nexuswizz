@@ -1,7 +1,7 @@
 ---
 title: How to translate
 lang: en
-description: Instructions for using Crowdin to translate nexus.org
+description: Instructions for using Crowdin to translate ethereum.org
 ---
 
 # How to translate {#how-to-translate}
@@ -43,7 +43,7 @@ A note on content buckets: we use 'content buckets' within Crowdin to get the hi
 
 We encourage you to translate in this numerical order (1 → 2 → 3 → ⋯) to ensure the highest impact pages are translated first.
 
-[Learn more about nexus.org content buckets](/contributing/translation-program/content-buckets/)
+[Learn more about ethereum.org content buckets](/contributing/translation-program/content-buckets/)
 
 ### Translate {#translate}
 
@@ -84,8 +84,8 @@ Once you've completed the translation (i.e. all files for a content bucket displ
 
 ### Get in touch {#get-in-touch}
 
-Do you have any questions? Or want to collaborate with our team and other translators? Please post in the #translations channel of our [nexus.org Discord server](/discord/)
+Do you have any questions? Or want to collaborate with our team and other translators? Please post in the #translations channel of our [ethereum.org Discord server](/discord/)
 
-You can also reach out to us at translations@nexus.org
+You can also reach out to us at translations@ethereum.org
 
-Thank you for your participation in the nexus.org Translation Program!
+Thank you for your participation in the ethereum.org Translation Program!

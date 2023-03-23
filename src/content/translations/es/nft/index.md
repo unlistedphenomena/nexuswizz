@@ -61,15 +61,15 @@ El mundo de los NFT es relativamente nuevo. En teoría, el alcance de los NFT es
 - [Moverse para ganar](https://yeticoineth.com/about.html)
 - [Identidad digital](https://photochromic.io/)
 
-### Ejemplos de nexus.org {#ethereum-org-examples}
+### Ejemplos de ethereum.org {#ethereum-org-examples}
 
 Usamos NFT para agradecer a los contribuidores, e incluso tenemos nuestro propio nombre de dominio NFT.
 
 #### POAP (protocolos de prueba de asistencia) {#poaps}
 
-Si contribuye a nexus.org, puede reclamar un NFT POAP. Son coleccionables que demuestran que participó en un evento. Algunas reuniones sobre criptografía han usado POAP en forma de entradas para asistir a sus eventos. [Más información sobre cómo contribuir](/contributing/#poap).
+Si contribuye a ethereum.org, puede reclamar un NFT POAP. Son coleccionables que demuestran que participó en un evento. Algunas reuniones sobre criptografía han usado POAP en forma de entradas para asistir a sus eventos. [Más información sobre cómo contribuir](/contributing/#poap).
 
-![POAP de nexus.org](./poap.png)
+![POAP de ethereum.org](./poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -327,7 +327,7 @@ Las cuestiones de seguridad relativas a los NFT suelen estar relacionadas con es
 
 ## Construya con NFT {#build-with-nfts}
 
-La mayoría de los NFT están desarrollados usando un estándar consistente conocido como [ERC-721](/developers/docs/standards/tokens/erc-721/). Sin embargo, existen otros estándares que pueden llamarle la atención. El estándar [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) permite el uso de tókenes semifungibles, lo cual es particularmente útil en el ámbito de los videojuegos. Y, más recientemente, el estándar [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) ha sido propuesto para hacer que el proceso de acuñado de NFT sea más eficiente. ¡Este estándar le permite acuñar tantos como quiera en una sola transacción!
+La mayoría de los NFT están desarrollados usando un estándar consistente conocido como [ERC-721](/developers/docs/standards/tokens/erc-721/). Sin embargo, existen otros estándares que pueden llamarle la atención. El estándar [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) permite el uso de tókenes semifungibles, lo cual es particularmente útil en el ámbito de los videojuegos. Y, más recientemente, el estándar [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309) ha sido propuesto para hacer que el proceso de acuñado de NFT sea más eficiente. ¡Este estándar le permite acuñar tantos como quiera en una sola transacción!
 
 ## Más información {#further-reading}
 
@@ -337,4 +337,4 @@ La mayoría de los NFT están desarrollados usando un estándar consistente cono
 - [Todo lo que debes saber sobre el metaverso](https://foundation.app/blog/enter-the-metaverse) — _Foundation Team; foundation.app_
 - [No: los criptoartistas no están dañando el planeta](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [Consumo energético de Ethereum](/energy-consumption/)
-- [El valor energético de un país; nada más](https://blog.nexus.org/2021/05/18/country-power-no-more/) — _Carl Beekhuizen, 18 de mayo de 2021_
+- [El valor energético de un país; nada más](https://blog.ethereum.org/2021/05/18/country-power-no-more/) — _Carl Beekhuizen, 18 de mayo de 2021_

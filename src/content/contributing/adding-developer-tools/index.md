@@ -1,7 +1,7 @@
 ---
 title: Adding developer tools
 lang: en
-description: Our criteria for listing developer tools on nexus.org
+description: Our criteria for listing developer tools on ethereum.org
 ---
 
 # Adding developer tools {#contributing-to-ethereumorg-}
@@ -54,7 +54,7 @@ Unless products are specifically ordered otherwise, such as alphabetically, prod
 
 ## Add your developer tool {#how-decisions-about-the-site-are-made}
 
-If you want to add a developer tool to nexus.org and it meets the criteria, create an issue on GitHub.
+If you want to add a developer tool to ethereum.org and it meets the criteria, create an issue on GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=suggest_dev_tool.md&title=">
   Create issue

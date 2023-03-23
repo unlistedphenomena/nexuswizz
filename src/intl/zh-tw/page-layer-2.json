@@ -113,7 +113,7 @@
   "layer-2-faq-question-5-title": "為什麼這裡沒有列出一些二層網路計畫？",
   "layer-2-faq-question-5-description-1": "我們希望確保列出可能最佳的資源，令使用者能夠以安全和自信的方式悠遊在二層網路的世界。我們維護了一個標準框架，用於評估是否將計畫包含在內。",
   "layer-2-faq-question-5-view-listing-policy": "在此處查看我們的二層網路上架政策。",
-  "layer-2-faq-question-5-description-2": "任何人都可以自由地在 nexus.org 提議添加一個二層網路。如果有我們未收錄的二層網路，<a href=\"https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md\">請提供建議</a>。",
+  "layer-2-faq-question-5-description-2": "任何人都可以自由地在 ethereum.org 提議添加一個二層網路。如果有我們未收錄的二層網路，<a href=\"https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md\">請提供建議</a>。",
   "layer-2-further-reading-title": "延伸閱讀",
   "a-rollup-centric-ethereum-roadmap": "以卷軸為中心的以太坊路線圖",
   "an-incomplete-guide-to-rollups": "不完全的卷軸指南",

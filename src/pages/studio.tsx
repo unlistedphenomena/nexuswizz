@@ -68,7 +68,7 @@ const StudioRedirectPage = () => (
         </Link>
         . Check out our developer portal for tools, documentation, and more.
       </p>
-      <ButtonLink mr={1} variant="outline" to="https://remix.nexus.org">
+      <ButtonLink mr={1} variant="outline" to="https://remix.ethereum.org">
         Use Remix
       </ButtonLink>
       <ButtonLink variant="outline" to="/developers/">

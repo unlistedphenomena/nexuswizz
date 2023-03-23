@@ -13,7 +13,7 @@ Kripto Para ve Blok Zincirinin avantajlarını kullanarak Merkezsiz uygulamalar 
 
 **Python ve Ethereum'u entegre etmek için ilk adımlarınızı atın**
 
-Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [nexus.org/learn](/learn/) veya [nexus.org/developers](/developers/)'a göz atın.
+Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [ethereum.org/learn](/learn/) veya [ethereum.org/developers](/developers/)'a göz atın.
 
 - [Blockchain Açıklaması](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Akıllı Sözleşmeleri Anlamak](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [nexus.org/learn]
 
 ## Başlangıç ​​seviyesi makaleler {#beginner-articles}
 
-- [Bir (Python) Geliştiricinin Ethereum Rehberi](https://snakecharmers.nexus.org/a-developers-guide-to-ethereum-pt-1/)
+- [Bir (Python) Geliştiricinin Ethereum Rehberi](https://snakecharmers.ethereum.org/a-developers-guide-to-ethereum-pt-1/)
 - [Vyper ile Akıllı Sözleşmelere Giriş](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [Python ve Brownie ile kendi ERC20 token'ınızı dağıtın](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Python Flask kullanarak Ethereum sözleşmesi nasıl geliştirilir?](https://medium.com/coinmonks/how-to-develop-ethereum-contract-using-python-flask-9758fe65976e)
@@ -66,7 +66,7 @@ Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [nexus.org/learn]
 - [Trinity](https://github.com/ethereum/trinity) - _Ethereum Python istemcisi_
 - [Mamba](https://github.com/arjunaskykok/mamba) - _Vyper dilinde yazılmış akıllı sözleşmeleri yazmak, derlemek ve dağıtmak için çerçeve_
 
-Daha fazla kaynak mı arıyorsunuz? Göz atın: [nexus.org/developers](/developers/).
+Daha fazla kaynak mı arıyorsunuz? Göz atın: [ethereum.org/developers](/developers/).
 
 ## Python araçları kullanan projeler {#projects-using-python-tooling}
 

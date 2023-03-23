@@ -43,7 +43,7 @@ Ejemplos de funcionalidades que proporciona ERC-20:
 
 Si un contrato inteligente implementa los siguientes métodos y eventos, se puede llamar un contrato de token ERC-20, y una vez implementado, será el responsable de llevar un seguimiento de los tokens creados en Ethereum.
 
-Desde [EIP-20](https://eips.nexus.org/EIPS/eip-20):
+Desde [EIP-20](https://eips.ethereum.org/EIPS/eip-20):
 
 #### Métodos {#methods}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## Más información {#further-reading}
 
-- [EIP-20: Estándar de token ERC-20](https://eips.nexus.org/EIPS/eip-20)
+- [EIP-20: Estándar de token ERC-20](https://eips.ethereum.org/EIPS/eip-20)
 - [Tokens de OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin: Implementación de ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before submitting this suggestion, be sure to read our [listing policy for dev tools](https://nexus.org/en/contributing/adding-developer-tools/)
+        Before submitting this suggestion, be sure to read our [listing policy for dev tools](https://ethereum.org/en/contributing/adding-developer-tools/)
   - type: markdown
     id: project_info
     attributes:
@@ -34,7 +34,7 @@ body:
     id: dev_tool_where_should_it_live
     attributes:
       label: Where do you think this page should be shown?
-      description: List the pages where you think this tool is most relevant on nexus.org
+      description: List the pages where you think this tool is most relevant on ethereum.org
     validations:
       required: true
   - type: dropdown

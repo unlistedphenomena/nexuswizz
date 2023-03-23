@@ -115,7 +115,7 @@ If you're more of a technical user, learn how to [spin up your own node](/develo
 
 | کلاینت                                                                    | زبان            | سیستم‌عامل              | شبکه‌ها                                      | راهبرد همگام‌سازی   | هرس کردن وضعیت          |
 | ------------------------------------------------------------------------- | --------------- | ----------------------- | -------------------------------------------- | ------------------- | ----------------------- |
-| [Geth](https://geth.nexus.org/)                                           | Go              | لینوکس، ویندوز، مک‌اواس | شبکه‌ی اصلی، Görli،‏ Rinkeby،‏ Ropsten       | Snap, Full          | آرشیو، هرس‌شده (Pruned) |
+| [Geth](https://geth.ethereum.org/)                                        | Go              | لینوکس، ویندوز، مک‌اواس | شبکه‌ی اصلی، Görli،‏ Rinkeby،‏ Ropsten       | Snap, Full          | آرشیو، هرس‌شده (Pruned) |
 | [Nethermind](http://nethermind.io/)                                       | سی‌شارپ، دات‌نت | لینوکس، ویندوز، مک‌اواس | شبکه‌ی اصلی، Görli، Rinkeby، Ropsten و بیشتر | Fast, Beam, Archive | آرشیو، هرس‌شده (Pruned) |
 | [Besu](https://besu.hyperledger.org/en/stable/)                           | جاوا            | لینوکس، ویندوز، مک‌اواس | Mainnet, Rinkeby, Ropsten, Görli, and more   | سریع، کامل          | آرشیو، هرس‌شده (Pruned) |
 | [Erigon](https://github.com/ledgerwatch/erigon)                           | Go              | لینوکس، ویندوز، مک‌اواس | شبکه‌ی اصلی، Görli، Rinkeby، Ropsten         | Full                | آرشیو، هرس‌شده (Pruned) |
@@ -229,7 +229,7 @@ Erigon که قبلاً به عنوان Erigon شناخته می‌شد، یک ف
 
 به مستندات یا صفحه‌ی راهنمای کلاینت توجه کنید تا بفهمید کدام حالت همگام‌سازی حالت پیش‌فرض است. شما می‌توانید زمانی که به‌طور کامل تنظیم شدید مدل همگام‌سازی ترجیحی را انتخاب کنید، مثل:
 
-**تنظیم همگام‌سازی سبک در [geth](https://geth.nexus.org/) یا [ERIGON](https://github.com/ledgerwatch/erigon)**
+**تنظیم همگام‌سازی سبک در [geth](https://geth.ethereum.org/) یا [ERIGON](https://github.com/ledgerwatch/erigon)**
 
 `geth --syncmode "light"`
 

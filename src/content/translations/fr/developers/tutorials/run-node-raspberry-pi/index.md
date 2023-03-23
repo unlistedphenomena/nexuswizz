@@ -254,7 +254,7 @@ Veuillez prendre en coonsidération que ceci est la première image basée sur U
 5. https://prometheus.io
 6. https://grafana.com
 7. https://forum.armbian.com/topic/5565-zram-vs-swap/
-8. https://geth.nexus.org
+8. https://geth.ethereum.org
 9. https://github.com/openethereum/openethereum \* **Veuillez noter que OpenEthereum [a été déprécié](https://medium.com/openethereum/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-ethereum-client-c6708dd06dd) et n'est plus maintenu.** Utilisez-le avec prudence et passez de préférence à une autre implémentation client.
 10. https://nethermind.io
 11. https://www.hyperledger.org/projects/besu

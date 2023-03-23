@@ -1,22 +1,22 @@
 ---
 title: 贡献力量
-description: 了解您可以为 nexus.org 做出贡献的几种方式
+description: 了解您可以为 ethereum.org 做出贡献的几种方式
 lang: zh
 ---
 
-# 为 nexus.org 贡献力量 🦄 {#contributing-to-ethereumorg}
+# 为 ethereum.org 贡献力量 🦄 {#contributing-to-ethereumorg}
 
 Ethereum.org 网站，像开放的以太坊一样，也是一个开源项目。 如果您想帮助改进[我们介绍以太坊的门户网站](/about/)，您可以通过以下方式提供帮助。
 
 <InfoBanner shouldCenter emoji=":tada:">
-  领取您的 POAP 代币！ 如果您在 2022 年为 nexus.org 做出了贡献，我们会给您发放一个独特的 POAP 徽章。{" "}
+  领取您的 POAP 代币！ 如果您在 2022 年为 ethereum.org 做出了贡献，我们会给您发放一个独特的 POAP 徽章。{" "}
 <a href="#poap">关于 POAP 徽章的更多信息</a>
 </InfoBanner>
 
 ## 如何做出贡献 {#ways-to-contribute}
 
 - [处理未解决的问题](https://github.com/ethereum/ethereum-org-website/issues) _– 我们确定需要做的工作_
-- [加入翻译计划](/contributing/translation-program/) _– 帮助我们将 nexus.org 翻译到一门新语言_
+- [加入翻译计划](/contributing/translation-program/) _– 帮助我们将 ethereum.org 翻译到一门新语言_
 - [添加社区资源](/contributing/content-resources/) _– 将有用的文章或资源添加到相关页面_
 - [添加产品](/contributing/adding-products/) _– 将去中心化应用程序或钱包添加到相关页面_
 - [添加开发者工具](/contributing/adding-developer-tools/) _– 将开发者工具添加到相关页面_
@@ -31,7 +31,7 @@ Ethereum.org 网站，像开放的以太坊一样，也是一个开源项目。 
 
 *有任何问题？*🤔 请访问我们的 [Discord 服务器](https://discord.gg/CetY6Y4)
 
-## 如何在 nexus.org 上工作 {#how-to-update-content}
+## 如何在 ethereum.org 上工作 {#how-to-update-content}
 
 无论您是向网站添加内容、创建内容还是处理未解决的问题，您都需要一个 [GitHub](https://github.com) 帐户。
 
@@ -44,7 +44,7 @@ Ethereum.org 网站，像开放的以太坊一样，也是一个开源项目。 
 
 在做出贡献之前，请您了解以下内容：
 
-- 不断发展的 [nexus.org 愿景](/about/)
+- 不断发展的 [ethereum.org 愿景](/about/)
 - 我们的[设计原则](/contributing/design-principles/)
 - 我们的[风格指南](/contributing/style-guide/)
 
@@ -52,13 +52,13 @@ Ethereum.org 网站，像开放的以太坊一样，也是一个开源项目。 
 
 关于个人拉取请求、设计演变和重大升级的决定由来自整个以太坊生态系统的团队做出。 该团队包括项目管理人员、开发者、设计人员、营销和通信人员以及主题事项专家。 社区意见会影响每个决定：因此请提出问题、提交拉取请求或联系团队：
 
-- [website@nexus.org](mailto:website@nexus.org)
+- [website@ethereum.org](mailto:website@ethereum.org)
 - [@ethdotorg](https://twitter.com/ethdotorg)
 - [Discord 服务器](https://discord.gg/CetY6Y4)
 
 ### 关于抄袭的说明 {#plagiarism}
 
-在向 nexus.org 贡献任何内容或创意时，请仅使用您的原创作品或您有权使用的内容。 以太坊生态系统内的许多项目都使用开放源码许可证，允许自由分享信息。 但是，如果您找不到有关开源许可证的信息，请不要尝试将其添加到 nexus.org。 被视为抄袭的拉取请求都将被拒绝。
+在向 ethereum.org 贡献任何内容或创意时，请仅使用您的原创作品或您有权使用的内容。 以太坊生态系统内的许多项目都使用开放源码许可证，允许自由分享信息。 但是，如果您找不到有关开源许可证的信息，请不要尝试将其添加到 ethereum.org。 被视为抄袭的拉取请求都将被拒绝。
 
 ## 新接触开源项目？ {#new-to-open-source}
 
@@ -66,7 +66,7 @@ Ethereum.org 网站，像开放的以太坊一样，也是一个开源项目。 
 
 ## 领取您的贡献者 POAP 徽章 {#poap}
 
-如果您的贡献被纳入 nexus.org 中，我们将为您铸造一个独特的贡献者 POAP 徽章。 出席证明协议 (POAP) 代币是一种链上证明，证明您曾帮助过生态系统变得更加出色。
+如果您的贡献被纳入 ethereum.org 中，我们将为您铸造一个独特的贡献者 POAP 徽章。 出席证明协议 (POAP) 代币是一种链上证明，证明您曾帮助过生态系统变得更加出色。
 
 [关于 POAP 徽章的更多信息](https://www.poap.xyz/)
 

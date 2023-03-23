@@ -179,9 +179,9 @@ Alice 的帐户将会增加 **+1.0 ETH**
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-以太坊经过演变，已经支持多种类型的交易，从而能够在不影响传统交易形式的情况下实现访问列表和 [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) 等新功能。
+以太坊经过演变，已经支持多种类型的交易，从而能够在不影响传统交易形式的情况下实现访问列表和 [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) 等新功能。
 
-[EIP-2718：类型化交易封套](https://eips.nexus.org/EIPS/eip-2718)定义了交易类型，是未来交易类型的“封套”。
+[EIP-2718：类型化交易封套](https://eips.ethereum.org/EIPS/eip-2718)定义了交易类型，是未来交易类型的“封套”。
 
 EIP-2718 是用于类型化交易的新通用封套。 在新标准中，交易被解释为：
 
@@ -194,7 +194,7 @@ EIP-2718 是用于类型化交易的新通用封套。 在新标准中，交易�
 
 ## 延伸阅读 {#further-reading}
 
-- [EIP-2718：Typed Transaction Envelope](https://eips.nexus.org/EIPS/eip-2718)
+- [EIP-2718：Typed Transaction Envelope](https://eips.ethereum.org/EIPS/eip-2718)
 
 _还有哪些社区资源对你有所帮助？ 请编辑本页面并添加！_
 

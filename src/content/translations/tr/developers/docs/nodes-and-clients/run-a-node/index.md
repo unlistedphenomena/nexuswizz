@@ -70,7 +70,7 @@ Tüm istemciler ana işletim sistemlerini destekler: Linux, MacOS, Windows. Bu, 
 
 Stabil Mainnet istemci uygulamaları için yürütülebilir ikili programlar yayınlanma sayfalarından indirilebilir:
 
-- [Geth](https://geth.nexus.org/downloads/)
+- [Geth](https://geth.ethereum.org/downloads/)
 - [OpenEthereum,](https://github.com/openethereum/openethereum/releases)
 - [Nethermind](https://downloads.nethermind.io/)
 - [Besu](https://besu.hyperledger.org/en/stable/)

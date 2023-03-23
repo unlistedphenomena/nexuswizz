@@ -69,7 +69,7 @@ lang: zh
 
 **Python Tooling -** **_用于通过 Python 进行以太坊交互的各种库。_**
 
-- [py.nexus.org](http://python.nexus.org/)
+- [py.ethereum.org](http://python.ethereum.org/)
 - [web3.py GitHub](https://github.com/ethereum/web3.py)
 - [web3.py 聊天](https://gitter.im/ethereum/web3.py)
 

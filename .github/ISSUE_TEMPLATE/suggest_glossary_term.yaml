@@ -1,5 +1,5 @@
 name: Suggest a glossary term
-description: Suggest a new nexus.org glossary term
+description: Suggest a new ethereum.org glossary term
 title: Suggest a glossary term
 labels: ["feature :sparkles:", "content :fountain_pen:"]
 body:
@@ -39,7 +39,7 @@ body:
     id: glossary_terms_ethereumdotorg_links
     attributes:
       label: Ethereum.org links
-      description: If appropriate/available, please suggest an internal nexus.org link that would expand someones learning of this term
+      description: If appropriate/available, please suggest an internal ethereum.org link that would expand someones learning of this term
   - type: textarea
     id: glossary_term_additional_context
     attributes:

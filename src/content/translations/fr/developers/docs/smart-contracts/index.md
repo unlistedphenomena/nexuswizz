@@ -90,7 +90,7 @@ Les contrats intelligents seuls ne peuvent pas obtenir d'informations sur les é
 
 Il existe des moyens de contourner le problème en utilisant [oracles](/developers/docs/oracles/).
 
-Une autre limitation des contrats intelligents est la taille maximale des contrats. Un contrat intelligent ne peut pas dépasser 24 Ko, sans quoi il sera à court de gaz. Ceci peut être contourné en utilisant [Le modèle du diamant](https://eips.nexus.org/EIPS/eip-2535).
+Une autre limitation des contrats intelligents est la taille maximale des contrats. Un contrat intelligent ne peut pas dépasser 24 Ko, sans quoi il sera à court de gaz. Ceci peut être contourné en utilisant [Le modèle du diamant](https://eips.ethereum.org/EIPS/eip-2535).
 
 ## Ressources de contrats intelligents {#smart-contract-resources}
 

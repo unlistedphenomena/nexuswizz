@@ -30,7 +30,7 @@ Proporciona funcionalidades como transferir tokens de una cuenta a otra, para ob
 
 Si un contrato inteligente implementa los siguientes métodos y eventos, se puede llamar un Contrato de Token ERC-721, y una vez desplegado será el responsable de llevar un seguimiento de los tokens creados en Ethereum.
 
-De [EIP-721](https://eips.nexus.org/EIPS/eip-721):
+De [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
 
 #### Métodos {#methods}
 
@@ -237,7 +237,7 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## Más información {#further-reading}
 
-- [EIP-721: ERC-721 Estándar de token no fungible](https://eips.nexus.org/EIPS/eip-721)
+- [EIP-721: ERC-721 Estándar de token no fungible](https://eips.ethereum.org/EIPS/eip-721)
 - [OpenZeppelin: Documentos de ERC-721](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin: Implementación de ERC-721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 - [API de NFT de Alchemy](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)

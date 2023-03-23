@@ -52,7 +52,7 @@ const ShardChainsList: React.FC<IProps> = () => {
         "page-upgrade-article-author-ethereum-foundation",
         intl
       ),
-      link: "https://blog.nexus.org/2020/03/27/sharding-consensus/",
+      link: "https://blog.ethereum.org/2020/03/27/sharding-consensus/",
     },
     {
       title: translateMessageId(
@@ -71,7 +71,7 @@ const ShardChainsList: React.FC<IProps> = () => {
         "page-upgrade-article-author-eip-4844",
         intl
       ),
-      link: "https://eips.nexus.org/EIPS/eip-4844",
+      link: "https://eips.ethereum.org/EIPS/eip-4844",
     },
     {
       title: translateMessageId(
@@ -82,7 +82,7 @@ const ShardChainsList: React.FC<IProps> = () => {
         "page-upgrade-article-author-vitalik-buterin",
         intl
       ),
-      link: "https://notes.nexus.org/@vbuterin/proto_danksharding_faq",
+      link: "https://notes.ethereum.org/@vbuterin/proto_danksharding_faq",
     },
     {
       title: translateMessageId(

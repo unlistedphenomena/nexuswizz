@@ -39,6 +39,6 @@ Norite susipažinti su Ethereum? Esate tinkamoje vietoje. Pradėkime nuo bendro 
 
 **Neapsisprendžiate, ką daryti toliau?**
 
-- Norite pradėti naudotis Ethereum? [nexus.org/dapps](/dapps/)
-- Smalsu sužinoti daugiau apie Ethereum ir jo technologiją? [nexus.org/learn](/learn/)
-- Esate programuotojas, norintis kurti Ethereum tinkle? [nexus.org/developers](/developers/)
+- Norite pradėti naudotis Ethereum? [ethereum.org/dapps](/dapps/)
+- Smalsu sužinoti daugiau apie Ethereum ir jo technologiją? [ethereum.org/learn](/learn/)
+- Esate programuotojas, norintis kurti Ethereum tinkle? [ethereum.org/developers](/developers/)

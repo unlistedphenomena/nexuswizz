@@ -99,7 +99,7 @@ La Fusión trajo consigo cambios relacionados con el consenso, que también incl
 - Fuentes de aleatoriedad en cadena.
 - Conceptos de _safe head_ y _finalized blocks_ para iniciar y cerrar los bloques.
 
-Para más información, consulte la publicación de Tim Beiko sobre [Cómo La Fusión influirá en la capa de aplicación de Ethereum](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
+Para más información, consulte la publicación de Tim Beiko sobre [Cómo La Fusión influirá en la capa de aplicación de Ethereum](https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## La Fusión y el consumo de energía {#merge-and-energy}
@@ -185,7 +185,7 @@ Para evitar mayor confusión, la comunidad ha actualizado estos términos:
 
 Estas actualizaciones de terminología solo cambian la nomenclatura, no alteran los objetivos ni el itinerario de Ethereum.
 
-[Más información acerca del cambio de nombre a «Eth2»](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
+[Más información acerca del cambio de nombre a «Eth2»](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Relación entre actualizaciones {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ En su lugar, los bloques serán propuestos desde un nodo validado que tenga ETH 
 
 Con la intención de simplificar y maximizar los esfuerzos centrados en una transición fructífera a la prueba de participación, la actualización de La Fusión no incluirá algunas características previamente anticipadas, como la posibilidad de retirar ETH apostados. Está previsto que la actualización de Shanghái se produzca después de La Fusión, lo que permitirá a los participantes retirarse.
 
-Manténgase al día sobre la [Planificación de la actualización de Shanghai en GitHub](https://github.com/ethereum/pm/issues/450), o el [Blog de investigación y desarrollo de EF](https://blog.nexus.org/category/research-and-development/). Aquellos que quieran saber más, pueden ver la charla [Lo que ocurrirá después de La Fusión](https://youtu.be/7ggwLccuN5s?t=101), que dio Vitalik, en el evento ETHGlobal en abril de 2021.
+Manténgase al día sobre la [Planificación de la actualización de Shanghai en GitHub](https://github.com/ethereum/pm/issues/450), o el [Blog de investigación y desarrollo de EF](https://blog.ethereum.org/category/research-and-development/). Aquellos que quieran saber más, pueden ver la charla [Lo que ocurrirá después de La Fusión](https://youtu.be/7ggwLccuN5s?t=101), que dio Vitalik, en el evento ETHGlobal en abril de 2021.
 
 ### La fusión y la fragmentación {#merge-and-data-sharding}
 

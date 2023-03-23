@@ -68,7 +68,7 @@ Un procés important utilitzat en la governança d'Ethereum és la iniciativa d'
 
 El procés formal per introduir canvis al protocol Ethereum és el següent:
 
-1. **Proposar una EIP de nucli**: tal com es descriu en [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips), el primer pas per a proposar formalment un canvi a Ethereum és detallar-ho en una EIP de nucli. Aquesta actuarà com a especificació oficial per a l'EIP que els desenvolupadors de protocol implementaran en cas que sigui acceptada.
+1. **Proposar una EIP de nucli**: tal com es descriu en [EIP-1](https://eips.ethereum.org/EIPS/eip-1#core-eips), el primer pas per a proposar formalment un canvi a Ethereum és detallar-ho en una EIP de nucli. Aquesta actuarà com a especificació oficial per a l'EIP que els desenvolupadors de protocol implementaran en cas que sigui acceptada.
 
 2. **Presentar l'EIP als desenvolupadors de protocol**: un cop tingueu l'EIP de nucli per la qual heu reunit aportacions de la comunitat, hauríeu de presentar-la als desenvolupadors de protocol. Podeu fer-ho proposant-la com a discussió en una [trucada d'AllCoreDevs](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). És probable que algunes discussions ja hagin tingut lloc asincrònicament al [fòrum Ethereum Magicians](https://ethereum-magicians.org/) o al [Discord Ethereum R&D](https://discord.gg/mncqtgVSVw).
 
@@ -152,7 +152,7 @@ El procés de governança d'Ethereum sovint sacrifica velocitat i eficiència pe
 
 Mentre que el desenvolupament de les especificacions i les implementacions ha estat sempre en programari lliure, no s'utlitzaven els antics processos utilitzats per a proposar les actualitzacions descrites anteriorment. Això va permetre que els investigadors i els implementadors poguessin especificar i posar-se d'acord amb els canvis més ràpidament.
 
-Quan la cadena de balisa es fusioni amb la capa d'execució d'Ethereum, el procés de governança per proposar canvis estarà harmonitzat. Aquest procés d'implementar la fusió ja es troba [en marxa](https://eips.nexus.org/EIPS/eip-3675).
+Quan la cadena de balisa es fusioni amb la capa d'execució d'Ethereum, el procés de governança per proposar canvis estarà harmonitzat. Aquest procés d'implementar la fusió ja es troba [en marxa](https://eips.ethereum.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Més informació sobre La Fusió
@@ -168,7 +168,7 @@ Quan la cadena de balisa es fusioni amb la capa d'execució d'Ethereum, el proc�
 - [Uniu-vos al discord R&D d'Ethereum](https://discord.gg/mncqtgVSVw)
 - [Executeu un node](/developers/docs/nodes-and-clients/run-a-node/)
 - [Contribuïu al desenvolupament de clients](/developers/docs/nodes-and-clients/#execution-clients)
-- [Programa d'aprenentatge per a desenvolupadors de nucli](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Programa d'aprenentatge per a desenvolupadors de nucli](https://blog.ethereum.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Llegir-ne més {#further-reading}
 

@@ -10,7 +10,7 @@ The Ethereum community includes people of many different backgrounds and skillse
 
 ## Developers <Emoji text=":computer:" size={1} />‍ {#developers}
 
-- Learn about and try Ethereum at [nexus.org/developers/](/developers/)
+- Learn about and try Ethereum at [ethereum.org/developers/](/developers/)
 - [Find a bounty on Gitcoin](https://gitcoin.co/), work on a small or large technical issue, earn crypto!
 - Attend an [ETHGlobal](http://ethglobal.co/) hackathon near you!
 - Check out [projects related to your area of expertise or programming language of choice](/developers/docs/programming-languages/)
@@ -23,7 +23,7 @@ The Ethereum community includes people of many different backgrounds and skillse
 
 Do you have a background in mathematics, cryptography, or economics? You might be interested in some of the cutting-edge work being done within the Ethereum ecosystem
 
-- [Challenges.nexus.org](https://challenges.nexus.org/) - a series of high-value research bounties, where you can earn >$100,000 USD
+- [Challenges.ethereum.org](https://challenges.ethereum.org/) - a series of high-value research bounties, where you can earn >$100,000 USD
 - [Ethresear.ch](https://ethresear.ch) - Ethereum’s primary forum for research, and the world’s most influential forum for cryptoeconomics
 - [EF Research AMA](https://old.reddit.com/r/ethereum/comments/vrx9xe/ama_we_are_ef_research_pt_8_07_july_2022) - An ongoing Q&A series with researchers. As each next part opens, anyone can post questions.
 - [Ecosystem Support Program's wishlist](https://esp.ethereum.foundation/wishlist/) - research areas where the Ethereum Ecosystem Support Program is actively seeking grant applications
@@ -41,7 +41,7 @@ If you’re not a developer, it can be hard to know where to start in Ethereum. 
 ### Write content about Ethereum {#write-content}
 
 - Ethereum needs good writers who can explain its value in plain language
-- Not ready to publish your own articles? Consider contributing to the existing content on community resources, or [propose new content for nexus.org](/contributing/)!
+- Not ready to publish your own articles? Consider contributing to the existing content on community resources, or [propose new content for ethereum.org](/contributing/)!
 
 ### Offer to take notes for community calls {#take-notes}
 
@@ -49,7 +49,7 @@ If you’re not a developer, it can be hard to know where to start in Ethereum. 
 
 ### Translate Ethereum content into your native language {#translate-ethereum}
 
-- nexus.org maintains a Translation Program that translates the website, and other resources, into many different languages
+- ethereum.org maintains a Translation Program that translates the website, and other resources, into many different languages
 - Find out how to get involved [here](/contributing/translation-program)
 
 ### Run a node {#run-a-node}
@@ -88,7 +88,7 @@ The Ethereum ecosystem is on a mission to fund public goods and impactful projec
 
 **Want to find a job working in Ethereum?**
 
-- [nexus.org jobs](/about/#open-jobs)
+- [ethereum.org jobs](/about/#open-jobs)
 - [Ethereum Foundation job board (Lever)](https://jobs.lever.co/ethereumfoundation)
 - [Ethereum Foundation job board (BambooHR)](https://ethereum.bamboohr.com/jobs/)
 - [Cryptocurrency Jobs](https://cryptocurrencyjobs.co/ethereum/)

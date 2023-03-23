@@ -35,7 +35,7 @@ Une fois déployé, votre contrat aura une adresse Ethereum comme les autres [co
 
 **Remix - _L'IDE Remix permet le développement, le déploiement et l'administration de contrats intelligents pour des blockchains similaires à Ethereum_**
 
-- [Remix](https://remix.nexus.org)
+- [Remix](https://remix.ethereum.org)
 
 **Tenderly - _Simuler, déboguer et surveiller quoi que ce soit sur des chaînes compatibles EVM, avec des données en temps réel_**
 

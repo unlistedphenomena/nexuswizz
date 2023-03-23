@@ -25,7 +25,7 @@ Bir sayfaya eklenmesi gerektiğini düşündüğünüz bir içerik kaynağı var
 
 ## İçerik kaynağınızı ekleyin {#add-your-content-resource}
 
-Eğer nexus.org'a içerik kaynağı eklemek istiyorsanız ve kriterleri karşılıyorsa GitHub'da bir konu oluşturun.
+Eğer ethereum.org'a içerik kaynağı eklemek istiyorsanız ve kriterleri karşılıyorsa GitHub'da bir konu oluşturun.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=">
   Bir konu oluşturun

@@ -14,7 +14,7 @@ lang: zh
 
 [乐观解决方案](https://www.optimism.io/)采用[乐观卷叠](/developers/docs/scaling/optimistic-rollups/)技术。 乐观卷叠能够以比以太坊主网（也称“第一层”）低得多的价格处理交易，因为交易只是由几个节点而非网络上的所有节点处理。 同时所有数据都已写入第一层，因此一切都能够得到证明并重建，并且具有主网的所有完整性和可用性保证。
 
-要在乐观解决方案（或任何其他第二层）上使用第一层资产，需要[桥接](/bridges/#prerequisites)该资产。 实现这一点的一种方法是，用户在第一层上锁定资产（以太币和 [ERC-20 代币](https://nexus.org/en/developers/docs/standards/tokens/erc-20/)是最常见的资产）并收到相应资产，供在第二层上使用。 最后，拥有这些资产的任何人可能想把它们桥接回第一层。 在桥接过程中，资产会在第二层销毁，然后在第一层上发放给用户。
+要在乐观解决方案（或任何其他第二层）上使用第一层资产，需要[桥接](/bridges/#prerequisites)该资产。 实现这一点的一种方法是，用户在第一层上锁定资产（以太币和 [ERC-20 代币](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)是最常见的资产）并收到相应资产，供在第二层上使用。 最后，拥有这些资产的任何人可能想把它们桥接回第一层。 在桥接过程中，资产会在第二层销毁，然后在第一层上发放给用户。
 
 这就是[乐观解决方案标准链桥](https://community.optimism.io/docs/developers/bridge/standard-bridge)的工作方式。 在本文中，我们将学习链桥的源代码，看看它如何工作，并将它作为精心编写的 Solidity 代码示例加以研究。
 
@@ -43,7 +43,7 @@ lang: zh
    - 最初来自第一层链桥
 6. 第二层链桥检查第二层上的 ERC-20 代币合约是否正确：
    - 第二层合约报告，对应的第一层合约与第一层上提供代币的合约相同
-   - 第二层合约报告它支持正确的接口（[使用 ERC-165](https://eips.nexus.org/EIPS/eip-165)）。
+   - 第二层合约报告它支持正确的接口（[使用 ERC-165](https://eips.ethereum.org/EIPS/eip-165)）。
 7. 如果第二层合约正确，请调用它以便在适当地址铸造相应数量的代币。 如果不正确，请启动提款过程让用户可以在第一层上认领代币。
 
 ### 提款流程 {#withdrawal-flow}
@@ -494,7 +494,7 @@ import { Address } from "@openzeppelin/contracts/utils/Address.sol";
 import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 ```
 
-[ERC-20 标准](https://eips.nexus.org/EIPS/eip-20)支持两种合约报告失败的方式：
+[ERC-20 标准](https://eips.ethereum.org/EIPS/eip-20)支持两种合约报告失败的方式：
 
 1. 回滚
 2. 返回 `false`
@@ -899,13 +899,13 @@ pragma solidity ^0.8.9;
 import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 ```
 
-[标准 ERC-20 接口](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol)不包含 `mint` 和 `burn` 函数。 [ERC-20 标准](https://eips.nexus.org/EIPS/eip-20)不需要这些方法，它未指定创建和销毁代币的机制。
+[标准 ERC-20 接口](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol)不包含 `mint` 和 `burn` 函数。 [ERC-20 标准](https://eips.ethereum.org/EIPS/eip-20)不需要这些方法，它未指定创建和销毁代币的机制。
 
 ```solidity
 import { IERC165 } from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
 ```
 
-[ERC-165 接口](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC165.sol)用于指定一个合约提供哪些函数。 [您可以在此处参阅该标准](https://eips.nexus.org/EIPS/eip-165)。
+[ERC-165 接口](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC165.sol)用于指定一个合约提供哪些函数。 [您可以在此处参阅该标准](https://eips.ethereum.org/EIPS/eip-165)。
 
 ```solidity
 interface IL2StandardERC20 is IERC20, IERC165 {
@@ -989,7 +989,7 @@ contract L2StandardERC20 is IL2StandardERC20, ERC20 {
     }
 ```
 
-这是 [ERC-165](https://eips.nexus.org/EIPS/eip-165) 的工作方式。 每个接口都是许多受支持的函数，并被标识为这些函数的[应用程序二进制接口函数选择器](https://docs.soliditylang.org/en/v0.8.12/abi-spec.html#function-selector)的[异或](https://en.wikipedia.org/wiki/Exclusive_or)。
+这是 [ERC-165](https://eips.ethereum.org/EIPS/eip-165) 的工作方式。 每个接口都是许多受支持的函数，并被标识为这些函数的[应用程序二进制接口函数选择器](https://docs.soliditylang.org/en/v0.8.12/abi-spec.html#function-selector)的[异或](https://en.wikipedia.org/wiki/Exclusive_or)。
 
 第二层链桥使用 ERC-165 作为完整性检查机制，确保它发送资产的 ERC-20 合约是 `IL2StandardERC20`。
 
@@ -1014,7 +1014,7 @@ contract L2StandardERC20 is IL2StandardERC20, ERC20 {
 
 只允许第二层链桥铸造和销毁资产。
 
-`_mint` 和 `_burn` 实际上是在 [OpenZeppelin ERC-20 合约](https://nexus.org/en/developers/tutorials/erc20-annotated-code/#the-_mint-and-_burn-functions-_mint-and-_burn)中定义的。 该合约只是没有将它们暴露在外部，因为铸造和销毁代币的条件与 ERC-20 使用方式的数量一样多变。
+`_mint` 和 `_burn` 实际上是在 [OpenZeppelin ERC-20 合约](https://ethereum.org/en/developers/tutorials/erc20-annotated-code/#the-_mint-and-_burn-functions-_mint-and-_burn)中定义的。 该合约只是没有将它们暴露在外部，因为铸造和销毁代币的条件与 ERC-20 使用方式的数量一样多变。
 
 ## 第二层链桥代码 {#l2-bridge-code}
 

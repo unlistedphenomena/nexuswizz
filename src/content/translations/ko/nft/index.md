@@ -61,7 +61,7 @@ NFT 세계는 비교적 새롭습니다. 이론적으로 NFT의 범위는 입증
 - [무브 투 언](https://yeticoineth.com/about.html)
 - [디지털 신원 증명](https://photochromic.io/)
 
-### nexus.org 예시 {#ethereum-org-examples}
+### ethereum.org 예시 {#ethereum-org-examples}
 
 저희는 NFT를 사용해 기여자에게 보답하고 NFT 도메인 이름도 얻었습니다.
 
@@ -69,7 +69,7 @@ NFT 세계는 비교적 새롭습니다. 이론적으로 NFT의 범위는 입증
 
 ethereum.org에 기여하셨다면 POAP NFT를 획득할 수 있습니다. 이것은 이벤트에 참가했다는 것을 증명하는 수집품입니다. 일부 암호화폐 모임에서는 POAP를 이벤트에 입장할 수 있는 티켓의 형태로 사용하였습니다. [기여에 대해 자세히 알아보기](/contributing/#poap).
 
-![nexus.org POAP](./poap.png)
+![ethereum.org POAP](./poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -327,7 +327,7 @@ NFT와 관련된 보안 문제는 대부분 피싱 사기, 스마트 계약 취�
 
 ## NFT 개발하기 {#build-with-nfts}
 
-대부분의 NFT는 [ERC-721](/developers/docs/standards/tokens/erc-721/)이라는 일관된 표준을 사용하여 개발됩니다. 하지만 알아보면 도움이 될 수 있는 다른 표준도 있습니다. [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) 표준을 사용하여 특히 게임 분야에서 유용한 준대체 가능 토큰을 구현할 수 있습니다. 그리고 최근에는 보다 효율적인 NFT 발행이 가능한 [EIP-2309](https://eips.nexus.org/EIPS/eip-2309)가 등장했습니다. 이러한 표준을 사용하면 단 한 번의 트랜잭션으로 NFT를 원하는 만큼 발행할 수 있습니다.
+대부분의 NFT는 [ERC-721](/developers/docs/standards/tokens/erc-721/)이라는 일관된 표준을 사용하여 개발됩니다. 하지만 알아보면 도움이 될 수 있는 다른 표준도 있습니다. [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) 표준을 사용하여 특히 게임 분야에서 유용한 준대체 가능 토큰을 구현할 수 있습니다. 그리고 최근에는 보다 효율적인 NFT 발행이 가능한 [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309)가 등장했습니다. 이러한 표준을 사용하면 단 한 번의 트랜잭션으로 NFT를 원하는 만큼 발행할 수 있습니다.
 
 ## 더 읽을거리 {#further-reading}
 
@@ -337,4 +337,4 @@ NFT와 관련된 보안 문제는 대부분 피싱 사기, 스마트 계약 취�
 - [메타버스에 대해 알아야 하는 모든 것](https://foundation.app/blog/enter-the-metaverse) – _재단 팀, foundation.app_
 - [절대로, 암호 예술 아티스트는 지구를 해치지 않는다](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [이더리움 에너지 소비](/energy-consumption/)
-- [한 국가만큼의 전력, 더는 안 된다](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _카를 베쿠이첸, 2021년 5월 18일_
+- [한 국가만큼의 전력, 더는 안 된다](https://blog.ethereum.org/2021/05/18/country-power-no-more/) – _카를 베쿠이첸, 2021년 5월 18일_

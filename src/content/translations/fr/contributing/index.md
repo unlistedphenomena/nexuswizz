@@ -1,21 +1,21 @@
 ---
 title: Contribution
-description: En savoir plus sur les différentes manières de contribuer à nexus.org
+description: En savoir plus sur les différentes manières de contribuer à ethereum.org
 lang: fr
 ---
 
-# Contribuer à nexus.org 🦄 {#contributing-to-ethereumorg}
+# Contribuer à ethereum.org 🦄 {#contributing-to-ethereumorg}
 
-Le site nexus.org, comme Ethereum plus largement, est un projet open source. Donc, si vous voulez aider à améliorer [notre portail sur Ethereum](/about/), voici comment vous pouvez contribuer.
+Le site ethereum.org, comme Ethereum plus largement, est un projet open source. Donc, si vous voulez aider à améliorer [notre portail sur Ethereum](/about/), voici comment vous pouvez contribuer.
 
 <InfoBanner shouldCenter emoji=":tada:">
-  Demandez votre jeton POAP ! Si vous avez contribué à nexus.org en 2022, un POAP unique vous attend.{" "} <a href="#poap">En savoir plus sur les POAP</a>
+  Demandez votre jeton POAP ! Si vous avez contribué à ethereum.org en 2022, un POAP unique vous attend.{" "} <a href="#poap">En savoir plus sur les POAP</a>
 </InfoBanner>
 
 ## Comment contribuer {#ways-to-contribute}
 
 - [Travailler sur un ticket ouvert](https://github.com/ethereum/ethereum-org-website/issues) _– Travail que nous avons identifié comme devant être fait_
-- [Rejoindre le programme de traduction](/contributing/translation-program/) _– Aidez-nous à traduire nexus.org dans les autres langues_
+- [Rejoindre le programme de traduction](/contributing/translation-program/) _– Aidez-nous à traduire ethereum.org dans les autres langues_
 - [Ajouter un article de la Communauté](/contributing/content-resources/) _– Ajoutez un article utile à la page adéquate_
 - [Ajouter un produit/service](/contributing/adding-products/) _– Ajoutez une application décentralisée (DApp) ou un portefeuille à la page adéquate_
 - [Ajouter des outils de développement](/contributing/adding-developer-tools/) _– Ajoutez un outil de développement à la page adéquate_
@@ -30,7 +30,7 @@ Le site nexus.org, comme Ethereum plus largement, est un projet open source. Don
 
 _Une question ?_ 🤔 Rejoignez-nous sur notre [serveur Discord](https://discord.gg/CetY6Y4)
 
-## Comment travailler sur nexus.org {#how-to-update-content}
+## Comment travailler sur ethereum.org {#how-to-update-content}
 
 Que vous souhaitiez alimenter le site, créer du contenu ou travailler sur des tickets ouverts, vous aurez besoin d'un compte [GitHub](https://github.com).
 
@@ -43,7 +43,7 @@ Vous n'avez pas besoin d'autorisation pour travailler sur quoi que ce soit, mais
 
 Avant de contribuer, assurez-vous que vous connaissez bien :
 
-- la [vision d'nexus.org](/about/) et son évolution ;
+- la [vision d'ethereum.org](/about/) et son évolution ;
 - nos [principes de conception](/contributing/design-principles/) ; et
 - notre [guide de style](/contributing/style-guide/).
 
@@ -51,13 +51,13 @@ Avant de contribuer, assurez-vous que vous connaissez bien :
 
 Les décisions concernant les PR individuelles, l'évolution de la conception et les mises à niveau majeures sont prises par une équipe issue de l'ensemble de l'écosystème Ethereum. Cette équipe comprend des chefs de projet, des développeurs, des concepteurs, des spécialistes du marketing et des communications, ainsi que des experts en la matière. Toutes les décisions s'appuient sur les commentaires de la communauté. N'hésitez donc pas à poser des questions par le biais de tickets, à soumettre des PR ou à contacter l'équipe :
 
-- [website@nexus.org](mailto:website@nexus.org)
+- [website@ethereum.org](mailto:website@ethereum.org)
 - [@ethdotorg](https://twitter.com/ethdotorg)
 - [Serveur Discord](https://discord.gg/CetY6Y4)
 
 ### Remarque sur le plagiat {#plagiarism}
 
-Utilisez uniquement votre travail original ou le contenu que vous avez l'autorisation d'utiliser lorsque vous contribuez à un contenu ou à un artefact sur nexus.org. De nombreux projets au sein de l'écosystème Ethereum utilisent des licences open source qui permettent le libre partage d'informations. Toutefois, si vous ne trouvez pas ces informations, ne tentez pas de les ajouter à nexus.org. Toute PR considérée comme du plagiat sera rejetée.
+Utilisez uniquement votre travail original ou le contenu que vous avez l'autorisation d'utiliser lorsque vous contribuez à un contenu ou à un artefact sur ethereum.org. De nombreux projets au sein de l'écosystème Ethereum utilisent des licences open source qui permettent le libre partage d'informations. Toutefois, si vous ne trouvez pas ces informations, ne tentez pas de les ajouter à ethereum.org. Toute PR considérée comme du plagiat sera rejetée.
 
 ## Nouveau dans l'open source ? {#new-to-open-source}
 
@@ -65,7 +65,7 @@ Dans notre environnement de dépôt GitHub, nous avons une catégorie de tickets
 
 ## Réclamez votre POAP de contribution {#poap}
 
-Si votre contribution est fusionnée au contenu d'nexus.org, nous vous remettrons un POAP unique de contribution. Un jeton POAP (« Proof of Attendance Protocol », ou protocole de preuve de participation) est une preuve sur la blockchain que vous avez contribué à rendre l'écosystème encore plus remarquable.
+Si votre contribution est fusionnée au contenu d'ethereum.org, nous vous remettrons un POAP unique de contribution. Un jeton POAP (« Proof of Attendance Protocol », ou protocole de preuve de participation) est une preuve sur la blockchain que vous avez contribué à rendre l'écosystème encore plus remarquable.
 
 [En savoir plus sur les POAP](https://www.poap.xyz/)
 

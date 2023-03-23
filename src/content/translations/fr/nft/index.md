@@ -61,15 +61,15 @@ L'univers des NFT est relativement nouveau. En théorie, les NFT couvre tout ce 
 - [Bouger pour gagner](https://yeticoineth.com/about.html)
 - [Identité numérique](https://photochromic.io/)
 
-### Exemples nexus.org {#ethereum-org-examples}
+### Exemples ethereum.org {#ethereum-org-examples}
 
 Nous utilisons les NFT pour donner à nos contributeurs et nous avons même notre propre nom de domaine NFT.
 
 #### POAP (Protocole de preuve de présence) {#poaps}
 
-Si vous contribuez à nexus.org, vous pouvez demander un POAP NFT. Ce sont des objets de collection qui prouvent que vous avez participé à un événement. Certaines réunions crypto ont utilisé des POAP comme forme de billet pour leurs événements. [Plus d'infos sur la contribution](/contributing/#poap).
+Si vous contribuez à ethereum.org, vous pouvez demander un POAP NFT. Ce sont des objets de collection qui prouvent que vous avez participé à un événement. Certaines réunions crypto ont utilisé des POAP comme forme de billet pour leurs événements. [Plus d'infos sur la contribution](/contributing/#poap).
 
-![POAP nexus.org](../../../../assets/use-cases/poap.png)
+![POAP ethereum.org](../../../../assets/use-cases/poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -341,7 +341,7 @@ Les questions de sécurité concernant les NFT sont le plus souvent liées aux e
 
 ## Créer avec les NFT {#build-with-nfts}
 
-La plupart des NFT sont construits via une norme cohérente connue sous le nom de [ERC-721](/developers/docs/standards/tokens/erc-721/). Il existe cependant d'autres normes qui pourraient vous intéresser. La norme [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) autorise les jetons à moitié fongibles, ce qui est particulièrement utiles dans l'univers des jeux vidéos. Et plus récemment, [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) a été proposé pour rendre la frappe de NFT bien plus efficace. Cette norme vous laisse le droit de frapper autant que vous le souhaitez en une seule transaction !
+La plupart des NFT sont construits via une norme cohérente connue sous le nom de [ERC-721](/developers/docs/standards/tokens/erc-721/). Il existe cependant d'autres normes qui pourraient vous intéresser. La norme [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) autorise les jetons à moitié fongibles, ce qui est particulièrement utiles dans l'univers des jeux vidéos. Et plus récemment, [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309) a été proposé pour rendre la frappe de NFT bien plus efficace. Cette norme vous laisse le droit de frapper autant que vous le souhaitez en une seule transaction !
 
 ## Complément d'information {#further-reading}
 

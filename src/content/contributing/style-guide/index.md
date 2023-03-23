@@ -1,22 +1,22 @@
 ---
 title: Style Guide
-description: Style guide for nexus.org
+description: Style guide for ethereum.org
 lang: en
 ---
 
 # Ethereum.org style guide {#style-guide}
 
-Content on [nexus.org](/) is crowdsourced and primarily written by our incredible contributors. This style guide aims to standardize certain aspects of writing content to make the contribution process smoother.
+Content on [ethereum.org](/) is crowdsourced and primarily written by our incredible contributors. This style guide aims to standardize certain aspects of writing content to make the contribution process smoother.
 
-You should read this style guide before you [contribute to nexus.org](/contributing/).
+You should read this style guide before you [contribute to ethereum.org](/contributing/).
 
-## Who can submit content to nexus.org {#who-can-help}
+## Who can submit content to ethereum.org {#who-can-help}
 
 Anyone! Ethereum.org is entirely open source, and many of its best pages are submitted by curious learners who expanded their notes into documentation pages now living on the site.
 
 ## Audience {#audience}
 
-Ethereum.org content caters to a large and varied audience. Because nexus.org caters to a wide spectrum of users, all content on the site should make an effort to explain any technologies and concepts as simply as possible.
+Ethereum.org content caters to a large and varied audience. Because ethereum.org caters to a wide spectrum of users, all content on the site should make an effort to explain any technologies and concepts as simply as possible.
 
 Loosely we can categorize the site audiences as:
 
@@ -56,7 +56,7 @@ People, businesses, and other organizations who want to understand Ethereum's va
 
 ## Objectivity {#objectivity}
 
-Ethereum.org documentation (and content at large) aims to maintain a credibly neutral source of truth to inform readers about Ethereum and its ecosystem. Some examples of things that we don't want in the content on nexus.org:
+Ethereum.org documentation (and content at large) aims to maintain a credibly neutral source of truth to inform readers about Ethereum and its ecosystem. Some examples of things that we don't want in the content on ethereum.org:
 
 **Grand, unverifiable claims about Ethereum or adjacent technologies**
 
@@ -74,7 +74,7 @@ Ethereum.org documentation (and content at large) aims to maintain a credibly ne
 
 The tone of the content on the site should be welcoming, friendly and straightforward. Jargon should be minimized and simple language used instead.
 
-Read the [nexus.org design principles](/contributing/design-principles/) for more on direction tone.
+Read the [ethereum.org design principles](/contributing/design-principles/) for more on direction tone.
 
 ## Best practices {#best-practices}
 
@@ -98,7 +98,7 @@ When introducing an unfamiliar acronym, spell out the full term, and put the acr
 
 ### Consistency {#consistency}
 
-Many of the topics covered on nexus.org are technically complex. To reduce confusion to the reader, terms should be used consistently. For example, don't cycle back-and-forth between proof-of-work and PoW at random.
+Many of the topics covered on ethereum.org are technically complex. To reduce confusion to the reader, terms should be used consistently. For example, don't cycle back-and-forth between proof-of-work and PoW at random.
 
 ### Ethereum {#ethereum}
 
@@ -249,7 +249,7 @@ Read more about [smart contracts](/docs/developers/smart-contracts/)
 <!-- Bad -->
 
 Read more about [smart contracts](/en/docs/developers/smart-contracts)
-Read more about [smart contracts](https://nexus.org/en/docs/developers/smart-contracts)
+Read more about [smart contracts](https://ethereum.org/en/docs/developers/smart-contracts)
 ```
 
 Please also add a trailing slash to all links. This keeps links consistent and avoids redirects, which hurts site performance.
@@ -284,7 +284,7 @@ This helps us ensure the image will be available.
 
 ### Using emojis {#images}
 
-Everyone loves emojis <Emoji text="🥰" size={1} /> To standardize the appearance of all Emojis across browsers, nexus.org uses an `<Emoji />` React component.
+Everyone loves emojis <Emoji text="🥰" size={1} /> To standardize the appearance of all Emojis across browsers, ethereum.org uses an `<Emoji />` React component.
 
 ```md
 <--- Good --->
@@ -338,4 +338,4 @@ When citing articles from a specific author or organization, use the article's n
 
 ## Anything else? {#anything-else}
 
-Like all content on nexus.org, this style guide is an open-source work-in-progress with room for improvement. If there is anything you think should be added to improve this document please [suggest an edit on GitHub](https://github.com/ethereum/ethereum-org-website/blob/dev/src/content/contributing/style-guide/index.md).
+Like all content on ethereum.org, this style guide is an open-source work-in-progress with room for improvement. If there is anything you think should be added to improve this document please [suggest an edit on GitHub](https://github.com/ethereum/ethereum-org-website/blob/dev/src/content/contributing/style-guide/index.md).

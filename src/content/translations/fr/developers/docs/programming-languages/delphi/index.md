@@ -19,7 +19,7 @@ Créez des applications décentralisées sur Ethereum et interagissez avec des c
 
 **Commencer à intégrer Delphi à Ethereum**
 
-Besoin d’une approche plus élémentaire ? Jetez un oeil à [nexus.org/learn](/learn/) ou [nexus.org/developers](/developers/).
+Besoin d’une approche plus élémentaire ? Jetez un oeil à [ethereum.org/learn](/learn/) ou [ethereum.org/developers](/developers/).
 
 - [Explication de la blockchain](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendre les contrats autonomes](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -52,4 +52,4 @@ Besoin d’une approche plus élémentaire ? Jetez un oeil à [nexus.org/learn]
 - [QuikNode, Ethereum et Delphi](https://medium.com/@svanas/quiknode-ethereum-and-delphi-f7bfc9671c23)
 - [Delphi et la forêt sombre d'Ethereum](https://svanas.medium.com/delphi-and-the-ethereum-dark-forest-5b430da3ad93)
 
-Vous cherchez davantage de ressources ? Consultez [nexus.org/developers.](/developers/).
+Vous cherchez davantage de ressources ? Consultez [ethereum.org/developers.](/developers/).

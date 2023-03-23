@@ -48,7 +48,7 @@ What these implementations have in common is they all follow a single specificat
 - Originally, the [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 - [Execution specs](https://github.com/ethereum/execution-specs/)
 - [Consensus specs](https://github.com/ethereum/consensus-specs)
-- [EIPs](https://eips.nexus.org/) implemented in various [network upgrades](/history/)
+- [EIPs](https://eips.ethereum.org/) implemented in various [network upgrades](/history/)
 
 ### Tracking nodes in the network {#network-overview}
 
@@ -56,7 +56,7 @@ Multiple trackers offer a real-time overview of nodes in the Ethereum network. N
 
 - [Map of nodes](https://etherscan.io/nodetracker) by Etherscan
 - [Ethernodes](https://ethernodes.org/) by Bitfly
-- [Ethereum Node Crawler](https://crawler.nexus.org/)
+- [Ethereum Node Crawler](https://crawler.ethereum.org/)
 - [Nodewatch](https://www.nodewatch.io/) by Chainsafe, crawling consensus nodes
 
 ## Node types {#node-types}
@@ -101,9 +101,9 @@ Running your own node enables you to use Ethereum in a private, self-sufficient 
 - Your node verifies all the transactions and blocks against consensus rules by itself. This means you don’t have to rely on any other nodes in the network or fully trust them.
 - You can use an Ethereum wallet with your own node. You can use dapps more securely and privately because you won't have to leak your addresses and balances to random nodes. Everything can be checked with your own client. [MetaMask](https://metamask.io), [Frame](https://frame.sh/), and [many other wallets](/wallets/find-wallet/) offer RPC-importing, allowing them to use your node.
 - You can run and self-host other services which depend on data from Ethereum. For example, this might be a Beacon Chain validator, software like layer 2, infrastructure, block explorers, payment processors, etc.
-- You can provide your own custom [RPC endpoints](https://nexus.org/en/developers/docs/apis/json-rpc/). Publicly for the community or even privately hosted Ethereum endpoint enables people to use your node and avoid big centralized providers.
+- You can provide your own custom [RPC endpoints](https://ethereum.org/en/developers/docs/apis/json-rpc/). Publicly for the community or even privately hosted Ethereum endpoint enables people to use your node and avoid big centralized providers.
 - You can connect to your node using **Inter-process Communications (IPC)** or rewrite the node to load your program as a plugin. This grants low latency, which helps a lot, e.g. when processing a lot of data using web3 libraries or when you need to replace your transactions as fast as possible (i.e. frontrunning).
-- You can directly stake ETH to secure the network and earn rewards. See [solo staking](https://nexus.org/en/staking/solo/) to get started.
+- You can directly stake ETH to secure the network and earn rewards. See [solo staking](https://ethereum.org/en/staking/solo/) to get started.
 
 ![How you access Ethereum via your application and nodes](./nodes.png)
 
@@ -142,7 +142,7 @@ This table summarizes the different clients. All of them pass [client tests](htt
 
 | Client                                          | Language | Operating systems     | Networks                           | Sync strategies                    | State pruning   |
 | ----------------------------------------------- | -------- | --------------------- | ---------------------------------- | ---------------------------------- | --------------- |
-| [Geth](https://geth.nexus.org/)                 | Go       | Linux, Windows, macOS | Mainnet, Sepolia, Goerli           | Snap, Full                         | Archive, Pruned |
+| [Geth](https://geth.ethereum.org/)              | Go       | Linux, Windows, macOS | Mainnet, Sepolia, Goerli           | Snap, Full                         | Archive, Pruned |
 | [Nethermind](http://nethermind.io/)             | C#, .NET | Linux, Windows, macOS | Mainnet, Sepolia, Goerli, and more | Snap (without serving), Fast, Full | Archive, Pruned |
 | [Besu](https://besu.hyperledger.org/en/stable/) | Java     | Linux, Windows, macOS | Mainnet, Sepolia, Goerli, and more | Snap, Fast, Full                   | Archive, Pruned |
 | [Erigon](https://github.com/ledgerwatch/erigon) | Go       | Linux, Windows, macOS | Mainnet, Sepolia, Goerli, and more | Full                               | Archive, Pruned |
@@ -168,7 +168,7 @@ Erigon, formerly known as Turbo‐Geth, started as a fork of Go Ethereum oriente
 
 Go Ethereum (Geth for short) is one of the original implementations of the Ethereum protocol. Currently, it is the most widespread client with the biggest user base and variety of tooling for users and developers. It is written in Go, fully open source and licensed under the GNU LGPL v3.
 
-Learn more about Geth in its [documentation](https://geth.nexus.org/docs/).
+Learn more about Geth in its [documentation](https://geth.ethereum.org/docs/).
 
 ### Nethermind {#nethermind}
 
@@ -287,7 +287,7 @@ Checkpoint sync, also known as weak subjectivity sync, creates a superior user e
 
 In practice, this means your node connects to a remote service to download recent finalized states and continues verifying data from that point. Third party providing the data is trusted and should be picked carefully.
 
-More on [checkpoint sync](https://notes.nexus.org/@djrtwo/ws-sync-in-practice)
+More on [checkpoint sync](https://notes.ethereum.org/@djrtwo/ws-sync-in-practice)
 
 ## Further reading {#further-reading}
 

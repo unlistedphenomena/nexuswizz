@@ -1,16 +1,16 @@
 ---
 title: Translators guide
 lang: en
-description: Instructions and tips for nexus.org translators
+description: Instructions and tips for ethereum.org translators
 ---
 
 # Ethereum.org Translation Style Guide {#style-guide}
 
-The nexus.org translation style guide contains some of the most important guidelines, instructions, and tips for translators, helping us localize the website.
+The ethereum.org translation style guide contains some of the most important guidelines, instructions, and tips for translators, helping us localize the website.
 
 This document serves as a general guide and is not specific to any one language.
 
-If you have any questions, suggestions or feedback, feel free to reach out to us at translations@nexus.org, send a message to @ethdotorg on Crowdin, or [join our Discord](https://discord.gg/XVepFu7sqR), where you can message us in the #translations channel or reach out to any of the team members.
+If you have any questions, suggestions or feedback, feel free to reach out to us at translations@ethereum.org, send a message to @ethdotorg on Crowdin, or [join our Discord](https://discord.gg/XVepFu7sqR), where you can message us in the #translations channel or reach out to any of the team members.
 
 ### Using Crowdin {#using-crowdin}
 
@@ -20,7 +20,7 @@ If you would like to learn more about Crowdin and using some of its advanced fea
 
 ### Capturing the essence of the message {#capturing-the-essence}
 
-When translating nexus.org content, avoid literal translations.
+When translating ethereum.org content, avoid literal translations.
 
 It is important that the translations capture the essence of the message. This could mean rephrasing certain phrases, or using descriptive translations instead of translating the content word for word.
 
@@ -114,7 +114,7 @@ When translating, clicking on this tag will automatically copy the exact tag to 
 
 **Links**
 
-You may notice full links to pages on nexus.org or other websites.
+You may notice full links to pages on ethereum.org or other websites.
 
 These should be identical to the source and not changed or translated. If you translate a link or change it in any way, even just removing a part of it, like a slash (/), this will lead to broken and unusable links.
 
@@ -292,7 +292,7 @@ Some examples of what to be particularly mindful of:
 
 ### Conclusion {#conclusion}
 
-Translating nexus.org is a great opportunity to learn about the different aspects of Ethereum.
+Translating ethereum.org is a great opportunity to learn about the different aspects of Ethereum.
 
 When translating, try not to rush. Take it easy and have fun!
 

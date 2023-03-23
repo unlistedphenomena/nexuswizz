@@ -195,7 +195,7 @@ Alchemy 非常自豪能够推动非同质化代币领域的一些巨头，包括
 
 在我们的智能合约的顶部，我们导入了三个 [OpenZeppelin](https://openzeppelin.com/) 智能合约类：
 
-- @openzeppelin/contracts/token/ERC721/ERC721.sol 包含 ERC-721 标准的实现，我们的非同质化代币智能合约将继承此标准。 （要成为有效的非同质化代币，您的智能合约必须实现 ERC-721 标准的所有方法。） 要更加详细地了解继承的 ERC-721 功能，请在[这里](https://eips.nexus.org/EIPS/eip-721)查看接口定义。
+- @openzeppelin/contracts/token/ERC721/ERC721.sol 包含 ERC-721 标准的实现，我们的非同质化代币智能合约将继承此标准。 （要成为有效的非同质化代币，您的智能合约必须实现 ERC-721 标准的所有方法。） 要更加详细地了解继承的 ERC-721 功能，请在[这里](https://eips.ethereum.org/EIPS/eip-721)查看接口定义。
 
 - @openzeppelin/contracts/utils/Counters.sol 提供了只能以 1 为增量或减量的计数器。 我们的智能合约使用一个计数器来跟踪非同质化代币总铸币量，并在我们的新非同质化代币上设置唯一 ID。 （每个使用智能合约铸造的非同质化代币必须分配一个唯一 ID——在这里，我们的唯一 ID 仅由存在的非同质化代币总量决定。 例如，我们用智能合约铸造的第一个非同质化代币的 ID 是“1”，第二个非同质化代币的 ID 是“2”，以此类推）
 

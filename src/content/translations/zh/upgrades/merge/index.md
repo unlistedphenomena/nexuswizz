@@ -99,7 +99,7 @@ id="developers">
 - 链上随机性的来源
 - _安全头_ 和 _最终区块_ 的概念
 
-更多信息，请查看 Tim Beiko 的这篇博客：【合并如何影响以太坊的应用层】(https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/)。
+更多信息，请查看 Tim Beiko 的这篇博客：【合并如何影响以太坊的应用层】(https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/)。
 </ExpandableCard>
 
 ## 合并和能源消耗 {#merge-and-energy}
@@ -185,7 +185,7 @@ contentPreview="False. Validator exits are rate limited for security reasons.">
 
 这些术语的更新仅会改变命名约定；不会改变以太坊的目标及路线图。
 
-[了解有关“以太坊 2”重命名的更多信息](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
+[了解有关“以太坊 2”重命名的更多信息](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)
 
 ## 升级间的关系 {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ contentPreview="False. Validator exits are rate limited for security reasons.">
 
 为了简化并顺利过渡到权益证明，合并升级将不包括某些预期的功能，如提取质押以太币的功能。 上海升级计划在合并之后进行，以确保质押人能够提款。
 
-请随时关注 [GitHub 上的上海升级计划问题](https://github.com/ethereum/pm/issues/450)或 [以太坊基金会研发博客](https://blog.nexus.org/category/research-and-development/)。 如果感兴趣，请详细了解 Vitalik 在 2021 年 4 月的 ETHGlobal 活动中发表的演讲：[合并后会发生什么](https://youtu.be/7ggwLccuN5s?t=101)。
+请随时关注 [GitHub 上的上海升级计划问题](https://github.com/ethereum/pm/issues/450)或 [以太坊基金会研发博客](https://blog.ethereum.org/category/research-and-development/)。 如果感兴趣，请详细了解 Vitalik 在 2021 年 4 月的 ETHGlobal 活动中发表的演讲：[合并后会发生什么](https://youtu.be/7ggwLccuN5s?t=101)。
 
 ### 合并与分片 {#merge-and-data-sharding}
 

@@ -43,7 +43,7 @@ ERC-20 的功能示例包括：
 
 如果智能合约实施了下列方法和事件，它可以被称为 ERC-20 代币合约，一旦部署，将负责跟踪以太坊上创建的代币。
 
-来自 [EIP-20](https://eips.nexus.org/EIPS/eip-20)：
+来自 [EIP-20](https://eips.ethereum.org/EIPS/eip-20)：
 
 #### 方法 {#methods}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## 延伸阅读 {#further-reading}
 
-- [EIP-20：ERC-20 代币标准](https://eips.nexus.org/EIPS/eip-20)
+- [EIP-20：ERC-20 代币标准](https://eips.ethereum.org/EIPS/eip-20)
 - [OpenZeppelin - 代币](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - ERC-20 实施](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

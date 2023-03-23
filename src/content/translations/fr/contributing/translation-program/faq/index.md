@@ -1,18 +1,18 @@
 ---
 title: Foire aux questions du programme de traduction (FAQ)
 lang: fr
-description: Questions fréquentes sur le programme de traduction d'nexus.org
+description: Questions fréquentes sur le programme de traduction d'ethereum.org
 ---
 
-# Guide de traduction du site nexus.org {#translating-ethereum-guide}
+# Guide de traduction du site ethereum.org {#translating-ethereum-guide}
 
 Si vous n'avez jamais utilisé de logiciels de traduction et hésitez à vous lancer, voici quelques questions/réponses pour commencer. Utilisez ce guide pour trouver les réponses aux questions les plus courantes.
 
-## Puis-je obtenir une compensation pour la traduction d'nexus.org ? {#compensation}
+## Puis-je obtenir une compensation pour la traduction d'ethereum.org ? {#compensation}
 
 Ethereum.org est un site web open source, ce qui signifie que tout le monde peut y contribuer.
 
-Le programme de traduction d'nexus.org va dans ce sens et est organisé avec une philosophie similaire.
+Le programme de traduction d'ethereum.org va dans ce sens et est organisé avec une philosophie similaire.
 
 Le but du programme de traduction est de rendre le contenu Ethereum accessible à tous, quelle que soit la langue qu'ils parlent. Il permet également à toute personne bilingue de s'impliquer dans l'écosystème Ethereum et d'y contribuer de manière accessible.
 
@@ -31,7 +31,7 @@ Toutes les chaînes ne sont pas écrites sous forme de texte pur. Certaines se c
 
 Vous pouvez déplacer les balises dans la chaîne pour la rendre plus naturelle dans votre langue. Assurez-vous de bien déplacer la balise entière.
 
-Pour des informations plus détaillées sur le traitement des balises et des extraits de code, veuillez vous référer au [guide de style pour la traduction d'nexus.org](/contributing/translation-program/translators-guide/#dealing-with-tags).
+Pour des informations plus détaillées sur le traitement des balises et des extraits de code, veuillez vous référer au [guide de style pour la traduction d'ethereum.org](/contributing/translation-program/translators-guide/#dealing-with-tags).
 
 ## Où sont réellement les chaînes ? {#strings}
 
@@ -56,7 +56,7 @@ Si vous voulez signaler une chaîne particulière qui a besoin d'être examinée
 
 ## Qu'est-ce que la mémoire de traduction (TM) ? {#translation-memory}
 
-La mémoire de traduction (TM, de l'anglais Translation Memory) est une fonctionnalité de Crowdin qui stocke toutes les chaînes précédemment traduites sur [nexus.org](http://nexus.org/). Lorsqu'une chaîne de caractères est traduite, elle est automatiquement enregistrée dans notre TM du projet. Cela peut être un outil utile pour vous aider à gagner du temps !
+La mémoire de traduction (TM, de l'anglais Translation Memory) est une fonctionnalité de Crowdin qui stocke toutes les chaînes précédemment traduites sur [ethereum.org](http://ethereum.org/). Lorsqu'une chaîne de caractères est traduite, elle est automatiquement enregistrée dans notre TM du projet. Cela peut être un outil utile pour vous aider à gagner du temps !
 
 - Regardez la section « TM and MT Suggestions » (Suggestions de la mémoire de traduction et de traduction automatique) et vous verrez comment les autres traducteurs ont traduit la phrase ou une phrase similaire. Si vous trouvez une suggestion qui correspond, n'hésitez pas à l'utiliser en cliquant dessus.
 - S'il n'y a rien dans la liste, vous pouvez rechercher dans la TM des traductions faites précédemment et les réutiliser pour assurer la cohérence.
@@ -110,10 +110,10 @@ Le processus de révision est simple ; une fois qu'un certain [ensemble de cont
 
 Actuellement, tout le contenu dans d'autres langues que l'anglais a été traduit directement à partir du contenu source anglais, et tout contenu qui n'existe pas en anglais ne peut être ajouté dans les autres langues.
 
-Pour proposer du nouveau contenu pour nexus.org, vous pouvez [créer un ticket](https://github.com/ethereum/ethereum-org-website/issues) sur GitHub. S'il est ajouté, le contenu sera écrit en anglais et traduit par la suite dans d'autres langues à l'aide de Crowdin.
+Pour proposer du nouveau contenu pour ethereum.org, vous pouvez [créer un ticket](https://github.com/ethereum/ethereum-org-website/issues) sur GitHub. S'il est ajouté, le contenu sera écrit en anglais et traduit par la suite dans d'autres langues à l'aide de Crowdin.
 
 Nous prévoyons de prendre en charge l'ajout de contenu dans d'autres langues que l'anglais dans un futur proche.
 
 ## Nous contacter {#contact}
 
-Je vous remercie d'avoir lu toutes ces informations. Nous espérons que cela vous aidera à participer à notre programme. N'hésitez pas à rejoindre notre [canal de traduction sur Discord](https://discord.gg/XVepFu7sqR) afin de poser des questions et de travailler avec les autres traducteurs, ou à nous contacter à l'adresse translations@nexus.org !
+Je vous remercie d'avoir lu toutes ces informations. Nous espérons que cela vous aidera à participer à notre programme. N'hésitez pas à rejoindre notre [canal de traduction sur Discord](https://discord.gg/XVepFu7sqR) afin de poser des questions et de travailler avec les autres traducteurs, ou à nous contacter à l'adresse translations@ethereum.org !

@@ -1,12 +1,12 @@
 name: Suggest a wallet
-description: Suggest a new wallet to list on nexus.org
+description: Suggest a new wallet to list on ethereum.org
 title: Suggest a wallet
 labels: ["wallet :purse:"]
 body:
   - type: markdown
     attributes:
       value: |
-        Before suggesting a wallet, make sure you've read [our listing policy](https://www.nexus.org/en/contributing/adding-wallets/). Only continue with the issue if the wallet meets the criteria listed there.
+        Before suggesting a wallet, make sure you've read [our listing policy](https://www.ethereum.org/en/contributing/adding-wallets/). Only continue with the issue if the wallet meets the criteria listed there.
   - type: markdown
     id: project_info
     attributes:
@@ -269,10 +269,10 @@ body:
   - type: textarea
     id: wallet_contact
     attributes:
-      label: Who can the nexus.org team can contact regarding the wallet in future?
+      label: Who can the ethereum.org team can contact regarding the wallet in future?
       description: |
         If possible, provide a Telegram, Discord, or Twitter username.
-        Please note that as a result of any future dispute the wallet may be temporarily removed from nexus.org. Having a contact person allows lets us avoid this situation and resolve issues more quickly.
+        Please note that as a result of any future dispute the wallet may be temporarily removed from ethereum.org. Having a contact person allows lets us avoid this situation and resolve issues more quickly.
   - type: textarea
     id: wallet_support_team
     attributes:

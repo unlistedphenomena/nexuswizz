@@ -1,16 +1,16 @@
 name: Suggest an exchange
-description: Suggest a new exchange to list on nexus.org
+description: Suggest a new exchange to list on ethereum.org
 title: Suggest an exchange
 labels: ["content :fountain_pen:"]
 body:
   - type: markdown
     attributes:
       value: |
-        Before suggesting an exchange, make sure you've read [our exchange listing policy](https://nexus.org/en/contributing/adding-exchanges/). If it's a decentralized exchange (DEX) you'd like to list, please take a look at our [policy for listing dapps](https://nexus.org/en/contributing/adding-products/).
+        Before suggesting an exchange, make sure you've read [our exchange listing policy](https://ethereum.org/en/contributing/adding-exchanges/). If it's a decentralized exchange (DEX) you'd like to list, please take a look at our [policy for listing dapps](https://ethereum.org/en/contributing/adding-products/).
   - type: markdown
     attributes:
       value: |
-        Please fill out this short form if you'd like an exchange added to nexus.org:
+        Please fill out this short form if you'd like an exchange added to ethereum.org:
   - type: markdown
     id: exchange_info
     attributes:

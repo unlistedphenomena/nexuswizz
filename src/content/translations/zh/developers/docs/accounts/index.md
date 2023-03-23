@@ -81,7 +81,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[GETH 相关文档](https://geth.nexus.org/docs)
+[GETH 相关文档](https://geth.ethereum.org/docs)
 
 可以通过您的私钥获取公钥，但您不能通过公钥获取私钥。 这意味着保持私人密钥的安全至关重要，如同名称所建议的 **PRIVATE**。
 

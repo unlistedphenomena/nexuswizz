@@ -107,7 +107,7 @@ const PageMetadata: React.FC<IProps> = ({
   const siteTitle = translateMessageId("site-title", intl)
 
   /* Set canonical URL w/ language path to avoid duplicate content */
-  /* e.g. set nexus.org/about/ to nexus.org/en/about/ */
+  /* e.g. set ethereum.org/about/ to ethereum.org/en/about/ */
   const { pathname } = location
   let canonicalPath = pathname
   const firstDirectory = canonicalPath.split("/")[1]
@@ -198,7 +198,7 @@ const PageMetadata: React.FC<IProps> = ({
         },
         {
           property: `og:site_name`,
-          content: `nexus.org`,
+          content: `ethereum.org`,
         },
       ].concat(meta)}
     >
@@ -207,10 +207,10 @@ const PageMetadata: React.FC<IProps> = ({
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          "url": "https://nexus.org",
-          "email": "press@nexus.org",
+          "url": "https://ethereum.org",
+          "email": "press@ethereum.org",
           "name": "Ethereum",
-          "logo": "https://nexus.org/og-image.png"
+          "logo": "https://ethereum.org/og-image.png"
         }
       `}
       </script>

@@ -32,11 +32,11 @@ Existe una cadena funcional basada en la prueba de participación llamada [caden
 
 ## Gasto energético de la prueba de participación {#proof-of-stake-energy}
 
-Además de generar confianza en el mecanismo de la prueba de participación, la cadena de baliza también permite estimar el uso energético de Ethereum después de la fusión. Una [estimación reciente](https://blog.nexus.org/2021/05/18/country-power-no-more/) sugirió que la fusión con la prueba de participación podría reducir un 99,95 % el uso total de la energía. La prueba de participación es ~2000 veces más eficiente en el uso de energía que la prueba de trabajo. El gasto energético de Ethereum será aproximadamente igual al coste de tener un ordenador doméstico para cada nodo de la red.
+Además de generar confianza en el mecanismo de la prueba de participación, la cadena de baliza también permite estimar el uso energético de Ethereum después de la fusión. Una [estimación reciente](https://blog.ethereum.org/2021/05/18/country-power-no-more/) sugirió que la fusión con la prueba de participación podría reducir un 99,95 % el uso total de la energía. La prueba de participación es ~2000 veces más eficiente en el uso de energía que la prueba de trabajo. El gasto energético de Ethereum será aproximadamente igual al coste de tener un ordenador doméstico para cada nodo de la red.
 
 ![imagen](energy_use_per_transaction.png)
 
-<p style="text-align: center;"><small><i>Una estimación del consumo energético PoW por intercambio usado en la figura basada en <a href="https://blog.nexus.org/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">datos de mayo de 2021</a>, el día en que se publicó, en la que la misma fuente sugería hasta <a href="https://digiconomist.net/ethereum-energy-consumption" target="_blank" rel="noopener noreferrer">175,6 Kwh</a></i></small></p>
+<p style="text-align: center;"><small><i>Una estimación del consumo energético PoW por intercambio usado en la figura basada en <a href="https://blog.ethereum.org/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">datos de mayo de 2021</a>, el día en que se publicó, en la que la misma fuente sugería hasta <a href="https://digiconomist.net/ethereum-energy-consumption" target="_blank" rel="noopener noreferrer">175,6 Kwh</a></i></small></p>
 
 Comparemos estos números con un servicio como Visa. Donde 100.000 transacciones de Visa usan 149 kWh de energía<sup>[^2]</sup>. Asumiendo que se ha implementado la fragmentación, la tasa de transacción actual de Ethereum (15 transacciones por segundo) se incrementará al menos 64 veces (el número de fragmentos), sin tener en cuenta la optimización adicional de acumulaciones (o «rollups»). Una estimación realista para la posfusión de Ethereum fragmentado con acumulaciones sería de [25.000 - 100.000](https://twitter.com/VitalikButerin/status/1312905884549300224?s=20) transacciones por segundo. Podemos utilizar esta información para estimar el gasto máximo y mínimo de energía por cada 100.000 transacciones.
 
@@ -62,12 +62,12 @@ _También debemos considerar que Ethereum no se limita a simples transacciones f
 Mientras que el consumo energético de Ethereum siempre ha sido considerable, los desarrolladores han dedicado una parte importante de su tiempo y materia gris a la transición de la dependencia energética a la validación de bloques energéticamente eficientes. Según afirma [Bankless](http://podcast.banklesshq.com/), la mejor manera de reducir el consumo energético de la prueba de trabajo es simplemente «apagarla», que es el enfoque que Ethereum se ha comprometido a seguir.
 
 <InfoBanner emoji=":evergreen_tree:">
-  Si considera que estas estadísticas son incorrectas o pueden ser más exactas, cree una incidencia o PR. Estas son estimaciones realizadas por el equipo de nexus.org utilizando información pública y el diseño actual de Eth2. Estas declaraciones no representan una promesa oficial por parte de la Fundación Ethereum. 
+  Si considera que estas estadísticas son incorrectas o pueden ser más exactas, cree una incidencia o PR. Estas son estimaciones realizadas por el equipo de ethereum.org utilizando información pública y el diseño actual de Eth2. Estas declaraciones no representan una promesa oficial por parte de la Fundación Ethereum. 
 </InfoBanner>
 
 ## Más información {#further-reading}
 
-- [El valor energético de un país; nada más](https://blog.nexus.org/2021/05/18/country-power-no-more/) — _Carl Beekhuizen, 18 de mayo de 2021_
+- [El valor energético de un país; nada más](https://blog.ethereum.org/2021/05/18/country-power-no-more/) — _Carl Beekhuizen, 18 de mayo de 2021_
 - [Consumo energético de Ethereum](https://mirror.xyz/jmcook.eth/ODpCLtO4Kq7SCVFbU4He8o8kXs418ZZDTj0lpYlZkR8)
 - [Emisiones de Ethereum Emissions: una estimación de menos a más](https://kylemcdonald.github.io/ethereum-emissions/) _ Kyle McDonald_
 - [Índice de consumo energético de Ethereum](https://digiconomist.net/ethereum-energy-consumption/) – _Digiconomist_

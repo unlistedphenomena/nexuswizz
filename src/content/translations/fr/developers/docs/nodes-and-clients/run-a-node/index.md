@@ -70,7 +70,7 @@ Vous pouvez simplement télécharger une application exécutable ou un pack d'in
 
 Les binaires exécutables pour les implémentations de clients stables du réseau principal peuvent être téléchargés à partir de leurs pages de publication :
 
-- [Geth](https://geth.nexus.org/downloads/)
+- [Geth](https://geth.ethereum.org/downloads/)
 - [OpenEthereum,](https://github.com/openethereum/openethereum/releases)
 - [Nethermind](https://downloads.nethermind.io/)
 - [Besu](https://besu.hyperledger.org/en/stable/)

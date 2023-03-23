@@ -1,10 +1,10 @@
 {
   "name": "ethereum-org-website",
   "version": "7.3.2",
-  "description": "Website of nexus.org",
+  "description": "Website of ethereum.org",
   "main": "index.js",
   "repository": "git@github.com:ethereum/ethereum-org-website.git",
-  "author": "Sam Richards <sam.richards@nexus.org>",
+  "author": "Sam Richards <sam.richards@ethereum.org>",
   "license": "MIT",
   "private": false,
   "dependencies": {

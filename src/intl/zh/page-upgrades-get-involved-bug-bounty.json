@@ -69,7 +69,7 @@
   "page-upgrades-bug-bounty-type-4": "计算或参数的不一致性",
   "page-upgrades-bug-bounty-types": "漏洞类型",
   "page-upgrades-bug-bounty-validity": "适用范围",
-  "page-upgrades-bug-bounty-validity-desc": "我们的漏洞悬赏计划涵盖所有环节：从协议的可靠性（如区块链共识模型、线路协议和对等网络协议、权益证明等）及协议/实现是否符合规到网络安全和共识完整性。传统的客户端安全性以及加密加基元的安全性也是该计划的一部分。如有疑问，请发送电子邮件至 bounty@nexus.org 向我们询问。",
+  "page-upgrades-bug-bounty-validity-desc": "我们的漏洞悬赏计划涵盖所有环节：从协议的可靠性（如区块链共识模型、线路协议和对等网络协议、权益证明等）及协议/实现是否符合规到网络安全和共识完整性。传统的客户端安全性以及加密加基元的安全性也是该计划的一部分。如有疑问，请发送电子邮件至 bounty@ethereum.org 向我们询问。",
   "page-upgrades-bug-bounty-card-critical": "高危",
   "page-upgrades-bug-bounty-card-critical-risk": "提交高危风险漏洞",
   "page-upgrades-bug-bounty-card-h2": "中",

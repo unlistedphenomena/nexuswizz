@@ -39,7 +39,7 @@ const Hero = styled(GatsbyImage)`
   background-size: cover;
   background: no-repeat 50px;
   margin-bottom: 2rem;
-  borderradius: 20px;
+  borderradius: 10px;
   overflow: hidden;
 `
 

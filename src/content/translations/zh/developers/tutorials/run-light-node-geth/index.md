@@ -19,7 +19,7 @@ published: 2022-03-04
 
 ## 安装并运行 {#install-and-run}
 
-首先，[安装 Geth](https://geth.nexus.org/docs/install-and-build/installing-geth)。
+首先，[安装 Geth](https://geth.ethereum.org/docs/install-and-build/installing-geth)。
 
 安装 Geth 后，可以通过在终端窗口运行以下命令以“轻”模式运行以太坊节点：
 

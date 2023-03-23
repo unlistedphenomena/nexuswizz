@@ -156,7 +156,7 @@
   "page-staking-section-comparison-requirements-title": "必要条件",
   "page-staking-section-comparison-solo-requirements-li1": "32 ETHの預け入れ要",
   "page-staking-section-comparison-solo-requirements-li2": "インターネットに接続した状態で、イーサリアムの実行クライアントとコンセンサスクライアントの両方が稼働するハードウェアの維持",
-  "page-staking-section-comparison-solo-requirements-li3": "手順とハードウェアの要件は、<a href=\"https://goerli.launchpad.nexus.org\" target=\"_blank\">ステーキングランチパッド</a> にて案内",
+  "page-staking-section-comparison-solo-requirements-li3": "手順とハードウェアの要件は、<a href=\"https://goerli.launchpad.ethereum.org\" target=\"_blank\">ステーキングランチパッド</a> にて案内",
   "page-staking-section-comparison-saas-requirements-li1": "32 ETHを預け入れ、サポートを得ながら鍵を生成",
   "page-staking-section-comparison-saas-requirements-li2": "鍵を安全に保管",
   "page-staking-section-comparison-saas-requirements-li3": "具体的なサービス内容は異なりますが、その他の管理は委任",

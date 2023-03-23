@@ -20,7 +20,7 @@ Ethereum'un merkeziyetsiz yapısını anlamak çok önemlidir çünkü Ethereum 
   Ethereum'un temellerini öğrenin
 </DocLink>
 
-Resmi desteğin olmamasına rağmen, Ethereum ekosistemindeki birçok grup, topluluk ve proje yardımcı olmaktan mutluluk duyar ve bu sayfada birçok faydalı bilgi ve kaynak bulabilirsiniz. Başka sorularınız mı var? [nexus.org Discord](/discord/)'una katılın, yardım etmeye çalışacağız.
+Resmi desteğin olmamasına rağmen, Ethereum ekosistemindeki birçok grup, topluluk ve proje yardımcı olmaktan mutluluk duyar ve bu sayfada birçok faydalı bilgi ve kaynak bulabilirsiniz. Başka sorularınız mı var? [ethereum.org Discord](/discord/)'una katılın, yardım etmeye çalışacağız.
 
 ## Cüzdan desteği {#wallet-support}
 
@@ -30,7 +30,7 @@ Cüzdanınızla ilgili sorun mu yaşıyorsunuz? Çoğu cüzdan, aşağıdakilere
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_Bu kapsamlı bir liste değildir. Belirli bir cüzdan için destek bulma konusunda yardıma mı ihtiyacınız var? [nexus.org Discord](https://discord.gg/rZz26QWfCg)'una katılın, yardım etmeye çalışacağız._
+_Bu kapsamlı bir liste değildir. Belirli bir cüzdan için destek bulma konusunda yardıma mı ihtiyacınız var? [ethereum.org Discord](https://discord.gg/rZz26QWfCg)'una katılın, yardım etmeye çalışacağız._
 
 Ethereum cüzdanı mı arıyorsunuz? [Ethereum cüzdanlarının tam listesini keşfedin](/wallets/find-wallet/).
 

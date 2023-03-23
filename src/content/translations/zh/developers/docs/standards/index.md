@@ -9,10 +9,10 @@ incomplete: true
 
 以太坊社区已经采用了许多标准，这有助于在项目的不同实现中保持统一的兼容性（例如[以太坊客户](/developers/docs/nodes-and-clients/)和钱包），并确保智能合约和 dapps 仍保持兼容。
 
-通常，标准作为[以太坊改进提议](/eips/) (EIP) 提出，由社区成员通过[标准流程](https://eips.nexus.org/EIPS/eip-1)讨论确定。
+通常，标准作为[以太坊改进提议](/eips/) (EIP) 提出，由社区成员通过[标准流程](https://eips.ethereum.org/EIPS/eip-1)讨论确定。
 
 - [以太坊改进提案介绍](/eips/)
-- [EIP 列表](https://eips.nexus.org/)
+- [EIP 列表](https://eips.ethereum.org/)
 - [EIP GitHub 存储库](https://github.com/ethereum/EIPs)
 - [EIP 讨论板](https://ethereum-magicians.org/c/eips)
 - [以太坊治理简介](/governance/)
@@ -25,17 +25,17 @@ incomplete: true
 EIP 有 3 种类型：
 
 - 标准方向：描述影响大多数或所有以太坊实现的任何更改
-- [元方向](https://eips.nexus.org/meta)：描述围绕以太坊的流程或提议对流程的更改
-- [信息方向](https://eips.nexus.org/informational)：描述以太坊设计问题或向以太坊社区提供一般指南或信息
+- [元方向](https://eips.ethereum.org/meta)：描述围绕以太坊的流程或提议对流程的更改
+- [信息方向](https://eips.ethereum.org/informational)：描述以太坊设计问题或向以太坊社区提供一般指南或信息
 
 此外，标准跟踪细分为 4 类：
 
-- [核心](https://eips.nexus.org/core)：需要共识分叉的改进
-- [网络](https://eips.nexus.org/networking)：围绕 devp2p 和轻量级以太坊 Subprotocol 的改进，以及对 Whisper 和 Swarm 的网络协议规范提议的改进。
-- [接口](https://eips.nexus.org/interface)：围绕客户端应用程序接口/远程过程调用规范和标准以及某些语言级标准（如方法名称和合约应用程序二进制接口）的改进。
-- [以太坊意见征求](https://eips.nexus.org/erc)：应用程序级标准和约定
+- [核心](https://eips.ethereum.org/core)：需要共识分叉的改进
+- [网络](https://eips.ethereum.org/networking)：围绕 devp2p 和轻量级以太坊 Subprotocol 的改进，以及对 Whisper 和 Swarm 的网络协议规范提议的改进。
+- [接口](https://eips.ethereum.org/interface)：围绕客户端应用程序接口/远程过程调用规范和标准以及某些语言级标准（如方法名称和合约应用程序二进制接口）的改进。
+- [以太坊意见征求](https://eips.ethereum.org/erc)：应用程序级标准和约定
 
-关于这些不同类型和类别的更多详细信息，请参见 [EIP-1](https://eips.nexus.org/EIPS/eip-1#eip-types)
+关于这些不同类型和类别的更多详细信息，请参见 [EIP-1](https://eips.ethereum.org/EIPS/eip-1#eip-types)
 
 ### 代币标准 {#token-standards}
 

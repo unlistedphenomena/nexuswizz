@@ -13,7 +13,7 @@ Optimistic rollups can process transactions for a much lower price than Ethereum
 At the same time, the data is all written to L1 so everything can be proved and reconstructed with all the integrity and availability guarantees of Mainnet.
 
 To use L1 assets on Optimism (or any other L2), the assets need to be [bridged](/bridges/#prerequisites).
-One way to achieve this is for users to lock assets (ETH and [ERC-20 tokens](https://nexus.org/en/developers/docs/standards/tokens/erc-20/) are the most common ones) on L1, and receive equivalent assets to use on L2.
+One way to achieve this is for users to lock assets (ETH and [ERC-20 tokens](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) are the most common ones) on L1, and receive equivalent assets to use on L2.
 Eventually, whoever ends up with them might want to bridge them back to L1.
 When doing this, the assets are burned on L2 and then released back to the user on L1.
 
@@ -45,7 +45,7 @@ The bridge has two main flows:
    - Was originally from the bridge on L1
 6. The L2 bridge checks if the ERC-20 token contract on L2 is the correct one:
    - The L2 contract reports that its L1 counterpart is the same as the one the tokens came from on L1
-   - The L2 contract reports that it supports the correct interface ([using ERC-165](https://eips.nexus.org/EIPS/eip-165)).
+   - The L2 contract reports that it supports the correct interface ([using ERC-165](https://eips.ethereum.org/EIPS/eip-165)).
 7. If the L2 contract is the correct one, call it to mint the appropriate number of tokens to the appropriate address. If not, start a withdrawal process to allow the user to claim the tokens on L1.
 
 ### Withdrawal flow {#withdrawal-flow}
@@ -518,7 +518,7 @@ Note that this isn't a perfect solution, because there is no way to distinguish 
 import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 ```
 
-[The ERC-20 standard](https://eips.nexus.org/EIPS/eip-20) supports two ways for a contract to report failure:
+[The ERC-20 standard](https://eips.ethereum.org/EIPS/eip-20) supports two ways for a contract to report failure:
 
 1. Revert
 2. Return `false`
@@ -955,14 +955,14 @@ import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 ```
 
 [The standard ERC-20 interface](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) does not include the `mint` and `burn` functions.
-Those methods are not required by [the ERC-20 standard](https://eips.nexus.org/EIPS/eip-20), which leaves unspecified the mechanisms to create and destroy tokens.
+Those methods are not required by [the ERC-20 standard](https://eips.ethereum.org/EIPS/eip-20), which leaves unspecified the mechanisms to create and destroy tokens.
 
 ```solidity
 import { IERC165 } from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
 ```
 
 [The ERC-165 interface](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC165.sol) is used to specify what functions a contract provides.
-[You can read the standard here](https://eips.nexus.org/EIPS/eip-165).
+[You can read the standard here](https://eips.ethereum.org/EIPS/eip-165).
 
 ```solidity
 interface IL2StandardERC20 is IERC20, IERC165 {
@@ -1051,7 +1051,7 @@ First call the constructor for the contract we inherit from (`ERC20(_name, _symb
     }
 ```
 
-This is the way [ERC-165](https://eips.nexus.org/EIPS/eip-165) works.
+This is the way [ERC-165](https://eips.ethereum.org/EIPS/eip-165) works.
 Every interface is a number of supported functions, and is identified as the [exclusive or](https://en.wikipedia.org/wiki/Exclusive_or) of the [ABI function selectors](https://docs.soliditylang.org/en/v0.8.12/abi-spec.html#function-selector) of those functions.
 
 The L2 bridge uses ERC-165 as a sanity check to make sure that the ERC-20 contract to which it sends assets is an `IL2StandardERC20`.
@@ -1077,7 +1077,7 @@ The L2 bridge uses ERC-165 as a sanity check to make sure that the ERC-20 contra
 
 Only the L2 bridge is allowed to mint and burn assets.
 
-`_mint` and `_burn` are actually defined in the [OpenZeppelin ERC-20 contract](https://nexus.org/en/developers/tutorials/erc20-annotated-code/#the-_mint-and-_burn-functions-_mint-and-_burn).
+`_mint` and `_burn` are actually defined in the [OpenZeppelin ERC-20 contract](https://ethereum.org/en/developers/tutorials/erc20-annotated-code/#the-_mint-and-_burn-functions-_mint-and-_burn).
 That contract just doesn't expose them externally, because the conditions to mint and burn tokens are as varied as the number of ways to use ERC-20.
 
 ## L2 Bridge Code {#l2-bridge-code}

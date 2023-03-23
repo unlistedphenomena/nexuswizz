@@ -1,6 +1,6 @@
 ---
 title: Documentación de desarrollo de Ethereum
-description: Introducción a la documentación para desarrolladores de nexus.org.
+description: Introducción a la documentación para desarrolladores de ethereum.org.
 lang: es
 ---
 

@@ -165,7 +165,7 @@ Below is a breakdown of the website pages each content bucket contains.
 
 ## 14) Additional Learn and general pages {#general-pages}
 
-- [About nexus.org](/about/)
+- [About ethereum.org](/about/)
 - [Enterprise Ethereum](/enterprise/)
 - [Private Ethereum](/enterprise/private-ethereum/)
 - [History](/history/)
@@ -189,7 +189,7 @@ Below is a breakdown of the website pages each content bucket contains.
 
 ## 16) Contributing {#contributing}
 
-- [Contributing to nexus.org](/contributing/)
+- [Contributing to ethereum.org](/contributing/)
 - [Adding developer tools](/contributing/adding-developer-tools/)
 - [Adding exchanges](/contributing/adding-exchanges/)
 - [Adding glossary terms](/contributing/adding-glossary-terms/)

@@ -1,6 +1,6 @@
 ---
 title: 添加产品
-description: 将钱包和去中心化应用程序添加到 nexus.org 时适用的政策
+description: 将钱包和去中心化应用程序添加到 ethereum.org 时适用的政策
 lang: zh
 ---
 
@@ -8,24 +8,24 @@ _关于添加钱包的说明：作为[我们的第一季度产品路线图](http
 
 # 添加以太坊产品 {#adding-products}
 
-任何人都可以自由地向 nexus.org 上的内容推荐新的钱包和去中心化应用程序，只要这样是合理恰当的。 **但，我们不会在主页上上架您的去中心化应用程序**😜
+任何人都可以自由地向 ethereum.org 上的内容推荐新的钱包和去中心化应用程序，只要这样是合理恰当的。 **但，我们不会在主页上上架您的去中心化应用程序**😜
 
 钱包和去中心化应用程序目前在以下页面上架：
 
-- nexus.org/wallets
-- nexus.org/wallets/find-wallet
-- nexus.org/dapps
-- nexus.org/get-eth
+- ethereum.org/wallets
+- ethereum.org/wallets/find-wallet
+- ethereum.org/dapps
+- ethereum.org/get-eth
 
 **请仅在这些页面上添加新的建议。**
 
 尽管我们欢迎添加新的钱包和去中心化应用程序，但我们想要为用户打造良好的体验，目前做出的选择都是基于这个想法。 这基于我们的一些设计原则：
 
-- _有启发性_：nexus.org 上的任何事物都应该为用户提供新的东西
+- _有启发性_：ethereum.org 上的任何事物都应该为用户提供新的东西
 - _好故事_：上架的内容应该让人感到惊喜
 - _可靠_：一切业务/项目都应该是合法的，以最大限度地减少用户的风险
 
-总的来说，**nexus.org 想要为新用户提供“无缝登临体验”**。 出于这个原因，我们根据以下原则添加钱包/去中心化应用程序：
+总的来说，**ethereum.org 想要为新用户提供“无缝登临体验”**。 出于这个原因，我们根据以下原则添加钱包/去中心化应用程序：
 
 - 易用性
 - 与其他产品的互操作性
@@ -45,16 +45,16 @@ _关于添加钱包的说明：作为[我们的第一季度产品路线图](http
 
 ### 排名标准：加分项 {#criteria-for-ranking-the-nice-to-haves}
 
-由于以下标准，您的去中心化应用程序或钱包可能不会像其他项目那样被列在 nexus.org 的显要位置。
+由于以下标准，您的去中心化应用程序或钱包可能不会像其他项目那样被列在 ethereum.org 的显要位置。
 
 **钱包**
 
 - **法币入口**——这可以防止新用户在使用钱包时遇到很多潜在的摩擦。 如果用户必须通过交易所为钱包充值，由于要做身份验证，他们可能需要几天才能试用钱包。
-- **能被大多数去中心化应用程序支持** — nexus.org 的内容旨在向用户展示去中心化应用程序之前，能先让钱包与以太币启动和运行。 如果去中心化应用不支持与您的钱包连接，那么它可能会破坏用户的体验。
+- **能被大多数去中心化应用程序支持** — ethereum.org 的内容旨在向用户展示去中心化应用程序之前，能先让钱包与以太币启动和运行。 如果去中心化应用不支持与您的钱包连接，那么它可能会破坏用户的体验。
 
 **去中心化应用程序**
 
-- **您可以通过大多数上架的钱包访问它** – 去中心化应用程序应该能够与 nexus.org 上上架的大多数钱包一起使用。
+- **您可以通过大多数上架的钱包访问它** – 去中心化应用程序应该能够与 ethereum.org 上上架的大多数钱包一起使用。
 - **用户可以自己尝试 —** 个人用户应该能够使用您的去中心化应用程序并能执行一些切实的操作。
 
 **两者**
@@ -67,7 +67,7 @@ _关于添加钱包的说明：作为[我们的第一季度产品路线图](http
 
 ## 实践中的标准 {#criteria-in-practice}
 
-您填写的标准越多，您的产品就越有可能进入 nexus.org。
+您填写的标准越多，您的产品就越有可能进入 ethereum.org。
 
 如果建议的新产品满足必备条件和几个必备条件，则可能会删除仅满足必备条件的已上架产品。
 
@@ -78,7 +78,7 @@ _关于添加钱包的说明：作为[我们的第一季度产品路线图](http
 - 这个页面现在是否让用户无法选择？
   - 就像您会坐下来浏览 Netflix 几个小时，因为您无法决定要观看的内容。 提供太多选择会让新用户迷惑，这是一种风险。
 
-nexus.org 负责做出设计决策。
+ethereum.org 负责做出设计决策。
 
 但是请放心，**有其他网站对更多的去中心化应用/钱包进行排名，我们会附上这些网站的链接**
 
@@ -88,7 +88,7 @@ nexus.org 负责做出设计决策。
 
 ### 使用条款 {#terms-of-use}
 
-还请参阅我们的[使用条款](/terms-of-use/)。 nexus.org 上的资料仅供参考。
+还请参阅我们的[使用条款](/terms-of-use/)。 ethereum.org 上的资料仅供参考。
 
 ## 维护 {#maintenance}
 
@@ -97,7 +97,7 @@ nexus.org 负责做出设计决策。
 - 确保所有上架的钱包和去中心化应用程序仍然符合我们的标准
 - 验证所建议的产品没有比当前上架的产品更符合我们的标准
 
-如果您想对此提供帮助，可以开展上述两项检查并让我们知道检查结果。 [创建一个提议](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=)或发送电子邮件至 [website@nexus.org](mailto:website@nexus.org)
+如果您想对此提供帮助，可以开展上述两项检查并让我们知道检查结果。 [创建一个提议](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=)或发送电子邮件至 [website@ethereum.org](mailto:website@ethereum.org)
 
 _我们也在调研投票的可能性，以便社区能够表明他们的喜好并且突显出最佳产品供我们进行推荐。_
 
@@ -105,7 +105,7 @@ _我们也在调研投票的可能性，以便社区能够表明他们的喜好�
 
 ## 添加您的产品 {#add-your-product}
 
-如果您想要将钱包或者去中心化应用程序添加到 nexus.org，并且该产品符合标准，请在 GitHub 上创建一个提议。
+如果您想要将钱包或者去中心化应用程序添加到 ethereum.org，并且该产品符合标准，请在 GitHub 上创建一个提议。
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new/choose">
   创建一个提议

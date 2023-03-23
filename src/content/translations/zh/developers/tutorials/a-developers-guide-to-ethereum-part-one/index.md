@@ -11,7 +11,7 @@ tags:
 skill: beginner
 published: 2020-09-08
 source: Snake charmers
-sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-ethereum-pt-1/
+sourceUrl: https://snakecharmers.ethereum.org/a-developers-guide-to-ethereum-pt-1/
 ---
 
 想必您已经听说过以太坊，那么，您准备好投身于这个领域了吗？ 本篇文章将快速介绍一些区块链基础知识，然后让您与模拟的以太坊节点进行互动，比如读取区块数据、检查账户余额和发送交易。 在这个过程中，我们会着重强调用传统方式构建应用与这种新的去中心化范式之间的差异。
@@ -158,7 +158,7 @@ Web3 模块上的其他实用方法包括数据格式转换器（例如 [`toHex`
 
 我们不会完整地进行这个步骤，但一个使用 HTTP 提供者的完整工作流程的例子可能如下所示：
 
-- 下载一个以太坊节点，例如 [Geth](https://geth.nexus.org/)。
+- 下载一个以太坊节点，例如 [Geth](https://geth.ethereum.org/)。
 - 在一个终端窗口启动 Geth，等待它同步网络。 默认的 HTTP 端口是 `8545`，但可以配置成其它端口。
 - 告诉 Web3.py 通过 HTTP 连接到节点，使用 `localhost:8545`。 `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
 - 使用 `w3` 实例与节点交互。

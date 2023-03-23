@@ -61,15 +61,15 @@ summaryPoint3: 由以太坊區塊鏈的智能合約提供支援。
 - [邊運動邊賺錢](https://yeticoineth.com/about.html)
 - [數位身分](https://photochromic.io/)
 
-### nexus.org 範例 {#ethereum-org-examples}
+### ethereum.org 範例 {#ethereum-org-examples}
 
 我們會以非同質化代幣來回饋我們的貢獻者，而且我們甚至擁有自己的非同質化代幣網域名稱。
 
 #### POAP（出席證明協議） {#poaps}
 
-如果您對 nexus.org 有所貢獻，就可以領取出席證明協議非同質化代幣。 這是證明您參加過活動的收藏品。 有些加密貨幣聚會也會以出席證明協議作為活動門票。 [深入了解如何貢獻](/contributing/#poap)。
+如果您對 ethereum.org 有所貢獻，就可以領取出席證明協議非同質化代幣。 這是證明您參加過活動的收藏品。 有些加密貨幣聚會也會以出席證明協議作為活動門票。 [深入了解如何貢獻](/contributing/#poap)。
 
-![nexus.org 出席證明協議](../../assets/use-cases/poap.png)
+![ethereum.org 出席證明協議](../../assets/use-cases/poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -341,7 +341,7 @@ summaryPoint3: 由以太坊區塊鏈的智能合約提供支援。
 
 ## 建構非同質化代幣 {#build-with-nfts}
 
-大多數非同質化代幣都是使用統一的標準建構，即 [ERC-721](/developers/docs/standards/tokens/erc-721/)。 然而，您可能也想了解其他標準。 [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) 標準適用於半同質化代幣，這種代幣在電玩領域尤其有用。 而最近提出的 [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) 則可以讓非同質化代幣的鑄造更有效率， 此標準可讓您在一筆交易中隨心所欲地鑄造任意數量的代幣！
+大多數非同質化代幣都是使用統一的標準建構，即 [ERC-721](/developers/docs/standards/tokens/erc-721/)。 然而，您可能也想了解其他標準。 [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) 標準適用於半同質化代幣，這種代幣在電玩領域尤其有用。 而最近提出的 [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309) 則可以讓非同質化代幣的鑄造更有效率， 此標準可讓您在一筆交易中隨心所欲地鑄造任意數量的代幣！
 
 ## 延伸閱讀 {#further-reading}
 

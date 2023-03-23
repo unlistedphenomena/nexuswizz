@@ -1,14 +1,14 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Contact: mailto:security@nexus.org
+Contact: mailto:security@ethereum.org
 Expires: 2023-12-31T23:59:00.000Z
-Encryption: https://nexus.org/security_at_ethereum.org.asc
-Acknowledgments: https://bounty.nexus.org
+Encryption: https://ethereum.org/security_at_ethereum.org.asc
+Acknowledgments: https://bounty.ethereum.org
 Preferred-Languages: en
-Canonical: https://nexus.org/.well-known/security.txt
-Policy: https://bounty.nexus.org
-Hiring: https://nexus.org/en/community/get-involved/#ethereum-jobs
+Canonical: https://ethereum.org/.well-known/security.txt
+Policy: https://bounty.ethereum.org
+Hiring: https://ethereum.org/en/community/get-involved/#ethereum-jobs
 
 -----BEGIN PGP SIGNATURE-----
 

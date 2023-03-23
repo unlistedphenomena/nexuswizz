@@ -6,11 +6,11 @@ description: Ethereum.org'un tasarım ve içerik kararlarının arkasındaki ilk
 
 # Tasarım prensiplerimiz {#contributing-to-ethereumorg-}
 
-<Emoji text=":wave:" size={1} /> Merhaba, nexus.org tasarım ilkelerine hoş geldiniz. Bu, nexus.org'u geliştirmek ve iyileştirmek için devam eden bir sürecin parçasıdır.
+<Emoji text=":wave:" size={1} /> Merhaba, ethereum.org tasarım ilkelerine hoş geldiniz. Bu, ethereum.org'u geliştirmek ve iyileştirmek için devam eden bir sürecin parçasıdır.
 
 İlkelerimiz, sitenin görünümünü ve verdiği hissi ve sitedeki içeriği bilgilendirir.
 
-[nexus.org'a katkıda bulunmadan](/contributing/) önce bunları okumalısınız.
+[ethereum.org'a katkıda bulunmadan](/contributing/) önce bunları okumalısınız.
 
 ## Tasarım ilkelerimiz neler? {#ways-to-contribute}
 
@@ -57,7 +57,7 @@ Yazı sistemleri • Renk kullanımı • Görsel Yön • İçerik
 
 Web sitesii iyi bir hikâye gibi olmalıdır. Ziyaretçiler bir yolculuğa çıkmışlardır ve katkıda bulunduğunuz içerik, bunun bir parçasıdır. Katkılarınız net bir anlatıma uymalıdır: Başlangıç (tanıtım/giriş noktası), ortası (öğrenme ve içgörü kümesi) ve sonu (ilgili kaynaklara veya sonraki adımlara yönlendiren bağlantılar) olan bir anlatım.
 
-- **Hiyerarşik**: Açık, hiyerarşik olarak yapılandırılmış bir bilgi mimarisi, nexus.org ziyaretçilerinin hedeflerine ulaşmaya çalışırken sitede "bir hikaye gibi" gezinmelerine yardımcı olur.
+- **Hiyerarşik**: Açık, hiyerarşik olarak yapılandırılmış bir bilgi mimarisi, ethereum.org ziyaretçilerinin hedeflerine ulaşmaya çalışırken sitede "bir hikaye gibi" gezinmelerine yardımcı olur.
 - **Bir Vasıta:** Cevap arayan herkes için bir vasıta görevi görüyoruz. Hâlihazırda var olan birçok kaynağı değiştirmek veya onların yerine geçmek istemiyoruz. Bir cevap ve atılacak sağlam adımlar sunuyoruz.
 
 Kullanıcı Serüvenleri • İçerik
@@ -88,6 +88,6 @@ Tasarım ilkelerimizi [sitemizde](/) faaliyet hâlinde görebilirsiniz.
 
 **Bu belgeyle ilgili geri bildiriminizi paylaşın!** Önerilen ilkelerimizden biri, web sitesinin birçok katkıda bulunan insanın ürünü olmasını istediğimiz anlamına gelen "**Ortaklaşa Gelişim**"dir. Bu ilkenin ruhuna uygun olarak, bu tasarım ilkelerini Ethereum topluluğuyla paylaşmak istiyoruz.
 
-Bu ilkeler nexus.org web sitesine odaklanmış olsa da, birçoğunun genel olarak Ethereum ekosisteminin değerlerini temsil ettiğini umuyoruz (örn. [Ethereum Teknik Raporunun ilkelerinin](https://github.com/ethereum/wiki/wiki/White-Paper#philosophy) etkilerini görebilmeniz). Bazılarını kendi projenize dahil etmek bile isteyebilirsiniz!
+Bu ilkeler ethereum.org web sitesine odaklanmış olsa da, birçoğunun genel olarak Ethereum ekosisteminin değerlerini temsil ettiğini umuyoruz (örn. [Ethereum Teknik Raporunun ilkelerinin](https://github.com/ethereum/wiki/wiki/White-Paper#philosophy) etkilerini görebilmeniz). Bazılarını kendi projenize dahil etmek bile isteyebilirsiniz!
 
 Düşüncelerinizi [Discord sunucusunda](https://discord.gg/CetY6Y4) veya [bir konu yaratarak](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=) bize bildirin.

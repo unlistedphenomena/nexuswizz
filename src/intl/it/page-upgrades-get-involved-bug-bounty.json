@@ -68,7 +68,7 @@
   "page-upgrades-bug-bounty-type-4": "Incongruenze di calcolo o dei parametri",
   "page-upgrades-bug-bounty-types": "Tipi di bug",
   "page-upgrades-bug-bounty-validity": "In ambito",
-  "page-upgrades-bug-bounty-validity-desc": "Il nostro programma bug bounty si estende end-to-end: dalla solidità dei protocolli (come il modello di consenso della blockchain, i protocolli via cavo e p2p, proof-of-stake, ecc.) e la conformità del protocollo/implementazione alla sicurezza della rete e all'integrità del consenso. Fanno parte del programma anche la classica sicurezza del client nonché la sicurezza dei primitivi crittografici. In caso di dubbi, invia un'email a bounty@nexus.org.",
+  "page-upgrades-bug-bounty-validity-desc": "Il nostro programma bug bounty si estende end-to-end: dalla solidità dei protocolli (come il modello di consenso della blockchain, i protocolli via cavo e p2p, proof-of-stake, ecc.) e la conformità del protocollo/implementazione alla sicurezza della rete e all'integrità del consenso. Fanno parte del programma anche la classica sicurezza del client nonché la sicurezza dei primitivi crittografici. In caso di dubbi, invia un'email a bounty@ethereum.org.",
   "page-upgrades-bug-bounty-card-critical": "Critico",
   "page-upgrades-bug-bounty-card-critical-risk": "Invia bug a rischio critico",
   "page-upgrades-bug-bounty-card-h2": "Medio",

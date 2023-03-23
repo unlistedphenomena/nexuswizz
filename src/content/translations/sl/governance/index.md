@@ -64,7 +64,7 @@ Pomemben proces, ki se uporablja pri upravljanju Ethereuma je predlaganje **Ethe
 
 Uraden proces za predstavitev sprememb Ethereum protokola je sledeč:
 
-1. **Predlog ključnega EIP**: kot je opisano v [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips), prvi korak do uradnega predloga za spremembo Ethereuma predstavlja podroben opis v ključnem EIP. To bo predstavljalo uradno opredelitev za EIP, ki ga bodo Ethereum razvijalci implementirali, če bo sprejet.
+1. **Predlog ključnega EIP**: kot je opisano v [EIP-1](https://eips.ethereum.org/EIPS/eip-1#core-eips), prvi korak do uradnega predloga za spremembo Ethereuma predstavlja podroben opis v ključnem EIP. To bo predstavljalo uradno opredelitev za EIP, ki ga bodo Ethereum razvijalci implementirali, če bo sprejet.
 
 2. **Predstavite vaš EIP razvijalcem protokola**: ko imate ključen EIP, za katerega ste zbrali odzive skupnosti, ga predstavite razvijalcem protokola. To lahko storite z predlogom razprave na [AllCoreDevs klicu](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). Verjetno je, da se bodo nekatere razprave zgodile sočasno na [Ethereum čarovniškem forumu](https://ethereum-magicians.org/) ali v [Ethereum R&D Discordu](https://discord.gg/mncqtgVSVw).
 
@@ -148,7 +148,7 @@ Proces Ethereum upravljanja pogosto zapostavi hitrost in učinkovitost za odprto
 
 Medtem ko je bil razvoj specifikacij in implementacij vedno povsem odprtokoden, uradni procesi za predlaganje nadgradenj opisani zgoraj niso bili uporabljeni. To je omogočilo, da so bile spremembe s strani raziskovalcev in implementatorjev določene in dogovorjene hitreje.
 
-Ko se bo Oddajniška veriga združila z Ethereumovo izvršilno plastjo, se bo upravljavski proces za predlaganje sprememb poenotil. Proces za implementacijo združitve je [že na poti](https://eips.nexus.org/EIPS/eip-3675).
+Ko se bo Oddajniška veriga združila z Ethereumovo izvršilno plastjo, se bo upravljavski proces za predlaganje sprememb poenotil. Proces za implementacijo združitve je [že na poti](https://eips.ethereum.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">Več o združitvi</ButtonLink>
 
@@ -162,7 +162,7 @@ Ko se bo Oddajniška veriga združila z Ethereumovo izvršilno plastjo, se bo up
 - [Pridružite se Ethereum R&D Diskordu](https://discord.gg/mncqtgVSVw)
 - [Upravljajte vozlišče](/developers/docs/nodes-and-clients/run-a-node/)
 - [Prispevajte k razvoju strank](/developers/docs/nodes-and-clients/#execution-clients)
-- [Pripravniški program za ključne razvijalce](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Pripravniški program za ključne razvijalce](https://blog.ethereum.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Dodatno branje {#further-reading}
 

@@ -69,7 +69,7 @@
   "page-upgrades-bug-bounty-type-4": "Izračun ili nedosljednosti parametara",
   "page-upgrades-bug-bounty-types": "Vrste pogrešaka",
   "page-upgrades-bug-bounty-validity": "U obimu programa",
-  "page-upgrades-bug-bounty-validity-desc": "Naš program nagrađivanja za pogreške pokriva cjelokupni raspon, od kraja do kraja: od jasnih protokola (npr. model konsenzusa lanca blokova, protokole prijenosa i p2p, dokaz uloga itd.) i sukladnosti protokola/implementacije do mrežne sigurnosti i intergriteta konsenzusa. Dio programa su i klasična sigurnost klijenta kao i sigurnost kriptografskih primitiva. Ako niste sigurni, pošaljiite e-poštu s pitanjem na bounty@nexus.org.",
+  "page-upgrades-bug-bounty-validity-desc": "Naš program nagrađivanja za pogreške pokriva cjelokupni raspon, od kraja do kraja: od jasnih protokola (npr. model konsenzusa lanca blokova, protokole prijenosa i p2p, dokaz uloga itd.) i sukladnosti protokola/implementacije do mrežne sigurnosti i intergriteta konsenzusa. Dio programa su i klasična sigurnost klijenta kao i sigurnost kriptografskih primitiva. Ako niste sigurni, pošaljiite e-poštu s pitanjem na bounty@ethereum.org.",
   "page-upgrades-bug-bounty-card-critical": "Kritično",
   "page-upgrades-bug-bounty-card-critical-risk": "Prijavite pogrešku kritičnog rizika",
   "page-upgrades-bug-bounty-card-h2": "Srednje",

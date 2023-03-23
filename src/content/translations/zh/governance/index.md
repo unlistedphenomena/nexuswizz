@@ -69,7 +69,7 @@ _注：任何个人都可以属于多个组（如：协议开发者可以支持�
 
 对以太坊协议进行修改的正式流程如下：
 
-1. **提出核心以太坊改进提议**：如 [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips) 所述，正式提议对以太坊进行修改的第一步是在核心以太坊改进提议进行详细说明。 一旦被接受，这将作为协议开发者要执行的以太坊改进提议正式规范。
+1. **提出核心以太坊改进提议**：如 [EIP-1](https://eips.ethereum.org/EIPS/eip-1#core-eips) 所述，正式提议对以太坊进行修改的第一步是在核心以太坊改进提议进行详细说明。 一旦被接受，这将作为协议开发者要执行的以太坊改进提议正式规范。
 
 2. **向协议开发者展示以太坊改进提议**：一旦拥有已对其收集社区意见的核心以太坊改进提议，您应该将它展示给协议开发者。 您可以通过提议在 [AllCoreDevs 调用](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status)中进行讨论来实现此目的。 很可能已经在 [Ethereum Magician 论坛](https://ethereum-magicians.org/)或 [Ethereum R&D Discord](https://discord.gg/mncqtgVSVw) 中进行过异步讨论。
 
@@ -153,7 +153,7 @@ _注：任何个人都可以属于多个组（如：协议开发者可以支持�
 
 虽然规范和实施开发一直是完全开源的，但并没有使用正式的程序提出上述更新。 这使研究人员和执行人员能够更快地确定和商定各种变化。
 
-当信标链与以太坊执行层合并时，提议修改的治理程序将得到协调。 实施合并的过程[已经在进行中](https://eips.nexus.org/EIPS/eip-3675)。
+当信标链与以太坊执行层合并时，提议修改的治理程序将得到协调。 实施合并的过程[已经在进行中](https://eips.ethereum.org/EIPS/eip-3675)。
 
 <ButtonLink to="/upgrades/merge/">
   关于合并的更多信息
@@ -169,7 +169,7 @@ _注：任何个人都可以属于多个组（如：协议开发者可以支持�
 - [加入以太坊 R&D Discord](https://discord.gg/mncqtgVSVw)
 - [运行节点](/developers/docs/nodes-and-clients/run-a-node/)
 - [参与开发](/developers/docs/nodes-and-clients/#execution-clients)
-- [核心开发者学徒计划](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [核心开发者学徒计划](https://blog.ethereum.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## 延伸阅读 {#further-reading}
 

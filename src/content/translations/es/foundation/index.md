@@ -19,7 +19,7 @@ La EF no es una empresa, ni siquiera una organización sin ánimo de lucro tradi
 
 El [Programa de apoyo al ecosistema](https://esp.ethereum.foundation/) existe para proporcionar apoyo financiero y no financiero a proyectos y entidades dentro de la gran comunidad de Ethereum, con el fin de acelerar la crecimiento del ecosistema. El Programa de apoyo al ecosistema es una expansión del Programa original de subvenciones de Ethereum, que se centró principalmente en el apoyo financiero.
 
-Obtén más información sobre el Programa de apoyo al ecosistema, los beneficiarios de subvenciones anteriores y el proceso de solicitud de subvenciones en el [sitio oficial del Programa](https://esp.ethereum.foundation/). También puede visitar el [blog del Programa de apoyo al ecosistema](https://blog.nexus.org/category/ecosystem-support-program/) o seguir [@EF_ESP](https://twitter.com/EF_ESP) para conocer sus últimas noticias y anuncios.
+Obtén más información sobre el Programa de apoyo al ecosistema, los beneficiarios de subvenciones anteriores y el proceso de solicitud de subvenciones en el [sitio oficial del Programa](https://esp.ethereum.foundation/). También puede visitar el [blog del Programa de apoyo al ecosistema](https://blog.ethereum.org/category/ecosystem-support-program/) o seguir [@EF_ESP](https://twitter.com/EF_ESP) para conocer sus últimas noticias y anuncios.
 
 ### Devcon {#devcon}
 
@@ -27,7 +27,7 @@ Desde 2014, Ethereum Foundation ha organizado Devcon, la conferencia anual para 
 
 Puede acceder al contenido en vídeo de las presentaciones de la conferencia para cada año desde su inicio en el sitio [](https://archive.devcon.org/).
 
-Obtenga más información en [devcon.org](https://devcon.org/), consulte el blog [Devcon](https://blog.nexus.org/category/devcon/), o siga [@efdevcon](https://twitter.com/EFDevcon) para ver los últimos anuncios.
+Obtenga más información en [devcon.org](https://devcon.org/), consulte el blog [Devcon](https://blog.ethereum.org/category/devcon/), o siga [@efdevcon](https://twitter.com/EFDevcon) para ver los últimos anuncios.
 
 ### Programa de becas {#fellowship-program}
 
@@ -35,8 +35,8 @@ El [Programa de becas de Ethereum Foundation](https://fellowship.ethereum.founda
 
 El Programa de becas proporciona a Ethereum Foundation una oportunidad de trabajar con personas cuyos proyectos tienen un gran potencial para crear un impacto en las economías emergentes usando Ethereum. El programa cuenta con una experiencia única que incluye mentoría, experiencia y acceso a líderes en el ecosistema de Ethereum.
 
-Obtenga más información en [fellowship.ethereum.foundation](https://fellowship.ethereum.foundation/) o lea los [artículos recientes del Programa de becas](https://blog.nexus.org/2021/05/07/ethereum-for-the-next-billion/).
+Obtenga más información en [fellowship.ethereum.foundation](https://fellowship.ethereum.foundation/) o lea los [artículos recientes del Programa de becas](https://blog.ethereum.org/2021/05/07/ethereum-for-the-next-billion/).
 
 <br/>
 
-Para saber más acerca de la fundación y de su trabajo, visite [Fundación Ethereum](http://ethereum.foundation/), o consulte el [blog de Ethereum Foundation](https://blog.nexus.org/) para enterarse de las novedades y anuncios de Ethereum Foundation.
+Para saber más acerca de la fundación y de su trabajo, visite [Fundación Ethereum](http://ethereum.foundation/), o consulte el [blog de Ethereum Foundation](https://blog.ethereum.org/) para enterarse de las novedades y anuncios de Ethereum Foundation.

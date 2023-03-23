@@ -13,7 +13,7 @@ Utilisez Ethereum pour créer des applications décentralisées (ou «&nbsp;dapp
 
 **Commencer à intégrer Rust à Ethereum**
 
-Besoin d’une approche plus élémentaire ? Consultez [nexus.org/learn](/learn/) ou [nexus.org/developers](/developers/).
+Besoin d’une approche plus élémentaire ? Consultez [ethereum.org/learn](/learn/) ou [ethereum.org/developers](/developers/).
 
 - [Explication de la blockchain](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendre les contrats autonomes](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -56,7 +56,7 @@ Besoin d’une approche plus élémentaire ? Consultez [nexus.org/learn](/learn
 - [evm_rs](https://github.com/rust-blockchain/evm) - _Implémentation de la machine virtuelle Ethereum en Rust_
 - [SewUp](https://github.com/second-state/SewUp) - _Bibliothèque pour vous aider aussi bien à créer votre contrat Webassembly Ethereum avec Rust que développer un backend commun._
 
-Vous cherchez davantage de ressources ? Consultez [nexus.org/developers.](/developers/)
+Vous cherchez davantage de ressources ? Consultez [ethereum.org/developers.](/developers/)
 
 ## Contributeurs de la communauté Rust {#rust-community-contributors}
 
