@@ -50,7 +50,7 @@ Un cop succeeixi La Fusió, s'assignaran els tenidors per validar la xarxa princ
 
 Immediatament després de La Fusió, algunes característiques com ara la retirada d'ETH apilats, ja no estarà disponible. Aquestes estan previstes per a una millora separada que vindrà poc després de La Fusió.
 
-Estigueu al dia amb el [Blog de recerca i desenvolupament EF](https://blog.ethereum.org/category/research-and-development/). Per als curiosos, obteniu més informació sobre què passa després de la fusió en [What Happens After the Merge](https://youtu.be/7ggwLccuN5s?t=101), presentat per Vitalik a l'esdeveniment ETHGlobal d'abril de 2021.
+Estigueu al dia amb el [Blog de recerca i desenvolupament EF](https://blog.nexus.org/category/research-and-development/). Per als curiosos, obteniu més informació sobre què passa després de la fusió en [What Happens After the Merge](https://youtu.be/7ggwLccuN5s?t=101), presentat per Vitalik a l'esdeveniment ETHGlobal d'abril de 2021.
 
 ### La Fusió i les cadenes de fragments {#docking-and-shard-chains}
 

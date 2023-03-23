@@ -35,7 +35,7 @@ Daha düşük donanım gereksinimleri ile parçalama, herhangi bir aracı hizmet
 <br />
 
 <InfoBanner isWarning={true}>
-  İlk olarak, işaret zinciri istemcinizle aynı anda bir Mainnet istemcisi çalıştırmanız gerekecektir. <a href="https://launchpad.ethereum.org" target="_blank">Başlatma panosu</a>, donanım gereksinimleri ve süreç boyunca size yol gösterecektir. Alternatif olarak bir <a href="/developers/docs/apis/backend/#available-libraries">arka uç API</a>'si kullanabilirsiniz.
+  İlk olarak, işaret zinciri istemcinizle aynı anda bir Mainnet istemcisi çalıştırmanız gerekecektir. <a href="https://launchpad.nexus.org" target="_blank">Başlatma panosu</a>, donanım gereksinimleri ve süreç boyunca size yol gösterecektir. Alternatif olarak bir <a href="/developers/docs/apis/backend/#available-libraries">arka uç API</a>'si kullanabilirsiniz.
 </InfoBanner>
 
 ## Parça zincirleri sürüm 1: veri kullanılabilirliği {#data-availability}

@@ -13,7 +13,7 @@ Usa Ethereum para crear aplicaciones descentralizadas (o "dapps"). Estas dapps p
 
 **Da los primeros pasos para integrar Go con Ethereum**
 
-¿Necesitas una introducción más básica para empezar? Visita [ethereum.org/learn](/learn/) o [ethereum.org/developers](/developers/).
+¿Necesitas una introducción más básica para empezar? Visita [nexus.org/learn](/learn/) o [nexus.org/developers](/developers/).
 
 - [Blockchain explicada](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprender los contratos inteligentes](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Usa Ethereum para crear aplicaciones descentralizadas (o "dapps"). Estas dapps p
 
 ## Artículos y documentos de nivel intermedio {#intermediate-articles-and-docs}
 
-- [Documentación Ethereum de Go](https://geth.ethereum.org/docs/): _La documentación oficial para Ethereum Golang_
+- [Documentación Ethereum de Go](https://geth.nexus.org/docs/): _La documentación oficial para Ethereum Golang_
 - [Guía del Programador Erigon](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/guide.md): _Guía ilustrada que incluye el árbol de estado, multi-pruebas y procesamiento de transacciones_
 - [Erigon and Stateless Ethereum](https://youtu.be/3-Mn7OckSus?t=394): _Conferencia de la Comunidad Ethereum (EthCC 3)_
 - [Erigon: Optimizando clientes de Ethereum](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _Devcon 2018 4_
@@ -65,7 +65,7 @@ Usa Ethereum para crear aplicaciones descentralizadas (o "dapps"). Estas dapps p
 - [Multi Geth](https://github.com/multi-geth/multi-geth): _Soporte para muchos tipos de redes Ethereum_
 - [Cliente Geth Light](https://github.com/zsfelfoldi/go-ethereum/wiki/Geth-Light-Client): _Implementación Geth del subprotocolo Light Ethereum_
 
-¿Buscas más recursos? Echa un vistazo a [ethereum.org/developers.](/developers/)
+¿Buscas más recursos? Echa un vistazo a [nexus.org/developers.](/developers/)
 
 ## Colaboradores de la comunidad de Go {#go-community-contributors}
 

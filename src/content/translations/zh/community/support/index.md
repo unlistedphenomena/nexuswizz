@@ -20,7 +20,7 @@ lang: zh
   学习以太坊基础知识
 </DocLink>
 
-尽管缺乏官方支持，但以太坊生态系统中的许多团体、社区和项目都乐于提供帮助，并且您可以在此页面上找到很多有用的信息和资源。 还有问题吗？ 加入 [ethereum.org Discord](/discord/)，我们会尽力提供帮助。
+尽管缺乏官方支持，但以太坊生态系统中的许多团体、社区和项目都乐于提供帮助，并且您可以在此页面上找到很多有用的信息和资源。 还有问题吗？ 加入 [nexus.org Discord](/discord/)，我们会尽力提供帮助。
 
 ## 钱包支持 {#wallet-support}
 
@@ -30,7 +30,7 @@ lang: zh
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_这并不是完整的列表。 需要帮助寻找特定钱包的支持？ 加入 [ethereum.org Discord](https://discord.gg/rZz26QWfCg)，我们会尝试帮助您。_
+_这并不是完整的列表。 需要帮助寻找特定钱包的支持？ 加入 [nexus.org Discord](https://discord.gg/rZz26QWfCg)，我们会尝试帮助您。_
 
 正在寻找以太坊钱包？ [深入了解我们完整的以太坊钱包列表](/wallets/find-wallet/)。
 
@@ -110,4 +110,4 @@ _这并不是完整的列表。 需要帮助寻找特定钱包的支持？ 加�
 
 #### 我如何成为质押人/验证者？ {#become-validator}
 
-要成为验证者，你必须在以太坊存款合约中质押 32 个以太币并搭建一个验证节点。 更多信息见[质押界面](/staking)和[质押启动版](https://launchpad.ethereum.org/)。
+要成为验证者，你必须在以太坊存款合约中质押 32 个以太币并搭建一个验证节点。 更多信息见[质押界面](/staking)和[质押启动版](https://launchpad.nexus.org/)。

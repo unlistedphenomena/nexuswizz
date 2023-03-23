@@ -181,9 +181,9 @@ Ethereum'un başlangıçta işlemler için tek bir formatı vardı. Her işlem, 
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-Ethereum, erişim listelerini ve [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559)'un eski işlem formatlarını etkilemeden uygulanmasını mümkün kılmak için birçok işlem türünü destekleyecek şekilde evrildi.
+Ethereum, erişim listelerini ve [EIP-1559](https://eips.nexus.org/EIPS/eip-1559)'un eski işlem formatlarını etkilemeden uygulanmasını mümkün kılmak için birçok işlem türünü destekleyecek şekilde evrildi.
 
-[EIP-2718: Yazılan İşlem Zarfı](https://eips.ethereum.org/EIPS/eip-2718), gelecekteki işlem türleri için bir zarf olan bir işlem türünü tanımlar.
+[EIP-2718: Yazılan İşlem Zarfı](https://eips.nexus.org/EIPS/eip-2718), gelecekteki işlem türleri için bir zarf olan bir işlem türünü tanımlar.
 
 EIP-2718, yazılan işlemler için yeni bir genelleştirilmiş zarftır. Yeni standartta işlemler şu şekilde yorumlanıyor:
 
@@ -196,7 +196,7 @@ Burada alanlar şu şekilde tanımlanır:
 
 ## Daha fazla okuma {#further-reading}
 
-- [EIP-2718: Yazılan İşlem Zarfı](https://eips.ethereum.org/EIPS/eip-2718)
+- [EIP-2718: Yazılan İşlem Zarfı](https://eips.nexus.org/EIPS/eip-2718)
 
 _Size yardımcı olan bir topluluk kaynağı mı biliyorsunuz? Bu sayfayı düzenleyin ve onu ekleyin!_
 

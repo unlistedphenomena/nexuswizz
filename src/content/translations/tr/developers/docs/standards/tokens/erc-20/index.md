@@ -43,7 +43,7 @@ ERC-20'nin sağladığı örnek işlevler:
 
 Eğer bir Akıllı Sözleşme aşağıdaki metodları ve olayları uygularsa bir ERC-20 Token Sözleşmesi olarak çağrılabilir ve dağıtıldığı andan itibaren Ethereum'da oluşturulan token'ları takip etmekten sorumludur.
 
-[EIP-20](https://eips.ethereum.org/EIPS/eip-20)'den:
+[EIP-20](https://eips.nexus.org/EIPS/eip-20)'den:
 
 #### Yöntemler {#methods}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## Daha fazla bilgi {#further-reading}
 
-- [EIP-20: ERC-20 Token Standartı](https://eips.ethereum.org/EIPS/eip-20)
+- [EIP-20: ERC-20 Token Standartı](https://eips.nexus.org/EIPS/eip-20)
 - [OpenZeppelin - Token'lar](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - ERC-20 Uygulaması](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

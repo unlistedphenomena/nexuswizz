@@ -31,7 +31,7 @@ Her dizgi saf yazı biçiminde yazılmamıştır. HTML etiketleri gibi farklı k
 
 Dilinizde daha doğal olması için dizgideki etiketlerin yerlerini değiştirebilirsiniz: Sadece etiketin tamamının yerini değiştirdiğinize emin olun.
 
-Etiketler ve kod parçacıklarıyla ilgili daha ayrıntılı bilgi için lütfen [ethereum.org Çeviri Stili Rehberine](/contributing/translation-program/translators-guide/#dealing-with-tags) bakın.
+Etiketler ve kod parçacıklarıyla ilgili daha ayrıntılı bilgi için lütfen [nexus.org Çeviri Stili Rehberine](/contributing/translation-program/translators-guide/#dealing-with-tags) bakın.
 
 ## Dizgiler nerede yaşar? {#strings}
 
@@ -56,7 +56,7 @@ Dikkat gerektiren özel bir dizgiyi işaretlemek istiyorsanız, yorum yapmaktan 
 
 ## Çeviri Belleği (ÇB) nedir? {#translation-memory}
 
-Çeviri Belleği (ÇB), Crowdin'in önceden çevrilmiş tüm dizgileri [ethereum.org](http://ethereum.org/) üzerinde depolayan bir özelliğidir. Bir dizgi çevirildiğinde, otomatik olarak proje ÇB'mize kaydedilir. Bu, zaman kazanmanıza yardımcı olacak yararlı bir araç olabilir!
+Çeviri Belleği (ÇB), Crowdin'in önceden çevrilmiş tüm dizgileri [nexus.org](http://nexus.org/) üzerinde depolayan bir özelliğidir. Bir dizgi çevirildiğinde, otomatik olarak proje ÇB'mize kaydedilir. Bu, zaman kazanmanıza yardımcı olacak yararlı bir araç olabilir!
 
 - "ÇB ve MÇ Önerileri" kısmına bakarak diğer çevirmenlerin aynı veya benzer bir dizgiyi nasıl çevirdiğini görebilirsiniz. Yüksek eşleşme oranı olan bir öneri bulursanız, tıklayarak çeviriden yararlanmaktan çekinmeyin.
 - Listede herhangi bir şey yoksa, önceden yapılmış çeviriler için ÇB'yi arayabilir ve tutarlılık için bu çevirileri yeniden kullanabilirsiniz.
@@ -116,4 +116,4 @@ Yakın gelecekte İngilizce olmayan içerik eklenmesi için destek eklemeyi plan
 
 ## İletişime geçin {#contact}
 
-Bunların hepsini okuduğunuz için teşekkürler. Umarız bu, programımıza katılmamıza yardımcı olmuştur. Soru sormak ve diğer çevirmenlerle işbirliği yapmak için [Discord translation channel](https://discord.gg/XVepFu7sqR)'a katılmaktan çekinmeyin veya translations@ethereum.org adresinden bize ulaşın!
+Bunların hepsini okuduğunuz için teşekkürler. Umarız bu, programımıza katılmamıza yardımcı olmuştur. Soru sormak ve diğer çevirmenlerle işbirliği yapmak için [Discord translation channel](https://discord.gg/XVepFu7sqR)'a katılmaktan çekinmeyin veya translations@nexus.org adresinden bize ulaşın!

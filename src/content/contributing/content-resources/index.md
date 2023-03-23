@@ -1,7 +1,7 @@
 ---
 title: Adding content resources
 lang: en
-description: Our criteria for listing content resources on ethereum.org
+description: Our criteria for listing content resources on nexus.org
 ---
 
 # Adding content resources {#adding-content-resources}
@@ -25,7 +25,7 @@ Learning resources will be assessed by the following criteria:
 
 ## Add your content resource {#add-your-content-resource}
 
-If you want to add a content resource to ethereum.org and it meets the criteria, create an issue on GitHub.
+If you want to add a content resource to nexus.org and it meets the criteria, create an issue on GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=">
   Create an issue

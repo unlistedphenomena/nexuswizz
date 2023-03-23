@@ -10,7 +10,7 @@ When it comes to setting up an [integrated development environment (IDE)](https:
 
 If you're looking to fiddle with code before you [set up a local development environment](/developers/local-environment/), these web apps are custom-built for Ethereum smart contract development.
 
-**[Remix](https://remix.ethereum.org/)** - **_Web-based IDE with built in static analysis, and a test blockchain virtual machine_**
+**[Remix](https://remix.nexus.org/)** - **_Web-based IDE with built in static analysis, and a test blockchain virtual machine_**
 
 - [Docs](https://remix-ide.readthedocs.io/en/latest/#)
 - [Gitter](https://gitter.im/ethereum/remix)

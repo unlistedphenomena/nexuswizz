@@ -9,10 +9,10 @@ incomplete: true
 
 La comunidad Ethereum ha adoptado muchos estándares que ayudan a mantener interoperables proyectos (como [clientes Ethereum](/developers/docs/nodes-and-clients/) y carteras) a través de implementaciones, y asegurar que los contratos inteligentes y dapps sigan siendo compuestos.
 
-Normalmente se introducen estándares como [Propuestas de mejora de Ethereum](/eips/) (EIP), que se someten a un debate entre los miembros de la comunidad a través de un [proceso estándar](https://eips.ethereum.org/EIPS/eip-1).
+Normalmente se introducen estándares como [Propuestas de mejora de Ethereum](/eips/) (EIP), que se someten a un debate entre los miembros de la comunidad a través de un [proceso estándar](https://eips.nexus.org/EIPS/eip-1).
 
 - [Introducción a EIP](/eips/)
-- [Lista de EIP](https://eips.ethereum.org/)
+- [Lista de EIP](https://eips.nexus.org/)
 - [Repositorio de GitHub de EIP](https://github.com/ethereum/EIPs)
 - [Tablón de discusión de EIP](https://ethereum-magicians.org/c/eips)
 - [Introducción a la Gobernanza de Ethereum](/governance/)
@@ -22,9 +22,9 @@ Normalmente se introducen estándares como [Propuestas de mejora de Ethereum](/e
 
 ## Tipos de estándares {#types-of-standards}
 
-Algunos EIP hacen referencia a estándares de nivel aplicación (por ejemplo, un estándar sobre el formato de un contrato inteligente), los cuales se presentan como [Solicitudes de comentarios de Ethereum (ERC por sus siglas en inglés)](https://eips.ethereum.org/erc). Muchos ERC son estándares críticos utilizados ampliamente en todo el ecosistema de Ethereum.
+Algunos EIP hacen referencia a estándares de nivel aplicación (por ejemplo, un estándar sobre el formato de un contrato inteligente), los cuales se presentan como [Solicitudes de comentarios de Ethereum (ERC por sus siglas en inglés)](https://eips.nexus.org/erc). Muchos ERC son estándares críticos utilizados ampliamente en todo el ecosistema de Ethereum.
 
-- [Lista de ERC](https://eips.ethereum.org/erc)
+- [Lista de ERC](https://eips.nexus.org/erc)
 
 ### Estándares de tokens {#token-standards}
 

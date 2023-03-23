@@ -322,7 +322,7 @@ DeFi 是“去中心化金融”的缩写，是一种广义的[去中心化应�
 
 ### 以太坊 1 {#eth1}
 
-“以太坊 1”是指主网以太坊，即现有的工作量证明区块链。 该术语已弃用，取而代之的是“执行层”。 [详细了解此名称更改](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)。
+“以太坊 1”是指主网以太坊，即现有的工作量证明区块链。 该术语已弃用，取而代之的是“执行层”。 [详细了解此名称更改](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)。
 
 <DocLink to="/upgrades/">
   有关以太坊升级的更多信息
@@ -330,7 +330,7 @@ DeFi 是“去中心化金融”的缩写，是一种广义的[去中心化应�
 
 ### 以太坊 2 {#eth2}
 
-“以太坊 2”是指以太坊协议的一系列升级，包括以太坊到权益证明的过渡。 该术语已弃用，取而代之的是“共识层”。 [详细了解此名称更改](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)。
+“以太坊 2”是指以太坊协议的一系列升级，包括以太坊到权益证明的过渡。 该术语已弃用，取而代之的是“共识层”。 [详细了解此名称更改](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)。
 
 <DocLink to="/upgrades/">
   有关以太坊升级的更多信息
@@ -480,7 +480,7 @@ DeFi 是“去中心化金融”的缩写，是一种广义的[去中心化应�
 
 Go Ethereum， 以太坊协议最重要的实现之一，使用 Go 语言编写。
 
-[更多信息请访问 geth.ethereum.org](https://geth.ethereum.org/)
+[更多信息请访问 geth.nexus.org](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 

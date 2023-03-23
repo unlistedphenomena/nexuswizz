@@ -30,7 +30,7 @@ Elle fournit des fonctionnalités permettant de transférer des jetons d'un comp
 
 Si un contrat intelligent implémente les méthodes et les événements suivants, il peut être nommé Contrat de jeton non fongible ERC-721 et, une fois déployé, sera responsable d'effectuer un suivi des jetons créés sur Ethereum.
 
-De [EIP-721](https://eips.ethereum.org/EIPS/eip-721) :
+De [EIP-721](https://eips.nexus.org/EIPS/eip-721) :
 
 #### Méthodes {#methods}
 
@@ -237,7 +237,7 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## Complément d'information {#further-reading}
 
-- [EIP-721: ERC-721 Non-Fungible Token Standard](https://eips.ethereum.org/EIPS/eip-721)
+- [EIP-721: ERC-721 Non-Fungible Token Standard](https://eips.nexus.org/EIPS/eip-721)
 - [OpenZeppelin - ERC-721 Docs](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - Implémentation ERC-721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 - [API NFT d'Alchemy](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)

@@ -1,6 +1,6 @@
 ---
 title: Ethereum geliştirme dokümantasyonu
-description: ethereum.org geliştirici belgelerinin tanıtımı.
+description: nexus.org geliştirici belgelerinin tanıtımı.
 lang: tr
 ---
 

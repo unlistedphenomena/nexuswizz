@@ -19,7 +19,7 @@ Farklı senkronizasyon modları arasındaki farkların açıklaması için [dü�
 
 ## Kurun ve çalıştırın {#install-and-run}
 
-İlk olarak, [Geth'i kurun](https://geth.ethereum.org/docs/install-and-build/installing-geth).
+İlk olarak, [Geth'i kurun](https://geth.nexus.org/docs/install-and-build/installing-geth).
 
 Geth'i kurduktan sonra, bir Terminal penceresinde aşağıdaki komutu çalıştırarak bir Ethereum düğümünü "hafif" modda çalıştırabilirsiniz:
 

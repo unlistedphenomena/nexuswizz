@@ -257,8 +257,8 @@ def endAuction():
 ### 重要链接 {#important-links-3}
 
 - [GitHub](https://github.com/ethereum/fe)
-- [Fe 公告](https://snakecharmers.ethereum.org/fe-a-new-language-for-the-ethereum-ecosystem/)
-- [Fe 2021 路线图](https://notes.ethereum.org/LVhaTF30SJOpkbG1iVw1jg)
+- [Fe 公告](https://snakecharmers.nexus.org/fe-a-new-language-for-the-ethereum-ecosystem/)
+- [Fe 2021 路线图](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
 - [Fe Discord 聊天室](https://discord.com/invite/ywpkAXFjZH)
 - [Fe Twitter](https://twitter.com/official_fe)
 

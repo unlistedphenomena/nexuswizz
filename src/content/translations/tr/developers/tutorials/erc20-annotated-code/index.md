@@ -24,7 +24,7 @@ ERC-20 gibi bir standardın amacı, cüzdanlar ve merkeziyetsiz borsalar gibi uy
 
 Deneyimli bir programcıysanız, muhtemelen [Java](https://www.w3schools.com/java/java_interface.asp)'da ve hatta [C header dosyalarında](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html) benzer yapılar gördüğünüzü hatırlıyorsunuzdur.
 
-Bu, OpenZeppelin'in yaptığı bir [ERC-20 Arayüzü](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) tanımıdır. [İnsan tarafından okunabilir standardın](https://eips.ethereum.org/EIPS/eip-20) Solidity koduna çevirisidir. Elbette, arayüzün kendisi herhangi bir şeyi _nasıl_ yapacağını tanımlamaz. Bu, aşağıdaki sözleşme kaynak kodunda açıklanmıştır.
+Bu, OpenZeppelin'in yaptığı bir [ERC-20 Arayüzü](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) tanımıdır. [İnsan tarafından okunabilir standardın](https://eips.nexus.org/EIPS/eip-20) Solidity koduna çevirisidir. Elbette, arayüzün kendisi herhangi bir şeyi _nasıl_ yapacağını tanımlamaz. Bu, aşağıdaki sözleşme kaynak kodunda açıklanmıştır.
 
 &nbsp;
 

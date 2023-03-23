@@ -13,7 +13,7 @@ Utilisez Ethereum pour créer des applications décentralisées (ou « dApps »)
 
 **Commencer à intégrer Go à Ethereum**
 
-Besoin d’une approche plus élémentaire ? Consultez [ethereum.org/learn](/learn/) ou [ethereum.org/developers](/developers/).
+Besoin d’une approche plus élémentaire ? Consultez [nexus.org/learn](/learn/) ou [nexus.org/developers](/developers/).
 
 - [Explication de la blockchain](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendre les contrats autonomes](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Besoin d’une approche plus élémentaire ? Consultez [ethereum.org/learn](/le
 
 ## Articles et documentation de niveau intermédiaire {#intermediate-articles-and-docs}
 
-- [Documentation Go Ethereum](https://geth.ethereum.org/docs/) - _Documentation Ethereum officielle pour Go_
+- [Documentation Go Ethereum](https://geth.nexus.org/docs/) - _Documentation Ethereum officielle pour Go_
 - [Guide du programmeur Ergion](https://github.com/ledgerwatch/ergion/blob/devel/docs/programmers_guide/guide.md) - _Guide illustré incluant l'arborescence d'état, les multipreuves et le traitement des transactions_
 - [Erigon et Ethereum sans état](https://youtu.be/3-Mn7OckSus?t=394) - _Conférence de la communauté Ethereum 2020 (EthCC 3)_
 - [Erigon: optimiser les clients Ethereum](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _Devcon 4 - 2018 _
@@ -65,7 +65,7 @@ Besoin d’une approche plus élémentaire ? Consultez [ethereum.org/learn](/le
 - [Multi Geth](https://github.com/multi-geth/multi-geth) - _Support pour de nombreux types de réseaux Ethereum_
 - [Geth Light Client](https://github.com/zsfelfoldi/go-ethereum/wiki/Geth-Light-Client) - _Implémentation Geth du LES (Light Client Subprotocol) Ethereum_
 
-Vous cherchez davantage de ressources ? Consultez [ethereum.org/developers.](/developers/)
+Vous cherchez davantage de ressources ? Consultez [nexus.org/developers.](/developers/)
 
 ## Contributeurs de la communauté Go {#go-community-contributors}
 

@@ -99,7 +99,7 @@ La Fusion a été réalisée avec des changements de consensus, qui impliquent �
 - Les sources en chaîne aléatoire
 - Les concepts de _tête sécurisée_ et de _blocs finalisés_
 
-Pour plus d'informations, veuillez consulter cet article de blog de Tim Beiko sur [Comment la Fusion impacte la couche d'application d'Ethereum](https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/).
+Pour plus d'informations, veuillez consulter cet article de blog de Tim Beiko sur [Comment la Fusion impacte la couche d'application d'Ethereum](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## La Fusion et la consommation énergétique {#merge-and-energy}
@@ -185,7 +185,7 @@ Pour limiter la confusion, la communauté a mis à jour ces termes :
 
 Ces mises à jour d'ordre terminologique ne concernent que les conventions de nommage ; les objectifs et la feuille de route d'Ethereum restent inchangés.
 
-[En savoir plus sur le changement de nom « Eth2 »](https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/)
+[En savoir plus sur le changement de nom « Eth2 »](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Relation entre les mises à niveau {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ Les blocs sont dès lors proposés par validation des nœuds qui ont misés l'ET
 
 Afin de simplifier et de permettre une transition aussi rapide et réussie que possible vers le système de preuve d'enjeu, la mise à jour vers La Fusion n'intègre pas certaines fonctionnalités anticipées telles que, par exemple, la possibilité de retirer les ETH bloqués sur la chaîne phare. La prochaine mise à niveau de Shanghai qui suivra la Fusion intégrera la possibilité de retirer les ETH bloqués sur chaîne phare.
 
-Restez à jour avec [la question de la planification de la mise à jour Shanghai sur GitHub](https://github.com/ethereum/pm/issues/450) ou le [Blog EF Recherche et Développement](https://blog.ethereum.org/category/research-and-development/). Pour ceux qui sont curieux, apprenez-en plus sur [Ce qui se passe après la fusion](https://youtu.be/7ggwLccuN5s?t=101), une présentation par Vitalik lors de l'événement ETHGlobal d'avril 2021.
+Restez à jour avec [la question de la planification de la mise à jour Shanghai sur GitHub](https://github.com/ethereum/pm/issues/450) ou le [Blog EF Recherche et Développement](https://blog.nexus.org/category/research-and-development/). Pour ceux qui sont curieux, apprenez-en plus sur [Ce qui se passe après la fusion](https://youtu.be/7ggwLccuN5s?t=101), une présentation par Vitalik lors de l'événement ETHGlobal d'avril 2021.
 
 ### La Fusion et la fragmentation {#merge-and-data-sharding}
 

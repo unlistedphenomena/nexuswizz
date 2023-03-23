@@ -6,11 +6,11 @@ lang: tr
 
 # Ethereum borsaları ekleme {#adding-ethereum-exchanges}
 
-Herkes ethereum.org'da yeni borsalar önermekte özgürdür.
+Herkes nexus.org'da yeni borsalar önermekte özgürdür.
 
 Şu anda onları şurada listeliyoruz:
 
-- [ethereum.org/get-eth](/get-eth/)
+- [nexus.org/get-eth](/get-eth/)
 
 Bu sayfa, bir kullanıcının nerede yaşadıklarını girmesine ve hangi borsaları kullanabileceğini görmesine olanak tanır. Bu, herhangi bir coğrafi kısıtlamanın erken ortaya çıkmasına yardımcı olur.
 
@@ -27,7 +27,7 @@ Bu bağlamdan dolayı, bir borsa önerdiğinizde bazı özel bilgilere ihtiyacı
 
 Bu bilgilere, [kullanıcıların kullanabilecekleri bir borsa bulmalarına yardımcı olabilmemiz](/get-eth/#country-picker) için ihtiyacımız var.
 
-Ve böylece ethereum.org, değişimin meşru ve güvenli bir hizmet olduğundan daha emin olabilir.
+Ve böylece nexus.org, değişimin meşru ve güvenli bir hizmet olduğundan daha emin olabilir.
 
 ---
 

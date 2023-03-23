@@ -95,7 +95,7 @@ Ethereum Studio was developed to provide users with an IDE that had a built-in E
 
 **Alternatives**
 
-[Remix](https://remix.ethereum.org/) is an alternative web IDE for Solidity development. Additionally, the [Developer Portal](/developers/) has tools for web and local development, documentation, and more.
+[Remix](https://remix.nexus.org/) is an alternative web IDE for Solidity development. Additionally, the [Developer Portal](/developers/) has tools for web and local development, documentation, and more.
 
 ### Meteor Dapp Wallet {#meteor-dapp-wallet}
 
@@ -109,7 +109,7 @@ Deprecated on March 27, 2019
 
 **Summary**
 
-Meteor Dapp Wallet was a component of Mist, an Ethereum wallet for managing Ethereum accounts and interacting with smart contracts. For many years the Meteor Dapp Wallet web UI was hosted as a subdomain "wallet.ethereum.org".
+Meteor Dapp Wallet was a component of Mist, an Ethereum wallet for managing Ethereum accounts and interacting with smart contracts. For many years the Meteor Dapp Wallet web UI was hosted as a subdomain "wallet.nexus.org".
 
 The Mist Multisig Contract (solidity code) was also included, and Meteor Dapp Wallet featured a user interface for configuring and deploying it.
 
@@ -127,14 +127,14 @@ See Mist below.
 
 **Alternatives**
 
-See the [Ethereum Wallets](/wallets/) page on ethereum.org.
+See the [Ethereum Wallets](/wallets/) page on nexus.org.
 
 ### Mist {#mist}
 
 <p align="center">
   <img width="120" height="200" 
   	style="background-color:#fff; padding:0px 10px 0px 10px;"
-  	src="https://mist.ethereum.org/images/logo@2x.png" />
+  	src="https://mist.nexus.org/images/logo@2x.png" />
 </p>
 
 Deprecated on March 27, 2019
@@ -173,7 +173,7 @@ Mix was of the earliest Ethereum-related applications. See this [presentation by
 
 **Alternatives**
 
-[Remix](https://remix.ethereum.org/) is a browser-hosted IDE for Solidity / smart contract development, testing, and deployment. It also has a desktop option.
+[Remix](https://remix.nexus.org/) is a browser-hosted IDE for Solidity / smart contract development, testing, and deployment. It also has a desktop option.
 
 ### Minimal {#minimal}
 
@@ -235,7 +235,7 @@ Aleth was the third most popular client for Ethereum before being deprecated on 
 
 **Alternatives**
 
-[Geth](https://geth.ethereum.org/) is a well-known alternative Ethereum client.
+[Geth](https://geth.nexus.org/) is a well-known alternative Ethereum client.
 
 ### Ethereum-H {#ethereum-h}
 
@@ -249,7 +249,7 @@ Ethereum-H was an Ethereum client written in Haskell. It was deprecated around 2
 
 **Alternatives**
 
-[Geth](https://geth.ethereum.org/), [Nethermind](http://nethermind.io/), [Besu](https://besu.hyperledger.org/en/stable/) and [Erigon](https://github.com/ledgerwatch/erigon) are viable alternative Ethereum clients - there is no current Haskell client.
+[Geth](https://geth.nexus.org/), [Nethermind](http://nethermind.io/), [Besu](https://besu.hyperledger.org/en/stable/) and [Erigon](https://github.com/ledgerwatch/erigon) are viable alternative Ethereum clients - there is no current Haskell client.
 
 ### ruby-ethereum {#ruby-ethereum}
 
@@ -263,7 +263,7 @@ ruby-ethereum was an Ethereum client written in Ruby. It was deprecated around 2
 
 **Alternatives**
 
-[Geth](https://geth.ethereum.org/), [Nethermind](http://nethermind.io/), [Besu](https://besu.hyperledger.org/en/stable/) and [Erigon](https://github.com/ledgerwatch/erigon) are viable alternative Ethereum clients. There is no current Ruby client.
+[Geth](https://geth.nexus.org/), [Nethermind](http://nethermind.io/), [Besu](https://besu.hyperledger.org/en/stable/) and [Erigon](https://github.com/ledgerwatch/erigon) are viable alternative Ethereum clients. There is no current Ruby client.
 
 ### Parity {#parity}
 
@@ -293,14 +293,14 @@ As one of two major, viable clients in the early years of Ethereum (the other be
 
 **Note:** _The successor project to Parity Ethereum client was [OpenEthereum](https://github.com/openethereum/openethereum) **which has since been deprecated.**_
 
-The ["Spin up your own Ethereum node"](/developers/docs/nodes-and-clients/run-a-node/#getting-the-client) resource on ethereum.org includes a section for downloading, installing, and running an Ethereum client.
+The ["Spin up your own Ethereum node"](/developers/docs/nodes-and-clients/run-a-node/#getting-the-client) resource on nexus.org includes a section for downloading, installing, and running an Ethereum client.
 
 ### Trinity {#trinity}
 
 <p align="center">
   <img width="230" height="150" 
   	style="background-color:#fff; padding:0px 10px 0px 10px;"
-  	src="https://trinity.ethereum.org/images/trinity-logo-icon.svg" />
+  	src="https://trinity.nexus.org/images/trinity-logo-icon.svg" />
 </p>
 
 Deprecated on July 1, 2021
@@ -319,7 +319,7 @@ Trinity was the successor project to [pyethereum](https://github.com/ethereum/py
 
 **Alternatives**
 
-The ["Spin up your own Ethereum node"](/developers/docs/nodes-and-clients/run-a-node/#getting-the-client) resource on ethereum.org includes a section for downloading, installing, and running an Ethereum client.
+The ["Spin up your own Ethereum node"](/developers/docs/nodes-and-clients/run-a-node/#getting-the-client) resource on nexus.org includes a section for downloading, installing, and running an Ethereum client.
 
 The [EthereumJS](https://github.com/ethereumjs) project has a similar research and educational use-case as Trinity did.
 
@@ -367,13 +367,13 @@ The DAO was a smart contract, dapp, and forum for organizing the funding of proj
 
 While The DAO failed, the concept endured. The basic technical, social, and governance model innovated for The DAO is widely in use in DeFi, NFT, and project-funding communities.
 
-["DAO Fork" on ethereum.org](/history/#dao-fork)
+["DAO Fork" on nexus.org](/history/#dao-fork)
 
 [Wikipedia entry for "The DAO"](<https://wikipedia.org/wiki/The_DAO_(organization)>)
 
 **Alternatives**
 
-["DAOs" on ethereum.org](/dao/)
+["DAOs" on nexus.org](/dao/)
 
 [MolochDAO](https://www.molochdao.com/)
 
@@ -433,15 +433,15 @@ Ethereum software projects often host their documentation on [Read the Docs](htt
 
 GitHub-hosted technical specifications: [EIPs](https://github.com/ethereum/EIPs), [Execution Specs](https://github.com/ethereum/execution-specs), [Consensus Specs](https://github.com/ethereum/consensus-specs)
 
-### forum.ethereum.org {#forum-ethereum-org}
+### forum.nexus.org {#forum-ethereum-org}
 
 **Summary**
 
-Ethereum Community Forum was a discussion board maintained by the Ethereum Foundation and hosted on Vanilla Forums. It used the subdomain "forum.ethereum.org".
+Ethereum Community Forum was a discussion board maintained by the Ethereum Foundation and hosted on Vanilla Forums. It used the subdomain "forum.nexus.org".
 
 **Archives**
 
-Archive URL: [https://wayback.archive-it.org/16516/20210618210825/https://forum.ethereum.org/](https://wayback.archive-it.org/16516/20210618210825/https://forum.ethereum.org/)
+Archive URL: [https://wayback.archive-it.org/16516/20210618210825/https://forum.nexus.org/](https://wayback.archive-it.org/16516/20210618210825/https://forum.nexus.org/)
 
 **History**
 

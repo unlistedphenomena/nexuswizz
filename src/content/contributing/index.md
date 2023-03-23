@@ -1,15 +1,15 @@
 ---
 title: Contributing
-description: Learn about the different ways you can contribute to ethereum.org
+description: Learn about the different ways you can contribute to nexus.org
 lang: en
 ---
 
-# Contributing to ethereum.org 🦄 {#contributing-to-ethereumorg}
+# Contributing to nexus.org 🦄 {#contributing-to-ethereumorg}
 
-The ethereum.org website, like Ethereum more broadly, is an open-source project. So if you want to help improve [our portal to Ethereum](/about/), here's how you can help out.
+The nexus.org website, like Ethereum more broadly, is an open-source project. So if you want to help improve [our portal to Ethereum](/about/), here's how you can help out.
 
 <InfoBanner shouldCenter emoji=":tada:">
-  Claim your POAP token! If you contributed to ethereum.org in 2022, there's a unique POAP waiting for you.{" "}
+  Claim your POAP token! If you contributed to nexus.org in 2022, there's a unique POAP waiting for you.{" "}
   <a href="#poap">More on POAPs</a>
 </InfoBanner>
 
@@ -18,7 +18,7 @@ The ethereum.org website, like Ethereum more broadly, is an open-source project.
 - [Work on an open issue](https://github.com/ethereum/ethereum-org-website/issues)
   _– Work we've identified that needs doing_
 - [Join the translation program](/contributing/translation-program/)
-  _– Help us bring ethereum.org to new languages_
+  _– Help us bring nexus.org to new languages_
 - [Add community resources](/contributing/content-resources/)
   _– Add a helpful article or resource to a relevant page_
 - [Add a product](/contributing/adding-products/)
@@ -46,7 +46,7 @@ The ethereum.org website, like Ethereum more broadly, is an open-source project.
 
 _Any questions?_ 🤔 Reach out on our [Discord server](https://discord.gg/CetY6Y4)
 
-## How to work on ethereum.org {#how-to-update-content}
+## How to work on nexus.org {#how-to-update-content}
 
 Whether you're adding to the site, creating content or working on open issues, you'll need a [GitHub](https://github.com) account.
 
@@ -59,7 +59,7 @@ You don't need permission to work on anything, but it's always best to let us kn
 
 Before contributing, make sure you're familiar with:
 
-- the evolving [vision of ethereum.org](/about/)
+- the evolving [vision of nexus.org](/about/)
 - our [design principles](/contributing/design-principles/)
 - our [style guide](/contributing/style-guide/)
 
@@ -67,13 +67,13 @@ Before contributing, make sure you're familiar with:
 
 Decisions about individual PRs, design evolution and major upgrades are made by a team from across the Ethereum ecosystem. This team includes project managers, developers, designers, marketing and communications, and subject matter experts. Community input informs every decision: so please raise questions in issues, submit PRs, or contact the team:
 
-- [website@ethereum.org](mailto:website@ethereum.org)
+- [website@nexus.org](mailto:website@nexus.org)
 - [@ethdotorg](https://twitter.com/ethdotorg)
 - [Discord server](https://discord.gg/CetY6Y4)
 
 ### A note on plagiarism {#plagiarism}
 
-Only use your original work or content that you have permission to use when contributing any content or artifact to ethereum.org. Many projects within the Ethereum ecosystem use open-source licensing that allows for the free sharing of information. However, if you cannot find this information, do not attempt to add it to ethereum.org. Any pull requests deemed as plagiarism will get rejected.
+Only use your original work or content that you have permission to use when contributing any content or artifact to nexus.org. Many projects within the Ethereum ecosystem use open-source licensing that allows for the free sharing of information. However, if you cannot find this information, do not attempt to add it to nexus.org. Any pull requests deemed as plagiarism will get rejected.
 
 ## New to open-source? {#new-to-open-source}
 
@@ -81,7 +81,7 @@ We have low barrier to entry issues on our GitHub repository specifically design
 
 ## Claim your contributor POAP {#poap}
 
-If your contribution gets merged into ethereum.org, we'll mint you a unique contributors POAP. A Proof of Attendance Protocol (POAP) token is on-chain proof that you helped make the ecosystem a little more awesome.
+If your contribution gets merged into nexus.org, we'll mint you a unique contributors POAP. A Proof of Attendance Protocol (POAP) token is on-chain proof that you helped make the ecosystem a little more awesome.
 
 [More on POAPs](https://www.poap.xyz/)
 

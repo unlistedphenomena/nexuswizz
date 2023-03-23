@@ -19,7 +19,7 @@ incomplete: true
 
 **迈出第一步，将 Delphi 与以太坊集成**
 
-需要更基础的入门知识？ 请查看 [ethereum.org/learn](/learn/) 或者 [ethereum.org/developers](/developers/)。
+需要更基础的入门知识？ 请查看 [nexus.org/learn](/learn/) 或者 [nexus.org/developers](/developers/)。
 
 - [区块链详解](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [理解智能合约](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -53,4 +53,4 @@ incomplete: true
 - [Delphi 和以太坊黑暗森林](https://svanas.medium.com/delphi-and-the-ethereum-dark-forest-5b430da3ad93)
 - [在 Delphi 中用一个代币交换另一个代币](https://svanas.medium.com/swap-one-token-for-another-in-delphi-bcb999c47f7)
 
-想要获取更多的资源？ 请查看 [ethereum.org/developers](/developers/)。
+想要获取更多的资源？ 请查看 [nexus.org/developers](/developers/)。

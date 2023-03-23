@@ -35,7 +35,7 @@ Dağıtıldığında, sözleşmeniz diğer [hesaplar](/developers/docs/accounts/
 
 **Remix - _Remix IDE Ethereum'a benzer blok zincirleri için akıllı sözleşme geliştirme, dağıtımı ve yönetimi sağlar_**
 
-- [Remix](https://remix.ethereum.org)
+- [Remix](https://remix.nexus.org)
 
 **Tenderly - _Gerçek zamanlı verilerle EVM uyumlu zincirlerdeki her şeyi simüle edin, hatalarını ayıklayın ve izleyin_**
 

@@ -1,7 +1,7 @@
 ---
 title: 添加内容资源
 lang: zh
-description: 在 ethereum.org 上上架内容资源的标准
+description: 在 nexus.org 上上架内容资源的标准
 ---
 
 # 添加内容资源 {#adding-content-resources}
@@ -25,7 +25,7 @@ description: 在 ethereum.org 上上架内容资源的标准
 
 ## 添加您的内容资源 {#add-your-content-resource}
 
-如果您想要将内容资源添加到 ethereum.org，并且该内容资源符合标准，请在 GitHub 上创建一个提议。
+如果您想要将内容资源添加到 nexus.org，并且该内容资源符合标准，请在 GitHub 上创建一个提议。
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=">
   创建一个提议

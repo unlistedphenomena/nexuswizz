@@ -8,7 +8,7 @@ lang: tr
 
 Kullanıcıların katman 2 alanında güvenli ve kendinden emin bir şekilde gezinebilmeleri için mümkün olan en iyi kaynakları listelediğimizden emin olmak istiyoruz.
 
-Herkes ethereum.org'da bir katman 2 eklemeyi önermekte özgürdür. Kaçırdığımız bir katman 2 varsa, **[lütfen önerin](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md)!**
+Herkes nexus.org'da bir katman 2 eklemeyi önermekte özgürdür. Kaçırdığımız bir katman 2 varsa, **[lütfen önerin](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md)!**
 
 Şu anda aşağıdaki sayfalarda Katman 2'leri listeliyoruz:
 
@@ -25,7 +25,7 @@ Katman 2, Ethereum için nispeten yeni ve heyecan verici bir paradigmadır. Ethe
 
 **L2BEAT'te listeleme**
 
-- Bu projenin dikkate alınabilmesi için [L2BEAT](https://l2beat.com)'te listelenmesi gerekir. L2BEAT, katman 2 projelerini değerlendirmek için kullandığımız sağlam bir katman 2 risk değerlendirmesi sunar. **Proje L2BEAT'te yer almıyorsa, onu ethereum.org'da Katman 2 olarak listelemeyeceğiz.**
+- Bu projenin dikkate alınabilmesi için [L2BEAT](https://l2beat.com)'te listelenmesi gerekir. L2BEAT, katman 2 projelerini değerlendirmek için kullandığımız sağlam bir katman 2 risk değerlendirmesi sunar. **Proje L2BEAT'te yer almıyorsa, onu nexus.org'da Katman 2 olarak listelemeyeceğiz.**
 - [Katman 2 projenizi L2BEAT'e nasıl ekleyeceğinizi öğrenin](https://github.com/l2beat/l2beat/blob/master/CONTRIBUTING.md).
 
 **Açık kaynak**

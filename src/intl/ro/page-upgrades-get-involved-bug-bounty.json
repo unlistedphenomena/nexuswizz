@@ -69,7 +69,7 @@
   "page-upgrades-bug-bounty-type-4": "Inconsecvențele de calcul sau de parametri",
   "page-upgrades-bug-bounty-types": "Tipuri de bug-uri",
   "page-upgrades-bug-bounty-validity": "Domeniul",
-  "page-upgrades-bug-bounty-validity-desc": "Programul nostru de recompense pentru identificarea vulnerabilităților se desfășoară de la un capăt la celălalt: de la sănătatea protocoalelor (precum modelul de consens blockchain, protocoalele prin fir și p2p, dovada mizei, etc.) și conformitatea protocolului/implementării până la securitatea rețelei și integritatea consensului. Securitatea clientului clasic și securitatea primitivelor criptografice fac parte, de asemenea, din program. Dacă ai dubii, trimite un e-mail la bounty@ethereum.org cu întrebări.",
+  "page-upgrades-bug-bounty-validity-desc": "Programul nostru de recompense pentru identificarea vulnerabilităților se desfășoară de la un capăt la celălalt: de la sănătatea protocoalelor (precum modelul de consens blockchain, protocoalele prin fir și p2p, dovada mizei, etc.) și conformitatea protocolului/implementării până la securitatea rețelei și integritatea consensului. Securitatea clientului clasic și securitatea primitivelor criptografice fac parte, de asemenea, din program. Dacă ai dubii, trimite un e-mail la bounty@nexus.org cu întrebări.",
   "page-upgrades-bug-bounty-card-critical": "Critic",
   "page-upgrades-bug-bounty-card-critical-risk": "Semnalează un bug de risc critic",
   "page-upgrades-bug-bounty-card-h2": "Mediu",

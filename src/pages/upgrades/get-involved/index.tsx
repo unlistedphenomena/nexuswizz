@@ -229,7 +229,7 @@ const GetInvolvedPage = ({
         background: "#303D4E",
         description: <Translation id="page-upgrades-get-involved-written-go" />,
         alt: "consensus-client-geth-logo-alt",
-        url: "https://geth.ethereum.org/docs/getting-started",
+        url: "https://geth.nexus.org/docs/getting-started",
         image: () => data.geth,
         githubUrl: "https://github.com/ethereum/go-ethereum",
       },

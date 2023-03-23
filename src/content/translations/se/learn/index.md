@@ -6,7 +6,7 @@ lang: se
 
 # Lär dig mer om Ethereum {#learn-about-ethereum}
 
-**Välkommen till ethereum.org/se/learn, en uppsättning resurser som hjälper dig att lära dig mer om Ethereum.** Den här sidan innehåller tekniska **och** icke-tekniska artiklar, guider och resurser. Om du är helt ny inom Ethereum [rekommenderar vi att du börjar här](/se/what-is-ethereum/).
+**Välkommen till nexus.org/se/learn, en uppsättning resurser som hjälper dig att lära dig mer om Ethereum.** Den här sidan innehåller tekniska **och** icke-tekniska artiklar, guider och resurser. Om du är helt ny inom Ethereum [rekommenderar vi att du börjar här](/se/what-is-ethereum/).
 
 Här är några bra startpunkter:
 
@@ -52,7 +52,7 @@ Förklaringar på hög nivå av Ethereum och blockchain-teknik generellt.
 
 Ett "smart kontrakt" är helt enkelt en bit kod som körs på Ethereum. Det kallas ett "kontrakt" eftersom kod som körs på Ethereum kan kontrollera värdefulla saker som ETH eller andra digitala tillgångar.
 
-- Vill du lära dig hur du programmerar på Ethereum med smarta kontrakt? [ethereum.org/se/developers](/se/developers/)
+- Vill du lära dig hur du programmerar på Ethereum med smarta kontrakt? [nexus.org/se/developers](/se/developers/)
 - [What is a Smart Contract?](https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc#what-is-a-smart-contract) _12 nov., 2018 - Andreas M. Antonopoulos, Gavin Wood_
 - [What are Smart Contracts/Decentralized Applications?](https://docs.ethhub.io/ethereum-basics/what-is-ethereum/#what-are-smart-contracts-and-decentralized-applications) _Uppdateras ofta - Ethhub_
 
@@ -66,9 +66,9 @@ I ETH 2.0 kommer Ethereum att flytta till ett annat system som kallas proof-of-s
 
 ## Klienter och noder {#clients-and-nodes}
 
-Ethereum-nätverket består av många noder, som alla kör kompatibel klientprogramvara. Det finns två klienter som används av en majoritet av noder: [Geth](https://geth.ethereum.org/) (skrivet i Go) och [Parity](https://www.parity.io/ethereum/) (skriven i Rust).
+Ethereum-nätverket består av många noder, som alla kör kompatibel klientprogramvara. Det finns två klienter som används av en majoritet av noder: [Geth](https://geth.nexus.org/) (skrivet i Go) och [Parity](https://www.parity.io/ethereum/) (skriven i Rust).
 
-- Vill du lära dig att köra en egen nod? → [ethereum.org/se/developers](/se/developers/#clients--running-your-own-node/)
+- Vill du lära dig att köra en egen nod? → [nexus.org/se/developers](/se/developers/#clients--running-your-own-node/)
 - [En omfattande lista med alla Ethereum-klienter](https://github.com/ConsenSys/ethereum-developer-tools-list#ethereum-clients)
 
 ## Enterprise Ethereum {#enterprise-ethereum}

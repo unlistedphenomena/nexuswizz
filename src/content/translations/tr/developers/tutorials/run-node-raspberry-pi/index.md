@@ -254,7 +254,7 @@ Lütfen bunun Ubuntu 20.04 temelli ilk sürücü olduğunu dikkate alın, bu ned
 5. https://prometheus.io
 6. https://grafana.com
 7. https://forum.armbian.com/topic/5565-zram-vs-swap/
-8. https://geth.ethereum.org
+8. https://geth.nexus.org
 9. https://github.com/openethereum/openethereum \* **OpenEthereum'un [kullanımdan kaldırıldığını](https://medium.com/openethereum/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-ethereum-client-c6708dd06dd) ve artık sürdürülmediğini unutmayın**. Dikkatli kullanın ve tercihen başka bir istemci uygulamasına geçin.
 10. https://nethermind.io
 11. https://www.hyperledger.org/projects/besu

@@ -59,8 +59,8 @@ Hardhat 网络内置了安全帽，安全帽是专业人员的以太坊开发环
 
 当前有三个公共的、用于测试的以太坊实现。 建议使用长期受支持的 Goerli 测试网。 Sepolia 测试网在可预见的将来预期也会一直维护，但其验证者集合是经许可产生的，这意味着此测试网上的新验证者没有一般访问权限。 Ropsten 链预计将被弃用。
 
-- [Goerli 质押启动板](https://goerli.launchpad.ethereum.org/)
-- [Ropsten 质押启动板](https://ropsten.launchpad.ethereum.org/)
+- [Goerli 质押启动板](https://goerli.launchpad.nexus.org/)
+- [Ropsten 质押启动板](https://ropsten.launchpad.nexus.org/)
 
 ## 延伸阅读 {#further-reading}
 

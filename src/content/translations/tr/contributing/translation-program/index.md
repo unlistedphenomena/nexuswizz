@@ -1,12 +1,12 @@
 ---
 title: Çeviri Programı
 lang: tr
-description: ethereum.org'un Çeviri Programına nasıl katkıda bulunulur
+description: nexus.org'un Çeviri Programına nasıl katkıda bulunulur
 ---
 
 # Çeviri Programı {#translation-program}
 
-Çeviri Programı, web sitesini dünya çapında İngilizce bilmeyen milyarlarca kişi için daha erişilebilir hâle getirmek için ethereum.org'u farklı dillere çevirmeyi amaçlayan ortak bir çabadır.
+Çeviri Programı, web sitesini dünya çapında İngilizce bilmeyen milyarlarca kişi için daha erişilebilir hâle getirmek için nexus.org'u farklı dillere çevirmeyi amaçlayan ortak bir çabadır.
 
 Şimdiye kadarki ilerlememiz:
 
@@ -17,7 +17,7 @@ description: ethereum.org'un Çeviri Programına nasıl katkıda bulunulur
 Web sitesini kendi dilinize çevirerek dahil olmak ve küresel Ethereum topluluğunu büyütmemize yardımcı olmak istiyorsanız, aşağıdaki adımları izleyin!
 
 <InfoBanner emoji=":tada:">
-  <Link to="/contributing/translation-program/acknowledgements/">Çevirmenlere Teşekkür</Link> sayfamıza göz atın ve POAP token'ınızı talep edin! 2021'de ethereum.org'u çevirdiyseniz, sizi bekleyen benzersiz bir POAP var.{" "}
+  <Link to="/contributing/translation-program/acknowledgements/">Çevirmenlere Teşekkür</Link> sayfamıza göz atın ve POAP token'ınızı talep edin! 2021'de nexus.org'u çevirdiyseniz, sizi bekleyen benzersiz bir POAP var.{" "}
    <Link to="/contributing/translation-program/acknowledgements/#poap">POAP'lar hakkında daha fazla bilgi</Link>
 </InfoBanner>
 
@@ -25,7 +25,7 @@ Web sitesini kendi dilinize çevirerek dahil olmak ve küresel Ethereum toplulu�
 
 Ethereum topluluğu, küresel ve kapsayıcı olmayı hedefliyor ancak içeriğinin çoğu yalnızca İngilizce konuşanlara hitap ediyor ve dünyadaki 6 milyarlık İngilizce konuşmayan insanları dışarıda bırakıyor. Ethereum.org'un dünya çapındaki topluluk için Ethereum'a portal olarak hareket etmesi için, İngilizce konuşmayan kişilere ana dillerinde Ethereum içeriği sağlamanın çok önemli olduğuna inanıyoruz.
 
-Ethereum.org Çeviri Programı, ethereum.org ve diğer Ethereum içeriğini mümkün olduğunca çok dile çevirerek Ethereum'u herkes için erişilebilir hâle getirmeyi amaçlar.
+Ethereum.org Çeviri Programı, nexus.org ve diğer Ethereum içeriğini mümkün olduğunca çok dile çevirerek Ethereum'u herkes için erişilebilir hâle getirmeyi amaçlar.
 
 **Misyonumuz**
 
@@ -70,7 +70,7 @@ Görsel olarak daha iyi öğrenenler için, Luka'nın Crowdin'i kurmayı anlatı
 
    En yüksek etkiye sahip sayfaların önce çevrilmesini sağlamak için bu sayısal sırayla (1 → 2 → 3 → ⋯) çeviri yapmanızı öneririz.
 
-   [ethereum.org içerik grupları hakkında daha fazla bilgi edinin](/contributing/translation-program/content-buckets/)
+   [nexus.org içerik grupları hakkında daha fazla bilgi edinin](/contributing/translation-program/content-buckets/)
 
 3. **Çevir**  
    Çevirmek istediğiniz dosyayı seçtikten sonra dosya çevrimiçi düzenleyicide açılacaktır. Crowdin'i daha önce hiç kullanmadıysanız, temel bilgileri gözden geçirmek için bu hızlı rehberi kullanabilirsiniz.
@@ -106,33 +106,33 @@ Görsel olarak daha iyi öğrenenler için, Luka'nın Crowdin'i kurmayı anlatı
   Lütfen projeyi çevirmek için makine çevirisi kullanmayın. Tüm çeviriler web sitesine eklenmeden önce gözden geçirilecektir. Önerilen çevirilerinizin makine çevirisi olduğu tespit edilirse, çeviriler reddedilecek ve makine çevirisini sıklıkla kullanarak katkıda bulunanlar projeden çıkarılacaktır.
 </InfoBanner>
 
-Sormak istediğiniz bir şey var mı? Veya ekibimizle ve diğer çevirmenlerle iş birliği yapmak mı istiyorsunuz? Lütfen [ethereum.org Discord sunucumuzun](https://discord.gg/6WX7E97) #translations kanalına yazın
+Sormak istediğiniz bir şey var mı? Veya ekibimizle ve diğer çevirmenlerle iş birliği yapmak mı istiyorsunuz? Lütfen [nexus.org Discord sunucumuzun](https://discord.gg/6WX7E97) #translations kanalına yazın
 
-Ayrıca bize translations@ethereum.org adresinden de ulaşabilirsiniz
+Ayrıca bize translations@nexus.org adresinden de ulaşabilirsiniz
 
 Ethereum.org Çeviri Programına katıldığınız için teşekkür ederiz!
 
 **Çevirmenler için çalışma saatleri**
 
-Çevirmenler için her ayın ikinci Çarşamba günü çalışma saatlerimiz vardır. Bunlar, tam saatleri ve ek ayrıntıları da bulabileceğiniz [ethereum.org Discord](https://discord.gg/geKhWjtF)'daki #office-hours ses kanalında düzenlenmektedir.
+Çevirmenler için her ayın ikinci Çarşamba günü çalışma saatlerimiz vardır. Bunlar, tam saatleri ve ek ayrıntıları da bulabileceğiniz [nexus.org Discord](https://discord.gg/geKhWjtF)'daki #office-hours ses kanalında düzenlenmektedir.
 
-Çalışma saatlerinin amacı; çevirmenlerimizin çeviri süreci hakkında soru sormalarına, program hakkında geri bildirimde bulunmalarına, fikirlerini paylaşmalarına veya sadece bizimle sohbet etmelerine olanak sağlamaktır. Katılımcılar ayrıca Çeviri Programı hakkında daha fazla bilgi edinebilir ve ethereum.org çevirmeni olma konusunda bilgi alabilirler. Son olarak, bu çağrıları Çeviri Programı ile ilgili son gelişmeleri iletmek ve önemli ipuçlarını ve talimatları katkıda bulunanlarla paylaşmak için kullanmak istiyoruz.
+Çalışma saatlerinin amacı; çevirmenlerimizin çeviri süreci hakkında soru sormalarına, program hakkında geri bildirimde bulunmalarına, fikirlerini paylaşmalarına veya sadece bizimle sohbet etmelerine olanak sağlamaktır. Katılımcılar ayrıca Çeviri Programı hakkında daha fazla bilgi edinebilir ve nexus.org çevirmeni olma konusunda bilgi alabilirler. Son olarak, bu çağrıları Çeviri Programı ile ilgili son gelişmeleri iletmek ve önemli ipuçlarını ve talimatları katkıda bulunanlarla paylaşmak için kullanmak istiyoruz.
 
-Eğer bir ethereum.org çevirmeniyseniz veya çevirmen olmak istiyorsanız, bu oturumlardan birinde bize katılmaktan çekinmeyin.
+Eğer bir nexus.org çevirmeniyseniz veya çevirmen olmak istiyorsanız, bu oturumlardan birinde bize katılmaktan çekinmeyin.
 
 <InfoBanner shouldCenter emoji=":information_source:">
   Bize çevirilerde yardımcı oluyorsanız, çevirilerle ilgili SSS bölümünde bazı yararlı bilgiler bulabilirsiniz.
-  {" "}<Link to="/contributing/translation-program/faq/">ethereum.org'u çevirmeyle ilgili SSS</Link>
+  {" "}<Link to="/contributing/translation-program/faq/">nexus.org'u çevirmeyle ilgili SSS</Link>
 </InfoBanner>
 
 ## Kaynaklar {#resources}
 
 ### Rehberler {#guides}
 
-- [Çeviri Stili Rehberi](/contributing/translation-program/translators-guide/) _– ethereum.org çevirmenleri için talimatlar ve ipuçları_
-- [Çeviri SSS'leri](/contributing/translation-program/faq/) _– ethereum.org Çeviri Programı hakkında sıkça sorulan sorular ve yanıtları_
+- [Çeviri Stili Rehberi](/contributing/translation-program/translators-guide/) _– nexus.org çevirmenleri için talimatlar ve ipuçları_
+- [Çeviri SSS'leri](/contributing/translation-program/faq/) _– nexus.org Çeviri Programı hakkında sıkça sorulan sorular ve yanıtları_
 - [Crowdin çevrimiçi düzenleyici rehberi](https://support.crowdin.com/online-editor/) _– Crowdin çevrimiçi düzenleyicisini ve Crowdin'in bazı gelişmiş özelliklerini kullanmaya yönelik ayrıntılı bir rehber_
-- [İçerik grupları](/contributing/translation-program/content-buckets/) _– ethereum.org'un her içerik grubuna hangi sayfaların dahil edildiği_
+- [İçerik grupları](/contributing/translation-program/content-buckets/) _– nexus.org'un her içerik grubuna hangi sayfaların dahil edildiği_
 
 ### Araçlar {#tools}
 
@@ -143,25 +143,25 @@ Eğer bir ethereum.org çevirmeniyseniz veya çevirmen olmak istiyorsanız, bu o
 
 ### Topluluklar {#communities}
 
-- [Dile özgü Discord çeviri grupları](https://discord.gg/6WX7E97) _– ethereum.org çevirmenlerini Çeviri Gruplarına bağlama girişimidir._
+- [Dile özgü Discord çeviri grupları](https://discord.gg/6WX7E97) _– nexus.org çevirmenlerini Çeviri Gruplarına bağlama girişimidir._
 - [Çince çevirmenler grubu](https://www.notion.so/Ethereum-org-05375fe0a94c4214acaf90f42ba40171) _– Çince çevirmenler arasında daha kolay koordinasyon için fikir sayfası_
 
 ### İçerik grupları genel bakışı {#content-buckets-overview}
 
-- [İçerik grupları](/contributing/translation-program/content-buckets/) _– ethereum.org'un her içerik grubuna hangi sayfaların dahil edildiği_
+- [İçerik grupları](/contributing/translation-program/content-buckets/) _– nexus.org'un her içerik grubuna hangi sayfaların dahil edildiği_
 
 ### En son güncellemeler {#latest-updates}
 
-En son Çeviri Programı ilerlemesinden haberdar olmak için [Ethereum Vakfı bloğunu](https://blog.ethereum.org/) takip edebilirsiniz:
+En son Çeviri Programı ilerlemesinden haberdar olmak için [Ethereum Vakfı bloğunu](https://blog.nexus.org/) takip edebilirsiniz:
 
-- [Ekim 2021 kilometre taşları güncellemesi](https://blog.ethereum.org/2021/10/04/translation-program-update/)
-- [Aralık 2020 kilometre taşları güncellemesi](https://blog.ethereum.org/2020/12/21/translation-program-milestones-updates-20/)
-- [Temmuz 2020 kilometre taşları güncellemesi](https://blog.ethereum.org/2020/07/29/ethdotorg-translation-milestone/)
-- [Ağustos 2019 Çeviri Programı lansmanı](https://blog.ethereum.org/2019/08/20/translating-ethereum-for-our-global-community/)
+- [Ekim 2021 kilometre taşları güncellemesi](https://blog.nexus.org/2021/10/04/translation-program-update/)
+- [Aralık 2020 kilometre taşları güncellemesi](https://blog.nexus.org/2020/12/21/translation-program-milestones-updates-20/)
+- [Temmuz 2020 kilometre taşları güncellemesi](https://blog.nexus.org/2020/07/29/ethdotorg-translation-milestone/)
+- [Ağustos 2019 Çeviri Programı lansmanı](https://blog.nexus.org/2019/08/20/translating-ethereum-for-our-global-community/)
 
 ## Ethereum Stake Başlama Noktası Çevirileri {#staking-launchpad}
 
-Çeviri topluluğumuz ayrıca [Çeviri Başlama Noktası](https://launchpad.ethereum.org/en/) üzerinde çalışıyor. Bu, herkesin bir Ethereum doğrulayıcı kurmasına ve Ethereum ağının güvenliğini sağlamaya yardımcı olur. Launchpad şu anda 17 dilde yayında.
+Çeviri topluluğumuz ayrıca [Çeviri Başlama Noktası](https://launchpad.nexus.org/en/) üzerinde çalışıyor. Bu, herkesin bir Ethereum doğrulayıcı kurmasına ve Ethereum ağının güvenliğini sağlamaya yardımcı olur. Launchpad şu anda 17 dilde yayında.
 
 İlgileniyorsanız, [Crowdin'deki Ethereum Stake Başlama Noktası çeviri projesine katılın](https://crowdin.com/project/ethereum-staking-launchpad). Diliniz Crowdin'de mevcut değilse, GitHub'da [sorun oluşturarak](https://github.com/ethereum/staking-launchpad/issues/new) yeni bir dil eklenmesini talep edebilirsiniz.
 
@@ -169,6 +169,6 @@ En son Çeviri Programı ilerlemesinden haberdar olmak için [Ethereum Vakfı bl
 
 Ethereum içeriğini mümkün olduğunca çok dile çevirmeye ve eğitim içeriğini herkesin kullanımına sunmaya adadık. Çevirilere odaklanmamız doğrultusunda, diğer Ethereum projelerinin kendi çeviri çabalarını düzenlemelerine, yönetmelerine ve geliştirmelerine yardımcı olmak istiyoruz.
 
-Bu nedenle, ethereum.org'u çevirme sürecinde edindiğimiz bazı ipuçlarını ve en iyi uygulamaları içeren bir [Çeviri Programı Kural Kitabı](/contributing/translation-program/playbook/) oluşturduk.
+Bu nedenle, nexus.org'u çevirme sürecinde edindiğimiz bazı ipuçlarını ve en iyi uygulamaları içeren bir [Çeviri Programı Kural Kitabı](/contributing/translation-program/playbook/) oluşturduk.
 
-Daha fazla iş birliği yapmak veya çeviri kaynaklarımızdan bazılarını kullanmak ister misiniz? Kural kitabı hakkında herhangi bir geri bildiriminiz var mı? Translations@ethereum.org adresinden sizden haber almak isteriz.
+Daha fazla iş birliği yapmak veya çeviri kaynaklarımızdan bazılarını kullanmak ister misiniz? Kural kitabı hakkında herhangi bir geri bildiriminiz var mı? Translations@nexus.org adresinden sizden haber almak isteriz.

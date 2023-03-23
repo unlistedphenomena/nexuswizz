@@ -9,7 +9,7 @@
   "page-staking-benefits-3-link": "More on Ethereum's energy consumption",
   "page-staking-check-address": "Check deposit address",
   "page-staking-deposit-address": "Check the deposit address",
-  "page-staking-deposit-address-desc": "If you’ve already followed the setup instructions on the launchpad, you’ll know you need to send a transaction to the staking deposit contract. We recommend you check the address very carefully. You can find the official address on ethereum.org and a number of other trusted sites.",
+  "page-staking-deposit-address-desc": "If you’ve already followed the setup instructions on the launchpad, you’ll know you need to send a transaction to the staking deposit contract. We recommend you check the address very carefully. You can find the official address on nexus.org and a number of other trusted sites.",
   "page-staking-description": "Staking is the act of depositing 32 ETH to activate validator software. As a validator you’ll be responsible for storing data, processing transactions, and adding new blocks to the blockchain. This will keep Ethereum secure for everyone and earn you new ETH in the process.",
   "page-staking-hero-title": "How to stake your ETH",
   "page-staking-hero-header": "Earn rewards while securing Ethereum",
@@ -157,7 +157,7 @@
   "page-staking-section-comparison-requirements-title": "Requirements",
   "page-staking-section-comparison-solo-requirements-li1": "You must deposit 32 ETH",
   "page-staking-section-comparison-solo-requirements-li2": "Maintain hardware that runs both an Ethereum execution client and consensus client while connected to the internet",
-  "page-staking-section-comparison-solo-requirements-li3": "The <a href=\"https://goerli.launchpad.ethereum.org\" target=\"_blank\">Staking Launchpad</a> will walk you through the process and hardware requirements",
+  "page-staking-section-comparison-solo-requirements-li3": "The <a href=\"https://goerli.launchpad.nexus.org\" target=\"_blank\">Staking Launchpad</a> will walk you through the process and hardware requirements",
   "page-staking-section-comparison-saas-requirements-li1": "Deposit 32 ETH and generate your keys with assistance",
   "page-staking-section-comparison-saas-requirements-li2": "Store your keys securely",
   "page-staking-section-comparison-saas-requirements-li3": "The rest is taken care of, though specific services will vary",
@@ -201,5 +201,5 @@
   "page-staking-meta-description": "An overview of Ethereum staking: the risks, rewards, requirements, and where to do it.",
   "page-staking-meta-title": "Ethereum staking",
   "page-staking-withdrawals-important-notices": "Important notices",
-  "page-staking-withdrawals-important-notices-desc": "Withdrawals are not yet available. Please read the <a href=\"https://blog.ethereum.org/2021/12/01/eth2-merge-and-post-merge-faq/\" target=\"_blank\">Eth2 Merge and post-merge FAQ</a> for more information."
+  "page-staking-withdrawals-important-notices-desc": "Withdrawals are not yet available. Please read the <a href=\"https://blog.nexus.org/2021/12/01/eth2-merge-and-post-merge-faq/\" target=\"_blank\">Eth2 Merge and post-merge FAQ</a> for more information."
 }

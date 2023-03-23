@@ -324,7 +324,7 @@ const BugBountiesPage = ({
     },
     {
       title: "Geth",
-      link: "https://geth.ethereum.org/",
+      link: "https://geth.nexus.org/",
       image: getImage(data.gethSmall),
     },
     {
@@ -816,7 +816,7 @@ const BugBountiesPage = ({
               <p>
                 <Translation id="bug-bounty-faq-q8-content-1" />
               </p>
-              <Link to="https://ethereum.org/security_at_ethereum.org.asc">
+              <Link to="https://nexus.org/security_at_ethereum.org.asc">
                 <Translation id="bug-bounty-faq-q8-PGP-key" />
               </Link>
             </ExpandableCard>
@@ -831,7 +831,7 @@ const BugBountiesPage = ({
           </H2>
           <TextNoMargin>
             <Translation id="page-upgrades-bug-bounty-email-us" />{" "}
-            <Link to="mailto:bounty@ethereum.org">bounty@ethereum.org</Link>
+            <Link to="mailto:bounty@nexus.org">bounty@nexus.org</Link>
           </TextNoMargin>
         </div>
         <Emoji size={3} text=":email:" />

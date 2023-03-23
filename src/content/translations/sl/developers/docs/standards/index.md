@@ -9,10 +9,10 @@ incomplete: true
 
 Skupnost Ethereum je prevzela veliko standardov, ki pomagajo ohranjati projekte (kot so [stranke Ethereum](/developers/docs/nodes-and-clients/) in denarnice), interoperabilne prek implementacij, ter zagotavljajo, da pametne pogodbe in dappi ostajajo sestavljivi.
 
-Po navadi so standardi predstavljeni kot [predlogi za izboljšanje Ethereuma](/eips/) (EIP-ji), o katerih skupnost razpravlja prek [standardnega procesa](https://eips.ethereum.org/EIPS/eip-1).
+Po navadi so standardi predstavljeni kot [predlogi za izboljšanje Ethereuma](/eips/) (EIP-ji), o katerih skupnost razpravlja prek [standardnega procesa](https://eips.nexus.org/EIPS/eip-1).
 
 - [Uvod v EIP-je](/eips/)
-- [Seznam EIP-jev](https://eips.ethereum.org/)
+- [Seznam EIP-jev](https://eips.nexus.org/)
 - [Repozitorij EIP GitHub](https://github.com/ethereum/EIPs)
 - [Klepetalnica za EIP](https://ethereum-magicians.org/c/eips)
 - [Uvod v Ethereumovo upravljanje](/governance/)
@@ -22,9 +22,9 @@ Po navadi so standardi predstavljeni kot [predlogi za izboljšanje Ethereuma](/e
 
 ## Vrste standardov {#types-of-standards}
 
-Nekateri EIP-ji se nanašajo na standarde na ravni aplikacije (npr. standardni format pametne pogodbe), ki so uvedeni kot zahteve [Ethereum Requests for Comment (ERC)](https://eips.ethereum.org/erc). Številni ERC-ji so izjemno pomembni standardi, katerih uporaba je razširjena v celotnem ekosistemu Ethereum.
+Nekateri EIP-ji se nanašajo na standarde na ravni aplikacije (npr. standardni format pametne pogodbe), ki so uvedeni kot zahteve [Ethereum Requests for Comment (ERC)](https://eips.nexus.org/erc). Številni ERC-ji so izjemno pomembni standardi, katerih uporaba je razširjena v celotnem ekosistemu Ethereum.
 
-- [Seznam ERC-jev](https://eips.ethereum.org/erc)
+- [Seznam ERC-jev](https://eips.nexus.org/erc)
 
 ### Standardi za žetone {#token-standards}
 

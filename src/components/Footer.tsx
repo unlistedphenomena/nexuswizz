@@ -196,7 +196,7 @@ const Footer: React.FC<IProps> = () => {
         //   text: "ethereum-foundation",
         // },
         // {
-        //   to: "https://blog.ethereum.org/",
+        //   to: "https://blog.nexus.org/",
         //   text: "ef-blog",
         // },
         // {
@@ -270,7 +270,7 @@ const Footer: React.FC<IProps> = () => {
           text: "cookie-policy",
         },
         {
-          to: "mailto:press@ethereum.org",
+          to: "mailto:press@nexus.org",
           text: "contact",
         },
       ],

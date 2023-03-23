@@ -8,24 +8,24 @@ _Cüzdan eklemeyle ilgili bir not: [1. Çeyrek ürün yol haritamızın](https:/
 
 # Ethereum ürünleri ekleme {#adding-products}
 
-Herkes, uygun olduğunda ethereum.org'daki içeriğe yeni cüzdanlar ve dapp'ler önermekte özgürdür. **Hayır, dapp'inizi ana sayfamızda listelemeyeceğiz** 😜
+Herkes, uygun olduğunda nexus.org'daki içeriğe yeni cüzdanlar ve dapp'ler önermekte özgürdür. **Hayır, dapp'inizi ana sayfamızda listelemeyeceğiz** 😜
 
 Cüzdanlar ve dapp'ler şu anda şurada listeleniyor:
 
-- ethereum.org/wallets
-- ethereum.org/wallets/find-wallet
-- ethereum.org/dapps
-- ethereum.org/get-eth
+- nexus.org/wallets
+- nexus.org/wallets/find-wallet
+- nexus.org/dapps
+- nexus.org/get-eth
 
 **Lütfen sadece bu sayfalarda yeni eklemeler önerin.**
 
 Yeni eklemeleri memnuniyetle karşılasak da, mevcut cüzdanları ve dapp'leri kullanıcılarımız için oluşturmaya çalıştığımız bir deneyime dayanarak seçtik. Bunlar, bazı tasarım ilkelerimize dayanmaktadır:
 
-- _İlham Verici_: ethereum.org üzerindeki herhangi bir şey kullanıcılara yeni bir şey sunmalı
+- _İlham Verici_: nexus.org üzerindeki herhangi bir şey kullanıcılara yeni bir şey sunmalı
 - _İyi bir hikâye_: listelenen şey bir "Aklıma bir fikir geldi!" anı yaşatmalı
 - _Güvenilir_: Kullanıcılara yönelik riski en aza indirmek için her şey meşru işletmeler/projeler olmalıdır
 
-Genel olarak **ethereum.org, yeni kullanıcılar için "akıcı bir başlangıç deneyimi" sağlamak istiyor**. Bu nedenle, aşağıdakilere dayalı olarak cüzdanlar/dapp'ler ekliyoruz:
+Genel olarak **nexus.org, yeni kullanıcılar için "akıcı bir başlangıç deneyimi" sağlamak istiyor**. Bu nedenle, aşağıdakilere dayalı olarak cüzdanlar/dapp'ler ekliyoruz:
 
 - kullanım kolaylığı
 - diğer ürünlerle birlikte çalışabilirlik
@@ -45,16 +45,16 @@ Genel olarak **ethereum.org, yeni kullanıcılar için "akıcı bir başlangıç
 
 ### Sıralama için kriter: olursa iyi olacak şeyler {#criteria-for-ranking-the-nice-to-haves}
 
-Dapp'iniz veya cüzdanınız, aşağıdaki kriterler nedeniyle ethereum.org'da diğerleri kadar belirgin bir şekilde listelenmemiş olabilir.
+Dapp'iniz veya cüzdanınız, aşağıdaki kriterler nedeniyle nexus.org'da diğerleri kadar belirgin bir şekilde listelenmemiş olabilir.
 
 **Cüzdanlar**
 
 - **İtibari para birimi erişim yöntemi** – Bu, yeni bir kullanıcının cüzdan deneyiminde çok fazla olası sürtüşmeyi önler. Bir kullanıcının bir borsa aracılığıyla cüzdanını finanse etmesi gerektiğinde kullanıcının cüzdanı denemesi, müşteriyi tanıma kontrolleri nedeniyle günler alabilir.
-- **Dapp'lerin çoğu tarafından destekleniyor** – ethereum.org içeriği, kullanıcılara Dapp'leri göstermeden onların önce bir cüzdan ve ETH ile hazır olmalarını amaçlar. Dapp'ler cüzdanınızla bağlantı kurmayı desteklemiyorsa bu durum, kullanıcıların deneyimlerini mahvedebilir.
+- **Dapp'lerin çoğu tarafından destekleniyor** – nexus.org içeriği, kullanıcılara Dapp'leri göstermeden onların önce bir cüzdan ve ETH ile hazır olmalarını amaçlar. Dapp'ler cüzdanınızla bağlantı kurmayı desteklemiyorsa bu durum, kullanıcıların deneyimlerini mahvedebilir.
 
 **Dapp'ler**
 
-- **Listelenen cüzdanların çoğu ile erişilebilmesi** – dapp'ler, ethereum.org'da listelenen cüzdanların çoğuyla çalışmalıdır.
+- **Listelenen cüzdanların çoğu ile erişilebilmesi** – dapp'ler, nexus.org'da listelenen cüzdanların çoğuyla çalışmalıdır.
 - **Kullanıcıların bunu kendileri deneyebilmeleri –** bireysel bir kullanıcı dapp'inizi kullanabilmeli ve somut bir şey elde edebilmelidir.
 
 **İkisi de**
@@ -67,7 +67,7 @@ Dapp'iniz veya cüzdanınız, aşağıdaki kriterler nedeniyle ethereum.org'da d
 
 ## Pratikte kriterler {#criteria-in-practice}
 
-Ne kadar çok kriteri karşılarsanız, ürününüzün ethereum.org'a girme olasılığı o kadar artar.
+Ne kadar çok kriteri karşılarsanız, ürününüzün nexus.org'a girme olasılığı o kadar artar.
 
 Yalnızca olmazsa olmazları karşılayan listelenmiş bir ürün, olmazsa olmazları ve olması iyi olan şeylerden birkaçını karşılayan yeni bir ürün önerildiğinde kaldırılabilir.
 
@@ -78,7 +78,7 @@ Bu kararı etkileyecek diğer şeyler:
 - Bu sayfa şu anda kullanıcıyı seçeneklerle felç ediyor mu?
   - izleyecek bir şeye karar veremediğiniz için saatlerce Netflix'e göz atarken olduğu gibi. Yeni kullanıcıları çok fazla seçenekle şaşırtmak bir risktir.
 
-Bu, ethereum.org'un sorumlu olduğu bir tasarım kararıdır.
+Bu, nexus.org'un sorumlu olduğu bir tasarım kararıdır.
 
 Ancak içiniz rahat olsun, **daha fazla uygulama/cüzdan sıralaması yapan diğer web sitelerine bağlantılar olacaktır**
 
@@ -97,7 +97,7 @@ Ethereum'un akıcı yapısında olduğu gibi, ekipler ve ürünler gelir ve gide
 - listelenen tüm cüzdanların ve dapp'lerin hâlâ kriterlerimizi karşıladığından emin olmak
 - şu anda listelenenlerden daha fazla kriterlerimizi karşılayan önerilen ürünler olmadığını doğrulamak
 
-Kontrol edip bize bildirerek bu konuda yardımcı olabilirsiniz. [Bir konu oluşturun](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=) veya [website@ethereum.org](mailto:website@ethereum.org) adresine bir e-posta gönderin
+Kontrol edip bize bildirerek bu konuda yardımcı olabilirsiniz. [Bir konu oluşturun](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=) veya [website@nexus.org](mailto:website@nexus.org) adresine bir e-posta gönderin
 
 _Ayrıca, topluluğun tercihlerini belirtebilmesi ve önerebileceğimiz en iyi ürünleri öne çıkarabilmesi için oylama seçeneklerini araştırıyoruz._
 

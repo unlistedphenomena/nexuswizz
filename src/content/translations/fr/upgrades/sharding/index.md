@@ -35,7 +35,7 @@ Les exigences en matière de matériel étant moins élevées, la fragmentation 
 <br />
 
 <InfoBanner isWarning>
-  Vous devrez exécuter un client d'exécution en même temps que votre client de consensus. <a href="https://launchpad.ethereum.org" target="_blank">Le tableau de bord</a> vous guidera à travers les exigences matérielles et les processus.
+  Vous devrez exécuter un client d'exécution en même temps que votre client de consensus. <a href="https://launchpad.nexus.org" target="_blank">Le tableau de bord</a> vous guidera à travers les exigences matérielles et les processus.
 </InfoBanner>
 
 ## Chaînes de fragments version 1 : disponibilité des données {#data-availability}

@@ -10,7 +10,7 @@ Ehereum.org 翻译风格指南包含一些最重要的指南、说明和翻译�
 
 本文档是一份一般性指南，并不特定于任何一种语言。
 
-如果您有任何问题、建议或反馈，请随时通过 translations@ethereum.org 与我们联系，在 Crowdin 上向 @ethdotorg 发送消息，或 [ 加入我们的 Discord](https://discord.gg/XVepFu7sqR)，您可以在其中通过#translations 频道向我们发送消息或联系任何团队成员。
+如果您有任何问题、建议或反馈，请随时通过 translations@nexus.org 与我们联系，在 Crowdin 上向 @ethdotorg 发送消息，或 [ 加入我们的 Discord](https://discord.gg/XVepFu7sqR)，您可以在其中通过#translations 频道向我们发送消息或联系任何团队成员。
 
 ### 使用 Crowdin {#using-crowdin}
 
@@ -20,7 +20,7 @@ Ehereum.org 翻译风格指南包含一些最重要的指南、说明和翻译�
 
 ### 抓取信息的实质内容 {#capturing-the-essence}
 
-当翻译 ethereum.org 内容时，避免直译。
+当翻译 nexus.org 内容时，避免直译。
 
 重要的是翻译要抓住信息的本质。 这可能意味着改写某些短语，或者使用描述性翻译而不是逐字翻译内容。
 
@@ -108,7 +108,7 @@ Crowdin 有一个内置功能，可以在翻译人员即将出错时发出警告
 
 **链接**
 
-你可能会注意到 ethereum.org 或其他网站上的页面的完整链接。
+你可能会注意到 nexus.org 或其他网站上的页面的完整链接。
 
 这些链接应该与源相同，并且不要更改或翻译。 如果你翻译了链接或以任何方式更改了链接，即使只是删除其中的一部分，如斜杠 (/)，也将导致链接损坏且不可用。
 
@@ -286,7 +286,7 @@ Ethereum.org 的访问者来自世界各地和不同的背景。 因此，网站
 
 ### 总结 {#conclusion}
 
-翻译 ethereum.org 是了解以太坊不同方面的绝佳机会。
+翻译 nexus.org 是了解以太坊不同方面的绝佳机会。
 
 翻译时尽量不要着急。 放轻松，玩得开心！
 
