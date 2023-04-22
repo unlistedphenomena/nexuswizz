@@ -31,6 +31,7 @@ import SimpleTokenContent from "!!raw-loader!../data/SimpleToken.sol"
 import CreateWalletContent from "!!raw-loader!../data/CreateWallet.js"
 import SimpleDomainRegistryContent from "!!raw-loader!../data/SimpleDomainRegistry.sol"
 import { useConsoleEasterEgg } from "../hooks/useConsoleEasterEgg"
+import Carousel from "./carousel"
 
 const Hero = styled(GatsbyImage)`
   width: 100%;
@@ -49,6 +50,14 @@ const StyledContent = styled(Content)`
   }
 `
 
+const images = [
+  "https://dummyimage.com/600x400/000/fff&text=Slide+1",
+  "https://dummyimage.com/600x400/000/fff&text=Slide+2",
+  "https://dummyimage.com/600x400/000/fff&text=Slide+3",
+  "https://dummyimage.com/600x400/000/fff&text=Slide+4",
+  "https://dummyimage.com/600x400/000/fff&text=Slide+5",
+]
+
 const H1 = styled.h1`
   font-size: 2.5rem;
   font-weight: 700;
@@ -57,6 +66,18 @@ const H1 = styled.h1`
   @media (max-width: ${(props) => props.theme.breakpoints.s}) {
     font-size: 2rem;
   }
+`
+interface NotificationProps {
+  message: string
+}
+
+const NotificationContainer = styled.div`
+  background-color: #e6e6fa;
+  border: 1px solid #9370db;
+  color: #6a5acd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 `
 
 const Page = styled.div`
@@ -237,7 +258,10 @@ const Subtitle = styled.div`
 `
 
 const EthereumIntroContainer = styled.div`
-  background: ${(props) => props.theme.colors.homeBoxTurquoise};
+  background: ${(props) =>
+    props.theme.isDark
+      ? props.theme.colors.darkBackground
+      : props.theme.colors.lightBackground};
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -257,7 +281,10 @@ const EthereumIntroContainer = styled.div`
 `
 
 const FinanceContainer = styled.div`
-  background: ${(props) => props.theme.colors.homeBoxOrange};
+  background: ${(props) =>
+    props.theme.isDark
+      ? props.theme.colors.darkBackground
+      : props.theme.colors.lightBackground};
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -277,7 +304,10 @@ const FinanceContainer = styled.div`
 `
 
 const NftContainer = styled.div`
-  background: ${(props) => props.theme.colors.homeBoxMint};
+  background: ${(props) =>
+    props.theme.isDark
+      ? props.theme.colors.darkBackground
+      : props.theme.colors.lightBackground};
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -297,7 +327,10 @@ const NftContainer = styled.div`
 `
 
 const InternetContainer = styled.div`
-  background: ${(props) => props.theme.colors.homeBoxPink};
+  background: ${(props) =>
+    props.theme.isDark
+      ? props.theme.colors.darkBackground
+      : props.theme.colors.lightBackground};
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -318,7 +351,10 @@ const InternetContainer = styled.div`
 `
 
 const DeveloperContainer = styled.div`
-  background: ${(props) => props.theme.colors.homeBoxPurple};
+  background: ${(props) =>
+    props.theme.isDark
+      ? props.theme.colors.darkBackground
+      : props.theme.colors.lightBackground};
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -470,6 +506,11 @@ const HomePage = ({
       to: "/developers/",
     },
   ]
+  const images = [
+    "https://dummyimage.com/300x200/000/fff&text=Image+1",
+    "https://dummyimage.com/300x200/000/fff&text=Image+2",
+    "https://dummyimage.com/300x200/000/fff&text=Image+3",
+  ]
 
   const touts = [
     {
@@ -566,23 +607,23 @@ const HomePage = ({
         title={translateMessageId("page-index-meta-title", intl)}
         description={translateMessageId("page-index-meta-description", intl)}
       />
-      <Hero
+      {/* <Hero
         image={getImage(data.hero)!}
         alt={translateMessageId("page-index-hero-image-alt", intl)}
         loading="eager"
-      />
+      /> */}
       {/* <Morpher /> */}
-      <Header>
-        <H1>
+      {/* <Header> */}
+      {/* <H1>
           <Translation id="page-index-title" />
         </H1>
         <Description>
           <Translation id="page-index-description" />
-        </Description>
-        <ButtonLink variant="outline" to="/learn/">
+        </Description> */}
+      {/* <ButtonLink variant="outline" to="/learn/">
           <Translation id="page-index-title-button" />
-        </ButtonLink>
-      </Header>
+        </ButtonLink> */}
+      {/* </Header> */}
       <StyledGrayContainer>
         <StyledContent>
           <IntroRow>
@@ -604,6 +645,9 @@ const HomePage = ({
               />
             </ImageContainer>
           </IntroRow>
+          {/* <IntroRow> */}
+          {/* <Carousel images={images} /> */}
+          {/* </IntroRow> */}
           <StyledCardContainer>
             {cards.map((card, idx) => (
               <StyledCard
@@ -764,7 +808,7 @@ const HomePage = ({
           </Codeblock>
         </CodeboxModal>
       </DeveloperContainer>
-      <StyledGrayContainer>
+      {/* <StyledGrayContainer>
         <StyledContent>
           <h2>
             <Translation id="page-index-network-stats-title" />
@@ -774,7 +818,7 @@ const HomePage = ({
           </Subtitle>
         </StyledContent>
         <StatsBoxGrid />
-      </StyledGrayContainer>
+      </StyledGrayContainer> */}
       <StyledContent>
         <h2>
           <Translation id="page-index-touts-header" />
@@ -795,7 +839,7 @@ const HomePage = ({
             )
           })}
         </StyledCardContainer>
-        <StyledCalloutBanner
+        {/* <StyledCalloutBanner
           titleKey={"page-index-contribution-banner-title"}
           descriptionKey={"page-index-contribution-banner-description"}
           image={getImage(data.finance)!}
@@ -816,7 +860,7 @@ const HomePage = ({
               <StyledIcon name="github" /> GitHub
             </StyledButtonLink>
           </ButtonRow>
-        </StyledCalloutBanner>
+        </StyledCalloutBanner> */}
       </StyledContent>
     </Page>
   )
@@ -831,7 +875,7 @@ export const query = graphql`
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
     }
-    ethereum: file(relativePath: { eq: "what-is-ethereum.png" }) {
+    ethereum: file(relativePath: { eq: "hero_invest1.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
@@ -891,7 +935,7 @@ export const query = graphql`
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
     }
-    impact: file(relativePath: { eq: "impact_transparent.png" }) {
+    impact: file(relativePath: { eq: "hero_iinvest2.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
@@ -906,21 +950,17 @@ export const query = graphql`
         )
       }
     }
-    hackathon: file(relativePath: { eq: "hackathon_transparent.png" }) {
+    hackathon: file(relativePath: { eq: "hero_invest.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
     }
-    infrastructure: file(
-      relativePath: { eq: "infrastructure_transparent.png" }
-    ) {
+    infrastructure: file(relativePath: { eq: "hero_invest3.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
     }
-    infrastructurefixed: file(
-      relativePath: { eq: "infrastructure_transparent.png" }
-    ) {
+    infrastructurefixed: file(relativePath: { eq: "hero_invest3.png" }) {
       childImageSharp {
         gatsbyImageData(
           width: 320

@@ -298,13 +298,13 @@ const Footer: React.FC<IProps> = () => {
             alignItems="center"
             flexWrap="wrap"
           >
-            <Box color="text200">
+            {/* <Box color="text200">
               <Translation id="website-last-updated" />:{" "}
               {getLocaleTimestamp(
                 intl.locale as Lang,
                 data.allSiteBuildMetadata.edges[0].node.buildTime
               )}
-            </Box>
+            </Box> */}
             <Box my={4}>
               {socialLinks.map((link, idk) => {
                 return (
@@ -315,7 +315,15 @@ const Footer: React.FC<IProps> = () => {
                     color="secondary"
                     aria-label={link.ariaLabel}
                   >
-                    <Icon as={link.icon} fontSize="4xl" ml={4} />
+                    <Icon
+                      as={link.icon}
+                      fontSize="2xl"
+                      ml={1}
+                      _hover={{
+                        color: "white",
+                        cursor: "pointer",
+                      }}
+                    />
                   </Link>
                 )
               })}
