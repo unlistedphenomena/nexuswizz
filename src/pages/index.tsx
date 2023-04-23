@@ -566,13 +566,13 @@ const HomePage = ({
         title={translateMessageId("page-index-meta-title", intl)}
         description={translateMessageId("page-index-meta-description", intl)}
       />
-      <Hero
+      {/* <Hero
         image={getImage(data.hero)!}
         alt={translateMessageId("page-index-hero-image-alt", intl)}
         loading="eager"
-      />
+      /> */}
       {/* <Morpher /> */}
-      <Header>
+      {/* <Header>
         <H1>
           <Translation id="page-index-title" />
         </H1>
@@ -582,7 +582,7 @@ const HomePage = ({
         <ButtonLink variant="outline" to="/learn/">
           <Translation id="page-index-title-button" />
         </ButtonLink>
-      </Header>
+      </Header> */}
       <StyledGrayContainer>
         <StyledContent>
           <IntroRow>
