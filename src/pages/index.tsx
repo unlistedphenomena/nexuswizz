@@ -795,7 +795,7 @@ const HomePage = ({
             )
           })}
         </StyledCardContainer>
-        <StyledCalloutBanner
+        {/* <StyledCalloutBanner
           titleKey={"page-index-contribution-banner-title"}
           descriptionKey={"page-index-contribution-banner-description"}
           image={getImage(data.finance)!}
@@ -816,7 +816,7 @@ const HomePage = ({
               <StyledIcon name="github" /> GitHub
             </StyledButtonLink>
           </ButtonRow>
-        </StyledCalloutBanner>
+        </StyledCalloutBanner> */}
       </StyledContent>
     </Page>
   )
@@ -831,7 +831,7 @@ export const query = graphql`
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
     }
-    ethereum: file(relativePath: { eq: "what-is-ethereum.png" }) {
+    ethereum: file(relativePath: { eq: "h1.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
@@ -891,7 +891,7 @@ export const query = graphql`
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
     }
-    impact: file(relativePath: { eq: "impact_transparent.png" }) {
+    impact: file(relativePath: { eq: "h2.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
@@ -906,21 +906,17 @@ export const query = graphql`
         )
       }
     }
-    hackathon: file(relativePath: { eq: "hackathon_transparent.png" }) {
+    hackathon: file(relativePath: { eq: "h0.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
     }
-    infrastructure: file(
-      relativePath: { eq: "infrastructure_transparent.png" }
-    ) {
+    infrastructure: file(relativePath: { eq: "h3.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
     }
-    infrastructurefixed: file(
-      relativePath: { eq: "infrastructure_transparent.png" }
-    ) {
+    infrastructurefixed: file(relativePath: { eq: "h3.png" }) {
       childImageSharp {
         gatsbyImageData(
           width: 320
