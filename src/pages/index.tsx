@@ -237,7 +237,10 @@ const Subtitle = styled.div`
 `
 
 const EthereumIntroContainer = styled.div`
-  background: ${(props) => props.theme.colors.homeBoxTurquoise};
+  background: ${(props) =>
+    props.theme.isDark
+      ? props.theme.colors.darkBackground
+      : props.theme.colors.lightBackground};
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -257,7 +260,10 @@ const EthereumIntroContainer = styled.div`
 `
 
 const FinanceContainer = styled.div`
-  background: ${(props) => props.theme.colors.homeBoxOrange};
+  background: ${(props) =>
+    props.theme.isDark
+      ? props.theme.colors.darkBackground
+      : props.theme.colors.lightBackground};
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -277,7 +283,10 @@ const FinanceContainer = styled.div`
 `
 
 const NftContainer = styled.div`
-  background: ${(props) => props.theme.colors.homeBoxMint};
+  background: ${(props) =>
+    props.theme.isDark
+      ? props.theme.colors.darkBackground
+      : props.theme.colors.lightBackground};
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -297,7 +306,10 @@ const NftContainer = styled.div`
 `
 
 const InternetContainer = styled.div`
-  background: ${(props) => props.theme.colors.homeBoxPink};
+  background: ${(props) =>
+    props.theme.isDark
+      ? props.theme.colors.darkBackground
+      : props.theme.colors.lightBackground};
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
