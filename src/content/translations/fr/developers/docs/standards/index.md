@@ -9,10 +9,10 @@ incomplete: true
 
 La communauté Ethereum a adopté de nombreuses normes qui aident à maintenir l'interopérabilité des projets (comme les [clients Ethereum](/developers/docs/nodes-and-clients/) et les portefeuilles) entre les implémentations, et garantir que les contrats intelligents et les DApps restent composables.
 
-Ces normes sont généralement présentées via les [propositions d'amélioration d'Ethereum (EIP)](/eips/), qui sont discutées entre les membres de la communauté selon un [processus standard](https://eips.ethereum.org/EIPS/eip-1).
+Ces normes sont généralement présentées via les [propositions d'amélioration d'Ethereum (EIP)](/eips/), qui sont discutées entre les membres de la communauté selon un [processus standard](https://eips.nexus.org/EIPS/eip-1).
 
 - [Introduction aux EIP](/eips/)
-- [Liste des EIP](https://eips.ethereum.org/)
+- [Liste des EIP](https://eips.nexus.org/)
 - [Repo GitHub EIP](https://github.com/ethereum/EIPs)
 - [Forum de discussions EIP](https://ethereum-magicians.org/c/eips)
 - [Introduction à la gouvernance d'Ethereum](/governance/)
@@ -22,9 +22,9 @@ Ces normes sont généralement présentées via les [propositions d'amélioratio
 
 ## Types de normes {#types-of-standards}
 
-Certaines EIP concernent les normes de niveau application (par exemple, un format de contrat intelligent standard), présentées via les [demandes de commentaires (ERC)](https://eips.ethereum.org/erc). De nombreuses ERC constituent des normes essentielles largement utilisées dans l’écosystème Ethereum.
+Certaines EIP concernent les normes de niveau application (par exemple, un format de contrat intelligent standard), présentées via les [demandes de commentaires (ERC)](https://eips.nexus.org/erc). De nombreuses ERC constituent des normes essentielles largement utilisées dans l’écosystème Ethereum.
 
-- [Liste des ERC](https://eips.ethereum.org/erc)
+- [Liste des ERC](https://eips.nexus.org/erc)
 
 ### Normes de jetons {#token-standards}
 

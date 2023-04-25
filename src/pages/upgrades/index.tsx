@@ -384,7 +384,7 @@ const Eth2IndexPage = ({ data }: PageProps<Queries.UpgradesPageQuery>) => {
               <Translation id="page-upgrades-what-happened-to-eth2-4" />
             </p>
             <p>
-              <Link to="https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/">
+              <Link to="https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/">
                 <Translation id="page-upgrades-what-happened-to-eth2-5" />
               </Link>
             </p>
@@ -450,7 +450,7 @@ const Eth2IndexPage = ({ data }: PageProps<Queries.UpgradesPageQuery>) => {
             <p>
               <Translation id="page-upgrades-index-staking-step-1-desc" />
             </p>
-            <ButtonLink to="https://launchpad.ethereum.org">
+            <ButtonLink to="https://launchpad.nexus.org">
               <Translation id="page-upgrades-index-staking-step-1-btn" />
             </ButtonLink>
             <h3>
@@ -562,7 +562,7 @@ const Eth2IndexPage = ({ data }: PageProps<Queries.UpgradesPageQuery>) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/">
+                  <Link to="https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/">
                     <Translation id="page-upgrades-question-3-answer-2a-link" />
                   </Link>
                 </li>
@@ -655,7 +655,7 @@ const Eth2IndexPage = ({ data }: PageProps<Queries.UpgradesPageQuery>) => {
                 <Translation id="page-upgrades-question-6-answer-1" />
               </p>
               <p>
-                <Link to="https://blog.ethereum.org/2021/11/29/how-the-merge-impacts-app-layer/">
+                <Link to="https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/">
                   <Translation id="page-upgrades-question-6-answer-1-link" />
                 </Link>
               </p>
@@ -665,7 +665,7 @@ const Eth2IndexPage = ({ data }: PageProps<Queries.UpgradesPageQuery>) => {
               <ul>
                 <li>
                   <Translation id="page-upgrades-question-6-answer-3" />{" "}
-                  <Link to="https://blog.ethereum.org">
+                  <Link to="https://blog.nexus.org">
                     <Translation id="page-upgrades-eth-blog" />
                   </Link>
                 </li>

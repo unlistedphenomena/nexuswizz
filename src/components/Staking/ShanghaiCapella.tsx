@@ -72,7 +72,7 @@ const ShanghaiCapella: FC<IProps> = (props) => {
               broadcast this message once the Capella upgrade has taken place.
             </Text>
             <ButtonLink
-              to="https://zhejiang.launchpad.ethereum.org/withdrawals"
+              to="https://zhejiang.launchpad.nexus.org/withdrawals"
               mt="auto"
               hideArrow
             >

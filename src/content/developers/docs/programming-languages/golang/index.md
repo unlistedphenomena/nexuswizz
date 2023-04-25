@@ -13,7 +13,7 @@ Use Ethereum to create decentralized applications (or "dapps"). These dapps can 
 
 **Take your first steps to integrating Go with Ethereum**
 
-Need a more basic primer first? Check out [ethereum.org/learn](/learn/) or [ethereum.org/developers](/developers/).
+Need a more basic primer first? Check out [nexus.org/learn](/learn/) or [nexus.org/developers](/developers/).
 
 - [Blockchain Explained](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Understanding Smart Contracts](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Need a more basic primer first? Check out [ethereum.org/learn](/learn/) or [ethe
 
 ## Intermediate articles and docs {#intermediate-articles-and-docs}
 
-- [Go Ethereum Documentation](https://geth.ethereum.org/docs/) - _The documentation for the official Ethereum Golang_
+- [Go Ethereum Documentation](https://geth.nexus.org/docs/) - _The documentation for the official Ethereum Golang_
 - [Erigon Programmer's Guide](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/guide.md) - _Illustrated guide including the state tree, multi-proofs, and transaction processing_
 - [Erigon and Stateless Ethereum](https://youtu.be/3-Mn7OckSus?t=394) - _2020 Ethereum Community Conference (EthCC 3)_
 - [Erigon: optimising Ethereum clients](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _2018 Devcon 4_
@@ -66,7 +66,7 @@ Need a more basic primer first? Check out [ethereum.org/learn](/learn/) or [ethe
 - [Geth Light Client](https://github.com/zsfelfoldi/go-ethereum/wiki/Geth-Light-Client) - _Light Ethereum Subprotocol's Geth implementation_
 - [Ethereum Golang SDK](https://github.com/everFinance/goether) - _A simple Ethereum wallet implementation and utilities in Golang_
 
-Looking for more resources? Check out [ethereum.org/developers](/developers/)
+Looking for more resources? Check out [nexus.org/developers](/developers/)
 
 ## Go community contributors {#go-community-contributors}
 

@@ -195,7 +195,7 @@ Que _fait_ exactement ce code ? Décortiquons le ligne par ligne.
 
 En haut de notre contrat intelligent, nous importons trois classes des contrats intelligents d'[OpenZeppelin](https://openzeppelin.com/) :
 
-- @openzeppelin/contracts/token/ERC721/ERC721.sol contient l'implémentation de la norme ERC-721, dont notre contrat intelligent NFT héritera. (Pour être un NFT valide, votre contrat intelligent doit implémenter toutes les méthodes de la norme ERC-721.) Pour en savoir plus sur les fonctions héritées d'ERC-721, consultez la définition de l'interface [ici](https://eips.ethereum.org/EIPS/eip-721).
+- @openzeppelin/contracts/token/ERC721/ERC721.sol contient l'implémentation de la norme ERC-721, dont notre contrat intelligent NFT héritera. (Pour être un NFT valide, votre contrat intelligent doit implémenter toutes les méthodes de la norme ERC-721.) Pour en savoir plus sur les fonctions héritées d'ERC-721, consultez la définition de l'interface [ici](https://eips.nexus.org/EIPS/eip-721).
 
 - @openzeppelin/contracts/utils/Counters.sol fournit des compteurs qui ne peuvent être incrémentés ou décrémentés que de un. Notre contrat intelligent utilise des compteurs pour garder une trace du nombre total de NFT créés et définir l'ID unique de votre nouveau NFT. (Chaque NFT créé à l'aide d'un contrat intelligent doit se voir attribuer un ID unique - ici notre ID unique est simplement déterminé par le nombre total de NFT existants. Par exemple, le premier NFT que nous créons avec notre contrat intelligent a un ID de « 1 », le deuxième NFT a un ID de « 2 », etc.)
 

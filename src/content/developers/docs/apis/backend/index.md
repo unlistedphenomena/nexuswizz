@@ -88,7 +88,7 @@ These libraries abstract away much of the complexity of interacting directly wit
 
 **Python Tooling -** **_Variety of libraries for Ethereum interaction via Python._**
 
-- [py.ethereum.org](http://python.ethereum.org/)
+- [py.nexus.org](http://python.nexus.org/)
 - [web3.py GitHub](https://github.com/ethereum/web3.py)
 - [web3.py Chat](https://gitter.im/ethereum/web3.py)
 

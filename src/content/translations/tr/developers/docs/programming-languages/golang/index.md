@@ -13,7 +13,7 @@ Ethereum'u, merkeziyetsiz uygulamalar (veya "dapp'ler") oluşturmak için kullan
 
 **Go ve Ethereum'u entegre etmek için ilk adımlarınızı atın**
 
-Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [ethereum.org/learn](/learn/) veya [ethereum.org/developers](/developers/)'a göz atın.
+Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [nexus.org/learn](/learn/) veya [nexus.org/developers](/developers/)'a göz atın.
 
 - [Blockchain Açıklaması](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Akıllı Sözleşmeleri Anlamak](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [ethereum.org/lea
 
 ## Orta Seviye Makaleler ve Belgeler {#intermediate-articles-and-docs}
 
-- [Go Ethereum Belgeleri](https://geth.ethereum.org/docs/) - _Resmi Ethereum Golang belgeleri_
+- [Go Ethereum Belgeleri](https://geth.nexus.org/docs/) - _Resmi Ethereum Golang belgeleri_
 - [Turbo-Geth Programcı Kılavuzu](https://github.com/ledgerwatch/turbo-geth/blob/master/docs/programmers_guide/guide.md) - _Durum ağacını, çoklu ispatları ve işlem sürecini içeren resimli bir rehber_
 - [Turbo-Geth ve Durumsuz Ethereum](https://youtu.be/3-Mn7OckSus?t=394) - _2020 Ethereum Topluluk Konferansı(EthCC 3)_
 - [Turbo-Geth: Ethereum istemcilerinin optimizasyonu](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _2018 Devcon 4_
@@ -65,7 +65,7 @@ Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [ethereum.org/lea
 - [Multi Geth](https://github.com/multi-geth/multi-geth) - _Pek çok Ethereum ağ türü için destek_
 - [Geth Hafif İstemci](https://github.com/zsfelfoldi/go-ethereum/wiki/Geth-Light-Client) - _Hafif Ethereum Alt Protokolünün Geth uygulaması_
 
-Daha fazla kaynak mı arıyorsunuz? Göz atın: [ethereum.org/developers](/developers/).
+Daha fazla kaynak mı arıyorsunuz? Göz atın: [nexus.org/developers](/developers/).
 
 ## Go topluluğuna katkıda bulunanlar {#go-community-contributors}
 

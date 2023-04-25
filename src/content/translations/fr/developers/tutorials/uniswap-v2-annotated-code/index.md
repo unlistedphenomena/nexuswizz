@@ -450,7 +450,7 @@ Utilisez la fonction `UniswapV2ERC20._mint` pour créer les jetons de liquidité
     }
 ```
 
-S'il n'existe pas de frais, réglez `kLast` à zéro (si ce n'est pas déjà le cas). Lorsque ce contrat a été rédigé, il existait une [fonctionnalité de remboursement de gaz](https://eips.ethereum.org/EIPS/eip-3298) qui encourageait les contrats à réduire la taille globale de l'état Ethereum en mettant à zéro le stockage dont ils n'avaient pas besoin. Ce code récupère ce remboursement lorsque c'est possible.
+S'il n'existe pas de frais, réglez `kLast` à zéro (si ce n'est pas déjà le cas). Lorsque ce contrat a été rédigé, il existait une [fonctionnalité de remboursement de gaz](https://eips.nexus.org/EIPS/eip-3298) qui encourageait les contrats à réduire la taille globale de l'état Ethereum en mettant à zéro le stockage dont ils n'avaient pas besoin. Ce code récupère ce remboursement lorsque c'est possible.
 
 #### Fonctions accessibles en externe {#pair-external}
 
@@ -757,7 +757,7 @@ Les grands pools de liquidités sont meilleurs que les petits parce qu'ils propo
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
 ```
 
-Pour créer un nouveau contrat, nous avons besoin du code qui va le créer (tant la fonction constructeur que le code qui va écrire en mémoire le bytecode EVM du contrat effectif). Normalement dans Solidity nous utilisons `addr = new <name of contract>(<constructor parameters>)` et le compilateur s'occupe de tout pour nous. Pour obtenir une adresse de contrat déterminable, nous devons toutefois utiliser [l'opcode CREATE2](https://eips.ethereum.org/EIPS/eip-1014). Lorsque ce code a été écrit, cet opcode n'était pas encore pris en charge par Solidity et il était donc nécessaire d'obtenir manuellement le code. Ce n'est plus un problème car [Solidity prend désormais en charge CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
+Pour créer un nouveau contrat, nous avons besoin du code qui va le créer (tant la fonction constructeur que le code qui va écrire en mémoire le bytecode EVM du contrat effectif). Normalement dans Solidity nous utilisons `addr = new <name of contract>(<constructor parameters>)` et le compilateur s'occupe de tout pour nous. Pour obtenir une adresse de contrat déterminable, nous devons toutefois utiliser [l'opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014). Lorsque ce code a été écrit, cet opcode n'était pas encore pris en charge par Solidity et il était donc nécessaire d'obtenir manuellement le code. Ce n'est plus un problème car [Solidity prend désormais en charge CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
 
 ```solidity
         bytes32 salt = keccak256(abi.encodePacked(token0, token1));
@@ -811,7 +811,7 @@ Les transactions sur Ethereum coûtent de l'Ether (ETH), ce qui équivaut à de 
     bytes32 public constant PERMIT_TYPEHASH = 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9;
 ```
 
-Ce hachage est l'[identifiant pour le type de transaction](https://eips.ethereum.org/EIPS/eip-712#rationale-for-typehash). Le seul que nous prenons en charge ici est `Permit` avec ces paramètres.
+Ce hachage est l'[identifiant pour le type de transaction](https://eips.nexus.org/EIPS/eip-712#rationale-for-typehash). Le seul que nous prenons en charge ici est `Permit` avec ces paramètres.
 
 ```solidity
     mapping(address => uint) public nonces;
@@ -842,7 +842,7 @@ Ceci est le code pour récupérer [l'identifiant de la chaîne](https://chainid.
     }
 ```
 
-Calculer le [séparateur de domaine](https://eips.ethereum.org/EIPS/eip-712#rationale-for-domainseparator) pour EIP-712.
+Calculer le [séparateur de domaine](https://eips.nexus.org/EIPS/eip-712#rationale-for-domainseparator) pour EIP-712.
 
 ```solidity
     function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
@@ -883,7 +883,7 @@ L'algorithme de signature Ethereum a besoin de 256 bits pour signer. aussi, util
 
 ```
 
-Quand tout est en ordre, traitez ceci comme un [ERC-20 approve](https://eips.ethereum.org/EIPS/eip-20#approve).
+Quand tout est en ordre, traitez ceci comme un [ERC-20 approve](https://eips.nexus.org/EIPS/eip-20#approve).
 
 ## Les contrats périphériques {#periphery-contracts}
 
@@ -1784,7 +1784,7 @@ Trie les deux jetons par leurs adresses afin que nous puissions obtenir l'adress
     }
 ```
 
-Cette fonction calcule l'adresse de l'échange en paire pour les deux jetons. Ce contrat est créé en utilisant [l'opcode CREATE2](https://eips.ethereum.org/EIPS/eip-1014) et ainsi nous pouvons calculer l'adresse utilisant le même algorithme si nous connaissons les paramètres qu'il utilise. C'est beaucoup moins cher que de demander à l'usine.
+Cette fonction calcule l'adresse de l'échange en paire pour les deux jetons. Ce contrat est créé en utilisant [l'opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014) et ainsi nous pouvons calculer l'adresse utilisant le même algorithme si nous connaissons les paramètres qu'il utilise. C'est beaucoup moins cher que de demander à l'usine.
 
 ```solidity
     // fetches and sorts the reserves for a pair
@@ -1922,7 +1922,7 @@ Pour des raisons de compatibilité ascendante avec un jeton qui a été créé a
     }
 ```
 
-Cette fonction implémente [la fonctionnalité transfert de ERC-20](https://eips.ethereum.org/EIPS/eip-20#transfer), qui permet à un compte de dépenser la provision fournie par un autre compte.
+Cette fonction implémente [la fonctionnalité transfert de ERC-20](https://eips.nexus.org/EIPS/eip-20#transfer), qui permet à un compte de dépenser la provision fournie par un autre compte.
 
 ```solidity
 
@@ -1941,7 +1941,7 @@ Cette fonction implémente [la fonctionnalité transfert de ERC-20](https://eips
     }
 ```
 
-Cette fonction implémente [la fonctionnalité transferFrom de ERC-20](https://eips.ethereum.org/EIPS/eip-20#transferfrom), qui permet à un compte de dépenser la provision fournie par un autre compte.
+Cette fonction implémente [la fonctionnalité transferFrom de ERC-20](https://eips.nexus.org/EIPS/eip-20#transferfrom), qui permet à un compte de dépenser la provision fournie par un autre compte.
 
 ```solidity
 

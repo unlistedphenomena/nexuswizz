@@ -68,7 +68,7 @@ Un proceso importante utilizado en la gobernanza Ethereum son las **propuestas d
 
 El procedimiento formal para realizar cambios en el protocolo de Ethereum es el siguiente:
 
-1. **Proponer una EIP central**: tal como se describe en [EIP-1](https://eips.ethereum.org/EIPS/eip-1#core-eips), el primer paso para proponer formalmente un cambio en Ethereum es detallarlo en una EIP central. Esto servirá como la especificación oficial de una EIP que los desarrolladores de protocolos implementarán si se acepta.
+1. **Proponer una EIP central**: tal como se describe en [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips), el primer paso para proponer formalmente un cambio en Ethereum es detallarlo en una EIP central. Esto servirá como la especificación oficial de una EIP que los desarrolladores de protocolos implementarán si se acepta.
 
 2. **Presentar la EIP a los desarrolladores de protocolos**: una vez que tenga una EIP central para la cual haya recibido contribuciones de la comunidad, debería presentársela a los desarrolladores de protocolo. Para ello, puede proponer que se someta a debate en una [llamada en AllCoreDevs](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). Es posible que, para ese entonces, ya se hayan originado debates de forma asíncrona en el [foro Ethereum Magicians](https://ethereum-magicians.org/) o en [el canal de Discord Ethereum R&D](https://discord.gg/mncqtgVSVw).
 
@@ -152,7 +152,7 @@ El proceso de gobernanza de Ethereum usualmente cambia velocidad y eficiencia po
 
 Mientras que la especificación e implementaciones siempre han sido totalmente abiertas, no se utilizaron los procesos formales arriba descritos para proponer actualizaciones. Esto permitió que los investigadores y los implementadores especificaran los cambios y los acordaran más rápidamente.
 
-Cuando la cadena de baliza se fusione con la capa de ejecución de Ethereum, el proceso de gobernanza para proponer cambios será uniforme. Este proceso para implementar la fusión ya está [en marcha](https://eips.ethereum.org/EIPS/eip-3675).
+Cuando la cadena de baliza se fusione con la capa de ejecución de Ethereum, el proceso de gobernanza para proponer cambios será uniforme. Este proceso para implementar la fusión ya está [en marcha](https://eips.nexus.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Más sobre la fusión
@@ -168,7 +168,7 @@ Cuando la cadena de baliza se fusione con la capa de ejecución de Ethereum, el 
 - [Únase al Discord de Ethereum R&D](https://discord.gg/mncqtgVSVw)
 - [Ejecute un nodo](/developers/docs/nodes-and-clients/run-a-node/)
 - [Contribuya al desarrollo del cliente](/developers/docs/nodes-and-clients/#execution-clients)
-- [Programa de aprendizaje del desarrollador principal](https://blog.ethereum.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Programa de aprendizaje del desarrollador principal](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Más información {#further-reading}
 

@@ -34,7 +34,7 @@ Una vez desplegado, tu contrato tendrá una dirección de Ethereum como otras [c
 
 **Remezcla: ** **_Remezcla IDE permite desarrollar, implementar y administrar contratos inteligentes para blockchains como Ethereum._**
 
-- [Remezcla](https://remix.ethereum.org)
+- [Remezcla](https://remix.nexus.org)
 
 **Tenderly:** **_Una plataforma para supervisar los contratos inteligentes de manera sencilla, con seguimiento de errores, alertas, métricas de rendimiento y análisis detallados de contratos._**
 

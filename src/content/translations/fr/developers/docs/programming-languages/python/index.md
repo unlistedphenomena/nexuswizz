@@ -13,7 +13,7 @@ Utilisez Ethereum pour créer des applications décentralisées (ou «&nbsp;dapp
 
 **Commencer à intégrer Python à Ethereum**
 
-Besoin d’une approche plus élémentaire ? Consultez [ethereum.org/learn](/learn/) ou [ethereum.org/developers](/developers/).
+Besoin d’une approche plus élémentaire ? Consultez [nexus.org/learn](/learn/) ou [nexus.org/developers](/developers/).
 
 - [Explication de la blockchain](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendre les contrats autonomes](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ Besoin d’une approche plus élémentaire ? Consultez [ethereum.org/learn](/le
 
 ## Articles pour les débutants {#beginner-articles}
 
-- [Guide du développeur (Python) pour Ethereum](https://snakecharmers.ethereum.org/a-developers-guide-to-ethereum-pt-1/)
+- [Guide du développeur (Python) pour Ethereum](https://snakecharmers.nexus.org/a-developers-guide-to-ethereum-pt-1/)
 - [Introduction aux contrats intelligents avec Vyper](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [Déployez votre propre jeton ERC20 avec Python et Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Comment développer un contrat Ethereum avec Python Flask ?](https://medium.com/coinmonks/how-to-develop-ethereum-contract-using-python-flask-9758fe65976e)
@@ -66,7 +66,7 @@ Besoin d’une approche plus élémentaire ? Consultez [ethereum.org/learn](/le
 - [Trinity](https://github.com/ethereum/trinity) - _Client Ethereum sous Python_
 - [Mamba](https://github.com/arjunaskykok/mamba) - _Infrastructure permettant de rédiger, de compiler et de déployer des contrats intelligents en langage Vyper_
 
-Vous cherchez davantage de ressources ? Consultez [ethereum.org/developers.](/developers/).
+Vous cherchez davantage de ressources ? Consultez [nexus.org/developers.](/developers/).
 
 ## Projets utilisant l'outil Python {#projects-using-python-tooling}
 

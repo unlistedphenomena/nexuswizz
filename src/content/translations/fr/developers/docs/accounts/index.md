@@ -79,7 +79,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[Documentation du GETH](https://geth.ethereum.org/docs)
+[Documentation du GETH](https://geth.nexus.org/docs)
 
 Il est possible de dériver de nouvelles clés publiques à partir de votre clé privée, mais pas l'inverse. Cela signifie qu'il est vital de garder votre clé privée en sécurité, et comme le nom l'indique, **PRIVÉE**.
 

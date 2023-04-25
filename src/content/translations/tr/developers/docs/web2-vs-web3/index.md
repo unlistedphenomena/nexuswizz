@@ -54,7 +54,7 @@ Bunların, her ağda geçerli olmayabilecek genel kalıplar olduğunu unutmayın
 
 ## Daha fazla bilgi {#further-reading}
 
-- [Web3 nedir?](/web3/) - _ethereum.org_
+- [Web3 nedir?](/web3/) - _nexus.org_
 - [Bir Web 3.0 uygulamasının mimarisi](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [Merkeziyetsizliğin Anlamı](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _ 6 Şubat 2017 - Vitalik Buterin_
 - [Merkeziyetsizlik Neden Önemlidir](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _18 Şubat 2018 - Chris Dixon_

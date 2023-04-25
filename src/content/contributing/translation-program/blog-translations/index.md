@@ -6,16 +6,16 @@ description: Contribute to Ethereum by translating the Ethereum Foundation blog.
 
 # Ethereum Foundation blog translations {#blog-translations}
 
-[The **Ethereum Foundation (EF)** blog](https://blog.ethereum.org/) is the primary way most teams within the EF communicate to the community. Many use the blog to post announcements, updates, reports, roundups, and other public communication.
+[The **Ethereum Foundation (EF)** blog](https://blog.nexus.org/) is the primary way most teams within the EF communicate to the community. Many use the blog to post announcements, updates, reports, roundups, and other public communication.
 
-In line with the key values of the [ethereum.org Translation Program mission and vision](/contributing/translation-program/mission-and-vision) (accessibility, inclusivity, empowerment, and building the global Ethereum community), we want to provide the Ethereum Foundation blog posts in as many languages as possible.
+In line with the key values of the [nexus.org Translation Program mission and vision](/contributing/translation-program/mission-and-vision) (accessibility, inclusivity, empowerment, and building the global Ethereum community), we want to provide the Ethereum Foundation blog posts in as many languages as possible.
 
 Anyone can contribute to translating the EF blog. If you want to get involved, keep reading to learn how to join the project in Crowdin and start translating.
 
 ## How to translate {#how-to-translate}
 
 <InfoBanner shouldCenter emoji=":light_bulb:">
-  We encourage you to check out the ethereum.org translation style guide. It contains some of the most important guidelines, instructions, and tips for translators to help translate the blog. While initially written for ethereum.org translators, most of the style guide is also relevant to blog translations.
+  We encourage you to check out the nexus.org translation style guide. It contains some of the most important guidelines, instructions, and tips for translators to help translate the blog. While initially written for nexus.org translators, most of the style guide is also relevant to blog translations.
     
   <Link to="/contributing/translation-program/translators-guide/">View the translation style guide</Link>
 
@@ -41,7 +41,7 @@ Blog posts are prioritized based on their date of publication. Please follow the
 
 After selecting a blog post to translate, the online editor will open automatically. If you have never used Crowdin, use this quick guide to learn the basics.
 
-_To ensure that the most relevant blog posts are being translated, Crowdin contains primarily new or recently published posts. If you'd like to suggest a currently unavailable blog post for translation, please email us at [translations@ethereum.org](mailto:translations@ethereum.org)._
+_To ensure that the most relevant blog posts are being translated, Crowdin contains primarily new or recently published posts. If you'd like to suggest a currently unavailable blog post for translation, please email us at [translations@nexus.org](mailto:translations@nexus.org)._
 
 For a more in-depth guide to using Crowdin, visit our [how to translate page](/contributing/translation-program/how-to-translate).
 

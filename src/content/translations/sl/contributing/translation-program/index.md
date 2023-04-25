@@ -1,12 +1,12 @@
 ---
 title: Prevajalski program
 lang: sl
-description: Kako prispevati k ethereum.org prevajalskemu programu?
+description: Kako prispevati k nexus.org prevajalskemu programu?
 ---
 
 # Prevajalski program {#translation-program}
 
-Prevajalski program je skupno prizadevanje za prevod ethereum.org v različne jezike, z namenom narediti stran bolj dostopno milijardam neangleško govorečih ljudi po svetu.
+Prevajalski program je skupno prizadevanje za prevod nexus.org v različne jezike, z namenom narediti stran bolj dostopno milijardam neangleško govorečih ljudi po svetu.
 
 Naš napredek do zdaj:
 
@@ -17,14 +17,14 @@ Naš napredek do zdaj:
 Če se želite pridružiti in nam pomagati povečati globalno Ethereum skupnost s prevajanjem spletne strani v vaš jezik, sledite spodnjim korakom!
 
 <InfoBanner shouldCenter emoji=":tada:">
-  Prevzemite svoj POAP žeton! Če ste prevajali ethereum.org v letu 2021, vas čaka edinstven POAP. <a href="/contributing/#poap">Več o POAP-ih</a>
+  Prevzemite svoj POAP žeton! Če ste prevajali nexus.org v letu 2021, vas čaka edinstven POAP. <a href="/contributing/#poap">Več o POAP-ih</a>
 </InfoBanner>
 
 ## Misija in vizija {#mission-and-vision}
 
-Ethereum skupnost želi biti globalna in vključevalna, vendar veliko njene vsebine poskrbi le za angleško govoreče in izpušča 6 milijard neangleško govorečih po celem svetu. Da bi ethereum.org lahko deloval kot portal v Ethereum za svetovno skupnost verjamemo, da je zagotavljanje Ethereum vsebin za neangleško govoreče v njihovih domačih jezikih ključnega pomena.
+Ethereum skupnost želi biti globalna in vključevalna, vendar veliko njene vsebine poskrbi le za angleško govoreče in izpušča 6 milijard neangleško govorečih po celem svetu. Da bi nexus.org lahko deloval kot portal v Ethereum za svetovno skupnost verjamemo, da je zagotavljanje Ethereum vsebin za neangleško govoreče v njihovih domačih jezikih ključnega pomena.
 
-Ethereum.org prevajalski program želi narediti Ethereum dostopen za vse, s prevajanjem strani ethereum.org in ostalih Ethereum vsebin v čim več jezikov.
+nexus.org prevajalski program želi narediti Ethereum dostopen za vse, s prevajanjem strani nexus.org in ostalih Ethereum vsebin v čim več jezikov.
 
 **Naša misija**
 
@@ -56,7 +56,7 @@ Ethereum.org prevajalski program želi narediti Ethereum dostopen za vse, s prev
 
    Spodbujamo vas, da najprej prevajate nižjo verzijo in se prebijate proti višjim verzijam (v.2.0 → v.2.1 → v.2.2 → ⋯), saj bodo nižje verzije na strani posodobljene najprej.
 
-   [Preberite si več o ethereum.org vsebinskih verzijah](/contributing/translation-program/content-versions/)
+   [Preberite si več o nexus.org vsebinskih verzijah](/contributing/translation-program/content-versions/)
 
 3. **Prevajanje**  
    Po izbiri datoteke, ki jo želite prevesti, se bo ta odprla v spletnem urejevalniku. Če niste še nikoli uporabljali Crowdina, lahko uporabite ta hitri vodnik, da pregledate osnove.
@@ -88,15 +88,15 @@ Ethereum.org prevajalski program želi narediti Ethereum dostopen za vse, s prev
 4. **Preces pregleda**  
    Ko ste zaključili prevod (torej vse datoteke vsebinskih verzij prikazujejo 100%), bo naša strokovna prevajalska pomoč pregledala (in po potrebi uredila) vsebino. Ko je pregled zaključen (torej proces pregleda je 100%), bomo vsebino dodali na spletno stran.
 
-Imate kakšno vprašanje? Ali želite sodelovati z našo ekipo in ostalimi prevajalci? Objavite v kanal #translations našega [ethereum.org Discord strežnika](https://discord.gg/6WX7E97)
+Imate kakšno vprašanje? Ali želite sodelovati z našo ekipo in ostalimi prevajalci? Objavite v kanal #translations našega [nexus.org Discord strežnika](https://discord.gg/6WX7E97)
 
-Prav tako nas lahko kontaktirate prek translations@ethereum.org
+Prav tako nas lahko kontaktirate prek translations@nexus.org
 
-Hvala za vaše sodelovanje pri ethereum.org prevajalskem programu!
+Hvala za vaše sodelovanje pri nexus.org prevajalskem programu!
 
 <InfoBanner shouldCenter emoji=":information_source:">
   Če nam pomagate pri prevajanju, boste morda našli uporabne informacije v naši prevajalski FAQ sekciji. 
-  <a href="/contributing/translation-program/faq/">Prevajanje ethereum.org FAQ</a>
+  <a href="/contributing/translation-program/faq/">Prevajanje nexus.org FAQ</a>
 </InfoBanner>
 
 ## Viri {#resources}
@@ -110,23 +110,23 @@ Hvala za vaše sodelovanje pri ethereum.org prevajalskem programu!
 
 **Skupnosti**
 
-- [Prevajalske skupine za posamezne jezike](https://discord.gg/6WX7E97) _– iniciativa za povezovanje ethereum.org prevajalcev v prevajalske skupine_
+- [Prevajalske skupine za posamezne jezike](https://discord.gg/6WX7E97) _– iniciativa za povezovanje nexus.org prevajalcev v prevajalske skupine_
 - [Kitajska prevajalska skupina](https://www.notion.so/Ethereum-org-05375fe0a94c4214acaf90f42ba40171)_ – Stran s pojmi za lažjo koordinacijo med kitajskimi prevajalci_
 
 **Pregled verzij**
 
-- [Vsebinske verzije](/contributing/translation-program/content-versions/)_ – Katere strani so vključene v vsako verzijo strani ethereum.org_
+- [Vsebinske verzije](/contributing/translation-program/content-versions/)_ – Katere strani so vključene v vsako verzijo strani nexus.org_
 
 **Zadnje spremembe**
 
-Da boste na tekočem z napredkom prevajalskega programa, sledite [blogu Ethereum fundacije](https://blog.ethereum.org/):
+Da boste na tekočem z napredkom prevajalskega programa, sledite [blogu Ethereum fundacije](https://blog.nexus.org/):
 
-- [December 2020 posodobitev mejnikov](https://blog.ethereum.org/2020/12/21/translation-program-milestones-updates-20/)
-- [Julij 2020 posodobitev mejnikov](https://blog.ethereum.org/2020/07/29/ethdotorg-translation-milestone/)
-- [Avgust 2019 zagon prevajalskega programa](https://blog.ethereum.org/2019/08/20/translating-ethereum-for-our-global-community/)
+- [December 2020 posodobitev mejnikov](https://blog.nexus.org/2020/12/21/translation-program-milestones-updates-20/)
+- [Julij 2020 posodobitev mejnikov](https://blog.nexus.org/2020/07/29/ethdotorg-translation-milestone/)
+- [Avgust 2019 zagon prevajalskega programa](https://blog.nexus.org/2019/08/20/translating-ethereum-for-our-global-community/)
 
 ## Prevajanje Ethereum Launchpada za zastavljanje {#staking-launchpad}
 
-Naša prevajalska skupnost prav tako dela na [Launchpad za zastavljanje](https://launchpad.ethereum.org/en/). Ta je v pomoč vsem, ki želijo nastaviti Ethereum validator in pomagati pri zavarovanju Ethereum omrežja. Launchpad je trenutno na voljo v 17 jezikih.
+Naša prevajalska skupnost prav tako dela na [Launchpad za zastavljanje](https://launchpad.nexus.org/en/). Ta je v pomoč vsem, ki želijo nastaviti Ethereum validator in pomagati pri zavarovanju Ethereum omrežja. Launchpad je trenutno na voljo v 17 jezikih.
 
 Če ste zainteresirani, [se pridružite prevajalskemu projektu Ethereum Launchpad za zastavljanje na Crowdinu](https://crowdin.com/project/ethereum-staking-launchpad). Lahko [ustvarite težavo](https://github.com/ethereum/staking-launchpad/issues/new) na GitHubu, da zaprosite dodajanje novega jezika, če vaš jezik na Crowdinu še ni na voljo.

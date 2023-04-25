@@ -96,7 +96,7 @@ contract PriceConsumerV3 {
 }
 ```
 
-[您可以结合此链接进行该测试](https://remix.ethereum.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
+[您可以结合此链接进行该测试](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
 
 [查看文档](https://docs.chain.link/docs/get-the-latest-price)
 
@@ -169,7 +169,7 @@ contract RandomNumberConsumer is VRFConsumerBase {
 - `checkUpkeep` - 检查合约是否需要完成工作。
 - `performUpkeep` - 如果 checkUpkeep 有指示，随即执行合约内容。
 
-以下示例是一个简单的 Counter 合约。 `counter` 变量通过每次调用 `performUpkeep` 来递增。 您可以[使用 Remix 查看以下代码](https://remix.ethereum.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
+以下示例是一个简单的 Counter 合约。 `counter` 变量通过每次调用 `performUpkeep` 来递增。 您可以[使用 Remix 查看以下代码](https://remix.nexus.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -222,7 +222,7 @@ contract Counter is KeeperCompatibleInterface {
 
 [Chainlink 应用程序接口调用](https://docs.chain.link/docs/make-a-http-get-request)是以网络调用的传统方式（应用程序接口调用）从链下获取数据的最简单方式。 做一个这样的实例，并且只有一个预言机，使得它在本质上是集中的。 要保持它真正去中心化，智能合约平台需要使用在[外部数据市场](https://market.link/)中找到的许多节点。
 
-[在 kovan 网络上部署以下代码以进行测试](https://remix.ethereum.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
+[在 kovan 网络上部署以下代码以进行测试](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
 
 这也遵循了预言机的请求和接收周期，并且需要从 Kovan LINK（预言机燃料）获得资金才能工作。
 

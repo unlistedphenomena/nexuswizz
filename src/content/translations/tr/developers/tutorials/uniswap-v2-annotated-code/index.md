@@ -450,7 +450,7 @@ Ek likidite token'larını gerçekten oluşturmak ve bunları `feeTo` öğesine 
     }
 ```
 
-Herhangi bir ücret yoksa `kLast` öğesini sıfıra ayarlayın (zaten değilse). Bu sözleşme yazıldığında, ihtiyaç duymadıkları depolama alanını sıfırlayarak sözleşmeleri Ethereum durumunun genel boyutunu küçültmeye teşvik eden bir [gaz iadesi özelliği](https://eips.ethereum.org/EIPS/eip-3298) bulunuyordu. Bu kod, mümkün olduğunda o iadeyi alır.
+Herhangi bir ücret yoksa `kLast` öğesini sıfıra ayarlayın (zaten değilse). Bu sözleşme yazıldığında, ihtiyaç duymadıkları depolama alanını sıfırlayarak sözleşmeleri Ethereum durumunun genel boyutunu küçültmeye teşvik eden bir [gaz iadesi özelliği](https://eips.nexus.org/EIPS/eip-3298) bulunuyordu. Bu kod, mümkün olduğunda o iadeyi alır.
 
 #### Harici Erişilebilir Fonksiyonlar {#pair-external}
 
@@ -757,7 +757,7 @@ Büyük likidite havuzları, daha istikrarlı fiyatlara sahip oldukları için k
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
 ```
 
-Yeni bir sözleşme oluşturmak için onu oluşturan koda ihtiyacımız var (hem yapıcı fonksiyon hem de gerçek sözleşmenin EVM bayt kodunu belleğe yazan kod). Normalde Solidity'de sadece `addr = new <name of contract>(<constructor parameters>)` kullanırız ve derleyici bizim için her şeyi halleder, ancak deterministik bir sözleşme adresine sahip olmak için [CREATE2 opcode](https://eips.ethereum.org/EIPS/eip-1014)'u kullanmamız gerekir. Bu kod yazıldığında opcode henüz Solidity tarafından desteklenmiyordu, bu yüzden kodu manuel olarak almak gerekiyordu. Bu artık bir sorun değil, çünkü [Solidity artık CREATE2'yi destekliyor](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
+Yeni bir sözleşme oluşturmak için onu oluşturan koda ihtiyacımız var (hem yapıcı fonksiyon hem de gerçek sözleşmenin EVM bayt kodunu belleğe yazan kod). Normalde Solidity'de sadece `addr = new <name of contract>(<constructor parameters>)` kullanırız ve derleyici bizim için her şeyi halleder, ancak deterministik bir sözleşme adresine sahip olmak için [CREATE2 opcode](https://eips.nexus.org/EIPS/eip-1014)'u kullanmamız gerekir. Bu kod yazıldığında opcode henüz Solidity tarafından desteklenmiyordu, bu yüzden kodu manuel olarak almak gerekiyordu. Bu artık bir sorun değil, çünkü [Solidity artık CREATE2'yi destekliyor](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
 
 ```solidity
         bytes32 salt = keccak256(abi.encodePacked(token0, token1));
@@ -811,7 +811,7 @@ Ethereum'daki işlemler, gerçek paraya eş değer olan ether'a (ETH) mal olur. 
     bytes32 public constant PERMIT_TYPEHASH = 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9;
 ```
 
-Bu hash değeri, [işlem türü için tanımlayıcıdır](https://eips.ethereum.org/EIPS/eip-712#rationale-for-typehash). Burada desteklediğimiz tek şey, bu parametrelerle `Permit`'dir.
+Bu hash değeri, [işlem türü için tanımlayıcıdır](https://eips.nexus.org/EIPS/eip-712#rationale-for-typehash). Burada desteklediğimiz tek şey, bu parametrelerle `Permit`'dir.
 
 ```solidity
     mapping(address => uint) public nonces;
@@ -842,7 +842,7 @@ Bu, [zincir tanımlayıcısını](https://chainid.network/) almaya yarayan koddu
     }
 ```
 
-EIP-712 için [alan adı ayırıcısını](https://eips.ethereum.org/EIPS/eip-712#rationale-for-domainseparator) hesapla.
+EIP-712 için [alan adı ayırıcısını](https://eips.nexus.org/EIPS/eip-712#rationale-for-domainseparator) hesapla.
 
 ```solidity
     function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
@@ -883,7 +883,7 @@ Ethereum imza algoritması, imzalamak için 256 bit almayı bekler, bu nedenle `
 
 ```
 
-Her şey tamamsa bunu bir [ERC-20 onayı](https://eips.ethereum.org/EIPS/eip-20#approve) olarak görün.
+Her şey tamamsa bunu bir [ERC-20 onayı](https://eips.nexus.org/EIPS/eip-20#approve) olarak görün.
 
 ## Çevre Sözleşmeleri {#periphery-contracts}
 
@@ -1784,7 +1784,7 @@ library UniswapV2Library {
     }
 ```
 
-Bu fonksiyon, iki token için eş takasının adresini hesaplar. Bu sözleşme [CREATE2 opcode](https://eips.ethereum.org/EIPS/eip-1014) kullanılarak oluşturulur, bu yüzden kullandığı parametreleri biliyorsak adresi aynı algoritmayı kullanarak hesaplayabiliriz. Bu, fabrikaya sormaktan çok daha ucuzdur.
+Bu fonksiyon, iki token için eş takasının adresini hesaplar. Bu sözleşme [CREATE2 opcode](https://eips.nexus.org/EIPS/eip-1014) kullanılarak oluşturulur, bu yüzden kullandığı parametreleri biliyorsak adresi aynı algoritmayı kullanarak hesaplayabiliriz. Bu, fabrikaya sormaktan çok daha ucuzdur.
 
 ```solidity
     // fetches and sorts the reserves for a pair
@@ -1922,7 +1922,7 @@ ERC-20 standardından önce oluşturulmuş token'la geriye dönük uyumluluk sa�
     }
 ```
 
-Bu fonksiyon, [ERC-20'nin transfer işlevselliğini](https://eips.ethereum.org/EIPS/eip-20#transfer) uygular ve bu, bir hesabın farklı bir hesap tarafından sağlanan ödeneği harcamasına izin verir.
+Bu fonksiyon, [ERC-20'nin transfer işlevselliğini](https://eips.nexus.org/EIPS/eip-20#transfer) uygular ve bu, bir hesabın farklı bir hesap tarafından sağlanan ödeneği harcamasına izin verir.
 
 ```solidity
 
@@ -1941,7 +1941,7 @@ Bu fonksiyon, [ERC-20'nin transfer işlevselliğini](https://eips.ethereum.org/E
     }
 ```
 
-Bu fonksiyon, [ERC-20'nin transferFrom işlevselliğini](https://eips.ethereum.org/EIPS/eip-20#transferfrom) uygular ve bu, bir hesabın farklı bir hesap tarafından sağlanan ödeneği harcamasına izin verir.
+Bu fonksiyon, [ERC-20'nin transferFrom işlevselliğini](https://eips.nexus.org/EIPS/eip-20#transferfrom) uygular ve bu, bir hesabın farklı bir hesap tarafından sağlanan ödeneği harcamasına izin verir.
 
 ```solidity
 

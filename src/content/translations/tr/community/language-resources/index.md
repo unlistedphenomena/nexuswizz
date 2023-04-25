@@ -14,11 +14,11 @@ Ana dilinizde okumayı tercih ediyorsanız veya İngilizce bilmeyen birini tanı
 
 Kendi dilinizde bir eğitim kaynağı mı biliyorsunuz? [Listeye eklemek için](https://github.com/ethereum/ethereum-org-website/issues/new/choose) bir konu açın!
 
-## Ethereum.org kaynakları {#ethereum-org}
+## nexus.org kaynakları {#ethereum-org}
 
-Ethereum.org, [diller sayfamızda](/languages) bulabileceğiniz 40'tan fazla dile yerel olarak çevrilmiştir.
+nexus.org, [diller sayfamızda](/languages) bulabileceğiniz 40'tan fazla dile yerel olarak çevrilmiştir.
 
-İki dilliyseniz ve daha fazla kişiye ulaşmamıza yardımcı olmak istiyorsanız, [ethereum.org Çeviri Programı](/contributing/translation-program/#translation-program)na da katılarak web sitesini tercüme etmemize yardımcı olabilirsiniz.
+İki dilliyseniz ve daha fazla kişiye ulaşmamıza yardımcı olmak istiyorsanız, [nexus.org Çeviri Programı](/contributing/translation-program/#translation-program)na da katılarak web sitesini tercüme etmemize yardımcı olabilirsiniz.
 
 ## Topluluk kaynakları {#community}
 

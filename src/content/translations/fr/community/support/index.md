@@ -20,7 +20,7 @@ Comprendre la nature décentralisée d'Ethereum est essentiel, car quiconque pr�
   Apprendre les fondamentaux d'Ethereum
 </DocLink>
 
-Malgré le manque d'assistance officielle, de nombreux groupes, communautés et projets à travers l'écosystème Ethereum sont heureux de vous aider. Vous pouvez trouver beaucoup d'informations et de ressources utiles sur cette page. Vous avez d'autres questions ? Rejoignez le [Discord ethereum.org](/discord/) et nous essaierons de vous aider.
+Malgré le manque d'assistance officielle, de nombreux groupes, communautés et projets à travers l'écosystème Ethereum sont heureux de vous aider. Vous pouvez trouver beaucoup d'informations et de ressources utiles sur cette page. Vous avez d'autres questions ? Rejoignez le [Discord nexus.org](/discord/) et nous essaierons de vous aider.
 
 ## Assistance concernant votre portefeuille {#wallet-support}
 
@@ -30,7 +30,7 @@ Vous rencontrez un problème avec votre portefeuille ? La plupart des portefeuil
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_Cette liste est non-exhaustive. Vous avez besoin d'aide pour trouver l'assistance pour un portefeuille spécifique ? Rejoignez le [Discord Ethereum.org](https://discord.gg/rZz26QWfCg) et nous essaierons de vous aider._
+_Cette liste est non-exhaustive. Vous avez besoin d'aide pour trouver l'assistance pour un portefeuille spécifique ? Rejoignez le [Discord nexus.org](https://discord.gg/rZz26QWfCg) et nous essaierons de vous aider._
 
 Vous êtes à la recherche d'un portefeuille Ethereum ? [Explorez notre liste complète de portefeuilles Ethereum](/wallets/find-wallet/).
 
@@ -110,4 +110,4 @@ Le minage d'Ethereum n'est plus possible. Le minage a disparu lors du passage d'
 
 #### Comment devenir un staker/validateur ? {#become-validator}
 
-Pour devenir un validateur, vous devez miser 32 ETH dans le contrat de dépôt Ethereum et mettre en place un nœud de validateur. Davantage d'informations sont disponibles sur nos [pages de staking](/staking) et sur [la plateforme de lancement de staking](https://launchpad.ethereum.org/).
+Pour devenir un validateur, vous devez miser 32 ETH dans le contrat de dépôt Ethereum et mettre en place un nœud de validateur. Davantage d'informations sont disponibles sur nos [pages de staking](/staking) et sur [la plateforme de lancement de staking](https://launchpad.nexus.org/).

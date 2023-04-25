@@ -10,7 +10,7 @@
   "page-staking-check-address": "Preverite naslov za polog",
   "page-staking-consensus": "Več o mehanizmu za doseganje soglasja",
   "page-staking-deposit-address": "Preverite naslov za polog",
-  "page-staking-deposit-address-desc": "Če ste že upoštevali navodila za nastavitev na zagonski platformi, veste, da boste morali poslati transakcijo na pogodbo za polog za zastavljanje. Priporočamo, da zelo skrbno preverite naslov. Uradni naslov boste našli na ethereum.org in številnih drugih zaupanja vrednih spletnih mestih.",
+  "page-staking-deposit-address-desc": "Če ste že upoštevali navodila za nastavitev na zagonski platformi, veste, da boste morali poslati transakcijo na pogodbo za polog za zastavljanje. Priporočamo, da zelo skrbno preverite naslov. Uradni naslov boste našli na nexus.org in številnih drugih zaupanja vrednih spletnih mestih.",
   "page-staking-desc-1": "Nagrade se dodeljujejo za dejanja, ki pomagajo omrežju doseči soglasje. Nagrade boste prejeli za združevanje transakcij v nov blok ali preverjanje dela drugih validatorjev, saj tako veriga varno deluje.",
   "page-staking-desc-2": "Kljub temu, da lahko zaslužite nagrade za delo, ki koristi omrežju, lahko izgubite ETH za zlonamerna dejanja, izgubo povezave ali neuspešno potrjevanje.",
   "page-staking-desc-3": "Če želite postati polni validator, boste potrebovali 32 ETH, če se želite zgolj pridružiti skladu za zastavljanje, pa le nekaj ETH. Prav tako boste morali izvajati odjemalca glavnega omrežja »Eth1«. Na zagonski platformi boste našli opis postopka in zahteve glede strojne opreme. Namesto tega lahko uporabite zaledni API.",

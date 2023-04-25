@@ -58,7 +58,7 @@ Pour faciliter la [composabilité et l'interopérabilité](/developers/docs/smar
 
 Quand vous incluez une ERC dans vos contrats, il est préférable de chercher des implémentations standards plutôt que d'essayer de déployer la vôtre. De nombreuses bibliothèques de contrats intelligents incluent des implémentations pour les ERC les plus populaires. Par exemple, la [norme de jeton fongible ERC20](/developers/tutorials/understand-the-erc-20-token-smart-contract/) est disponible dans [HQ20](https://github.com/HQ20/contracts/blob/master/contracts/token/README.md), [DappSys](https://github.com/dapphub/ds-token/) et [OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/erc20). De plus, certaines ERC intègrent elles-mêmes également des implémentations canoniques.
 
-Il convient de mentionner que certaines ERC ne sont pas autonomes, mais sont des ajouts à d'autres ERC. Par exemple, [ERC2612](https://eips.ethereum.org/EIPS/eip-2612) ajoute une extension à ERC20 pour améliorer son opérabilité.
+Il convient de mentionner que certaines ERC ne sont pas autonomes, mais sont des ajouts à d'autres ERC. Par exemple, [ERC2612](https://eips.nexus.org/EIPS/eip-2612) ajoute une extension à ERC20 pour améliorer son opérabilité.
 
 ## Comment ajouter une bibliothèque ? {#how-to}
 

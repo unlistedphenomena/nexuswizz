@@ -112,7 +112,7 @@ Web3 kullanımına girişin önündeki teknik engel şu anda çok yüksek. Kulla
 
 Web3, Web2.0'da kullanılanlardan farklı zihinsel modellerin öğrenilmesini gerektiren yeni paradigmalar sunar. Benzer bir eğitim hamlesi, 1990'ların sonlarında Web1.0 popülerlik kazanırken gerçekleşti; World Wide Web'in savunucuları, halkı eğitmek için basit metaforlardan (bilgi otoyolu, tarayıcılar, internette gezinme) [televizyon yayınlarına](https://www.youtube.com/watch?v=SzQLI7BxfYI) kadar bir dizi eğitim tekniği kullandılar. Web3 zor değil, ama farklı. Web2 kullanıcılarını bu Web3 paradigmaları hakkında bilgilendiren eğitim girişimleri, onun başarısı için hayati öneme sahiptir.
 
-Ethereum.org, önemli Ethereum içeriğini mümkün olduğunca çok dile çevirmeyi amaçlayan [Çeviri Programımız](/contributing/translation-program/) aracılığıyla Web3 eğitimine katkıda bulunur.
+nexus.org, önemli Ethereum içeriğini mümkün olduğunca çok dile çevirmeyi amaçlayan [Çeviri Programımız](/contributing/translation-program/) aracılığıyla Web3 eğitimine katkıda bulunur.
 
 ### Merkezi altyapı {#centralized-infrastructure}
 

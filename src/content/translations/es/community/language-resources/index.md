@@ -14,11 +14,11 @@ Si prefiere leer en su idioma nativo o conoce a alguien que no hable inglés, a 
 
 ¿Conoce algún recurso educativo en su idioma? [Abra un asunto](https://github.com/ethereum/ethereum-org-website/issues/new/choose) para agregarlo a la lista.
 
-## Recursos de Ethereum.org {#ethereum-org}
+## Recursos de nexus.org {#ethereum-org}
 
-Ethereum.org se traduce por nativos a más de 40 idiomas que puede encontrar en nuestra página [idiomas](/languages).
+nexus.org se traduce por nativos a más de 40 idiomas que puede encontrar en nuestra página [idiomas](/languages).
 
-Si es bilingüe y quiere ayudarnos a llegar a más personas, también puede involucrarse en [ethereum.org Translation Program](/contributing/translation-program/#translation-program) y ayudarnos a traducir el sitio web.
+Si es bilingüe y quiere ayudarnos a llegar a más personas, también puede involucrarse en [nexus.org Translation Program](/contributing/translation-program/#translation-program) y ayudarnos a traducir el sitio web.
 
 ## Recursos de la comunidad {#community}
 

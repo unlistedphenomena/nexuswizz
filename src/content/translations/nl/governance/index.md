@@ -68,7 +68,7 @@ Een belangrijk proces dat wordt gebruikt in Ethereum governance is het voorstel 
 
 Het formele proces voor het introduceren van wijzigingen in het Ethereum-protocol is als volgt:
 
-1. **Stel een kern-EIP voor**: zoals beschreven in [EIP-1](https://eips.ethereum.org/EIPS/eip-1#core-eips) is de eerste stap om een wijziging van Ethereum formeel voor te stellen, deze te beschrijven in een kern-EIP. Dit zal fungeren als de officiële specificatie voor een EIP die protocolontwikkelaars zullen implementeren, indien geaccepteerd.
+1. **Stel een kern-EIP voor**: zoals beschreven in [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips) is de eerste stap om een wijziging van Ethereum formeel voor te stellen, deze te beschrijven in een kern-EIP. Dit zal fungeren als de officiële specificatie voor een EIP die protocolontwikkelaars zullen implementeren, indien geaccepteerd.
 
 2. **Presenteer uw EIP aan protocolontwikkelaars**: zodra u een kern-EIP heeft waarvoor u de inbreng van de gemeenschap heeft verzameld, moet u het presenteren aan de protocolontwikkelaars. U kunt dit doen door het voor te stellen als discussie-onderwerp tijdens een [AllCoreDevs-oproep](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). Het is waarschijnlijk dat sommige discussies al asynchroon hebben plaatsgevonden op het [Ethereum Magician's forum](https://ethereum-magicians.org/) of in de [Ethereum R&D Discord](https://discord.gg/mncqtgVSVw).
 
@@ -152,7 +152,7 @@ Het governance-proces van Ethereum weegt vaak snelheid en efficiëntie af tegen 
 
 Hoewel de ontwikkeling van specificaties en implementaties altijd volledig open source is geweest, werden de formele processen die werden gebruikt om de hierboven beschreven updates voor te stellen niet gebruikt. Hierdoor konden onderzoekers en uitvoerders sneller wijzigingen doorvoeren en hierover overeenstemming bereiken.
 
-Wanneer de Beacon Chain samenvalt met de uitvoeringslaag van Ethereum, zal het governance-proces om wijzigingen voor te stellen worden geharmoniseerd. Dit proces om de merge te implementeren is [al gaande](https://eips.ethereum.org/EIPS/eip-3675).
+Wanneer de Beacon Chain samenvalt met de uitvoeringslaag van Ethereum, zal het governance-proces om wijzigingen voor te stellen worden geharmoniseerd. Dit proces om de merge te implementeren is [al gaande](https://eips.nexus.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Meer over de merge
@@ -168,7 +168,7 @@ Wanneer de Beacon Chain samenvalt met de uitvoeringslaag van Ethereum, zal het g
 - [Doe mee met de Ethereum R&D-discord](https://discord.gg/mncqtgVSVw)
 - [Voer een node uit](/developers/docs/nodes-and-clients/run-a-node/)
 - [Draag bij de ontwikkeling van clients](/developers/docs/nodes-and-clients/#execution-clients)
-- [Kernleerprogramma voor ontwikkelaars](https://blog.ethereum.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Kernleerprogramma voor ontwikkelaars](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Lees verder {#further-reading}
 

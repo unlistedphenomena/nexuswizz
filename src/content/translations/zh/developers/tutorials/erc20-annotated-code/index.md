@@ -24,7 +24,7 @@ published: 2021-03-09
 
 如果您是一位经验丰富的程序员，您可能记得在 [Java](https://www.w3schools.com/java/java_interface.asp) 中，甚至在 [C 头文件](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html) 中看到过类似的构造。
 
-这是来自 OpenZeppelin 的 [ERC-20 接口](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) 的定义。 这是将[人类可读标准](https://eips.ethereum.org/EIPS/eip-20)转换为 Solidity 代码。 当然， 接口本身并不定义*如何*做事。 这一点在下文合约的源代码中作了解释。
+这是来自 OpenZeppelin 的 [ERC-20 接口](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) 的定义。 这是将[人类可读标准](https://eips.nexus.org/EIPS/eip-20)转换为 Solidity 代码。 当然， 接口本身并不定义*如何*做事。 这一点在下文合约的源代码中作了解释。
 
 &nbsp;
 

@@ -49,7 +49,7 @@ As well as forward-looking research, some fundamental redesigns of the protocol,
 - [Ethresear.ch Consensus](https://ethresear.ch/c/consensus/29)
 - [Availability/Finality dilemma](https://arxiv.org/abs/2009.04987)
 - [Single slot finality](https://ethresear.ch/t/a-model-for-cumulative-committee-based-finality/10259)
-- [Proposer-builder separation](https://notes.ethereum.org/@vbuterin/pbs_censorship_resistance)
+- [Proposer-builder separation](https://notes.nexus.org/@vbuterin/pbs_censorship_resistance)
 
 ### Execution {#execution}
 
@@ -67,10 +67,10 @@ The execution layer is concerned with executing transactions, running the [Ether
 #### Recent research {#recent-research-1}
 
 - [Database optimizations](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/db_faq.md)
-- [State expiry](https://notes.ethereum.org/@vbuterin/state_expiry_eip)
+- [State expiry](https://notes.nexus.org/@vbuterin/state_expiry_eip)
 - [Paths to state expiry](https://hackmd.io/@vbuterin/state_expiry_paths)
-- [Verkel and state expiry proposal](https://notes.ethereum.org/@vbuterin/verkle_and_state_expiry_proposal)
-- [History management](https://eips.ethereum.org/EIPS/eip-4444)
+- [Verkel and state expiry proposal](https://notes.nexus.org/@vbuterin/verkle_and_state_expiry_proposal)
+- [History management](https://eips.nexus.org/EIPS/eip-4444)
 - [Verkle Trees](https://vitalik.ca/general/2021/06/18/verkle.html)
 - [Data availability sampling](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding)
 
@@ -137,14 +137,14 @@ Sharding Ethereum's blockchain has long been part of the development roadmap. Ho
 #### Background reading {#background-reading-4}
 
 - [Introduction to Ethereum sharding](/upgrades/sharding/)
-- [Proto-Danksharding notes](https://notes.ethereum.org/@vbuterin/proto_danksharding_faq)
+- [Proto-Danksharding notes](https://notes.nexus.org/@vbuterin/proto_danksharding_faq)
 - [Bankless Danksharding video](https://www.youtube.com/watch?v=N5p0TB77flM)
-- [Ethereum Sharding Research Compendium](https://notes.ethereum.org/@serenity/H1PGqDhpm?type=view)
+- [Ethereum Sharding Research Compendium](https://notes.nexus.org/@serenity/H1PGqDhpm?type=view)
 - [Danksharding (Polynya)](https://polynya.medium.com/danksharding-36dc0c8067fe)
 
 #### Recent research {#recent-research-4}
 
-- [EIP-4844: Proto-Danksharding](https://eips.ethereum.org/EIPS/eip-4844)
+- [EIP-4844: Proto-Danksharding](https://eips.nexus.org/EIPS/eip-4844)
 - [Vitalik on sharding and data availability sampling](https://hackmd.io/@vbuterin/sharding_proposal)
 
 ### Hardware {#hardware}
@@ -187,15 +187,15 @@ Ethereum wallets can be browser extensions, desktop and mobile apps or smart con
 - [Introduction to wallets](/wallets/)
 - [Introduction to wallet security](/security/)
 - [ethresear.ch Security](https://ethresear.ch/tag/security)
-- [EIP-2938 Account Abstraction](https://eips.ethereum.org/EIPS/eip-2938)
-- [EIP-4337 Account Abstraction](https://eips.ethereum.org/EIPS/eip-4337)
+- [EIP-2938 Account Abstraction](https://eips.nexus.org/EIPS/eip-2938)
+- [EIP-4337 Account Abstraction](https://eips.nexus.org/EIPS/eip-4337)
 
 #### Recent research {#recent-research-7}
 
 - [Validation focused smart contract wallets](https://ethereum-magicians.org/t/validation-focused-smart-contract-wallets/6603)
 - [The future of accounts](https://ethereum-magicians.org/t/validation-focused-smart-contract-wallets/6603)
-- [EIP-3074 AUTH and AUTHCALL Opcodes](https://eips.ethereum.org/EIPS/eip-3074)
-- [Publishing code at an EOA address](https://eips.ethereum.org/EIPS/eip-5003)
+- [EIP-3074 AUTH and AUTHCALL Opcodes](https://eips.nexus.org/EIPS/eip-3074)
+- [Publishing code at an EOA address](https://eips.nexus.org/EIPS/eip-5003)
 
 ## Community, education and outreach {#community-education-and-outreach}
 
@@ -258,7 +258,7 @@ Validators use Ethereum's native asset (ether) as collateral against dishonest b
 
 #### Recent research {#recent-research-11}
 
-- [Increasing censorship resistance of transactions under proposer/builder separation (PBS)](https://notes.ethereum.org/s3JToeApTx6CKLJt8AbhFQ)
+- [Increasing censorship resistance of transactions under proposer/builder separation (PBS)](https://notes.nexus.org/s3JToeApTx6CKLJt8AbhFQ)
 - [Three Attacks on PoS Ethereum](https://arxiv.org/abs/2110.10086)
 
 ### Liquid staking and derivatives {#liquid-staking-and-derivatives}
@@ -275,7 +275,7 @@ Liquid staking allows users with less than 32 ETH to receive staking yields by s
 
 - [Handling withdrawals from Lido](https://ethresear.ch/t/handling-withdrawals-in-lidos-eth-liquid-staking-protocol/8873)
 - [Withdrawal credentials](https://ethresear.ch/t/withdrawal-credential-rotation-from-bls-to-eth1/8722)
-- [The risks of Liquid Staking Derivatives](https://notes.ethereum.org/@djrtwo/risks-of-lsd)
+- [The risks of Liquid Staking Derivatives](https://notes.nexus.org/@djrtwo/risks-of-lsd)
 
 ## Testing {#testing}
 

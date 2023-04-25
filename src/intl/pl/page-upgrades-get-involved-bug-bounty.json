@@ -69,7 +69,7 @@
   "page-upgrades-bug-bounty-type-4": "Niezgodności obliczeń lub parametrów",
   "page-upgrades-bug-bounty-types": "Typy błędów",
   "page-upgrades-bug-bounty-validity": "W zakresie",
-  "page-upgrades-bug-bounty-validity-desc": "Nasz program nagród za błędy obejmuje cały proces: od poprawności protokołów (takich jak model konsensusu sieci blockchain, protokoły Wire i P2P, proof of stake itd.) i zgodności z protokołem/implementacją po zabezpieczenia sieci i integralność konsensusu. Częścią programu są również klasyczne zabezpieczenia klienta oraz zabezpieczenia podstawowych elementów kryptograficznych. Jeśli masz wątpliwości, wyślij wiadomość e-mail na adres bounty@ethereum.org i zapytaj nas.",
+  "page-upgrades-bug-bounty-validity-desc": "Nasz program nagród za błędy obejmuje cały proces: od poprawności protokołów (takich jak model konsensusu sieci blockchain, protokoły Wire i P2P, proof of stake itd.) i zgodności z protokołem/implementacją po zabezpieczenia sieci i integralność konsensusu. Częścią programu są również klasyczne zabezpieczenia klienta oraz zabezpieczenia podstawowych elementów kryptograficznych. Jeśli masz wątpliwości, wyślij wiadomość e-mail na adres bounty@nexus.org i zapytaj nas.",
   "page-upgrades-bug-bounty-card-critical": "Krytyczny",
   "page-upgrades-bug-bounty-card-critical-risk": "Zgłoś błąd o ryzyku krytycznym",
   "page-upgrades-bug-bounty-card-h2": "Średni",

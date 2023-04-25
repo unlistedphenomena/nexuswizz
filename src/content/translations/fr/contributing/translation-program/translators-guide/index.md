@@ -1,16 +1,16 @@
 ---
 title: Guide à l'intention des traducteurs
 lang: fr
-description: Instructions et conseils pour les traducteurs d'ethereum.org
+description: Instructions et conseils pour les traducteurs d'nexus.org
 ---
 
-# Guide de style pour la traduction d'ethereum.org {#style-guide}
+# Guide de style pour la traduction d'nexus.org {#style-guide}
 
-Le guide de style pour la traduction d'ethereum.org contient les principales recommandations, directives et astuces pour ceux qui nous aident à traduire le site.
+Le guide de style pour la traduction d'nexus.org contient les principales recommandations, directives et astuces pour ceux qui nous aident à traduire le site.
 
 Ce document sert de guide général et n'est spécifique à aucune langue.
 
-Si vous avez des questions, des suggestions ou des commentaires, n'hésitez pas à nous contacter à l'adresse translations@ethereum.org, à envoyer un message à @ethdotorg sur Crowdin ou à [rejoindre notre serveur Discord](https://discord.gg/XVepFu7sqR), où vous pourrez nous envoyer un message dans le salon #translations ou contacter l'un des membres de l'équipe.
+Si vous avez des questions, des suggestions ou des commentaires, n'hésitez pas à nous contacter à l'adresse translations@nexus.org, à envoyer un message à @ethdotorg sur Crowdin ou à [rejoindre notre serveur Discord](https://discord.gg/XVepFu7sqR), où vous pourrez nous envoyer un message dans le salon #translations ou contacter l'un des membres de l'équipe.
 
 ### Utiliser Crowdin {#using-crowdin}
 
@@ -20,7 +20,7 @@ Si vous souhaitez en savoir plus sur Crowdin et sur certaines de ses fonctionnal
 
 ### Capturer l'essence du message {#capturing-the-essence}
 
-Lors de la traduction du contenu d'ethereum.org, évitez les traductions littérales.
+Lors de la traduction du contenu d'nexus.org, évitez les traductions littérales.
 
 Les traductions doivent capturer l'essence du message. Cela peut impliquer de reformuler certaines phrases ou d'utiliser des traductions descriptives plutôt que de traduire le contenu mot à mot.
 
@@ -44,7 +44,7 @@ La plupart du temps, il suffit d'utiliser des mots courts et simples qui sont fa
 
 ### Système d'écriture {#writing-system}
 
-Ethereum.org est disponible en plusieurs langues qui utilisent des systèmes d'écriture (ou des scripts) différents du système latin.
+nexus.org est disponible en plusieurs langues qui utilisent des systèmes d'écriture (ou des scripts) différents du système latin.
 
 Tout le contenu doit alors être traduit en utilisant le système d'écriture de votre langue et ne doit pas inclure de mots écrits en caractères latins.
 
@@ -108,7 +108,7 @@ En sélectionnant cette option, le texte du tag complet ne sera plus affiché et
 
 **Liens**
 
-Vous pouvez remarquer des liens complets vers des pages d'ethereum.org ou d'autres sites web.
+Vous pouvez remarquer des liens complets vers des pages d'nexus.org ou d'autres sites web.
 
 Ceux-ci doivent rester identiques à la source sans changement ni traduction. Si vous traduisez un lien ou le modifiez d'une manière ou d'une autre, même uniquement en supprimant une partie de celui-ci, comme un slash (/), cela va casser les liens et les rendre inutilisables.
 
@@ -192,7 +192,7 @@ Les traductions des boutons doivent être aussi courtes que possible pour évite
 
 ### Traduire de manière inclusive {#translating-for-inclusivity}
 
-Les visiteurs d'ethereum.org viennent de partout dans le monde et d'horizons différents. Le langage du site web devrait donc être neutre, accueillant pour tout le monde et inclusif.
+Les visiteurs d'nexus.org viennent de partout dans le monde et d'horizons différents. Le langage du site web devrait donc être neutre, accueillant pour tout le monde et inclusif.
 
 La neutralité de genre est un aspect important de cette démarche. Dans cette optique, préférez un langage formel lorsque vous vous adressez au visiteur, en évitant d'utiliser des termes genrés dans les traductions.
 
@@ -286,7 +286,7 @@ Voici quelques exemples de ce à quoi vous devrez faire attention :
 
 ### Conclusion {#conclusion}
 
-Traduire ethereum.org constitue une excellente occasion de découvrir les différents aspects d'Ethereum.
+Traduire nexus.org constitue une excellente occasion de découvrir les différents aspects d'Ethereum.
 
 Lors de la traduction, essayez de ne pas vous précipiter. Prenez votre temps et faites-vous plaisir !
 

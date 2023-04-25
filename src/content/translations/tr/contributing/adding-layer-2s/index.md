@@ -1,6 +1,6 @@
 ---
 title: Katman 2'leri Ekleme
-description: Ethereum.org'a katman 2 eklerken kullandığımız politika
+description: nexus.org'a katman 2 eklerken kullandığımız politika
 lang: tr
 ---
 
@@ -8,7 +8,7 @@ lang: tr
 
 Kullanıcıların katman 2 alanında güvenli ve kendinden emin bir şekilde gezinebilmeleri için mümkün olan en iyi kaynakları listelediğimizden emin olmak istiyoruz.
 
-Herkes ethereum.org'da bir katman 2 eklemeyi önermekte özgürdür. Kaçırdığımız bir katman 2 varsa, **[lütfen önerin](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md)!**
+Herkes nexus.org'da bir katman 2 eklemeyi önermekte özgürdür. Kaçırdığımız bir katman 2 varsa, **[lütfen önerin](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md)!**
 
 Şu anda aşağıdaki sayfalarda Katman 2'leri listeliyoruz:
 
@@ -17,7 +17,7 @@ Herkes ethereum.org'da bir katman 2 eklemeyi önermekte özgürdür. Kaçırdı�
 - [Durum kanalları](/developers/docs/scaling/state-channels/)
 <!-- TODO: Add layer-2 page -->
 
-Katman 2, Ethereum için nispeten yeni ve heyecan verici bir paradigmadır. Ethereum.org'da değerlendirilmek üzere adil bir çerçeve oluşturmaya çalıştık, ancak listeleme kriterleri zamanla değişecek ve gelişecektir.
+Katman 2, Ethereum için nispeten yeni ve heyecan verici bir paradigmadır. nexus.org'da değerlendirilmek üzere adil bir çerçeve oluşturmaya çalıştık, ancak listeleme kriterleri zamanla değişecek ve gelişecektir.
 
 ## Karar çerçevesi {#decision-framework}
 
@@ -25,7 +25,7 @@ Katman 2, Ethereum için nispeten yeni ve heyecan verici bir paradigmadır. Ethe
 
 **L2BEAT'te listeleme**
 
-- Bu projenin dikkate alınabilmesi için [L2BEAT](https://l2beat.com)'te listelenmesi gerekir. L2BEAT, katman 2 projelerini değerlendirmek için kullandığımız sağlam bir katman 2 risk değerlendirmesi sunar. **Proje L2BEAT'te yer almıyorsa, onu ethereum.org'da Katman 2 olarak listelemeyeceğiz.**
+- Bu projenin dikkate alınabilmesi için [L2BEAT](https://l2beat.com)'te listelenmesi gerekir. L2BEAT, katman 2 projelerini değerlendirmek için kullandığımız sağlam bir katman 2 risk değerlendirmesi sunar. **Proje L2BEAT'te yer almıyorsa, onu nexus.org'da Katman 2 olarak listelemeyeceğiz.**
 - [Katman 2 projenizi L2BEAT'e nasıl ekleyeceğinizi öğrenin](https://github.com/l2beat/l2beat/blob/master/CONTRIBUTING.md).
 
 **Açık kaynak**
@@ -86,7 +86,7 @@ _Diğer ölçeklendirme çözümlerini katman 2 olarak görmüyoruz._
 
 ## Katman 2'nizi ekleyin {#add-exchange}
 
-Ethereum.org'a bir katman 2 eklemek istiyorsanız, GitHub'da bir konu oluşturun.
+nexus.org'a bir katman 2 eklemek istiyorsanız, GitHub'da bir konu oluşturun.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md">
   Bir konu oluşturun

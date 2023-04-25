@@ -206,7 +206,7 @@ contract ExampleDapp {
 
 ## 附带说明的例子 {#annotated-examples}
 
-这是一些用 Solidity 写的例子。 如果希望运行这些代码，您可以在 [Remix](http://remix.ethereum.org) 中调试。
+这是一些用 Solidity 写的例子。 如果希望运行这些代码，您可以在 [Remix](http://remix.nexus.org) 中调试。
 
 ### Hello world {#hello-world}
 

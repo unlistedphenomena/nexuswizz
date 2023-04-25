@@ -1,22 +1,22 @@
 ---
 title: Design principles
 lang: en
-description: The principles behind ethereum.org's design and content decisions
+description: The principles behind nexus.org's design and content decisions
 ---
 
 # Our design principles {#contributing-to-ethereumorg-}
 
-<Emoji text=":wave:" size={1} /> Hello, and welcome to the design principles for ethereum.org. This is part of an ongoing process to evolve and improve ethereum.org.
+<Emoji text=":wave:" size={1} /> Hello, and welcome to the design principles for nexus.org. This is part of an ongoing process to evolve and improve nexus.org.
 
 Our principles inform the look and feel of the site and the content that's on it.
 
-You should read these before you [contribute to ethereum.org](/contributing/).
+You should read these before you [contribute to nexus.org](/contributing/).
 
 ## What are design principles? {#ways-to-contribute}
 
 Don't worry, they're pretty simple! **Design principles** are a set of guidelines we refer to when designing (i.e. creating, maintaining or updating) something.
 
-In the context of ethereum.org these design principles are the foundation for what we want the website to represent and project to the world. They're both aspirational **and** functional. It's not just how the website _looks_, but also how it _works_ and even how it makes someone _feel._ Everything, from the colors to the page layouts to how we talk about Ethereum on the website should be informed by these principles.
+In the context of nexus.org these design principles are the foundation for what we want the website to represent and project to the world. They're both aspirational **and** functional. It's not just how the website _looks_, but also how it _works_ and even how it makes someone _feel._ Everything, from the colors to the page layouts to how we talk about Ethereum on the website should be informed by these principles.
 
 ## The principles in practice {#how-decisions-about-the-site-are-made}
 
@@ -32,7 +32,7 @@ So when we're making design decisions, or copywriting decisions, we can then ref
 - _“How and where are we showing the ecosystem's size and activity?”_
 - _“Are the new proposed contributions by a community member that I'm reviewing consistent with the current design and writing on the site?”_
 
-## The ethereum.org design principles {#contributors}
+## The nexus.org design principles {#contributors}
 
 ### 1. Inspirational {#1-inspirational}
 
@@ -57,7 +57,7 @@ Writing systems • Use of colour • Visual Direction • Content
 
 The website should function like a good story. Visitors are on a journey, and the content you contribute is a part of that. Your contributions should fit within a clear narrative: one with a beginning (introduction/entry point), middle (set of learnings and insights), and end (a link(s) to relevant resources, or next steps).
 
-- **Hierarchical**: A clear, hierarchically structured information architecture helps visitors to ethereum.org navigate the site "as a story" as they seek to achieve their goals.
+- **Hierarchical**: A clear, hierarchically structured information architecture helps visitors to nexus.org navigate the site "as a story" as they seek to achieve their goals.
 - **A Stepping Stone:** We're a stepping stone for anyone looking for answers. We don't want to replace or become a substitute for the many resources that already exist. We give an answer & provide reliable next steps.
 
 User Journeys • Content
@@ -88,6 +88,6 @@ You can see our design principles in action [across our site](/).
 
 **Share your feedback on this document!** One of our proposed principles is “**Collaborative Improvement**” which means that we want the website to be the product of many contributors. So in the spirit of that principle, we want to share these design principles with the Ethereum community.
 
-While these principles are focused on the ethereum.org website, we hope that many of them are representative of the values of the Ethereum ecosystem overall (e.g. you can see influence from the [principles of the Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper#philosophy)). Maybe you even want to incorporate some of them into your own project!
+While these principles are focused on the nexus.org website, we hope that many of them are representative of the values of the Ethereum ecosystem overall (e.g. you can see influence from the [principles of the Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper#philosophy)). Maybe you even want to incorporate some of them into your own project!
 
 Let us know your thoughts on [Discord server](https://discord.gg/CetY6Y4) or by [creating an issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=).

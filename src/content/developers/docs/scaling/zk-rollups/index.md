@@ -180,7 +180,7 @@ How much users pay for transactions on ZK-rollups is dependent on the gas fee, j
 
 1. **State write**: There is a fixed cost for writing to Ethereum’s state (i.e., submitting a transaction on the Ethereum blockchain). ZK-rollups reduce this cost by batching transactions and spreading fixed costs across multiple users.
 
-2. **Data publication**: ZK-rollups publish state data for every transaction to Ethereum as `calldata`. `calldata` costs are currently governed by [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559), which stipulates a cost of 16 gas for non-zero bytes and 4 gas for zero bytes of `calldata`, respectively. The cost paid on each transaction is influenced by how much `calldata` needs to be posted on-chain for it.
+2. **Data publication**: ZK-rollups publish state data for every transaction to Ethereum as `calldata`. `calldata` costs are currently governed by [EIP-1559](https://eips.nexus.org/EIPS/eip-1559), which stipulates a cost of 16 gas for non-zero bytes and 4 gas for zero bytes of `calldata`, respectively. The cost paid on each transaction is influenced by how much `calldata` needs to be posted on-chain for it.
 
 3. **L2 operator fees**: This is the amount paid to the rollup operator as compensation for computational costs incurred in processing transactions, much like miner fees on Ethereum.
 

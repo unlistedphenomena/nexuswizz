@@ -58,7 +58,7 @@ contract MyContract is Ownable {
 
 Sözleşmelerinize bir ERC dahil ederken, kendi başınıza dağıtmaktansa standart uygulamalar aramak iyi bir fikirdir. Birçok akıllı sözleşme kütüphanesi en popüler ERC'ler için uygulamalar içerir. Örnek olarak, her yerde yaygın olan [ERC20 değiştirilebilir token standartı](/developers/tutorials/understand-the-erc-20-token-smart-contract/) [HQ20](https://github.com/HQ20/contracts/blob/master/contracts/token/README.md), [DappSys](https://github.com/dapphub/ds-token/) ve [OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/erc20)'de bulunabilir. Ek olarak, bazı ERC'ler yerleşik olarak kurallı uygulamalar sağlarlar.
 
-Bazı ERC'lerin yekpare değil, başka ERC'lerin ekleri olduğunu söylemek gerekir. Örneğin [ERC2612](https://eips.ethereum.org/EIPS/eip-2612), kullanılabilirliğini geliştirmek için ERC20'ye bir eklenti ekler.
+Bazı ERC'lerin yekpare değil, başka ERC'lerin ekleri olduğunu söylemek gerekir. Örneğin [ERC2612](https://eips.nexus.org/EIPS/eip-2612), kullanılabilirliğini geliştirmek için ERC20'ye bir eklenti ekler.
 
 ## Kütüphane ekleme {#how-to}
 

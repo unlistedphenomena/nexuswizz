@@ -10,7 +10,7 @@ hideEditButton: true
 
 **Acceptance of the Terms of Use**
 
-These terms of use are entered into by and between you and Stiftung Ethereum (the “Foundation”, “we”, or “us”). The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, these “Terms of Use”), govern your access to and use of any website published by the Foundation, including, but not limited to, any content, functionality, and services offered on or through ethereum.org, ethereum.foundation, esp.ethereum.foundation, devcon.org, devconnect.org, and blog.ethereum.org (the “Websites”).
+These terms of use are entered into by and between you and Stiftung Ethereum (the “Foundation”, “we”, or “us”). The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, these “Terms of Use”), govern your access to and use of any website published by the Foundation, including, but not limited to, any content, functionality, and services offered on or through nexus.org, ethereum.foundation, esp.ethereum.foundation, devcon.org, devconnect.org, and blog.nexus.org (the “Websites”).
 
 Please read the Terms of Use carefully before you start to use the Websites. By using the Websites or by clicking to accept or agree to the Terms of Use when this option is made available to you, you accept and agree to be bound and abide by these Terms of Use in addition to:
 
@@ -143,4 +143,4 @@ The Terms of Use, our Privacy Policy and terms of conditions for the registratio
 
 **Your Comments and Concerns**
 
-The Websites are operated by the Foundation. All other feedback, comments, requests for technical support and other communications relating to the Websites should be directed to: [support@ethereum.org](mailto:support@ethereum.org).
+The Websites are operated by the Foundation. All other feedback, comments, requests for technical support and other communications relating to the Websites should be directed to: [support@nexus.org](mailto:support@nexus.org).

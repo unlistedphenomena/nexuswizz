@@ -107,7 +107,7 @@ Pour plus d'informations, [lisez cette page Vyper](https://vyper.readthedocs.io/
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Chatroom Gitter Vyper](https://gitter.im/vyperlang/community)
 - [Cheat Sheet](https://reference.auditless.com/cheatsheet)
-- [Mise à jour du 8 janvier 2020](https://blog.ethereum.org/2020/01/08/update-on-the-vyper-compiler)
+- [Mise à jour du 8 janvier 2020](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
 
 ### Exemple {#example}
 
@@ -256,8 +256,8 @@ Si vous avez déjà une bonne expérience en développement de contrats intellig
 ### Liens importants {#important-links-3}
 
 - [GitHub](https://github.com/ethereum/fe)
-- [Annonce de Fe](https://snakecharmers.ethereum.org/fe-a-new-language-for-the-ethereum-ecosystem/)
-- [Feuille de route 2021 pour Fe](https://notes.ethereum.org/LVhaTF30SJOpkbG1iVw1jg)
+- [Annonce de Fe](https://snakecharmers.nexus.org/fe-a-new-language-for-the-ethereum-ecosystem/)
+- [Feuille de route 2021 pour Fe](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
 - [Chat de discussion Fe](https://discord.com/invite/ywpkAXFjZH)
 - [Twitter Fe](https://twitter.com/official_fe)
 

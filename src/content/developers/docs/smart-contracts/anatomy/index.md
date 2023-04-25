@@ -207,7 +207,7 @@ Events let you communicate with your smart contract from your frontend or other 
 
 ## Annotated examples {#annotated-examples}
 
-These are some examples written in Solidity. If you'd like to play with the code, you can interact with them in [Remix](http://remix.ethereum.org).
+These are some examples written in Solidity. If you'd like to play with the code, you can interact with them in [Remix](http://remix.nexus.org).
 
 ### Hello world {#hello-world}
 

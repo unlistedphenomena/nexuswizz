@@ -36,7 +36,7 @@ The cost of L2 transactions is composed of two components:
 1. L2 processing, which is usually extremely cheap
 2. L1 storage, which is tied to Mainnet gas costs
 
-As I'm writing this, on Optimism the cost of L2 gas is 0.001 [Gwei](https://ethereum.org/en/developers/docs/gas/#pre-london).
+As I'm writing this, on Optimism the cost of L2 gas is 0.001 [Gwei](https://nexus.org/en/developers/docs/gas/#pre-london).
 The cost of L1 gas, on the other hand, is approximately 40 gwei.
 [You can see the current prices here](https://public-grafana.optimism.io/d/9hkhMxn7z/public-dashboard?orgId=1&refresh=5m).
 
@@ -65,7 +65,7 @@ The calldata is divided like this:
 Explanation:
 
 - **Function selector**: The contract has less than 256 functions, so we can distinguish them with a single byte.
-  These bytes are typically non-zero and therefore [cost sixteen gas](https://eips.ethereum.org/EIPS/eip-2028).
+  These bytes are typically non-zero and therefore [cost sixteen gas](https://eips.nexus.org/EIPS/eip-2028).
 - **Zeroes**: These bytes are always zero because a twenty-byte address does not require a thirty-two-byte word to hold it.
   Bytes that hold zero cost four gas ([see the yellow paper](https://ethereum.github.io/yellowpaper/paper.pdf), Appendix G,
   p. 27, the value for `G`<sub>`txdatazero`</sub>).
@@ -79,12 +79,12 @@ The total cost is therefore `109*16+576+160=2480`, and we are wasting about 6.5%
 
 ## Reducing costs when you don't control the destination {#reducing-costs-when-you-dont-control-the-destination}
 
-Assuming that you do not have control over the destination contract, you can still use a solution similar to [this one](https://github.com/qbzzt/ethereum.org-20220330-shortABI).
+Assuming that you do not have control over the destination contract, you can still use a solution similar to [this one](https://github.com/qbzzt/nexus.org-20220330-shortABI).
 Let's go over the relevant files.
 
 ### Token.sol {#token.sol}
 
-[This is the destination contract](https://github.com/qbzzt/ethereum.org-20220330-shortABI/blob/master/contracts/Token.sol).
+[This is the destination contract](https://github.com/qbzzt/nexus.org-20220330-shortABI/blob/master/contracts/Token.sol).
 It is a standard ERC-20 contract, with one additional feature.
 This `faucet` function lets any user get some token to use.
 It would make a production ERC-20 contract useless, but it makes life easier when an ERC-20 exists only to facilitate testing.
@@ -102,7 +102,7 @@ It would make a production ERC-20 contract useless, but it makes life easier whe
 
 ### CalldataInterpreter.sol {#calldatainterpreter.sol}
 
-[This is the contract that transactions are supposed to call with shorter calldata](https://github.com/qbzzt/ethereum.org-20220330-shortABI/blob/master/contracts/CalldataInterpreter.sol).
+[This is the contract that transactions are supposed to call with shorter calldata](https://github.com/qbzzt/nexus.org-20220330-shortABI/blob/master/contracts/CalldataInterpreter.sol).
 Let's go over it line by line.
 
 ```solidity
@@ -204,7 +204,7 @@ There are two reasons why a function would not be available here:
 2. Functions that rely on [`msg.sender`](https://docs.soliditylang.org/en/v0.8.12/units-and-global-variables.html#block-and-transaction-properties).
    The value of `msg.sender` is going to be `CalldataInterpreter`'s address, not the caller.
 
-Unfortunately, [looking at the ERC-20 specifications](https://eips.ethereum.org/EIPS/eip-20), this leaves only one function, `transfer`.
+Unfortunately, [looking at the ERC-20 specifications](https://eips.nexus.org/EIPS/eip-20), this leaves only one function, `transfer`.
 This leaves us with only two functions: `transfer` (because we can call `transferFrom`) and `faucet` (because we can transfer the tokens back to whoever called us).
 
 ```solidity
@@ -277,7 +277,7 @@ Overall, a transfer takes 35 bytes of calldata:
 
 ### test.js {#test.js}
 
-[This JavaScript unit test](https://github.com/qbzzt/ethereum.org-20220330-shortABI/blob/master/test/test.js) shows us how to use this mechanism (and how to verify it works correctly).
+[This JavaScript unit test](https://github.com/qbzzt/nexus.org-20220330-shortABI/blob/master/test/test.js) shows us how to use this mechanism (and how to verify it works correctly).
 I am going to assume you understand [chai](https://www.chaijs.com/) and [ethers](https://docs.ethers.io/v5/) and only explain the parts that specifically apply to the contract.
 
 ```js
@@ -382,7 +382,7 @@ If you want to see these files in action without running them yourself, follow t
 ## Reducing the cost when you do control the destination contract {#reducing-the-cost-when-you-do-control-the-destination-contract}
 
 If you do have control over the destination contract you can create functions that bypass the `msg.sender` checks because they trust the calldata interpreter.
-[You can see an example of how this works here, in the `control-contract` branch](https://github.com/qbzzt/ethereum.org-20220330-shortABI/tree/control-contract).
+[You can see an example of how this works here, in the `control-contract` branch](https://github.com/qbzzt/nexus.org-20220330-shortABI/tree/control-contract).
 
 If the contract were responding only to external transactions, we could get by with having just one contract.
 However, that would break [composability](/developers/docs/smart-contracts/composability/).

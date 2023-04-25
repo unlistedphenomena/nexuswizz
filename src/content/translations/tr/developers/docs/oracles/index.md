@@ -96,7 +96,7 @@ contract PriceConsumerV3 {
 }
 ```
 
-[Bunu, bu bağlantı ile remix'te test edebilirsiniz](https://remix.ethereum.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
+[Bunu, bu bağlantı ile remix'te test edebilirsiniz](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
 
 [Belgeleri görüntüle](https://docs.chain.link/docs/get-the-latest-price)
 
@@ -169,7 +169,7 @@ Chainlink Keepers'ı kullanmak için, bir akıllı sözleşme [KeeperCompatibleI
 - `checkUpkeep` - Sözleşmede iş yapılmasının gerekip gerekmediğini kontrol eder.
 - `performUpkeep` - checkUpkeep tarafından emir verilirse işi sözleşme üzerinde gerçekleştirir.
 
-Aşağıdaki örnek basit bir sayaç sözleşmesidir. `counter` değişkeni, `performUpkeep` öğesine yapılan her çağrıda birer birer artırılır. [Sıradaki kodu Remix kullanarak deneyebilirsiniz](https://remix.ethereum.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
+Aşağıdaki örnek basit bir sayaç sözleşmesidir. `counter` değişkeni, `performUpkeep` öğesine yapılan her çağrıda birer birer artırılır. [Sıradaki kodu Remix kullanarak deneyebilirsiniz](https://remix.nexus.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -222,7 +222,7 @@ Keeper uyumlu bir sözleşmeyi dağıttıktan sonra, sözleşmeyi [Bakım](https
 
 [Chainlink API Çağrıları](https://docs.chain.link/docs/make-a-http-get-request), web'in geleneksel şekilde çalıştığı şekilde zincir dışı dünyadan veri almanın en kolay yoludur: API çağrıları. Bunun tek bir örneğini yapmak ve tek bir kâhine sahip olmak, bunu doğası gereği merkezileştirir. Bir akıllı sözleşme platformunun, gerçekten merkeziyetsiz şekilde kalmak için bir [harici veri pazarında](https://market.link/) bulunan çok sayıda düğümü kullanması gerekir.
 
-[Test etmek için aşağıdaki kodu kovan ağında remix'te dağıtın](https://remix.ethereum.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
+[Test etmek için aşağıdaki kodu kovan ağında remix'te dağıtın](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
 
 Bu aynı zamanda kâhinlerin talep ve alma döngüsünü de takip eder ve çalışması için Kovan LINK (kâhin gazı) ile finanse edilecek sözleşmeye ihtiyaç duyar.
 

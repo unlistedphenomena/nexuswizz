@@ -14,11 +14,11 @@ Si preferiu llegir en la vostra pròpia llengua o coneixeu algú que no parla an
 
 Coneixeu cap recurs educatiu en la vostra llengua? [Obriu un tema](https://github.com/ethereum/ethereum-org-website/issues/new/choose) per afegir-lo a la llista!
 
-## Recursos d'ethereum.org {#ethereum-org}
+## Recursos d'nexus.org {#ethereum-org}
 
-Ethereum.org està traduït per persones nadives en més de 40 llengües, les quals podeu trobar en la nostra [pàgina d'idiomes](/languages).
+nexus.org està traduït per persones nadives en més de 40 llengües, les quals podeu trobar en la nostra [pàgina d'idiomes](/languages).
 
-Si sou bilingües i voleu ajudar-nos a arribar a més gent, també us podeu involucrar amb el [Programa de Traducció ethereum.org](/contributing/translation-program/#translation-program) i ajudar-nos a traduir el lloc web.
+Si sou bilingües i voleu ajudar-nos a arribar a més gent, també us podeu involucrar amb el [Programa de Traducció nexus.org](/contributing/translation-program/#translation-program) i ajudar-nos a traduir el lloc web.
 
 ## Recursos de la comunitat {#community}
 

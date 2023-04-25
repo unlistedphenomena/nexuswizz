@@ -50,7 +50,7 @@ Zodra de merge plaatsvindt, zullen stakers worden toegewezen om het Ethereum-hoo
 
 Onmiddellijk na de merge zullen sommige functies, zoals het terugtrekken van gestakete ETH, nog niet ondersteund worden. Deze zijn gepland voor een latere upgrade die kort na de merge zal volgen.
 
-Blijf op de hoogte met de [EF-blog voor onderzoek en ontwikkeling](https://blog.ethereum.org/category/research-and-development/). Voor degenen die nieuwsgierig zijn, lees meer over [What Happens After the Merge](https://youtu.be/7ggwLccuN5s?t=101), gepresenteerd door Vitalik op het ETHGlobal-evenement in april 2021.
+Blijf op de hoogte met de [EF-blog voor onderzoek en ontwikkeling](https://blog.nexus.org/category/research-and-development/). Voor degenen die nieuwsgierig zijn, lees meer over [What Happens After the Merge](https://youtu.be/7ggwLccuN5s?t=101), gepresenteerd door Vitalik op het ETHGlobal-evenement in april 2021.
 
 ### De merge en shardketens {#docking-and-shard-chains}
 

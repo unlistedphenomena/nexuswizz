@@ -90,7 +90,7 @@ Smart contracts alone cannot get information about "real-world" events because t
 
 There are ways to get around this using [oracles](/developers/docs/oracles/).
 
-Another limitation of smart contracts is the maximum contract size. A smart contract can be a maximum of 24KB or it will run out of gas. This can be circumnavigated by using [The Diamond Pattern](https://eips.ethereum.org/EIPS/eip-2535).
+Another limitation of smart contracts is the maximum contract size. A smart contract can be a maximum of 24KB or it will run out of gas. This can be circumnavigated by using [The Diamond Pattern](https://eips.nexus.org/EIPS/eip-2535).
 
 ## Multisig contracts {#multisig}
 

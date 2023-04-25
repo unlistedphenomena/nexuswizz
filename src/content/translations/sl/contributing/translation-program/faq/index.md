@@ -1,10 +1,10 @@
 ---
-title: Vodnik za prevajanje ethereum.org
+title: Vodnik za prevajanje nexus.org
 lang: sl
-description: Kako pomagati pri prevajanju ethereum.org
+description: Kako pomagati pri prevajanju nexus.org
 ---
 
-# Vodnik za prevajanje ethereum.org {#translating-ethereum-guide}
+# Vodnik za prevajanje nexus.org {#translating-ethereum-guide}
 
 Če ste novi v prevajalskem programu in se še obotavljate, so tukaj FAQ - pogosto zastavljena vprašanja, ki vam lahko pomagajo pri začetku. Uporabite ta vodnik, da najdete odgovore do najpogostejših poizvedb.
 
@@ -41,7 +41,7 @@ Pogosto le izvorni niz morda ne bo dovolj, da bi lahko zagotovili natančen prev
 
 ## Kaj je pomnilnik prevodov (TM)? {#translation-memory}
 
-Pomnilnik prevodov (TM) je funkcija orodja Crowdin, ki shrani vse predhodne prevedene nize na strani [ethereum.org](http://ethereum.org/). Ko je niz preveden, se samodejno shrani v TM našega projekta. To je lahko uporabno orodje, ki vam pomaga prihraniti vaš čas!
+Pomnilnik prevodov (TM) je funkcija orodja Crowdin, ki shrani vse predhodne prevedene nize na strani [nexus.org](http://nexus.org/). Ko je niz preveden, se samodejno shrani v TM našega projekta. To je lahko uporabno orodje, ki vam pomaga prihraniti vaš čas!
 
 - Oglejte si sekcijo "TM in MT predlogi" in lahko boste videli, kako so drugi prevajalci prevedli enak ali podoben niz. Če najdete predlog z visokim razmerjem ujemanja, ga s klikom brez težav uporabite za prevod.
 - Če na seznamu ni ničesar, lahko iščete po TM za predhodne prevode in jih ponovno uporabite za ohranjanje konsistentnosti.

@@ -54,7 +54,7 @@ Notez qu'il s'agit là de modèles généraux qui ne sont pas nécessairement va
 
 ## Complément d'information {#further-reading}
 
-- [Qu'est-ce que le Web3 ?](/web3/) - _ethereum.org_
+- [Qu'est-ce que le Web3 ?](/web3/) - _nexus.org_
 - [L'Architecture d'une application Web 3.0](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [The Meaning of Decentralization](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _- Vitalik Buterin, 6 février 2017 _
 - [Pourquoi la décentralisation est importante](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _- Chris Dixon, 18 février 2018_

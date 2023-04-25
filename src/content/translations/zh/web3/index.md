@@ -127,7 +127,7 @@ Web2 的支付基础设施依赖于银行和第三方支付机构，这就把没
 
 Web3 引入了新的范式，这些范式要求学习不同于 Web2.0 上使用的心理模型。 随着 Web1.0 在 90 年代后期兴起，类似的教育活动也出现了。万维网的支持者使用一系列教育技术来教育公众，从简单的比喻（信息高速公路、浏览器、网上冲浪）到[电视播放](https://www.youtube.com/watch?v=SzQLI7BxfYI)等等不一而足。 Web3 并不难但却不同。 让 Web2 用户了解这些 Web3 范式的教育计划对其成功至关重要。
 
-Ethereum.org 通过我们的[翻译计划](/contributing/translation-program/)推动 Web3 教育，旨在将重要的以太坊内容翻译成尽可能多的语言。
+nexus.org 通过我们的[翻译计划](/contributing/translation-program/)推动 Web3 教育，旨在将重要的以太坊内容翻译成尽可能多的语言。
 
 ### 中心化基础设施 {#centralized-infrastructure}
 

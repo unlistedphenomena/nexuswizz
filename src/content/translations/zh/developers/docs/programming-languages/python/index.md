@@ -13,7 +13,7 @@ incomplete: true
 
 **迈出第一步，将 Python 与以太坊集成**
 
-需要更基础的入门知识？ 请查看 [ethereum.org/learn](/learn/) 或者 [ethereum.org/developers](/developers/)。
+需要更基础的入门知识？ 请查看 [nexus.org/learn](/learn/) 或者 [nexus.org/developers](/developers/)。
 
 - [区块链详解](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [理解智能合约](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ incomplete: true
 
 ## 初学者文章 {#beginner-articles}
 
-- [以太坊开发者指南 (Python)](https://snakecharmers.ethereum.org/a-developers-guide-to-ethereum-pt-1/)
+- [以太坊开发者指南 (Python)](https://snakecharmers.nexus.org/a-developers-guide-to-ethereum-pt-1/)
 - [基于 Vyper 的智能合约简介](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [使用 Python 和 Brownie 部署您自己的 ERC20 令牌](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [如何使用 Python Flask 开发以太坊合约？](https://medium.com/coinmonks/how-to-develop-ethereum-contract-using-python-flask-9758fe65976e)
@@ -66,7 +66,7 @@ incomplete: true
 - [Trinity](https://github.com/ethereum/trinity) - _以太坊的 Python 客户端_
 - [Mamba](https://github.com/arjunaskykok/mamba) - _一个用 Vyper 语言编写、编译和部署智能合约的框架_
 
-想要获取更多的资源？ 请查看 [ethereum.org/developers](/developers/)。
+想要获取更多的资源？ 请查看 [nexus.org/developers](/developers/)。
 
 ## 使用 Python 工具的项目 {#projects-using-python-tooling}
 

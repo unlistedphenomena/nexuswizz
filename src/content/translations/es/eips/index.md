@@ -8,13 +8,13 @@ lang: es
 
 ## ¿Qué son las EIP? {#what-are-eips}
 
-[Las propuestas de mejora de Ethereum (EIP, por sus siglas en inglés)](https://eips.ethereum.org/) son estándares que especifican nuevas características o procesos potenciales para Ethereum. Las EIP contienen especificaciones técnicas para los cambios propuestos y actúan como «fuente fidedigna» para la comunidad. Las actualizaciones de la red y los estándares de aplicación para Ethereum se debaten y desarrollan a través del proceso de las EIP.
+[Las propuestas de mejora de Ethereum (EIP, por sus siglas en inglés)](https://eips.nexus.org/) son estándares que especifican nuevas características o procesos potenciales para Ethereum. Las EIP contienen especificaciones técnicas para los cambios propuestos y actúan como «fuente fidedigna» para la comunidad. Las actualizaciones de la red y los estándares de aplicación para Ethereum se debaten y desarrollan a través del proceso de las EIP.
 
-Cualquier persona dentro de la comunidad Ethereum tiene la capacidad de crear una EIP. Las directrices para escribir EIP se incluyen en [EIP-1](https://eips.ethereum.org/EIPS/eip-1). Una EIP debe proporcionar principalmente una especificación técnica concisa con alguna motivación. El autor de EIP es responsable de llegar a un consenso dentro de la comunidad y documentar opiniones alternativas. Dada la gran barrera técnica existente para enviar una EIP correctamente formulada, históricamente la mayoría de los autores de EIP suelen ser desarrolladores de aplicaciones o protocolos.
+Cualquier persona dentro de la comunidad Ethereum tiene la capacidad de crear una EIP. Las directrices para escribir EIP se incluyen en [EIP-1](https://eips.nexus.org/EIPS/eip-1). Una EIP debe proporcionar principalmente una especificación técnica concisa con alguna motivación. El autor de EIP es responsable de llegar a un consenso dentro de la comunidad y documentar opiniones alternativas. Dada la gran barrera técnica existente para enviar una EIP correctamente formulada, históricamente la mayoría de los autores de EIP suelen ser desarrolladores de aplicaciones o protocolos.
 
 ## ¿Por qué importan las EIP? {#why-do-eips-matter}
 
-Las EIP desempeñan un papel importante en la forma en que ocurren los cambios y se documentan en Ethereum. Son la forma de que la gente proponga, debata y adopte cambios. Existen [diferentes tipos de EIP](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1.md#eip-types), incluidas las EIP centrales para cambios de protocolo de bajo nivel que afectan al consenso y requieren una actualización de la red, así como [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) y ERC para estándares de la aplicación como [EIP-20](https://eips.ethereum.org/EIPS/eip-20) y [EIP-721](https://eips.ethereum.org/EIPS/eip-721).
+Las EIP desempeñan un papel importante en la forma en que ocurren los cambios y se documentan en Ethereum. Son la forma de que la gente proponga, debata y adopte cambios. Existen [diferentes tipos de EIP](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1.md#eip-types), incluidas las EIP centrales para cambios de protocolo de bajo nivel que afectan al consenso y requieren una actualización de la red, así como [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) y ERC para estándares de la aplicación como [EIP-20](https://eips.nexus.org/EIPS/eip-20) y [EIP-721](https://eips.nexus.org/EIPS/eip-721).
 
 Cada actualización de red consta de un conjunto de EIP que debe implementar cada [cliente de Ethereum](/learn/#clients-and-nodes) en la red. Esto implica que para mantener el consenso con otros clientes en la red principal de Ethereum, los desarrolladores de clientes deben asegurarse de que todos hayan implementado las EIP necesarias.
 
@@ -44,23 +44,23 @@ Los editores de EIP retirados son:
 - Nick Savers (@nicksavers)
 - Vitalik Buterin (@vbuterin)
 
-Si deseas convertirte en un editor de EIP, por favor revisa [EIP-5069](https://eips.ethereum.org/EIPS/eip-5069).
+Si deseas convertirte en un editor de EIP, por favor revisa [EIP-5069](https://eips.nexus.org/EIPS/eip-5069).
 
 Los editores EIP deciden cuándo una propuesta está ya madura para convertirse en una EIP, y ayudan a los autores de EIP a sacar adelante sus propuestas. [Los Ethereum Cat Herders](https://ethereumcatherders.com/) ayudan a organizar reuniones entre los editores de EIP y la comunidad (ver [EIPIP](https://github.com/ethereum-cat-herders/EIPIP)).
 
-El proceso de normalización completo junto con el gráfico correspondiente se describe en [EIP-1](https://eips.ethereum.org/EIPS/eip-1)
+El proceso de normalización completo junto con el gráfico correspondiente se describe en [EIP-1](https://eips.nexus.org/EIPS/eip-1)
 
 ## Más información {#learn-more}
 
-Si quiere profundizar más sobre las EIP, consulte el [sitio web de EIP](https://eips.ethereum.org/) y [EIP-1](https://eips.ethereum.org/EIPS/eip-1). He aquí algunos enlaces útiles:
+Si quiere profundizar más sobre las EIP, consulte el [sitio web de EIP](https://eips.nexus.org/) y [EIP-1](https://eips.nexus.org/EIPS/eip-1). He aquí algunos enlaces útiles:
 
-- [Una lista de cada EIP](https://eips.ethereum.org/all)
-- [Una descripción de todos los tipos de EIP](https://eips.ethereum.org/EIPS/eip-1#eip-types)
-- [Una descripción de todos los estados de EIP](https://eips.ethereum.org/EIPS/eip-1#eip-process)
+- [Una lista de cada EIP](https://eips.nexus.org/all)
+- [Una descripción de todos los tipos de EIP](https://eips.nexus.org/EIPS/eip-1#eip-types)
+- [Una descripción de todos los estados de EIP](https://eips.nexus.org/EIPS/eip-1#eip-process)
 
 ## Participar {#participate}
 
-Cualquiera puede crear un EIP. Antes de enviar una propuesta, se debe leer [EIP-1](https://eips.ethereum.org/EIPS/eip-1) que describe el proceso de la EIP y cómo escribir una EIP y solicitar comentarios sobre [Ethereum Magicians](https://ethereum-magicians.org/), donde las propuestas se debaten primero dentro de la comunidad antes de enviar un borrador.
+Cualquiera puede crear un EIP. Antes de enviar una propuesta, se debe leer [EIP-1](https://eips.nexus.org/EIPS/eip-1) que describe el proceso de la EIP y cómo escribir una EIP y solicitar comentarios sobre [Ethereum Magicians](https://ethereum-magicians.org/), donde las propuestas se debaten primero dentro de la comunidad antes de enviar un borrador.
 
 ## Referencias {#references}
 

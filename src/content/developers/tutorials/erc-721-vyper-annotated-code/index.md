@@ -222,7 +222,7 @@ ERC165_INTERFACE_ID: constant(bytes32) = 0x0000000000000000000000000000000000000
 ERC721_INTERFACE_ID: constant(bytes32) = 0x0000000000000000000000000000000000000000000000000000000080ac58cd
 ```
 
-[ERC-165](https://eips.ethereum.org/EIPS/eip-165) specifies a mechanism for a contract to disclose how applications
+[ERC-165](https://eips.nexus.org/EIPS/eip-165) specifies a mechanism for a contract to disclose how applications
 can communicate with it, to which ERCs it conforms. In this case, the contract conforms to ERC-165 and ERC-721.
 
 ### Functions {#functions}
