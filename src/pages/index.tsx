@@ -616,7 +616,7 @@ const HomePage = ({
               />
             </ImageContainer>
           </IntroRow>
-          <StyledCardContainer>
+          {/* <StyledCardContainer>
             {cards.map((card, idx) => (
               <StyledCard
                 key={idx}
@@ -627,7 +627,7 @@ const HomePage = ({
                 alt={card.alt}
               />
             ))}
-          </StyledCardContainer>
+          </StyledCardContainer> */}
         </StyledContent>
       </StyledGrayContainer>
       <EthereumIntroContainer>
@@ -776,6 +776,18 @@ const HomePage = ({
           </Codeblock>
         </CodeboxModal>
       </DeveloperContainer>
+      <StyledCardContainer>
+        {cards.map((card, idx) => (
+          <StyledCard
+            key={idx}
+            title={card.title}
+            description={card.description}
+            to={card.to}
+            image={card.image!}
+            alt={card.alt}
+          />
+        ))}
+      </StyledCardContainer>
       <StyledGrayContainer>
         <StyledContent>
           <h2>
