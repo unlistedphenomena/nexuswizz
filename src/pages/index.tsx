@@ -788,7 +788,7 @@ const HomePage = ({
           />
         ))}
       </StyledCardContainer>
-      <StyledGrayContainer>
+      {/* <StyledGrayContainer>
         <StyledContent>
           <h2>
             <Translation id="page-index-network-stats-title" />
@@ -798,7 +798,7 @@ const HomePage = ({
           </Subtitle>
         </StyledContent>
         <StatsBoxGrid />
-      </StyledGrayContainer>
+      </StyledGrayContainer> */}
       <StyledContent>
         <h2>
           <Translation id="page-index-touts-header" />
