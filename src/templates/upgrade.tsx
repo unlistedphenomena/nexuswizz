@@ -371,10 +371,10 @@ const UpgradePage = ({
               ))}
             </ul>
           </SummaryBox>
-          <LastUpdated>
+          {/* <LastUpdated>
             <Translation id="page-last-updated" />:{" "}
             {getLocaleTimestamp(intl.locale as Lang, lastUpdatedDate)}
-          </LastUpdated>
+          </LastUpdated> */}
         </TitleCard>
         <Image image={getImage(mdx.frontmatter.image)!} alt="" />
       </HeroContainer>

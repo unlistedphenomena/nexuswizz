@@ -30,11 +30,11 @@ const FeedbackCard: React.FC<IProps> = ({
   const getTitle = (feedbackSubmitted: boolean): ReactNode => {
     if (!feedbackSubmitted) {
       if (prompt) return prompt
-      if (isTutorial) return <Translation id="feedback-card-prompt-tutorial" />
-      if (isArticle) return <Translation id="feedback-card-prompt-article" />
-      return <Translation id="feedback-card-prompt-page" />
+      // if (isTutorial) return <Translation id="feedback-card-prompt-tutorial" />
+      // if (isArticle) return <Translation id="feedback-card-prompt-article" />
+      // return <Translation id="feedback-card-prompt-page" />
     }
-    return <Translation id="feedback-widget-thank-you-title" />
+    // return <Translation id="feedback-widget-thank-you-title" />
   }
 
   const handleSubmit = (choice: boolean): void => {

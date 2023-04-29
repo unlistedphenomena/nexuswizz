@@ -205,12 +205,12 @@ const StaticPage = ({
         />
         <ContentContainer>
           <Breadcrumbs slug={slug} />
-          <LastUpdated
+          {/* <LastUpdated
             dir={isLangRightToLeft(intl.locale as Lang) ? "rtl" : "ltr"}
           >
             <Translation id="page-last-updated" />:{" "}
             {getLocaleTimestamp(intl.locale as Lang, lastUpdatedDate)}
-          </LastUpdated>
+          </LastUpdated> */}
           <MobileTableOfContents
             editPath={absoluteEditPath}
             items={tocItems}

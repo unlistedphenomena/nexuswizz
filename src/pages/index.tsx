@@ -605,6 +605,10 @@ const HomePage = ({
               <Subtitle>
                 <Translation id="page-index-get-started-description" />
               </Subtitle>
+              {/* Naah */}
+              <ButtonLink to="/defi/">
+                <Translation id="page-index-what-is-ethereum-button" />
+              </ButtonLink>
             </IntroLeftColumn>
             <ImageContainer>
               <IntroImage

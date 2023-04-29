@@ -187,14 +187,14 @@ const Footer: React.FC<IProps> = () => {
     {
       title: "ecosystem",
       links: [
-        // {
-        //   to: `/community/`,
-        //   text: "community-hub",
-        // },
-        // {
-        //   to: "/foundation/",
-        //   text: "ethereum-foundation",
-        // },
+        {
+          to: `/community/`,
+          text: "community-hub",
+        },
+        {
+          to: "/foundation/",
+          text: "nexus-foundation",
+        },
         // {
         //   to: "https://blog.nexus.org/",
         //   text: "ef-blog",
@@ -203,10 +203,10 @@ const Footer: React.FC<IProps> = () => {
         //   to: "https://esp.ethereum.foundation",
         //   text: "esp",
         // },
-        // {
-        //   to: "/bug-bounty/",
-        //   text: "ethereum-bug-bounty",
-        // },
+        {
+          to: "/bug-bounty/",
+          text: "nexus-bug-bounty",
+        },
         // {
         //   to: "/community/grants",
         //   text: "grant-programs",
@@ -232,10 +232,10 @@ const Footer: React.FC<IProps> = () => {
         //   to: "/enterprise/private-ethereum/",
         //   text: "private-ethereum",
         // },
-        // {
-        //   to: "/enterprise/",
-        //   text: "enterprise",
-        // },
+        {
+          to: "/enterprise/",
+          text: "enterprise",
+        },
       ],
     },
     {
@@ -315,7 +315,7 @@ const Footer: React.FC<IProps> = () => {
                     color="secondary"
                     aria-label={link.ariaLabel}
                   >
-                    <Icon as={link.icon} fontSize="2xl" ml={1} />
+                    <Icon as={link.icon} fontSize="2xl" p={0} ml={3} />
                   </Link>
                 )
               })}
