@@ -607,7 +607,7 @@ const HomePage = ({
               </Subtitle>
               {/* Naah */}
               <ButtonLink to="/defi/">
-                <Translation id="page-index-what-is-ethereum-button" />
+                <Translation id="Learn More" />
               </ButtonLink>
             </IntroLeftColumn>
             <ImageContainer>

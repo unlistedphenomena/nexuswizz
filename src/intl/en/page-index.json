@@ -65,7 +65,7 @@
   "page-index-tout-upgrades-title": "Level up your upgrade knowledge",
   "page-index-tout-upgrades-description": "The Nexus roadmap consists of interconnected upgrades designed to make the network more scalable, secure, and sustainable.",
   "page-index-tout-upgrades-image-alt": "Illustration of a spaceship representing the increased power after Nexus upgrades.",
-  "page-index-tout-enterprise-title": "Nexus for enterprise",
+  "page-index-tout-enterprise-title": "Learn More",
   "page-index-tout-enterprise-description": "See how Nexus can open up new business models, reduce your costs and future-proof your business.",
   "page-index-tout-enterprise-image-alt": "Illustration of a futuristic computer/device.",
   "page-index-tout-community-title": "The Nexus community",
@@ -74,5 +74,6 @@
   "page-index-nft": "The internet of assets",
   "page-index-nft-description": "Introducing a groundbreaking platform that brings together the world of traditional stocks and the exciting world of cryptocurrency trading. Our platform provides a seamless trading experience, allowing you to easily invest in both traditional stocks and digital assets such as Bitcoin and Ethereum.",
   "page-index-nft-button": "More on Gem Card",
-  "page-index-nft-alt": "An Eth logo being displayed via hologram."
+  "page-index-nft-alt": "An Eth logo being displayed via hologram.",
+  "Learn More": "Learn More"
 }

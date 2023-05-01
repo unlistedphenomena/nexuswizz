@@ -401,6 +401,10 @@ const Nav: React.FC<IProps> = ({ path }) => {
             </LeftItems>
             <RightItems>
               {/* <Search useKeyboardShortcut /> */}
+              {/* A button */}
+              <ButtonLink to="/defi/">
+                <Translation id="page-index-what-is-ethereum-button" />
+              </ButtonLink>
               <IconButton
                 aria-label={
                   isDarkTheme ? "Switch to Light Theme" : "Switch to Dark Theme"
