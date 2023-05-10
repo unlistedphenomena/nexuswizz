@@ -331,10 +331,10 @@ const Nav: React.FC<IProps> = ({ path }) => {
           text: "nexus-support",
           to: "/community/support/",
         },
-        {
-          text: "language-resources",
-          to: "/community/language-resources/",
-        },
+        // {
+        //   text: "language-resources",
+        //   to: "/community/language-resources/",
+        // },
       ],
     },
   }
@@ -412,7 +412,7 @@ const Nav: React.FC<IProps> = ({ path }) => {
                 icon={
                   <Icon
                     as={isDarkTheme ? MdWbSunny : MdBrightness2}
-                    fontSize="2xl"
+                    fontSize="1xl"
                   />
                 }
                 variant="icon"
@@ -430,7 +430,7 @@ const Nav: React.FC<IProps> = ({ path }) => {
           {/* Mobile */}
           <MobileNavMenu
             isMenuOpen={isMenuOpen}
-            isSearchOpen={false}
+            isSearchOpen={true}
             isDarkTheme={isDarkTheme}
             toggleMenu={handleMenuToggle}
             toggleTheme={toggleColorMode}
