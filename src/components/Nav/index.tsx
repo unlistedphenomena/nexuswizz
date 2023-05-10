@@ -430,7 +430,7 @@ const Nav: React.FC<IProps> = ({ path }) => {
           {/* Mobile */}
           <MobileNavMenu
             isMenuOpen={isMenuOpen}
-            isSearchOpen={true}
+            isSearchOpen={false}
             isDarkTheme={isDarkTheme}
             toggleMenu={handleMenuToggle}
             toggleTheme={toggleColorMode}
