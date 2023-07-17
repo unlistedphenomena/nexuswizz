@@ -63,7 +63,7 @@ const config: GatsbyConfig = {
         background_color: `#ffffff`,
         theme_color: `#222222`,
         display: `standalone`,
-        icon: `src/assets/favicon.png`,
+        icon: `src/assets/brain.png`,
       },
     },
     // Sitemap generator (nexus.org/sitemap/sitemap-index.xml)
