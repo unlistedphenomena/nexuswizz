@@ -4,7 +4,6 @@ import { MdWbSunny, MdBrightness2, MdLanguage } from "react-icons/md"
 import styled from "@emotion/styled"
 import { cloneDeep } from "lodash"
 import { useIntl } from "react-intl"
-import lollogo from "./brain.png"
 
 import Menu from "./Menu"
 import MobileNavMenu from "./Mobile"
@@ -94,12 +93,6 @@ const HomeLogo = styled(EthHomeIcon)`
     opacity: 1;
   }
 `
-// const envilogo = styled(lollogo)`
-//   opacity: 0.85;
-//   &:hover {
-//     opacity: 1;
-//   }
-// `
 
 export interface IProps {
   path: string
@@ -399,12 +392,7 @@ const Nav: React.FC<IProps> = ({ path }) => {
       <StyledNav aria-label={translateMessageId("nav-primary", intl)}>
         <NavContent>
           <HomeLogoNavLink to="/" aria-label={translateMessageId("home", intl)}>
-            {/* <HomeLogo /> */}
-            <img
-              src={lollogo}
-              alt="Logo"
-              style={{ width: "50px", height: "50px" }}
-            />
+            <HomeLogo />
           </HomeLogoNavLink>
           {/* Desktop */}
           <InnerContent>

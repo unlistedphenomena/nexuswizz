@@ -369,7 +369,7 @@ const UseCasePage = ({
 
   return (
     <Container>
-      {/* <StyledBannerNotification shouldShow>
+      <StyledBannerNotification shouldShow>
         <StyledEmoji text=":pencil:" />
         <div>
           <Translation id="template-usecase-banner" />{" "}
@@ -377,7 +377,7 @@ const UseCasePage = ({
             <Translation id="template-usecase-edit-link" />
           </Link>
         </div>
-      </StyledBannerNotification> */}
+      </StyledBannerNotification>
       <HeroContainer>
         <TitleCard>
           <Emoji size={4} text={mdx.frontmatter.emoji!} />

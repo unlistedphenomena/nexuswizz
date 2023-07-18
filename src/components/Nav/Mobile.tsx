@@ -380,12 +380,12 @@ const MobileNavMenu: React.FC<IProps> = ({
         variants={mobileMenuVariants}
         initial="closed"
       >
-        {/* <BottomItem onClick={() => toggleMenu("search")}>
+        <BottomItem onClick={() => toggleMenu("search")}>
           <MenuIcon name="search" />
           <BottomItemText>
             <Translation id="search" />
           </BottomItemText>
-        </BottomItem> */}
+        </BottomItem>
         <BottomItem onClick={toggleTheme}>
           <MenuIcon name={isDarkTheme ? "darkTheme" : "lightTheme"} />
           <BottomItemText>
@@ -406,12 +406,12 @@ const MobileNavMenu: React.FC<IProps> = ({
         variants={mobileMenuVariants}
         initial="closed"
       >
-        {/* <SearchHeader>
+        <SearchHeader>
           <Translation id="search" />
           <CloseIconContainer onClick={() => toggleMenu("search")}>
             <Icon name="close" />
           </CloseIconContainer>
-        </SearchHeader> */}
+        </SearchHeader>
         <Search handleSearchSelect={toggleMenu} />
         <BlankSearchState>
           <Emoji text=":sailboat:" size={3} />
