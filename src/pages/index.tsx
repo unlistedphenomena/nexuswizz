@@ -647,9 +647,9 @@ const HomePage = ({
               <ButtonLink to="/what-is-ethereum/">
                 <Translation id="page-index-what-is-ethereum-button" />
               </ButtonLink>
-              <StyledButtonLink variant="outline" to="/eth/">
+              {/* <StyledButtonLink variant="outline" to="/eth/">
                 <Translation id="page-index-what-is-ethereum-secondary-button" />
-              </StyledButtonLink>
+              </StyledButtonLink> */}
             </ButtonRow>
           </FeatureContent>
           <ImageContainer>
