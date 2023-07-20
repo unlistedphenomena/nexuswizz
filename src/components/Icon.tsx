@@ -81,7 +81,7 @@ const Icon: React.FC<IProps> = ({
     {name === "twitter" && (
       <FaTwitter color={color ? socialColors.twitter : undefined} />
     )}
-    {name === "search" && <MdSearch />}
+    {/* {name === "search" && <MdSearch />} */}
     {name === "youtube" && (
       <FaYoutube color={color ? socialColors.youtube : undefined} />
     )}

@@ -1010,7 +1010,7 @@ export const query = graphql`
         )
       }
     }
-    ethHome: file(relativePath: { eq: "eth-home-icon.png" }) {
+    ethHome: file(relativePath: { eq: "eth-gif-sun.png" }) {
       childImageSharp {
         gatsbyImageData(
           width: 50

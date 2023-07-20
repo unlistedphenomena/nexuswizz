@@ -21,22 +21,22 @@ import Translation from "./Translation"
 const socialLinks = [
   {
     icon: FaGithub,
-    to: "https://github.com/ethereum/ethereum-org-website",
+    to: "https://github.com/CodeWizarz",
     ariaLabel: "GitHub",
   },
   {
     icon: FaTwitter,
-    to: "https://twitter.com/ethdotorg",
+    to: "#",
     ariaLabel: "Twitter",
   },
   {
     icon: FaYoutube,
-    to: "https://youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g",
+    to: "https://youtube.com/",
     ariaLabel: "Youtube",
   },
   {
     icon: FaDiscord,
-    to: "https://discord.gg/CetY6Y4",
+    to: "https://discord.com/",
     ariaLabel: "Discord",
   },
 ]
@@ -67,30 +67,30 @@ const Footer: React.FC<IProps> = () => {
           text: "find-nexus",
           to: "/wallets/find-wallet/",
         },
-        {
-          to: `/get-nxs/`,
-          text: "get-eth",
-        },
-        {
-          to: `/dapps/`,
-          text: "decentralized-applications-dapps",
-        },
+        // {
+        //   to: `/get-nxs/`,
+        //   text: "get-eth",
+        // },
+        // {
+        //   to: `/dapps/`,
+        //   text: "decentralized-applications-dapps",
+        // },
         {
           to: "/layer-2/",
           text: "layer-2",
         },
-        {
-          to: "/run-a-node/",
-          text: "run-a-node",
-        },
+        // {
+        //   to: "/run-a-node/",
+        //   text: "run-a-node",
+        // },
         // {
         //   to: `/stablecoins/`,
         //   text: "page-stablecoins-title",
         // },
-        {
-          to: `/staking/`,
-          text: "page-upgrades-get-involved-stake-eth",
-        },
+        // {
+        //   to: `/staking/`,
+        //   text: "page-upgrades-get-involved-stake-eth",
+        // },
       ],
     },
     {

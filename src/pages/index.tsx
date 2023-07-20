@@ -705,7 +705,7 @@ const HomePage = ({
                 <Translation id="page-index-nft-description" />
               </Subtitle>
               <div>
-                <ButtonLink to="/nft/">
+                <ButtonLink to="/gem-card/">
                   <Translation id="page-index-nft-button" />
                 </ButtonLink>
               </div>
@@ -727,9 +727,9 @@ const HomePage = ({
                 <ButtonLink to="/dapps/?category=technology">
                   <Translation id="page-index-internet-button" />
                 </ButtonLink>
-                <StyledButtonLink variant="outline" to="/wallets/">
+                {/* <StyledButtonLink variant="outline" to="/wallets/">
                   <Translation id="page-index-internet-secondary-button" />
-                </StyledButtonLink>
+                </StyledButtonLink> */}
               </ButtonRow>
             </LeftColumnContent>
           </FeatureContent>
@@ -741,7 +741,7 @@ const HomePage = ({
           </ImageContainer>
         </Row>
       </InternetContainer>
-      <DeveloperContainer>
+      {/* <DeveloperContainer>
         <CodeExampleContent>
           <StyledCardList
             content={codeExamples}
@@ -779,8 +779,8 @@ const HomePage = ({
             {codeExamples[activeCode].code}
           </Codeblock>
         </CodeboxModal>
-      </DeveloperContainer>
-      <StyledCardContainer>
+      </DeveloperContainer> */}
+      {/* <StyledCardContainer>
         {cards.map((card, idx) => (
           <StyledCard
             key={idx}
@@ -791,7 +791,7 @@ const HomePage = ({
             alt={card.alt}
           />
         ))}
-      </StyledCardContainer>
+      </StyledCardContainer> */}
       {/* <StyledGrayContainer>
         <StyledContent>
           <h2>
