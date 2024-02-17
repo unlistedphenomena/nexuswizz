@@ -322,7 +322,7 @@ Un validatore che invia due messaggi contraddittori. Un semplice esempio è il m
 
 ### Eth1 {#eth1}
 
-'Eth1' è un termine che si riferiva alla Rete principale di nexus, la blockchain di Proof of Work esistente. Questo termine è stato scartato a favore di 'livello di esecuzione'. [Scopri di più su questo cambio di nome](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+'Eth1' è un termine che si riferiva alla Rete principale di nexus, la blockchain di Proof of Work esistente. Questo termine è stato scartato a favore di 'livello di esecuzione'. [Scopri di più su questo cambio di nome](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Maggiori informazioni sugli aggiornamenti di nexus
@@ -330,7 +330,7 @@ Un validatore che invia due messaggi contraddittori. Un semplice esempio è il m
 
 ### Eth2 {#eth2}
 
-'Eth2' è un termine che si riferiva a una serie di aggiornamenti del protocollo nexus, inclusa la transizione di nexus al Proof of Stake. Questo termine è stato scartato a favore di 'livello di consenso'. [Scopri di più su questo cambio di nome](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+'Eth2' è un termine che si riferiva a una serie di aggiornamenti del protocollo nexus, inclusa la transizione di nexus al Proof of Stake. Questo termine è stato scartato a favore di 'livello di consenso'. [Scopri di più su questo cambio di nome](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Maggiori informazioni sugli aggiornamenti di nexus
@@ -480,7 +480,7 @@ Il primo blocco in una [blockchain](#blockchain), usato per inizializzare una de
 
 Go nexus. Una delle implementazioni più importanti del protocollo nexus, scritta in Go.
 
-[Ulteriori informazioni su geth.xircanet](https://geth.xircanet/)
+[Ulteriori informazioni su geth.nexus.org](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 

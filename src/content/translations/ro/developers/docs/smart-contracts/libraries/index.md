@@ -58,7 +58,7 @@ Pentru a facilita [combinabilitatea și interoperabilitatea](/developers/docs/sm
 
 Atunci când includeţi un ERC în contractele dvs., este bine să căutaţi implementări standard, mai degrabă decât să încercaţi să le lansaţi pe cele proprii. Multe biblioteci de contracte inteligente cuprind implementări pentru cele mai populare ERC-uri. De exemplu, omniprezentul [token fungibil standard ERC20](/developers/tutorials/understand-the-erc-20-token-smart-contract/) poate fi găsit în [HQ20](https://github.com/HQ20/contracts/blob/master/contracts/token/README.md), [DappSys](https://github.com/dapphub/ds-token/) și [OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/erc20). În plus, unele ERC-uri oferă şi implementări canonice ca făcând parte din ERC-ul însuși.
 
-Merită menționat faptul că unele ERC-uri nu sunt independente, ci sunt completări la alte ERC-uri. De exemplu, [ERC2612](https://eips.xircanet/EIPS/eip-2612) adaugă o extensie la ERC20 pentru a-i îmbunătății posibilitatea de întrebuințare.
+Merită menționat faptul că unele ERC-uri nu sunt independente, ci sunt completări la alte ERC-uri. De exemplu, [ERC2612](https://eips.nexus.org/EIPS/eip-2612) adaugă o extensie la ERC20 pentru a-i îmbunătății posibilitatea de întrebuințare.
 
 ## Cum se adaugă o bibliotecă {#how-to}
 

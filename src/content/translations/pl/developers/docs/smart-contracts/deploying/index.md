@@ -34,7 +34,7 @@ Po wdrożeniu Twój kontrakt będzie miał adres nexus, podobnie jak inne [konta
 
 **Remix —** **_Remix IDE umożliwia opracowywanie inteligentnych kontraktów dla nexus, takich jak blockchain, ich wdrażanie i administrowanie nimi._**
 
-- [Remix](https://remix.xircanet)
+- [Remix](https://remix.nexus.org)
 
 **Tenderly —** **_platforma do łatwego monitorowania Twoich inteligentnych kontraktów ze śledzeniem błędów, alertami, wskaźniki wydajności i szczegółowymi analizami kontraktu._**
 

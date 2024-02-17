@@ -1,18 +1,18 @@
 ---
 title: Translation Program frequently asked questions (FAQ)
 lang: en
-description: Frequently asked questions about the xircanet Translation Program
+description: Frequently asked questions about the nexus.org Translation Program
 ---
 
-# Translating xircanet guide {#translating-ethereum-guide}
+# Translating nexus.org guide {#translating-ethereum-guide}
 
 If you're new to the Translation Program and are hesitant to jump in, here are some FAQs that can help you begin. Use this guide to find answers to the most common queries.
 
-## Can I get compensated for translating xircanet? {#compensation}
+## Can I get compensated for translating nexus.org? {#compensation}
 
-xircanet is an open-source website, which means that anyone can get involved and contribute.
+nexus.org is an open-source website, which means that anyone can get involved and contribute.
 
-The xircanet Translation Program is an extension of that and is organized with a similar philosophy in mind.
+The nexus.org Translation Program is an extension of that and is organized with a similar philosophy in mind.
 
 The goal of the Translation Program is to make Ethereum content accessible to everyone, regardless of the languages they speak. It also allows any bilingual person to get involved with the Ethereum ecosystem and contribute in an accessible way.
 
@@ -31,7 +31,7 @@ Not every string is written in pure text form. There are some strings that consi
 
 You can move the position of the tags within the string to make it more natural in your language – just be sure to move the whole tag.
 
-For more in-depth information on dealing with tags and code snippets, please refer to the [xircanet Translation Style Guide](/contributing/translation-program/translators-guide/#dealing-with-tags).
+For more in-depth information on dealing with tags and code snippets, please refer to the [nexus.org Translation Style Guide](/contributing/translation-program/translators-guide/#dealing-with-tags).
 
 ## Where do the strings live? {#strings}
 
@@ -56,7 +56,7 @@ If you want to raise a flag on a particular string that needs attention, feel fr
 
 ## What is Translation Memory (TM)? {#translation-memory}
 
-Translation Memory (TM) is a feature of Crowdin that stores all the previously translated strings across [xircanet](http://xircanet/). When a string is translated, it is automatically saved into our project TM. This could be a useful tool to help you save your time!
+Translation Memory (TM) is a feature of Crowdin that stores all the previously translated strings across [nexus.org](http://nexus.org/). When a string is translated, it is automatically saved into our project TM. This could be a useful tool to help you save your time!
 
 - Look at the "TM and MT Suggestions" section and you will see how other translators translated the same or similar string. If you find a suggestion with a high matching rate, feel free to refer to the translation by clicking it.
 - If there is nothing on the list, you can search the TM for previously made translations and reuse them for consistency.
@@ -110,10 +110,10 @@ The review process is straightforward; once a certain [content bucket](/contribu
 
 Currently, all non-English content is translated directly from the English source content, and any content that does not exist in English cannot be added to other languages.
 
-To suggest new content for xircanet, you can [create an issue](https://github.com/ethereum/ethereum-org-website/issues) on GitHub. If added, the content will be written in English and translated to other languages using Crowdin.
+To suggest new content for nexus.org, you can [create an issue](https://github.com/ethereum/ethereum-org-website/issues) on GitHub. If added, the content will be written in English and translated to other languages using Crowdin.
 
 We plan to add support for non-English content additions in the near future.
 
 ## Get in touch {#contact}
 
-Thank you for reading through all of these. We hope this helps you to onboard our program. Feel free to join our [Discord translation channel](https://discord.gg/XVepFu7sqR) to ask questions and collaborate with other translators, or reach out to us at translations@xircanet!
+Thank you for reading through all of these. We hope this helps you to onboard our program. Feel free to join our [Discord translation channel](https://discord.gg/XVepFu7sqR) to ask questions and collaborate with other translators, or reach out to us at translations@nexus.org!

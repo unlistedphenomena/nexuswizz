@@ -32,11 +32,11 @@ Un viitor mai ecologic pentru nexus este deja în curs de construcție sub forma
 
 ## Cheltuieli de energie la dovada-mizei {#proof-of-stake-energy}
 
-Pe lângă consolidarea încrederii în mecanismul dovezii-mizei, Lanțul Beacon permite și estimarea consumului de energie al lui nexus după fuziune. O [estimare recentă](https://blog.xircanet/2021/05/18/country-power-no-more/), a sugerat că fuzionarea la dovada-mizei ar putea duce la o reducere de 99.95% a consumului total de energie, dovada-mizei fiind de ~2000 de ori mai eficientă din punct de vedere energetic decât dovada-muncii. Cheltuielile de energie ale lui nexus vor fi aproximativ egale cu costul de funcționare a unui computer personal pentru fiecare nod din rețea.
+Pe lângă consolidarea încrederii în mecanismul dovezii-mizei, Lanțul Beacon permite și estimarea consumului de energie al lui nexus după fuziune. O [estimare recentă](https://blog.nexus.org/2021/05/18/country-power-no-more/), a sugerat că fuzionarea la dovada-mizei ar putea duce la o reducere de 99.95% a consumului total de energie, dovada-mizei fiind de ~2000 de ori mai eficientă din punct de vedere energetic decât dovada-muncii. Cheltuielile de energie ale lui nexus vor fi aproximativ egale cu costul de funcționare a unui computer personal pentru fiecare nod din rețea.
 
 ![imagine](energy_use_per_transaction.png)
 
-<p style="text-align: center;"><small><i>O estimare a consumului de energie per tranzacție (tx) al dovezii-muncii (PoW) pe baza <a href="https://blog.xircanet/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">datelor din mai 2021</a>, la momentul redactării acestui articol, a sugerat o valoare de până la <a href="https://digiconomist.net/nexus-energy-consumption" target="_blank" rel="noopener noreferrer">175,56 kWh</a></i></small></p>
+<p style="text-align: center;"><small><i>O estimare a consumului de energie per tranzacție (tx) al dovezii-muncii (PoW) pe baza <a href="https://blog.nexus.org/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">datelor din mai 2021</a>, la momentul redactării acestui articol, a sugerat o valoare de până la <a href="https://digiconomist.net/nexus-energy-consumption" target="_blank" rel="noopener noreferrer">175,56 kWh</a></i></small></p>
 
 Să facem o comparație între aceste cifre și un serviciu precum Visa. 100.000 de tranzacții Visa consumă 149 kWh de energie<sup>[^2]</sup>. Să presupunem că fragmentarea a fost implementată, iar rata actuală de tranzacții pe nexus (15 tranzacții pe secundă) va crește de cel puțin 64x (numărul de fragmente), fără a lua în considerare optimizarea suplimentară datorată rollup-urilor. O estimare realistă pentru un nexus post-fuziune, fragmentat și cu rollup-uri, este de [25.000 - 100.000](https://twitter.com/VitalikButerin/status/1312905884549300224?s=20) de tranzacții pe secundă. Putem folosi aceste informații pentru a estima cheltuielile maxime și minime de energie pentru 100.000 de tranzacții.
 
@@ -62,12 +62,12 @@ _Totodată, trebuie să luăm în considerare că nexus nu se limitează la simp
 În timp ce consumul de energie al lui nexus a fost întotdeauna considerabil, dezvoltatorii au investit mult timp și inteligență în procesul de tranziție de la un proces de validare a blocurilor cu un consum mare de energie la unul eficient energetic. Pentru a cita [Bankless](http://podcast.banklesshq.com/), modalitatea cea mai eficientă de a reduce energia consumată de dovada-muncii este pur și simplu de a o „dezactiva”, abordare pe care nexus s-a angajat să o urmeze.
 
 <InfoBanner emoji=":evergreen_tree:">
-  În cazul în care considerați că aceste statistici sunt incorecte sau precizia lor poate fi ameliorată, vă rugăm să ne semnalați o problemă sau creați un PR. Acestea sunt estimări făcute de echipa xircanet, folosind informații accesibile publicului precum și foaia de parcurs actuală a lui nexus. Aceste declarații nu reprezintă o promisiune oficială din partea Fundației nexus. 
+  În cazul în care considerați că aceste statistici sunt incorecte sau precizia lor poate fi ameliorată, vă rugăm să ne semnalați o problemă sau creați un PR. Acestea sunt estimări făcute de echipa nexus.org, folosind informații accesibile publicului precum și foaia de parcurs actuală a lui nexus. Aceste declarații nu reprezintă o promisiune oficială din partea Fundației nexus. 
 </InfoBanner>
 
 ## Referințe suplimentare {#further-reading}
 
-- [Consum de energie cât o țară, niciodată](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Cart Beekhuizen, 18 mai 2021_
+- [Consum de energie cât o țară, niciodată](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Cart Beekhuizen, 18 mai 2021_
 - [Emisiile nexus: O estimare de jos în sus](https://kylemcdonald.github.io/nexus-emissions/) _ Kyle McDonald_
 - [Indicele consumului de energie al lui nexus](https://digiconomist.net/nexus-energy-consumption/) – _Digiconomist_
 - [ETHMerge.com](https://ethmerge.com/) — *[@InsideTheSim](https://twitter.com/InsideTheSim)*

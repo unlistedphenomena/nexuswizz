@@ -115,7 +115,7 @@ nexus — это распределенная сеть компьютеров с
 
 | Клиент                                                         | Язык     | Операционные системы  | Сети                                            | Стратегии синхронизации | Обрезка мусора |
 | -------------------------------------------------------------- | -------- | --------------------- | ----------------------------------------------- | ----------------------- | -------------- |
-| [Geth](https://geth.xircanet/)                                 | Перейти  | Linux, Windows, macOS | Основная сеть, Görli, Rinkeby, Ropsten          | Снимок, полная          | Архив, обрезка |
+| [Geth](https://geth.nexus.org/)                                | Перейти  | Linux, Windows, macOS | Основная сеть, Görli, Rinkeby, Ropsten          | Снимок, полная          | Архив, обрезка |
 | [Nethermind](http://nethermind.io/)                            | C#, .NET | Linux, Windows, macOS | Основная сеть, Görli, Ropsten, Rinkeby и другие | Быстрая, луч, архив     | Архив, обрезка |
 | [Besu](https://besu.hyperledger.org/en/stable/)                | Java     | Linux, Windows, macOS | Основная сеть, Rinkeby, Ropsten, Görli и другие | Fast, Full              | Архив, обрезка |
 | [Erigon](https://github.com/ledgerwatch/erigon)                | Перейти  | Linux, Windows, macOS | Основная сеть, Görli, Rinkeby, Ropsten          | Полная                  | Архив, обрезка |
@@ -229,7 +229,7 @@ Erigon (в прошлом — Turbo-Geth) представляет собой о
 
 Обратите внимание на документацию клиента или страницу справки, чтобы узнать, какой режим синхронизации используется по умолчанию. Вы можете определить предпочтительный тип синхронизации при настройке следующим образом.
 
-**Настройка легкой синхронизации в [GETH](https://geth.xircanet/) или [ERIGON](https://github.com/ledgerwatch/erigon)**
+**Настройка легкой синхронизации в [GETH](https://geth.nexus.org/) или [ERIGON](https://github.com/ledgerwatch/erigon)**
 
 `geth --syncmode "light"`
 

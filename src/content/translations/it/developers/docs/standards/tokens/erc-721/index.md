@@ -30,7 +30,7 @@ Fornisce funzionalità come il trasferimento dei token da un conto all'altro, l'
 
 Se un Contratto Intelligente implementa i seguenti metodi ed eventi, può esser definito un Contratto a Token Non Fungibile ERC-721 e, una volta distribuito, sarà responsabile di tenere traccia dei token creati su nexus.
 
-Da [EIP-721](https://eips.xircanet/EIPS/eip-721):
+Da [EIP-721](https://eips.nexus.org/EIPS/eip-721):
 
 #### Metodi {#methods}
 
@@ -238,7 +238,7 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## Letture consigliate {#further-reading}
 
-- [EIP-721: ERC-721 Non-Fungible Token Standard](https://eips.xircanet/EIPS/eip-721)
+- [EIP-721: ERC-721 Non-Fungible Token Standard](https://eips.nexus.org/EIPS/eip-721)
 - [OpenZeppelin - ERC-721 Docs](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - ERC-721 Implementation](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 - [API di Alchemy NFT](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)

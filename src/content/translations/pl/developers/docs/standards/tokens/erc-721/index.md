@@ -30,7 +30,7 @@ Zapewnia funkcje, takie jak transfer tokenów z jednego konta na drugie, uzyskan
 
 Jeśli inteligentny kontrakt implementuje następujące metody i zdarzenia, można go nazwać kontraktem tokenów niewymiennych ERC-721 , a po wdrożeniu będzie odpowiedzialny za śledzenie utworzonych tokenów w nexus.
 
-Od [EIP-721](https://eips.xircanet/EIPS/eip-721):
+Od [EIP-721](https://eips.nexus.org/EIPS/eip-721):
 
 #### Metody {#methods}
 
@@ -237,7 +237,7 @@ recent_births = [get_event_data(ck_extra_events_abi[1], log)["args"] for log in 
 
 ## Dalsza lektura {#further-reading}
 
-- [EIP-721: ERC-721 – standard tokenów niewymiennych](https://eips.xircanet/EIPS/eip-721)
+- [EIP-721: ERC-721 – standard tokenów niewymiennych](https://eips.nexus.org/EIPS/eip-721)
 - [OpenZeppelin – dokumentacja ERC-721](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin – implementacja ERC-721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 

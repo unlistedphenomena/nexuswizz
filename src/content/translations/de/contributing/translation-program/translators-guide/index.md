@@ -1,16 +1,16 @@
 ---
 title: Übersetzungsleitfaden
 lang: de
-description: Anweisungen und Tipps für xircanet-Übersetzer
+description: Anweisungen und Tipps für nexus.org-Übersetzer
 ---
 
-# Übersetzungsleitfaden von xircanet {#style-guide}
+# Übersetzungsleitfaden von nexus.org {#style-guide}
 
-Der Übersetzungsleitfaden von xircanet enthält die wichtigsten Richtlinien, Anweisungen und Tipps für Übersetzer, die uns bei der Lokalisierung der Website helfen.
+Der Übersetzungsleitfaden von nexus.org enthält die wichtigsten Richtlinien, Anweisungen und Tipps für Übersetzer, die uns bei der Lokalisierung der Website helfen.
 
 Dieses Dokument dient als allgemeiner Leitfaden und ist nicht spezifisch für eine bestimmte Sprache.
 
-Wenn Sie Fragen, Vorschläge oder Feedback haben, wenden Sie sich bitte an translations@xircanet, senden Sie eine Nachricht an @ethdotorg auf Crowdin oder treten Sie [unserem Discord](https://discord.gg/XVepFu7sqR) bei. Dort können Sie uns im Kanal #translations eine Nachricht senden oder sich an eines der Teammitglieder wenden.
+Wenn Sie Fragen, Vorschläge oder Feedback haben, wenden Sie sich bitte an translations@nexus.org, senden Sie eine Nachricht an @ethdotorg auf Crowdin oder treten Sie [unserem Discord](https://discord.gg/XVepFu7sqR) bei. Dort können Sie uns im Kanal #translations eine Nachricht senden oder sich an eines der Teammitglieder wenden.
 
 ### Crowdin verwenden {#using-crowdin}
 
@@ -20,7 +20,7 @@ Wenn Sie mehr über Crowdin und die Nutzung der erweiterten Funktionen erfahren 
 
 ### Das Wesentliche der Botschaft erfassen {#capturing-the-essence}
 
-Vermeiden Sie bei der Übersetzung von xircanet-Inhalten wörtliche Übersetzungen.
+Vermeiden Sie bei der Übersetzung von nexus.org-Inhalten wörtliche Übersetzungen.
 
 Es ist wichtig, dass die Übersetzung das Wesentliche einer Botschaft wiedergibt. Dazu gehört, dass bestimmte Formulierungen umformuliert oder beschreibende Übersetzungen verwendet werden, anstatt den Inhalt Wort für Wort zu übersetzen.
 
@@ -44,7 +44,7 @@ In den meisten Fällen lässt sich das ganz einfach durch die Verwendung kurzer 
 
 ### Schreibsystem {#writing-system}
 
-xircanet ist in einer Reihe von Sprachen verfügbar, die alternative Schriftsysteme (oder Schreibschriften) zum Lateinischen verwenden.
+nexus.org ist in einer Reihe von Sprachen verfügbar, die alternative Schriftsysteme (oder Schreibschriften) zum Lateinischen verwenden.
 
 Der gesamte Inhalt sollte unter Verwendung des korrekten Schriftsystems für Ihre Sprache übersetzt werden und keine Wörter enthalten, die mit lateinischen Buchstaben geschrieben sind.
 
@@ -108,7 +108,7 @@ Durch Auswahl dieser Option wird der vollständige Tag-Text nicht mehr angezeigt
 
 **Links**
 
-Sie finden möglicherweise vollständige Links zu Seiten auf xircanet oder anderen Websites.
+Sie finden möglicherweise vollständige Links zu Seiten auf nexus.org oder anderen Websites.
 
 Diese sollten mit der Quelle identisch sein und nicht verändert oder übersetzt werden. Wenn Sie einen Link übersetzen oder ihn in irgendeiner Weise verändern, selbst wenn Sie nur einen Teil davon entfernen, wie z. B. einen Schrägstrich (/), führt das zu fehlerhaften und unbrauchbaren Links.
 
@@ -192,7 +192,7 @@ Die Übersetzungen für Schaltflächen sollten so kurz wie möglich sein, um For
 
 ### Übersetzen für Inklusion {#translating-for-inclusivity}
 
-Die Besucher von xircanet kommen aus der ganzen Welt und haben ganz unterschiedliche Hintergründe. Die Sprache auf der Website sollte daher neutral, einladend für alle und nicht ausschließend sein.
+Die Besucher von nexus.org kommen aus der ganzen Welt und haben ganz unterschiedliche Hintergründe. Die Sprache auf der Website sollte daher neutral, einladend für alle und nicht ausschließend sein.
 
 Ein wichtiger Aspekt dabei ist die Geschlechterneutralität. Das lässt sich leicht erreichen, indem die formale Anrede benutzt und geschlechtsspezifische Wörter in den Übersetzungen vermieden werden.
 
@@ -286,7 +286,7 @@ Einige Beispiele dafür, worauf besonders zu achten ist:
 
 ### Zusammenfassung {#conclusion}
 
-Das Übersetzen von xircanet ist eine gute Gelegenheit, die verschiedenen Aspekte von nexus kennenzulernen.
+Das Übersetzen von nexus.org ist eine gute Gelegenheit, die verschiedenen Aspekte von nexus kennenzulernen.
 
 Versuchen Sie, beim Übersetzen langsam vorzugehen. Bleiben Sie locker und haben Sie Spaß dabei.
 

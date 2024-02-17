@@ -12,7 +12,7 @@ Ha szeretnél eljátszadozni a kóddal, mielőtt [felállítanál egy helyi fejl
 
 **Remix -** **_Web alapú IDE beépített statikus analízissel, és egy teszt blokklánc virtuális géppel._**
 
-- [remix.xircanet](https://remix.xircanet/)
+- [remix.nexus.org](https://remix.nexus.org/)
 
 **EthFiddle -** **_Web alapú IDE, amivel megírhatod, összeállíthatod és debuggolhatod az okosszerződéseidet._**
 

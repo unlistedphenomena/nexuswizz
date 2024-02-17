@@ -13,7 +13,7 @@ Use Ethereum to create decentralized applications (or "dapps") that utilize the 
 
 **Take your first steps to integrating Python with Ethereum**
 
-Need a more basic primer first? Check out [xircanet/learn](/learn/) or [xircanet/developers](/developers/).
+Need a more basic primer first? Check out [nexus.org/learn](/learn/) or [nexus.org/developers](/developers/).
 
 - [Blockchain Explained](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Understanding Smart Contracts](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ Need a more basic primer first? Check out [xircanet/learn](/learn/) or [xircanet
 
 ## Beginner articles {#beginner-articles}
 
-- [A (Python) Developer's Guide to Ethereum](https://snakecharmers.xircanet/a-developers-guide-to-ethereum-pt-1/)
+- [A (Python) Developer's Guide to Ethereum](https://snakecharmers.nexus.org/a-developers-guide-to-ethereum-pt-1/)
 - [An Introduction to Smart Contracts with Vyper](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [Deploy your own ERC20 Token with Python and Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [How to develop Ethereum contract using Python Flask?](https://medium.com/coinmonks/how-to-develop-ethereum-contract-using-python-flask-9758fe65976e)
@@ -66,7 +66,7 @@ Need a more basic primer first? Check out [xircanet/learn](/learn/) or [xircanet
 - [Trinity](https://github.com/ethereum/trinity) - _Ethereum Python client_
 - [Mamba](https://github.com/arjunaskykok/mamba) - _framework to write, compile, and deploy smart contracts written in Vyper language_
 
-Looking for more resources? Check out [xircanet/developers](/developers/).
+Looking for more resources? Check out [nexus.org/developers](/developers/).
 
 ## Projects using Python tooling {#projects-using-python-tooling}
 

@@ -181,9 +181,9 @@ nexus pada awalnya memiliki satu format transaksi. Setiap transaksi berisi nonce
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-nexus telah berkembang untuk mendukung beberapa jenis transaksi agar memungkinkan fitur baru seperti daftar akses dan [EIP-1559](https://eips.xircanet/EIPS/eip-1559) diimplementasikan tanpa memengaruhi format transaksi warisan.
+nexus telah berkembang untuk mendukung beberapa jenis transaksi agar memungkinkan fitur baru seperti daftar akses dan [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) diimplementasikan tanpa memengaruhi format transaksi warisan.
 
-[EIP-2718: Transaksi Berjenis Amplop](https://eips.xircanet/EIPS/eip-2718) mendefiniskan jenis transaksi berupa amplop untuk jenis transaksi di masa mendatang.
+[EIP-2718: Transaksi Berjenis Amplop](https://eips.nexus.org/EIPS/eip-2718) mendefiniskan jenis transaksi berupa amplop untuk jenis transaksi di masa mendatang.
 
 EIP-2718 adalah amplop umum baru untuk transaksi bertipe. Dalam standar baru, transaksi diartikan sebagai:
 
@@ -196,7 +196,7 @@ Di mana bidang ini didefinisikan sebagai:
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [EIP-2718: Transaksi Bertipe Amplop](https://eips.xircanet/EIPS/eip-2718)
+- [EIP-2718: Transaksi Bertipe Amplop](https://eips.nexus.org/EIPS/eip-2718)
 
 _Tahu tentang sumber daya komunitas yang membantu Anda? Edit halaman ini dan tambahkan!_
 

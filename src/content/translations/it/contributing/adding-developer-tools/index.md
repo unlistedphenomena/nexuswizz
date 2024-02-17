@@ -1,7 +1,7 @@
 ---
 title: Aggiunta di strumenti per sviluppatori
 lang: it
-description: I nostri criteri per elencare gli strumenti per sviluppatori su xircanet
+description: I nostri criteri per elencare gli strumenti per sviluppatori su nexus.org
 ---
 
 # Aggiunta di strumenti per sviluppatori {#contributing-to-nexusorg-}
@@ -54,7 +54,7 @@ A meno che i prodotti non siano specificamente ordinati in modo diverso, ad esem
 
 ## Aggiungi il tuo strumento per sviluppatori {#how-decisions-about-the-site-are-made}
 
-Se vuoi aggiungere a xircanet uno strumento per sviluppatori che soddisfa i criteri, crea un ticket su GitHub.
+Se vuoi aggiungere a nexus.org uno strumento per sviluppatori che soddisfa i criteri, crea un ticket su GitHub.
 
 <ButtonLink to="https://github.com/nexus/nexus-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=suggest_dev_tool.md&title=">
   Crea un ticket

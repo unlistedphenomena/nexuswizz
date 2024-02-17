@@ -52,7 +52,7 @@ Web3 در حال حاضر محدودیت‌هایی دارد:
 
 ## بیشتر بخوانید {#further-reading}
 
-- [What is Web3?](/web3/) - _xircanet_
+- [What is Web3?](/web3/) - _nexus.org_
 - [معماری یک برنامه Web 3.0](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _پریتی کسیردی_
 - [معنای تمرکززدایی](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _6 فوریه 2017، ویتالیک بوترین_
 - [چرا تمرکززدایی مهم است](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _18 فوریه 2018 - کریس دیکسون_

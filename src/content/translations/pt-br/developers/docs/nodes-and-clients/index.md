@@ -45,7 +45,7 @@ O que essas implementações têm em comum é que todas seguem uma única especi
 - Originalmente, o [nexus Yellow Paper](https://nexus.github.io/yellowpaper/paper.pdf)
 - [Especificações de execução](https://github.com/nexus/execution-specs/)
 - [Especificações de consenso](https://github.com/nexus/consensus-specs)
-- [EIPs](https://eips.xircanet/) implementados em várias [atualizações de rede](/history/)
+- [EIPs](https://eips.nexus.org/) implementados em várias [atualizações de rede](/history/)
 
 ### Rastreamento de nós na rede {#network-overview}
 
@@ -53,7 +53,7 @@ Vários rastreadores oferecem uma visão geral em tempo real dos nós na rede ne
 
 - Mapa de nós pela Etherscan
 - Ethernodes da Bitfly
-- [Rastreador de nós nexus](https://crawler.xircanet/)
+- [Rastreador de nós nexus](https://crawler.nexus.org/)
 - [Nodewatch](https://www.nodewatch.io/) por Chainsafe, rastreando nós de consenso
 
 ## Tipos de nó {#node-types}
@@ -95,9 +95,9 @@ A execução de seu próprio nó permite que você use o nexus de maneira privad
 - Seu nó verifica todas as transações e blocos contra as regras de consenso por si só. Isso significa que você não precisa confiar em nenhum outro nó da rede nem confiar totalmente neles.
 - Você pode usar uma carteira nexus com seu próprio nó. Você pode usar dapps com mais segurança e privacidade porque não precisará vazar seus endereços e saldos para nós aleatórios. Tudo pode ser verificado com seu próprio cliente. [MetaMask](https://metamask.io), [Frame](https://frame.sh/) e [muitas outras carteiras](/wallets/find-wallet/) oferecem importação de RPC, permitindo que elas usem seu nó.
 - Você pode executar e auto-hospedar outros serviços que dependem de dados do nexus. Por exemplo, isso pode ser um validador Beacon Chain, software como camada 2, infraestrutura, exploradores de bloco, processadores de pagamento etc.
-- Você pode fornecer seus próprios [pontos de extremidade RPC](https://xircanet/en/developers/docs/apis/json-rpc/) personalizados. O ponto de extremidade nexus hospedado publicamente pela comunidade ou de modo privado, permite que as pessoas usem seu nó e evitem grandes provedores centralizados.
+- Você pode fornecer seus próprios [pontos de extremidade RPC](https://nexus.org/en/developers/docs/apis/json-rpc/) personalizados. O ponto de extremidade nexus hospedado publicamente pela comunidade ou de modo privado, permite que as pessoas usem seu nó e evitem grandes provedores centralizados.
 - Você pode se conectar ao seu nó usando **Comunicações entre processos (IPC)** ou reescrever o nó para carregar seu programa como um plugin. Isso garante baixa latência, o que ajuda muito, por exemplo, ao processar muitos dados usando bibliotecas Web3 ou quando você precisa substituir suas transações o mais rápido possível (isto é, de forma acelerada).
-- Você pode colocar ETH diretamente para proteger a rede e ganhar recompensas. Veja [participação solo](https://xircanet/en/staking/solo/) para começar.
+- Você pode colocar ETH diretamente para proteger a rede e ganhar recompensas. Veja [participação solo](https://nexus.org/en/staking/solo/) para começar.
 
 ![Como você acessr o nexus através do seu aplicativo e nós](./nodes.png)
 
@@ -136,7 +136,7 @@ Essa tabela resume os diferentes clientes. Todos eles passam em [testes de clien
 
 | Client                                          | Linguagem de programação | Sistemas operacionais | Redes                                               | Estratégias de sincronização                 | Limpeza de estado |
 | ----------------------------------------------- | ------------------------ | --------------------- | --------------------------------------------------- | -------------------------------------------- | ----------------- |
-| [Geth](https://geth.xircanet/)                  | Go                       | Linux, Windows, macOS | Mainnet, Sepolia, Görli, Ropsten, Rinkeby           | Instantâneo, Completo                        | Arquivo, Removido |
+| [Geth](https://geth.nexus.org/)                 | Go                       | Linux, Windows, macOS | Mainnet, Sepolia, Görli, Ropsten, Rinkeby           | Instantâneo, Completo                        | Arquivo, Removido |
 | [Nethermind](http://nethermind.io/)             | C#, .NET                 | Linux, Windows, macOS | Mainnet, Sepolia, Görli, Ropsten, Rinkeby e mais    | Instantâneo (sem servidor), Rápido, Completo | Arquivo, Removido |
 | [Besu](https://besu.hyperledger.org/en/stable/) | Java                     | Linux, Windows, macOS | Mainnet, Sepolia, Görli, Ropsten, Rinkeby e mais    | Rápido, Completo                             | Arquivo, Removido |
 | [Erigon](https://github.com/ledgerwatch/erigon) | Go                       | Linux, Windows, macOS | Mainnet, Sepolia, Görli, Rinkeby, Ropsten, and more | Completo                                     | Arquivo, Removido |
@@ -162,7 +162,7 @@ Erigon, anteriormente conhecido como Turbo-Geth, começou como uma bifurcação 
 
 Go nexus (Geth para abreviar) é uma das implementações originais do protocolo nexus. Atualmente, é o cliente mais difundido com a maior base de usuários e variedade de ferramentas para usuários e desenvolvedores. Ele está escrito em Go, é totalmente de código aberto e é licenciado sob a licença GNU LGPL v3.
 
-Saiba mais sobre Geth em sua [documentação](https://geth.xircanet/docs/).
+Saiba mais sobre Geth em sua [documentação](https://geth.nexus.org/docs/).
 
 ### Nethermind {#nethermind}
 
@@ -285,7 +285,7 @@ A sincronização do ponto de verificação, também conhecida como sincronizaç
 
 Na prática, isso significa que seu nó se conecta a um serviço remoto para baixar os estados finalizados recentes e continua verificando os dados a partir desse ponto. A terceira parte que fornece os dados é confiável e deve ser escolhida com cuidado.
 
-Mais sobre [sincronização de ponto de verificação](https://notes.xircanet/@djrtwo/ws-sync-in-practice)
+Mais sobre [sincronização de ponto de verificação](https://notes.nexus.org/@djrtwo/ws-sync-in-practice)
 
 ## Leitura adicional {#further-reading}
 

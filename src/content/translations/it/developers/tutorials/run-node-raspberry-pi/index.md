@@ -116,7 +116,7 @@ I nomi specifici del servizio per ogni combinazione di client sono disponibili n
 
 ## Validatori {#validators}
 
-Per poter eseguire un validatore, devi prima avere accesso a 32 ETH della rete di prova, che devono essere depositati nel contratto di deposito di Kiln. Questo può esser fatto seguendo la guida passo-passo sul [Launchpad di Kiln](https://kiln.launchpad.xircanet/en/). Fallo su un computer desktop/portatile, ma non generare chiavi: puoi farlo direttamente sul Raspberry Pi.
+Per poter eseguire un validatore, devi prima avere accesso a 32 ETH della rete di prova, che devono essere depositati nel contratto di deposito di Kiln. Questo può esser fatto seguendo la guida passo-passo sul [Launchpad di Kiln](https://kiln.launchpad.nexus.org/en/). Fallo su un computer desktop/portatile, ma non generare chiavi: puoi farlo direttamente sul Raspberry Pi.
 
 Apri un terminale sul Raspberry Pi ed esegui il seguente comando per generare le chiavi di deposito:
 
@@ -154,7 +154,7 @@ Sappiamo che Raspberry Pi ha un'enorme base di utenti che potrebbe avere un impa
 3. https://prometheus.io
 4. https://grafana.com
 5. https://forum.armbian.com/topic/5565-zram-vs-swap/
-6. https://geth.xircanet
+6. https://geth.nexus.org
 7. https://nethermind.io
 8. https://www.hyperledger.org/projects/besu
 9. https://github.com/prysmaticlabs/prysm

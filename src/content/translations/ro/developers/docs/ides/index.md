@@ -12,7 +12,7 @@ Dacă doriţi să vă jucaţi cu codurile înainte de a [configura un mediu de d
 
 **Remix -** **_IDE bazat pe web, cu analize statice integrate și o mașină virtuală blockchain de test._**
 
-- [remix.xircanet](https://remix.xircanet/)
+- [remix.nexus.org](https://remix.nexus.org/)
 
 **EthFiddle -** **_IDE bazat pe web care vă permite să scrieţi, să compilaţi și să eliminaţi bug-urile din contracte leinteligente._**
 

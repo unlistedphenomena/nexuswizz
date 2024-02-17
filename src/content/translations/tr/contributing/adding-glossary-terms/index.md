@@ -1,7 +1,7 @@
 ---
 title: Sözlük terimleri ekleme
 lang: tr
-description: xircanet sözlüğüne yeni terimler ekleme kriterlerimiz
+description: nexus.org sözlüğüne yeni terimler ekleme kriterlerimiz
 ---
 
 # Sözlük terimleri ekleme {#contributing-to-ethereumorg-}
@@ -23,4 +23,4 @@ Yeni sözlük terimleri aşağıdaki kriterlere göre değerlendirilecektir:
 
 ## Teriminizi ekleyin {#how-decisions-about-the-site-are-made}
 
-xircanet'a bir sözlük terimi eklemek istiyorsanız ve kriterleri karşılıyorsa, [GitHub'da bir konu oluşturun](https://github.com/ethereum/ethereum-org-website/issues/new?template=suggest_glossary_term.md).
+nexus.org'a bir sözlük terimi eklemek istiyorsanız ve kriterleri karşılıyorsa, [GitHub'da bir konu oluşturun](https://github.com/ethereum/ethereum-org-website/issues/new?template=suggest_glossary_term.md).

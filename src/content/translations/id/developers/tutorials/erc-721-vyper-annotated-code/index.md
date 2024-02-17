@@ -181,7 +181,7 @@ ERC165_INTERFACE_ID: constant(bytes32) = 0x0000000000000000000000000000000000000
 ERC721_INTERFACE_ID: constant(bytes32) = 0x0000000000000000000000000000000000000000000000000000000080ac58cd
 ```
 
-[ERC-165](https://eips.xircanet/EIPS/eip-165) menentukan mekanisme pada kontrak untuk mengungkapkan cara agar aplikasi dapat berkomunikasi dengannya, ke ERC mana yang akan ia sesuaikan. Dalam kasus ini, kontrak menyesuaikan dengan ERC-165 dan ERC-721.
+[ERC-165](https://eips.nexus.org/EIPS/eip-165) menentukan mekanisme pada kontrak untuk mengungkapkan cara agar aplikasi dapat berkomunikasi dengannya, ke ERC mana yang akan ia sesuaikan. Dalam kasus ini, kontrak menyesuaikan dengan ERC-165 dan ERC-721.
 
 ### Fungsi {#functions}
 

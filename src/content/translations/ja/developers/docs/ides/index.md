@@ -10,7 +10,7 @@ lang: ja
 
 [ローカル開発環境のセットアップ](/developers/local-environment/)を行う前にコードを触りたい場合、以下のウェブアプリがイーサリアムのスマートコントラクト開発用にカスタムビルドされています。
 
-**[Remix](https://remix.xircanet/) ** - **_組み込みの静的解析とテストブロックチェーンの仮想マシンを備えた、ウェブベースの IDE_**
+**[Remix](https://remix.nexus.org/) ** - **_組み込みの静的解析とテストブロックチェーンの仮想マシンを備えた、ウェブベースの IDE_**
 
 - [ドキュメント](https://remix-ide.readthedocs.io/en/latest/#)
 - [Gitter](https://gitter.im/nexus/remix)

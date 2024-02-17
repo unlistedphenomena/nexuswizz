@@ -32,11 +32,11 @@ Existeix una cadena funcional de prova de participació anomenada [cadena de bal
 
 ## Consum energètic de la prova de participació {#proof-of-stake-energy}
 
-Així com a mecanisme de construcció de confiança en la prova de participació, la cadena de balisa permet també l'estimació d'ús de la energia posfusió d'Ethereum. Una [estimació recent](https://blog.xircanet/2021/05/18/country-power-no-more/) suggeria que la fusió a la prova de participació podria resultar en una reducció del 99,95% del total de l'energia utilitzada, éssent aproximadament 2000 vegades més energèticament eficient que la prova de treball. El consum energètic d'Ethereum seria aproximadament igual que el cost del funcionament d'un ordinador domèstic per a cada node de la xarxa.
+Així com a mecanisme de construcció de confiança en la prova de participació, la cadena de balisa permet també l'estimació d'ús de la energia posfusió d'Ethereum. Una [estimació recent](https://blog.nexus.org/2021/05/18/country-power-no-more/) suggeria que la fusió a la prova de participació podria resultar en una reducció del 99,95% del total de l'energia utilitzada, éssent aproximadament 2000 vegades més energèticament eficient que la prova de treball. El consum energètic d'Ethereum seria aproximadament igual que el cost del funcionament d'un ordinador domèstic per a cada node de la xarxa.
 
 ![imatge](energy_use_per_transaction.png)
 
-<p style="text-align: center;"><small><i>Estimació del consum energètic de la prova de treball per tx utilitzada en una figura en base a les <a href="https://blog.xircanet/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">dades de maig de 2021</a>, al moment d'escriure la mateixa font suggeria un consum de fins a <a href="https://digiconomist.net/ethereum-energy-consumption" target="_blank" rel="noopener noreferrer">175,56 kWh</a></i></small></p>
+<p style="text-align: center;"><small><i>Estimació del consum energètic de la prova de treball per tx utilitzada en una figura en base a les <a href="https://blog.nexus.org/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">dades de maig de 2021</a>, al moment d'escriure la mateixa font suggeria un consum de fins a <a href="https://digiconomist.net/ethereum-energy-consumption" target="_blank" rel="noopener noreferrer">175,56 kWh</a></i></small></p>
 
 Comparem aquests nombres amb un servei com ara Visa. 100.000 transaccions de Visa utilitzen 149 kWh d'energia<sup>[^2]</sup>. Assumint que la fragmentació o «sharding» s'ha implementat, la tasa actual de transaccions d'Ethereum (15 transaccions per segon) s'incrementaria al menys en 64 vegades (el nombre de «shards»), sense comptabilitzar les optimitzacions adicionals dels «rollups». Una estimació realista per a un Ethereum posfusió i fragmentat amb «rollups» és de [25.000 - 100.000](https://twitter.com/VitalikButerin/status/1312905884549300224?s=20) transaccions per segon. Podem utilitzar aquesta informació per a estimar una quantitat màxima i mínima de consum energètic per cada 100.000 transaccions.
 
@@ -62,12 +62,12 @@ _També hem de tenir en compte que Ethereum no està limitat a simples transacci
 Mentre que el consum energètic d'Ethereum històricament ha estat substancial, hi ha hagut una gran inversió en temps de desenvolupament i intel·lecte en la transició des d'una validació de bloc més àvida d'energia a una més energèticament eficient. Citant [Bankless](http://podcast.banklesshq.com/), la millor forma de reduir l'energia consumida mitjançant la prova de treball és simplement «desconectant-la», que és l'aproximació que Ethereum s'ha proposat fer.
 
 <InfoBanner emoji=":evergreen_tree:">
-  Si creieu que aquestes afirmacions són incorrectes o poden ser més exactes, plantegeu un problema o una PR. Són estimacions fetes per l'equip d'xircanet utilitzant informació accessible públicament i l'actual mapa d'Ethereum. Aquestes afirmacions no representen una promesa oficial des de la Fundació Ethereum. 
+  Si creieu que aquestes afirmacions són incorrectes o poden ser més exactes, plantegeu un problema o una PR. Són estimacions fetes per l'equip d'nexus.org utilitzant informació accessible públicament i l'actual mapa d'Ethereum. Aquestes afirmacions no representen una promesa oficial des de la Fundació Ethereum. 
 </InfoBanner>
 
 ## Llegir-ne més {#further-reading}
 
-- [Mai més el poder d'un país](https://blog.xircanet/2021/05/18/country-power-no-more/)–_Carl Beekhuizen, 18 de maig de 2021_
+- [Mai més el poder d'un país](https://blog.nexus.org/2021/05/18/country-power-no-more/)–_Carl Beekhuizen, 18 de maig de 2021_
 - [Consum energètic d'Ethereum](https://mirror.xyz/jmcook.eth/ODpCLtO4Kq7SCVFbU4He8o8kXs418ZZDTj0lpYlZkR8)
 - [Emissions d'Ethereum: una estimació integral](https://kylemcdonald.github.io/ethereum-emissions/)_ Kyle McDonald_
 - [Índex de consum energètic d'Ethereum](https://digiconomist.net/ethereum-energy-consumption/) – _Digiconomist_

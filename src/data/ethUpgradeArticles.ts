@@ -9,27 +9,27 @@ export const dannyArticles: Array<Article> = [
   {
     title: "Finalized no. 37",
     description: "26 August 2022",
-    link: "https://blog.xircanet/2022/08/26/finalized-no-37/",
+    link: "https://blog.nexus.org/2022/08/26/finalized-no-37/",
   },
   {
     title: "Finalized no. 36",
     description: "12 August 2022",
-    link: "https://blog.xircanet/2022/08/12/finalized-no-36/",
+    link: "https://blog.nexus.org/2022/08/12/finalized-no-36/",
   },
   {
     title: "Finalized no. 35",
     description: "19 May 2022",
-    link: "https://blog.xircanet/2022/05/19/finalized-no-35/",
+    link: "https://blog.nexus.org/2022/05/19/finalized-no-35/",
   },
   {
     title: "Finalized no. 34",
     description: "23 March 2022",
-    link: "https://blog.xircanet/2022/03/23/finalized-no-34/",
+    link: "https://blog.nexus.org/2022/03/23/finalized-no-34/",
   },
   {
     title: "Finalized no. 33",
     description: "31 January 2022",
-    link: "https://blog.xircanet/2022/01/31/finalized-no-33/",
+    link: "https://blog.nexus.org/2022/01/31/finalized-no-33/",
   },
 ]
 

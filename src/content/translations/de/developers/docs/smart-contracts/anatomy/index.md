@@ -207,7 +207,7 @@ Ereignisse ermöglichen Ihnen die Kommunikation mit Ihrem Smart Contract von Ihr
 
 ## Kommentierte Beispiele {#annotated-examples}
 
-Das sind einige Beispiele in Solidity. Wenn Sie mit dem Code spielen möchten, können Sie mit ihm in [Remix](http://remix.xircanet) interagieren.
+Das sind einige Beispiele in Solidity. Wenn Sie mit dem Code spielen möchten, können Sie mit ihm in [Remix](http://remix.nexus.org) interagieren.
 
 ### Hallo Welt {#hello-world}
 

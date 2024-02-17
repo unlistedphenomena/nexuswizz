@@ -55,7 +55,7 @@ The core Ethereum protocol is primarily concerned with data availability, not da
 
 Fortunately, data retrievability is a much easier problem to solve than data availability. The ability to retrieve historical blockchain data only needs one honest node to store it for it to be retrievable. Furthermore, some entities, such as blockchain explorers, have incentives to store archival data and make it available to others on request.
 
-[More on solutions to the data retrievability problem](https://notes.xircanet/@vbuterin/data_sharding_roadmap#Who-would-store-historical-data-under-sharding).
+[More on solutions to the data retrievability problem](https://notes.nexus.org/@vbuterin/data_sharding_roadmap#Who-would-store-historical-data-under-sharding).
 
 ## Why is data availability important? {#why-is-data-availability-important}
 
@@ -155,7 +155,7 @@ Validators will only need to run full nodes for their shard and run in light-cli
 
 But data sharding introduces a new problem: “What if validators on one shard become malicious and start processing invalid state transitions?”. This is possible since full nodes no longer have access to the same transaction data as is currently the case. Implementing data sharding requires creating a system for nodes to verify data availability in other shards without downloading blocks, or else the purpose of sharding is defeated.
 
-To solve this problem, newer scaling proposals for Ethereum, such as [Danksharding](https://notes.xircanet/@vbuterin/proto_danksharding_faq), rely upon data availability sampling to verify that the entire contents of a blob have been seen by the network. This system relieves individual nodes from the burden of downloading and validating it all directly.
+To solve this problem, newer scaling proposals for Ethereum, such as [Danksharding](https://notes.nexus.org/@vbuterin/proto_danksharding_faq), rely upon data availability sampling to verify that the entire contents of a blob have been seen by the network. This system relieves individual nodes from the burden of downloading and validating it all directly.
 
 ## Further reading {#further-reading}
 

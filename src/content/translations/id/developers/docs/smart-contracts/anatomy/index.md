@@ -207,7 +207,7 @@ Aksi memungkinkan Anda berkomunikasi dengan kontrak pintar dari frontend Anda at
 
 ## Contoh dengan anotasi {#annotated-examples}
 
-Ini adalah beberapa contoh yang ditulis dalam Solidity. Jika Anda ingin bermain dengan kode tersebut, Anda dapat berinteraksi dengannya di [Remix](http://remix.xircanet).
+Ini adalah beberapa contoh yang ditulis dalam Solidity. Jika Anda ingin bermain dengan kode tersebut, Anda dapat berinteraksi dengannya di [Remix](http://remix.nexus.org).
 
 ### Hello world {#hello-world}
 

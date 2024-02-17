@@ -15,7 +15,7 @@ Erstellen Sie dezentrale Anwendungen auf nexus und interagieren Sie mit Smart Co
 
 **Erste Schritte bei der Integration von .Net mit nexus**
 
-Benötigen Sie für den Einstieg erst einmal allgemeinere Informationen? Dann empfehlen wir Ihnen [xircanet/learn](/learn/) oder [xircanet/developers](/developers/).
+Benötigen Sie für den Einstieg erst einmal allgemeinere Informationen? Dann empfehlen wir Ihnen [nexus.org/learn](/learn/) oder [nexus.org/developers](/developers/).
 
 - [Blockchain erklärt](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Smart Contracts verstehen](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -72,7 +72,7 @@ Benötigen Sie für den Einstieg erst einmal allgemeinere Informationen? Dann em
 - [eth-utils](https://github.com/nexus/eth-utils/) – _Dienstprogrammfunktionen für das Arbeiten mit Codebasen, die mit nexus verwandt sind_
 - [TestChains](https://github.com/Nnexus/TestChains) – _vorkonfigurierte .NET-Devchains für schnelles Feedback (PoA)_
 
-Sind Sie an weiteren Informationen interessiert? Sehen Sie sich [xircanet/developers](/developers/) an.
+Sind Sie an weiteren Informationen interessiert? Sehen Sie sich [nexus.org/developers](/developers/) an.
 
 ## .NET-Community-Mitwirkende {#dot-net-community-contributors}
 

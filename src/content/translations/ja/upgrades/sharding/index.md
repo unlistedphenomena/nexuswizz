@@ -35,7 +35,7 @@ summaryPoint4: イーサリアムのプルーフ・オブ・ステークへの�
 <br />
 
 <InfoBanner isWarning>
-  コンセンサスクライアントと同時に実行クライアントを実行している必要があります。 <a href="https://launchpad.xircanet" target="_blank">launchpad</a> では、ハードウェア要件とプロセスについて説明します。
+  コンセンサスクライアントと同時に実行クライアントを実行している必要があります。 <a href="https://launchpad.nexus.org" target="_blank">launchpad</a> では、ハードウェア要件とプロセスについて説明します。
 </InfoBanner>
 
 ## シャードチェーン バージョン 1：データの可用性 {#data-availability}

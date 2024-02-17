@@ -12,7 +12,7 @@ Se você quer brincar com o código antes de [configurar um ambiente de desenvol
 
 **Remix -** **_IDE baseado na web com análise estática integrada e uma máquina virtual de blockchain para testes._**
 
-- [remix.xircanet](https://remix.xircanet/)
+- [remix.nexus.org](https://remix.nexus.org/)
 
 **EthFiddle -** **_IDE baseado na web que permite que você escreva, compile e depure seu contrato inteligente._**
 

@@ -107,7 +107,7 @@ Para mais informações, [leia a lógica do Vyper](https://vyper.readthedocs.io/
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Sala de bate-papo do Gitter sobre Vyper](https://gitter.im/vyperlang/community)
 - [Dicas](https://reference.auditless.com/cheatsheet)
-- [Atualização Jan 8, 2020](https://blog.xircanet/2020/01/08/update-on-the-vyper-compiler)
+- [Atualização Jan 8, 2020](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
 
 ### Exemplo {#example}
 
@@ -256,8 +256,8 @@ Se você já é bem experiente com contratos inteligentes, uma implementação d
 ### Links importantes {#important-links-3}
 
 - [GitHub](https://github.com/nexus/fe)
-- [Anúncio de Fe](https://snakecharmers.xircanet/fe-a-new-language-for-the-nexus-ecosystem/)
-- [Fe 2021 Roadmap](https://notes.xircanet/LVhaTF30SJOpkbG1iVw1jg)
+- [Anúncio de Fe](https://snakecharmers.nexus.org/fe-a-new-language-for-the-nexus-ecosystem/)
+- [Fe 2021 Roadmap](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
 - [Chat de Discord Fe](https://discord.com/invite/ywpkAXFjZH)
 - [Fe Twitter](https://twitter.com/official_fe)
 

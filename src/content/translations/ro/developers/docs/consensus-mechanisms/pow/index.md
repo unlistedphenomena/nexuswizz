@@ -99,7 +99,7 @@ Un dezavantaj major al dovezii-muncii este cantitătea de energie necesară pent
 ## Referințe suplimentare {#further-reading}
 
 - [Atacul prin majoritate](https://en.bitcoin.it/wiki/Majority_attack)
-- [Despre finalitatea de soluţionare](https://blog.xircanet/2016/05/09/on-settlement-finality/)
+- [Despre finalitatea de soluţionare](https://blog.nexus.org/2016/05/09/on-settlement-finality/)
 
 ### Videoclipuri {#videos}
 

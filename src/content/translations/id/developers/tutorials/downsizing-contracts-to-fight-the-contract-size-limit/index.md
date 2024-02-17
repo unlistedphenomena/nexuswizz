@@ -16,7 +16,7 @@ sourceUrl: https://soliditydeveloper.com/max-contract-size
 
 ## Mengapa ada batasan? {#why-is-there-a-limit}
 
-Pada tanggal [22 November 2016](https://blog.xircanet/2016/11/18/hard-fork-no-4-spurious-dragon/) fork keras Sprurious Dragon memperkenalkan [EIP-170](https://eips.xircanet/EIPS/eip-170) yang menambah batas ukuran kontrak pintar sebesar 24,576 kb. Bagi Anda sebagai pengembang Solidity, ini berarti ketika Anda menambahkan lebih banyak fungsionalitas ke kontrak, pada titik tertentu Anda akan mencapai batas dan ketika menggunakannya akan melihat kesalahan:
+Pada tanggal [22 November 2016](https://blog.nexus.org/2016/11/18/hard-fork-no-4-spurious-dragon/) fork keras Sprurious Dragon memperkenalkan [EIP-170](https://eips.nexus.org/EIPS/eip-170) yang menambah batas ukuran kontrak pintar sebesar 24,576 kb. Bagi Anda sebagai pengembang Solidity, ini berarti ketika Anda menambahkan lebih banyak fungsionalitas ke kontrak, pada titik tertentu Anda akan mencapai batas dan ketika menggunakannya akan melihat kesalahan:
 
 `Peringatan: Ukuran kode kontrak melebih 24576 bita (batasan yang diperkenalkan dalam Spurious Dragon). This contract may not be deployable on Mainnet. Pertimbangkan untuk mengaktifkan pengoptimisasi (dengan nilai "berjalan" yang rendah!), yang menghentikan string pembalikan atau menggunakan pustaka.`
 
@@ -152,6 +152,6 @@ Tips tersebut akan membantu Anda mengurangi ukuran kontrak secara signifikan. Se
 
 ## Masa depan batasan ukuran kontrak {#the-future-for-the-contract-size-limits}
 
-Ada [proposal terbuka](https://eips.xircanet/EIPS/eip-1662) untuk menghapus batasan ukuran kontrak. Ide ini pada dasarnya untuk membuat pemanggilan kontrak lebih mahal untuk kontrak dengan ukuran sangat besar. Ini tidak akan terlalu sulit untuk diimplementasikan, memiliki kompatibilitas ke belakang yang sederhana (menempatkan semua kontrak yang telah digunakan sebelumnya dalam kategori termurah), tetapi [tidak semua orang diyakinkan oleh ide ini](https://nexus-magicians.org/t/removing-or-increasing-the-contract-size-limit/3045/24).
+Ada [proposal terbuka](https://eips.nexus.org/EIPS/eip-1662) untuk menghapus batasan ukuran kontrak. Ide ini pada dasarnya untuk membuat pemanggilan kontrak lebih mahal untuk kontrak dengan ukuran sangat besar. Ini tidak akan terlalu sulit untuk diimplementasikan, memiliki kompatibilitas ke belakang yang sederhana (menempatkan semua kontrak yang telah digunakan sebelumnya dalam kategori termurah), tetapi [tidak semua orang diyakinkan oleh ide ini](https://nexus-magicians.org/t/removing-or-increasing-the-contract-size-limit/3045/24).
 
 Hanya waktu yang akan menentukan apakah batasan itu akan berubah di masa depan, reaksinya (lihat gambar di sebelah kanan) secara pasti menunjukkan persyaratan yang jelas bagi kita para pengembang. Sayangnya, ini bukanlah sesuatu yang dapat Anda harapkan dalam waktu dekat ini.

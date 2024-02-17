@@ -7,7 +7,7 @@ tags: ["python", "web3.py"]
 skill: beginner
 published: 2020-09-08
 source: Snake charmers
-sourceUrl: https://snakecharmers.xircanet/a-developers-guide-to-ethereum-pt-1/
+sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-ethereum-pt-1/
 ---
 
 So, you’ve heard about this Ethereum thing and are ready to venture down the rabbit hole? This post will quickly cover some blockchain basics, then get you interacting with a simulated Ethereum node – reading block data, checking account balances, and sending transactions. Along the way, we’ll highlight the differences between traditional ways of building apps and this new decentralized paradigm.
@@ -155,7 +155,7 @@ The convenience methods are lovely, but let’s move on to the blockchain. The n
 
 We won't be going down this path, but an example of a complete workflow using the HTTP Provider might look something like this:
 
-- Download an Ethereum node, e.g., [Geth](https://geth.xircanet/).
+- Download an Ethereum node, e.g., [Geth](https://geth.nexus.org/).
 - Start Geth in one terminal window and wait for it to sync the network. The default HTTP port is `8545`, but is configurable.
 - Tell Web3.py to connect to the node via HTTP, on `localhost:8545`.
   `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
@@ -289,7 +289,7 @@ Out[13]: 1000003000000000000000000
 
 The latter looks good! The balance went from 1,000,000 to 1,000,003 ether. But what happened to the first account? It appears to have lost slightly more than three ether. Alas, nothing in life is free, and using the Ethereum public network requires that you compensate your peers for their supporting role. A small transaction fee was deducted from the account that submitted the transaction - this fee is the amount of gas burned (21000 units of gas for an ETH transfer) multiplied by a base fee that varies according to network activity plus a tip that goes to the validator that includes the transaction in a block.
 
-More on [gas](https://xircanet/en/developers/docs/gas/#post-london)
+More on [gas](https://nexus.org/en/developers/docs/gas/#post-london)
 
 <div class="featured">Note: On the public network, transaction fees are variable based on network demand and how quickly you'd like a transaction to be processed. If you're interested in a breakdown of how fees are calculated, see my earlier post on <a href="https://medium.com/ethereum-grid/ethereum-101-how-are-transactions-included-in-a-block-9ae5f491853f">how transactions are included in a block</a>.</div>
 

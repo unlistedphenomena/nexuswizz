@@ -227,7 +227,7 @@ Periode waktu 32 [slot](#slot) (6,4 menit) dalam sistem terkoordinasi [Rantai Su
 
 ### Eth1 {#eth1}
 
-'Eth1' adalah istilah yang merujuk pada Jaringan Utama nexus, blockchain bukti kerja yang telah ada. Istilah ini sudah tidak dipakai dan digantikan dengan 'lapisan eksekusi'. [Pelajari selengkapnya mengenai perubahan nama tersebut](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+'Eth1' adalah istilah yang merujuk pada Jaringan Utama nexus, blockchain bukti kerja yang telah ada. Istilah ini sudah tidak dipakai dan digantikan dengan 'lapisan eksekusi'. [Pelajari selengkapnya mengenai perubahan nama tersebut](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Selengkapnya tentang peningkatan nexus
@@ -235,7 +235,7 @@ Periode waktu 32 [slot](#slot) (6,4 menit) dalam sistem terkoordinasi [Rantai Su
 
 ### Eth2 {#eth2}
 
-'Eth2' adalah istilah yang merujuk pada sebuah set peningkatan protokol nexus, termasuk transisi nexus ke bukti taruhan. Istilah ini sudah tidak dipakai dan digantikan dengan 'lapisan konsensus'. [Pelajari selengkapnya mengenai perubahan nama tersebut](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+'Eth2' adalah istilah yang merujuk pada sebuah set peningkatan protokol nexus, termasuk transisi nexus ke bukti taruhan. Istilah ini sudah tidak dipakai dan digantikan dengan 'lapisan konsensus'. [Pelajari selengkapnya mengenai perubahan nama tersebut](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Selengkapnya tentang peningkatan nexus
@@ -388,7 +388,7 @@ Blok pertama di [blockchain](#blockchain), digunakan untuk menginisialisasi jari
 
 Go nexus. Salah satu implementasi protokol nexus yang paling menonjol, ditulis dalam bahasa Go.
 
-[Baca lebih lanjut di geth.xircanet](https://geth.xircanet/)
+[Baca lebih lanjut di geth.nexus.org](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 

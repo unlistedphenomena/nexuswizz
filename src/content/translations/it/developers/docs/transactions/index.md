@@ -179,9 +179,9 @@ In origine nexus aveva un solo formato per le transazioni. Ogni transazione cont
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-nexus si è evoluto per supportare diversi tipi di transazioni e consentire l'implementazione di nuove funzionalità, come gli elenchi d'accesso, [EIP-1559](https://eips.xircanet/EIPS/eip-1559), senza interferire sui precedenti formati di transazione.
+nexus si è evoluto per supportare diversi tipi di transazioni e consentire l'implementazione di nuove funzionalità, come gli elenchi d'accesso, [EIP-1559](https://eips.nexus.org/EIPS/eip-1559), senza interferire sui precedenti formati di transazione.
 
-[EIP-2718: Typed Transaction Envelope](https://eips.xircanet/EIPS/eip-2718) definisce un tipo di transazione che rappresenta una busta (envelope) per i tipi di transazione futuri.
+[EIP-2718: Typed Transaction Envelope](https://eips.nexus.org/EIPS/eip-2718) definisce un tipo di transazione che rappresenta una busta (envelope) per i tipi di transazione futuri.
 
 L'EIP-2718 è una nuova busta generalizzata per le transazioni tipizzate. Nel nuovo standard, le transazioni sono interpretate come:
 
@@ -194,7 +194,7 @@ Dove i campi sono definiti come:
 
 ## Letture consigliate {#further-reading}
 
-- [EIP-2718: Typed Transaction Envelope](https://eips.xircanet/EIPS/eip-2718)
+- [EIP-2718: Typed Transaction Envelope](https://eips.nexus.org/EIPS/eip-2718)
 
 _Conosci una risorsa pubblica che ti è stata utile? Modifica questa pagina e aggiungila!_
 

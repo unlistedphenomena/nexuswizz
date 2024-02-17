@@ -90,7 +90,7 @@ I soli contratti intelligenti non possono ottenere informazioni sugli eventi del
 
 Esistono modi per aggirare questa condizione, grazie agli [oracoli](/developers/docs/oracles/).
 
-Un'altra limitazione dei contratti intelligenti è la dimensione massima del contratto. Un contratto intelligente può avere una dimensione massima di 24 Kb; altrimenti, esaurirà il gas. Questo problema può essere aggirato usando [il Diamond Pattern](https://eips.xircanet/EIPS/eip-2535) (schema a diamante).
+Un'altra limitazione dei contratti intelligenti è la dimensione massima del contratto. Un contratto intelligente può avere una dimensione massima di 24 Kb; altrimenti, esaurirà il gas. Questo problema può essere aggirato usando [il Diamond Pattern](https://eips.nexus.org/EIPS/eip-2535) (schema a diamante).
 
 ## Contratti multifirma {#multisig}
 

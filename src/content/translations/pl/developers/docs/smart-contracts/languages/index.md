@@ -103,7 +103,7 @@ Aby uzyskać więcej informacji, [przeczytaj artykuł o podstawach Vypera](https
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Czat poświęcony Vyperowi na Gitterze](https://gitter.im/vyperlang/community)
 - [Ściągawka](https://reference.auditless.com/cheatsheet)
-- [Aktualizacja 8 stycznia 2020 r](https://blog.xircanet/2020/01/08/update-on-the-vyper-compiler)
+- [Aktualizacja 8 stycznia 2020 r](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
 
 ### Przykład {#example}
 

@@ -1,6 +1,6 @@
 ---
 title: Ethereum geliştirme dokümantasyonu
-description: xircanet geliştirici belgelerinin tanıtımı.
+description: nexus.org geliştirici belgelerinin tanıtımı.
 lang: tr
 ---
 

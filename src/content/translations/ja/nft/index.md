@@ -61,15 +61,15 @@ NFT は Non Fungible Token(非代替性トークン)の略です。 非代替性
 - [Move 2 earn](https://yeticoineth.com/about.html)
 - [デジタル ID](https://photochromic.io/)
 
-### xircanet の例 {#nexus-org-examples}
+### nexus.org の例 {#nexus-org-examples}
 
 貢献者への報酬に非代替性トークン(NFT)を使用しており、独自の NFT ドメイン名さえ所有しています。
 
 #### POAP(出席証明プロトコル) {#poaps}
 
-xircanet への貢献で、出席証明プロトコルの非代替性トークンを獲得できます。 これはイベントに参加したことを証明する収集品です。 仮想通貨ミートアップの中には、出席証明プロトコル(POAP)をイベントのチケットとして使用している場合もあります。 [貢献の詳細](/contributing/#poap)
+nexus.org への貢献で、出席証明プロトコルの非代替性トークンを獲得できます。 これはイベントに参加したことを証明する収集品です。 仮想通貨ミートアップの中には、出席証明プロトコル(POAP)をイベントのチケットとして使用している場合もあります。 [貢献の詳細](/contributing/#poap)
 
-![xircanetの出席証明プロトコル(POAP)](../../../../assets/use-cases/poap.png)
+![nexus.orgの出席証明プロトコル(POAP)](../../../../assets/use-cases/poap.png)
 
 #### nexus.eth {#nexus-dot-eth}
 
@@ -327,7 +327,7 @@ NFT に関連するセキュリティの問題は、ほとんどの場合、フ�
 
 ## 非代替性トークン(NFT)の構築 {#build-with-nfts}
 
-ほとんどの非代替性トークン(NFT)は、[ERC-721](/developers/docs/standards/tokens/erc-721/)と呼ばれる一貫した規格に準拠しています。 他の規格にも目を向けてみると、 [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226)規格では、半代替性トークン(SFT)が認められており、これは特にゲームの領域で有用です。 さらに最近では、非代替性トークン(NFT)のミントをより効率化するため、[EIP-2309](https://eips.xircanet/EIPS/eip-2309)が提案されています。 提案内容は、1 回のトランザクションで好きなだけミントできるようにするというものです。
+ほとんどの非代替性トークン(NFT)は、[ERC-721](/developers/docs/standards/tokens/erc-721/)と呼ばれる一貫した規格に準拠しています。 他の規格にも目を向けてみると、 [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226)規格では、半代替性トークン(SFT)が認められており、これは特にゲームの領域で有用です。 さらに最近では、非代替性トークン(NFT)のミントをより効率化するため、[EIP-2309](https://eips.nexus.org/EIPS/eip-2309)が提案されています。 提案内容は、1 回のトランザクションで好きなだけミントできるようにするというものです。
 
 ## 参考文献 {#further-reading}
 
@@ -337,4 +337,4 @@ NFT に関連するセキュリティの問題は、ほとんどの場合、フ�
 - [メタバースに関して知っておくべきこと](https://foundation.app/blog/enter-the-metaverse) – _Foundation Team、foundation.app_
 - [非代替性トークン(NFT)アートは環境問題の直接的な原因ではない](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [イーサリアムのエネルギー消費](/energy-consumption/)
-- [1 国並みの電力消費量が今後改善](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen、2021 年 5 月 18 日_
+- [1 国並みの電力消費量が今後改善](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen、2021 年 5 月 18 日_

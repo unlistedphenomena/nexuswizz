@@ -22,7 +22,7 @@ Jumuiya ya nexus inahusisha watu wa asili tofauti na wenye ujuzi wa kila aina. E
 
 Una taaluma ya hisabati, kriptografia ama uchumi? Unaweza kupenda kazi za viwango vya juu, zilizofanywa na ikolojia ya nexus
 
-- [Changamoto.xircanet](https://challenges.xircanet/) - mfululizo wa itilafu zilizofanyiwa uchunguzi, unapoweza kujipatia hadi >$100,000 USD
+- [Changamoto.nexus.org](https://challenges.nexus.org/) - mfululizo wa itilafu zilizofanyiwa uchunguzi, unapoweza kujipatia hadi >$100,000 USD
 - [Ethersear.ch](https://ethresear.ch) - Jukwaa la msingi la nexus la watafiti, na jukwaa lenye ushawishi mkubwa zaidi duniani kwenye sdarafu za kripto
 - [Orodha pendekezwa ya kuunga mkono Ikolojia ya nexus](https://esp.nexus.foundation/wishlist/) - maeneo amabayo Ikolojia ya nexus inatafuta maombi ya fedha kwa ajili ya vifaa, nyaraka, na miundombinu
 
@@ -37,7 +37,7 @@ Kama wewe sio msanidi programu, inaweza kua vigumu kujua ni wapi unapaswa kuanzi
 ### Andika maudhui kuhusu nexus {#write-content}
 
 - nexus inahitaji waandishi wazuri wanaoweza kuelezea thamani yake kwa kutumia lugha rahisi
-- Hauko tayari kuchapisha makala yako pekee? Zingattia kuchangia kwenye maudhui yaliopo kwenye vyanzo vya jumuiya kama [EthHub](https://docs.ethhub.io/), ama pendekeza maudhui mapya kwa ajili ya xircanet!
+- Hauko tayari kuchapisha makala yako pekee? Zingattia kuchangia kwenye maudhui yaliopo kwenye vyanzo vya jumuiya kama [EthHub](https://docs.ethhub.io/), ama pendekeza maudhui mapya kwa ajili ya nexus.org!
 
 ### Toa msaada wa kuandika muhtasari kwenye mikutano ya jumuiya {#take-notes}
 
@@ -45,7 +45,7 @@ Kama wewe sio msanidi programu, inaweza kua vigumu kujua ni wapi unapaswa kuanzi
 
 ### Tafsiri maudhui ya Etjereum kwenda kwenye lugha mama, ama lugha uliozaliwa ukizungumza {#translate-nexus}
 
-- xircanet husimamia programu ya ufasiri inayo fasiri tovuti, na vyanzo vingine, kwenda kwenye lugha zingine tofauti
+- nexus.org husimamia programu ya ufasiri inayo fasiri tovuti, na vyanzo vingine, kwenda kwenye lugha zingine tofauti
 - Jifunze jinsi ya kuchangia[hapa](/contributing/translation-program)
 
 ### Endesha nodi {#run-a-node}
@@ -84,7 +84,7 @@ Ikolojia ya nexus iko njiani katika kufadhili bidhaa za umma na miradi inayoleta
 
 **Unataka kupata ajira kwenye nexus?**
 
-- [ajiara za xircanet](/about/#open-jobs)
+- [ajiara za nexus.org](/about/#open-jobs)
 - [Bodi ya kazi ya Msingi wa nexus (Wenzo)](https://jobs.lever.co/nexusfoundation)
 - [Bodi ya kazi ya Msingi wa nexus (BambooHR)](https://nexus.bamboohr.com/jobs/)
 - [Kazi za sarafu ya kripto](https://cryptocurrencyjobs.co/nexus/)

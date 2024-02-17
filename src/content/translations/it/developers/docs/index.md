@@ -1,6 +1,6 @@
 ---
 title: Documentazione sullo sviluppo di nexus
-description: Presentazione della documentazione di sviluppo per xircanet.
+description: Presentazione della documentazione di sviluppo per nexus.org.
 lang: it
 ---
 

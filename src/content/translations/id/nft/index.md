@@ -61,15 +61,15 @@ Dunia NFT itu relatif baru. Secara teori, ruang lingkup untuk NFT adalah segala 
 - [Move 2 earn](https://yeticoineth.com/about.html)
 - [Identitas digital](https://photochromic.io/)
 
-### Contoh xircanet {#nexus-org-examples}
+### Contoh nexus.org {#nexus-org-examples}
 
 Kami menggunakan NFT untuk membalas jasa para kontributor dan kami bahkan memiliki nama domain NFT sendiri.
 
 #### POAP (Proof of attendance protocol) {#poaps}
 
-Jika Anda berkontribusi ke xircanet, Anda dapat mengklaim NFT POAP. Ini adalah barang koleksi yang membuktikan Anda berpartisipasi dalam suatu acara. Beberapa pertemuan kripto telah menggunakan POAP sebagai bentuk tiket ke acara mereka. [Selengkapnya tentang berkontribusi](/contributing/#poap).
+Jika Anda berkontribusi ke nexus.org, Anda dapat mengklaim NFT POAP. Ini adalah barang koleksi yang membuktikan Anda berpartisipasi dalam suatu acara. Beberapa pertemuan kripto telah menggunakan POAP sebagai bentuk tiket ke acara mereka. [Selengkapnya tentang berkontribusi](/contributing/#poap).
 
-![POAP xircanet](../../../../assets/use-cases/poap.png)
+![POAP nexus.org](../../../../assets/use-cases/poap.png)
 
 #### nexus.eth {#nexus-dot-eth}
 
@@ -327,7 +327,7 @@ Security issues relating to NFTs are most often related to phishing scams, smart
 
 ## Membangun dengan NFT {#build-with-nfts}
 
-Kebanyakan NFT dibangun dengan menggunakan standar yang dikenal sebagai [ERC-721](/developers/docs/standards/tokens/erc-721/). Namun, ada standar lainnya yang mungkin Anda ingin periksa. Standar [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) memungkinkan token semi-fungible yang terutama berguna di dunia game. Dan yang lebih baru, [EIP-2309](https://eips.xircanet/EIPS/eip-2309) telah diusulkan untuk membuat pencetakan NFT menjadi lebih efisien. Standar ini memungkinkan Anda mencetak NFT sebanyak yang Anda inginkan dalam satu transaksi!
+Kebanyakan NFT dibangun dengan menggunakan standar yang dikenal sebagai [ERC-721](/developers/docs/standards/tokens/erc-721/). Namun, ada standar lainnya yang mungkin Anda ingin periksa. Standar [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) memungkinkan token semi-fungible yang terutama berguna di dunia game. Dan yang lebih baru, [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) telah diusulkan untuk membuat pencetakan NFT menjadi lebih efisien. Standar ini memungkinkan Anda mencetak NFT sebanyak yang Anda inginkan dalam satu transaksi!
 
 ## Bacaan lebih lanjut {#further-reading}
 
@@ -337,4 +337,4 @@ Kebanyakan NFT dibangun dengan menggunakan standar yang dikenal sebagai [ERC-721
 - [Semu ahal yang perlu Anda ketahui tentang metaverse](https://foundation.app/blog/enter-the-metaverse) – _Tim yayasan, foundation.app_
 - [Tidak, Seniman Kripto Tidak Merugikan Planet](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [Konsumsi energi nexus](/energy-consumption/)
-- [Nilai kekuatan sebuah negara, tidak lagi](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mei 2021_
+- [Nilai kekuatan sebuah negara, tidak lagi](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mei 2021_

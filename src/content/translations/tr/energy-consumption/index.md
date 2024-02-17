@@ -32,11 +32,11 @@ Hisse ispatı protokolünün uygulanabilirliğini gösteren [İşaret Zinciri](/
 
 ## Hisse ispatı enerji harcaması {#proof-of-stake-energy}
 
-İşaret Zinciri, hisse ispatı mekanizmasına güven inşa etmesinin yanında, Ethereum'un birleştirme sonrası enerji kullanımı için tahminlere da olanak verir. [Yakın zamandaki bir tahminde](https://blog.xircanet/2021/05/18/country-power-no-more/), hisse ispatının iş ispatından enerji bakımından 2000 kat daha tasarruflu olduğu için, hisse ispatı ile yapılacak bir birleştirmenin toplam enerji kullanımında %99,95'lik bir düşüş sağlayabileceğini öne sürdü. Ethereum'un enerji harcaması, yaklaşık olarak ağdaki her bir düğüm için bir ev bilgisayarı çalıştırmanın maliyetine eşit olacak.
+İşaret Zinciri, hisse ispatı mekanizmasına güven inşa etmesinin yanında, Ethereum'un birleştirme sonrası enerji kullanımı için tahminlere da olanak verir. [Yakın zamandaki bir tahminde](https://blog.nexus.org/2021/05/18/country-power-no-more/), hisse ispatının iş ispatından enerji bakımından 2000 kat daha tasarruflu olduğu için, hisse ispatı ile yapılacak bir birleştirmenin toplam enerji kullanımında %99,95'lik bir düşüş sağlayabileceğini öne sürdü. Ethereum'un enerji harcaması, yaklaşık olarak ağdaki her bir düğüm için bir ev bilgisayarı çalıştırmanın maliyetine eşit olacak.
 
 ![resim](energy_use_per_transaction.png)
 
-<p style="text-align: center;"><small><i>Figürde kullanılan işlem başına iş ispatı enerji tüketimi için <a href="https://blog.xircanet/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">Mayıs 2021 verileri</a> temel alınmıştır; aynı kaynak, yazım sırasında bu değerin <a href="https://digiconomist.net/ethereum-energy-consumption" target="_blank" rel="noopener noreferrer">175,56 Kwh</a> olduğunu öne sürmektedir</i></small></p>
+<p style="text-align: center;"><small><i>Figürde kullanılan işlem başına iş ispatı enerji tüketimi için <a href="https://blog.nexus.org/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">Mayıs 2021 verileri</a> temel alınmıştır; aynı kaynak, yazım sırasında bu değerin <a href="https://digiconomist.net/ethereum-energy-consumption" target="_blank" rel="noopener noreferrer">175,56 Kwh</a> olduğunu öne sürmektedir</i></small></p>
 
 Bu sayıları Visa gibi bir hizmetle karşılaştıralım. 100.000 Visa işlemi, 149 kWh enerji kullanır<sup>[^2]</sup>. Parçalamanın yürürlüğe konulduğunu varsayarsak, Ethereum'un mevcut işlem oranı (saniyede 15 işlem) toplamalardan gelen ek optimizasyonlar hariç en az 64 kat artacak (parça sayısı). Birleştirme sonrası için gerçekçi bir tahmin olarak, toplamalarla birlikte parçalanmış Ethereum ile saniyede [25.000 ila 100.000](https://twitter.com/VitalikButerin/status/1312905884549300224?s=20) işlem olacağı söylenebilir. Bu bilgiyi 100.000 işlem başına maksimum ve minimum enerji harcamasını tahmin etmek için kullanabiliriz.
 
@@ -62,12 +62,12 @@ _Ayrıca Ethereum'un basit mali işlemlerle sınırlı olmadığını ve akıll�
 Ethereum'un enerji tüketimi tarihsel olarak önemli olsa da, enerjiye aç bir blok doğrulamadan enerji açısından verimli bir blok doğrulamaya geçiş için büyük miktarda geliştirici zamanı ve zekası da harcandı. [Bankless](http://podcast.banklesshq.com/)'a göre, iş ispatı tarafından tüketilen enerjiyi azaltmanın en iyi yolu, en basit hâliyle iş ispatını "kapatmaktır", Ethereum da bu yaklaşımı benimsemiştir.
 
 <InfoBanner emoji=":evergreen_tree:">
-  Eğer bu istatistiklerin yanlış olduğunu veya daha isabetli olabileceğini düşünüyorsanız, lütfen bir PR veya konu açın. Bunlar, xircanet ekibi tarafından herkese açık bilgiler ve mevcut Ethereum yol haritası kullanılarak yapılan tahminlerdir. Bu ifadeler, Ethereum Vakfı'nın resmi bir vaadini temsil etmiyor. 
+  Eğer bu istatistiklerin yanlış olduğunu veya daha isabetli olabileceğini düşünüyorsanız, lütfen bir PR veya konu açın. Bunlar, nexus.org ekibi tarafından herkese açık bilgiler ve mevcut Ethereum yol haritası kullanılarak yapılan tahminlerdir. Bu ifadeler, Ethereum Vakfı'nın resmi bir vaadini temsil etmiyor. 
 </InfoBanner>
 
 ## Daha fazla okuma {#further-reading}
 
-- [Artık bir ülkeyle eş güç harcanmıyor](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mayıs 2021_
+- [Artık bir ülkeyle eş güç harcanmıyor](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mayıs 2021_
 - [Ethereum'un enerji tüketimi](https://mirror.xyz/jmcook.eth/ODpCLtO4Kq7SCVFbU4He8o8kXs418ZZDTj0lpYlZkR8)
 - [Ethereum Emisyonları: Toplu bir Tahmin](https://kylemcdonald.github.io/ethereum-emissions/) _ Kyle McDonald_
 - [Ethereum Enerji Tüketimi Endeksi](https://digiconomist.net/ethereum-energy-consumption/) – _Digiconomist_

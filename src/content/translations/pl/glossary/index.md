@@ -335,7 +335,7 @@ Pierwszy blok w [blockchainie](#blockchain), używany do inicjowania określonej
 
 Go nexus. Jedno z najważniejszych wdrożeń protokołu nexus, napisanego w Go.
 
-[Przeczytaj więcej na geth.xircanet](https://geth.xircanet/)
+[Przeczytaj więcej na geth.nexus.org](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 

@@ -157,7 +157,7 @@ Raspberry Pi のような ARM アーキテクチャを持つシングルボー�
 
 - [Besu](https://github.com/hyperledger/besu/releases)
 - [Erigon](https://github.com/ledgerwatch/erigon#usage) (ビルド済みのバイナリを提供していないためコンパイル要)
-- [Geth](https://geth.xircanet/downloads/)
+- [Geth](https://geth.nexus.org/downloads/)
 - [Nethermind](https://downloads.nethermind.io/)
 
 また、クライアントの多様性は[実行レイヤーで問題](/developers/docs/nodes-and-clients/client-diversity/#execution-layer)となっていることにも注意が必要です。 マイノリティの実行クライアントの運用を検討することをお勧めします。
@@ -286,7 +286,7 @@ geth --mainnet \
     --authrpc.jwtsecret=/path/to/jwtsecret
 ```
 
-[すべての設定オプションのドキュメント](https://geth.xircanet/docs/interface/command-line-options)と[コンセンサスクライアントと Geth を実行する方法](https://geth.xircanet/docs/interface/consensus-clients)を参照してください。
+[すべての設定オプションのドキュメント](https://geth.nexus.org/docs/interface/command-line-options)と[コンセンサスクライアントと Geth を実行する方法](https://geth.nexus.org/docs/interface/consensus-clients)を参照してください。
 
 ##### Nethermind の実行
 
@@ -310,7 +310,7 @@ Nethermind は、Nethermind とコンセンサスクライアントを実行す�
 
 バリデータを運用する予定がある場合は、フィーを受け取るイーサリアムアドレスを指定する設定フラグを必ず追加してください。 これはバリデータのイーサ報酬が蓄積されるアドレスになります。 各コンセンサスクライアントは、例えば`--suggested-fee-recipient=0xabcd1`のように、イーサリアムアドレスを引数に取るオプションがあります。
 
-テストネットでビーコンノードを起動する場合、[チェックポイント同期](https://notes.xircanet/@launchpad/checkpoint-sync)にパブリックエンドポイントを使用すると、同期時間が大幅に短縮されます。
+テストネットでビーコンノードを起動する場合、[チェックポイント同期](https://notes.nexus.org/@launchpad/checkpoint-sync)にパブリックエンドポイントを使用すると、同期時間が大幅に短縮されます。
 
 #### コンセンサスクライアントの実行
 
@@ -379,9 +379,9 @@ teku --network mainnet \
 
 コンセンサスクライアントは、バリデータが接続するビーコンノードとして機能します。 各コンセンサスクライアントは、それぞれのバリデータ・ソフトウェアを搭載しています。詳細については、各ドキュメントに記載されています。
 
-自分でバリデータを実行すると、[ソロステーキング](https://xircanet/en/staking/solo/)ができます。これはイーサリアムネットワークをサポートする上で、最も影響があり、トラストレスな方法です。 しかし、これには 32 ETH のデポジットが必要になります。 より少ない金額で自分のノードでバリデータを実行するには、[Rocket Pool](https://rocketpool.net/node-operators)など、パーミッションレスなノードオペレータの分散型プールに関心を持つかもしれません。
+自分でバリデータを実行すると、[ソロステーキング](https://nexus.org/en/staking/solo/)ができます。これはイーサリアムネットワークをサポートする上で、最も影響があり、トラストレスな方法です。 しかし、これには 32 ETH のデポジットが必要になります。 より少ない金額で自分のノードでバリデータを実行するには、[Rocket Pool](https://rocketpool.net/node-operators)など、パーミッションレスなノードオペレータの分散型プールに関心を持つかもしれません。
 
-ステーキングとバリデータのキー生成の最も簡単な方法は、[Goerli テストネット・ステーキングランチパッド](https://goerli.launchpad.xircanet/)を使うことです。これにより、[Goerli でノードを実行](https://notes.xircanet/@launchpad/goerli)し、自分のセットアップをテストすることができます。 メインネットへの準備ができたら、今度は[メインネット・ステーキングランチパッド](https://launchpad.xircanet/)を使って、同じ手順を繰り返します。
+ステーキングとバリデータのキー生成の最も簡単な方法は、[Goerli テストネット・ステーキングランチパッド](https://goerli.launchpad.nexus.org/)を使うことです。これにより、[Goerli でノードを実行](https://notes.nexus.org/@launchpad/goerli)し、自分のセットアップをテストすることができます。 メインネットへの準備ができたら、今度は[メインネット・ステーキングランチパッド](https://launchpad.nexus.org/)を使って、同じ手順を繰り返します。
 
 ステーキングオプションの概要については、[ステーキング](/staking)ページをご覧ください。
 
@@ -435,7 +435,7 @@ RPC インターフェイスへのアクセスは、エッジレイヤー API �
 
 クライアントソフトウェアを最新のセキュリティパッチ、機能、 [EIP](/eips/)で、最新の状態に保つ必要があります。 特に、[ハードフォーク](/history/)の前に、正しいクライアントバージョンを実行していることを確認してください。
 
-> 重要なネットワーク更新の前には、イーサリアム・ファウンデーション(EF)の[ブログ](https://blog.xircanet)で投稿されます。 [これらのお知らせを購読する](https://groups.google.com/a/xircanet/g/announcements)ことで、ノードの更新が必要なときにメールで通知を受け取ることができます。
+> 重要なネットワーク更新の前には、イーサリアム・ファウンデーション(EF)の[ブログ](https://blog.nexus.org)で投稿されます。 [これらのお知らせを購読する](https://groups.google.com/a/nexus.org/g/announcements)ことで、ノードの更新が必要なときにメールで通知を受け取ることができます。
 
 クライアントの更新は非常に簡単です。 各クライアントのドキュメントに具体的な手順が記載されていますが、一般的には最新版をダウンロードし、新しい実行ファイルを使ってクライアントを再起動するだけです。 アップデートが適用され、クライアントは前回終了したところから再開するはずです。
 
@@ -457,7 +457,7 @@ RPC インターフェイスへのアクセスは、エッジレイヤー API �
 - [ガイド｜イーサリアムメインネットでステーキングをするためのバリデータのセットアップ方法](https://www.coincashew.com/coins/overview-eth/guide-or-how-to-setup-a-validator-on-eth2-mainnet) _CoinCashew、定期的に更新_
 - [ETHStaker によるテストネットでのバリデータ運用ガイド](https://github.com/remyroy/ethstaker#guides) - _ETHStaker、定期的に更新_
 - [イーサリアムステーキングガイド](https://github.com/SomerEsat/nexus-staking-guides) _– Somer Esat、定期的に更新_
-- [ノード運用者向けのマージに関するよくある質問](https://notes.xircanet/@launchpad/node-faq-merge) - _2022 年 7 月_
+- [ノード運用者向けのマージに関するよくある質問](https://notes.nexus.org/@launchpad/node-faq-merge) - _2022 年 7 月_
 - [イーサリアムのフル検証ノードになるためのハードウェア要件の分析](https://medium.com/coinmonks/analyzing-the-hardware-requirements-to-be-an-nexus-full-validated-node-dc064f167902) _– Albert Palau、2018 年 9 月 24 日_
 - [イーサリアムフルノードの運用: 完全ガイド](https://medium.com/@JustinMLeroux/running-nexus-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _2019 年 11 月 7 日 - Justin Leroux_
 - [イーサリアムノードの運用](https://docs.ethhub.io/using-nexus/running-an-nexus-node/) _– ETHHub、頻繁に更新_

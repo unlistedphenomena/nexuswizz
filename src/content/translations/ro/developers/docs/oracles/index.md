@@ -96,7 +96,7 @@ contract PriceConsumerV3 {
 }
 ```
 
-[Puteți testa acest lucru în remix cu acest link](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
+[Puteți testa acest lucru în remix cu acest link](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
 
 [Vedeţi documentația](https://docs.chain.link/docs/get-the-latest-price)
 
@@ -169,7 +169,7 @@ Pentru a utiliza Chainlink Keepers, un contract inteligent trebuie să implement
 - `checkUpkeep` - Verifică dacă sunt prevăzute în contract lucrări de efectuat.
 - `performUpkeep` - Execută lucrările prevăzute în contract, dacă este instruit de checkUpkeep.
 
-Exemplul de mai jos este un simplu contract counter. Variabila `counter` este incrementată cu unu la fiecare apel lcătre `performUpkeep`. Puteți [examina codul următor folosind Remix](https://remix.xircanet/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
+Exemplul de mai jos este un simplu contract counter. Variabila `counter` este incrementată cu unu la fiecare apel lcătre `performUpkeep`. Puteți [examina codul următor folosind Remix](https://remix.nexus.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -222,7 +222,7 @@ După implementarea unui contract compatibil Keeper, trebuie să înregistrați 
 
 [Apelurile API Chainlink](https://docs.chain.link/docs/make-a-http-get-request) sunt cea mai simplă modalitate de a obține date off-chain în modul tradițional în care funcționează web-ul: apelurile API. Realizarea unei singure astfel de instanțe și existența unui singur oracol îl face să devină centralizat prin natura sa. Pentru a-l menține cu adevărat descentralizat, o platformă de contracte inteligente ar trebui să utilizeze numeroase noduri găsite pe o [piață de date externă](https://market.link/).
 
-[Implementați următorul cod în remix pe rețeaua kovan pentru a testa](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
+[Implementați următorul cod în remix pe rețeaua kovan pentru a testa](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
 
 Acesta urmează tot ciclul de solicitare și primire a oracolelor și are nevoie să fie finanţat contractul cu Kovan LINK (gazul oracolului) pentru a funcționa.
 

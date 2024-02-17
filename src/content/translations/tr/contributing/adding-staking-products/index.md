@@ -1,6 +1,6 @@
 ---
 title: Stake ürünleri veya hizmetleri ekleme
-description: xircanet'a stake ürünleri veya hizmetleri eklerken kullandığımız politika
+description: nexus.org'a stake ürünleri veya hizmetleri eklerken kullandığımız politika
 lang: tr
 ---
 
@@ -8,7 +8,7 @@ lang: tr
 
 Kullanıcıları güvende ve kendinden emin tutarken mümkün olan en iyi kaynakları listelediğimizden emin olmak istiyoruz.
 
-Herkes xircanet'da bir stake ürünü veya hizmeti eklemeyi önermekte özgürdür. Kaçırdığımız bir şey varsa, **[lütfen önerin](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md)!**
+Herkes nexus.org'da bir stake ürünü veya hizmeti eklemeyi önermekte özgürdür. Kaçırdığımız bir şey varsa, **[lütfen önerin](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md)!**
 
 Şu anda stake ürün ve hizmetlerini aşağıdaki sayfalarda listeliyoruz:
 
@@ -16,11 +16,11 @@ Herkes xircanet'da bir stake ürünü veya hizmeti eklemeyi önermekte özgürd�
 - [Bir hizmet olarak stake etme](/staking/saas/)
 - [Stake havuzları](/staking/pools/)
 
-İşaret Zincirindeki hisse ispatı, 1 Aralık 2020'den beri yayında. Stake etme hâlâ nispeten yeni olsa da, xircanet'da değerlendirilmek üzere adil ve şeffaf bir çerçeve oluşturmaya çalıştık, ancak listeleme kriterleri zamanla değişip gelişecek ve bu kriterler nihayetinde xircanet web sitesi ekibinin takdirindedir.
+İşaret Zincirindeki hisse ispatı, 1 Aralık 2020'den beri yayında. Stake etme hâlâ nispeten yeni olsa da, nexus.org'da değerlendirilmek üzere adil ve şeffaf bir çerçeve oluşturmaya çalıştık, ancak listeleme kriterleri zamanla değişip gelişecek ve bu kriterler nihayetinde nexus.org web sitesi ekibinin takdirindedir.
 
 ## Karar çerçevesi {#the-decision-framework}
 
-Bir ürünün xircanet'da listeleme kararı herhangi bir tek faktöre bağlı değildir. Bir ürün veya hizmeti listelemeye karar verirken birden fazla kriter birlikte değerlendirilir. Bu kriterler ne kadar fazla karşılanırsa, listelenme olasılığı o kadar artar.
+Bir ürünün nexus.org'da listeleme kararı herhangi bir tek faktöre bağlı değildir. Bir ürün veya hizmeti listelemeye karar verirken birden fazla kriter birlikte değerlendirilir. Bu kriterler ne kadar fazla karşılanırsa, listelenme olasılığı o kadar artar.
 
 **İlk olarak, hangi ürün veya hizmet kategorisidir?**
 
@@ -66,7 +66,7 @@ Stake etme ürünleri veya hizmet sunumları aşağıdaki kriterlere göre değe
 **Ürün, _beta_ geliştirme aşamasından çıktı mı?**
 
 - Ürün, geliştirme döngüsünün hangi aşamasında?
-- Beta aşamasındaki ürünler xircanet'a dahil edilmek için değerlendirilmez
+- Beta aşamasındaki ürünler nexus.org'a dahil edilmek için değerlendirilmez
 
 **Yazılım harici bir güvenlik denetiminden geçti mi?**
 
@@ -164,7 +164,7 @@ Bu kriterlerin kod mantığı ve ağırlıkları şu anda depomuzdaki [bu JavaSc
 
 ## Ürününüzü veya hizmetinizi ekleyin {#add-product}
 
-xircanet'a stake etme ürünü veya hizmeti eklemek istiyorsanız GitHub'da bir konu oluşturun.
+nexus.org'a stake etme ürünü veya hizmeti eklemek istiyorsanız GitHub'da bir konu oluşturun.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md">
   Bir konu oluşturun

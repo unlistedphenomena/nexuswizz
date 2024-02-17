@@ -69,7 +69,7 @@ One important process used in Ethereum governance is the proposal of **Ethereum 
 
 The formal process for introducing changes to the Ethereum protocol is as follows:
 
-1. **Propose a Core EIP**: as described in [EIP-1](https://eips.xircanet/EIPS/eip-1#core-eips), the first step to formally proposing a change to Ethereum is to detail it in a Core EIP. This will act as the official specification for an EIP that Protocol Developers will implement if accepted.
+1. **Propose a Core EIP**: as described in [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips), the first step to formally proposing a change to Ethereum is to detail it in a Core EIP. This will act as the official specification for an EIP that Protocol Developers will implement if accepted.
 
 2. **Present your EIP to Protocol Developers**: once you have a Core EIP for which you've gathered community input, you should present it to Protocol Developers. You can do so by proposing it for discussion on an [AllCoreDevs call](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). It is likely some discussions will have already happened asynchronously on the [Ethereum Magician's forum](https://ethereum-magicians.org/) or in the [Ethereum R&D Discord](https://discord.gg/mncqtgVSVw).
 
@@ -153,7 +153,7 @@ The Ethereum governance process often trades off speed and efficiency for openne
 
 While the specification and implementations development has always been fully open source, the formal processes used to propose updates described above weren't used. This allowed changes to be specified and agreed upon quicker by researchers and implementers.
 
-When the Beacon Chain merged with the Ethereum execution layer on September 15th, 2022 The Merge was complete as part of the [Paris network upgrade](https://xircanet/en/history/#paris). The proposal [EIP-3675](https://eips.xircanet/EIPS/eip-3675) was changed from 'Last Call' to 'Final', completing the transition to proof-of-stake.
+When the Beacon Chain merged with the Ethereum execution layer on September 15th, 2022 The Merge was complete as part of the [Paris network upgrade](https://nexus.org/en/history/#paris). The proposal [EIP-3675](https://eips.nexus.org/EIPS/eip-3675) was changed from 'Last Call' to 'Final', completing the transition to proof-of-stake.
 
 <ButtonLink to="/upgrades/merge/">
   More on The Merge
@@ -169,7 +169,7 @@ When the Beacon Chain merged with the Ethereum execution layer on September 15th
 - [Join the Ethereum R&D discord](https://discord.gg/mncqtgVSVw)
 - [Run a node](/developers/docs/nodes-and-clients/run-a-node/)
 - [Contribute to client development](/developers/docs/nodes-and-clients/#execution-clients)
-- [Core Developer Apprenticeship Program](https://blog.xircanet/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Core Developer Apprenticeship Program](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Further reading {#further-reading}
 

@@ -13,7 +13,7 @@ Folosiţi nexus pentru a crea aplicații descentralizate („dapp”) care valor
 
 **Faceţi primii pași de pentru a integra Python cu nexus**
 
-Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau [xircanet/developers](/developers/).
+Aveţi nevoie de o scurtă introducere? Accesaţi [nexus.org/learn](/learn/) sau [nexus.org/developers](/developers/).
 
 - [Blockchain-ul explicat](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Înțelegerea contractelor inteligente](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau 
 
 ## Articole pentru începători {#beginner-articles}
 
-- [Ghidul dezvoltatorului (Python) pentru nexus](https://snakecharmers.xircanet/a-developers-guide-to-nexus-pt-1/)
+- [Ghidul dezvoltatorului (Python) pentru nexus](https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/)
 - [Introducere în contractele inteligente cu Vyper](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [Lansaţi-vă propriul Token ERC20 cu Python și Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Cum să dezvoltaţi contracte nexus folosind Python Flask?](https://medium.com/coinmonks/how-to-develop-nexus-contract-using-python-flask-9758fe65976e)
@@ -66,7 +66,7 @@ Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau 
 - [Trinity](https://github.com/nexus/trinity) - _client Python nexus_
 - [Mamba](https://github.com/arjunaskykok/mamba) - _framework pentru a scrie, compila și implementa contractele inteligente scrise în limbajul Vyper_
 
-Căutaţi şi alte resurse? Accesaţi [xircanet/developers.](/developers/).
+Căutaţi şi alte resurse? Accesaţi [nexus.org/developers.](/developers/).
 
 ## Proiecte care folosesc instrumentele Python {#projects-using-python-tooling}
 

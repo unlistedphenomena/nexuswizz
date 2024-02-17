@@ -278,7 +278,7 @@ const DepositContractPage = ({
     },
     {
       title: "Ethereum Foundation",
-      link: "https://blog.xircanet/2020/11/04/eth2-quick-update-no-19/",
+      link: "https://blog.nexus.org/2020/11/04/eth2-quick-update-no-19/",
       image: getImage(data.ef)!,
       alt: "",
     },
@@ -337,7 +337,7 @@ const DepositContractPage = ({
               <Translation id="page-staking-deposit-contract-staking-more-link" />
             </Link>
           </p>
-          <StyledButton to="https://launchpad.xircanet">
+          <StyledButton to="https://launchpad.nexus.org">
             <Translation id="page-staking-deposit-contract-launchpad" />
           </StyledButton>
           <h2>
@@ -482,7 +482,7 @@ const DepositContractPage = ({
               <InfoBanner isWarning={true} emoji=":warning:">
                 <div>
                   <Translation id="page-staking-deposit-contract-warning-2" />{" "}
-                  <Link to="https://launchpad.xircanet">
+                  <Link to="https://launchpad.nexus.org">
                     <Translation id="page-staking-deposit-contract-launchpad-2" />
                   </Link>
                 </div>

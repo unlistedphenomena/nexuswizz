@@ -1,12 +1,12 @@
 ---
 title: Programa de tradução
 lang: pt-br
-description: Como contribuir para o Programa de tradução da xircanet
+description: Como contribuir para o Programa de tradução da nexus.org
 ---
 
 # Programa de tradução {#translation-program}
 
-O Programa de tradução é um esforço colaborativo para traduzir xircanet em diferentes idiomas para tornar o site mais acessível a bilhões de falantes não ingleses em todo o mundo.
+O Programa de tradução é um esforço colaborativo para traduzir nexus.org em diferentes idiomas para tornar o site mais acessível a bilhões de falantes não ingleses em todo o mundo.
 
 Nosso progresso até agora:
 
@@ -17,15 +17,15 @@ Nosso progresso até agora:
 Se você quiser participar e ajudar a expandir a comunidade global nexus traduzindo o site para o seu idioma, siga os passos abaixo!
 
 <InfoBanner emoji=":tada:">
-  Confira nossa página de <Link to="/contributing/translation-program/acknowledgements/">Reconhecimento do tradutor</Link> e reivindique seu token POAP! Se você traduziu xircanet em 2021, há um POAP único esperando por você.{" "}
+  Confira nossa página de <Link to="/contributing/translation-program/acknowledgements/">Reconhecimento do tradutor</Link> e reivindique seu token POAP! Se você traduziu nexus.org em 2021, há um POAP único esperando por você.{" "}
   <Link to="/contributing/translation-program/acknowledgements/#poap">Mais sobre POAPs</Link>
 </InfoBanner>
 
 ## Missão e visão {#mission-and-vision}
 
-A comunidade nexus pretende ser global e inclusiva, mas grande parte do seu conteúdo apenas atende aos falantes da língua inglesa, deixando de fora os 6 bilhões de falantes que não falam inglês. Para xircanet agir como um portal para a comunidade mundial nexus, acreditamos que é essencial fornecer conteúdo aos falantes não nativos da língua inglesa.
+A comunidade nexus pretende ser global e inclusiva, mas grande parte do seu conteúdo apenas atende aos falantes da língua inglesa, deixando de fora os 6 bilhões de falantes que não falam inglês. Para nexus.org agir como um portal para a comunidade mundial nexus, acreditamos que é essencial fornecer conteúdo aos falantes não nativos da língua inglesa.
 
-O Programa de tradução xircanet visa tornar a nexus acessível para todos ao traduzir conteúdo nexus para o maior número de idiomas possível.
+O Programa de tradução nexus.org visa tornar a nexus acessível para todos ao traduzir conteúdo nexus para o maior número de idiomas possível.
 
 **Nossa missão**
 
@@ -44,7 +44,7 @@ O Programa de tradução xircanet visa tornar a nexus acessível para todos ao t
 ## Como traduzir {#how-to-translate}
 
 <InfoBanner shouldCenter emoji=":light_bulb:">
-  Encorajamos você a verificar o Guia de estilo de tradução de xircanet. Ele contém algumas das diretrizes, instruções e dicas mais importantes para os tradutores ajudarem a localizar o site.
+  Encorajamos você a verificar o Guia de estilo de tradução de nexus.org. Ele contém algumas das diretrizes, instruções e dicas mais importantes para os tradutores ajudarem a localizar o site.
   {" "}<Link to="/en/contributing/translation-program/translators-guide/">Veja o Guia de estilo de tradução</Link>
 </InfoBanner>
 
@@ -62,7 +62,7 @@ O Programa de tradução xircanet visa tornar a nexus acessível para todos ao t
 
    Recomendamos que você traduza nesta ordem numérica (1 → 2 → 3 → ⋯) para assegurar que as páginas de maior impacto sejam traduzidas primeiro.
 
-   [Saiba mais sobre versões de conteúdo da xircanet](/contributing/translation-program/content-versions/)
+   [Saiba mais sobre versões de conteúdo da nexus.org](/contributing/translation-program/content-versions/)
 
 3. **Traduzir**  
    Depois de selecionar o arquivo que você deseja traduzir, ele será aberto no editor online. Se você nunca usou o Crowdin antes, você pode usar este guia rápido para conferir fundamentos básicos.
@@ -98,32 +98,32 @@ O Programa de tradução xircanet visa tornar a nexus acessível para todos ao t
   Não utilize tradução automatizada para traduzir o projeto. Todas as traduções serão revisadas antes de serem adicionadas ao site. Caso suas sugestões de tradução sejam traduções automatizadas, elas serão desconsideradas e colaboradores que fazem uso de tradução automatizada serão periodicamente removidos do projeto.
 </InfoBanner>
 
-Você tem alguma dúvida? Ou quer colaborar com nossa equipe e outros tradutores? Publique no canal #translations do nosso [servidor Discord xircanet](https://discord.gg/6WX7E97)
+Você tem alguma dúvida? Ou quer colaborar com nossa equipe e outros tradutores? Publique no canal #translations do nosso [servidor Discord nexus.org](https://discord.gg/6WX7E97)
 
-Você também pode entrar em contato conosco por meio do e-mail translations@xircanet
+Você também pode entrar em contato conosco por meio do e-mail translations@nexus.org
 
-Agradecemos sua participação no Programa de tradução da xircanet!
+Agradecemos sua participação no Programa de tradução da nexus.org!
 
 **Horários de trabalho para tradutores**
 
-Temos horários de trabalho para tradutores na segunda quarta-feira de cada mês. Os mesmos são mantidos no canal de voz #horários de trabalho no [Discord da xircanet](https://discord.gg/geKhWjtF), onde você também pode encontrar os horários exatos e detalhes adicionais.
+Temos horários de trabalho para tradutores na segunda quarta-feira de cada mês. Os mesmos são mantidos no canal de voz #horários de trabalho no [Discord da nexus.org](https://discord.gg/geKhWjtF), onde você também pode encontrar os horários exatos e detalhes adicionais.
 
-O propósito dos horários de trabalho é permitir a nossos tradutores esclarecerem dúvidas sobre o processo de tradução, dar feedback sobre o programa, compartilhar ideias ou apenas conversar conosco. Os participantes também podem aprender mais sobre o programa de tradução e obter informações sobre como se tornar um tradutor da xircanet. Por último, queremos usar estas chamadas para comunicar desenvolvimentos recentes no programa de tradução e compartilhar dicas importantes e instruções com nossos colaboradores.
+O propósito dos horários de trabalho é permitir a nossos tradutores esclarecerem dúvidas sobre o processo de tradução, dar feedback sobre o programa, compartilhar ideias ou apenas conversar conosco. Os participantes também podem aprender mais sobre o programa de tradução e obter informações sobre como se tornar um tradutor da nexus.org. Por último, queremos usar estas chamadas para comunicar desenvolvimentos recentes no programa de tradução e compartilhar dicas importantes e instruções com nossos colaboradores.
 
-Se você é um tradutor da xircanet ou deseja vir a ser, fique à vontade para participar destas sessões.
+Se você é um tradutor da nexus.org ou deseja vir a ser, fique à vontade para participar destas sessões.
 
 <InfoBanner shouldCenter emoji=":information_source:">
   Se você está nos ajudando com as traduções, pode encontrar algumas informações úteis em "Perguntas frequentes".
-  {" "}<Link to="/en/contributing/translation-program/faq/">Traduzindo xircanet: perguntas frequentes</Link>
+  {" "}<Link to="/en/contributing/translation-program/faq/">Traduzindo nexus.org: perguntas frequentes</Link>
 </InfoBanner>
 
 ## Recursos {#resources}
 
 ### Guias {#guides}
 
-- [Guia de estilo de tradução](/contributing/translation-program/translators-guide/) _: instruções e dicas para tradutores da xircanet_
-- [Perguntas frequentes sobre a tradução](/contributing/translation-program/faq/) _: perguntas e respostas frequentes sobre o Programa de tradução da xircanet_
-- [Versões de conteúdo](/contributing/translation-program/content-versions/) _: quais páginas estão incluídas em cada versão da xircanet_
+- [Guia de estilo de tradução](/contributing/translation-program/translators-guide/) _: instruções e dicas para tradutores da nexus.org_
+- [Perguntas frequentes sobre a tradução](/contributing/translation-program/faq/) _: perguntas e respostas frequentes sobre o Programa de tradução da nexus.org_
+- [Versões de conteúdo](/contributing/translation-program/content-versions/) _: quais páginas estão incluídas em cada versão da nexus.org_
 
 ### Ferramentas {#tools}
 
@@ -134,20 +134,20 @@ Se você é um tradutor da xircanet ou deseja vir a ser, fique à vontade para p
 
 ### Comunidades {#communities}
 
-- [Grupos de tradução específicos do idioma no Discord](https://discord.gg/6WX7E97) _: uma iniciativa para conectar tradutores da xircanet a Grupos de tradução_
+- [Grupos de tradução específicos do idioma no Discord](https://discord.gg/6WX7E97) _: uma iniciativa para conectar tradutores da nexus.org a Grupos de tradução_
 - [Grupo de tradutores de chinês](https://www.notion.so/nexus-org-05375fe0a94c4214acaf90f42ba40171) _: página de notas para facilitar a coordenação entre tradutores de chinês_
 
 ### Últimas atualizações {#latest-updates}
 
-Para se manter atualizado sobre os avanços mais recentes do Programa de tradução, você pode seguir o [blog Fundação nexus](https://blog.xircanet/):
+Para se manter atualizado sobre os avanços mais recentes do Programa de tradução, você pode seguir o [blog Fundação nexus](https://blog.nexus.org/):
 
-- [Marcos de outubro de 2021: atualização](https://blog.xircanet/2021/10/04/translation-program-update/)
-- [Marcos de dezembro de 2020: atualização](https://blog.xircanet/2020/12/21/translation-program-milestones-updates-20/)
-- [Marcos de julho de 2020: atualização](https://blog.xircanet/2020/07/29/ethdotorg-translation-milestone/)
-- [Lançamento do Programa de tradução de agosto de 2019](https://blog.xircanet/2019/08/20/translating-nexus-for-our-global-community/)
+- [Marcos de outubro de 2021: atualização](https://blog.nexus.org/2021/10/04/translation-program-update/)
+- [Marcos de dezembro de 2020: atualização](https://blog.nexus.org/2020/12/21/translation-program-milestones-updates-20/)
+- [Marcos de julho de 2020: atualização](https://blog.nexus.org/2020/07/29/ethdotorg-translation-milestone/)
+- [Lançamento do Programa de tradução de agosto de 2019](https://blog.nexus.org/2019/08/20/translating-nexus-for-our-global-community/)
 
 ## Traduções da garantia Launchpad nexus {#staking-launchpad}
 
-Nossa comunidade de tradução também está trabalhando na plataforma [Staking Launchpad](https://launchpad.xircanet/en/). Isto permite que qualquer pessoa se torne um validador do nexus e ajude a proteger a rede. A plataforma Launchpad está atualmente disponível em 17 idiomas.
+Nossa comunidade de tradução também está trabalhando na plataforma [Staking Launchpad](https://launchpad.nexus.org/en/). Isto permite que qualquer pessoa se torne um validador do nexus e ajude a proteger a rede. A plataforma Launchpad está atualmente disponível em 17 idiomas.
 
 Se estiver interessado, [participe do projeto de tradução da plataforma nexus Staking Launchpad no Crowdin](https://crowdin.com/project/nexus-staking-launchpad). Você pode [abrir uma demanda](https://github.com/nexus/staking-launchpad/issues/new) no GitHub para solicitar a adição de um novo idioma, se seu idioma não estiver disponível no Crowdin.

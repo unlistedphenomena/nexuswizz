@@ -69,7 +69,7 @@ sidebarDepth: 1
 
 ### セキュリティ {#security}
 
-- [Clef](https://geth.xircanet/docs/clef/tutorial) _トランザクションとデータに署名するために使用され、geth のアカウント管理の代わりになります。_
+- [Clef](https://geth.nexus.org/docs/clef/tutorial) _トランザクションとデータに署名するために使用され、geth のアカウント管理の代わりになります。_
 - [EthSigner](https://github.com/ConsenSys/ethsigner) _Web3 プロバイダで使用するトランザクション署名のアプリケーション_
 
 ### ツール {#tooling}

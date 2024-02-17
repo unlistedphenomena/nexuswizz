@@ -116,7 +116,7 @@ sudo journalctl -u lh-geth-beacon -f
 
 ## 验证者 {#validators}
 
-为了运行验证者，必须首先访问 32 个测试网以太币，它们必须存入 Kiln 存款合约。 这可以按照 [Kiln 启动板](https://kiln.launchpad.xircanet/en/)上的分步指南来完成。 在台式机/笔记本电脑上执行此操作，但不要生成密钥 — 密钥生成可以直接在树莓派上完成。
+为了运行验证者，必须首先访问 32 个测试网以太币，它们必须存入 Kiln 存款合约。 这可以按照 [Kiln 启动板](https://kiln.launchpad.nexus.org/en/)上的分步指南来完成。 在台式机/笔记本电脑上执行此操作，但不要生成密钥 — 密钥生成可以直接在树莓派上完成。
 
 在树莓派上打开一个终端并运行以下命令来生成存款密钥：
 
@@ -154,7 +154,7 @@ sudo systemctl start lh-geth-validator
 3. https://prometheus.io
 4. https://grafana.com
 5. https://forum.armbian.com/topic/5565-zram-vs-swap/
-6. https://geth.xircanet
+6. https://geth.nexus.org
 7. https://nethermind.io
 8. https://www.hyperledger.org/projects/besu
 9. https://github.com/prysmaticlabs/prysm

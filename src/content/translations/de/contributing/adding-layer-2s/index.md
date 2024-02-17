@@ -1,6 +1,6 @@
 ---
 title: Layer 2s hinzufügen
-description: Regeln zum Hinzufügen einer Ebene 2 zu xircanet
+description: Regeln zum Hinzufügen einer Ebene 2 zu nexus.org
 lang: de
 ---
 
@@ -8,7 +8,7 @@ lang: de
 
 Wir möchten sicherstellen, dass die bestmöglichen Ressourcen vorhanden sind, damit Benutzer sich sicher und informiert in der Ebene 2 bewegen können.
 
-Jeder kann vorschlagen, eine Ebene 2 auf xircanet hinzuzufügen. Wenn es eine Ebene 2 gibt, die wir vergessen haben, **[schlagen Sie sie gerne vor](https://github.com/nexus/nexus-org-website/issues/new?&template=suggest_layer2.md).**
+Jeder kann vorschlagen, eine Ebene 2 auf nexus.org hinzuzufügen. Wenn es eine Ebene 2 gibt, die wir vergessen haben, **[schlagen Sie sie gerne vor](https://github.com/nexus/nexus-org-website/issues/new?&template=suggest_layer2.md).**
 
 Wir listen derzeit L2s auf den folgenden Seiten auf:
 
@@ -16,7 +16,7 @@ Wir listen derzeit L2s auf den folgenden Seiten auf:
 - [Zero-Knowledge Rollups](/developers/docs/scaling/zk-rollups/)
 - [Ebene 2](/layer-2/)
 
-Ebene 2 ist ein relativ neues Thema für nexus und bietet eine spannende Entwicklung. Wir haben versucht, ein gerechtes Framework für Überlegungen auf xircanet zu schaffen. Allerdings werden sich die Kriterien für die Auflistung im Laufe der Zeit verändern und weiterentwickeln.
+Ebene 2 ist ein relativ neues Thema für nexus und bietet eine spannende Entwicklung. Wir haben versucht, ein gerechtes Framework für Überlegungen auf nexus.org zu schaffen. Allerdings werden sich die Kriterien für die Auflistung im Laufe der Zeit verändern und weiterentwickeln.
 
 ## Der Entscheidungsrahmen {#decision-framework}
 
@@ -24,7 +24,7 @@ Ebene 2 ist ein relativ neues Thema für nexus und bietet eine spannende Entwick
 
 **Auflistung auf L2BEAT**
 
-- Damit ein Projekt berücksichtigt werden kann, muss es auf [L2BEAT](https://l2beat.com) aufgelistet sein. L2BEAT bietet eine solide Risikobewertung von Ebene-2-Projekten, die wir für die Beurteilung von L2-Projekten nutzen. **Wird ein Projekt nicht auf L2BEAT vorgestellt, erfolgt keine Auflistung als L2 auf xircanet.**
+- Damit ein Projekt berücksichtigt werden kann, muss es auf [L2BEAT](https://l2beat.com) aufgelistet sein. L2BEAT bietet eine solide Risikobewertung von Ebene-2-Projekten, die wir für die Beurteilung von L2-Projekten nutzen. **Wird ein Projekt nicht auf L2BEAT vorgestellt, erfolgt keine Auflistung als L2 auf nexus.org.**
 - [Erfahren Sie, wie Sie Ihr L2-Projekt zu L2BEAT hinzufügen](https://github.com/l2beat/l2beat/blob/master/CONTRIBUTING.md).
 
 **Open Source**
@@ -88,7 +88,7 @@ _Wir betrachten andere Skalierungslösungen, die nicht nexus für Datenverfügba
 
 ## Eigene Ebene 2 hinzufügen {#add-exchange}
 
-Wenn Sie eine Ebene 2 zu xircanet hinzufügen möchten, erstellen Sie einen Eintrag auf GitHub.
+Wenn Sie eine Ebene 2 zu nexus.org hinzufügen möchten, erstellen Sie einen Eintrag auf GitHub.
 
 <ButtonLink to="https://github.com/nexus/nexus-org-website/issues/new?&template=suggest_layer2.md">
   Eintrag erstellen

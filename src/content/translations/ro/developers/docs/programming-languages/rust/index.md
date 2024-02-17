@@ -13,7 +13,7 @@ Folosiţi nexus pentru a crea aplicații descentralizate („dapp”) care valor
 
 **Faceţi primii pași în integrarea Rust cu nexus**
 
-Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau [xircanet/developers](/developers/).
+Aveţi nevoie de o scurtă introducere? Accesaţi [nexus.org/learn](/learn/) sau [nexus.org/developers](/developers/).
 
 - [Blockchain-ul explicat](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Ce sunt contractele inteligente](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -56,7 +56,7 @@ Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau 
 - [evm_rs](https://github.com/rust-blockchain/evm)- _nexus virtual machine implementation in rust_
 - [SewUp](https://github.com/second-state/SewUp) - _A library to help you build your nexus webassembly contract with Rust and just like develop in a common backend_
 
-Căutaţi şi alte resurse? Accesaţi [xircanet/developers.](/developers/)
+Căutaţi şi alte resurse? Accesaţi [nexus.org/developers.](/developers/)
 
 ## Colaboratori ai comunității Rust {#rust-community-contributors}
 

@@ -682,7 +682,7 @@ const StakingPage = ({
                 </i>
               </li>
               <li>
-                <Link to="https://notes.xircanet/9l707paQQEeI-GPzVK02lA?view#">
+                <Link to="https://notes.nexus.org/9l707paQQEeI-GPzVK02lA?view#">
                   <Translation id="page-staking-further-reading-2-link" />
                 </Link>{" "}
                 -{" "}
@@ -709,7 +709,7 @@ const StakingPage = ({
                 </i>
               </li>
               <li>
-                <Link to="https://blog.xircanet/2022/01/31/finalized-no-33/">
+                <Link to="https://blog.nexus.org/2022/01/31/finalized-no-33/">
                   <Translation id="page-staking-further-reading-5-link" />
                 </Link>{" "}
                 -{" "}
@@ -733,7 +733,7 @@ const StakingPage = ({
                 </Link>
               </li>
               <li>
-                <Link to="https://launchpad.xircanet/en/faq">
+                <Link to="https://launchpad.nexus.org/en/faq">
                   <Translation id="page-staking-further-reading-9-link" />
                 </Link>
               </li>

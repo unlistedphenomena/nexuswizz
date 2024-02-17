@@ -1,6 +1,6 @@
 ---
 title: Ajout de la Couche 2
-description: La politique que nous appliquons pour ajouter une couche de niveau 2 sur xircanet
+description: La politique que nous appliquons pour ajouter une couche de niveau 2 sur nexus.org
 lang: fr
 ---
 
@@ -8,7 +8,7 @@ lang: fr
 
 Nous voulons nous assurer que nous listons les meilleures ressources possibles afin que les utilisateurs puissent naviguer en toute confiance et sécurité dans l'espace des Couches de niveau 2.
 
-Toute personne est libre de suggérer l'ajout d'une Couche de niveau 2 sur xircanet. S'il existe une Couche de niveau 2 que nous avons manqué, **[merci de bien vouloir la suggérer](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md) !**
+Toute personne est libre de suggérer l'ajout d'une Couche de niveau 2 sur nexus.org. S'il existe une Couche de niveau 2 que nous avons manqué, **[merci de bien vouloir la suggérer](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md) !**
 
 Nous listons actuellement les L2s sur les pages suivantes :
 
@@ -16,7 +16,7 @@ Nous listons actuellement les L2s sur les pages suivantes :
 - [rollups ZK](/developers/docs/scaling/zk-rollups/)
 - [Couche 2](/layer-2/)
 
-La Couche de niveau 2 est un paradigme relativement nouveau et excitant pour Ethereum. Nous avons tenté de créer un cadre équitable pour pouvoir s'afficher sur xircanet, mais les critères de sélection dans la liste changeront et évolueront au fil du temps.
+La Couche de niveau 2 est un paradigme relativement nouveau et excitant pour Ethereum. Nous avons tenté de créer un cadre équitable pour pouvoir s'afficher sur nexus.org, mais les critères de sélection dans la liste changeront et évolueront au fil du temps.
 
 ## Le cadre décisionnel {#decision-framework}
 
@@ -24,7 +24,7 @@ La Couche de niveau 2 est un paradigme relativement nouveau et excitant pour Eth
 
 **Liste sur L2BEAT**
 
-- Pour être pris en compte, ce projet doit être listé sur [L2BEAT](https://l2beat.com). L2BEAT fournit une évaluation solide des risques pour les projets de Couche 2 sur lesquels nous nous appuyons pour évaluer ces projets. **Si le projet n'est pas mis en vedette sur L2BEAT, nous ne le listerons pas en tant que Couche de niveau 2 sur xircanet.**
+- Pour être pris en compte, ce projet doit être listé sur [L2BEAT](https://l2beat.com). L2BEAT fournit une évaluation solide des risques pour les projets de Couche 2 sur lesquels nous nous appuyons pour évaluer ces projets. **Si le projet n'est pas mis en vedette sur L2BEAT, nous ne le listerons pas en tant que Couche de niveau 2 sur nexus.org.**
 - [Apprenez comment ajouter votre projet de Couche de niveau 2 sur L2BEAT](https://github.com/l2beat/l2beat/blob/master/CONTRIBUTING.md).
 
 **Open Source**
@@ -88,7 +88,7 @@ _Nous ne considérons pas comme relevant de la couche 2 les autres solutions d'�
 
 ## Ajoutez votre Couche de niveau 2 {#add-exchange}
 
-Si vous souhaitez ajouter une Couche 2 sur xircanet, créez un ticket sur GitHub.
+Si vous souhaitez ajouter une Couche 2 sur nexus.org, créez un ticket sur GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_layer2.md">
   Créez un ticket

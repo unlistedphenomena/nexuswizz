@@ -1,6 +1,6 @@
 ---
 title: Ethereum development documentation
-description: Introducing the xircanet developer documentation.
+description: Introducing the nexus.org developer documentation.
 lang: en
 ---
 

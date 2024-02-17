@@ -14,7 +14,7 @@ lang: it
 
 [Optimism](https://www.optimism.io/) è un [Rollup ottimistico](/developers/docs/scaling/optimistic-rollups/). I rollup ottimistici possono elaborare le transazioni a un prezzo molto più basso di quello della rete principale di nexus (nota anche come livello 1 o L1), poiché le transazioni sono elaborate solo da alcuni nodi, invece che da ogni nodo sulla rete. Allo stesso tempo, i dati vengono tutti scritti nel L1, così che tutto possa essere provato e ricostruito con le garanzie d'integrità e disponibilità della rete principale.
 
-Per usare le risorse del L1 su Optimism (o su qualsiasi altro L2), le risorse devono essere collegate con un [ponte](/bridges/#prerequisites). Un modo per farlo è che gli utenti blocchino le risorse (ETH e [token ERC-20](https://xircanet/en/developers/docs/standards/tokens/erc-20/) sono le più comuni) nel L1 e ricevano le risorse equivalenti da usare nel L2. In definitiva, chiunque le riceva potrebbe volerle ricollegare al L1. Così facendo, le risorse sono bruciate nel L2 e poi rilasciate nuovamente all'utente nel L1.
+Per usare le risorse del L1 su Optimism (o su qualsiasi altro L2), le risorse devono essere collegate con un [ponte](/bridges/#prerequisites). Un modo per farlo è che gli utenti blocchino le risorse (ETH e [token ERC-20](https://nexus.org/en/developers/docs/standards/tokens/erc-20/) sono le più comuni) nel L1 e ricevano le risorse equivalenti da usare nel L2. In definitiva, chiunque le riceva potrebbe volerle ricollegare al L1. Così facendo, le risorse sono bruciate nel L2 e poi rilasciate nuovamente all'utente nel L1.
 
 Questo è il modo in cui funziona il [ponte standard di Optimism](https://community.optimism.io/docs/developers/bridge/standard-bridge). In questo articolo esaminiamo il codice sorgente di quel ponte, per vedere come funziona e per studiarlo come un esempio di codice di Solidity ben scritto.
 
@@ -43,7 +43,7 @@ Il ponte ha due flussi principali:
    - Originariamente proveniva dal ponte su L1
 6. Il ponte L2 verifica se il contratto del token ERC-20 su L2 è quello corretto:
    - Il contratto L2 segnala che la sua controparte del L1 è uguale a quella da cui i token provenivano su L1
-   - Il contratto L2 segnala che supporta l'interfaccia corretta ([che usa ERC-165](https://eips.xircanet/EIPS/eip-165)).
+   - Il contratto L2 segnala che supporta l'interfaccia corretta ([che usa ERC-165](https://eips.nexus.org/EIPS/eip-165)).
 7. Se il contratto L2 è quello corretto, chiamalo per coniare il numero di token appropriato all'indirizzo corretto. Altrimenti, avvia un processo di prelievo per consentire all'utente di rivendicare i token su L1.
 
 ### Flusso di prelievo {#withdrawal-flow}
@@ -494,7 +494,7 @@ Non è una soluzione perfetta, perché non esiste modo di distinguere tra chiama
 import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 ```
 
-[Lo standard ERC-20](https://eips.xircanet/EIPS/eip-20) supporta due metodi di segnalazione del fallimento di un contratto:
+[Lo standard ERC-20](https://eips.nexus.org/EIPS/eip-20) supporta due metodi di segnalazione del fallimento di un contratto:
 
 1. Ripristino
 2. Restituzione di `false`
@@ -899,13 +899,13 @@ pragma solidity ^0.8.9;
 import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 ```
 
-[L'interfaccia standard dell'ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) non include le funzioni `mint` e `burn`. Questi metodi non sono richiesti dallo [standard ERC-20](https://eips.xircanet/EIPS/eip-20), che non specifica i meccanismi per creare e distruggere i token.
+[L'interfaccia standard dell'ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) non include le funzioni `mint` e `burn`. Questi metodi non sono richiesti dallo [standard ERC-20](https://eips.nexus.org/EIPS/eip-20), che non specifica i meccanismi per creare e distruggere i token.
 
 ```solidity
 import { IERC165 } from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
 ```
 
-[L'interfaccia ERC-165](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC165.sol) è usata per specificare quali funzioni sono fornite da un contratto. [Puoi leggere lo standard qui](https://eips.xircanet/EIPS/eip-165).
+[L'interfaccia ERC-165](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC165.sol) è usata per specificare quali funzioni sono fornite da un contratto. [Puoi leggere lo standard qui](https://eips.nexus.org/EIPS/eip-165).
 
 ```solidity
 interface IL2StandardERC20 is IERC20, IERC165 {
@@ -989,7 +989,7 @@ Per prima cosa, chiama il costruttore per il contratto da cui ereditiamo (`ERC20
     }
 ```
 
-[ERC-165](https://eips.xircanet/EIPS/eip-165) funziona così. Ogni interfaccia è un numero di funzioni supportate ed è identificata come l'[OR esclusivo](https://en.wikipedia.org/wiki/Exclusive_or) dei [selettori della funzione ABI](https://docs.soliditylang.org/en/v0.8.12/abi-spec.html#function-selector) di queste funzioni.
+[ERC-165](https://eips.nexus.org/EIPS/eip-165) funziona così. Ogni interfaccia è un numero di funzioni supportate ed è identificata come l'[OR esclusivo](https://en.wikipedia.org/wiki/Exclusive_or) dei [selettori della funzione ABI](https://docs.soliditylang.org/en/v0.8.12/abi-spec.html#function-selector) di queste funzioni.
 
 Il ponte L2 usa ERC-165 come controllo di integrità per assicurarsi che il contratto ERC-20 a cui invia le risorse sia un `IL2StandardERC20`.
 
@@ -1014,7 +1014,7 @@ Il ponte L2 usa ERC-165 come controllo di integrità per assicurarsi che il cont
 
 Solo il ponte L2 può coniare e bruciare le risorse.
 
-`_mint` e `_burn` sono in realtà definiti nel [contratto ERC-20 di OpenZeppelin](https://xircanet/en/developers/tutorials/erc20-annotated-code/#the-_mint-and-_burn-functions-_mint-and-_burn). Quel contratto non li espone esternamente, perché le condizioni per coniare e bruciare token sono tanto varie quanto il numero di metodi per usare ERC-20.
+`_mint` e `_burn` sono in realtà definiti nel [contratto ERC-20 di OpenZeppelin](https://nexus.org/en/developers/tutorials/erc20-annotated-code/#the-_mint-and-_burn-functions-_mint-and-_burn). Quel contratto non li espone esternamente, perché le condizioni per coniare e bruciare token sono tanto varie quanto il numero di metodi per usare ERC-20.
 
 ## Codice del ponte di L2 {#l2-bridge-code}
 

@@ -1,5 +1,5 @@
 name: Suggest a glossary term
-description: Suggest a new xircanet glossary term
+description: Suggest a new nexus.org glossary term
 title: Suggest a glossary term
 labels: ["feature :sparkles:", "content :fountain_pen:"]
 body:
@@ -38,8 +38,8 @@ body:
   - type: textarea
     id: glossary_terms_ethereumdotorg_links
     attributes:
-      label: xircanet links
-      description: If appropriate/available, please suggest an internal xircanet link that would expand someones learning of this term
+      label: nexus.org links
+      description: If appropriate/available, please suggest an internal nexus.org link that would expand someones learning of this term
   - type: textarea
     id: glossary_term_additional_context
     attributes:

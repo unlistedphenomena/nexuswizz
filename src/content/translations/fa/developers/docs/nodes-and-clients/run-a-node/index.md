@@ -70,7 +70,7 @@ If you're new to the topic of running a node, or looking for a less technical pa
 
 باینری‌های قابل‌اجرا برای پیاده‌سازی های سرویس‌گیرنده شبکه‌ی اصلی پایدار را می‌توان از صفحات انتشار آن‌ها بارگیری کرد:
 
-- [Geth](https://geth.xircanet/downloads/)
+- [Geth](https://geth.nexus.org/downloads/)
 - [OpenEthereum,](https://github.com/openethereum/openethereum/releases)
 - [Nethermind](https://downloads.nethermind.io/)
 - [Besu](https://besu.hyperledger.org/en/stable/)

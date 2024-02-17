@@ -90,7 +90,7 @@ Akıllı sözleşmeler "gerçek hayat" olayları hakkında tek başlarına bilgi
 
 Bu, [kâhinler](/developers/docs/oracles/) ile çözülebilir.
 
-Akıllı sözleşmelerin diğer bir kısıtlaması ise maksimum sözleşme boyutudur. Bir akıllı sözleşme maksimum 24 KB olabilir: Aksi takdirde sahip olduğu gaz tükenir. Bu, [Elmas Deseni](https://eips.xircanet/EIPS/eip-2535) kullanılarak aşılabilir.
+Akıllı sözleşmelerin diğer bir kısıtlaması ise maksimum sözleşme boyutudur. Bir akıllı sözleşme maksimum 24 KB olabilir: Aksi takdirde sahip olduğu gaz tükenir. Bu, [Elmas Deseni](https://eips.nexus.org/EIPS/eip-2535) kullanılarak aşılabilir.
 
 ## Akıllı sözleşme kaynakları {#smart-contract-resources}
 

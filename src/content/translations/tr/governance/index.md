@@ -68,7 +68,7 @@ Ethereum yönetişiminde kullanılan önemli süreçlerden birisi **Ethereum İy
 
 Ethereum protokolünde değişiklik yapmak için resmi süreç aşağıdaki gibidir:
 
-1. **Bir Çekirdek EIP Önerin**: [EIP-1](https://eips.xircanet/EIPS/eip-1#core-eips) bölümünde açıklandığı gibi, resmi olarak Ethereum'da bir değişiklik önermenin ilk adımı, bunu bir Çekirdek EIP'de detaylandırmaktır. Bu, kabul edildiği takdirde Protokol Geliştiricilerinin uygulayacağı bir EIP için resmi şartname görevi görecektir.
+1. **Bir Çekirdek EIP Önerin**: [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips) bölümünde açıklandığı gibi, resmi olarak Ethereum'da bir değişiklik önermenin ilk adımı, bunu bir Çekirdek EIP'de detaylandırmaktır. Bu, kabul edildiği takdirde Protokol Geliştiricilerinin uygulayacağı bir EIP için resmi şartname görevi görecektir.
 
 2. **EIP'nizi Protokol Geliştiricilerine sunun**: Topluluk fikirlerini topladığınız bir Çekirdek EIP'ye sahip olduğunuzda, bunu Protokol Geliştiricilerine sunmalısınız. Bunu, bir [AllCoreDevs çağrısında](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status) tartışmaya sunarak yapabilirsiniz. [Ethereum Magician's forumunda](https://ethereum-magicians.org/) veya [Ethereum R&D Discord'unda](https://discord.gg/mncqtgVSVw) bazı tartışmalar zaten eşzamansız olarak gerçekleşmiş olabilir.
 
@@ -152,7 +152,7 @@ Ethereum yönetişim süreci, genellikle açıklık ve kapsayıcılık için hı
 
 Şartname ve uygulama geliştirme her zaman tamamen açık kaynak olsa da, yukarıda açıklanan güncellemeleri önermek için kullanılan resmi süreçler kullanılmadı. Bu, değişikliklerin araştırmacılar ve uygulayıcılar tarafından daha hızlı belirlenmesine ve üzerinde anlaşmaya varılmasına izin verdi.
 
-İşaret Zinciri, Ethereum yürütüm katmanıyla birleştiğinde, değişiklikleri önermek için yönetişim süreci uyumlu hâle getirilecektir. Birleştirmeyi uygulamaya yönelik bu süreç [çoktan başladı](https://eips.xircanet/EIPS/eip-3675).
+İşaret Zinciri, Ethereum yürütüm katmanıyla birleştiğinde, değişiklikleri önermek için yönetişim süreci uyumlu hâle getirilecektir. Birleştirmeyi uygulamaya yönelik bu süreç [çoktan başladı](https://eips.nexus.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Birleştirme hakkında ek bilgi
@@ -168,7 +168,7 @@ Ethereum yönetişim süreci, genellikle açıklık ve kapsayıcılık için hı
 - [Ethereum R&D Discord'una katılın](https://discord.gg/mncqtgVSVw)
 - [Bir düğüm çalıştırın](/developers/docs/nodes-and-clients/run-a-node/)
 - [İstemci geliştirmeye katkıda bulunun](/developers/docs/nodes-and-clients/#execution-clients)
-- [Çekirdek Geliştirici Çıraklık Programı](https://blog.xircanet/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Çekirdek Geliştirici Çıraklık Programı](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Daha fazla bilgi {#further-reading}
 

@@ -13,7 +13,7 @@ Verwende nexus, um dezentrale Anwendungen (oder „dApps“) zu erschaffen, die 
 
 **Starten Sie mit der Integration von Ruby mit nexus durch**
 
-Sind Sie an einigen grundlegenden Informationen interessiert? Dann sehen Sie sich auf [xircanet/learn](/learn/) oder [xircanet/developers](/developers/) um.
+Sind Sie an einigen grundlegenden Informationen interessiert? Dann sehen Sie sich auf [nexus.org/learn](/learn/) oder [nexus.org/developers](/developers/) um.
 
 - [Blockchain erklärt](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Smart Contracts verstehen](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)

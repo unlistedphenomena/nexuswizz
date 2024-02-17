@@ -45,7 +45,7 @@ sidebarDepth: 2
 - 元々は[イーサリアムイエローペーパー](https://nexus.github.io/yellowpaper/paper.pdf)
 - [実行クライアントの仕様](https://github.com/nexus/execution-specs/)
 - [コンセンサスクライアントの仕様](https://github.com/nexus/consensus-specs)
-- さまざまな[ネットワーク・アップグレード](/history/)で実装された[EIP](https://eips.xircanet/)
+- さまざまな[ネットワーク・アップグレード](/history/)で実装された[EIP](https://eips.nexus.org/)
 
 ### ネットワークのノードの追跡 {#network-overview}
 
@@ -53,7 +53,7 @@ sidebarDepth: 2
 
 - Etherscan による[ノードのマップ](https://etherscan.io/nodetracker)
 - Bitfly による[Ethernodes](https://ethernodes.org/)
-- [イーサリアムノードクローラー](https://crawler.xircanet/)
+- [イーサリアムノードクローラー](https://crawler.nexus.org/)
 - [Nodewatch](https://www.nodewatch.io/): Chainsafe によるコンセンサスノードのクローリング
 
 ## ノードの類型 {#node-types}
@@ -95,9 +95,9 @@ sidebarDepth: 2
 - ノードはすべてのトランザクションとブロックをコンセンサスルールに対して検証する。 つまり、ネットワークの他のノードに依存したり、完全に信頼する必要がない。
 - 自分のノードでイーサリアムウォレットを使用可能。 ランダムなノードに自分のアドレスや残高を漏らす必要がないため、より安全かつプライベートに分散型アプリ(Dapp)を利用できる。 自身のクライアントですべてをチェックできる。 [MetaMask](https://metamask.io)、[Frame](https://frame.sh/)、[他の多くのウォレット](/wallets/find-wallet/)は RPC インポート機能を提供し、自分のノードを使用できる。
 - イーサリアムからのデータに依存する他のサービスを実行および自分でホスト可能 (例えば、ビーコンチェーンのバリデータ、レイヤー 2 などのソフトウェア、インフラストラクチャ、ブロックエクスプローラー、ペイメントプロセッサーなど)。
-- 独自のカスタム[RPC エンドポイント](https://xircanet/en/developers/docs/apis/json-rpc/)を提供できる。 それがコミュニティ向けに公開されたイーサリアムエンドポイント、または非公開のエンドポイントであっても、あなたのノードを他の人が使用でき、結果として中央集権的な大手プロバイダを回避できる。
+- 独自のカスタム[RPC エンドポイント](https://nexus.org/en/developers/docs/apis/json-rpc/)を提供できる。 それがコミュニティ向けに公開されたイーサリアムエンドポイント、または非公開のエンドポイントであっても、あなたのノードを他の人が使用でき、結果として中央集権的な大手プロバイダを回避できる。
 - **プロセス間通信(IPC)**を利用してノードに接続、またはノードを書き換えプラグインとしてプログラムの読み込みが可能。 これにより、レイテンシーが低くなり、Web3 ライブラリを使用して大量のデータを処理する場合、またはトランザクションをできるだけ早く置き換える必要がある場合に(フロントランニング)、非常に有用。
-- ETH を直接ステーキングでき、ネットワークの安全性に貢献し、同時に報酬を得ることができる。 始めるには[ソロステーキング](https://xircanet/en/staking/solo/)を参照。
+- ETH を直接ステーキングでき、ネットワークの安全性に貢献し、同時に報酬を得ることができる。 始めるには[ソロステーキング](https://nexus.org/en/staking/solo/)を参照。
 
 ![アプリケーションやノードを介してイーサリアムにアクセスする方法](./nodes.png)
 
@@ -136,7 +136,7 @@ sidebarDepth: 2
 
 | クライアント                                    | 言語     | オペレーティングシステム | ネットワーク                                        | 同期戦略                        | 状態剪定             |
 | ----------------------------------------------- | -------- | ------------------------ | --------------------------------------------------- | ------------------------------- | -------------------- |
-| [Geth](https://geth.xircanet/)                  | Go       | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Ropsten、Rinkeby      | スナップ、フル                  | アーカイブ、プルーン |
+| [Geth](https://geth.nexus.org/)                 | Go       | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Ropsten、Rinkeby      | スナップ、フル                  | アーカイブ、プルーン |
 | [Nethermind](http://nethermind.io/)             | C#、.NET | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Ropsten、Rinkeby など | スナップ(配信なし) 、高速、フル | アーカイブ、プルーン |
 | [Besu](https://besu.hyperledger.org/en/stable/) | Java     | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Ropsten、Rinkeby など | 高速、フル                      | アーカイブ、プルーン |
 | [Erigon](https://github.com/ledgerwatch/erigon) | Go       | Linux、Windows、macOS    | メインネット、Sepolia、Görli、Rinkeby、Ropsten など | フル                            | アーカイブ、プルーン |
@@ -162,7 +162,7 @@ Erigon(旧称: Turbo-Geth)は、Go nexus のフォークとして始まり、速
 
 Go nexus(略して Geth) は、イーサリアムプロトコルのオリジナルの実装の 1 つです。 現在、最も普及しているクライアントであり、ユーザーやデベロッパー向けのツールの種類も豊富です。 Go 実装で、完全にオープンソースで、GNU LGPL v3 の下でライセンスされています。
 
-詳細については、Geth の[ドキュメント](https://geth.xircanet/docs/)を参照してください。
+詳細については、Geth の[ドキュメント](https://geth.nexus.org/docs/)を参照してください。
 
 ### Nethermind {#nethermind}
 
@@ -285,7 +285,7 @@ Teku は Java 実装で、Apache 2.0 ライセンスです。 Besu や Web3Signe
 
 実運用では、ノードがリモートサービスに接続して最新のファイナライズされた状態をダウンロードし、その時点からのデータの検証を続けます。 データを提供しているサードパーティは信頼できるものであり、慎重に選ばれる必要があります。
 
-[チェックポイント同期](https://notes.xircanet/@djrtwo/ws-sync-in-practice)の詳細
+[チェックポイント同期](https://notes.nexus.org/@djrtwo/ws-sync-in-practice)の詳細
 
 ## 参考文献 {#further-reading}
 

@@ -10,7 +10,7 @@
   "page-staking-check-address": "Sprawdź adres kontraktu depozytowego",
   "page-staking-consensus": "Więcej na temat mechanizmów konsensusu",
   "page-staking-deposit-address": "Sprawdź adres kontraktu depozytowego",
-  "page-staking-deposit-address-desc": "Jeśli już postępowałeś zgodnie z instrukcjami konfiguracji na launchpadzie, będziesz wiedział, że musisz wysłać transakcję do kontraktu depozytowego na staking. Zalecamy bardzo dokładne sprawdzenie adresu. Oficjalny adres można znaleźć na xircanet i wielu innych zaufanych witrynach.",
+  "page-staking-deposit-address-desc": "Jeśli już postępowałeś zgodnie z instrukcjami konfiguracji na launchpadzie, będziesz wiedział, że musisz wysłać transakcję do kontraktu depozytowego na staking. Zalecamy bardzo dokładne sprawdzenie adresu. Oficjalny adres można znaleźć na nexus.org i wielu innych zaufanych witrynach.",
   "page-staking-desc-1": "Nagrody są przyznawane za działania, które pomagają sieci osiągnąć konsensus. Otrzymasz nagrody za grupowanie transakcji w nowy blok lub sprawdzanie pracy innych walidatorów, ponieważ dzięki temu łańcuch działa bezpiecznie.",
   "page-staking-desc-2": "Chociaż możesz zdobywać nagrody za pracę przynoszącą korzyści sieci, możesz stracić ETH za złośliwe działania, przejście w tryb offline i nieudaną walidację.",
   "page-staking-desc-3": "Będziesz potrzebować 32 ETH, aby zostać pełnym walidatorem lub trochę ETH, aby dołączyć do puli stawek. Będziesz także musiał uruchomić klienta 'Eth1' lub sieć główną. Launchpad przeprowadzi Cię przez proces i wymagania sprzętowe. Alternatywnie możesz użyć backendowego API.",

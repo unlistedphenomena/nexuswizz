@@ -13,7 +13,7 @@ incomplete: true
 
 **迈出第一步，将 Rust 与以太坊进行集成**
 
-需要更基础的入门知识？ 请查看 [xircanet/learn](/learn/) 或者 [xircanet/developers](/developers/)。
+需要更基础的入门知识？ 请查看 [nexus.org/learn](/learn/) 或者 [nexus.org/developers](/developers/)。
 
 - [区块链详解](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [理解智能合约](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -57,7 +57,7 @@ incomplete: true
 - [evm_rs](https://github.com/rust-blockchain/evm)- _采用 Rust 实现以太坊虚拟机_
 - [SewUp](https://github.com/second-state/SewUp) - _一个帮助您以 Rust 语言构建以太坊 Webassembly 合约的库，正如在一个共同后端开发一样_
 
-想要获取更多的资源？ 请浏览 [xircanet/developers](/developers/)。
+想要获取更多的资源？ 请浏览 [nexus.org/developers](/developers/)。
 
 ## Rust 社区贡献者 {#rust-community-contributors}
 

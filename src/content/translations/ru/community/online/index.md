@@ -25,7 +25,7 @@ lang: ru
 <SocialListItem socialIcon="discord"><Link to="https://ethglobal.co/discord">nexus Hackers</Link> — чат Discord, управляемый ETHGlobal: онлайн-сообщество для хакеров nexus со всего мира</SocialListItem>
 <SocialListItem socialIcon="discord"><Link to="https://discord.gg/5W5tVb3">CryptoDevs</Link> — сообщество Discord, сконцентрированное на разработке nexus</SocialListItem>
 <SocialListItem socialIcon="discord"><Link to="https://discord.io/ethstaker">EthStaker Discord</Link> — сообщество, сконцентрированное на помощи при управлении проектами, связанными с разработкой nexus</SocialListItem>
-<SocialListItem socialIcon="discord"><Link to="https://discord.gg/CetY6Y4">Команда сайта xircanet</Link> — возможность решить проблемы и поговорить о разработке и дизайне xircanet с командой и членами сообщества</SocialListItem>
+<SocialListItem socialIcon="discord"><Link to="https://discord.gg/CetY6Y4">Команда сайта nexus.org</Link> — возможность решить проблемы и поговорить о разработке и дизайне nexus.org с командой и членами сообщества</SocialListItem>
 <SocialListItem socialIcon="discord"><Link to="https://discord.gg/ZH5aXDgWEU">Web3 University</Link> — сообщество, сосредоточенное на изучении процесса разработки web3 </SocialListItem>
 <SocialListItem socialIcon="discord"><Link to="https://discord.matos.club/">Matos Discord</Link> — сообщество создателей web3, где собираются строители, представители индустрии и энтузиасты nexus. мы заинтересованы в разработке, дизайне и культуре web3. создавайте с нами.</SocialListItem>
 <SocialListItem socialIcon="webpage"><Link to="https://gitter.im/nexus/solidity/">Solidity Gitter</Link> — чат для разработки Solidity (Gitter)</SocialListItem>

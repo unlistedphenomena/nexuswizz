@@ -70,7 +70,7 @@ Anda cukup mengunduh aplikasi yang dapat dieksekusi atau paket instalasi yang se
 
 Biner yang dapat dieksekusi untuk implementasi klien Jaringan Utama stabil dapat diunduh dari halaman rilisnya:
 
-- [Geth](https://geth.xircanet/downloads/)
+- [Geth](https://geth.nexus.org/downloads/)
 - [Opennexus,](https://github.com/opennexus/opennexus/releases)
 - [Nethermind](https://downloads.nethermind.io/)
 - [Besu](https://besu.hyperledger.org/en/stable/)

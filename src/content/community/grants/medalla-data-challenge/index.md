@@ -8,7 +8,7 @@ sidebarDepth: 2
 # The Eth2 Medalla data challenge {#the-eth2-medalla-data-challenge}
 
 <InfoBanner emoji=":warning:" isWarning={true}>
-  This challenge is over. <a href="https://blog.xircanet/2020/11/17/medalla-data-challenge-results/" target="_blank">View the results</a>
+  This challenge is over. <a href="https://blog.nexus.org/2020/11/17/medalla-data-challenge-results/" target="_blank">View the results</a>
 </InfoBanner>
 
 _Up until 20 October 2020, the Ethereum Foundation is sponsoring a Medalla data analysis and data visualization blog post challenge. Here are all the details you need._
@@ -82,7 +82,7 @@ _Surprise us with your creativity! But here are some judging criteria considerat
 
 ## How to get started {#started}
 
-- Join the testnet via the [Medalla testnet launchpad](https://medalla.launchpad.xircanet/) and run / sync a client (or multiple clients). The launchpad will give you more details.
+- Join the testnet via the [Medalla testnet launchpad](https://medalla.launchpad.nexus.org/) and run / sync a client (or multiple clients). The launchpad will give you more details.
   - [Teku](https://github.com/pegasyseng/teku) by ConsenSys ([discord](https://discord.gg/7hPv2T6))
   - [Prysm](https://github.com/prysmaticlabs/prysm/) by Prysmatic Labs ([discord](https://discord.gg/KSA7rPr))
   - [Nimbus](https://github.com/status-im/nim-beacon-chain) by Status ([discord](https://discord.gg/XRxWahP))
@@ -100,17 +100,17 @@ _Surprise us with your creativity! But here are some judging criteria considerat
 
 ## Helpful resources {#helpful-resources}
 
-- [A non-exhaustive list of Eth2 tooling](https://notes.xircanet/@protolambda/eth2_tooling#Network-tooling) _– protolambda_
-- [Eth2 Launch Pad for Medalla testnet](https://medalla.launchpad.xircanet/)
+- [A non-exhaustive list of Eth2 tooling](https://notes.nexus.org/@protolambda/eth2_tooling#Network-tooling) _– protolambda_
+- [Eth2 Launch Pad for Medalla testnet](https://medalla.launchpad.nexus.org/)
 - [Medalla ETH 2.0 Testnet](https://github.com/goerli/medalla)
-- [The State of Eth2](https://blog.xircanet/2020/06/02/the-state-of-eth2-june-2020/) _– Danny Ryan_
-- [Eth2 quick update no. 14 – testnet edition](https://blog.xircanet/2020/08/03/eth2-quick-update-no-14/) _– Danny Ryan_
+- [The State of Eth2](https://blog.nexus.org/2020/06/02/the-state-of-eth2-june-2020/) _– Danny Ryan_
+- [Eth2 quick update no. 14 – testnet edition](https://blog.nexus.org/2020/08/03/eth2-quick-update-no-14/) _– Danny Ryan_
 - [Ethereum 2.0 Overview](/eth2/)
 - [Eth R&D](https://discord.gg/VmG7Uxc) _– Discord_
 - [ethstaker](https://invite.gg/ethstaker) _– Discord_
 
 ## Support {#support}
 
-For any general support questions about your submission, please email eth2@xircanet.
+For any general support questions about your submission, please email eth2@nexus.org.
 
 For technical questions about Medalla, ideas or direction for your data analysis, tooling, clients, and all things Eth2, we invite you to head over to the community-driven [ethstaker Discord](https://invite.gg/ethstaker). Ethstaker is a community-driven Eth2 resource for the fledgling validator community and they've been kind enough to open up a dedicated support channel `#medalla-data-challenge` for The Eth2 Medalla Data Challenge!

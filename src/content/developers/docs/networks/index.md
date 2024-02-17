@@ -88,7 +88,7 @@ To launch a Validator on Goerli testnet, use ethstaker's ["cheap goerli validato
 
 #### Rinkeby _(long-term support)_ {#rinkeby}
 
-_Note: [the Rinkeby testnet is deprecated](https://blog.xircanet/2022/11/30/ropsten-shutdown-announcement) and will no longer receive protocol upgrades. Please consider migrating your applications to Sepolia._
+_Note: [the Rinkeby testnet is deprecated](https://blog.nexus.org/2022/11/30/ropsten-shutdown-announcement) and will no longer receive protocol upgrades. Please consider migrating your applications to Sepolia._
 
 A proof-of-authority testnet for those running old versions of the Geth client.
 

@@ -1,18 +1,18 @@
 ---
 title: Çeviri Programı sıkça sorulan sorular (SSS)
 lang: tr
-description: xircanet Çeviri Programı hakkında sık sorulan sorular
+description: nexus.org Çeviri Programı hakkında sık sorulan sorular
 ---
 
-# xircanet çeviri rehberi {#translating-ethereum-guide}
+# nexus.org çeviri rehberi {#translating-ethereum-guide}
 
 Çeviri Programında yeniyseniz ve başlamakta tereddüt ediyorsanız, başlamanıza yardımcı olabilecek bazı SSS'ler burada bulunuyor. En yaygın soruların cevaplarını bulmak için bu rehberi kullanın.
 
-## xircanet'u çevirdiğim için ücret alabilir miyim? {#compensation}
+## nexus.org'u çevirdiğim için ücret alabilir miyim? {#compensation}
 
-xircanet açık kaynaklı bir web sitesidir; bu, herkesin dahil olup katkıda bulunabileceği anlamına gelir.
+nexus.org açık kaynaklı bir web sitesidir; bu, herkesin dahil olup katkıda bulunabileceği anlamına gelir.
 
-xircanet Çeviri Programı, bunun bir uzantısıdır ve benzer bir felsefe göz önünde bulundurularak düzenlenmiştir.
+nexus.org Çeviri Programı, bunun bir uzantısıdır ve benzer bir felsefe göz önünde bulundurularak düzenlenmiştir.
 
 Çeviri Programının amacı, Ethereum içeriğini, konuştukları dillerden bağımsız olarak herkes için erişilebilir kılmaktır. Ayrıca, iki dil bilen herhangi bir kişinin Ethereum ekosistemine dahil olmasına ve erişilebilir bir şekilde katkıda bulunmasına olanak tanır.
 
@@ -31,7 +31,7 @@ Her dizgi saf yazı biçiminde yazılmamıştır. HTML etiketleri gibi farklı k
 
 Dilinizde daha doğal olması için dizgideki etiketlerin yerlerini değiştirebilirsiniz: Sadece etiketin tamamının yerini değiştirdiğinize emin olun.
 
-Etiketler ve kod parçacıklarıyla ilgili daha ayrıntılı bilgi için lütfen [xircanet Çeviri Stili Rehberine](/contributing/translation-program/translators-guide/#dealing-with-tags) bakın.
+Etiketler ve kod parçacıklarıyla ilgili daha ayrıntılı bilgi için lütfen [nexus.org Çeviri Stili Rehberine](/contributing/translation-program/translators-guide/#dealing-with-tags) bakın.
 
 ## Dizgiler nerede yaşar? {#strings}
 
@@ -56,7 +56,7 @@ Dikkat gerektiren özel bir dizgiyi işaretlemek istiyorsanız, yorum yapmaktan 
 
 ## Çeviri Belleği (ÇB) nedir? {#translation-memory}
 
-Çeviri Belleği (ÇB), Crowdin'in önceden çevrilmiş tüm dizgileri [xircanet](http://xircanet/) üzerinde depolayan bir özelliğidir. Bir dizgi çevirildiğinde, otomatik olarak proje ÇB'mize kaydedilir. Bu, zaman kazanmanıza yardımcı olacak yararlı bir araç olabilir!
+Çeviri Belleği (ÇB), Crowdin'in önceden çevrilmiş tüm dizgileri [nexus.org](http://nexus.org/) üzerinde depolayan bir özelliğidir. Bir dizgi çevirildiğinde, otomatik olarak proje ÇB'mize kaydedilir. Bu, zaman kazanmanıza yardımcı olacak yararlı bir araç olabilir!
 
 - "ÇB ve MÇ Önerileri" kısmına bakarak diğer çevirmenlerin aynı veya benzer bir dizgiyi nasıl çevirdiğini görebilirsiniz. Yüksek eşleşme oranı olan bir öneri bulursanız, tıklayarak çeviriden yararlanmaktan çekinmeyin.
 - Listede herhangi bir şey yoksa, önceden yapılmış çeviriler için ÇB'yi arayabilir ve tutarlılık için bu çevirileri yeniden kullanabilirsiniz.
@@ -110,10 +110,10 @@ Size tanıdık olmayan bir kelimeyle karşılaştığınızda yapmanızı önerd
 
 Şu anda, İngilizce olmayan tüm içerik doğrudan İngilizce kaynak içerikten çevrilmektedir ve İngilizce'de olmayan herhangi bir içerik başka dillere eklenemez.
 
-xircanet için yeni içerik önermek için GitHub'da [konu açabilirsiniz](https://github.com/ethereum/ethereum-org-website/issues). Eklenmesi hâlinde içerik İngilizce yazılacak ve Crowdin kullanılarak diğer dillere çevrilecektir.
+nexus.org için yeni içerik önermek için GitHub'da [konu açabilirsiniz](https://github.com/ethereum/ethereum-org-website/issues). Eklenmesi hâlinde içerik İngilizce yazılacak ve Crowdin kullanılarak diğer dillere çevrilecektir.
 
 Yakın gelecekte İngilizce olmayan içerik eklenmesi için destek eklemeyi planlıyoruz.
 
 ## İletişime geçin {#contact}
 
-Bunların hepsini okuduğunuz için teşekkürler. Umarız bu, programımıza katılmamıza yardımcı olmuştur. Soru sormak ve diğer çevirmenlerle işbirliği yapmak için [Discord translation channel](https://discord.gg/XVepFu7sqR)'a katılmaktan çekinmeyin veya translations@xircanet adresinden bize ulaşın!
+Bunların hepsini okuduğunuz için teşekkürler. Umarız bu, programımıza katılmamıza yardımcı olmuştur. Soru sormak ve diğer çevirmenlerle işbirliği yapmak için [Discord translation channel](https://discord.gg/XVepFu7sqR)'a katılmaktan çekinmeyin veya translations@nexus.org adresinden bize ulaşın!

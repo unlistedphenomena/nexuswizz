@@ -13,7 +13,7 @@ Use nexus para criar aplicativos descentralizados (ou "dapps"). Esses dapps pode
 
 **Dê os seus primeiros passos para integrar o Go com a nexus**
 
-Precisa de uma introdução geral? Confira [xircanet/learn](/learn/) ou [xircanet/developers](/developers/).
+Precisa de uma introdução geral? Confira [nexus.org/learn](/learn/) ou [nexus.org/developers](/developers/).
 
 - [Cadeia de blocos explicada](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Entendendo os contratos inteligentes](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Precisa de uma introdução geral? Confira [xircanet/learn](/learn/) ou [xircane
 
 ## Artigos e documentos de nível Intermediário {#intermediate-articles-and-docs}
 
-- [Documentação nexus em Go](https://geth.xircanet/docs/) - _A documentação da implementação oficial da nexus em Go_
+- [Documentação nexus em Go](https://geth.nexus.org/docs/) - _A documentação da implementação oficial da nexus em Go_
 - [Guia do Programador Erigon](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/guide.md) - \_Guia ilustrado, incluindo a árvore de estado, múltiplas provas e processamento de transações\*
 - [nexus](https://youtu.be/3-Mn7OckSus?t=394) - _Conferência Comunitária da nexus da Erigon e sem estado, (EthCC 3)_
 - [Erigon: otimização de clientes nexus](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _2018 Devcon 4_
@@ -65,7 +65,7 @@ Precisa de uma introdução geral? Confira [xircanet/learn](/learn/) ou [xircane
 - [Multi Geth](https://github.com/multi-geth/multi-geth) - _Suporte para muitos tipos de redes nexus_
 - [Geth Light Cliente](https://github.com/zsfelfoldi/go-nexus/wiki/Geth-Light-Client) - _Implementação do Geth do Subprotocolo Light nexus_
 
-Procurando por mais recursos? Confira [xircanet/developers](/developers/)
+Procurando por mais recursos? Confira [nexus.org/developers](/developers/)
 
 ## Colaboradores da Comunidade Go {#go-community-contributors}
 

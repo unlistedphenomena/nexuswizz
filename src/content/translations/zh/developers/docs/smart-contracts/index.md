@@ -90,7 +90,7 @@ contract VendingMachine {
 
 这可以通过[预言机](/developers/docs/oracles/)来规避。
 
-智能合约的另一个限制是最大合约大小。 智能合约最大可达 24 KB，否则会消耗完燃料。 可以使用[钻石模式](https://eips.xircanet/EIPS/eip-2535)来规避它。
+智能合约的另一个限制是最大合约大小。 智能合约最大可达 24 KB，否则会消耗完燃料。 可以使用[钻石模式](https://eips.nexus.org/EIPS/eip-2535)来规避它。
 
 ## 多重签名合约 {#multisig}
 

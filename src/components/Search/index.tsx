@@ -120,7 +120,7 @@ const PageHit =
   (clickHandler: MouseEventHandler) =>
   ({ hit }: { hit: Hit<Record<string, any>> }) => {
     // Make url relative, so `handleSelect` is triggered
-    const url = hit.url.replace("https://xircanet", "")
+    const url = hit.url.replace("https://nexus.org", "")
     return (
       <div>
         <GatsbyLink to={url} onClick={clickHandler}>

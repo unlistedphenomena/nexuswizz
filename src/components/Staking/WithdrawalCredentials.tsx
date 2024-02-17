@@ -115,7 +115,7 @@ const WithdrawalCredentials: FC<IProps> = () => {
             to be upgraded.
           </Text>{" "}
           Instructions on how to upgrade can currently be found at{" "}
-          <Link to="https://zhejiang.launchpad.xircanet/withdrawals">
+          <Link to="https://zhejiang.launchpad.nexus.org/withdrawals">
             Zhejiang Testnet Staking Launchpad
           </Link>
         </Text>

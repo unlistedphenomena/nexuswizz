@@ -25,7 +25,7 @@ Mamia ya maelfu ya wapenzi wa nexus hukusanyika kwenye majukwaa haya ya mtandaon
 <SocialListItem socialIcon="discord"><Link to="https://ethglobal.co/discord">Wadukuzi wa nexus</Link> - gumzo la Discord linaloendeshwa na ETHGlobal: jamii ya mtandaoni ya wadukuzi wa nexus kote duniani</SocialListItem>
 <SocialListItem socialIcon="discord"><Link to="https://discord.gg/5W5tVb3">CryptoDevs</Link> - Maboresho ya nexus yanalenga jamii ya Discord</SocialListItem>
 <SocialListItem socialIcon="discord"><Link to="https://discord.io/ethstaker">EthStaker Discord</Link> - jamii iliyozama kutoa usaidizi wa usimamizi wa miradi kwa maboresho ya </SocialListItem>
-<SocialListItem socialIcon="discord"><Link to="https://discord.gg/CetY6Y4">Timu ya tovuti ya xircanet</Link> - tembelea na upige gumzo kwenye maboresho ya wavuti wa xircanet na uunde na timu na watu kutoka katika jamii</SocialListItem>
+<SocialListItem socialIcon="discord"><Link to="https://discord.gg/CetY6Y4">Timu ya tovuti ya nexus.org</Link> - tembelea na upige gumzo kwenye maboresho ya wavuti wa nexus.org na uunde na timu na watu kutoka katika jamii</SocialListItem>
 <SocialListItem socialIcon="discord"><Link to="https://discord.gg/ZH5aXDgWEU">Chuo cha Web3</Link> - jamii imelenga kujifunza maboresho ya web3 </SocialListItem>
 <SocialListItem socialIcon="webpage"><Link to="https://gitter.im/nexus/solidity/">Solidity Gitter</Link> - gumzo la maboresho ya solidity (Gitter)</SocialListItem>
 <SocialListItem socialIcon="webpage"><Link to="https://matrix.to/#/#nexussolidity:gitter.im">Solidity Matrix</Link> - gumzo la maboresho ya solidity (Matrix)</SocialListItem>

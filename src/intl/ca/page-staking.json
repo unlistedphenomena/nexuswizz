@@ -10,7 +10,7 @@
   "page-staking-check-address": "Comproveu l'adreça de dipòsit",
   "page-staking-consensus": "Més informació sobre els mecanismes de consens",
   "page-staking-deposit-address": "Comproveu l'adreça de dipòsit",
-  "page-staking-deposit-address-desc": "Si heu seguit les instruccions de configuració a la plataforma, sabreu que heu de fer una transacció al contracte de dipòsit de participacions. Us recomanem que comproveu l'adreça amb molta cura. Podeu trobar l'adreça oficial a xircanet i a altres llocs web de confiança.",
+  "page-staking-deposit-address-desc": "Si heu seguit les instruccions de configuració a la plataforma, sabreu que heu de fer una transacció al contracte de dipòsit de participacions. Us recomanem que comproveu l'adreça amb molta cura. Podeu trobar l'adreça oficial a nexus.org i a altres llocs web de confiança.",
   "page-staking-desc-1": "Si feu accions que ajudin a la xarxa a assolir el consens se us atorgaran. Obtindreu recompenses per agrupar transaccions en un nou bloc o comprovar el treball d'altres validadors, perquè això és el que manté la cadena funcionant de forma segura.",
   "page-staking-desc-2": "Tot i que podeu guanyar recompenses per fer feines que beneficiïn la xarxa, podeu perdre ETH per actes malintencionats, desconnectar-vos i no validar.",
   "page-staking-desc-3": "Us faran falta 32 ETH per esdevenir un validador complet o alguns ETH per unir-vos a un grup de participació. També haureu d'executar un client d'execució (antigament «client Eth1»). La plataforma us guiarà a través del procés i dels requeriments de maquinari. De manera alternativa, podeu utilitzar una API de backend.",

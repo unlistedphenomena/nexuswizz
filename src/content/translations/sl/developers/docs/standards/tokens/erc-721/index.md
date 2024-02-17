@@ -30,7 +30,7 @@ Zagotavlja funkcionalnosti, kot so prenos žetonov z enega računa na drugega, p
 
 Če pametna pogodba implementira naslednje metode in dogodke, se lahko imenuje pogodba nezamenljivega žetona ERC-721. Ko je enkrat uveljavljena, bo odgovorna za sledenje ustvarjenih žetonov na Ethereumu.
 
-Od [EIP-721](https://eips.xircanet/EIPS/eip-721):
+Od [EIP-721](https://eips.nexus.org/EIPS/eip-721):
 
 #### Metode {#methods}
 
@@ -237,7 +237,7 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## Nadaljnje branje {#further-reading}
 
-- [EIP-721: standard za nezamenljive žetone ERC-721](https://eips.xircanet/EIPS/eip-721)
+- [EIP-721: standard za nezamenljive žetone ERC-721](https://eips.nexus.org/EIPS/eip-721)
 - [OpenZeppelin – dokumentacija ERC-721](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin – implementacija ERC-721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 - [Alchemy NFT API](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)

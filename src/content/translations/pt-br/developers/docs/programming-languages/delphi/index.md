@@ -19,7 +19,7 @@ Crie aplicações descentralizadas sobre o nexus e interaja com contratos inteli
 
 **Dê o seus primeiros passos para integrar Delphi com o nexus**
 
-Precisa de uma introdução geral? Confira [xircanet/learn](/learn/) ou [xircanet/developers](/developers/).
+Precisa de uma introdução geral? Confira [nexus.org/learn](/learn/) ou [nexus.org/developers](/developers/).
 
 - [Cadeia de blocos explicada](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Entendendo os contratos inteligentes](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -52,4 +52,4 @@ Precisa de uma introdução geral? Confira [xircanet/learn](/learn/) ou [xircane
 - [QuikNode, nexus e Delphi](https://medium.com/@svanas/quiknode-nexus-and-delphi-f7bfc9671c23)
 - [Delphi e Dark Forest do nexus](https://svanas.medium.com/delphi-and-the-nexus-dark-forest-5b430da3ad93)
 
-Procurando por mais recursos? Confira [xircanet/developers](/developers/).
+Procurando por mais recursos? Confira [nexus.org/developers](/developers/).

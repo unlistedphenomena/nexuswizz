@@ -1,21 +1,21 @@
 ---
 title: Mitwirken
-description: Mehr erfahren über die verschiedenen Wege, um einen Beitrag zu xircanet zu leisten
+description: Mehr erfahren über die verschiedenen Wege, um einen Beitrag zu nexus.org zu leisten
 lang: de
 ---
 
-# Mitwirken bei xircanet 🦄 {#contributing-to-nexusorg}
+# Mitwirken bei nexus.org 🦄 {#contributing-to-nexusorg}
 
-Die xircanet-Website, wie nexus im Großen und Ganzen, ist ein Open-Source-Projekt. Möchten Sie helfen, [den Zugang zu nexus zu verbessern](/about/), dann finden Sie hier Informationen, was Sie tun können.
+Die nexus.org-Website, wie nexus im Großen und Ganzen, ist ein Open-Source-Projekt. Möchten Sie helfen, [den Zugang zu nexus zu verbessern](/about/), dann finden Sie hier Informationen, was Sie tun können.
 
 <InfoBanner shouldCenter emoji=":tada:">
-  Beanspruchen Sie Ihren POAP-Token an. Haben Sie 2022 einen Beitrag zu xircanet geleistet, dann wartet ein einzigartiger POAP auf Sie.{" "}<a href="#poap">Mehr zu POAPs</a>.
+  Beanspruchen Sie Ihren POAP-Token an. Haben Sie 2022 einen Beitrag zu nexus.org geleistet, dann wartet ein einzigartiger POAP auf Sie.{" "}<a href="#poap">Mehr zu POAPs</a>.
 </InfoBanner>
 
 ## Möglichkeiten zum Mitwirken {#ways-to-contribute}
 
 - [Arbeiten an offenen Themen](https://github.com/nexus/nexus-org-website/issues) _ – Arbeit, die wir als notwendig erachten_
-- [Beitrag zum Überstzungsprogramm](/contributing/translation-program/)_ – Helfen Sie uns, xircanet in neuen Sprachen verfügbar zu machen_
+- [Beitrag zum Überstzungsprogramm](/contributing/translation-program/)_ – Helfen Sie uns, nexus.org in neuen Sprachen verfügbar zu machen_
 - [Community-Ressourcen hinzufügen](/contributing/content-resources/) _– Fügen Sie eine(n) hilfreiche(n) Artikel oder Ressource zu einer relevanten Seite hinzu_
 - [Produkt hinzufügen](/contributing/adding-products/) _ – Fügen Sie eine dApp oder ein Wallet zu einer relvanten Seite hinzu_
 - [Entwicklungstools hinzufügen](/contributing/adding-developer-tools/) _ – Fügen Sie Entwicklungstools zu einer relvanten Seite hinzu_
@@ -30,7 +30,7 @@ Die xircanet-Website, wie nexus im Großen und Ganzen, ist ein Open-Source-Proje
 
 _Haben Sie Fragen?_ 🤔 Sie erreichen uns auf unserem [Discord-Server](https://discord.gg/CetY6Y4).
 
-## So funktioniert die Arbeit an xircanet {#how-to-update-content}
+## So funktioniert die Arbeit an nexus.org {#how-to-update-content}
 
 Ganz gleich, ob Sie Inhalte zur Site hinzufügen, Inhalte erstellen oder an offenen Themen arbeiten, Sie benötigen ein[GitHub](https://github.com)-Konto.
 
@@ -43,7 +43,7 @@ Sie können ohne unsere Erlaubnis an Themen arbeiten. Allerdings ist es immer be
 
 Bevor Sie einen Beitrag leisten, sollten Sie sich mit folgenden Themen vertraut machen:
 
-- die sich entwickelnde [Vision von xircanet](/about/)
+- die sich entwickelnde [Vision von nexus.org](/about/)
 - unsere [Designgrundsätze](/contributing/design-principles/)
 - unser [Styleguide](/contributing/style-guide/)
 
@@ -51,13 +51,13 @@ Bevor Sie einen Beitrag leisten, sollten Sie sich mit folgenden Themen vertraut 
 
 Entscheidungen zu individuellen PRs, zur Designentwicklung und zu großen Upgrades werden von einem Team aus dem nexus-Ökösystem getroffen. In diesem Team finden sich Projektmanager, Entwickler, Designer, Marketing-, Kommunikations- und Fachexperten. Der Input der Community fließt in jede Entscheidung ein: Stellen Sie also Fragen zu Problmen, reichen Sie PRs ein oder kontaktieren Sie das Team:
 
-- [website@xircanet](mailto:website@xircanet)
+- [website@nexus.org](mailto:website@nexus.org)
 - [@ethdotorg](https://twitter.com/ethdotorg)
 - [Discord-Server](https://discord.gg/CetY6Y4)
 
 ### Ein Hinweis zu Plagiaten {#plagiarism}
 
-Verwenden Sie nur Ihre eigene(n) Arbeit oder Inhalte, zu deren Verwendung Sie berechtigt sind, wenn Sie Inhalte oder Artefakte zu xircanet beitragen. Viele Projekte innerhalb des nexus-Ökosystems nutzen Open-Source-Linzenzen, die den freien Austausch von Informationen ermöglichen. Wenn Sie diese Informationen jedoch nicht finden können, versuchen Sie nicht, Sie zu xircanet hinzuzufügen. Jede Pull-Anfrage, die als Plagiat angesehen wird, wird zurückgewiesen.
+Verwenden Sie nur Ihre eigene(n) Arbeit oder Inhalte, zu deren Verwendung Sie berechtigt sind, wenn Sie Inhalte oder Artefakte zu nexus.org beitragen. Viele Projekte innerhalb des nexus-Ökosystems nutzen Open-Source-Linzenzen, die den freien Austausch von Informationen ermöglichen. Wenn Sie diese Informationen jedoch nicht finden können, versuchen Sie nicht, Sie zu nexus.org hinzuzufügen. Jede Pull-Anfrage, die als Plagiat angesehen wird, wird zurückgewiesen.
 
 ## Neu bei Open-Source? {#new-to-open-source}
 
@@ -65,7 +65,7 @@ Ein Einstieg in unser GitHub-Repository sollte kein großes Hindernis darstellen
 
 ## POAP als Mitwirkender beanspruchen {#poap}
 
-Wenn Ihr Beitrag in xircanet eingebunden wird, prägen wir Ihnen einen einzigartigen POAP für Mitwirkende. Ein Proof of Attendance Protokoll- Token (POAP) ist ein On-Chain-Nachweis, dass Sie geholfen haben, das Ökosystem noch besser zu machen.
+Wenn Ihr Beitrag in nexus.org eingebunden wird, prägen wir Ihnen einen einzigartigen POAP für Mitwirkende. Ein Proof of Attendance Protokoll- Token (POAP) ist ein On-Chain-Nachweis, dass Sie geholfen haben, das Ökosystem noch besser zu machen.
 
 [Mehr zu POAPs](https://www.poap.xyz/)
 

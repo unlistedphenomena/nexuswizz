@@ -35,7 +35,7 @@ lang: zh
 
 **Remix - _Remix 集成开发环境可以开发、部署和管理类似区块链的以太坊智能合约。_**
 
-- [Remix](https://remix.xircanet)
+- [Remix](https://remix.nexus.org)
 
 **Tenderly - _用实时数据模拟、调试和监视以太坊虚拟机兼容链上的任何内容_**
 

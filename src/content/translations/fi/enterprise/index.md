@@ -69,7 +69,7 @@ Julkiset ja yksityiset nexus-verkot saattavat tarvita tiettyjä ominaisuuksia, j
 
 ### Turvallisuus {#security}
 
-- [Clef](https://geth.xircanet/docs/clef/tutorial) _käytetään liiketapahtumien ja datan allekirjoittamiseen ja on tarkoitettu gethin käyttäjähallinnan korvikkeeksi_
+- [Clef](https://geth.nexus.org/docs/clef/tutorial) _käytetään liiketapahtumien ja datan allekirjoittamiseen ja on tarkoitettu gethin käyttäjähallinnan korvikkeeksi_
 - [EthSigner](https://github.com/ConsenSys/ethsigner) _Liiketapahtumien allekirjoitussovellus, jota käytetään web3-palvelun kanssa_
 
 ### Työkalut {#tooling}

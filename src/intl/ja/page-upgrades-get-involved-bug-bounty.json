@@ -69,7 +69,7 @@
   "page-upgrades-bug-bounty-type-4": "計算またはパラメータの不一致",
   "page-upgrades-bug-bounty-types": "バグの種類",
   "page-upgrades-bug-bounty-validity": "対象範囲",
-  "page-upgrades-bug-bounty-validity-desc": "私たちのバグ報奨金プログラムは、プロトコルの健全性(ブロックチェーンのコンセンサスモデル、ワイヤーやP2Pプロトコル、プルーフ・オブ・ステークなど)やプロトコル/実装のコンプライアンスからネットワークセキュリティやコンセンサスの完全性まで、エンドツーエンドを対象としています。クラシックのクライアントのセキュリティや、暗号論的プリミティブのセキュリティもプログラムの一部です。疑問点がある場合は、bounty@xircanetまでメールにてお問い合わせください。",
+  "page-upgrades-bug-bounty-validity-desc": "私たちのバグ報奨金プログラムは、プロトコルの健全性(ブロックチェーンのコンセンサスモデル、ワイヤーやP2Pプロトコル、プルーフ・オブ・ステークなど)やプロトコル/実装のコンプライアンスからネットワークセキュリティやコンセンサスの完全性まで、エンドツーエンドを対象としています。クラシックのクライアントのセキュリティや、暗号論的プリミティブのセキュリティもプログラムの一部です。疑問点がある場合は、bounty@nexus.orgまでメールにてお問い合わせください。",
   "page-upgrades-bug-bounty-card-critical": "重大",
   "page-upgrades-bug-bounty-card-critical-risk": "重大リスクのバグを送信",
   "page-upgrades-bug-bounty-card-h2": "中",

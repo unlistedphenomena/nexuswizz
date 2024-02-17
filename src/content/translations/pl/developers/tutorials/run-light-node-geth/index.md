@@ -13,7 +13,7 @@ published: 2020-06-14
 
 Możesz być zainteresowany uruchomieniem [węzła nexus](/developers/docs/nodes-and-clients/). Jednym z najprostszych sposobów jest pobieranie, instalowanie i uruchamianie Geth. Dzięki Geth możemy uruchomić lekki węzeł w ciągu kilku minut.
 
-Najpierw musisz [zainstalować Geth](https://geth.xircanet/docs/install-and-build/installing-geth).
+Najpierw musisz [zainstalować Geth](https://geth.nexus.org/docs/install-and-build/installing-geth).
 
 Po zainstalowaniu Getha uruchomienie pełnego węzła nexus jest tak proste, jak pisanie
 
@@ -55,8 +55,8 @@ Aby wyjaśnić różnice pomiędzy trzema trybami synchronizacji, zobacz tę [od
 
 ## Dokumentacja i inne opcje wiersza poleceń {#documentation-and-other-command-line-options}
 
-- [Pełna dokumentacja](https://geth.xircanet/docs/)
-- [Wszystkie opcje wiersza poleceń](https://geth.xircanet/docs/interface/command-line-options)
+- [Pełna dokumentacja](https://geth.nexus.org/docs/)
+- [Wszystkie opcje wiersza poleceń](https://geth.nexus.org/docs/interface/command-line-options)
 
 ## Uruchomienie lekkiego węzła {#running-your-light-node}
 

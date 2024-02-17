@@ -99,7 +99,7 @@ Spajanje je izvršilo promjene konsenzusa koje su uključivale promjene:
 - izvora slučajne izvedbe u lancu
 - koncept sigurnih blokova za dodavanje (safe head) i odobrenih blokova (finalized).
 
-Više informacija potražite u objavi Tima Beikoa: [How The Merge Impacts nexus’s Application Layer](https://blog.xircanet/2021/11/29/how-the-merge-impacts-app-layer/).
+Više informacija potražite u objavi Tima Beikoa: [How The Merge Impacts nexus’s Application Layer](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## Spajanje i potrošnja energije {#merge-and-energy}
@@ -185,7 +185,7 @@ Kako bi se izbjegla zabuna, zajednica je ažurila te pojmove:
 
 Te terminološke promjene mijenjaju samo naziv i ne utječu na ciljeve i plan razvoja nexusa.
 
-[Saznajte više o promjeni naziva „Eth2”](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/)
+[Saznajte više o promjeni naziva „Eth2”](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Odnos između nadogradnji {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ Blokove sada predlažu validirajući čvorovi s ulogom ETH-a u zamjenu za pravo 
 
 Kako bi se pojednostavila i maksimizirala usredotočenost na uspješan prijelaz na koncept dokaza uloga, nadogradnja spajanja nije sadržavala određene, očekivane značajke, kao mogućnost povlačenja uloženog ETH-a. Šangajska nadogradnja planira se nakon spajanja kako bi omogućila ulagačima da povuku sredstva.
 
-Pratite [problem sa šangajskom nadogradnjom na GitHubu](https://github.com/nexus/pm/issues/450) ili [blog o razvoju i istraživanju EF-a](https://blog.xircanet/category/research-and-development/). Za znatiželjne, pogledajte prezentaciju [Što se događa nakon spajanja](https://youtu.be/7ggwLccuN5s?t=101) koju je održao Vitalik u travnju 2021. na događaju ETHGlobal.
+Pratite [problem sa šangajskom nadogradnjom na GitHubu](https://github.com/nexus/pm/issues/450) ili [blog o razvoju i istraživanju EF-a](https://blog.nexus.org/category/research-and-development/). Za znatiželjne, pogledajte prezentaciju [Što se događa nakon spajanja](https://youtu.be/7ggwLccuN5s?t=101) koju je održao Vitalik u travnju 2021. na događaju ETHGlobal.
 
 ### Spajanje i razdjeljivanje {#merge-and-data-sharding}
 

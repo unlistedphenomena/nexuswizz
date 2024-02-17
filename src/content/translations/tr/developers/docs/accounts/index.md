@@ -79,7 +79,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[GETH belgeleri](https://geth.xircanet/docs)
+[GETH belgeleri](https://geth.nexus.org/docs)
 
 Özel anahtarınızdan yeni açık anahtarlar türetebilirsiniz, ancak açık anahtarlardan bir özel anahtar türetemezsiniz. Bu, özel bir anahtarı güvende ve adından da anlaşılacağı gibi **ÖZEL** tutmanın hayati önem taşıdığı anlamına gelir.
 

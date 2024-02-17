@@ -35,7 +35,7 @@ const WithdrawalsTabComparison: React.FC<IProps> = () => (
             The majority of stakers did not provide a withdrawal address on
             initial deposit, and will need to update their withdrawal
             credentials. The{" "}
-            <Link href="https://zhejiang.launchpad.xircanet/withdrawals">
+            <Link href="https://zhejiang.launchpad.nexus.org/withdrawals">
               Zhejiang Testnet Launchpad
             </Link>{" "}
             has instructions on when and how to do this
@@ -69,7 +69,7 @@ const WithdrawalsTabComparison: React.FC<IProps> = () => (
         <Text fontWeight="bold">
           The Staking Launchpad will guide you through staking onboarding.
         </Text>
-        <ButtonLink to="https://launchpad.xircanet/" hideArrow>
+        <ButtonLink to="https://launchpad.nexus.org/" hideArrow>
           Visit Staking Launchpad
         </ButtonLink>
       </TabPanel>

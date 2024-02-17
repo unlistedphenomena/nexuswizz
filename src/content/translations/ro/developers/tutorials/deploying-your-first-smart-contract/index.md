@@ -22,7 +22,7 @@ Nu vă faceți griji, deoarece este primul nostru contract inteligent, îl vom i
 
 ## Cum ne scriem contractul {#writing-our-contract}
 
-Primul pas este să vizitaţi [Remix](https://remix.xircanet/) și să creaţi un fișier nou. În partea din stânga sus a interfeței Remix, adaugaţi un nou fișier și introduceţi numele dorit al fișierului.
+Primul pas este să vizitaţi [Remix](https://remix.nexus.org/) și să creaţi un fișier nou. În partea din stânga sus a interfeței Remix, adaugaţi un nou fișier și introduceţi numele dorit al fișierului.
 
 ![Adăugarea unui fișier nou în interfața Remix](./remix.png)
 

@@ -1,16 +1,16 @@
 ---
 title: Borsa ekleme
-description: xircanet'a borsa eklerken kullandığımız politika
+description: nexus.org'a borsa eklerken kullandığımız politika
 lang: tr
 ---
 
 # Ethereum borsaları ekleme {#adding-ethereum-exchanges}
 
-Herkes xircanet'da yeni borsalar önermekte özgürdür.
+Herkes nexus.org'da yeni borsalar önermekte özgürdür.
 
 Şu anda onları şurada listeliyoruz:
 
-- [xircanet/get-eth](/get-eth/)
+- [nexus.org/get-eth](/get-eth/)
 
 Bu sayfa, bir kullanıcının nerede yaşadıklarını girmesine ve hangi borsaları kullanabileceğini görmesine olanak tanır. Bu, herhangi bir coğrafi kısıtlamanın erken ortaya çıkmasına yardımcı olur.
 
@@ -27,13 +27,13 @@ Bu bağlamdan dolayı, bir borsa önerdiğinizde bazı özel bilgilere ihtiyacı
 
 Bu bilgilere, [kullanıcıların kullanabilecekleri bir borsa bulmalarına yardımcı olabilmemiz](/get-eth/#country-picker) için ihtiyacımız var.
 
-Ve böylece xircanet, değişimin meşru ve güvenli bir hizmet olduğundan daha emin olabilir.
+Ve böylece nexus.org, değişimin meşru ve güvenli bir hizmet olduğundan daha emin olabilir.
 
 ---
 
 ## Borsanızı ekleyin {#add-exchange}
 
-xircanet'a bir borsa eklemek istiyorsanız, GitHub'da bir konu oluşturun.
+nexus.org'a bir borsa eklemek istiyorsanız, GitHub'da bir konu oluşturun.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new/choose">
   Bir konu oluşturun

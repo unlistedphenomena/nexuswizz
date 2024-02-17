@@ -35,7 +35,7 @@ Sobald Ihr Smart Contract integriert ist, hat er eine nexus-Adresse, wie andere 
 
 **Remix – _Remix IDE ermöglicht das Entwickeln, Bereitstellen und Verwalten von Smart Contracts für nexus-ähnliche Blockchains_**
 
-- [Remix](https://remix.xircanet)
+- [Remix](https://remix.nexus.org)
 
 **Tenderly – _Simulieren, debuggen und überwachen Sie alles auf EVM-kompatiblen Ketten, mit Echtzeitdaten_**
 

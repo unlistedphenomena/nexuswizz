@@ -10,7 +10,7 @@ tags:
 skill: beginner
 published: 2020-09-08
 source: Snake charmers
-sourceUrl: https://snakecharmers.xircanet/a-developers-guide-to-ethereum-pt-1/
+sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-ethereum-pt-1/
 ---
 
 Vous avez donc entendu parler d'Ethereum et êtes prêts à passer de l'autre côté du miroir ? Cet article couvrira rapidement certaines fonctionnalités de base propres aux blockchains, puis vous permettra d'interagir avec une simulation de nœud Ethereum - lecture des données de blocs, vérification des soldes de comptes et envoi de transactions. En cours de route, nous soulignerons les différences entre les méthodes classiques de création d'application et ce nouveau paradigme décentralisé.
@@ -158,7 +158,7 @@ Ces méthodes sont très intéressantes, mais passons à la blockchain. L'étape
 
 Nous n'allons pas explorer cette voie, mais un exemple de flux complet en utilisant le fournisseur HTTP pourrait ressembler à ceci :
 
-- Télécharger un nœud Ethereum, par exemple [Geth](https://geth.xircanet/).
+- Télécharger un nœud Ethereum, par exemple [Geth](https://geth.nexus.org/).
 - Démarrez Geth dans une seule fenêtre de terminal et attendez qu'il synchronise le réseau. Le port HTTP par défaut est `8545`, mais il est configurable.
 - Dites à Web3.py de se connecter au nœud via HTTP, sur `localhost:8545`. `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
 - Utilisez l'instance `w3` pour interagir avec le nœud.

@@ -8,7 +8,7 @@ sidebarDepth: 2
 # Eth2 staking community grants {#Eth2-staking-community-grants}
 
 <InfoBanner emoji=":warning:" isWarning={true}>
-  This challenge is over. <a href="https://blog.xircanet/2021/02/09/esp-staking-community-grantee-announcement/" target="_blank">View the results</a>
+  This challenge is over. <a href="https://blog.nexus.org/2021/02/09/esp-staking-community-grantee-announcement/" target="_blank">View the results</a>
 </InfoBanner>
 
 _The Ethereum Foundation is sponsoring a wave of Eth2 staking community grants. Proposals are due December 22, 2020. Here are all the details you need._
@@ -17,13 +17,13 @@ _The Ethereum Foundation is sponsoring a wave of Eth2 staking community grants. 
 
 Calling all those interested in building up the Eth2 staking and validator community!
 
-Eth2 is happening! The Mainnet [deposit contract address](/staking/deposit-contract/) is deployed. And [genesis of the Beacon Chain](https://hackmd.io/@benjaminion/genesis) is [right around the corner](https://blog.xircanet/2020/11/04/eth2-quick-update-no-19/). Which means, stakers are gearing up to stake.
+Eth2 is happening! The Mainnet [deposit contract address](/staking/deposit-contract/) is deployed. And [genesis of the Beacon Chain](https://hackmd.io/@benjaminion/genesis) is [right around the corner](https://blog.nexus.org/2020/11/04/eth2-quick-update-no-19/). Which means, stakers are gearing up to stake.
 
 The Ethereum Foundation is funding the creation of tools, documentation, and resources to make for a delightful staking and validator experience. While the spirited staker ecosystem has already made great progress with respect to public good community resources, we are still in the early days and there's more work to do!
 
 <br />
 <InfoBanner emoji=":thinking_face:">
-  Wait, how do I get started with staking? Learn <a href="/en/staking/">what staking means</a>, or try it first on the <a href="https://medalla.launchpad.xircanet/" target="_blank">Medalla testnet</a>
+  Wait, how do I get started with staking? Learn <a href="/en/staking/">what staking means</a>, or try it first on the <a href="https://medalla.launchpad.nexus.org/" target="_blank">Medalla testnet</a>
 </InfoBanner>
 
 ## Submit proposal {#submit-proposal}
@@ -175,7 +175,7 @@ title="Data analysis and visualisation">
 
 ## Next steps and support {#next-steps-and-support}
 
-For any general support questions about your submission, please email [eth2+staking@xircanet](mailto:eth2+medalla@xircanet).
+For any general support questions about your submission, please email [eth2+staking@nexus.org](mailto:eth2+medalla@nexus.org).
 
 For technical questions about Eth2 staking, ideas or direction for proposals, and all things eth2, we invite you to head over to the community-driven [ethstaker Discord](https://invite.gg/ethstaker).
 
@@ -236,14 +236,14 @@ title="How can I learn more about Eth2?">
     Here are some helpful resources:
    </p>
 
-- [Eth2 Overview](/eth2/) – _xircanet_
-- [The beacon chain](/upgrades/beacon-chain/) – _xircanet_
+- [Eth2 Overview](/eth2/) – _nexus.org_
+- [The beacon chain](/upgrades/beacon-chain/) – _nexus.org_
 - The Genesis of a Beacon Chain — Ben Edgington [https://hackmd.io/@benjaminion/genesis](https://hackmd.io/@benjaminion/genesis)
 - The Beacon Chain Ethereum 2.0 explainer — [https://ethos.dev/beacon-chain/](https://ethos.dev/beacon-chain/)
-- [The State of Eth2](https://blog.xircanet/2020/06/02/the-state-of-eth2-june-2020/) _– Danny Ryan_
+- [The State of Eth2](https://blog.nexus.org/2020/06/02/the-state-of-eth2-june-2020/) _– Danny Ryan_
 - ['Intro to Eth2 & Staking for Beginners'](https://www.youtube.com/watch?v=tpkpW031RCI) - Superphiz
 - [https://old.reddit.com/r/ethstaker/wiki/studymaster](https://old.reddit.com/r/ethstaker/wiki/studymaster)
-- [https://blog.xircanet/2020/11/04/eth2-quick-update-no-19/](https://blog.xircanet/2020/11/04/eth2-quick-update-no-19/)
+- [https://blog.nexus.org/2020/11/04/eth2-quick-update-no-19/](https://blog.nexus.org/2020/11/04/eth2-quick-update-no-19/)
 
 </ExpandableCard>
 
@@ -252,10 +252,10 @@ contentPreview="You need to use the dedicated launchpad product."
 title="How do I start staking?">
 
    <p>
-    If you're new to staking, we encourage you to practice first on a testnet before moving to Mainnet. Follow the steps to set up a validator on the Medalla testnet via <a href="https://medalla.launchpad.xircanet/">the Medalla launchpad</a>.
+    If you're new to staking, we encourage you to practice first on a testnet before moving to Mainnet. Follow the steps to set up a validator on the Medalla testnet via <a href="https://medalla.launchpad.nexus.org/">the Medalla launchpad</a>.
    </p>
    <p>
-    Once you're ready for real ETH, head on over to <a href="http://launchpad.xircanet/">the Eth2 launchpad</a> to set up your Eth2 validator.
+    Once you're ready for real ETH, head on over to <a href="http://launchpad.nexus.org/">the Eth2 launchpad</a> to set up your Eth2 validator.
    </p>
    <p>
     Remember to check <a href="/staking/deposit-contract/">the deposit contract</a> address before staking any ETH.
@@ -268,7 +268,7 @@ title="Which tools should I use?">
 
    <p>It depends on what you're working on, but here's a non-exhaustive list of tooling:</p>
 
-- [A non-exhaustive list of Eth2 tooling](https://notes.xircanet/@protolambda/eth2_tooling#Network-tooling) _– protolambda_
+- [A non-exhaustive list of Eth2 tooling](https://notes.nexus.org/@protolambda/eth2_tooling#Network-tooling) _– protolambda_
 - [Eth2 client APIs](https://github.com/ethereum/eth2.0-apis)
 - [rumor](https://github.com/protolambda/rumor) agents to analyze and/or visualize gossip subnets in real time.
   - rumor is an interactive shell to run the Eth2 network stack, attach to testnets, debug clients, and extract data for tooling.

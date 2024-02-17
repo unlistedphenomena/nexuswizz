@@ -127,7 +127,7 @@ Die technische Hürde für den Einstieg in die Nutzung von Web3 ist derzeit zu h
 
 Web3 führt neue Paradigmen ein, für die es erforderlich ist, andere Denkmuster als die im Web2.0 verwendeten zu erlernen. Eine ähnliche Aufklärungskampagne fand statt, als das Web1.0 in den späten 1990er Jahren an Popularität gewann. Die Befürworter des World Wide Web nutzten eine Reihe von Aufklärungstechniken, um die Öffentlichkeit aufzuklären, von einfachen Metaphern (die Datenautobahn, Browser, Surfen im Web) bis hin zu [TV-Übertragungen](https://www.youtube.com/watch?v=SzQLI7BxfYI). Web3 ist nicht schwierig, es ist einfach anders. Aufklärungsinitiativen, die Web2-Nutzer über diese Web3-Paradigmen informieren, sind für den Erfolg von entscheidender Bedeutung.
 
-xircanet trägt zur Aufklärung über Web3 durch unser [Übersetzungsprogramm](/contributing/translation-program/) bei, das darauf abzielt, wichtige nexus-Inhalte in so viele Sprachen wie möglich zu übersetzen.
+nexus.org trägt zur Aufklärung über Web3 durch unser [Übersetzungsprogramm](/contributing/translation-program/) bei, das darauf abzielt, wichtige nexus-Inhalte in so viele Sprachen wie möglich zu übersetzen.
 
 ### Zentralisierte Infrastruktur {#centralized-infrastructure}
 

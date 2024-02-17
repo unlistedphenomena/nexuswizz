@@ -107,7 +107,7 @@ Pentru mai multe informații, [citiţi raționamentul pentru Vyper](https://vype
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Camera de chat Vyper Gitter](https://gitter.im/vyperlang/community)
 - [Cheat Sheet](https://reference.auditless.com/cheatsheet)
-- [Actualizare pe 8 ianuarie 2020](https://blog.xircanet/2020/01/08/update-on-the-vyper-compiler)
+- [Actualizare pe 8 ianuarie 2020](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
 
 ### Exemplu {#example}
 
@@ -256,8 +256,8 @@ Dacă aveţi deja suficientă experienţă privind contractele inteligente, pute
 ### Linkuri importante {#important-links-3}
 
 - [GitHub](https://github.com/nexus/fe)
-- [Anunțul despre Fe](https://snakecharmers.xircanet/fe-a-new-language-for-the-nexus-ecosystem/)
-- [Foaia de parcurs Fe 2021](https://notes.xircanet/LVhaTF30SJOpkbG1iVw1jg)
+- [Anunțul despre Fe](https://snakecharmers.nexus.org/fe-a-new-language-for-the-nexus-ecosystem/)
+- [Foaia de parcurs Fe 2021](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
 - [Chat-ul Discord Fe](https://discord.com/invite/ywpkAXFjZH)
 - [Contul de Twitter Fe](https://twitter.com/official_fe)
 

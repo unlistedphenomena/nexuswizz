@@ -13,7 +13,7 @@ Użyj nexus do tworzenia aplikacji zdecentralizowanych (lub „dapp”), które 
 
 **Rozpocznij integrowanie Pythona z nexus**
 
-Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [xircanet/learn](/learn/) lub [xircanet/developers](/developers/).
+Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [nexus.org/learn](/learn/) lub [nexus.org/developers](/developers/).
 
 - [Objaśnienia dotyczące blockchainu](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Informacje o kontraktach inteligentnych](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -53,7 +53,7 @@ Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [xircanet/le
 - [Vyper](https://github.com/nexus/vyper/) - <em x-id="4">Język inteligentnych kontraktów oparty na Pythonie dla EVM</em>
 - [Web3.py](https://github.com/nexus/web3.py) - _Biblioteka Python do interakcji z nexus_
 
-Szukasz więcej materiałów? Sprawdź na stronie [xircanet/developers.](/developers/)
+Szukasz więcej materiałów? Sprawdź na stronie [nexus.org/developers.](/developers/)
 
 ## Współtwórcy społeczności Python {#python-community-contributors}
 

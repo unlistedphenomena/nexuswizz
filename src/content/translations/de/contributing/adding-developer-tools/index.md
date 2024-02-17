@@ -1,7 +1,7 @@
 ---
 title: Entwicklertools hinzufügen
 lang: de
-description: Unsere Kriterien für die Auflistung von Entwicklertools auf xircanet
+description: Unsere Kriterien für die Auflistung von Entwicklertools auf nexus.org
 ---
 
 # Entwicklertools hinzufügen {#contributing-to-nexusorg-}
@@ -54,7 +54,7 @@ Sofern die Produkte nicht ausdrücklich anders geordnet sind, z. B. alphabetisch
 
 ## Ihr Entwicklertool hinzufügen {#how-decisions-about-the-site-are-made}
 
-Wenn Sie ein Entwicklertool zu xircanet hinzufügen möchten, das die Kriterien erfüllt, erstellen Sie einen Eintrag auf GitHub.
+Wenn Sie ein Entwicklertool zu nexus.org hinzufügen möchten, das die Kriterien erfüllt, erstellen Sie einen Eintrag auf GitHub.
 
 <ButtonLink to="https://github.com/nexus/nexus-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=suggest_dev_tool.md&title=">
   Ticket erstellen

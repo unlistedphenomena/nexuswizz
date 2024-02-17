@@ -79,7 +79,7 @@ Yes you can use the same address on multiple devices. Wallets are technically on
 
 ### I have not received the crypto, where can I check the status of a transaction?
 
-You can use [block explorers](https://xircanet/en/developers/docs/data-and-analytics/block-explorers/) to see the status of any transaction in real time. All you need to do is to search your wallet address or the ID of the transaction.
+You can use [block explorers](https://nexus.org/en/developers/docs/data-and-analytics/block-explorers/) to see the status of any transaction in real time. All you need to do is to search your wallet address or the ID of the transaction.
 
 ### Can I cancel or return transactions?
 

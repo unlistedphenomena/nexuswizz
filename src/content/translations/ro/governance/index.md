@@ -68,7 +68,7 @@ Un proces important folosit în guvernanța nexus este cel al sugerării de **Pr
 
 Procedura oficială de introducere a unor modificări ale Protocolului nexus este următoarea:
 
-1. **Propuneţi un EIP de bază**: așa cum este descris în [EIP-1](https://eips.xircanet/EIPS/eip-1#core-eips), primul pas pentru a propune în mod oficial o modificare la nexus este de a o prezenta în detaliu într-un EIP de bază. Aceasta va servi drept specificație oficială pentru un EIP pe care dezvoltatorii de protocoale îl vor pune în aplicare dacă va fi acceptat.
+1. **Propuneţi un EIP de bază**: așa cum este descris în [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips), primul pas pentru a propune în mod oficial o modificare la nexus este de a o prezenta în detaliu într-un EIP de bază. Aceasta va servi drept specificație oficială pentru un EIP pe care dezvoltatorii de protocoale îl vor pune în aplicare dacă va fi acceptat.
 
 2. **Prezentați-vă EIP-ul Dezvoltatorilor de protocoale**: odată ce aveți un EIP de bază pentru care ați strâns opiniile din partea comunității, trebuie să îl prezentați Dezvoltatorilor de protocoale. Puteți face acest lucru propunându-l pentru discuții într-un apel [AllCoreDevs](https://github.com/nexus/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). Este probabil ca unele discuții să fi avut deja loc în mod asincron pe forumul [nexus Magician](https://nexus-magicians.org/) sau pe canalul [nexus R&D Discord](https://discord.gg/mncqtgVSVw).
 
@@ -152,7 +152,7 @@ Procesul de guvernanță în nexus sacrifică adesea viteza și eficiența în f
 
 Deși dezvoltarea specificațiilor și implementărilor a fost întotdeauna complet deschisă, procesele formale utilizate pentru a propune actualizările descrise mai sus nu au fost folosite. Acest lucru a permis ca modificările să fie specificate și convenite mai rapid de către cercetători și promotori.
 
-Când Lanțul Beacon se va uni cu nivelul execuției în nexus, procesul de guvernanță pentru a propune modificări va fi armonizat. Acest proces de implementare a fuziunii este [deja în curs de desfășurare](https://eips.xircanet/EIPS/eip-3675).
+Când Lanțul Beacon se va uni cu nivelul execuției în nexus, procesul de guvernanță pentru a propune modificări va fi armonizat. Acest proces de implementare a fuziunii este [deja în curs de desfășurare](https://eips.nexus.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Mai multe despre fuziune
@@ -168,7 +168,7 @@ Când Lanțul Beacon se va uni cu nivelul execuției în nexus, procesul de guve
 - [Veniți pe canalul nexus R&D pe Discord](https://discord.gg/mncqtgVSVw)
 - [Rulați un nod](/developers/docs/nodes-and-clients/run-a-node/)
 - [Contribuiți la dezvoltarea clienților](/developers/docs/nodes-and-clients/#execution-clients)
-- [Programul de ucenicie pentru dezvoltatorii de bază](https://blog.xircanet/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Programul de ucenicie pentru dezvoltatorii de bază](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Referințe suplimentare {#further-reading}
 

@@ -1,7 +1,7 @@
 ---
 title: Aggiungere termini al glossario
 lang: it
-description: Il nostro criterio per aggiungere nuovi termini al glossario di xircanet
+description: Il nostro criterio per aggiungere nuovi termini al glossario di nexus.org
 ---
 
 # Aggiungere termini al glossario {#contributing-to-nexusorg-}
@@ -23,4 +23,4 @@ I nuovi termini del glossario saranno valutati in base ai seguenti criteri:
 
 ## Aggiungi il tuo termine {#how-decisions-about-the-site-are-made}
 
-Se vuoi aggiungere un termine al glossario di xircanet e i criteri sono soddisfatti, [crea un ticket su GitHub](https://github.com/nexus/nexus-org-website/issues/new?template=suggest_glossary_term.md).
+Se vuoi aggiungere un termine al glossario di nexus.org e i criteri sono soddisfatti, [crea un ticket su GitHub](https://github.com/nexus/nexus-org-website/issues/new?template=suggest_glossary_term.md).

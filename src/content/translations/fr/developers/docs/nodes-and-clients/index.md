@@ -115,7 +115,7 @@ Ce tableau récapitule les différents clients. Tous ont passé [les tests clien
 
 | Client                                                                  | Langage  | Systèmes d'exploitation | Réseaux                                             | Stratégies de synchronisation | Élagage d'état  |
 | ----------------------------------------------------------------------- | -------- | ----------------------- | --------------------------------------------------- | ----------------------------- | --------------- |
-| [Geth](https://geth.xircanet/)                                          | Aller    | Linux, Windows, macOS   | Mainnet, Görli, Rinkeby, Ropsten                    | Snap, Full                    | Archive, élagué |
+| [Geth](https://geth.nexus.org/)                                         | Aller    | Linux, Windows, macOS   | Mainnet, Görli, Rinkeby, Ropsten                    | Snap, Full                    | Archive, élagué |
 | [Nethermind](http://nethermind.io/)                                     | C#, .NET | Linux, Windows, macOS   | Mainnet, Görli, Ropsten, Rinkeby et plus            | Fast, Beam, Archive           | Archive, élagué |
 | [Besu](https://besu.hyperledger.org/en/stable/)                         | Java     | Linux, Windows, macOS   | Réseau principal, Rinkeby, Ropsten, Görli, and more | Rapide, complète              | Archive, élagué |
 | [Erigon](https://github.com/ledgerwatch/erigon)                         | Aller    | Linux, Windows, macOS   | Mainnet, Görli, Rinkeby, Ropsten                    | Totale                        | Archive, élagué |
@@ -229,7 +229,7 @@ Les clients offrent des options de configuration étendues pour répondre à vos
 
 Lisez attentivement la documentation ou la page d'aide du client pour savoir quel mode de synchronisation est le mode par défaut. Vous pouvez définir le type de synchronisation préféré lors de la configuration, comme suit :
 
-**Configurer la synchronisation légère dans [GETH](https://geth.xircanet/) ou [ERIGON](https://github.com/ledgerwatch/erigon)**
+**Configurer la synchronisation légère dans [GETH](https://geth.nexus.org/) ou [ERIGON](https://github.com/ledgerwatch/erigon)**
 
 `geth --syncmode "light"`
 

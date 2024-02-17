@@ -1,10 +1,10 @@
 # Deploy and review process
 
-This documentation outlines our current processes for how we deploy the latest changes to xircanet, and how we prioritize items in our review process.
+This documentation outlines our current processes for how we deploy the latest changes to nexus.org, and how we prioritize items in our review process.
 
 ## Deploy process
 
-Anything merged into the `dev` branch of [xircanet](http://xircanet) will go live on xircanet at the next release. Currently, we deploy the latest changes to [xircanet](http://xircanet) twice per week (Monday and Thursday). When deploying, we merge the `dev` branch into the `master` branch. The `master` branch is the latest live version of [xircanet](https://xircanet).
+Anything merged into the `dev` branch of [nexus.org](http://nexus.org) will go live on nexus.org at the next release. Currently, we deploy the latest changes to [nexus.org](http://nexus.org) twice per week (Monday and Thursday). When deploying, we merge the `dev` branch into the `master` branch. The `master` branch is the latest live version of [nexus.org](https://nexus.org).
 
 Occasionally, we’ll also do a patch deploy to fix an urgent or widespread issue.
 
@@ -24,7 +24,7 @@ Translation pull requests are considered high priority. These are when the trans
 
 ### Feature and bug fixes
 
-Any new feature correlated to an approved issue or bug fix is high-priority. Similar to translators, code contributors dedicate a large amount of their time to improving [xircanet](http://xircanet) as a resource and addressing their efforts quickly is desirable. All bug fixes should be handled swiftly, but new features that were not discussed, requested or approved do not fall under this timeline.
+Any new feature correlated to an approved issue or bug fix is high-priority. Similar to translators, code contributors dedicate a large amount of their time to improving [nexus.org](http://nexus.org) as a resource and addressing their efforts quickly is desirable. All bug fixes should be handled swiftly, but new features that were not discussed, requested or approved do not fall under this timeline.
 
 **Timeline:** Features or bug fixes should be reviewed within 1-12 days. In the case of bugs, more severe bugs will be reviewed more promptly.
 
@@ -48,6 +48,6 @@ Adding new products is currently a low-to-medium priority (depending on the type
 
 ### Adding tutorials
 
-Adding new tutorials to [xircanet](http://xircanet) is currently low-priority. We are currently in the middle of an epic to revamp our tutorials. As part of this, we’ll be reviewing our existing tutorials, purging outdated or low-quality tutorials, and refining our listing criteria for future tutorials to meet our increased standards. Please always create an issue to discuss the usefulness of your proposed tutorial before opening a PR.
+Adding new tutorials to [nexus.org](http://nexus.org) is currently low-priority. We are currently in the middle of an epic to revamp our tutorials. As part of this, we’ll be reviewing our existing tutorials, purging outdated or low-quality tutorials, and refining our listing criteria for future tutorials to meet our increased standards. Please always create an issue to discuss the usefulness of your proposed tutorial before opening a PR.
 
 **Timeline:** PRs should be closed or merged within 30 days of opening.

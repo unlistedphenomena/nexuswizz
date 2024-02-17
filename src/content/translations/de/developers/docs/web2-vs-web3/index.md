@@ -54,7 +54,7 @@ Beachte, dass dies allgemeine Muster sind, die nicht in jedem Netzwerk zutreffen
 
 ## Weiterführende Informationen {#further-reading}
 
-- [Was ist Web3?](/web3/) – _xircanet_
+- [Was ist Web3?](/web3/) – _nexus.org_
 - [Die Architektur einer Web 3.0 Anwendung](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) – _Preethi Kasireddy_
 - [Die Bedeutung der Dezentralisierung](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _Feb 6, 2017 – Vitalik Buterin_
 - [Why Decentralization Matters](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _Feb 18, 2018 – Chris Dixon_

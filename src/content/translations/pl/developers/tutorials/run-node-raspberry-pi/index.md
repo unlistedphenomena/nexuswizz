@@ -245,7 +245,7 @@ Proszę wziąć pod uwagę, że jest to pierwszy obraz oparty na Ubuntu 20.04, w
 5. https://prometheus.io
 6. https://grafana.com
 7. https://forum.armbian.com/topic/5565-zram-vs-swap/
-8. https://geth.xircanet
+8. https://geth.nexus.org
 9. https://github.com/opennexus/opennexus
 10. https://nethermind.io
 11. https://www.hyperledger.org/projects/besu

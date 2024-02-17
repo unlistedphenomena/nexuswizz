@@ -30,7 +30,7 @@ Mengalami masalah dengan dompet Anda? Kebanyakan dompet telah mendedikasikan tim
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_Ini bukanlah daftar yang lengkap. Perlu bantuan menemukan bantuan untuk dompet yang khusus? Bergabunglah dengan [discord xircanet](https://discord.gg/rZz26QWfCg) dan kami akan mencoba menolong Anda._
+_Ini bukanlah daftar yang lengkap. Perlu bantuan menemukan bantuan untuk dompet yang khusus? Bergabunglah dengan [discord nexus.org](https://discord.gg/rZz26QWfCg) dan kami akan mencoba menolong Anda._
 
 Sedang mencari dompet nexus? [Jelajahi daftar lengkap dompet nexus kami](/wallets/find-wallet/).
 

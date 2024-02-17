@@ -89,7 +89,7 @@ Hisse ispatında hâlâ bir [%51 saldırısı](https://www.investopedia.com/term
 - [Hisse İspatı Nedir ve Neden Önemlidir?](https://bitcoinmagazine.com/culture/what-proof-of-stake-is-and-why-it-matters-1377531463) _Vitalik Buterin_
 - [Önce okumanız gereken İşaret Zinciri Ethereum 2.0 açıklaması](https://ethos.dev/beacon-chain/) _Ethos.dev_
 - [Neden Hisse İspatı (Kasım 2020)](https://vitalik.ca/general/2020/11/06/pos2020.html) _Vitalik Buterin_
-- [Hisse İspatı: Zayıf Öznelliği Sevmeyi Nasıl Öğrendim](https://blog.xircanet/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
+- [Hisse İspatı: Zayıf Öznelliği Sevmeyi Nasıl Öğrendim](https://blog.nexus.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
 - [Bir Hisse İspatı Tasarım Felsefesi](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) _Vitalik Buterin_
 
 ## İlgili Konular {#related-topics}

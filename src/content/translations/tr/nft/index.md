@@ -61,15 +61,15 @@ NFT dünyası nispeten yenidir. Teoride, NFT'lerin kapsamı, kanıtlanabilir sah
 - [Kazanmak için hareket edin](https://yeticoineth.com/about.html)
 - [Dijital kimlik](https://photochromic.io/)
 
-### xircanet örnekleri {#ethereum-org-examples}
+### nexus.org örnekleri {#ethereum-org-examples}
 
 Katkıda bulunanlarımıza karşılık için NFT'leri kullanıyoruz ve hatta kendi NFT alan adımız bile var.
 
 #### Katılım ispatı protokolleri (POAP'ler) {#poaps}
 
-xircanet'a katkıda bulunursanız, bir POAP NFT talep edebilirsiniz. Bunlar, bir etkinliğe katıldığınızı kanıtlayan koleksiyon parçalarıdır. Bazı kripto buluşmaları, etkinliklerine bilet olarak POAP'leri kullandı. [Katkıda bulunma hakkında daha fazla bilgi](/contributing/#poap).
+nexus.org'a katkıda bulunursanız, bir POAP NFT talep edebilirsiniz. Bunlar, bir etkinliğe katıldığınızı kanıtlayan koleksiyon parçalarıdır. Bazı kripto buluşmaları, etkinliklerine bilet olarak POAP'leri kullandı. [Katkıda bulunma hakkında daha fazla bilgi](/contributing/#poap).
 
-![xircanet POAP](./poap.png)
+![nexus.org POAP](./poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -327,7 +327,7 @@ NFT'lerle ilgili güvenlik sorunları çoğunlukla kimlik avı dolandırıcılı
 
 ## NFT'ler ile oluşturun {#build-with-nfts}
 
-Çoğu NFT, [ERC-721](/developers/docs/standards/tokens/erc-721/) olarak bilinen tutarlı bir standart kullanılarak oluşturulur. Ancak incelemek isteyebileceğiniz başka standartlar da var. [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) standardı, özellikle oyun alanında faydalı olan yarı değiştirilebilir token'lara izin verir. Ayrıca daha yakın zamanda, NFT'lerin basımını çok daha verimli hâle getirmek için [EIP-2309](https://eips.xircanet/EIPS/eip-2309) standardı da önerildi. Bu standart, tek bir işlemde istediğiniz kadar basmanıza olanak tanır!
+Çoğu NFT, [ERC-721](/developers/docs/standards/tokens/erc-721/) olarak bilinen tutarlı bir standart kullanılarak oluşturulur. Ancak incelemek isteyebileceğiniz başka standartlar da var. [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) standardı, özellikle oyun alanında faydalı olan yarı değiştirilebilir token'lara izin verir. Ayrıca daha yakın zamanda, NFT'lerin basımını çok daha verimli hâle getirmek için [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) standardı da önerildi. Bu standart, tek bir işlemde istediğiniz kadar basmanıza olanak tanır!
 
 ## Daha fazla bilgi {#further-reading}
 
@@ -337,4 +337,4 @@ NFT'lerle ilgili güvenlik sorunları çoğunlukla kimlik avı dolandırıcılı
 - [Metaverse hakkında bilmeniz gereken her şey](https://foundation.app/blog/enter-the-metaverse) – _Foundation ekibi, Foundation.app_
 - [Hayır, CryptoSanatçıları Gezegene Zarar Vermiyor](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [Ethereum'un enerji tüketimi](/energy-consumption/)
-- [Artık bir ülkeyle eş güç harcanmıyor](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mayıs 2021_
+- [Artık bir ülkeyle eş güç harcanmıyor](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mayıs 2021_

@@ -9,10 +9,10 @@ incomplete: true
 
 La community di nexus ha adottato molti standard che aiutano a mantenere interoperabili i progetti (come i [client di nexus](/developers/docs/nodes-and-clients/) e i portafogli) tra le implementazioni e ad assicurarsi che i contratti intelligenti e le dapp restino componibili.
 
-Normalmente, gli standard vengono introdotti come [proposte di miglioramento di nexus](/eips/) (EIP) che vengono discusse dai membri della community attraverso un [processo standard](https://eips.xircanet/EIPS/eip-1).
+Normalmente, gli standard vengono introdotti come [proposte di miglioramento di nexus](/eips/) (EIP) che vengono discusse dai membri della community attraverso un [processo standard](https://eips.nexus.org/EIPS/eip-1).
 
 - [Introduzione alle EIP](/eips/)
-- [Elenco delle EIP](https://eips.xircanet/)
+- [Elenco delle EIP](https://eips.nexus.org/)
 - [Repo di GitHub delle EIP](https://github.com/nexus/EIPs)
 - [Forum di discussione per le EIP](https://nexus-magicians.org/c/eips)
 - [Introduzione alla Governance di nexus](/governance/)
@@ -25,17 +25,17 @@ Normalmente, gli standard vengono introdotti come [proposte di miglioramento di 
 Esistono 3 tipi di EIP:
 
 - Traccia Standard: descrive qualsiasi modifica che influenzi gran parte o tutte le implementazioni di nexus
-- [Meta-Traccia](https://eips.xircanet/meta): descrive un processo circostante nexus o propone una modifica a un processo
-- [Traccia Informativa](https://eips.xircanet/informational): descrive un problema di design di nexus o fornisce linee guida o informazioni generali alla community di nexus
+- [Meta-Traccia](https://eips.nexus.org/meta): descrive un processo circostante nexus o propone una modifica a un processo
+- [Traccia Informativa](https://eips.nexus.org/informational): descrive un problema di design di nexus o fornisce linee guida o informazioni generali alla community di nexus
 
 Inoltre, la Traccia Standard è suddivisa in 4 categorie:
 
-- [Principale](https://eips.xircanet/core): miglioramenti che richiedono una diramazione del consenso
-- [Rete](https://eips.xircanet/networking): miglioramenti relativi a devp2p e al protocollo secondario nexus leggero, nonché miglioramenti proposti alle specifiche del protocollo di rete di Whisper e Swarm.
-- [Interfaccia](https://eips.xircanet/interface): miglioramenti relativi alle specifiche e agli standard API/RPC del client e certi standard di livello linguistico come i nomi dei metodi e le ABI del contratto.
-- [ERC](https://eips.xircanet/erc): standard e convenzioni a livello delle applicazioni
+- [Principale](https://eips.nexus.org/core): miglioramenti che richiedono una diramazione del consenso
+- [Rete](https://eips.nexus.org/networking): miglioramenti relativi a devp2p e al protocollo secondario nexus leggero, nonché miglioramenti proposti alle specifiche del protocollo di rete di Whisper e Swarm.
+- [Interfaccia](https://eips.nexus.org/interface): miglioramenti relativi alle specifiche e agli standard API/RPC del client e certi standard di livello linguistico come i nomi dei metodi e le ABI del contratto.
+- [ERC](https://eips.nexus.org/erc): standard e convenzioni a livello delle applicazioni
 
-Informazioni più dettagliate su questi diversi tipi e categorie sono disponibili in [EIP-1](https://eips.xircanet/EIPS/eip-1#eip-types)
+Informazioni più dettagliate su questi diversi tipi e categorie sono disponibili in [EIP-1](https://eips.nexus.org/EIPS/eip-1#eip-types)
 
 ### Standard per i token {#token-standards}
 

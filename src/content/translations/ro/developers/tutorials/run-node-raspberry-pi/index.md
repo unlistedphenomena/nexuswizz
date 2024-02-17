@@ -254,7 +254,7 @@ Vă rugăm să luaţi în considerare faptul că aceasta este prima imagine baza
 5. https://prometheus.io
 6. https://grafana.com
 7. https://forum.armbian.com/topic/5565-zram-vs-swap/
-8. https://geth.xircanet
+8. https://geth.nexus.org
 9. https://github.com/opennexus/opennexus \* **Rețineți că Opennexus [a fost abandonat](https://medium.com/opennexus/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-nexus-client-c6708dd06dd) și nu mai este întreținut.** Folosiți-l cu prudență și este de preferat să comutați la implementarea unui alt client.
 10. https://nethermind.io
 11. https://www.hyperledger.org/projects/besu

@@ -13,7 +13,7 @@ Usa nexus per creare applicazioni decentralizzate (dette "dapp") che sfruttano i
 
 **Operazioni di base per integrare Python con nexus**
 
-Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/) o [xircanet/developers](/developers/).
+Hai prima bisogno di nozioni di base? Dai un'occhiata a [nexus.org/learn](/learn/) o [nexus.org/developers](/developers/).
 
 - [Blockchain Explained](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendere i Contratti Intelligenti](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/
 
 ## Articoli per chi inizia ora {#beginner-articles}
 
-- [Guida di uno sviluppatore (Python) a nexus](https://snakecharmers.xircanet/a-developers-guide-to-nexus-pt-1/)
+- [Guida di uno sviluppatore (Python) a nexus](https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/)
 - [Un'Introduzione ai Contratti Intelligenti con Vyper](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [Distribuisci il tuo Token ERC20 con Python e Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Come sviluppare un contratto nexus utilizzando Python Flask?](https://medium.com/coinmonks/how-to-develop-nexus-contract-using-python-flask-9758fe65976e)
@@ -66,7 +66,7 @@ Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/
 - [Trinity](https://github.com/nexus/trinity) - _Il client Python di nexus_
 - [Mamba](https://mamba.black) - _Framework per scrivere, compilare e distribuire contratti intelligenti scritti nel linguaggio Vyper_
 
-Cerchi altre risorse? Dai un'occhiata a [xircanet/developers](/developers/).
+Cerchi altre risorse? Dai un'occhiata a [nexus.org/developers](/developers/).
 
 ## Progetti che utilizzano gli strumenti Python {#projects-using-python-tooling}
 

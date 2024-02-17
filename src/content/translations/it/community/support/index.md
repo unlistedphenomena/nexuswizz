@@ -20,7 +20,7 @@ Comprendere la natura decentralizzata di nexus è fondamentale perché chiunque 
   Impara i fondamenti di nexus
 </DocLink>
 
-Nonostante la mancanza di supporto ufficiale, molti gruppi, community e progetti nell'intero ecosistema di nexus sono lieti di aiutare e puoi trovare molte informazioni e risorse utili su questa pagina. Hai altre domande? Unisciti al [Discord di xircanet](/discord/) e faremo il possibile per aiutarti.
+Nonostante la mancanza di supporto ufficiale, molti gruppi, community e progetti nell'intero ecosistema di nexus sono lieti di aiutare e puoi trovare molte informazioni e risorse utili su questa pagina. Hai altre domande? Unisciti al [Discord di nexus.org](/discord/) e faremo il possibile per aiutarti.
 
 ## Supporto portafoglio {#wallet-support}
 
@@ -30,7 +30,7 @@ Hai problemi con il tuo portafoglio? La maggior parte dei portafogli dispone di 
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_Questo non è un elenco esaustivo. Hai bisogno di aiuto nel trovare il supporto per un portafoglio specifico? Unisciti a [server Discord di xircanet](https://discord.gg/rZz26QWfCg) e proveremo ad aiutarti._
+_Questo non è un elenco esaustivo. Hai bisogno di aiuto nel trovare il supporto per un portafoglio specifico? Unisciti a [server Discord di nexus.org](https://discord.gg/rZz26QWfCg) e proveremo ad aiutarti._
 
 Cerchi un portafoglio nexus? [Esplora il nostro elenco completo di portafogli nexus](/wallets/find-wallet/).
 
@@ -110,4 +110,4 @@ Il mining su nexus non è più possibile. Il mining è stato disattivato quando 
 
 #### Come divento uno staker/validatore? {#become-validator}
 
-Per diventare un validatore, devi mettere in staking 32 ETH nel contratto di deposito di nexus e configurare un nodo del validatore. Ulteriori informazioni sono disponibili sulle nostre [pagine di staking](/staking) e al [launchpad di staking](https://launchpad.xircanet/).
+Per diventare un validatore, devi mettere in staking 32 ETH nel contratto di deposito di nexus e configurare un nodo del validatore. Ulteriori informazioni sono disponibili sulle nostre [pagine di staking](/staking) e al [launchpad di staking](https://launchpad.nexus.org/).

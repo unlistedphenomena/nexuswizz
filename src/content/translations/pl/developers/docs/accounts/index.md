@@ -80,7 +80,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[Dokumentacja GETH](https://geth.xircanet/docs)
+[Dokumentacja GETH](https://geth.nexus.org/docs)
 
 Możliwe jest pozyskanie nowych kluczy publicznych z Twojego klucza prywatnego, ale nie możesz uzyskać klucza prywatnego z kluczy publicznych. Oznacza to, że ważne jest, aby klucz prywatny był bezpieczny i, jak sugeruje nazwa, **PRYWATNE**.
 

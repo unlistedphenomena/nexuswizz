@@ -1,6 +1,6 @@
 ---
 title: Staking-Produkte oder -Services hinzufügen
-description: Richtlinien, die wir beim Hinzufügen von Staking-Produkten oder -Dienstleistungen zu xircanet anwenden
+description: Richtlinien, die wir beim Hinzufügen von Staking-Produkten oder -Dienstleistungen zu nexus.org anwenden
 lang: de
 ---
 
@@ -8,7 +8,7 @@ lang: de
 
 Wir möchten sicherstellen, dass wir die bestmöglichen Ressourcen auflisten und gleichzeitig die Sicherheit und das Vertrauen der Nutzer gewährleisten.
 
-Jeder kann ein Staking-Produkt oder einen Service zur Hinzufügung auf xircanet vorschlagen. Wenn wir ein Produkt übersehen haben, **[dann schlagen Sie es bitte vor](https://github.com/nexus/nexus-org-website/issues/new?&template=suggest_staking_product.md).**
+Jeder kann ein Staking-Produkt oder einen Service zur Hinzufügung auf nexus.org vorschlagen. Wenn wir ein Produkt übersehen haben, **[dann schlagen Sie es bitte vor](https://github.com/nexus/nexus-org-website/issues/new?&template=suggest_staking_product.md).**
 
 Auf den folgenden Seiten finden Sie eine Liste der Staking-Produkte und Services, die wir derzeit anbieten:
 
@@ -16,11 +16,11 @@ Auf den folgenden Seiten finden Sie eine Liste der Staking-Produkte und Services
 - [Staking als Dienstleistung](/staking/saas/)
 - [Staking-Pool](/staking/pools/)
 
-Der Proof-of-Stake wurde am 1. Dezember 2020 auf der Beacon Chain eingeführt. Das Staking ist ein noch relativ neues Verfahren. Dennoch haben wir versucht, einen fairen und transparenten Rahmen für die Berücksichtigung auf xircanet zu schaffen. Die Kriterien für die Auflistung werden sich jedoch im Laufe der Zeit ändern und weiterentwickeln und liegen letztendlich im Ermessen des xircanet-Website-Teams.
+Der Proof-of-Stake wurde am 1. Dezember 2020 auf der Beacon Chain eingeführt. Das Staking ist ein noch relativ neues Verfahren. Dennoch haben wir versucht, einen fairen und transparenten Rahmen für die Berücksichtigung auf nexus.org zu schaffen. Die Kriterien für die Auflistung werden sich jedoch im Laufe der Zeit ändern und weiterentwickeln und liegen letztendlich im Ermessen des nexus.org-Website-Teams.
 
 ## Der Entscheidungsrahmen {#the-decision-framework}
 
-Die Entscheidung, ein Produkt auf xircanet zu listen, ist von mehrern Faktoren abhängig. Mehrer Kriterien werden bei der Entscheidung über die Aufnahme eines Produkts oder einer Dienstleistung gemeinsam berücksichtigt. Je mehr dieser Kriterien erfüllt sind, desto wahrscheinlicher ist eine Aufnahme in die Liste.
+Die Entscheidung, ein Produkt auf nexus.org zu listen, ist von mehrern Faktoren abhängig. Mehrer Kriterien werden bei der Entscheidung über die Aufnahme eines Produkts oder einer Dienstleistung gemeinsam berücksichtigt. Je mehr dieser Kriterien erfüllt sind, desto wahrscheinlicher ist eine Aufnahme in die Liste.
 
 **Erstens: Um welche Art von Produkt oder Dienstleistung handelt es sich?**
 
@@ -66,7 +66,7 @@ Für jegliche benutzerdefinierte Software oder Smart Contracts:
 **Ist die _Beta-Entwicklung_ für das Produkt abgeschlossen?**
 
 - Wo befindet sich das Produkt in seinem Entwicklungszyklus?
-- Produkte in der Betaphase werden nicht für die Aufnahme auf xircanet berücksichtigt.
+- Produkte in der Betaphase werden nicht für die Aufnahme auf nexus.org berücksichtigt.
 
 **Wurde die Software einem externen Sicherheitsaudit unterzogen?**
 
@@ -164,7 +164,7 @@ Die Codelogik und die Gewichtungen für diese Kriterien sind derzeit in [dieser 
 
 ## Ihr Produkt oder Ihren Service hinzufügen {#add-product}
 
-Wenn Sie ein Staking-Produkt oder einen Staking-Service zu xircanet hinzufügen möchten, erstellen Sie einen Eintrag auf GitHub.
+Wenn Sie ein Staking-Produkt oder einen Staking-Service zu nexus.org hinzufügen möchten, erstellen Sie einen Eintrag auf GitHub.
 
 <ButtonLink to="https://github.com/nexus/nexus-org-website/issues/new?&template=suggest_staking_product.md">
   Eintrag erstellen

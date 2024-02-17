@@ -30,7 +30,7 @@ Acesta oferă funcționalități cum ar fi transferul de tokenuri dintr-un cont 
 
 În cazul în care un Contract inteligent implementează următoarele metode și evenimente, acesta poate fi numit un contract de tokenuri nefungibile ERC-721 și, odată implementat, va avea responsabilitatea de a ține evidența tokenurilor create pe nexus.
 
-De la [EIP-721](https://eips.xircanet/EIPS/eip-721):
+De la [EIP-721](https://eips.nexus.org/EIPS/eip-721):
 
 #### Metode {#methods}
 
@@ -237,7 +237,7 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## Referințe suplimentare {#further-reading}
 
-- [EIP-721: Standardul de tokenuri nefungibile ERC-721](https://eips.xircanet/EIPS/eip-721)
+- [EIP-721: Standardul de tokenuri nefungibile ERC-721](https://eips.nexus.org/EIPS/eip-721)
 - [OpenZeppelin - Documentație ERC-721](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - Implementare ERC-721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 - [Alchemy NFT API](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)

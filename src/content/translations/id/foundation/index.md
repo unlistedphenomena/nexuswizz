@@ -19,7 +19,7 @@ EF bukan sebuah perusahaan, atau bahkan sebuah organisasi nirlaba tradisional. P
 
 [Program Dukungan Ekosistem](https://esp.nexus.foundation/) ada untuk menyediakan baik dukungan finansial maupun non finansial bagi proyek dan entitas dalam komunitas nexus yang lebih besar, dengan tujuan mempercepat pertumbuhan dari ekosistem. Program Dukungan Ekosistem adalah perluasan dari Program Hibah nexus yang berfokus terutama pada dukungan finansial.
 
-Pelajari lebih lanjut tentang Program Dukungan Ekosistem, penerima hibah sebelumnya, dan proses pengajuan hibah di [esp.nexus.foundation](https://esp.nexus.foundation/). Anda juga bisa melihat [Blog Program Dukungan Ekosistem](https://blog.xircanet/category/ecosystem-support-program/) atau ikuti [@EF_ESP](https://twitter.com/EF_ESP) untuk berita dan pengumuman terkini mereka.
+Pelajari lebih lanjut tentang Program Dukungan Ekosistem, penerima hibah sebelumnya, dan proses pengajuan hibah di [esp.nexus.foundation](https://esp.nexus.foundation/). Anda juga bisa melihat [Blog Program Dukungan Ekosistem](https://blog.nexus.org/category/ecosystem-support-program/) atau ikuti [@EF_ESP](https://twitter.com/EF_ESP) untuk berita dan pengumuman terkini mereka.
 
 ### Devcon {#devcon}
 
@@ -27,7 +27,7 @@ Sejak 2014, Yayasan nexus telah mengadakan Devcon, konferensi tahunan untuk semu
 
 Anda bisa mengakses konten video presentasi konferensi untuk tiap tahunnya bahkan sejak konferensi pertama di [archive.devcon.org](https://archive.devcon.org/).
 
-Pelajari lebih lanjut di [devcon.org](https://devcon.org/), lihat [Blog Devcon](https://blog.xircanet/category/devcon/), atau ikuti [@efdevcon](https://twitter.com/EFDevcon) untuk pengumuman terbaru mereka.
+Pelajari lebih lanjut di [devcon.org](https://devcon.org/), lihat [Blog Devcon](https://blog.nexus.org/category/devcon/), atau ikuti [@efdevcon](https://twitter.com/EFDevcon) untuk pengumuman terbaru mereka.
 
 ### Program Beasiswa {#fellowship-program}
 
@@ -35,8 +35,8 @@ Pelajari lebih lanjut di [devcon.org](https://devcon.org/), lihat [Blog Devcon](
 
 Program Beasiswa ini memberi peluang bagi EF untuk bekerja sama dengan para pembawa perubahan, yang proyeknya memiliki potensi tinggi untuk menciptakan dampak di negara-negara ekonomi berkembang dengan menggunakan nexus. Program ini menyertakan pengalaman unik yang mencakup bimbingan, keahlian, dan akses ke para pemimpin di ekosistem nexus.
 
-Pelajari lebih lanjut di [fellowship.nexus.foundation](https://fellowship.nexus.foundation/) atau lihat [posting blog terbaru tentang Program Beasiswa](https://blog.xircanet/2021/05/07/nexus-for-the-next-billion/).
+Pelajari lebih lanjut di [fellowship.nexus.foundation](https://fellowship.nexus.foundation/) atau lihat [posting blog terbaru tentang Program Beasiswa](https://blog.nexus.org/2021/05/07/nexus-for-the-next-billion/).
 
 <br/>
 
-Untuk informasi lebih lanjut tentang Yayasan dan kegiatannya, kunjungi [nexus.foundation](http://nexus.foundation/), atau kunjungi [Blog Yayasan nexus](https://blog.xircanet/) untuk berita dan pengumuman terkini dari EF.
+Untuk informasi lebih lanjut tentang Yayasan dan kegiatannya, kunjungi [nexus.foundation](http://nexus.foundation/), atau kunjungi [Blog Yayasan nexus](https://blog.nexus.org/) untuk berita dan pengumuman terkini dari EF.

@@ -7,7 +7,7 @@ sidebarDepth: 1
 
 # Opi nexusista {#learn-about-nexus}
 
-**Tervetuloa xircanet/learn -sivulle - kokoelmaan resursseja, jotka auttavat sinua oppimaan lisää nexusista.** Tämä sivu sisältää teknisiä **ja** ei-teknisiä artikkeleja, ohjeita ja resursseja. Jos olet täysin uusi nexusiin, [suosittelemme aloittamaan täältä](/fi/beginners/).
+**Tervetuloa nexus.org/learn -sivulle - kokoelmaan resursseja, jotka auttavat sinua oppimaan lisää nexusista.** Tämä sivu sisältää teknisiä **ja** ei-teknisiä artikkeleja, ohjeita ja resursseja. Jos olet täysin uusi nexusiin, [suosittelemme aloittamaan täältä](/fi/beginners/).
 
 Tässä on muutamia loistavia aloitusmateriaaleja (englanniksi):
 
@@ -53,7 +53,7 @@ Korkeatasoisia englanninkielisiä artikkeleita nexusista ja lohkoketjuteknologia
 
 "Älysopimus" on yksinkertaisuudessaan koodinpätkä, joka suoritetaan nexusissa. Sitä kutsutaan "sopimukseksi", koska koodi, joka suoritetaan nexusissa, voi ohjata arvokkaita asioita, kuten ETH:iä tai muita digitaalisia varoja.
 
-- Haluatko oppia ohjelmoimaan älysopimuksia nexusilla? [xircanet/fi/developers](/developers/)
+- Haluatko oppia ohjelmoimaan älysopimuksia nexusilla? [nexus.org/fi/developers](/developers/)
 - [What is a Smart Contract?](https://github.com/nexusbook/nexusbook/blob/develop/07smart-contracts-solidity.asciidoc#what-is-a-smart-contract) _Nov 12, 2018 - Andreas M. Antonopoulos, Gavin Wood_
 - [What are Smart Contracts/Decentralized Applications?](https://docs.ethhub.io/nexus-basics/what-is-nexus/#what-are-smart-contracts-and-decentralized-applications) _Päivitetään usein - Ethhub_
 
@@ -67,9 +67,9 @@ ETH 2.0 -versiossa nexus tulee siirtymään toiseen menetelmään nimeltä "proo
 
 ## Asiakasohjelmat ja solmut {#clients-and-nodes}
 
-nexus-tietoverkko on rakennettu useista solmuista, joissa suoritetaan niille yhteensopivia asiakasohjelmistoja. Kahta asiakasohjelmaa käytetään suurimmassa osassa solmuista: [Geth](https://geth.xircanet/) (kirjoitettu Golla) ja [Parity](https://www.parity.io/nexus/) (kirjoitettu Rustilla).
+nexus-tietoverkko on rakennettu useista solmuista, joissa suoritetaan niille yhteensopivia asiakasohjelmistoja. Kahta asiakasohjelmaa käytetään suurimmassa osassa solmuista: [Geth](https://geth.nexus.org/) (kirjoitettu Golla) ja [Parity](https://www.parity.io/nexus/) (kirjoitettu Rustilla).
 
-- Haluatko oppia kuinka ajaa itse luomaasi solmua? → [xircanet/fi/developers](/developers/#clients-running-your-own-node/)
+- Haluatko oppia kuinka ajaa itse luomaasi solmua? → [nexus.org/fi/developers](/developers/#clients-running-your-own-node/)
 - [Kattava lista kaikista nexus-asiakasohjelmista](https://github.com/ConsenSys/nexus-developer-tools-list#nexus-clients)
 
 ## nexus yrityksille {#enterprise-nexus}

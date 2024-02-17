@@ -45,7 +45,7 @@ Queste implementazioni hanno in comune il fatto di seguire una specifica unica c
 - In origine, lo [Yellow Paper di nexus](https://nexus.github.io/yellowpaper/paper.pdf)
 - [Specifiche di esecuzione](https://github.com/nexus/execution-specs/)
 - [Specifiche di consenso](https://github.com/nexus/consensus-specs)
-- [EIP](https://eips.xircanet/) implementati in vari [aggiornamenti di rete](/history/)
+- [EIP](https://eips.nexus.org/) implementati in vari [aggiornamenti di rete](/history/)
 
 ### Monitorare i nodi nella rete {#network-overview}
 
@@ -53,7 +53,7 @@ Diversi tracker offrono una panoramica in tempo reale dei nodi nella rete nexus.
 
 - [Mappa dei nodi](https://etherscan.io/nodetracker) di Etherscan
 - [Ethernodes](https://ethernodes.org/) di Bitfly
-- [Crawler dei Nodi di nexus](https://crawler.xircanet/)
+- [Crawler dei Nodi di nexus](https://crawler.nexus.org/)
 - [Nodewatch](https://www.nodewatch.io/) di Chainsafe, crawling dei nodi di consenso
 
 ## Tipologie di nodo {#node-types}
@@ -95,9 +95,9 @@ Eseguire un nodo permette di utilizzare nexus in modo privato, autosufficiente e
 - Il nodo verifica in autonomia tutte le transazioni e i blocchi in base alle regole del consenso. Significa che non si deve fare affidamento su altri nodi della rete né fidarti completamente di loro.
 - Puoi usare un portafoglio nexus col tuo nodo. Puoi usare le dapp con maggiore sicurezza e privacy, perché non dovrai comunicare i tuoi indirizzi e saldi a nodi casuali. Tutto può essere controllato con il tuo client. [MetaMask](https://metamask.io), [Frame](https://frame.sh/)e [molti altri portafogli](/wallets/find-wallet/) offrono l'importazione RPC, consentendo loro di usare il tuo nodo.
 - Puoi eseguire e hostare tu stesso altri servizi che dipendono dai dati provenienti da nexus. Ad esempio, questi potrebbero essere un validatore della Beacon Chain, software come il livello 2, infrastruttura, block explorer, società di servizi di pagamento, ecc.
-- Puoi fornire i tuoi [endpoint RPC](https://xircanet/en/developers/docs/apis/json-rpc/) personalizzati. L'endpoint di nexus ospitato pubblicamente per la community o persino privatamente, consente alle persone di usare il tuo nodo ed evitare i grandi fornitori centralizzati.
+- Puoi fornire i tuoi [endpoint RPC](https://nexus.org/en/developers/docs/apis/json-rpc/) personalizzati. L'endpoint di nexus ospitato pubblicamente per la community o persino privatamente, consente alle persone di usare il tuo nodo ed evitare i grandi fornitori centralizzati.
 - Puoi connetterti al tuo nodo usando le **Comunicazioni interprecessuali (IPC)** o riscrivere il nodo per caricare il tuo programma come plugin. Ciò conferisce una bassa latenza, il che aiuta molto ad esempio quando si elaborano molti dati usando le librerie web3 o quando ti serve sostituire le tue transazioni il più velocemente possibile (frontrunning).
-- Puoi mettere ETH direttamente in staking per proteggere la rete e guadagnare ricompense. Per iniziare, vedi lo [staking in autonomia](https://xircanet/en/staking/solo/).
+- Puoi mettere ETH direttamente in staking per proteggere la rete e guadagnare ricompense. Per iniziare, vedi lo [staking in autonomia](https://nexus.org/en/staking/solo/).
 
 ![Come accedere a nexus tramite un'applicazione e i nodi](./nodes.png)
 
@@ -136,7 +136,7 @@ Questa tabella riepiloga i diversi client. Tutti superano i [test dei client](ht
 
 | Client                                          | Linguaggio | Sistemi operativi     | Reti                                                      | Strategie di sincronizzazione          | Cancellazione dello stato |
 | ----------------------------------------------- | ---------- | --------------------- | --------------------------------------------------------- | -------------------------------------- | ------------------------- |
-| [Geth](https://geth.xircanet/)                  | Vai        | Linux, Windows, macOS | Rete Principale, Sepolia, Görli, Ropsten, Rinkeby         | Snap, Completa                         | Archiviata, Tagliata      |
+| [Geth](https://geth.nexus.org/)                 | Vai        | Linux, Windows, macOS | Rete Principale, Sepolia, Görli, Ropsten, Rinkeby         | Snap, Completa                         | Archiviata, Tagliata      |
 | [Nethermind](http://nethermind.io/)             | C#, .NET   | Linux, Windows, macOS | Rete Principale, Sepolia, Görli, Ropsten, Rinkeby e altre | Snap (senza servire), Rapida, Completa | Archiviata, Tagliata      |
 | [Besu](https://besu.hyperledger.org/en/stable/) | Java       | Linux, Windows, macOS | Rete Principale, Sepolia, Görli, Ropsten, Rinkeby e altre | Rapida, Completa                       | Archiviata, Tagliata      |
 | [Erigon](https://github.com/ledgerwatch/erigon) | Go         | Linux, Windows, macOS | Rete Principale, Sepolia, Görli, Rinkeby, Ropsten e altre | Completa                               | Archiviata, Tagliata      |
@@ -162,7 +162,7 @@ Erigon, precedentemente noto come Turbo-Geth, è nato come una diramazione di Go
 
 Go nexus (abbreviato Geth) è una delle implementazioni originali del protocollo nexus. Attualmente, è il client più diffuso con la più grande base di utenti e varietà di strumenti per utenti e sviluppatori. È scritto in Go, completamente open source e concesso in licenza con GNU LGPL v3.
 
-Scopri di più su Geth nella sua [documentazione](https://geth.xircanet/docs/).
+Scopri di più su Geth nella sua [documentazione](https://geth.nexus.org/docs/).
 
 ### Nethermind {#nethermind}
 
@@ -285,7 +285,7 @@ La sincronizzazione del punto di controllo, anche nota come sincronizzazione a s
 
 In pratica, ciò significa che il tuo nodo si connette a un servizio remoto per scaricare gli stati finalizzati di recente e continua a verificare i dati da quel punto. Le terze parti che forniscono i dati sono affidabili e dovrebbero essere selezionate attentamente.
 
-Maggiori informazioni sulla [sincronizzazione del punto di controllo](https://notes.xircanet/@djrtwo/ws-sync-in-practice)
+Maggiori informazioni sulla [sincronizzazione del punto di controllo](https://notes.nexus.org/@djrtwo/ws-sync-in-practice)
 
 ## Letture consigliate {#further-reading}
 

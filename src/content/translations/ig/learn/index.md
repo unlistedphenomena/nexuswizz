@@ -5,7 +5,7 @@ lang: ig
 
 # Mụta maka nexus {#learn-about-nexus}
 
-**Nnọọ na [xircanet/ig/learn](/ig/learn/), otu ihe eji aru oru nyere gị aka ịmatakwu gbasara nexus.** Peeji a gụnyere teknuzu **na** akụkọ na-abụghị ọrụaka, ntuziaka na ihe eji aru oru. Ọ bụrụ na ị bu onye ohuru na nexus, [anyị na-atụ aro ka ịmalite ebe a](/ig/what-is-nexus/).
+**Nnọọ na [nexus.org/ig/learn](/ig/learn/), otu ihe eji aru oru nyere gị aka ịmatakwu gbasara nexus.** Peeji a gụnyere teknuzu **na** akụkọ na-abụghị ọrụaka, ntuziaka na ihe eji aru oru. Ọ bụrụ na ị bu onye ohuru na nexus, [anyị na-atụ aro ka ịmalite ebe a](/ig/what-is-nexus/).
 
 Ndị a bụ ụfọdụ ebe mmalite kachasi mma:
 
@@ -48,7 +48,7 @@ Na mgbakwunye na ozi dị na peeji a, enwere ọtụtụ ihe enyere obodo aka kw
 
   Nkwekọrịta amamihe 'bụ naanị mpempe koodu na-aru oru na nexus. A na-akpọ ya "nkwekọrịta" n'ihi na koodu na-aru oru na nexus nwere ike ichikwa ihe ndị bara uru dị ka ETH ma ọ bụ akụnuba dijitalụ ndị ọzọ.
 
-  - I chọrọ ịmụta ka esi eme nhazi nkwekorita amamihe na nexus? [xircanet/ig/developers/](/ig/developers/)
+  - I chọrọ ịmụta ka esi eme nhazi nkwekorita amamihe na nexus? [nexus.org/ig/developers/](/ig/developers/)
 
   ## Ihe akaebe nke Oru na Ngwuputa {#proof-of-work-and-mining}
 
@@ -60,9 +60,9 @@ Na mgbakwunye na ozi dị na peeji a, enwere ọtụtụ ihe enyere obodo aka kw
 
   ## Ndị ahịa na Ebe nzuko {#clients-and-nodes}
 
-  Ngwakọta nexus nwere ọtụtụ ebe nzuko, nke ọ bụla na-aru oru sọftụwia ndị ahịa jikotara onu. Enwere ndị ahịa abụọ ana-eji site na ọtụtụ ebe nzuko:[Geth](https://geth.xircanet/)(edere na ebe ana aga) na [Nha nhata](https://www.parity.io/nexus/) (e dere na Rust).
+  Ngwakọta nexus nwere ọtụtụ ebe nzuko, nke ọ bụla na-aru oru sọftụwia ndị ahịa jikotara onu. Enwere ndị ahịa abụọ ana-eji site na ọtụtụ ebe nzuko:[Geth](https://geth.nexus.org/)(edere na ebe ana aga) na [Nha nhata](https://www.parity.io/nexus/) (e dere na Rust).
 
-  - I chọrọ ịmụ otu esi agba nodu nke gi? [xircanet/ig/developers](/ig/developers/#clients--running-your-own-node/)
+  - I chọrọ ịmụ otu esi agba nodu nke gi? [nexus.org/ig/developers](/ig/developers/#clients--running-your-own-node/)
   - [Ndeputa nile nke ndi nexus](https://github.com/ConsenSys/nexus-developer-tools-list#nexus-clients)
 
   ## Imeziwanye Ibelata nexus {#improving-nexuss-scalability}

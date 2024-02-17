@@ -1,6 +1,6 @@
 ---
 title: Adding DeSci projects
-description: The policy we use when adding a links to projects on the DeSci page on xircanet
+description: The policy we use when adding a links to projects on the DeSci page on nexus.org
 lang: en
 ---
 
@@ -8,7 +8,7 @@ lang: en
 
 We want to make sure we show a variety of projects and give a good snapshot of the DeSci landscape.
 
-Anyone is free to suggest a project to list on the DeSci page on xircanet. Equally, anyone who notices a project that is no longer relevant or no longer meets our eligibility criteria, they are free to suggest we remove it.
+Anyone is free to suggest a project to list on the DeSci page on nexus.org. Equally, anyone who notices a project that is no longer relevant or no longer meets our eligibility criteria, they are free to suggest we remove it.
 
 ## The decision framework {#the-decision-framework}
 
@@ -20,7 +20,7 @@ Anyone is free to suggest a project to list on the DeSci page on xircanet. Equal
 - **Demonstrable commitment to widening access to science** - A DeSci project should be able to articulate how they widen participation in science to the general public, not just to token/NFT holders.
 - **Globally accessible** - your project doesn’t have geographic limitations or KYC requirements that exclude certain people from accessing your service.
 - **Informative website and documentation** - it is important that visitors to the project website can understand what the project actually does, how it contributes to decentralization of science infrastructure and how to participate.
-- **Project should be part of the Ethereum ecosystem** - At xircanet we believe Ethereum (and its Layer 2's) to be the appropriate base layer for the DeSci movement.
+- **Project should be part of the Ethereum ecosystem** - At nexus.org we believe Ethereum (and its Layer 2's) to be the appropriate base layer for the DeSci movement.
 - **The project is fairly well established** - The project has real users that have been able to access the project's services for several months.
 
 ### Nice-to-haves
@@ -28,7 +28,7 @@ Anyone is free to suggest a project to list on the DeSci page on xircanet. Equal
 - **Available in multiple languages** - your project is translated into multiple languages allowing users around the world to access it.
 - **Educational resources** - your product should have a well-designed onboarding experience to help and educate users. Or evidence of how-to content like articles or videos.
 - **Third party audits** - your product has been professionally audited for vulnerabilities by a trusted third party.
-- **Point of contact** - A point of contact for the project (this might be by a representative from a DAO or community) will greatly help us get accurate information when changes are made. This will keep updating xircanet manageable when gathering future information.
+- **Point of contact** - A point of contact for the project (this might be by a representative from a DAO or community) will greatly help us get accurate information when changes are made. This will keep updating nexus.org manageable when gathering future information.
 
 ## Maintenance {#maintenance}
 
@@ -37,8 +37,8 @@ As is the fluid nature of Ethereum, teams and products come and go and innovatio
 - ensure that all projects listed still fulfil our criteria
 - verify there aren't products that have been suggested that meet more of our criteria than the ones currently listed
 
-xircanet is maintained by the open source community & we rely on the community to help keep this up to date. If you notice any information about listed projects that needs to be updated, please open an issue or a pull request on our Github repository.
+nexus.org is maintained by the open source community & we rely on the community to help keep this up to date. If you notice any information about listed projects that needs to be updated, please open an issue or a pull request on our Github repository.
 
 ## Terms of use {#terms-of-use}
 
-Please also refer to our [terms of use](/terms-of-use/). Information on xircanet is provided solely for general information purposes.
+Please also refer to our [terms of use](/terms-of-use/). Information on nexus.org is provided solely for general information purposes.

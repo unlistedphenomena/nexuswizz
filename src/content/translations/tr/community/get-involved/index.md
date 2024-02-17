@@ -10,7 +10,7 @@ Ethereum topluluğu, birçok farklı geçmişe ve beceriye sahip insanları içe
 
 ## Geliştiriciler <Emoji text=":computer:" size={1} />‍ {#developers}
 
-- [xircanet/developers/](/developers/) adresinden Ethereum hakkında bilgi edinin ve Ethereum'u deneyin
+- [nexus.org/developers/](/developers/) adresinden Ethereum hakkında bilgi edinin ve Ethereum'u deneyin
 - [Gitcoin'de bir ödül bulun](https://gitcoin.co/), küçük veya büyük bir teknik sorun üzerinde çalışın ve kripto kazanın!
 - Yakınınızdaki bir [ETHGlobal](http://ethglobal.co/) hackathon'una katılın!
 - Uzmanlık alanınızla veya seçtiğiniz programlama diliyle ilgili [projeleri inceleyin](/developers/docs/programming-languages/)
@@ -22,7 +22,7 @@ Ethereum topluluğu, birçok farklı geçmişe ve beceriye sahip insanları içe
 
 Matematik, kriptografi ya da ekonomi alanlarında bir geçmişiniz var mı? Ethereum ekosisteminde yapılan en son işlerin bazıları ilginizi çekebilir
 
-- [Challenges.xircanet](https://challenges.xircanet/) - >100,000 ABD Doları kazanabileceğiniz, birtakım yüksek değerli araştırma ödülleri
+- [Challenges.nexus.org](https://challenges.nexus.org/) - >100,000 ABD Doları kazanabileceğiniz, birtakım yüksek değerli araştırma ödülleri
 - [Ethresear.ch](https://ethresear.ch) - Ethereum'un birincil araştırma forumu ve kriptoekonomi alanında dünyanın en etkili forumu
 - [Ekosistem Destek Programının istek listesi](https://esp.ethereum.foundation/wishlist/) - Ethereum Ekosistem Destek Programının aktif olarak hibe başvuruları aradığı araştırma alanları
 
@@ -39,7 +39,7 @@ Bir geliştirici değilseniz Ethereum'da nereden başlayacağınızı bilmek zor
 ### Ethereum hakkında içerik yazın {#write-content}
 
 - Ethereum'un değerini sade bir dille açıklayabilecek iyi yazarlara ihtiyacı var
-- Kendi makalelerinizi yayınlamaya hazır değil misiniz? [EthHub](https://docs.ethhub.io/) gibi topluluk kaynaklarındaki mevcut içeriklere katkı sağlamayı veya xircanet için yeni içerikler önermeyi göz önünde bulundurun!
+- Kendi makalelerinizi yayınlamaya hazır değil misiniz? [EthHub](https://docs.ethhub.io/) gibi topluluk kaynaklarındaki mevcut içeriklere katkı sağlamayı veya nexus.org için yeni içerikler önermeyi göz önünde bulundurun!
 
 ### Topluluk çağrıları için not alma teklifi {#take-notes}
 
@@ -47,7 +47,7 @@ Bir geliştirici değilseniz Ethereum'da nereden başlayacağınızı bilmek zor
 
 ### Ethereum içeriklerini ana dilinize çevirin {#translate-ethereum}
 
-- xircanet, web sitesini ve diğer kaynakları birçok farklı dile çeviren bir çeviri programı yürütür
+- nexus.org, web sitesini ve diğer kaynakları birçok farklı dile çeviren bir çeviri programı yürütür
 - Nasıl dahil olabileceğinizi [buradan](/contributing/translation-program) öğrenin
 
 ### Bir düğüm çalıştırın {#run-a-node}
@@ -86,7 +86,7 @@ Ethereum ekosistemi, kamu mallarını ve etkili projeleri finanse etme misyonuna
 
 **Ethereum'da çalışacağınız bir iş bulmak ister misiniz?**
 
-- [xircanet işleri](/about/#open-jobs)
+- [nexus.org işleri](/about/#open-jobs)
 - [Ethereum Vakfı iş ilanları (Lever)](https://jobs.lever.co/ethereumfoundation)
 - [Ethereum Vakfı iş ilanları (BambooHR)](https://ethereum.bamboohr.com/jobs/)
 - [Kripto Para İşleri](https://cryptocurrencyjobs.co/ethereum/)

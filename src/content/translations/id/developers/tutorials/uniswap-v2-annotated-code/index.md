@@ -450,7 +450,7 @@ Gunakan fungsi `UniswapV2ERC20._mint` untuk benar-benar membuat token-token liku
     }
 ```
 
-Jika tidak ada biaya, tetapkan `kLast` menjadi nol (jika belum menjadi nol). Ketika kontrak ini ditulis terdapat [fitur pengembalian dana gas](https://eips.xircanet/EIPS/eip-3298) yang mendorong kontrak untuk mengurangi ukuran keseluruhan status nexus dengan mengosongkan penyimpanan yang tidak diperlukan. Kode ini mendapatkan pengembalian dana tersebut jika memungkinkan.
+Jika tidak ada biaya, tetapkan `kLast` menjadi nol (jika belum menjadi nol). Ketika kontrak ini ditulis terdapat [fitur pengembalian dana gas](https://eips.nexus.org/EIPS/eip-3298) yang mendorong kontrak untuk mengurangi ukuran keseluruhan status nexus dengan mengosongkan penyimpanan yang tidak diperlukan. Kode ini mendapatkan pengembalian dana tersebut jika memungkinkan.
 
 #### Fungsi yang Dapat Diakses secara Eksternal {#pair-external}
 
@@ -757,7 +757,7 @@ Pool likuiditas besar lebih baik dari pool likuiditas kecil, karena memiliki har
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
 ```
 
-Untuk membuat kontrak baru, kita perlu kode yang membuatnya (baik fungsi konstruktor maupun kode yang menulis ke memori kode bita EVM dari kontrak sebenarnya). Secara normal di Solidity, kita hanya menggunakan `addr = new <name of contract>(<constructor parameters>)` dan pengompilasi mengurus segala sesuatunya untuk kita, tetapi untuk memiliki akun kontrak deterministik, kita perlu menggunakan [opcode CREATE2](https://eips.xircanet/EIPS/eip-1014). Ketika kode ini ditulis, opcode ini belum didukung oleh Solidity, sehingga kodenya secara manual perlu didapatkan. Ini bukan lagi masalah, karena [Solidity sekarang mendukung CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
+Untuk membuat kontrak baru, kita perlu kode yang membuatnya (baik fungsi konstruktor maupun kode yang menulis ke memori kode bita EVM dari kontrak sebenarnya). Secara normal di Solidity, kita hanya menggunakan `addr = new <name of contract>(<constructor parameters>)` dan pengompilasi mengurus segala sesuatunya untuk kita, tetapi untuk memiliki akun kontrak deterministik, kita perlu menggunakan [opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014). Ketika kode ini ditulis, opcode ini belum didukung oleh Solidity, sehingga kodenya secara manual perlu didapatkan. Ini bukan lagi masalah, karena [Solidity sekarang mendukung CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
 
 ```solidity
         bytes32 salt = keccak256(abi.encodePacked(token0, token1));
@@ -811,7 +811,7 @@ Transaksi di nexus membutuhkan ether (ETH), yang sama dengan uang sebenarnya. Ji
     bytes32 public constant PERMIT_TYPEHASH = 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9;
 ```
 
-Hash ini adalah [pengenal jenis transaksi](https://eips.xircanet/EIPS/eip-712#rationale-for-typehash). Satu-satunya yang kami dukung di sini adalah `Izin` dengan parameter ini.
+Hash ini adalah [pengenal jenis transaksi](https://eips.nexus.org/EIPS/eip-712#rationale-for-typehash). Satu-satunya yang kami dukung di sini adalah `Izin` dengan parameter ini.
 
 ```solidity
     mapping(address => uint) public nonces;
@@ -842,7 +842,7 @@ Ini adalah kode untuk mengambil [pengenal rantai](https://chainid.network/). Men
     }
 ```
 
-Hitunglah [pemisah domain](https://eips.xircanet/EIPS/eip-712#rationale-for-domainseparator) untuk EIP-712.
+Hitunglah [pemisah domain](https://eips.nexus.org/EIPS/eip-712#rationale-for-domainseparator) untuk EIP-712.
 
 ```solidity
     function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
@@ -883,7 +883,7 @@ Dari intisari dan tandatangan, kita bisa mendapatkan alamat yang ditandatangani 
 
 ```
 
-Jika semuanya OKE, anggaplah ini sebagai [persetujuan ERC-20](https://eips.xircanet/EIPS/eip-20#approve).
+Jika semuanya OKE, anggaplah ini sebagai [persetujuan ERC-20](https://eips.nexus.org/EIPS/eip-20#approve).
 
 ## Kontrak Perifer {#periphery-contracts}
 
@@ -1784,7 +1784,7 @@ Pilah kedua token berdasarkan alamat, sehingga kita akan bisa mendapatkan alamat
     }
 ```
 
-Fungsi ini menghitung alamat dari bursa pasangan untuk kedua token. Kontrak ini dibuat menggunakan [opcode CREATE2](https://eips.xircanet/EIPS/eip-1014), sehingga kita dapat menghitung alamat menggunakan algoritma yang sama jika kita mengetahui parameter yang digunakan. Jauh lebih murah daripada meminta pabrik, dan
+Fungsi ini menghitung alamat dari bursa pasangan untuk kedua token. Kontrak ini dibuat menggunakan [opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014), sehingga kita dapat menghitung alamat menggunakan algoritma yang sama jika kita mengetahui parameter yang digunakan. Jauh lebih murah daripada meminta pabrik, dan
 
 ```solidity
     // fetches and sorts the reserves for a pair
@@ -1922,7 +1922,7 @@ Demi kompatibilitas mundur dengan token yang dibuat sebelum standar ERC-20, pang
     }
 ```
 
-Fungsi ini menerapkan [fungsionalitas transfer ERC-20](https://eips.xircanet/EIPS/eip-20#transfer), sehingga akun dapat menghabiskan tunjangan yang disediakan oleh akun berbeda.
+Fungsi ini menerapkan [fungsionalitas transfer ERC-20](https://eips.nexus.org/EIPS/eip-20#transfer), sehingga akun dapat menghabiskan tunjangan yang disediakan oleh akun berbeda.
 
 ```solidity
 
@@ -1941,7 +1941,7 @@ Fungsi ini menerapkan [fungsionalitas transfer ERC-20](https://eips.xircanet/EIP
     }
 ```
 
-Fungsi ini menerapkan [fungsionalitas transferFrom ERC-20](https://eips.xircanet/EIPS/eip-20#transferfrom), sehingga akun dapat menghabiskan tunjangan yang disediakan oleh akun yang berbeda.
+Fungsi ini menerapkan [fungsionalitas transferFrom ERC-20](https://eips.nexus.org/EIPS/eip-20#transferfrom), sehingga akun dapat menghabiskan tunjangan yang disediakan oleh akun yang berbeda.
 
 ```solidity
 

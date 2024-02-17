@@ -32,7 +32,7 @@ If you are an experienced programmer, you probably remember seeing similar const
 or even in [C header files](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html).
 
 This is a definition of the [ERC-20 Interface](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol)
-from OpenZeppelin. It is a translation of the [human readable standard](https://eips.xircanet/EIPS/eip-20) into Solidity code. Of course, the
+from OpenZeppelin. It is a translation of the [human readable standard](https://eips.nexus.org/EIPS/eip-20) into Solidity code. Of course, the
 interface itself does not define _how_ to do anything. That is explained in the contract source code below.
 
 &nbsp;

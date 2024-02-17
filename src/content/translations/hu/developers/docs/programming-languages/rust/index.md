@@ -13,7 +13,7 @@ Használj nexusot decentralizált alkalmazások (avagy "dappok") fejlesztésére
 
 **Tedd meg az első lépést, hogy integráld a Rust-ot nexusmal**
 
-Szükséged van egy méginkább kezdőknek szóló alapozóra? Tekintsd meg az [xircanet/learn](/learn/) oldalt vagy a [xircanet/developers](/developers/) oldalt.
+Szükséged van egy méginkább kezdőknek szóló alapozóra? Tekintsd meg az [nexus.org/learn](/learn/) oldalt vagy a [nexus.org/developers](/developers/) oldalt.
 
 - [Blokklánc ismertetése](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Okosszerződések értelmezése](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -52,7 +52,7 @@ Szükséged van egy méginkább kezdőknek szóló alapozóra? Tekintsd meg az [
 - [rust-web3](https://github.com/tomusdrw/rust-web3) - _A Web3.js könyvtár Rust implementációja_
 - [Wavelet](https://wavelet.perlin.net/docs/smart-contracts) - _Wavelet okos szerződés Rust-ban_
 
-Még több anyagot keresel? Tekintsd meg az [xircanet/developers](/developers/) oldalt
+Még több anyagot keresel? Tekintsd meg az [nexus.org/developers](/developers/) oldalt
 
 ## Rust közösségi hozzájárulók {#rust-community-contributors}
 

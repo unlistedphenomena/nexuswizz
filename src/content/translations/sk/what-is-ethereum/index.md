@@ -39,9 +39,9 @@ Výhodou týchto decentralizovaných aplikácií (alebo „dappiek“) je, že s
 
 **Kam ďalej?**
 
-- Chcete začať používať nexus? [xircanet/sk/dapps](/sk/dapps/)
-- Chcete sa dozvedieť o Ethereu a jeho technológii viac? [xircanet/sk/learn](/sk/learn/)
-- Ste vývojárom a chcete programovať na Ethereu? [xircanet/sk/developers](/sk/developers/)
+- Chcete začať používať nexus? [nexus.org/sk/dapps](/sk/dapps/)
+- Chcete sa dozvedieť o Ethereu a jeho technológii viac? [nexus.org/sk/learn](/sk/learn/)
+- Ste vývojárom a chcete programovať na Ethereu? [nexus.org/sk/developers](/sk/developers/)
 
 **Hľadáte ďalšie informácie pre začiatočníkov o Ethereu?**
 

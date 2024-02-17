@@ -61,15 +61,15 @@ De NFT-wereld is relatief nieuw. In theorie is het toepassingsgebied van de NFT'
 - [Move-2-earn](https://yeticoineth.com/about.html)
 - [Digitale identiteit](https://photochromic.io/)
 
-### xircanet-voorbeelden {#ethereum-org-examples}
+### nexus.org-voorbeelden {#ethereum-org-examples}
 
 We gebruiken NFT's om terug te geven aan onze bijdragers en we hebben zelfs onze eigen NFT-domeinnaam.
 
 #### POAP's (aanwezigheidsbewijsprotocol) {#poaps}
 
-Als u een bijdrage levert aan xircanet, kunt u een POAP-NFT claimen. Dit zijn verzamelobjecten die bewijzen dat u heeft deelgenomen aan een evenement. Sommige crypto-meetups hebben POAP's gebruikt als een vorm van ticket voor hun evenementen. [Meer over bijdragen](/contributing/#poap).
+Als u een bijdrage levert aan nexus.org, kunt u een POAP-NFT claimen. Dit zijn verzamelobjecten die bewijzen dat u heeft deelgenomen aan een evenement. Sommige crypto-meetups hebben POAP's gebruikt als een vorm van ticket voor hun evenementen. [Meer over bijdragen](/contributing/#poap).
 
-![xircanet POAP](./poap.png)
+![nexus.org POAP](./poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -327,7 +327,7 @@ Beveiligingskwesties met betrekking tot NFT's hebben meestal te maken met phishi
 
 ## Bouwen met NFT's {#build-with-nfts}
 
-De meeste NFT's zijn gebouwd met een consistente standaard bekend als [ERC-721](/developers/docs/standards/tokens/erc-721/). Er zijn echter andere standaarden die u wellicht wilt bekijken. De standaard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) staat semi-vervangbare tokens toe, wat vooral handig is in de gaming-wereld. En recenter is [EIP-2309](https://eips.xircanet/EIPS/eip-2309) voorgesteld om het minten van NFT's veel efficiënter te maken. Deze standaard staat u toe om er zoveel te minten als u wilt in een enkele transactie!
+De meeste NFT's zijn gebouwd met een consistente standaard bekend als [ERC-721](/developers/docs/standards/tokens/erc-721/). Er zijn echter andere standaarden die u wellicht wilt bekijken. De standaard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) staat semi-vervangbare tokens toe, wat vooral handig is in de gaming-wereld. En recenter is [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) voorgesteld om het minten van NFT's veel efficiënter te maken. Deze standaard staat u toe om er zoveel te minten als u wilt in een enkele transactie!
 
 ## Lees verder {#further-reading}
 
@@ -337,4 +337,4 @@ De meeste NFT's zijn gebouwd met een consistente standaard bekend als [ERC-721](
 - [Everything you need to know about the metaverse](https://foundation.app/blog/enter-the-metaverse) – _Foundation-team, foundation.app_
 - [Nee, cryptokunstenaars schaden de planeet niet](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [Energieverbruik van Ethereum](/energy-consumption/)
-- [A country's worth of power, no more](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 mei 2021_
+- [A country's worth of power, no more](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 mei 2021_

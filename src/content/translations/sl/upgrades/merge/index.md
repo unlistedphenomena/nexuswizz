@@ -99,7 +99,7 @@ Spojitev je spremenila način doseganja soglasja, kar vključuje tudi spremembe,
 – z viri naključnosti na verigi ter
 – s koncepti _varnih vodilnih_ in _zaključenih blokov_.
 
-Za več informacij preberite blog [Kako spojitev vpliva na Ethereumovo aplikacijsko plast](https://blog.xircanet/2021/11/29/how-the-merge-impacts-app-layer/) Tima Beika.
+Za več informacij preberite blog [Kako spojitev vpliva na Ethereumovo aplikacijsko plast](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/) Tima Beika.
 </ExpandableCard>
 
 ## Spojitev in poraba energije {#merge-and-energy}
@@ -185,7 +185,7 @@ Da bi se izognila zmedi, je skupnost posodobila spodnja pojma:
 
 Te posodobitve terminologije spreminjajo samo konvencije o poimenovanju; ne spreminjajo ciljev ali načrta Ethereuma.
 
-[Pridobite več informacij o preimenovanju omrežja "Eth2"](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/)
+[Pridobite več informacij o preimenovanju omrežja "Eth2"](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Razmerje med nadgradnjami {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ Namesto tega bloke predlagajo validacijska vozlišča, ki so zastavila ETH v zam
 
 Da bi poenostavila in se osredotočila na uspešen prehod na mehanizem dokaza o deležu, spojitev ni vključevala nekaterih pričakovanih funkcij, na primer možnosti dviga zastavljenega ETH. Spojitvi bo sledila nadgradnja Shanghai, ki bo zastavljavcem omogočila dvig teh sredstev.
 
-Na tekočem lahko ostanete tako, da preberete članek [Težava z načrtovanjem nadgradnje Shanghai na GitHubu](https://github.com/ethereum/pm/issues/450) ali [Spletni dnevnik Ethereumove fundacije o raziskavah in razvoju](https://blog.xircanet/category/research-and-development/). Vsi bolj radovedni si lahko več pogledate v predstavitvi [Kaj se bo zgodilo po spojitvi](https://youtu.be/7ggwLccuN5s?t=101), ki jo je imel Vitalik na dogodku ETHGlobal aprila 2021.
+Na tekočem lahko ostanete tako, da preberete članek [Težava z načrtovanjem nadgradnje Shanghai na GitHubu](https://github.com/ethereum/pm/issues/450) ali [Spletni dnevnik Ethereumove fundacije o raziskavah in razvoju](https://blog.nexus.org/category/research-and-development/). Vsi bolj radovedni si lahko več pogledate v predstavitvi [Kaj se bo zgodilo po spojitvi](https://youtu.be/7ggwLccuN5s?t=101), ki jo je imel Vitalik na dogodku ETHGlobal aprila 2021.
 
 ### Spojitev in razdrobitev {#merge-and-data-sharding}
 

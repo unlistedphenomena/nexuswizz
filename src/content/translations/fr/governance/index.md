@@ -69,7 +69,7 @@ Un processus important utilisé dans la gouvernance Ethereum est la proposition 
 
 Le processus formel d'introduction de modifications au protocole Ethereum est le suivant :
 
-1. **Proposer une EIP Coeur** : tel que décrit dans [EIP-1](https://eips.xircanet/EIPS/eip-1#core-eips), la première étape pour proposer officiellement un changement à Ethereum est de le détailler dans une EIP Coeur. Cela servira de spécification officielle pour une EIP que les développeurs de protocoles mettront en œuvre si elle est acceptée.
+1. **Proposer une EIP Coeur** : tel que décrit dans [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips), la première étape pour proposer officiellement un changement à Ethereum est de le détailler dans une EIP Coeur. Cela servira de spécification officielle pour une EIP que les développeurs de protocoles mettront en œuvre si elle est acceptée.
 
 2. **Présentez votre EIP aux développeurs de protocole** : une fois que vous avez une EIP Coeur pour laquelle vous avez collecté les retours de la communauté, vous pouvez la présenter aux développeurs de protocoles. Vous pouvez le faire en proposant de la discuter sur un [appel AllCoreDevs](https://github.com/ethereum/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). Il est probable que certaines discussions auront déjà eu lieu de manière asynchrone sur le forum des [Ethereum Magicians](https://ethereum-magicians.org/) ou dans le [Discord R&D d'Ethereum](https://discord.gg/mncqtgVSVw).
 
@@ -153,7 +153,7 @@ Le processus de gouvernance Ethereum négocie souvent la vitesse et l'efficacit�
 
 Bien que le développement des spécifications et des implémentations ait toujours été entièrement open source, les processus formels utilisés pour proposer des mises à jour décrites ci-dessus n'ont pas été utilisés. Cela a permis de préciser les changements et de parvenir plus rapidmement à un accord entre chercheurs et développeurs.
 
-Lorsque la chaîne phare fusionnera avec la couche d'exécution Ethereum, le processus de gouvernance pour proposer des changements sera harmonisé. Ce processus d'implémentation de la fusion est [déjà en cours](https://eips.xircanet/EIPS/eip-3675).
+Lorsque la chaîne phare fusionnera avec la couche d'exécution Ethereum, le processus de gouvernance pour proposer des changements sera harmonisé. Ce processus d'implémentation de la fusion est [déjà en cours](https://eips.nexus.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Plus d'infos sur la fusion
@@ -169,7 +169,7 @@ Lorsque la chaîne phare fusionnera avec la couche d'exécution Ethereum, le pro
 - [Rejoignez le Discord Ethereum R&D](https://discord.gg/mncqtgVSVw)
 - [Exécuter un nœud](/developers/docs/nodes-and-clients/run-a-node/)
 - [Contribuer au développement du client](/developers/docs/nodes-and-clients/#execution-clients)
-- [Programme d’apprentissage pour les développeurs de base](https://blog.xircanet/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Programme d’apprentissage pour les développeurs de base](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Complément d'information {#further-reading}
 

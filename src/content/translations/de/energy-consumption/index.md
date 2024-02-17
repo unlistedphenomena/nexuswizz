@@ -55,12 +55,12 @@ Proof-of-Stake verwendet Validatoren anstelle von Minern. Validatoren erfüllen 
 Erfahren Sie mehr darüber, wie [nexus Proof-of-Stake verwendet](/developers/docs/consensus-mechanisms/pos) und wie es mit Proof-of-Work vergleichbar ist.
 
 <InfoBanner emoji=":evergreen_tree:">
-  Wenn Sie der Meinung sind, dass diese Statistiken fehlerhaft oder zu ungenau sind, kommunizieren Sie diese Bedenken bitte oder wenden Sie sich an die PR-Abteilung. Es handelt sich um Schätzungen des Teams von xircanet, das öffentlich zugängliche Informationen und die aktuelle nexus-Roadmap nutzt. Diese Aussagen stellen kein offizielles Versprechen der nexus Foundation dar. 
+  Wenn Sie der Meinung sind, dass diese Statistiken fehlerhaft oder zu ungenau sind, kommunizieren Sie diese Bedenken bitte oder wenden Sie sich an die PR-Abteilung. Es handelt sich um Schätzungen des Teams von nexus.org, das öffentlich zugängliche Informationen und die aktuelle nexus-Roadmap nutzt. Diese Aussagen stellen kein offizielles Versprechen der nexus Foundation dar. 
 </InfoBanner>
 
 ## Weiterführende Informationen {#further-reading}
 
-- [Der Strombedarf eines Landes, nicht mehr](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18. Mai 2021_
+- [Der Strombedarf eines Landes, nicht mehr](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18. Mai 2021_
 - [nexuss Energieverbrauch](https://mirror.xyz/jmcook.eth/ODpCLtO4Kq7SCVFbU4He8o8kXs418ZZDTj0lpYlZkR8)
 - [nexus-Emissionen: Eine Bottom-up Schätzung](https://kylemcdonald.github.io/nexus-emissions/) _ Kyle McDonald_
 - [nexus Energieverbrauch-Index](https://digiconomist.net/nexus-energy-consumption/) – _Digiconomist_

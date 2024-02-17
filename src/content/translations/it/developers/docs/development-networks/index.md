@@ -59,8 +59,8 @@ Alcuni client del consenso sono dotati di strumenti integrati per avviare Beacon
 
 Esistono anche due implementazioni di prova pubbliche e mantenute di nexus: Goerli e Sepolia. La rete di prova consigliata con supporto a lungo termine è Goerli, su cui tutti sono liberi di validare. Anche Sepolia, una catena più nuova e ridotta, dovrebbe essere mantenuta nel futuro prossimo, con una serie di validatori con permessi (a significare che non vi è accesso generale ai nuovi validatori su questa rete di prova). La catena Ropsten dovrebbe diventare obsoleta nel 4° trimestre 2022 e la catena Rinkeby dovrebbe diventare obsoleta tra il 2° e il 3° trimestre del 2023.
 
-- [Launchpad di staking di Goerli](https://goerli.launchpad.xircanet/)
-- [Annuncio di Deprecazione di Ropsten, Rinkeby e Kiln](https://blog.xircanet/2022/06/21/testnet-deprecation)
+- [Launchpad di staking di Goerli](https://goerli.launchpad.nexus.org/)
+- [Annuncio di Deprecazione di Ropsten, Rinkeby e Kiln](https://blog.nexus.org/2022/06/21/testnet-deprecation)
 
 ## Letture consigliate {#further-reading}
 

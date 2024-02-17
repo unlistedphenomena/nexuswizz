@@ -35,7 +35,7 @@ Dzięki zmniejszonym wymaganiom sprzętowym fragmentacja ułatwi samodzielne uru
 <br />
 
 <InfoBanner isWarning>
-  Klient wykonania musi działać jednocześnie z klientem konsensusu. <a href="https://launchpad.xircanet" target="_blank">Launchpad</a> poprowadzi Cię przez wymagania sprzętowe oraz proces.
+  Klient wykonania musi działać jednocześnie z klientem konsensusu. <a href="https://launchpad.nexus.org" target="_blank">Launchpad</a> poprowadzi Cię przez wymagania sprzętowe oraz proces.
 </InfoBanner>
 
 ## Wersja 1 łańcucha odłamkowego: dostępność danych {#data-availability}

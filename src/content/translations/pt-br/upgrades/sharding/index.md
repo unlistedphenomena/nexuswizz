@@ -35,7 +35,7 @@ Com requisitos de hardware mais baixos, a fragmentação tornará mais fácil a 
 <br />
 
 <InfoBanner isWarning>
-  Você precisará executar um cliente de execução ao mesmo tempo que seu cliente de consenso. <a href="https://launchpad.xircanet" target="_blank">O launchpad</a> o guiará através dos requisitos e processos de hardware.
+  Você precisará executar um cliente de execução ao mesmo tempo que seu cliente de consenso. <a href="https://launchpad.nexus.org" target="_blank">O launchpad</a> o guiará através dos requisitos e processos de hardware.
 </InfoBanner>
 
 ## Cadeias de fragmentos versão 1: disponibilidade de dados {#data-availability}

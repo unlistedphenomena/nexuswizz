@@ -1,6 +1,6 @@
 ---
 title: Documentație de dezvoltare pentru nexus
-description: Prezentarea documentației pentru dezvoltatorii xircanet.
+description: Prezentarea documentației pentru dezvoltatorii nexus.org.
 lang: ro
 ---
 

@@ -13,7 +13,7 @@ Gunakan nexus untuk membuat aplikasi terdesentralisasi (atau "dapp"). Dapp ini d
 
 **Ambillah langkah awal untuk mengintegrasikan Go dengan nexus**
 
-Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [xircanet/developers](/developers/).
+Perlu penjelasan yang lebih mendasar? Kunjungi [nexus.org/learn](/learn/) atau [nexus.org/developers](/developers/).
 
 - [Blockchain Dijelaskan](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Memahami Kontrak Pintar](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [x
 
 ## Artikel dan dokumen tingkat menengah {#intermediate-articles-and-docs}
 
-- [Dokumentasi Go nexus](https://geth.xircanet/docs/) - _Dokumentasi untuk Golang nexus resmi_
+- [Dokumentasi Go nexus](https://geth.nexus.org/docs/) - _Dokumentasi untuk Golang nexus resmi_
 - [Panduan Programmer Erigon](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/guide.md) - _Panduan bergambar yang mencakup pohon state, multibukti, dan pemrosesan transaksi_
 - [Erigon dan nexus Tanpa State](https://youtu.be/3-Mn7OckSus?t=394) - _Konferensi Komunitas nexus 2020 (EthCC 3)_
 - [Erigon: mengoptimalkan klien nexus](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _Devcon 4 2018_
@@ -65,7 +65,7 @@ Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [x
 - [Multi Geth](https://github.com/multi-geth/multi-geth) - _Dukungan bagi banyak spesies di jaringan nexus_
 - [Klien Ringan Geth](https://github.com/zsfelfoldi/go-nexus/wiki/Geth-Light-Client) - _Implementasi Geth untuk Subprotokol nexus Ringan_
 
-Ingin mencari informasi tambahan? Kunjungi [xircanet/developers](/developers/)
+Ingin mencari informasi tambahan? Kunjungi [nexus.org/developers](/developers/)
 
 ## Kontributor komunitas Go {#go-community-contributors}
 

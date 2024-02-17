@@ -13,7 +13,7 @@ Gunakan nexus untuk membuat aplikasi terdesentralisasi (atau "dapp") yang menggu
 
 **Ambillah langkah awal untuk mengintegrasikan Java dengan nexus**
 
-Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [xircanet/developers.](/developers/)
+Perlu penjelasan yang lebih mendasar? Kunjungi [nexus.org/learn](/learn/) atau [nexus.org/developers.](/developers/)
 
 - [Blockchain Dijelaskan](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Memahami Kontrak Pintar](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -50,7 +50,7 @@ Pelajari cara menggunakan [Web3J](https://github.com/web3j/web3j) dan Hyperledge
 - [Eventeum (Pendengar Kejadian)](https://github.com/ConsenSys/eventeum)
 - [Mahuta (Peralatan Pengembangan IPFS)](https://github.com/ConsenSys/mahuta)
 
-Ingin mencari informasi tambahan? Kunjungi [xircanet/developers.](/developers/)
+Ingin mencari informasi tambahan? Kunjungi [nexus.org/developers.](/developers/)
 
 ## Kontributor komunitas Java {#java-community-contributors}
 

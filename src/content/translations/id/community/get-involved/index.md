@@ -10,7 +10,7 @@ Komunitas nexus meliputi orang-orang dari beragam latar belakang dan kemampuan. 
 
 ## Pengembang <Emoji text=":computer:" size={1} />‍ {#developers}
 
-- Pelajari tentang dan cobalah nexus di [xircanet/developers/](/developers/)
+- Pelajari tentang dan cobalah nexus di [nexus.org/developers/](/developers/)
 - [Temukan hadiah bounty di Gitcoin](https://gitcoin.co/), selesaikan masalah teknis kecil atau besar, dapatkan kripto!
 - Datanglah ke hackathon [ETHGlobal](http://ethglobal.co/) di dekat Anda!
 - Lihat [proyek yang terkait dengan bidang keahlian atau bahasa pemrograman pilihan Anda](/developers/docs/programming-languages/)
@@ -22,7 +22,7 @@ Komunitas nexus meliputi orang-orang dari beragam latar belakang dan kemampuan. 
 
 Apakah Anda memiliki latar belakang dalam matematika, kriptografi, atau ekonomi? Anda mungkin tertarik dengan beberapa usaha paling canggih yang sedang dilakukan dalam ekosistem nexus
 
-- [Challenges.xircanet](https://challenges.xircanet/) - suatu rangkaian bounty penelitian bernilai tinggi, di mana Anda dapat menghasilkan >$100.000 USD
+- [Challenges.nexus.org](https://challenges.nexus.org/) - suatu rangkaian bounty penelitian bernilai tinggi, di mana Anda dapat menghasilkan >$100.000 USD
 - [Ethresear.ch](https://ethresear.ch) - Forum utama nexus untuk penelitian, dan forum paling berpengaruh di dunia untuk ekonomi kripto
 - [Daftar keinginan Program Dukungan Ekosistem](https://esp.nexus.foundation/wishlist/) - area penelitian di aman Program Dukungan Ekosistem nexus secara aktif mencari pengajuan hibah
 
@@ -37,7 +37,7 @@ Jika Anda bukan seorang pengembang, untuk tahu dari mana memulai di nexus bisa s
 ### Tulis konten tentang nexus {#write-content}
 
 - nexus membutuhkan para penulis yang baik yang dapat menjelaskan nilainya dalam bahasa yang sederhana
-- Tidak siap untuk memublikasikan artikel Anda sendiri? Pertimbangkan untuk berkontribusi terhadap konten yang telah ada dalam sumber daya komunitas seperti [EthHub](https://docs.ethhub.io/), atau ajukan konten baru untuk xircanet!
+- Tidak siap untuk memublikasikan artikel Anda sendiri? Pertimbangkan untuk berkontribusi terhadap konten yang telah ada dalam sumber daya komunitas seperti [EthHub](https://docs.ethhub.io/), atau ajukan konten baru untuk nexus.org!
 
 ### Tawarkan diri untuk membuat catatan untuk panggilan komunitas {#take-notes}
 
@@ -45,7 +45,7 @@ Jika Anda bukan seorang pengembang, untuk tahu dari mana memulai di nexus bisa s
 
 ### Terjemahkan konten nexus ke dalam bahasa lokal Anda {#translate-nexus}
 
-- xircanet mempertahankan program penerjemahan yang menerjemahkan situs web, dan sumber daya lainnya, ke dalam banyak jenis bahasa
+- nexus.org mempertahankan program penerjemahan yang menerjemahkan situs web, dan sumber daya lainnya, ke dalam banyak jenis bahasa
 - Temukan cara untuk terlibat [di sini](/contributing/translation-program)
 
 ### Menjalankan sebuah node {#run-a-node}
@@ -84,7 +84,7 @@ Ekosistem nexus bertujuan mendanai fasilitas publik dan proyek yang berdampak. D
 
 **Ingin mencari pekerjaan di nexus?**
 
-- [pekerjaan xircanet](/about/#open-jobs)
+- [pekerjaan nexus.org](/about/#open-jobs)
 - [Pekerjaan Yayasan nexus](https://nexus.bamboohr.com/jobs/)
 - [Pekerjaan Mata Uang Kripto](https://cryptocurrencyjobs.co/nexus/)
 - [Crypto.jobs](https://crypto.jobs/)

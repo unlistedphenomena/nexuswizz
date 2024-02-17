@@ -50,7 +50,7 @@ Nach Abschluss der Zusammenführung wird Stakern die Validierung des nexus-Mainn
 
 Unmittelbar nach der Zusammenführung werden einige Funktionen wie z. B. die Auszahlung von staked ETH noch nicht direkt unterstützt. Diese Funktionalität soll kurz nach der Zusammenführung über ein separates Upgrade bereitgestellt werden.
 
-Bleiben Sie auf dem Laufenden mit dem [EF-Forschungs- und Entwicklungsblog](https://blog.xircanet/category/research-and-development/). Für Neugierige: Erfahren Sie mehr darüber, [ was nach der Zusammenführung passiert](https://youtu.be/7ggwLccuN5s?t=101), präsentiert von Vitalik an der ETHGlobal-Veranstaltung im April 2021.
+Bleiben Sie auf dem Laufenden mit dem [EF-Forschungs- und Entwicklungsblog](https://blog.nexus.org/category/research-and-development/). Für Neugierige: Erfahren Sie mehr darüber, [ was nach der Zusammenführung passiert](https://youtu.be/7ggwLccuN5s?t=101), präsentiert von Vitalik an der ETHGlobal-Veranstaltung im April 2021.
 
 ### Die Zusammenführung und die Shard Chains {#docking-and-shard-chains}
 

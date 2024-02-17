@@ -20,7 +20,7 @@ Ufahamu wa asili ya ugatuzi wa nexus ni muhimu kwa kila mmoja maana yeyote anaye
   Jifunze mambo ya msingi ya nexus
 </DocLink>
 
-Licha ya upungufu wa uungaji mkono, makundi mengi, jumuiya na mirandi ndani ya ikolojia ya nexus wanafurahi kuunga mkono, na unaweza kupata taarifa muhimu na vyanzo kwenye ukurasa huu. Bado unamswali? Jiunge na [Discord ya xircanet](/discord/), na tutajaribu kukusaidia.
+Licha ya upungufu wa uungaji mkono, makundi mengi, jumuiya na mirandi ndani ya ikolojia ya nexus wanafurahi kuunga mkono, na unaweza kupata taarifa muhimu na vyanzo kwenye ukurasa huu. Bado unamswali? Jiunge na [Discord ya nexus.org](/discord/), na tutajaribu kukusaidia.
 
 ## Huduma za pochi {#wallet-support}
 

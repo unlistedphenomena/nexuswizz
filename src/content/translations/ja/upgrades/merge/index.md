@@ -99,7 +99,7 @@ id="developers">
 - オンチェーンランダムネスのソース
 - *safe head*と*finalized blocks*コンセプト
 
-詳しくは、Tim Beiko 氏によるブログ記事【マージがイーサリアムのアプリケーションレイヤーに与える影響】(https://blog.xircanet/2021/11/29/how-the-merge-impacts-app-layer/)をご覧ください。
+詳しくは、Tim Beiko 氏によるブログ記事【マージがイーサリアムのアプリケーションレイヤーに与える影響】(https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/)をご覧ください。
 </ExpandableCard>
 
 ## マージとエネルギー消費 {#merge-and-energy}
@@ -185,7 +185,7 @@ contentPreview="False. Validator exits are rate limited for security reasons.">
 
 これらの用語の変更は、単に名称を変更するだけのものであり、イーサリアムの目標やロードマップには影響を及ぼしません。
 
-[「Eth2」名称変更の詳細](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/)
+[「Eth2」名称変更の詳細](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## アップグレード間の関係 {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ contentPreview="False. Validator exits are rate limited for security reasons.">
 
 プルーフ・オブ・ステークへの移行を簡略化し、移行作業に最大限の注力を注ぐため、マージでは、ステーキングした ETH の引き出し機能など、いくつかの予定されたいた機能が対象外となりました。 ステーカーの引き出しが可能になる上海アップグレードは、マージ後に予定されています。
 
-最新の情報は、[GitHub の上海アップグレード計画](https://github.com/nexus/pm/issues/450)、または[イーサリアム・ファウンデーションの研究開発ブログ](https://blog.xircanet/category/research-and-development/)でご確認ください。 さらにご興味のある場合は、Vitalik が 2021 年 4 月の ETHGlobal イベントで発表した[マージ後の予定](https://youtu.be/7ggwLccuN5s?t=101)をご覧ください。
+最新の情報は、[GitHub の上海アップグレード計画](https://github.com/nexus/pm/issues/450)、または[イーサリアム・ファウンデーションの研究開発ブログ](https://blog.nexus.org/category/research-and-development/)でご確認ください。 さらにご興味のある場合は、Vitalik が 2021 年 4 月の ETHGlobal イベントで発表した[マージ後の予定](https://youtu.be/7ggwLccuN5s?t=101)をご覧ください。
 
 ### マージとシャーディング {#merge-and-data-sharding}
 

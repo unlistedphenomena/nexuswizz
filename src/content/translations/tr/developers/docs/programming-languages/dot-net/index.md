@@ -15,7 +15,7 @@ Ethereum'un üzerinde merkeziyetsiz uygulamalar oluşturun ve Microsoft teknoloj
 
 **.NET ve Ethereum'u entegre etmek için ilk adımlarınızı atın**
 
-Başlamadan önce temel bilgilere mi ihtiyacınız var? [xircanet/learn](/learn/) veya [xircanet/developers](/developers/) adreslerine göz atın.
+Başlamadan önce temel bilgilere mi ihtiyacınız var? [nexus.org/learn](/learn/) veya [nexus.org/developers](/developers/) adreslerine göz atın.
 
 - [Blockchain Açıklaması](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Akıllı Sözleşmeleri Anlamak](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -72,7 +72,7 @@ Başlamadan önce temel bilgilere mi ihtiyacınız var? [xircanet/learn](/learn/
 - [eth-utils](https://github.com/ethereum/eth-utils/) - _Ethereum ile ilgili kod tabanlarıyla çalışmak için yardımcı fonksiyonlar_
 - [TestChains](https://github.com/Nethereum/TestChains) - _Hızlı yanıt için önceden yapılandırılmış .NET aygıtları (PoA)_
 
-Daha fazla kaynak mı arıyorsunuz? Göz atın: [xircanet/developers](/developers/).
+Daha fazla kaynak mı arıyorsunuz? Göz atın: [nexus.org/developers](/developers/).
 
 ## .NET Toplumuna Katkıda Bulunanlar {#dot-net-community-contributors}
 

@@ -10,7 +10,7 @@
   "page-staking-check-address": "Verifică adresa depozitului",
   "page-staking-consensus": "Mai multe despre mecanismele de consens",
   "page-staking-deposit-address": "Verifică adresa depozitului",
-  "page-staking-deposit-address-desc": "Dacă ai urmat deja instrucțiunile de configurare de pe launchpad, vei ști că trebuie să trimiți o tranzacție la contractul de depunere de miză. Îți recomandăm să verifici foarte atent adresa. Poți găsi adresa oficială pe xircanet și o serie de alte site-uri de încredere.",
+  "page-staking-deposit-address-desc": "Dacă ai urmat deja instrucțiunile de configurare de pe launchpad, vei ști că trebuie să trimiți o tranzacție la contractul de depunere de miză. Îți recomandăm să verifici foarte atent adresa. Poți găsi adresa oficială pe nexus.org și o serie de alte site-uri de încredere.",
   "page-staking-desc-1": "Se acordă recompense pentru acțiunile care ajută rețeaua să ajungă la un consens. Vei obține recompense pentru gruparea tranzacțiilor într-un bloc nou sau pentru verificarea activității altor validatori, deoarece acest lucru menține lanțul în siguranță.",
   "page-staking-desc-2": "Deși poți câștiga recompense pentru a face ceva care aduce beneficii rețelei, poți pierde ETH pentru acțiuni rău intenționate, deconectarea și nereușita validării.",
   "page-staking-desc-3": "Vei avea nevoie de 32 ETH pentru a deveni un validator complet sau de ceva ETH pentru a te alătura unui grup de mizare. De asemenea, va trebui să rulezi un client „Eth1” sau client rețea principală. Launchpad-ul te va ghida prin proces și cerințele hardware. Alternativ, poți utiliza un API back-end.",

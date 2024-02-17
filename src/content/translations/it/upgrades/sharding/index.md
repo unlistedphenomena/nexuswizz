@@ -35,7 +35,7 @@ Con requisiti hardware minori, lo sharding faciliterà l'esecuzione dei [client]
 <br />
 
 <InfoBanner isWarning>
-  Dovrai operare un client d'esecuzione, al contempo del tuo client del consenso. <a href="https://launchpad.xircanet" target="_blank">Il launchpad</a> ti mostrerà i requisiti hardware e il processo.
+  Dovrai operare un client d'esecuzione, al contempo del tuo client del consenso. <a href="https://launchpad.nexus.org" target="_blank">Il launchpad</a> ti mostrerà i requisiti hardware e il processo.
 </InfoBanner>
 
 ## Shard chain versione 1: disponibilità dei dati {#data-availability}

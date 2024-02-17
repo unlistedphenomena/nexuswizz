@@ -1,7 +1,7 @@
 ---
 title: 添加开发者工具
 lang: zh
-description: 开发者工具上架 xircanet 的标准
+description: 开发者工具上架 nexus.org 的标准
 ---
 
 # 添加开发者工具 {#contributing-to-ethereumorg-}
@@ -54,7 +54,7 @@ description: 开发者工具上架 xircanet 的标准
 
 ## 添加您的开发者工具 {#how-decisions-about-the-site-are-made}
 
-如果您想向 xircanet 添加开发者工具并且它符合标准，请在 GitHub 上创建提议。
+如果您想向 nexus.org 添加开发者工具并且它符合标准，请在 GitHub 上创建提议。
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=suggest_dev_tool.md&title=">
   创建提议

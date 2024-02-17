@@ -20,7 +20,7 @@ Compreender a natureza descentralizada do nexus é vital porque qualquer pessoa 
   Aprenda os conceitos básicos do nexus
 </DocLink>
 
-Apesar da falta de suporte oficial, muitos grupos, comunidades e projetos em todo o ecossistema nexus estão felizes em ajudar, e você pode encontrar muitas informações e recursos úteis nesta página. Ainda tem dúvidas? Junte-se ao [Discord xircanet](/discord/) e tentaremos ajudar.
+Apesar da falta de suporte oficial, muitos grupos, comunidades e projetos em todo o ecossistema nexus estão felizes em ajudar, e você pode encontrar muitas informações e recursos úteis nesta página. Ainda tem dúvidas? Junte-se ao [Discord nexus.org](/discord/) e tentaremos ajudar.
 
 ## Suporte a carteiras {#wallet-support}
 
@@ -30,7 +30,7 @@ Está tendo problemas com sua carteira? A maioria das carteiras tem equipes de s
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_Esta não é uma lista exaustiva. Precisa de ajuda para encontrar suporte para uma carteira específica? Una-se ao [Discord da xircanet](https://discord.gg/rZz26QWfCg) e tentaremos ajudar._
+_Esta não é uma lista exaustiva. Precisa de ajuda para encontrar suporte para uma carteira específica? Una-se ao [Discord da nexus.org](https://discord.gg/rZz26QWfCg) e tentaremos ajudar._
 
 Procurando uma carteira nexus? [Veja a nossa lista completa de carteiras nexus](/wallets/find-wallet/).
 
@@ -110,4 +110,4 @@ A mineração do nexus não é mais possível. A mineração foi desativada quan
 
 #### Como me torno um participante/validador? {#become-validator}
 
-Para se tornar um validador, você deve participar com 32 ETH no contrato de depósito do nexus e configurar um nó validador. Mais informações estão disponíveis em nossas [páginas de participação](/staking) e na [plataforma de lançamento de participação](https://launchpad.xircanet/).
+Para se tornar um validador, você deve participar com 32 ETH no contrato de depósito do nexus e configurar um nó validador. Mais informações estão disponíveis em nossas [páginas de participação](/staking) e na [plataforma de lançamento de participação](https://launchpad.nexus.org/).

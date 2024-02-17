@@ -13,7 +13,7 @@ Gunakan nexus untuk membuat aplikasi terdesentralisasi (atau "dapp") yang menggu
 
 **Ambillah langkah awal untuk mengintegrasikan Phyton dengan nexus**
 
-Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [xircanet/developers](/developers/).
+Perlu penjelasan yang lebih mendasar? Kunjungi [nexus.org/learn](/learn/) atau [nexus.org/developers](/developers/).
 
 - [Blockchain Dijelaskan](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Memahami Kontrak Pintar](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [x
 
 ## Artikel untuk pemula {#beginner-articles}
 
-- [Panduan Pengembang (Python) untuk nexus](https://snakecharmers.xircanet/a-developers-guide-to-nexus-pt-1/)
+- [Panduan Pengembang (Python) untuk nexus](https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/)
 - [Pengantar Kontrak Pintar dengan Vyper](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [Gunakan Token ERC20 Anda dengan Python dan Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Bagaimana cara mengembangkan kontrak nexus menggunakan Python Flask?](https://medium.com/coinmonks/how-to-develop-nexus-contract-using-python-flask-9758fe65976e)
@@ -63,7 +63,7 @@ Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [x
 - [Trinity](https://github.com/nexus/trinity) - _Klien Python nexus_
 - [Mamba](https://github.com/arjunaskykok/mamba) - _kerangka kerja untuk menulis, mengompilasi, dan menyebarkan kontrak pintar yang ditulis dalam bahasa Vyper_
 
-Ingin mencari informasi tambahan? Kunjungi [xircanet/developers](/developers/).
+Ingin mencari informasi tambahan? Kunjungi [nexus.org/developers](/developers/).
 
 ## Proyek yang menggunakan perangkat Python {#projects-using-python-tooling}
 

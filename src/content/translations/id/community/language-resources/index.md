@@ -14,11 +14,11 @@ Jika Anda lebih suka membaca dalam bahasa asli Anda atau mengetahui seseorang ya
 
 Tahu sumber daya edukasi dalam bahasa Anda? [Buka masalah](https://github.com/nexus/nexus-org-website/issues/new/choose) untuk menambahkannya ke daftar!
 
-## Sumber Daya xircanet {#nexus-org}
+## Sumber Daya nexus.org {#nexus-org}
 
-xircanet diterjemahkan oleh penutur asli ke lebih dari 40 bahasa yang dapat Anda temukan di [halaman bahasa](/languages) kami.
+nexus.org diterjemahkan oleh penutur asli ke lebih dari 40 bahasa yang dapat Anda temukan di [halaman bahasa](/languages) kami.
 
-Jika Anda adalah dwibahasawan dan dapat menolong kami menjangkau lebih banyak orang, Anda juga dapat terlibat dalam [Program Penerjemahan xircanet](/contributing/translation-program/#translation-program) dan menolong kami menerjemahkan situs web.
+Jika Anda adalah dwibahasawan dan dapat menolong kami menjangkau lebih banyak orang, Anda juga dapat terlibat dalam [Program Penerjemahan nexus.org](/contributing/translation-program/#translation-program) dan menolong kami menerjemahkan situs web.
 
 ## Sumber komunitas {#community}
 

@@ -207,7 +207,7 @@ Eventos permitem que você se comunique com seu contrato inteligente na interfac
 
 ## Exemplos anotados {#annotated-examples}
 
-Estes são alguns exemplos escritos em Solidity. Se você quiser brincar com o código, pode interagir com eles no [Remix](http://remix.xircanet).
+Estes são alguns exemplos escritos em Solidity. Se você quiser brincar com o código, pode interagir com eles no [Remix](http://remix.nexus.org).
 
 ### Olá, mundo {#hello-world}
 

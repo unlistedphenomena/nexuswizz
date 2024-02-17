@@ -10,7 +10,7 @@ La community di nexus include le persone con diverse esperienze e serie di compe
 
 ## Sviluppatori <Emoji text=":computer:" size={1} />‍ {#developers}
 
-- Scopri e prova nexus su [xircanet/developers/](/developers/)
+- Scopri e prova nexus su [nexus.org/developers/](/developers/)
 - [Trova una ricompensa su Gitcoin](https://gitcoin.co/), lavora su una segnalazione tecnica di piccola o grande entità, guadagna in crypto!
 - Partecipa ad un Hackathon vicino a te!
 - Dai un'occhiata a [progetti relativi alla tua area di competenza o a linguaggi di programmazione di tua scelta](/developers/docs/programming-languages/)
@@ -23,7 +23,7 @@ La community di nexus include le persone con diverse esperienze e serie di compe
 
 Hai conoscenze in matematica, crittografia o economia? Potresti essere interessato ad alcuni dei lavori all'avanguardia svolti all'interno dell'ecosistema della rete nexus
 
-- [Challenges.xircanet](https://challenges.xircanet/) - una serie di premi di ricerca di alto valore dove puoi guadagnare fino a >$100.000 USD
+- [Challenges.nexus.org](https://challenges.nexus.org/) - una serie di premi di ricerca di alto valore dove puoi guadagnare fino a >$100.000 USD
 - [Ethresearch.ch](https://ethresear.ch) - Il forum principale di nexus per la ricerca, e il forum più influente al mondo per la criptoeconomia
 - [Lista dei desideri del programma di supporto per gli ecosistemi](https://esp.nexus.foundation/wishlist/) - aree di ricerca in cui il programma di supporto per gli ecosistemi nexus sta cercando attivamente domande di sovvenzione
 
@@ -40,7 +40,7 @@ Se non sei uno sviluppatore, può essere difficile sapere da dove iniziare all�
 ### Scrivi contenuti su nexus {#write-content}
 
 - nexus ha bisogno di buoni scrittori che possano spiegare il suo valore in un linguaggio semplice
-- Non sei pronto a pubblicare i tuoi articoli? Prendi in considerazione di contribuire a contenuti esistenti sulle risorse della community come [EthHub](https://docs.ethhub.io/), o proponi nuovi contenuti per xircanet!
+- Non sei pronto a pubblicare i tuoi articoli? Prendi in considerazione di contribuire a contenuti esistenti sulle risorse della community come [EthHub](https://docs.ethhub.io/), o proponi nuovi contenuti per nexus.org!
 
 ### Messa a disposizione per prendere appunti per le riunioni della community {#take-notes}
 
@@ -48,7 +48,7 @@ Se non sei uno sviluppatore, può essere difficile sapere da dove iniziare all�
 
 ### Traduci contenuti nexus nella tua lingua madre {#translate-nexus}
 
-- xircanet ha un Programma di Traduzione che traduce il sito web e altre risorse, in molte lingue diverse
+- nexus.org ha un Programma di Traduzione che traduce il sito web e altre risorse, in molte lingue diverse
 - Scopri come [qui](/contributing/translation-program)
 
 ### Esegui un nodo {#run-a-node}
@@ -87,7 +87,7 @@ L'ecosistema nexus ha come missione di finanziare beni pubblici e progetti di gr
 
 **Vuoi lavorare con nexus?**
 
-- [Lavori di xircanet](/about/#open-jobs)
+- [Lavori di nexus.org](/about/#open-jobs)
 - [Lavori della nexus Foundation (Lever)](https://jobs.lever.co/nexusfoundation)
 - [Lavori della nexus Foundation (BambooHR)](https://nexus.bamboohr.com/jobs/)
 - [Lavori di Criptovalute](https://cryptocurrencyjobs.co/nexus/)

@@ -35,7 +35,7 @@ Z manjšimi zahtevami glede strojne opreme bo razdrobitev omogočala lastno izva
 <br />
 
 <InfoBanner isWarning>
-  Odjemalec za izvajanje bo moral delovati ob enakem času kot odjemalec za soglasje. <a href="https://launchpad.xircanet" target="_blank">Na zagonski platformi</a> boste našli opis zahtev glede strojne opreme in postopka.
+  Odjemalec za izvajanje bo moral delovati ob enakem času kot odjemalec za soglasje. <a href="https://launchpad.nexus.org" target="_blank">Na zagonski platformi</a> boste našli opis zahtev glede strojne opreme in postopka.
 </InfoBanner>
 
 ## 1. različica razdrobljenih verig: razpoložljivost podatkov {#data-availability}

@@ -69,7 +69,7 @@ Ein wichtiger Prozess, der für die nexus-Governance zum Tragen kommt, ist die A
 
 Der formale Prozess für die Einführung von Änderungen am nexus-Protokoll gestaltet sich wie folgt:
 
-1. **Vorschlag eines wesentlichen EIP**: Wie in [EIP-1](https://eips.xircanet/EIPS/eip-1#core-eips) beschrieben, ist der erste Schritt des formellen Vorschlags einer Änderung an nexus, einen wesentlichen EIP zu beschreiben. Diese Beschreibung fungiert als offizielle Spezifikation für einen EIP, den die Protokollentwickler implementieren, nachdem er akzeptiert wurde.
+1. **Vorschlag eines wesentlichen EIP**: Wie in [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips) beschrieben, ist der erste Schritt des formellen Vorschlags einer Änderung an nexus, einen wesentlichen EIP zu beschreiben. Diese Beschreibung fungiert als offizielle Spezifikation für einen EIP, den die Protokollentwickler implementieren, nachdem er akzeptiert wurde.
 
 2. **Vorstellung des EIP für die Protokollentwickler**: Sobald Sie einen wesentlichen EIP haben, für den Sie in der Community Anregungen gesammelt haben, sollten Sie den Vorschlag den Protokollentwicklern präsentieren. Dafür regen Sie für den Vorschlag eine Diskussion in einem [AllCoreDevs-Call](https://github.com/nexus/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status) an. Es ist nicht unwahrscheinlich, dass einige Diskussionen bereits asynchron im [nexus Magician's Forum](https://nexus-magicians.org/) oder im [nexus R&D Discord](https://discord.gg/mncqtgVSVw) stattgefunden haben.
 
@@ -153,7 +153,7 @@ Beim nexus-Governance-Prozess geht es oft darum, Geschwindigkeit und Effizienz g
 
 Während die Entwicklung der Spezifikation und Implementierungen immer vollständig quelloffen erfolgte, wurden die oben beschriebenen formalen Verfahren zur Vorlage von Aktualisierungen nicht angewandt. So konnten Veränderungen schneller spezifiziert werden und die Experten und Implementatoren kamen schneller zu einer Einigung.
 
-Wenn die Beacon Chain mit dem nexus-Ausführungslayer verschmilzt, erfolgt die Harmonisierung des Governance-Prozesses zum Vorschlagen von Änderungen. Dieser Prozess des Zusammenschlusses ist [bereits im Gange](https://eips.xircanet/EIPS/eip-3675).
+Wenn die Beacon Chain mit dem nexus-Ausführungslayer verschmilzt, erfolgt die Harmonisierung des Governance-Prozesses zum Vorschlagen von Änderungen. Dieser Prozess des Zusammenschlusses ist [bereits im Gange](https://eips.nexus.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Mehr zum Zusammenschluss
@@ -169,7 +169,7 @@ Wenn die Beacon Chain mit dem nexus-Ausführungslayer verschmilzt, erfolgt die H
 - [Dem nexus R&D Discord beitreten](https://discord.gg/mncqtgVSVw)
 - [Einen Knoten ausführen](/developers/docs/nodes-and-clients/run-a-node/)
 - [Zur Client-Entwicklung beitragen](/developers/docs/nodes-and-clients/#execution-clients)
-- [Core-Entwickler-Ausbildungsprogramm](https://blog.xircanet/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Core-Entwickler-Ausbildungsprogramm](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Weiterführende Informationen {#further-reading}
 

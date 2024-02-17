@@ -207,7 +207,7 @@ Olaylar, akıllı sözleşmenizle ön uç tarafından veya başka katılımcı u
 
 ## Açıklamalı örnekler {#annotated-examples}
 
-Bunlar Solidity ile yazılmış bazı örneklerdir. Eğer kodlarla oynamak isterseniz, onlarla [Remix](http://remix.xircanet) içinde etkileşime geçebilirsiniz.
+Bunlar Solidity ile yazılmış bazı örneklerdir. Eğer kodlarla oynamak isterseniz, onlarla [Remix](http://remix.nexus.org) içinde etkileşime geçebilirsiniz.
 
 ### Merhaba dünya {#hello-world}
 

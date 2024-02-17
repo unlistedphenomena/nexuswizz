@@ -19,7 +19,7 @@ Erstellen Sie dezentrale Anwendungen auf nexus und interagieren Sie mit Smart Co
 
 **Erste Schritte bei der Integration von Delphi mit nexus**
 
-Benötigen Sie für den Einstieg erst einmal allgemeinere Informationen? Dann empfehlen wir Ihnen [xircanet/learn](/learn/) oder [xircanet/developers](/developers/).
+Benötigen Sie für den Einstieg erst einmal allgemeinere Informationen? Dann empfehlen wir Ihnen [nexus.org/learn](/learn/) oder [nexus.org/developers](/developers/).
 
 - [Blockchain erklärt](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Smart Contracts verstehen](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -52,4 +52,4 @@ Benötigen Sie für den Einstieg erst einmal allgemeinere Informationen? Dann em
 - [QuikNode, nexus und Delphi](https://medium.com/@svanas/quiknode-nexus-and-delphi-f7bfc9671c23)
 - [Delphi und der nexus Dark Forest](https://svanas.medium.com/delphi-and-the-nexus-dark-forest-5b430da3ad93)
 
-Sind Sie an weiteren Informationen interessiert? Sehen Sie sich [xircanet/developers](/developers/) an.
+Sind Sie an weiteren Informationen interessiert? Sehen Sie sich [nexus.org/developers](/developers/) an.

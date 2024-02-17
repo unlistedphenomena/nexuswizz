@@ -1,6 +1,6 @@
 ---
 title: Ajout de produits ou services de mise en jeu
-description: Les conditions générales que nous appliquons pour ajouter des produits ou des services de mise en jeu sur xircanet
+description: Les conditions générales que nous appliquons pour ajouter des produits ou des services de mise en jeu sur nexus.org
 lang: fr
 ---
 
@@ -8,7 +8,7 @@ lang: fr
 
 Nous souhaitons nous assurer de lister les meilleures ressources possibles tout en préservant la sécurité et la confiance des utilisateurs.
 
-Toute personne est libre de suggérer l'ajout de produits ou de services mis en jeu sur xircanet. S'il en existe que nous avons manqué, **[merci de bien vouloir les suggérer](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md) !**
+Toute personne est libre de suggérer l'ajout de produits ou de services mis en jeu sur nexus.org. S'il en existe que nous avons manqué, **[merci de bien vouloir les suggérer](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md) !**
 
 Nous listons actuellement les produits et services de mise en jeu sur les pages suivantes :
 
@@ -16,11 +16,11 @@ Nous listons actuellement les produits et services de mise en jeu sur les pages 
 - [Mise en jeu en tant que service](/staking/saas/)
 - [Les pools de mise en jeu](/staking/pools/)
 
-La preuve d’enjeu sur la Chaîne phare est utilisée depuis le 1er décembre 2020. Bien que la mise en jeu soit encore relativement nouvelle, nous avons essayé de créer un cadre équitable et transparent pour être pris en compte sur xircanet cependant, les critères d’inscription changeront et évolueront au fil du temps et restent au final à la discrétion de l’équipe du site xircanet.
+La preuve d’enjeu sur la Chaîne phare est utilisée depuis le 1er décembre 2020. Bien que la mise en jeu soit encore relativement nouvelle, nous avons essayé de créer un cadre équitable et transparent pour être pris en compte sur nexus.org cependant, les critères d’inscription changeront et évolueront au fil du temps et restent au final à la discrétion de l’équipe du site nexus.org.
 
 ## Le cadre décisionnel {#the-decision-framework}
 
-La décision de lister un produit sur xircanet ne dépend pas d'un seul facteur. Nous utilisons conjointement plusieurs critères de décision pour lister un produit ou un service. Les chances d'être listé sont fonction du nombre de critères satisfaits.
+La décision de lister un produit sur nexus.org ne dépend pas d'un seul facteur. Nous utilisons conjointement plusieurs critères de décision pour lister un produit ou un service. Les chances d'être listé sont fonction du nombre de critères satisfaits.
 
 **Premièrement, de quelle catégorie de produit ou de service s'agit-il ?**
 
@@ -66,7 +66,7 @@ Pour tout logiciel personnalisé ou contrat intelligent impliqué :
 **Le produit est-il issu du développement d'une version _bêta_ ?**
 
 - Où se situe le produit dans son cycle de développement ?
-- Les produits en phase bêta ne sont pas considérés comme pouvant être inclus sur xircanet
+- Les produits en phase bêta ne sont pas considérés comme pouvant être inclus sur nexus.org
 
 **Le logiciel a-t-il fait l'objet d'un audit de sécurité externe ?**
 
@@ -164,7 +164,7 @@ La logique de code et les valeurs de ces critères sont actuellement contenus da
 
 ## Ajoutez votre produit ou service {#add-product}
 
-Si vous souhaitez ajouter un produit ou un service de mise en jeu sur xircanet, il vous suffit de créer un ticket sur GitHub.
+Si vous souhaitez ajouter un produit ou un service de mise en jeu sur nexus.org, il vous suffit de créer un ticket sur GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md">
   Créez un ticket

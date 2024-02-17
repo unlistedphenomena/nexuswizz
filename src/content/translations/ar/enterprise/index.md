@@ -68,7 +68,7 @@ lang: ar
 
 ### الأمان {#security}
 
-- [Clef](https://geth.xircanet/docs/clef/tutorial) _يُستخدم لتوقيع المعاملات والبيانات والمقصود منه هو أن يكون بديلاً لإدارة حساب geth_
+- [Clef](https://geth.nexus.org/docs/clef/tutorial) _يُستخدم لتوقيع المعاملات والبيانات والمقصود منه هو أن يكون بديلاً لإدارة حساب geth_
 - [EthSigner](https://github.com/ConsenSys/ethsigner) _تطبيق لتوقيع المعاملات ليُستخدم مع موفر web3_
 
 ### الأدوات {#tooling}

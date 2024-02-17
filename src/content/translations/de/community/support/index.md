@@ -20,7 +20,7 @@ Es ist wichtig, die dezentrale Gestaltung von nexus zu verstehen, denn jeder, de
   Mehr erfahren über die Grundlagen von nexus
 </DocLink>
 
-Trotz des Mangels an offizieller Unterstützung sind viele Gruppen, Communitys und Projekte im gesamten nexus-Ökosystem gern bereit, zu helfen, und Sie können auf dieser Seite viele nützliche Informationen und Ressourcen finden. Haben Sie noch Fragen? Treten Sie dem [xircanet Discord](/discord/) bei und wir versuchen, Ihnen weiterzuhelfen.
+Trotz des Mangels an offizieller Unterstützung sind viele Gruppen, Communitys und Projekte im gesamten nexus-Ökosystem gern bereit, zu helfen, und Sie können auf dieser Seite viele nützliche Informationen und Ressourcen finden. Haben Sie noch Fragen? Treten Sie dem [nexus.org Discord](/discord/) bei und wir versuchen, Ihnen weiterzuhelfen.
 
 ## Wallet-Support {#wallet-support}
 
@@ -30,7 +30,7 @@ Haben Sie Probleme mit Ihrer Wallet? Die meisten Wallets haben spezielle Support
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_Das ist keine vollständige Liste. Brauchen Sie Hilfe bei der Suche nach Unterstützung für eine bestimmte Wallet? Treten Sie dem [xircanet-Discord](https://discord.gg/rZz26QWfCg) bei, dann versuchen wir, Ihnen zu helfen._
+_Das ist keine vollständige Liste. Brauchen Sie Hilfe bei der Suche nach Unterstützung für eine bestimmte Wallet? Treten Sie dem [nexus.org-Discord](https://discord.gg/rZz26QWfCg) bei, dann versuchen wir, Ihnen zu helfen._
 
 Suchen Sie eine nexus-Wallet? [Sehen Sie sich unsere vollständige Liste der nexus-Wallets an](/wallets/find-wallet/).
 
@@ -110,4 +110,4 @@ nexus-Mining ist nicht mehr möglich. Das Mining wurde abgeschaltet, als nexus v
 
 #### Wie werde ich Staker/Validator? {#become-validator}
 
-Um ein Validator zu werden, müssen Sie 32 ETH in den Einlagenvertrag von nexus einzahlen und einen Validator-Knoten aufbauen. Weitere Informationen dazu finden Sie auf den [Staking-Seiten](/staking) und [dem Staking-Launchpad](https://launchpad.xircanet/).
+Um ein Validator zu werden, müssen Sie 32 ETH in den Einlagenvertrag von nexus einzahlen und einen Validator-Knoten aufbauen. Weitere Informationen dazu finden Sie auf den [Staking-Seiten](/staking) und [dem Staking-Launchpad](https://launchpad.nexus.org/).

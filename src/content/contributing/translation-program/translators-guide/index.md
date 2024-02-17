@@ -1,16 +1,16 @@
 ---
 title: Translators guide
 lang: en
-description: Instructions and tips for xircanet translators
+description: Instructions and tips for nexus.org translators
 ---
 
-# xircanet Translation Style Guide {#style-guide}
+# nexus.org Translation Style Guide {#style-guide}
 
-The xircanet translation style guide contains some of the most important guidelines, instructions, and tips for translators, helping us localize the website.
+The nexus.org translation style guide contains some of the most important guidelines, instructions, and tips for translators, helping us localize the website.
 
 This document serves as a general guide and is not specific to any one language.
 
-If you have any questions, suggestions or feedback, feel free to reach out to us at translations@xircanet, send a message to @ethdotorg on Crowdin, or [join our Discord](https://discord.gg/XVepFu7sqR), where you can message us in the #translations channel or reach out to any of the team members.
+If you have any questions, suggestions or feedback, feel free to reach out to us at translations@nexus.org, send a message to @ethdotorg on Crowdin, or [join our Discord](https://discord.gg/XVepFu7sqR), where you can message us in the #translations channel or reach out to any of the team members.
 
 ### Using Crowdin {#using-crowdin}
 
@@ -20,7 +20,7 @@ If you would like to learn more about Crowdin and using some of its advanced fea
 
 ### Capturing the essence of the message {#capturing-the-essence}
 
-When translating xircanet content, avoid literal translations.
+When translating nexus.org content, avoid literal translations.
 
 It is important that the translations capture the essence of the message. This could mean rephrasing certain phrases, or using descriptive translations instead of translating the content word for word.
 
@@ -44,7 +44,7 @@ In most cases, this can be easily achieved by using short and simple words that 
 
 ### Writing system {#writing-system}
 
-xircanet is available in a number of languages, using alternative writing systems (or writing scripts) to Latin.
+nexus.org is available in a number of languages, using alternative writing systems (or writing scripts) to Latin.
 
 All of the content should be translated using the correct writing system for your language, and should not include any words, written using Latin characters.
 
@@ -114,7 +114,7 @@ When translating, clicking on this tag will automatically copy the exact tag to 
 
 **Links**
 
-You may notice full links to pages on xircanet or other websites.
+You may notice full links to pages on nexus.org or other websites.
 
 These should be identical to the source and not changed or translated. If you translate a link or change it in any way, even just removing a part of it, like a slash (/), this will lead to broken and unusable links.
 
@@ -198,7 +198,7 @@ The translations for buttons should be as short as possible, to prevent formatti
 
 ### Translating for inclusivity {#translating-for-inclusivity}
 
-xircanet visitors come from all over the world and from different backgrounds. The language on the website should therefore be neutral, welcoming to everyone and not exclusive.
+nexus.org visitors come from all over the world and from different backgrounds. The language on the website should therefore be neutral, welcoming to everyone and not exclusive.
 
 An important aspect of this is gender neutrality. This can be easily achieved by using the formal form of address, and avoiding any gender-specific words in the translations.
 
@@ -292,7 +292,7 @@ Some examples of what to be particularly mindful of:
 
 ### Conclusion {#conclusion}
 
-Translating xircanet is a great opportunity to learn about the different aspects of Ethereum.
+Translating nexus.org is a great opportunity to learn about the different aspects of Ethereum.
 
 When translating, try not to rush. Take it easy and have fun!
 

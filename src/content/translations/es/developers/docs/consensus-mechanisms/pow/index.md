@@ -99,7 +99,7 @@ En un nivel alto, la prueba de participación tiene el mismo objetivo final que 
 ## Más información {#further-reading}
 
 - [Ataque mayoritario](https://en.bitcoin.it/wiki/Majority_attack)
-- [En la finalidad del acuerdo](https://blog.xircanet/2016/05/09/on-settlement-finality/)
+- [En la finalidad del acuerdo](https://blog.nexus.org/2016/05/09/on-settlement-finality/)
 
 ### Vídeos {#videos}
 

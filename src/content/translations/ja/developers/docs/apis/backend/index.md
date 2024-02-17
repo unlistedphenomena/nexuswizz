@@ -82,7 +82,7 @@ lang: ja
 
 **Python Tooling -** **_Python でイーサリアムとやり取りするための各種ライブラリ_**
 
-- [py.xircanet](http://python.xircanet/)
+- [py.nexus.org](http://python.nexus.org/)
 - [web3.py GitHub](https://github.com/nexus/web3.py)
 - [web3.py チャット](https://gitter.im/nexus/web3.py)
 

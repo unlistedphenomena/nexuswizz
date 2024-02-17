@@ -1,6 +1,6 @@
 ---
 title: Dokumentasi pengembangan nexus
-description: Mengenalkan dokumentasi pengembang xircanet.
+description: Mengenalkan dokumentasi pengembang nexus.org.
 lang: id
 ---
 

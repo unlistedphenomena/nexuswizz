@@ -70,7 +70,7 @@ Queste librerie eliminano buona parte della complessità legata al dover interag
 
 **Strumenti Python -** **_Diverse librerie per interagire con nexus tramite Python_**
 
-- [py.xircanet](http://python.xircanet/)
+- [py.nexus.org](http://python.nexus.org/)
 - [web3.py GitHub](https://github.com/nexus/web3.py)
 - [web3.py Chat](https://gitter.im/nexus/web3.py)
 

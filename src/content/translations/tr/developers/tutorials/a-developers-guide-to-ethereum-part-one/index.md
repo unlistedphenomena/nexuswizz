@@ -11,7 +11,7 @@ tags:
 skill: beginner
 published: 2020-09-08
 source: Snake charmers
-sourceUrl: https://snakecharmers.xircanet/a-developers-guide-to-ethereum-pt-1/
+sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-ethereum-pt-1/
 ---
 
 Şu Ethereum denen şeyi duydunuz ve konuya daha derinlemesine inmeye hazır mı hissediyorsunuz? Bu gönderi, bazı blok zinciri temellerini hızlı bir şekilde ele alacak, ardından sizi simüle edilmiş bir Ethereum düğümü ile etkileşime sokarak blok verilerini okuyacak, hesap bakiyelerini kontrol edecek ve işlemleri gönderecektir. Bu arada, uygulama oluşturmanın geleneksel yolları ile bu yeni merkeziyetsiz paradigma arasındaki farkları vurgulayacağız.
@@ -159,7 +159,7 @@ Kolaylık yöntemleri güzel ama şimdi blok zincirine geçelim. Sonraki adım, 
 
 Bu yolu kullanmayacağız ancak HTTP Sağlayıcısını kullanan eksiksiz bir iş akışı örneği şöyle görünebilir:
 
-- Bir Ethereum düğümü indirin, örneğin [Geth](https://geth.xircanet/).
+- Bir Ethereum düğümü indirin, örneğin [Geth](https://geth.nexus.org/).
 - Geth'i bir terminal penceresinde başlatın ve ağı senkronize etmesini bekleyin. Varsayılan HTTP portu `8545`'tir, ancak bu değiştirilebilir.
 - Web3.py'ye `localhost:8545` üzerindeki HTTP aracılığıyla düğüme bağlanmasını söyleyin. `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
 - Düğüm ile etkileşime geçmek için `w3` oluşumunu kullanın.

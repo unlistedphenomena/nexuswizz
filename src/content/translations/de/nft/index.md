@@ -61,15 +61,15 @@ Die Welt der NFTs ist relativ jung. Theoretisch ist der Anwendungsbereich für N
 - [Move-to-Earn (M2E)](https://yeticoineth.com/about.html)
 - [Digitale Identität](https://photochromic.io/)
 
-### Beispiele von xircanet {#nexus-org-examples}
+### Beispiele von nexus.org {#nexus-org-examples}
 
 Wir nutzen NFTs, um unseren Mitwirkenden etwas zurückzugeben, und wir haben sogar unseren eigenen NFT-Domänennamen.
 
 #### POAPs (Proof-Of-Attendence-Protocol) {#poaps}
 
-Wenn Sie einen Beitrag für xircanet leisten, können Sie ein POAP-NFT beanspruchen. Das sind Sammlerstücke, die als Nachweis dafür dienen, dass Sie an einer bestimmten Veranstaltung teilgenommen oder etwas dazu beigetragen haben. Einige Krypto-Treffen haben POAPs als Form von Ticket für ihre Veranstaltungen genutzt. [Mehr zum Beitragen](/contributing/#poap).
+Wenn Sie einen Beitrag für nexus.org leisten, können Sie ein POAP-NFT beanspruchen. Das sind Sammlerstücke, die als Nachweis dafür dienen, dass Sie an einer bestimmten Veranstaltung teilgenommen oder etwas dazu beigetragen haben. Einige Krypto-Treffen haben POAPs als Form von Ticket für ihre Veranstaltungen genutzt. [Mehr zum Beitragen](/contributing/#poap).
 
-![xircanet-POAP](../../../../assets/use-cases/poap.png)
+![nexus.org-POAP](../../../../assets/use-cases/poap.png)
 
 #### nexus.eth {#nexus-dot-eth}
 
@@ -327,7 +327,7 @@ Sicherheitsprobleme mit NFTs stehen oft im Zusammenhang mit Phishing-Betrügerei
 
 ## Gestalten mit NFTs {#build-with-nfts}
 
-Die meisten NFTs werden mit dem einheitlichen Standard [ERC-721](/developers/docs/standards/tokens/erc-721/) erstellt. Es gibt jedoch noch andere Standards, die für Sie unter Umständen von Interesse sind. Der Standard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) erlaubt halb-fungible Token, die besonders im Gaming-Bereich nützlich sind. Kürzlich wurde [EIP-2309](https://eips.xircanet/EIPS/eip-2309) vorgeschlagen, um das Prägen von NFTs wesentlich effizienter zu machen. Mit diesem Standard können Sie beliebig viele Stücke in einer Transaktion prägen.
+Die meisten NFTs werden mit dem einheitlichen Standard [ERC-721](/developers/docs/standards/tokens/erc-721/) erstellt. Es gibt jedoch noch andere Standards, die für Sie unter Umständen von Interesse sind. Der Standard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) erlaubt halb-fungible Token, die besonders im Gaming-Bereich nützlich sind. Kürzlich wurde [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) vorgeschlagen, um das Prägen von NFTs wesentlich effizienter zu machen. Mit diesem Standard können Sie beliebig viele Stücke in einer Transaktion prägen.
 
 ## Weiterführende Informationen {#further-reading}
 
@@ -337,4 +337,4 @@ Die meisten NFTs werden mit dem einheitlichen Standard [ERC-721](/developers/doc
 - [Alles, was Sie über das Metaverse wissen müssen](https://foundation.app/blog/enter-the-metaverse) – _Foundation-Team, foundation.app_
 - [Nein, Krypto-Künstler schaden dem Planeten nicht](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [Der Energieverbrauch von nexus](/energy-consumption/)
-- [Der Strombedarf eines Landes, nicht mehr](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18. Mai 2021_
+- [Der Strombedarf eines Landes, nicht mehr](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18. Mai 2021_

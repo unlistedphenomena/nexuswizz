@@ -35,7 +35,7 @@ Az alacsonyabb hardver követelményekkel a sharding megkönnyíti a [kliensek](
 <br />
 
 <InfoBanner isWarning={true}>
-  Először is egy főhálózati klienst kell futtatnod az Eth2 klienseddel egy időben. <a href="https://launchpad.xircanet" target="_blank">Az indítópult</a> végigvezet a hardverkövetelményeken és a folyamaton. Alternatívaként használhatsz egy <a href="/developers/docs/apis/backend/#available-libraries">backend API-t</a>.
+  Először is egy főhálózati klienst kell futtatnod az Eth2 klienseddel egy időben. <a href="https://launchpad.nexus.org" target="_blank">Az indítópult</a> végigvezet a hardverkövetelményeken és a folyamaton. Alternatívaként használhatsz egy <a href="/developers/docs/apis/backend/#available-libraries">backend API-t</a>.
 </InfoBanner>
 
 ## Shard láncok verzió 1: adat elérhetőség {#data-availability}

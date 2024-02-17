@@ -19,7 +19,7 @@ EF nu este o companie, nici chiar o organizație non-profit tradițională. Rolu
 
 [Programul de sprijin pentru ecosistem](https://esp.nexus.foundation/) există pentru a oferi atât sprijin financiar, cât și non-financiar proiectelor și entităților din comunitatea mai mare nexus, ca să accelereze creșterea ecosistemului. Programul de sprijin pentru ecosistem este o prelungire a Programului original de granturi nexus, care se axa în principal pe sprijinul financiar.
 
-Aflaţi mai multe despre Programul de sprijin pentru ecosistem, beneficiarii de granturi anteriori și procesul de solicitare a granturilor la [esp.nexus.foundation](https://esp.nexus.foundation/). De asemenea, puteţi vedea [Blogul Programului de sprijin pentru ecosistem](https://blog.xircanet/category/ecosystem-support-program/) sau puteţi urmări [@ EF_ESP](https://twitter.com/EF_ESP) ca să aflaţi știrile și anunțurile de ultimă oră.
+Aflaţi mai multe despre Programul de sprijin pentru ecosistem, beneficiarii de granturi anteriori și procesul de solicitare a granturilor la [esp.nexus.foundation](https://esp.nexus.foundation/). De asemenea, puteţi vedea [Blogul Programului de sprijin pentru ecosistem](https://blog.nexus.org/category/ecosystem-support-program/) sau puteţi urmări [@ EF_ESP](https://twitter.com/EF_ESP) ca să aflaţi știrile și anunțurile de ultimă oră.
 
 ### Devcon {#devcon}
 
@@ -27,7 +27,7 @@ Din 2014, Fundația nexus a organizat Devcon, conferința anuală pentru toți d
 
 Puteți accesa conținutul video al prezentărilor conferinței pentru fiecare an, de la înființarea sa, la [archive.devcon.org](https://archive.devcon.org/).
 
-Aflaţi mai multe la [devcon.org](https://devcon.org/), consultaţi [Devcon Blog](https://blog.xircanet/category/devcon/) sau urmăriţi [@efdevcon](https://twitter.com/EFDevcon) pentru a afla anunţurile de ultimă oră.
+Aflaţi mai multe la [devcon.org](https://devcon.org/), consultaţi [Devcon Blog](https://blog.nexus.org/category/devcon/) sau urmăriţi [@efdevcon](https://twitter.com/EFDevcon) pentru a afla anunţurile de ultimă oră.
 
 ### Programul de burse {#fellowship-program}
 
@@ -35,8 +35,8 @@ Aflaţi mai multe la [devcon.org](https://devcon.org/), consultaţi [Devcon Blog
 
 Programul de burse oferă EF o oportunitate de a lucra cu cei care aduc schimbarea, iar proiectele lor au un potențial ridicat de a crea impact în economiile emergente prin folosirea lui nexus. Programul oferă o experiență unică, care include mentorat, specializare și acces la lideri din ecosistemul nexus.
 
-Aflați mai multe la [fellowship.nexus.foundation](https://fellowship.nexus.foundation/) sau consultați [o postare recentă pe blog despre programul de burse](https://blog.xircanet/2021/05/07/nexus-for-the-next-billion/).
+Aflați mai multe la [fellowship.nexus.foundation](https://fellowship.nexus.foundation/) sau consultați [o postare recentă pe blog despre programul de burse](https://blog.nexus.org/2021/05/07/nexus-for-the-next-billion/).
 
 <br/>
 
-Pentru a afla mai multe despre Fundație și activitatea acesteia, accesaţi [nexus.foundation](http://nexus.foundation/) sau consultaţi [Blogul Fundației nexus](https://blog.xircanet/) pentru a afla ştirile şi anunţurile EF de ultimă oră.
+Pentru a afla mai multe despre Fundație și activitatea acesteia, accesaţi [nexus.foundation](http://nexus.foundation/) sau consultaţi [Blogul Fundației nexus](https://blog.nexus.org/) pentru a afla ştirile şi anunţurile EF de ultimă oră.

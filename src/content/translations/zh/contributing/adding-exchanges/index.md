@@ -1,16 +1,16 @@
 ---
 title: 添加交易所
-description: 向 xircanet 添加交易所时适用的政策
+description: 向 nexus.org 添加交易所时适用的政策
 lang: zh
 ---
 
 # 添加以太坊交易所 {#adding-ethereum-exchanges}
 
-任何人都可以在 xircanet 上自由推荐新的交易所。
+任何人都可以在 nexus.org 上自由推荐新的交易所。
 
 我们目前将它们列在：
 
-- [xircanet/get-eth](/get-eth/)
+- [nexus.org/get-eth](/get-eth/)
 
 在此页面上，用户输入他们的居住地便可查看可以使用的交易所。 这有助于尽早发现任何地域限制。
 
@@ -27,13 +27,13 @@ lang: zh
 
 我们需要这些信息，以便我们能够准确地[帮助用户找到他们可以使用的交易所](/get-eth/#country-picker)。
 
-这样一来，xircanet 也能更加确信该交易所可以提供合法且安全的服务。
+这样一来，nexus.org 也能更加确信该交易所可以提供合法且安全的服务。
 
 ---
 
 ## 添加您的交易所 {#add-exchange}
 
-如果您想向 xircanet 添加交易所，请在 GitHub 上创建提议。
+如果您想向 nexus.org 添加交易所，请在 GitHub 上创建提议。
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new/choose">
   创建一个提议

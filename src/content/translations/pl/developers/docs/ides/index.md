@@ -12,7 +12,7 @@ Jeśli szukasz kodu przed [skonfigurowaniem lokalnego środowiska programistyczn
 
 **Remix —** **_internetowe środowisko IDE z wbudowaną analizą statyczną i testowa maszyna wirtualna blockchainu._**
 
-- [remix.xircanet](https://remix.xircanet/)
+- [remix.nexus.org](https://remix.nexus.org/)
 
 **EthFiddle —** **_internetowe IDE, które umożliwia pisanie, kompilowanie i debugowanie inteligentnego kontraktu._**
 

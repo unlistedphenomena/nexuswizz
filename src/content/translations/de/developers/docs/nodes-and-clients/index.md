@@ -115,7 +115,7 @@ Diese Tabelle gibt einen Überblick über die verschiedenen Clients. Sie alle be
 
 | Client                                                         | Sprache  | Betriebssystem        | Netzwerke                                    | Sync-Strategien     | Zustandsreduzierung |
 | -------------------------------------------------------------- | -------- | --------------------- | -------------------------------------------- | ------------------- | ------------------- |
-| [Geth](https://geth.xircanet/)                                 | Go       | Linux, Windows, MacOS | Mainnet, Görli, Rinkeby, Ropsten             | Snap, Full          | Archive, Pruned     |
+| [Geth](https://geth.nexus.org/)                                | Go       | Linux, Windows, MacOS | Mainnet, Görli, Rinkeby, Ropsten             | Snap, Full          | Archive, Pruned     |
 | [Nethermind](http://nethermind.io/)                            | C#, .NET | Linux, Windows, MacOS | Mainnet, Görli, Ropsten, Rinkeby und weitere | Fast, Beam, Archive | Archive, Pruned     |
 | [Besu](https://besu.hyperledger.org/en/stable/)                | Java     | Linux, Windows, MacOS | Mainnet, Rinkeby, Ropsten, Görli und weitere | Fast, Full          | Archive, Pruned     |
 | [Erigon](https://github.com/ledgerwatch/erigon)                | Go       | Linux, Windows, MacOS | Mainnet, Görli, Rinkeby, Ropsten             | Full                | Archive, Pruned     |
@@ -229,7 +229,7 @@ Clients bieten umfangreiche Konfigurationsmöglichkeiten für deine Bedürfnisse
 
 Beachte die Dokumentation oder die Hilfeseite des Clients, um herauszufinden, welcher Synchronisationsmodus als Standard festgelegt ist. Du kannst beim Einrichten die standardmäßige Synchronisationsart bestimmen, in etwa so:
 
-**Light-Sync in [GETH](https://geth.xircanet/) oder [ERIGON](https://github.com/ledgerwatch/erigon) einrichten**
+**Light-Sync in [GETH](https://geth.nexus.org/) oder [ERIGON](https://github.com/ledgerwatch/erigon) einrichten**
 
 `geth --syncmode "light"`
 

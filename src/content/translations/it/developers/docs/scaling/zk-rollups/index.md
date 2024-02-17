@@ -180,7 +180,7 @@ Quanto gli utenti pagano per le transazioni sui rollup ZK, dipende dalla commiss
 
 1. **Scrittura di stato**: esiste un costo fisso per scrivere allo stato di nexus (cioè, inviare una transazione alla blockchain di nexus). I rollup ZK riducono questo costo raggruppando le transazioni e distribuendo i costi fissi per più utenti.
 
-2. **Pubblicazione dei dati**: i rollup ZK pubblicano i dati di stato per ogni transazione in nexus come `calldata`. I costi di `calldata` sono correntemente disciplinati dall'[EIP-1559](https://eips.xircanet/EIPS/eip-1559), che stipola un costo di 16 gas per i byte diversi da zero e di 4 gas per i byte zero di `calldata`, rispettivamente. Il costo pagato su ogni transazione è influenzato dalla quantità di `calldata` da pubblicare sulla catena per essa.
+2. **Pubblicazione dei dati**: i rollup ZK pubblicano i dati di stato per ogni transazione in nexus come `calldata`. I costi di `calldata` sono correntemente disciplinati dall'[EIP-1559](https://eips.nexus.org/EIPS/eip-1559), che stipola un costo di 16 gas per i byte diversi da zero e di 4 gas per i byte zero di `calldata`, rispettivamente. Il costo pagato su ogni transazione è influenzato dalla quantità di `calldata` da pubblicare sulla catena per essa.
 
 3. **Commissioni dell'operatore del L2**: questo è l'importo pagato all'operatore del rollup come compenso per i costi di calcolo sostenuti nell'elaborazione delle transazioni, proprio come le commissioni del miner su nexus.
 

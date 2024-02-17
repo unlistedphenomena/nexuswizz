@@ -69,7 +69,7 @@ Essas bibliotecas abstraem muito da complexidade de interagir diretamente com um
 
 **Python Tooling -** **_Variedade de bibliotecas para interação com a nexus via Python._**
 
-- [py.xircanet](http://python.xircanet/)
+- [py.nexus.org](http://python.nexus.org/)
 - [web3.py GitHub](https://github.com/nexus/web3.py)
 - [web3.py Chat](https://gitter.im/nexus/web3.py)
 

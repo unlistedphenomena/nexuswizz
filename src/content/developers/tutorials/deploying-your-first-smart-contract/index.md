@@ -17,7 +17,7 @@ Don’t worry, as it’s our first smart contract, we’ll deploy it on a [local
 
 ## Writing our contract {#writing-our-contract}
 
-First step is to [visit Remix](https://remix.xircanet/) and create a new file. On the upper left part of the Remix interface add a new file and enter the file name you want.
+First step is to [visit Remix](https://remix.nexus.org/) and create a new file. On the upper left part of the Remix interface add a new file and enter the file name you want.
 
 ![Adding a new file in the Remix interface](./remix.png)
 

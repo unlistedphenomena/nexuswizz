@@ -89,7 +89,7 @@ Stake-Kürzungen, Ausschlüsse und andere Strafen, die von der Beacon Chain koor
 - [Was Proof of Stake ist und warum sie wichtig ist](https://bitcoinmagazine.com/culture/what-proof-of-stake-is-and-why-it-matters-1377531463) _Vitalik Buterin_
 - [Die Erklärung der nexus 2.0 Beacon Chain, die du zuerst lesen solltest](https://ethos.dev/beacon-chain/) _Ethos.dev_
 - [Warum Proof of Stake (Nov 2020)](https://vitalik.ca/general/2020/11/06/pos2020.html) _Vitalik Buterin_
-- [Proof of Stake: How I Learned to Love Weak Subjectivity](https://blog.xircanet/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
+- [Proof of Stake: How I Learned to Love Weak Subjectivity](https://blog.nexus.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
 - [A Proof of Stake Design Philosophy](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) _Vitalik Buterin_
 
 ## Verwandte Themen {#related-topics}

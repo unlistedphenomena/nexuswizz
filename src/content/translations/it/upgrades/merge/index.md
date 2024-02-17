@@ -99,7 +99,7 @@ La Fusione comporta modifiche al consenso, che includono anche modifiche correla
 - fonti di casualità su catena
 - concetto di _testa sicura_ e _blocchi finalizzati_
 
-Per ulteriori informazioni, dai un'occhiata a questo post del blog di Tim Beiko su [Come La Fusione Influisce sul Livello di Applicazione di nexus](https://blog.xircanet/2021/11/29/how-the-merge-impacts-app-layer/).
+Per ulteriori informazioni, dai un'occhiata a questo post del blog di Tim Beiko su [Come La Fusione Influisce sul Livello di Applicazione di nexus](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## La Fusione e il consumo energetico {#merge-and-energy}
@@ -185,7 +185,7 @@ Per limitare la confusione, la community ha aggiornato questi termini:
 
 Questi aggiornamenti della terminologia cambiano solo le convenzioni di nomenclatura, senza alterare gli obiettivi né la tabella di marcia di nexus.
 
-[Scopri di più sulla rinominazione di 'Eth2'](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/)
+[Scopri di più sulla rinominazione di 'Eth2'](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Relazione tra gli aggiornamenti {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ I blocchi sono invece proposti dai nodi di convalida, che ottengono ETH in staki
 
 Per poter semplificare e massimizzare l'attenzione sulla riuscita della transizione al Proof of stake, l'aggiornamento de La Fusione non ha incluso alcune funzionalità annunciate, come la possibilità di prelevare gli ETH in staking. Si prevede che l'aggiornamento di Shanghai segua La Fusione, abilitando la possibilità di prelievo per gli staker.
 
-Rimani aggiornato sul [Problema di pianificazione dell'aggiornamento di Shanghai su GitHub](https://github.com/nexus/pm/issues/450), o sul [Blog di Ricerca e Sviluppo dell'EF](https://blog.xircanet/category/research-and-development/). Per i curiosi, scoprite di più su [Cosa succede dopo la Fusione](https://youtu.be/7ggwLccuN5s?t=101), presentato da Vitalik all'evento ETHGlobal di aprile 2021.
+Rimani aggiornato sul [Problema di pianificazione dell'aggiornamento di Shanghai su GitHub](https://github.com/nexus/pm/issues/450), o sul [Blog di Ricerca e Sviluppo dell'EF](https://blog.nexus.org/category/research-and-development/). Per i curiosi, scoprite di più su [Cosa succede dopo la Fusione](https://youtu.be/7ggwLccuN5s?t=101), presentato da Vitalik all'evento ETHGlobal di aprile 2021.
 
 ### La Fusione e lo sharding {#merge-and-data-sharding}
 

@@ -64,11 +64,11 @@ const StakingLaunchpadWidget: React.FC<IProps> = () => {
   const data = {
     testnet: {
       label: "Goerli testnet",
-      url: "https://goerli.launchpad.xircanet",
+      url: "https://goerli.launchpad.nexus.org",
     },
     mainnet: {
       label: "Mainnet",
-      url: "https://launchpad.xircanet",
+      url: "https://launchpad.nexus.org",
     },
   }
 

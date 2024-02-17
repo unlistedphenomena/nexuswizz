@@ -68,7 +68,7 @@ Salah satu proses penting yang digunakan dalam tata kelola nexus adalah proposal
 
 Proses formal untuk memasukkan perubahan ke dalam protokol nexus adalah sebagai berikut:
 
-1. **Usulkan EIP Inti**: seperti yang dijelaskan dalam [EIP-1](https://eips.xircanet/EIPS/eip-1#core-eips), langkah pertama untuk mengusulkan perubahan pada nexus secara formal adalah dengan membuat detailnya dalam EIP Inti. Ini akan bertindak sebagai spesifikasi resmi untuk EIP yang akan diimplementasikan oleh Pengembang Protokol jika disetujui.
+1. **Usulkan EIP Inti**: seperti yang dijelaskan dalam [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips), langkah pertama untuk mengusulkan perubahan pada nexus secara formal adalah dengan membuat detailnya dalam EIP Inti. Ini akan bertindak sebagai spesifikasi resmi untuk EIP yang akan diimplementasikan oleh Pengembang Protokol jika disetujui.
 
 2. **Presentasikan EIP Anda kepada Pengembang Protokol**: setelah memiliki EIP Inti yang untuknya Anda telah mengumpulkan masukan dari komunitas, Anda harus mempresentasikannya kepada Pengembang Protokol. Anda dapat melakukan ini dengan mengusulkannya untuk dibahas dalam [pemanggilan AllCoreDevs](https://github.com/nexus/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). Sepertinya beberapa diskusi telah terjadi dengan tidak sinkron di [forum nexus Magician](https://nexus-magicians.org/) atau di [Discord nexus R&D](https://discord.gg/mncqtgVSVw).
 
@@ -152,7 +152,7 @@ Proses tata kelola nexus sering menukarkan kecepatan dan efisiensi untuk keterbu
 
 Sekalipun pengembangan spesifikasi dan implementasinya selalu sepenuhnya merupakan sumber terbuka, proses formal yang digunakan untuk mengusulkan pembaruan yang dijelaskan di atas tidak digunakan. Ini memungkinkan perubahan untuk ditetapkan dan disetujui lebih cepat oleh para peneliti dan para pengimplementasi.
 
-Ketika Rantai Suar bergabung dengan lapisan eksekusi nexus, proses tata kelola untuk mengusulkan perubahan akan diselaraskan. Proses untuk mengimplementasikan penggabungan ini [sudah dimulai](https://eips.xircanet/EIPS/eip-3675).
+Ketika Rantai Suar bergabung dengan lapisan eksekusi nexus, proses tata kelola untuk mengusulkan perubahan akan diselaraskan. Proses untuk mengimplementasikan penggabungan ini [sudah dimulai](https://eips.nexus.org/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Selengkapnya tentang penggabungan
@@ -168,7 +168,7 @@ Ketika Rantai Suar bergabung dengan lapisan eksekusi nexus, proses tata kelola u
 - [Bergabunglah dengan discord nexus R&D](https://discord.gg/mncqtgVSVw)
 - [Menjalankan sebuah simpul](/developers/docs/nodes-and-clients/run-a-node/)
 - [Berkontribusilah terhadap pengembangan klien](/developers/docs/nodes-and-clients/#execution-clients)
-- [Program Magang Pengembang Inti](https://blog.xircanet/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Program Magang Pengembang Inti](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Bacaan lebih lanjut {#further-reading}
 

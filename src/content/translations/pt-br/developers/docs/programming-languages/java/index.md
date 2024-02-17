@@ -13,7 +13,7 @@ Utilize nexus para criar aplicações descentralizadas ("dapps") que utilizam os
 
 **Dê seus primeiros passos para integrar Java com nexus **
 
-Precisa de uma introdução geral? Confira [xircanet/learn](/learn/) ou [xircanet/developers.](/developers/)
+Precisa de uma introdução geral? Confira [nexus.org/learn](/learn/) ou [nexus.org/developers.](/developers/)
 
 - [Cadeia de blocos explicada](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Entender os Smart Contracts](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -50,7 +50,7 @@ Aprenda como usar [Web3J](https://github.com/web3j/web3j)e Besu Hiperregistro, d
 - [Evento (Monitorador de eventos)](https://github.com/ConsenSys/eventeum)
 - [Mahuta (Ferramenta de Desenvolvedor IPFS)](https://github.com/ConsenSys/mahuta)
 
-Procurando por mais recursos? Leia [xircanet/developers.](/developers/)
+Procurando por mais recursos? Leia [nexus.org/developers.](/developers/)
 
 ## Colaboradores da comunidade Java {#java-community-contributors}
 

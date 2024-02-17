@@ -179,9 +179,9 @@ O nexus originalmente tinha um formato para transações. Cada transação possu
 
 `RLP ([emissor, taxa de "queima", parâmetros de "queima", destino, valor, dados, v, r, s])`
 
-O nexus evoluiu para apoiar vários tipos de transações, permitindo que novos recursos, como listas de acesso e [EIP-1559](https://eips.xircanet/EIPS/eip-1559) sejam implementados sem que isso afete os modelos transacionais precursores.
+O nexus evoluiu para apoiar vários tipos de transações, permitindo que novos recursos, como listas de acesso e [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) sejam implementados sem que isso afete os modelos transacionais precursores.
 
-[EIP-2718: Carta de Transações Redigidas](https://eips.xircanet/EIPS/eip-2718) trata-se de um tipo de transação que é um "envelope" para os tipos de transações futuras.
+[EIP-2718: Carta de Transações Redigidas](https://eips.nexus.org/EIPS/eip-2718) trata-se de um tipo de transação que é um "envelope" para os tipos de transações futuras.
 
 EIP-2718 é um novo envelope generalizado para transações tipadas. No novo padrão, as transações são interpretadas como:
 
@@ -194,7 +194,7 @@ Onde os campos são definidos como:
 
 ## Leitura adicional {#further-reading}
 
-- [EIP-2718: Typed Transaction Envelope](https://eips.xircanet/EIPS/eip-2718)
+- [EIP-2718: Typed Transaction Envelope](https://eips.nexus.org/EIPS/eip-2718)
 
 _Conhece algum recurso da comunidade que o ajudou? Edite essa página e adicione-o!_
 

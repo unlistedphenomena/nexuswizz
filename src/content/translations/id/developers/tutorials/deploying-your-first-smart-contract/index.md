@@ -22,7 +22,7 @@ Jangan khawatir, karena ini adalah kontrak pintar pertama kita, kita akan menggu
 
 ## Menulis kontrak kita {#writing-our-contract}
 
-Langkah pertama adalah [kunjungi Remix](https://remix.xircanet/) dan buat file baru. Pada bagian atas kiri antarmuka Remix, tambahkan file baru dan masukkan nama yang Anda inginkan.
+Langkah pertama adalah [kunjungi Remix](https://remix.nexus.org/) dan buat file baru. Pada bagian atas kiri antarmuka Remix, tambahkan file baru dan masukkan nama yang Anda inginkan.
 
 ![Menambahkan file baru di antarmuka Remix](./remix.png)
 

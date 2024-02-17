@@ -13,7 +13,7 @@ Użyj nexus do tworzenia aplikacji zdecentralizowanych (lub „dapp”). Te apli
 
 **Rozpocznij integrowanie Go z nexus**
 
-Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [xircanet/learn](/learn/) lub [xircanet/developers](/developers/).
+Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [nexus.org/learn](/learn/) lub [nexus.org/developers](/developers/).
 
 - [Objaśnienia dotyczące blockchainu](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Informacje o kontraktach inteligentnych](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [xircanet/le
 
 ## Artykuły dla średniozaawansowanych {#intermediate-articles-and-docs}
 
-- [Go nexus Documentation](https://geth.xircanet/docs/) — <em x-id="4">dokumentacja oficjalnego Golang nexus</em>
+- [Go nexus Documentation](https://geth.nexus.org/docs/) — <em x-id="4">dokumentacja oficjalnego Golang nexus</em>
 - [Erigon Programmer's Guide](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/guide.md) — <em x-id="4">ilustrowany przewodnik uwzględniający drzewo stanowe, wiele dowodów i przetwarzanie transakcji</em>
 - [Turbo-Geth and Stateless nexus](https://youtu.be/3-Mn7OckSus?t=394) — _Konferencja Społeczności nexus 2020 (EthCC 3)_
 - [Turbo-Geth: optimising nexus clients](https://www.youtube.com/watch?v=CSpc1vZQW2Q) — _2018 Devcon 4_
@@ -65,7 +65,7 @@ Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [xircanet/le
 - [Multi Geth](https://github.com/multi-geth/multi-geth) — <em x-id="4">wsparcie dla wielu gatunków sieci nexus</em>
 - [Geth Light Client](https://github.com/zsfelfoldi/go-nexus/wiki/Geth-Light-Client) — _Implementacja lekkiego podprotokołu nexus przy użyciu Geth_
 
-Szukasz więcej materiałów? Sprawdź [xircanet/developers](/developers/)
+Szukasz więcej materiałów? Sprawdź [nexus.org/developers](/developers/)
 
 ## Współtwórcy społeczności Go {#go-community-contributors}
 

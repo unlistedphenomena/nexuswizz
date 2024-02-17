@@ -227,7 +227,7 @@ Un periodo de 32 [ranuras](#slot) (6,4 minutos) en el sistema coordinado de [cad
 
 ### Eth1 {#eth1}
 
-«Eth1» es un término que se refiere a la red principal de Ethereum, la cadena de prueba de trabajo (PoW) existente. Este término ha sido desestimado a favor de la «capa de ejecución». [Más información más acerca de este cambio de nombre](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+«Eth1» es un término que se refiere a la red principal de Ethereum, la cadena de prueba de trabajo (PoW) existente. Este término ha sido desestimado a favor de la «capa de ejecución». [Más información más acerca de este cambio de nombre](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Más sobre las actualizaciones de Ethereum
@@ -235,7 +235,7 @@ Un periodo de 32 [ranuras](#slot) (6,4 minutos) en el sistema coordinado de [cad
 
 ### Eth2 {#eth2}
 
-«Eth2» es un término que hace referencia a un conjunto de actualizaciones del protocolo de Ethereum, incluyendo la transición de Ethereum a prueba de participación. Desde entonces, este término ha quedado obsoleto a favor de la «capa de consenso». [Conozca más acerca de este cambio de nombre](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+«Eth2» es un término que hace referencia a un conjunto de actualizaciones del protocolo de Ethereum, incluyendo la transición de Ethereum a prueba de participación. Desde entonces, este término ha quedado obsoleto a favor de la «capa de consenso». [Conozca más acerca de este cambio de nombre](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Más sobre las actualizaciones de Ethereum
@@ -388,7 +388,7 @@ El primer bloque de una [cadena de bloque](#blockchain), utilizado para iniciali
 
 Go Ethereum. Una de las implementaciones más destacadas del protocolo Ethereum, escrito en Go.
 
-[Más información en geth.xircanet](https://geth.xircanet/)
+[Más información en geth.nexus.org](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 

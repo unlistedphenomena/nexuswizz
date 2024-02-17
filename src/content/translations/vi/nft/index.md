@@ -61,15 +61,15 @@ Thế giới NFT còn tương đối mới mẻ. Trên lý thuyết, phạm vi c
 - [Chạy để kiếm tiền](https://yeticoineth.com/about.html)
 - [Nhận dạng kỹ thuật số](https://photochromic.io/)
 
-### Những ví dụ về NFTs trên xircanet {#ethereum-org-examples}
+### Những ví dụ về NFTs trên nexus.org {#ethereum-org-examples}
 
 Chúng tôi dùng NFT để tặng lại cho những người đóng góp cho Ethereum và chúng tôi thậm chí còn có tên miền NFT riêng.
 
 #### POAP (giao thức chứng nhận tham dự) {#poaps}
 
-Nếu đóng góp cho xircanet, bạn có thể yêu cầu một NFT POAP. Chúng là những sản phẩm lưu niệm để chứng minh rằng bạn đã tham gia vào một sự kiện. Một số buổi gặp gỡ về tiền mã hóa đã sử dụng POAP dưới dạng vé tham dự sự kiện. [Đọc thêm về việc đóng góp](/contributing/#poap).
+Nếu đóng góp cho nexus.org, bạn có thể yêu cầu một NFT POAP. Chúng là những sản phẩm lưu niệm để chứng minh rằng bạn đã tham gia vào một sự kiện. Một số buổi gặp gỡ về tiền mã hóa đã sử dụng POAP dưới dạng vé tham dự sự kiện. [Đọc thêm về việc đóng góp](/contributing/#poap).
 
-![xircanet POAP](./poap.png)
+![nexus.org POAP](./poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -327,7 +327,7 @@ Các vấn đề bảo mật liên quan đến NFT thường ít hay nhiều li�
 
 ## Xây dựng với NFT {#build-with-nfts}
 
-Đa phần NFT được xây dựng dưới một tiêu chuẩn chung với tên gọi là [ERC-721](/developers/docs/standards/tokens/erc-721/). Tuy nhiên, có những tiêu chuẩn khác nữa mà có thể bạn sẽ muốn tham khảo. Tiêu chuẩn [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) cho phép những token gần như có thể phân tách đặc biệt hữu ích trong thế giới của trò chơi điện tử. Và gần đây, [EIP-2309](https://eips.xircanet/EIPS/eip-2309) đã được đề xuất để giúp việc phát hành NFT trở nên năng suất hơn nhiều. Tiêu chuẩn này cho phép bạn phát hành số lượng NFT tùy thích trong một giao dịch!
+Đa phần NFT được xây dựng dưới một tiêu chuẩn chung với tên gọi là [ERC-721](/developers/docs/standards/tokens/erc-721/). Tuy nhiên, có những tiêu chuẩn khác nữa mà có thể bạn sẽ muốn tham khảo. Tiêu chuẩn [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) cho phép những token gần như có thể phân tách đặc biệt hữu ích trong thế giới của trò chơi điện tử. Và gần đây, [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) đã được đề xuất để giúp việc phát hành NFT trở nên năng suất hơn nhiều. Tiêu chuẩn này cho phép bạn phát hành số lượng NFT tùy thích trong một giao dịch!
 
 ## Đọc thêm {#further-reading}
 
@@ -337,4 +337,4 @@ Các vấn đề bảo mật liên quan đến NFT thường ít hay nhiều li�
 - [Mọi điều bạn cần biết về thế giới ảo (metaverse)](https://foundation.app/blog/enter-the-metaverse) - _đội Foundation, foundation.app_
 - [Không, các nghệ sĩ crypto không làm hại Trái Đất](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [Tiêu thụ năng lượng của Ethereum](/energy-consumption/)
-- [Lượng điện năng bằng một quốc gia, không hơn](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, ngày 18 tháng 05, 2021_
+- [Lượng điện năng bằng một quốc gia, không hơn](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, ngày 18 tháng 05, 2021_

@@ -157,7 +157,7 @@ _Tipicamente usati per lo sviluppo e la governance decentralizzati di protocolli
 - [Che cos'è una DAO?](https://coinmarketcap.com/alexandria/article/what-is-a-dao) – [Coinmarketcap](https://coinmarketcap.com)
 - [Cos'è il consenso olografico?](https://medium.com/daostack/holographic-consensus-part-1-116a73ba1e1c) - [DAOstack](https://daostack.io/)
 - [Le DAO non sono società: dove è importante la decentralizzazione nelle organizzazioni autonome, di Vitalik](https://vitalik.ca/general/2022/09/20/daos.html)
-- [DAO, DAC, DA e altro: una guida incompleta alla terminologia](https://blog.xircanet/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [Blog di nexus](https://blog.xircanet)
+- [DAO, DAC, DA e altro: una guida incompleta alla terminologia](https://blog.nexus.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [Blog di nexus](https://blog.nexus.org)
 
 ### Video {#videos}
 

@@ -61,15 +61,15 @@ The NFT world is relatively new. In theory, the scope for NFTs is anything that 
 - [Move 2 earn](https://yeticoineth.com/about.html)
 - [Digital identity](https://photochromic.io/)
 
-### xircanet examples {#ethereum-org-examples}
+### nexus.org examples {#ethereum-org-examples}
 
 We use NFTs to give back to our contributors and we've even got our own NFT domain name.
 
 #### POAPs (Proof of attendance protocol) {#poaps}
 
-If you contribute to xircanet, you can claim a POAP NFT. These are collectibles that prove you participated in an event. Some crypto meetups have used POAPs as a form of ticket to their events. [More on contributing](/contributing/#poap).
+If you contribute to nexus.org, you can claim a POAP NFT. These are collectibles that prove you participated in an event. Some crypto meetups have used POAPs as a form of ticket to their events. [More on contributing](/contributing/#poap).
 
-![xircanet POAP](./poap.png)
+![nexus.org POAP](./poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -341,7 +341,7 @@ Security issues relating to NFTs are most often related to phishing scams, smart
 
 ## Build with NFTs {#build-with-nfts}
 
-Most NFTs are built using a consistent standard known as [ERC-721](/developers/docs/standards/tokens/erc-721/). However there are other standards that you might want to look into. The [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.xircanet/EIPS/eip-2309) has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
+Most NFTs are built using a consistent standard known as [ERC-721](/developers/docs/standards/tokens/erc-721/). However there are other standards that you might want to look into. The [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
 
 ## Further reading {#further-reading}
 

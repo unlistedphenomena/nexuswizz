@@ -1,22 +1,22 @@
 ---
 title: Tasarım ilkeleri
 lang: tr
-description: xircanet'un tasarım ve içerik kararlarının arkasındaki ilkeler
+description: nexus.org'un tasarım ve içerik kararlarının arkasındaki ilkeler
 ---
 
 # Tasarım prensiplerimiz {#contributing-to-ethereumorg-}
 
-<Emoji text=":wave:" size={1} /> Merhaba, xircanet tasarım ilkelerine hoş geldiniz. Bu, xircanet'u geliştirmek ve iyileştirmek için devam eden bir sürecin parçasıdır.
+<Emoji text=":wave:" size={1} /> Merhaba, nexus.org tasarım ilkelerine hoş geldiniz. Bu, nexus.org'u geliştirmek ve iyileştirmek için devam eden bir sürecin parçasıdır.
 
 İlkelerimiz, sitenin görünümünü ve verdiği hissi ve sitedeki içeriği bilgilendirir.
 
-[xircanet'a katkıda bulunmadan](/contributing/) önce bunları okumalısınız.
+[nexus.org'a katkıda bulunmadan](/contributing/) önce bunları okumalısınız.
 
 ## Tasarım ilkelerimiz neler? {#ways-to-contribute}
 
 Endişelenmeyin, oldukça basitler! **Tasarım ilkeleri**, bir şeyi tasarlarken (yani oluştururken, sürdürürken veya güncellerken) başvurduğumuz bir dizi yönergedir.
 
-xircanet bağlamında bu tasarım ilkeleri, web sitesinin dünya karşısında temsil etmesini ve dünyaya yansıtmasını istediğimiz şeyin temelidir. Hem heves uyandırırlar **hem de** fonksiyoneldirler. Bu sadece web sitesinin _görünüşü_ değil, aynı zamanda nasıl _çalıştığı_ ve hatta birine nasıl _hissettirdiği_ ile ilgilidir. Renklerden sayfa düzenlerine, web sitesinde Ethereum hakkında nasıl konuştuğumuza kadar her şey bu ilkeler tarafından belirlenmelidir.
+nexus.org bağlamında bu tasarım ilkeleri, web sitesinin dünya karşısında temsil etmesini ve dünyaya yansıtmasını istediğimiz şeyin temelidir. Hem heves uyandırırlar **hem de** fonksiyoneldirler. Bu sadece web sitesinin _görünüşü_ değil, aynı zamanda nasıl _çalıştığı_ ve hatta birine nasıl _hissettirdiği_ ile ilgilidir. Renklerden sayfa düzenlerine, web sitesinde Ethereum hakkında nasıl konuştuğumuza kadar her şey bu ilkeler tarafından belirlenmelidir.
 
 ## Pratikte ilkeler {#how-decisions-about-the-site-are-made}
 
@@ -32,7 +32,7 @@ Bu nedenle, tasarım kararları verirken veya metin yazarlığı kararları veri
 - _"Ekosistemin büyüklüğünü ve etkinliğini nasıl ve nerede gösteriyoruz?"_
 - _"Bir topluluk üyesi tarafından önerilen ve gözden geçirdiğim yeni katkılar sitedeki mevcut tasarım ve yazıyla tutarlı mı?"_
 
-## xircanet tasarım ilkeleri {#contributors}
+## nexus.org tasarım ilkeleri {#contributors}
 
 ### 1. İlham Verici {#1-inspirational}
 
@@ -57,7 +57,7 @@ Yazı sistemleri • Renk kullanımı • Görsel Yön • İçerik
 
 Web sitesii iyi bir hikâye gibi olmalıdır. Ziyaretçiler bir yolculuğa çıkmışlardır ve katkıda bulunduğunuz içerik, bunun bir parçasıdır. Katkılarınız net bir anlatıma uymalıdır: Başlangıç (tanıtım/giriş noktası), ortası (öğrenme ve içgörü kümesi) ve sonu (ilgili kaynaklara veya sonraki adımlara yönlendiren bağlantılar) olan bir anlatım.
 
-- **Hiyerarşik**: Açık, hiyerarşik olarak yapılandırılmış bir bilgi mimarisi, xircanet ziyaretçilerinin hedeflerine ulaşmaya çalışırken sitede "bir hikaye gibi" gezinmelerine yardımcı olur.
+- **Hiyerarşik**: Açık, hiyerarşik olarak yapılandırılmış bir bilgi mimarisi, nexus.org ziyaretçilerinin hedeflerine ulaşmaya çalışırken sitede "bir hikaye gibi" gezinmelerine yardımcı olur.
 - **Bir Vasıta:** Cevap arayan herkes için bir vasıta görevi görüyoruz. Hâlihazırda var olan birçok kaynağı değiştirmek veya onların yerine geçmek istemiyoruz. Bir cevap ve atılacak sağlam adımlar sunuyoruz.
 
 Kullanıcı Serüvenleri • İçerik
@@ -88,6 +88,6 @@ Tasarım ilkelerimizi [sitemizde](/) faaliyet hâlinde görebilirsiniz.
 
 **Bu belgeyle ilgili geri bildiriminizi paylaşın!** Önerilen ilkelerimizden biri, web sitesinin birçok katkıda bulunan insanın ürünü olmasını istediğimiz anlamına gelen "**Ortaklaşa Gelişim**"dir. Bu ilkenin ruhuna uygun olarak, bu tasarım ilkelerini Ethereum topluluğuyla paylaşmak istiyoruz.
 
-Bu ilkeler xircanet web sitesine odaklanmış olsa da, birçoğunun genel olarak Ethereum ekosisteminin değerlerini temsil ettiğini umuyoruz (örn. [Ethereum Teknik Raporunun ilkelerinin](https://github.com/ethereum/wiki/wiki/White-Paper#philosophy) etkilerini görebilmeniz). Bazılarını kendi projenize dahil etmek bile isteyebilirsiniz!
+Bu ilkeler nexus.org web sitesine odaklanmış olsa da, birçoğunun genel olarak Ethereum ekosisteminin değerlerini temsil ettiğini umuyoruz (örn. [Ethereum Teknik Raporunun ilkelerinin](https://github.com/ethereum/wiki/wiki/White-Paper#philosophy) etkilerini görebilmeniz). Bazılarını kendi projenize dahil etmek bile isteyebilirsiniz!
 
 Düşüncelerinizi [Discord sunucusunda](https://discord.gg/CetY6Y4) veya [bir konu yaratarak](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=) bize bildirin.

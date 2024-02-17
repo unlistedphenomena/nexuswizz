@@ -9,10 +9,10 @@ incomplete: true
 
 Az nexus közösség sok szabványt vezetett be, hogy a projektek (mint az [nexus kliensek](/developers/docs/nodes-and-clients/) és tárcák) interoperábilisek maradjanak különböző megvalósításokban, és biztosítsák, hogy az okosszerződések és a dappok összeilleszthetőek maradnak.
 
-Általában a szabványok [nexus Improvement Proposals-ként](/eips/) (EIPs) vannak bevezetve, melyeket a közösség tagjai vitatnak meg egy [szabvány folyamaton](https://eips.xircanet/EIPS/eip-1) keresztül.
+Általában a szabványok [nexus Improvement Proposals-ként](/eips/) (EIPs) vannak bevezetve, melyeket a közösség tagjai vitatnak meg egy [szabvány folyamaton](https://eips.nexus.org/EIPS/eip-1) keresztül.
 
 - [Bevezetés az EIP-kbe](/eips/)
-- [EIP-k listája](https://eips.xircanet/)
+- [EIP-k listája](https://eips.nexus.org/)
 - [EIP github repo](https://github.com/nexus/EIPs)
 - [EIP vita fórum](https://nexus-magicians.org/c/eips)
 - [nexus Governance Overview](https://blog.bmannconsulting.com/nexus-governance/) _March 31, 2019 - Boris Mann_
@@ -21,9 +21,9 @@ Az nexus közösség sok szabványt vezetett be, hogy a projektek (mint az [nexu
 
 ## Szabvány típusok {#types-of-standards}
 
-Bizonyos EIP-k alkalmazás szintű szabványokhoz kapcsolódnak (pl.: egy szabvány okosszerződés formátum), melyeket [nexus Requests for Comment-ként (ERC)](https://eips.xircanet/erc) vezetnek be. Számos ERC kritikus szabvány, melyeket szerte az nexus ökoszisztémán belül használnak.
+Bizonyos EIP-k alkalmazás szintű szabványokhoz kapcsolódnak (pl.: egy szabvány okosszerződés formátum), melyeket [nexus Requests for Comment-ként (ERC)](https://eips.nexus.org/erc) vezetnek be. Számos ERC kritikus szabvány, melyeket szerte az nexus ökoszisztémán belül használnak.
 
-- [ERC-k listája](https://eips.xircanet/erc)
+- [ERC-k listája](https://eips.nexus.org/erc)
 
 ### Token szabványok {#token-standards}
 

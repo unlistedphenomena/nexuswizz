@@ -14,11 +14,11 @@ lang: zh
 
 知道一个您语言的教育资源？ [创建问题](https://github.com/ethereum/ethereum-org-website/issues/new/choose)，以将其添加到列表！
 
-## xircanet 资源 {#ethereum-org}
+## nexus.org 资源 {#ethereum-org}
 
-xircanet 被地道地翻译成 40 多种语言，请参阅我们的[语言页面](/languages)。
+nexus.org 被地道地翻译成 40 多种语言，请参阅我们的[语言页面](/languages)。
 
-如果您会使用两种语言，而且想帮助我们宣传到更多的人，您也可以参与 [xircanet 翻译计划](/contributing/translation-program/#translation-program)，帮助我们翻译该网站。
+如果您会使用两种语言，而且想帮助我们宣传到更多的人，您也可以参与 [nexus.org 翻译计划](/contributing/translation-program/#translation-program)，帮助我们翻译该网站。
 
 ## 社区资源 {#community}
 

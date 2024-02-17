@@ -96,7 +96,7 @@ contract PriceConsumerV3 {
 }
 ```
 
-[Anda dapat menguji ini dalam remix dengan mengklik tautan ini](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
+[Anda dapat menguji ini dalam remix dengan mengklik tautan ini](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
 
 [Lihat dokumen](https://docs.chain.link/docs/get-the-latest-price)
 
@@ -169,7 +169,7 @@ Untuk menggunakan Penjaga Chainlink, suatu kontrak pintar harus mengimplementasi
 - `checkUpkeep` - Memeriksa apakah kontrak membutuhkan pemeliharaan yang perlu dilakukan.
 - `performUpkeep` - Melakukan pemeliharaan pada kontrak, jika diinstruksikan oleh checkUpkeep.
 
-Contoh di bawah adalah suatu kontrak penghitung sederhana. Variabel `counter` ditambahkan sebanyak satu oleh setiap pemanggilan ke `performUpkeep`. Anda dapat [melihat kode berikut ini dengan menggunakan Remix](https://remix.xircanet/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
+Contoh di bawah adalah suatu kontrak penghitung sederhana. Variabel `counter` ditambahkan sebanyak satu oleh setiap pemanggilan ke `performUpkeep`. Anda dapat [melihat kode berikut ini dengan menggunakan Remix](https://remix.nexus.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -222,7 +222,7 @@ Setelah menyebarkan kontrak yang kompatibel dengan Penjaga, Anda harus mendaftar
 
 [Pemanggilan API Chainlink](https://docs.chain.link/docs/make-a-http-get-request) merupakan cara termudah untuk mendapatkan data dari dunia off-chain dengan cara tradisional yang memfungsikan web: pemanggilan API. Melakukan satu instance ini dan hanya memiliki satu oracle akan membuatnya terpusat secara alami. Agar benar-benar terdesentralisasi, platform kontrak pintar perlu menggunakan banyak node yang ditemukan di [pasar data eksternal](https://market.link/).
 
-[Sebarkan kode berikut ini di remix pada jaringan kovan untuk mengujinya](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
+[Sebarkan kode berikut ini di remix pada jaringan kovan untuk mengujinya](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
 
 Ini juga mengikuti siklus minta dan terima oracle dan mengharuskan kontrak untuk didanai dengan LINK Kovan (gas oracle) agar berfungsi.
 

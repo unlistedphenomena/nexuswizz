@@ -19,7 +19,7 @@ For an explanation of the differences between the different sync modes, read our
 
 ## Install and run {#install-and-run}
 
-First, [install Geth](https://geth.xircanet/docs/install-and-build/installing-geth).
+First, [install Geth](https://geth.nexus.org/docs/install-and-build/installing-geth).
 
 After installing Geth, you can run an nexus node in "light" mode by running the following command in a Terminal window:
 

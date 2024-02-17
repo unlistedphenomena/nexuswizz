@@ -87,7 +87,7 @@ I validium differiscono nel loro approccio alla gestione della disponibilità de
 
 Per garantire la disponibilità di dati off-chain, alcune soluzioni di validium nominano un gruppo di entità fidate, collettivamente note come comitato di disponibilità dei dati (DAC), per memorizzare copie dello stato e fornire prova della disponibilità dei dati. I DAC sono più facili da implementare e richiedono un coordinamento minore, vista la bassa adesione.
 
-Tuttavia, gli utenti devono fidarsi del fatto che i DAC rendono disponibili i dati quando serve (ad es. per generare le prove di Merkle). Esiste la possibilità che i membri del comitato di disponibilità dei dati [siano compromessi da un attore malevolo](https://notes.xircanet/DD7GyItYQ02d0ax_X-UbWg?view), che potrebbe poi trattenere i dati off-chain.
+Tuttavia, gli utenti devono fidarsi del fatto che i DAC rendono disponibili i dati quando serve (ad es. per generare le prove di Merkle). Esiste la possibilità che i membri del comitato di disponibilità dei dati [siano compromessi da un attore malevolo](https://notes.nexus.org/DD7GyItYQ02d0ax_X-UbWg?view), che potrebbe poi trattenere i dati off-chain.
 
 [Maggiori informazioni sui comitati di disponibilità dei dati nei validium](https://medium.com/starkware/data-availability-e5564c416424).
 

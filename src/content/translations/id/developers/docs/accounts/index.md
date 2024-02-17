@@ -79,7 +79,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[Dokumentasi GETH](https://geth.xircanet/docs)
+[Dokumentasi GETH](https://geth.nexus.org/docs)
 
 Dimungkinkan untuk memperoleh kunci publik baru dari kunci privat Anda tetapi Anda tidak dapat memperoleh kunci privat dari kunci publik. Ini berarti sangat penting untuk menjaga kunci privat tetap aman dan, seperti namanya, **PRIVAT**.
 

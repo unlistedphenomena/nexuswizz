@@ -311,7 +311,7 @@ Birbiriyle çelişen iki mesaj gönderen bir doğrulayıcı. NonceBasit bir örn
 
 ### Eth1 {#eth1}
 
-"Eth1", mevcut iş kanıtı blok zinciri olan Ethereum Anaağı'na atıfta bulunan bir terimdir. Artık bu terim, yerine "yürütüm katmanı" kullanıldığı için kullanımdan kaldırılmıştır. [Bu ad değişikliği hakkında daha fazla bilgi edinin](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+"Eth1", mevcut iş kanıtı blok zinciri olan Ethereum Anaağı'na atıfta bulunan bir terimdir. Artık bu terim, yerine "yürütüm katmanı" kullanıldığı için kullanımdan kaldırılmıştır. [Bu ad değişikliği hakkında daha fazla bilgi edinin](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Ethereum yükseltmeleri hakkında daha fazla bilgi
@@ -319,7 +319,7 @@ Birbiriyle çelişen iki mesaj gönderen bir doğrulayıcı. NonceBasit bir örn
 
 ### Eth2 {#eth2}
 
-"Eth2", Ethereum'un hisse ispatına geçişi de dahil olmak üzere bir dizi Ethereum protokolü yükseltmesine atıfta bulunan bir terimdir. Artık bu terim, yerine "konsensus katmanı" kullanıldığı için kullanımdan kaldırılmıştır. [Bu ad değişikliği hakkında daha fazla bilgi edinin](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+"Eth2", Ethereum'un hisse ispatına geçişi de dahil olmak üzere bir dizi Ethereum protokolü yükseltmesine atıfta bulunan bir terimdir. Artık bu terim, yerine "konsensus katmanı" kullanıldığı için kullanımdan kaldırılmıştır. [Bu ad değişikliği hakkında daha fazla bilgi edinin](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Ethereum yükseltmeleri hakkında daha fazla bilgi
@@ -476,7 +476,7 @@ Belirli bir ağı ve onun kripto para birimini başlatmak için kullanılan bir 
 
 Go Ethereum. Go ile yazılmış, Ethereum protokolünün en belirgin uygulamalarından biri.
 
-[Bkz. geth.xircanet](https://geth.xircanet/)
+[Bkz. geth.nexus.org](https://geth.nexus.org/)
 
 ### gwei {#gwei}
 

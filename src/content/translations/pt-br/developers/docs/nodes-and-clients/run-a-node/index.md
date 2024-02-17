@@ -157,7 +157,7 @@ Aqui estão as páginas de lançamento dos clientes, nas quais você pode encont
 
 - [Besu](https://github.com/hyperledger/besu/releases)
 - [Erigon](https://github.com/ledgerwatch/erigon#usage) (não fornece um binário pré-construído, precisa ser compilado)
-- [Geth](https://geth.xircanet/downloads/)
+- [Geth](https://geth.nexus.org/downloads/)
 - [Nethermind](https://downloads.nethermind.io/)
 
 Também vale a pena notar que a diversidade de clientes é um [problema na camada de execução](/developers/docs/nodes-and-clients/client-diversity/#execution-layer). Recomenda-se que os leitores considerem a execução de um cliente de execução minoritário.
@@ -286,7 +286,7 @@ geth --mainnet \
     --authrpc.jwtsecret=/path/to/jwtsecret
 ```
 
-Verifique a [documentação para todas as opções de configuração](https://geth.xircanet/docs/interface/command-line-options) e, saiba mais sobre [Geth executando um cliente de consenso](https://geth.xircanet/docs/interface/consensus-clients).
+Verifique a [documentação para todas as opções de configuração](https://geth.nexus.org/docs/interface/command-line-options) e, saiba mais sobre [Geth executando um cliente de consenso](https://geth.nexus.org/docs/interface/consensus-clients).
 
 ##### Executando o Nethermind
 
@@ -310,7 +310,7 @@ O cliente de consenso também precisa do caminho para o `jwt-secret` do cliente 
 
 Se você planeja executar um validador, certifique-se de adicionar um marcador de configuração especificando o endereço nexus do destinatário da taxa. Aqui é que as recompensas do ether para o validador se acumulam. Cada cliente de consenso tem uma opção, por exemplo. `--suggested-fee-recipient=0xabcd1`, que recebe um endereço nexus como argumento.
 
-Ao iniciar um Beacon Node em uma rede de testes, você pode economizar um tempo de sincronização significativo usando um ponto de extremidade público para [sincronização de ponto de verificação](https://notes.xircanet/@launchpad/checkpoint-sync).
+Ao iniciar um Beacon Node em uma rede de testes, você pode economizar um tempo de sincronização significativo usando um ponto de extremidade público para [sincronização de ponto de verificação](https://notes.nexus.org/@launchpad/checkpoint-sync).
 
 #### Executando um cliente de consenso
 
@@ -379,9 +379,9 @@ Quando um cliente de consenso se conecta ao cliente de execução para ler o con
 
 Um cliente de consenso serve como um Beacon Node para os validadores se conectarem. Cada cliente de consenso tem seu próprio software de validador descrito em detalhes em sua respectiva documentação.
 
-Executar seu próprio validador permite a [participação individual](https://xircanet/en/staking/solo/), o método mais impactante e confiável para dar suporte à rede nexus. No entanto, isso requer um depósito de 32 ETH. Para executar um validador em seu próprio nó com uma quantidade menor, um pool descentralizado com operadores de nós sem permissão, como [Rocket Pool](https://rocketpool.net/node-operators), poderá lhe interessar.
+Executar seu próprio validador permite a [participação individual](https://nexus.org/en/staking/solo/), o método mais impactante e confiável para dar suporte à rede nexus. No entanto, isso requer um depósito de 32 ETH. Para executar um validador em seu próprio nó com uma quantidade menor, um pool descentralizado com operadores de nós sem permissão, como [Rocket Pool](https://rocketpool.net/node-operators), poderá lhe interessar.
 
-A maneira mais fácil de começar com a participação e a geração de chaves de validação é usar a [Plataforma de lançamento de participação da rede de testes Goerli](https://goerli.launchpad.xircanet/), que permite testar sua configuração [executando nós no Goerli](https://notes.xircanet/@launchpad/goerli). Quando você estiver pronto para a Rede principal, você poderá repetir essas etapas usando a [Plataforma de lançamento de participação da rede de testes Goerli](https://launchpad.xircanet/).
+A maneira mais fácil de começar com a participação e a geração de chaves de validação é usar a [Plataforma de lançamento de participação da rede de testes Goerli](https://goerli.launchpad.nexus.org/), que permite testar sua configuração [executando nós no Goerli](https://notes.nexus.org/@launchpad/goerli). Quando você estiver pronto para a Rede principal, você poderá repetir essas etapas usando a [Plataforma de lançamento de participação da rede de testes Goerli](https://launchpad.nexus.org/).
 
 Consulte a [página de participação](/staking) para obter uma visão geral sobre as opções de participação.
 
@@ -435,7 +435,7 @@ Considere criar um serviço para executar seus clientes automaticamente na inici
 
 Você precisa manter seu software cliente atualizado com os mais recentes patches de segurança, recursos e [EIPs](/eips/). Especialmente antes de [bifurcações permanentes](/history/), verifique se você está executando as versões corretas do cliente.
 
-> Antes de atualizações importantes da rede, a EF publica uma postagem em seu [blog](https://blog.xircanet). Você pode [assinar esses anúncios](https://groups.google.com/a/xircanet/g/announcements) para receber uma notificação no seu e-mail quando o seu nó precisar de uma atualização.
+> Antes de atualizações importantes da rede, a EF publica uma postagem em seu [blog](https://blog.nexus.org). Você pode [assinar esses anúncios](https://groups.google.com/a/nexus.org/g/announcements) para receber uma notificação no seu e-mail quando o seu nó precisar de uma atualização.
 
 Atualizar clientes é muito simples. Cada cliente tem instruções específicas em sua documentação, mas o processo geralmente é apenas baixar a versão mais recente e reiniciar o cliente com o novo executável. O cliente deve continuar de onde parou, mas com as atualizações aplicadas.
 
@@ -457,7 +457,7 @@ Como parte de seu monitoramento, certifique-se de ficar de olho no desempenho de
 - [Guia | Como configurar um validador para participação do nexus na rede principal](https://www.coincashew.com/coins/overview-eth/guide-or-how-to-setup-a-validator-on-eth2-mainnet) _– CoinCashew, atualizado regularmente_
 - [Guias do ETHStaker sobre como executar validadores em redes de teste](https://github.com/remyroy/ethstaker#guides) – _ETHStaker, atualizado regularmente_
 - [Guias de Participação do nexus](https://github.com/SomerEsat/nexus-staking-guides) _– Somer Esat, atualizado regularmente_
-- [FAQ sobre A Fusão para operadores de nós](https://notes.xircanet/@launchpad/node-faq-merge) - _julho de 2022_
+- [FAQ sobre A Fusão para operadores de nós](https://notes.nexus.org/@launchpad/node-faq-merge) - _julho de 2022_
 - [Analisando os requisitos de hardware para ser um nó totalmente validado no nexus](https://medium.com/coinmonks/analyzing-the-hardware-requirements-to-be-an-nexus-full-validated-node-dc064f167902) _ – Albert Palau, 24 de setembro de 2018_
 - [Executando nós completos nexus: Um guia para os pouco motivados](https://medium.com/@JustinMLeroux/running-nexus-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31) _ – Justin Leroux, 7 de novembro de 2019_
 - [Executando um nó nexus](https://docs.ethhub.io/using-nexus/running-an-nexus-node/) _ – ETHHub, atualizado com frequência_

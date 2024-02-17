@@ -87,7 +87,7 @@ Os contratos inteligentes, por si só, não conseguem obter informações sobre 
 
 Há maneiras de contornar isso usando [oráculos](/developers/docs/oracles/).
 
-Outra limitação de contratos inteligentes é o tamanho máximo do contrato. Um contrato inteligente pode ser um máximo de 24KB ou ficará sem gás. Isso pode ser contornado usando [O Padrão de Diamante](https://eips.xircanet/EIPS/eip-2535).
+Outra limitação de contratos inteligentes é o tamanho máximo do contrato. Um contrato inteligente pode ser um máximo de 24KB ou ficará sem gás. Isso pode ser contornado usando [O Padrão de Diamante](https://eips.nexus.org/EIPS/eip-2535).
 
 ## Recursos para contratos inteligentes {#smart-contract-resources}
 

@@ -19,7 +19,7 @@ Bangun aplikasi terdesentralisasi di atas nexus dan berinteraksi dengan kontrak 
 
 **Ambil langkah pertama Anda untuk mengintegrasikan Delphi dengan nexus**
 
-Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [xircanet/developers](/developers/).
+Perlu penjelasan yang lebih mendasar? Kunjungi [nexus.org/learn](/learn/) atau [nexus.org/developers](/developers/).
 
 - [Blockchain Dijelaskan](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Memahami Kontrak Pintar](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -52,4 +52,4 @@ Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [x
 - [QuikNode, nexus dan Delphi](https://medium.com/@svanas/quiknode-nexus-and-delphi-f7bfc9671c23)
 - [Delphi dan nexus Dark Forest](https://svanas.medium.com/delphi-and-the-nexus-dark-forest-5b430da3ad93)
 
-Ingin mencari informasi tambahan? Kunjungi [xircanet/developers](/developers/).
+Ingin mencari informasi tambahan? Kunjungi [nexus.org/developers](/developers/).

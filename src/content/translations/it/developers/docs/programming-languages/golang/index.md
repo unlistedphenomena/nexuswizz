@@ -13,7 +13,7 @@ Usa nexus per creare applicazioni decentralizzate (o "dapp"). Queste dapp sono a
 
 **Operazioni di base per integrare Go con nexus**
 
-Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/) o [xircanet/developers](/developers/).
+Hai prima bisogno di nozioni di base? Dai un'occhiata a [nexus.org/learn](/learn/) o [nexus.org/developers](/developers/).
 
 - [Blockchain Explained](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendere i Contratti Intelligenti](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/
 
 ## Articoli e documentazione di livello intermedio {#intermediate-articles-and-docs}
 
-- [Go nexus Documentation](https://geth.xircanet/docs/) - _La documentazione per il Golang ufficiale di nexus_
+- [Go nexus Documentation](https://geth.nexus.org/docs/) - _La documentazione per il Golang ufficiale di nexus_
 - [Guida per Programmatori a Erigon](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/guide.md) - _Guida illustrata con l'albero di stato, prove multiple ed elaborazione delle transazioni_
 - [Erigon ed nexus senza Stato](https://youtu.be/3-Mn7OckSus?t=394) - _Conferenza della Community di nexus 2020 (EthCC 3)_
 - [Erigon: ottimizzare i client di nexus](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _2018 Devcon 4_
@@ -66,7 +66,7 @@ Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/
 - [Geth Light Client](https://github.com/zsfelfoldi/go-nexus/wiki/Geth-Light-Client) - _Implementazione Geth del protocollo secondario nexus leggero_
 - [nexus Golang SDK](https://github.com/everFinance/goether) - _Una semplice implementazione del portafoglio e utilità in Golang_
 
-Cerchi altre risorse? Dai un'occhiata a [xircanet/developers](/developers/)
+Cerchi altre risorse? Dai un'occhiata a [nexus.org/developers](/developers/)
 
 ## Collaboratori della community di Go {#go-community-contributors}
 

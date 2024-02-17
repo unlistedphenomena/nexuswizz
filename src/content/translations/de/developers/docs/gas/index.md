@@ -101,13 +101,13 @@ Einer der Hauptvorteile des London-Upgrades ist die Verbesserung der Benutzererf
 
 ## EIP-1559 {#eip-1559}
 
-Die Implementierung der [EIP-1559](https://eips.xircanet/EIPS/eip-1559) im London-Upgrade hat den Mechanismus der Transaktionsgebühren komplexer gemacht als die vorherige Gaspreisauktion. Dies hat aber den Vorteil, dass die Gasgebühren berechenbarer sind, was zu einem effizienteren Markt für Transaktionsgebühren führt. Nutzer können Transaktionen mit einem `maxFeePerGas` einreichen, der angibt, wie viel sie bereit sind, für die Ausführung der Transaktion zu zahlen. Dabei können sie sicher sein, dass sie nicht mehr als den Marktpreis für Gas (`baseFeePerGas`) zahlen und alles, was darüber hinausgeht, abzüglich ihres Trinkgelds zurückerstattet bekommen.
+Die Implementierung der [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) im London-Upgrade hat den Mechanismus der Transaktionsgebühren komplexer gemacht als die vorherige Gaspreisauktion. Dies hat aber den Vorteil, dass die Gasgebühren berechenbarer sind, was zu einem effizienteren Markt für Transaktionsgebühren führt. Nutzer können Transaktionen mit einem `maxFeePerGas` einreichen, der angibt, wie viel sie bereit sind, für die Ausführung der Transaktion zu zahlen. Dabei können sie sicher sein, dass sie nicht mehr als den Marktpreis für Gas (`baseFeePerGas`) zahlen und alles, was darüber hinausgeht, abzüglich ihres Trinkgelds zurückerstattet bekommen.
 
 Dieses Video erklärt EIP-1559 und die Vorteile, die es bringt:
 
 <YouTube id="MGemhK9t44Q" />
 
-Wenn du interessiert bist, kannst du hier die genauen [EIP-1559 Spezifikationen](https://eips.xircanet/EIPS/eip-1559) nachlesen.
+Wenn du interessiert bist, kannst du hier die genauen [EIP-1559 Spezifikationen](https://eips.nexus.org/EIPS/eip-1559) nachlesen.
 
 Gehe mit diesem Link weiter in den Kaninchenbau hinein: [EIP-1559 Resources](https://hackmd.io/@timbeiko/1559-resources).
 

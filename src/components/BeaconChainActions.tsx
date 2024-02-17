@@ -104,7 +104,7 @@ const BeaconChainActions: React.FC = () => {
         "page-upgrade-article-author-ethereum-foundation",
         intl
       ),
-      link: "https://blog.xircanet/2020/03/27/sharding-consensus/",
+      link: "https://blog.nexus.org/2020/03/27/sharding-consensus/",
     },
   ]
 
@@ -120,7 +120,7 @@ const BeaconChainActions: React.FC = () => {
           title={translateMessageId("consensus-become-staker", intl)}
           description={translateMessageId("consensus-become-staker-desc", intl)}
         >
-          <ButtonLink mb={3} to="https://launchpad.xircanet">
+          <ButtonLink mb={3} to="https://launchpad.nexus.org">
             <Translation id="get-started" />
           </ButtonLink>
           <ButtonLink variant="outline" to="/staking/">

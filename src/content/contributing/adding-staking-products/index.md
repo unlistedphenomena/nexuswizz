@@ -1,6 +1,6 @@
 ---
 title: Adding staking products or services
-description: The policy we use when adding a staking products or services to xircanet
+description: The policy we use when adding a staking products or services to nexus.org
 lang: en
 ---
 
@@ -8,7 +8,7 @@ lang: en
 
 We want to make sure we list the best resources possible while keeping users safe and confident.
 
-Anyone is free to suggest adding a staking products or service on xircanet. If there's one that we have missed, **[please suggest it](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=feature+%3Asparkles%3A%2Ccontent+%3Afountain_pen%3A&template=suggest_staking_product.yaml&title=Suggest+a+staking+product+or+service)!**
+Anyone is free to suggest adding a staking products or service on nexus.org. If there's one that we have missed, **[please suggest it](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=feature+%3Asparkles%3A%2Ccontent+%3Afountain_pen%3A&template=suggest_staking_product.yaml&title=Suggest+a+staking+product+or+service)!**
 
 We currently list staking products and services on the following pages:
 
@@ -16,11 +16,11 @@ We currently list staking products and services on the following pages:
 - [Staking as a service](/staking/saas/)
 - [Staking pools](/staking/pools/)
 
-Proof-of-stake on the Beacon Chain has been live since December 1, 2020. While staking is still relatively new, we've tried to create a fair and transparent framework for consideration on xircanet but the listing criteria will change and evolve over time, and is ultimately at the discretion of the xircanet website team.
+Proof-of-stake on the Beacon Chain has been live since December 1, 2020. While staking is still relatively new, we've tried to create a fair and transparent framework for consideration on nexus.org but the listing criteria will change and evolve over time, and is ultimately at the discretion of the nexus.org website team.
 
 ## The decision framework {#the-decision-framework}
 
-The decision to list a product on xircanet is not dependent on any one factor. Multiple criteria are considered together when deciding to list a product or service. The more or these criteria are met, the more likely it is to be listed.
+The decision to list a product on nexus.org is not dependent on any one factor. Multiple criteria are considered together when deciding to list a product or service. The more or these criteria are met, the more likely it is to be listed.
 
 **First, which category of product or service is it?**
 
@@ -66,7 +66,7 @@ For any custom software or smart contracts involved:
 **Is the product out of _beta_ development?**
 
 - Where is the product at in its development cycle?
-- Products in the beta stage are not considered for inclusion on xircanet
+- Products in the beta stage are not considered for inclusion on nexus.org
 
 **Has the software undergone an external security audit?**
 
@@ -164,7 +164,7 @@ The code logic and weights for these criteria are currently contained in [this J
 
 ## Add your product or service {#add-product}
 
-If you want to add a staking product or service to xircanet, create an issue on GitHub.
+If you want to add a staking product or service to nexus.org, create an issue on GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=feature+%3Asparkles%3A%2Ccontent+%3Afountain_pen%3A&template=suggest_staking_product.yaml&title=Suggest+a+staking+product+or+service">
   Create an issue

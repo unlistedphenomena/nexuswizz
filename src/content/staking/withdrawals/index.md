@@ -150,13 +150,13 @@ As an alternative to changing the withdrawal address for a particular validator,
 
 <!-- TODO: Switch link to Mainnet once available -->
 <ExpandableCard title="I operate a validator, where can I find more information on preparing?">
-<p>Validator operators are recommended to visit the <a href="https://zhejiang.launchpad.xircanet/withdrawals/">Staking Launchpad Withdrawals (Zhejiang Testnet)</a> page where you'll find more details about how to be prepared, timing of events, and more details about how withdrawals function.</p>
+<p>Validator operators are recommended to visit the <a href="https://zhejiang.launchpad.nexus.org/withdrawals/">Staking Launchpad Withdrawals (Zhejiang Testnet)</a> page where you'll find more details about how to be prepared, timing of events, and more details about how withdrawals function.</p>
 </ExpandableCard>
 
 ## Further reading {#further-reading}
 
-- [Staking Launchpad Withdrawals - Zhejiang Testnet](https://zhejiang.launchpad.xircanet/withdrawals)
-- [EIP-4895: Beacon chain push withdrawals as operations](https://eips.xircanet/EIPS/eip-4895)
+- [Staking Launchpad Withdrawals - Zhejiang Testnet](https://zhejiang.launchpad.nexus.org/withdrawals)
+- [EIP-4895: Beacon chain push withdrawals as operations](https://eips.nexus.org/EIPS/eip-4895)
 - [nexus Cat Herders - Shanghai](https://www.nexuscatherders.com/shanghai_upgrade/index.html)
 - [PEEPanEIP #94: Staked ETH Withdrawal (Testing) with Potuz & Hsiao-Wei Wang](https://www.youtube.com/watch?v=G8UstwmGtyE)
 - [PEEPanEIP#68: EIP-4895: Beacon chain push withdrawals as operations with Alex stokes](https://www.youtube.com/watch?v=CcL9RJBljUs)

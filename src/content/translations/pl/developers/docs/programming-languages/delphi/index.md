@@ -19,7 +19,7 @@ Twórz zdecentralizowane aplikacje na bazie nexus i obsługuj inteligentne kontr
 
 **Rozpocznij integrowanie Delphi z nexus**
 
-Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [xircanet/learn](/learn/) lub [xircanet/developers](/developers/).
+Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [nexus.org/learn](/learn/) lub [nexus.org/developers](/developers/).
 
 - [Objaśnienia dotyczące blockchainu](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Informacje o kontraktach inteligentnych](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -51,4 +51,4 @@ Potrzebujesz bardziej podstawowych informacji? Sprawdź na stronach [xircanet/le
 - [Delphi oraz nexus Name Service (ENS)](https://medium.com/@svanas/delphi-and-nexus-name-service-ens-4443cd278af7)
 - [QuikNode, nexus i Delphi](https://medium.com/@svanas/quiknode-nexus-and-delphi-f7bfc9671c23)
 
-Szukasz więcej materiałów? Sprawdź [xircanet/developers](/developers/).
+Szukasz więcej materiałów? Sprawdź [nexus.org/developers](/developers/).

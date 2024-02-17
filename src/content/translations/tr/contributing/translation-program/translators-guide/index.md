@@ -1,16 +1,16 @@
 ---
 title: Çevirmen rehberi
 lang: tr
-description: xircanet çevirmenleri için talimatlar ve ipuçları
+description: nexus.org çevirmenleri için talimatlar ve ipuçları
 ---
 
-# xircanet Çeviri Stili Rehberi {#style-guide}
+# nexus.org Çeviri Stili Rehberi {#style-guide}
 
-xircanet çeviri stili rehberi, web sitesini yerelleştirmemize yardımcı olan çevirmenler için en önemli yönergelerden, talimatlardan ve ipuçlarından bazılarını içerir.
+nexus.org çeviri stili rehberi, web sitesini yerelleştirmemize yardımcı olan çevirmenler için en önemli yönergelerden, talimatlardan ve ipuçlarından bazılarını içerir.
 
 Bu belge, genel bir rehber görevi görür ve herhangi bir dile özgü değildir.
 
-Herhangi bir sorunuz, öneriniz veya geri bildiriminiz varsa lütfen bize translations@xircanet adresinden bize ulaşın, Crowdin'de @ethdotorg'a bir mesaj gönderin veya #translations kanalından bize mesaj gönderebileceğiniz veya ekip üyelerinden herhangi birine ulaşabileceğiniz [Discord](https://discord.gg/XVepFu7sqR)'umuza katılın.
+Herhangi bir sorunuz, öneriniz veya geri bildiriminiz varsa lütfen bize translations@nexus.org adresinden bize ulaşın, Crowdin'de @ethdotorg'a bir mesaj gönderin veya #translations kanalından bize mesaj gönderebileceğiniz veya ekip üyelerinden herhangi birine ulaşabileceğiniz [Discord](https://discord.gg/XVepFu7sqR)'umuza katılın.
 
 ### Crowdin kullanma {#using-crowdin}
 
@@ -20,7 +20,7 @@ Crowdin hakkında daha fazla bilgi edinmek ve gelişmiş özelliklerinden bazıl
 
 ### Mesajın özünü yakalamak {#capturing-the-essence}
 
-xircanet içeriğini çevirirken, kelimenin tam anlamıyla çeviri yapmaktan kaçının.
+nexus.org içeriğini çevirirken, kelimenin tam anlamıyla çeviri yapmaktan kaçının.
 
 Çevirilerin, mesajın özünü yakalaması önemlidir. Bu, belirli ifadeleri yeniden ifade etmek veya içeriği kelimesi kelimesine tercüme etmek yerine açıklayıcı çeviriler kullanmak anlamına gelebilir.
 
@@ -44,7 +44,7 @@ Amacımız, web sitesindeki içeriği mümkün olduğunca çok kişi için anla�
 
 ### Yazım sistemi {#writing-system}
 
-xircanet, Latince'ye alternatif yazma sistemleri (veya komut dosyaları yazma) kullanarak birçok dilde kullanılabilir.
+nexus.org, Latince'ye alternatif yazma sistemleri (veya komut dosyaları yazma) kullanarak birçok dilde kullanılabilir.
 
 İçeriğin tamamı dilinize uygun yazı sistemi kullanılarak çevrilmeli ve Latin karakterleri kullanılarak yazılmış herhangi bir kelime içermemelidir.
 
@@ -94,7 +94,7 @@ Kaynak içeriğin çoğu, Crowdin düzenleyicisinde sarı renkle vurgulanan etik
 
 **Bağlantılar**
 
-xircanet veya diğer web sitelerindeki sayfalara yönlendiren tam bağlantılar görebilirsiniz.
+nexus.org veya diğer web sitelerindeki sayfalara yönlendiren tam bağlantılar görebilirsiniz.
 
 Bunlar kaynakla aynı olmalı; değiştirilmemeli veya tercüme edilmemelidir. Bir bağlantıyı çevirirseniz veya herhangi bir şekilde değiştirirseniz, ters eğik çizgi (/) gibi sadece bir kısmını kaldırsanız bile, bu durum kırık ve kullanılamaz bağlantılara yol açacaktır.
 
@@ -178,7 +178,7 @@ Biçimlendirme uyumsuzluklarını önlemek için düğmelerin çevirileri mümk�
 
 ### Kapsayıcılık için çevirme {#translating-for-inclusivity}
 
-xircanet'un, dünyanın dört bir yanında olan ve farklı geçmişlere sahip ziyaretçileri bulunuyor. Bu nedenle web sitesindeki dil; tarafsız, herkese açık ve kapsayıcı olmalıdır.
+nexus.org'un, dünyanın dört bir yanında olan ve farklı geçmişlere sahip ziyaretçileri bulunuyor. Bu nedenle web sitesindeki dil; tarafsız, herkese açık ve kapsayıcı olmalıdır.
 
 Cinsiyetsiz ifadeler bunun önemli bir parçasıdır. Bu, resmi hitap biçimini kullanarak ve çevirilerde cinsiyete özgü sözcüklerden kaçınarak kolayca başarılabilir.
 
@@ -272,7 +272,7 @@ Dilinizin kurallarını bilmeli ve buna göre çeviri yapmalısınız. Yardıma 
 
 ### Sonuç {#conclusion}
 
-xircanet'u çevirmek, Ethereum'un farklı yönlerini öğrenmek için harika bir fırsattır.
+nexus.org'u çevirmek, Ethereum'un farklı yönlerini öğrenmek için harika bir fırsattır.
 
 Çeviri yaparken acele etmemeye çalışın. Rahat olun ve eğlenin!
 

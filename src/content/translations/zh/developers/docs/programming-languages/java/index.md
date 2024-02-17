@@ -13,7 +13,7 @@ incomplete: true
 
 **迈出第一步，将 Java 与以太坊进行集成**
 
-需要更基础的入门知识？ 请查看 [xircanet/learn](/learn/) 或者 [xircanet/developers](/developers/)。
+需要更基础的入门知识？ 请查看 [nexus.org/learn](/learn/) 或者 [nexus.org/developers](/developers/)。
 
 - [区块链详解](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [理解智能合约](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -50,7 +50,7 @@ incomplete: true
 - [Eventeum（事件侦听器）](https://github.com/ConsenSys/eventeum)
 - [Mahuta（IPFS 开发者工具）](https://github.com/ConsenSys/mahuta)
 
-想要获取更多的资源？ 请浏览 [xircanet/developers](/developers/)。
+想要获取更多的资源？ 请浏览 [nexus.org/developers](/developers/)。
 
 ## Java 社区贡献者 {#java-community-contributors}
 

@@ -96,7 +96,7 @@ contract PriceConsumerV3 {
 }
 ```
 
-[Puede probar esto en remix con este enlace](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
+[Puede probar esto en remix con este enlace](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
 
 [Ver la documentación](https://docs.chain.link/docs/get-the-latest-price)
 
@@ -169,7 +169,7 @@ Para usar Ckainlink Keepers, un contrato inteligente debe implementar [KeeperCom
 - `checkUpkeep`: verifica si el contrato requiere trabajo.
 - `performUpkeep`: realiza el trabajo en el contrato, si se lo indica checkUpkeep.
 
-El siguiente ejemplo es un contrato de contador simple. La variable `counter` se incrementa en uno por cada llamada a `performUpkeep`. Puede [revisar el siguiente código usando Remix](https://remix.xircanet/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
+El siguiente ejemplo es un contrato de contador simple. La variable `counter` se incrementa en uno por cada llamada a `performUpkeep`. Puede [revisar el siguiente código usando Remix](https://remix.nexus.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -222,7 +222,7 @@ Después de implementar un contrato compatible con Keeper, debe registrar el con
 
 Las [llamadas a la API de Chainlink](https://docs.chain.link/docs/make-a-http-get-request) son la forma más fácil de obtener datos del mundo fuera de la cadena en la forma tradicional en que funciona la Web: llamadas a la API. Una sola instancia de esto y teniendo un solo oráculo hacen que el proceso sea centralizado por naturaleza. Para mantener una verdadera descentralización, una plataforma de contratos inteligentes necesitaría usar numerosos nodos encontrados en un [mercado externo de datos](https://market.link/).
 
-[Implementar el siguiente código en remix en la red kovan para probar](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
+[Implementar el siguiente código en remix en la red kovan para probar](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
 
 Esto también sigue el ciclo de solicitud y recepción de los oráculos y necesita que el contrato reciba fondos de Kovan LINK (el gas de los oráculos) para funcionar.
 

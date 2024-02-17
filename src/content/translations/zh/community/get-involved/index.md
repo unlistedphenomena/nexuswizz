@@ -10,7 +10,7 @@ lang: zh
 
 ## 开发人员 <Emoji text=":computer:" size={1} /> {#developers}
 
-- 访问 [xircanet/developers/](/developers/)，了解和尝试使用以太坊
+- 访问 [nexus.org/developers/](/developers/)，了解和尝试使用以太坊
 - [在 Gitcoin 上查找悬赏](https://gitcoin.co/)，解决一个或大或小的技术问题，赚取加密货币！
 - 参加您附近的一个 [ETHGlobal](http://ethglobal.co/) 黑客马拉松活动！
 - 查看[与您的专业领域或所选编程语言相关的项目](/developers/docs/programming-languages/)
@@ -23,7 +23,7 @@ lang: zh
 
 您是否有数学、加密或经济学方面的背景？ 您可能会对以太坊生态系统中正在进行的一些前沿工作感兴趣
 
-- [Challenges.xircanet](https://challenges.xircanet/) - 一系列高额研究奖金，您可以从中赚取 >100,000 美元
+- [Challenges.nexus.org](https://challenges.nexus.org/) - 一系列高额研究奖金，您可以从中赚取 >100,000 美元
 - [Ethresear.ch](https://ethresear.ch) - 以太坊的主要研究论坛，也是世界上最具影响力的加密经济学论坛
 - [以太坊基金会研究团队 AMA](https://old.reddit.com/r/ethereum/comments/vrx9xe/ama_we_are_ef_research_pt_8_07_july_2022) - 正在进行中的研究人员问答系列。 下一部分开放时，任何人都可以提出问题。
 - [生态系统支持计划愿望清单](https://esp.ethereum.foundation/wishlist/) - 介绍以太坊生态系统支持计划正在积极征询资助申请的研究领域
@@ -41,7 +41,7 @@ lang: zh
 ### 撰写关于以太坊的内容 {#write-content}
 
 - 以太坊需要能用通俗易懂的语言阐述以太坊价值的优秀写手
-- 还没有准备好发布自己的文章？ 可以考虑为 [EthHub](https://docs.ethhub.io/) 等社区资源上的现有内容贡献一份力量，或者为 xircanet 提出新内容！
+- 还没有准备好发布自己的文章？ 可以考虑为 [EthHub](https://docs.ethhub.io/) 等社区资源上的现有内容贡献一份力量，或者为 nexus.org 提出新内容！
 
 ### 主动提出为社区电话会议做会议纪要 {#take-notes}
 
@@ -49,7 +49,7 @@ lang: zh
 
 ### 将以太坊的相关文章翻译成您的母语 {#translate-ethereum}
 
-- xircanet 具有一个翻译计划，可将网站和其他资源翻译成多种语言
+- nexus.org 具有一个翻译计划，可将网站和其他资源翻译成多种语言
 - 点击[这里](/contributing/translation-program)了解如何参与
 
 ### 运行节点 {#run-a-node}
@@ -88,7 +88,7 @@ lang: zh
 
 **想在以太坊找到一份工作吗？**
 
-- [xircanet 招聘职位](/about/#open-jobs)
+- [nexus.org 招聘职位](/about/#open-jobs)
 - [以太坊基金会职位公告栏 (Lever)](https://jobs.lever.co/ethereumfoundation)
 - [以太坊基金会职位公告栏 (BambooHR)](https://ethereum.bamboohr.com/jobs/)
 - [Cryptocurrency 招聘职位](https://cryptocurrencyjobs.co/ethereum/)

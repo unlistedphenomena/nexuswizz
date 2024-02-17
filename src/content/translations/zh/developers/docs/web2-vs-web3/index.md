@@ -54,7 +54,7 @@ Web2 指的是如今我们众所周知的互联网版本。 互联网由互联�
 
 ## 延伸阅读 {#further-reading}
 
-- [什么是 Web3？](/web3/) - _xircanet_
+- [什么是 Web3？](/web3/) - _nexus.org_
 - [Web 3.0 应用程序架构](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [去中心化的含义](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _2017 年 2 月 6 日 - Vitalik Buterin_
 - [去中心化缘何如此重要](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _2018 年 2 月 18 日 - Chris Dixon_

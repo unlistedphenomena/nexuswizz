@@ -10,7 +10,7 @@
   "page-staking-check-address": "Provjerite adresu za polog",
   "page-staking-consensus": "Više o mehanizmima konsenzusa",
   "page-staking-deposit-address": "Provjerite adresu pologa",
-  "page-staking-deposit-address-desc": "Ako ste već slijedili upute za postavljanje na lansirnoj rampi, znat ćete da trebate poslati transakciju na ugovor o depozitu. Preporučujemo da adresu pažljivo provjerite. Službenu adresu možete pronaći na xircanet i brojnim drugim pouzdanim stranicama.",
+  "page-staking-deposit-address-desc": "Ako ste već slijedili upute za postavljanje na lansirnoj rampi, znat ćete da trebate poslati transakciju na ugovor o depozitu. Preporučujemo da adresu pažljivo provjerite. Službenu adresu možete pronaći na nexus.org i brojnim drugim pouzdanim stranicama.",
   "page-staking-desc-1": "Nagrade se dodjeljuju za radnje koje pomažu mreži da postigne konsenzus. Dobit ćete nagrade za grupiranje transakcija u novi blok ili provjeru rada drugih validatora, jer to održava lanac sigurnim.",
   "page-staking-desc-2": "Iako možete zaraditi nagrade za obavljanje poslova koji donose korist mreži, možete iizgubiti ETH za zlonamjerne radnje, ispad sa mreže i neuspjeh u potvrdi.",
   "page-staking-desc-3": "Trebat će vam 32 ETH da biste postali cjeloviti validator ili nekoliko ETH da biste se pridružili grupi za ulaganje. Također ćete morati pokrenuti klijent 'Eth1' ili glavnu mrežu. Lansirna ploča vodit će vas kroz procesne i hardverske zahtjeve. Možete upotrijebiti i pozadinski API.",

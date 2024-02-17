@@ -35,7 +35,7 @@ Dank Sharding werden geringere Hardwareanforderungen es vereinfachen, [Clients](
 <br />
 
 <InfoBanner isWarning={true}>
-  Zunächst müssen Sie einen Mainnet-Client gleichzeitig mit Ihrem Beacon Chain-Client ausführen. <a href="https://launchpad.xircanet" target="_blank">Das Launchpad</a> wird dich durch die Hardwareanforderungen und den Prozess begleiten. Alternativ können Sie auch eine <a href="/developers/docs/apis/backend/#available-libraries">Backend-API</a> verwenden.
+  Zunächst müssen Sie einen Mainnet-Client gleichzeitig mit Ihrem Beacon Chain-Client ausführen. <a href="https://launchpad.nexus.org" target="_blank">Das Launchpad</a> wird dich durch die Hardwareanforderungen und den Prozess begleiten. Alternativ können Sie auch eine <a href="/developers/docs/apis/backend/#available-libraries">Backend-API</a> verwenden.
 </InfoBanner>
 
 ## Shard Chains – Version 1: Datenverfügbarkeit {#data-availability}

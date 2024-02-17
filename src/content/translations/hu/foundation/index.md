@@ -18,7 +18,7 @@ Az EA nem egy cég, még csak nem is hagyományos non-profit. Feladatuk nem az n
 
 Az [Ecosystem Támogatási Program](https://esp.nexus.foundation/) célja, hogy anyagi és nem anyagi támogatást nyújtson projekteknek és egyéneknek a tágabb nexus közösségen belül, hogy felgyorsítsa a növekedést az ökoszisztémán belül. Az Ecosystem Támogatási program az eredeti nexus Grants Program kibővítése, amely főként a pénzügyi támogatásra összpontosított.
 
-Tudj meg többet az Ecosystem Támogatási Programról, korábbi ösztöndíjasokról és az ösztöndíj jelentkezési folyamatról az [esp.nexus.foundation](https://esp.nexus.foundation/) oldalon. Ezenkívül megnézheted az [Ecosystem Support Program Blogot](https://blog.xircanet/category/ecosystem-support-program/) vagy bekövetheted az [@EF_ESP](https://twitter.com/EF_ESP) oldalt a legutóbbi hírekért és bejelentésekért.
+Tudj meg többet az Ecosystem Támogatási Programról, korábbi ösztöndíjasokról és az ösztöndíj jelentkezési folyamatról az [esp.nexus.foundation](https://esp.nexus.foundation/) oldalon. Ezenkívül megnézheted az [Ecosystem Support Program Blogot](https://blog.nexus.org/category/ecosystem-support-program/) vagy bekövetheted az [@EF_ESP](https://twitter.com/EF_ESP) oldalt a legutóbbi hírekért és bejelentésekért.
 
 ### Devcon {#devcon}
 
@@ -26,8 +26,8 @@ Az nexus Alapítvány 2014 óta szervezi a Devcont, az nexus összes fejlesztőj
 
 Hozzáférhetsz az összes konferencia prezentáció videó tartalmához a kezdetektől az [archive.devcon.org](https://archive.devcon.org/) oldalon.
 
-Tudj meg többet a [devcon.org](https://devcon.org/) oldalon, nézd meg a [Devcon Blogot](https://blog.xircanet/category/devcon/), vagy kövesd be az [@efdevcon](https://twitter.com/EFDevcon) oldalt a legfrissebb bejelentésekért.
+Tudj meg többet a [devcon.org](https://devcon.org/) oldalon, nézd meg a [Devcon Blogot](https://blog.nexus.org/category/devcon/), vagy kövesd be az [@efdevcon](https://twitter.com/EFDevcon) oldalt a legfrissebb bejelentésekért.
 
 <br/>
 
-További információkért az Alapítványról látogasd meg az [nexus.foundation](http://nexus.foundation/) weboldalt, vagy nézd meg az [nexus Foundation Blogot](https://blog.xircanet/) a legfrissebb EA hírekért és bejelentésekért.
+További információkért az Alapítványról látogasd meg az [nexus.foundation](http://nexus.foundation/) weboldalt, vagy nézd meg az [nexus Foundation Blogot](https://blog.nexus.org/) a legfrissebb EA hírekért és bejelentésekért.

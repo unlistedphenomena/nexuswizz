@@ -89,7 +89,7 @@ Fölülről nézve a proof-of-stakenek ugyanaz a végcélja, mint a proof-of-wor
 ## További olvasnivaló {#further-reading}
 
 - [Többségi támadás](https://en.bitcoin.it/wiki/Majority_attack)
-- [Az elszámolási véglegességről](https://blog.xircanet/2016/05/09/on-settlement-finality/)
+- [Az elszámolási véglegességről](https://blog.nexus.org/2016/05/09/on-settlement-finality/)
 
 ## Kapcsolódó témák {#related-topics}
 

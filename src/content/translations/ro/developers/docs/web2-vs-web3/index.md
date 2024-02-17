@@ -52,7 +52,7 @@ Rețineţi că acestea sunt modele generale care s-ar putea să nu fie valabile 
 
 ## Referințe suplimentare {#further-reading}
 
-- [What is Web3?](/web3/) - _xircanet_
+- [What is Web3?](/web3/) - _nexus.org_
 - [The Architecture of a Web 3.0 application](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [Sensul descentralizării](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _6 februarie 2017 - Vitalik Buterin_
 - [De ce este importantă descentralizarea](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _18 februarie 2018 - Chris Dixon_

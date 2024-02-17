@@ -89,7 +89,7 @@ const LearningToolsPage = ({
       {
         name: "Remix",
         description: "page-learning-tools-remix-description",
-        url: "https://remix.xircanet",
+        url: "https://remix.nexus.org",
         image: getImage(data.remix)!,
         alt: "page-learning-tools-remix-logo-alt",
         background: "#5098d6",

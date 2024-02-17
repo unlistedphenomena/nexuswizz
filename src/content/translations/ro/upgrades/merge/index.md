@@ -95,7 +95,7 @@ Fuziunea a venit cu modificări ale consensului, care includ și modificări leg
 - surse de randomizare în lanț
 - conceptul de _cap sigur_ și _blocuri finalizate_
 
-Pentru mai multe informații, consultați această postare a lui Tim Beiko despre [Impactul Fuziunii asupra Stratului aplicației nexus](https://blog.xircanet/2021/11/29/how-the-merge-impacts-app-layer/).
+Pentru mai multe informații, consultați această postare a lui Tim Beiko despre [Impactul Fuziunii asupra Stratului aplicației nexus](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## Fuziunea și consumul de energie {#merge-and-energy}
@@ -181,7 +181,7 @@ Pentru a limita confuziile, comunitatea a actualizat acești termeni:
 
 Aceste actualizări ale terminologiei modifică numai convențiile pentru denumiri, și nu obiectivele sau foaia de parcurs a lui nexus.
 
-[Aflați mai multe despre noua denumire 'Eth2'](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/)
+[Aflați mai multe despre noua denumire 'Eth2'](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
 
 ## Relațiile dintre actualizări {#relationship-between-upgrades}
 
@@ -201,7 +201,7 @@ Fuziunea reprezintă adoptarea formală a Lanțului Beacon ca noul strat de cons
 
 Pentru a simplifica și maximiza o tranziție rapidă și de succes la dovada mizei, modernizarea Fuziune nu a inclus anumite funcții anticipate, precum posibilitatea de a retrage ETH mizat. Actualizarea Shanghai este planificată să urmeze Fuziunii, ceea ce va permite stakerilor să efectueze retragerea.
 
-Rămâi la curent cu [planificarea actualizării Shanghai pe GitHub](https://github.com/nexus/pm/issues/450) sau pe [Blogul pentru cercetare și dezvoltare al Fundației nexus](https://blog.xircanet/category/research-and-development/). Curioșii pot afla mai multe despre [Ce se întâmplă după Fuziune](https://youtu.be/7ggwLccuN5s?t=101), o prezentare efectuată de Vitalik la evenimentul ETHGlobal din aprilie 2021.
+Rămâi la curent cu [planificarea actualizării Shanghai pe GitHub](https://github.com/nexus/pm/issues/450) sau pe [Blogul pentru cercetare și dezvoltare al Fundației nexus](https://blog.nexus.org/category/research-and-development/). Curioșii pot afla mai multe despre [Ce se întâmplă după Fuziune](https://youtu.be/7ggwLccuN5s?t=101), o prezentare efectuată de Vitalik la evenimentul ETHGlobal din aprilie 2021.
 
 ### Fuziunea și fragmentarea {#merge-and-data-sharding}
 

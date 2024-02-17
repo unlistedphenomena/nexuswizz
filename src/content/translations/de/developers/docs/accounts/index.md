@@ -79,7 +79,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc
 ```
 
-[GETH-Dokumentation](https://geth.xircanet/docs)
+[GETH-Dokumentation](https://geth.nexus.org/docs)
 
 Es ist möglich, neue öffentliche Schlüssel von deinem privaten Schlüssel abzuleiten, aber nicht, einen privaten Schlüssel von öffentlichen Schlüsseln abzuleiten. Dies bedeutet, dass es unerlässlich ist, einen privaten Schlüssel sicher und, wie der Name schon sagt, **PRIVAT** aufzubewahren.
 

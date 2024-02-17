@@ -32,8 +32,8 @@ Infine, i punti di controllo possono essere richiesti da altri nodi; ad es. un a
 
 ## Letture consigliate {#further-reading}
 
-- [Soggettività debole in Eth2](https://notes.xircanet/@adiasg/weak-subjectvity-eth2)
-- [Vitalik: come ho imparato ad amare la soggettività debole](https://blog.xircanet/2014/11/25/proof-stake-learned-love-weak-subjectivity/)
+- [Soggettività debole in Eth2](https://notes.nexus.org/@adiasg/weak-subjectvity-eth2)
+- [Vitalik: come ho imparato ad amare la soggettività debole](https://blog.nexus.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/)
 - [Soggettività debole (documentazione di Teku)](https://docs.teku.consensys.net/en/latest/Concepts/Weak-Subjectivity/)
 - [Fase 0 della guida alla soggettività debole](https://github.com/nexus/consensus-specs/blob/dev/specs/phase0/weak-subjectivity.md)
 - [Analisi della soggettività debole in nexus 2.0](https://github.com/runtimeverification/beacon-chain-verification/blob/master/weak-subjectivity/weak-subjectivity-analysis.pdf)

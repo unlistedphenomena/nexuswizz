@@ -322,7 +322,7 @@ L'envoi par un validateur de deux messages contradictoires. Un exemple simple po
 
 ### Eth1 {#eth1}
 
-« Eth1 » est un terme qui faisait référence au réseau principal Ethereum, c'est-à-dire la blockchain actuelle basée sur la preuve de travail. Ce terme a depuis été abandonné au profit de « couche d'exécution ». [En savoir plus sur ce changement de nom](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+« Eth1 » est un terme qui faisait référence au réseau principal Ethereum, c'est-à-dire la blockchain actuelle basée sur la preuve de travail. Ce terme a depuis été abandonné au profit de « couche d'exécution ». [En savoir plus sur ce changement de nom](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   En savoir plus sur les mises à niveau d'Ethereum
@@ -330,7 +330,7 @@ L'envoi par un validateur de deux messages contradictoires. Un exemple simple po
 
 ### Eth2 {#eth2}
 
-« Eth2 » est un terme qui faisait référence à un ensemble de mises à niveau du protocole Ethereum, notamment la transition d'Ethereum vers la preuve d'enjeu. Ce terme a depuis été abandonné au profit de « couche de consensus ». [En savoir plus sur ce changement de nom](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
+« Eth2 » est un terme qui faisait référence à un ensemble de mises à niveau du protocole Ethereum, notamment la transition d'Ethereum vers la preuve d'enjeu. Ce terme a depuis été abandonné au profit de « couche de consensus ». [En savoir plus sur ce changement de nom](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   En savoir plus sur les mises à niveau d'Ethereum
@@ -480,7 +480,7 @@ Premier bloc d'une [blockchain](#blockchain), utilisé pour initialiser un certa
 
 Go Ethereum. L'une des implémentations les plus importantes du protocole Ethereum, programmée en Go.
 
-[Plus d'infos sur geth.xircanet](https://geth.xircanet/)
+[Plus d'infos sur geth.nexus.org](https://geth.nexus.org/)
 
 ### Gwei {#gwei}
 

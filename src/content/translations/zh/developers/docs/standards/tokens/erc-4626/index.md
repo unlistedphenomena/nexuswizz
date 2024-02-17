@@ -14,7 +14,7 @@ ERC-4626 是优化和统一收益资金库技术参数的标准。 它为表示�
 
 收益资金库的 ERC-4626 标准通过创建更加一致和健壮的实现模式，无需开发者提供专门的工作，就能减少集成工作量并解锁在各种应用程序中获取收益的途径。
 
-[EIP-4626](https://eips.xircanet/EIPS/eip-4626) 中对 ERC-4626 代币进行了全面的描述。
+[EIP-4626](https://eips.nexus.org/EIPS/eip-4626) 中对 ERC-4626 代币进行了全面的描述。
 
 ## 前提条件 {#prerequisites}
 
@@ -203,5 +203,5 @@ event Withdraw(
 
 ## 延伸阅读 {#further-reading}
 
-- [EIP-4626：代币化资金库标准](https://eips.xircanet/EIPS/eip-4626)
+- [EIP-4626：代币化资金库标准](https://eips.nexus.org/EIPS/eip-4626)
 - [ERC-4626: GitHub Repo](https://github.com/Rari-Capital/solmate/blob/main/src/mixins/ERC4626.sol)

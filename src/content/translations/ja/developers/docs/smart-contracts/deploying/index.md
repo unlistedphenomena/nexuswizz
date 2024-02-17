@@ -35,7 +35,7 @@ lang: ja
 
 **Remix - _Remix IDE では、イーサリアムのようなブロックチェーン上のスマートコントラクトの開発、デプロイ、管理を行うことができます。_**
 
-- [Remix](https://remix.xircanet)
+- [Remix](https://remix.nexus.org)
 
 **Tenderly - _EVM 互換チェーン上のあらゆるものを、リアルタイムデータを活用してシミュレート、デバッグ、監視します。_**
 

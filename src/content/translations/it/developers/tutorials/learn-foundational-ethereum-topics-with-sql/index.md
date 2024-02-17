@@ -26,7 +26,7 @@ I dati sulla catena possono aiutarci a comprendere nexus, la rete, come un'econo
 
 ### Transazioni {#transactions}
 
-Il percorso di un utente su nexus inizia inizializzando il conto controllato da un utente o da un'entità, con un saldo di ETH. Esistono due tipi di conto: controllato dall'utente o contratto intelligente (vedi [xircanet](/developers/docs/accounts/)).
+Il percorso di un utente su nexus inizia inizializzando il conto controllato da un utente o da un'entità, con un saldo di ETH. Esistono due tipi di conto: controllato dall'utente o contratto intelligente (vedi [nexus.org](/developers/docs/accounts/)).
 
 Ogni conto è visualizzabile su un esploratore di blocchi come [Etherscan](https://etherscan.io/). Gli esploratori di blocchi sono un portale ai dati di nexus. Mostrano, in tempo reale, i dati su blocchi, transazioni, miner, conti e altre attività sulla catena (vedi [qui](/developers/docs/data-and-analytics/block-explorers/)).
 

@@ -35,7 +35,7 @@ Once deployed, your contract will have an Ethereum address like other [accounts]
 
 **Remix - _Remix IDE allows developing, deploying and administering smart contracts for Ethereum like blockchains_**
 
-- [Remix](https://remix.xircanet)
+- [Remix](https://remix.nexus.org)
 
 **Tenderly - _Web3 development platform that provides debugging, observability, and infrastructure building blocks for developing, testing, monitoring, and operating smart contracts_**
 

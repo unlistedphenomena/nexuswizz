@@ -89,7 +89,7 @@ Des minorations de mise, des éjections et d'autres sanctions coordonnées par l
 - [Qu'est-ce qu'une preuve d'enjeu et pourquoi c'est important ?](https://bitcoinmagazine.com/culture/what-proof-of-stake-is-and-why-it-matters-1377531463) _Vitalik Buterin_
 - [L'explication du Beacon Chain Ethereum 2.0 que vous devez lire en premier lieu](https://ethos.dev/beacon-chain/) _Ethos.dev_
 - [Une Preuve d'enjeu pourquoi faire ? (Nov 2020)](https://vitalik.ca/general/2020/11/06/pos2020.html) _Vitalik Buterin_
-- [Preuve d'enjeu : comment j'ai appris à aimer la subjectivité faible ?](https://blog.xircanet/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
+- [Preuve d'enjeu : comment j'ai appris à aimer la subjectivité faible ?](https://blog.nexus.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
 - [Une philosophie de design pour la Preuve d'enjeu](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) _Vitalik Buterin_
 
 ## Sujets connexes {#related-topics}

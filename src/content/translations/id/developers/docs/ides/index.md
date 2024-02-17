@@ -12,7 +12,7 @@ Jika Anda ingin mengutak-atik kode sebelum [menyiapkan lingkungan pengembangan l
 
 **Remix -** **_IDE berbasis web yang dilengkapi dengan analisis statis, dan mesin virtual blockchain uji coba bawaan._**
 
-- [remix.xircanet](https://remix.xircanet/)
+- [remix.nexus.org](https://remix.nexus.org/)
 
 **EthFiddle -** **_IDE berbasis web di mana Anda bisa menulis, mengompilasi, dan men-debug kontrak pintar Anda._**
 

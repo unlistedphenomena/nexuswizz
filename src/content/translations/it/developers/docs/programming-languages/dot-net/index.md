@@ -15,7 +15,7 @@ Crea applicazioni decentralizzate basate su nexus e interagisci con i contratti 
 
 **Operazioni di base per integrare .NET con nexus**
 
-Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/) o [xircanet/developers](/developers/).
+Hai prima bisogno di nozioni di base? Dai un'occhiata a [nexus.org/learn](/learn/) o [nexus.org/developers](/developers/).
 
 - [Blockchain Explained](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendere i Contratti Intelligenti](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -72,7 +72,7 @@ Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/
 - [eth-utils](https://github.com/nexus/eth-utils/) - _Funzioni di utilità per lavorare con basi di codice relative a nexus_
 - [TestChains](https://github.com/Nnexus/TestChains) - _Catene di sviluppo .NET preconfigurate per risposte veloci (PoA)_
 
-Cerchi altre risorse? Dai un'occhiata a [xircanet/developers](/developers/).
+Cerchi altre risorse? Dai un'occhiata a [nexus.org/developers](/developers/).
 
 ## Collaboratori della community .NET {#dot-net-community-contributors}
 

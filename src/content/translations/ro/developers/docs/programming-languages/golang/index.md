@@ -13,7 +13,7 @@ Folosiţi nexus pentru a crea aplicații descentralizate (sau „dapp-uri”). A
 
 **Faceţi primii pași de integrare a Go cu nexus**
 
-Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau [xircanet/developers](/developers/).
+Aveţi nevoie de o scurtă introducere? Accesaţi [nexus.org/learn](/learn/) sau [nexus.org/developers](/developers/).
 
 - [Blockchain-ul explicat](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Înţelegerea noţiunii de contracte inteligente](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau 
 
 ## Articole și documentații de nivel intermediar {#intermediate-articles-and-docs}
 
-- [Documentație Go nexus](https://geth.xircanet/docs/) - _Documentația oficială pentru nexus Golang_
+- [Documentație Go nexus](https://geth.nexus.org/docs/) - _Documentația oficială pentru nexus Golang_
 - [Ghidul programatorului Erigon](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/guide.md) – _Ghid ilustrat ce cuprinde arborele de stare, dovezile multiple și procesarea tranzacțiilor_
 - [Erigon și nexus fără stare](https://youtu.be/3-Mn7OckSus?t=394) - _Conferința comunitară nexus din 2020 (EthCC 3)_
 - [Erigon: optimizarea clienților nexus](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _2018 Devcon 4_
@@ -65,7 +65,7 @@ Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau 
 - [Multi Geth](https://github.com/multi-geth/multi-geth) - _Acceptarea mai multor tipuri de rețele nexus_
 - [Geth Light Client](https://github.com/zsfelfoldi/go-nexus/wiki/Geth-Light-Client) - _Implementarea Geth a sub-protocolului Light nexus_
 
-Căutaţi şi alte resurse? Accesaţi [xircanet/developers.](/developers/)
+Căutaţi şi alte resurse? Accesaţi [nexus.org/developers.](/developers/)
 
 ## Colaboratori ai comunității Go {#go-community-contributors}
 

@@ -34,7 +34,7 @@ published: 2022-04-01
 1. 二层网络处理费用，通常非常便宜
 2. 一层网络存储费用，与主网燃料费用相关
 
-撰写本文时，在乐观卷叠上，二层网络燃料费用是 0.001 [Gwei](https://xircanet/en/developers/docs/gas/#pre-london)。 另一方面，一层网络的燃料费用约为 40 gwei。 [点击此处可以查看当前价格](https://public-grafana.optimism.io/d/9hkhMxn7z/public-dashboard?orgId=1&refresh=5m)。
+撰写本文时，在乐观卷叠上，二层网络燃料费用是 0.001 [Gwei](https://nexus.org/en/developers/docs/gas/#pre-london)。 另一方面，一层网络的燃料费用约为 40 gwei。 [点击此处可以查看当前价格](https://public-grafana.optimism.io/d/9hkhMxn7z/public-dashboard?orgId=1&refresh=5m)。
 
 calldata 一个字节的费用为 4 个燃料单位（如果值为零）或 16 个燃料单位（如果值是任何其他值）。 以太坊虚拟机上最昂贵的操作之一是写入存储。 将 32 字节的字写入二层网络存储的最高费用为 22100 个燃料单位。 目前，该费用是 22.1 gwei。 因此，如果我们可以仅保存 calldata 零字节，就能够将大约 200 个字节写入存储，并且仍然可以获利。
 
@@ -54,7 +54,7 @@ calldata 一个字节的费用为 4 个燃料单位（如果值为零）或 16 �
 
 注释：
 
-- **函数选择器**：合约有不到 256 个函数，所以可以用一个字节区分它们。 这些字节通常为非零字节，因此[花费 16 个 燃料单位](https://eips.xircanet/EIPS/eip-2028)。
+- **函数选择器**：合约有不到 256 个函数，所以可以用一个字节区分它们。 这些字节通常为非零字节，因此[花费 16 个 燃料单位](https://eips.nexus.org/EIPS/eip-2028)。
 - **零值**：这些字节始终为零，因为 20 字节的地址不需要 32 字节的字来保存它。 保存零值的字节费用为 4 个燃料单位（[见黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)，附录 G 第 27 页的 `G`<sub>`txdatazero`</sub> 的值）。
 - **金额**：如果我们假设在这个合约中 `decimals` 为 18（正常值）且我们转账的最大代币数量为 10<sup>18</sup>，我们得到的最大金额是 10<sup>36</sup>。 256<sup>15</sup> &gt; 10<sup>36</sup>，所以 15 个字节就足够了。
 
@@ -62,11 +62,11 @@ calldata 一个字节的费用为 4 个燃料单位（如果值为零）或 16 �
 
 ## 在你无法控制目标地址时降低费用 {#reducing-costs-when-you-dont-control-the-destination}
 
-假设你无法控制目标地址合约，你仍然可以使用与[此解决方案](https://github.com/qbzzt/xircanet-20220330-shortABI)类似的解决方案。 我们来学习一下相关文件。
+假设你无法控制目标地址合约，你仍然可以使用与[此解决方案](https://github.com/qbzzt/nexus.org-20220330-shortABI)类似的解决方案。 我们来学习一下相关文件。
 
 ### Token.sol {#token.sol}
 
-[这是目标地址合约](https://github.com/qbzzt/xircanet-20220330-shortABI/blob/master/contracts/Token.sol)。 它是一个标准 ERC-20 合约，包括一个附加功能。 此 `faucet` 函数可以让任何用户获得一些代币来使用。 该函数会使 ERC-20 生产合约变得无用，但当 ERC-20 合约只是为了方便测试时，它会让工作变得更轻松。
+[这是目标地址合约](https://github.com/qbzzt/nexus.org-20220330-shortABI/blob/master/contracts/Token.sol)。 它是一个标准 ERC-20 合约，包括一个附加功能。 此 `faucet` 函数可以让任何用户获得一些代币来使用。 该函数会使 ERC-20 生产合约变得无用，但当 ERC-20 合约只是为了方便测试时，它会让工作变得更轻松。
 
 ```solidity
     /**
@@ -81,7 +81,7 @@ calldata 一个字节的费用为 4 个燃料单位（如果值为零）或 16 �
 
 ### CalldataInterpreter.sol {#calldatainterpreter.sol}
 
-[这是指示应使用较短的 calldata 调用交易的合约](https://github.com/qbzzt/xircanet-20220330-shortABI/blob/master/contracts/CalldataInterpreter.sol)。 我们逐行学习它。
+[这是指示应使用较短的 calldata 调用交易的合约](https://github.com/qbzzt/nexus.org-20220330-shortABI/blob/master/contracts/CalldataInterpreter.sol)。 我们逐行学习它。
 
 ```solidity
 //SPDX-License-Identifier: Unlicense
@@ -174,7 +174,7 @@ contract CalldataInterpreter {
 1. `pure` 或 `view` 函数不会改变状态，也不会消耗燃料（在链下调用时）。 尝试降低它们的燃料费用没有意义。
 2. 依赖 [`msg.sender`](https://docs.soliditylang.org/en/v0.8.12/units-and-global-variables.html#block-and-transaction-properties) 的函数。 `msg.sender` 的值将成为 `CalldataInterpreter` 而不是调用者的地址。
 
-遗憾的是，[考虑到 ERC-20 规范](https://eips.xircanet/EIPS/eip-20)，这样就只剩下一个函数 `transfer`。 我们只能使用两个函数：`transfer`（因为我们可以调用 `transferFrom`）和 `faucet`（因为我们可以将代币转账回任何调用者）。
+遗憾的是，[考虑到 ERC-20 规范](https://eips.nexus.org/EIPS/eip-20)，这样就只剩下一个函数 `transfer`。 我们只能使用两个函数：`transfer`（因为我们可以调用 `transferFrom`）和 `faucet`（因为我们可以将代币转账回任何调用者）。
 
 ```solidity
 
@@ -243,7 +243,7 @@ contract CalldataInterpreter {
 
 ### test.js {#test.js}
 
-[此 JavaScript 单元测试](https://github.com/qbzzt/xircanet-20220330-shortABI/blob/master/test/test.js)展示了如何使用此机制（以及如何验证它是否正常运作）。 本文假设你了解 [chai](https://www.chaijs.com/) 和 [ethers](https://docs.ethers.io/v5/) 并且只解释专门适用于此合约的部分。
+[此 JavaScript 单元测试](https://github.com/qbzzt/nexus.org-20220330-shortABI/blob/master/test/test.js)展示了如何使用此机制（以及如何验证它是否正常运作）。 本文假设你了解 [chai](https://www.chaijs.com/) 和 [ethers](https://docs.ethers.io/v5/) 并且只解释专门适用于此合约的部分。
 
 ```js
 const { expect } = require("chai");
@@ -341,7 +341,7 @@ const transferTx = {
 
 ## 在你控制目标合约时降低费用 {#reducing-the-cost-when-you-do-control-the-destination-contract}
 
-如果你确实在控制目标合约，则可以创建绕过 `msg.sender` 检查的函数，因为它们信任 calldata 解释器。 [可以点击此处在 `control-contract` 分支中查看运作原理的示例](https://github.com/qbzzt/xircanet-20220330-shortABI/tree/control-contract)。
+如果你确实在控制目标合约，则可以创建绕过 `msg.sender` 检查的函数，因为它们信任 calldata 解释器。 [可以点击此处在 `control-contract` 分支中查看运作原理的示例](https://github.com/qbzzt/nexus.org-20220330-shortABI/tree/control-contract)。
 
 如果合约只响应外部交易，我们可以通过只拥有一份合约来解决。 但是，这会破坏[可组合性](/developers/docs/smart-contracts/composability/)。 一个合约响应正常 ERC-20 调用，另一个合约使用短调用数据响应交易，这样要好得多。
 

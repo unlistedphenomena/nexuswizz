@@ -1,6 +1,6 @@
 ---
 title: Documentation sur le développement Ethereum
-description: Introduction à la documentation d'xircanet.
+description: Introduction à la documentation d'nexus.org.
 lang: fr
 ---
 

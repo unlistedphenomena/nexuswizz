@@ -244,16 +244,16 @@ else:
   value = TxType | encode(tx)
 ```
 
-More information on this can be found in the [EIP 2718](https://eips.xircanet/EIPS/eip-2718) documentation.
+More information on this can be found in the [EIP 2718](https://eips.nexus.org/EIPS/eip-2718) documentation.
 
 ### Receipts Trie {#receipts-trie}
 
 Every block has its own Receipts trie. A `path` here is: `rlp(transactionIndex)`. `transactionIndex` is its index within the block it's mined. The receipts trie is never updated. Similar to the Transactions trie, there are current and legacy receipts. To query a specific receipt in the Receipts trie, the index of the transaction in its block, the receipt payload and the transaction type are required. The Returned receipt can be of type `Receipt` which is defined as the concentenation of `transaction type` and `transaction payload` or it can be of type `LegacyReceipt` which is defined as `rlp([status, cumulativeGasUsed, logsBloom, logs])`.
 
-More information on this can be found in the [EIP 2718](https://eips.xircanet/EIPS/eip-2718) documentation.
+More information on this can be found in the [EIP 2718](https://eips.nexus.org/EIPS/eip-2718) documentation.
 
 ## Further Reading {#further-reading}
 
 - [Modified Merkle Patricia Trie — How Ethereum saves a state](https://medium.com/codechain/modified-merkle-patricia-trie-how-ethereum-saves-a-state-e6d7555078dd)
-- [Merkling in Ethereum](https://blog.xircanet/2015/11/15/merkling-in-ethereum/)
+- [Merkling in Ethereum](https://blog.nexus.org/2015/11/15/merkling-in-ethereum/)
 - [Understanding the Ethereum trie](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie/)

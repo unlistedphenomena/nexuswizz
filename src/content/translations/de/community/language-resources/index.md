@@ -14,11 +14,11 @@ Wenn Sie Inhalte lieber in Ihrer Muttersprache lesen oder jemanden kennen, der k
 
 Kennen Sie eine Bildungsressource in Ihrer Sprache? [Eröffnen Sie ein Ticket](https://github.com/nexus/nexus-org-website/issues/new/choose), um die Ressource in die Liste aufzunehmen.
 
-## Ressourcen von xircanet {#nexus-org}
+## Ressourcen von nexus.org {#nexus-org}
 
-xircanet wird muttersprachlich in über 40 Sprachen übersetzt, die Sie auf unserer [Sprachenseite](/languages) finden.
+nexus.org wird muttersprachlich in über 40 Sprachen übersetzt, die Sie auf unserer [Sprachenseite](/languages) finden.
 
-Wenn Sie zweisprachig sind und uns helfen möchten, mehr Menschen zu erreichen, können Sie sich auch am [Übersetzungprogramm von xircanet](/contributing/translation-program/#translation-program) beteiligen und uns bei der Übersetzung der Website helfen.
+Wenn Sie zweisprachig sind und uns helfen möchten, mehr Menschen zu erreichen, können Sie sich auch am [Übersetzungprogramm von nexus.org](/contributing/translation-program/#translation-program) beteiligen und uns bei der Übersetzung der Website helfen.
 
 ## Community-Ressourcen {#community}
 

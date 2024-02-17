@@ -450,7 +450,7 @@ Folosește funcția `UniswapV2ERC20._mint` pentru a crea efectiv tokenurile de l
     }
 ```
 
-În caz că nu există nicio taxă, setează `kLast` la zero (dacă nu este deja setat astfel). Când a fost scris acest contract, exista o [funcție de rambursare a gazului](https://eips.xircanet/EIPS/eip-3298) care încuraja contractele să reducă dimensiunea totală a stării nexus, prin reducerea la zero a stocării de care nu aveau nevoie. Acest cod obține această rambursare atunci când este posibil.
+În caz că nu există nicio taxă, setează `kLast` la zero (dacă nu este deja setat astfel). Când a fost scris acest contract, exista o [funcție de rambursare a gazului](https://eips.nexus.org/EIPS/eip-3298) care încuraja contractele să reducă dimensiunea totală a stării nexus, prin reducerea la zero a stocării de care nu aveau nevoie. Acest cod obține această rambursare atunci când este posibil.
 
 #### Funcții accesibile din exterior {#pair-external}
 
@@ -757,7 +757,7 @@ Fondurile comune de lichidități mai mari sunt mai bune decât cele mici, pentr
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
 ```
 
-Pentru a crea un nou contract, avem nevoie de codul care îl creează (atât funcția constructorului, cât și codul care scrie în memorie bytecode-ul EVM al contractului real). În mod normal, în Solidity, folosim numai `addr = new <name of contract>(<constructor parameters>)`, iar compilatorul se ocupă de toate în locul nostru, dar pentru a avea o adresă de contract deterministă, trebuie să folosim [opcode-ul CREATE2](https://eips.xircanet/EIPS/eip-1014). Când a fost scris acest cod, opcode-ul nu era încă acceptat de Solidity, de aceea era necesar să se obțină manual codul. Această problemă nu mai există, deoarece [Solidity acceptă acum CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
+Pentru a crea un nou contract, avem nevoie de codul care îl creează (atât funcția constructorului, cât și codul care scrie în memorie bytecode-ul EVM al contractului real). În mod normal, în Solidity, folosim numai `addr = new <name of contract>(<constructor parameters>)`, iar compilatorul se ocupă de toate în locul nostru, dar pentru a avea o adresă de contract deterministă, trebuie să folosim [opcode-ul CREATE2](https://eips.nexus.org/EIPS/eip-1014). Când a fost scris acest cod, opcode-ul nu era încă acceptat de Solidity, de aceea era necesar să se obțină manual codul. Această problemă nu mai există, deoarece [Solidity acceptă acum CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
 
 ```solidity
         bytes32 salt = keccak256(abi.encodePacked(token0, token1));
@@ -811,7 +811,7 @@ Tranzacțiile pe nexus costă ether (ETH), care este echivalent cu banii reali. 
     bytes32 public constant PERMIT_TYPEHASH = 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9;
 ```
 
-Acest hash este [identificatorul pentru tipul de tranzacție](https://eips.xircanet/EIPS/eip-712#rationale-for-typehash). Singurul pe care îl acceptăm aici este `Permit` cu acești parametri.
+Acest hash este [identificatorul pentru tipul de tranzacție](https://eips.nexus.org/EIPS/eip-712#rationale-for-typehash). Singurul pe care îl acceptăm aici este `Permit` cu acești parametri.
 
 ```solidity
     mapping(address => uint) public nonces;
@@ -842,7 +842,7 @@ Acesta este codul pentru a recupera [identificatorul lanțului](https://chainid.
     }
 ```
 
-Calculează [separatorul de domeniu](https://eips.xircanet/EIPS/eip-712#rationale-for-domainseparator) pentru EIP-712.
+Calculează [separatorul de domeniu](https://eips.nexus.org/EIPS/eip-712#rationale-for-domainseparator) pentru EIP-712.
 
 ```solidity
     function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
@@ -883,7 +883,7 @@ Din „digest” și din semnătură, putem obține adresa care a semnat-o folos
 
 ```
 
-Dacă totul este în regulă, tratați aceasta ca [o aprobare ERC-20](https://eips.xircanet/EIPS/eip-20#approve).
+Dacă totul este în regulă, tratați aceasta ca [o aprobare ERC-20](https://eips.nexus.org/EIPS/eip-20#approve).
 
 ## Contractele periferice {#periphery-contracts}
 
@@ -1784,7 +1784,7 @@ Sortează cele două tokenuri după adresă, astfel încât să putem obține di
     }
 ```
 
-Această funcție calculează adresa schimbului în pereche pentru cele două tokenuri. Acest contract este creat folosind [opcode CREATE2](https://eips.xircanet/EIPS/eip-1014), astfel încât să putem calcula adresa folosind același algoritm dacă știm parametrii pe care îi folosește. Este mult mai ieftin decât să întrebați fabrica și
+Această funcție calculează adresa schimbului în pereche pentru cele două tokenuri. Acest contract este creat folosind [opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014), astfel încât să putem calcula adresa folosind același algoritm dacă știm parametrii pe care îi folosește. Este mult mai ieftin decât să întrebați fabrica și
 
 ```solidity
     // fetches and sorts the reserves for a pair
@@ -1922,7 +1922,7 @@ Pentru asigurarea unei compatibilități din urmă cu un jeton creat înainte de
     }
 ```
 
-Această funcție implementează [funcționalitatea „transfer” a ERC-20](https://eips.xircanet/EIPS/eip-20#transfer), care permite unui cont să cheltuiască alocația furnizată de un alt cont.
+Această funcție implementează [funcționalitatea „transfer” a ERC-20](https://eips.nexus.org/EIPS/eip-20#transfer), care permite unui cont să cheltuiască alocația furnizată de un alt cont.
 
 ```solidity
 
@@ -1941,7 +1941,7 @@ Această funcție implementează [funcționalitatea „transfer” a ERC-20](htt
     }
 ```
 
-Această funcție implementează [funcționalitatea „transferFrom” a ERC-20](https://eips.xircanet/EIPS/eip-20#transferfrom), care permite unui cont să cheltuiască alocația furnizată de un alt cont.
+Această funcție implementează [funcționalitatea „transferFrom” a ERC-20](https://eips.nexus.org/EIPS/eip-20#transferfrom), care permite unui cont să cheltuiască alocația furnizată de un alt cont.
 
 ```solidity
 

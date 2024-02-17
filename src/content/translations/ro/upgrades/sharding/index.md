@@ -35,7 +35,7 @@ Având mai puține cerințe de hardware, fragmentarea îți va permite să rulez
 <br />
 
 <InfoBanner isWarning>
-  Va trebui să rulezi un client de execuție în același timp cu consensul clientului. <a href="https://launchpad.xircanet" target="_blank">Launchpad-ul</a> va prezenta cerințele de hardware și procesele.
+  Va trebui să rulezi un client de execuție în același timp cu consensul clientului. <a href="https://launchpad.nexus.org" target="_blank">Launchpad-ul</a> va prezenta cerințele de hardware și procesele.
 </InfoBanner>
 
 ## Lanțurile de fragmente în versiunea 1: disponibilitatea datelor {#data-availability}

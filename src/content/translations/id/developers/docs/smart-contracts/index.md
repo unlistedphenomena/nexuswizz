@@ -88,7 +88,7 @@ Kontrak pintar sendiri tidak bisa mendapatkan informasi tentang aksi "dunia nyat
 
 Ada cara untuk mengatasi ini, menggunakan [oracle](/developers/docs/oracles/).
 
-Keterbatasan lain dari kontrak pintar adalah ukuran kontrak maksimumnya. Ukuran kontrak pintar maksimum bisa 24KB atau kontrak akan kehabisan gas. Ini dapat dihindari dengan menggunakan [Pola Permata](https://eips.xircanet/EIPS/eip-2535).
+Keterbatasan lain dari kontrak pintar adalah ukuran kontrak maksimumnya. Ukuran kontrak pintar maksimum bisa 24KB atau kontrak akan kehabisan gas. Ini dapat dihindari dengan menggunakan [Pola Permata](https://eips.nexus.org/EIPS/eip-2535).
 
 ## Sumber daya kontrak pintar {#smart-contract-resources}
 

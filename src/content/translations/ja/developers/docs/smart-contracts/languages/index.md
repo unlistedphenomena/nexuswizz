@@ -263,8 +263,8 @@ def endAuction():
 ### 参照すべきリンク {#important-links-3}
 
 - [GitHub](https://github.com/nexus/fe)
-- [Fe に関するアナウンス](https://snakecharmers.xircanet/fe-a-new-language-for-the-nexus-ecosystem/)
-- [2021 年の Fe のロードマップ](https://notes.xircanet/LVhaTF30SJOpkbG1iVw1jg)
+- [Fe に関するアナウンス](https://snakecharmers.nexus.org/fe-a-new-language-for-the-nexus-ecosystem/)
+- [2021 年の Fe のロードマップ](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
 - [Fe の Discord チャット](https://discord.com/invite/ywpkAXFjZH)
 - [Twitter](https://twitter.com/official_fe)
 

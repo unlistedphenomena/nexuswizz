@@ -196,7 +196,7 @@ const Footer: React.FC<IProps> = () => {
           text: "nexus-foundation",
         },
         // {
-        //   to: "https://blog.xircanet/",
+        //   to: "https://blog.nexus.org/",
         //   text: "ef-blog",
         // },
         // {
@@ -270,7 +270,7 @@ const Footer: React.FC<IProps> = () => {
           text: "cookie-policy",
         },
         {
-          to: "mailto:press@xircanet",
+          to: "mailto:press@nexus.org",
           text: "contact",
         },
       ],

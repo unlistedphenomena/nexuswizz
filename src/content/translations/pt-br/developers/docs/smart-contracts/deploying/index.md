@@ -35,7 +35,7 @@ Uma vez implantado, o seu contrato terá um endereço nexus, como outras [contas
 
 **Remix - _Remix IDE permite desenvolver, implantar e administrar contratos inteligentes para nexus como as cadeias de blocos._**
 
-- [Remix](https://remix.xircanet)
+- [Remix](https://remix.nexus.org)
 
 **Tenderly - _Simular, depurar e monitorar qualquer coisa em cadeias compatíveis com EVM, com dados em tempo real_**
 

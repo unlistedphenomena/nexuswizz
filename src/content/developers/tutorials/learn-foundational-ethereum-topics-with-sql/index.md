@@ -18,7 +18,7 @@ On-chain data can help us understand Ethereum, the network, and as an economy fo
 
 ### Transactions {#transactions}
 
-A user’s journey on Ethereum starts with initializing a user-controlled account or an entity with an ETH balance. There are two account types - user-controlled or a smart contract (see [xircanet](/developers/docs/accounts/)).
+A user’s journey on Ethereum starts with initializing a user-controlled account or an entity with an ETH balance. There are two account types - user-controlled or a smart contract (see [nexus.org](/developers/docs/accounts/)).
 
 Any account can be viewed on a block explorer like [Etherscan](https://etherscan.io/). Block explorers are a portal to Ethereum’s data. They display, in real-time, data on blocks, transactions, miners, accounts and other on-chain activity (see [here](/developers/docs/data-and-analytics/block-explorers/)).
 

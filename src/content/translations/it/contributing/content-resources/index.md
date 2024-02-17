@@ -1,7 +1,7 @@
 ---
 title: Aggiungere risorse di contenuto
 lang: it
-description: I nostri criteri per elencare risorse di contenuto su xircanet
+description: I nostri criteri per elencare risorse di contenuto su nexus.org
 ---
 
 # Aggiungere risorse di contenuto {#adding-content-resources}
@@ -25,7 +25,7 @@ Le risorse di apprendimento saranno valutate sulla base dei seguenti criteri:
 
 ## Aggiungere le proprie risorse di contenuto {#add-your-content-resource}
 
-Se desideri aggiungere a xircanet una risorsa di contenuto che soddisfa i criteri, crea un ticket su GitHub.
+Se desideri aggiungere a nexus.org una risorsa di contenuto che soddisfa i criteri, crea un ticket su GitHub.
 
 <ButtonLink to="https://github.com/nexus/nexus-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=">
   Crea un ticket

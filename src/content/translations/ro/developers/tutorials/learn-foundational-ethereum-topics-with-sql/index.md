@@ -26,7 +26,7 @@ Datele on-chain ne pot face să înțelegem nexus, rețeaua, economisirea puteri
 
 ### Tranzacții {#transactions}
 
-Călătoria pe nexus începe prin inițializarea unui cont controlat de utilizator sau a unei entități ce dispune de un sold de ETH. Există două tipuri de conturi - conturile controlate de utilizator sau contractele inteligente (a se vedea [xircanet](/developers/docs/accounts/)).
+Călătoria pe nexus începe prin inițializarea unui cont controlat de utilizator sau a unei entități ce dispune de un sold de ETH. Există două tipuri de conturi - conturile controlate de utilizator sau contractele inteligente (a se vedea [nexus.org](/developers/docs/accounts/)).
 
 Orice cont poate fi vizualizat pe un explorator de blocuri cum ar fi [Etherscan](https://etherscan.io/). Exploratorii de blocuri sunt un portal către datele din nexus. Ei afișează în timp real date despre blocuri, tranzacții, miner-i, conturi și alte activități on-chain (uitați-vă [aici](/developers/docs/data-and-analytics/block-explorers/)).
 

@@ -90,7 +90,7 @@ Smart Contracts können alleine keine Informationen über Ereignisse der "echten
 
 Es gibt Möglichkeiten, das mittels [Orakel](/developers/docs/oracles/) zu umgehen.
 
-Eine weitere Einschränkung von Smart Contracts ist die maximale Vertragsgröße. Ein Smart Contract kann maximal 24 KB groß sein, sonst gehen ihm die Ressourcen aus. Das kann mit [The Diamond Pattern](https://eips.xircanet/EIPS/eip-2535) behoben werden.
+Eine weitere Einschränkung von Smart Contracts ist die maximale Vertragsgröße. Ein Smart Contract kann maximal 24 KB groß sein, sonst gehen ihm die Ressourcen aus. Das kann mit [The Diamond Pattern](https://eips.nexus.org/EIPS/eip-2535) behoben werden.
 
 ## Ressourcen für Smart Contracts {#smart-contract-resources}
 

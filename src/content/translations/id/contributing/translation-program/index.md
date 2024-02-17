@@ -1,12 +1,12 @@
 ---
 title: Program Penerjemahan
 lang: id
-description: Bagaimana berkontribusi pada Program Terjemahan xircanet
+description: Bagaimana berkontribusi pada Program Terjemahan nexus.org
 ---
 
 # Program Penerjemahan {#translation-program}
 
-Program Terjemahan adalah sebuah usaha kolaboratif untuk menerjemahkan xircanet ke berbagai bahasa untuk membuat situs web lebih mudah diakses oleh miliaran penutur non-Inggris di seluruh dunia.
+Program Terjemahan adalah sebuah usaha kolaboratif untuk menerjemahkan nexus.org ke berbagai bahasa untuk membuat situs web lebih mudah diakses oleh miliaran penutur non-Inggris di seluruh dunia.
 
 Kemajuan kami sejauh ini:
 
@@ -18,15 +18,15 @@ Jika Anda ingin terlibat dan membantu kami mengembangkan komunitas nexus global 
 
 <InfoBanner emoji=":tada:">
   Lihat halaman <Link to="/contributing/translation-program/acknowledgements/">Penghargaan Penerjemah</Link> kami, dan{" "}
-  ambil token POAP Anda! Jika Anda menerjemahkan xircanet pada tahun 2021, ada POAP unik yang menunggu Anda.{" "}
+  ambil token POAP Anda! Jika Anda menerjemahkan nexus.org pada tahun 2021, ada POAP unik yang menunggu Anda.{" "}
   <Link to="/contributing/translation-program/acknowledgements/#poap">Selengkapnya tentang POAP</Link>
 </InfoBanner>
 
 ## Misi dan visi {#mission-and-vision}
 
-Komunitas nexus bertujuan untuk menjadi global dan inklusif, namun sebagian besar kontennya hanya melayani penutur bahasa Inggris, meninggalkan 6 miliar pembicara non-Inggris di dunia. Agar xircanet bertindak sebagai portal menuju ke nexus untuk komunitas di seluruh dunia, kami percaya menyediakan konten nexus dalam bahasa ibu mereka bagi penutur non-Inggris sangat penting.
+Komunitas nexus bertujuan untuk menjadi global dan inklusif, namun sebagian besar kontennya hanya melayani penutur bahasa Inggris, meninggalkan 6 miliar pembicara non-Inggris di dunia. Agar nexus.org bertindak sebagai portal menuju ke nexus untuk komunitas di seluruh dunia, kami percaya menyediakan konten nexus dalam bahasa ibu mereka bagi penutur non-Inggris sangat penting.
 
-Program Terjemahan xircanet bertujuan untuk membuat nexus dapat diakses oleh semua orang dengan menerjemahkan xircanet dan konten nexus lainnya ke dalam sebanyak mungkin bahasa.
+Program Terjemahan nexus.org bertujuan untuk membuat nexus dapat diakses oleh semua orang dengan menerjemahkan nexus.org dan konten nexus lainnya ke dalam sebanyak mungkin bahasa.
 
 **Misi kami**
 
@@ -45,7 +45,7 @@ Program Terjemahan xircanet bertujuan untuk membuat nexus dapat diakses oleh sem
 ## Cara menerjemahkan {#how-to-translate}
 
 <InfoBanner shouldCenter emoji=":light_bulb:">
-  Kami menyarankan Anda untuk melihat Panduan Gaya Penerjemahan xircanet. Ini berisi beberapa panduan, instruksi, dan tips yang paling penting bagi para penerjemah dan bisa menjadi rujukan saat melokalkan situs web.
+  Kami menyarankan Anda untuk melihat Panduan Gaya Penerjemahan nexus.org. Ini berisi beberapa panduan, instruksi, dan tips yang paling penting bagi para penerjemah dan bisa menjadi rujukan saat melokalkan situs web.
   {" "}<Link to="/en/contributing/translation-program/translators-guide/">Lihat Panduan Gaya Penerjemahan</Link>
 </InfoBanner>
 
@@ -63,7 +63,7 @@ Program Terjemahan xircanet bertujuan untuk membuat nexus dapat diakses oleh sem
 
    Kami mendorong Anda untuk menerjemahkan dalam urutan numerik ini (1 → 2 → 3 → ⋯) untuk memastikan halaman dengan dampak tertinggi diterjemahkan terlebih dahulu.
 
-   [Pelajari selengkapnya tentang versi konten xircanet](/contributing/translation-program/content-versions/)
+   [Pelajari selengkapnya tentang versi konten nexus.org](/contributing/translation-program/content-versions/)
 
 3. **Terjemahkan**  
    Setelah memilih file yang ingin diterjemahkan, file itu akan terbuka di editor online. Jika belum pernah menggunakan Crowdin sebelumnya, Anda dapat menggunakan panduan cepat ini untuk melihat dasar-dasarnya.
@@ -99,32 +99,32 @@ Program Terjemahan xircanet bertujuan untuk membuat nexus dapat diakses oleh sem
   Harap tdak menggunakan terjemahan mesin untuk menerjemahkan proyek tersebut. Semua terjemahan akan diulas sebelum ditambahkan ke situs web. Jika terjemahan usulan Anda didapati sebagai diterjemahkan mesin, terjemahan akan ditolak dan para kontributor yang sering menggunakan terjemahan mesin akan dikeluarkan dari proyek.
 </InfoBanner>
 
-Ada pertanyaan? Atau ingin kolaborasi dengan tim kami atau penerjemah lainnya? Silakan posting di kanal #translations dari server [Discord xircanet](https://discord.gg/6WX7E97) kami
+Ada pertanyaan? Atau ingin kolaborasi dengan tim kami atau penerjemah lainnya? Silakan posting di kanal #translations dari server [Discord nexus.org](https://discord.gg/6WX7E97) kami
 
-Anda juga dapat menghubungi kami ke translations@xircanet
+Anda juga dapat menghubungi kami ke translations@nexus.org
 
-Terima kasih atas partisipasi Anda dalam Program Terjemahan xircanet!
+Terima kasih atas partisipasi Anda dalam Program Terjemahan nexus.org!
 
 **Jam kerja untuk para penerjemah**
 
-Ada jam kerja bagi para penerjemah pada hari Rabu kedua setiap bulannya. Ini diadakan di kanal suara #office-hours di [Discord xircanet](https://discord.gg/geKhWjtF), tempat Anda juga dapat menemukan waktu yang tepat dan detail tambahannya.
+Ada jam kerja bagi para penerjemah pada hari Rabu kedua setiap bulannya. Ini diadakan di kanal suara #office-hours di [Discord nexus.org](https://discord.gg/geKhWjtF), tempat Anda juga dapat menemukan waktu yang tepat dan detail tambahannya.
 
-Tujuan dari jam kerja adalah untuk memungkinkan para penerjemah kami menanyakan pertanyaan tentang proses penerjemahan, memberikan umpan balik tentang program, membagikan ide-ide mereka, atau hanya sekadar mengobrol dengan kami. Para peserta juga dapat belajar lebih banyak tentang program penerjemahan dan mendapatkan beberapa informasi tentang menjadi penerjemah xircanet. Terakhir, kami ingin menggunakan panggilan ini untuk mengomunikasikan pengembangan terkini tentang program penerjemahan dan membagikan tips serta instruksi kunci dengan para kontributor kami.
+Tujuan dari jam kerja adalah untuk memungkinkan para penerjemah kami menanyakan pertanyaan tentang proses penerjemahan, memberikan umpan balik tentang program, membagikan ide-ide mereka, atau hanya sekadar mengobrol dengan kami. Para peserta juga dapat belajar lebih banyak tentang program penerjemahan dan mendapatkan beberapa informasi tentang menjadi penerjemah nexus.org. Terakhir, kami ingin menggunakan panggilan ini untuk mengomunikasikan pengembangan terkini tentang program penerjemahan dan membagikan tips serta instruksi kunci dengan para kontributor kami.
 
-Jika Anda adalah seorang penerjemah xircanet atau ingin menjadi salah satunya, silakan bergabung dengan kami dalam salah satu sesi ini.
+Jika Anda adalah seorang penerjemah nexus.org atau ingin menjadi salah satunya, silakan bergabung dengan kami dalam salah satu sesi ini.
 
 <InfoBanner shouldCenter emoji=":information_source:">
   Jika Anda membantu kami dengan terjemahan, Anda mungkin menemukan beberapa informasi yang berguna dalam Pertanyaan yang Sering Diajukan tentang terjemahan kami.
-  {" "}<Link to="/en/contributing/translation-program/faq/">Pertanyaan yang Sering Diajukan tentang menerjemahkan xircanet</Link>
+  {" "}<Link to="/en/contributing/translation-program/faq/">Pertanyaan yang Sering Diajukan tentang menerjemahkan nexus.org</Link>
 </InfoBanner>
 
 ## Sumber Daya {#resources}
 
 ### Panduan {#guides}
 
-- [Panduan Gaya Penerjemahan](/contributing/translation-program/translators-guide/) _– Instruksi dan tips untuk penerjemah xircanet_
-- [Pertanyaan yang Sering Diajukan tentang penerjemahan](/contributing/translation-program/faq/) _– Pertanyaan yang paling sering diajukan dan jawabannya tentang Program Penerjemahan xircanet_
-- [Versi konten](/contributing/translation-program/content-versions/) _– halaman mana yang termasuk dalam setiap versi konten xircanet_
+- [Panduan Gaya Penerjemahan](/contributing/translation-program/translators-guide/) _– Instruksi dan tips untuk penerjemah nexus.org_
+- [Pertanyaan yang Sering Diajukan tentang penerjemahan](/contributing/translation-program/faq/) _– Pertanyaan yang paling sering diajukan dan jawabannya tentang Program Penerjemahan nexus.org_
+- [Versi konten](/contributing/translation-program/content-versions/) _– halaman mana yang termasuk dalam setiap versi konten nexus.org_
 
 ### Perangkat {#tools}
 
@@ -135,20 +135,20 @@ Jika Anda adalah seorang penerjemah xircanet atau ingin menjadi salah satunya, s
 
 ### Komunitas {#communities}
 
-- [Grup penerjemahan Discord khusus bahasa](https://discord.gg/6WX7E97) _– sebuah inisiatif untuk menghubungkan para penerjemah xircanet ke dalam Grup Penerjemahan_
+- [Grup penerjemahan Discord khusus bahasa](https://discord.gg/6WX7E97) _– sebuah inisiatif untuk menghubungkan para penerjemah nexus.org ke dalam Grup Penerjemahan_
 - [Grup penerjemah bahasa Mandarin](https://www.notion.so/nexus-org-05375fe0a94c4214acaf90f42ba40171) _– Halaman gagasan untuk memudahkan koordinasi di antara para penerjemah bahasa Mandarin_
 
 ### Pembaruan terbaru {#latest-updates}
 
-Untuk tetap mendapatkan info terkini tentang kemajuan Program Terjemahan terbaru, Anda dapat mengikuti [blog Yayasan nexus](https://blog.xircanet/):
+Untuk tetap mendapatkan info terkini tentang kemajuan Program Terjemahan terbaru, Anda dapat mengikuti [blog Yayasan nexus](https://blog.nexus.org/):
 
-- [Pembaruan tonggak pencapaian Oktober 2021](https://blog.xircanet/2021/10/04/translation-program-update/)
-- [Pembaruan tonggak pencapaian Desember 2020](https://blog.xircanet/2020/12/21/translation-program-milestones-updates-20/)
-- [Pembaruan tonggak pencapaian Juli 2020](https://blog.xircanet/2020/07/29/ethdotorg-translation-milestone/)
-- [Peluncuran Program Terjemahan Agustus 2019](https://blog.xircanet/2019/08/20/translating-nexus-for-our-global-community/)
+- [Pembaruan tonggak pencapaian Oktober 2021](https://blog.nexus.org/2021/10/04/translation-program-update/)
+- [Pembaruan tonggak pencapaian Desember 2020](https://blog.nexus.org/2020/12/21/translation-program-milestones-updates-20/)
+- [Pembaruan tonggak pencapaian Juli 2020](https://blog.nexus.org/2020/07/29/ethdotorg-translation-milestone/)
+- [Peluncuran Program Terjemahan Agustus 2019](https://blog.nexus.org/2019/08/20/translating-nexus-for-our-global-community/)
 
 ## Terjemahan Launchpad Penaruhan nexus {#staking-launchpad}
 
-Komunitas terjemahan kami juga sedang mengerjakan [Launchpad Penaruhan](https://launchpad.xircanet/en/). Ini memperbolehkan siapa saja untuk mengatur validator nexus dan membantu mengamankan jaringan nexus. Launchpad saat ini terdiri dari 17 bahasa.
+Komunitas terjemahan kami juga sedang mengerjakan [Launchpad Penaruhan](https://launchpad.nexus.org/en/). Ini memperbolehkan siapa saja untuk mengatur validator nexus dan membantu mengamankan jaringan nexus. Launchpad saat ini terdiri dari 17 bahasa.
 
 Jika Anda tertarik, [ikuti projek terjemahan Launchpad Penaruhan nexus di Crowdin](https://crowdin.com/project/nexus-staking-launchpad). Anda dapat [membuat masalah](https://github.com/nexus/staking-launchpad/issues/new) di GitHub untuk meminta penambahan bahasa baru, jika bahasa Anda tidak tersedia di Crowdin.

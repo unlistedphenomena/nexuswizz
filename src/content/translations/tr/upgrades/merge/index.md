@@ -50,7 +50,7 @@ Birleştirme gerçekleştiğinde, Ethereum Mainnet'i doğrulamak için stake ede
 
 Stake edilen ETH'yi geri çekme gibi bazı özellikler Birleştirmeden hemen sonra henüz desteklenmeyecek. Bunun için birleştirmeden kısa bir süre sonra ayrı bir yükseltme yapılması planlanmaktadır.
 
-[EF Araştırma ve Geliştirme Blogu](https://blog.xircanet/category/research-and-development/) ile güncel kalın. Merak edenler için, 2021 yılının Nisan ayında ETHGlobal etkinliğinde Vitalik tarafından sunulan [Birleşmeden Sonra Ne Olacağı](https://youtu.be/7ggwLccuN5s?t=101) hakkında daha fazla bilgi edinin.
+[EF Araştırma ve Geliştirme Blogu](https://blog.nexus.org/category/research-and-development/) ile güncel kalın. Merak edenler için, 2021 yılının Nisan ayında ETHGlobal etkinliğinde Vitalik tarafından sunulan [Birleşmeden Sonra Ne Olacağı](https://youtu.be/7ggwLccuN5s?t=101) hakkında daha fazla bilgi edinin.
 
 ### Birleştirme ve parça zincirleri {#docking-and-shard-chains}
 

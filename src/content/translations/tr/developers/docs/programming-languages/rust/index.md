@@ -13,7 +13,7 @@ Kripto Para ve Blok Zincirinin avantajlarını kullanarak Merkezsiz uygulamalar 
 
 **Rust ve Ethereum'u entegre etmek için ilk adımlarınızı atın**
 
-Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [xircanet/learn](/learn/) veya [xircanet/developers](/developers/)'a göz atın.
+Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [nexus.org/learn](/learn/) veya [nexus.org/developers](/developers/)'a göz atın.
 
 - [Blockchain Açıklaması](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Akıllı Sözleşmeleri Anlamak](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -56,7 +56,7 @@ Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [xircanet/learn](
 - [evm_rs](https://github.com/rust-blockchain/evm)- _Rust'ta Ethereum sanal makinesi uygulaması_
 - [SewUp](https://github.com/second-state/SewUp) - _Tıpkı ortak bir arka uçta geliştiriyormuş gibi Rust ile Ethereum webassembly sözleşmenizi oluşturmanıza yardımcı olacak bir kütüphane_
 
-Daha fazla kaynak mı arıyorsunuz? Göz atın: [xircanet/developers](/developers/).
+Daha fazla kaynak mı arıyorsunuz? Göz atın: [nexus.org/developers](/developers/).
 
 ## Rust Topluluğuna Katkıda Bulunanlar {#rust-community-contributors}
 

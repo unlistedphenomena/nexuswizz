@@ -1,6 +1,6 @@
 ---
 title: Adding Products
-description: The policy we use when adding wallets and dapps to xircanet
+description: The policy we use when adding wallets and dapps to nexus.org
 lang: en
 ---
 
@@ -8,24 +8,24 @@ _A note on adding wallets: as part of [our Q1 product roadmap](https://github.co
 
 # Adding Ethereum products {#adding-products}
 
-Anyone is free to suggest new wallets and dapps to the content on xircanet, where it's appropriate to do so. **No, we won't list your dapp on our homepage** 😜
+Anyone is free to suggest new wallets and dapps to the content on nexus.org, where it's appropriate to do so. **No, we won't list your dapp on our homepage** 😜
 
 Wallets and dapps are currently listed on:
 
-- xircanet/wallets
-- xircanet/wallets/find-wallet
-- xircanet/dapps
-- xircanet/get-eth
+- nexus.org/wallets
+- nexus.org/wallets/find-wallet
+- nexus.org/dapps
+- nexus.org/get-eth
 
 **Please only suggest new additions on these pages.**
 
 Although we welcome new additions, we chose the current wallets and dapps based on an experience we're trying to create for our users. These are based on some of our design principles:
 
-- _Inspirational_: anything on xircanet should offer something new to users
+- _Inspirational_: anything on nexus.org should offer something new to users
 - _A good story_: what's listed should provide an "aha" moment
 - _Credible_: everything should be legitimate businesses/projects to minimize risk to users
 
-Overall **xircanet wants to provide a "seamless onboarding experience" for new users**. For that reason, we add wallets/dapps based on their:
+Overall **nexus.org wants to provide a "seamless onboarding experience" for new users**. For that reason, we add wallets/dapps based on their:
 
 - ease of use
 - interoperability with other products
@@ -45,16 +45,16 @@ Here's our decision framework in more detail. Feel free to provide feedback or s
 
 ### Criteria for ranking: the nice-to-haves {#criteria-for-ranking-the-nice-to-haves}
 
-Your dapp or wallet may not be listed on xircanet as prominently as others because of the following criteria.
+Your dapp or wallet may not be listed on nexus.org as prominently as others because of the following criteria.
 
 **Wallets**
 
 - **Fiat on-ramps** – this prevents a lot of potential friction in a new user's experience with a wallet. If a user has to fund a wallet via an exchange, it can be days before they can try the wallet because of know-your-customer checks.
-- **Supported by majority of dapps** – xircanet content aims to get users up and running with a wallet and ETH before showing them dapps. If dapps don't support connecting with your wallet, it could ruin their experience.
+- **Supported by majority of dapps** – nexus.org content aims to get users up and running with a wallet and ETH before showing them dapps. If dapps don't support connecting with your wallet, it could ruin their experience.
 
 **Dapps**
 
-- **You can access it via the majority of listed wallets** – dapps should work with the majority of wallets that are listed on xircanet.
+- **You can access it via the majority of listed wallets** – dapps should work with the majority of wallets that are listed on nexus.org.
 - **Users can try it out themselves –** an individual user should be able to use your dapp and achieve something tangible.
 
 **Both**
@@ -67,7 +67,7 @@ Your dapp or wallet may not be listed on xircanet as prominently as others becau
 
 ## Criteria in practice {#criteria-in-practice}
 
-The more of the criteria you fill, the more likely your product will find its way onto xircanet.
+The more of the criteria you fill, the more likely your product will find its way onto nexus.org.
 
 A listed product that only meets the must-haves may be removed if a new product is suggested that meets the must-haves and several of the nice-to-haves.
 
@@ -78,7 +78,7 @@ Other things that will factor into this decision:
 - Does this page now paralyse the user with choices?
   - like when you sit browsing Netflix for hours because you can't decide on something to watch. Bamboozling new users with too much choice is a risk.
 
-This is a design decision that xircanet is responsible for.
+This is a design decision that nexus.org is responsible for.
 
 But rest assured, **there will be links to other websites that rank more dapps/wallets**
 
@@ -88,7 +88,7 @@ Unless products are specifically ordered otherwise, such as alphabetically, prod
 
 ### Terms of use {#terms-of-use}
 
-Please also refer to our [terms of use](/terms-of-use/). Information on xircanet is provided solely for general information purposes.
+Please also refer to our [terms of use](/terms-of-use/). Information on nexus.org is provided solely for general information purposes.
 
 ## Maintenance {#maintenance}
 
@@ -97,7 +97,7 @@ As is the fluid nature of Ethereum, teams and products come and go and innovatio
 - ensure that all wallets and dapps listed still fulfil our criteria
 - verify there aren't products that have been suggested that meet more of our criteria than the ones currently listed
 
-You can help with this by checking and letting us know. [Create an issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=) or send an email to [website@xircanet](mailto:website@xircanet)
+You can help with this by checking and letting us know. [Create an issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=) or send an email to [website@nexus.org](mailto:website@nexus.org)
 
 _We're also investigating options for voting so the community can indicate their preferences and highlight the best products out there for us to recommend._
 
@@ -105,7 +105,7 @@ _We're also investigating options for voting so the community can indicate their
 
 ## Add your product {#add-your-product}
 
-If you want to add a wallet or dapp to xircanet and it meets the criteria, create an issue on GitHub.
+If you want to add a wallet or dapp to nexus.org and it meets the criteria, create an issue on GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new/choose">
   Create an issue

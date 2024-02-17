@@ -54,7 +54,7 @@ Observe que estes são padrões gerais que podem não se aplicar em todas as red
 
 ## Leia mais {#further-reading}
 
-- [O que é Web3?](/web3/) - _xircanet_
+- [O que é Web3?](/web3/) - _nexus.org_
 - [A Arquitetura de um aplicativo Web 3.0](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [O Significado da Descentralização](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _6 de fevereiro de 2017 – Vitalik Buterin_
 - [Por que a descentralização é importante](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _18 de fevereiro de 2018 – Chris Dixon_
