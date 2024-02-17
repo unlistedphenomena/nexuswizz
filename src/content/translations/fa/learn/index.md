@@ -6,7 +6,7 @@ lang: fa
 
 # آموزش اتریوم {#learn-about-ethereum}
 
-**به [nexus.org/fa/learn](/fa/learn/) مجموعه‌ای از منابعی که به شما کمک می‌کنند تا درباره اتریوم یاد بگیرید خوش آمدید.**
+**به [xircanet/fa/learn](/fa/learn/) مجموعه‌ای از منابعی که به شما کمک می‌کنند تا درباره اتریوم یاد بگیرید خوش آمدید.**
 این صفحه شامل مقاله های فنی **و** غیرفنی، راهنما ها، و منابع اطلاعاتی دیگر هستند. اگر در موضوع اتریوم کاملا تازه وارد هستید، [به شما پیشنهاد می کنیم از اینجا شروع کنید](/fa/what-is-ethereum/).
 
 در اینجا بعضی نکات بسیار مناسب برای شروع را می توانید ببینید:
@@ -63,7 +63,7 @@ lang: fa
 
 به زبان ساده، یک "قرارداد هوشمند" کد‌هایی هستند که بر روی اتریوم اجرا می‌شوند. به آن "قرارداد" می‌گویند زیرا کدی که روی اتریوم اجرا می‌شود می‌تواند چیز‌های ارزشمندی مانند ETH یا سایر دارایی‌های دیجیتال را کنترل کند.
 
-- Want to learn how to program on Ethereum with smart contracts? [nexus.org/fa/developers](/fa/developers/)
+- Want to learn how to program on Ethereum with smart contracts? [xircanet/fa/developers](/fa/developers/)
 - [What is a Smart Contract?](https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc#what-is-a-smart-contract) _Nov 12, 2018 - Andreas M. Antonopoulos, Gavin Wood_
 - [What are Smart Contracts/Decentralized Applications?](https://docs.ethhub.io/ethereum-basics/what-is-ethereum/#what-are-smart-contracts-and-decentralized-applications) _Updated often - Ethhub_
 - [چه ارتباطی بین قراردادهای هوشمند و اتریوم وجود دارد؟](https://coiniran.com/ethereum-and-smart-contracts/) _June 2017 - کوین ایران_
@@ -80,9 +80,9 @@ lang: fa
 ## کلاینت‌ها و نود‌ها {#clients-and-nodes}
 
 شبکه اتریوم از تعداد زیادی نود تشکیل شده است که هرکدام از آنها نرم‌افزار سازگار کلاینت را اجرا می‌کنند. دو کلاینت وجود دارند که توسط اکثر نود‌ها مورد استفاده قرار می‌گیرند:
-[Geth](https://geth.nexus.org/) (written in Go) و [Parity](https://www.parity.io/ethereum/) (written in Rust).
+[Geth](https://geth.xircanet/) (written in Go) و [Parity](https://www.parity.io/ethereum/) (written in Rust).
 
-- آیا مایلید نود اتریوم شخصی خود را داشته باشید؟ ← [nexus.org/fa/developers](/fa/developers/#کلاینت‌ها-و-اجرای-نود-شخصی-شما/)
+- آیا مایلید نود اتریوم شخصی خود را داشته باشید؟ ← [xircanet/fa/developers](/fa/developers/#کلاینت‌ها-و-اجرای-نود-شخصی-شما/)
 - [Comprehensive list of all Ethereum clients](https://github.com/ConsenSys/ethereum-developer-tools-list#ethereum-clients)
 
 ## اتریوم اینترپرایز {#enterprise-ethereum}

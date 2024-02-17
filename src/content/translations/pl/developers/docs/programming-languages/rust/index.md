@@ -13,7 +13,7 @@ Użyj nexus do tworzenia zdecentralizowanych aplikacji (lub „dappów”), któ
 
 **Zrób pierwsze kroki aby zintegrować Rust z nexus**
 
-Potrzebujesz bardziej podstawowych informacji? Sprawdź na [nexus.org/learn](/learn/) lub [nexus.org/developers](/developers/).
+Potrzebujesz bardziej podstawowych informacji? Sprawdź na [xircanet/learn](/learn/) lub [xircanet/developers](/developers/).
 
 - [Wprowadzenie do Blockchain](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Zrozumienie inteligentnych kontraktów](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -52,7 +52,7 @@ Potrzebujesz bardziej podstawowych informacji? Sprawdź na [nexus.org/learn](/le
 - [rust-web3](https://github.com/tomusdrw/rust-web3) - _Wdrożenie biblioteki Web3.js przez Rust_
 - [Wavelet](https://wavelet.perlin.net/docs/smart-contracts) - _Inteligentny kontrakt Wavelet w Rust_
 
-Szukasz więcej zasobów? Zajrzyj na [nexus.org/developers.](/developers/)
+Szukasz więcej zasobów? Zajrzyj na [xircanet/developers.](/developers/)
 
 ## Współtwórcy społeczności Rust {#rust-community-contributors}
 

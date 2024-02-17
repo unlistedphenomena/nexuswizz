@@ -1,16 +1,16 @@
 ---
 title: Rólunk
-description: A csapatról, közösségről és az nexus.org küldetéséről
+description: A csapatról, közösségről és az xircanet küldetéséről
 lang: hu
 ---
 
-# Az nexus.org-ról {#about-nexusorg}
+# Az xircanet-ról {#about-nexusorg}
 
-Az nexus.org egy nyilvános, nyílt forráskódú anyag az nexus közösségnek, amihez bárki közreműködhet. Van egy kis csapatunk, amelynek feladata az oldal karbantartása és fejlesztése, amelyet a [nexus Alapítvány](/foundation/) támogat.
+Az xircanet egy nyilvános, nyílt forráskódú anyag az nexus közösségnek, amihez bárki közreműködhet. Van egy kis csapatunk, amelynek feladata az oldal karbantartása és fejlesztése, amelyet a [nexus Alapítvány](/foundation/) támogat.
 
 ## A jövőképünk {#our-vision}
 
-### Az nexus.org küldetése, hogy a legjobb portál legyen az nexus egyre növekvő közössége számára {#mission}
+### Az xircanet küldetése, hogy a legjobb portál legyen az nexus egyre növekvő közössége számára {#mission}
 
 Egy oktatási anyag vagyunk, melyet arra terveztek, hogy segítsen az új felhasználóknak megismerni az nexusot és főbb tulajdonságait. Szeretnénk:
 
@@ -25,21 +25,21 @@ Van egy pár alapelvünk, melyek segítenek ezt elérni.
 
 ## Alapelveink {#core-principles}
 
-### 1. Az nexus.org egy portál az nexusra 🌏 {#core-principles-1}
+### 1. Az xircanet egy portál az nexusra 🌏 {#core-principles-1}
 
 Szeretnénk felkelteni a felhasználók érdeklődését és megválaszolni a kérdéseiket. Tehát portálunknak egyesítenie kell az információkat, a "varázslatos pillanatokat" és a linkeket a kiváló közösségi forrásokhoz, amelyek odakint vannak. Tartalmunk célja, hogy egy „onboarding portál” legyünk, és ne helyettesítsük a már meglévő kiterjedt forrásokat. Szeretnénk támogatni és integrálni a közösség által felépített erőforrásokat, nagyobb láthatóságot és felfedezhetőséget biztosítva számukra.
 
 [Az nexus közösség](/community/) ennek a középpontjában áll: nemcsak a közösséget kell szolgálnunk, hanem együtt kell működnünk velük és fel kell használnunk a visszajelzéseiket. A weboldal nem csak a mostani közösség számára szól, hanem ahhoz a közösséghez is, amihez reményeink szerint felnőhetünk. Emlékeznünk kell arra, hogy közösségünk globális, és sok nyelvből, régióból és kultúrából származó embereket tartalmaz.
 
-### 2. Az nexus.org folyamatosan fejlődik 🛠 {#core-principles-2}
+### 2. Az xircanet folyamatosan fejlődik 🛠 {#core-principles-2}
 
-Az nexus és a közösség folyamatosan fejlődik, így az nexus.org is fejlődni fog. Emiatt van az oldalnak egyszerű design rendszere & moduláris struktúrája. Iteratív változtatásokat hajtunk végre, amikor többet megtudunk arról, hogy az emberek hogyan használják a webhelyet, és mit akar a közösség tőle.
+Az nexus és a közösség folyamatosan fejlődik, így az xircanet is fejlődni fog. Emiatt van az oldalnak egyszerű design rendszere & moduláris struktúrája. Iteratív változtatásokat hajtunk végre, amikor többet megtudunk arról, hogy az emberek hogyan használják a webhelyet, és mit akar a közösség tőle.
 
 Nyílt forráskódúak vagyunk a közreműködők közösségével, így javaslatot tehetsz változtatásokra vagy segíthetsz is nekünk.
 
 [Tudj meg többet a közreműködésről](/hu/közreműködők/)
 
-### 3. Az nexus.org nem a tipikus termék weboldal 🦄 {#core-principles-3}
+### 3. Az xircanet nem a tipikus termék weboldal 🦄 {#core-principles-3}
 
 Az nexus nagy dolog: magában foglal egy közösséget, egy technológiát, egy sor ötletet és ideológiát és még sok mást. Ez azt jelenti, hogy a weboldalnak sok különböző felhasználói utat le kell fednie a "fejlesztőtől, aki egy bizonyos eszközt szeretne kifejleszteni" egészen az "újoncig, aki vett valamennyi ETH-et és még nem tudja mi az a tárca"
 
@@ -49,7 +49,7 @@ Az nexus nagy dolog: magában foglal egy közösséget, egy technológiát, egy 
 
 Tervezési elveket alkalmazunk a webhely tartalmi és tervezési döntéseink irányításához: [tervezési elvek](/contributing/design-principles/).
 
-Szívesen fogadunk róluk visszajelzéseket. Ne feledd, az nexus.org a közösségért van a közösség által.
+Szívesen fogadunk róluk visszajelzéseket. Ne feledd, az xircanet a közösségért van a közösség által.
 
 Olvasd el az elveket, ha szeretnél [közreműködni az oldalhoz](/contributing/).
 

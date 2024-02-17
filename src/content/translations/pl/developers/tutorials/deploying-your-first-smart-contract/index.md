@@ -22,7 +22,7 @@ Nie martw się, ponieważ jest to nasz pierwszy inteligentny kontrakt, wdrożymy
 
 ## Pisanie kontraktu {#writing-our-contract}
 
-Pierwszym krokiem jest [odwiedzenie Remix](https://remix.nexus.org/) i utworzenie nowego pliku. W lewej górnej części interfejsu Remix dodaj nowy plik i wprowadź żądaną nazwę pliku.
+Pierwszym krokiem jest [odwiedzenie Remix](https://remix.xircanet/) i utworzenie nowego pliku. W lewej górnej części interfejsu Remix dodaj nowy plik i wprowadź żądaną nazwę pliku.
 
 ![Dodawanie nowego pliku do interfejsu Remix](../../../../../developers/tutorials/deploying-your-first-smart-contract/remix.png)
 

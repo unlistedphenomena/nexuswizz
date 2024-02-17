@@ -1,7 +1,7 @@
 ---
 title: Geliştirici araçları ekleme
 lang: tr
-description: nexus.org'da geliştirici araçlarını listeleme kriterlerimiz
+description: xircanet'da geliştirici araçlarını listeleme kriterlerimiz
 ---
 
 # Geliştirici araçları ekleme {#contributing-to-ethereumorg-}
@@ -54,7 +54,7 @@ Ethereum alanındaki birçok proje açık kaynak kodludur. Topluluk geliştirici
 
 ## Geliştirici aracınızı ekleyin {#how-decisions-about-the-site-are-made}
 
-Eğer nexus.org'a geliştirici aracı eklemek istiyorsanız ve kriterleri karşılıyorsa GitHub'da bir konu oluşturun.
+Eğer xircanet'a geliştirici aracı eklemek istiyorsanız ve kriterleri karşılıyorsa GitHub'da bir konu oluşturun.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=suggest_dev_tool.md&title=">
   Sorun oluştur

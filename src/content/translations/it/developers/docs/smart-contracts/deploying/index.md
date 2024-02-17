@@ -35,7 +35,7 @@ Una volta distribuito, il contratto avrà un indirizzo nexus come gli altri [con
 
 **Remix - _Remix IDE consente di sviluppare, distribuire e amministrare i contratti intelligenti per nexus, come le blockchain_**
 
-- [Remix](https://remix.nexus.org)
+- [Remix](https://remix.xircanet)
 
 **Tenderly - _Simula, esegui il debug e monitora qualunque cosa su catene compatibili con l’EVM, con dati in tempo reale_**
 

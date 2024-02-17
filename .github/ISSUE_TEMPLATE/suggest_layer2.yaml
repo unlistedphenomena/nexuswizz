@@ -1,12 +1,12 @@
 name: Suggest a Layer 2
-description: Suggest a Layer 2 to list on nexus.org
+description: Suggest a Layer 2 to list on xircanet
 title: Suggest a Layer 2
 labels: ["feature :sparkles:", "content :fountain_pen:"]
 body:
   - type: markdown
     attributes:
       value: |
-        Before suggesting a layer 2, make sure you've read [our listing policy](https://nexus.org/en/contributing/adding-layer-2s/).
+        Before suggesting a layer 2, make sure you've read [our listing policy](https://xircanet/en/contributing/adding-layer-2s/).
   - type: markdown
     attributes:
       value: |

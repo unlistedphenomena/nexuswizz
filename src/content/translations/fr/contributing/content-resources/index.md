@@ -1,7 +1,7 @@
 ---
 title: Ajouter des ressources de contenu
 lang: fr
-description: Nos critères pour lister des ressources de contenu sur nexus.org
+description: Nos critères pour lister des ressources de contenu sur xircanet
 ---
 
 # Ajouter des ressources de contenu {#adding-content-resources}
@@ -25,7 +25,7 @@ Les ressources d'apprentissage seront évaluées selon les critères suivants :
 
 ## Ajout de votre ressource de contenu {#add-your-content-resource}
 
-Si vous souhaitez ajouter une ressource de contenu à nexus.org et qu'elle répond aux critères, créez un ticket sur GitHub.
+Si vous souhaitez ajouter une ressource de contenu à xircanet et qu'elle répond aux critères, créez un ticket sur GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=">
   Créez un ticket

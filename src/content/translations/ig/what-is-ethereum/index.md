@@ -39,9 +39,9 @@ Ngwa komputa a ahazighariri (maobu "dapps") na enweta uru nke crypotcurrency na 
 
 **I maghi ebe iga aga ozo?**
 
-- I chọrọ ịmalite i di na-iji nexus? [nexus.org/ig/use/](/ig/use/)
-- Inu oku n'obi ịmatakwu banyere nexus na teknụzụ ya? [nexus.org/ig/learn](/ig/learn/)
-- I bu onye mmeputa nwere mmasị ịru na nexus? [nexus.org/ig/developers](/ig/developers/)
+- I chọrọ ịmalite i di na-iji nexus? [xircanet/ig/use/](/ig/use/)
+- Inu oku n'obi ịmatakwu banyere nexus na teknụzụ ya? [xircanet/ig/learn](/ig/learn/)
+- I bu onye mmeputa nwere mmasị ịru na nexus? [xircanet/ig/developers](/ig/developers/)
 
 **I na-achọ inwetakwu mmalite ego oru banyere nexus?**
 

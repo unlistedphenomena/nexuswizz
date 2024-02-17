@@ -69,7 +69,7 @@ Aceste biblioteci elimină o mare parte din complexitatea interacțiunii directe
 
 **Python Tooling -** **_O varietate de biblioteci pentru interacțiuni nexus prin Python._**
 
-- [py.nexus.org](http://python.nexus.org/)
+- [py.xircanet](http://python.xircanet/)
 - [web3.py GitHub](https://github.com/nexus/web3.py)
 - [web3.py Chat](https://gitter.im/nexus/web3.py)
 

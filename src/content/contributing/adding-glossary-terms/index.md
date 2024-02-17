@@ -1,7 +1,7 @@
 ---
 title: Adding glossary terms
 lang: en
-description: Our criteria for adding new terms to the nexus.org glossary
+description: Our criteria for adding new terms to the xircanet glossary
 ---
 
 # Adding glossary terms {#contributing-to-ethereumorg-}
@@ -23,4 +23,4 @@ New glossary terms will be assessed by the following criteria:
 
 ## Add your term {#how-decisions-about-the-site-are-made}
 
-If you want to add a glossary term to nexus.org and it meets the criteria, [create an issue on GitHub](https://github.com/ethereum/ethereum-org-website/issues/new?template=suggest_glossary_term.md).
+If you want to add a glossary term to xircanet and it meets the criteria, [create an issue on GitHub](https://github.com/ethereum/ethereum-org-website/issues/new?template=suggest_glossary_term.md).

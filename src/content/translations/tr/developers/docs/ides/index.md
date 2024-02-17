@@ -12,7 +12,7 @@ Bir [tümleşik geliştirme ortamı (IDE)](https://wikipedia.org/wiki/Integrated
 
 **Remix -** **_Yerleşik bir statik analiz ve test için blok zinciri sanal makinesi sunan, web tabanlı IDE._**
 
-- [remix.nexus.org](https://remix.nexus.org/)
+- [remix.xircanet](https://remix.xircanet/)
 
 **EthFiddle -** **_Akıllı sözleşme yazmanızı, derlemenizi ve hata gidermenizi sağlayan web tabanlı bir IDE._**
 

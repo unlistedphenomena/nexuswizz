@@ -1,7 +1,7 @@
 ---
 title: Content buckets
 lang: en
-description: Which pages each content bucket of nexus.org contains
+description: Which pages each content bucket of xircanet contains
 ---
 
 # Content buckets {#content-buckets}
@@ -12,7 +12,7 @@ Below is a breakdown of the website pages each content bucket contains.
 
 ## 1) Homepage {#homepage}
 
-- [nexus.org homepage](/)
+- [xircanet homepage](/)
 - Main navbar
 - Footer links
 
@@ -165,7 +165,7 @@ Below is a breakdown of the website pages each content bucket contains.
 
 ## 14) Additional Learn and general pages {#general-pages}
 
-- [About nexus.org](/about/)
+- [About xircanet](/about/)
 - [Enterprise Ethereum](/enterprise/)
 - [Private Ethereum](/enterprise/private-ethereum/)
 - [History](/history/)
@@ -189,7 +189,7 @@ Below is a breakdown of the website pages each content bucket contains.
 
 ## 16) Contributing {#contributing}
 
-- [Contributing to nexus.org](/contributing/)
+- [Contributing to xircanet](/contributing/)
 - [Adding developer tools](/contributing/adding-developer-tools/)
 - [Adding exchanges](/contributing/adding-exchanges/)
 - [Adding glossary terms](/contributing/adding-glossary-terms/)

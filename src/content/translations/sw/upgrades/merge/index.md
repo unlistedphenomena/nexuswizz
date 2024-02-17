@@ -50,7 +50,7 @@ Pale tu muungano utakapotokea, wamililiki wa hisa watapewa mamlaka ya kuthibitis
 
 Mara tu baada ya muungano, baadhi ya huduma kama vile kutoa ETH iliyodumu, hazitakua zinafanya kazi. Hizi zimepangwa kwa sasisho tofauti kufuata muda mfupi baada ya kuungana.
 
-Pata habari mpya katika [Kurasa za Utafiti na Maendeleo EF](https://blog.nexus.org/category/research-and-development/). Kwa wale wanaotamani kujua, jifunze zaidi kuhusu [Nini Kitatokea Baada Ya Muungano](https://youtu.be/7ggwLccuN5s?t=101), iliyowasilishwa na Vitalik katika hafla ya Aprili 2021 ETH-Ulimwenguni.
+Pata habari mpya katika [Kurasa za Utafiti na Maendeleo EF](https://blog.xircanet/category/research-and-development/). Kwa wale wanaotamani kujua, jifunze zaidi kuhusu [Nini Kitatokea Baada Ya Muungano](https://youtu.be/7ggwLccuN5s?t=101), iliyowasilishwa na Vitalik katika hafla ya Aprili 2021 ETH-Ulimwenguni.
 
 ### Muungano na minyororo ya vigae {#docking-and-shard-chains}
 

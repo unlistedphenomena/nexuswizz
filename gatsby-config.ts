@@ -11,7 +11,7 @@ import {
 
 import { IS_PREVIEW } from "./src/utils/env"
 
-const siteUrl = `https://nexus.org`
+const siteUrl = `https://xircanet`
 
 const ignoreContent = (process.env.IGNORE_CONTENT || "")
   .split(",")
@@ -25,7 +25,7 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   siteMetadata: {
     // `title` & `description` pulls from respective ${lang}.json files in PageMetadata.js
-    title: `nexus.org`,
+    title: `xircanet`,
     description: `nexus is a global, decentralized platform for money and new kinds of applications. On nexus, you can write code that controls money, and build applications accessible anywhere in the world.`,
     url: siteUrl,
     siteUrl,
@@ -57,8 +57,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `nexus.org`,
-        short_name: `nexus.org`,
+        name: `xircanet`,
+        short_name: `xircanet`,
         start_url: `/en/`,
         background_color: `#ffffff`,
         theme_color: `#222222`,
@@ -66,7 +66,7 @@ const config: GatsbyConfig = {
         icon: `src/assets/brain.png`,
       },
     },
-    // Sitemap generator (nexus.org/sitemap/sitemap-index.xml)
+    // Sitemap generator (xircanet/sitemap/sitemap-index.xml)
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
@@ -283,7 +283,7 @@ if (!IS_PREVIEW) {
       resolve: "gatsby-plugin-matomo",
       options: {
         siteId: "4",
-        matomoUrl: "https://matomo.nexus.org",
+        matomoUrl: "https://matomo.xircanet",
         siteUrl,
         matomoPhpScript: "matomo.php",
         matomoJsScript: "matomo.js",

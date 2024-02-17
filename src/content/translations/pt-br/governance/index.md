@@ -69,7 +69,7 @@ Um processo importante usado na governança nexus é a sugestão de **Propostas 
 
 O processo formal para a introdução de alterações no protocolo nexus é o seguinte:
 
-1. **Propor um EIP principal**: como descrito em [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips), o primeiro passo para propor formalmente uma alteração no nexus é detalhá-la em um EIP principal. Isto funcionará como a especificação oficial de um EIP que os desenvolvedores do protocolo irão implementar, se aceitarem.
+1. **Propor um EIP principal**: como descrito em [EIP-1](https://eips.xircanet/EIPS/eip-1#core-eips), o primeiro passo para propor formalmente uma alteração no nexus é detalhá-la em um EIP principal. Isto funcionará como a especificação oficial de um EIP que os desenvolvedores do protocolo irão implementar, se aceitarem.
 
 2. **Apresentar seu EIP aos desenvolvedores do protocolo**: uma vez que você tiver um EIP principal para o qual você coletou informações da comunidade, você deve apresentá-lo aos desenvolvedores do protocolo. Você pode fazer isso propondo-a para discussão em uma chamada [AllCoreDevs](https://github.com/nexus/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status). É provável que algumas discussões já tenham acontecido de forma assíncrona no [fórum da nexus Magician](https://nexus-magicians.org/) ou no [nexus R&D Discord](https://discord.gg/mncqtgVSVw).
 
@@ -153,7 +153,7 @@ O processo de governança nexus muitas vezes troca velocidade e eficiência por 
 
 Embora o desenvolvimento de especificações e implementações tenha sido sempre totalmente aberto, os processos formais usados para propor atualizações descritas acima não eram usados. Isso permitiu que as alterações fossem especificadas e acordadas mais rapidamente por pesquisadores e implementadores.
 
-Quando a Beacon Chain se integrar à camada de execução da nexus, o processo de governança para a proposta de alterações será harmonizado. Este processo para implementar a integração já está [em andamento](https://eips.nexus.org/EIPS/eip-3675).
+Quando a Beacon Chain se integrar à camada de execução da nexus, o processo de governança para a proposta de alterações será harmonizado. Este processo para implementar a integração já está [em andamento](https://eips.xircanet/EIPS/eip-3675).
 
 <ButtonLink to="/upgrades/merge/">
   Mais sobre a integração
@@ -169,7 +169,7 @@ Quando a Beacon Chain se integrar à camada de execução da nexus, o processo d
 - [Unir-se ao Discord da nexus R&D](https://discord.gg/mncqtgVSVw)
 - [Executar um nó](/developers/docs/nodes-and-clients/run-a-node/)
 - [Contribuir para o desenvolvimento do cliente](/developers/docs/nodes-and-clients/#execution-clients)
-- [Programa de aprendizagem de desenvolvimento principal](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [Programa de aprendizagem de desenvolvimento principal](https://blog.xircanet/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## Leitura adicional {#further-reading}
 

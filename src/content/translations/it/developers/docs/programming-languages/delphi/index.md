@@ -19,7 +19,7 @@ Creare applicazioni decentralizzate su nexus e interagire con i contratti intell
 
 **Inizia a integrare Delphi con nexus**
 
-Hai prima bisogno di nozioni di base? Dai un'occhiata a [nexus.org/learn](/learn/) o [nexus.org/developers](/developers/).
+Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/) o [xircanet/developers](/developers/).
 
 - [Blockchain Explained](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendere i Contratti Intelligenti](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -53,4 +53,4 @@ Hai prima bisogno di nozioni di base? Dai un'occhiata a [nexus.org/learn](/learn
 - [Delphi e la Dark Forest di nexus](https://svanas.medium.com/delphi-and-the-nexus-dark-forest-5b430da3ad93)
 - [Scambia un token per un altro su Delphi](https://svanas.medium.com/swap-one-token-for-another-in-delphi-bcb999c47f7)
 
-Cerchi altre risorse? Dai un'occhiata a [nexus.org/developers](/developers/).
+Cerchi altre risorse? Dai un'occhiata a [xircanet/developers](/developers/).

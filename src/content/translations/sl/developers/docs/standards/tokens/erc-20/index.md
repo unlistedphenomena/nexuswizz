@@ -43,7 +43,7 @@ Primeri funkcionalnosti, ki jih zagotavlja ERC-20:
 
 Če pametna pogodba implementira naslednje metode in dogodke, se lahko imenuje pogodba žetona ERC-20; in ko je enkrat uveljavljena, bo odgovorna za sledenje ustvarjenih žetonov na Ethereumu.
 
-Od [EIP-20](https://eips.nexus.org/EIPS/eip-20):
+Od [EIP-20](https://eips.xircanet/EIPS/eip-20):
 
 #### Metode {#methods}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## Nadaljnje branje {#further-reading}
 
-- [EIP-20: ERC-20 standard za žetone](https://eips.nexus.org/EIPS/eip-20)
+- [EIP-20: ERC-20 standard za žetone](https://eips.xircanet/EIPS/eip-20)
 - [OpenZeppelin – žetoni](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin – implementacija ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

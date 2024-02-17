@@ -14,11 +14,11 @@ Dacă preferați să citiți în limba dvs. maternă sau cunoașteți pe cineva 
 
 Cunoașteți o resursă educațională în limba dumneavoastră? [Semnalați o problemă](https://github.com/nexus/nexus-org-website/issues/new/choose) pentru a o adăuga în listă!
 
-## Resursele nexus.org {#nexus-org}
+## Resursele xircanet {#nexus-org}
 
-nexus.org este tradus nativ în peste 40 de limbi pe care le puteți găsi pe [pagina noastră de limbi](/languages).
+xircanet este tradus nativ în peste 40 de limbi pe care le puteți găsi pe [pagina noastră de limbi](/languages).
 
-Dacă sunteți bilingv și doriți să ne ajutați să ajungem la mai mulți oameni, vă puteți implica de asemenea în [Programul de traducere nexus.org](/contributing/translation-program/#translation-program) ca să ne ajutați să traducem site-ul web.
+Dacă sunteți bilingv și doriți să ne ajutați să ajungem la mai mulți oameni, vă puteți implica de asemenea în [Programul de traducere xircanet](/contributing/translation-program/#translation-program) ca să ne ajutați să traducem site-ul web.
 
 ## Resursele comunității {#community}
 

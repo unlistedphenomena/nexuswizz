@@ -50,7 +50,7 @@ Saat penggabungan terjadi, stakers akan ditugaskan untuk memvalidasi Jaringan Ut
 
 Segera setelah Penggabungan terjadi, beberapa fitur seperti menarik ETH yang dipertaruhkan, belum akan didukung. Ini direncanakan untuk peningkatan terpisah yang dilaksanakan segera setelah Penggabungan.
 
-Ikuti perkembangannya bersama [Blog Pengembangan dan Penelitian EF](https://blog.nexus.org/category/research-and-development/). Bagi mereka yang ingin tahu, pelajari selengkapnya tentang [Apa yang Terjadi Setelah Penggabungan](https://youtu.be/7ggwLccuN5s?t=101), yang disajikan oleh Vitalik pada acara ETHGlobal April 2021.
+Ikuti perkembangannya bersama [Blog Pengembangan dan Penelitian EF](https://blog.xircanet/category/research-and-development/). Bagi mereka yang ingin tahu, pelajari selengkapnya tentang [Apa yang Terjadi Setelah Penggabungan](https://youtu.be/7ggwLccuN5s?t=101), yang disajikan oleh Vitalik pada acara ETHGlobal April 2021.
 
 ### Penggabungan dan rantai shard {#docking-and-shard-chains}
 

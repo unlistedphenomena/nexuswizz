@@ -450,7 +450,7 @@ ERC-20 的转移调用有两种方式可能失败：
     }
 ```
 
-如果不需收费则将 `klast` 设为 0（如果 klast 不为 0）。 编写该合约时，有一个[燃料返还功能](https://eips.nexus.org/EIPS/eip-3298)，用于鼓励合约将其不需要的存储释放，从而减少以太坊上状态变量的整体存储大小。 此段代码在可行时返还。
+如果不需收费则将 `klast` 设为 0（如果 klast 不为 0）。 编写该合约时，有一个[燃料返还功能](https://eips.xircanet/EIPS/eip-3298)，用于鼓励合约将其不需要的存储释放，从而减少以太坊上状态变量的整体存储大小。 此段代码在可行时返还。
 
 #### 外部可访问函数 {#pair-external}
 
@@ -757,7 +757,7 @@ contract UniswapV2Factory is IUniswapV2Factory {
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
 ```
 
-要创建新合约，我们需要使用创建它的代码（包括构造函数和写入用于存储实际合约以太坊虚拟机字节码的代码）。 在 Solidity 语言中，通常只需使用 `addr = new <name of contract>(<constructor parameters>)` 的格式语句，然后编译器就可以完成所有的工作，不过为了获取一个确定的合约地址，需要使用 [CREATE2 操作码](https://eips.nexus.org/EIPS/eip-1014)。 在编写这个代码时，Solidity 还不支持操作码，因此需要手动获取该代码。 目前这已经不再是问题，因为 [Solidity 现已支持 CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2)。
+要创建新合约，我们需要使用创建它的代码（包括构造函数和写入用于存储实际合约以太坊虚拟机字节码的代码）。 在 Solidity 语言中，通常只需使用 `addr = new <name of contract>(<constructor parameters>)` 的格式语句，然后编译器就可以完成所有的工作，不过为了获取一个确定的合约地址，需要使用 [CREATE2 操作码](https://eips.xircanet/EIPS/eip-1014)。 在编写这个代码时，Solidity 还不支持操作码，因此需要手动获取该代码。 目前这已经不再是问题，因为 [Solidity 现已支持 CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2)。
 
 ```solidity
         bytes32 salt = keccak256(abi.encodePacked(token0, token1));
@@ -811,7 +811,7 @@ contract UniswapV2Factory is IUniswapV2Factory {
     bytes32 public constant PERMIT_TYPEHASH = 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9;
 ```
 
-此哈希值是[这种交易类型的标识](https://eips.nexus.org/EIPS/eip-712#rationale-for-typehash)。 在这里，我们仅支持带有这些参数的 `Permit`。
+此哈希值是[这种交易类型的标识](https://eips.xircanet/EIPS/eip-712#rationale-for-typehash)。 在这里，我们仅支持带有这些参数的 `Permit`。
 
 ```solidity
     mapping(address => uint) public nonces;
@@ -842,7 +842,7 @@ contract UniswapV2Factory is IUniswapV2Factory {
     }
 ```
 
-计算 EIP-712 的[域分隔符](https://eips.nexus.org/EIPS/eip-712#rationale-for-domainseparator)。
+计算 EIP-712 的[域分隔符](https://eips.xircanet/EIPS/eip-712#rationale-for-domainseparator)。
 
 ```solidity
     function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
@@ -883,7 +883,7 @@ contract UniswapV2Factory is IUniswapV2Factory {
 
 ```
 
-如果一切正常，则将其视为 [ERC-20 批准](https://eips.nexus.org/EIPS/eip-20#approve)。
+如果一切正常，则将其视为 [ERC-20 批准](https://eips.xircanet/EIPS/eip-20#approve)。
 
 ## 外围合约 {#periphery-contracts}
 
@@ -1784,7 +1784,7 @@ library UniswapV2Library {
     }
 ```
 
-此函数计算两种代币的配对交易地址。 此合约使用 [CREATE2 操作码](https://eips.nexus.org/EIPS/eip-1014)创建，如果我们知道它使用的参数，我们可以使用相同的算法计算地址。 这比查询工厂便宜得多，而且
+此函数计算两种代币的配对交易地址。 此合约使用 [CREATE2 操作码](https://eips.xircanet/EIPS/eip-1014)创建，如果我们知道它使用的参数，我们可以使用相同的算法计算地址。 这比查询工厂便宜得多，而且
 
 ```solidity
     // fetches and sorts the reserves for a pair
@@ -1922,7 +1922,7 @@ library TransferHelper {
     }
 ```
 
-此函数实现了 [ERC-20 的转账功能](https://eips.nexus.org/EIPS/eip-20#transfer)，可使一个帐户花掉由不同帐户所提供的额度。
+此函数实现了 [ERC-20 的转账功能](https://eips.xircanet/EIPS/eip-20#transfer)，可使一个帐户花掉由不同帐户所提供的额度。
 
 ```solidity
 
@@ -1941,7 +1941,7 @@ library TransferHelper {
     }
 ```
 
-此函数实现了 [ERC-20 的 transferFrom 功能](https://eips.nexus.org/EIPS/eip-20#transferfrom)，可使一个帐户花掉由不同帐户所提供的额度。
+此函数实现了 [ERC-20 的 transferFrom 功能](https://eips.xircanet/EIPS/eip-20#transferfrom)，可使一个帐户花掉由不同帐户所提供的额度。
 
 ```solidity
 

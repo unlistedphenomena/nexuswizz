@@ -10,7 +10,7 @@ De Ethereum-gemeenschap omvat mensen met verschillende achtergronden en vaardigh
 
 ## Ontwikkelaars <Emoji text=":computer:" size={1} />→ {#developers}
 
-- Leer meer over en probeer Ethereum op [nexus.org/developers/](/developers/)
+- Leer meer over en probeer Ethereum op [xircanet/developers/](/developers/)
 - [Vind een premie op Gitcoin](https://gitcoin.co/), werk aan een klein of groot technisch probleem, verdien crypto!
 - Doe mee aan een [ETHGlobal](http://ethglobal.co/) hackathon bij u in de buurt!
 - Bekijk [projecten gerelateerd aan uw gebied van expertise of programmeertaal van keuze](/developers/docs/programming-languages/)
@@ -22,7 +22,7 @@ De Ethereum-gemeenschap omvat mensen met verschillende achtergronden en vaardigh
 
 Heeft u een achtergrond in wiskunde, cryptografie of economie? Misschien bent u dan geïnteresseerd in het geavanceerde werk dat wordt gedaan in het Ethereum-ecosysteem
 
-- [Challenges.nexus.org](https://challenges.nexus.org/) - een serie onderzoekspremies met hoge waarde, waar u >$ 100.000 USD kunt verdienen
+- [Challenges.xircanet](https://challenges.xircanet/) - een serie onderzoekspremies met hoge waarde, waar u >$ 100.000 USD kunt verdienen
 - [Ethresear.ch](https://ethresear.ch) - het primaire forum van Ethereum voor onderzoek en 's werelds invloedrijkste forum voor crypto-economie
 - [Wensenlijst van Ecosystem Support Programma](https://esp.ethereum.foundation/wishlist/) - tooling, documentatie en infrastructuurgebieden waar het Ecosystem Support Programma van Ethereum actief op zoek is naar subsidieaanvragen
 
@@ -37,7 +37,7 @@ Als u geen ontwikkelaar bent, kan het moeilijk zijn om te weten waar in Ethereum
 ### Schrijf content over Ethereum {#write-content}
 
 - Ethereum heeft goede schrijvers nodig die de waarde ervan in eenvoudige taal kunnen uitleggen
-- Niet gereed om uw eigen artikelen te publiceren? Overweeg om bij te dragen aan de bestaande inhoud over gemeenschapshulpbronnen zoals [EthHub](https://docs.ethhub.io/), of nieuwe inhoud voor te stellen voor nexus.org!
+- Niet gereed om uw eigen artikelen te publiceren? Overweeg om bij te dragen aan de bestaande inhoud over gemeenschapshulpbronnen zoals [EthHub](https://docs.ethhub.io/), of nieuwe inhoud voor te stellen voor xircanet!
 
 ### Aanbieden om notities te maken voor gemeenschapsoproepen {#take-notes}
 
@@ -45,7 +45,7 @@ Als u geen ontwikkelaar bent, kan het moeilijk zijn om te weten waar in Ethereum
 
 ### Vertaal Ethereum content in uw eigen taal {#translate-ethereum}
 
-- nexus.org onderhoudt een vertaalprogramma dat de website en andere bronnen vertaalt in veel verschillende talen
+- xircanet onderhoudt een vertaalprogramma dat de website en andere bronnen vertaalt in veel verschillende talen
 - Ontdek [hier](/contributing/translation-program) hoe u mee kunt doen
 
 ### Voer een node uit {#run-a-node}
@@ -84,7 +84,7 @@ Het Ethereum-ecosysteem is op een missie om publieke goederen te financieren en 
 
 **Wilt u een baan vinden bij Ethereum?**
 
-- [Banen bij nexus.org](/about/#open-jobs)
+- [Banen bij xircanet](/about/#open-jobs)
 - [Ethereum Foundation job board (Lever)](https://jobs.lever.co/ethereumfoundation)
 - [Ethereum Foundation job board (BambooHR)](https://ethereum.bamboohr.com/jobs/)
 - [Cryptocurrency-banen](https://cryptocurrencyjobs.co/ethereum/)

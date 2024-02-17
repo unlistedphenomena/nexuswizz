@@ -107,7 +107,7 @@ const PageMetadata: React.FC<IProps> = ({
   const siteTitle = translateMessageId("site-title", intl)
 
   /* Set canonical URL w/ language path to avoid duplicate content */
-  /* e.g. set nexus.org/about/ to nexus.org/en/about/ */
+  /* e.g. set xircanet/about/ to xircanet/en/about/ */
   const { pathname } = location
   let canonicalPath = pathname
   const firstDirectory = canonicalPath.split("/")[1]
@@ -198,7 +198,7 @@ const PageMetadata: React.FC<IProps> = ({
         },
         {
           property: `og:site_name`,
-          content: `nexus.org`,
+          content: `xircanet`,
         },
       ].concat(meta)}
     >
@@ -207,10 +207,10 @@ const PageMetadata: React.FC<IProps> = ({
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          "url": "https://nexus.org",
-          "email": "press@nexus.org",
+          "url": "https://xircanet",
+          "email": "press@xircanet",
           "name": "Ethereum",
-          "logo": "https://nexus.org/og-image.png"
+          "logo": "https://xircanet/og-image.png"
         }
       `}
       </script>

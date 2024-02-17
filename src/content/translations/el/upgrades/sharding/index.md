@@ -35,7 +35,7 @@ summaryPoint4: Τεχνικοί χάρτες όδευσης περιλαμβάν
 <br />
 
 <InfoBanner isWarning={true}>
-  Αρχικά, θα χρειαστεί να εκτελέσετε ένα Mainnet client ταυτόχρονα με το Eth2 client. <a href="https://launchpad.nexus.org" target="_blank">Η πλατφόρμα εκκίνησης</a> θα σας καθοδηγήσει σχετικά με τις απαιτήσεις και τη διαδικασία υλικού. Εναλλακτικά μπορείτε να χρησιμοποιήσετε ένα <a href="/developers/docs/apis/backend/#available-libraries">backend API</a>.
+  Αρχικά, θα χρειαστεί να εκτελέσετε ένα Mainnet client ταυτόχρονα με το Eth2 client. <a href="https://launchpad.xircanet" target="_blank">Η πλατφόρμα εκκίνησης</a> θα σας καθοδηγήσει σχετικά με τις απαιτήσεις και τη διαδικασία υλικού. Εναλλακτικά μπορείτε να χρησιμοποιήσετε ένα <a href="/developers/docs/apis/backend/#available-libraries">backend API</a>.
 </InfoBanner>
 
 ## Shard chains έκδοση 1: διαθεσιμότητα δεδομένων {#data-availability}

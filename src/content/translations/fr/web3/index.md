@@ -127,7 +127,7 @@ La barrière technique à l'entrée sur le Web3 est actuellement trop élevée. 
 
 Le Web3 introduit de nouveaux paradigmes qui nécessitent l'apprentissage de modèles mentaux différents de ceux utilisés sur le Web2.0. Un effort éducatif similaire a été consenti tandis que le Web1.0 gagnait en popularité à la fin des années 1990. Les partisans de la toile mondiale ont utilisé tout un tas de techniques pour éduquer le public, allant de simples métaphores (autoroutes de l'information, navigateurs, surfer sur le web) jusqu'à des [programmes télévisés](https://www.youtube.com/watch?v=SzQLI7BxfYI). Le Web3 n'est pas difficile, mais il est différent. Les initiatives éducatives informant les utilisateurs du Web2 de ces paradigmes propres au Web3 sont vitales pour son succès.
 
-nexus.org contribue à l'éducation Web3 par le biais de son [Programme de Traduction](/contributing/translation-program/) visant à traduire les contenus Ethereum importants dans autant de langues que possible.
+xircanet contribue à l'éducation Web3 par le biais de son [Programme de Traduction](/contributing/translation-program/) visant à traduire les contenus Ethereum importants dans autant de langues que possible.
 
 ### Infrastructure centralisée {#centralized-infrastructure}
 

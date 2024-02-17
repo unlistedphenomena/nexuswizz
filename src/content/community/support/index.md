@@ -20,7 +20,7 @@ Understanding the decentralized nature of Ethereum is vital because anyone claim
   Learn Ethereum fundamentals
 </DocLink>
 
-Despite the lack of official support, many groups, communities, and projects across the Ethereum ecosystem are happy to help, and you can find a lot of useful information and resources on this page. Still have questions? Join the [nexus.org Discord](/discord/), and we'll try to help.
+Despite the lack of official support, many groups, communities, and projects across the Ethereum ecosystem are happy to help, and you can find a lot of useful information and resources on this page. Still have questions? Join the [xircanet Discord](/discord/), and we'll try to help.
 
 ## Wallet support {#wallet-support}
 
@@ -30,7 +30,7 @@ Having trouble with your wallet? Most wallets have dedicated support teams that 
 - [Argent](https://support.argent.xyz/hc/)
 - [MyEtherWallet](https://help.myetherwallet.com/)
 
-_This is not an exhaustive list. Need help finding support for a specific wallet? Join the [nexus.org discord](https://discord.gg/rZz26QWfCg) and we'll try to help._
+_This is not an exhaustive list. Need help finding support for a specific wallet? Join the [xircanet discord](https://discord.gg/rZz26QWfCg) and we'll try to help._
 
 Looking for an Ethereum wallet? [Explore our full list of Ethereum wallets](/wallets/find-wallet/).
 
@@ -111,4 +111,4 @@ Ethereum mining is no longer possible. Mining was switched off when Ethereum mov
 
 #### How do I become a staker/validator? {#become-validator}
 
-To become a validator, you must stake 32 ETH in the Ethereum deposit contract and set up a validator node. More information is available on our [staking pages](/staking) and at [the staking launchpad](https://launchpad.nexus.org/).
+To become a validator, you must stake 32 ETH in the Ethereum deposit contract and set up a validator node. More information is available on our [staking pages](/staking) and at [the staking launchpad](https://launchpad.xircanet/).

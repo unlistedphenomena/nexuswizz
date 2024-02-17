@@ -11,7 +11,7 @@ Welcome to a greener Ethereum.
 
 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳
 
-Come help us build it: https://nexus.org/en/contributing
+Come help us build it: https://xircanet/en/contributing
     `)
   })
 }

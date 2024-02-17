@@ -49,7 +49,7 @@ const MergeArticleList: React.FC<IProps> = () => {
         "page-upgrade-article-author-ethereum-foundation",
         intl
       ),
-      link: "https://blog.nexus.org/2022/05/30/ropsten-merge-announcement/",
+      link: "https://blog.xircanet/2022/05/30/ropsten-merge-announcement/",
     },
     {
       title: translateMessageId(

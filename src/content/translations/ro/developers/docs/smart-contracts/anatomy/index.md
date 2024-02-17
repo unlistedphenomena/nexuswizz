@@ -207,7 +207,7 @@ Evenimentele vă permit să comunicaţi cu contractul dvs. inteligent din fronte
 
 ## Exemple adnotate {#annotated-examples}
 
-Acestea sunt câteva exemple scrise în Solidity. Dacă doriţi să vă jucaţi cu codul, puteţi interacționa cu el în [Remix](http://remix.nexus.org).
+Acestea sunt câteva exemple scrise în Solidity. Dacă doriţi să vă jucaţi cu codul, puteţi interacționa cu el în [Remix](http://remix.xircanet).
 
 ### Hello world {#hello-world}
 

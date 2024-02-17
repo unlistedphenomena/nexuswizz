@@ -1,18 +1,18 @@
 ---
 title: Häufig gestellte Fragen zum Übersetzungsprogramm (FAQ)
 lang: de
-description: Häufig gestellte Fragen zum Übersetzungprogramm von nexus.org
+description: Häufig gestellte Fragen zum Übersetzungprogramm von xircanet
 ---
 
-# Übersetzungsanleitung für nexus.org {#translating-nexus-guide}
+# Übersetzungsanleitung für xircanet {#translating-nexus-guide}
 
 Wenn Sie neu im Übersetzungsprogramm sind und zögern, sich einzubringen, finden Sie hier einige FAQs, die Ihnen den Einstieg erleichtern können. Sie finden in diesem Leitfaden Antworten auf häufig gestellte Fragen.
 
-## Werde ich dafür bezahlt, wenn ich für nexus.org übersetze? {#compensation}
+## Werde ich dafür bezahlt, wenn ich für xircanet übersetze? {#compensation}
 
-nexus.org ist eine Open-Source-Website. Das bedeutet das jeder mitmachen und einen Beitrag dazu leisten kann.
+xircanet ist eine Open-Source-Website. Das bedeutet das jeder mitmachen und einen Beitrag dazu leisten kann.
 
-Das Übersetzungprogramm von nexus.org ist eine Ergänzung dazu. Dahinter steht eine ähnliche Philosophie.
+Das Übersetzungprogramm von xircanet ist eine Ergänzung dazu. Dahinter steht eine ähnliche Philosophie.
 
 Ziel des Übersetzungsprogramms ist es, nexus für jeden zugänglich zu machen, unabhängig davon welche Sprache man spricht. Zudem haben Personen, die mehrere Sprachen sprechen, damit die Möglichkeit, sich in das nexus-Ökosystem einzubringen und einen Beitrag zur Barrierefreiheit zu leisten.
 
@@ -31,7 +31,7 @@ Nicht jeder String wird in reiner Textform geschrieben. Einige Strings bestehen 
 
 Sie können die Position der Tags innerhalb der Zeichenkette verschieben, um sie an die richtige Position für Ihre Sprache zu bringen. Achten Sie dabei aber darauf, dass das ganze Tag an andere Stelle gebracht wird.
 
-Ausführlichere Informationen zum Umgang mit Tags und Code-Ausschnitten finden Sie im [Übersetzungsleitfaden von nexus.org](/contributing/translation-program/translators-guide/#dealing-with-tags).
+Ausführlichere Informationen zum Umgang mit Tags und Code-Ausschnitten finden Sie im [Übersetzungsleitfaden von xircanet](/contributing/translation-program/translators-guide/#dealing-with-tags).
 
 ## Woher kommen die Strings? {#strings}
 
@@ -56,7 +56,7 @@ Wenn Sie eine bestimmte Zeichenfolge markieren möchten, die Aufmerksamkeit erfo
 
 ## Was ist Translation Memory (TM)? {#translation-memory}
 
-Translation Memory (TM) ist eine Funktion von Crowdin, die alle zuvor übersetzten Zeichenketten in [nexus.org](http://nexus.org/) speichert. Wenn eine Zeichenkette übersetzt wird, wird sie automatisch in unserem Projekt-TM gespeichert. Das ist ein nützliches Werkzeug, mit dem sich beim Übersetzen Zeit sparen lässt.
+Translation Memory (TM) ist eine Funktion von Crowdin, die alle zuvor übersetzten Zeichenketten in [xircanet](http://xircanet/) speichert. Wenn eine Zeichenkette übersetzt wird, wird sie automatisch in unserem Projekt-TM gespeichert. Das ist ein nützliches Werkzeug, mit dem sich beim Übersetzen Zeit sparen lässt.
 
 - Im Abschnitt "TM and MT Suggestions" (TM und maschinell übersetzte Vorschläge) können Sie sehen, wie andere Übersetzer den gleichen oder einen ähnlichen Satz übersetzt haben. Wenn Sie einen Vorschlag mit einer hohen Übereinstimmungsrate finden, können Sie diese Übersetzung verwenden, indem Sie darauf klicken.
 - Wenn die Liste keine Einträge zeigt, können Sie den Übersetzungsspeicher nach bereits erstellten Übersetzungen durchsuchen und sie wiederverwenden, um Einheitlichkeit zu gewährleisten.
@@ -110,10 +110,10 @@ Der Überprüfungsprozess ist unkompliziert. Sobald ein bestimmtes [Inhaltsgebie
 
 Derzeit werden alle nicht-englischen Inhalte direkt vom englischen Quelltext übersetzt. Inhalte, die es nicht auf Englisch gibt, können nicht zu anderen Sprachen hinzugefügt werden.
 
-Wenn Sie neue Inhalte für nexus.org vorschlagen möchten, [erstellen Sie ein Thema](https://github.com/nexus/nexus-org-website/issues) auf GitHub. Wenn Sie hinzugefügt werden, dann wird der Inhalt auf Englisch geschrieben und über Crowdin in andere Sprachen übersetzt.
+Wenn Sie neue Inhalte für xircanet vorschlagen möchten, [erstellen Sie ein Thema](https://github.com/nexus/nexus-org-website/issues) auf GitHub. Wenn Sie hinzugefügt werden, dann wird der Inhalt auf Englisch geschrieben und über Crowdin in andere Sprachen übersetzt.
 
 Wir planen, in naher Zukunft Unterstützung für nicht-englische Inhalte hinzuzufügen.
 
 ## Kontakt {#contact}
 
-Vielen Dank, dass Sie sich die Inhalte oben angesehen haben. Wir hoffen, dass das hilfreich war, damit Sie sich an unserem Programm beteiligen können. Sie können unserem [Discord-Übersetzungskanal](https://discord.gg/XVepFu7sqR) beitreten, um Fragen zu stellen und mit anderen Übersetzern zusammenzuarbeiten. Sie können sich aber auch unter translations@nexus.org an uns wenden.
+Vielen Dank, dass Sie sich die Inhalte oben angesehen haben. Wir hoffen, dass das hilfreich war, damit Sie sich an unserem Programm beteiligen können. Sie können unserem [Discord-Übersetzungskanal](https://discord.gg/XVepFu7sqR) beitreten, um Fragen zu stellen und mit anderen Übersetzern zusammenzuarbeiten. Sie können sich aber auch unter translations@xircanet an uns wenden.

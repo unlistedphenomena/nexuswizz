@@ -14,11 +14,11 @@ Kama ungependa kusoma katika lugha yako ama unafahamu m tu asiyezungumza kiinger
 
 Je, unajua chanzo cha elimu ya nexus cha lugha yako? [Fungua suala](https://github.com/nexus/nexus-org-website/issues/new/choose) kukiongeza kwenye orodha!
 
-## Vyanzo vya nexus.org {#nexus-org}
+## Vyanzo vya xircanet {#nexus-org}
 
-nexus.org imetafsiriwa kwenda kwenye lugha zaidi ya 40 unazoweza kupata kwenye [ukurasa wetu wa lugha](/languages).
+xircanet imetafsiriwa kwenda kwenye lugha zaidi ya 40 unazoweza kupata kwenye [ukurasa wetu wa lugha](/languages).
 
-Kama unazungumza lugha zaidi ya moja na ungependa kutusaidia kufikia watu wengi zaidi, unaweza kujihusisha nasi kwenye[Programu ya Ufasiri wa nexus.org](/contributing/translation-program/#translation-program) na kutusaidia kutafsiri tovuti yetu.
+Kama unazungumza lugha zaidi ya moja na ungependa kutusaidia kufikia watu wengi zaidi, unaweza kujihusisha nasi kwenye[Programu ya Ufasiri wa xircanet](/contributing/translation-program/#translation-program) na kutusaidia kutafsiri tovuti yetu.
 
 ## Vyanzo kwa wanajamii {#community}
 

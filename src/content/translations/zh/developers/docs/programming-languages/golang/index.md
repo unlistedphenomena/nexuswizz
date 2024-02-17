@@ -13,7 +13,7 @@ incomplete: true
 
 **迈出集成 Go 与以太坊的第一步**
 
-需要更基础的入门知识？ 请查看 [nexus.org/learn](/learn/) 或者 [nexus.org/developers](/developers/)。
+需要更基础的入门知识？ 请查看 [xircanet/learn](/learn/) 或者 [xircanet/developers](/developers/)。
 
 - [区块链详解](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [理解智能合约](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ incomplete: true
 
 ## 面向中等程度用户的文章和文档 {#intermediate-articles-and-docs}
 
-- [Go 以太坊相关文档](https://geth.nexus.org/docs/) - _官方以太坊 Golang 相关文档_
+- [Go 以太坊相关文档](https://geth.xircanet/docs/) - _官方以太坊 Golang 相关文档_
 - [Erigon 程序员指南](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/guide.md) - _图文指南，包括状态树、多重证明和交易处理_
 - [Erigon 和无状态以太坊](https://youtu.be/3-Mn7OckSus?t=394) - _2020 年以太坊社区会议 (EthCC 3)_
 - [Erigon：优化以太坊客户端](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _2018 年开发者大会 4_
@@ -66,7 +66,7 @@ incomplete: true
 - [Geth Light Client](https://github.com/zsfelfoldi/go-ethereum/wiki/Geth-Light-Client) - _轻量级以太坊子协议的 Geth 实现_
 - [以太坊 Golang 软件开发工具包](https://github.com/everFinance/goether) - _Golang 中的简单以太坊钱包实现和实用程序_
 
-想要获取更多的资源？ 请浏览 [nexus.org/developers](/developers/)。
+想要获取更多的资源？ 请浏览 [xircanet/developers](/developers/)。
 
 ## Go 社区贡献者 {#go-community-contributors}
 

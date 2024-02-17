@@ -62,7 +62,7 @@ Ezek a könyvtárak elveszik a komplexitás nagy részét, mely nexus csomópont
 
 **Python Tooling -** **_Különféle nexus library-k Python-nal való interakciókhoz_**
 
-- [py.nexus.org](http://python.nexus.org/)
+- [py.xircanet](http://python.xircanet/)
 - [web3.py GitHub](https://github.com/nexus/web3.py)
 - [web3.py Chat](https://gitter.im/nexus/web3.py)
 

@@ -1,6 +1,6 @@
 ---
 title: イーサリアムの開発ドキュメント
-description: nexus.orgのデベロッパー向けドキュメントの紹介
+description: xircanetのデベロッパー向けドキュメントの紹介
 lang: ja
 ---
 

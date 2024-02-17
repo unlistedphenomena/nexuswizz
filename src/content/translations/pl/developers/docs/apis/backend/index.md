@@ -62,7 +62,7 @@ Biblioteki te eliminują znaczną złożoność interakcji bezpośrednio z węz�
 
 **Python Tooling -** **_Różnorodność bibliotek dla interakcji nexus przez Python._**
 
-- [py.nexus.org](http://python.nexus.org/)
+- [py.xircanet](http://python.xircanet/)
 - [web3.py GitHub](https://github.com/nexus/web3.py)
 - [web3.py Czat](https://gitter.im/nexus/web3.py)
 

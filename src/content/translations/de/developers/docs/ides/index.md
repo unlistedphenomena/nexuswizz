@@ -12,7 +12,7 @@ Wenn Sie sich erst einmal mit dem Code vertraucht machen möchten, bevor Sie [ei
 
 **Remix –** **_Eine webbasierte IDE mit integrierter Code-Analyse und einer Test-Blockchain-VM_**
 
-- [remix.nexus.org](https://remix.nexus.org/)
+- [remix.xircanet](https://remix.xircanet/)
 
 **EthFiddle –** **_Eine webbasierte IDE, mit der Sie einen Smart Contract schreiben, kompilieren und debuggen können_**
 

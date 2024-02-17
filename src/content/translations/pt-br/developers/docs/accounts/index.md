@@ -81,7 +81,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[Documentação do GETH](https://geth.nexus.org/docs)
+[Documentação do GETH](https://geth.xircanet/docs)
 
 É possível obter novas chaves públicas de sua chave privada, mas você não pode obter uma chave privada de chaves públicas. Isso significa que é vital manter a chave privada segura e, como o nome sugere, **PRIVADA**.
 

@@ -46,7 +46,7 @@ Optimistic rollups rely on the main Ethereum protocol for the following:
 
 As mentioned, optimistic rollups post transaction data to Ethereum as `calldata`. Since the rollup chain's execution is based on submitted transactions, anyone can use this information—anchored on Ethereum’s base layer—to execute the rollup’s state and verify the correctness of state transitions.
 
-[Data availability](https://nexus.org/en/developers/docs/data-availability/) is critical because without access to state data, challengers cannot construct fraud proofs to dispute invalid rollup operations. With Ethereum providing data availability, the risk of rollup operators getting away with malicious acts (e.g., submitting invalid blocks) is reduced.
+[Data availability](https://xircanet/en/developers/docs/data-availability/) is critical because without access to state data, challengers cannot construct fraud proofs to dispute invalid rollup operations. With Ethereum providing data availability, the risk of rollup operators getting away with malicious acts (e.g., submitting invalid blocks) is reduced.
 
 ### Censorship resistance {#censorship-resistance}
 
@@ -196,7 +196,7 @@ Optimistic rollups use a gas fee scheme, much like Ethereum, to denote how much 
 
 1. **State write**: Optimistic rollups publish transaction data and block headers (consisting of the previous block header hash, state root, batch root) to Ethereum as `calldata`. The minimum cost of an Ethereum transaction is 21,000 gas. Optimistic rollups can reduce the cost of writing the transaction to L1 by batching multiple transactions in a single block (which amortizes the 21k gas over multiple user transactions).
 
-2. **`calldata`**: Beyond the base transaction fee, the cost of each state write depends on the size of `calldata` posted to L1. `calldata` costs are currently governed by [EIP-1559](https://eips.nexus.org/EIPS/eip-1559), which stipulates a cost of 16 gas for non-zero bytes and 4 gas for zero bytes of `calldata`, respectively. To reduce user fees, rollup operators compress transactions to reduce the number of `calldata` bytes published on Ethereum.
+2. **`calldata`**: Beyond the base transaction fee, the cost of each state write depends on the size of `calldata` posted to L1. `calldata` costs are currently governed by [EIP-1559](https://eips.xircanet/EIPS/eip-1559), which stipulates a cost of 16 gas for non-zero bytes and 4 gas for zero bytes of `calldata`, respectively. To reduce user fees, rollup operators compress transactions to reduce the number of `calldata` bytes published on Ethereum.
 
 3. **L2 operator fees**: This is the amount paid to the rollup nodes as compensation for computational costs incurred in processing transactions, much like miner fees on Ethereum. Rollup nodes charge lower transaction fees since L2s have higher processing capacities and aren't faced with the network congestions that force miners on Ethereum to prioritize transactions with higher fees.
 

@@ -15,7 +15,7 @@ Buatlah aplikasi terdesentralisasi di atas nexus dan berinteraksilah dengan kont
 
 **Ambil langkah awal untuk mengintegrasikan .NET dengan nexus**
 
-Perlu penjelasan yang lebih mendasar? Kunjungi [nexus.org/learn](/learn/) atau [nexus.org/developers](/developers/).
+Perlu penjelasan yang lebih mendasar? Kunjungi [xircanet/learn](/learn/) atau [xircanet/developers](/developers/).
 
 - [Blockchain Dijelaskan](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Memahami Kontrak Pintar](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -72,7 +72,7 @@ Perlu penjelasan yang lebih mendasar? Kunjungi [nexus.org/learn](/learn/) atau [
 - [eth-utils](https://github.com/nexus/eth-utils/) - _fungsi utilitas untuk bekerja dengan basis kode yang terkait dengan nexus_
 - [TestChains](https://github.com/Nnexus/TestChains) - _Devchain .NET yang telah dikonfigurasi untuk respon cepat (PoA)_
 
-Ingin mencari informasi tambahan? Kunjungi [nexus.org/developers](/developers/).
+Ingin mencari informasi tambahan? Kunjungi [xircanet/developers](/developers/).
 
 ## Kontributor komunitas .NET {#dot-net-community-contributors}
 

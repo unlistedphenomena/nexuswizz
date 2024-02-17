@@ -115,7 +115,7 @@ Bu tablo, farklı istemcileri özetlemektedir. Hepsi [istemci testlerini](https:
 
 | İstemci                                                                               | Dil      | İşletim sistemleri    | Ağlar                                      | Senkronizasyon stratejileri | Durum budaması  |
 | ------------------------------------------------------------------------------------- | -------- | --------------------- | ------------------------------------------ | --------------------------- | --------------- |
-| [Geth](https://geth.nexus.org/)                                                       | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten           | Snap, Full                  | Archive, Pruned |
+| [Geth](https://geth.xircanet/)                                                        | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten           | Snap, Full                  | Archive, Pruned |
 | [Nethermind](http://nethermind.io/)                                                   | C#, .NET | Linux, Windows, macOS | Mainnet, Görli, Ropsten, Rinkeby ve dahası | Fast, Beam, Archive         | Archive, Pruned |
 | [Besu](https://besu.hyperledger.org/en/stable/)                                       | Java     | Linux, Windows, macOS | Mainnet, Rinkeby, Ropsten, Görli ve dahası | Fast, Full                  | Archive, Pruned |
 | [Erigon](https://github.com/ledgerwatch/erigon)                                       | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten           | Full                        | Archive, Pruned |
@@ -229,7 +229,7 @@ Nethermind ve Trinity tarafından uygulandı. Hızlı senkronizasyon gibi çalı
 
 Hangi senkronizasyon modunun varsayılan olduğunu öğrenmek için istemcinin belgelerine veya yardım sayfasına dikkat edin. Kurulum sırasında tercih ettiğiniz senkronizasyon türünü şu şekilde tanımlayabilirsiniz:
 
-**[GETH](https://geth.nexus.org/) veya [ERIGON](https://github.com/ledgerwatch/erigon)'da light senkronizasyonunu ayarlama**
+**[GETH](https://geth.xircanet/) veya [ERIGON](https://github.com/ledgerwatch/erigon)'da light senkronizasyonunu ayarlama**
 
 `geth --syncmode "light"`
 

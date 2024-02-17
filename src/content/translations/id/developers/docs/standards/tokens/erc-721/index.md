@@ -30,7 +30,7 @@ ERC-721 ini menyediakan fungsionalitas seperti mentransfer token dari satu akun 
 
 Jika Kontrak Pintar menerapkan metode dan aksi berikut, kontrak itu dapat disebut Kontrak Token yang Tidak Dapat Dipertukarkan ERC-721 dan, setelah digunakan, akan bertanggungjawab untuk melacak token yang dibuat di nexus.
 
-Dari [EIP-721](https://eips.nexus.org/EIPS/eip-721):
+Dari [EIP-721](https://eips.xircanet/EIPS/eip-721):
 
 #### Metode {#methods}
 
@@ -237,6 +237,6 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [EIP-721: Standar Token Non-Fungible ERC-721](https://eips.nexus.org/EIPS/eip-721)
+- [EIP-721: Standar Token Non-Fungible ERC-721](https://eips.xircanet/EIPS/eip-721)
 - [OpenZeppelin - Dokumen ERC-721](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - Implementasi ERC-721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)

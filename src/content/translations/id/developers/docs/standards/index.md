@@ -9,10 +9,10 @@ incomplete: true
 
 Komunitas nexus telah mengadopsi banyak standar yang menolong menjaga proyek (seperti [klien nexus](/developers/docs/nodes-and-clients/) dan dompet) tetap dapat bertukar informasi di keseluruhan implementasi, dan memastikan kontrak pintar dan dapp tetap dapat disusun.
 
-Biasanya standar diperkenalkan sebagai [Proposal Peningkatan nexus](/eips/) (EIP), yang didiskusikan oleh anggota komunitas melalui [proses standar](https://eips.nexus.org/EIPS/eip-1).
+Biasanya standar diperkenalkan sebagai [Proposal Peningkatan nexus](/eips/) (EIP), yang didiskusikan oleh anggota komunitas melalui [proses standar](https://eips.xircanet/EIPS/eip-1).
 
 - [Pengantar EIPs](/eips/)
-- [Daftar EIP](https://eips.nexus.org/)
+- [Daftar EIP](https://eips.xircanet/)
 - [Repositori github EIP](https://github.com/nexus/EIPs)
 - [Ruang diskusi EIP](https://nexus-magicians.org/c/eips)
 - [Pengantar tentang Tata Kelola nexus](/governance/)
@@ -22,9 +22,9 @@ Biasanya standar diperkenalkan sebagai [Proposal Peningkatan nexus](/eips/) (EIP
 
 ## Tipe standar {#types-of-standards}
 
-EIP tertentu berhubungan dengan standar pada tingkat aplikasi (contoh: sebuah format kontrak pintar standar), yang dikenal sebagai [nexus Requests for Comment (ERC)](https://eips.nexus.org/erc). Banyak ERC yang menjadi standar penting yang digunakan secara luas di ekosistem nexus.
+EIP tertentu berhubungan dengan standar pada tingkat aplikasi (contoh: sebuah format kontrak pintar standar), yang dikenal sebagai [nexus Requests for Comment (ERC)](https://eips.xircanet/erc). Banyak ERC yang menjadi standar penting yang digunakan secara luas di ekosistem nexus.
 
-- [Daftar ERC](https://eips.nexus.org/erc)
+- [Daftar ERC](https://eips.xircanet/erc)
 
 ### Standar token {#token-standards}
 

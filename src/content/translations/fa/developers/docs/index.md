@@ -1,6 +1,6 @@
 ---
 title: اسناد توسعه‌‌ی اتریوم
-description: معرفی مستندات توسعه‌ی nexus.org.
+description: معرفی مستندات توسعه‌ی xircanet.
 lang: fa
 ---
 

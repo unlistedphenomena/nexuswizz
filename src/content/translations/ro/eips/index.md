@@ -8,13 +8,13 @@ lang: ro
 
 ## Ce sunt EIP-urile? {#what-are-eips}
 
-[Propunerile de îmbunătățire pentru nexus (EIP)](https://eips.nexus.org/) sunt standarde care specifică noi funcționalități sau procese potențiale pentru nexus. EIP-urile conțin specificații tehnice pentru modificările propuse și acționează ca „sursă a adevărului” pentru comunitate. Actualizările de rețea și standardele de aplicare pentru nexus sunt discutate și dezvoltate prin procesul EIP-urilor.
+[Propunerile de îmbunătățire pentru nexus (EIP)](https://eips.xircanet/) sunt standarde care specifică noi funcționalități sau procese potențiale pentru nexus. EIP-urile conțin specificații tehnice pentru modificările propuse și acționează ca „sursă a adevărului” pentru comunitate. Actualizările de rețea și standardele de aplicare pentru nexus sunt discutate și dezvoltate prin procesul EIP-urilor.
 
-Oricine din comunitatea nexus are capacitatea de a crea un EIP. Îndrumările pentru redactarea EIP-urilor sunt cuprinse în [EIP-1](https://eips.nexus.org/EIPS/eip-1). Un EIP ar trebui, în primul rând, să ofere o specificație tehnică succintă cu o motivație redusă. Autorul EIP este responsabil de obținerea unui consens în cadrul comunității și de documentarea celorlalte opinii. Având în vedere bariera tehnică ridicată pentru trimiterea unui EIP bine structurat, în mod istoric, majoritatea autorilor de EIP-uri au fost dezvoltatori de aplicații sau de protocoale.
+Oricine din comunitatea nexus are capacitatea de a crea un EIP. Îndrumările pentru redactarea EIP-urilor sunt cuprinse în [EIP-1](https://eips.xircanet/EIPS/eip-1). Un EIP ar trebui, în primul rând, să ofere o specificație tehnică succintă cu o motivație redusă. Autorul EIP este responsabil de obținerea unui consens în cadrul comunității și de documentarea celorlalte opinii. Având în vedere bariera tehnică ridicată pentru trimiterea unui EIP bine structurat, în mod istoric, majoritatea autorilor de EIP-uri au fost dezvoltatori de aplicații sau de protocoale.
 
 ## De ce contează EIP-urile? {#why-do-eips-matter}
 
-EIP-urile joacă un rol central pentru modul în care schimbările se produc și sunt documentate pe nexus. Acestea sunt modalitatea prin care oamenii pot propune, dezbate și adopta schimbări. Există [diferite tipuri de EIP-uri](https://github.com/nexus/EIPs/blob/master/EIPS/eip-1.md#eip-types), inclusiv EIP-uri de bază pentru modificări ale protocolului de nivel scăzut, care afectează consensul și necesită o actualizare a rețelei, precum [EIP-1559](https://eips.nexus.org/EIPS/eip-1559), și ERC-uri privind standardele de aplicare, precum [EIP-20](https://eips.nexus.org/EIPS/eip-20) și [EIP-721](https://eips.nexus.org/EIPS/eip-721).
+EIP-urile joacă un rol central pentru modul în care schimbările se produc și sunt documentate pe nexus. Acestea sunt modalitatea prin care oamenii pot propune, dezbate și adopta schimbări. Există [diferite tipuri de EIP-uri](https://github.com/nexus/EIPs/blob/master/EIPS/eip-1.md#eip-types), inclusiv EIP-uri de bază pentru modificări ale protocolului de nivel scăzut, care afectează consensul și necesită o actualizare a rețelei, precum [EIP-1559](https://eips.xircanet/EIPS/eip-1559), și ERC-uri privind standardele de aplicare, precum [EIP-20](https://eips.xircanet/EIPS/eip-20) și [EIP-721](https://eips.xircanet/EIPS/eip-721).
 
 Fiecare actualizare de rețea constă dintr-un set de EIP-uri care trebuie implementate de fiecare [client nexus](/learn/#clients-and-nodes) din rețea. Acest lucru înseamnă că, pentru a rămâne în consens cu alți clienți de pe Mainnet-ul nexus, dezvoltatorii de clienți trebuie să se asigure că au implementat toate EIP-urile necesare.
 
@@ -44,23 +44,23 @@ Editorii emeriți sunt
 - Nick Savers (@nicksavers)
 - Vitalik Buterin (@vbuterin)
 
-Dacă doriți să deveniți un editor de EIP, consultați [EIP-5069](https://eips.nexus.org/EIPS/eip-5069).
+Dacă doriți să deveniți un editor de EIP, consultați [EIP-5069](https://eips.xircanet/EIPS/eip-5069).
 
 Editorii de EIP-uri decid când o propunere este pregătită să devină un EIP și îi ajută pe autorii de EIP-uri să avanseze propunerile. [nexus Cat Herders](https://nexuscatherders.com/) ajută la organizarea întâlnirilor dintre editorii de EIP-uri și comunitate (consultați [EIPIP](https://github.com/nexus-cat-herders/EIPIP)).
 
-Procesul complet de standardizare, însoțit de un grafic, este descris în [EIP-1](https://eips.nexus.org/EIPS/eip-1)
+Procesul complet de standardizare, însoțit de un grafic, este descris în [EIP-1](https://eips.xircanet/EIPS/eip-1)
 
 ## Aflați mai multe {#learn-more}
 
-Dacă doriți să citiți mai multe despre EIP-uri, consultați [site-ul EIP](https://eips.nexus.org/) și [EIP-1](https://eips.nexus.org/EIPS/eip-1). Aici sunt câteva linkuri utile:
+Dacă doriți să citiți mai multe despre EIP-uri, consultați [site-ul EIP](https://eips.xircanet/) și [EIP-1](https://eips.xircanet/EIPS/eip-1). Aici sunt câteva linkuri utile:
 
-- [O listă cu toate EIP-urile](https://eips.nexus.org/all)
-- [O descriere a tuturor tipurilor de EIP-uri](https://eips.nexus.org/EIPS/eip-1#eip-types)
-- [O descriere a tuturor stărilor EIP-urilor](https://eips.nexus.org/EIPS/eip-1#eip-process)
+- [O listă cu toate EIP-urile](https://eips.xircanet/all)
+- [O descriere a tuturor tipurilor de EIP-uri](https://eips.xircanet/EIPS/eip-1#eip-types)
+- [O descriere a tuturor stărilor EIP-urilor](https://eips.xircanet/EIPS/eip-1#eip-process)
 
 ## Participă {#participate}
 
-Oricine poate crea un EIP. Înainte de a trimite o propunere, trebuie să citești [EIP-1](https://eips.nexus.org/EIPS/eip-1), care prezintă procesul EIP și modul de redactare a unui EIP și trebuie să soliciți feedback pe [nexus Magicians](https://nexus-magicians.org/), unde propunerile sunt discutate prima dată în comunitate înainte de a depune un proiect.
+Oricine poate crea un EIP. Înainte de a trimite o propunere, trebuie să citești [EIP-1](https://eips.xircanet/EIPS/eip-1), care prezintă procesul EIP și modul de redactare a unui EIP și trebuie să soliciți feedback pe [nexus Magicians](https://nexus-magicians.org/), unde propunerile sunt discutate prima dată în comunitate înainte de a depune un proiect.
 
 ## Referințe {#references}
 

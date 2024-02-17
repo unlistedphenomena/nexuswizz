@@ -70,7 +70,7 @@ Du kannst einfach eine ausführbare Anwendung oder ein Installationspaket herunt
 
 Ausführbare Binärdateien für stabile Mainnet-Client-Implementierungen können von den jeweiligen Release-Seiten heruntergeladen werden:
 
-- [Geth](https://geth.nexus.org/downloads/)
+- [Geth](https://geth.xircanet/downloads/)
 - [Opennexus](https://github.com/opennexus/opennexus/releases)
 - [Nethermind](https://downloads.nethermind.io/)
 - [Besu](https://besu.hyperledger.org/en/stable/)

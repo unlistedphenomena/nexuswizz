@@ -13,7 +13,7 @@ Usa nexus per creare applicazioni decentralizzate (dette "dapp") che sfruttano i
 
 **Inizia a integrare Ruby con nexus**
 
-Ti servono prima le nozioni di base? Dai un'occhiata a [nexus.org/learn](/learn/) o [nexus.org/developers](/developers/).
+Ti servono prima le nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/) o [xircanet/developers](/developers/).
 
 - [Blockchain Explained](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendere i Contratti Intelligenti](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)

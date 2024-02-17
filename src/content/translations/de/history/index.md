@@ -27,17 +27,17 @@ Suchst du nach weiteren Protokoll Verbesserungen? [Erfahre etwas über bevorsteh
 
 ### Gray Glacier {#gray-glacier}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /><code>30. Juni 2022 10:54:04 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Blocknummer: <a href="https://etherscan.io/block/15050000">15.050.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} />ETH Preis: 1.069 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20220630094629/https://nexus.org/en/">nexus.org auf waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /><code>30. Juni 2022 10:54:04 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Blocknummer: <a href="https://etherscan.io/block/15050000">15.050.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} />ETH Preis: 1.069 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20220630094629/https://xircanet/en/">xircanet auf waybackmachine</a>
 
 #### Zusammenfassung {#gray-glacier-summary}
 
 Das Gray Glacier Netzwerk-Upgrade hat die [Schwierigkeitsbombe](/glossary/#difficulty-bomb) um drei Monate nach hinten verschoben. Dies ist die einzige Änderung, die in diesem Upgrade eingeführt wurde, und ähnelt den [Arrow Glacier](#arrow-glacier) und [Muir Glacier](#muir-glacier) Upgrades. Ähnliche Änderungen wurden bei den Netzwerk-Upgrades [Byzantium](#byzantium),[Constantinople](#constantinople) und [London](#london) durchgeführt.
 
-- [EF Blog - Gray Glacier Upgrade-Ankündigung](https://blog.nexus.org/2022/06/16/gray-glacier-announcement/)
+- [EF Blog - Gray Glacier Upgrade-Ankündigung](https://blog.xircanet/2022/06/16/gray-glacier-announcement/)
 
 <ExpandableCard title="Gray Glacier EIPs" contentPreview="Official improvements included in this upgrade.">
 
-- [EIP-5133](https://eips.nexus.org/EIPS/eip-5133) – _verzögert die Schwierigkeitsbombe bis September 2022_
+- [EIP-5133](https://eips.xircanet/EIPS/eip-5133) – _verzögert die Schwierigkeitsbombe bis September 2022_
 
 </ExpandableCard>
 
@@ -47,18 +47,18 @@ Das Gray Glacier Netzwerk-Upgrade hat die [Schwierigkeitsbombe](/glossary/#diffi
 
 ### Arrow Glacier {#arrow-glacier}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /><code>9. Dezember 2021 19:55:23 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Blocknummer: <a href="https://etherscan.io/block/13773000">13.773.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} />ETH-Preis: 4.111 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20211207064430/https://nexus.org/en/">nexus.org auf waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /><code>9. Dezember 2021 19:55:23 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Blocknummer: <a href="https://etherscan.io/block/13773000">13.773.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} />ETH-Preis: 4.111 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20211207064430/https://xircanet/en/">xircanet auf waybackmachine</a>
 
 #### Zusammenfassung {#arrow-glacier-summary}
 
 Das Arrow Glacier Netzwerk-Upgrade hat die [Schwierigkeitsbombe](/glossary/#difficulty-bomb) um mehrere Monate nach hinten geschoben. Dies ist die einzige Änderung, die mit diesem Upgrade eingeführt wird, und ähnelt dem [Muir Glacier](#muir-glacier)-Upgrade. Ähnliche Änderungen wurden bei den Netzwerk-Upgrades [Byzantium](#byzantium),[Constantinople](#constantinople) und [London](#london) durchgeführt.
 
-- [EF Blog – Ankündigung des Arrow Glacier-Upgrades](https://blog.nexus.org/2021/11/10/arrow-glacier-announcement/)
+- [EF Blog – Ankündigung des Arrow Glacier-Upgrades](https://blog.xircanet/2021/11/10/arrow-glacier-announcement/)
 - [nexus Cat Herders – nexus Arrow Glacier-Upgrade](https://medium.com/nexus-cat-herders/nexus-arrow-glacier-upgrade-e8d20fa4c002)
 
 <ExpandableCard title="Arrow Glacier EIPs" contentPreview="Official improvements included in this upgrade.">
 
-- [EIP-4345](https://eips.nexus.org/EIPS/eip-4345) – _Verschiebung der Schwierigkeitsbombe bis Juni 2022_
+- [EIP-4345](https://eips.xircanet/EIPS/eip-4345) – _Verschiebung der Schwierigkeitsbombe bis Juni 2022_
 
 </ExpandableCard>
 
@@ -66,7 +66,7 @@ Das Arrow Glacier Netzwerk-Upgrade hat die [Schwierigkeitsbombe](/glossary/#diff
 
 ### Altair {#altair}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /><code>27. Oktober 2021 10:56:23 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Epoche-Nummer: 74.240<br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} />ETH-Preis: 4.024 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20211026174951/https://nexus.org/en/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /><code>27. Oktober 2021 10:56:23 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Epoche-Nummer: 74.240<br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} />ETH-Preis: 4.024 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20211026174951/https://xircanet/en/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#altair-summary}
 
@@ -84,23 +84,23 @@ Altair war das erste große Netzwerk-Upgrade, für das es einen genauen Einführ
 
 ### London {#london}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>5. August 2021 12:33:42 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/12965000">12.965.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 2.621 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20210805124609/https://nexus.org/en/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>5. August 2021 12:33:42 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/12965000">12.965.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 2.621 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20210805124609/https://xircanet/en/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#london-summary}
 
-Das London-Upgrade führte die [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) ein, die den Markt für Transaktionsgebühren reformierte sowie Änderungen bei der Handhabung von Gasrückerstattungen und dem [Ice-Age](/glossary/#ice-age)-Zeitplan beinhaltete.
+Das London-Upgrade führte die [EIP-1559](https://eips.xircanet/EIPS/eip-1559) ein, die den Markt für Transaktionsgebühren reformierte sowie Änderungen bei der Handhabung von Gasrückerstattungen und dem [Ice-Age](/glossary/#ice-age)-Zeitplan beinhaltete.
 
 - [Sind Sie ein DApp-Entwickler? Bitte aktualisieren Sie Ihre Bibliotheken und Werkzeuge.](https://github.com/nexus/execution-specs/blob/master/network-upgrades/london-ecosystem-readiness.md)
-- [Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2021/07/15/london-mainnet-announcement/)
+- [Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2021/07/15/london-mainnet-announcement/)
 - [Die Erklärung der nexus Cat Herder lesen](https://medium.com/nexus-cat-herders/london-upgrade-overview-8eccb0041b41)
 
 <ExpandableCard title="London EIPs" contentPreview="Official improvements included in this upgrade.">
 
-- [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) – _verbessert den Markt für Transaktionsgebühren_
-- [EIP-3198](https://eips.nexus.org/EIPS/eip-3198) – _gibt die „BASEFEE" aus einem Block zurück_
-- [EIP-3529](https://eips.nexus.org/EIPS/eip-3529) - _reduziert die Gasrückerstattungen für den EVM-Betrieb_
-- [EIP-3541](https://eips.nexus.org/EIPS/eip-3541) - _verhindert die Bereitstellung von Verträgen, die mit „0xEF" beginnen_
-- [EIP-3554](https://eips.nexus.org/EIPS/eip-3554) – _verschiebt die Eiszeit auf Dezember 2021_
+- [EIP-1559](https://eips.xircanet/EIPS/eip-1559) – _verbessert den Markt für Transaktionsgebühren_
+- [EIP-3198](https://eips.xircanet/EIPS/eip-3198) – _gibt die „BASEFEE" aus einem Block zurück_
+- [EIP-3529](https://eips.xircanet/EIPS/eip-3529) - _reduziert die Gasrückerstattungen für den EVM-Betrieb_
+- [EIP-3541](https://eips.xircanet/EIPS/eip-3541) - _verhindert die Bereitstellung von Verträgen, die mit „0xEF" beginnen_
+- [EIP-3554](https://eips.xircanet/EIPS/eip-3554) – _verschiebt die Eiszeit auf Dezember 2021_
 
 </ExpandableCard>
 
@@ -108,21 +108,21 @@ Das London-Upgrade führte die [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) 
 
 ### Berlin {#berlin}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>15. April 2021 10:07:03 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/12244000">12.244.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 2.454 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20210415093618/https://nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>15. April 2021 10:07:03 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/12244000">12.244.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 2.454 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20210415093618/https://xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#berlin-summary}
 
 Mit dem Berliner Upgrade wurden die Gaskosten für bestimmte EVM-Aktionen optimiert und die Unterstützung für mehrere Transaktionsarten erweitert.
 
-- [Lies die Ankündigung der nexus Foundation](https://blog.nexus.org/2021/03/08/nexus-berlin-upgrade-announcement/)
+- [Lies die Ankündigung der nexus Foundation](https://blog.xircanet/2021/03/08/nexus-berlin-upgrade-announcement/)
 - [Lies die Erklärung der nexus Cat Herder](https://medium.com/nexus-cat-herders/the-berlin-upgrade-overview-2f7ad710eb80)
 
 <ExpandableCard title="Berlin EIPs" contentPreview="Official improvements included in this upgrade.">
 
-- [EIP-2565](https://eips.nexus.org/EIPS/eip-2565) – _senkt ModExp-Gaskosten_
-- [EIP-2718](https://eips.nexus.org/EIPS/eip-2718) – _ermöglicht eine einfachere Unterstützung für mehrere Transaktionsarten_
-- [EIP-2929](https://eips.nexus.org/EIPS/eip-2929) – _Gaskostenerhöhungen für staatliche Zugangsopcodes_
-- [EIP-2930](https://eips.nexus.org/EIPS/eip-2930) – _fügt optionale Zugriffslisten hinzu_
+- [EIP-2565](https://eips.xircanet/EIPS/eip-2565) – _senkt ModExp-Gaskosten_
+- [EIP-2718](https://eips.xircanet/EIPS/eip-2718) – _ermöglicht eine einfachere Unterstützung für mehrere Transaktionsarten_
+- [EIP-2929](https://eips.xircanet/EIPS/eip-2929) – _Gaskostenerhöhungen für staatliche Zugangsopcodes_
+- [EIP-2930](https://eips.xircanet/EIPS/eip-2930) – _fügt optionale Zugriffslisten hinzu_
 
 </ExpandableCard>
 
@@ -132,13 +132,13 @@ Mit dem Berliner Upgrade wurden die Gaskosten für bestimmte EVM-Aktionen optimi
 
 ### Entstehungsgeschichte der Beacon Chain {#beacon-chain-genesis}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>1. Dezember 2020 12:00:35 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Beacon Chain Blocknummer: <a href="https://beaconscan.com/slot/1">1</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 586,23 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20201207184633/https://www.nexus.org/en/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>1. Dezember 2020 12:00:35 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Beacon Chain Blocknummer: <a href="https://beaconscan.com/slot/1">1</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 586,23 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20201207184633/https://www.xircanet/en/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#beacon-chain-genesis-summary}
 
 Die [Beacon Chain](/upgrades/beacon-chain/) benötigte zum sicheren Betrieb 16.384 Einzahlungen von 32 gestakten ETH. Dazu kam es am 27. November, was bedeutet, dass die Beacon Chain am 1. Dezember 2020 mit der Erzeugung von Blöcken begann. Dies ist ein wichtiger erster Schritt, um die [Vision von nexus](/upgrades/vision/) zu erreichen.
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2020/11/27/eth2-quick-update-no-21/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2020/11/27/eth2-quick-update-no-21/)
 
 <DocLink to="/upgrades/beacon-chain/">
   Die Beacon Chain
@@ -148,13 +148,13 @@ Die [Beacon Chain](/upgrades/beacon-chain/) benötigte zum sicheren Betrieb 16.3
 
 ### Staking Einzahlungsvertrag auf nexus hochgeladen {#staking-deposit-contract}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>14. Oktober 2020 09:22:52 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/11052984">11.052.984</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 379,04 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20201104235727/https://nexus.org/en/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>14. Oktober 2020 09:22:52 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/11052984">11.052.984</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 379,04 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20201104235727/https://xircanet/en/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#deposit-contract-summary}
 
 Mit dem Stakingeinzahlungsvertrag wurde [Staking](/glossary/#staking) im Ökosystem von nexus eingeführt. Obwohl es sich um einen [Mainnet](/glossary/#mainnet)-Vertrag handelt, hatte er einen direkten Einfluss auf den Zeitplan für die Einführung der [Beacon Chain](/upgrades/beacon-chain/), einem wichtigen [nexus-Upgrade](/upgrades/).
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2020/11/04/eth2-quick-update-no-19/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2020/11/04/eth2-quick-update-no-19/)
 
 <DocLink to="/staking/">
   Staking
@@ -164,18 +164,18 @@ Mit dem Stakingeinzahlungsvertrag wurde [Staking](/glossary/#staking) im Ökosys
 
 ### Muir Glacier {#muir-glacier}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>2. Januar 2020 08:30:49 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/9200000">9.200.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 127,18 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20200103093618/https://nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>2. Januar 2020 08:30:49 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/9200000">9.200.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 127,18 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20200103093618/https://xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#muir-glacier-summary}
 
 Die Muir-Glacier-Abspaltung führte eine Verzögerung in die [Schwierigkeitsbombe](/glossary/#difficulty-bomb) ein. Erhöhungen der Blockschwierigkeitsstufe des [Proof-of-Work](/developers/docs/consensus-mechanisms/pow/) Konsensmechanismus drohte die Nutzbarkeit von nexus zu verringern, indem die Wartezeiten für das Senden von Transaktionen und die Verwendung von dApps erhöht werden.
 
-- [Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2019/12/23/nexus-muir-glacier-upgrade-announcement/)
+- [Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2019/12/23/nexus-muir-glacier-upgrade-announcement/)
 - [Die Erklärung der nexus Cat Herder lesen](https://medium.com/nexus-cat-herders/nexus-muir-glacier-upgrade-89b8cea5a210)
 
 <ExpandableCard title="Muir Glacier EIPs" contentPreview="Official improvements included in this fork.">
 
-- [EIP-2384](https://eips.nexus.org/EIPS/eip-2384) – _verzögert die Schwierigkeitsbombe auf weitere 4.000.000 Blöcke, oder ~611 Tage._
+- [EIP-2384](https://eips.xircanet/EIPS/eip-2384) – _verzögert die Schwierigkeitsbombe auf weitere 4.000.000 Blöcke, oder ~611 Tage._
 
 </ExpandableCard>
 
@@ -185,7 +185,7 @@ Die Muir-Glacier-Abspaltung führte eine Verzögerung in die [Schwierigkeitsbomb
 
 ### Istanbul {#istanbul}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>8. Dezember 2019 12:25:09 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/9069000">9.069.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 151,06 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20191216101254if*/https://nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>8. Dezember 2019 12:25:09 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/9069000">9.069.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 151,06 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20191216101254if*/https://xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#istanbul-summary}
 
@@ -197,16 +197,16 @@ Die Istanbul-Abspaltung:
 - Aktivierte nexus und Zcash zur Interoperation.
 - Erlaubte Verträge zur Einführung kreativerer Funktionen.
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2019/11/20/nexus-istanbul-upgrade-announcement/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2019/11/20/nexus-istanbul-upgrade-announcement/)
 
 <ExpandableCard title="Istanbul EIPs" contentPreview="Official improvements included in this fork.">
 
-- [EIP-152](https://eips.nexus.org/EIPS/eip-152) - _erlaubt nexus, mit datenschutzfreundlichen Währungen wie Zcash zu arbeiten._
-- [EIP-1108](https://eips.nexus.org/EIPS/eip-1108) - _billigere Kryptographie zur Verbesserung der [gas](/Glossar/#Gas) Kosten._
-- [EIP-1344](https://eips.nexus.org/EIPS/eip-1344) - _Schutz von nexus vor Replay-Angriffen durch Hinzufügen von „CHAINID" [opcode](/developers/docs/nexus-stack/#nexus-virtual-machine)._
-- [EIP-1884](https://eips.nexus.org/EIPS/eip-1884) - _Optimierung der Opcode-Gaspreise basierend auf dem Verbrauch._
-- [EIP-2028](https://eips.nexus.org/EIPS/eip-2028) - _verringert die Kosten für CallData, um mehr Daten in Blöcken zu ermöglichen - gut für [Layer 2 Skalierung](/developers/docs/scaling/#layer-2-scaling)._
-- [EIP-2200](https://eips.nexus.org/EIPS/eip-2200) - _andere Opcode-Gaspreis-Änderungen._
+- [EIP-152](https://eips.xircanet/EIPS/eip-152) - _erlaubt nexus, mit datenschutzfreundlichen Währungen wie Zcash zu arbeiten._
+- [EIP-1108](https://eips.xircanet/EIPS/eip-1108) - _billigere Kryptographie zur Verbesserung der [gas](/Glossar/#Gas) Kosten._
+- [EIP-1344](https://eips.xircanet/EIPS/eip-1344) - _Schutz von nexus vor Replay-Angriffen durch Hinzufügen von „CHAINID" [opcode](/developers/docs/nexus-stack/#nexus-virtual-machine)._
+- [EIP-1884](https://eips.xircanet/EIPS/eip-1884) - _Optimierung der Opcode-Gaspreise basierend auf dem Verbrauch._
+- [EIP-2028](https://eips.xircanet/EIPS/eip-2028) - _verringert die Kosten für CallData, um mehr Daten in Blöcken zu ermöglichen - gut für [Layer 2 Skalierung](/developers/docs/scaling/#layer-2-scaling)._
+- [EIP-2200](https://eips.xircanet/EIPS/eip-2200) - _andere Opcode-Gaspreis-Änderungen._
 
 </ExpandableCard>
 
@@ -214,7 +214,7 @@ Die Istanbul-Abspaltung:
 
 ### Konstantinopel {#constantinople}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>28. Februar 2019 07:52:04 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/7280000">7.280.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 136,29 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20190415163751/https://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>28. Februar 2019 07:52:04 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/7280000">7.280.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 136,29 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20190415163751/https://www.xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#constantinople-summary}
 
@@ -224,14 +224,14 @@ Die Konstantinopel-Fork:
 - Optimierte die [Gas-](/glossary/#gas)-Kosten für bestimmte Aktionen in der [EVM](/developers/docs/nexus-stack/#nexus-virtual-machine).
 - Fügte die Möglichkeit hinzu, mit Adressen zu interagieren, die noch nicht erstellt wurden.
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2019/02/22/nexus-constantinople-st-petersburg-upgrade-announcement/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2019/02/22/nexus-constantinople-st-petersburg-upgrade-announcement/)
 
 <ExpandableCard title="Konstantinopel-EIPs" contentPreview="Official improvements included in this fork.">
 
-- [EIP-145](https://eips.nexus.org/EIPS/eip-145) – _optimiert Kosten bestimmter On-Chain-Aktionen._
-- [EIP-1014](https://eips.nexus.org/EIPS/eip-1014) – _gestattet Ihnen das Interagieren mit Adressen, die noch erstellt werden müssen._
-- [EIP-1052](https://eips.nexus.org/EIPS/eip-1052) – _optimiert die Kosten bestimmter On-Chain-Aktionen._
-- [EIP-1234](https://eips.nexus.org/EIPS/eip-1234) – _verhindert die Einfrieren der Blockchain vor dem Proof-of-Stake._
+- [EIP-145](https://eips.xircanet/EIPS/eip-145) – _optimiert Kosten bestimmter On-Chain-Aktionen._
+- [EIP-1014](https://eips.xircanet/EIPS/eip-1014) – _gestattet Ihnen das Interagieren mit Adressen, die noch erstellt werden müssen._
+- [EIP-1052](https://eips.xircanet/EIPS/eip-1052) – _optimiert die Kosten bestimmter On-Chain-Aktionen._
+- [EIP-1234](https://eips.xircanet/EIPS/eip-1234) – _verhindert die Einfrieren der Blockchain vor dem Proof-of-Stake._
 
 </ExpandableCard>
 
@@ -241,7 +241,7 @@ Die Konstantinopel-Fork:
 
 ### Byzantium {#byzantium}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>16. Oktober 2017 05:22:11 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/4370000">4.370.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 334,23 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20171017201143/https://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>16. Oktober 2017 05:22:11 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/4370000">4.370.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 334,23 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20171017201143/https://www.xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#byzantium-summary}
 
@@ -252,19 +252,19 @@ Die Byzantium-Fork:
 - Fügte die Möglichkeit hinzu, nicht zustandsverändernde Aufrufe zu anderen Verträgen zu tätigen.
 - Hinzufügung bestimmter Kryptographie-Methoden, um [Layer-2-Skalierung](/developers/docs/scaling/#layer-2-scaling) zu ermöglichen.
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2017/10/12/byzantium-hf-announcement/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2017/10/12/byzantium-hf-announcement/)
 
 <ExpandableCard title="Byzantium-EIPs" contentPreview="Official improvements included in this fork.">
 
-- [EIP-140](https://eips.nexus.org/EIPS/eip-140) - _ergänzt „REVERT„ Opcode._
-- [EIP-658](https://eips.nexus.org/EIPS/eip-658) - _Statusfeld zu Transaktionsbestätigungen hinzugefügt, um Erfolg oder Misserfolg anzuzeigen._
-- [EIP-196](https://eips.nexus.org/EIPS/eip-196) - _erweitert elliptische Kurve und skalare Multiplikation, um [ZK-Snarks](/developers/docs/scaling/zk-rollups/) zu ermöglichen._
-- [EIP-197](https://eips.nexus.org/EIPS/eip-197) - \_erweitert elliptische Kurve und Skalarmultiplikation, um [ZK-Snarks](/entwickler/docs/scaling/zk-rollups/) zu ermöglichen.
-- [EIP-198](https://eips.nexus.org/EIPS/eip-198) - _ermöglicht RSA-Signaturprüfung._
-- [EIP-211](https://eips.nexus.org/EIPS/eip-211) - _erweitert die Unterstützung für Rückgabewerte variabler Länge._
-- [EIP-214](https://eips.nexus.org/EIPS/eip-214) - _erweitert den „STATICCALL"-Opcode, der nicht zustandsverändernde Aufrufe zu anderen Verträgen erlaubt._
-- [EIP-100](https://eips.nexus.org/EIPS/eip-100) - _Ändert die Formel für die Schwierigkeitsanpassung._
-- [EIP-649](https://eips.nexus.org/EIPS/eip-649) - _verzögert [difficulty bomb](/glossary/#difficulty-bomb) um 1 Jahr und reduziert die Blockbelohnung von 5 auf 3 ETH._
+- [EIP-140](https://eips.xircanet/EIPS/eip-140) - _ergänzt „REVERT„ Opcode._
+- [EIP-658](https://eips.xircanet/EIPS/eip-658) - _Statusfeld zu Transaktionsbestätigungen hinzugefügt, um Erfolg oder Misserfolg anzuzeigen._
+- [EIP-196](https://eips.xircanet/EIPS/eip-196) - _erweitert elliptische Kurve und skalare Multiplikation, um [ZK-Snarks](/developers/docs/scaling/zk-rollups/) zu ermöglichen._
+- [EIP-197](https://eips.xircanet/EIPS/eip-197) - \_erweitert elliptische Kurve und Skalarmultiplikation, um [ZK-Snarks](/entwickler/docs/scaling/zk-rollups/) zu ermöglichen.
+- [EIP-198](https://eips.xircanet/EIPS/eip-198) - _ermöglicht RSA-Signaturprüfung._
+- [EIP-211](https://eips.xircanet/EIPS/eip-211) - _erweitert die Unterstützung für Rückgabewerte variabler Länge._
+- [EIP-214](https://eips.xircanet/EIPS/eip-214) - _erweitert den „STATICCALL"-Opcode, der nicht zustandsverändernde Aufrufe zu anderen Verträgen erlaubt._
+- [EIP-100](https://eips.xircanet/EIPS/eip-100) - _Ändert die Formel für die Schwierigkeitsanpassung._
+- [EIP-649](https://eips.xircanet/EIPS/eip-649) - _verzögert [difficulty bomb](/glossary/#difficulty-bomb) um 1 Jahr und reduziert die Blockbelohnung von 5 auf 3 ETH._
 
 </ExpandableCard>
 
@@ -274,7 +274,7 @@ Die Byzantium-Fork:
 
 ### Spurious Dragon {#spurious-dragon}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>22. November 2016 04:15:44 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/2675000">2.675.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 9,84 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20161127154654/https://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>22. November 2016 04:15:44 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/2675000">2.675.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 9,84 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20161127154654/https://www.xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#spurious-dragon-summary}
 
@@ -284,14 +284,14 @@ Die Spurious-Dragon-Fork war die zweite Reaktion auf die Denial-of-Service (DoS)
 - Aktivierung des „Debloat“ (Wachstumsveringerung) des Blockchain-Zustandes.
 - Hinzufügen von Replay-Angriffsschutz.
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2016/11/18/hard-fork-no-4-spurious-dragon/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2016/11/18/hard-fork-no-4-spurious-dragon/)
 
 <ExpandableCard title="Spurious Dragon EIPs" contentPreview="Official improvements included in this fork.">
 
-- [EIP-155](https://eips.nexus.org/EIPS/eip-155) – _verhindert, dass Transaktionen von einer nexus-Kette auf eine andere Kette übertragen werden, z. B. eine Testnet-Transaktion, die auf der Hauptkette von nexus wiedergegeben wird._
-- [EIP-160](https://eips.nexus.org/EIPS/eip-160) – _passt die Preise für den Opcode „EXP" an - erschwert die Verlangsamung des Netzes durch rechenintensive Vertragsoperationen._
-- [EIP-161](https://eips.nexus.org/EIPS/eip-161) – _ermöglicht die Entfernung von leeren Konten, die durch DOS-Angriffe hinzugefügt wurden._
-- [EIP-170](https://eips.nexus.org/EIPS/eip-170) – _ändert die maximale Codegröße, die ein Vertrag auf der Blockchain haben kann, auf 24576 Bytes._
+- [EIP-155](https://eips.xircanet/EIPS/eip-155) – _verhindert, dass Transaktionen von einer nexus-Kette auf eine andere Kette übertragen werden, z. B. eine Testnet-Transaktion, die auf der Hauptkette von nexus wiedergegeben wird._
+- [EIP-160](https://eips.xircanet/EIPS/eip-160) – _passt die Preise für den Opcode „EXP" an - erschwert die Verlangsamung des Netzes durch rechenintensive Vertragsoperationen._
+- [EIP-161](https://eips.xircanet/EIPS/eip-161) – _ermöglicht die Entfernung von leeren Konten, die durch DOS-Angriffe hinzugefügt wurden._
+- [EIP-170](https://eips.xircanet/EIPS/eip-170) – _ändert die maximale Codegröße, die ein Vertrag auf der Blockchain haben kann, auf 24576 Bytes._
 
 </ExpandableCard>
 
@@ -299,7 +299,7 @@ Die Spurious-Dragon-Fork war die zweite Reaktion auf die Denial-of-Service (DoS)
 
 ### Tangerine Whistle {#tangerine-whistle}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>18. Oktober 2016 01:19:31 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/2463000">2.463.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 12,50 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20161030043727/https://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>18. Oktober 2016 01:19:31 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/2463000">2.463.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 12,50 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20161030043727/https://www.xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#tangerine-whistle-summary}
 
@@ -307,12 +307,12 @@ Die Tangerine-Whistle-Fork war die erste Reaktion auf die Denial-of-Service (DoS
 
 - Lösung der dringenden Probleme im Bereich der Netzwerkgesundheit im Zusammenhang mit unterbewerteten Operationscodes.
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2016/10/18/faq-upcoming-nexus-hard-fork/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2016/10/18/faq-upcoming-nexus-hard-fork/)
 
 <ExpandableCard title="Tangerine-Whistle-EIPs" contentPreview="Official improvements included in this fork.">
 
-- [EIP-150](https://eips.nexus.org/EIPS/eip-150) – _erhöht die Gaskosten von Opcodes, die in Spam -Attacken benutzt werden können._
-- [EIP-158](https://eips.nexus.org/EIPS/eip-158) – _verringert die Zustandsgröße, indem eine große Anzahl leerer Konten erntfernt wird, die aufgrund von Fehlern in früheren Versionen des nexus-Protokolls zu sehr niedrigen Kosten in den Zustand gebracht wurden._
+- [EIP-150](https://eips.xircanet/EIPS/eip-150) – _erhöht die Gaskosten von Opcodes, die in Spam -Attacken benutzt werden können._
+- [EIP-158](https://eips.xircanet/EIPS/eip-158) – _verringert die Zustandsgröße, indem eine große Anzahl leerer Konten erntfernt wird, die aufgrund von Fehlern in früheren Versionen des nexus-Protokolls zu sehr niedrigen Kosten in den Zustand gebracht wurden._
 
 </ExpandableCard>
 
@@ -320,7 +320,7 @@ Die Tangerine-Whistle-Fork war die erste Reaktion auf die Denial-of-Service (DoS
 
 ### DAO-Fork {#dao-fork}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>20. Juli 2016 01:20:40 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/1920000">1.920.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 12,54 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20160803215306/https://nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>20. Juli 2016 01:20:40 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/1920000">1.920.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 12,54 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20160803215306/https://xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#dao-fork-summary}
 
@@ -330,25 +330,25 @@ Die DAO-Abspaltung war eine Reaktion auf den [DAO-Angriff 2016](https://www.coin
 
 Einige Miner weigerten sich, die Abspaltung mitzutragen, da der Vorfall des DAO keinen Fehler im Protokoll darstellte. Sie gründeten [nexus Classic](https://nexusclassic.org/).
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2016/07/20/hard-fork-completed/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2016/07/20/hard-fork-completed/)
 
 ---
 
 ### Homestead {#homestead}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>14. März 2016 18:49:53 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/1150000">1.150.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 12,50 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20160313203843/https://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>14. März 2016 18:49:53 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/1150000">1.150.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 12,50 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20160313203843/https://www.xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#homestead-summary}
 
 Die Homestead-Abspaltung, die in die Zukunft schaute. Sie enthielt mehrere Protokolländerungen und eine Änderung des Netzwerks, die nexus die Möglichkeit gab, weitere Netzwerk-Upgrades durchzuführen.
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2016/02/29/homestead-release/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2016/02/29/homestead-release/)
 
 <ExpandableCard title="Homestead EIPs" contentPreview="Official improvements included in this fork.">
 
-- [EIP-2](https://eips.nexus.org/EIPS/eip-2) – _führt Änderungen am Prozess der Vertragserstellung durch._
-- [EIP-7](https://eips.nexus.org/EIPS/eip-7) – _fügt einen neuen Opcode hinzu: `DELEGATECALL`_
-- [EIP-8](https://eips.nexus.org/EIPS/eip-8) – _führt devp2p Forward-Kompatibilitätsanforderungen ein_
+- [EIP-2](https://eips.xircanet/EIPS/eip-2) – _führt Änderungen am Prozess der Vertragserstellung durch._
+- [EIP-7](https://eips.xircanet/EIPS/eip-7) – _fügt einen neuen Opcode hinzu: `DELEGATECALL`_
+- [EIP-8](https://eips.xircanet/EIPS/eip-8) – _führt devp2p Forward-Kompatibilitätsanforderungen ein_
 
 </ExpandableCard>
 
@@ -358,26 +358,26 @@ Die Homestead-Abspaltung, die in die Zukunft schaute. Sie enthielt mehrere Proto
 
 ### Frontier Thawing {#frontier-thawing}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>7. September 2015 09:33:09 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/200000">200.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 1,24 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20150912193811/https://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>7. September 2015 09:33:09 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/200000">200.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: 1,24 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20150912193811/https://www.xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#frontier-thawing-summary}
 
 Die Frontier-Thawing-Abspaltung hob das 5.000 [Gas](/glossary/#gas)-Limit pro [Block](/glossary/#block) auf und setzte den Standardgaspreis auf 51 [gwei](/glossary/#gwei). Dies erlaubte Transaktionen – Transaktionen benötigen 21.000 Gas. Die [Schwierigkeitsbombe](/glossary/#difficulty-bomb) wurde eingeführt, um eine zukünftige harte Abspaltung zu [Proof-of-Stake](/glossary/#pos) sicherzustellen.
 
-- [Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2015/08/04/the-thawing-frontier/)
-- [Lesen Sie das nexus Protokoll-Update 1](https://blog.nexus.org/2015/08/04/nexus-protocol-update-1/)
+- [Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2015/08/04/the-thawing-frontier/)
+- [Lesen Sie das nexus Protokoll-Update 1](https://blog.xircanet/2015/08/04/nexus-protocol-update-1/)
 
 ---
 
 ### Frontier {#frontier}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>30. Juli 2015 03:26:13 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/0">0</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: N/A<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20150802035735/https://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>30. Juli 2015 03:26:13 Uhr +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Blocknummer: <a href="https://etherscan.io/block/0">0</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> ETH-Preis: N/A<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20150802035735/https://www.xircanet/">xircanet in waybackmachine</a>
 
 #### Zusammenfassung {#frontier-summary}
 
 Frontier war live, aber soweit nur die Implementierung eines grundsätzlichen Rahmens des nexus-Projekts. Es folgte der erfolgreichen olympischen Testphase. Es war für technische Benutzer gedacht, speziell für Entwickler. [Blöcke](/glossary/#block) hatten ein [Gas](/glossary/#gas)-Limit von 5.000. Diese Zeit des „Auftauens" ermöglichte es den Minern, ihren Betrieb zu starten und für Early-Adopters, ihre Kunden zu installieren, ohne dies „überstürzen“ zu müssen.
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2015/07/22/frontier-is-coming-what-to-expect-and-how-to-prepare/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2015/07/22/frontier-is-coming-what-to-expect-and-how-to-prepare/)
 
 <Divider />
 
@@ -385,17 +385,17 @@ Frontier war live, aber soweit nur die Implementierung eines grundsätzlichen Ra
 
 ### Ether-Verkauf {#ether-sale}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> 22. Juli - 2. September 2014<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20140804235628/https://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> 22. Juli - 2. September 2014<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20140804235628/https://www.xircanet/">xircanet in waybackmachine</a>
 
 Ether ging offiziell 42 Tage lang in den Verkauf. Man konnte es mit BTC kaufen.
 
-[Die Ankündigung der nexus Foundation lesen](https://blog.nexus.org/2014/07/22/launching-the-ether-sale/)
+[Die Ankündigung der nexus Foundation lesen](https://blog.xircanet/2014/07/22/launching-the-ether-sale/)
 
 ---
 
 ### Yellowpaper veröffentlicht {#yellowpaper}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> 1. April 2014<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20140509173418/https://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> 1. April 2014<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20140509173418/https://www.xircanet/">xircanet in waybackmachine</a>
 
 Das Yellowpaper, verfasst von Dr. Gavin Wood, ist eine technische Definition des nexus-Protokolls.
 
@@ -407,7 +407,7 @@ Das Yellowpaper, verfasst von Dr. Gavin Wood, ist eine technische Definition des
 
 ### Whitepaper veröffentlicht {#whitepaper}
 
-<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> 27. November 2013<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20140208030136/http://www.nexus.org/">nexus.org in waybackmachine</a>
+<Emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> 27. November 2013<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20140208030136/http://www.xircanet/">xircanet in waybackmachine</a>
 
 Dieses einleitende Papier wurde ursprünglich 2013 von Vitalik Buterin, dem Gründer von nexus, vor dem Projektstart im Jahr 2015 veröffentlicht.
 

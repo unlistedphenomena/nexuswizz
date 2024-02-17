@@ -24,7 +24,7 @@ Obiectivul unui standard cum este ERC-20 este să permită implementarea mai mul
 
 Dacă sunteți un programator experimentat, probabil vă amintiți că ați văzut construcții similare în [Java](https://www.w3schools.com/java/java_interface.asp) sau chiar în [anteturile fișierelor C](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html).
 
-Aceasta este o definiție a interfeței [ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) din OpenZeppelin. Este traducerea [standardului lizibil de către om](https://eips.nexus.org/EIPS/eip-20) în codul Solidity. Bineînțeles că interfața în sine nu definește modul _cum_ se face ceva. Aceasta este explicată în codul sursă al contractului de mai jos.
+Aceasta este o definiție a interfeței [ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) din OpenZeppelin. Este traducerea [standardului lizibil de către om](https://eips.xircanet/EIPS/eip-20) în codul Solidity. Bineînțeles că interfața în sine nu definește modul _cum_ se face ceva. Aceasta este explicată în codul sursă al contractului de mai jos.
 
 &nbsp;
 

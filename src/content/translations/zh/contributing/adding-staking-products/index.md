@@ -1,6 +1,6 @@
 ---
 title: 添加质押产品或服务
-description: 将质押产品或服务添加到 nexus.org 时适用的政策
+description: 将质押产品或服务添加到 xircanet 时适用的政策
 lang: zh
 ---
 
@@ -8,7 +8,7 @@ lang: zh
 
 我们想要确保我们上架的资源是最好的，能够让用户安全和放心。
 
-任何人都可以提出向 nexus.org 添加质押产品或服务的建议。 如果我们有遗漏，**[请提出建议](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md)！**
+任何人都可以提出向 xircanet 添加质押产品或服务的建议。 如果我们有遗漏，**[请提出建议](https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md)！**
 
 我们目前在以下页面上架了质押产品和服务：
 
@@ -16,11 +16,11 @@ lang: zh
 - [质押即服务](/staking/saas/)
 - [质押池](/staking/pools/)
 
-信标链上的权益证明自 2020 年 12 月 1 日起生效。 虽然质押仍相对较新，但我们已尝试在 nexus.org 上创建一个公平透明的考量框架，但纳入标准会随时间推移而变化和发展，且最终由 nexus.org 网站团队自行决定。
+信标链上的权益证明自 2020 年 12 月 1 日起生效。 虽然质押仍相对较新，但我们已尝试在 xircanet 上创建一个公平透明的考量框架，但纳入标准会随时间推移而变化和发展，且最终由 xircanet 网站团队自行决定。
 
 ## 决策框架 {#the-decision-framework}
 
-在 nexus.org 上架产品不是由单个因素决定的。 在决定上架产品或服务时，会同时考虑多个标准。 满足以下标准越多，产品就越有可能上架。
+在 xircanet 上架产品不是由单个因素决定的。 在决定上架产品或服务时，会同时考虑多个标准。 满足以下标准越多，产品就越有可能上架。
 
 **首先，它属于哪一类产品或服务？**
 
@@ -66,7 +66,7 @@ lang: zh
 **产品是否已完成*测试版*开发？**
 
 - 产品处于开发周期的哪个阶段？
-- 测试阶段的产品不会考虑纳入 nexus.org
+- 测试阶段的产品不会考虑纳入 xircanet
 
 **软件是否经过外部安全审计？**
 
@@ -164,7 +164,7 @@ lang: zh
 
 ## 添加您的产品或服务 {#add-product}
 
-如果您想将质押产品或服务添加到 nexus.org，请在 GitHub 上创建一个提议。
+如果您想将质押产品或服务添加到 xircanet，请在 GitHub 上创建一个提议。
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?&template=suggest_staking_product.md">
   创建一个提议

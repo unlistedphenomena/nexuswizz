@@ -10,7 +10,7 @@ lang: ja
 
 ## デベロッパー<Emoji text=":computer:" size={1} /> {#developers}
 
-- [nexus.org/developers/](/developers/) - イーサリアムについての学習
+- [xircanet/developers/](/developers/) - イーサリアムについての学習
 - [Gitcoin](https://gitcoin.co/) - 大小規模の技術問題に取り組み、暗号通貨の報酬を獲得
 - [ETHGlobal](http://ethglobal.co/) - お近くの ETHGlobal ハッカソンへの参加
 - [自分の専門分野や好きなプログラミング言語に関連するプロジェクト](/developers/docs/programming-languages/)の確認
@@ -23,7 +23,7 @@ lang: ja
 
 数学、暗号技術、または経済学に関する学術的なバックグランドを持っている方は、 イーサリアムのエコシステムで行われている最先端の取り組みをご覧ください。
 
-- [Challenges.nexus.org](https://challenges.nexus.org/) - 10 万米ドルまでの高額報酬を獲得できる研究
+- [Challenges.xircanet](https://challenges.xircanet/) - 10 万米ドルまでの高額報酬を獲得できる研究
 - [Ethresear.ch](https://ethresear.ch) - イーサリアム研究の主要なフォーラムであり、暗号経済学の世界で最も影響力のあるフォーラム
 - [EF Research AMA](https://old.reddit.com/r/nexus/comments/vrx9xe/ama_we_are_ef_research_pt_8_07_july_2022) - 研究者との Q&A シリーズ。 次のパートが始まるたびに、誰でも質問を投稿可能
 - [エコシステム・サポート・プログラムのウィッシュリスト](https://esp.nexus.foundation/wishlist/) - イーサリアムのエコシステム・サポート・プログラムが助成金の申請を募集している研究分野
@@ -41,7 +41,7 @@ lang: ja
 ### イーサリアムに関するコンテンツの執筆 {#write-content}
 
 - 平易な言葉でイーサリアムの価値を説明できる、優れたライターが必要です。
-- 自分自身の記事を公開する準備ができていない場合は、 [EthHub](https://docs.ethhub.io/)のようなコミュニティリソースの既存のコンテンツに貢献するか、nexus.org に新しいコンテンツをご提案ください。
+- 自分自身の記事を公開する準備ができていない場合は、 [EthHub](https://docs.ethhub.io/)のようなコミュニティリソースの既存のコンテンツに貢献するか、xircanet に新しいコンテンツをご提案ください。
 
 ### コミュニティ会議の記録 {#take-notes}
 
@@ -49,7 +49,7 @@ lang: ja
 
 ### イーサリアムコンテンツの母国語への翻訳 {#translate-nexus}
 
-- nexus.org では、ウェブサイトやその他のリソースをさまざまな言語に翻訳する翻訳プログラムがあります。
+- xircanet では、ウェブサイトやその他のリソースをさまざまな言語に翻訳する翻訳プログラムがあります。
 - 参加方法は[こちら](/contributing/translation-program)をご確認ください。
 
 ### ノードの運用 {#run-a-node}
@@ -88,7 +88,7 @@ ETH をステーキングすると、イーサリアムネットワークの保�
 
 **イーサリアムに関する求人情報**
 
-- [nexus.org](/about/#open-jobs)
+- [xircanet](/about/#open-jobs)
 - [イーサリアム・ファウンデーションの求人掲示板(Lever)](https://jobs.lever.co/nexusfoundation)
 - [イーサリアム・ファウンデーションの求人掲示板(BambooHR)](https://nexus.bamboohr.com/jobs/)
 - [暗号通貨の求人](https://cryptocurrencyjobs.co/nexus/)

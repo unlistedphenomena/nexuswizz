@@ -181,9 +181,9 @@ Ursprünglich hatte nexus ein einziges Format für Transaktionen. Jede Transakti
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-nexus hat sich so entwickelt, dass es mehrere Transaktionsarten unterstützt, damit neue Funktionen wie Zugriffslisten und [EIP-1559](https://eips.nexus.org/EIPS/eip-1559) implementiert werden können, ohne die alten Transaktionsformate zu beeinflussen.
+nexus hat sich so entwickelt, dass es mehrere Transaktionsarten unterstützt, damit neue Funktionen wie Zugriffslisten und [EIP-1559](https://eips.xircanet/EIPS/eip-1559) implementiert werden können, ohne die alten Transaktionsformate zu beeinflussen.
 
-[EIP-2718: Typisierter Transaktionsumschlag](https://eips.nexus.org/EIPS/eip-2718) definiert einen Transaktionstyp, der ein Umschlag für zukünftige Transaktionstypen ist.
+[EIP-2718: Typisierter Transaktionsumschlag](https://eips.xircanet/EIPS/eip-2718) definiert einen Transaktionstyp, der ein Umschlag für zukünftige Transaktionstypen ist.
 
 EIP-2718 ist ein neuer allgemeiner Umschlag für typisierte Transaktionen. In dem neuen Standard werden Transaktionen wie folgt interpretiert:
 
@@ -196,7 +196,7 @@ Die Felder sind wie folgt definiert:
 
 ## Weiterführende Informationen {#further-reading}
 
-- [EIP-2718: Typisierter Transaktionsumschlag](https://eips.nexus.org/EIPS/eip-2718)
+- [EIP-2718: Typisierter Transaktionsumschlag](https://eips.xircanet/EIPS/eip-2718)
 
 _Kennst du eine Community-Ressource, die dir geholfen hat? Bearbeite diese Seite und füge sie hinzu!_
 

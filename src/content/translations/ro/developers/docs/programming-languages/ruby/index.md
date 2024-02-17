@@ -13,7 +13,7 @@ Folosiţi nexus pentru a crea aplicații descentralizate („dapp”) care valor
 
 **Take your first steps to integrating Ruby with nexus**
 
-Aveţi nevoie de o scurtă introducere? Accesaţi [nexus.org/learn](/learn/) sau [nexus.org/developers](/developers/).
+Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau [xircanet/developers](/developers/).
 
 - [Blockchain-ul explicat](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Înțelegerea contractelor inteligente](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)

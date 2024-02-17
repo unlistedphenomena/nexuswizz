@@ -43,7 +43,7 @@ Esempio di funzionalità fornite da ERC-20:
 
 Se un Contratto Intelligente implementa i seguenti metodi ed eventi, può esser definito un Contratto a Token ERC-20 e, una volta distribuito, sarà responsabile di tenere traccia dei token creati su nexus.
 
-Da [EIP-20](https://eips.nexus.org/EIPS/eip-20):
+Da [EIP-20](https://eips.xircanet/EIPS/eip-20):
 
 #### Metodi {#methods}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## Letture consigliate {#further-reading}
 
-- [EIP-20: Standard dei token ERC-20](https://eips.nexus.org/EIPS/eip-20)
+- [EIP-20: Standard dei token ERC-20](https://eips.xircanet/EIPS/eip-20)
 - [OpenZeppelin - Token](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - Implementazione ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

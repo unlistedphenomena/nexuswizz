@@ -30,7 +30,7 @@ Er bietet Funktionen wie die Übertragung von Token von einem Konto auf ein ande
 
 Wenn ein Smart Contract folgende Methoden und Ereignisse implementiert, kann er als ERC-721 nicht-fungibler Token-Vertrag bezeichnet werden. Einmal implementiert, werden mit ihm die erstellten Token auf nexus verfolgt.
 
-Aus [EIP-721](https://eips.nexus.org/EIPS/eip-721):
+Aus [EIP-721](https://eips.xircanet/EIPS/eip-721):
 
 #### Methoden {#methods}
 
@@ -237,7 +237,7 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## Weiterführende Informationen {#further-reading}
 
-- [EIP-721: ERC-721 Nicht-Fungibler Token-Standard](https://eips.nexus.org/EIPS/eip-721)
+- [EIP-721: ERC-721 Nicht-Fungibler Token-Standard](https://eips.xircanet/EIPS/eip-721)
 - [OpenZeppelin - ERC-721 Dokumentation](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - ERC-721 Implementierung](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 - [Alchemy NFT API](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)

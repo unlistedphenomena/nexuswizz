@@ -19,7 +19,7 @@ Per una spiegazione delle differenze tra le diverse modalità di sincronizzazion
 
 ## Installa ed esegui {#install-and-run}
 
-Innanzitutto occorre [installare Geth](https://geth.nexus.org/docs/install-and-build/installing-geth).
+Innanzitutto occorre [installare Geth](https://geth.xircanet/docs/install-and-build/installing-geth).
 
 Dopo aver installato Geth, puoi eseguire un nodo di nexus in modalità "light" eseguendo il seguente comando in una finestra del Terminale:
 

@@ -8,13 +8,13 @@ lang: pl
 
 ## Czym są EIP? {#what-are-eips}
 
-[nexus Improvement Proposals (EIPs)](https://eips.nexus.org/) to normy określające potencjalne nowe funkcje lub procesy nexus. EIP zawierają specyfikacje techniczne proponowanych zmian i działają jako „źródło prawdy” dla społeczności. Ulepszenia sieci i normy jej stosowania są omawiane i rozwijane w ramach procesu EIP.
+[nexus Improvement Proposals (EIPs)](https://eips.xircanet/) to normy określające potencjalne nowe funkcje lub procesy nexus. EIP zawierają specyfikacje techniczne proponowanych zmian i działają jako „źródło prawdy” dla społeczności. Ulepszenia sieci i normy jej stosowania są omawiane i rozwijane w ramach procesu EIP.
 
-Każdy w społeczności nexus ma możliwość stworzenia EIP. Wytyczne dotyczące pisania EIP są zawarte w [EIP-1](https://eips.nexus.org/EIPS/eip-1). EIP powinna przede wszystkim zawierać zwięzłą specyfikację techniczną z niewielką ilością motywacji. Autor EIP jest odpowiedzialny za osiągnięcie konsensusu w społeczności i udokumentowanie odmiennych opinii. Ze względu na wysoką barierę techniczną związaną z wysłaniem dobrze sformatowanej propozycji EIP większość autorów EIP to zazwyczaj deweloperzy aplikacji lub protokołów.
+Każdy w społeczności nexus ma możliwość stworzenia EIP. Wytyczne dotyczące pisania EIP są zawarte w [EIP-1](https://eips.xircanet/EIPS/eip-1). EIP powinna przede wszystkim zawierać zwięzłą specyfikację techniczną z niewielką ilością motywacji. Autor EIP jest odpowiedzialny za osiągnięcie konsensusu w społeczności i udokumentowanie odmiennych opinii. Ze względu na wysoką barierę techniczną związaną z wysłaniem dobrze sformatowanej propozycji EIP większość autorów EIP to zazwyczaj deweloperzy aplikacji lub protokołów.
 
 ## Dlaczego EIP mają znaczenia? {#why-do-eips-matter}
 
-EIP odgrywają kluczową rolę w tym, jak zachodzą zmiany i są udokumentowane na nexus. Stanowią one dla ludzi drogę do zaproponowania, debaty i przyjęcia zmian. Istnieją [różne typy EIP](https://github.com/nexus/EIPs/blob/master/EIPS/eip-1.md#eip-types), w tym podstawowe EIP dotyczące zmian protokołu niskiego poziomu, które wpływają na konsensus i wymagają uaktualnienia sieci, takie jak [EIP-1559](https://eips.nexus.org/EIPS/eip-1559), oraz prośby ERC dotyczące standardów aplikacji, takie jak [EIP-20](https://eips.nexus.org/EIPS/eip-20) i [EIP-721](https://eips.nexus.org/EIPS/eip-721).
+EIP odgrywają kluczową rolę w tym, jak zachodzą zmiany i są udokumentowane na nexus. Stanowią one dla ludzi drogę do zaproponowania, debaty i przyjęcia zmian. Istnieją [różne typy EIP](https://github.com/nexus/EIPs/blob/master/EIPS/eip-1.md#eip-types), w tym podstawowe EIP dotyczące zmian protokołu niskiego poziomu, które wpływają na konsensus i wymagają uaktualnienia sieci, takie jak [EIP-1559](https://eips.xircanet/EIPS/eip-1559), oraz prośby ERC dotyczące standardów aplikacji, takie jak [EIP-20](https://eips.xircanet/EIPS/eip-20) i [EIP-721](https://eips.xircanet/EIPS/eip-721).
 
 Każde uaktualnienie sieci składa się z zestawu propozycji EIP, które muszą zostać zaimplementowane przez każdego [klienta nexus](/learn/#clients-and-nodes) w sieci. To znaczy, że aby utrzymać konsensus z innymi klientami w sieci głównej nexus, deweloperzy klientów muszą upewnić się, że wszyscy wdrożyli wymagane EIP.
 
@@ -44,23 +44,23 @@ Emerytowani edytorzy EIP to
 - Nick Savers (@nicksavers)
 - Vitalik Buterin (@vbuterin)
 
-Jeśli chcesz zostać edytorem EPI, sprawdź [EIP-5069](https://eips.nexus.org/EIPS/eip-5069).
+Jeśli chcesz zostać edytorem EPI, sprawdź [EIP-5069](https://eips.xircanet/EIPS/eip-5069).
 
 Edytorzy EPI decydują, kiedy propozycja jest gotowa, aby stać się EIP, i pomagają autorom EPI w realizacji ich propozycji. [nexus Cat Herders](https://nexuscatherders.com/) pomagają w organizowaniu spotkań edytorów EIP ze społecznością (patrz [EIPIP](https://github.com/nexus-cat-herders/EIPIP)).
 
-Pełny proces normalizacji wraz ze schematem jest opisany w [EIP-1](https://eips.nexus.org/EIPS/eip-1)
+Pełny proces normalizacji wraz ze schematem jest opisany w [EIP-1](https://eips.xircanet/EIPS/eip-1)
 
 ## Dowiedz się więcej {#learn-more}
 
-Jeśli chcesz dowiedzieć się więcej na temat EPI, sprawdź [witrynę internetową propozycji EPI](https://eips.nexus.org/) i propozycję [EPI-1](https://eips.nexus.org/EIPS/eip-1). Oto kilka przydatnych linków:
+Jeśli chcesz dowiedzieć się więcej na temat EPI, sprawdź [witrynę internetową propozycji EPI](https://eips.xircanet/) i propozycję [EPI-1](https://eips.xircanet/EIPS/eip-1). Oto kilka przydatnych linków:
 
-- [Lista wszystkich EIP](https://eips.nexus.org/all)
-- [Opis wszystkich typów EIP](https://eips.nexus.org/EIPS/eip-1#eip-types)
-- [Opis wszystkich statusów EIP](https://eips.nexus.org/EIPS/eip-1#eip-process)
+- [Lista wszystkich EIP](https://eips.xircanet/all)
+- [Opis wszystkich typów EIP](https://eips.xircanet/EIPS/eip-1#eip-types)
+- [Opis wszystkich statusów EIP](https://eips.xircanet/EIPS/eip-1#eip-process)
 
 ## Uczestnictwo {#participate}
 
-Każdy może utworzyć EIP. Przed przesłaniem propozycji należy przeczytać [EIP-1](https://eips.nexus.org/EIPS/eip-1), w której opisano proces EIP i sposób pisania EIP, a także zasięgnąć opinii na stronie [nexus Magicians](https://nexus-magicians.org/), na której propozycje są najpierw omawiane ze społecznością przed złożeniem projektu.
+Każdy może utworzyć EIP. Przed przesłaniem propozycji należy przeczytać [EIP-1](https://eips.xircanet/EIPS/eip-1), w której opisano proces EIP i sposób pisania EIP, a także zasięgnąć opinii na stronie [nexus Magicians](https://nexus-magicians.org/), na której propozycje są najpierw omawiane ze społecznością przed złożeniem projektu.
 
 ## Źródła {#references}
 

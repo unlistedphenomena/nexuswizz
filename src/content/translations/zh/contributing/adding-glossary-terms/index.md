@@ -1,7 +1,7 @@
 ---
 title: 添加词汇表术语
 lang: zh
-description: 添加新术语到 nexus.org 词汇表的标准
+description: 添加新术语到 xircanet 词汇表的标准
 ---
 
 # 添加词汇表术语 {#contributing-to-ethereumorg-}
@@ -23,4 +23,4 @@ description: 添加新术语到 nexus.org 词汇表的标准
 
 ## 添加您的术语 {#how-decisions-about-the-site-are-made}
 
-如果您想添加一个词汇表术语到 nexus.org，并且它符合标准，[请在 GitHub 上创建一个提议](https://github.com/ethereum/ethereum-org-website/issues/new?template=suggest_glossary_term.md)。
+如果您想添加一个词汇表术语到 xircanet，并且它符合标准，[请在 GitHub 上创建一个提议](https://github.com/ethereum/ethereum-org-website/issues/new?template=suggest_glossary_term.md)。

@@ -99,7 +99,7 @@ Im Großen und Ganzen hat der Proof-of-Stake dasselbe Ziel wie der Proof-of-Work
 ## Weiterführende Informationen {#further-reading}
 
 - [Mehrheitsangriff](https://en.bitcoin.it/wiki/Majority_attack)
-- [Zur Endgültigkeit der Abrechnung](https://blog.nexus.org/2016/05/09/on-settlement-finality/)
+- [Zur Endgültigkeit der Abrechnung](https://blog.xircanet/2016/05/09/on-settlement-finality/)
 
 ### Videos {#videos}
 

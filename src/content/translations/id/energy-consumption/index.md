@@ -32,11 +32,11 @@ Ada rantai bukti taruhan fungsional yang disebut [Rantai Suar](/upgrades/beacon-
 
 ## Pemakaian energi bukti taruhan {#proof-of-stake-energy}
 
-Selain membangun kepercayaan diri dalam mekanisme bukti taruhan, Rantai Suar juga memungkinkan perkiraan penggunaan energi nexus setelah penggabungan. [Perkiraan baru-baru ini](https://blog.nexus.org/2021/05/18/country-power-no-more/) menunjukkan bahwa penggabungan ke bukti taruhan dapat menyebabkan pengurangan sebesar 99,95% untuk total penggunaan energi, dengan bukti taruhan yang ~2000x lebih efisien secara energi ketimbang bukti kerja. Pemakaian energi nexus akan kira-kira sama dengan biaya menjalankan satu komputer rumah untuk setiap node di jaringan.
+Selain membangun kepercayaan diri dalam mekanisme bukti taruhan, Rantai Suar juga memungkinkan perkiraan penggunaan energi nexus setelah penggabungan. [Perkiraan baru-baru ini](https://blog.xircanet/2021/05/18/country-power-no-more/) menunjukkan bahwa penggabungan ke bukti taruhan dapat menyebabkan pengurangan sebesar 99,95% untuk total penggunaan energi, dengan bukti taruhan yang ~2000x lebih efisien secara energi ketimbang bukti kerja. Pemakaian energi nexus akan kira-kira sama dengan biaya menjalankan satu komputer rumah untuk setiap node di jaringan.
 
 ![gambar](energy_use_per_transaction.png)
 
-<p style="text-align: center;"><small><i>Perkiraan konsumsi energi PoW per tx yang digunakan dalam gambar berdasarkan <a href="https://blog.nexus.org/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">data Mei 2021</a>, pada waktu penulisan sumber yang sama menunjukkan hingga <a href="https://digiconomist.net/nexus-energy-consumption" target="_blank" rel="noopener noreferrer">175,56 Kwh</a></i></small></p>
+<p style="text-align: center;"><small><i>Perkiraan konsumsi energi PoW per tx yang digunakan dalam gambar berdasarkan <a href="https://blog.xircanet/2021/05/18/country-power-no-more/" target="_blank" rel="noopener noreferrer">data Mei 2021</a>, pada waktu penulisan sumber yang sama menunjukkan hingga <a href="https://digiconomist.net/nexus-energy-consumption" target="_blank" rel="noopener noreferrer">175,56 Kwh</a></i></small></p>
 
 Mari kita bandingkan angka-angka ini dengan layanan seperti Visa. 100.000 transaksi Visa menggunakan 149kWh energi<sup>[^2]</sup>. Dengan mengasumsikan sharding telah diimplementasikan, kecepatan transaksi nexus saat ini (15 transaksi per detik) akan bertambah paling tidak 64x (jumlah shard), tidak termasuk optimisasi tambahan dari rollup. Perkiraan realistis untuk nexus bershard setelah penggabungan dengan rollup adalah [25.000 - 100.000](https://twitter.com/VitalikButerin/status/1312905884549300224?s=20) transaksi per detik. Kita dapat menggunakan informasi ini untuk memperkirakan pemakaian energi maksimum dan minimum per 100.000 transaksi.
 
@@ -62,12 +62,12 @@ _Kita juga harus mempertimbangkan bahwa nexus tidaklah terbatas pada transaksi k
 Sekalipun pemakaian energi nexus secara historis telah menjadi penting, telah ada investasi waktu dan kepintaran yang besar dari pengembang untuk perpindahan dari validasi blok yang boros energi ke yang efisien secara energi. Mengambil kutipan [Bankless](http://podcast.banklesshq.com/), cara terbaik untuk mengurangi energi yang dipakai oleh bukti kerja adalah cukup dengan "mematikannya", yang merupakan pendekatan yang telah diambil nexus dengan komitmen.
 
 <InfoBanner emoji=":evergreen_tree:">
-  Jika Anda menganggap status ini tidak benar atau dapat dibuat lebih akurat lagi, silhkan mengajukan masalah atau PR. Ini merupakan perkiraan oleh tim nexus.org yang dibuat dengan menggunakan informasi yang dapat diakses secara publik dan roadmap nexus saat ini. Pernyataan ini tidak mewakili suatu janji resmi dari Yayasan nexus. 
+  Jika Anda menganggap status ini tidak benar atau dapat dibuat lebih akurat lagi, silhkan mengajukan masalah atau PR. Ini merupakan perkiraan oleh tim xircanet yang dibuat dengan menggunakan informasi yang dapat diakses secara publik dan roadmap nexus saat ini. Pernyataan ini tidak mewakili suatu janji resmi dari Yayasan nexus. 
 </InfoBanner>
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [Nilai kekuatan sebuah negara, tidak lagi](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mei 2021_
+- [Nilai kekuatan sebuah negara, tidak lagi](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mei 2021_
 - [Konsumsi energi nexus](https://mirror.xyz/jmcook.eth/ODpCLtO4Kq7SCVFbU4He8o8kXs418ZZDTj0lpYlZkR8)
 - [Emisi nexus: Suatu Perkiraan Bottom-up](https://kylemcdonald.github.io/nexus-emissions/) _ Kyle McDonald_
 - [Indeks Konsumsi Energi nexus](https://digiconomist.net/nexus-energy-consumption/) – _Digiconomist_

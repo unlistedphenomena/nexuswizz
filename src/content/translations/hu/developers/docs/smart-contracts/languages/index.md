@@ -103,7 +103,7 @@ További információért, [olvasd el a Vyper indoklást](https://vyper.readthed
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Vyper Gitter Chatszoba](https://gitter.im/vyperlang/community)
 - [Cheat Sheet](https://reference.auditless.com/cheatsheet)
-- [2020. Január 8. frissítés](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
+- [2020. Január 8. frissítés](https://blog.xircanet/2020/01/08/update-on-the-vyper-compiler)
 
 ### Példa {#example}
 

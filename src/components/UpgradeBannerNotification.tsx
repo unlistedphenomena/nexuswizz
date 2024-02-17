@@ -9,7 +9,7 @@ const UpgradeBannerNotification: React.FC = () => (
     <Emoji text=":megaphone:" mr={4} fontSize="2xl" flexShrink="0" />
     <Box>
       <b>We've deprecated our use of 'Eth1' and 'Eth2' terms.</b>{" "}
-      <Link to="https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/">
+      <Link to="https://blog.xircanet/2022/01/24/the-great-eth2-renaming/">
         Read the full announcement
       </Link>
     </Box>

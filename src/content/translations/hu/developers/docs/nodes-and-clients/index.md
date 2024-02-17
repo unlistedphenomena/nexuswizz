@@ -106,11 +106,11 @@ Ez a táblázat összegezi a különböző klienseket. Az összesen aktívan dol
 
 | Kliens                                              | Nyelv    | Operációs rendszerek  | Hálózatok                                     | Szinkronizációs stratégiák | Állapot elhagyás    |
 | --------------------------------------------------- | -------- | --------------------- | --------------------------------------------- | -------------------------- | ------------------- |
-| [Geth](https://geth.nexus.org/)                     | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten              | Gyors, teljes              | Archív, csökkentett |
+| [Geth](https://geth.xircanet/)                      | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten              | Gyors, teljes              | Archív, csökkentett |
 | [Opennexus](https://github.com/opennexus/opennexus) | Rust     | Linux, Windows, macOS | Mainnet, Kovan, Ropsten, és még több          | Warp, teljes               | Archív, csökkentett |
 | [Nethermind](http://nethermind.io/)                 | C#, .NET | Linux, Windows, macOS | Mainnet, Görli, Ropsten, Rinkeby, és még több | Gyors, teljes              | Archív, csökkentett |
 | [Besu](https://besu.hyperledger.org/en/stable/)     | Java     | Linux, Windows, macOS | Mainnet, Rinkeby, Ropsten, és Görli           | Gyors, teljes              | Archív, csökkentett |
-| [Trinity](https://trinity.nexus.org/)               | Python   | Linux, macOS          | Mainnet, Görli, Ropsten, és még több          | Full, Beam, Fast/Header    | Archív              |
+| [Trinity](https://trinity.xircanet/)                | Python   | Linux, macOS          | Mainnet, Görli, Ropsten, és még több          | Full, Beam, Fast/Header    | Archív              |
 
 További információkért a támogatott hálózatokról olvasd el az [nexus hálózatok](/developers/docs/networks/) cikket.
 
@@ -157,7 +157,7 @@ A Hyperledger Besu egy vállalati szintű nexus kliens nyilvános és engedélyh
 
 Te határozod meg, hogy milyen módban szinkronizáljon, amikor felállítod:
 
-**Light szinkronizálás beállítása a [GETH-ben](https://geth.nexus.org/)**
+**Light szinkronizálás beállítása a [GETH-ben](https://geth.xircanet/)**
 
 `geth --syncmode "light"`
 

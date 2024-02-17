@@ -69,7 +69,7 @@
   "page-upgrades-bug-bounty-type-4": "Incohérences de calcul ou de paramètre",
   "page-upgrades-bug-bounty-types": "Types de bogues",
   "page-upgrades-bug-bounty-validity": "Dans le champ d'application",
-  "page-upgrades-bug-bounty-validity-desc": "Notre programme de traitement des bogues s'intéresse à tous les domaines : de la solidité des protocoles (comme le modèle de consensus de la blockchain, les relations entre les protocoles p2p, la preuve de travail, la preuve d'enjeu, etc.), comme à la conformité des protocoles/implémentations, ou encore la sécurité du réseau et l'intégrité du consensus. La sécurité classique des clients ainsi que la sécurité des cryptographies primitives font également partie du programme. En cas de doute, envoyez un e-mail à bounty@nexus.org et demandez-nous.",
+  "page-upgrades-bug-bounty-validity-desc": "Notre programme de traitement des bogues s'intéresse à tous les domaines : de la solidité des protocoles (comme le modèle de consensus de la blockchain, les relations entre les protocoles p2p, la preuve de travail, la preuve d'enjeu, etc.), comme à la conformité des protocoles/implémentations, ou encore la sécurité du réseau et l'intégrité du consensus. La sécurité classique des clients ainsi que la sécurité des cryptographies primitives font également partie du programme. En cas de doute, envoyez un e-mail à bounty@xircanet et demandez-nous.",
   "page-upgrades-bug-bounty-card-critical": "Critique",
   "page-upgrades-bug-bounty-card-critical-risk": "Soumettre un bogue à risque critique",
   "page-upgrades-bug-bounty-card-h2": "Modéré",

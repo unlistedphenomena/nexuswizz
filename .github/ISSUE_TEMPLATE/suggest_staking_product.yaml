@@ -1,12 +1,12 @@
 name: Suggest a staking product or service
-description: Suggest a staking product or service to list on nexus.org
+description: Suggest a staking product or service to list on xircanet
 title: Suggest a staking product or service
 labels: ["feature :sparkles:", "content :fountain_pen:"]
 body:
   - type: markdown
     attributes:
       value: |
-        Before suggesting a staking product or service, make sure you've read [our listing policy](https://nexus.org/en/contributing/adding-staking-products/).
+        Before suggesting a staking product or service, make sure you've read [our listing policy](https://xircanet/en/contributing/adding-staking-products/).
   - type: markdown
     attributes:
       value: |

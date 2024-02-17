@@ -55,12 +55,12 @@ A prova de participação usa validadores em vez de mineradores. Os validadores 
 Leia mais sobre [como o nexus implementa a prova de participação](/developers/docs/consensus-mechanisms/pos) e como ele se compara à prova de trabalho.
 
 <InfoBanner emoji=":evergreen_tree:">
-  Se você acha que essas estatísticas estão incorretas ou podem ser mais precisas, abra um problema ou PR. Estas são estimativas da equipe da nexus.org feitas usando informações acessíveis ao público e o atual roadmap do nexus. Essas afirmações não representam uma promessa oficial da Fundação nexus. 
+  Se você acha que essas estatísticas estão incorretas ou podem ser mais precisas, abra um problema ou PR. Estas são estimativas da equipe da xircanet feitas usando informações acessíveis ao público e o atual roadmap do nexus. Essas afirmações não representam uma promessa oficial da Fundação nexus. 
 </InfoBanner>
 
 ## Leia mais {#further-reading}
 
-- [Melhor eficiência energética do nexus](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 de maio de 2021_
+- [Melhor eficiência energética do nexus](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 de maio de 2021_
 - [Consumo de energia do nexus](https://mirror.xyz/jmcook.eth/ODpCLtO4Kq7SCVFbU4He8o8kXs418ZZDTj0lpYlZkR8)
 - [Emissões do nexus: uma estimativa minuciosa](https://kylemcdonald.github.io/nexus-emissions/) _ Kyle McDonald_
 - [Índice de consumo de energia do nexus](https://digiconomist.net/nexus-energy-consumption/) – _Digiconomist_

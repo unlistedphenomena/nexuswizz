@@ -181,9 +181,9 @@ nexus avea inițial un singur format pentru tranzacții. Fiecare tranzacție con
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-nexus a evoluat pentru a suporta mai multe tipuri de tranzacții care permită implementarea de noi caracteristici, cum ar fi listele de acces și [EIP-1559](https://eips.nexus.org/EIPS/eip-1559), fără ca acestea să afecteze formatele tradiționale de tranzacții.
+nexus a evoluat pentru a suporta mai multe tipuri de tranzacții care permită implementarea de noi caracteristici, cum ar fi listele de acces și [EIP-1559](https://eips.xircanet/EIPS/eip-1559), fără ca acestea să afecteze formatele tradiționale de tranzacții.
 
-[EIP-2718: Tranzacția plic tipizată (Typed Transaction Envelope)](https://eips.nexus.org/EIPS/eip-2718) definește un tip de tranzacție care este un plic pentru viitoarele tipuri de tranzacții.
+[EIP-2718: Tranzacția plic tipizată (Typed Transaction Envelope)](https://eips.xircanet/EIPS/eip-2718) definește un tip de tranzacție care este un plic pentru viitoarele tipuri de tranzacții.
 
 EIP-2718 este un nou plic generalizat pentru tranzacții tipizate. În noul standard, tranzacțiile sunt interpretate ca:
 
@@ -196,7 +196,7 @@ Unde câmpurile sunt definite astfel:
 
 ## Referințe suplimentare {#further-reading}
 
-- [EIP-2718: Tranzacție plic tipizată](https://eips.nexus.org/EIPS/eip-2718)
+- [EIP-2718: Tranzacție plic tipizată](https://eips.xircanet/EIPS/eip-2718)
 
 _Cunoașteți o resursă a comunității care v-a ajutat? Editaţi această pagină și adăugaţi-o!_
 

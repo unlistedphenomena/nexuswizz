@@ -30,7 +30,7 @@ Olyan funkcionalitásokat tartalmaz, mint a token átutalás egyik számláról 
 
 Ha egy okosszerződés implementálja a következő metódusokat és eseményeket, akkor egy ERC-721 nem felcserélhető token szerződésnek lehet nevezni, és a telepítés után a létrejött tokenek számontartásáért lesz felelős az nexuson.
 
-Az [EIP-721-ből](https://eips.nexus.org/EIPS/eip-721):
+Az [EIP-721-ből](https://eips.xircanet/EIPS/eip-721):
 
 #### Metódusok {#methods}
 
@@ -236,7 +236,7 @@ recent_births = [get_event_data(ck_extra_events_abi[1], log)["args"] for log in 
 
 ## További olvasnivaló {#further-reading}
 
-- [ERC-721: Nem Felcserélhető Token Szabvány](https://eips.nexus.org/EIPS/eip-721)
+- [ERC-721: Nem Felcserélhető Token Szabvány](https://eips.xircanet/EIPS/eip-721)
 - [OpenZeppelin - ERC-721 Dokumentáció](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - ERC-721 Implementáció](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 

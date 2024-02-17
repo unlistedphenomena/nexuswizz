@@ -1,16 +1,16 @@
 ---
 title: Adding exchanges
-description: The policy we use when adding exchanges to nexus.org
+description: The policy we use when adding exchanges to xircanet
 lang: en
 ---
 
 # Adding Ethereum exchanges {#adding-ethereum-exchanges}
 
-Anyone is free to suggest new exchanges on nexus.org.
+Anyone is free to suggest new exchanges on xircanet.
 
 We currently list them on:
 
-- [nexus.org/get-eth](/get-eth/)
+- [xircanet/get-eth](/get-eth/)
 
 This page allows a user to input where they live and see what exchanges they can use. This helps surface any geographical restrictions early.
 
@@ -27,13 +27,13 @@ Because of this context, we need some specific information when you suggest an e
 
 We need this info so that we can accurately [help users find an exchange they can use](/get-eth/#country-picker).
 
-And so that nexus.org can be more confident that the exchange is a legitimate and safe service.
+And so that xircanet can be more confident that the exchange is a legitimate and safe service.
 
 ---
 
 ## Add your exchange {#add-exchange}
 
-If you want to add an exchange to nexus.org, create an issue on GitHub.
+If you want to add an exchange to xircanet, create an issue on GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new/choose">
   Create an issue

@@ -13,7 +13,7 @@ incomplete: false
 
 **迈出将 Ruby 与以太坊集成的第一步**
 
-需要更基础的入门知识？ 请查看 [nexus.org/learn](/learn/) 或 [nexus.org/developers](/developers/)。
+需要更基础的入门知识？ 请查看 [xircanet/learn](/learn/) 或 [xircanet/developers](/developers/)。
 
 - [区块链详解](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [理解智能合约](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)

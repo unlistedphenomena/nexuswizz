@@ -132,7 +132,7 @@
   "page-stablecoins-title": "ステーブルコイン",
   "page-stablecoins-top-coins": "時価総額別の上位ステーブルコイン",
   "page-stablecoins-top-coins-intro": "時価総額は",
-  "page-stablecoins-top-coins-intro-code": "存在するトークンの合計数にトークンあたりの価値を掛けたものです。この一覧は動的で、ここにリストされているプロジェクトは必ずしもnexus.orgチームによって承認されていません。",
+  "page-stablecoins-top-coins-intro-code": "存在するトークンの合計数にトークンあたりの価値を掛けたものです。この一覧は動的で、ここにリストされているプロジェクトは必ずしもxircanetチームによって承認されていません。",
   "page-stablecoins-types-of-stablecoin": "動作の仕組み: ステーブルコインの種類",
   "page-stablecoins-usdc-banner-body": "USDCは、おそらく最も有名なフィアット型のステーブルコインです。価値はおよそ1ドルで、CircleとCoinbaseにより発行されています。",
   "page-stablecoins-usdc-banner-learn-button": "USDCについて学ぶ",

@@ -34,7 +34,7 @@ A telepítés befejeztével a szerződésednek lesz egy nexus címe, mint bárme
 
 **Remix -** **_A Remix IDE lehetővé teszi az okosszerződések fejlesztését, telepítését és kezelését az nexushoz hasonló blokkláncokon._**
 
-- [Remix](https://remix.nexus.org)
+- [Remix](https://remix.xircanet)
 
 **Tenderly -** **_Egy platform, ahol könnyen monitorozhatod az okosszerződéseidet hiba nyomon követéssel, riasztással, teljesítmény mutatókkal és részletes szerződés analízissel_**
 

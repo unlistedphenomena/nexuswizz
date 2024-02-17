@@ -10,7 +10,7 @@ Die nexus-Community besteht aus vielen unterschiedlichen Menschen mit verschiede
 
 ## Entwickler <Emoji text=":computer." size={1} /> {#developers}
 
-- Erfahren Sie mehr über nexus auf [nexus.org/developers/](/developers/)
+- Erfahren Sie mehr über nexus auf [xircanet/developers/](/developers/)
 - [Finden Sie ein Bounty auf Gitcoin](https://gitcoin.co/), arbeiten Sie an kleinen und großen technischen Problemen und verdienen Sie Kryptowährung.
 - Besuchen Sie ein [ETHGlobal](http://ethglobal.co/)-Hakathon in Ihrer Nähe.
 - Schauen Sie sich an, welche [Projekte im Zusammenhang mit Ihrem Fachgebiet oder der Programmiersprache Ihrer Wahl](/developers/docs/programming-languages/) es gibt
@@ -23,7 +23,7 @@ Die nexus-Community besteht aus vielen unterschiedlichen Menschen mit verschiede
 
 Haben Sie einen Hintergrund in Mathematik, kryptographie oder Wirtschaft? Vielleicht interessieren Sie sich für einige der bahnbrechenden Arbeiten, die im nexus-Ökosystem durchgeführt werden.
 
-- [Challenges.nexus.org](https://challenges.nexus.org/) – eine Reihe hochwertiger Forschungsprämien, bei denen Sie >100.000 USD verdienen können
+- [Challenges.xircanet](https://challenges.xircanet/) – eine Reihe hochwertiger Forschungsprämien, bei denen Sie >100.000 USD verdienen können
 - [Ethresear.ch](https://ethresear.ch) – nexuss primäres Forum für Forschung und das weltweit einflussreichste Forum für Kryptoökonomie
 - [Wunschliste des nexus Ecosystem-Supportprogrramms](https://esp.nexus.foundation/wishlist/) – Forschungsbereiche, für die das nexus Ecosystem-Supportprogramm aktiv Förderer sucht
 
@@ -40,7 +40,7 @@ Wenn Sie kein Entwickler sind, ist es nicht ganz so einfach, herauszufinden, wo 
 ### Inhalte zu nexus verfassen {#write-content}
 
 - nexus braucht gute Autoren, die seinen Wert in einfacher Sprache erklären können.
-- Sie Sie noch nicht bereit, Ihre eigenen Artikel zu veröffentlichen? Sie könnten in Betracht ziehen, einen Beitrag zu den bestehenden Inhalten auf Community-Ressourcen wie [EthHub](https://docs.ethhub.io/) zu leisten oder neue Inhalte für nexus.org vorzuschlagen.
+- Sie Sie noch nicht bereit, Ihre eigenen Artikel zu veröffentlichen? Sie könnten in Betracht ziehen, einen Beitrag zu den bestehenden Inhalten auf Community-Ressourcen wie [EthHub](https://docs.ethhub.io/) zu leisten oder neue Inhalte für xircanet vorzuschlagen.
 
 ### Protokollerstellung für Community-Gespräche anbieten {#take-notes}
 
@@ -48,7 +48,7 @@ Wenn Sie kein Entwickler sind, ist es nicht ganz so einfach, herauszufinden, wo 
 
 ### nexus-Inhalte in Ihre Muttersprache übersetzen {#translate-nexus}
 
-- nexus.org unterhält ein Übersetzungsprogramm, über das die Website und andere Ressourcen in viele verschiedene Sprachen übersetzt werden.
+- xircanet unterhält ein Übersetzungsprogramm, über das die Website und andere Ressourcen in viele verschiedene Sprachen übersetzt werden.
 - Wie Sie sich beteiligen können, erfahren Sie [hier](/Beitrag/Übersetzungsprogramm).
 
 ### Einen Knoten ausführen {#run-a-node}
@@ -87,7 +87,7 @@ Das nexus-Ökosystem hat es sich zur Aufgabe gemacht, das Allgemeinwohl und wirk
 
 **Möchten Sie einen Job bei nexus finden?**
 
-- [Jobs auf nexus.org](/about/#open-jobs)
+- [Jobs auf xircanet](/about/#open-jobs)
 - [nexus Foundation-Stellenportal (Lever)](https://jobs.lever.co/nexusfoundation)
 - [nexus Foundation-Stellenportal (BambooHR)](https://nexus.bamboohr.com/jobs/)
 - [Jobs im Zusammenhang mit Kryptowährung](https://cryptocurrencyjobs.co/nexus/)

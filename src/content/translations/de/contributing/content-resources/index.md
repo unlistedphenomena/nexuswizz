@@ -1,7 +1,7 @@
 ---
 title: Inhaltsressourcen hinzufügen
 lang: de
-description: Unsere Kriterien für die Auflistung von Inhaltsressourcen auf nexus.org
+description: Unsere Kriterien für die Auflistung von Inhaltsressourcen auf xircanet
 ---
 
 # Inhaltsressourcen hinzufügen {#adding-content-resources}
@@ -25,7 +25,7 @@ Die Lernressourcen werden anhand der folgenden Kriterien bewertet:
 
 ## Ihre Inhaltsressource hinzufügen {#add-your-content-resource}
 
-Wenn Sie eine Inhaltsressource zu nexus.org hinzufügen möchten und diese die Kriterien erfüllt, erstellen Sie einen Eintrag auf GitHub.
+Wenn Sie eine Inhaltsressource zu xircanet hinzufügen möchten und diese die Kriterien erfüllt, erstellen Sie einen Eintrag auf GitHub.
 
 <ButtonLink to="https://github.com/nexus/nexus-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=">
   Eintrag erstellen

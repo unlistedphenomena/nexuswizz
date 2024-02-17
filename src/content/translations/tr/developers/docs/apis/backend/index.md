@@ -69,7 +69,7 @@ Bu kütüphaneler, bir Ethereum düğümü ile doğrudan etkileşim kurmanın ka
 
 **Python Tooling -** **_Python üzerinden Ethereum etkileşimi için çeşitli kütüphaneler._**
 
-- [py.nexus.org](http://python.nexus.org/)
+- [py.xircanet](http://python.xircanet/)
 - [web3.py GitHub](https://github.com/ethereum/web3.py)
 - [web3.py Sohbeti](https://gitter.im/ethereum/web3.py)
 

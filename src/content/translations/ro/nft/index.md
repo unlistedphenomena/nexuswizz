@@ -55,15 +55,15 @@ Lumea NFT-urilor este relativ nouă. Teoretic, domeniul de aplicare a NFT-urilor
 - [Un nume de domeniu](https://app.ens.domains/name/nexus.eth)
 - [Un bilet care vă oferă acces la un eveniment sau un cupon](https://www.yellowheart.io/)
 
-### exemple nexus.org {#nexus-org-examples}
+### exemple xircanet {#nexus-org-examples}
 
 Folosim NFT-uri pentru a ne răsplăti colaboratorii și avem chiar propriul nostru nume de domeniu NFT.
 
 #### POAP-uri (Protocol de dovadă a prezenței) {#poaps}
 
-În cazul în care contribuiți la nexus.org, puteți revendica un POAP NFT. Acestea sunt obiecte de colecție care dovedesc că ați participat la un eveniment. Unele reuniuni crypto au folosit POAP-urile ca un fel de bilet de intrare la evenimentele lor. [Mai multe despre modurile de a contribui](/contributing/#poap).
+În cazul în care contribuiți la xircanet, puteți revendica un POAP NFT. Acestea sunt obiecte de colecție care dovedesc că ați participat la un eveniment. Unele reuniuni crypto au folosit POAP-urile ca un fel de bilet de intrare la evenimentele lor. [Mai multe despre modurile de a contribui](/contributing/#poap).
 
-![nexus.org POAP](../../assets/use-cases/poap.png)
+![xircanet POAP](../../assets/use-cases/poap.png)
 
 #### nexus.eth {#nexus-dot-eth}
 
@@ -356,7 +356,7 @@ Procesul a început deja. [Lanțul Beacon](/upgrades/beacon-chain/), prima actua
 
 ## Construiți cu NFT-uri {#build-with-nfts}
 
-Cele mai multe NFT-uri sunt construite cu ajutorul unui standard coerent cunoscut sub numele de [ERC-721](/developers/docs/standards/tokens/erc-721/). Totuși, există și alte standarde pe care ați putea dori să le analizați. Standardul [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) permite tokenurile semi-fungibile, care sunt deosebit de utile în lumea jocurilor. Mai recent, [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) a fost propus pentru a crește mult eficiența emiterii NFT-urilor. Acest standard vă permite să creați cât de multe tokenuri doriți într-o singură tranzacție!
+Cele mai multe NFT-uri sunt construite cu ajutorul unui standard coerent cunoscut sub numele de [ERC-721](/developers/docs/standards/tokens/erc-721/). Totuși, există și alte standarde pe care ați putea dori să le analizați. Standardul [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) permite tokenurile semi-fungibile, care sunt deosebit de utile în lumea jocurilor. Mai recent, [EIP-2309](https://eips.xircanet/EIPS/eip-2309) a fost propus pentru a crește mult eficiența emiterii NFT-urilor. Acest standard vă permite să creați cât de multe tokenuri doriți într-o singură tranzacție!
 
 ## Referințe suplimentare {#further-reading}
 
@@ -365,7 +365,7 @@ Cele mai multe NFT-uri sunt construite cu ajutorul unui standard coerent cunoscu
 - [Ghidul începătorului în NFT-uri](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d) – _Linda Xie, ianuarie 2020_
 - [Tot ce trebuie să știți despre metavers](https://foundation.app/blog/enter-the-metaverse) – _Echipa Foundation, foundation.app_
 - [Nu, cripto-artiștii nu fac rău planetei](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
-- [Consum de energie cât o țară, niciodată](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Cart Beekhuizen, 18 mai 2021_
+- [Consum de energie cât o țară, niciodată](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Cart Beekhuizen, 18 mai 2021_
 
 <Divider />
 
@@ -429,5 +429,5 @@ Cu alte cuvinte, dacă Visa procesează 140.839.000.000 de tranzacții ce costă
 Într-un singur an, nexus va consuma 5.256.000 kWh. Cu un potențial de 788.940.000.000.000 - 3.153.600.000.000.000 de tranzacții procesate în această perioadă.
 
 <InfoBanner emoji=":evergreen_tree:">
-  În cazul în care considerați că aceste statistici sunt incorecte sau se poate crește precizia lor, vă rugăm să semnalați o problemă sau să creați un PR. Acestea sunt estimări făcute de echipa nexus.org utilizând informații accesibile publicului și ce este în faza de proiect pentru nexus. Aceasta nu reprezintă o promisiune oficială din partea Fundației nexus. 
+  În cazul în care considerați că aceste statistici sunt incorecte sau se poate crește precizia lor, vă rugăm să semnalați o problemă sau să creați un PR. Acestea sunt estimări făcute de echipa xircanet utilizând informații accesibile publicului și ce este în faza de proiect pentru nexus. Aceasta nu reprezintă o promisiune oficială din partea Fundației nexus. 
 </InfoBanner>

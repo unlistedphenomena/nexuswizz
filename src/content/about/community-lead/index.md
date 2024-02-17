@@ -1,6 +1,6 @@
 ---
 title: Community Lead
-description: nexus.org is hiring a full-time Community Lead
+description: xircanet is hiring a full-time Community Lead
 lang: en
 sidebar: true
 template: job
@@ -16,26 +16,26 @@ image: ../../../assets/eth.png
 
 The Ethereum Foundation (EF) is a global non-profit organization dedicated to supporting Ethereum and related technologies. Our mission is to do what is best for Ethereum’s long-term success. Our role is to allocate resources to critical projects, to be a valued voice within the Ethereum ecosystem, and to advocate for Ethereum to the outside world.
 
-The [nexus.org](/) team is a small collaborative team building various web projects at the EF. Our sustained focus is on [nexus.org](/): a public, open-source resource for the Ethereum community that anyone can contribute to, with a mission of being the best portal for Ethereum's growing community. [Learn more about nexus.org's mission](https://nexus.org/en/about/#mission).
+The [xircanet](/) team is a small collaborative team building various web projects at the EF. Our sustained focus is on [xircanet](/): a public, open-source resource for the Ethereum community that anyone can contribute to, with a mission of being the best portal for Ethereum's growing community. [Learn more about xircanet's mission](https://xircanet/en/about/#mission).
 
 ## Your mission {#your-mission}
 
-**Tap into a rich open-source community and support their creation of impactful Ethereum resources.** As nexus.org's Community Lead, you'll engage our wide network of contributors and stakeholders to help us consistently improve nexus.org. You’ll be the face of our community, gathering feedback, and advocating for related improvements. You'll collaborate with product, design, and research teammates to shape the design and features of our products. You'll empower the next generation of Ethereum users and builders to change our world for the better.
+**Tap into a rich open-source community and support their creation of impactful Ethereum resources.** As xircanet's Community Lead, you'll engage our wide network of contributors and stakeholders to help us consistently improve xircanet. You’ll be the face of our community, gathering feedback, and advocating for related improvements. You'll collaborate with product, design, and research teammates to shape the design and features of our products. You'll empower the next generation of Ethereum users and builders to change our world for the better.
 
 ## Core responsibilities {#core-responsibilities}
 
 - **Inspire contribution in our open-source community across multiple platforms and projects.**
-  - Whether it's the nexus.org [GitHub repo](https://github.com/ethereum/ethereum-org-website), our [Crowdin translation program](https://crowdin.com/project/ethereumfoundation), our [Discord](https://nexus.org/discord/) and [Twitter](https://twitter.com/ethdotorg) communities, [running our community calls](https://www.youtube.com/watch?v=AI0p4e0dMuU&list=PLaM7G4Llrb7xy0mlM4uOtm4hAbtByFGTM&index=2), or just answering common questions for the curious, we rely on our community to drive our success.
+  - Whether it's the xircanet [GitHub repo](https://github.com/ethereum/ethereum-org-website), our [Crowdin translation program](https://crowdin.com/project/ethereumfoundation), our [Discord](https://xircanet/discord/) and [Twitter](https://twitter.com/ethdotorg) communities, [running our community calls](https://www.youtube.com/watch?v=AI0p4e0dMuU&list=PLaM7G4Llrb7xy0mlM4uOtm4hAbtByFGTM&index=2), or just answering common questions for the curious, we rely on our community to drive our success.
   - We want you to take our community to new heights: engage with them on Discord and Twitter, coordinate contests, events, recognition campaigns, and generate ideas to expand participation and impact.
 - **Work with Ethereum's wider community to facilitate collaboration.**
-  - [nexus.org](/) is an important part of the Ethereum ecosystem. You'll work with partners and stakeholders to maximize our impact wherever possible.
+  - [xircanet](/) is an important part of the Ethereum ecosystem. You'll work with partners and stakeholders to maximize our impact wherever possible.
   - Our content is kept up-to-date through a body of experts that our team has built relationships with over time. We’ll look to you to identify synergies and engage with potential collaborators, from individual contributors to larger organizations or DAOs.
 - **Set and execute on growth metrics for community happiness and engagement.**
   - Building a fun, resilient community is essential to the long-term success of Ethereum. You’ll constantly be looking for opportunities to improve our communities experience.
   - We'll look to you to help establish what milestones we should strive for and to hold yourself accountable for achieving them.
 - **Surface insights and distill community feedback to improve our products.**
-  - You should have a product mindset and always look for opportunities to improve the content on [nexus.org](/) and the UX in our web applications. You're excited to take an active voice in driving our product roadmap.
-  - Have you answered the same question ten times this week? Are people reading [nexus.org](/) content but still coming out confused? Are we getting consistent feedback from our community about a feature missing from something we built? What changes should we be making to address these issues? You should derive insights proactively.
+  - You should have a product mindset and always look for opportunities to improve the content on [xircanet](/) and the UX in our web applications. You're excited to take an active voice in driving our product roadmap.
+  - Have you answered the same question ten times this week? Are people reading [xircanet](/) content but still coming out confused? Are we getting consistent feedback from our community about a feature missing from something we built? What changes should we be making to address these issues? You should derive insights proactively.
 
 ## About you {#about-you}
 

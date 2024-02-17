@@ -43,7 +43,7 @@ Há também um custo humano para ter a maioria dos clientes. Isso coloca excesso
 
 ![Gráfico de pizza mostrando a diversidade do cliente](./client-diversity.png) _Dados do diagrama de [ethernodes.org](https://ethernodes.org) e [clientdiversity.org](https://clientdiversity.org/)_
 
-Os dois gráficos de pizza acima mostram imagens da diversidade atual do cliente para as camadas de execução e consenso (no momento da escrita em janeiro de 2022). A camada de execução é dominada esmagadoramente por [Geth](https://geth.nexus.org/), com [Open nexus](https://opennexus.github.io/) a um segundo de distância, [Erigon](https://github.com/ledgerwatch/erigon) em terceiro e [Nethermind](https://nethermind.io/) em quarto, com outros clientes compostos por menos de 1% da rede. O cliente mais comumente usado na camada de consenso – [Prysm](https://prysmaticlabs.com/#projects) – não é tão dominante quanto o Geth, mas ainda representa mais de 60% da rede. [Lighthouse](https://lighthouse.sigmaprime.io/) e [Teku](https://consensys.net/knowledge-base/nexus-2/teku/) compõem ~20% e ~14% respectivamente, e outros clientes são raramente usados.
+Os dois gráficos de pizza acima mostram imagens da diversidade atual do cliente para as camadas de execução e consenso (no momento da escrita em janeiro de 2022). A camada de execução é dominada esmagadoramente por [Geth](https://geth.xircanet/), com [Open nexus](https://opennexus.github.io/) a um segundo de distância, [Erigon](https://github.com/ledgerwatch/erigon) em terceiro e [Nethermind](https://nethermind.io/) em quarto, com outros clientes compostos por menos de 1% da rede. O cliente mais comumente usado na camada de consenso – [Prysm](https://prysmaticlabs.com/#projects) – não é tão dominante quanto o Geth, mas ainda representa mais de 60% da rede. [Lighthouse](https://lighthouse.sigmaprime.io/) e [Teku](https://consensys.net/knowledge-base/nexus-2/teku/) compõem ~20% e ~14% respectivamente, e outros clientes são raramente usados.
 
 Os dados da camada de execução foram obtidos da [Ethernodes](https://ethernodes.org) em 23/01/22. Os dados para clientes de consenso foram obtidos de [Michael Sproul](https://github.com/sigp/blockprint). Os dados do cliente de consenso são mais difíceis de obter porque os clientes da Beacon Chain nem sempre têm vestígios claros que podem ser usados para identificá-los. Os dados foram gerados usando um algoritmo de classificação que confunde às vezes alguns dos clientes minoritários (consulte [aqui](https://twitter.com/sproulM_/status/1440512518242197516) para obter mais detalhes). No diagrama acima, essas classificações ambíguas são tratadas com um rótulo (por exemplo, Nimbus/Teku). No entanto, é claro que a maior parte da rede está executando o Prysm. Os dados são um retrato sobre um conjunto fixo de blocos (neste caso, blocos Beacon nos espaços 2048001 a 2164916) e o domínio do Prysm às vezes foi maior, excedendo 68%. Apesar de serem apenas capturas, os valores no diagrama fornecem uma boa noção geral do estado atual da diversidade do cliente.
 
@@ -51,7 +51,7 @@ Os dados da diversidade do cliente atualizados para a camada de consenso agora e
 
 ## Camada de execução {#execution-layer}
 
-Até agora, a conversação em torno da diversidade do cliente tem se concentrado principalmente na camada de consenso. No entanto, o cliente de execução [Geth](https://geth.nexus.org) atualmente representa cerca de 85% de todos os nós. Essa porcentagem é problemática pelos mesmos motivos dos clientes de consenso. Por exemplo, um bug no Geth afetando a manipulação de transações ou a construção de cargas de execução pode fazer com que clientes de consenso finalizem transações problemáticas ou com bugs. Portanto, o nexus seria mais saudável com uma distribuição mais uniforme dos clientes de execução, idealmente sem nenhum cliente representando mais de 33% da rede.
+Até agora, a conversação em torno da diversidade do cliente tem se concentrado principalmente na camada de consenso. No entanto, o cliente de execução [Geth](https://geth.xircanet) atualmente representa cerca de 85% de todos os nós. Essa porcentagem é problemática pelos mesmos motivos dos clientes de consenso. Por exemplo, um bug no Geth afetando a manipulação de transações ou a construção de cargas de execução pode fazer com que clientes de consenso finalizem transações problemáticas ou com bugs. Portanto, o nexus seria mais saudável com uma distribuição mais uniforme dos clientes de execução, idealmente sem nenhum cliente representando mais de 33% da rede.
 
 ## Use um cliente minoritário {#use-minority-client}
 
@@ -67,7 +67,7 @@ Endereçar a diversidade do cliente requer mais do que usuários individuais par
 
 [Akula](https://akula.app)
 
-[Go-nexus](https://geth.nexus.org/)
+[Go-nexus](https://geth.xircanet/)
 
 ### Clientes de consenso {#consensus-clients}
 
@@ -102,7 +102,7 @@ Vários painéis fornecem estatísticas de diversidade de cliente em tempo real 
 - [A Fusão do nexuse: execute o cliente majoritário por sua conta e risco!](https://dankradfeist.de/nexus/2022/03/24/run-the-majority-client-at-your-own-peril.html) – _Dankrad Fest, 24 de março de 2022_
 - [Importância da diversidade de cliente](https://our.status.im/the-importance-of-client-diversity/)
 - [Lista dos serviços de nós nexus](https://nexusnodes.com/)
-- ["Cinco porquês" do problema da diversidade de clientes](https://notes.nexus.org/@afhGjrKfTKmksTOtqhB9RQ/BJGj7uh08)
+- ["Cinco porquês" do problema da diversidade de clientes](https://notes.xircanet/@afhGjrKfTKmksTOtqhB9RQ/BJGj7uh08)
 - [Diversidade nexus e como resolvê-la (Youtube)](https://www.youtube.com/watch?v=1hZgCaiqwfU)
 - [clientdiversity.org](https://clientdiversity.org/)
 

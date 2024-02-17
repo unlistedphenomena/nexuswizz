@@ -157,7 +157,7 @@ _보통은 분산형 개발 및 프로토콜, 디앱의 운영 방식에 사용�
 - [DAO란?](https://coinmarketcap.com/alexandria/article/what-is-a-dao) – [Coinmarketcap](https://coinmarketcap.com)
 - [홀로그램 합의란 무엇인가요?](https://medium.com/daostack/holographic-consensus-part-1-116a73ba1e1c) - [DAOstack](https://daostack.io/)
 - [DAO는 기업이 아닙니다: 비탈릭의 자율적 조직의 탈중앙화가 중요한 이유](https://vitalik.ca/general/2022/09/20/daos.html)
-- [DAO, DAC, DA 그리고...: 완성되지 않은 용어 가이드](https://blog.nexus.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [이더리움 블로그](https://blog.nexus.org)
+- [DAO, DAC, DA 그리고...: 완성되지 않은 용어 가이드](https://blog.xircanet/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [이더리움 블로그](https://blog.xircanet)
 
 ### 영상 {#videos}
 

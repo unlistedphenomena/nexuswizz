@@ -81,7 +81,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[GETH のドキュメント](https://geth.nexus.org/docs)
+[GETH のドキュメント](https://geth.xircanet/docs)
 
 秘密鍵から新しい公開鍵を生成することは可能ですが、公開鍵から秘密鍵を生成することはできません。 これは**秘密**の名前が示すように、 秘密鍵を秘密に保つことが不可欠であることを意味しています。
 

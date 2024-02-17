@@ -88,7 +88,7 @@ Contractele inteligente prin ele însele nu pot obține informații despre eveni
 
 Există modalități de a evita acest lucru folosind [oracole](/developers/docs/oracles/).
 
-O altă limitare a contractelor inteligente este dimensiunea maximă a contractelor. Un contract inteligent poate avea maxim 24 kB, altfel va rămâne fără gaz. Acest lucru poate fi circumnavigat folosind [Modelul Diamantului](https://eips.nexus.org/EIPS/eip-2535).
+O altă limitare a contractelor inteligente este dimensiunea maximă a contractelor. Un contract inteligent poate avea maxim 24 kB, altfel va rămâne fără gaz. Acest lucru poate fi circumnavigat folosind [Modelul Diamantului](https://eips.xircanet/EIPS/eip-2535).
 
 ## Resurse pentru contractele inteligente {#smart-contract-resources}
 

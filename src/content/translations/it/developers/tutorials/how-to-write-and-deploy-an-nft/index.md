@@ -195,7 +195,7 @@ Quindi, cosa _fa_ esattamente questo codice? Analizziamolo, riga dopo riga.
 
 In cima al nostro smart contract, importiamo tre classi dello smart contract di [OpenZeppelin](https://openzeppelin.com/):
 
-- @openzeppelin/contracts/token/ERC721/ERC721.sol contiene l'implementazione dello standard ERC-721, che lo smart contract del nostro NFT erediterà. (Per essere un NFT valido, il tuo smart contract deve implementare tutti i metodi dello standard ERC-721.) Per saperne di più sulle funzioni ERC-721 ereditate, dai un'occhiata alla definizione dell'interfaccia [qui](https://eips.nexus.org/EIPS/eip-721).
+- @openzeppelin/contracts/token/ERC721/ERC721.sol contiene l'implementazione dello standard ERC-721, che lo smart contract del nostro NFT erediterà. (Per essere un NFT valido, il tuo smart contract deve implementare tutti i metodi dello standard ERC-721.) Per saperne di più sulle funzioni ERC-721 ereditate, dai un'occhiata alla definizione dell'interfaccia [qui](https://eips.xircanet/EIPS/eip-721).
 
 - @openzeppelin/contracts/utils/Counters.sol fornisce contatori che possono esser solo incrementati o diminuiti di unità alla volta. Il nostro smart contract usa un contatore per tener traccia del numero totale di NFT coniati e impostare l'ID univoco sul nostro nuovo NFT. (A ogni NFT coniato usando uno smart contract, deve essere assegnato un ID univoco, qui il nostro ID univoco è determinato solo dal numero totale di NFT esistenti. Ad esempio, il primo NFT che coniamo con il nostro smart contract ha ID "1," il nostro secondo NFT ha ID "2," ecc.)
 

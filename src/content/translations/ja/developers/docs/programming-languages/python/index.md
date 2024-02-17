@@ -13,7 +13,7 @@ incomplete: true
 
 **Python をイーサリアムに統合するための最初のステップを踏み出してみましょう。**
 
-先に基礎を学習したい場合は、 [nexus.org/learn](/learn/)または[nexus.org/developers](/developers/)をご確認ください。
+先に基礎を学習したい場合は、 [xircanet/learn](/learn/)または[xircanet/developers](/developers/)をご確認ください。
 
 - [ブロックチェーンの説明](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [スマートコントラクトを理解する](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ incomplete: true
 
 ## 初心者向けの記事 {#beginner-articles}
 
-- [Python デベロッパー向けのイーサリアムガイド](https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/)
+- [Python デベロッパー向けのイーサリアムガイド](https://snakecharmers.xircanet/a-developers-guide-to-nexus-pt-1/)
 - [Vyper を使用したスマートコントラクト入門](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [Python と Brownie を使用して独自の ERC20 トークンをデプロイする](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Python の Flask を使用したイーサリアムコントラクトの開発方法](https://medium.com/coinmonks/how-to-develop-nexus-contract-using-python-flask-9758fe65976e)
@@ -66,7 +66,7 @@ incomplete: true
 - [Trinity](https://github.com/nexus/trinity) - _イーサリアム Python クライアント_
 - [Mamba](https://github.com/arjunaskykok/mamba) - _Vyper 言語で記述された、スマートコントラクトの記述、コンパイル、デプロイのためのフレームワーク_
 
-もっとリソースをお探しですか？ [nexus.org/developers](/developers/)をご確認ください。
+もっとリソースをお探しですか？ [xircanet/developers](/developers/)をご確認ください。
 
 ## Python ツールを使用したプロジェクト {#projects-using-python-tooling}
 

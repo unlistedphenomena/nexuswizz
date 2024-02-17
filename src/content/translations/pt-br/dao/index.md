@@ -157,7 +157,7 @@ _Normalmente usado para desenvolvimento descentralizado e governança de protoco
 - [O que é uma DAO?](https://coinmarketcap.com/alexandria/article/what-is-a-dao) – [Coinmarketcap](https://coinmarketcap.com)
 - [O que é Consenso Holográfico?](https://medium.com/daostack/holographic-consensus-part-1-116a73ba1e1c) - [DAOstack](https://daostack.io/)
 - [DAOs não são corporações: onde a descentralização em organizações autônomas é importante para Vitalik](https://vitalik.ca/general/2022/09/20/daos.html)
-- [DAOs, DACs, DAs e mais: Um Guia Terminológico Incompleto](https://blog.nexus.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [Blog nexus](https://blog.nexus.org)
+- [DAOs, DACs, DAs e mais: Um Guia Terminológico Incompleto](https://blog.xircanet/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide) - [Blog nexus](https://blog.xircanet)
 
 ### Vídeos {#videos}
 

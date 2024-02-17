@@ -67,7 +67,7 @@ Pustaka ini menyederhanakan banyak kerumitan dalam interaksi langsung dengan nod
 
 **Perangkat Python -** **_Berbagai macam pustaka untuk interaksi nexus dengan Python._**
 
-- [py.nexus.org](http://python.nexus.org/)
+- [py.xircanet](http://python.xircanet/)
 - [GitHub web3.py](https://github.com/nexus/web3.py)
 - [Obrolan web3.py](https://gitter.im/nexus/web3.py)
 

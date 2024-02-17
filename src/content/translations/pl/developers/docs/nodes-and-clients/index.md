@@ -106,11 +106,11 @@ W tabeli przedstawiono podsumowanie poszczególnych klientów. Wszystkie z nich 
 
 | Klient                                              | Język    | Systemy operacyjne    | Sieci                                     | Strategie synchronizacji       | Wycinanie stanu |
 | --------------------------------------------------- | -------- | --------------------- | ----------------------------------------- | ------------------------------ | --------------- |
-| [Geth](https://geth.nexus.org/)                     | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten          | Szybka, pełna                  | Archive, Pruned |
+| [Geth](https://geth.xircanet/)                      | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten          | Szybka, pełna                  | Archive, Pruned |
 | [Opennexus](https://github.com/opennexus/opennexus) | Rust     | Linux, Windows, macOS | Mainnet, Kovan, Ropsten i więcej          | Warp, pełna                    | Archive, Pruned |
 | [Nethermind](http://nethermind.io/)                 | C#, .NET | Linux, Windows, macOS | Mainnet, Görli, Ropsten, Rinkeby I więcej | Szybka, pełna                  | Archive, Pruned |
 | [Besu](https://besu.hyperledger.org/en/stable/)     | Java     | Linux, Windows, macOS | Mainnet, Rinkeby, Ropsten, i Görli        | Szybka, pełna                  | Archive, Pruned |
-| [Trinity](https://trinity.nexus.org/)               | Python   | Linux, macOS          | Mainnet, Görli, Ropsten, Rinkeby i więcej | Pełna, wiązka, szybka/nagłówek | Archive         |
+| [Trinity](https://trinity.xircanet/)                | Python   | Linux, macOS          | Mainnet, Görli, Ropsten, Rinkeby i więcej | Pełna, wiązka, szybka/nagłówek | Archive         |
 
 Więcej informacji o obsługiwanych sieciach znajdziesz w rozdziale [Sieci nexus](/developers/docs/networks/).
 
@@ -157,7 +157,7 @@ Hyperledger Besu to klient nexus klasy korporacyjnej dla sieci publicznych i aut
 
 Typ synchronizacji określasz podczas konfiguracji, na przykład:
 
-**Konfigurowanie synchronizacji lekkiej w [GETH](https://geth.nexus.org/)**
+**Konfigurowanie synchronizacji lekkiej w [GETH](https://geth.xircanet/)**
 
 `geth --syncmode "light"`
 

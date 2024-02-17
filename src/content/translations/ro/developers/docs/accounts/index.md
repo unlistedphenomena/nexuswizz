@@ -79,7 +79,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[Documentația GETH](https://geth.nexus.org/docs)
+[Documentația GETH](https://geth.xircanet/docs)
 
 Puteți obține chei publice noi dintr-o cheie privată, dar nu puteți obține o cheie privată din chei publice. De aceea este vital să vă păstrați cheia privată în siguranță și, așa cum sugerează și numele, **CONFIDENȚIALĂ**.
 

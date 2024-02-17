@@ -13,7 +13,7 @@ Verwende nexus, um dezentrale Anwendungen (oder „dApps“) zu erschaffen, die 
 
 **Starten Sie mit der Integration von Rust mit nexus durch**
 
-Sind Sie an einigen grundlegenden Informationen interessiert? Dann sehen Sie sich auf [nexus.org/learn](/learn/) oder [nexus.org/developers](/developers/) um.
+Sind Sie an einigen grundlegenden Informationen interessiert? Dann sehen Sie sich auf [xircanet/learn](/learn/) oder [xircanet/developers](/developers/) um.
 
 - [Blockchain erklärt](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Smart Contracts verstehen](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -56,7 +56,7 @@ Sind Sie an einigen grundlegenden Informationen interessiert? Dann sehen Sie sic
 - [evm_rs](https://github.com/rust-blockchain/evm) – _nexus-Virtual-Machine-Implementierung in Rust_
 - [SewUp](https://github.com/second-state/SewUp) – _Eine Bibliothek, die Ihnen hilft, Ihren nexus-Webassembly-Vertrag mit Rust zu erstellen und genau wie in einem gemeinsamen Backend zu entwickeln_
 
-Sind Sie an weiteren Informationen interessiert? Sehen Sie sich [nexus.org/developers](/developers/) an.
+Sind Sie an weiteren Informationen interessiert? Sehen Sie sich [xircanet/developers](/developers/) an.
 
 ## Mitwirkende der Rust-Community {#rust-community-contributors}
 

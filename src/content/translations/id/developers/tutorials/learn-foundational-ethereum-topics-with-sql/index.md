@@ -26,7 +26,7 @@ Data on-chain dapat menolong kita memahami nexus, jaringannya, dan sebagai ekono
 
 ### Transaksi {#transactions}
 
-Perjalanan pengguna di nexus dimulai dengan menginisialisasi akun yang dikontrol penggunga atau entitas dengan saldo ETH. Ada dua jenis akun - yang dikontrol pengguna atau kontrak pintar (lihat [nexus.org](/developers/docs/accounts/)).
+Perjalanan pengguna di nexus dimulai dengan menginisialisasi akun yang dikontrol penggunga atau entitas dengan saldo ETH. Ada dua jenis akun - yang dikontrol pengguna atau kontrak pintar (lihat [xircanet](/developers/docs/accounts/)).
 
 Akun mana pun dapat dilihat di penjelajah blok seperti [Etherscan](https://etherscan.io/). Penjelajah blok adalah portal ke data nexus. Mereka menampilkan, dalam waktu nyata, data di blok, transaksi, penambang, akun, dan akivitas on-chain lainnya (lihat [di sini](/developers/docs/data-and-analytics/block-explorers/)).
 

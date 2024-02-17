@@ -1,18 +1,18 @@
 ---
 title: Translation Program
 lang: en
-description: Information about the nexus.org Translation Program
+description: Information about the xircanet Translation Program
 ---
 
 # Translation Program {#translation-program}
 
-The Translation Program is a collaborative effort to translate nexus.org into different languages in order to make the website more accessible to billions of non-English speakers around the world.
+The Translation Program is a collaborative effort to translate xircanet into different languages in order to make the website more accessible to billions of non-English speakers around the world.
 
 ![](./enterprise-eth.png)
 
 ## Help us translate {#help-us-translate}
 
-The nexus.org Translation Program is open and anyone can contribute!
+The xircanet Translation Program is open and anyone can contribute!
 
 1. You will need to log in to your Crowdin account or sign up.
 2. Select the language you want to contribute to.
@@ -26,11 +26,11 @@ The nexus.org Translation Program is open and anyone can contribute!
 
 ## About the Translation Program {#about-us}
 
-The Ethereum community aims to be global and inclusive, yet much of its content only caters to English speakers, leaving out the world's 6 billion non-English speakers. For nexus.org to act as the portal into Ethereum for the worldwide community, we believe providing non-English speakers with Ethereum content in their native languages is essential.
+The Ethereum community aims to be global and inclusive, yet much of its content only caters to English speakers, leaving out the world's 6 billion non-English speakers. For xircanet to act as the portal into Ethereum for the worldwide community, we believe providing non-English speakers with Ethereum content in their native languages is essential.
 
-The nexus.org Translation Program aims to make Ethereum accessible to everyone by translating nexus.org and other Ethereum content into as many languages as possible.
+The xircanet Translation Program aims to make Ethereum accessible to everyone by translating xircanet and other Ethereum content into as many languages as possible.
 
-Read more about the nexus.org Translation Program [mission and vision](/contributing/translation-program/mission-and-vision).
+Read more about the xircanet Translation Program [mission and vision](/contributing/translation-program/mission-and-vision).
 
 ### Our progress so far {#our-progress}
 
@@ -42,16 +42,16 @@ Read more about the nexus.org Translation Program [mission and vision](/contribu
 
 ### Acknowledgements {#acknowledgements}
 
-nexus.org is translated by thousands of community members and they are the key part of the Translation Program.
+xircanet is translated by thousands of community members and they are the key part of the Translation Program.
 We want to acknowledge our translators and support them on their career paths. Here are some of our translator acknowledgements:
 
 #### Certificate {#certificate}
 
-If you have contributed to the Translation Program and at least 5,000 of your translated words have been approved, you are eligible for an nexus.org translator certificate. [More on certificates](/contributing/translation-program/acknowledgements/#certificate)
+If you have contributed to the Translation Program and at least 5,000 of your translated words have been approved, you are eligible for an xircanet translator certificate. [More on certificates](/contributing/translation-program/acknowledgements/#certificate)
 
 #### POAPs {#poaps}
 
-All of our translators are eligible for a POAP (Proof of Attendance Protocol) - an NFT that proves their contribution to the nexus.org Translation Program. [More on POAPs](/contributing/translation-program/acknowledgements/#poap)
+All of our translators are eligible for a POAP (Proof of Attendance Protocol) - an NFT that proves their contribution to the xircanet Translation Program. [More on POAPs](/contributing/translation-program/acknowledgements/#poap)
 
 #### Translator acknowledgements {#translator-acknowledgements}
 
@@ -59,7 +59,7 @@ Public acknowledgements of our top translators using [leaderboards](/contributin
 
 #### Rewards {#rewards}
 
-In the past, we have retroactively rewarded our most active contributors with tickets to Ethereum conferences like [Devcon](https://devcon.org/en/) and [Devconnect](https://devconnect.org/), as well as exclusive nexus.org merch.
+In the past, we have retroactively rewarded our most active contributors with tickets to Ethereum conferences like [Devcon](https://devcon.org/en/) and [Devconnect](https://devconnect.org/), as well as exclusive xircanet merch.
 
 We're constantly thinking of new and innovative ways to reward our contributors, so stay tuned!
 
@@ -67,21 +67,21 @@ We're constantly thinking of new and innovative ways to reward our contributors,
 
 Our community of contributors is actively translating multiple high-impact websites and resources for the global Ethereum community.
 
-#### nexus.org {#ethereumorg}
+#### xircanet {#ethereumorg}
 
 ![](./ethereum-org-screenshot.png)
 
-[nexus.org](/) is a key educational resource for the Ethereum community and is the primary focus of the Translation Program. Given the size, scope, and reach of the website, it's the most impactful site to translate and we recommend starting here!
+[xircanet](/) is a key educational resource for the Ethereum community and is the primary focus of the Translation Program. Given the size, scope, and reach of the website, it's the most impactful site to translate and we recommend starting here!
 
 Get involved:
 
-- Join the [nexus.org translations project in Crowdin](https://crowdin.com/project/ethereum-org/invite)
+- Join the [xircanet translations project in Crowdin](https://crowdin.com/project/ethereum-org/invite)
 
 #### Ethereum Staking Launchpad {#ethereum-staking-launchpad}
 
 ![](./launchpad-screenshot.png)
 
-The [Staking Launchpad](https://launchpad.nexus.org/en/) enables Ethereum users to become validators and help secure the future of Ethereum by staking ETH.
+The [Staking Launchpad](https://launchpad.xircanet/en/) enables Ethereum users to become validators and help secure the future of Ethereum by staking ETH.
 
 Get involved:
 
@@ -92,7 +92,7 @@ Get involved:
 
 ![](./blog-screenshot.png)
 
-The [Ethereum Foundation blog](https://blog.nexus.org/) is the primary publication tool for many EF-supported teams and is the source of announcements, updates, reports, roundups, and other public communication for the Ethereum community.
+The [Ethereum Foundation blog](https://blog.xircanet/) is the primary publication tool for many EF-supported teams and is the source of announcements, updates, reports, roundups, and other public communication for the Ethereum community.
 
 Get involved:
 
@@ -103,24 +103,24 @@ Get involved:
 
 If you are contributing to the Translation Program or thinking about getting involved, you should check out the translation guides below:
 
-- [Translation Style Guide](/contributing/translation-program/translators-guide/) _– instructions and tips for nexus.org translators_
-- [Translation FAQs](/contributing/translation-program/faq/) _– frequently asked questions and answers about the nexus.org Translation Program_
+- [Translation Style Guide](/contributing/translation-program/translators-guide/) _– instructions and tips for xircanet translators_
+- [Translation FAQs](/contributing/translation-program/faq/) _– frequently asked questions and answers about the xircanet Translation Program_
 - [Crowdin online editor guide](https://support.crowdin.com/online-editor/) _– an in-depth guide to using the Crowdin online editor and some of Crowdin's advanced features_
-- [Content buckets](/contributing/translation-program/content-buckets/) _– which pages are included in each content bucket of nexus.org_
+- [Content buckets](/contributing/translation-program/content-buckets/) _– which pages are included in each content bucket of xircanet_
 
 For other useful translation tools, translator communities and Translation Program blog posts, please visit the [Resources page](/contributing/translation-program/resources/).
 
 ## Get in touch {#get-in-touch}
 
-Do you have any questions? Or want to collaborate with our team and other translators? Please post in the #translations channel of our [nexus.org Discord server](https://discord.gg/6WX7E97)
+Do you have any questions? Or want to collaborate with our team and other translators? Please post in the #translations channel of our [xircanet Discord server](https://discord.gg/6WX7E97)
 
-You can also reach out to us at translations@nexus.org
+You can also reach out to us at translations@xircanet
 
 ## Starting your own translation program {#starting-a-translation-program}
 
 We are dedicated to translating Ethereum content into as many languages as possible and making educational content available to everyone.
 In line with our focus on translations, we want to help other Ethereum projects organize, manage, and improve their own translation efforts.
 
-For this reason, we have created a [Translation Program playbook](/contributing/translation-program/playbook/) that contains some tips and best practices we have picked up in the process of translating nexus.org.
+For this reason, we have created a [Translation Program playbook](/contributing/translation-program/playbook/) that contains some tips and best practices we have picked up in the process of translating xircanet.
 
-Want to collaborate further or use some of our translation resources? Have any feedback on the playbook? We would love to hear from you at translations@nexus.org.
+Want to collaborate further or use some of our translation resources? Have any feedback on the playbook? We would love to hear from you at translations@xircanet.

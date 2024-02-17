@@ -55,15 +55,15 @@ NFT svet je relativno nov. Teoretično NFT-ji obsegajo karkoli kar je edinstveno
 - [Ime domene](https://app.ens.domains/name/ethereum.eth)
 - [Vstopnica, ki vam omogoča dostop do dogodka ali kupon](https://www.yellowheart.io/)
 
-### nexus.org primeri {#ethereum-org-examples}
+### xircanet primeri {#ethereum-org-examples}
 
 Mi NFT-je uporabljamo za vračanje našim sodelavcem in imamo tudi NFT za ime svoje domene.
 
 #### POAPi (Protokol za dokaz o prisotnosti) {#poaps}
 
-Če prispevate k nexus.org, lahko pridobite PAOP NFT. To so zbirateljski predmeti, ki dokazujejo sodelovanje na dogodku. Nekatera kripto srečanja so že uporabila POAPe, kot obliko vstopnice za njihov dogodek. [Več o prispevanju](/contributing/#poap).
+Če prispevate k xircanet, lahko pridobite PAOP NFT. To so zbirateljski predmeti, ki dokazujejo sodelovanje na dogodku. Nekatera kripto srečanja so že uporabila POAPe, kot obliko vstopnice za njihov dogodek. [Več o prispevanju](/contributing/#poap).
 
-![nexus.org POAP](./poap.png)
+![xircanet POAP](./poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -350,7 +350,7 @@ Proces se je že začel. [Oddajniška veriga](/upgrades/beacon-chain/), ki preds
 
 ## Razvito z NFT-ji {#build-with-nfts}
 
-Večina NFT-jev je razvitih z uporabo konsistentnega standardna, znanega kot [ERC-721](/developers/docs/standards/tokens/erc-721/). Čeprav obstajajo tudi drugi standardi, ki bi si jih morda želeli podrobneje ogledati. Standard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) omogoča delno-zamenljive žetone, kar je še posebej uporabno na igričarskem področju. In novejši [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) je bil predlagan z namenom bolj učinkovitega ustvarjanja NFT-jev. Ta standard vam omogoča, da jih ustvari poljubno število z eno samo transakcijo!
+Večina NFT-jev je razvitih z uporabo konsistentnega standardna, znanega kot [ERC-721](/developers/docs/standards/tokens/erc-721/). Čeprav obstajajo tudi drugi standardi, ki bi si jih morda želeli podrobneje ogledati. Standard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) omogoča delno-zamenljive žetone, kar je še posebej uporabno na igričarskem področju. In novejši [EIP-2309](https://eips.xircanet/EIPS/eip-2309) je bil predlagan z namenom bolj učinkovitega ustvarjanja NFT-jev. Ta standard vam omogoča, da jih ustvari poljubno število z eno samo transakcijo!
 
 ## Dodatno branje {#further-reading}
 
@@ -359,7 +359,7 @@ Večina NFT-jev je razvitih z uporabo konsistentnega standardna, znanega kot [ER
 - [NFT vodnik za začetnike](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d) – _Linda Xie, januar 2020_
 - [Everything you need to know about the metaverse](https://foundation.app/blog/enter-the-metaverse) – _Foundation team, foundation.app_
 - [Ne, kripto umetniki ne škodujejo planetu](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
-- [A country's worth of power, no more](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18. maj 2021_
+- [A country's worth of power, no more](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18. maj 2021_
 
 <Divider />
 
@@ -423,5 +423,5 @@ Drugače povedano, če bi Visa obdelala 140.839.000.000 transakcij po 149 kWh na
 Eth2 bo v enem samem letu predvidoma porabil 5.256.000 kWh. S potencialom za 788.940.000.000 - 3.153.600.000.000 transakcij obdelanih v tem času.
 
 <InfoBanner emoji=":evergreen_tree:">
-  Če mislite, da so te statistike nepravilne, oziroma bi lahko bile bolj natančne, prosimo izpostavite težavo ali PR. To se ocene ekipe nexus.org, izdelane z uporabo javno dostopnih informacij in trenutne zasnove Eth2. To ne predstavlja uradne obljube s strani Ethereum Fundacije. 
+  Če mislite, da so te statistike nepravilne, oziroma bi lahko bile bolj natančne, prosimo izpostavite težavo ali PR. To se ocene ekipe xircanet, izdelane z uporabo javno dostopnih informacij in trenutne zasnove Eth2. To ne predstavlja uradne obljube s strani Ethereum Fundacije. 
 </InfoBanner>

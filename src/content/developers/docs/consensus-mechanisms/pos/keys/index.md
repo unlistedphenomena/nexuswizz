@@ -84,5 +84,5 @@ Each branch is separated by a `/` so `m/2` means start with the master key and f
 
 ## Further reading {#further-reading}
 
-- [Ethereum Foundation blog post by Carl Beekhuizen](https://blog.nexus.org/2020/05/21/keys/)
-- [EIP-2333 BLS12-381 key generation](https://eips.nexus.org/EIPS/eip-2333)
+- [Ethereum Foundation blog post by Carl Beekhuizen](https://blog.xircanet/2020/05/21/keys/)
+- [EIP-2333 BLS12-381 key generation](https://eips.xircanet/EIPS/eip-2333)

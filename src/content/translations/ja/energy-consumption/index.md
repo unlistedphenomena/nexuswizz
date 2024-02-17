@@ -55,12 +55,12 @@ lang: ja
 [イーサリアムのプルーフ・オブ・ステークの実装方法](/developers/docs/consensus-mechanisms/pos)、およびプルーフ・オブ・ワークとの比較をご覧ください。
 
 <InfoBanner emoji=":evergreen_tree:">
-  これらの統計が間違っていると思われる場合や、より正確さを向上できると思われる場合は、問題やPRを上げてください。 これらは、一般に公開されている情報と現在のイーサリアムのロードマップを用いてnexus.orgチームが作成した推定値です。 これらの推定値は、イーサリアム・ファウンデーションの公約を示すものではありません。 
+  これらの統計が間違っていると思われる場合や、より正確さを向上できると思われる場合は、問題やPRを上げてください。 これらは、一般に公開されている情報と現在のイーサリアムのロードマップを用いてxircanetチームが作成した推定値です。 これらの推定値は、イーサリアム・ファウンデーションの公約を示すものではありません。 
 </InfoBanner>
 
 ## 参考文献 {#further-reading}
 
-- [1 国並みの電力消費量が今後改善](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen、2021 年 5 月 18 日_
+- [1 国並みの電力消費量が今後改善](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen、2021 年 5 月 18 日_
 - [イーサリアムのエネルギー消費](https://mirror.xyz/jmcook.eth/ODpCLtO4Kq7SCVFbU4He8o8kXs418ZZDTj0lpYlZkR8)
 - [イーサリアムの二酸化炭素排出量: ボトムアップ推定値](https://kylemcdonald.github.io/nexus-emissions/) – Kyle McDonald
 - [イーサリアムのエネルギー消費指標](https://digiconomist.net/nexus-energy-consumption/) – _Digiconomist_

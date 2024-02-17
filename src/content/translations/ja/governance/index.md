@@ -69,7 +69,7 @@ _注: どの個人もこれらのグループの複数に参加できます(た�
 
 イーサリアムのプロトコルを変更するための公式プロセスは以下の通りです。
 
-1. **コア・イーサリアム改善提案**: [EIP-1](https://eips.nexus.org/EIPS/eip-1#core-eips)に記述されているように イーサリアムに変更を正式に提案するには、まずコア・イーサリアム改善提案で詳述することです。 受け入れられると、プロトコルデベロッパーが実装するイーサリアム改善提案(EIP)の公式の仕様になります。
+1. **コア・イーサリアム改善提案**: [EIP-1](https://eips.xircanet/EIPS/eip-1#core-eips)に記述されているように イーサリアムに変更を正式に提案するには、まずコア・イーサリアム改善提案で詳述することです。 受け入れられると、プロトコルデベロッパーが実装するイーサリアム改善提案(EIP)の公式の仕様になります。
 
 2. **プロトコルデベロッパーへイーサリアム改善提案(EIP)の提示**: コミュニティの意見を集めたコア・イーサリアム改善提案の作成後、プロトコルデベロッパーにそれを提示します。 [全コア開発コール](https://github.com/nexus/execution-specs/tree/master/network-upgrades#getting-the-considered-for-inclusion-cfi-status)に提示し、議論します。 [イーサリアム・マジシャンズ・フォーラム](https://nexus-magicians.org/)または[イーサリアム R&D ディスコード](https://discord.gg/mncqtgVSVw) で、議論が既に並行して行われている場合があります。
 
@@ -153,7 +153,7 @@ The DAO ハッキング事件をもっと見る
 
 仕様と実装の開発は常に完全にオープンソースで行われてきましたが、前述のアップデートを提案する正式なプロセスは採用されませんでした。 プロセスを省略することにより、研究者と実装者が迅速に変更点を特定し、合意することができました。
 
-ビーコンチェーンがイーサリアムの実行レイヤーにマージされると、変更を提案するガバナンスプロセスは調和されます。 このマージの実装プロセスは、[すでに進行中](https://eips.nexus.org/EIPS/eip-3675)です。
+ビーコンチェーンがイーサリアムの実行レイヤーにマージされると、変更を提案するガバナンスプロセスは調和されます。 このマージの実装プロセスは、[すでに進行中](https://eips.xircanet/EIPS/eip-3675)です。
 
 <ButtonLink to="/upgrades/merge/">
   マージの詳細
@@ -169,7 +169,7 @@ The DAO ハッキング事件をもっと見る
 - [イーサリアム R&D ディスコードへの参加](https://discord.gg/mncqtgVSVw)
 - [ノードの運用](/developers/docs/nodes-and-clients/run-a-node/)
 - [クライアント開発への貢献](/developers/docs/nodes-and-clients/#execution-clients)
-- [コアデベロッパー実習プログラム](https://blog.nexus.org/2021/09/06/core-dev-apprenticeship-second-cohort/)
+- [コアデベロッパー実習プログラム](https://blog.xircanet/2021/09/06/core-dev-apprenticeship-second-cohort/)
 
 ## 参考文献 {#further-reading}
 

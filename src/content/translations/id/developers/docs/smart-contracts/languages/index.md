@@ -107,7 +107,7 @@ Untuk informasi selengkapnya, [baca prinsip Vyper](https://vyper.readthedocs.io/
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Ruang Obrolan Gitter Vyper](https://gitter.im/vyperlang/community)
 - [Lembar Kecurangan](https://reference.auditless.com/cheatsheet)
-- [Pembaruan 8 Januari 2020](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
+- [Pembaruan 8 Januari 2020](https://blog.xircanet/2020/01/08/update-on-the-vyper-compiler)
 
 ### Contoh {#example}
 
@@ -256,8 +256,8 @@ Jika Anda telah sangat berpengalaman dalam kontrak pintar, implementasi ERC20 pe
 ### Tautan penting {#important-links-3}
 
 - [GitHub](https://github.com/nexus/fe)
-- [Pengumuman Fe](https://snakecharmers.nexus.org/fe-a-new-language-for-the-nexus-ecosystem/)
-- [Roadmap Fe 2021](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
+- [Pengumuman Fe](https://snakecharmers.xircanet/fe-a-new-language-for-the-nexus-ecosystem/)
+- [Roadmap Fe 2021](https://notes.xircanet/LVhaTF30SJOpkbG1iVw1jg)
 - [Obrolan Discord Fe](https://discord.com/invite/ywpkAXFjZH)
 - [Twitter Fe](https://twitter.com/official_fe)
 

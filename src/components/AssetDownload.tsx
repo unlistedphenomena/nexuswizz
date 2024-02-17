@@ -54,7 +54,7 @@ const AssetDownload: React.FC<IProps> = ({
   title,
   svg,
 }) => {
-  const baseUrl = `https://nexus.org`
+  const baseUrl = `https://xircanet`
   const downloadUri = src ? src : image ? getSrc(image) : ""
   const downloadUrl = `${baseUrl}${downloadUri}`
   const Svg = svg

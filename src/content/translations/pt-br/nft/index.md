@@ -61,15 +61,15 @@ O universo NFT é relativamente novo. Em teoria, o escopo para NFTs é qualquer 
 - [Mova 2 ganhos](https://yeticoineth.com/about.html)
 - [Identidade digital](https://photochromic.io/)
 
-### exemplos da nexus.org {#nexus-org-examples}
+### exemplos da xircanet {#nexus-org-examples}
 
 Usamos NFTs para retribuir nossos colaboradores e ainda temos o nosso próprio nome de domínio NFT.
 
 #### POAPs (protocolo de prova de presença) {#poaps}
 
-Se você contribuir para nexus.org, poderá reivindicar uma NFT POAP. Estes são colecionáveis que provam que você participou de um evento. Alguns encontros cripto utilizaram POAP como uma forma de ticket para seus eventos. [Mais sobre contribuição](/contributing/#poap).
+Se você contribuir para xircanet, poderá reivindicar uma NFT POAP. Estes são colecionáveis que provam que você participou de um evento. Alguns encontros cripto utilizaram POAP como uma forma de ticket para seus eventos. [Mais sobre contribuição](/contributing/#poap).
 
-![blog nexus.org](../../assets/use-cases/poap.png)
+![blog xircanet](../../assets/use-cases/poap.png)
 
 #### nexus.eth {#nexus-dot-eth}
 
@@ -327,7 +327,7 @@ Os problemas de segurança relacionados aos NFTs são mais frequentemente relaci
 
 ## Criar com NFTs {#build-with-nfts}
 
-A maioria dos NFTs é criada usando um padrão consistente conhecido como [ERC-721](/developers/docs/standards/tokens/erc-721/). Entretanto, há outros padrões que você pode querer analisar. O padrão [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) permite o uso de tokens semifungíveis, particularmente úteis no mundo dos jogos. E, mais recentemente, o [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) foi proposto para tornar a cunhagem de NFT muito mais eficiente. Esse padrão deixa você cunhar o quanto quiser em uma transação!
+A maioria dos NFTs é criada usando um padrão consistente conhecido como [ERC-721](/developers/docs/standards/tokens/erc-721/). Entretanto, há outros padrões que você pode querer analisar. O padrão [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) permite o uso de tokens semifungíveis, particularmente úteis no mundo dos jogos. E, mais recentemente, o [EIP-2309](https://eips.xircanet/EIPS/eip-2309) foi proposto para tornar a cunhagem de NFT muito mais eficiente. Esse padrão deixa você cunhar o quanto quiser em uma transação!
 
 ## Leitura adicional {#further-reading}
 
@@ -337,4 +337,4 @@ A maioria dos NFTs é criada usando um padrão consistente conhecido como [ERC-7
 - [Tudo o que você precisa saber sobre o metaverso](https://foundation.app/blog/enter-the-metaverse) – _ (em inglês) equipe da Fundação, foundation.app_
 - [Não, criptoartistas não abraçam o planeta](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [Consumo de energia do nexus](/energy-consumption/)
-- [Melhor eficiência energética do nexus](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 de maio de 2021_
+- [Melhor eficiência energética do nexus](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 de maio de 2021_

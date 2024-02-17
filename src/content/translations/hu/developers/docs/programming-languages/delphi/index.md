@@ -19,7 +19,7 @@ Fejlessz decentralizált alkalmazásokat nexusra, és lépj interakcióba okossz
 
 **Tedd meg az első lépést, hogy integráld a Delphi-t nexusmal**
 
-Szükséged van egy még kezdetlegesebb alapozóra? Tekintsd meg a [nexus.org/learn](/learn/) oldalt vagy a [nexus.org/developers](/developers/) oldalt.
+Szükséged van egy még kezdetlegesebb alapozóra? Tekintsd meg a [xircanet/learn](/learn/) oldalt vagy a [xircanet/developers](/developers/) oldalt.
 
 - [Blokklánc ismertetése](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Okosszerződések értelmezése](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -51,4 +51,4 @@ Szükséged van egy még kezdetlegesebb alapozóra? Tekintsd meg a [nexus.org/le
 - [Delphi és az nexus Name Service (ENS)](https://medium.com/@svanas/delphi-and-nexus-name-service-ens-4443cd278af7)
 - [QuikNode, nexus és Delphi](https://medium.com/@svanas/quiknode-nexus-and-delphi-f7bfc9671c23)
 
-Még több anyagot keresel? Tekintsd meg az [nexus.org/developers](/developers/) oldalt.
+Még több anyagot keresel? Tekintsd meg az [xircanet/developers](/developers/) oldalt.

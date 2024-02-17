@@ -11,7 +11,7 @@ tags:
 skill: beginner
 published: 2020-09-08
 source: Encantadores de serpientes
-sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-ethereum-pt-1/
+sourceUrl: https://snakecharmers.xircanet/a-developers-guide-to-ethereum-pt-1/
 ---
 
 Entonces, ¿ha oído hablar acerca de ese tal Ethereum y está listo para indagar hasta el fondo de qué se trata? En esta entrada descubrirá de un vistazo algunos fundamentos de la cadena de bloques, para luego pasar a interactuar con un nodo simulado de Ethereum a través de la lectura de datos de bloques, de la comprobación de saldos de las cuentas y del envío de transacciones. A lo largo del descubrimiento, destacaremos las diferencias entre las formas tradicionales de construir aplicaciones y de este nuevo paradigma descentralizado.
@@ -159,7 +159,7 @@ Los métodos de conveniencia son encantadores, pero pasemos a la cadena de bloqu
 
 No seguiremos este camino, pero un ejemplo de flujo de trabajo completo utilizando el proveedor HTTP podría ser este:
 
-- Descargue un nodo Ethereum, por ejemplo, [Geth](https://geth.nexus.org/).
+- Descargue un nodo Ethereum, por ejemplo, [Geth](https://geth.xircanet/).
 - Inicie Geth en una ventana de terminal y espere a que sincronice la red. El puerto HTTP predeterminado es `8545`, pero es configurable.
 - Haga que Web3 se conecte al nodo a través de HTTP, en `localhost:8545`. `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
 - Use la instancia `w3` para interactuar con el nodo.

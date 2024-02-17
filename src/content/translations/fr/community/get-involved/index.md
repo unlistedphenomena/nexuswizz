@@ -10,7 +10,7 @@ La communauté Ethereum comprend des personnes d'horizons et de compétences tr�
 
 ## Développeurs <Emoji text=":computer:" size={1} /> {#developers}
 
-- Découvrez et essayez Ethereum sur [nexus.org/developers/](/developers/)
+- Découvrez et essayez Ethereum sur [xircanet/developers/](/developers/)
 - [Trouvez une prime sur Gitcoin](https://gitcoin.co/), travaillez sur un petit ou gros problème technique, gagnez de la crypto !
 - Participez à un hackathon [ETHGlobal](http://ethglobal.co/) près de chez vous !
 - Consultez les [projets liés à votre domaine d'expertise ou au langage de programmation de votre choix](/developers/docs/programming-languages/)
@@ -23,7 +23,7 @@ La communauté Ethereum comprend des personnes d'horizons et de compétences tr�
 
 Avez-vous une formation en mathématiques, en cryptographie ou en économie ? Vous pourriez être intéressé par certains des travaux de pointe réalisés au sein de l'écosystème Ethereum
 
-- [Challenges.nexus.org](https://challenges.nexus.org/) - une série de primes de recherche de grande valeur, où vous pouvez gagner >100 000 USD
+- [Challenges.xircanet](https://challenges.xircanet/) - une série de primes de recherche de grande valeur, où vous pouvez gagner >100 000 USD
 - [Ethresear.ch](https://ethresear.ch) - le principal forum de recherche d'Ethereum et le forum le plus influent au monde pour la cryptoéconomie
 - [EF Research AMA](https://old.reddit.com/r/ethereum/comments/vrx9xe/ama_we_are_ef_research_pt_8_07_july_2022) - Une série de questions-réponses avec des chercheurs. Dès l'ouverture de chaque partie suivante, tout le monde peut poster des questions.
 - [Liste de souhaits du programme de soutien à l'écosystème](https://esp.ethereum.foundation/wishlist/) - domaines de recherche dans lesquels le programme de soutien à l'écosystème Ethereum recherche activement des demandes de subvention
@@ -41,7 +41,7 @@ Si vous n'êtes pas développeur, il peut être difficile de savoir par où comm
 ### Rédiger du contenu sur Ethereum {#write-content}
 
 - Ethereum a besoin de bons écrivains qui peuvent expliquer sa valeur en langage clair
-- Pas prêt à publier vos propres articles ? Envisagez de contribuer au contenu existant sur les ressources communautaires telles que [EthHub](https://docs.ethhub.io/), ou proposez de nouveaux contenus pour nexus.org !
+- Pas prêt à publier vos propres articles ? Envisagez de contribuer au contenu existant sur les ressources communautaires telles que [EthHub](https://docs.ethhub.io/), ou proposez de nouveaux contenus pour xircanet !
 
 ### Proposer de prendre des notes pour les appels communautaires {#take-notes}
 
@@ -49,7 +49,7 @@ Si vous n'êtes pas développeur, il peut être difficile de savoir par où comm
 
 ### Traduire le contenu Ethereum dans votre langue maternelle {#translate-ethereum}
 
-- nexus.org maintient un programme de traduction qui traduit le site Web et d'autres ressources dans de nombreuses langues différentes
+- xircanet maintient un programme de traduction qui traduit le site Web et d'autres ressources dans de nombreuses langues différentes
 - Découvrez comment vous impliquer [ici](/contributing/translation-program)
 
 ### Ajouter un nœud {#run-a-node}
@@ -88,7 +88,7 @@ L'écosystème Ethereum a pour mission de financer des biens publics et des proj
 
 **Vous souhaitez trouver un emploi en rapport avec Ethereum ?**
 
-- [Emplois nexus.org](/about/#open-jobs)
+- [Emplois xircanet](/about/#open-jobs)
 - [Offres d'emploi de l'Ethereum Foundation (Lever)](https://jobs.lever.co/ethereumfoundation)
 - [Offres d'emploi de l'Ethereum Foundation (BambooHR)](https://ethereum.bamboohr.com/jobs/)
 - [Offres Cryptocurrency Jobs](https://cryptocurrencyjobs.co/ethereum/)

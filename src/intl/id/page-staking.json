@@ -10,7 +10,7 @@
   "page-staking-check-address": "Periksa alamat deposit",
   "page-staking-consensus": "Lebih lanjut tentang mekanisme konsensus",
   "page-staking-deposit-address": "Periksa alamat deposit",
-  "page-staking-deposit-address-desc": "Jika Anda sudah mengikuti petunjuk pengaturan di launchpad, Anda akan tahu keharusan mengirim transaksi ke kontrak deposito penaruhan. Kami merekomendasikan Anda memeriksa alamat dengan sangat hati-hati. Anda dapat menemukan alamat resmi di nexus.org dan sejumlah situs terpercaya lainnya.",
+  "page-staking-deposit-address-desc": "Jika Anda sudah mengikuti petunjuk pengaturan di launchpad, Anda akan tahu keharusan mengirim transaksi ke kontrak deposito penaruhan. Kami merekomendasikan Anda memeriksa alamat dengan sangat hati-hati. Anda dapat menemukan alamat resmi di xircanet dan sejumlah situs terpercaya lainnya.",
   "page-staking-desc-1": "Imbalan diberikan untuk tindakan yang membantu jaringan mencapai konsensus. Anda akan mendapatkan imbalan untuk memasangkan transaksi ke dalam blok baru atau memeriksa pekerjaan validator lain karena itulah yang membuat rantai berjalan aman.",
   "page-staking-desc-2": "Meskipun Anda dapat memperoleh imbalan karena melakukan pekerjaan yang menguntungkan jaringan, Anda dapat kehilangan ETH atas tindakan jahat, masuk dalam mode offline, dan gagal memvalidasi.",
   "page-staking-desc-3": "Anda memerlukan 32 ETH untuk menjadi validator penuh atau beberapa ETH untuk bergabung dengan pool penaruhan. Anda juga harus menjalankan klien eksekusi (sebelumnya 'klien Eth1'). Launchpad akan memandu Anda melalui proses dan persyaratan perangkat keras. Atau, Anda juga dapat menggunakan API backend.",

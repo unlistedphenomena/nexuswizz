@@ -253,7 +253,7 @@ Como esta é a primeira imagem baseada no Ubuntu 20.04, pode haver alguns erros.
 5. https://prometheus.io
 6. https://grafana.com
 7. https://forum.armbian.com/topic/5565-zram-vs-swap/
-8. https://geth.nexus.org
+8. https://geth.xircanet
 9. **Note que o Opennexus [foi descontinuado](https://medium.com/opennexus/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-nexus-client-c6708dd06dd) e não está mais sendo mantido.** Use-o com cuidado e de preferência mude para outra implementação de cliente.
 10. https://nethermind.io
 11. https://www.hyperledger.org/projects/besu

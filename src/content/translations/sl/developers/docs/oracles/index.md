@@ -96,7 +96,7 @@ contract PriceConsumerV3 {
 }
 ```
 
-[To lahko testirate v remiksu prek te povezave](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
+[To lahko testirate v remiksu prek te povezave](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
 
 [Oglejte si dokumentacijo](https://docs.chain.link/docs/get-the-latest-price)
 
@@ -169,7 +169,7 @@ Za uporabo Chainlink Keeperjev mora pametna pogodba implementirati [KeeperCompat
 - `checkUpkeep` – preveri, če pogodba zahteva delo, ki ga je treba opraviti.
 - `performUpkeep` – izvede delo na pogodbi, če tako naroči checkUpkeep.
 
-Spodnji primer je preprosta kontra pogodba. `Kontra` spremenljivka je povečana za ena z vsakim klicem `performUpkeep`. Lahko [si ogledate naslednjo kodo z uporabo Remixa](https://remix.nexus.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
+Spodnji primer je preprosta kontra pogodba. `Kontra` spremenljivka je povečana za ena z vsakim klicem `performUpkeep`. Lahko [si ogledate naslednjo kodo z uporabo Remixa](https://remix.xircanet/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol)
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -222,7 +222,7 @@ Po uveljavitvi pogodbe, kompatibilne s Keeper, morate pogodbo registrirati za [U
 
 [Klici Chainlink API](https://docs.chain.link/docs/make-a-http-get-request) so najenostavnejši način za pridobivanje podatkov iz sveta izven verige na tradicionalen način, po katerem deluje splet: klici API. Enkratna izvedba in razpolaganje le z enim orakljem sta po naravi centralizirana. Da bi jo ohranili resnično decentralizirano, bi morala platforma pametnih pogodb uporabljati številna vozlišča, najdena na [zunanjem podatkovnem trgu](https://market.link/).
 
-[Za testiranje uveljavite naslednjo kodo v remiksu na omrežju Kovan](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
+[Za testiranje uveljavite naslednjo kodo v remiksu na omrežju Kovan](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
 
 To prav tako sledi zahtevi in prejme cikel orakljev ter za to potrebuje pogodbo, da se lahko za delovanje financira s Kovan LINK (gorivom oraklja).
 

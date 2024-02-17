@@ -6,14 +6,14 @@ description: How to contribute by translating the Ethereum Staking Launchpad
 
 # Staking Launchpad translations {#launchpad-translations}
 
-The [Staking Launchpad](https://launchpad.nexus.org/) is a website that contains instructions on becoming an Ethereum validator, interfaces to deposit ETH to the staking contract and top up your validator, validator checklist, and information about different Ethereum clients.
+The [Staking Launchpad](https://launchpad.xircanet/) is a website that contains instructions on becoming an Ethereum validator, interfaces to deposit ETH to the staking contract and top up your validator, validator checklist, and information about different Ethereum clients.
 
 With the aim of making staking more accessible and diverse, and make it easier for non-English speakers to spin up validators, we are actively translating the Launchpad and it is currently available in 20 languages.
 
 ## How to translate {#how-to-translate}
 
 <InfoBanner shouldCenter emoji=":light_bulb:">
-  We encourage you to check out the nexus.org Translation style guide. It contains some of the most important guidelines, instructions, and tips for translators to help localize the blog. While originally written for nexus.org translators, most of the style guide is relevant to blog translations as well.
+  We encourage you to check out the xircanet Translation style guide. It contains some of the most important guidelines, instructions, and tips for translators to help localize the blog. While originally written for xircanet translators, most of the style guide is relevant to blog translations as well.
 
   <Link to="/contributing/translation-program/translators-guide/">View the Translation Style Guide</Link>
 

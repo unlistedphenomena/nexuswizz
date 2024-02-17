@@ -31,7 +31,7 @@ lang: zh
 
 ## 最终确定性 {#finality}
 
-交易在分布式网络具有“最终确定性”是指，该交易是区块的一部分且无法改变，除非燃烧掉大量以太币。 在权益证明以太坊上，通过“检查点”区块来管理确定性。 每个时段中的第一个区块是检查点。 验证者为他们认为有效的“检查点对”投票。 如果一对检查点获得了质押以太币总数中三分之二以上的投票，那么这对检查点将被升级。 这两个检查点中较新的一个会变成“合理”状态。 较旧的一个检查点已经是合理状态，因为它是上一个时段中的“目标”。 现在，这个检查点会升级为“已确定”状态。 要回滚最终确定的区块，攻击者将承担至少相当于质押以太币总数三分之一的损失。 此[以太坊基金会博文](https://blog.nexus.org/2016/05/09/on-settlement-finality/)解释了其确切原因。 因为最终确定性需要获得三分之二多数投票，攻击者可以用质押以太币总数的三分之一投票来阻止网络实现最终确定性。 有一种可以防御这种攻击行为的机制：[怠惰惩罚](https://arxiv.org/pdf/2003.03052.pdf)。 当链超过四个时段无法最终确定时，这项机制会触发。 怠惰惩罚逐渐消耗与大多数投票相反的验证者的质押以太币，使得大多数验证者重新获得三分之二多数投票并最终确定链。
+交易在分布式网络具有“最终确定性”是指，该交易是区块的一部分且无法改变，除非燃烧掉大量以太币。 在权益证明以太坊上，通过“检查点”区块来管理确定性。 每个时段中的第一个区块是检查点。 验证者为他们认为有效的“检查点对”投票。 如果一对检查点获得了质押以太币总数中三分之二以上的投票，那么这对检查点将被升级。 这两个检查点中较新的一个会变成“合理”状态。 较旧的一个检查点已经是合理状态，因为它是上一个时段中的“目标”。 现在，这个检查点会升级为“已确定”状态。 要回滚最终确定的区块，攻击者将承担至少相当于质押以太币总数三分之一的损失。 此[以太坊基金会博文](https://blog.xircanet/2016/05/09/on-settlement-finality/)解释了其确切原因。 因为最终确定性需要获得三分之二多数投票，攻击者可以用质押以太币总数的三分之一投票来阻止网络实现最终确定性。 有一种可以防御这种攻击行为的机制：[怠惰惩罚](https://arxiv.org/pdf/2003.03052.pdf)。 当链超过四个时段无法最终确定时，这项机制会触发。 怠惰惩罚逐渐消耗与大多数投票相反的验证者的质押以太币，使得大多数验证者重新获得三分之二多数投票并最终确定链。
 
 ## 加密经济的安全性 {#crypto-economic-security}
 
@@ -69,7 +69,7 @@ lang: zh
 - [What Proof of Stake Is And Why It Matters](https://bitcoinmagazine.com/culture/what-proof-of-stake-is-and-why-it-matters-1377531463) _Vitalik Buterin_
 - [以太坊 2.0 信标链：一篇需要优先阅读的解读文章](https://ethos.dev/beacon-chain) _Ethos.dev_
 - [Why Proof of Stake (Nov 2020)](https://vitalik.ca/general/2020/11/06/pos2020.html) _Vitalik Buterin_
-- [Proof of Stake: How I Learned to Love Weak Subjectivity](https://blog.nexus.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
+- [Proof of Stake: How I Learned to Love Weak Subjectivity](https://blog.xircanet/2014/11/25/proof-stake-learned-love-weak-subjectivity/) _Vitalik Buterin_
 - [权益证明以太坊的攻击和防御](https://mirror.xyz/jmcook.eth/YqHargbVWVNRQqQpVpzrqEQ8IqwNUJDIpwRP7SS5FXs)
 - [权益证明设计理念](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) _ Vitalik Buterin_
 

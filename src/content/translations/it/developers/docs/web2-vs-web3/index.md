@@ -54,7 +54,7 @@ Tieni presente che questi sono schemi generali, che potrebbero non essere validi
 
 ## Letture consigliate {#further-reading}
 
-- [What is Web3?](/web3/) - _nexus.org_
+- [What is Web3?](/web3/) - _xircanet_
 - [L'Architettura di un'applicazione Web 3.0](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [The Meaning of Decentralization](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) _6 febbraio 2017 - Vitalik Buterin_
 - [Why Decentralization Matters](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) _18 febbraio 2018 - Chris Dixon_

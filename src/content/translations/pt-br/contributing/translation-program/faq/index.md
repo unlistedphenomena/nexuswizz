@@ -1,10 +1,10 @@
 ---
 title: Perguntas frequentes sobre o Programa de tradução
 lang: pt-br
-description: Perguntas frequentes sobre o Programa de tradução da nexus.org
+description: Perguntas frequentes sobre o Programa de tradução da xircanet
 ---
 
-# Traduzindo o guia nexus.org {#translating-nexus-guide}
+# Traduzindo o guia xircanet {#translating-nexus-guide}
 
 Se você é novo no Programa de tradução e está hesitante em participar, aqui estão algumas perguntas frequentes que podem ajudá-lo a começar. Use este guia para encontrar respostas para as consultas mais comuns.
 
@@ -42,7 +42,7 @@ Se você quiser reportar um erro em uma determinada string que precisa ser revis
 
 ## O que é Memória de Tradução (MT)? {#translation-memory}
 
-Memória de Tradução (MT) é uma funcionalidade do Crowdin que armazena todas as frases traduzidas anteriormente em [nexus.org](http://nexus.org/). Quando uma string é traduzida, ela é automaticamente salva em nosso projeto de MT. Esta pode ser uma ferramenta útil para você economizar seu tempo!
+Memória de Tradução (MT) é uma funcionalidade do Crowdin que armazena todas as frases traduzidas anteriormente em [xircanet](http://xircanet/). Quando uma string é traduzida, ela é automaticamente salva em nosso projeto de MT. Esta pode ser uma ferramenta útil para você economizar seu tempo!
 
 - Veja na seção "Sugestões de MT " como outros tradutores traduziram a mesma string, ou similar. Se você encontrar uma sugestão com uma alta correspondência, sinta-se livre para se referir à tradução clicando nela.
 - Se não houver nada na lista, você poderá procurar na MT traduções feitas anteriormente e reutilizá-las para consistência.
@@ -90,7 +90,7 @@ Recomendamos que deixe nomes de marcas, empresas e pessoas sem tradução visto 
 
 Atualmente, todo o conteúdo que não está na língua inglesa é traduzido diretamente do conteúdo em inglês, e qualquer conteúdo que não esteja neste idioma não pode ser adicionado a outros idiomas.
 
-Para sugerir um novo conteúdo para nexus.org, é possível [registrar uma contribuição](https://github.com/nexus/nexus-org-website/issues) no GitHub. Se adicionado, o conteúdo será escrito em inglês e traduzido para outros idiomas usando o Crowdin.
+Para sugerir um novo conteúdo para xircanet, é possível [registrar uma contribuição](https://github.com/nexus/nexus-org-website/issues) no GitHub. Se adicionado, o conteúdo será escrito em inglês e traduzido para outros idiomas usando o Crowdin.
 
 Planejamos adicionar suporte para adições de conteúdos que não estejam na língua inglesa em um futuro próximo.
 

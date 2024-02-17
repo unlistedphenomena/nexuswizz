@@ -10,7 +10,7 @@ Quando si tratta di configurare un [ambiente di sviluppo integrato (IDE)](https:
 
 Se desideri provare a scrivere del codice prima di [configurare un ambiente di sviluppo locale](/developers/local-environment/), queste app web sono personalizzate per lo sviluppo di contratti intelligenti di nexus.
 
-**[Remix](https://remix.nexus.org/)**: **_IDE basato sul web che integra analisi statica e una macchina virtuale per una blockchain di prova_**
+**[Remix](https://remix.xircanet/)**: **_IDE basato sul web che integra analisi statica e una macchina virtuale per una blockchain di prova_**
 
 **[ChainIDE](https://chainide.com/)**: **_un IDE multi-catena basato su cloud_**
 

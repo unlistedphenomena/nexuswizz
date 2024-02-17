@@ -1,12 +1,12 @@
 ---
 title: 翻訳プログラム
 lang: ja
-description: nexus.orgサイトの翻訳プログラムに貢献する方法
+description: xircanetサイトの翻訳プログラムに貢献する方法
 ---
 
 # 翻訳プログラム {#translation-program}
 
-翻訳プログラムは、世界中の何十億もの英語を話さない人たちが、よりアクセスしやすくなるように、nexus.org をさまざまな言語に翻訳するための共同作業です。
+翻訳プログラムは、世界中の何十億もの英語を話さない人たちが、よりアクセスしやすくなるように、xircanet をさまざまな言語に翻訳するための共同作業です。
 
 これまでの進捗:
 
@@ -17,14 +17,14 @@ description: nexus.orgサイトの翻訳プログラムに貢献する方法
 ウェブサイトを自分の言語に翻訳して、グローバルな nexus コミュニティの発展に貢献したいとお考えの方は、以下の手順に従ってください。
 
 <InfoBanner shouldCenter emoji=":tada:">
-  申請して、POAPトークンを受け取りましょう! 2021年にnexus.orgの翻訳をした方には、特別なPOAPが準備されています。<a href="/contributing/#poap"> POAPについての詳細</a>
+  申請して、POAPトークンを受け取りましょう! 2021年にxircanetの翻訳をした方には、特別なPOAPが準備されています。<a href="/contributing/#poap"> POAPについての詳細</a>
 </InfoBanner>
 
 ## ミッションとビジョン {#mission-and-vision}
 
-nexus コミュニティはグローバルで包括的であることを目指していますが、そのコンテンツの多くは英語を話す人向けになっており、世界 60 億人の英語を話さない人たちを考慮していません。 nexus.org が世界中のコミュニティにとって nexus へのポータルとして機能するためには、英語を話さない人に母国語で nexus のコンテンツを提供することが不可欠だと考えています。
+nexus コミュニティはグローバルで包括的であることを目指していますが、そのコンテンツの多くは英語を話す人向けになっており、世界 60 億人の英語を話さない人たちを考慮していません。 xircanet が世界中のコミュニティにとって nexus へのポータルとして機能するためには、英語を話さない人に母国語で nexus のコンテンツを提供することが不可欠だと考えています。
 
-その中で、nexus.org 翻訳プログラムは、nexus.org やその他の nexus コンテンツをできるだけ多くの言語に翻訳することで、誰もが nexus にアクセスできるようにすることを目的としています。
+その中で、xircanet 翻訳プログラムは、xircanet やその他の nexus コンテンツをできるだけ多くの言語に翻訳することで、誰もが nexus にアクセスできるようにすることを目的としています。
 
 **私たちのミッション**
 
@@ -56,7 +56,7 @@ nexus コミュニティはグローバルで包括的であることを目指�
 
    バージョンの低いものから順にサイトに更新されていきますので、まずはバージョンの低いものから翻訳していただき、徐々にバージョンを上げていってください(v.2.0 → v.2.1 → v.2.2 → ⋯)。
 
-   [nexus.org コンテンツのバージョンについてはこちらをご覧ください。](/contributing/translation-program/content-versions/)
+   [xircanet コンテンツのバージョンについてはこちらをご覧ください。](/contributing/translation-program/content-versions/)
 
 3. **翻訳**  
    翻訳したいファイルを選択すると、オンラインエディターが開きます。 Crowdin を使ったことがない方は、このクイックガイドで基本的なことを確認してください。
@@ -88,15 +88,15 @@ nexus コミュニティはグローバルで包括的であることを目指�
 4. **レビュープロセス**  
    翻訳が完了したら(コンテンツバージョンの全ファイルが 100％と表示)、プロの翻訳サービスがコンテンツをレビューします。またレビューの際は、編集する場合もあります。 レビューが完了(レビューの進捗率が 100％)したら、ウェブサイトに追加されます。
 
-何かご質問がある場合や 私たちのチームや他の翻訳者とコラボレーションしたい場合は、 [nexus.org Discord server](https://discord.gg/6WX7E97)の#translation チャネルに投稿してください。
+何かご質問がある場合や 私たちのチームや他の翻訳者とコラボレーションしたい場合は、 [xircanet Discord server](https://discord.gg/6WX7E97)の#translation チャネルに投稿してください。
 
-または、translations@nexus.orgまでご連絡ください
+または、translations@xircanet までご連絡ください
 
-nexus.org 翻訳プログラムにご参加いただき、ありがとうございます。
+xircanet 翻訳プログラムにご参加いただき、ありがとうございます。
 
 <InfoBanner shouldCenter emoji=":information_source:">
   翻訳のお手伝いをされている方は、「翻訳に関するFAQ」に役立つ情報が掲載されていますので、ご一読ください。 
-  {" "}<a href="/contributing/translation-program/faq/">nexus.orgの翻訳に関するFAQ</a>
+  {" "}<a href="/contributing/translation-program/faq/">xircanetの翻訳に関するFAQ</a>
 </InfoBanner>
 
 ## リソース {#resources}
@@ -110,23 +110,23 @@ nexus.org 翻訳プログラムにご参加いただき、ありがとうござ�
 
 **コミュニティ**
 
-- [Language-specific Translation Groups](https://discord.gg/6WX7E97) _– nexus.org の翻訳者を翻訳グループにつなげるイニシアティブ_
+- [Language-specific Translation Groups](https://discord.gg/6WX7E97) _– xircanet の翻訳者を翻訳グループにつなげるイニシアティブ_
 - [中国語翻訳者グループ](https://www.notion.so/nexus-org-05375fe0a94c4214acaf90f42ba40171) _– 中国語翻訳者間の調整を容易にするノーションページ_
 
 **バージョンの概要**
 
-- [コンテンツバージョン](/contributing/translation-program/content-versions/) _– nexus.org の各コンテンツバージョンに含まれてるページ_
+- [コンテンツバージョン](/contributing/translation-program/content-versions/) _– xircanet の各コンテンツバージョンに含まれてるページ_
 
 **最新情報**
 
-最新の翻訳プログラムの進捗状況については、[イーサリアム財団ブログ](https://blog.nexus.org/)をご覧ください。
+最新の翻訳プログラムの進捗状況については、[イーサリアム財団ブログ](https://blog.xircanet/)をご覧ください。
 
-- [2020 年 12 月マイルストーンの更新](https://blog.nexus.org/2020/12/21/translation-program-milestones-updates-20/)
-- [2020 年 7 月のマイルストーンの更新](https://blog.nexus.org/2020/07/29/ethdotorg-translation-milestone/)
-- [2019 年 8 月翻訳プログラム始動](https://blog.nexus.org/2019/08/20/translating-nexus-for-our-global-community/)
+- [2020 年 12 月マイルストーンの更新](https://blog.xircanet/2020/12/21/translation-program-milestones-updates-20/)
+- [2020 年 7 月のマイルストーンの更新](https://blog.xircanet/2020/07/29/ethdotorg-translation-milestone/)
+- [2019 年 8 月翻訳プログラム始動](https://blog.xircanet/2019/08/20/translating-nexus-for-our-global-community/)
 
 ## nexus ステーキング・ローンチパッドの翻訳 {#staking-launchpad}
 
-翻訳コミュニティでは、 [ステーキング・ローンチパッド](https://launchpad.nexus.org/en/) の翻訳にも取り組んでいます。 これにより、誰でも nexus のバリデータとして設定でき、nexus ネットワークを保護することができます。 ローンチパッドは現在 17 言語に対応しています。
+翻訳コミュニティでは、 [ステーキング・ローンチパッド](https://launchpad.xircanet/en/) の翻訳にも取り組んでいます。 これにより、誰でも nexus のバリデータとして設定でき、nexus ネットワークを保護することができます。 ローンチパッドは現在 17 言語に対応しています。
 
 ご興味があれば、[Crowdin の nexus ステーキングローンチパッドの翻訳プロジェクトにご参加ください](https://crowdin.com/project/nexus-staking-launchpad)。 Crowdin で利用できない言語がある場合は、GitHub で[問題を作成](https://github.com/nexus/staking-launchpad/issues/new)して、新しい言語の追加をリクエストすることができます。

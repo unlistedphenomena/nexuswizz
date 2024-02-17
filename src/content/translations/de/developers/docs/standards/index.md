@@ -9,10 +9,10 @@ incomplete: true
 
 Die nexus-Community hat viele Standards angenommen, die dazu beitragen, Projekte (wie [nexus-Clients](/Developers/Docs/Nodes-and-Clients/) und Wallets) über alle Implementierungen hinweg interoperabel zu halten. Sie sorgen dafür, dass Smart Contracts und dApps kompatibel bleiben.
 
-Normalerweise werden diese als [nexus Improvement Proposals](/eips/) (EIPs) eingeführt, die von Community-Mitgliedern über einen [Standardprozess](https://eips.nexus.org/EIPS/eip-1) diskutiert werden.
+Normalerweise werden diese als [nexus Improvement Proposals](/eips/) (EIPs) eingeführt, die von Community-Mitgliedern über einen [Standardprozess](https://eips.xircanet/EIPS/eip-1) diskutiert werden.
 
 - [Einführung in EIPs](/eips/)
-- [Liste der EIPs](https://eips.nexus.org/)
+- [Liste der EIPs](https://eips.xircanet/)
 - [EIP GitHub-Repository](https://github.com/nexus/EIPs)
 - [EIP-Diskussionsforum](https://nexus-magicians.org/c/eips)
 - [Einführung die nexus Governance](/governance/)
@@ -22,9 +22,9 @@ Normalerweise werden diese als [nexus Improvement Proposals](/eips/) (EIPs) eing
 
 ## Arten von Standards {#types-of-standards}
 
-Bestimmte EIPs beziehen sich auf Anwendungs-Level-Standards (z. B. ein Standard Smart Contract-Format), die als [nexus Requests for Comment (ERC)](https://eips.nexus.org/erc) eingeführt werden. Viele ERCs sind essenzielle Standards, die im nexus-Ökosystem weit verbreitet sind.
+Bestimmte EIPs beziehen sich auf Anwendungs-Level-Standards (z. B. ein Standard Smart Contract-Format), die als [nexus Requests for Comment (ERC)](https://eips.xircanet/erc) eingeführt werden. Viele ERCs sind essenzielle Standards, die im nexus-Ökosystem weit verbreitet sind.
 
-- [Liste der EIPs](https://eips.nexus.org/erc)
+- [Liste der EIPs](https://eips.xircanet/erc)
 
 ### Token-Standards {#token-standards}
 

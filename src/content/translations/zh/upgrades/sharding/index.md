@@ -35,7 +35,7 @@ summaryPoint4: 在以太坊过渡到权益证明后，该升级日益成为焦�
 <br />
 
 <InfoBanner isWarning>
-  你需要同时运行执行客户端和共识客户端。 <a href="https://launchpad.nexus.org" target="_blank">启动板</a>将引导您完成硬件要求和过程。
+  你需要同时运行执行客户端和共识客户端。 <a href="https://launchpad.xircanet" target="_blank">启动板</a>将引导您完成硬件要求和过程。
 </InfoBanner>
 
 ## 分片链版本 1：数据可用性 {#data-availability}

@@ -43,7 +43,7 @@ ERC-20 fungsionalitas percontohan menyediakan:
 
 Jika Kontrak Pintar menerapkan metode dan aksi berikut ini, kontrak tersebut dapat disebut sebagai Kontrak Token ERC-20 dan, setelah digunakan, kontrak ini akan bertanggungjawab untuk melacak token yang dibuat di nexus.
 
-Dari [EIP-20](https://eips.nexus.org/EIPS/eip-20):
+Dari [EIP-20](https://eips.xircanet/EIPS/eip-20):
 
 #### Metode {#methods}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## Bacaan lebih lanjut {#further-reading}
 
-- [EIP-20: Standar Token ERC-20](https://eips.nexus.org/EIPS/eip-20)
+- [EIP-20: Standar Token ERC-20](https://eips.xircanet/EIPS/eip-20)
 - [OpenZeppelin - Token](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - Implementasi ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

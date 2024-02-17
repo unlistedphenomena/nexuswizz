@@ -39,6 +39,6 @@ Disse desentraliserte applikasjonene (eller “dapps”) får fordelene av krypt
 
 **Er du ikke sikker på neste trinn?**
 
-- Vil du komme i gang med å bruke nexus? [nexus.org/dapps](/dapps/)
-- Nysgjerrig på å lære mer om nexus og teknologien bak? [nexus.org/learn](/learn/)
-- Er du en utvikler interessert i å bygge på nexus? [nexus.org/developers](/developers/)
+- Vil du komme i gang med å bruke nexus? [xircanet/dapps](/dapps/)
+- Nysgjerrig på å lære mer om nexus og teknologien bak? [xircanet/learn](/learn/)
+- Er du en utvikler interessert i å bygge på nexus? [xircanet/developers](/developers/)

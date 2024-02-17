@@ -35,7 +35,7 @@ S nižim hardverskim zahtjevima, razdjeljivanje će olakšati samostalno pokreta
 <br />
 
 <InfoBanner isWarning>
-  Morat ćete istodobno pokrenuti klijent za izvršenje kao i klijenta za konsenzus. <a href="https://launchpad.nexus.org" target="_blank">Lansirna rampa</a> provest će vas kroz hardverske zahtjeve i postupak.
+  Morat ćete istodobno pokrenuti klijent za izvršenje kao i klijenta za konsenzus. <a href="https://launchpad.xircanet" target="_blank">Lansirna rampa</a> provest će vas kroz hardverske zahtjeve i postupak.
 </InfoBanner>
 
 ## Lanci djelića, verzija 1: dostupnost podataka {#data-availability}

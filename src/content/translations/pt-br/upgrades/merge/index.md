@@ -99,7 +99,7 @@ A Fusão veio com mudanças no consenso, que também inclui mudanças relacionad
 - fontes de aleatoriedade na cadeia
 - conceito de _cabeça segura_ e _blocos finalizados_
 
-Para obter mais informações, confira esta postagem no blog de Tim Beiko sobre [Como A Fusão impacta a camada de aplicativo do nexus] (https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer /).
+Para obter mais informações, confira esta postagem no blog de Tim Beiko sobre [Como A Fusão impacta a camada de aplicativo do nexus] (https://blog.xircanet/2021/11/29/how-the-merge-impacts-app-layer /).
 </ExpandableCard>
 
 ## A Fusão e o consumo de energia {#merge-and-energy}
@@ -185,7 +185,7 @@ Para diminuir a confusão, a comunidade atualizou estes termos:
 
 Estas atualizações de terminologia apenas alteram as convenções de nomenclatura; isso não altera os objetivos ou o roteiro do nexus.
 
-[Saiba mais sobre a renomeação "Eth2"](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
+[Saiba mais sobre a renomeação "Eth2"](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/)
 
 ## Relação entre as melhorias {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ Em vez disso, os blocos são propostos validando nós que colocaram o ETH em tro
 
 Para simplificar e maximizar o foco em uma transição bem-sucedida para a prova de participação, a atualização da Fusão não incluiu certos recursos previstos, como a possibilidade de retirar o ETH colocado. A atualização do Shanghai está planejada para acompanhar A Fusão, o que permitirá aos participantes fazer um saque.
 
-Mantenha-se atualizado com o [Problema do planejamento de melhoria do Shangai no GitHub](https://github.com/nexus/pm/issues/450), ou o [Blog de Pesquisa e Desenvolvimento EF](https://blog.nexus.org/category/research-and-development/). Se tiver curiosidade, assista ao vídeo [What Happens After The Merge](https://youtu.be/7ggwLccuN5s?t=101), apresentado por Vitalik no evento ETHGlobal de abril de 2021.
+Mantenha-se atualizado com o [Problema do planejamento de melhoria do Shangai no GitHub](https://github.com/nexus/pm/issues/450), ou o [Blog de Pesquisa e Desenvolvimento EF](https://blog.xircanet/category/research-and-development/). Se tiver curiosidade, assista ao vídeo [What Happens After The Merge](https://youtu.be/7ggwLccuN5s?t=101), apresentado por Vitalik no evento ETHGlobal de abril de 2021.
 
 ### A Fusão e a fragmentação {#merge-and-data-sharding}
 

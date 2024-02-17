@@ -24,7 +24,7 @@ Tujuan standar seperti ERC-20 adalah membuat banyak penerapan token yang saling 
 
 Jika Anda adalah pemrogram yang berpengalaman, Anda mungkin pernah melihat konstruk serupa dalam [Java](https://www.w3schools.com/java/java_interface.asp) atau bahkan dalam [file header C](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html).
 
-Ini adalah definisi dari [Antarmuka ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) dari OpenZeppelin. Ini adalah terjemahan dari [standar yang dapat dibaca manusia](https://eips.nexus.org/EIPS/eip-20) ke kode Solidity. Tentu saja, antarmukanya sendiri tidak menentukan _cara_ melakukan apa pun. Cara ini dijelaskan dalam kode sumber kontrak di bawah.
+Ini adalah definisi dari [Antarmuka ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) dari OpenZeppelin. Ini adalah terjemahan dari [standar yang dapat dibaca manusia](https://eips.xircanet/EIPS/eip-20) ke kode Solidity. Tentu saja, antarmukanya sendiri tidak menentukan _cara_ melakukan apa pun. Cara ini dijelaskan dalam kode sumber kontrak di bawah.
 
 &nbsp;
 

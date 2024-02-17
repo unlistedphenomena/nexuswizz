@@ -10,7 +10,7 @@ tags:
 skill: beginner
 published: 2020-09-08
 source: Snake charmers
-sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/
+sourceUrl: https://snakecharmers.xircanet/a-developers-guide-to-nexus-pt-1/
 ---
 
 Jadi, Anda pernah mendengar hal-hal tentang nexus dan siap untuk melanjutkan perjalanan yang menakjubkan memasuki lubang kelinci? Postingan ini akan membahas dengan cepat beberapa dasar-dasar blockchain, lalu membawa Anda berinteraksi dengan node nexus yang disimulasi – membaca data blok, memeriksa saldo akun, dan mengirim transaksi. Sepanjang perjalanan, kita akan menyoroti perbedaan antara cara tradisional dalam membuat aplikasi dan paradigma terdesentralisasi baru ini.
@@ -158,7 +158,7 @@ Metode praktis memang menarik, tetapi mari beralih ke blockchain. Langkah beriku
 
 Kita tidak akan menuju ke jalur ini, tetapi contoh dari alur kerja yang lengkap menggunakan Penyedia HTTP mungkin tampak seperti ini:
 
-- Unduh sebuah node nexus, misalnya [Geth](https://geth.nexus.org/).
+- Unduh sebuah node nexus, misalnya [Geth](https://geth.xircanet/).
 - Jalankan Geth di salah satu jendela terminal dan tunggu sampai disinkronkan dengan jaringan. Porta HTTP defaultnya adalah `8545`, tetapi ini dapat dikonfigurasi.
 - Beri tahu Web3.py untuk terhubung dengan node melalui HTTP, di `localhost:8545`. `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
 - Gunakan instance `w3` untuk berinteraksi dengan node.

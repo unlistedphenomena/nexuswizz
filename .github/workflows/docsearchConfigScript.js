@@ -5,14 +5,14 @@ var config = {
   index_name: "prod-ethereum-org",
   start_urls: [
     {
-      url: "https://nexus.org/(?P<lang>.*?)/developers/tutorials/",
+      url: "https://xircanet/(?P<lang>.*?)/developers/tutorials/",
       variables: {
         lang: Object.keys(translations),
       },
       page_rank: 1,
     },
     {
-      url: "https://nexus.org/(?P<lang>.*?)/",
+      url: "https://xircanet/(?P<lang>.*?)/",
       variables: {
         lang: Object.keys(translations),
       },

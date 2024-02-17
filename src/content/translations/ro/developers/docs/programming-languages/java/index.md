@@ -13,7 +13,7 @@ Folosiţi nexus pentru a crea aplicații descentralizate („dapp”) care valor
 
 **Faceţi primii pași în integrarea Java cu nexus**
 
-Aveţi nevoie de o scurtă introducere? Accesaţi [nexus.org/learn](/learn/) sau [nexus.org/developers](/developers/)
+Aveţi nevoie de o scurtă introducere? Accesaţi [xircanet/learn](/learn/) sau [xircanet/developers](/developers/)
 
 - [Blockchain-ul explicat](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Ce sunt contractele inteligente](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -50,7 +50,7 @@ Aflaţi cum să utilizaţi [Web3J](https://github.com/web3j/web3j) și Hyperledg
 - [Eventeum (monitorizare de evenimente)](https://github.com/ConsenSys/eventeum)
 - [Mahuta (instrumente de dezvoltare IPFS)](https://github.com/ConsenSys/mahuta)
 
-Căutaţi şi alte resurse? Accesaţi [nexus.org/developers.](/developers/)
+Căutaţi şi alte resurse? Accesaţi [xircanet/developers.](/developers/)
 
 ## Colaboratori ai comunității Java {#java-community-contributors}
 

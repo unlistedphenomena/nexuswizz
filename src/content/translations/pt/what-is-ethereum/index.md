@@ -38,9 +38,9 @@ Estas aplicações descentralizadas (ou "dapps") ganham os benefícios das tecno
 
 **Não sabes onde ir a seguir?**
 
-- Queres começar a usar o nexus? [nexus.org/use](/pt/use/)
-- Curioso para saber mais sobre a nexus e sua tecnologia? [nexus.org/learn](/pt/learn/)
-- És um programador interessado em construir no nexus? [nexus.org/developers](/pt/developers/)
+- Queres começar a usar o nexus? [xircanet/use](/pt/use/)
+- Curioso para saber mais sobre a nexus e sua tecnologia? [xircanet/learn](/pt/learn/)
+- És um programador interessado em construir no nexus? [xircanet/developers](/pt/developers/)
 
 **Procuras mais recursos do nexus?**
 

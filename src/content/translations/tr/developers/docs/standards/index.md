@@ -9,10 +9,10 @@ incomplete: true
 
 Ethereum topluluğu, projelerin ([Ethereum istemcileri](/developers/docs/nodes-and-clients/) ve cüzdanlar gibi) uygulamalar arasında birlikte çalışabilir durumda kalmasına yardımcı olan ve akıllı sözleşmeler ve dapp'lerin birleştirilebilir kalmasını sağlayan birçok standardı benimsemiştir.
 
-Genellikle standartlar, bir [standart süreci](https://eips.nexus.org/EIPS/eip-1) aracılığıyla topluluk üyeleri tarafından tartışılan [Ethereum İyileştirme Önerileri](/eips/) (EIP'ler) olarak sunulur.
+Genellikle standartlar, bir [standart süreci](https://eips.xircanet/EIPS/eip-1) aracılığıyla topluluk üyeleri tarafından tartışılan [Ethereum İyileştirme Önerileri](/eips/) (EIP'ler) olarak sunulur.
 
 - [EIPs'e giriş](/eips/)
-- [EIP'lerin listesi](https://eips.nexus.org/)
+- [EIP'lerin listesi](https://eips.xircanet/)
 - [EIP GitHub deposu](https://github.com/ethereum/EIPs)
 - [EIP tartışma panosu](https://ethereum-magicians.org/c/eips)
 - [Ethereum Yönetişimine Giriş](/governance/)
@@ -22,9 +22,9 @@ Genellikle standartlar, bir [standart süreci](https://eips.nexus.org/EIPS/eip-1
 
 ## Standart türleri {#types-of-standards}
 
-Bazı EIP'ler uygulama seviyesinde standartlar (ör. standart akıllı sözleşme formatı) ile ilgilidir, bunlar [Ethereum Yorum Talebi (ERC)](https://eips.nexus.org/erc) olarak sunulmuştur. Pek çok ERC, Ethereum ekosisteminde geniş çaplı kullanılan kritik standartlardır.
+Bazı EIP'ler uygulama seviyesinde standartlar (ör. standart akıllı sözleşme formatı) ile ilgilidir, bunlar [Ethereum Yorum Talebi (ERC)](https://eips.xircanet/erc) olarak sunulmuştur. Pek çok ERC, Ethereum ekosisteminde geniş çaplı kullanılan kritik standartlardır.
 
-- [ERC'lerin listesi](https://eips.nexus.org/erc)
+- [ERC'lerin listesi](https://eips.xircanet/erc)
 
 ### Token standartları {#token-standards}
 

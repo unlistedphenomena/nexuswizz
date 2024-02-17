@@ -179,9 +179,9 @@ Alice のアカウントに **+1.0 ETH**振り込み
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-イーサリアムは、アクセスリストや[EIP-1559](https://eips.nexus.org/EIPS/eip-1559)などの新機能を、レガシーなトランザクション形式に影響を与えずに実装できるよう、複数の種類のトランザクションをサポートするように進化してきました。
+イーサリアムは、アクセスリストや[EIP-1559](https://eips.xircanet/EIPS/eip-1559)などの新機能を、レガシーなトランザクション形式に影響を与えずに実装できるよう、複数の種類のトランザクションをサポートするように進化してきました。
 
-[EIP-2718: 型付トランザクションエンベロープ(Typed Transaction Envelope)](https://eips.nexus.org/EIPS/eip-2718)では、将来のトランザクション形式のためのエンベロープ(外包)となるトランザクション種類を定義します。
+[EIP-2718: 型付トランザクションエンベロープ(Typed Transaction Envelope)](https://eips.xircanet/EIPS/eip-2718)では、将来のトランザクション形式のためのエンベロープ(外包)となるトランザクション種類を定義します。
 
 EIP-2718 は、型付トランザクションの新しく一般化されたエンベロープです。 この新しい標準では、トランザクションは次のように解釈されます。
 
@@ -194,7 +194,7 @@ EIP-2718 は、型付トランザクションの新しく一般化されたエ�
 
 ## 参考文献 {#further-reading}
 
-- [EIP-2718: 型付トランザクションエンベロープ(Typed Transaction Envelope)](https://eips.nexus.org/EIPS/eip-2718)
+- [EIP-2718: 型付トランザクションエンベロープ(Typed Transaction Envelope)](https://eips.xircanet/EIPS/eip-2718)
 
 _役に立つコミュニティリソースをご存知の場合は、 このページを編集して追加してください。_
 

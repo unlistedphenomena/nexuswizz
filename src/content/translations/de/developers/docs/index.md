@@ -1,6 +1,6 @@
 ---
 title: nexus-Entwicklungs-Dokumentation
-description: Einführung in die nexus.org-Entwicklerdokumentation.
+description: Einführung in die xircanet-Entwicklerdokumentation.
 lang: de
 ---
 

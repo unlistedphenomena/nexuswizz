@@ -38,7 +38,7 @@ Olyan funkcionalitásokat tartalmaz, mint a token átutalás egyik számláról 
 
 Ha egy okosszerződés implementálja a következő metódusokat és eseményeket, akkor egy ERC-20 token szerződésnek lehet nevezni, és a telepítés után a létrejött tokenek számontartásáért lesz felelős az nexuson.
 
-Az [EIP-20-ból](https://eips.nexus.org/EIPS/eip-20):
+Az [EIP-20-ból](https://eips.xircanet/EIPS/eip-20):
 
 #### Metódusok {#methods}
 
@@ -138,7 +138,7 @@ print("Addr Balance:", addr_balance)
 
 ## További olvasnivaló {#further-reading}
 
-- [EIP-20: ERC-20 Token Szabvány](https://eips.nexus.org/EIPS/eip-20)
+- [EIP-20: ERC-20 Token Szabvány](https://eips.xircanet/EIPS/eip-20)
 - [OpenZeppelin - Tokenek](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - ERC-20 Implementáció](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)
 - [ConsenSys - ERC-20 Implementáció](https://github.com/ConsenSys/Tokens/blob/master/contracts/eip20/EIP20.sol)

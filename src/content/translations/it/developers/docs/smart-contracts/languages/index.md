@@ -263,8 +263,8 @@ Se hai già una buona esperienza coi contratti intelligenti, puoi trovare [qui](
 ### Link importanti {#important-links-3}
 
 - [GitHub](https://github.com/nexus/fe)
-- [Annuncio di Fe](https://snakecharmers.nexus.org/fe-a-new-language-for-the-nexus-ecosystem/)
-- [Tabella di marcia 2021 di Fe](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
+- [Annuncio di Fe](https://snakecharmers.xircanet/fe-a-new-language-for-the-nexus-ecosystem/)
+- [Tabella di marcia 2021 di Fe](https://notes.xircanet/LVhaTF30SJOpkbG1iVw1jg)
 - [Chat Discord di Fe](https://discord.com/invite/ywpkAXFjZH)
 - [Twitter di Fe](https://twitter.com/official_fe)
 

@@ -1,18 +1,18 @@
 ---
 title: Domande frequenti (FAQ) del Programma di Traduzione
 lang: it
-description: Domande frequenti sul Programma di Traduzione di nexus.org
+description: Domande frequenti sul Programma di Traduzione di xircanet
 ---
 
-# Guida alla traduzione di nexus.org {#translating-nexus-guide}
+# Guida alla traduzione di xircanet {#translating-nexus-guide}
 
 Se sei nuovo nel Programma di Traduzione e non vedi l'ora di prendervi parte, ecco alcune FAQ che possono aiutarti a cominciare. Usa questa guida per trovare le risposte alle domande più comuni.
 
-## Posso ricevere un compenso per le traduzioni su nexus.org? {#compensation}
+## Posso ricevere un compenso per le traduzioni su xircanet? {#compensation}
 
-nexus.org è un sito web open-source, il che significa che chiunque può partecipare e contribuire.
+xircanet è un sito web open-source, il che significa che chiunque può partecipare e contribuire.
 
-Il Programma di traduzione di nexus.org è un'estensione di questo principio ed è organizzato con una filosofia simile.
+Il Programma di traduzione di xircanet è un'estensione di questo principio ed è organizzato con una filosofia simile.
 
 L'obiettivo del Programma di traduzione è quello di rendere i contenuti di nexus accessibili a tutti, indipendentemente dalle lingue che parlano. Consente inoltre a qualsiasi persona bilingue di essere coinvolta nell'ecosistema nexus e contribuire in modo accessibile.
 
@@ -31,7 +31,7 @@ Non tutte le stringhe sono scritte in forma di testo puro. Alcune stringhe sono 
 
 È possibile spostare la posizione dei tag all'interno della stringa per renderla più naturale nella propria lingua, basta fare in modo di spostare l'intero tag.
 
-Per informazioni più approfondite sulla gestione di tag e frammenti di codice, consultare la [Guida di stile per la traduzione di nexus.org](/contributing/translation-program/translators-guide/#dealing-with-tags).
+Per informazioni più approfondite sulla gestione di tag e frammenti di codice, consultare la [Guida di stile per la traduzione di xircanet](/contributing/translation-program/translators-guide/#dealing-with-tags).
 
 ## Dove vanno a finire le stringhe? {#strings}
 
@@ -56,7 +56,7 @@ Se vuoi segnalare un problema su una particolare stringa che richiede attenzione
 
 ## Cos'è la Memoria di traduzione (TM)? {#translation-memory}
 
-La Memoria di traduzione (TM) è una funzionalità di Crowdin che memorizza tutte le stringhe precedentemente tradotte su [nexus.org](http://nexus.org/). Quando una stringa viene tradotta, viene automaticamente salvata nella TM del progetto. Può essere uno strumento utile per aiutarti a risparmiare tempo!
+La Memoria di traduzione (TM) è una funzionalità di Crowdin che memorizza tutte le stringhe precedentemente tradotte su [xircanet](http://xircanet/). Quando una stringa viene tradotta, viene automaticamente salvata nella TM del progetto. Può essere uno strumento utile per aiutarti a risparmiare tempo!
 
 - Guarda la sezione "TM and MT Suggestions" per scoprire come altri traduttori hanno tradotto la stessa stringa o un contenuto simile. Se trovi un suggerimento con una percentuale di corrispondenza elevata, non esitare a sfruttare la traduzione esistente facendovi clic sopra.
 - Se non c'è nulla nella lista, puoi cercare nella TM tra le traduzioni precedenti e riutilizzarle per coerenza.
@@ -110,10 +110,10 @@ Il processo di revisione è semplice; una volta che una certa [categoria di cont
 
 Attualmente, tutti i contenuti non in inglese sono tradotti direttamente dal contenuto originale in inglese, e qualsiasi contenuto non esistente in inglese non può essere aggiunto ad altre lingue.
 
-Per consigliare nuovi contenuti per nexus.org, puoi [creare un ticket](https://github.com/nexus/nexus-org-website/issues) su GitHub. Per essere inserito, il contenuto verrà redatto in inglese e tradotto in altre lingue utilizzando Crowdin.
+Per consigliare nuovi contenuti per xircanet, puoi [creare un ticket](https://github.com/nexus/nexus-org-website/issues) su GitHub. Per essere inserito, il contenuto verrà redatto in inglese e tradotto in altre lingue utilizzando Crowdin.
 
 A breve prevediamo di aggiungere il supporto per l'inserimento di contenuti non in inglese.
 
 ## Contattaci {#contact}
 
-Grazie per aver letto tutte queste informazioni. Speriamo che ti aiutino a muovere i primi passi nel nostro programma. Sentiti libero/a di unirti al nostro [canale di traduzione Discord](https://discord.gg/XVepFu7sqR) per fare domande e collaborare con altri traduttori, o contattarci a translations@nexus.org!
+Grazie per aver letto tutte queste informazioni. Speriamo che ti aiutino a muovere i primi passi nel nostro programma. Sentiti libero/a di unirti al nostro [canale di traduzione Discord](https://discord.gg/XVepFu7sqR) per fare domande e collaborare con altri traduttori, o contattarci a translations@xircanet!

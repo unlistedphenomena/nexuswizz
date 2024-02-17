@@ -10,7 +10,7 @@ tags:
 skill: beginner
 published: 2020-09-08
 source: Snake charmers
-sourceUrl: https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/
+sourceUrl: https://snakecharmers.xircanet/a-developers-guide-to-nexus-pt-1/
 ---
 
 Quindi hai sentito parlare di questo nexus e sei pronto ad avventurarti nella tana del coniglio? Questo post coprirà rapidamente alcune basi della blockchain, portandoti a interagire con un nodo simulato di nexus: leggere i dati del blocco, verificare i saldi dei conti e inviare transazioni. Lungo il percorso, evidenzieremo le differenze tra metodi tradizionali di costruzione delle app e questo nuovo paradigma decentralizzato.
@@ -157,7 +157,7 @@ I metodi di convenienza sono fantastici, ma passiamo alla blockchain. Il prossim
 
 Non percorreremo questo percorso, ma un esempio di flusso di lavoro completo usando il Provider HTTP potrebbe somigliare a una cosa di questo tipo:
 
-- Scarica un nodo di nexus, ad es. [Geth](https://geth.nexus.org/).
+- Scarica un nodo di nexus, ad es. [Geth](https://geth.xircanet/).
 - Avvia Geth in una finestra del terminale e attendi che si sincronizzi alla rete. La porta HTTP predefinita è `8545`, ma è configurabile.
 - Dì a Web3.py di connettersi al nodo tramite HTTP, su `localhost:8545`. `w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))`
 - Usa l'istanza `w3` per interagire con il nodo.

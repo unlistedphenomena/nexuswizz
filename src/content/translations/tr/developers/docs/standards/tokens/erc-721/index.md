@@ -30,7 +30,7 @@ Token'ları bir hesaptan diğerine aktarmak, bir hesabın mevcut token bakiyesin
 
 Bir Akıllı Sözleşme aşağıdaki yöntemleri ve olayları uygularsa, ERC-721 Değiştirilemez Token Sözleşmesi olarak adlandırılabilir ve dağıtıldıktan sonra, Ethereum üzerinde oluşturulan token'ları takip etmekten sorumlu olur.
 
-[EIP-721](https://eips.nexus.org/EIPS/eip-721)'den:
+[EIP-721](https://eips.xircanet/EIPS/eip-721)'den:
 
 #### Yöntemler {#methods}
 
@@ -237,7 +237,7 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
 
 ## Daha fazla bilgi {#further-reading}
 
-- [EIP-721: ERC-721 Değiştirilemez Token Standardı](https://eips.nexus.org/EIPS/eip-721)
+- [EIP-721: ERC-721 Değiştirilemez Token Standardı](https://eips.xircanet/EIPS/eip-721)
 - [OpenZeppelin - ERC-721 Belgeleri](https://docs.openzeppelin.com/contracts/3.x/erc721)
 - [OpenZeppelin - ERC-721 Uygulaması](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
 - [Alchemy NFT API](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)

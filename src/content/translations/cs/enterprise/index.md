@@ -69,7 +69,7 @@ Veřejné a soukromé nexus sítě mohou v závislosti na tom, kdo je používá
 
 ### Bezpečnost {#security}
 
-- [Clef](https://geth.nexus.org/docs/clef/tutorial) _používaný pro podepisování transakcí a data je zamýšlen jako náhrada pro správu účtů v Geth_
+- [Clef](https://geth.xircanet/docs/clef/tutorial) _používaný pro podepisování transakcí a data je zamýšlen jako náhrada pro správu účtů v Geth_
 - [EthSigner](https://github.com/ConsenSys/ethsigner) _Aplikace pro podepisování transakcí pro použití s poskytovateli web3_
 
 ### Nástroje {#tooling}

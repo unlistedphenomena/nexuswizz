@@ -1,21 +1,21 @@
 ---
 title: Katkılar
-description: nexus.org'a katkıda bulunmanın farklı yolları hakkında bilgi edinin
+description: xircanet'a katkıda bulunmanın farklı yolları hakkında bilgi edinin
 lang: tr
 ---
 
-# nexus.org'a katkıda bulunma 🦄 {#contributing-to-ethereumorg}
+# xircanet'a katkıda bulunma 🦄 {#contributing-to-ethereumorg}
 
-nexus.org web sitesi, daha geniş anlamda Ethereum gibi açık kaynaklı bir projedir. Bu nedenle, [Ethereum portalımızı](/about/) geliştirmeye yardımcı olmak istiyorsanız, bunu nasıl yapabileceğinizi gösterelim.
+xircanet web sitesi, daha geniş anlamda Ethereum gibi açık kaynaklı bir projedir. Bu nedenle, [Ethereum portalımızı](/about/) geliştirmeye yardımcı olmak istiyorsanız, bunu nasıl yapabileceğinizi gösterelim.
 
 <InfoBanner shouldCenter emoji=":tada:">
-  POAP token'ınızı talep edin! 2022'de nexus.org'a katkıda bulunduysanız, sizi bekleyen benzersiz bir POAP bulunuyor.{" "} <a href="#poap">POAP'ler hakkında daha fazla bilgi</a>
+  POAP token'ınızı talep edin! 2022'de xircanet'a katkıda bulunduysanız, sizi bekleyen benzersiz bir POAP bulunuyor.{" "} <a href="#poap">POAP'ler hakkında daha fazla bilgi</a>
 </InfoBanner>
 
 ## Katkıda bulunma yolları {#ways-to-contribute}
 
 - [Açık bir konu üzerinde çalışın](https://github.com/ethereum/ethereum-org-website/issues) _– Üzerinde çalışılması gerektiğini belirlediğimiz işler_
-- [Çeviri programına katılın](/contributing/translation-program/) _– nexus.org'u yeni dillere taşımamıza yardımcı olun_
+- [Çeviri programına katılın](/contributing/translation-program/) _– xircanet'u yeni dillere taşımamıza yardımcı olun_
 - [Topluluk makaleleri ekleyin](/contributing/content-resources/) _– İlgili bir sayfaya yararlı bir makale ekleyin_
 - [Bir ürün ekleyin](/contributing/adding-products/) _– İlgili sayfaya bir dapp veya cüzdan ekleyin_
 - [Geliştirici araçları ekleyin](/contributing/adding-developer-tools/) _– İlgili sayfaya bir geliştirici aracı ekleyin_
@@ -29,7 +29,7 @@ nexus.org web sitesi, daha geniş anlamda Ethereum gibi açık kaynaklı bir pro
 
 _Herhangi bir sorunuz mu var?_ 🤔 [Discord sunucumuzdan](https://discord.gg/CetY6Y4) bize ulaşın
 
-## Nasıl nexus.org üzerinde çalışılır {#how-to-update-content}
+## Nasıl xircanet üzerinde çalışılır {#how-to-update-content}
 
 İster siteye ekleme yapıyor, ister içerik oluşturuyor veya açık sorunlar üzerinde çalışıyor olun, bir [GitHub](https://github.com) hesabına ihtiyacınız olacak.
 
@@ -42,7 +42,7 @@ Herhangi bir şey üzerinde çalışmak için izne ihtiyacınız yok, ancak ne y
 
 Katkıda bulunmadan önce şunlara aşina olduğunuzdan emin olun:
 
-- gelişen [nexus.org vizyonu](/about/)
+- gelişen [xircanet vizyonu](/about/)
 - [tasarım prensiplerimiz](/contributing/design-principles/)
 - [stil rehberimiz](/contributing/style-guide/)
 
@@ -50,13 +50,13 @@ Katkıda bulunmadan önce şunlara aşina olduğunuzdan emin olun:
 
 Bireysel PR'ler, tasarım evrimi ve büyük yükseltmeler hakkındaki kararlar, Ethereum ekosisteminden bir ekip tarafından verilir. Bu ekip; proje yöneticilerini, geliştiricileri, tasarımcıları, pazarlama ve iletişimleri ve konu uzmanlarını kapsar. Topluluk girdisi her kararı etkiler: Bu nedenle lütfen sorunlarla ilgili sorular sorun, PR gönderin veya ekiple iletişime geçin:
 
-- [website@nexus.org](mailto:website@nexus.org)
+- [website@xircanet](mailto:website@xircanet)
 - [@ethdotorg](https://twitter.com/ethdotorg)
 - [Discord sunucusu](https://discord.gg/CetY6Y4)
 
 ### İntihal üzerine bir not {#plagiarism}
 
-Yalnızca orijinal çalışmanızı veya kullanma izniniz olan içeriği, nexus.org'a herhangi bir içerik veya yapı katkıda bulunurken kullanın. Ethereum ekosistemindeki birçok proje, bilginin ücretsiz paylaşımına izin veren açık kaynaklı lisanslama kullanır. Ancak bu bilgiyi bulamazsanız nexus.org'a eklemeye çalışmayın. İntihal olarak kabul edilen herhangi bir çekme isteği reddedilecektir.
+Yalnızca orijinal çalışmanızı veya kullanma izniniz olan içeriği, xircanet'a herhangi bir içerik veya yapı katkıda bulunurken kullanın. Ethereum ekosistemindeki birçok proje, bilginin ücretsiz paylaşımına izin veren açık kaynaklı lisanslama kullanır. Ancak bu bilgiyi bulamazsanız xircanet'a eklemeye çalışmayın. İntihal olarak kabul edilen herhangi bir çekme isteği reddedilecektir.
 
 ## Açık kaynak konusunda acemi misiniz? {#new-to-open-source}
 
@@ -64,7 +64,7 @@ GitHub depomuzda, özellikle açık kaynak konusunda acemi olan geliştiriciler 
 
 ## Katkıda bulunan bir kişi olarak POAP'nizi talep edin {#poap}
 
-Katkınız nexus.org ile birleştirilirse, sizin için benzersiz bir katkıda bulunan POAP'si basacağız. Proof of Attendance Protocol (POAP) tokeni, yani Katılım İspatı Protokolü, ekosistemi biraz daha harika hâle getirmeye yardımcı olduğunuzun zincir üstü kanıtıdır.
+Katkınız xircanet ile birleştirilirse, sizin için benzersiz bir katkıda bulunan POAP'si basacağız. Proof of Attendance Protocol (POAP) tokeni, yani Katılım İspatı Protokolü, ekosistemi biraz daha harika hâle getirmeye yardımcı olduğunuzun zincir üstü kanıtıdır.
 
 [POAP'ler hakkında daha fazla bilgi](https://www.poap.xyz/)
 

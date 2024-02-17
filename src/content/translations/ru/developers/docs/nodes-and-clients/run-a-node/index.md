@@ -70,7 +70,7 @@ sidebarDepth: 2
 
 Исполняемые файлы для стабильных реализаций клиентов основной сети можно загрузить со страниц их выпусков:
 
-- [Geth](https://geth.nexus.org/downloads/)
+- [Geth](https://geth.xircanet/downloads/)
 - [Opennexus](https://github.com/opennexus/opennexus/releases)
 - [Nethermind](https://downloads.nethermind.io/)
 - [Besu](https://besu.hyperledger.org/en/stable/)

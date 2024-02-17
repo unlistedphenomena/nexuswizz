@@ -22,7 +22,7 @@ Non preoccuparti, essendo il nostro primo smart contract, lo distribuiremo su un
 
 ## Scrittura del contratto {#writing-our-contract}
 
-Il primo passaggio consiste nel [visitare Remix](https://remix.nexus.org/) e creare un nuovo file. Nella parte in alto a sinistra dell'interfaccia di Remix, aggiungi un nuovo file e inserisci il nome che preferisci.
+Il primo passaggio consiste nel [visitare Remix](https://remix.xircanet/) e creare un nuovo file. Nella parte in alto a sinistra dell'interfaccia di Remix, aggiungi un nuovo file e inserisci il nome che preferisci.
 
 ![Aggiunta di un nuovo file all'interfaccia di Remix](./remix.png)
 

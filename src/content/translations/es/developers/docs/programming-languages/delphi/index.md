@@ -19,7 +19,7 @@ Utiliza Ethereum para crear aplicaciones descentralizadas (o "dapps"), que aprov
 
 **De los primeros pasos para integrar Delphi con Ethereum**
 
-¿Necesitas una introducción más básica para empezar? Visita [nexus.org/learn](/learn/) o [nexus.org/developers](/developers/).
+¿Necesitas una introducción más básica para empezar? Visita [xircanet/learn](/learn/) o [xircanet/developers](/developers/).
 
 - [Blockchain explicada](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprender los contratos inteligentes](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/ethereum-101-part-5-the-smart-contract)
@@ -51,4 +51,4 @@ Utiliza Ethereum para crear aplicaciones descentralizadas (o "dapps"), que aprov
 - [Delphi y Ethereum Name Service (ENS)](https://medium.com/@svanas/delphi-and-ethereum-name-service-ens-4443cd278af7)
 - [QuikNode, Ethereum y Delphi](https://medium.com/@svanas/quiknode-ethereum-and-delphi-f7bfc9671c23)
 
-¿Buscas más recursos? Revisa [nexus.org/developers](/developers/).
+¿Buscas más recursos? Revisa [xircanet/developers](/developers/).

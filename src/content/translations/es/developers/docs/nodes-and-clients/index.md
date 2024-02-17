@@ -115,7 +115,7 @@ En esta tabla se resumen los diferentes clientes. Todos ellos pasan [pruebas de 
 
 | Cliente                                                                   | Idioma   | Sistemas operativos   | Redes                                      | Estrategias de sincronización | Lima de estado     |
 | ------------------------------------------------------------------------- | -------- | --------------------- | ------------------------------------------ | ----------------------------- | ------------------ |
-| [Geth](https://geth.nexus.org/)                                           | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten           | Snap, Full                    | Archivo, podado    |
+| [Geth](https://geth.xircanet/)                                            | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten           | Snap, Full                    | Archivo, podado    |
 | [Nethermind](http://nethermind.io/)                                       | C#, .NET | Linux, Windows, macOS | Mainnet, Görli, Ropsten, Rinkeby, etc.     | Fast, Beam, Archive           | Archivo, podado    |
 | [Besu](https://besu.hyperledger.org/en/stable/)                           | Java     | Linux, Windows, macOS | Mainnet, Rinkeby, Ropsten, Görli, and more | Rápido, completo              | Archivo, podado    |
 | [Erigon](https://github.com/ledgerwatch/erigon)                           | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten           | Full                          | Archivo, podado    |
@@ -229,7 +229,7 @@ Los clientes ofrecen múltiples opciones de configuración para satisfacer sus n
 
 Lea con atención la documentación del cliente o la página de ayuda para descubrir cuál es el modo de sincronización predeterminado. Puede definir el tipo de sincronización que prefiera de la siguiente manera:
 
-**Configuración de la sincronización ligera [GETH](https://geth.nexus.org/) o [ERIGON](https://github.com/ledgerwatch/erigon)**
+**Configuración de la sincronización ligera [GETH](https://geth.xircanet/) o [ERIGON](https://github.com/ledgerwatch/erigon)**
 
 `geth: modo de sincronización «ligero»`
 

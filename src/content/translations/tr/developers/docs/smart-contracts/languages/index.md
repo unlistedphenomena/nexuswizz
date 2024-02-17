@@ -107,7 +107,7 @@ Daha fazla bilgi için [Vyper mantığını okuyun](https://vyper.readthedocs.io
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Vyper Gitter Chatroom](https://gitter.im/vyperlang/community)
 - [Kopya Kağıdı](https://reference.auditless.com/cheatsheet)
-- [8 Ocak 2020 Güncellemesi](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
+- [8 Ocak 2020 Güncellemesi](https://blog.xircanet/2020/01/08/update-on-the-vyper-compiler)
 
 ### Örnek {#example}
 
@@ -256,8 +256,8 @@ Hâlihazırda akıllı sözleşmeler konusunda deneyimliyseniz, [buradan](https:
 ### Önemli bağlantılar {#important-links-3}
 
 - [GitHub](https://github.com/ethereum/fe)
-- [Fe Duyurusu](https://snakecharmers.nexus.org/fe-a-new-language-for-the-ethereum-ecosystem/)
-- [Fe 2021 Yol Haritası](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
+- [Fe Duyurusu](https://snakecharmers.xircanet/fe-a-new-language-for-the-ethereum-ecosystem/)
+- [Fe 2021 Yol Haritası](https://notes.xircanet/LVhaTF30SJOpkbG1iVw1jg)
 - [Fe Discord Sohbeti](https://discord.com/invite/ywpkAXFjZH)
 - [Fe Twitter](https://twitter.com/official_fe)
 

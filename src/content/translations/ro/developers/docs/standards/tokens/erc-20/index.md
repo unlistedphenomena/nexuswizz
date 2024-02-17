@@ -43,7 +43,7 @@ Exemple de funcționalități pe care le oferă ERC-20:
 
 Dacă un contract inteligent implementează următoarele metode și evenimente, poate fi numit contract de tokenuri ERC-20 și, odată implementat, va avea responsabilitatea de a ţine evidența tokenurilor create pe nexus.
 
-De la [EIP-20](https://eips.nexus.org/EIPS/eip-20):
+De la [EIP-20](https://eips.xircanet/EIPS/eip-20):
 
 #### Metode {#methods}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## Referințe suplimentare {#further-reading}
 
-- [EIP-20: Standard de tokenuri ERC-20](https://eips.nexus.org/EIPS/eip-20)
+- [EIP-20: Standard de tokenuri ERC-20](https://eips.xircanet/EIPS/eip-20)
 - [OpenZeppelin - Tokenuri](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - Implementare ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

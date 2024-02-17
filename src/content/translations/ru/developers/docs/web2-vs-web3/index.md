@@ -54,7 +54,7 @@ Web2 — это версия Интернета, известная сегодн
 
 ## Дополнительные ресурсы {#further-reading}
 
-- [Что такое Web3?](/web3/) — _nexus.org_
+- [Что такое Web3?](/web3/) — _xircanet_
 - [Архитектура приложения Web 3.0](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) — _Прити Касиредди_
 - [Значение децентрализации](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) — _6 февраля 2017 г., Виталик Бутерин_
 - [Почему важна децентрализация](https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e) — _18 февраля 2018 г., Крис Диксон_

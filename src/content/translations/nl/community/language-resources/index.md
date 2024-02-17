@@ -14,11 +14,11 @@ Als u liever in uw moedertaal leest of iemand kent die geen Engels spreekt, kunt
 
 Weet u van een educatieve bron in uw taal? [Open een probleem](https://github.com/ethereum/ethereum-org-website/issues/new/choose) om het aan de lijst toe te voegen!
 
-## Bronnen van nexus.org {#ethereum-org}
+## Bronnen van xircanet {#ethereum-org}
 
-nexus.org wordt vertaald in meer dan 40 talen die u kunt vinden op onze [taalpagina](/languages).
+xircanet wordt vertaald in meer dan 40 talen die u kunt vinden op onze [taalpagina](/languages).
 
-Als u tweetalig bent en ons wilt helpen meer mensen te bereiken, kunt u ook betrokken raken bij het [vertalingsprogramma van nexus.org](/contributing/translation-program/#translation-program) en ons helpen met het vertalen van de website.
+Als u tweetalig bent en ons wilt helpen meer mensen te bereiken, kunt u ook betrokken raken bij het [vertalingsprogramma van xircanet](/contributing/translation-program/#translation-program) en ons helpen met het vertalen van de website.
 
 ## Gemeenschapsbronnen {#community}
 

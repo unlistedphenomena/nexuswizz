@@ -96,7 +96,7 @@ contract PriceConsumerV3 {
 }
 ```
 
-[Sie können dies in Remix mit diesem Link testen](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
+[Sie können dies in Remix mit diesem Link testen](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=0c5928a00094810d2ba01fd8d1083581)
 
 [Dokumentation ansehen](https://docs.chain.link/docs/get-the-latest-price)
 
@@ -169,7 +169,7 @@ Um Chainlink Keeper zu verwenden, muss ein Smart Contract das [Keeper-Compatible
 - `checkUpkeep` - Prüft, ob der Vertrag Arbeiten erfordert.
 - `performUpkeep` - Führt die Arbeit an dem Vertrag aus, wenn er von checkUpkeep angewiesen wurde.
 
-Das folgende Beispiel ist ein einfacher Gegenvertrag. Die Variable `Counter` wird bei jeder Abfrage von `performUpkeep` um eins erhöht. Sie können den folgenden Code [mit Remix](https://remix.nexus.org/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol) ausprobieren
+Das folgende Beispiel ist ein einfacher Gegenvertrag. Die Variable `Counter` wird bei jeder Abfrage von `performUpkeep` um eins erhöht. Sie können den folgenden Code [mit Remix](https://remix.xircanet/#url=https://docs.chain.link/samples/Keepers/KeepersCounter.sol) ausprobieren
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -222,7 +222,7 @@ Nachdem Sie einen Keeper-kompatiblen Vertrag eingerichtet haben, müssen Sie den
 
 [Chainlink API Calls](https://docs.chain.link/docs/make-a-http-get-request) sind der einfachste Weg, um Daten aus der Off-Chain-Welt auf die traditionelle Art und Weise zu erhalten, wie das Web funktioniert: API-Aufrufe. Da es nur eine einzige Instanz und nur ein Oracle gibt, ist es von Natur aus zentralisiert. Um wirklich dezentralisiert zu sein, müsste eine Smart-Contract-Plattform zahlreiche Knotenpunkte in einem [externen Datenmarkt](https://market.link/) verwenden.
 
-[Setzen Sie den folgenden Code in Remix auf dem Kovan-Netzwerk ein, um ihn zu testen](https://remix.nexus.org/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
+[Setzen Sie den folgenden Code in Remix auf dem Kovan-Netzwerk ein, um ihn zu testen](https://remix.xircanet/#version=soljson-v0.6.7+commit.b8d736ae.js&optimize=false&evmVersion=null&gist=8a173a65099261582a652ba18b7d96c1)
 
 Auch dies folgt dem Anfrage- und Empfangszyklus von Oracles und setzt voraus, dass der Vertrag mit Kovan LINK (dem Oracle-Gas) finanziert wird, um zu funktionieren.
 

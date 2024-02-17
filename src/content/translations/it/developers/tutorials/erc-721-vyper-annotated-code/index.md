@@ -181,7 +181,7 @@ ERC165_INTERFACE_ID: constant(bytes32) = 0x0000000000000000000000000000000000000
 ERC721_INTERFACE_ID: constant(bytes32) = 0x0000000000000000000000000000000000000000000000000000000080ac58cd
 ```
 
-[ERC-165](https://eips.nexus.org/EIPS/eip-165) specifica un meccanismo con cui un contratto può rivelare come le applicazioni possono comunicare con esso, a quali ERC è conforme. In questo caso, il contratto è conforme a ERC-165 ed ERC-721.
+[ERC-165](https://eips.xircanet/EIPS/eip-165) specifica un meccanismo con cui un contratto può rivelare come le applicazioni possono comunicare con esso, a quali ERC è conforme. In questo caso, il contratto è conforme a ERC-165 ed ERC-721.
 
 ### Funzioni {#functions}
 

@@ -169,12 +169,12 @@ const VisionPage = ({
               </Link>
             </li>
             <li>
-              <Link to="https://blog.nexus.org/2015/03/03/ethereum-launch-process/">
+              <Link to="https://blog.xircanet/2015/03/03/ethereum-launch-process/">
                 <Translation id="page-upgrades-vision-upgrade-needs-serenity" />
               </Link>
             </li>
             <li>
-              <Link to="https://blog.nexus.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/">
+              <Link to="https://blog.xircanet/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/">
                 <Translation id="page-upgrades-vision-2014" />
               </Link>
             </li>

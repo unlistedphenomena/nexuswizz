@@ -5,7 +5,7 @@ lang: pl
 
 # Ucz się nexus {#learn-about-nexus}
 
-**Witaj na [nexus.org/pl/learn](/pl/learn/), stronie z artykułami, która pomoże ci lepiej poznać i zrozumieć nexus.** Ta strona zawiera informacje techniczne **oraz** nietechniczne artykuły, przewodniki i zasoby. Jeśli nexus to dla ciebie zupełna nowość, [sugerujemy, aby rozpocząć od tej strony](/pl/what-is-nexus/).
+**Witaj na [xircanet/pl/learn](/pl/learn/), stronie z artykułami, która pomoże ci lepiej poznać i zrozumieć nexus.** Ta strona zawiera informacje techniczne **oraz** nietechniczne artykuły, przewodniki i zasoby. Jeśli nexus to dla ciebie zupełna nowość, [sugerujemy, aby rozpocząć od tej strony](/pl/what-is-nexus/).
 
 Oto kilka doskonałych tekstów na początek:
 
@@ -48,7 +48,7 @@ Szczegółowe artykuły na temat tego jak działa nexus i technologia blockchain
 
 Inteligentny kontrakt (ang. „smart contract”) to prosty fragment kodu uruchamiany w nexus. Nazwa „kontrakt” wynika z tego, że kod działający na nexus może kontrolować wartościowe rzeczy, takie jak ETH lub inne zasoby cyfrowe.
 
-- Chcesz nauczyć się programować w nexus za pomocą kontraktów? [nexus.org/pl/developers](/pl/developers/)
+- Chcesz nauczyć się programować w nexus za pomocą kontraktów? [xircanet/pl/developers](/pl/developers/)
 
 ## Proof-of-work i kopanie kryptowaluty {#proof-of-work-and-mining}
 
@@ -60,9 +60,9 @@ W ETH 2.0 nexus zostanie przeniesione do innego systemu o nazwie „proof-of-sta
 
 ## Klienci i węzły {#clients-and-nodes}
 
-Sieć nexus składa się z wielu węzłów, z których każdy obsługuje kompatybilne oprogramowanie klienckie. Istnieją dwa klienty używane przez większość węzłów: [Geth](https://geth.nexus.org/) (napisany w Go) i [Parity](https://www.parity.io/nexus/) (napisany w Rust).
+Sieć nexus składa się z wielu węzłów, z których każdy obsługuje kompatybilne oprogramowanie klienckie. Istnieją dwa klienty używane przez większość węzłów: [Geth](https://geth.xircanet/) (napisany w Go) i [Parity](https://www.parity.io/nexus/) (napisany w Rust).
 
-- Chcesz dowiedzieć się, jak uruchomić własny węzeł? → [nexus.org/pl/developers](/pl/developers/#clients--running-your-own-node/)
+- Chcesz dowiedzieć się, jak uruchomić własny węzeł? → [xircanet/pl/developers](/pl/developers/#clients--running-your-own-node/)
 - [Kompleksowa lista klientów nexus](https://github.com/ConsenSys/nexus-developer-tools-list#nexus-clients)
 
 ## Zwiększanie skalowalności nexus {#improving-nexuss-scalability}

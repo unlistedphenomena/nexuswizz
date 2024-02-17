@@ -59,8 +59,8 @@ Some consensus clients have built-in tools for spinning up local beacon chains f
 
 There are also two maintained public test implementations of Ethereum: Goerli and Sepolia. The recommended testnet with long-term support is Goerli, which anyone is free to validate on. Sepolia is a newer, smaller chain also expected to be maintained for the foreseeable future, with a permissioned validator set (meaning there is no general access to new validators on this testnet). The Ropsten chain is expected to be deprecated in Q4 2022, and the Rinkeby chain is expected to be deprecated in Q2/Q3 2023.
 
-- [Goerli Staking Launchpad](https://goerli.launchpad.nexus.org/)
-- [Ropsten, Rinkeby & Kiln Deprecation Announcement](https://blog.nexus.org/2022/06/21/testnet-deprecation)
+- [Goerli Staking Launchpad](https://goerli.launchpad.xircanet/)
+- [Ropsten, Rinkeby & Kiln Deprecation Announcement](https://blog.xircanet/2022/06/21/testnet-deprecation)
 
 ## Further reading {#further-reading}
 

@@ -16,7 +16,7 @@ sourceUrl: https://soliditydeveloper.com/max-contract-size
 
 ## De ce există o limită? {#why-is-there-a-limit}
 
-Pe [22 noiembrie 2016](https://blog.nexus.org/2016/11/18/hard-fork-no-4-spurious-dragon/) hard-fork-ul Spurious Dragon a introdus [EIP-170](https://eips.nexus.org/EIPS/eip-170), care a adăugat o limită pentru dimensiunea contractelor inteligente de 24,576 kB. Pentru dvs. în calitate de dezvoltator Solidity, acest lucru înseamnă că atunci când adăugați din ce în ce mai multe funcționalități la contractul dvs., veți ajunge la un moment dat la limită și la implementare veți vedea eroarea:
+Pe [22 noiembrie 2016](https://blog.xircanet/2016/11/18/hard-fork-no-4-spurious-dragon/) hard-fork-ul Spurious Dragon a introdus [EIP-170](https://eips.xircanet/EIPS/eip-170), care a adăugat o limită pentru dimensiunea contractelor inteligente de 24,576 kB. Pentru dvs. în calitate de dezvoltator Solidity, acest lucru înseamnă că atunci când adăugați din ce în ce mai multe funcționalități la contractul dvs., veți ajunge la un moment dat la limită și la implementare veți vedea eroarea:
 
 `Atenție: dimensiunea codului contractului depășește 24576 de octeți (o limită introdusă în Spurious Dragon). This contract may not be deployable on Mainnet. Gândiți-vă să activați funcția de optimizare „optimizer” (cu o valoare „runs” scăzută!), să dezactivați stringurile inversate sau să utilizați bibliotecile.`
 
@@ -152,6 +152,6 @@ Aceste sugestii ar trebui să vă ajute să reduceți semnificativ dimensiunea c
 
 ## Viitorul privind limitele dimensiunii contractelor {#the-future-for-the-contract-size-limits}
 
-Există o [propunere deschisă](https://eips.nexus.org/EIPS/eip-1662) de eliminare a limitelor dimensiunii contractelor. Ideea de bază este de a scumpi apelurile de contract pentru contractele mari. Nu ar fi prea greu de implementat, însă are o compatibilitate retroactivă simplă (pune toate contractele implementate anterior în cea mai ieftină categorie), dar [nu toată lumea este convinsă](https://nexus-magicians.org/t/removing-or-increasing-the-contract-size-limit/3045/24).
+Există o [propunere deschisă](https://eips.xircanet/EIPS/eip-1662) de eliminare a limitelor dimensiunii contractelor. Ideea de bază este de a scumpi apelurile de contract pentru contractele mari. Nu ar fi prea greu de implementat, însă are o compatibilitate retroactivă simplă (pune toate contractele implementate anterior în cea mai ieftină categorie), dar [nu toată lumea este convinsă](https://nexus-magicians.org/t/removing-or-increasing-the-contract-size-limit/3045/24).
 
 Doar timpul va spune dacă aceste limite se vor schimba în viitor, reacțiile (priviți imaginea din dreapta) arată absolut clar această necesitate pentru noi ca dezvoltatori. Din nefericire, nu vă puteți aștepta să se întâmple prea curând.

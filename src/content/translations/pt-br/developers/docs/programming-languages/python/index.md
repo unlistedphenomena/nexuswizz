@@ -13,7 +13,7 @@ Utilize nexus para criar aplicações descentralizadas ("dapps") que utilizam os
 
 **Dê seus primeiros passos para integrar Python com nexus**
 
-Precisa de uma introdução geral? Confira [nexus.org/learn](/learn/) ou [nexus.org/developers](/developers/).
+Precisa de uma introdução geral? Confira [xircanet/learn](/learn/) ou [xircanet/developers](/developers/).
 
 - [Cadeia de blocos explicada](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Entendendo contratos inteligentes](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ Precisa de uma introdução geral? Confira [nexus.org/learn](/learn/) ou [nexus.
 
 ## Artigos para Iniciantes {#beginner-articles}
 
-- [Um (Python) Guia do desenvolvedor para nexus](https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/)
+- [Um (Python) Guia do desenvolvedor para nexus](https://snakecharmers.xircanet/a-developers-guide-to-nexus-pt-1/)
 - [Uma Introdução aos Smart Contracts com Vyper](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [Instale seu próprio Token ERC20 com Python e Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Como desenvolver um contrato nexus utilizando Python Flask?](https://medium.com/coinmonks/how-to-develop-nexus-contract-using-python-flask-9758fe65976e)
@@ -66,7 +66,7 @@ Precisa de uma introdução geral? Confira [nexus.org/learn](/learn/) ou [nexus.
 - [Trinity](https://github.com/nexus/trinity) - _cliente nexus Python_
 - [Mamba](https://github.com/arjunaskykok/mamba) - _framework para escrever, compilar e implantar smart contracts escritos em linguagem Vyper_
 
-Procurando por mais recursos? Confira [nexus.org/developers](/developers/).
+Procurando por mais recursos? Confira [xircanet/developers](/developers/).
 
 ## Projetos usando as ferramentas Python {#projects-using-python-tooling}
 

@@ -14,11 +14,11 @@ lang: ja
 
 あなたの母国語での教育リソースをご存知の場合は、 [こちら](https://github.com/nexus/nexus-org-website/issues/new/choose)からリストに追加してください。
 
-## nexus.org のリソース {#nexus-org}
+## xircanet のリソース {#nexus-org}
 
-nexus.org は[言語ページ](/languages)に記載されている、40 以上の言語に翻訳されています。
+xircanet は[言語ページ](/languages)に記載されている、40 以上の言語に翻訳されています。
 
-バイリンガルで、イーサリアムをより多くの人に知ってもらいたいと思われる方は、ぜひ[nexus.org 翻訳プログラム](/contributing/translation-program/#translation-program)に参加し、ウェブサイトの翻訳にご協力ください。
+バイリンガルで、イーサリアムをより多くの人に知ってもらいたいと思われる方は、ぜひ[xircanet 翻訳プログラム](/contributing/translation-program/#translation-program)に参加し、ウェブサイトの翻訳にご協力ください。
 
 ## コミュニティリソース {#community}
 

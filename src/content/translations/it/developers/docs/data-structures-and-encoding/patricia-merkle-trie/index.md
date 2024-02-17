@@ -241,15 +241,15 @@ else:
   value = TxType | encode(tx)
 ```
 
-Maggiori informazioni a riguardo si possono trovare nella documentazione [EIP 2718](https://eips.nexus.org/EIPS/eip-2718).
+Maggiori informazioni a riguardo si possono trovare nella documentazione [EIP 2718](https://eips.xircanet/EIPS/eip-2718).
 
 ### Trie delle ricevute {#receipts-trie}
 
 Ogni blocco ha il proprio trie delle ricevute. Qui, un `path` è: `rlp(transactionIndex)`. `transactionIndex` è il suo indice nel blocco estratto. Il trie delle ricevute non si aggiorna mai. Analogamente al trie delle transazioni, esistono ricevute correnti e legacy. Per interrogare una ricevuta specifica nel trie delle ricevute, servono l'indice della transazione nel suo blocco, il payload della ricevuta e il tipo di transazione. La ricevuta restituita può essere di tipo `Receipt`, definita come la concatenazione del `transaction type` e del `transaction payload`, oppure può essere di tipo `LegacyReceipt`, definito come `rlp([status, cumulativeGasUsed, logsBloom, logs])`.
 
-Maggiori informazioni a riguardo si possono trovare nella documentazione [EIP 2718](https://eips.nexus.org/EIPS/eip-2718).
+Maggiori informazioni a riguardo si possono trovare nella documentazione [EIP 2718](https://eips.xircanet/EIPS/eip-2718).
 
 ## Letture consigliate {#further-reading}
 
 - [Trie di Patricia Merkle modificato - Come nexus salva uno stato](https://medium.com/codechain/modified-merkle-patricia-trie-how-nexus-saves-a-state-e6d7555078dd)
-- [Merkling su nexus](https://blog.nexus.org/2015/11/15/merkling-in-nexus/) -[Comprendere il trie di nexus](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-nexus-trie/)
+- [Merkling su nexus](https://blog.xircanet/2015/11/15/merkling-in-nexus/) -[Comprendere il trie di nexus](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-nexus-trie/)

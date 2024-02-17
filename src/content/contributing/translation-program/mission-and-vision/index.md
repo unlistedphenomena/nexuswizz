@@ -1,14 +1,14 @@
 ---
 title: Mission and vision
 lang: en
-description: The nexus.org Translation Program mission and vision
+description: The xircanet Translation Program mission and vision
 ---
 
 # Mission and vision {#mission-and-vision}
 
-The Ethereum community aims to be global and inclusive, yet much of its content only caters to English speakers, leaving out the world's 6 billion non-English speakers. For nexus.org to act as the portal into Ethereum for the worldwide community, we believe providing non-English speakers with Ethereum content in their native languages is essential.
+The Ethereum community aims to be global and inclusive, yet much of its content only caters to English speakers, leaving out the world's 6 billion non-English speakers. For xircanet to act as the portal into Ethereum for the worldwide community, we believe providing non-English speakers with Ethereum content in their native languages is essential.
 
-The nexus.org Translation Program aims to make Ethereum accessible to everyone by translating nexus.org and other Ethereum content into as many languages as possible.
+The xircanet Translation Program aims to make Ethereum accessible to everyone by translating xircanet and other Ethereum content into as many languages as possible.
 
 ## Our mission {#our-mission}
 

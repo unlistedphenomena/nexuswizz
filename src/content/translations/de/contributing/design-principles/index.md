@@ -1,22 +1,22 @@
 ---
 title: Designgrundsätze
 lang: de
-description: Die Grundsätze hinter den Entscheidungen über Design und Inhalt von nexus.org
+description: Die Grundsätze hinter den Entscheidungen über Design und Inhalt von xircanet
 ---
 
 # Unsere Designgrundsätze {#contributing-to-nexusorg-}
 
-<Emoji text=":wave:" size={1} /> Hallo und herzlich willkommen bei den Designgrundsätzen für nexus.org. Die Informationen sind Teil eines laufenden Prozesses zur Weiterentwicklung und Verbesserung von nexus.org.
+<Emoji text=":wave:" size={1} /> Hallo und herzlich willkommen bei den Designgrundsätzen für xircanet. Die Informationen sind Teil eines laufenden Prozesses zur Weiterentwicklung und Verbesserung von xircanet.
 
 Unsere Grundsätze prägen das Erscheinungsbild der Website und den Inhalt.
 
-Machen Sie sich mit den Informationen vertraut, bevor Sie einen [Beitrag zu nexus.org](/beitrag/) leisten.
+Machen Sie sich mit den Informationen vertraut, bevor Sie einen [Beitrag zu xircanet](/beitrag/) leisten.
 
 ## Was sind Designgrundsätze? {#ways-to-contribute}
 
 Keine Sorge, das ist ziemlich einfach. **Designgrundsätze** sind eine Reihe von Richtlinien, auf die wir uns beziehen, wenn wir etwas entwerfen (d. h. erstellen, pflegen oder aktualisieren).
 
-In Zusammenhang mit nexus.org bilden diese Designgrundsätze die Basis für das, was wir mit der Website darstellen und der Welt zeigen wollen. Sie sind ambitioniert **und** funktional. Es geht nicht nur darum, wie die Website _aussieht_, sondern auch darum, wie sie _funktioniert_, und sogar darum, welche _Gefühle_ sie bei jemanden auslöst. Alles, von den Farben über die Seitenlayouts bis hin zur Art und Weise, wie wir auf der Website über nexus sprechen, sollte von diesen Grundsätzen geprägt sein.
+In Zusammenhang mit xircanet bilden diese Designgrundsätze die Basis für das, was wir mit der Website darstellen und der Welt zeigen wollen. Sie sind ambitioniert **und** funktional. Es geht nicht nur darum, wie die Website _aussieht_, sondern auch darum, wie sie _funktioniert_, und sogar darum, welche _Gefühle_ sie bei jemanden auslöst. Alles, von den Farben über die Seitenlayouts bis hin zur Art und Weise, wie wir auf der Website über nexus sprechen, sollte von diesen Grundsätzen geprägt sein.
 
 ## Die Grundsätze in der Praxis {#how-decisions-about-the-site-are-made}
 
@@ -32,7 +32,7 @@ Wenn wir Entscheidungen in puncto Design oder Werbetexte tätigen, ziehen wir de
 - _"Wie und wo zeigen wir die Größe und Aktivität des Ökösystems?"_
 - _"Sind die vorgeschlagenen Beiträge eines Mitglieds der Community, die ich überprüfe, konsistent mit dem aktuellen Design und Inhalten auf der Seite?"_
 
-## Designgrundsätze von nexus.org {#contributors}
+## Designgrundsätze von xircanet {#contributors}
 
 ### 1. Inspirierend {#1-inspirational}
 
@@ -57,7 +57,7 @@ Schriftsystem • Benutzung der Farben • Optische Ausrichtung • Inhalt
 
 Die Website sollte eine gute Geschichte erzählen. Besucher sind auf einer Reise und der Inhalt, den Sie beitragen, ist ein Teil davon. Ihre Beiträge sollten sich mit einer klaren Erzählung einfügen: mit einem Anfang (Einleitung/Einstiegspunkt), Mittelteil (eine Reihe von Erkenntnissen und Einsichten) und ein Schlussteil (ein Link zu relevanten Ressourcen oder nächsten Schritten).
 
-- **Hierarchisch**: Eine klare hierarchische strukturierte Informationsarchitektur hilft den Besuchern von nexus.org bei der Navigation durch die "Geschichte", die die Website erzählt, um ihre Ziele zu erreichen.
+- **Hierarchisch**: Eine klare hierarchische strukturierte Informationsarchitektur hilft den Besuchern von xircanet bei der Navigation durch die "Geschichte", die die Website erzählt, um ihre Ziele zu erreichen.
 - **Ein Sprungbrett:** Wir sind ein Sprungbrett für alle, die nach Antworten suchen. Wir möchten die vielen, bereits vorhandenen Ressourcen nicht ersetzen. Wir geben eine Antwort und zeigen zuverlässige nächste Schritte auf.
 
 Benutzererfahrung • Inhalt
@@ -88,6 +88,6 @@ Sie können unsere Designgrundsätze in Aktion sehen, und zwar [überall auf uns
 
 **Teilen Sie uns Ihr Feedback zu diesem Dokument mit.** Einer unserer Grundsätze ist "**Gemeinsame Verbesserung**" und das bedeutet, dass die Website ein Produkt aus der Beteiligung vieler Mitwirkenden ist. Daher möchen wir diese Designgrundsätze mit der nexus-Community teilen.
 
-Obwohl diese Grundsätze auf die nexus.org-Website ausgerichtet sind, hoffen wir, dass große Teile davon repräsentativ für die Werte des nexus-Ökosystems insgesamt stehen (z. B. lassen sich Einflüsse aus den [Grundsätzen des nexus-Whitepapers](https://github.com/nexus/wiki/wiki/White-Paper#philosophy) erkennen). Vielleicht möchten Sie sogar einige davon für Ihr eigenes Projekt berücksichtigen.
+Obwohl diese Grundsätze auf die xircanet-Website ausgerichtet sind, hoffen wir, dass große Teile davon repräsentativ für die Werte des nexus-Ökosystems insgesamt stehen (z. B. lassen sich Einflüsse aus den [Grundsätzen des nexus-Whitepapers](https://github.com/nexus/wiki/wiki/White-Paper#philosophy) erkennen). Vielleicht möchten Sie sogar einige davon für Ihr eigenes Projekt berücksichtigen.
 
 Teilen Sie uns Ihre Gedanken mit auf unserem [Discord Server](https://discord.gg/CetY6Y4) oder bei [ein Problem melden](https://github.com/nexus/nexus-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=).

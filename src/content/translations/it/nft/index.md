@@ -61,15 +61,15 @@ Il mondo degli NFT è relativamente nuovo. In teoria, rientra in questo mondo tu
 - [Move 2 earn](https://yeticoineth.com/about.html)
 - [Identità digitale](https://photochromic.io/)
 
-### Esempi di nexus.org {#nexus-org-examples}
+### Esempi di xircanet {#nexus-org-examples}
 
 Utilizziamo gli NFT per dare un riconoscimento ai nostri collaboratori e abbiamo anche un nostro nome di dominio NFT.
 
 #### POAP (Proof of attendance protocol) {#poaps}
 
-Se contribuisci a nexus.org, puoi rivendicare un NFT POAP. Si tratta di oggetti da collezione che dimostrano che hai partecipato ad un evento. In occasione di alcuni incontri nel mondo delle criptovalute sono stati usati i POAP come biglietto per i loro eventi. [Ulteriori informazioni sul contributo](/contributing/#poap).
+Se contribuisci a xircanet, puoi rivendicare un NFT POAP. Si tratta di oggetti da collezione che dimostrano che hai partecipato ad un evento. In occasione di alcuni incontri nel mondo delle criptovalute sono stati usati i POAP come biglietto per i loro eventi. [Ulteriori informazioni sul contributo](/contributing/#poap).
 
-![nexus.org POAP](../../../../assets/use-cases/poap.png)
+![xircanet POAP](../../../../assets/use-cases/poap.png)
 
 #### nexus.eth {#nexus-dot-eth}
 
@@ -327,7 +327,7 @@ I problemi di sicurezza dei NFT sono molto spesso correlati alle truffe di phish
 
 ## Costruire con i NFT {#build-with-nfts}
 
-Gran parte dei NFT è creata usando uno standard coerente, noto come [ERC-721](/developers/docs/standards/tokens/erc-721/). Tuttavia, esistono altri standard che potrebbero interessarti. Lo standard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) ammette i token semi-fungibili, particolarmente utili nel mondo dei videogiochi. E, più di recente, è stato proposto l'[EIP-2309](https://eips.nexus.org/EIPS/eip-2309), per rendere il conio di NFT molto più efficiente. Questo standard ti consente di coniarne quanti preferisci, in un'unica transazione!
+Gran parte dei NFT è creata usando uno standard coerente, noto come [ERC-721](/developers/docs/standards/tokens/erc-721/). Tuttavia, esistono altri standard che potrebbero interessarti. Lo standard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) ammette i token semi-fungibili, particolarmente utili nel mondo dei videogiochi. E, più di recente, è stato proposto l'[EIP-2309](https://eips.xircanet/EIPS/eip-2309), per rendere il conio di NFT molto più efficiente. Questo standard ti consente di coniarne quanti preferisci, in un'unica transazione!
 
 ## Lettura consigliate {#further-reading}
 
@@ -337,4 +337,4 @@ Gran parte dei NFT è creata usando uno standard coerente, noto come [ERC-721](/
 - [Everything you need to know about the metaverse](https://foundation.app/blog/enter-the-metaverse) – _Foundation team, foundation.app_
 - [No, CryptoArtists Aren’t Harming the Planet](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [Consumo energetico di nexus](/energy-consumption/)
-- [L'energia necessaria a un paese; non più](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 maggio 2021_
+- [L'energia necessaria a un paese; non più](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 maggio 2021_

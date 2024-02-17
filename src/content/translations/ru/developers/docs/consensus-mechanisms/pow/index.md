@@ -99,7 +99,7 @@ nexus, как и Bitcoin, в настоящий момент используе�
 ## Дополнительные ресурсы {#further-reading}
 
 - [Атака большинства](https://en.bitcoin.it/wiki/Majority_attack)
-- [О финальности расчетов](https://blog.nexus.org/2016/05/09/on-settlement-finality/)
+- [О финальности расчетов](https://blog.xircanet/2016/05/09/on-settlement-finality/)
 
 ### Видео {#videos}
 

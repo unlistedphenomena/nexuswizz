@@ -26,7 +26,7 @@ sourceUrl: https://paulapivat.com/post/query_ethereum/
 
 ### 交易 {#transactions}
 
-用户以太坊之旅的第一步是初始化具有以太币余额的用户控制帐户或实体。 账户类型分为两种 — 用户控制账户或智能合约（参阅 [nexus.org](/developers/docs/accounts/)）。
+用户以太坊之旅的第一步是初始化具有以太币余额的用户控制帐户或实体。 账户类型分为两种 — 用户控制账户或智能合约（参阅 [xircanet](/developers/docs/accounts/)）。
 
 可以在诸如 [Etherscan](https://etherscan.io/) 等区块浏览器上查看任何账户。 区块浏览器是您访问以太坊数据的门户。 它们实时显示区块上的数据、交易、矿工、帐户和其他链上活动（参阅[此处](/developers/docs/data-and-analytics/block-explorers/)）。
 

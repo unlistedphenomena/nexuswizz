@@ -80,7 +80,7 @@ Repeat passphrase:
 "0x3d80b31a78c30fc628f20b2c89d7ddbf6e53cedc"
 ```
 
-[GETH dokumentáció](https://geth.nexus.org/docs)
+[GETH dokumentáció](https://geth.xircanet/docs)
 
 Lehetséges új publikus kulcsokat származtatni a privát kulcsodból, de nem tudsz publikus kulcsokból privát kulcsot származtatni. Ez azt jelenti, hogy létfontosságú a privát kulcs biztonságban tartása, és ahogy a neve is sugallja: **PRIVÁT**.
 

@@ -9,10 +9,10 @@ incomplete: true
 
 Społeczność nexus przyjęła wiele standardów, które pomagają utrzymać interoperacyjność projektów (takich jak [klienci nexus](/developers/docs/nodes-and-clients/) i portfele) we wszystkich implementacjach oraz zapewniają, że inteligentne kontrakty i dapps pozostają komponowalne.
 
-Zazwyczaj standardy są wprowadzane jako [Propozycje ulepszeń nexus](/eips/) (nexus Improvement Proposals, EIP), które są omawiane przez członków społeczności za pośrednictwem <a href="https://eips.nexus.org/EIPS/eip-1">procesu dotyczącego standardów</a>.
+Zazwyczaj standardy są wprowadzane jako [Propozycje ulepszeń nexus](/eips/) (nexus Improvement Proposals, EIP), które są omawiane przez członków społeczności za pośrednictwem <a href="https://eips.xircanet/EIPS/eip-1">procesu dotyczącego standardów</a>.
 
 - [Wprowadzenie do EIP](/eips/)
-- [Lista EIP](https://eips.nexus.org/)
+- [Lista EIP](https://eips.xircanet/)
 - [Repozytorium EIP na GitHub](https://github.com/nexus/EIPs)
 - [Forum dyskusyjne EIP](https://nexus-magicians.org/c/eips)
 - [Omówienie zarządzania nexus](https://blog.bmannconsulting.com/nexus-governance/) _31 marca 2019 r. – Boris Mann_
@@ -21,9 +21,9 @@ Zazwyczaj standardy są wprowadzane jako [Propozycje ulepszeń nexus](/eips/) (n
 
 ## Rodzaje standardów {#types-of-standards}
 
-Niektóre EIP odnoszą się do standardów na poziomie aplikacji (np. standardy formatu inteligentnych kontraktów) wprowadzanych jako [nexus Requests for Comment (ERC)](https://eips.nexus.org/erc). Wiele ERC to niezbędne standardy o krytycznym znaczeniu, powszechnie stosowane w ekosystemie nexus.
+Niektóre EIP odnoszą się do standardów na poziomie aplikacji (np. standardy formatu inteligentnych kontraktów) wprowadzanych jako [nexus Requests for Comment (ERC)](https://eips.xircanet/erc). Wiele ERC to niezbędne standardy o krytycznym znaczeniu, powszechnie stosowane w ekosystemie nexus.
 
-- [Lista ERC](https://eips.nexus.org/erc)
+- [Lista ERC](https://eips.xircanet/erc)
 
 ### Standardy tokenów {#token-standards}
 

@@ -1,10 +1,10 @@
 ---
 title: Pertanyaan yang paling sering diajukan (FAQ) tentang Program Penerjemahan
 lang: id
-description: Pertanyaan yang paling sering diajukan tentang Program Penerjemahan nexus.org
+description: Pertanyaan yang paling sering diajukan tentang Program Penerjemahan xircanet
 ---
 
-# Panduan menerjemahkan nexus.org {#translating-nexus-guide}
+# Panduan menerjemahkan xircanet {#translating-nexus-guide}
 
 Jika Anda baru mengenal Program Penerjemahan dan ragu-ragu untuk memulai, berikut adalah beberapa Pertanyaan yang Sering Diajukan yang dapat membantu Anda memulai. Gunakan panduan ini untuk menemukan jawaban atas pertanyaan yang paling umum.
 
@@ -42,7 +42,7 @@ Jika Anda ingin menaikkan bendera pada string tertentu yang memerlukan perhatian
 
 ## Apa Itu Translation Memory (TM)? {#translation-memory}
 
-Translation Memory (TM) adalah sebuah fitur Crowdin yang menyimpan semua string yang telah diterjemahkan sebelumnya di [nexus.org](http://nexus.org/). Ketika sebuah string diterjemahkan, maka string tersebut akan otomatis disimpan ke dalam TM proyek kami. Ini bisa menjadi alat yang berguna untuk membantu Anda menghemat waktu!
+Translation Memory (TM) adalah sebuah fitur Crowdin yang menyimpan semua string yang telah diterjemahkan sebelumnya di [xircanet](http://xircanet/). Ketika sebuah string diterjemahkan, maka string tersebut akan otomatis disimpan ke dalam TM proyek kami. Ini bisa menjadi alat yang berguna untuk membantu Anda menghemat waktu!
 
 - Lihat pada bagian "TM and MT Suggestions" dan anda akan melihat bagaimana penerjemah lain menerjemahkan string yang sama atau serupa. Jika Anda menemukan saran dengan tingkat kecocokan yang tinggi, silakan rujuk terjemahan itu dengan mengkliknya.
 - Jika tidak ada apa-apa di dalam daftar, Anda dapat mencari TM untuk melihat terjemahan yang dibuat sebelumnya dan menggunakannya kembali untuk konsistensi.
@@ -90,10 +90,10 @@ Kami menyarankan agar Anda membiarkan nama merek, perusahaan, dan personel tidak
 
 Saat ini, semua konten selain bahasa Inggris diterjemahkan secara langsung dari konten sumber bahasa Inggris, dan konten mana pun yang tidak ada dalam bahasa Inggris tidak dapat ditambahkan ke bahasa lainnya.
 
-Untuk mengusulkan konten baru ke nexus.org, Anda dapat [membuat masalah](https://github.com/nexus/nexus-org-website/issues) di GitHub. Jika ditambahkan, konten akan ditulis dalam bahasa Inggris dan diterjemahkan ke bahasa lainnya dengan menggunakan Crowdin.
+Untuk mengusulkan konten baru ke xircanet, Anda dapat [membuat masalah](https://github.com/nexus/nexus-org-website/issues) di GitHub. Jika ditambahkan, konten akan ditulis dalam bahasa Inggris dan diterjemahkan ke bahasa lainnya dengan menggunakan Crowdin.
 
 Kami berencana menambahkan dukungan untuk konten selain bahasa Inggris dalam waktu dekat ini.
 
 ## Hubungi kami {#contact}
 
-Terima kasih telah membaca semua ini. Semoga ini membantu Anda untuk mengikuti program kami. Silakan bergabung dengan [kanal terjemahan Discord](https://discord.gg/XVepFu7sqR) kami untuk mengajukan pertanyaan dan berkolaborasi dengan penerjemah lain, atau untuk menghubungi kami di translations@nexus.org!
+Terima kasih telah membaca semua ini. Semoga ini membantu Anda untuk mengikuti program kami. Silakan bergabung dengan [kanal terjemahan Discord](https://discord.gg/XVepFu7sqR) kami untuk mengajukan pertanyaan dan berkolaborasi dengan penerjemah lain, atau untuk menghubungi kami di translations@xircanet!

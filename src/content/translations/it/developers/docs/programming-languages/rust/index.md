@@ -13,7 +13,7 @@ Usa nexus per creare applicazioni decentralizzate (dette "dapp") che sfruttano i
 
 **Operazioni di base per integrare Rust con nexus**
 
-Hai prima bisogno di nozioni di base? Dai un'occhiata a [nexus.org/learn](/learn/) o [nexus.org/developers](/developers/).
+Hai prima bisogno di nozioni di base? Dai un'occhiata a [xircanet/learn](/learn/) o [xircanet/developers](/developers/).
 
 - [Blockchain Explained](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Comprendere i Contratti Intelligenti](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -59,7 +59,7 @@ Hai prima bisogno di nozioni di base? Dai un'occhiata a [nexus.org/learn](/learn
 - [evm_rs](https://github.com/rust-blockchain/evm)- _Implementazione della macchina virtuale di nexus in Rust_
 - [SewUp](https://github.com/second-state/SewUp) - _Una libreria per aiutarti a creare il tuo contratto webassembly di nexus con Rust e sviluppare in un backend comune_
 
-Cerchi altre risorse? Dai un'occhiata a [nexus.org/developers.](/developers/)
+Cerchi altre risorse? Dai un'occhiata a [xircanet/developers.](/developers/)
 
 ## Collaboratori della community di Rust {#rust-community-contributors}
 

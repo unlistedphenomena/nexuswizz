@@ -1,7 +1,7 @@
 ---
 title: Ajouter des outils de développement
 lang: fr
-description: Nos critères de référencement des outils de développement sur nexus.org
+description: Nos critères de référencement des outils de développement sur xircanet
 ---
 
 # Ajouter des outils de développement {#contributing-to-ethereumorg-}
@@ -54,7 +54,7 @@ De nombreux projets dans l'espace Ethereum sont open source. Nous sommes plus su
 
 ## Ajout de votre outil de développement {#how-decisions-about-the-site-are-made}
 
-Si vous souhaitez ajouter un outil de développement à nexus.org et qu'il répond aux critères, créez un ticket sur GitHub.
+Si vous souhaitez ajouter un outil de développement à xircanet et qu'il répond aux critères, créez un ticket sur GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=suggest_dev_tool.md&title=">
   Créez un ticket

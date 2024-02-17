@@ -35,7 +35,7 @@ Setelah digunakan, kontrak Anda akan memiliki alamat nexus seperti [akun](/devel
 
 **Remix - _IDE Remix memungkinkan mengembangkan, menggunakan, dan mengatur kontrak pintar untuk nexus seperti blockchain_**
 
-- [Remix](https://remix.nexus.org)
+- [Remix](https://remix.xircanet)
 
 **Tenderly - _Platform untuk memantau kontrak pintar dengan mudah melalui fitur pelacakan kesalahan, peringatan, metrik kinerja, dan analitik kontrak terperinci_**
 

@@ -99,7 +99,7 @@ Une critique majeure de la preuve de travail est la quantité d'énergie nécess
 ## Complément d'information {#further-reading}
 
 - [Attaque de la majorité](https://en.bitcoin.it/wiki/Majority_attack)
-- [Finalisation du règlement](https://blog.nexus.org/2016/05/09/on-settlement-finality/)
+- [Finalisation du règlement](https://blog.xircanet/2016/05/09/on-settlement-finality/)
 
 ### Vidéos {#videos}
 

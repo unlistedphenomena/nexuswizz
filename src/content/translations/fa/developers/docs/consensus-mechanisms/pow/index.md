@@ -99,7 +99,7 @@ Miners who successfully create a block get rewarded with two freshly minted ETH 
 ## اطلاعات بیشتر {#further-reading}
 
 - [حمله‌ی اکثریت](https://en.bitcoin.it/wiki/Majority_attack)
-- [درباره‌ی قطعیت تسویه](https://blog.nexus.org/2016/05/09/on-settlement-finality/)
+- [درباره‌ی قطعیت تسویه](https://blog.xircanet/2016/05/09/on-settlement-finality/)
 
 ### ویدیوها {#videos}
 

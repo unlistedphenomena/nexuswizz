@@ -69,7 +69,7 @@
   "page-upgrades-bug-bounty-type-4": "Inconsistências de cálculo ou de parâmetros",
   "page-upgrades-bug-bounty-types": "Tipos de bugs",
   "page-upgrades-bug-bounty-validity": "No escopo",
-  "page-upgrades-bug-bounty-validity-desc": "Nosso programa de recompensas por bugs abrange de ponta a ponta: desde a solidez dos protocolos (como o modelo de consenso da cadeia de blocos, os protocolos p2p e wire, prova de participação, etc.) até a conformidade de protocolo/implementação para segurança da rede e a integridade de consenso. A segurança clássica do cliente, bem como a segurança das primitivas criptográficas, também fazem parte do programa. Em caso de dúvida, envie sua pergunta por e-mail para bounty@nexus.org.",
+  "page-upgrades-bug-bounty-validity-desc": "Nosso programa de recompensas por bugs abrange de ponta a ponta: desde a solidez dos protocolos (como o modelo de consenso da cadeia de blocos, os protocolos p2p e wire, prova de participação, etc.) até a conformidade de protocolo/implementação para segurança da rede e a integridade de consenso. A segurança clássica do cliente, bem como a segurança das primitivas criptográficas, também fazem parte do programa. Em caso de dúvida, envie sua pergunta por e-mail para bounty@xircanet.",
   "page-upgrades-bug-bounty-card-critical": "Crítico",
   "page-upgrades-bug-bounty-card-critical-risk": "Envie um bug de risco crítico",
   "page-upgrades-bug-bounty-card-h2": "Médio",

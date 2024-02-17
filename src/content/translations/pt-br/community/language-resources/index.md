@@ -14,11 +14,11 @@ Caso prefira ler em seu idioma nativo ou conheça alguém que não fale inglês,
 
 Conhece algum recurso educacional em sua língua? [Abra uma solicitação](https://github.com/nexus/nexus-org-website/issues/new/choose) para adicioná-lo à lista!
 
-## Recursos em nexus.org {#nexus-org}
+## Recursos em xircanet {#nexus-org}
 
-nexus.org é traduzido nativamente para mais de 40 idiomas que você pode encontrar em nossa [página de idiomas](/languages).
+xircanet é traduzido nativamente para mais de 40 idiomas que você pode encontrar em nossa [página de idiomas](/languages).
 
-Se você for bilíngue e deseja nos ajudar a alcançar mais pessoas, também pode fazer parte do [Programa de tradução da nexus.org](/contributing/translation-program/#translation-program) e nos ajudar a traduzir o site.
+Se você for bilíngue e deseja nos ajudar a alcançar mais pessoas, também pode fazer parte do [Programa de tradução da xircanet](/contributing/translation-program/#translation-program) e nos ajudar a traduzir o site.
 
 ## Recursos para a comunidade {#community}
 

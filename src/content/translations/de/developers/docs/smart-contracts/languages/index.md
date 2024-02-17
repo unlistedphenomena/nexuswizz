@@ -107,7 +107,7 @@ Weitere Informationen finden Sie im [Vyper-Grundprinzip](https://vyper.readthedo
 - [GitHub](https://github.com/vyperlang/vyper)
 - [Vyper Gitter-Chatraum](https://gitter.im/vyperlang/community)
 - [Spickzettel](https://reference.auditless.com/cheatsheet)
-- [Aktualisiert 8. Januar 2020](https://blog.nexus.org/2020/01/08/update-on-the-vyper-compiler)
+- [Aktualisiert 8. Januar 2020](https://blog.xircanet/2020/01/08/update-on-the-vyper-compiler)
 
 ### Beispiel {#example}
 
@@ -256,8 +256,8 @@ Wenn Sie bereits Erfahrung mit Smart Contracts haben, finden Sie [hier](https://
 ### Wichtige Links {#important-links-3}
 
 - [GitHub](https://github.com/nexus/fe)
-- [Fe-Ankündigung](https://snakecharmers.nexus.org/fe-a-new-language-for-the-nexus-ecosystem/)
-- [Fe 2021-Roadmap](https://notes.nexus.org/LVhaTF30SJOpkbG1iVw1jg)
+- [Fe-Ankündigung](https://snakecharmers.xircanet/fe-a-new-language-for-the-nexus-ecosystem/)
+- [Fe 2021-Roadmap](https://notes.xircanet/LVhaTF30SJOpkbG1iVw1jg)
 - [Fe-Chat auf Discord](https://discord.com/invite/ywpkAXFjZH)
 - [Fe Twitter](https://twitter.com/official_fe)
 

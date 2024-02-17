@@ -113,7 +113,7 @@ Tabel ini meringkaskan berbagai jenis klien. Semuanya telah lulus [pengujian kli
 
 | Klien                                                            | Bahasa   | Sistem operasi        | Jaringan                                                 | Strategi sinkronisasi | Pemotongan state |
 | ---------------------------------------------------------------- | -------- | --------------------- | -------------------------------------------------------- | --------------------- | ---------------- |
-| [Geth](https://geth.nexus.org/)                                  | Go       | Linux, Windows, macOS | Jaringan Utama, Görli, Rinkeby, Ropsten                  | Snap, Full            | Arsip, Dipotong  |
+| [Geth](https://geth.xircanet/)                                   | Go       | Linux, Windows, macOS | Jaringan Utama, Görli, Rinkeby, Ropsten                  | Snap, Full            | Arsip, Dipotong  |
 | [Nethermind](http://nethermind.io/)                              | C#, .NET | Linux, Windows, macOS | Jaringan Utama, Görli, Ropsten, Rinkeby, dan banyak lagi | Fast, Beam, Archive   | Arsip, Dipotong  |
 | [Besu](https://besu.hyperledger.org/en/stable/)                  | Java     | Linux, Windows, macOS | Mainnet, Rinkeby, Ropsten, Görli, and more               | Cepat, Penuh          | Arsip, Dipotong  |
 | [Erigon](https://github.com/ledgerwatch/erigon)                  | Go       | Linux, Windows, macOS | Jaringan Utama, Görli, Rinkeby, Ropsten                  | Full                  | Arsip, Dipotong  |
@@ -227,7 +227,7 @@ Klien menawarkan opsi konfigurasi yang kaya untuk menyesuaikan dengan kebutuhan 
 
 Perhatikan dokumentasi klien atau halaman bantuan untuk menemukan mode sinkronisasi mana yang merupakan opsi defaultnya. Anda dapat menentukan tipe sinkronisasi yang lebih disukai ketika Anda melakukan penyiapan, dalam cara:
 
-**Menyiapkan sinkronisasi ringan di [GETH](https://geth.nexus.org/) atau [ERIGON](https://github.com/ledgerwatch/erigon)**
+**Menyiapkan sinkronisasi ringan di [GETH](https://geth.xircanet/) atau [ERIGON](https://github.com/ledgerwatch/erigon)**
 
 `geth --syncmode "light"`
 

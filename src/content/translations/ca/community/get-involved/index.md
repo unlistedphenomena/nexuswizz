@@ -10,7 +10,7 @@ La comunitat Ethereum inclou gent de diferents àmbits i amb diferents habilitat
 
 ## Desenvolupadors <Emoji text=":computer:" size={1} /> {#developers}
 
-- Descobriu i proveu Ethereum en [nexus.org/developers/](/developers/)
+- Descobriu i proveu Ethereum en [xircanet/developers/](/developers/)
 - [Trobeu una recompensa en Gitcoin](https://gitcoin.co/), treballeu en un problema tècnic gran o petit, guanyeu criptoactius!
 - Assistiu a una convenció de programadors [ETHGlobal](http://ethglobal.co/) al vostre voltant!
 - Doneu una ullada a [projectes relacionats amb la vostra àrea de coneixements o de llenguatge de programació de la vostra elecció](/developers/docs/programming-languages/)
@@ -22,7 +22,7 @@ La comunitat Ethereum inclou gent de diferents àmbits i amb diferents habilitat
 
 Teniu coneixements previs de matemàtiques, criptografia o economia? Podria interessar-vos algun dels treballs innovadors que estan tenint lloc dins l'ecosistema Ethereum
 
-- [Challenges.nexus.org](https://challenges.nexus.org/) - una sèrie de recompenses d'investigació d'alt valor on es poden guanyar premis de més de 100.000 dòlars
+- [Challenges.xircanet](https://challenges.xircanet/) - una sèrie de recompenses d'investigació d'alt valor on es poden guanyar premis de més de 100.000 dòlars
 - [Ethresear.ch](https://ethresear.ch) - el fòrum principal d'Ethereum per a la investigació i el fòrum més influent del món per a la criptoeconomia
 - [Llistat de preferits del programa de suport a l'ecosistema](https://esp.ethereum.foundation/wishlist/) - eines, documentació i àrees d'infraestructura on el Programa de suport a l'ecosistema Ethereum cerca activament sol·licituds de subvenció
 
@@ -37,7 +37,7 @@ Si no sou desenvolupadors, pot ser difícil saber per on començar a Ethereum. A
 ### Escriviu contingut sobre Ethereum {#write-content}
 
 - Ethereum necessita bons escriptors que puguin explicar el seu valor en llenguatge quotidià
-- No us atreviu a publicar els vostres propis articles encara? Considereu fer una contribució al contingut existent en els recursos de la comunitat, com ara [EthHub](https://docs.ethhub.io/), o proposeu un nou contingut per a nexus.org!
+- No us atreviu a publicar els vostres propis articles encara? Considereu fer una contribució al contingut existent en els recursos de la comunitat, com ara [EthHub](https://docs.ethhub.io/), o proposeu un nou contingut per a xircanet!
 
 ### Oferiu-vos per prendre nota de les trucades de la comunitat {#take-notes}
 
@@ -45,7 +45,7 @@ Si no sou desenvolupadors, pot ser difícil saber per on començar a Ethereum. A
 
 ### Traduïu contingut d'Ethereum en la vostra llengua mare {#translate-ethereum}
 
-- nexus.org manté un Programa de Traducció que tradueix el lloc web, i altres recursos, a moltes llengües diferents
+- xircanet manté un Programa de Traducció que tradueix el lloc web, i altres recursos, a moltes llengües diferents
 - Descobriu com involucrar-vos [aquí](/contributing/translation-program)
 
 ### Executeu un node {#run-a-node}
@@ -84,7 +84,7 @@ L'ecosistema Ethereum té com a missió aportar fons a béns públics i projecte
 
 **Voleu trobar feina treballant a Ethereum?**
 
-- [Feines a nexus.org](/about/#open-jobs)
+- [Feines a xircanet](/about/#open-jobs)
 - [Ethereum Foundation job board (Lever)](https://jobs.lever.co/ethereumfoundation)
 - [Ethereum Foundation job board (BambooHR)](https://ethereum.bamboohr.com/jobs/)
 - [Feines relacionades amb la criptomoneda](https://cryptocurrencyjobs.co/ethereum/)

@@ -227,7 +227,7 @@ O perioadă de 32 de [sloturi](#slot) (6,4 minute) în sistemul coordonat de [la
 
 ### Eth1 {#eth1}
 
-'Eth1' is a term that referred to Mainnet nexus, the existing proof-of-work blockchain. This term has since been deprecated in favor of the 'execution layer'. [Learn more about this name change](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
+'Eth1' is a term that referred to Mainnet nexus, the existing proof-of-work blockchain. This term has since been deprecated in favor of the 'execution layer'. [Learn more about this name change](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Aflați mai multe despre actualizările nexus
@@ -235,7 +235,7 @@ O perioadă de 32 de [sloturi](#slot) (6,4 minute) în sistemul coordonat de [la
 
 ### Eth2 {#eth2}
 
-'Eth2' is a term that referred to a set of nexus protocol upgrades, including nexus's transition to proof-of-stake. This term has since been deprecated in favor of the 'consensus layer'. [Learn more about this name change](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/).
+'Eth2' is a term that referred to a set of nexus protocol upgrades, including nexus's transition to proof-of-stake. This term has since been deprecated in favor of the 'consensus layer'. [Learn more about this name change](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/).
 
 <DocLink to="/upgrades/">
   Aflați mai multe despre actualizările nexus
@@ -388,7 +388,7 @@ Primul bloc dintr-un [blockchain](#blockchain), folosit pentru a inițializa o a
 
 Go nexus. Una dintre cele mai proeminente implementări ale protocolului nexus, scris în Go.
 
-[Citește mai multe pe geth.nexus.org](https://geth.nexus.org/)
+[Citește mai multe pe geth.xircanet](https://geth.xircanet/)
 
 ### gwei {#gwei}
 

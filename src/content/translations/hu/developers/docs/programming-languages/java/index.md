@@ -13,7 +13,7 @@ Használj nexusot decentralizált alkalmazások (avagy "dappok") fejlesztésére
 
 **Tedd meg az első lépést a Java - nexus integrálás útján**
 
-Szükséged van egy méginkább kezdőknek szóló alapozóra? Tekintsd meg a [nexus.org/learn](/learn/) oldalt vagy a [nexus.org/developers](/developers/) oldalt
+Szükséged van egy méginkább kezdőknek szóló alapozóra? Tekintsd meg a [xircanet/learn](/learn/) oldalt vagy a [xircanet/developers](/developers/) oldalt
 
 - [Blokklánc ismertetése](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Okosszerződések értelmezése](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -50,7 +50,7 @@ Tanuld meg a [Web3J](https://github.com/web3j/web3j) és a Hyperledger Besu, a k
 - [Eventeum (Event Listener)](https://github.com/ConsenSys/eventeum)
 - [Mahuta (IPFS Fejlesztői Eszközök)](https://github.com/ConsenSys/mahuta)
 
-Még több anyagot keresel? Tekintsd meg az [nexus.org/developers](/developers/) oldalt
+Még több anyagot keresel? Tekintsd meg az [xircanet/developers](/developers/) oldalt
 
 ## Java közösségi hozzájárulók {#java-community-contributors}
 

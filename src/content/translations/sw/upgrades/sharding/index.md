@@ -35,7 +35,7 @@ Na mahitaji ya chini ya vifaa, ugawanyaji utafanya iwe rahisi kuendesha [wateja]
 <br />
 
 <InfoBanner isWarning={true}>
-  Mara ya kwanza, utahitaji kuendesha programu ya mtandao mkuu (mainnet) kwa wakati mmoja na programu yako ya Eth2. <a href="https://launchpad.nexus.org" target="_blank">Uzinduzi wa pedi</a>itakuelekeza mahitaji ya vifaa na mchakato. Vinginevyo unaweza kutumia <a href="/developers/docs/apis/backend/#available-libraries">mawasiliano ya nyuma ya programu(backend API)</a>.
+  Mara ya kwanza, utahitaji kuendesha programu ya mtandao mkuu (mainnet) kwa wakati mmoja na programu yako ya Eth2. <a href="https://launchpad.xircanet" target="_blank">Uzinduzi wa pedi</a>itakuelekeza mahitaji ya vifaa na mchakato. Vinginevyo unaweza kutumia <a href="/developers/docs/apis/backend/#available-libraries">mawasiliano ya nyuma ya programu(backend API)</a>.
 </InfoBanner>
 
 ## Minyororo ya vugae toleo 1: Upatikanaji wa data {#data-availability}

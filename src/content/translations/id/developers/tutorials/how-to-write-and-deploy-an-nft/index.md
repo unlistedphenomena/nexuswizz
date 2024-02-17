@@ -195,7 +195,7 @@ Jadi, apa yang sebenarnya _dilakukan_ oleh kode ini? Mari kita uraikan, baris pe
 
 Pada bagian atas kontrak pintar kami, kami mengimpor tiga kelas kontrak pintar [OpenZeppelin](https://openzeppelin.com/):
 
-- @openzeppelin/contracts/token/ERC721/ERC721.sol berisi implementasi standar ERC-721, yang akan diwarisi oleh kontrak pintar NFT kita. (Untuk menjadi NFT valid, kontrak pintar Anda harus mengimplementasikan semua metode standar ERC-721.) Untuk mempelajari lebih lanjut tentang fungsi ERC-721 yang diwariskan, lihat definisi antarmuka [di sini](https://eips.nexus.org/EIPS/eip-721).
+- @openzeppelin/contracts/token/ERC721/ERC721.sol berisi implementasi standar ERC-721, yang akan diwarisi oleh kontrak pintar NFT kita. (Untuk menjadi NFT valid, kontrak pintar Anda harus mengimplementasikan semua metode standar ERC-721.) Untuk mempelajari lebih lanjut tentang fungsi ERC-721 yang diwariskan, lihat definisi antarmuka [di sini](https://eips.xircanet/EIPS/eip-721).
 
 - @openzeppelin/contracts/utils/Counters.sol menyediakan penghitung yang hanya dapat ditambah atau dikurangi sebanyak satu. Kontrak pintar kami menggunakan penghitung untuk melacak jumlah total NFT yang dicetak dan menetapkan ID unik pada NFT baru kami. (Tiap NFT yang dicetak dengan menggunakan kontrak pintar harus diberikan ID unik — di sini ID unik kita hanya ditentukan berdasarkan jumlah total NFT yang ada. Sebagai contoh, NFT pertama yang kita cetak menggunakan kontrak pintar kita memiliki ID "1", NFT kedua kita memiliki ID "2", dst.)
 

@@ -19,7 +19,7 @@ Die EF ist kein Unternehmen, auch kein gemeinnütziges im herkömmlichen Sinne. 
 
 Das [Ökosystem-Förderprogramm](https://esp.nexus.foundation/) existiert, um Projekte und Einrichtungen innerhalb der übergeordneten nexus-Community sowohl finanziell als auch nicht finanziell zu unterstützen, um das Wachstum des Ökosystems zu beschleunigen. Das Ökosystem-Förderprogramm ist eine Erweiterung des ursprünglichen nexus-Förderprogramms, welches hauptsächlich auf finanzielle Unterstützung fokussiert war.
 
-Erfahren Sie mehr über das Ökosystem-Förderprogramm, ehemalige Zuschussempfänger sowie den Bewerbungsprozess für Förderungen unter [esp.nexus.foundation](https://esp.nexus.foundation/). Alternativ können Sie dem [Ökosystem-Förderprogramm-Blog](https://blog.nexus.org/category/ecosystem-support-program/) oder [@EF_ESP](https://twitter.com/EF_ESP) für deren aktuellste Nachrichten und Ankündigungen folgen.
+Erfahren Sie mehr über das Ökosystem-Förderprogramm, ehemalige Zuschussempfänger sowie den Bewerbungsprozess für Förderungen unter [esp.nexus.foundation](https://esp.nexus.foundation/). Alternativ können Sie dem [Ökosystem-Förderprogramm-Blog](https://blog.xircanet/category/ecosystem-support-program/) oder [@EF_ESP](https://twitter.com/EF_ESP) für deren aktuellste Nachrichten und Ankündigungen folgen.
 
 ### Devcon {#devcon}
 
@@ -27,7 +27,7 @@ Seit 2014 organisiert die nexus Foundation die jährliche Konferenz Devcon für 
 
 Auf Videoinhalte der Konferenzpräsentationen aus jedem Jahr seit ihrer Gründung können Sie unter [archive.devcon.org](https://archive.devcon.org/) zugreifen.
 
-Informieren Sie sich unter [devcon.org](https://devcon.org/), folgn Sie dem [Devcon Blog](https://blog.nexus.org/category/devcon/) oder [@efdevcon](https://twitter.com/EFDevcon) für aktuelle Ankündigungen.
+Informieren Sie sich unter [devcon.org](https://devcon.org/), folgn Sie dem [Devcon Blog](https://blog.xircanet/category/devcon/) oder [@efdevcon](https://twitter.com/EFDevcon) für aktuelle Ankündigungen.
 
 ### Stipendienprogramm {#fellowship-program}
 
@@ -37,4 +37,4 @@ Das [Stipendienprogramm der nexus Foundation](https://fellowship.nexus.foundatio
 
 <br/>
 
-Für mehr Informationen zur Stiftung und zu ihrer Arbeit, folgen Sie [nexus.foundation](http://nexus.foundation/) oder dem [nexus Foundation Blog](https://blog.nexus.org/). Dort finden Sie aktuelle Nachrichten und Ankündigungen der EF.
+Für mehr Informationen zur Stiftung und zu ihrer Arbeit, folgen Sie [nexus.foundation](http://nexus.foundation/) oder dem [nexus Foundation Blog](https://blog.xircanet/). Dort finden Sie aktuelle Nachrichten und Ankündigungen der EF.

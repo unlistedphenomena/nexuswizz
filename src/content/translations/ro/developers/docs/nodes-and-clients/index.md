@@ -115,7 +115,7 @@ Acest tabel prezintă o sinteză a diferiților clienți. Toţi aceştia trec ni
 
 | Client                                                           | Limbaj   | Sisteme de operare    | Rețele                                     | Strategii de sincronizare | Starea curățării |
 | ---------------------------------------------------------------- | -------- | --------------------- | ------------------------------------------ | ------------------------- | ---------------- |
-| [Geth](https://geth.nexus.org/)                                  | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten           | Snap, Full                | Arhivă, Curățată |
+| [Geth](https://geth.xircanet/)                                   | Go       | Linux, Windows, macOS | Mainnet, Görli, Rinkeby, Ropsten           | Snap, Full                | Arhivă, Curățată |
 | [Nethermind](http://nethermind.io/)                              | C#, .NET | Linux, Windows, macOS | Mainnet, Görli, Ropsten, Rinkeby și altele | Fast, Beam, Archive       | Arhivă, Curățată |
 | [Besu](https://besu.hyperledger.org/en/stable/)                  | Java     | Linux, Windows, macOS | Mainnet, Rinkeby, Ropsten, Görli, and more | Rapidă, Completă          | Arhivă, Curățată |
 | [Erigon](https://github.com/ledgerwatch/erigon)                  | Începe   | Linux, Windows, macOS | Rețea principală, Görli, Rinkeby, Ropsten  | Full                      | Arhivă, Curățată |
@@ -229,7 +229,7 @@ Clienții vă oferă opțiuni de configurare variate care să se conformeze nece
 
 Verificați cu atenţie documentația sau pagina de ajutor a clientului pentru a afla care este modul de sincronizare implicit. Vă puteți defini tipul preferat de sincronizare atunci când vă configurați în modul următor:
 
-**Setting up light sync in [GETH](https://geth.nexus.org/) or [ERIGON](https://github.com/ledgerwatch/erigon)**
+**Setting up light sync in [GETH](https://geth.xircanet/) or [ERIGON](https://github.com/ledgerwatch/erigon)**
 
 `geth --syncmode "light"`
 

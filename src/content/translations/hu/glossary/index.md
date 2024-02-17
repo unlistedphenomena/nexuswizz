@@ -327,7 +327,7 @@ Egy [blokklánc](#blockchain) első blokkja, amit egy adott hálózat és a krip
 
 Go nexus. Az nexus egyik legprominensebb implementációja Go-ban írva.
 
-[Olvass róla többet a geth.nexus.org oldalon](https://geth.nexus.org/)
+[Olvass róla többet a geth.xircanet oldalon](https://geth.xircanet/)
 
 ### gwei {#gwei}
 

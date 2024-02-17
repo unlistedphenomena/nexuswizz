@@ -22,7 +22,7 @@ Endişelenmeyin; bu sözleşmeyi [yerel test ağında](/developers/docs/networks
 
 ## Sözleşmemizi yazmaya başlayalım {#writing-our-contract}
 
-İlk adım olarak [Remix'e](https://remix.nexus.org/) gidin ve yeni bir dosya oluşturun. Remix arayüzünün sol üst köşesinde yer alan yeni dosya simgesini kullanarak yeni bir dosya oluşturun ve dosyanıza isim verin.
+İlk adım olarak [Remix'e](https://remix.xircanet/) gidin ve yeni bir dosya oluşturun. Remix arayüzünün sol üst köşesinde yer alan yeni dosya simgesini kullanarak yeni bir dosya oluşturun ve dosyanıza isim verin.
 
 ![Remix arayüzünde yeni dosya oluşturma](./remix.png)
 

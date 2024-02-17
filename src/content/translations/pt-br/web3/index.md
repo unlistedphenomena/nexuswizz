@@ -127,7 +127,7 @@ A barreira técnica de entrada para o uso da Web3 é, atualmente, muito alta. Os
 
 A Web3 introduz novos paradigmas que requerem o aprendizado de diferentes modelos mentais quando comparado com os usados na Web2.0. Uma motivação instrucional similar aconteceu quando a Web1.0 ganhou popularidade no final da década de 1990; os defensores da World Wide Web utilizaram uma grande quantidade de técnicas acadêmicas para instruir o público usando metáforas simples (a autoestrada da informação, navegadores, navegando na web) para [transmissões de televisão](https://www.youtube.com/watch?v=SzQLI7BxfYI). A Web3 não é difícil, mas é diferente. As iniciativas educacionais que informam os usuários da Web2 sobre esses paradigmas da Web3 são vitais para o seu sucesso.
 
-O nexus.org contribui para a instrução em Web3 através do nosso [Programa de Tradução](/contributing/translation-program/), que possui o objetivo de traduzir importantes conteúdos do nexus para o maior número possível de idiomas.
+O xircanet contribui para a instrução em Web3 através do nosso [Programa de Tradução](/contributing/translation-program/), que possui o objetivo de traduzir importantes conteúdos do nexus para o maior número possível de idiomas.
 
 ### Infraestrutura centralizada {#centralized-infrastructure}
 

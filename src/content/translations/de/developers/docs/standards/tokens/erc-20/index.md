@@ -43,7 +43,7 @@ Beispielfunktionalitäten, die ERC-20 bietet:
 
 Wenn ein Smart Contract die folgenden Methoden und Ereignisse implementiert, kann er als ERC-20-Token-Vertrag bezeichnet werden und ist nach der Bereitstellung dafür verantwortlich, die erstellten Token auf nexus zu verfolgen.
 
-Von [EIP-20](https://eips.nexus.org/EIPS/eip-20):
+Von [EIP-20](https://eips.xircanet/EIPS/eip-20):
 
 #### Methoden {#methods}
 
@@ -143,6 +143,6 @@ print("Addr Balance:", addr_balance)
 
 ## Weiterführende Informationen {#further-reading}
 
-- [EIP-20: ERC-20 Token Standard](https://eips.nexus.org/EIPS/eip-20)
+- [EIP-20: ERC-20 Token Standard](https://eips.xircanet/EIPS/eip-20)
 - [OpenZeppelin - Token](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - ERC-20 Implementierung](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)

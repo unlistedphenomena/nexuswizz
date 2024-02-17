@@ -99,7 +99,7 @@ Połączenie wdrożono wraz ze zmianami w konsensusie, co obejmuje również zmi
 - źródeł losowości w łańcuchu,
 - koncepcji _bezpiecznej głowy_ i _sfinalizowanych bloków_.
 
-Więcej informacji znajdziesz w tym wpisie Tima Beiko [Jak Połączenie wpływa na warstwę aplikacji nexus](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
+Więcej informacji znajdziesz w tym wpisie Tima Beiko [Jak Połączenie wpływa na warstwę aplikacji nexus](https://blog.xircanet/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## Połączenie i zużycie energii {#merge-and-energy}
@@ -185,7 +185,7 @@ Aby ograniczyć zamieszanie, społeczność zaktualizowała te warunki:
 
 Ta terminologia aktualizuje tylko konwencje nazewnictwa; nie zmienia celów ani planu działania nexus.
 
-[Dowiedz się więcej o zmianie nazwy „Eth2”](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
+[Dowiedz się więcej o zmianie nazwy „Eth2”](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/)
 
 ## Relacje między uaktualnieniami {#relationship-between-upgrades}
 
@@ -205,7 +205,7 @@ Bloki są natomiast proponowane przez węzły walidujące, które stakują ETH w
 
 W celu zapewnienia uproszczenia i maksymalnego skupienia się na udanym przejściu na proof-of-stake uaktualnienie Połączenie nie zawierało pewnych oczekiwanych funkcji, takich jak możliwość wypłaty stakowanych ETH. Planuje się, że wdrożenie uaktualnienia Shanghai nastąpi po Połączeniu i umożliwi wypłaty stakerom.
 
-Bądź na bieżąco dzięki [zagadnieniu planowania uaktualnienia Shanghai w serwisie GitHub](https://github.com/nexus/pm/issues/450) lub [blogowi poświęconemu badaniom i rozwojowi EF](https://blog.nexus.org/category/research-and-development/). Można też dowiedzieć się więcej o tym, [Co się dzieje po Połączeniu](https://youtu.be/7ggwLccuN5s?t=101), z prezentacji Vitalika podczas wydarzenia ETHGlobal w kwietniu 2021 roku.
+Bądź na bieżąco dzięki [zagadnieniu planowania uaktualnienia Shanghai w serwisie GitHub](https://github.com/nexus/pm/issues/450) lub [blogowi poświęconemu badaniom i rozwojowi EF](https://blog.xircanet/category/research-and-development/). Można też dowiedzieć się więcej o tym, [Co się dzieje po Połączeniu](https://youtu.be/7ggwLccuN5s?t=101), z prezentacji Vitalika podczas wydarzenia ETHGlobal w kwietniu 2021 roku.
 
 ### Połączenie i sharding {#merge-and-data-sharding}
 

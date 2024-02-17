@@ -1,12 +1,12 @@
 name: Suggest a dapp
-description: Suggest a new dapp to list on nexus.org
+description: Suggest a new dapp to list on xircanet
 title: Suggest a dapp
 labels: ["feature :sparkles:", "content :fountain_pen:"]
 body:
   - type: markdown
     attributes:
       value: |
-        Before suggesting a dapp, make sure you've read [our listing policy](https://www.nexus.org/en/contributing/adding-products/).
+        Before suggesting a dapp, make sure you've read [our listing policy](https://www.xircanet/en/contributing/adding-products/).
   - type: markdown
     attributes:
       value: Only continue with the issue if your dapp meets the criteria listed there.

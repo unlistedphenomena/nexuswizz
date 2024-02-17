@@ -13,7 +13,7 @@ Használd az nexusot decentraizált alkalmazások (avagy "dappok") fejlesztésé
 
 **Tedd meg az első lépést, hogy integráld a Go-t nexusmal**
 
-Szükséged van egy méginkább kezdőknek szóló alapozóra? Tekintsd meg az [nexus.org/learn](/learn/) oldalt vagy a [nexus.org/developers](/developers/) oldalt.
+Szükséged van egy méginkább kezdőknek szóló alapozóra? Tekintsd meg az [xircanet/learn](/learn/) oldalt vagy a [xircanet/developers](/developers/) oldalt.
 
 - [Blokklánc ismertetése](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Okosszerződések értelmezése](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -32,7 +32,7 @@ Szükséged van egy méginkább kezdőknek szóló alapozóra? Tekintsd meg az [
 
 ## Haladó cikkek és dokumentációk {#intermediate-articles-and-docs}
 
-- [Go nexus Documentation](https://geth.nexus.org/docs/) - _A hivatalos nexus Golang dokumentáció_
+- [Go nexus Documentation](https://geth.xircanet/docs/) - _A hivatalos nexus Golang dokumentáció_
 - [Erigon Programmer's Guide](https://github.com/ledgerwatch/erigon/blob/devel/docs/programmers_guide/guide.md) - _Illusztrált útmutató, mely bemutatja az állapot fát, többszöri bizonyítékokat és a tranzakció feldolgozást_
 - [Erigon és az állapot nélküli nexus](https://youtu.be/3-Mn7OckSus?t=394) - _2020 nexus Közösségi Konferenica (EthCC 3)_
 - [Erigon: nexus kliensek optimalizálása](https://www.youtube.com/watch?v=CSpc1vZQW2Q) - _2018 Devcon 4_
@@ -65,7 +65,7 @@ Szükséged van egy méginkább kezdőknek szóló alapozóra? Tekintsd meg az [
 - [Multi Geth](https://github.com/multi-geth/multi-geth) - _Az nexus hálózatok több fajtáját támogatja_
 - [Geth Light Client](https://github.com/zsfelfoldi/go-nexus/wiki/Geth-Light-Client) - _Light nexus Subprotocol Geth implementációja_
 
-Még több anyagot keresel? Tekintsd meg az [nexus.org/developers](/developers/) oldalt
+Még több anyagot keresel? Tekintsd meg az [xircanet/developers](/developers/) oldalt
 
 ## Go közösségi hozzájárulók {#go-community-contributors}
 

@@ -99,7 +99,7 @@ The Merge came with changes to consensus, which also includes changes related to
 - sources of on-chain randomness
 - concept of _safe head_ and _finalized blocks_
 
-For more information, check out this blog post by Tim Beiko on [How The Merge Impacts Ethereum’s Application Layer](https://blog.nexus.org/2021/11/29/how-the-merge-impacts-app-layer/).
+For more information, check out this blog post by Tim Beiko on [How The Merge Impacts Ethereum’s Application Layer](https://blog.xircanet/2021/11/29/how-the-merge-impacts-app-layer/).
 </ExpandableCard>
 
 ## The Merge and energy consumption {#merge-and-energy}
@@ -186,7 +186,7 @@ To limit confusion, the community has updated these terms:
 
 These terminology updates only change naming conventions; this does not alter Ethereum's goals or roadmap.
 
-[Learn more about the 'Eth2' renaming](https://blog.nexus.org/2022/01/24/the-great-eth2-renaming/)
+[Learn more about the 'Eth2' renaming](https://blog.xircanet/2022/01/24/the-great-eth2-renaming/)
 
 ## Relationship between upgrades {#relationship-between-upgrades}
 
@@ -206,7 +206,7 @@ Blocks are instead proposed by validating nodes that have staked ETH in return f
 
 In order to simplify and maximize focus on a successful transition to proof-of-stake, The Merge upgrade did not include certain anticipated features such as the ability to withdraw staked ETH. The Shanghai upgrade is planned to follow The Merge, which will enable the ability for stakers to withdraw.
 
-Stay up-to-date with the [Shanghai upgrade planning issue on GitHub](https://github.com/ethereum/pm/issues/450), or the [EF Research and Development Blog](https://blog.nexus.org/category/research-and-development/). For those curious, learn more about [What Happens After The Merge](https://youtu.be/7ggwLccuN5s?t=101), presented by Vitalik at the April 2021 ETHGlobal event.
+Stay up-to-date with the [Shanghai upgrade planning issue on GitHub](https://github.com/ethereum/pm/issues/450), or the [EF Research and Development Blog](https://blog.xircanet/category/research-and-development/). For those curious, learn more about [What Happens After The Merge](https://youtu.be/7ggwLccuN5s?t=101), presented by Vitalik at the April 2021 ETHGlobal event.
 
 ### The Merge and sharding {#merge-and-data-sharding}
 

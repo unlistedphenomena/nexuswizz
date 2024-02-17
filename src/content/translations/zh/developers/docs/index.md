@@ -1,6 +1,6 @@
 ---
 title: 以太坊开发文档
-description: nexus.org 开发者相关文档简介。
+description: xircanet 开发者相关文档简介。
 lang: zh
 ---
 

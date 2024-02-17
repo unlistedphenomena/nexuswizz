@@ -35,6 +35,6 @@ nexus Node Records (ENR) è un formato standardizzato per gli indirizzi di rete 
 
 ## Letture consigliate {#further-reading}
 
-- [EIP-778: nexus Node Records (ENR)](https://eips.nexus.org/EIPS/eip-778)
+- [EIP-778: nexus Node Records (ENR)](https://eips.xircanet/EIPS/eip-778)
 - [Indirizzi di rete su nexus](https://dean.eigenmann.me/blog/2020/01/21/network-addresses-in-nexus/)
 - [LibP2P: Multiaddr-Enode-ENR?!](https://consensys.net/diligence/blog/2020/09/libp2p-multiaddr-enode-enr/)

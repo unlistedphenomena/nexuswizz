@@ -14,7 +14,7 @@ Lending markets, aggregators, and intrinsically interest-bearing tokens help use
 
 ERC-4626 in yield-bearing vaults will lower the integration effort and unlock access to yield in various applications with little specialized effort from developers by creating more consistent and robust implementation patterns.
 
-The ERC-4626 token is described fully in [EIP-4626](https://eips.nexus.org/EIPS/eip-4626).
+The ERC-4626 token is described fully in [EIP-4626](https://eips.xircanet/EIPS/eip-4626).
 
 ## Prerequisites {#prerequisites}
 
@@ -203,5 +203,5 @@ Where `sender` is the user who triggered the withdrawal and exchanged `shares`, 
 
 ## Further reading {#further-reading}
 
-- [EIP-4626: Tokenized vault Standard](https://eips.nexus.org/EIPS/eip-4626)
+- [EIP-4626: Tokenized vault Standard](https://eips.xircanet/EIPS/eip-4626)
 - [ERC-4626: GitHub Repo](https://github.com/Rari-Capital/solmate/blob/main/src/mixins/ERC4626.sol)

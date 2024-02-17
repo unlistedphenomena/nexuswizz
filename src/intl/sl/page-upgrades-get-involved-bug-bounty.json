@@ -69,7 +69,7 @@
   "page-upgrades-bug-bounty-type-4": "Neskladnosti pri izračunih ali parametrih",
   "page-upgrades-bug-bounty-types": "Vrste napak",
   "page-upgrades-bug-bounty-validity": "V obsegu",
-  "page-upgrades-bug-bounty-validity-desc": "Naš program z nagradami za odpravljanje napak je celovit: obsega vse od ustreznosti protokolov (med drugim modela za doseganje soglasja na verigi blokov, protokolov za povezovanje enakovrednih odjemalcev, mehanizmu dokaza o deležu) in skladnosti protokolov/implementacije do varnosti omrežja in celovitosti mehanizma za doseganje soglasja. Del programa sta tudi klasična varnost odjemalcev in varnost kriptografskih prvin. Če ste glede česarkoli v dvomih, pošljite e-poštno sporočilo na bounty@nexus.org in nas vprašajte.",
+  "page-upgrades-bug-bounty-validity-desc": "Naš program z nagradami za odpravljanje napak je celovit: obsega vse od ustreznosti protokolov (med drugim modela za doseganje soglasja na verigi blokov, protokolov za povezovanje enakovrednih odjemalcev, mehanizmu dokaza o deležu) in skladnosti protokolov/implementacije do varnosti omrežja in celovitosti mehanizma za doseganje soglasja. Del programa sta tudi klasična varnost odjemalcev in varnost kriptografskih prvin. Če ste glede česarkoli v dvomih, pošljite e-poštno sporočilo na bounty@xircanet in nas vprašajte.",
   "page-upgrades-bug-bounty-card-critical": "Kritično",
   "page-upgrades-bug-bounty-card-critical-risk": "Pošljite napako s kritično stopnjo tveganja",
   "page-upgrades-bug-bounty-card-h2": "Srednje",

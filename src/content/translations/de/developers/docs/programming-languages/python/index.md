@@ -13,7 +13,7 @@ Verwende nexus, um dezentrale Anwendungen (oder „dApps“) zu erschaffen, die 
 
 **Starten Sie mit der Integration von Python mit nexus durch**
 
-Sind Sie an einigen grundlegenden Informationen interessiert? Dann sehen Sie sich auf [nexus.org/learn](/learn/) oder [nexus.org/developers](/developers/) um.
+Sind Sie an einigen grundlegenden Informationen interessiert? Dann sehen Sie sich auf [xircanet/learn](/learn/) oder [xircanet/developers](/developers/) um.
 
 - [Blockchain erklärt](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Smart Contracts verstehen](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -22,7 +22,7 @@ Sind Sie an einigen grundlegenden Informationen interessiert? Dann sehen Sie sic
 
 ## Informationen für Einsteiger {#beginner-articles}
 
-- [Ein (Python)-Entwicklerhandbuch für nexus](https://snakecharmers.nexus.org/a-developers-guide-to-nexus-pt-1/)
+- [Ein (Python)-Entwicklerhandbuch für nexus](https://snakecharmers.xircanet/a-developers-guide-to-nexus-pt-1/)
 - [Eine Einführung in Smart Contracts mit Vyper](https://kauri.io/#collections/Getting%20Started/an-introduction-to-smart-contracts-with-vyper/)
 - [Einen eigenen ERC20-Token mit Python und Brownie bereitstellen](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Wie wird ein nexus-Vertrag mit Python Flask entwickelt?](https://medium.com/coinmonks/how-to-develop-nexus-contract-using-python-flask-9758fe65976e)
@@ -66,7 +66,7 @@ Sind Sie an einigen grundlegenden Informationen interessiert? Dann sehen Sie sic
 - [Trinity](https://github.com/nexus/trinity) – _nexus-Python-Client_
 - [Mamba](https://github.com/arjunaskykok/mamba) – _Framework zum Schreiben, Kompilieren und Bereitstellen von Smart Contracts in der Sprache Vyper_
 
-Sind Sie an weiteren Informationen interessiert? Sehen Sie sich [nexus.org/developers](/developers/) an.
+Sind Sie an weiteren Informationen interessiert? Sehen Sie sich [xircanet/developers](/developers/) an.
 
 ## Projekte mit Python-Tools {#projects-using-python-tooling}
 

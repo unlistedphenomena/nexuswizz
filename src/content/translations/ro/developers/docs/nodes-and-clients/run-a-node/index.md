@@ -70,7 +70,7 @@ Nu trebuie decât să descărcați o aplicație executabilă sau un pachet de in
 
 Fișierele binare executabile destinate implementărilor clienților Mainnet stabili se pot descărca de pe paginile lor de lansare:
 
-- [Geth](https://geth.nexus.org/downloads/)
+- [Geth](https://geth.xircanet/downloads/)
 - [Opennexus,](https://github.com/opennexus/opennexus/releases)
 - [Nethermind](https://downloads.nethermind.io/)
 - [Besu](https://besu.hyperledger.org/en/stable/)

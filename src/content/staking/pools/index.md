@@ -39,7 +39,7 @@ Each pool and the tools or smart contracts they use have been built out by diffe
 
 However, these liquid staking derivatives tend to create cartel-like behaviours where a large amount of staked ETH ends up under the control of a few centralized organizations rather than spread across many independent individuals. This creates conditions for censorship or value extraction. The gold standard for staking should always be individuals running validators on their own hardware whenever possible.
 
-[More on risks of staking tokens](https://notes.nexus.org/@djrtwo/risks-of-lsd).
+[More on risks of staking tokens](https://notes.xircanet/@djrtwo/risks-of-lsd).
 
 Attribute indicators are used below to signal notable strengths or weaknesses a listed staking pool may have. Use this section as a reference for how we define these attributes while you're choosing a pool to join.
 

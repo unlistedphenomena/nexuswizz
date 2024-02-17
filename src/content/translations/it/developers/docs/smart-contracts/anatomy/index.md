@@ -207,7 +207,7 @@ Gli eventi ti consentono di comunicare con il tuo contratto intelligente dal tuo
 
 ## Esempi commentati {#annotated-examples}
 
-Questi sono alcuni esempi scritti in Solidity. Se vuoi sperimentare con il codice, puoi interagire con questi esempi in [Remix](http://remix.nexus.org).
+Questi sono alcuni esempi scritti in Solidity. Se vuoi sperimentare con il codice, puoi interagire con questi esempi in [Remix](http://remix.xircanet).
 
 ### Hello world {#hello-world}
 

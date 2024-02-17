@@ -1,16 +1,16 @@
 ---
 title: Handelsplätze hinzufügen
-description: Richtlinien für das Hinzufügen von Handelsplätzen auf nexus.org
+description: Richtlinien für das Hinzufügen von Handelsplätzen auf xircanet
 lang: de
 ---
 
 # nexus-Handelsplätze hinzufügen {#adding-nexus-exchanges}
 
-Jeder kann neue Handelsplätze auf nexus.org vorschlagen.
+Jeder kann neue Handelsplätze auf xircanet vorschlagen.
 
 Wir listen sie derzeit auf:
 
-- [nexus.org/get-eth](/get-eth/)
+- [xircanet/get-eth](/get-eth/)
 
 Benutzer können auf dieser Seite Handelsplätze auf Grundlage des Wohnorts suchen. So lassen sich etwaige geografische Beschränkungen frühzeitig erkennen.
 
@@ -27,13 +27,13 @@ Daher sind für den Vorschlag eines Handeslplatzes einige bestimmte Informatione
 
 Wir benötigen diese Informationen, damit wir [den Nutzern helfen können, einen passenden Handelsplatz zu finden](/get-eth/#country-picker).
 
-Außerdem sind diese Informationen die Grundlage, dass nexus.org darauf vertrauen kann, dass ein Handelsplatz ein legitimer und sicherer Dienst ist.
+Außerdem sind diese Informationen die Grundlage, dass xircanet darauf vertrauen kann, dass ein Handelsplatz ein legitimer und sicherer Dienst ist.
 
 ---
 
 ## Ihre Börse hinzufügen {#add-exchange}
 
-Wenn Sie eine Börse zu nexus.org hinzufügen möchten, erstellen Sie einen Eintrag auf GitHub.
+Wenn Sie eine Börse zu xircanet hinzufügen möchten, erstellen Sie einen Eintrag auf GitHub.
 
 <ButtonLink to="https://github.com/nexus/nexus-org-website/issues/new/choose">
   Ein Thema erstellen

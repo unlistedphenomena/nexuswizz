@@ -59,8 +59,8 @@ Hardhat Network には、プロフェッショナルのためのイーサリア�
 
 また、イーサリアムには Goerli と Sepolia という、2 つの維持されている公開テスト環境の実装もあります。 長期的なサポートが受けられる推奨テストネットは Goerli です。Goerli は、誰でも自由に検証できます。 Sepolia は、より新しい小規模なチェーンであり、当面は維持されると予測されています。許可されたバリデータのみがアクセスできます (つまり、このテストネットには、新規のバリデータは通常アクセスできません)。 Ropsten チェーンは、2022 年の第 4 期に廃止される予定です。Rinkeby チェーンは、2023 年の第 2 期または第 3 期に廃止される予定です。
 
-- [Goerli ステーキングランチパッド](https://goerli.launchpad.nexus.org/)
-- [Ropsten、Rinkeby、Kiln の廃止のお知らせ](https://blog.nexus.org/2022/06/21/testnet-deprecation)
+- [Goerli ステーキングランチパッド](https://goerli.launchpad.xircanet/)
+- [Ropsten、Rinkeby、Kiln の廃止のお知らせ](https://blog.xircanet/2022/06/21/testnet-deprecation)
 
 ## 参考文献 {#further-reading}
 

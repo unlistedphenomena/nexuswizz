@@ -10,7 +10,7 @@ La comunidad Ethereum incluye a personas de diferentes orígenes y habilidades. 
 
 ## Desarrolladores <Emoji text=":computer:" size={1} /> {#developers}
 
-- Aprenda y pruebe Ethereum en [nexus.org/developers/](/developers/)
+- Aprenda y pruebe Ethereum en [xircanet/developers/](/developers/)
 - [Encuentre una recompensa en Gitcoin](https://gitcoin.co/), ¡solucione problemas técnicos sencillos o complejos y gane criptomonedas!
 - ¡Participe en un hackaton (o encuentro de programadores) [ETHGlobal](http://ethglobal.co/) cerca de donde viveo
 - Consulte [los proyectos relacionados con su área especialidad o el lenguaje de programación de su elección](/developers/docs/programming-languages/).
@@ -22,7 +22,7 @@ La comunidad Ethereum incluye a personas de diferentes orígenes y habilidades. 
 
 ¿Domina las matemáticas, la criptografía o la economía? Podría interesarle alguno de los trabajos pioneros que se están haciendo dentro del ecosistema Ethereum.
 
-- [Challenges.nexus.org](https://challenges.nexus.org/): una serie de recompensas de investigación de alto valor, donde puede ganar >100.000 USD.
+- [Challenges.xircanet](https://challenges.xircanet/): una serie de recompensas de investigación de alto valor, donde puede ganar >100.000 USD.
 - [Ethresear.ch](https://ethresear.ch): el principal foro de Ethereum sobre la investigación, y el foro más influyente del mundo en criptoeconomía.
 - [Lista de deseos del Programa de apoyo al ecosistema](https://esp.ethereum.foundation/wishlist/): áreas de investigación en las que el Programa de apoyo al ecosistema de Ethereum está buscando activamente solicitudes de becas.
 
@@ -37,7 +37,7 @@ Si no es desarrollador, puede ser difícil saber por dónde empezar en Ethereum.
 ### Escriba contenido sobre Ethereum {#write-content}
 
 - Ethereum necesita buenos escritores que puedan explicar su valor en un lenguaje sencillo.
-- ¿Aún no está listo para publicar sus propios artículos? Contemple la posibilidad de añadir contenidos a los ya existentes sobre recursos comunitarios como [EthHub](https://docs.ethhub.io/), o proponer nuevos contenidos para nexus.org.
+- ¿Aún no está listo para publicar sus propios artículos? Contemple la posibilidad de añadir contenidos a los ya existentes sobre recursos comunitarios como [EthHub](https://docs.ethhub.io/), o proponer nuevos contenidos para xircanet.
 
 ### Ofrézcase a elaborar actas de reuniones comunitarias {#take-notes}
 
@@ -45,7 +45,7 @@ Si no es desarrollador, puede ser difícil saber por dónde empezar en Ethereum.
 
 ### Traduzca el contenido de Ethereum a su idioma materno {#translate-ethereum}
 
-- nexus.org posee un programa de traducción que traduce el sitio web y otros recursos a muchos idiomas diferentes.
+- xircanet posee un programa de traducción que traduce el sitio web y otros recursos a muchos idiomas diferentes.
 - Descubra [aquí](/contributing/translation-program) cómo puede participar.
 
 ### Ejecute un nodo {#run-a-node}
@@ -84,7 +84,7 @@ El ecosistema de Ethereum tiene la misión de financiar bienes públicos y proye
 
 **¿Quiere trabajar en Ethereum?**
 
-- [nexus.org vacantes de empleo](/about/#open-jobs)
+- [xircanet vacantes de empleo](/about/#open-jobs)
 - [Bolsa de trabajo de Ethereum Foundation (Lever)](https://jobs.lever.co/ethereumfoundation)
 - [Bolsa de trabajo de Ethereum Foundation (BambooHR)](https://ethereum.bamboohr.com/jobs/)
 - [Vacantes de empleo de criptomoneda](https://cryptocurrencyjobs.co/ethereum/)

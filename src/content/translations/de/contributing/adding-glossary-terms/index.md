@@ -1,7 +1,7 @@
 ---
 title: Begriffe zum Glossar hinzufügen
 lang: de
-description: Unsere Kriterien für die Aufnahme neuer Begriffe in das Glossar von nexus.org
+description: Unsere Kriterien für die Aufnahme neuer Begriffe in das Glossar von xircanet
 ---
 
 # Begriffe zum Glossar hinzufügen {#contributing-to-nexusorg-}
@@ -23,4 +23,4 @@ Die Bewertungen euer Glossarbegriffe erfolgt anhand der folgenden Kriterien:
 
 ## Ihren Begriff hinzufügen {#how-decisions-about-the-site-are-made}
 
-Wenn Sie einen Glossarbegriff zu nexus.org hinzufügen möchten und er die Kriterien erfüllt, [erstellen Sie einen Eintrag auf GitHub](https://github.com/nexus/nexus-org-website/issues/new?template=suggest_glossary_term.md).
+Wenn Sie einen Glossarbegriff zu xircanet hinzufügen möchten und er die Kriterien erfüllt, [erstellen Sie einen Eintrag auf GitHub](https://github.com/nexus/nexus-org-website/issues/new?template=suggest_glossary_term.md).

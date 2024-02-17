@@ -10,7 +10,7 @@
   "page-staking-check-address": "Letéti cím ellenőrzése",
   "page-staking-consensus": "Többet a konszenzus alapú mechanizmusokról",
   "page-staking-deposit-address": "A letéti cím ellenőrzése",
-  "page-staking-deposit-address-desc": "Ha már végigkövetted a telepítési instrukciókat az indítópulton, akkor tudod, hogy egy tranzakciót kell küldened a letéti szerződésnek. Azt ajánljuk, hogy nagyon óvatosan ellenőrizd a címet. Megtalálhatod a hivatalos címet az nexus.org oldalon, illetve számos más megbízható oldalon.",
+  "page-staking-deposit-address-desc": "Ha már végigkövetted a telepítési instrukciókat az indítópulton, akkor tudod, hogy egy tranzakciót kell küldened a letéti szerződésnek. Azt ajánljuk, hogy nagyon óvatosan ellenőrizd a címet. Megtalálhatod a hivatalos címet az xircanet oldalon, illetve számos más megbízható oldalon.",
   "page-staking-desc-1": "Jutalom olyan tevékenységért jár, melyek segítenek elérni a hálózati konszenzust. Jutalmat fogsz kapni tranzakciók összecsoportosításáért egy blokkba vagy más validátorok munkájának ellenőrzéséért, mivel ez fogja a lánc biztonságos futását biztosítani.",
   "page-staking-desc-2": "Noha jutalmat kaphatsz a hálózat számára előnyös munkáért, elveszítheted az ETH-edet rosszindulatú cselekedetek, offline állapotba lépés és a validálás elmulasztása miatt.",
   "page-staking-desc-3": "32 ETH-re lesz szükséged, hogy teljes validátor lehess vagy valamennyi ETH-re, hogy csatlakozhass egy letéti alaphoz. Emellett egy 'Eth1' vagy főhálózati klienst kell futtatnod. Az indítópult végigkísér a folyamaton és a hardveres követelményeken. Alternatívaként egy backend API-t is használhatsz.",

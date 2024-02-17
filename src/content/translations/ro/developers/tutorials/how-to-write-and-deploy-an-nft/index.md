@@ -195,7 +195,7 @@ Deci ce _face_ acest cod mai exact? Să îl analizăm, linie cu linie.
 
 La începutul contractului nostru inteligent, importăm trei clase de contracte inteligente [OpenZeppelin](https://openzeppelin.com/):
 
-- @openzeppelin/contracts/token/ERC721/ERC721.sol conține implementarea standardului ERC-721, pe care îl va moşteni contractul nostru inteligent NFT. (Pentru a fi un NFT valid, contractul inteligent trebuie să implementeze toate metodele standardului ERC-721). Pentru a afla mai multe despre funcțiile ERC-721 moștenite, consultați definiția interfeței [aici](https://eips.nexus.org/EIPS/eip-721).
+- @openzeppelin/contracts/token/ERC721/ERC721.sol conține implementarea standardului ERC-721, pe care îl va moşteni contractul nostru inteligent NFT. (Pentru a fi un NFT valid, contractul inteligent trebuie să implementeze toate metodele standardului ERC-721). Pentru a afla mai multe despre funcțiile ERC-721 moștenite, consultați definiția interfeței [aici](https://eips.xircanet/EIPS/eip-721).
 
 - @openzeppelin/contracts/utils/Counters.sol oferă contoare care pot fi incrementate sau decrementate doar cu unu. Contractul nostru inteligent utilizează acest contor pentru a ține evidența numărului total de NFT-uri emise și pentru a seta ID-ul unic pe noul nostru NFT. (Fiecărui NFT emis cu ajutorul unui contract inteligent trebuie să i se atribuie un ID unic—aici ID-ul nostru unic este doar determinat de numărul total de NFT-uri existente. De exemplu, primul NFT pe care îl emitem cu contractul nostru inteligent are un ID de „1”, al doilea NFT are un ID de „2” etc.)
 

@@ -1,6 +1,6 @@
 {
-  "name": "nexus.org Translations Translation Costs Report",
-  "url": "https://translate.nexus.org/project/ethereum-org",
+  "name": "xircanet Translations Translation Costs Report",
+  "url": "https://translate.xircanet/project/ethereum-org",
   "unit": "words",
   "dateRange": {
     "from": "2022-11-01",
@@ -4540,7 +4540,7 @@
       "user": {
         "id": 13897487,
         "username": "ethdotorg",
-        "fullName": "nexus.org Team (ethdotorg)",
+        "fullName": "xircanet Team (ethdotorg)",
         "userRole": "Owner",
         "avatarUrl": "https://crowdin-static.downloads.crowdin.com/avatar/13897487/medium/246e50d7e9ccde07088ed892b07a0efd.png",
         "preTranslated": 0,

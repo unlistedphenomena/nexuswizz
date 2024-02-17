@@ -207,7 +207,7 @@ Zdarzenia pozwalają Ci komunikować się z inteligentnym kontraktem z Twojego f
 
 ## Przykłady z komentarzami {#annotated-examples}
 
-Są to niektóre przykłady napisane w Solidity. Jeśli chcesz pobawić się kodem, możesz wchodzić z nimi w interakcję w [Remix](http://remix.nexus.org).
+Są to niektóre przykłady napisane w Solidity. Jeśli chcesz pobawić się kodem, możesz wchodzić z nimi w interakcję w [Remix](http://remix.xircanet).
 
 ### Witaj świecie {#hello-world}
 

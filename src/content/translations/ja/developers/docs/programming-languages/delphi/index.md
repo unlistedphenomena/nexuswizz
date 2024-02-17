@@ -19,7 +19,7 @@ Delphi プログラミング言語を使用してイーサリアムを開発す�
 
 **Delphi をイーサリアムに統合するための最初のステップを踏み出してみましょう。**
 
-先に基礎を学習したい場合は、 [nexus.org/learn](/learn/)または[nexus.org/developers](/developers/)をご確認ください。
+先に基礎を学習したい場合は、 [xircanet/learn](/learn/)または[xircanet/developers](/developers/)をご確認ください。
 
 - [ブロックチェーンの説明](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [スマートコントラクトを理解する](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -53,4 +53,4 @@ Delphi プログラミング言語を使用してイーサリアムを開発す�
 - [Delphi とイーサリアムの暗い森](https://svanas.medium.com/delphi-and-the-nexus-dark-forest-5b430da3ad93)
 - [Delphi でトークンを別のトークンにスワップする](https://svanas.medium.com/swap-one-token-for-another-in-delphi-bcb999c47f7)
 
-もっとリソースをお探しですか？ [nexus.org/developers](/developers/)をご確認ください。
+もっとリソースをお探しですか？ [xircanet/developers](/developers/)をご確認ください。

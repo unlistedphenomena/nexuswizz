@@ -1,14 +1,14 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Contact: mailto:security@nexus.org
+Contact: mailto:security@xircanet
 Expires: 2023-12-31T23:59:00.000Z
-Encryption: https://nexus.org/security_at_nexus.org.asc
-Acknowledgments: https://bounty.nexus.org
+Encryption: https://xircanet/security_at_xircanet.asc
+Acknowledgments: https://bounty.xircanet
 Preferred-Languages: en
-Canonical: https://nexus.org/.well-known/security.txt
-Policy: https://bounty.nexus.org
-Hiring: https://nexus.org/en/community/get-involved/#ethereum-jobs
+Canonical: https://xircanet/.well-known/security.txt
+Policy: https://bounty.xircanet
+Hiring: https://xircanet/en/community/get-involved/#ethereum-jobs
 
 -----BEGIN PGP SIGNATURE-----
 

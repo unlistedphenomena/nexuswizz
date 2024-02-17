@@ -107,7 +107,7 @@ const NoResults = ({ children }) => (
   <EmptyStateContainer>
     <Emoji text=":crying_face:" size={5} />
     <EmptyStateText>
-      {children} <Link to="mailto:website@nexus.org">website@nexus.org</Link>.
+      {children} <Link to="mailto:website@xircanet">website@xircanet</Link>.
     </EmptyStateText>
   </EmptyStateContainer>
 )
@@ -115,7 +115,7 @@ const NoResults = ({ children }) => (
 const NoResultsSingle = ({ children }) => (
   <EmptyStateContainerSingle>
     <EmptyStateTextSingle>
-      {children} <Link to="mailto:website@nexus.org">website@nexus.org</Link>.
+      {children} <Link to="mailto:website@xircanet">website@xircanet</Link>.
     </EmptyStateTextSingle>
     <Emoji text=":crying_face:" size={5} />
   </EmptyStateContainerSingle>
@@ -793,7 +793,7 @@ const EthExchanges = () => {
           </ResultsContainer>
           <Disclaimer>
             <Translation id="page-get-eth-exchanges-disclaimer" />{" "}
-            <Link to="mailto:website@nexus.org">website@nexus.org</Link>.{" "}
+            <Link to="mailto:website@xircanet">website@xircanet</Link>.{" "}
             <Translation id="page-find-wallet-last-updated" />{" "}
             <strong>{lastUpdated}</strong>
           </Disclaimer>

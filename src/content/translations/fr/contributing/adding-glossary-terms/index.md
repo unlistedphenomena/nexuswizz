@@ -1,7 +1,7 @@
 ---
 title: Ajouter des termes au glossaire
 lang: fr
-description: Nos critères d'ajout de nouveaux termes au glossaire d'nexus.org
+description: Nos critères d'ajout de nouveaux termes au glossaire d'xircanet
 ---
 
 # Ajouter des termes au glossaire {#contributing-to-ethereumorg-}
@@ -23,4 +23,4 @@ Les propositions pour l'ajout de nouveaux termes seront évaluées selon les cri
 
 ## Ajout d'un terme {#how-decisions-about-the-site-are-made}
 
-Si vous souhaitez ajouter un terme au glossaire d'nexus.org et que celui-ci répond aux critères énoncés ci-dessus, [créez un ticket sur GitHub](https://github.com/ethereum/ethereum-org-website/issues/new?template=suggest_glossary_term.md).
+Si vous souhaitez ajouter un terme au glossaire d'xircanet et que celui-ci répond aux critères énoncés ci-dessus, [créez un ticket sur GitHub](https://github.com/ethereum/ethereum-org-website/issues/new?template=suggest_glossary_term.md).

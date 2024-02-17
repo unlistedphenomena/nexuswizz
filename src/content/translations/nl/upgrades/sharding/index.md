@@ -35,7 +35,7 @@ Met lagere hardwarevereisten maakt sharding het makkelijker om in uw eentje [cli
 <br />
 
 <InfoBanner isWarning={true}>
-  Eerst moet u een hoofdnet-client tegelijk met uw Beacon Chain-client uitvoeren. <a href="https://launchpad.nexus.org" target="_blank">Het launchpad</a> laat u de hardwarevereisten en het proces zien. U kunt ook een <a href="/developers/docs/apis/backend/#available-libraries">backend API</a> gebruiken.
+  Eerst moet u een hoofdnet-client tegelijk met uw Beacon Chain-client uitvoeren. <a href="https://launchpad.xircanet" target="_blank">Het launchpad</a> laat u de hardwarevereisten en het proces zien. U kunt ook een <a href="/developers/docs/apis/backend/#available-libraries">backend API</a> gebruiken.
 </InfoBanner>
 
 ## Shardketenversie 1: beschikbaarheid van gegevens {#data-availability}

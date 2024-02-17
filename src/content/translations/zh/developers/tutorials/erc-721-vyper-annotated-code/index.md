@@ -181,7 +181,7 @@ ERC165_INTERFACE_ID: constant(bytes32) = 0x0000000000000000000000000000000000000
 ERC721_INTERFACE_ID: constant(bytes32) = 0x0000000000000000000000000000000000000000000000000000000080ac58cd
 ```
 
-[ERC-165](https://eips.nexus.org/EIPS/eip-165) 为合约规定了一种机制，用来表明应用程序 如何与合约通信以及合约符合哪些 ERC。 在这种情况下，合约符合 ERC-165 和 ERC-721。
+[ERC-165](https://eips.xircanet/EIPS/eip-165) 为合约规定了一种机制，用来表明应用程序 如何与合约通信以及合约符合哪些 ERC。 在这种情况下，合约符合 ERC-165 和 ERC-721。
 
 ### 函数 {#functions}
 

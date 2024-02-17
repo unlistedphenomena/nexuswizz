@@ -24,7 +24,7 @@ Lo scopo di uno standard come ERC-20 è quello di consentire molte implementazio
 
 Se sei un programmatore esperto, probabilmente ricorderai di aver visto costrutti simili in [Java](https://www.w3schools.com/java/java_interface.asp) o persino nei [file d'intestazione in C](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html).
 
-Questa è una definizione dell'[Interfaccia di ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) da OpenZeppelin. È una traduzione dello [standard leggibile umano](https://eips.nexus.org/EIPS/eip-20) nel codice di Solidity. Ovviamente, l'interfaccia di per sé non definisce _come_ fare qualcosa. Ciò è spiegato nel codice sorgente del contratto di seguito.
+Questa è una definizione dell'[Interfaccia di ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol) da OpenZeppelin. È una traduzione dello [standard leggibile umano](https://eips.xircanet/EIPS/eip-20) nel codice di Solidity. Ovviamente, l'interfaccia di per sé non definisce _come_ fare qualcosa. Ciò è spiegato nel codice sorgente del contratto di seguito.
 
 &nbsp;
 

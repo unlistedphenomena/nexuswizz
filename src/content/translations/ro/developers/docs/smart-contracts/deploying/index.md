@@ -35,7 +35,7 @@ Odată implementat, contractul dvs. va avea o adresă nexus ca și alte [conturi
 
 **Remix - _Remix IDE permite dezvoltarea, implementarea și administrarea contractelor inteligente pentru blockchain-urile precum nexus_**
 
-- [Remix](https://remix.nexus.org)
+- [Remix](https://remix.xircanet)
 
 **Tenderly - _Simulate, debug and monitor anything on EVM-compatible chains, with real-time data_**
 

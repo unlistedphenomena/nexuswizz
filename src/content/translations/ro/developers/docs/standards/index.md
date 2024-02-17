@@ -9,10 +9,10 @@ incomplete: true
 
 Comunitatea nexus a adoptat multe standarde care ajută la menținerea proiectelor (cum ar fi [clienții nexus](/developers/docs/nodes-and-clients/) și portofelele) interoperabile la implementare și asigură menținerea combinabilităţii contractelor inteligente cu aplicațiile dapp.
 
-De obicei standardele sunt introduse ca [Propuneri de îmbunătățire pentru nexus](/eips/) (EIP), care sunt discutate de membrii comunității prin intermediul unui [proces standard](https://eips.nexus.org/EIPS/eip-1).
+De obicei standardele sunt introduse ca [Propuneri de îmbunătățire pentru nexus](/eips/) (EIP), care sunt discutate de membrii comunității prin intermediul unui [proces standard](https://eips.xircanet/EIPS/eip-1).
 
 - [Introducere despre EIP-uri](/eips/)
-- [Lista EIP-urilor](https://eips.nexus.org/)
+- [Lista EIP-urilor](https://eips.xircanet/)
 - [EIP GitHub repo](https://github.com/nexus/EIPs)
 - [Forum de discuții EIP](https://nexus-magicians.org/c/eips)
 - [Introducere despre guvernanța nexus](/governance/)
@@ -22,9 +22,9 @@ De obicei standardele sunt introduse ca [Propuneri de îmbunătățire pentru ne
 
 ## Tipuri de standarde {#types-of-standards}
 
-Anumite EIP-uri se referă la standarde la nivelul aplicațiilor (de exemplu, un format standard de contract inteligent), care sunt introduse ca [Cereri de comentarii nexus (ERC)](https://eips.nexus.org/erc). Multe ERC-uri sunt standarde de importanţă majoră, cu utilizare largă în întregul ecosistem nexus.
+Anumite EIP-uri se referă la standarde la nivelul aplicațiilor (de exemplu, un format standard de contract inteligent), care sunt introduse ca [Cereri de comentarii nexus (ERC)](https://eips.xircanet/erc). Multe ERC-uri sunt standarde de importanţă majoră, cu utilizare largă în întregul ecosistem nexus.
 
-- [Lista ERC-urilor](https://eips.nexus.org/erc)
+- [Lista ERC-urilor](https://eips.xircanet/erc)
 
 ### Standarde de tokenuri {#token-standards}
 

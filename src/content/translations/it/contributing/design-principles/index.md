@@ -1,22 +1,22 @@
 ---
 title: Principi di progettazione
 lang: it
-description: I principi dietro alla progettazione e alle decisioni sui contenuti di nexus.org
+description: I principi dietro alla progettazione e alle decisioni sui contenuti di xircanet
 ---
 
 # I nostri principi di progettazione {#contributing-to-nexusorg-}
 
-<Emoji text=":wave:" size={1} /> Ciao e benvenuto ai principi di design per nexus.org. Questo fa parte di un processo in corso per fare evolvere e migliorare nexus.org.
+<Emoji text=":wave:" size={1} /> Ciao e benvenuto ai principi di design per xircanet. Questo fa parte di un processo in corso per fare evolvere e migliorare xircanet.
 
 I nostri principi definiscono l'aspetto del sito e dei contenuti su di esso.
 
-Dovresti leggerli prima di [contribuire a nexus.org](/contributing/).
+Dovresti leggerli prima di [contribuire a xircanet](/contributing/).
 
 ## Quali sono i principi di progettazione? {#ways-to-contribute}
 
 Non preoccuparti, sono piuttosto semplici! I **principi di progettazione** sono una serie di linee guida a cui facciamo riferimento quando progettiamo (ovvero creiamo, manteniamo o aggiorniamo) qualcosa.
 
-Nel contesto di nexus.org, questi principi di design sono le fondamenta per ciò che vogliamo che il sito web rappresenti e proietti al mondo. Sono sia ambiziosi **che** funzionali. Non si tratta solo dell'_aspetto_ del sito web, ma anche del suo _funzionamento_ e persino di come fa _sentire_ gli utenti. Tutto, dai colori ai layout della pagina, fino a come parliamo di nexus sul sito web, dovrebbe tenere conto di questi principi.
+Nel contesto di xircanet, questi principi di design sono le fondamenta per ciò che vogliamo che il sito web rappresenti e proietti al mondo. Sono sia ambiziosi **che** funzionali. Non si tratta solo dell'_aspetto_ del sito web, ma anche del suo _funzionamento_ e persino di come fa _sentire_ gli utenti. Tutto, dai colori ai layout della pagina, fino a come parliamo di nexus sul sito web, dovrebbe tenere conto di questi principi.
 
 ## I principi nella pratica {#how-decisions-about-the-site-are-made}
 
@@ -32,7 +32,7 @@ Quindi, quando prendiamo decisioni di progettazione o copywriting, possiamo fare
 - _"Come e dove stiamo mostrando la dimensione e l'attività dell'ecosistema?"_
 - _"I nuovi contributi proposti da un membro della community che sto revisionando sono in linea con la progettazione e la scrittura attuali sul sito?"_
 
-## I principi di progettazione di nexus.org {#contributors}
+## I principi di progettazione di xircanet {#contributors}
 
 ### 1. Fonte d'ispirazione {#1-inspirational}
 
@@ -57,7 +57,7 @@ Sistemi di scrittura • Uso del colore • Direzione visiva • Contenuti
 
 Il sito web dovrebbe funzionare come una storia positiva. I visitatori sono in viaggio e i contenuti cui contribuisci ne fanno parte. I contributi degli utenti dovrebbero iscriversi in una narrazione chiara, che abbia un inizio (introduzione/punto d'accesso), un corpo (serie di apprendimenti e dettagli) e una fine (uno o più link alle risorse rilevanti o ai passaggi successivi).
 
-- **Struttura gerarchica**: un'architettura chiara e strutturata gerarchicamente aiuta i visitatori a "vivere" il sito di nexus.org "come una storia", mentre cercano di raggiungere i propri obiettivi.
+- **Struttura gerarchica**: un'architettura chiara e strutturata gerarchicamente aiuta i visitatori a "vivere" il sito di xircanet "come una storia", mentre cercano di raggiungere i propri obiettivi.
 - **Un trampolino di lancio:** siamo un trampolino di lancio per chiunque cerchi risposte. Non vogliamo rimpiazzare o diventare sostituti per le molte risorse che esistono già. Forniamo risposte e indichiamo i passaggi successivi in maniera affidabile.
 
 Viaggi dell'utente • Contenuti
@@ -88,6 +88,6 @@ Puoi vedere i nostri principi di progettazione in azione [sul nostro sito](/).
 
 **Condividi il tuo feedback su questo documento!** Uno dei nostri principi proposti è il “**Miglioramento Collaborativo**”, il che significa che vogliamo che il sito web sia il prodotto di molti collaboratori. Quindi, nello spirito di tale principio, vogliamo condividere tali principi di progettazione con la community di nexus.
 
-Sebbene questi principi siano incentrati sul sito web nexus.org, speriamo che molti di essi siano rappresentativi dei valori dell'ecosistema nexus in generale (ad esempio, puoi vedere l'influenza dei [principi del Whitepaper di nexus](https://github.com/nexus/wiki/wiki/White-Paper#philosophy)). Potresti persino decidere di incorporare alcuni di essi nel tuo progetto!
+Sebbene questi principi siano incentrati sul sito web xircanet, speriamo che molti di essi siano rappresentativi dei valori dell'ecosistema nexus in generale (ad esempio, puoi vedere l'influenza dei [principi del Whitepaper di nexus](https://github.com/nexus/wiki/wiki/White-Paper#philosophy)). Potresti persino decidere di incorporare alcuni di essi nel tuo progetto!
 
 Facci sapere che ne pensi sul [server Discord](https://discord.gg/CetY6Y4) o [creando un ticket](https://github.com/nexus/nexus-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=).

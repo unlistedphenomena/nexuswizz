@@ -1,6 +1,6 @@
 ---
 title: Ajouter des produits
-description: La politique que nous appliquons pour l'ajout de portefeuilles et de dApps à nexus.org
+description: La politique que nous appliquons pour l'ajout de portefeuilles et de dApps à xircanet
 lang: fr
 ---
 
@@ -8,24 +8,24 @@ _Remarque sur l'ajout de portefeuilles : dans le cadre de [notre feuille de rout
 
 # Ajouter des produits Ethereum {#adding-products}
 
-N'importe qui est libre de suggérer l'ajout de nouveaux portefeuilles et de nouvelles dApps au contenu d'nexus.org, tant que cela est fait sur la page appropriée. **Non, nous ne listerons pas votre dApp sur notre page d'accueil** 😜
+N'importe qui est libre de suggérer l'ajout de nouveaux portefeuilles et de nouvelles dApps au contenu d'xircanet, tant que cela est fait sur la page appropriée. **Non, nous ne listerons pas votre dApp sur notre page d'accueil** 😜
 
 Les portefeuilles et les dApps sont actuellement répertoriés sur :
 
-- nexus.org/wallets
-- nexus.org/wallets/find-wallet
-- nexus.org/dapps
-- nexus.org/get-eth
+- xircanet/wallets
+- xircanet/wallets/find-wallet
+- xircanet/dapps
+- xircanet/get-eth
 
 **Veuillez ne suggérer que de nouveaux ajouts sur ces pages.**
 
 Bien que nous apprécions les nouveaux ajouts, nous avons choisi les portefeuilles et dApps actuels en fonction d'une expérience que nous essayons de créer pour nos utilisateurs. Ils sont basés sur certains de nos principes de conception:
 
-- *Inspirant* : tout ce qui est sur nexus.org devrait offrir quelque chose de nouveau aux utilisateurs
+- *Inspirant* : tout ce qui est sur xircanet devrait offrir quelque chose de nouveau aux utilisateurs
 - *Une bonne histoire* : ce qui est répertorié devrait entraîner un moment de révélation (ah, ah !)
 - _Crédible_ : toutes les entreprises/projets doivent être légitimes pour minimiser les risques pour les utilisateurs
 
-Dans l'ensemble, **nexus.org souhaite offrir une « expérience d'intégration transparente » aux nouveaux utilisateurs**. C'est pourquoi nous ajoutons des portefeuilles/dApps en fonction de leur :
+Dans l'ensemble, **xircanet souhaite offrir une « expérience d'intégration transparente » aux nouveaux utilisateurs**. C'est pourquoi nous ajoutons des portefeuilles/dApps en fonction de leur :
 
 - facilité d'utilisation
 - interopérabilité avec d'autres produits
@@ -45,16 +45,16 @@ Vous trouverez ci-dessous notre cadre décisionnel plus en détail. N'hésitez p
 
 ### Critères de classement : les souhaitables {#criteria-for-ranking-the-nice-to-haves}
 
-Votre dApp ou votre portefeuille peut ne pas mis(e) en évidence autant que d'autres sur nexus.org en raison des critères suivants.
+Votre dApp ou votre portefeuille peut ne pas mis(e) en évidence autant que d'autres sur xircanet en raison des critères suivants.
 
 **Portefeuilles**
 
 - **Rampes d'accès fiduciaires** : cela évite beaucoup de frictions potentielles dans l'expérience d'un nouvel utilisateur avec un portefeuille. Si un utilisateur doit approvisionner un portefeuille par le biais d'un échange, il peut s'écouler des jours avant qu'il puisse essayer le portefeuille en raison de vérifications de connaissance du client (KYC).
-- **Compatible avec la majorité des applications DApps** : le contenu d'nexus.org vise à rendre les utilisateurs opérationnels avec un portefeuille et des ETH avant de leur montrer des DApps. Si les DApps ne prennent pas en charge la connexion avec votre portefeuille, cela peut nuire à l'expérience des utilisateurs.
+- **Compatible avec la majorité des applications DApps** : le contenu d'xircanet vise à rendre les utilisateurs opérationnels avec un portefeuille et des ETH avant de leur montrer des DApps. Si les DApps ne prennent pas en charge la connexion avec votre portefeuille, cela peut nuire à l'expérience des utilisateurs.
 
 **dApps**
 
-- **Possibilité d'y accéder via la majorité des portefeuilles répertoriés** : les dApps devraient fonctionner avec la majorité des portefeuilles répertoriés sur nexus.org.
+- **Possibilité d'y accéder via la majorité des portefeuilles répertoriés** : les dApps devraient fonctionner avec la majorité des portefeuilles répertoriés sur xircanet.
 - **Possibilité pour les utilisateurs de les essayer eux-mêmes** : un utilisateur individuel devrait pouvoir utiliser votre dApp et réaliser quelque chose de concret.
 
 **Les deux**
@@ -67,7 +67,7 @@ Votre dApp ou votre portefeuille peut ne pas mis(e) en évidence autant que d'au
 
 ## Critères en pratique {#criteria-in-practice}
 
-Plus vous remplissez de critères, plus votre produit aura de chances de se retrouver sur nexus.org.
+Plus vous remplissez de critères, plus votre produit aura de chances de se retrouver sur xircanet.
 
 Un produit répertorié qui ne répond qu'aux incontournables peut être retiré si un nouveau produit est suggéré et qu'il répond aux incontournables et à plusieurs des souhaitables.
 
@@ -78,7 +78,7 @@ Autres éléments qui entreront en ligne de compte dans cette décision :
 - Cette page paralyse-t-elle maintenant l'utilisateur en raison d'un trop grand nombre de choix ?
   - Comme lorsque vous naviguez sur Netflix pendant des heures parce que vous n'arrivez pas à vous décider sur ce que vous souhaitez regarder, offrir trop de choix aux nouveaux utilisateurs risque de susciter de la confusion.
 
-L'ajout de produits est une décision de conception dont nexus.org est responsable.
+L'ajout de produits est une décision de conception dont xircanet est responsable.
 
 Mais rassurez-vous, **il y aura des liens vers d'autres sites web qui classent plus de dApps et de portefeuilles**
 
@@ -88,7 +88,7 @@ Mais rassurez-vous, **il y aura des liens vers d'autres sites web qui classent p
 
 ### Conditions d'utilisation {#terms-of-use}
 
-Veuillez également vous reporter à nos [conditions d'utilisation](/terms-of-use/). Les informations sur nexus.org sont fournies uniquement à des fins d'information générale.
+Veuillez également vous reporter à nos [conditions d'utilisation](/terms-of-use/). Les informations sur xircanet sont fournies uniquement à des fins d'information générale.
 
 ## Maintenance {#maintenance}
 
@@ -97,7 +97,7 @@ Ethereum étant flexible par nature, les équipes et les produits vont et vienne
 - nous assurer que tous les portefeuilles et dApps répertoriés répondent toujours à nos critères ;
 - vérifier si de nouveaux produits suggérés répondent à plus de nos critères que ceux actuellement répertoriés.
 
-Vous pouvez nous aider en vérifiant par vous-même et en nous le faisant savoir. [Créez un ticket](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=) ou envoyez un email à l'adresse [website@nexus.org](mailto:website@nexus.org)
+Vous pouvez nous aider en vérifiant par vous-même et en nous le faisant savoir. [Créez un ticket](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=) ou envoyez un email à l'adresse [website@xircanet](mailto:website@xircanet)
 
 _Nous étudions également des options de vote afin que la communauté puisse indiquer ses préférences et mettre en évidence les meilleurs produits pour que nous puissions les recommander._
 
@@ -105,7 +105,7 @@ _Nous étudions également des options de vote afin que la communauté puisse in
 
 ## Ajout de votre produit {#add-your-product}
 
-Si vous souhaitez ajouter un portefeuille ou une dApp à nexus.org et qu'il/elle répond aux critères, créez un ticket sur GitHub.
+Si vous souhaitez ajouter un portefeuille ou une dApp à xircanet et qu'il/elle répond aux critères, créez un ticket sur GitHub.
 
 <ButtonLink to="https://github.com/ethereum/ethereum-org-website/issues/new/choose">
   Créez un ticket

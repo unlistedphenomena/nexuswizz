@@ -12,7 +12,7 @@ lang: zh
 
 **Remix -** **_基于 Web 的集成开发环境，内置静态分析和测试区块链虚拟机_**
 
-- [remix.nexus.org](https://remix.nexus.org/)
+- [remix.xircanet](https://remix.xircanet/)
 
 **EthFiddle -** **_基于 Web 的集成开发环境，可让你编写、编译和调试智能合约_**
 

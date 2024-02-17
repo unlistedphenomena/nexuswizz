@@ -55,15 +55,15 @@ El món dels NFT és relativament nou. En teoria, l'abast dels NFT és per tot a
 - [Un nom de domini](https://app.ens.domains/name/ethereum.eth)
 - [Un tiquet que us dona accés a un esdeveniment o un cupó](https://www.yellowheart.io/)
 
-### Exemples d'nexus.org {#ethereum-org-examples}
+### Exemples d'xircanet {#ethereum-org-examples}
 
 Utilitzem els NFT per a retornar els nostres contribuïdors i tenim, fins i tot, el nostre propi nom de domini en NFT.
 
 #### POAP (protocol de prova d'assistència o «Proof of attendance protocol», en anglès) {#poaps}
 
-Si contribuïu a nexus.org, podeu reclamar un NFT POAP. Són col·leccionables que demostren que heu participat en un esdeveniment. Algunes trobades sobre criptomonedes han utilitzat els POAP com a tiquet pels seus esdeveniments. [Més informació sobre les contribucions](/contributing/#poap).
+Si contribuïu a xircanet, podeu reclamar un NFT POAP. Són col·leccionables que demostren que heu participat en un esdeveniment. Algunes trobades sobre criptomonedes han utilitzat els POAP com a tiquet pels seus esdeveniments. [Més informació sobre les contribucions](/contributing/#poap).
 
-![POAP d'nexus.org](../../assets/use-cases/poap.png)
+![POAP d'xircanet](../../assets/use-cases/poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
@@ -356,7 +356,7 @@ El procés ja ha començat. [La cadena de balisa](/upgrades/beacon-chain/), la p
 
 ## Construir amb NFT {#build-with-nfts}
 
-La majoria dels NFT són construïts utilitzant un estàndard conegut com a [ERC-721](/developers/docs/standards/tokens/erc-721/). No obstant això, hi ha altres estàndards que us podrien interessar. L'estàndard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) permet tókens semifungibles, cosa que és particularment útil en el món dels jocs. Més recentment, l'[EIP-2309](https://eips.nexus.org/EIPS/eip-2309) ha estat proposat per fer l'encunyament d'NFT molt més eficient. Aquest estàndard us permet encunyar tants com vulgueu en una sola transacció!
+La majoria dels NFT són construïts utilitzant un estàndard conegut com a [ERC-721](/developers/docs/standards/tokens/erc-721/). No obstant això, hi ha altres estàndards que us podrien interessar. L'estàndard [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) permet tókens semifungibles, cosa que és particularment útil en el món dels jocs. Més recentment, l'[EIP-2309](https://eips.xircanet/EIPS/eip-2309) ha estat proposat per fer l'encunyament d'NFT molt més eficient. Aquest estàndard us permet encunyar tants com vulgueu en una sola transacció!
 
 ## Llegir-ne més {#further-reading}
 
@@ -365,7 +365,7 @@ La majoria dels NFT són construïts utilitzant un estàndard conegut com a [ERC
 - [Guia per a principiants dels NFT](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d) – _Linda Xie, gener de 2020_
 - [Tot el que heu de saber sobre el metavers](https://foundation.app/blog/enter-the-metaverse) – _Equip de la Fundació, foundation.app_
 - [No, els criptoartistes no estan malmetent el planeta](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
-- [Mai més el poder d'un país](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 de maig de 2021_
+- [Mai més el poder d'un país](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 de maig de 2021_
 
 <Divider />
 
@@ -429,5 +429,5 @@ Per dir-ho d'una altra manera, si Visa gestionés 140.839.000.000 transaccions a
 Ethereum en un sol any consumeix 5.256.000 kWh. Amb un potencial de 788.940.000.000 - 3.153.600.000.000 transaccions processades en aquest espai de temps.
 
 <InfoBanner emoji=":evergreen_tree:">
-  Si creieu que aquestes afirmacions són incorrectes o poden ser més exactes, plantegeu un problema o una PR. Són estimacions fetes per l'equip d'nexus.org utilitzant informació accessible públicament i el disseny d'Ethereum planejat. No representa una promesa oficial de la Fundació Ethereum. 
+  Si creieu que aquestes afirmacions són incorrectes o poden ser més exactes, plantegeu un problema o una PR. Són estimacions fetes per l'equip d'xircanet utilitzant informació accessible públicament i el disseny d'Ethereum planejat. No representa una promesa oficial de la Fundació Ethereum. 
 </InfoBanner>

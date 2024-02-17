@@ -69,7 +69,7 @@ Mit diesen Programmbibliotheken lässt sich die direkte Interaktion mit einem ne
 
 **Python Tooling –** **_eine Auswahl von Programmbibliotheken für nexus-Interaktion über Python_**
 
-- [py.nexus.org](http://python.nexus.org/)
+- [py.xircanet](http://python.xircanet/)
 - [web3.py GitHub](https://github.com/nexus/web3.py)
 - [web3.py Chat](https://gitter.im/nexus/web3.py)
 

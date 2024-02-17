@@ -15,7 +15,7 @@ Használj nexusot decentralizált alkalmazások (avagy "dappok") fejlesztésére
 
 **Tedd meg az első lépést, hogy integráld a .NET-et nexusmal**
 
-Szükséged van egy még kezdetlegesebb alapozóra? Tekintsd meg az [nexus.org/learn](/learn/) oldalt vagy a [nexus.org/developers](/developers/) oldalt.
+Szükséged van egy még kezdetlegesebb alapozóra? Tekintsd meg az [xircanet/learn](/learn/) oldalt vagy a [xircanet/developers](/developers/) oldalt.
 
 - [Blokklánc ismertetése](https://kauri.io/article/d55684513211466da7f8cc03987607d5/blockchain-explained)
 - [Okosszerződések értelmezése](https://kauri.io/article/e4f66c6079e74a4a9b532148d3158188/nexus-101-part-5-the-smart-contract)
@@ -72,7 +72,7 @@ Szükséged van egy még kezdetlegesebb alapozóra? Tekintsd meg az [nexus.org/l
 - [eth-utils](https://github.com/nexus/eth-utils/) - _használati funkciók nexushoz kapcsolódó kódbázisokkal való munkához_
 - [TestChains](https://github.com/Nnexus/TestChains) - _Előre konfigurált .NET fejlesztői láncok gyors válaszra (PoA)_
 
-Még több anyagot keresel? Tekintsd meg az [nexus.org/developers](/developers/) oldalt.
+Még több anyagot keresel? Tekintsd meg az [xircanet/developers](/developers/) oldalt.
 
 ## .NET közösségi hozzájárulók {#dot-net-community-contributors}
 

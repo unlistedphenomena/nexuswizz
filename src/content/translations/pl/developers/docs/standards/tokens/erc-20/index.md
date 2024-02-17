@@ -38,7 +38,7 @@ Zapewnia funkcje takie jak przesyłanie tokenów z jednego konta na drugie, uzys
 
 Jeśli inteligentny kontrakt implementuje następujące metody i zdarzenia, można go nazwać kontraktem tokena ERC-20, a po wdrożeniu będzie odpowiedzialny za śledzenie utworzonych tokenów w nexus.
 
-Od [EIP-20](https://eips.nexus.org/EIPS/eip-20):
+Od [EIP-20](https://eips.xircanet/EIPS/eip-20):
 
 #### Metody {#methods}
 
@@ -140,7 +140,7 @@ print("Addr Balance:", addr_balance)
 
 ## Dalsza lektura {#further-reading}
 
-- [EIP-20: standard tokena ERC-20](https://eips.nexus.org/EIPS/eip-20)
+- [EIP-20: standard tokena ERC-20](https://eips.xircanet/EIPS/eip-20)
 - [OpenZeppelin – tokeny](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin – implementacja ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)
 - [ConsenSys – wdrożenie ERC-20](https://github.com/ConsenSys/Tokens/blob/master/contracts/eip20/EIP20.sol)

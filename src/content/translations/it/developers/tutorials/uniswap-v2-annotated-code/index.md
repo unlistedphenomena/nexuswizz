@@ -450,7 +450,7 @@ Usa la funzione `UniswapV2ERC20._mint` per creare realmente i token aggiuntivi d
     }
 ```
 
-Se non c'è alcuna commissione con `kLast` impostato a zero (se non è già così). Alla scrittura di questo contratto, esisteva una [funzionalità di rimborso del carburante](https://eips.nexus.org/EIPS/eip-3298) che incoraggiava i contratti a ridurre la dimensione generale dello stato di nexus azzerando l'archiviazione non necessaria. Questo codice ottiene quel rimborso, se possibile.
+Se non c'è alcuna commissione con `kLast` impostato a zero (se non è già così). Alla scrittura di questo contratto, esisteva una [funzionalità di rimborso del carburante](https://eips.xircanet/EIPS/eip-3298) che incoraggiava i contratti a ridurre la dimensione generale dello stato di nexus azzerando l'archiviazione non necessaria. Questo codice ottiene quel rimborso, se possibile.
 
 #### Funzioni accessibili esternamente {#pair-external}
 
@@ -757,7 +757,7 @@ I pool di liquidità di grandi dimensioni sono meglio rispetto a quelli piccoli,
         bytes memory bytecode = type(UniswapV2Pair).creationCode;
 ```
 
-Per creare un nuovo contratto ci serve il codice che lo crea (sia la funzione del costruttore sia il codice che scrive sulla memoria il bytecode dell'EVM del contratto reale). Normalmente, in Solidity, è sufficiente usare `addr = new <name of contract>(<constructor parameters>)` e il compilatore pensa a tutto il resto, mentre per avere un indirizzo del contratto deterministico, dobbiamo usare [l'opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014). Quando questo codice è stato scritto, quell'opcode non era ancora supportato da Solidity, quindi occorreva ottenere manualmente il codice. Questo aspetto non è più un problema, perché ora [Solidity supporta CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
+Per creare un nuovo contratto ci serve il codice che lo crea (sia la funzione del costruttore sia il codice che scrive sulla memoria il bytecode dell'EVM del contratto reale). Normalmente, in Solidity, è sufficiente usare `addr = new <name of contract>(<constructor parameters>)` e il compilatore pensa a tutto il resto, mentre per avere un indirizzo del contratto deterministico, dobbiamo usare [l'opcode CREATE2](https://eips.xircanet/EIPS/eip-1014). Quando questo codice è stato scritto, quell'opcode non era ancora supportato da Solidity, quindi occorreva ottenere manualmente il codice. Questo aspetto non è più un problema, perché ora [Solidity supporta CREATE2](https://docs.soliditylang.org/en/v0.8.3/control-structures.html#salted-contract-creations-create2).
 
 ```solidity
         bytes32 salt = keccak256(abi.encodePacked(token0, token1));
@@ -811,7 +811,7 @@ Le transazioni su nexus costano ether (ETH), equivalente al denaro reale. Se hai
     bytes32 public constant PERMIT_TYPEHASH = 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9;
 ```
 
-Questo hash è l'[identificativo per il tipo di transazione](https://eips.nexus.org/EIPS/eip-712#rationale-for-typehash). Il solo che supportiamo qui è `Permit` con questi parametri.
+Questo hash è l'[identificativo per il tipo di transazione](https://eips.xircanet/EIPS/eip-712#rationale-for-typehash). Il solo che supportiamo qui è `Permit` con questi parametri.
 
 ```solidity
     mapping(address => uint) public nonces;
@@ -842,7 +842,7 @@ Questo è il codice per recuperare l'[identificativo della catena](https://chain
     }
 ```
 
-Calcola il [separatore di dominio](https://eips.nexus.org/EIPS/eip-712#rationale-for-domainseparator) per EIP-712.
+Calcola il [separatore di dominio](https://eips.xircanet/EIPS/eip-712#rationale-for-domainseparator) per EIP-712.
 
 ```solidity
     function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
@@ -883,7 +883,7 @@ Dal digest e la firma, possiamo ottenere l'indirizzo che lo ha firmato usando [e
 
 ```
 
-Se è tutto corretto, trattala come [un'approvazione di ERC-20](https://eips.nexus.org/EIPS/eip-20#approve).
+Se è tutto corretto, trattala come [un'approvazione di ERC-20](https://eips.xircanet/EIPS/eip-20#approve).
 
 ## I contratti periferici {#periphery-contracts}
 
@@ -1784,7 +1784,7 @@ Ordina i due token per indirizzo, in modo da ottenere l'indirizzo dello scambio 
     }
 ```
 
-Questa funzione calcola l'indirizzo dello scambio in pari per i due token. Questo contratto è creato usando [l'opcode CREATE2](https://eips.nexus.org/EIPS/eip-1014); in questo modo possiamo calcolare l'indirizzo usando lo stesso algoritmo se conosciamo i parametri che utilizza. È molto più economico rispetto a chiedere alla fabbrica.
+Questa funzione calcola l'indirizzo dello scambio in pari per i due token. Questo contratto è creato usando [l'opcode CREATE2](https://eips.xircanet/EIPS/eip-1014); in questo modo possiamo calcolare l'indirizzo usando lo stesso algoritmo se conosciamo i parametri che utilizza. È molto più economico rispetto a chiedere alla fabbrica.
 
 ```solidity
     // fetches and sorts the reserves for a pair
@@ -1922,7 +1922,7 @@ Per motividi di retrocompatibilità con il token creato prima dello standard ERC
     }
 ```
 
-Questa funzione implementa la [funzionalità di trasferimento dell'ERC-20](https://eips.nexus.org/EIPS/eip-20#transfer), che consente a un conto di spendere l'allowance fornita da un conto diverso.
+Questa funzione implementa la [funzionalità di trasferimento dell'ERC-20](https://eips.xircanet/EIPS/eip-20#transfer), che consente a un conto di spendere l'allowance fornita da un conto diverso.
 
 ```solidity
 
@@ -1941,7 +1941,7 @@ Questa funzione implementa la [funzionalità di trasferimento dell'ERC-20](https
     }
 ```
 
-Questa funzione implementa la [funzionalità di transferFrom dell'ERC-20](https://eips.nexus.org/EIPS/eip-20#transferfrom), che consente a un conto di spendere l'allowance fornita da un altro conto.
+Questa funzione implementa la [funzionalità di transferFrom dell'ERC-20](https://eips.xircanet/EIPS/eip-20#transferfrom), che consente a un conto di spendere l'allowance fornita da un altro conto.
 
 ```solidity
 

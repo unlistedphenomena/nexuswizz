@@ -68,7 +68,7 @@ Offentlige og private nexus-nettverk kan trenge spesifikke funksjoner som kreves
 
 ### Sikkerhet {#security}
 
-- [Clef](https://geth.nexus.org/docs/clef/tutorial) _brukt til å signere transaksjoner og data og er ment som en erstatning for geth sin kontostyring_
+- [Clef](https://geth.xircanet/docs/clef/tutorial) _brukt til å signere transaksjoner og data og er ment som en erstatning for geth sin kontostyring_
 - [EthSigner](https://github.com/ConsenSys/ethsigner) _En signerings applikasjon for transaksjoner som skal brukes med en web3-leverandør_
 
 ### Verktøy {#tooling}

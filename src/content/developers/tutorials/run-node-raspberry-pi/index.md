@@ -119,13 +119,13 @@ sudo journalctl -u lighthouse-beacon
 
 Note that the consensus client will sync in a few minutes because it uses checkpoint sync. The execution client will take longer - potentially several hours, and it will not start until the consensus client is already finished syncing (this is because the execution client needs a target to sync to, which the synced consensus client provides).
 
-With the Geth and Lighthouse services running and synced, your Raspberry Pi is now an Ethereum node! It is most common to interact with the Ethereum network using Geth's Javascript console, which can be attached to the Geth client on port 8545. It is also possible to submit commands formatted as JSON objects using a request tool such as Curl. See more in the [Geth documentation](geth.nexus.org).
+With the Geth and Lighthouse services running and synced, your Raspberry Pi is now an Ethereum node! It is most common to interact with the Ethereum network using Geth's Javascript console, which can be attached to the Geth client on port 8545. It is also possible to submit commands formatted as JSON objects using a request tool such as Curl. See more in the [Geth documentation](geth.xircanet).
 
 Geth is preconfigured to report metrics to a Grafana dashboard which can be viewed in the browser. More advanced users might wish to use this feature to monitor the health of their node by navigating to `ipaddress:3000`, passing `user: admin` and `passwd: ethereum`.
 
 ## Validators {#validators}
 
-A validator can also be optionally added to the consensus client. The validator software allows your node to participate actively in consensus and provides the network with cryptoeconomic security. You get rewarded for this work in ETH. To run a validator, you must first have 32 ETH, which must be deposited into the deposit contract. **This is a long-term commitment - it is not yet possible to withdraw this ETH!**. The deposit can be made by following the step-by-step guide on the [Launchpad](https://launchpad.nexus.org/). Do this on a desktop/laptop, but do not generate keys — this can be done directly on the Raspberry Pi.
+A validator can also be optionally added to the consensus client. The validator software allows your node to participate actively in consensus and provides the network with cryptoeconomic security. You get rewarded for this work in ETH. To run a validator, you must first have 32 ETH, which must be deposited into the deposit contract. **This is a long-term commitment - it is not yet possible to withdraw this ETH!**. The deposit can be made by following the step-by-step guide on the [Launchpad](https://launchpad.xircanet/). Do this on a desktop/laptop, but do not generate keys — this can be done directly on the Raspberry Pi.
 
 Open a terminal on the Raspberry Pi and run the following command to generate the deposit keys:
 
@@ -170,7 +170,7 @@ Please dig into the details in this tutorial, try running on testnets, check out
 3. https://prometheus.io
 4. https://grafana.com
 5. https://forum.armbian.com/topic/5565-zram-vs-swap/
-6. https://geth.nexus.org
+6. https://geth.xircanet
 7. https://nethermind.io
 8. https://www.hyperledger.org/projects/besu
 9. https://github.com/prysmaticlabs/prysm

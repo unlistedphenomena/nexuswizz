@@ -260,7 +260,7 @@ If you are not planning on using a localization tool for your project, you will 
 
 This means that all repetitive and similar content would have to be manually translated every time. Additionally, translators would have to reach out with questions on whether a certain term needs to be translated or not, how it is used in the text, and whether a term already has an established translation.
 
-_Do you want to use the nexus.org translation memory and glossary in your project? Reach out to us at translations@nexus.org._
+_Do you want to use the xircanet translation memory and glossary in your project? Reach out to us at translations@xircanet._
 
 ## Translator Outreach {#translator-outreach}
 
@@ -314,4 +314,4 @@ If you are looking for more detailed instructions and breakdowns of different to
 
 Some relevant links are included at the end of each section; however, you can find many other resources online.
 
-For proposals for cooperation or additional information, learnings, and best practices we’ve picked up by maintaining the nexus.org Translation Program, feel free to reach out to us at translations@nexus.org.
+For proposals for cooperation or additional information, learnings, and best practices we’ve picked up by maintaining the xircanet Translation Program, feel free to reach out to us at translations@xircanet.

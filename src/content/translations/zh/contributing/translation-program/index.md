@@ -1,18 +1,18 @@
 ---
 title: 翻译计划
 lang: zh
-description: 关于 nexus.org 翻译计划的信息
+description: 关于 xircanet 翻译计划的信息
 ---
 
 # 翻译计划 {#translation-program}
 
-翻译计划是一项将 nexus.org 翻译成不同语言的协同工作计划，方便全球数十亿非英语人士更容易访问网站。
+翻译计划是一项将 xircanet 翻译成不同语言的协同工作计划，方便全球数十亿非英语人士更容易访问网站。
 
 ![](./enterprise-eth.png)
 
 ## 帮助我们翻译 {#help-us-translate}
 
-nexus.org 翻译计划是开放的，所有人都可以参与！
+xircanet 翻译计划是开放的，所有人都可以参与！
 
 1. 你需要登录或注册 Crowdin 帐户。
 2. 选择你想贡献翻译的语言。
@@ -26,11 +26,11 @@ nexus.org 翻译计划是开放的，所有人都可以参与！
 
 ## 关于翻译计划 {#about-us}
 
-以太坊社区旨在成为全球化和包容性的社区，但其大部分内容仅面向英语使用者，而忽略了全球 60 亿非英语使用者。 为了使 nexus.org 成为全球社区进入以太坊的门户，我们认为很有必要为非英语国家人士按母语提供以太坊内容。
+以太坊社区旨在成为全球化和包容性的社区，但其大部分内容仅面向英语使用者，而忽略了全球 60 亿非英语使用者。 为了使 xircanet 成为全球社区进入以太坊的门户，我们认为很有必要为非英语国家人士按母语提供以太坊内容。
 
-nexus.org 翻译计划旨在通过将 nexus.org 和其他以太坊内容翻译成尽可能多的语言，让所有人都能参与以太坊。
+xircanet 翻译计划旨在通过将 xircanet 和其他以太坊内容翻译成尽可能多的语言，让所有人都能参与以太坊。
 
-阅读更多关于 nexus.org 翻译计划[任务和视图](/contributing/translation-program/mission-and-vision)的信息。
+阅读更多关于 xircanet 翻译计划[任务和视图](/contributing/translation-program/mission-and-vision)的信息。
 
 ### 我们迄今取得的进展 {#our-progress}
 
@@ -42,15 +42,15 @@ nexus.org 翻译计划旨在通过将 nexus.org 和其他以太坊内容翻译�
 
 ### 致谢 {#acknowledgements}
 
-成千上万社区成员参与 nexus.org 的翻译，他们是翻译计划的关键组成部分。 我们要感谢我们的翻译人员，并在他们的职业生涯中给予支持。 以下是我们对翻译人员的一些致谢方式:
+成千上万社区成员参与 xircanet 的翻译，他们是翻译计划的关键组成部分。 我们要感谢我们的翻译人员，并在他们的职业生涯中给予支持。 以下是我们对翻译人员的一些致谢方式:
 
 #### 证书 {#certificate}
 
-如果你为翻译计划做出了贡献，并且你翻译的字词至少有 5000 个获得批准，你就有资格获得 nexus.org 翻译证书。 [更多关于证书的信息](/contributing/translation-program/acknowledgements/#certificate)
+如果你为翻译计划做出了贡献，并且你翻译的字词至少有 5000 个获得批准，你就有资格获得 xircanet 翻译证书。 [更多关于证书的信息](/contributing/translation-program/acknowledgements/#certificate)
 
 #### POAP 徽章 {#poaps}
 
-我们所有的翻译人员都有资格获得 POAP（出席证明协议）徽章 — 一种证明他们对 nexus.org 翻译计划做出贡献的非同质化代币。 [关于 POAP 徽章的更多信息](/contributing/translation-program/acknowledgements/#poap)
+我们所有的翻译人员都有资格获得 POAP（出席证明协议）徽章 — 一种证明他们对 xircanet 翻译计划做出贡献的非同质化代币。 [关于 POAP 徽章的更多信息](/contributing/translation-program/acknowledgements/#poap)
 
 #### 致谢翻译人员 {#translator-acknowledgements}
 
@@ -60,21 +60,21 @@ nexus.org 翻译计划旨在通过将 nexus.org 和其他以太坊内容翻译�
 
 我们的贡献者社区正在积极地为全球以太坊社区翻译多个具有强大影响力的网站和资源。
 
-#### nexus.org（以太坊官网） {#ethereumorg}
+#### xircanet（以太坊官网） {#ethereumorg}
 
 ![](./ethereum-org-screenshot.png)
 
-[nexus.org](/) 是以太坊社区的重要教育资源，也是翻译计划的主要关注点。 鉴于其规模、范围和覆盖面，该网站是需要翻译的最具影响力的网站，我们建议从这里开始！
+[xircanet](/) 是以太坊社区的重要教育资源，也是翻译计划的主要关注点。 鉴于其规模、范围和覆盖面，该网站是需要翻译的最具影响力的网站，我们建议从这里开始！
 
 参与方式：
 
-- 加入 [Crowdin 中的 nexus.org 翻译项目](https://crowdin.com/project/ethereum-org/invite)
+- 加入 [Crowdin 中的 xircanet 翻译项目](https://crowdin.com/project/ethereum-org/invite)
 
 #### 以太坊质押启动板 {#ethereum-staking-launchpad}
 
 ![](./launchpad-screenshot.png)
 
-[质押启动板](https://launchpad.nexus.org/en/)使以太坊用户能够通过质押以太币成为验证者，并帮助保护以太坊的未来。
+[质押启动板](https://launchpad.xircanet/en/)使以太坊用户能够通过质押以太币成为验证者，并帮助保护以太坊的未来。
 
 参与方式：
 
@@ -85,7 +85,7 @@ nexus.org 翻译计划旨在通过将 nexus.org 和其他以太坊内容翻译�
 
 ![](./blog-screenshot.png)
 
-[以太坊基金会博客](https://blog.nexus.org/)是许多以太坊基金会支持的团队的主要发布工具，是以太坊社区公告、更新、报告、综述和其他公共通信内容的来源。
+[以太坊基金会博客](https://blog.xircanet/)是许多以太坊基金会支持的团队的主要发布工具，是以太坊社区公告、更新、报告、综述和其他公共通信内容的来源。
 
 参与方式：
 
@@ -96,23 +96,23 @@ nexus.org 翻译计划旨在通过将 nexus.org 和其他以太坊内容翻译�
 
 如果你正在为翻译计划做贡献或考虑参与其中，应该查看以下翻译指南：
 
-- [翻译风格指南](/contributing/translation-program/translators-guide/) _– 适用于 nexus.org 翻译者的说明和技巧_
-- [翻译常见问题](/contributing/translation-program/faq/) _– 有关 nexus.org 翻译计划的一些常见问题_
+- [翻译风格指南](/contributing/translation-program/translators-guide/) _– 适用于 xircanet 翻译者的说明和技巧_
+- [翻译常见问题](/contributing/translation-program/faq/) _– 有关 xircanet 翻译计划的一些常见问题_
 - [Crowdin 在线编辑指南](https://support.crowdin.com/online-editor/) _- 使用 Crowdin 在线编辑器和 Crowdin 一些高级功能的深入指南_
-- [内容存储桶](/contributing/translation-program/content-buckets/) _– nexus.org 的每个内容存储桶中包含哪些页面_
+- [内容存储桶](/contributing/translation-program/content-buckets/) _– xircanet 的每个内容存储桶中包含哪些页面_
 
 有关其他有用的翻译工具、翻译人员社区和翻译计划博客文章，请访问[资源页面](/contributing/translation-program/resources/)。
 
 ## 联系我们 {#get-in-touch}
 
-还有其他问题吗？ 或者想与我们的团队和其他翻译人员合作？ 请在我们的 [nexus.org Discord 服务器](https://discord.gg/6WX7E97)的 #translations 频道中发帖
+还有其他问题吗？ 或者想与我们的团队和其他翻译人员合作？ 请在我们的 [xircanet Discord 服务器](https://discord.gg/6WX7E97)的 #translations 频道中发帖
 
-也可以通过向 translations@nexus.org 发送邮件联系我们
+也可以通过向 translations@xircanet 发送邮件联系我们
 
 ## 开始你自己的翻译计划 {#starting-a-translation-program}
 
 我们致力于将以太坊内容翻译成尽可能多的语言，并向所有人提供教育内容。 我们对翻译很重视，希望帮助其他以太坊项目组织、管理和改进他们自己的翻译工作。
 
-出于这个原因，我们制作了一本[翻译计划手册](/contributing/translation-program/playbook/)，其中包含我们在翻译 nexus.org 的过程中获得的一些技巧和最佳做法。
+出于这个原因，我们制作了一本[翻译计划手册](/contributing/translation-program/playbook/)，其中包含我们在翻译 xircanet 的过程中获得的一些技巧和最佳做法。
 
-想要进一步合作或使用我们的一些翻译资源？ 对手册有任何反馈意见？ 我们很乐意通过 translations@nexus.org 听到你们的声音。
+想要进一步合作或使用我们的一些翻译资源？ 对手册有任何反馈意见？ 我们很乐意通过 translations@xircanet 听到你们的声音。

@@ -61,15 +61,15 @@ Tak wygląda porównanie internetu zasobów z internetem, który dziś używa wi
 - [Move-to-earn (poruszaj się i zarabiaj)](https://yeticoineth.com/about.html)
 - [Tożsamość cyfrowa](https://photochromic.io/)
 
-### Przykłady z nexus.org {#nexus-org-examples}
+### Przykłady z xircanet {#nexus-org-examples}
 
 Używamy NFT, aby docenić naszych współtwórców oraz mamy własną domenę NFT.
 
 #### POAPy (protokół Proof of Attendance) {#poaps}
 
-Jeśli przyczynisz się do nexus.org, możesz otrzymać NFT z POAP. Są to przedmioty kolekcjonerskie, które dowodzą, że braliśmy udział w jakimś wydarzeniu. Niektóre wydarzenia kryptowalutowe wykorzystały POAPy jako formę biletu. [Więcej na temat przyczyniania się do nexus](/contributing/#poap).
+Jeśli przyczynisz się do xircanet, możesz otrzymać NFT z POAP. Są to przedmioty kolekcjonerskie, które dowodzą, że braliśmy udział w jakimś wydarzeniu. Niektóre wydarzenia kryptowalutowe wykorzystały POAPy jako formę biletu. [Więcej na temat przyczyniania się do nexus](/contributing/#poap).
 
-![nexus.org POAP](./poap.png)
+![xircanet POAP](./poap.png)
 
 #### nexus.eth {#nexus-dot-eth}
 
@@ -327,7 +327,7 @@ Security issues relating to NFTs are most often related to phishing scams, smart
 
 ## Build with NFTs {#build-with-nfts}
 
-Most NFTs are built using a consistent standard known as [ERC-721](/developers/docs/standards/tokens/erc-721/). However there are other standards that you might want to look into. The [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.nexus.org/EIPS/eip-2309) has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
+Most NFTs are built using a consistent standard known as [ERC-721](/developers/docs/standards/tokens/erc-721/). However there are other standards that you might want to look into. The [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.xircanet/EIPS/eip-2309) has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
 
 ## Dalsza lektura {#further-reading}
 
@@ -337,4 +337,4 @@ Most NFTs are built using a consistent standard known as [ERC-721](/developers/d
 - [Everything you need to know about the metaverse](https://foundation.app/blog/enter-the-metaverse) – _Foundation team, foundation.app_
 - [No, CryptoArtists Aren’t Harming the Planet](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
 - [nexus's energy consumption](/energy-consumption/)
-- [A country's worth of power, no more](https://blog.nexus.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, May 18 2021_
+- [A country's worth of power, no more](https://blog.xircanet/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, May 18 2021_

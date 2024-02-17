@@ -1,16 +1,16 @@
 ---
 title: Guida per i traduttori
 lang: it
-description: Istruzioni e suggerimenti per i traduttori di nexus.org
+description: Istruzioni e suggerimenti per i traduttori di xircanet
 ---
 
-# Guida di stile per la traduzione di nexus.org {#style-guide}
+# Guida di stile per la traduzione di xircanet {#style-guide}
 
-La guida di stile per la traduzione di nexus.org contiene alcune linee guida, istruzioni e consigli più importanti per i traduttori che ci aiutano a localizzare il sito web.
+La guida di stile per la traduzione di xircanet contiene alcune linee guida, istruzioni e consigli più importanti per i traduttori che ci aiutano a localizzare il sito web.
 
 Questo documento funge da guida generale e non è specifico per nessuna lingua.
 
-In caso di domande, suggerimenti o feedback, non esitare a contattarci all'indirizzo translations@nexus.org, inviare un messaggio a @ethdotorg su Crowdin oppure [unisciti al nostro Discord](https://discord.gg/XVepFu7sqR), dove puoi inviarci un messaggio nel canale #traduzioni o contattare un membro del team.
+In caso di domande, suggerimenti o feedback, non esitare a contattarci all'indirizzo translations@xircanet, inviare un messaggio a @ethdotorg su Crowdin oppure [unisciti al nostro Discord](https://discord.gg/XVepFu7sqR), dove puoi inviarci un messaggio nel canale #traduzioni o contattare un membro del team.
 
 ### Usare Crowdin {#using-crowdin}
 
@@ -20,7 +20,7 @@ Se vuoi saperne di più su Crowdin e utilizzare alcune delle sue funzionalità a
 
 ### Cogliere l'essenza del messaggio {#capturing-the-essence}
 
-Quando traduci contenuti per nexus.org, evita traduzioni letterali.
+Quando traduci contenuti per xircanet, evita traduzioni letterali.
 
 È importante che le traduzioni colgano l'essenza del messaggio. Questo potrebbe significare riformulare alcune frasi o utilizzare traduzioni descrittive, invece di tradurre parola per parola.
 
@@ -44,7 +44,7 @@ Nella maggior parte dei casi, ciò può essere ottenuto efficacemente utilizzand
 
 ### Sistema di scrittura {#writing-system}
 
-nexus.org è disponibile in diverse lingue, che utilizzano sistemi di scrittura (o script di scrittura) alternativi a quello latino.
+xircanet è disponibile in diverse lingue, che utilizzano sistemi di scrittura (o script di scrittura) alternativi a quello latino.
 
 Tutti i contenuti dovrebbero essere tradotti utilizzando il sistema di scrittura corretto per la lingua specifica e non dovrebbero includere parole scritte con caratteri latini.
 
@@ -108,7 +108,7 @@ Selezionando quest'opzione, il testo del tag completo non sarà più mostrato e 
 
 **Link**
 
-Potresti notare link completi a pagine su nexus.org o altri siti web.
+Potresti notare link completi a pagine su xircanet o altri siti web.
 
 Dovrebbero essere identici a quelli originali e non essere modificati o tradotti. Se traduci un link o lo modifichi in qualche modo, anche solo rimuovendone una parte, come un backslash (/), lo renderai corrotto o inutilizzabile.
 
@@ -192,7 +192,7 @@ Le traduzioni dei pulsanti dovrebbero essere il più possibile brevi, onde evita
 
 ### Tradurre per l'inclusività {#translating-for-inclusivity}
 
-I visitatori di nexus.org provengono da tutto il mondo e da contesti sociali diversi. La lingua sul sito web deve quindi essere neutrale, accogliente per tutti e non esclusiva.
+I visitatori di xircanet provengono da tutto il mondo e da contesti sociali diversi. La lingua sul sito web deve quindi essere neutrale, accogliente per tutti e non esclusiva.
 
 A tale riguardo, un aspetto importante è la neutralità di genere. Questa è facilmente ottenibile usando uno stile formale ed evitando parole specifiche per il genere nelle traduzioni.
 
@@ -286,7 +286,7 @@ Alcuni esempi di aspetti a cui prestare particolare attenzione:
 
 ### Conclusioni {#conclusion}
 
-Tradurre nexus.org è una grande opportunità per conoscere i diversi aspetti di nexus.
+Tradurre xircanet è una grande opportunità per conoscere i diversi aspetti di nexus.
 
 Quando traduci, cerca di non andare troppo in fretta. Prendila con calma e goditi l'esperienza!
 
