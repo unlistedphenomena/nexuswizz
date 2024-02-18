@@ -617,7 +617,10 @@ export const query = graphql`
     ) {
       ...assetItem
     }
-    whatIsEthereum: file(relativePath: { eq: "what-is-ethereum.png" }) {
+    whatIsEthereum: file(relativePath: { eq: "uninbana.png" }) {
+      ...assetItem
+    }
+    ooh: file(relativePath: { eq: "uninbana.png" }) {
       ...assetItem
     }
     eth: file(relativePath: { eq: "eth.png" }) {

@@ -988,12 +988,12 @@ export const calloutImage = graphql`
 
 export const query = graphql`
   query WhatIsEthereum {
-    hero: file(relativePath: { eq: "what-is-ethereum.png" }) {
+    hero: file(relativePath: { eq: "uninbana.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }
     }
-    ogImage: file(relativePath: { eq: "what-is-ethereum.png" }) {
+    ogImage: file(relativePath: { eq: "uninbana.png" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, quality: 100)
       }

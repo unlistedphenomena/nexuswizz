@@ -549,7 +549,7 @@ export const query = graphql`
         )
       }
     }
-    ethereum: file(relativePath: { eq: "what-is-ethereum.png" }) {
+    ethereum: file(relativePath: { eq: "uninbana.png" }) {
       childImageSharp {
         gatsbyImageData(
           width: 220

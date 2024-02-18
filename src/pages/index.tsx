@@ -584,7 +584,7 @@ const HomePage = ({
         loading="eager"
       /> */}
       {/* <Morpher /> */}
-      {/* <Header>
+      <Header>
         <H1>
           <Translation id="page-index-title" />
         </H1>
@@ -594,7 +594,7 @@ const HomePage = ({
         <ButtonLink variant="outline" to="/learn/">
           <Translation id="page-index-title-button" />
         </ButtonLink>
-      </Header> */}
+      </Header>
       <StyledGrayContainer>
         <StyledContent>
           <IntroRow>
@@ -606,7 +606,7 @@ const HomePage = ({
                 <Translation id="page-index-get-started-description" />
               </Subtitle>
               {/* Naah */}
-              <ButtonLink to="/defi/">
+              <ButtonLink to="/layer-2/">
                 <Translation id="Learn More" />
               </ButtonLink>
             </IntroLeftColumn>

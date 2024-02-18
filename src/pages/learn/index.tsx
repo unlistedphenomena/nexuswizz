@@ -980,7 +980,7 @@ export const query = graphql`
         )
       }
     }
-    whatIsEth: file(relativePath: { eq: "what-is-ethereum.png" }) {
+    whatIsEth: file(relativePath: { eq: "uninbana.png" }) {
       ...CardImageFragment
     }
     impact: file(relativePath: { eq: "impact_transparent.png" }) {

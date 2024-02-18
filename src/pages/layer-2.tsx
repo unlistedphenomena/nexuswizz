@@ -447,7 +447,7 @@ const Layer2Page = ({ data }: PageProps<Queries.Layer2PageQuery>) => {
           <Hero content={heroContent} isReverse />
         </HeroContainer>
 
-        <PaddedContent>
+        {/* <PaddedContent>
           <StatsContainer>
             <StatBox>
               <StatPrimary>{tvl}</StatPrimary>
@@ -500,7 +500,7 @@ const Layer2Page = ({ data }: PageProps<Queries.Layer2PageQuery>) => {
               </StatSpan>
             </StatBox>
           </StatsContainer>
-        </PaddedContent>
+        </PaddedContent> */}
       </HeroBackground>
 
       <PaddedContent id="what-is-layer-2">
@@ -518,7 +518,7 @@ const Layer2Page = ({ data }: PageProps<Queries.Layer2PageQuery>) => {
           </Flex50>
           <Flex50>
             <GatsbyImage
-              image={getImage(data.whatIsEthereum)!}
+              image={getImage(data.whatIsEthereum)!} //
               alt=""
               style={{ maxHeight: "400px" }}
               objectFit="contain"
@@ -1072,7 +1072,7 @@ export const query = graphql`
         )
       }
     }
-    whatIsEthereum: file(relativePath: { eq: "what-is-ethereum.png" }) {
+    whatIsEthereum: file(relativePath: { eq: "uninbana.png" }) {
       childImageSharp {
         gatsbyImageData(
           width: 624
